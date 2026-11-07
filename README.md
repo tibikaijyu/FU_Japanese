@@ -2,19 +2,19 @@
 
 Starboundの大型MOD **Frackin' Universe（FU）6.5.8** 向けの非公式日本語化です。現在の版は **0.2.3-fu6.5.8**。アイテム、研究、クエスト、会話、ガイド、種族情報などを日本語化します。FuguMTによる機械翻訳を基礎に、用語や表示文を個別に補完しています。
 
-**2026-11-07、利用者環境で0.2.3によってキャラクター画面のフリーズが解消したとの報告を受けています。** 名前生成に関する既存の回帰検査23件も合格しています。フリーズの内部原因は未確定で、全種族・他環境・全MOD構成を網羅した確認ではありません。[確認記録](docs/verification/2026-11-07-user-report.md)、[変更履歴](CHANGELOG.md)、[詳しい検証範囲](README_JA.md)を参照してください。
+**2026-11-07、利用者環境で0.2.3によってキャラクター画面のフリーズが解消したとの報告を受けています。** 名前生成に関する既存の回帰検査23件も合格しています。フリーズの内部原因は未確定で、全種族・他環境・全MOD構成を網羅した確認ではありません。[確認記録](docs/verification/2026-11-07-user-report.md)、[変更履歴](CHANGELOG.md)、[詳しい検証範囲](docs/README_JA.md)を参照してください。
 
 ## 導入
 
 Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要です。このリポジトリにはゲーム本体とFU本体を含めていません。
 
-1. GitHubの **Releases** で `FU_Japanese_0.2.3-public.1-install.zip` を取得し、ZIPを展開します。初回はPre-releaseとして配布する予定です。
+1. GitHubの **Releases** で `FU_Japanese_0.2.3-public.2-install.zip` を取得し、ZIPを展開します。初回はPre-releaseとして配布する予定です。
 2. Starboundを完全に終了します。
 3. 更新する場合は、旧版の `Starbound/mods/FU_Japanese` をmodsの外へ移動します。
 4. 展開したフォルダ内の `mods/FU_Japanese` を `Starbound/mods` へコピーします。
 5. 日本語が四角になる場合は、`optional/FU_Japanese_Font` も `Starbound/mods` へコピーします。
 
-正しい配置は `Starbound/mods/FU_Japanese/_metadata` です。展開した外側のフォルダや `source` をゲームへコピーする必要はありません。導入にPythonやpak化は不要です。詳細は [INSTALL_JA.txt](INSTALL_JA.txt) にあります。
+正しい配置は `Starbound/mods/FU_Japanese/_metadata` です。展開した外側のフォルダや `source` をゲームへコピーする必要はありません。導入にPythonやpak化は不要です。詳細は [導入手順](docs/INSTALL_JA.txt) にあります。
 
 ## 収録内容
 
@@ -22,6 +22,7 @@ Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要で
 | --- | --- |
 | `mods/FU_Japanese/` | 導入用MOD。JSONパッチとLuaの表示処理など |
 | `optional/FU_Japanese_Font/` | 任意のPixelMplusフォントとライセンス |
+| `docs/` | 導入・開発手順、互換性の説明、翻訳・検証資料。[文書一覧](docs/README.md) |
 | `source/source/` | 翻訳カタログ、用語集、手動補完データ |
 | `source/tools/` | 抽出、ビルド、検査ツール |
 | `source/compat/`・`source/tests/` | 互換処理、固定した原文フィクスチャ、回帰検査 |

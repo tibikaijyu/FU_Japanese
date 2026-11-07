@@ -25,15 +25,15 @@ character cannot be divided by an offset. This also corrects the old offset
 count in cases with preceding color, instant, or pause commands. The script's
 update, skip, sound, and other behavior remains unchanged.
 
-The translation builder should copy **only** `zb/zb_textTyper.lua` from this
-directory into the installed mod's matching asset path. Keep this note and
+The translation builder should copy **only** `zb/zb_textTyper.lua` from
+`source/compat/` into the installed mod's matching asset path. Keep this note and
 the FU license with the distribution's documentation. The test files belong
 with the source/build tools.
 
 ## Verification
 
-Run `python compat/test_compat.py /path/to/FrackinUniverse` from the project
-directory. The test uses a Lua 5.3/5.4 shared library and stubs the game's widget,
+Run `python source/compat/test_compat.py /path/to/FrackinUniverse` from the repository
+root. The test uses a Lua 5.3/5.4 shared library and stubs the game's widget,
 sound, and player APIs. It compares normal ASCII rendering and control tags
 against the upstream file, checks every intermediate Japanese output is valid
 UTF-8, and exercises player names, data insertion, color tags, pauses, instant

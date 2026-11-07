@@ -1,7 +1,7 @@
 # 手作業で翻訳・確認した範囲
 
 - 対象ソース: Frackin’ Universe 6.5.8 / commit `17868d86c9bb7bc00f92038fb78b48cebd1b41b8`。
-- `manual_priority.json` は、原文全文をキー、日本語訳全文を値とするUTF-8 JSONです。機械翻訳より優先して適用してください。
+- [manual_priority.json](../../source/source/manual_priority.json) は、原文全文をキー、日本語訳全文を値とするUTF-8 JSONです。機械翻訳より優先して適用してください。
 - 手作業で訳文を作成し、元の意味・操作・数値を読み直しました。ゲームを起動した画面上の確認ではありません。
 - 色指定、プレースホルダー、数字、改行数を機械検査しています。
 

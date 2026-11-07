@@ -8,10 +8,14 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
-RELEASE_ID = "0.2.3-public.1"
+RELEASE_ID = "0.2.3-public.2"
 ZIP_TIME = (2026, 11, 7, 0, 0, 0)
+INSTALL_DOC_PATHS = {
+    "docs/README_JA.md": "README_JA.md",
+    "docs/INSTALL_JA.txt": "INSTALL_JA.txt",
+}
 INSTALL_DOCS = {
-    "README_JA.md", "INSTALL_JA.txt", "CHANGELOG.md", "LICENSE.md",
+    *INSTALL_DOC_PATHS, "CHANGELOG.md", "LICENSE.md",
     "THIRD_PARTY_NOTICES.md", "LICENSES/MIT-tools.txt",
     "docs/verification/2026-11-07-user-report.md",
     "source/machine_translation/README.md",
@@ -91,7 +95,7 @@ def validate_release(files):
     return metadata["version"]
 
 def install_files(files):
-    return {name: data for name, data in files.items()
+    return {INSTALL_DOC_PATHS.get(name, name): data for name, data in files.items()
             if name.startswith(("mods/FU_Japanese/", "optional/FU_Japanese_Font/")) or name in INSTALL_DOCS}
 
 def write_zip(destination, prefix, files):

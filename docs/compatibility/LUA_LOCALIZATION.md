@@ -6,6 +6,9 @@ Lua. It is pinned to FU commit
 status append entries, the SBVN renderer, and `zb_textTyper.lua` are maintained
 separately.
 
+Data and report paths below are relative to the build project, `source/` at
+the repository root. Shell commands are run from the repository root.
+
 ## Coverage
 
 The inventory examines the 1,668 Lua files in this FU checkout. After excluding
@@ -67,15 +70,15 @@ Run this after the main JSON translation build so that cached pet mood display
 aliases use the current validated translations:
 
 ```sh
-build-venv/bin/python fu-japanese/tools/lua_localization.py build \
-  --upstream fu-upstream --project fu-japanese \
-  --output fu-japanese/lua-build
+python source/tools/lua_localization.py build \
+  --upstream upstream/FrackinUniverse --project source \
+  --output source/lua-build
 
-build-venv/bin/python fu-japanese/compat/test_lua_localization.py \
-  --upstream fu-upstream --mod fu-japanese/lua-build
+python source/compat/test_lua_localization.py \
+  --upstream upstream/FrackinUniverse --mod source/lua-build
 ```
 
-Copy the complete contents of `lua-build/` into the finished MOD directory,
+Copy the complete contents of `source/lua-build/` into the finished MOD directory,
 preserving relative paths. Do not copy the inventory or translation manifests
 into the game asset directory. This layer does not alter `_metadata`.
 
