@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "a classic Nightarian blacksmith furnace."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クラシックなナイトアリアンの鍛冶炉です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Classic Nightarian blacksmith furnace."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  クラシックなナイトアリアンの鍛冶炉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  Nightar Furnace"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  夜間炉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightarian Furnace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアリアン炉"
+    }
+  ]
+]

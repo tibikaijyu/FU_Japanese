@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hey, it's like two masks in one!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なあ、一つで二つのマスクみたい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eyevalve Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイバルブマスク"
+    }
+  ]
+]

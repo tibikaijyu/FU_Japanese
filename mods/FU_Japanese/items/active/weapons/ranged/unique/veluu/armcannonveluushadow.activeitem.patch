@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires shadow blasts.\n^cyan;Lowers foes resistances.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 シャドーブラストを発射する。\n^cyan;抵抗を下げます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Umbrum"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシ・ウンブラム"
+    }
+  ]
+]

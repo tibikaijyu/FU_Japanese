@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A barrel just waiting to be filled with honey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツで満たされるのを待っているバレル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Barrel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツバレル"
+    }
+  ]
+]

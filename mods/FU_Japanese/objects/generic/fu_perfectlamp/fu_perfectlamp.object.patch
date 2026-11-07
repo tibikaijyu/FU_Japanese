@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なランプ"
+    }
+  ]
+]

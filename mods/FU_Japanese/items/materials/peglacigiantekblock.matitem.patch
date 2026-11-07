@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense panel packed with processing power.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "加工力を詰め込んだ高密度パネルです。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Giantek Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンターパネル"
+    }
+  ]
+]

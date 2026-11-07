@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "To read this codex, use your ^orange;Personal Tricorder^reset; and click the Book icon."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "このコーデックスを読むには、^orange;個人用トライコーダー^reset;を使って、本のアイコンをクリックしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "FU Stats"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "FUの能力値"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/longContentPages/0",
+      "value": "In addition to stats normally present in Starbound, FU adds a host of its own as well. Some may be character stats, some may be weapon stats. Some may be both! They are detailed within this guide for easy access later.\n\n^green;Charisma^white; - When shopping on FU space stations, Charisma helps you to make a profit by influencing ^cyan;Selling and Buying^reset; values. A high charisma means a high income ratio! Note that this only applies on Space Station trades and their related Kiosks for the time being. As a special note, every 33% charisma will allow you to bring an additional crewmember with you in the field. Be warned, penalties to charisma can have the opposite effect!\n\n^green;Stun Chance^white; - With blunt weapons, each hit has a chance to stun enemies. Likewise with successful shieldbashes. This stat influences the chance that this stun will occur. This also can occur with daggers, rapiers, and a few other weapons.\n\n^green;Shieldbash Chance^white; - When blocking with your shield, you have a chance to shieldbash. This stat influences the chances that the bash succeeds.\n\n^green;Shieldbash Push^white; - How far a shieldbash will push an enemy, and how much damage it will inflict when successful.\n\n^green;Projectile Count^white; - Typically only seen as a stat on weapons, it is indicated in most gun tooltips by 3 diagonally aligned bullets. This indicates how many projectiles are fired at once.\n\n^green;Burst Count^white; - Exclusively on weapons. Indicated in the tooltip by a spread of 4 small bullets. These weapons fire a burst of projectiles in sequence.\n\n^green;Tech Bonus^white; - There are various types of Tech Bonus. These will be listed when relevant. Any such bonus will influence techs. For example 'Jump Tech +25%' increase the efficiency of any Jump related techs by that amount.\n\n^green;Weapon Mastery^white; - Occasionally you'll find gear that can grant 'Weapon Mastery' at different levels. Weapon Mastery provides additional benefits to particular weapons.\n\n^green;Crit Chance^white; - The likelihood that you will score a successful critical attack with your weapon. Note that this can be a stat on both you -and- on a weapon. They will combine.\n\n^green;Crit Damage Bonus^white; - The total bonus applied, in percentage, to critical damage strikes.\n\n^green;Leech^white; - A form of healing that is unaffected by normal healing modifiers. This healing is divided over a duration (10 seconds at base); +10% leech means you will heal up to 1% of your health per second for 10 seconds per instance.\n\n^green;Maximum Leech^white; - The maximum amount of healing you can have at a time, from leech. The default is 10%; from all leech instances you will not be able to heal more than 10% of your health per second.\n\n^#e43774;Madness^white; - A measurement of your current sanity. The higher the value, the crazier you are. More than 50 effects can occur from madness, and not all are bad. You can spend Madness in the ^#e43774;Metaphysics Research Tree^reset;.\n\n\n\n^blue;--------------------------------------------------^reset;\n^yellow;The Frackin Wiki\n^blue;--------------------------------------------------^reset;\nIf you need the help of a Wiki, use our ^cyan;official wiki^reset; here:\n^green;frackinuniverse.miraheze.org^reset;\n\n^red;Do not^reset; use the Fandom wiki. It is horribly outdated."
+    },
+    {
+      "op": "replace",
+      "path": "/longContentPages/0",
+      "value": "Starboundに通常存在する統計に加えて、FUは自身のホストも追加する。 文字統計値、武器統計値など。 両方かもしれない。 後日簡単にアクセスできるように、このガイドで詳しく説明されています。\n\n^green; カリスマ ^white; - FU宇宙ステーションで買い物をするとき、カリスマは ^cyan; 販売と購入 ^reset; 値に影響を与えて利益を上げるのに役立ちます。 高カリスマ性は高所得率を意味します! なお、これは当面は宇宙ステーションの取引とその関連キオスクにのみ適用される。 特別な注意として、すべての 33% カリスマでは、フィールドに追加のクルーメンバーを連れて行くことができます。 注意してください、カリスマへの罰則は反対の効果を持つことができます!\n\n^green;気絶 確率 ^white; - 鈍い武器で、各ヒットは敵を刺すチャンスがあります。 同様に、シールドバッシュも成功した。 この統計は、このスタンが発生する可能性に影響を与えます。 これは短剣、レイピア、およびその他のいくつかの武器でも起こり得ます。\n\n^green; Shieldbash 確率 ^white; - シールドでブロックすると、シールドバッシュを選択できます。 この統計は、bashが成功する可能性に影響を与えます。\n\n^green; Shieldbash 押し出し ^white; - シールドバッシュが敵をどのくらい押し出すか、そしてそれが成功したときにどれだけの損害を与えるか。\n\n^green;Projectile Count ^white; - 典型的には武器のステータスと見なされるだけであり、ほとんどの銃器の先端には3斜めに並んだ弾丸で示されています。 これは一度に発射される発射物の数を示しています。\n\n^green;バーストカウント^white; - 武器に排他的。 4 小さな弾丸の広がりによってツールチップに表示します。 これらの武器は一連の発射物を発射する。\n\n^green;Tech ボーナス ^white; - さまざまな種類のTech ボーナスがあります。 これらは関連する場合にリストされます。 そのようなボーナスは技術に影響を与えます。 例えば、'JumpTech+25%' は、ジャンプ関連の技術の効率をその量で向上させます。\n\n^green;武器 習熟度 ^white; - 時には、異なるレベルで「武器 習熟度」を付与できるギアを見つけることがあります。 武器 習熟度は、特定の武器に追加のメリットを提供します。\n\n^green;クリティカル率 ^white; - 武器でクリティカルアタックを成功させる可能性。 これは、武器のオンとオンの両方のステータスである可能性があることに注意してください。 組み合わせる。\n\n^green;クリティカル ダメージボーナス ^white; - 重大なダメージストライクに対して適用される合計ボーナス。\n\n^green;吸収^white; - 通常の治癒修飾剤の影響を受けない癒しの形態。 この癒しは、期間(期間)で分割されます。10 ベースで秒。 +10% リーチとは 癒しを 1% 毎秒の健康状態を 10 インスタンスあたり秒数\n\n^green;最大リーチ^white; - リーチから一度に受けられる最大の癒し。 デフォルトは 10% です。すべてのリーチインスタンスから、毎秒のヘルスの 10% 以上のヒーリングを行うことはできません。\n\n^#e43774;狂気^white; - あなたの現在の正気の測定。 値が高いほど、クレイジーです。 50 以上の効果は狂気から発生する可能性があり、すべてが悪いわけではありません。 狂気は^#e43774; 形而上学 研究 Tree ^reset; で過ごすことができます。\n\n\n\n^blue; -------------------------------------------------- ^reset;\n^yellow; ウィキの亀裂\n^blue; -------------------------------------------------- ^reset;\nWikiのヘルプが必要な場合は、 ^cyan; 公式wiki ^reset; _ をここで使用します。\n^green;frackinUniverse.miraheze.org ^reset;\n\n^red; ^reset; は Fandom wiki を使用しないでください。 恐ろしく時代遅れです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^#ffea00;FU Guide^reset; : Stats"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^#ffea00;FUガイド^reset; : 能力値"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/longContentPages/0",
+      "value": "In addition to stats normally present in Starbound, FU adds a host of its own as well. Some may be character stats, some may be weapon stats. Some may be both! They are detailed within this guide for easy access later.\n\r\n^green;Charisma^white; - When shopping on FU space stations, Charisma helps you to make a profit by influencing ^cyan;Selling and Buying^reset; values. A high charisma means a high income ratio! Note that this only applies on Space Station trades and their related Kiosks for the time being. As a special note, every 33% charisma will allow you to bring an additional crewmember with you in the field. Be warned, penalties to charisma can have the opposite effect!\n\r\n^green;Stun Chance^white; - With blunt weapons, each hit has a chance to stun enemies. Likewise with successful shieldbashes. This stat influences the chance that this stun will occur. This also can occur with daggers, rapiers, and a few other weapons.\n\r\n^green;Shieldbash Chance^white; - When blocking with your shield, you have a chance to shieldbash. This stat influences the chances that the bash succeeds.\n\r\n^green;Shieldbash Push^white; - How far a shieldbash will push an enemy, and how much damage it will inflict when successful.\n\r\n^green;Projectile Count^white; - Typically only seen as a stat on weapons, it is indicated in most gun tooltips by 3 diagonally aligned bullets. This indicates how many projectiles are fired at once.\n\r\n^green;Burst Count^white; - Exclusively on weapons. Indicated in the tooltip by a spread of 4 small bullets. These weapons fire a burst of projectiles in sequence.\n\r\n^green;Tech Bonus^white; - There are various types of Tech Bonus. These will be listed when relevant. Any such bonus will influence techs. For example 'Jump Tech +25%' increase the efficiency of any Jump related techs by that amount.\n\r\n^green;Weapon Mastery^white; - Occasionally you'll find gear that can grant 'Weapon Mastery' at different levels. Weapon Mastery provides additional benefits to particular weapons.\n\r\n^green;Crit Chance^white; - The likelihood that you will score a successful critical attack with your weapon. Note that this can be a stat on both you -and- on a weapon. They will combine.\n\r\n^green;Crit Damage Bonus^white; - The total bonus applied, in percentage, to critical damage strikes.\n\r\n^green;Leech^white; - A form of healing that is unaffected by normal healing modifiers. This healing is divided over a duration (10 seconds at base); +10% leech means you will heal up to 1% of your health per second for 10 seconds per instance.\n\r\n^green;Maximum Leech^white; - The maximum amount of healing you can have at a time, from leech. The default is 10%; from all leech instances you will not be able to heal more than 10% of your health per second.\n\r\n^#e43774;Madness^white; - A measurement of your current sanity. The higher the value, the crazier you are. More than 50 effects can occur from madness, and not all are bad. You can spend Madness in the ^#e43774;Metaphysics Research Tree^reset;.\n\r\n\r\n\r\n^blue;--------------------------------------------------^reset;\r\n^yellow;The Frackin Wiki\r\n^blue;--------------------------------------------------^reset;\r\nIf you need the help of a Wiki, use our ^cyan;official wiki^reset; here:\r\n^green;frackinuniverse.miraheze.org^reset;\r\n\r\n^red;Do not^reset; use the Fandom wiki. It is horribly outdated."
+    },
+    {
+      "op": "replace",
+      "path": "/longContentPages/0",
+      "value": "Starboundに通常存在する統計に加えて、FUは自身のホストも追加する。 文字統計値、武器統計値など。 両方かもしれない。 後日簡単にアクセスできるように、このガイドで詳しく説明されています。\n\n^green; カリスマ ^white; - FU宇宙ステーションで買い物をするとき、カリスマは ^cyan; 販売と購入 ^reset; 値に影響を与えて利益を上げるのに役立ちます。 高カリスマ性は高所得率を意味します! なお、これは当面は宇宙ステーションの取引とその関連キオスクにのみ適用される。 特別な注意として、すべての 33% カリスマでは、フィールドに追加のクルーメンバーを連れて行くことができます。 注意してください、カリスマへの罰則は反対の効果を持つことができます!\n\n^green;気絶 確率 ^white; - 鈍い武器で、各ヒットは敵を刺すチャンスがあります。 同様に、シールドバッシュも成功した。 この統計は、このスタンが発生する可能性に影響を与えます。 これは短剣、レイピア、およびその他のいくつかの武器でも起こり得ます。\n\n^green; Shieldbash 確率 ^white; - シールドでブロックすると、シールドバッシュを選択できます。 この統計は、bashが成功する可能性に影響を与えます。\n\n^green; Shieldbash 押し出し ^white; - シールドバッシュが敵をどのくらい押し出すか、そしてそれが成功したときにどれだけの損害を与えるか。\n\n^green;Projectile Count ^white; - 典型的には武器のステータスと見なされるだけであり、ほとんどの銃器の先端には3斜めに並んだ弾丸で示されています。 これは一度に発射される発射物の数を示しています。\n\n^green;バーストカウント^white; - 武器に排他的。 4 小さな弾丸の広がりによってツールチップに表示します。 これらの武器は一連の発射物を発射する。\n\n^green;Tech ボーナス ^white; - さまざまな種類のTech ボーナスがあります。 これらは関連する場合にリストされます。 そのようなボーナスは技術に影響を与えます。 例えば、'JumpTech+25%' は、ジャンプ関連の技術の効率をその量で向上させます。\n\n^green;武器 習熟度 ^white; - 時には、異なるレベルで「武器 習熟度」を付与できるギアを見つけることがあります。 武器 習熟度は、特定の武器に追加のメリットを提供します。\n\n^green;クリティカル率 ^white; - 武器でクリティカルアタックを成功させる可能性。 これは、武器のオンとオンの両方のステータスである可能性があることに注意してください。 組み合わせる。\n\n^green;クリティカル ダメージボーナス ^white; - 重大なダメージストライクに対して適用される合計ボーナス。\n\n^green;吸収^white; - 通常の治癒修飾剤の影響を受けない癒しの形態。 この癒しは、期間(期間)で分割されます。10 ベースで秒。 +10% リーチとは 癒しを 1% 毎秒の健康状態を 10 インスタンスあたり秒数\n\n^green;最大リーチ^white; - リーチから一度に受けられる最大の癒し。 デフォルトは 10% です。すべてのリーチインスタンスから、毎秒のヘルスの 10% 以上のヒーリングを行うことはできません。\n\n^#e43774;狂気^white; - あなたの現在の正気の測定。 値が高いほど、クレイジーです。 50 以上の効果は狂気から発生する可能性があり、すべてが悪いわけではありません。 狂気は^#e43774; 形而上学 研究 Tree ^reset; で過ごすことができます。\n\n\n\n^blue; -------------------------------------------------- ^reset;\n^yellow; ウィキの亀裂\n^blue; -------------------------------------------------- ^reset;\nWikiのヘルプが必要な場合は、 ^cyan; 公式wiki ^reset; _ をここで使用します。\n^green;frackinUniverse.miraheze.org ^reset;\n\n^red; ^reset; は Fandom wiki を使用しないでください。 恐ろしく時代遅れです。"
+    }
+  ]
+]

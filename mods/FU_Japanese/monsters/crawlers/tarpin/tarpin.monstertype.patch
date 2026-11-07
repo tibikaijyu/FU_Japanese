@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Packs a fire-jet attack and loves to excrete tar all over the place."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "消防ジェット攻撃をパックし、各地にタールを排出するのが大好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tarpin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ターピン"
+    }
+  ]
+]

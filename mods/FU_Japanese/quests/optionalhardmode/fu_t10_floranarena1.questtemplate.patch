@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "No Kevin, but energy signature there. Fresher. Kinda. Mew...keep going. Beacons here."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ケビンはいないが、そこにエネルギーの署名。 新鮮。 キンダ。 新しい... 続けろ。 ビーコンはこちら。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "Use the ^orange;Bronze Arena Beacon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "^orange;青銅の闘技場ビーコン^reset;を使う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "Win the arena battle"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "アリーナバトルに勝つ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Khe^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケー^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Kevin went to an arena. Maybe to fight? Go there, kill things, and come back with energy signature. Be careful, this one feels...wrong. Really wrong."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ケビンはアリーナに行きました。 戦うため? そこに行き、物事を殺して、エネルギーの署名を戻ってきます。 気をつけて、これは...間違っていると感じます。 本当に間違っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Darker Contest"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "より暗い競争"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute pair of glowing wings."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛らしい光る翼のペア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい翼"
+    }
+  ]
+]

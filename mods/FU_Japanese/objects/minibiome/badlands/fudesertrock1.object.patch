@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A striated, eroded desert rock."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "荒廃した砂漠の岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Desert rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "砂漠岩"
+    }
+  ]
+]

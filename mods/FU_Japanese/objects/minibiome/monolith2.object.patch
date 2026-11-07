@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even looking at this makes me feel nauseous and wrong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを見ても、私は吐き気と間違いを感じる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不思議な記念碑"
+    }
+  ]
+]

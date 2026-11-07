@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nightmarish visage dares you to look, and when you do...madness will follow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢のようなビザは、あなたが見ることをあえて、そしてあなたがするときに...狂気は続くでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The King In Yellow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黄色の王"
+    }
+  ]
+]

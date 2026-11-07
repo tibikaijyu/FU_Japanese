@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+50% Run^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+50% 走り^reset;: 2え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Minkocoa Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミンココアポッド"
+    }
+  ]
+]

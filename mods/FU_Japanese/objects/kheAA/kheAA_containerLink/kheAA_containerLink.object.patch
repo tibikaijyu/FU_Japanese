@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Marks containers for use by an item network. Place near object placement point.\n^blue;Input: ^white;item network^reset;\n^red;Output: ^white;item network^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムネットワークで使用するコンテナをマークします。 オブジェクト配置ポイントの近くに配置します。\n^blue;入力: ^white;アイテムネットワーク ^reset;\n^red;出力: ^white;アイテムネットワーク ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Storage Bridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "貯蔵橋"
+    }
+  ]
+]

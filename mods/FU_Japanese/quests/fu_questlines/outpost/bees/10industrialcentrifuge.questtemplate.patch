@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I should mention that this station requires power to run, which you can get from an Alternator or better power source."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "このステーションは、オルタネータやより良い電源から取得できる実行するために電源を必要としていることに言及する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now it's time to maximize your output. Build an ^orange;Industrial Centrifuge^reset;. You'll need to find some ^orange;Sand^reset; to make the glass you need. Try a desert!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "出力を最大化する時間です。 ^orange;産業用遠心分離機^reset; を構築します。 必要なガラスを作るには、^orange;砂^reset;を見つける必要があります。 砂漠を試してみなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Industrial Edge"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "産業の端"
+    }
+  ]
+]

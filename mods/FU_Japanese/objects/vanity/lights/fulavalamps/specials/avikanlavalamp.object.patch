@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with a brightly glowing material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明るく輝く素材で満たされたランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avikan Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィカン・ラバランプ"
+    }
+  ]
+]

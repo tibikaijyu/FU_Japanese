@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The long legs allow it to stand in water to catch fish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長い脚は魚を捕まえるために水に立つことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chromingo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クロミンゴ"
+    }
+  ]
+]

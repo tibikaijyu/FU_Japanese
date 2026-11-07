@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its ancient brain houses long-lost secrets of the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その古代の脳は、宇宙の長い失われた秘密を収容します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Warbot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的ウォーボット"
+    }
+  ]
+]

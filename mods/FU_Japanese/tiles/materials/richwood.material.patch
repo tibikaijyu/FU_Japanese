@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fine wooden planks, that look valuable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上質な木製の板、それは貴重に見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmooth wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "なめらかな木。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Wood. Fine wood."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 木。 木製。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rich Wood Planks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "板木"
+    }
+  ]
+]

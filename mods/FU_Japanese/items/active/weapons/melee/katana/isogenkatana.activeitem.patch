@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cold as ice.\n^yellow;8 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷のように寒い。\n^yellow;8 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイソゲンカタナ"
+    }
+  ]
+]

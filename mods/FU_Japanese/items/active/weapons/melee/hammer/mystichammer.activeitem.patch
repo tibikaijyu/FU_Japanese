@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "So mystic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神秘的です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mystichammer\n^red;Deals Physical Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神秘的なハンマー\n^red;ディールズ・フィジカル・ダメージ^reset;"
+    }
+  ]
+]

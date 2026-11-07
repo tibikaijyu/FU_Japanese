@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/nameTextbox/hint",
+      "value": "Name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/nameTextbox/hint",
+      "value": "名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "Rename"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "改名"
+    }
+  ]
+]

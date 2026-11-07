@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chest made of Proto Stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プロトストーン製の胸部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロト胸部"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not even we're sure what it does. How mysterious!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それが何になるかさえわからない。 なんて不思議なのだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミステリックスハット"
+    }
+  ]
+]

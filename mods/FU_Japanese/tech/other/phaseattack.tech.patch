@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stealth mode ^green;[F]^reset;. Slowly converts Energy to Damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ステルスモード^green;[F]^reset;。 ゆっくりエネルギーをダメージに変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Phase Attack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "フェーズアタック"
+    }
+  ]
+]

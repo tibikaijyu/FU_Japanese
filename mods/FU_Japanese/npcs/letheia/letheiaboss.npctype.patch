@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "Oh my! More guests!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "おお! もっとお客さん!"
+    }
+  ]
+]

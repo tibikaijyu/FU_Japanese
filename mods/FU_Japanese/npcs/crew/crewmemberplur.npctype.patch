@@ -1,0 +1,398 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Partyime Pal"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "パーティー・イム・パール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Party Party Party"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "パーティーパーティー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "DUDE! SLOW THE HECK DOWN! I'M WASTED."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "こら! スローザヘックダウン! 私は無駄です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "Cmon dude....you're too far."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "くそったれ...。遠すぎるぞ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Seriously? Slow down, Wally West."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "本当? ゆっくり、ウォーリー・ウェスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "I hate running."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "走るのは嫌いだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "CAN'T WE JUST STAY STILL AND DANCE?!?!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "うわっ! うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Dude."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "男。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "ウオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "PAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRTY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "パァァァァァァァァァァティー！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "DID YOU SAY PARTY? I'M 300% POSITIVE THAT YOU DID!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "パーティーを呼んだ? 私は300%あなたが死んだポジティブ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "MAN, YOU LOOK LIKE YOU NEED TO PARTY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "男、あなたはパーティーに必要に見える!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/5",
+      "value": "I AM GOING TO PARTY THEM TO DEATH!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/5",
+      "value": "彼らを死に導く!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "!@#$#@%@ YES ARE YOU READY TO PARTY?!??"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "@###@%@ YES パーティーの準備はできている?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "About time."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "約時間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "I swear I didn't touch your underwear, man."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "下着に触らないって誓うよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Dude. Are you ready for the @#$%^$^#ing party or what?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "男。 ##$%^$ パーティーの準備はできていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "Wanna hang out?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "たむろしたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "HEY MAN, DO YOU WANT A LIGHT SHOW?!?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "ねえ男、あなたはライトショーをしたいの!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "ウオオオオオオオオオオオオオオオオオ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "Holy crap that was intense. Wanna hug?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "強烈だった聖なるクズ。 抱きしめたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "I just wanna touch everything right now."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "私はただ今すべてに触れたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "PHEW! I THOUGHT THE PARTY WAS OVER, THERE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "フェイ! パーティーは終わりだと思った!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "PLUR BROUGHT ME BACK FOR ONE LAST PARTY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "PLURは最後の一人のために私に返しました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "I don't have syphilis."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "私は梅毒を持っていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "My head hurts."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "頭が痛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "I think I talked to God."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "私は神と話をしたと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "PAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRTY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "パァァァァァァァァァァティー！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "DID YOU SAY PARTY? I'M 300% POSITIVE THAT YOU DID!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "パーティーを呼んだ? 私は300%あなたが死んだポジティブ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "MAN, YOU LOOK LIKE YOU NEED TO PARTY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "男、あなたはパーティーに必要に見える!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "This place sucks."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "この場所はひどい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "Without music? You suck."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "音楽なし? くだらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "Dude."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "男。"
+    }
+  ]
+]

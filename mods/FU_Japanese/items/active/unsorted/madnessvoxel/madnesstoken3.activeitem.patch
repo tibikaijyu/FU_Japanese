@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crackling with horrible energy and malign promise. Edible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしいエネルギーと悪性の約束を破る。 食用。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowing Glyph"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "光るグリフ"
+    }
+  ]
+]

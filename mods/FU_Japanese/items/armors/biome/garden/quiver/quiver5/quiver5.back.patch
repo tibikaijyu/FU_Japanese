@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;30^reset;% Damage (Bows)\n+^green;30^reset;% Draw Speed (Bows)\n+^green;20^reset;% Airborne Damage (Bows)\n-^green;9^reset; Energy Per Shot (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;30^reset;% ダメージ(弓)\n+^green;30^reset;% ドロースピード(弓)\n+^green;20^reset;%空襲被害(弓)\n-^green;9^reset;ショットあたりのエネルギー(弓)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peerless Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピアレスサイバー"
+    }
+  ]
+]

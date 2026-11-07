@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What purpose could this thing serve?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはどんな目的に役立つのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Unknown Technology^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;未知技術^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I guess that settles it. This...thing...was Wagner."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは解決すると思います。 この...事は...ワーグナーだった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wagner's ID card"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワグナーのIDカード"
+    }
+  ]
+]

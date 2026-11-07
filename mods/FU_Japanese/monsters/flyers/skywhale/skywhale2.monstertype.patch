@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Majestic and peaceful interstellar creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雄大で平和な星間生物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Ray"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙線"
+    }
+  ]
+]

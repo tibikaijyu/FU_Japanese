@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "[page 854] - And then it was that I at long last assembled it from the Elder Tome, two Rune Wands and an Elder Artifact. My enemies shook in terror, for the staff I held was capable of might untold! I was invincible! And hungry. Popcorn? Yes. That seemed a reasonable..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "[page 854] - そして、ついに私はそれを高齢者のトム、二つのルーンワンドと高齢者のアーティファクトから組み立てました。 敵は恐怖の中で揺れました。なぜなら、私が持っていたスタッフは無言でいられることができたからです! 私は無敵でした! お腹が空いている。 ポップコーン? はい。 それは妥当なように思えた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather droll text all about one particular staff. It's quite ridiculous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定のスタッフについて、かなりドロールテキスト。 かなりばかげている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Grimoire of Nalshakk"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ナルシャクのグリモワール"
+    }
+  ]
+]

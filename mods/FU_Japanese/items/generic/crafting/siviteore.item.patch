@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can produce magnesium and phosphorus via extraction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグネシウムとリンを抽出により生成することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sivite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイト"
+    }
+  ]
+]

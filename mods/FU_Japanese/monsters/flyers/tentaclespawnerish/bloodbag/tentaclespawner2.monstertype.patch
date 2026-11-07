@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bizarre hovering bag of blood and eyes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血と目の奇妙なホバリングバッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かばん"
+    }
+  ]
+]

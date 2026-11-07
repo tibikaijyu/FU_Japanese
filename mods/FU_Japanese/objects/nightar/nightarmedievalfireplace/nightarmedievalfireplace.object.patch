@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stone fireplace. A good way to warm a cold castle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石の暖炉。 寒い城を暖める良い方法。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Fireplace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世の暖炉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Medieval Fireplace"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "中世の暖炉"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Post-marked directly to you at your current location. No return-to-sender. ^red;Origin unknown^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの現在の場所であなたに直接マークを付けます。 送り手への返送はない。 ^red; 起源不明 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Parcel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "謎の小包"
+    }
+  ]
+]

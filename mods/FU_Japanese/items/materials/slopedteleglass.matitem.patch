@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Telebrium treated glass. Remarkably clear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレブリアム処理ガラス。 目覚ましいほどクリア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Telebrium Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜テレブリアムガラス"
+    }
+  ]
+]

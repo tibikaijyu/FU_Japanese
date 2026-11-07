@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shoots knives. For some reason.\n^yellow;Why is this a thing? Surprisingly effective.^reset;\n^green;Where are they coming from?!?!?!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイフを撃つ。 なぜか。\n^yellow; これはなぜですか? 驚くほど効果的。^reset;\n^green; どこから来るの??!?!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sniper Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイフ"
+    }
+  ]
+]

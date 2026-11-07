@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Murder with cosmic power\n^cyan;Inflicts Minor Vulnerability^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の力による殺人\n^cyan;マイナーな脆弱性に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ショートソード"
+    }
+  ]
+]

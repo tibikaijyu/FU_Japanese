@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't touch the point end."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "点端に触るな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Giant Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャイアントビー"
+    }
+  ]
+]

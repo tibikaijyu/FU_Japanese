@@ -1,0 +1,1190 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Bee-Ology"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "養蜂学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Bee Guy"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "ビーガイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "I can't reach you! How can I share my bees now?!!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "手が届かない! どうやってミツバチをシェアできるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "You're too far to appreciate my bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "私のミツバチに感謝するには遠すぎる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Hey, wait up! BEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "ちょっと待って! ビーズ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "Don't go too far! You won't have my bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "行き過ぎないで! ミツバチは飼えませんよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Let me catch up or you'll run out of bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "追いつくか、ミツバチがなくなったら!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "Floran too far away!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "浮き過ぎ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "Floran iss left behind!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "フローランは残ってる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "Floran not close enough to you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "フローランはあなたに十分近づきません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "Frustrated. I can't reach you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "イライラ。 手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "Concerned. Wait for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "心配。 待ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Let me make you immune to BEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "ビーズに免疫を与えましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "Bee stings suck! Now you don't need to worry!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "蜂の刺し傷はしゃぐ! 今、あなたは心配する必要はありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "Have some bee-proofing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "蜂の繁殖を防ごう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "I can help you avoid the wrath of beeeeeees!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "私はあなたがミツバチの怒りを避けるのを助けることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "Let Floran make you immune to BEEEESSSS!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "フローラン を BEEEESSSS に免疫を与えましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "Beeee ssstings ssuck! Now you no worry!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "ビールの味がくしゃくしゃ! 今、あなたは心配していません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "Have ssome beeee-no-ssstabby!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "ミツバチを刺さないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/3",
+      "value": "Floran help you avoid the wrath of beeeeeeessss!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/3",
+      "value": "フローランは、あなたがフリーレスの怒りを避けるのに役立ちます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "Eager. Let me make you immune to BEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "早く! ビーズに免疫を与えましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "Excited. Bee stings suck! Now you don't need to worry!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "興奮した。 蜂の刺し傷はしゃぐ! 今、あなたは心配する必要はありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "Helpful. Have some bee-proofing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "役に立つ。 蜂の繁殖を防ごう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "Helpful. I can help you avoid the wrath of beeeeeees!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "役に立つ。 私はあなたがミツバチの怒りを避けるのを助けることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "BEEEEEEEEEEEEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "ハチだあああああああ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "Did you know that I like bees?!?!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "ミツバチが好きって知ってた?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "Let's get going and hurl bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "行きましょう、ハチをハチに投げましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Let's go, captain! Someone out there is in need of bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "さぁ、船長! 誰かがミツバチを必要としています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Are we going somewhere without bees?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "私たちはミツバチなしでどこかに行きますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "Yesss, Captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "はい、キャプテン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "Let'ss go!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "行くぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "Captain wantss Floran to follow?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "キャプテンはフローランに従わせたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "Floran ready to go again!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "フローは再び行く準備をしました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "Are we going ssomewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "Humble. I shall follow, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "謙虚。 私は従うよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "Alert. Shall we go, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "警告。 行きましょうか、隊長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "Solemn. Is it time to move, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "厳重。 そろそろ移動の時間ですか、船長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "Inquisitive. Are we going somewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "質問あり。 どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Hello adventurer, mind if I join you and hurl bees at things?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "こんにちは冒険家、私は何かであなたやハチをハールする場合は、心?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "I'm <selfname>, and I really want to throw bees at people. Do you want to employ me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "私は<selfname>です、そして私は本当に人々にミツバチを投げたい。 私を雇いたいですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "You are JUST the kind of person I should throw bees for! Fancy employing me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "あなたは私が蜂を投げるべき人の種類です! 私を雇う空想?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "I'm looking for a ship's crew to cover in bees. Are you interested?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "ミツバチを覆う船員を探しています。 興味ある?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "I'm looking for a place among a crew. Can I join yours and dump bees everywhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "私は乗組員のいる場所を探している。 どこにいてもミツバチを捨てることはできますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "Hello adventurer, mind if Floran join you and hurl beeeessss at thingss?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "こんにちは冒険家、フローランがあなたに参加し、物事にハエルハエを連れていかがですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "Floran called <selfname> and really want to throw beeeessss at people. Do you want to hire Floran?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "<selfname>と呼ばれるフローランと本当に人々に蜂を投げたいです。 フローランを雇いたいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "You are JUSSST the kind of persson Floran should throw beeeessss for! Hire Floran maybe?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "あなたはちょうど人フローランの種は、蜂を投げるべきです! フローランを雇う?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "Floran looking for ship to cover in beeeessss. Are you wanting?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "花屋は、ビールでカバーする船を探しています。 欲しいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/4",
+      "value": "Floran looking for crew. Can Floran join yourss and dump beeeessss everywhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/4",
+      "value": "乗組員を探しているフローラン。 フローランはあなたの仲間入りして、どこにでもハチを捨てられますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "Friendly. Hello adventurer, mind if I join you and hurl bees at things?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "フレンドリー。 こんにちは冒険家、私は何かであなたやハチをハールする場合は、心?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "Hopeful. I'm <selfname>, and I really want to throw bees at people. Do you want to employ me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "希望。 私は<selfname>です、そして私は本当に人々にミツバチを投げたい。 私を雇いたいですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "Cheerful. You are JUST the kind of person I should throw bees for! Fancy employing me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "陽気。 あなたは私が蜂を投げるべき人の種類です! 私を雇う空想?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "Excited. I'm looking for a ship's crew to cover in bees. Are you interested?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "興奮した。 ミツバチを覆う船員を探しています。 興味ある?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/4",
+      "value": "Ambitious. I'm looking for a place among a crew. Can I join yours and dump bees everywhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/4",
+      "value": "野心的。 私は乗組員のいる場所を探している。 どこにいてもミツバチを捨てることはできますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "Heh... Dying tickles."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "へえ...。 くすぐりを染める。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "I hate bee-ing killed. Haha. Shut up. Idiot."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "蜂が殺されるのは大嫌いです。 ハハハ。 黙れ! バカな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "I'm back! And alive! AND I HAVE BEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "帰ってきた! 生きてる! そして、私はハチを持っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "I'm back and in one piece! Also? BEES!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "私は戻って、一つの部分です! また? ビーズ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "I'm alive again! That's good. Let's bee friends!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "もう一回生きてる! それは良いことです。 友達にしよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "I don't think I respawned properly...I need more bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "ちゃんと生まれ変わったとは思えない...もっとミツバチが要る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "My head hurts. Probably from bees."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "頭が痛い。 ミツバチからかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "What was I doing just before I died? Oh yea. Bees."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "死ぬ直前に何をしていたのか? ああ、そうだ。 ミツバチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "Floran feelsss funny."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "フローランは面白い気分です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "Floran not a fan of dying."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "フローランは死のファンではなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "Ressspawning tickles."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "くすぐりのくすぐり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
+      "value": "Floran will fight better next time..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
+      "value": "フローランは次回はもっとよく戦える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "Dazed. Was I dead?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "うっとうしい。 死んだの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "Relieved. I'm back!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "救われた。 帰ってきた!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "Concerned. I hope I respawned properly. Do I look alright?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "心配。 きちんと再生して欲しい。 顔は大丈夫ですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/3",
+      "value": "Confused. Was I dead for a little while?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/3",
+      "value": "混乱している。 私はしばらくの間死んでいましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/4",
+      "value": "Tired. Respawning is exhausting."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/4",
+      "value": "疲れた。 再産は枯渇している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/0",
+      "value": "I saw a bright light... No, wait, that was just me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/0",
+      "value": "明るい光が見えた。 いや、待て、それは私だけだった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/1",
+      "value": "Was I dead? Well I guess I ain't now!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/1",
+      "value": "死んだの? まあ、今じゃないかな!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/2",
+      "value": "Respawnin' sure does take the hurry from my heels."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/2",
+      "value": "確かに、Respawninは私のかかとから急いで取ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/3",
+      "value": "Comin' back to bein' gives me the shakes..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/novakid/default/3",
+      "value": "戻って来て、振り返って..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'll be here for you if you need someone to throw bees at things!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "ミツバチに何か投げつける人が必要なら、私はあなたのためにここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "If you need bees, you know where to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "ミツバチが必要なら、どこで私を見つけるかわかります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "If you need bees, I'll be here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "ミツバチが必要なら、私はここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran be here for you if you need someone to throw beeeessss at things!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "誰かが何かに蜂を投げる必要があるなら、フローランがあなたのためです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "If you need beeeessss, you know where to find Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "ミツバチが必要な場合は、フローランの場所を知ってください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "If you need beeeessss, Floran be here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "ミツバチが必要であれば、フローランがここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Brave. I'll be here for you if you need someone to throw bees at things!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "勇敢。 ミツバチに何か投げつける人が必要なら、私はあなたのためにここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "Gallant. If you need bees, you know where to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "ギャラント。 ミツバチが必要なら、どこで私を見つけるかわかります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "Stalwart. If you need bees, I'll be here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "ストールワート。 ミツバチが必要なら、私はここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "I'll just wait here and touch my bees."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "ここで待っていてミツバチに触れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "I'll stay here. Come back when you need bees, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "ここに滞在します。 ハチが必要なときに戻ってきなさい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "I'll stay here for now, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "私は今ここに滞在します、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "Do you need me to stay here? Why? Do I stink? Is it the bees?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "ここに滞在したいのですが? なぜでしょう? 臭いがする? ミツバチ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "It's all these damned bees, isn't it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "全部このミツバチだよな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "I'll stay here. You suck."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "ここに滞在します。 くだらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "Floran should sstay here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "フローランはここに滞在するべきですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "Floran will sstay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "フローランはここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "Floran will sstay, then..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "フローランが留まるなら..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "Obliging. I will remain here for now, then."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "予算。 では、当面はここに留まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "Patient. I can wait here, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "患者。 ここで待ってるよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "Amicable.  I will remain here if you want me to, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "可愛い。  よければここに留まりますよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "Agreeable. I can stay here if you prefer, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "同意する。 気に入ったらここに泊まるよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/0",
+      "value": "Alright, partner, I'll jus' be right here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/0",
+      "value": "はい、パートナー、ちょうどここにいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/1",
+      "value": "I can hold up here, if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/1",
+      "value": "よろしければここで我慢できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/2",
+      "value": "I'll jus' stay here for a moment."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/novakid/default/2",
+      "value": "ちょっとここに泊まりましょう。"
+    }
+  ]
+]

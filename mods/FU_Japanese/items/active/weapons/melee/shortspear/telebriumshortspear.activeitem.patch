@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "So light, they won't even realize you killed them.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "軽くて殺したことすら気づかないでしょう\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Shortspear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・ショートスピア"
+    }
+  ]
+]

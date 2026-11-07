@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A meal of Eldritch proportions. ^cyan;+^reset;20%^green; HP^reset; ^cyan;+^reset;15%^green; Energy^reset;^red; Insanity^reset; 180s ^blue;Madness Gain^reset; 4 ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドリッチの割合の食事。 ^cyan;+^reset;20%^green; HP^reset; ^cyan;+^reset;15%^green; エネルギー^reset;^red; 狂気^reset; 180ス) ^blue;狂気の高まり^reset; 4 ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eldurkey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルダーキー"
+    }
+  ]
+]

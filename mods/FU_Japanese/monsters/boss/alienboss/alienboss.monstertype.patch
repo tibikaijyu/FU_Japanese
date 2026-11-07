@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Tyrant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュ・ティラント"
+    }
+  ]
+]

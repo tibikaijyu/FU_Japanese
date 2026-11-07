@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A seemingly infinite supply of frisbees."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フリスビーの無限の供給。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stack o' Frisbees"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタック・オ・フリスビー"
+    }
+  ]
+]

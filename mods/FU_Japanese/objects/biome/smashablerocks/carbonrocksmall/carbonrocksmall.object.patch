@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cracked rock full of carbon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素で満たされた割れた岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Carbon Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小炭素岩"
+    }
+  ]
+]

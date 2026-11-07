@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They don't make better brains than this. Perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らはこれよりも良い脳を作らない。 完璧。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Brain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧な脳"
+    }
+  ]
+]

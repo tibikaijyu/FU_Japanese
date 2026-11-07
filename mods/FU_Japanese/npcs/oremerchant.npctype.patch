@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  For all your crafting needs!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  すべてのあなたのクラフトニーズのために!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Ore Merchant"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  オレマーチャント"
+    }
+  ]
+]

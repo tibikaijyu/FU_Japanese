@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sticky platform. Looks like it's falling apart."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スティッキープラットフォーム。 壊れそうに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Wobbly and unsssafe. Floran approvess."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ふざけて安全でない。 フローランは承認する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alarmed. This gooey platform is structurally unsound."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "武装。 この良いプラットフォームは構造的に不健全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Best watch myself, this oozing' platform looks like it's fallin' apart."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この「おしゃれな」プラットフォームは、まるでバラバラに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムプラットフォーム"
+    }
+  ]
+]

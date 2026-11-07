@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a piece of wood. You whack things with it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木片です。 それで物事を変える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Club"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウッドクラブ"
+    }
+  ]
+]

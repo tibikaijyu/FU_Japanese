@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Physical storage for physical backups.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物理的なバックアップ用の物理ストレージ。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Data Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "データストレージ"
+    }
+  ]
+]

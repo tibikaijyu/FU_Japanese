@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks like a nice, wholesome bowl of mashed brains matter. \n^blue;Madness Gain^reset; 2\n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マッシュドな脳みそがかっこいい。 \n^blue;狂気の高まり^reset; 2\n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bowl o' Brains"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボウル・オブ・ブレイン"
+    }
+  ]
+]

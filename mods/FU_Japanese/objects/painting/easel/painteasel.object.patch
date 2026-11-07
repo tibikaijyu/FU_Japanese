@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Express yourself through art."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "芸術を通して自己表現する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Painting Easel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;絵画イーセル^reset;"
+    }
+  ]
+]

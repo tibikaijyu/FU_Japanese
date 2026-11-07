@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your very own homebrewing kit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなた自身の自家製キット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Booze Kit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ブーズキット^reset;"
+    }
+  ]
+]

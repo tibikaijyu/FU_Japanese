@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute hanging chandelier with a pink light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンクのライト付きのかわいいぶら下がっているシャンデリア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Chandelier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいシャンデリア"
+    }
+  ]
+]

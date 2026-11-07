@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The harnessed mental energy of sapient beings, ready to be used as power.\n^blue;+^white;10 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "力として使用する準備ができている霊魂のエネルギーを活用。\n^blue;+^white;10 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psi-1 Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイ-1エネルギー"
+    }
+  ]
+]

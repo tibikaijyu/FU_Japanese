@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a blood gulch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を血液溝に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Gulch Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液Gulchマイクロフォーマ"
+    }
+  ]
+]

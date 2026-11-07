@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;A sharpened edge that could cut a god.^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00; 神を切ることができる鋭い縁。^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Elder Spear^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00; 長老のスピア ^reset;"
+    }
+  ]
+]

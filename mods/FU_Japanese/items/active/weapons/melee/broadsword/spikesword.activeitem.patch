@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Covered in sharp poisoned barbs. Cute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭い毒入りのバーブで覆われている。 かわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thornitox Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竜骨剣"
+    }
+  ]
+]

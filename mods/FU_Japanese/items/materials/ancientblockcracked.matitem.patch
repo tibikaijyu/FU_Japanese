@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These bricks have been weathered by time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのレンガは時間とともに風化されてきた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Cracked Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代のひび割れブロック"
+    }
+  ]
+]

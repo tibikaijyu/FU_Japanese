@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, fur and leather robes to keep your legs warm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの足を暖かく保つために重い、毛皮と革のローブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Taiga Robe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大河ローブ"
+    }
+  ]
+]

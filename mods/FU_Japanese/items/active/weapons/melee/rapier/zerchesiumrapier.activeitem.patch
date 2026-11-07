@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, fine, freezing metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で、細かい、凍結金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツェルチウムラピエ"
+    }
+  ]
+]

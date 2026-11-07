@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "A picture of some sort of grenade-launcher weapon. There are diagrams for several Elder Cores, along with several pieces of Unknown Technology. Cresting these is a singular Elder Artifact."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ある種の手りゅう弾発射器の武器の写真。 いくつかの古いコアの図と、未知技術のいくつかの部分があります。 これらをクレストすることは、唯一の長老アーティファクトです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Veil-Tearer"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベールテアラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Detonatus Mondus"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "デトナトゥス・モンドゥス"
+    }
+  ]
+]

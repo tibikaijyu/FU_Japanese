@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Absolutely filets the opposition."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶対に反対を申し立てる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "CROC Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "CROCアーム"
+    }
+  ]
+]

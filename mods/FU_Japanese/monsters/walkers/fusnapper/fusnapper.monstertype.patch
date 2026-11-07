@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "80% bite, 20% bark."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "80% かみ傷、20% 樹皮。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snapper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナッパー"
+    }
+  ]
+]

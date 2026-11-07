@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器と装甲を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Armorworks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;武具製作台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Basic weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;基本的な武器と装甲。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;Armorworks"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;武具製作台"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "Create weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "武器と装甲を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Armorworks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;武具製作台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Intermediate weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; 武器と装甲を仲介する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;Assembly Line"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00; 組立ライン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "Even more advanced gear."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "さらに高度なギア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Assembly Line^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;アセンブリライン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Advanced weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;高度な武器と装甲。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;Armory"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00; 武器庫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "The best weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "最高の武器と装甲。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;Armory^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;武器庫^reset;"
+    }
+  ]
+]

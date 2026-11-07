@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Explosive Arrow"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "爆発性矢印"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A carbon hunting bow, monsters killed with a bow drop tasty meat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素ハンティング弓、弓で殺された怪物はおいしい肉を落とします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Hunting Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンハンティングボウ"
+    }
+  ]
+]

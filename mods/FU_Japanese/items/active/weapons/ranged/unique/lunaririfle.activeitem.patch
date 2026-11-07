@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Starshock"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "スターショック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystalline blasts charged with lunari energy.\n^yellow;Lights areas^reset;\n^green;Long-lived projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ムーンニエネルギーを帯びた結晶爆風。\n^yellow;照明エリア^reset;\n^green; 長寿命発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Crystalline blasts charged with lunari energy\n^yellow;Lights areas^reset;\n^green;Long-lived projectiles"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "ムニーイエネルギーを帯びた結晶爆風\n^yellow;照明エリア^reset;\n^green; 長寿命発射体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Lunari MkII^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ルナリ MkII^reset; ^yellow;^reset;"
+    }
+  ]
+]

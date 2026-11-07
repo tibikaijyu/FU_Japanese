@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I suppose all that smoke has to go somewhere..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "煙はどこかへ行かなくちゃならないと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I should be careful not to let the smoke get in my lungs."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "煙が肺に入らないように気をつけるべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "*Chimney sweep not included."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "煙突掃除は含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Where there's sssmoke..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "煙があるところには..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Sympathetic. Cleaning chimneys is actually much more dangerous than one would expect."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "共感。 煙突の掃除は、実際には予想よりもずっと危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "How's Santa supposed to come down one of these anyways? Is his suit fireproof?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "サンタはどうやってこんな風に降ってくるの? 彼のスーツは耐火ですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This chimney channels a fireplace's smoke away from the inside of the building."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この煙突は暖炉の煙を建物の内側から遠ざけている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A trusty ol' chimney."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "信頼できる古い煙突。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chimney"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "煙突"
+    }
+  ]
+]

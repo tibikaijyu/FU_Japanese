@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a hardened general to fight at your side."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの側で戦うために強化された将軍を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "General Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "一般契約"
+    }
+  ]
+]

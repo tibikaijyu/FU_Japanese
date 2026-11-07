@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Designed specifically to kill you. You in particular."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたを殺すために特別に設計されています。 特に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor War Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦前のドローン"
+    }
+  ]
+]

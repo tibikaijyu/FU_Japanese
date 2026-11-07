@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Spawns Minions^reset;: Tar Slime\n^yellow;^reset; Slime Weapons: Damage x^green;1.15^reset;, +^green;5^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Bio-ooze, Mud, Snow, Ice, Slime, Clay"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;産卵ミニオン^reset;タールスライム\n^yellow;^reset; スライムウェポン : ダメージx^green;1.15^reset;, +^green;5^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;毒、バイオオーズ、泥、雪、氷、スライム、粘土。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Slime Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラックスライム胸"
+    }
+  ]
+]

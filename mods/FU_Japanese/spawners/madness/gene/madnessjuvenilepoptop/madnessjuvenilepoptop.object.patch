@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An less adorable poptop companion."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛くないポップトップ仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop Juvenile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップ少年"
+    }
+  ]
+]

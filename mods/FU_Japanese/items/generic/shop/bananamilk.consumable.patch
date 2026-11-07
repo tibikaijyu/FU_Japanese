@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Contains no bees.\n^cyan;+^white;4 ^cyan;Defense ^gray;(^white;30s^gray;)^reset; \n^orange;Type: Fruits + Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂類は含まない。\n^cyan;+^white;4 ^cyan;防衛 ^gray;(^white;30ス)^gray;)^reset; \n^orange;タイプ:フルーツ+乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Milk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナミルク"
+    }
+  ]
+]

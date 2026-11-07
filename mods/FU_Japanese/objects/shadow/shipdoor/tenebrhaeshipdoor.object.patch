@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather sleek and dark door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり洗練された暗いドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tenebrhae Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テネブレーのドア"
+    }
+  ]
+]

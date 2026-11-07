@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A backpack that hides backwear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バックウェアを隠すバックパック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Backpack Cloaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バックパッククローカー"
+    }
+  ]
+]

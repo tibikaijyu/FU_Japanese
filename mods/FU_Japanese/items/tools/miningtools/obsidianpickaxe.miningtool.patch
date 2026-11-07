@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dark and sleek. Perfect for deep digging."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗くてなめらかな。 深い掘り出し物に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ebonshard Pickaxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エボンシャード・ピッカックス"
+    }
+  ]
+]

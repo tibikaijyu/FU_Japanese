@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lethal when thrown, Hellfire nodules can also be used to create weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "投げられると致命的となり、ヘルファイア・ノジュールは武器を作るのにも使える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Plant Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火植物の種子"
+    }
+  ]
+]

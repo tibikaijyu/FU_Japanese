@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, poisonous shotgun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙で有毒なショットガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムショットガン"
+    }
+  ]
+]

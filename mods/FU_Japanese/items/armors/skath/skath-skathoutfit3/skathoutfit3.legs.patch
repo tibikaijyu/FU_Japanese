@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Moderately comfy, reasonably easy to wear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "適度に快適な、着やすい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Straights"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカース海峡"
+    }
+  ]
+]

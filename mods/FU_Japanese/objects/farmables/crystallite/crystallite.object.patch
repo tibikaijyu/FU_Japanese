@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Produces dangerous little shards perfect for throwing at things."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物を投げるのに最適な危険な小さな破片を作り出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystallite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whip fashioned from finely woven carbon fibers.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きめ細かなカーボン繊維を素材にしたホイップ。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンホイップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Floran design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フローランデザインの宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Thruster (Floran)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型スラスター(フローラン)"
+    }
+  ]
+]

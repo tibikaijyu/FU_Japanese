@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can be used to access your tricorder's upgrade interface. Largely cosmetic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トライコーダーのアップグレードインターフェースへのアクセスに使用できます。 大きめの化粧品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Upgrade Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;アップグレード表 ^reset;"
+    }
+  ]
+]

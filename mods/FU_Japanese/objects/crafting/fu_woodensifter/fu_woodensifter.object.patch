@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic sifter which slowly extracts resources from loose materials. ^cyan;Requires ^orange;2W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "緩い材料からゆっくりと資源を抽出する基本シフターです。 ^cyan; は ^orange;2W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Sifter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ふるい機^reset;"
+    }
+  ]
+]

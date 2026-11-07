@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Glitch favorite.\n^cyan;+^white;4 ^cyan;Defense ^gray;(^white;1m^gray;)\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリッチのお気に入り。\n^cyan;+^white;4 ^cyan;防衛 ^gray;(^white;1え?^gray;)\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rust Mead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "さび肉"
+    }
+  ]
+]

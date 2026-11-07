@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Live coral"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ライヴサンゴ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its ghostly white eyes pierce through the darkness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その幽霊のような白い目は暗闇の中を突き通している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nocttop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "上部"
+    }
+  ]
+]

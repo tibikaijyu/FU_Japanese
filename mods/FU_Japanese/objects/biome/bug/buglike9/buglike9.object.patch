@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Insectoid-like structure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "昆虫様構造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carefully treated wood that maintains a freshly chopped appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "切り刻んだての外観をキープした丁寧な木質処理。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Jusst some bassic wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "基礎的な木だけ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. This wood looks freshly chopped."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 この木は切り刻まれたてに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "It looks fresh cut, but this wood has been treated with somethin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "新鮮に切り取られたようにも見えますが、この木は何かで処理されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Treated Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークトリートメントウッド"
+    }
+  ]
+]

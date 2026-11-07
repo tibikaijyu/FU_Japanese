@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Advanced frame for an apiary.\n<beeData>"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海賊用の高度なフレーム。\n<beeData>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先端フレーム"
+    }
+  ]
+]

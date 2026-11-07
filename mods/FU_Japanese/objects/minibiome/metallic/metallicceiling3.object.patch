@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ceiling mounted power node of some sort."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の天井搭載電源ノード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Power Node"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電力ノード"
+    }
+  ]
+]

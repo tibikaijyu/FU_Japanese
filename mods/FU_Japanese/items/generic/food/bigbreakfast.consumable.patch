@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A full breakfast plate of cinnamon apple pancakes; the best way to start the day! \n^cyan;+^reset;20%^green; Energy^reset;^cyan; +^reset;10%^green; HP^reset; \n^orange;Type: Fruits + Dairy + Eggs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シナモンアップルパンケーキのフルブレックファーストプレート;一日を始めるのに最適な方法! \n^cyan;+^reset;20%^green; エネルギー^reset;^cyan; +^reset;10%^green; HP^reset; \n^orange;タイプ:フルーツ+乳製品+卵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Big Breakfast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビッグブレックファースト"
+    }
+  ]
+]

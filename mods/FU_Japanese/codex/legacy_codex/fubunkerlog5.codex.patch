@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Finally, General Kale made contact. She escaped Earth with a fleet of her best soldiers, and they've taken refuge in a space station not far from Mars. From there, they're planning and strategising what to do about the giant damn monster that's eating our planet."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "最後に、ケール将軍が接触した。 彼女は最高の兵士の艦隊で地球を脱出し、彼らは火星から遠くない宇宙ステーションに避難しました。 惑星を食べている巨大モンスターをどうするか、その計画と戦略を練っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I overheard all this as my superior officer spoke to her on the comm-link. He asked her what she suggested the rest of humanity do. 'Do whatever,' she said. 'It's going to be a long road home'. I don't think we're going back to Earth any time soon."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "上官が彼女にコマーシャルリンクで話しかけると、私はこれをすべて聞きました。 彼は彼女に他の人類に何を勧めるか尋ねた。 「何でもして」と彼女は言った。 『長い道のりの家』です 私たちはすぐに地球に戻るとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #60102"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #60102"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #60102"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #60102"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks to be a rock."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは岩のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "岩"
+    }
+  ]
+]

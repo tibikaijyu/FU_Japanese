@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy-edged and freezing cold.\n^cyan;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘビーエッジと凍結寒さ。\n^cyan;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長刀"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dignity and honor all rolled into one lovely package."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "尊厳と名誉は、すべて一つの素敵なパッケージに巻き込まれました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Admiral Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "提督"
+    }
+  ]
+]

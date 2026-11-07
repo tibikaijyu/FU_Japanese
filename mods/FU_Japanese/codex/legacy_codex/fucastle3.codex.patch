@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "by Hiraki Corale, Hylotl Adventurer\nThe Glitch may not be the warmest of people on the outside, but their hospitality is indisputable. They found me scaling the castle wall, simply wanting to have a look through a tower window, and politely invited me inside. Now, of course it sounded like a trap, so there was a bit of a scuffle at first, but it turned out they were genuine."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ヒロトル・アドベンチャーズのヒラキ・コーラレが\n外側で一番暖かい人ではないかもしれませんが、そのおもてなしは間違いありません。 城壁をスケーリングして、塔の窓越しに眺めてみたいと思い、丁寧に中へ誘ってくれました。 今では、もちろん、それはトラップのように聞こえたので、最初は少しの喧騒がありましたが、彼らは本物だったことがわかりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "They offered me the run of the castle, to explore, research and investigate to my heart's content. Occasionally I run into one of them and they greet me pleasantly enough. I have been reading all manner of fascinating books, and my understanding of the Glitch is growing."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "彼らは私に城の運営を提供し、私の心の中身を探索、研究、研究しました。 たまに私もその一人に出会ったりして、彼らは私を快く迎えてくれたりします。 私はいろいろな種類の魅力的な本を読んだことがあり、私のグリッチに対する理解は高まっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reading material"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "読解材料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Reading material"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "読解材料"
+    }
+  ]
+]

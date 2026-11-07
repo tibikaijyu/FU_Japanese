@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metal parts for some unknown purpose.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかの未知の目的のための金属部品。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属部品"
+    }
+  ]
+]

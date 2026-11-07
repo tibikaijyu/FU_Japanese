@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of liquified crystals.\n^green;Growth Rate x^white;2.5 ^gray;& ^green;+^white;2 ^green;produce.\n^cyan;-^white;1 ^cyan;seed use^reset;\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液晶の測定値。\n^green;成長率x^white;2.5 ^gray;& ^green;+^white;2 ^green;農産物\n^cyan;-^white;1 ^cyan;種子の使用^reset;\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquified Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液晶"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Having survived this horrific place, I must follow S.A.I.L.'s instructions and destroy it. There's no time to waste!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この恐ろしい場所を生き延びた私は、S.A.I.L.の指示に従って破壊しなければなりません。 無駄な時間はない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Investigate the distress signal."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "ストレス信号を調べます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map is broadcasting a distress signal, along with coordinates to a remote lunar facility. Perhaps I should investigate."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図は、遠い月の施設への座標とともに、苦痛信号を放送しています。 調べるべきかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Letheia Labs"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;レテイア研究所"
+    }
+  ]
+]

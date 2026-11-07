@@ -1,0 +1,1670 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/batteries/0",
+      "value": "Compact Power"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/batteries/0",
+      "value": "小型電源"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/batteries/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to make space-efficient batteries at an ^orange;Atomic Furnace^reset; which will be useful as surplus power sources in machinery and some weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/batteries/1",
+      "value": "^orange;ティア 3^reset;\n\n場所を取らないバッテリーを^orange;原子炉^reset;で作れるようになる。機械や一部の武器の予備電源として役立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers1/0",
+      "value": "Research Computers"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers1/0",
+      "value": "研究用コンピューター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers1/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've put your knowledge of computer parts to use to produce handy laptops that will automatically research items for you."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers1/1",
+      "value": "^orange;ティア 2^reset;\n\nコンピューター部品の知識を生かし、アイテムを自動で研究する、便利なノートパソコンを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers2/0",
+      "value": "Improved Researchers"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers2/0",
+      "value": "研究用コンピューターの改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers2/1",
+      "value": "^orange;Tier 3^reset;\n\nAccess to quantum computing means you can make stronger computers that research more quickly and store more data."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers2/1",
+      "value": "^orange;ティア 3^reset;\n\n量子計算により、さらに高性能なコンピューターを作れるようになる。研究が速くなり、より多くのデータを保存できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers3/0",
+      "value": "Neural Networks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers3/0",
+      "value": "ニューラルネットワーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers3/1",
+      "value": "^orange;Tier 4^reset;\n\nWith AI technology, you've designed a data tower which will generate huge amounts of research for your benefit, vastly outstripping all computers that came before it."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers3/1",
+      "value": "^orange;ティア 4^reset;\n\nAI技術を用いてデータタワーを設計した。従来のどのコンピューターよりも優れ、大量の研究ポイントを生み出してくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers4/0",
+      "value": "Superior Networks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers4/0",
+      "value": "超高性能ネットワーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/computers4/1",
+      "value": "^orange;Tier 5^reset;\n\nYour AI is super-advanced now, and generate huge amounts of research for your benefit, allowing you to kick off your shoes and finally let something do the work for you that you can rely on."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/computers4/1",
+      "value": "^orange;ティア 5^reset;\n\nAIは極めて高度になり、大量の研究ポイントを生み出す。ようやく靴を脱いでくつろぎ、信頼できる相手に仕事を任せられる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/0",
+      "value": "Instructions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/0",
+      "value": "操作説明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/1",
+      "value": "Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\n\n- The left most button at the upper part of the screen opens a list of research trees to pick from.\n\n- The second button opens a list of non-hidden research options. Click a research on the displayed to center the view on it. Click again to hide the list.\n\n- The third button will center the view on the middle of the tree, or the currently selected research.\n\n- The last button toggles ^orange;low quality mode^reset;. This makes the GUI jump to a position instead of panning to it, or the center button. In addition, dragging/navigating on the the main screen will update only after you release the mouse button. It is best to use the search list with this mode enabled."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/1",
+      "value": "グリッド上のアイコンをクリックして研究を選択します。\nマウスの左ボタンでドラッグすると、表示範囲を移動できます。\n\n- 画面上部の一番左のボタンで、研究ツリーの選択一覧を開きます。\n\n- 二番目のボタンで、隠されていない研究の一覧を開きます。一覧の研究をクリックすると、その位置へ移動します。もう一度押すと一覧を閉じます。\n\n- 三番目のボタンで、ツリー全体か、現在選択中の研究を画面中央に表示します。\n\n- 最後のボタンは、^orange;低品質モード^reset;の切り替えです。表示位置や中央への移動が、滑らかなスクロールではなく即時切り替えになります。また、メイン画面をドラッグしても、ボタンを離すまで表示が更新されません。このモードでは研究一覧からの検索が便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/engineering/0",
+      "value": "Machining"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/engineering/0",
+      "value": "機械加工"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/engineering/1",
+      "value": "^orange;Tier 1^reset;\n\nThe ^orange;Machining Table^reset; is the place to produce mechanical components, and will serve as the base workstation for many of your scientific forays. You've learned to create one yourself along with variety of basic items used in engineering.\n\nTo craft a ^orange;Machining Table^reset; you'll need to use your basic ^green;[C]rafting^reset; menu."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/engineering/1",
+      "value": "^orange;ティア 1^reset;\n\n^orange;加工作業台^reset;は機械部品を製作する場所で、さまざまな科学的探究の基礎となる設備だ。作業台そのものと、工学に使う基本的な品を作れるようになる。\n\n^orange;加工作業台^reset;は、通常の^green;クラフト[C]^reset;メニューから作成する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmadv/0",
+      "value": "Improved Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmadv/0",
+      "value": "モジュールの改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmadv/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've improved upon your EPP module design, developing upgrades for many of your modules and inventing a few new ones, too."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmadv/1",
+      "value": "^orange;ティア 3^reset;\n\nEPPモジュールの設計を改良した。多くのモジュールを強化でき、いくつかの新しい種類も作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmbasic/0",
+      "value": "Basic EPP Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmbasic/0",
+      "value": "基本のEPPモジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmbasic/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've developed a suite of simple EPP modules which can be installed to gain useful benefits in addition to the effects your EPP already provides."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmbasic/1",
+      "value": "^orange;ティア 2^reset;\n\n単純なEPPモジュールを各種開発した。取り付けると、EPP本来の効果に加え、役立つ恩恵を得られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmbest/0",
+      "value": "Module Mastery"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmbest/0",
+      "value": "モジュールの極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmbest/1",
+      "value": "^orange;Tier 5^reset;\n\nWith mastery of EPP modules comes several new amazingly useful creations that will provide incredible benefits. In addition to improving your already considerably impressive designs, you can even ward off Erchius Ghosts, insanity, sheer darkness or the need to eat!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmbest/1",
+      "value": "^orange;ティア 5^reset;\n\nEPPモジュールの技術を極め、驚くほど役立つ新製品を生み出した。既に優れた設計をさらに改良するだけでなく、エルキウスゴーストや狂気、漆黒の闇を防ぎ、食事の必要すらなくせる！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmres1/0",
+      "value": "Defensive Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmres1/0",
+      "value": "防護モジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmres1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a lot of new EPP modules which will protect you from heat, radiation, cold and other hazards. Surviving hostile environments has never been so easy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmres1/1",
+      "value": "^orange;ティア 3^reset;\n\n熱、放射線、冷気、その他の危険から守る、新しいEPPモジュールを多数設計した。過酷な環境で生き延びるのが、かつてないほど楽になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmres2/0",
+      "value": "Advanced Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmres2/0",
+      "value": "高度な防護"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/eppmres2/1",
+      "value": "^orange;Tier 4^reset;\n\nYour defensive modules have gotten even better, allowing you to resist more exotic elements like Cosmic and Shadow and completely protect from hot, cold or radioactive planets."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/eppmres2/1",
+      "value": "^orange;ティア 4^reset;\n\n防護モジュールがさらに進化し、宇宙や闇といった特殊な属性にも耐えられるようになる。高温、低温、放射能の惑星からも、完全に身を守れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/experimentweapons/0",
+      "value": "Experimental Weapons"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/experimentweapons/0",
+      "value": "実験兵器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/experimentweapons/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've just got so many ideas floating around in your head that there's nothing else to do but put them all onto paper. You can now upgrade several pre-existing weapons into bizarre and lethal new forms."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/experimentweapons/1",
+      "value": "^orange;ティア 6^reset;\n\n頭の中にアイデアが溢れ、全て書き留めずにはいられない。既存の武器をいくつか改良し、奇妙で致命的な新しい姿へ変えられるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction1/0",
+      "value": "Extraction Basics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction1/0",
+      "value": "抽出の基礎"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned the basics of resource extraction and can now build rudimentary devices to extract, research and centrifuge materials. \n\n^cyan;Extractor^reset;\n\nPut almost anything in and it will convert it into something else. Most items are processed in groups of 50. \n\n^cyan;Centrifuge^reset;\n\nPut any liquid inside and the centrifuge will start working - though the wooden one isn't quite durable enough to handle lava and other volatile stuff. Researched in the ^orange;Power Systems^reset; tree. \n\n^cyan;Research Computer^reset;\n\nPut an item with a value greater than 0 in one and it will automatically convert it into an amount of research equal to ^green;5% of the item's pixel value^reset;. Faster computers can be built by pursuing ^orange;Gold Circuits^reset; research."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction1/1",
+      "value": "^orange;ティア 1^reset;\n\n資源抽出の基礎を学び、素材の抽出、研究、遠心分離を行う、初歩的な装置を作れるようになる。 \n\n^cyan;抽出機^reset;\n\n大抵の物を入れられ、別の物へ変換する。多くのアイテムは50個ずつ処理される。 \n\n^cyan;遠心分離機^reset;\n\n液体を入れると作動する。ただし、木製の機種には溶岩などの不安定な物質を扱うだけの耐久性がない。^orange;電力システム^reset;のツリーで研究できる。 \n\n^cyan;研究用コンピューター^reset;\n\n価値が0より大きいアイテムを入れると、^green;ピクセル価格の5%に相当する研究ポイント^reset;へ自動変換する。^orange;金の回路^reset;を研究すれば、より速いコンピューターを作れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction2/0",
+      "value": "Extraction Labs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction2/0",
+      "value": "抽出ラボ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction2/1",
+      "value": "^orange;Tier 2^reset;\n\nThe extraction lab is a big step up over the hand mill, working much more quickly. You'll want many extraction labs to process all sorts of resources."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction2/1",
+      "value": "^orange;ティア 2^reset;\n\n抽出ラボは、手回し粉砕機からの大きな進歩だ。処理速度がはるかに速い。さまざまな資源を処理するため、何台も欲しくなるだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction3/0",
+      "value": "Advanced Extraction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction3/0",
+      "value": "高度な抽出"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/extraction3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've greatly improved upon your extraction lab design, producing a lab that is faster than ever at processing resources and even gives some bonus outputs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/extraction3/1",
+      "value": "^orange;ティア 3^reset;\n\n抽出ラボの設計を大幅に改良した。資源をこれまで以上に速く処理し、追加の産物も得られる設備を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/focusingarray/0",
+      "value": "Focusing Arrays"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/focusingarray/0",
+      "value": "収束アレイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/focusingarray/1",
+      "value": "^orange;Tier 4^reset;\n\nBy combining quantum computing with specialized crystals, you can create energy-focusing devices that are excellent in high-tech machines as well as powerful energy weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/focusingarray/1",
+      "value": "^orange;ティア 4^reset;\n\n量子計算と特殊な結晶を組み合わせ、エネルギーを収束させる装置を作れるようになる。高度な機械や、強力なエネルギー兵器で大いに役立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets1/0",
+      "value": "Gadgetry"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets1/0",
+      "value": "便利な道具"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've developed a number of useful tools. Their functionality can be improved by upgrading them with manipulator modules."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets1/1",
+      "value": "^orange;ティア 1^reset;\n\n役立つツールをいくつも開発した。マニピュレーターモジュールで強化すれば、性能をさらに高められる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets2/0",
+      "value": "Advanced Gadgets"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets2/0",
+      "value": "高度な道具"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets2/1",
+      "value": "^orange;Tier 3^reset;\n\nYour experimentation has led to the creation of a few cool new toys."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets2/1",
+      "value": "^orange;ティア 3^reset;\n\n実験の成果として、いくつかの格好いい新しいおもちゃを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets3/0",
+      "value": "Gadgeteering Mastery"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets3/0",
+      "value": "道具作りの極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/gadgets3/1",
+      "value": "^orange;Tier 5^reset;\n\nYour desire for progress has led you to experiment with Morphite to plan a brand-new, super-awesome Matter Manipulator, as well as a few other creations on the side."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/gadgets3/1",
+      "value": "^orange;ティア 5^reset;\n\n進歩への欲求に駆られ、モーファイトの実験を重ねた。まったく新しい、驚異的なマターマニピュレーターを設計し、その傍らで他の発明もいくつか生み出した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/goldcircuitry/0",
+      "value": "Gold Circuits"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/goldcircuitry/0",
+      "value": "金の回路"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/goldcircuitry/1",
+      "value": "^orange;Tier 2^reset;\n\nGold has many useful applications in computing. You can now put it to use in the creation of useful processors and RAM sticks. Make sure to upgrade your Machining Table into an ^orange;Auto Assembler^reset; first!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/goldcircuitry/1",
+      "value": "^orange;ティア 2^reset;\n\n金はコンピューターの分野で多くの用途がある。便利なプロセッサーやRAMの製作に使えるようになる。まずは加工作業台を^orange;自動組立機^reset;へアップグレードしよう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/graphenecircuitry/0",
+      "value": "Graphene Circuits"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/graphenecircuitry/0",
+      "value": "グラフェンの回路"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/graphenecircuitry/1",
+      "value": "^orange;Tier 2^reset;\n\nThe wonderful material known as Graphene conducts electricity far better than its carbon origins might indicate. With it, you can create very durable, heat resistant circuits that will be useful in heavy machinery."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/graphenecircuitry/1",
+      "value": "^orange;ティア 2^reset;\n\nグラフェンという素晴らしい素材は、炭素由来とは思えないほど電気をよく通す。丈夫で熱に強く、重機にも役立つ回路を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/manipulator1/0",
+      "value": "Quantum Manipulation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/manipulator1/0",
+      "value": "量子操作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/manipulator1/1",
+      "value": "^orange;Tier 6^reset;\n\nTurns out you could do better than just Morphite. With a Quantum Manipulator, you can rewrite the fabric of reality itself to excavate vast amounts of material in record time. The Protectorate would be quite jealous, if it still existed."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/manipulator1/1",
+      "value": "^orange;ティア 6^reset;\n\nモーファイトよりも、さらに優れた物を作れると分かった。量子マニピュレーターは、現実を織り成す構造そのものを書き換え、記録的な速さで大量の素材を掘り出す。プロテクターがまだ存在していたら、ひどく羨ましがっただろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbasic/0",
+      "value": "Mech Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbasic/0",
+      "value": "メックの製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbasic/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned a lot about building modular mechs and can now make galactic-standard mech parts at a ^orange;Mech Crafting Table^reset;.\n\nThe weight of your mech is very important. Lighter mechs get around more easily and burn less fuel, while heavy mechs are more durable and can crush things by jumping on them.\n\n^yellow;Note:^reset; You no longer need to gather \"salvage\" components to make mechs - they are now made with other resources such as circuit boards and energy cores. Salvage can be ^orange;extracted^reset; to provide potentially useful resources instead."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbasic/1",
+      "value": "^orange;ティア 2^reset;\n\nモジュール式メックの製作を深く学び、銀河標準規格のメック部品を^orange;メック製作台^reset;で作れるようになる。\n\nメックの重量は非常に重要だ。軽いメックは動きやすく、燃料消費も少ない。重いメックは頑丈で、跳び乗って物を押し潰せる。\n\n^yellow;注意：^reset;メック製作のために「サルベージ」部品を集める必要はなくなった。回路基板やエネルギーコアなど、他の資源を使って作れる。サルベージ品は^orange;抽出^reset;すると、役立つ可能性のある資源を得られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbest/0",
+      "value": "Peerless Mech Crafting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbest/0",
+      "value": "究極のメック製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbest/1",
+      "value": "^orange;Tier 6^reset;\n\nYou know everything there is to know about modular mechs. You can make extremely amazing mech parts that blow the competition away, and summon your mech to you in the field."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbest/1",
+      "value": "^orange;ティア 6^reset;\n\nモジュール式メックについて、知るべきことを全て身に付けた。他を寄せ付けない驚異的なメック部品を作り、探索先へメックを呼び出せるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody1/0",
+      "value": "Improved Mech Bodies"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody1/0",
+      "value": "改良型メック胴体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody1/1",
+      "value": "^orange;Tier 3^reset;\n\nWith increased crafting skill comes the ability to make more advanced mech bodies that resist damage and store more fuel and survive in dangerous atmospheres more easily."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody1/1",
+      "value": "^orange;ティア 3^reset;\n\n製作技術が向上し、高度なメック胴体を作れるようになる。ダメージに強く、燃料搭載量が多く、危険な大気の中でも長く活動できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody2/0",
+      "value": "Advanced Mech Bodies"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody2/0",
+      "value": "高性能メック胴体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody2/1",
+      "value": "^orange;Tier 4^reset;\n\nYou can now make even stronger mech bodies using more complex materials."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody2/1",
+      "value": "^orange;ティア 4^reset;\n\nより複雑な素材を使い、さらに強いメック胴体を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody3/0",
+      "value": "Superior Mech Bodies"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody3/0",
+      "value": "超高性能メック胴体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsbody3/1",
+      "value": "^orange;Tier 5^reset;\n\nThe strongest mech bodies around are now within your ability thanks to your mech-building talent."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsbody3/1",
+      "value": "^orange;ティア 5^reset;\n\nメック製作の才能により、最高水準の強さを持つメック胴体も作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility1/0",
+      "value": "Improved Mech Mobility"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility1/0",
+      "value": "メックの機動力改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've improved on the movement systems of your mech and can now craft faster legs and boosters."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility1/1",
+      "value": "^orange;ティア 3^reset;\n\nメックの移動システムを改良し、より速い脚部とブースターを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility2/0",
+      "value": "Advanced Mech Mobility"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility2/0",
+      "value": "メックの高度な機動力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility2/1",
+      "value": "^orange;Tier 4^reset;\n\nIt's not enough to just go fast - you've got to go really, really fast. You're one step closer to that goal with your newly improved designs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility2/1",
+      "value": "^orange;ティア 4^reset;\n\nただ速いだけでは足りない。もっと、もっと速くなければ。新しい改良設計で、その目標に一歩近付いた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility3/0",
+      "value": "Superior Mech Mobility"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility3/0",
+      "value": "メックの超機動力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmobility3/1",
+      "value": "^orange;Tier 5^reset;\n\nYour talent has produced some of the highest-end mech parts around, letting you run, jump and fly your mech through the stars at record pace."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmobility3/1",
+      "value": "^orange;ティア 5^reset;\n\n才能を生かして、最高級のメック部品をいくつも生み出した。メックで走り、跳び、星々の間を飛ぶ速度が、記録的な水準になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules1/0",
+      "value": "Improved Mech Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules1/0",
+      "value": "改良型メックモジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou can now craft better modules for your mech which grant better stats or increased utility."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules1/1",
+      "value": "^orange;ティア 3^reset;\n\n能力値や利便性を高める、より優れたメックモジュールを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules2/0",
+      "value": "Advanced Mech Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules2/0",
+      "value": "高性能メックモジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules2/1",
+      "value": "^orange;Tier 4^reset;\n\nYou are able to craft even better mech modules."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules2/1",
+      "value": "^orange;ティア 4^reset;\n\nさらに優れたメックモジュールを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules3/0",
+      "value": "Superior Mech Modules"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules3/0",
+      "value": "超高性能メックモジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsmodules3/1",
+      "value": "^orange;Tier 5^reset;\n\nYou can make incredibly powerful mech modules."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsmodules3/1",
+      "value": "^orange;ティア 5^reset;\n\n非常に強力なメックモジュールを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons1/0",
+      "value": "Improved Mech Weapons"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons1/0",
+      "value": "改良型メック武装"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to make some stronger weaponry for your mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons1/1",
+      "value": "^orange;ティア 3^reset;\n\nメック用の、より強力な武器を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons2/0",
+      "value": "Advanced Mech Weapons"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons2/0",
+      "value": "高性能メック武装"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons2/1",
+      "value": "^orange;Tier 4^reset;\n\nThe universe can be a dangerous place, but not if you've got a really big gun. You can make even better mech weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons2/1",
+      "value": "^orange;ティア 4^reset;\n\n宇宙は危険な場所だ。だが、本当に大きな銃があれば話は別。さらに優れたメック用武器を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons3/0",
+      "value": "Superior Mech Weapons"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons3/0",
+      "value": "超高性能メック武装"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechsweapons3/1",
+      "value": "^orange;Tier 5^reset;\n\nThe way you see it, there's no reason to own a mech if you can't strap a BFG to it and go to town on someone (or something) that deserves it. Your newest death-dealing mech weapons are perfect for doing just that."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechsweapons3/1",
+      "value": "^orange;ティア 5^reset;\n\nBFGを載せて、痛い目に遭って当然の相手を蹴散らせないなら、メックを持つ意味などない。それがあなたの考えだ。新しい必殺のメック武装は、その目的にぴったりだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/microformer/0",
+      "value": "Terraforming"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/microformer/0",
+      "value": "テラフォーミング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/microformer/1",
+      "value": "^orange;Tier 5^reset;\n\nThrough the combination of Ancient Essence and robust particle focusers, you can now alter a small part of a planet to better suit your desires using microformation devices."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/microformer/1",
+      "value": "^orange;ティア 5^reset;\n\n古代のエッセンスと頑丈な粒子収束装置を組み合わせ、マイクロフォーマーを使えるようになる。惑星の一部を、より自分好みの環境へ変えられる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mining1/0",
+      "value": "Improved Mining"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mining1/0",
+      "value": "採掘技術の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mining1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've gained the ability to make a variety of more useful mining tools. Of particular note is the Mining Laser, which can be upgraded with Manipulator Modules and uses your energy instead of durability. With enough upgrades, they get quite fast, and are a worthy investment."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mining1/1",
+      "value": "^orange;ティア 1^reset;\n\nより便利な採掘ツールを、各種作れるようになる。特に注目すべきは採掘レーザーだ。マニピュレーターモジュールで強化でき、耐久値の代わりにエネルギーを消費する。十分に強化すると非常に速くなり、投資する価値がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mining2/0",
+      "value": "Power Mining"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mining2/0",
+      "value": "強力な採掘"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mining2/1",
+      "value": "^orange;Tier 3^reset;\n\nThey may not last forever, but they sure do mine fast. You gain access to a few more consumable mining tools."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mining2/1",
+      "value": "^orange;ティア 3^reset;\n\n永久には使えなくても、採掘速度は抜群だ。使い切りの採掘ツールを、さらにいくつか作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/modulecrafting/0",
+      "value": "Upgrade Crafting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/modulecrafting/0",
+      "value": "強化部品の製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/modulecrafting/1",
+      "value": "^orange;Tier 3^reset;\n\nUsing your knowledge of microengineering, you can now fabricate your own upgrade modules, manipulator modules and tech cards at your Auto Assembler."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/modulecrafting/1",
+      "value": "^orange;ティア 3^reset;\n\n微細工学の知識を使い、自動組立機でアップグレードモジュール、マニピュレーターモジュール、テックカードを自作できるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/morphitecircuitry/0",
+      "value": "Morphite Circuits"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/morphitecircuitry/0",
+      "value": "モーファイトの回路"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/morphitecircuitry/1",
+      "value": "^orange;Tier 5^reset;\n\nWith access to Morphite, even AI technology is within your reach, allowing the creation of supremely fast computing components that are capable of self-improvement and basic decision-making. It's no surprise that many governments ban this technology outright for fear of what amazing things it can do."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/morphitecircuitry/1",
+      "value": "^orange;ティア 5^reset;\n\nモーファイトがあれば、AI技術すら手の届くものになる。自己改良や基本的な判断ができる、極めて高速なコンピューター部品を作れる。多くの政府が、この技術の驚くべき可能性を恐れて全面禁止にしているのも無理はない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/musicplayers/0",
+      "value": "Music"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/musicplayers/0",
+      "value": "音楽"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/musicplayers/1",
+      "value": "^orange;Tier 1^reset;\n\nYou can now create a variety of music boxes at your Tinkering Table. These can play any music from Starbound, Frackin' Universe or the add-on Frackin' Music, if you have it installed."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/musicplayers/1",
+      "value": "^orange;ティア 1^reset;\n\n改造作業台で、さまざまなミュージックボックスを作れるようになる。StarboundやFrackin' Universeの全楽曲に加え、追加MODのFrackin' Musicを導入していれば、その曲も再生できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/powercores1/0",
+      "value": "Energy Cores"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/powercores1/0",
+      "value": "エネルギーコア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/powercores1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a trio of powerful energy cores, each with their own laundry list of scientific and military applications. Molten Cores are excellent when dealing with intense heat such as in blast furnaces or lava-spewing flamethrowers. Power Cores shine in kinetic applications, and are useful in machines with many moving parts and high-end ballistic weaponry. Nuclear Cores are useful for channeling radiation, such as in a fission reactor, or just plain making tons of energy for high-demand inventions."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/powercores1/1",
+      "value": "^orange;ティア 3^reset;\n\n三種類の強力なエネルギーコアを設計した。それぞれに、科学や軍事の多くの用途がある。溶融コアは、溶鉱炉や溶岩を噴く火炎放射器など、激しい熱を扱う用途に優れる。パワーコアは運動エネルギーを扱う分野で真価を発揮し、可動部の多い機械や高性能な実弾兵器に役立つ。核コアは、核分裂炉のように放射線を扱ったり、大量のエネルギーを必要とする発明品に電力を供給したりするのに向いている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/powercores2/0",
+      "value": "Improved Cores"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/powercores2/0",
+      "value": "コアの改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/powercores2/1",
+      "value": "^orange;Tier 4^reset;\n\nYour skill with compact power sources has allowed you to make two more useful cores, expanding your engineering capability greatly. Teleporter Cores are perfect for transportation and constructing large, automated item networks, while Particle Cores are unmatched at channeling atomic and subatomic particles - the photons in a powerful laser, for example."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/powercores2/1",
+      "value": "^orange;ティア 4^reset;\n\n小型電源の技術により、さらに二種類の役立つコアを作れるようになり、工学の可能性が大きく広がる。テレポーターコアは輸送や、大規模な自動アイテム搬送網の構築に最適だ。一方、粒子コアは、強力なレーザーの光子など、原子や亜原子粒子を制御する能力に並ぶものがない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/protocitecircuitry/0",
+      "value": "Protocite Circuits"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/protocitecircuitry/0",
+      "value": "プロトサイトの回路"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/protocitecircuitry/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've put the insane energy-transferring properties of Protocite to work in highly complex processors which work with quantum bits - no longer just 1 or 0, but sometimes both! Quantum Procesors have many uses in higher-end electronics."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/protocitecircuitry/1",
+      "value": "^orange;ティア 3^reset;\n\nプロトサイトの驚異的なエネルギー伝達能力を、量子ビットを扱う高度なプロセッサーへ応用した。もはや1か0かだけではない。同時に両方の状態も取れる！ 量子プロセッサーは、高度な電子機器で幅広く役立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics1/0",
+      "value": "Basic Robotics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics1/0",
+      "value": "ロボット工学の基礎"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics1/1",
+      "value": "^orange;Tier 2^reset;\n\nWith your engineering knowledge, you have designed a few basic depolyable robot minions to help you out."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics1/1",
+      "value": "^orange;ティア 2^reset;\n\n工学の知識を用い、呼び出して手助けさせられる、基本的なロボットの従者をいくつか設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics2/0",
+      "value": "Stronger Robots"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics2/0",
+      "value": "強力なロボット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics2/1",
+      "value": "^orange;Tier 3^reset;\n\nYour robotic knowledge is growing, and it shows in your handy new designs. You now have access to stronger robots."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics2/1",
+      "value": "^orange;ティア 3^reset;\n\nロボットの知識が増え、その成果が便利な新設計にも表れている。より強力なロボットを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics3/0",
+      "value": "Murderbots"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics3/0",
+      "value": "殺戮ロボット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/robotics3/1",
+      "value": "^orange;Tier 4^reset;\n\nYou're a master at making combat drones. Your latest creations are deadlier than ever and will protect you quite nicely."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/robotics3/1",
+      "value": "^orange;ティア 4^reset;\n\n戦闘ドローン製作の達人となった。最新の作品はこれまで以上に致命的で、しっかりと身を守ってくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sciencestuff/0",
+      "value": "Lab Utilities"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sciencestuff/0",
+      "value": "研究室の便利な設備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sciencestuff/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can now create a variety of helpful objects at your Machining Table, though you may have to upgrade it first to do so."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sciencestuff/1",
+      "value": "^orange;ティア 2^reset;\n\n加工作業台で、さまざまな便利な設備を作れるようになる。ただし、先に作業台のアップグレードが必要な場合もある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shields/0",
+      "value": "Shields"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shields/0",
+      "value": "シールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shields/1",
+      "value": "^orange;Tier 3^reset;\n\nWith a solid understanding of computer technology and physics you can now create Force Fields that ^green;protect your base from harm^reset;, ^green;control gravity^reset; and ^green;provide breathable air^reset;. Quite useful!\n\nTo protect a location, place two field markers at the opposite corners of a square around the area, and wire them to the field generator's output connector. Field extenders can be used as relays, to connect the field markers beyond the normal wiring range."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shields/1",
+      "value": "^orange;ティア 3^reset;\n\nコンピューター技術と物理学への確かな理解により、フォースフィールドを作れるようになる。^green;拠点を被害から守る^reset;、^green;重力を制御する^reset;、^green;呼吸できる空気を供給する^reset;など、とても便利だ！\n\n場所を保護するには、囲みたい四角形の対角にフィールドマーカーを置き、フィールド発生器の出力端子へ配線する。通常の配線距離を超えてマーカーを接続する場合は、フィールド拡張器を中継に使える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shipcrafting/0",
+      "value": "Shipcrafting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shipcrafting/0",
+      "value": "宇宙船の製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shipcrafting/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've designed a Ship Crafting Table to produce more advanced ship components."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shipcrafting/1",
+      "value": "^orange;ティア 2^reset;\n\n高度な宇宙船部品を作るための、宇宙船製作台を設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shipdecorative/0",
+      "value": "Ship Decoration"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shipdecorative/0",
+      "value": "宇宙船の装飾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/shipdecorative/1",
+      "value": "^orange;Tier 2^reset;\n\nYou gain access to a large number of decorative ship objects. They don't do anything, but maybe they'll make your ship look cooler?"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/shipdecorative/1",
+      "value": "^orange;ティア 2^reset;\n\n多数の宇宙船用装飾品を作れるようになる。特に機能はないけれど、船を格好よく見せられるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spacebasic/0",
+      "value": "Spacefaring and Vehicles"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spacebasic/0",
+      "value": "宇宙航行と乗り物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spacebasic/1",
+      "value": "^orange;Tier 1^reset;\n\nYour spaceship may have broken down, but that doesn't mean you can't fix it. Using parts from your old junked FTL drive and the thermal power of Core Fragments, you are now able to make a basic ship engine (^cyan;STL Engine^reset;, created at a ^orange;Machining Table^reset;).\n\nWhile fine for intrastellar travel, the STL engine isn't nearly powerful enough to leave your system - you'll need to ^orange;Research^reset; proper FTL technology to do that.\n\nIf ^cyan;Fuel^reset; is proving an issue to find for your ship: head to a ^green;Moon^reset; or produce some ^cyan;Hydrogen^reset; by processing water (via ^orange;Extraction^reset; or ^orange;Centrifuge^reset;).\n\nAdditionally, you can craft a very simple mech for EVA or planetary usage (created at a ^orange;Mech Part Crafting Table^reset;. You can ^green;Research^reset; one later, or use the one at the ^orange;Outpost^reset;).\n\nMechs will provide a large amount of damage resistance and help you stay alive for longer in harsh situations, and are able to ^green;Fly^reset; in an atmosphere as well as space.\n\nIf you're having trouble finding ^orange;Core Fragments^reset;, just dig towards the planet core. You'll find some there."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spacebasic/1",
+      "value": "^orange;ティア 1^reset;\n\n宇宙船は故障したが、修理できないわけではない。壊れたFTLドライブの部品と、コアの破片が持つ熱エネルギーを使い、基本的な船のエンジンを作れるようになる。^cyan;STLエンジン^reset;は、^orange;加工作業台^reset;で作成する。\n\nSTLエンジンは星系内の移動には十分だが、星系を離れるほどの力はない。そのためには^orange;研究^reset;を進め、本格的なFTL技術を学ぶ必要がある。\n\n船の^cyan;燃料^reset;が見つからないなら、^green;月^reset;へ向かうか、^cyan;水素^reset;を作ろう。水を^orange;抽出機^reset;か^orange;遠心分離機^reset;で処理すれば手に入る。\n\nさらに、船外活動や惑星で使う、基本的なメックも作れる。製作には^orange;メック部品製作台^reset;を使う。後で^green;研究^reset;して自作するか、^orange;前哨基地^reset;の設備を使おう。\n\nメックは高いダメージ耐性を備え、過酷な状況でも長く生き延びる助けになる。宇宙だけでなく、大気中でも^green;飛行^reset;できる。\n\n^orange;コアの破片^reset;が見つからないなら、惑星の中心核に向かって掘ろう。そこにあるはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl1/0",
+      "value": "Faster than Light"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl1/0",
+      "value": "光速を超えて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl1/1",
+      "value": "^orange;Tier 2^reset;\n\nThe science behind Erchius Crystals is still very vague, but one thing is known for certain: these crystals hold the key to FTL travel. With the ability to make your own FTL drives, the whole galaxy is now open to exploration.\n\nWhen Erchius-based drives were still in their infancy, only Erchius fuel could power FTL travel. However, it has since been discovered how to fuel drives with a variety of sources such as ^green;radioactive isotopes^reset; or ^green;biofuel^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl1/1",
+      "value": "^orange;ティア 2^reset;\n\nエルキウス結晶の仕組みには、まだ不明な点が多い。それでも、FTL航行の鍵を握ることだけは確かだ。FTLドライブを自作できるようになれば、銀河全体が探索の舞台となる。\n\nエルキウス式ドライブの黎明期には、FTL航行に使えるのはエルキウス燃料だけだった。しかし今では、^green;放射性同位体^reset;や^green;バイオ燃料^reset;など、さまざまなエネルギー源を利用する方法が知られている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl2/0",
+      "value": "Improved FTL Tech"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl2/0",
+      "value": "FTL技術の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've improved on your FTL design, allowing for the creation of bigger, more powerful engines and a way to further purify and enhance your ship's fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl2/1",
+      "value": "^orange;ティア 3^reset;\n\nFTLドライブの設計を改良し、より大きく強力なエンジンを作れるようになる。船の燃料を、さらに精製・強化する方法も学べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl3/0",
+      "value": "Advanced FTL Tech"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl3/0",
+      "value": "高度なFTL技術"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl3/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've studied erchius crystals extensively and know a great deal about their functionality. You can build even better FTL drives and fuel purifiers."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl3/1",
+      "value": "^orange;ティア 4^reset;\n\nエルキウス結晶を詳しく研究し、その働きについて多くを知った。さらに優れたFTLドライブと燃料精製器を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl4/0",
+      "value": "Peerless FTL Tech"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl4/0",
+      "value": "FTL技術の極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/spaceftl4/1",
+      "value": "^orange;Tier 5^reset;\n\nYour knowledge of FTL tech is mind-boggling to anyone but you. You can make the fastest FTL drives and boosters around, and can purify and enhance FTL fuel so efficiently that you can cross the distance between stars with only a few drops of fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/spaceftl4/1",
+      "value": "^orange;ティア 5^reset;\n\nFTL技術の知識は、あなた以外には理解しがたいほど高度になった。最高速のFTLドライブやブースターを作り、燃料を極めて効率よく精製・強化できる。ほんの数滴の燃料で、星々の間を渡れるほどだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/0",
+      "value": "Basic Training"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/0",
+      "value": "基礎訓練"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;Tier 1^reset;\n\nYour training, thanks to four years in the Protectorate Academy, provides you with basic survival skills to keep you alive for extended periods in the event of a crash."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;ティア 1^reset;\n\nプロテクター養成学校での四年間の訓練により、墜落事故に遭っても長期間生き延びるための、基本的なサバイバル技術を身に付けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs1/0",
+      "value": "Homemade Techs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs1/0",
+      "value": "自作テック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to make your own body-enhancing Techs and can create a few basic ones in your ^orange;Personal Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs1/1",
+      "value": "^orange;ティア 1^reset;\n\n身体能力を高めるテックを自作する方法を学ぶ。^orange;個人用トライコーダー^reset;で、いくつかの基本的なテックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs2/0",
+      "value": "Improved Techs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs2/0",
+      "value": "改良型テック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can make improved Techs that provide greater utility and function. They are accessed via your ^orange;Personal Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs2/1",
+      "value": "^orange;ティア 2^reset;\n\n利便性と機能性を高めた、改良型テックを作れるようになる。^orange;個人用トライコーダー^reset;から利用できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs3/0",
+      "value": "Superior Techs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs3/0",
+      "value": "高性能テック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs3/1",
+      "value": "^orange;Tier 4^reset;\n\nYou can make significantly improved Techs that provide even more benefit. They are accessed via your ^orange;Personal Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs3/1",
+      "value": "^orange;ティア 4^reset;\n\n大幅に性能が向上し、さらに大きな恩恵をもたらすテックを作れるようになる。^orange;個人用トライコーダー^reset;から利用できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs4/0",
+      "value": "Peerless Techs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs4/0",
+      "value": "究極のテック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/techs4/1",
+      "value": "^orange;Tier 5^reset;\n\nYou're one of the best tech engineers in the whole galaxy, and your creations are the envy of just about everyone in the field. You can make extremely powerful techs. They are accessed via your ^orange;Personal Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/techs4/1",
+      "value": "^orange;ティア 5^reset;\n\n銀河でも最高のテック技術者のひとりとなり、あなたの発明は同業者の誰もが羨むものとなった。極めて強力なテックを作れるようになる。^orange;個人用トライコーダー^reset;から利用できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/teleporters/0",
+      "value": "DIY Teleportation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/teleporters/0",
+      "value": "自作テレポーター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/teleporters/1",
+      "value": "^orange;Tier 4^reset;\n\nNo longer do you need to pay a professional - you ^green;are^reset; that professional! You can make a variety of personal teleporters on your own."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/teleporters/1",
+      "value": "^orange;ティア 4^reset;\n\nもう専門家にお金を払う必要はない。^green;あなた自身が^reset;専門家なのだから！ さまざまな個人用テレポーターを自作できるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraformer/0",
+      "value": "Terraforming II"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraformer/0",
+      "value": "テラフォーミング II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraformer/1",
+      "value": "^orange;Tier 5^reset;\n\nYou can now shape entire planets to your liking, altering their environment to new types. Note that this will not work for Ocean worlds, which is why no such terraformers exist."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraformer/1",
+      "value": "^orange;ティア 5^reset;\n\n惑星全体の環境を別の種類に変え、自分好みに作り替えられるようになる。ただし海洋惑星では機能しない。そのため、海洋用のテラフォーマーは存在しない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraformer2/0",
+      "value": "Terraforming III"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraformer2/0",
+      "value": "テラフォーミング III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraformer2/1",
+      "value": "^orange;Tier 6^reset;\n\nThanks to your understanding of terraforming devices you can now create even more interesting forms of worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraformer2/1",
+      "value": "^orange;ティア 6^reset;\n\nテラフォーミング装置への理解により、さらに興味深い種類の惑星環境を作り出せるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/tinkering1/0",
+      "value": "Tinkering"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/tinkering1/0",
+      "value": "道具を改造しよう"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/tinkering1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou're learning that engineering isn't just about making new things, but improving on the ones you already made. To this end, you've learned to create a ^orange;Tinkering Table^reset; which will allow you to make EPP modules, mining gear, special weapon upgrades, and useful tools such as a Hookshot or Mining Laser."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/tinkering1/1",
+      "value": "^orange;ティア 1^reset;\n\n工学は、新しい物を作るだけでなく、既に作った物を改良する学問でもある。そのための^orange;改造作業台^reset;を作れるようになる。EPPモジュール、採掘装備、特殊な武器強化品や、フックショット、採掘レーザーなどの便利なツールを製作できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/vehicles1/0",
+      "value": "Vehicle Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/vehicles1/0",
+      "value": "乗り物の製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/vehicles1/1",
+      "value": "^orange;Tier 3^reset;\n\nTurns out making cool vehicles isn't too different from working with spaceships. You can make submarines and VTOL craft that can operate both in space and in atmosphere. Make them at your Auto Assembler/Matter Assembler."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/vehicles1/1",
+      "value": "^orange;ティア 3^reset;\n\n格好いい乗り物の製作は、宇宙船作りとそれほど違わないと分かった。潜水艇や、宇宙・大気中の両方で使える垂直離着陸機を作れるようになる。自動組立機または物質組立機で製作しよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/vehicles2/0",
+      "value": "Supreme Vehicles"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/vehicles2/0",
+      "value": "究極の乗り物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/vehicles2/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've designed a couple more vehicles that are deadlier, faster, more durable and all around, super useful."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/vehicles2/1",
+      "value": "^orange;ティア 6^reset;\n\n攻撃力、速度、耐久性が高く、あらゆる面で非常に便利な乗り物を、さらにいくつか設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/trees/fu_engineering",
+      "value": "Engineering"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/trees/fu_engineering",
+      "value": "工学"
+    }
+  ]
+]

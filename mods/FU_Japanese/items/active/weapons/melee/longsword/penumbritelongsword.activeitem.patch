@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cuts with shadowy purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウ目的のカット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長刀"
+    }
+  ]
+]

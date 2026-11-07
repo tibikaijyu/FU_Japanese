@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny hatch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなハッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Tiny Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体極小 Hatch"
+    }
+  ]
+]

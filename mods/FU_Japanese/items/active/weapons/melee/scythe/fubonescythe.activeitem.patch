@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jagged and cruel edge. Not friendly, but bad-assed.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ギザギザで残酷なエッジ。 フレンドリーではないが、悪い。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボーン・サイス"
+    }
+  ]
+]

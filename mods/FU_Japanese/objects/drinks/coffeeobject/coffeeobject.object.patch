@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freshly brewed coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーヒーを新造する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Fresssh coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フレッシュコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relieved. Freshly brewed coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "救われた。 コーヒーを新造する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A cup of hot brew."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "熱いビールのカップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コーヒー"
+    }
+  ]
+]

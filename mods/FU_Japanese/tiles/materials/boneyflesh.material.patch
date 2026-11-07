@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Oh boy. This is pleasant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あら! これは楽しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Boney Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボニー・フラッシュ"
+    }
+  ]
+]

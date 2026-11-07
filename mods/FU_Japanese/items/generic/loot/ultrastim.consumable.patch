@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;+^white;6 ^cyan;Defense ^gray;(^white;2m^gray;)\n^cyan;-^white;30% ^cyan;Gravity ^gray;(^white;15s^gray;)\n^green;Repair ^white;160% ^green;Shield HP ^gray;(^white;30s^gray;)\n^green;Heal ^white;40% ^green;HP ^gray;(^white;1m^gray;)\n^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;+^white;6 ^cyan;防衛 ^gray;(^white;2え?^gray;)\n^cyan;-^white;30% ^cyan;重力 ^gray;(^white;15ス)^gray;)\n^green;修理 ^white;160% ^green;盾 HP ^gray;(^white;30ス)^gray;)\n^green;癒し ^white;40% ^green;HP ^gray;(^white;1え?^gray;)\n^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X-Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "X刺激剤"
+    }
+  ]
+]

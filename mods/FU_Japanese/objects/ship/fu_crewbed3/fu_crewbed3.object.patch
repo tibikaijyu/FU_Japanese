@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fits two crew members. Installs into the wall! ^yellow;Crew +2^reset;. Counts as a deed. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乗員二名。 壁にインストールします! ^yellow;船員+2^reset;。 行為としてカウントされる。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crew Bunk (Double)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルー・バンク(ダブル)"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Charm Necklace"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "チャームネックレス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Positively marvellous, darling!\n^green;+20%^reset; Charisma (Trading)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肯定的に素晴らしい、かわいい!\n^green;+20%^reset;カリスマ(取引)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charm Necklace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャームネックレス"
+    }
+  ]
+]

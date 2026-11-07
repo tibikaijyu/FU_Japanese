@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A skirt worn by attractive spacefarers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魅力的な宇宙飛行士が着用するスカート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Starfarer's Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スターファラーのスカート"
+    }
+  ]
+]

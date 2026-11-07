@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not surprisingly, these are jammed with energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "当然ながら、これらはエネルギーで詰まっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Battery Stem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バッテリーステム"
+    }
+  ]
+]

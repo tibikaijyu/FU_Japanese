@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Simple leggings made from comfortably soft materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やわらかい素材でシンプルなレギンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hawker's Trousers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホーカーのズボン"
+    }
+  ]
+]

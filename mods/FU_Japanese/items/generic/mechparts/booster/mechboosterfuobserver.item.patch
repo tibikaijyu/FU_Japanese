@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Average speed. Fantastic control."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "平均速度。 素晴らしいコントロール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Observer Mech Boosters"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オブザーバーメカブースター"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Okay, mew is really really concerned now. New Kevin message. \"My fault. All my fault. ALL MY FAULT.\" Very unlike him. What his fault though?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "さて、今、新しいことは本当に本当に心配しています。 新しいケビンメッセージ。 「私のせいだ私のせいだ全部私のせいだ」 彼とは違う。 彼のせいは何?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "Find the ^orange;artifact^reset; in the ^orange;Dark Miniknog stronghold^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "^orange;アーティファクト ^reset; は ^orange; 闇 ミニノグ の強み ^reset; にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Khe^reset; at ^orange;the Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケー^reset; で ^orange;えッ? 科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Next on da list, smacking da monkey. Okay, not that kind. Go kill a Big Ape."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "リストの次に、猿を叩きます。 そうじゃない。 大きな猿を殺せ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark Imperator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ダークインペレータ"
+    }
+  ]
+]

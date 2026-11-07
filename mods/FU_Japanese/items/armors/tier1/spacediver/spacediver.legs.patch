@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;20^reset;% Knockback Resist, ^green;2x^reset; Breath\n^yellow;^reset; Harpoon Gun: Damage x^green;1.2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;20^reset;% ノックバックレジスト ^green;2十^reset; 息\n^yellow;^reset;銛銃:損傷x ^green;1.2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Space Diver Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ダイバーパンツ"
+    }
+  ]
+]

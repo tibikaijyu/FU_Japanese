@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unsure if meant for farming or murder. Fun either way.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "農耕や殺人の目的がわからない。 どちらでも楽しい。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムサイス"
+    }
+  ]
+]

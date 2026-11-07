@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Taste the ocean, with Reef-Cola."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サンゴ礁コーラで海を味わいましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "\"Sside effects include: temporary growth of webbed feet\". Uh..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "「副作用は、水床足の一時的な成長です」 うーん..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disgusted. \"Taste the ocean\" indeed - this drink is practically just salt water!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 「海を味わいなさい」はたしかに、この飲み物は塩水にすぎません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Can't say I care much for the taste. But I do feel mighty fishy after takin' a sip."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "味をあまり気にしない。 でも、一口飲み終わったら、とても魚っぽく感じます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reef-Cola"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴ礁"
+    }
+  ]
+]

@@ -1,0 +1,422 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/filterFunctionsLabel/value",
+      "value": "^red;Script Error^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filterFunctionsLabel/value",
+      "value": "^red;スクリプトエラー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/filterFunctionsLabel2/value",
+      "value": "^red;Meow.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filterFunctionsLabel2/value",
+      "value": "^red;にゃあ。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/filterSlotLabel/value",
+      "value": "Filtered Items:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filterSlotLabel/value",
+      "value": "フィルター項目:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/helpLabel/value",
+      "value": "^yellow;Help Mode^reset;:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/helpLabel/value",
+      "value": "^yellow;ヘルプモード^reset;:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/inputSlotLabel/value",
+      "value": "Input Slots:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/inputSlotLabel/value",
+      "value": "入力スロット:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item1ButtonInvert/caption",
+      "value": "Inv. Logic"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item1ButtonInvert/caption",
+      "value": "インヴ。 論理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item1Label/value",
+      "value": "Item 1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item1Label/value",
+      "value": "アイテム 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item1LabelCategory/value",
+      "value": "Category"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item1LabelCategory/value",
+      "value": "カテゴリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item1LabelExact/value",
+      "value": "Exact"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item1LabelExact/value",
+      "value": "完全一致"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item1LabelType/value",
+      "value": "Type"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item1LabelType/value",
+      "value": "種類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item2ButtonInvert/caption",
+      "value": "Inv. Logic"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item2ButtonInvert/caption",
+      "value": "インヴ。 論理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item2Label/value",
+      "value": "Item 2"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item2Label/value",
+      "value": "アイテム 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item2LabelCategory/value",
+      "value": "Category"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item2LabelCategory/value",
+      "value": "カテゴリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item2LabelExact/value",
+      "value": "Exact"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item2LabelExact/value",
+      "value": "完全一致"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item2LabelType/value",
+      "value": "Type"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item2LabelType/value",
+      "value": "種類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item3ButtonInvert/caption",
+      "value": "Inv. Logic"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item3ButtonInvert/caption",
+      "value": "インヴ。 論理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item3Label/value",
+      "value": "Item 3"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item3Label/value",
+      "value": "アイテム 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item3LabelCategory/value",
+      "value": "Category"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item3LabelCategory/value",
+      "value": "カテゴリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item3LabelExact/value",
+      "value": "Exact"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item3LabelExact/value",
+      "value": "完全一致"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item3LabelType/value",
+      "value": "Type"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item3LabelType/value",
+      "value": "種類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item4ButtonInvert/caption",
+      "value": "Inv. Logic"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item4ButtonInvert/caption",
+      "value": "インヴ。 論理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item4Label/value",
+      "value": "Item 4"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item4Label/value",
+      "value": "アイテム 4"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item4LabelCategory/value",
+      "value": "Category"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item4LabelCategory/value",
+      "value": "カテゴリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item4LabelExact/value",
+      "value": "Exact"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item4LabelExact/value",
+      "value": "完全一致"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item4LabelType/value",
+      "value": "Type"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item4LabelType/value",
+      "value": "種類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item5ButtonInvert/caption",
+      "value": "Inv. Logic"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item5ButtonInvert/caption",
+      "value": "インヴ。 論理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item5Label/value",
+      "value": "Item 5"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item5Label/value",
+      "value": "アイテム 5"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item5LabelCategory/value",
+      "value": "Category"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item5LabelCategory/value",
+      "value": "カテゴリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item5LabelExact/value",
+      "value": "Exact"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item5LabelExact/value",
+      "value": "完全一致"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/item5LabelType/value",
+      "value": "Type"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/item5LabelType/value",
+      "value": "種類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/leaveOneItemMode/caption",
+      "value": "Leave One"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/leaveOneItemMode/caption",
+      "value": "一つ残して"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/onlyStackMode/caption",
+      "value": "Stack Only"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/onlyStackMode/caption",
+      "value": "スタックのみ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/outputSlotLabel/value",
+      "value": "Output Slots:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/outputSlotLabel/value",
+      "value": "出力スロット:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/roundRobinMode/caption",
+      "value": "Even Split"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/roundRobinMode/caption",
+      "value": "分裂も"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/roundRobinSlotMode/caption",
+      "value": "Slot Split"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/roundRobinSlotMode/caption",
+      "value": "スロットスプリット"
+    }
+  ]
+]

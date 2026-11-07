@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a black slime bog."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を黒いスライムボッグに変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Slime Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラックスライムマイクロフォーマ"
+    }
+  ]
+]

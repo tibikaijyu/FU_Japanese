@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Erchius Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "エルキウス・シャード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "E. Regen x^green;1.15^reset;\n^green;+Glow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギー再生×^green;1.15^reset;\n^green;発光効果を付与^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウス・シャード"
+    }
+  ]
+]

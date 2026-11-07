@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases mech maneuverability and jump power but lowers speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "機械の操縦性を高め、パワーをジャンプしますが、速度を低下させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Acrobat Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクロバットモジュール"
+    }
+  ]
+]

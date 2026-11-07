@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tangy fruit with a highly sought flavor. ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高い風味が求められるタンギーフルーツ。 ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The head of a Bee flower. Contains traces of anti-mite poison!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチの花の頭。 抗ダニ毒の痕跡が残っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bee Flower Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蜂の花の頭"
+    }
+  ]
+]

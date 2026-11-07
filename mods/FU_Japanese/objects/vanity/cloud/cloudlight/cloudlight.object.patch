@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A light made from clouds. It's kind-of wet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られた光。 濡れてるみたいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雲灯"
+    }
+  ]
+]

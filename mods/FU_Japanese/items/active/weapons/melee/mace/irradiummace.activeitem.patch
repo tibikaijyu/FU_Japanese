@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Radiation-laced for extra merriment.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "余計な娯楽のために放射線がかかっています。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムメイス"
+    }
+  ]
+]

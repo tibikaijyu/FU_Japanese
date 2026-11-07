@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unsure how this is possible, but okay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どうやって実現できるのかは不明だが、大丈夫だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチン質石"
+    }
+  ]
+]

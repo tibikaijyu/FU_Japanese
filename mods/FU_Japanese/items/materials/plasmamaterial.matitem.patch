@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A material made from ionic matter similar to plasma.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラズマに似たイオン物質から作られた材料です。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Miasmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミスメット"
+    }
+  ]
+]

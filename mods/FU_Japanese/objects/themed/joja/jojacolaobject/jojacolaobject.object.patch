@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "... I'll be frank: This is an incredibly off-putting looking drink."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "... 率直に言って、これは信じられないほどオフパッティングな飲み物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Is it me, or does this can smell like it was fished out of a river?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "それとも、川で釣られたような匂いがするのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The flagship product of the ^blue;Joja^reset; corporation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^blue;ジョジャ^reset; 企業の主力製品です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssso blue... TOO blue..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サッソブルー... 青すぎる..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disturbed. \"Does not cause a significant erosion of the stomach lining\"?!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 「胃の裏地がひどく侵食されないの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Supposedly there were recalls of this stuff due to the dye they were using."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "染料が使われていたため、この商品のリコールがあったと推定されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I think I'll pass, thank you."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "ありがとう、合格すると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Apparently this stuff never goes flat. I don't wanna know what they put in there to get it to do that."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "どうやらこれは決して平坦ではないようだ。 彼らがそれをするために何を入れたのか知りたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Cola"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;コーラ"
+    }
+  ]
+]

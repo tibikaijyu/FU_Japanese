@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blast the enemy with incendiary needles.\n^yellow;Inflicts burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火傷針で敵を爆破する。\n^yellow;焼失する影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^red;Scorch Needler^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^red;灼熱ニードラー^reset;"
+    }
+  ]
+]

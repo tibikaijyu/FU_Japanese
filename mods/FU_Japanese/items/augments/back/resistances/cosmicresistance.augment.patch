@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Cosmic Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "宇宙バリア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that resists the Cosmic element, ^green;+30% Cosmic Resist^reset; and ^cyan; Aether Immunity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙属性を防ぐEPPモジュール。^green;宇宙属性耐性+30%^reset;と^cyan;エーテル無効化^reset;を付与する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙バリア"
+    }
+  ]
+]

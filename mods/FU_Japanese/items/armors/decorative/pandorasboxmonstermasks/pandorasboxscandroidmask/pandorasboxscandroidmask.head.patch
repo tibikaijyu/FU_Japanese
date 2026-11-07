@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Our scanners indicate this will be a popular product."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私たちのスキャナーは、これが人気のある製品になることを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scandroid Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカンドロイドマスク"
+    }
+  ]
+]

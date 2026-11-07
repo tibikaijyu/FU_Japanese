@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Likely unsafe to touch, despite its surreal beauty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その超リアルな美しさにもかかわらず、触れることはおそらく安全でありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jellyfish"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラゲ"
+    }
+  ]
+]

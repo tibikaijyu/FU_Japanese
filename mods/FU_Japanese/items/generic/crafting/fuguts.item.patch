@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mass of internal organs"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内臓の塊は"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Guts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "概要"
+    }
+  ]
+]

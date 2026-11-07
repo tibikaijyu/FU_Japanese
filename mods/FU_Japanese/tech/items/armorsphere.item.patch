@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavily armored distortion sphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重装甲の歪み球体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Armor Sphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;装甲球体^reset;"
+    }
+  ]
+]

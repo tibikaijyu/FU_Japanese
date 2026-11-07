@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "I guard the path set by the Matriarch."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "私は女主人によって設定されたパスをガードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/cantReach/default/default/0",
+      "value": "The darkness will turn on you...!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/cantReach/default/default/0",
+      "value": "暗闇があなた自身を襲う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/cheerOn/default/default/0",
+      "value": "Show them no quarter!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/cheerOn/default/default/0",
+      "value": "情けをかけるな！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "The foe is slain. Thank you for your assistance, my friend. Until we meet again."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "敵は殺された。 助けてくれてありがとう、友よ。 もう一度会うまで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/lostTarget/default/default/0",
+      "value": "There is no where to hide."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/lostTarget/default/default/0",
+      "value": "隠れるところはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/outOfSight/default/default/0",
+      "value": "It is pointless to hide!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/outOfSight/default/default/0",
+      "value": "隠れることは無意味です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "Face my wrath, you wretch!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "私の怒りに直面して、あなたの悪態!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vashta is ugly stuff, but not as ugly as the rage it induces."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヴァシュタは、ひどいものだが、それが引き起こす怒りほどひどいものではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vashta"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァシュタ"
+    }
+  ]
+]

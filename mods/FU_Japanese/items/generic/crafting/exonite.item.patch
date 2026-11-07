@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gem grown in secret on the Eld'uukhar homeworld. It has hallucinogenic properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドゥーカーの故郷で密かに成長した宝石。 幻覚作用を有する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exonite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エクソナイト結晶"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Damage x1.15^reset;, ^cyan;Health x1.25^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan; 損害 x 1.15^reset;, ^cyan; 健康 x 1.25^reset;: 1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Porphis Blossom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポーフィス・ブロッサム"
+    }
+  ]
+]

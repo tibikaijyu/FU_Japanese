@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Are all the portion sizes so... heavy?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "パーツのサイズは全部重いの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The size of this menu is a little overwhelming."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このメニューのサイズは少し圧倒的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What a selection!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんて選択なんだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran will take one of everything!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、すべてのうちの一つを取るでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Nervous. I always have trouble deciding what to get before I reach the counter."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "神経質。 私はカウンターに着く前に何を得るか決めるのにいつも苦労している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'm gonna get 10 orders of nuggets and eat them all in one sitting!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私は10ナゲットの順序を取得し、一つの座席でそれらをすべて食べるつもりです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A large menu... but where are the calorie listings?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "大きなメニューですが、カロリーリストはどこにありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I just pick a favorite and stick to it. No need for rememberin' a whole menu."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "好きなものを選んで、それに固執するだけです。 メニュー全体を思い出す必要はありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burger Fool Menu"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーガーフールメニュー"
+    }
+  ]
+]

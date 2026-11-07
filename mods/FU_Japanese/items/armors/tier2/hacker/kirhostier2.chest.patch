@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;25^reset;% Energy Regen\n^yellow;^reset; Striker: +^green;1^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;25^reset;% エネルギー再生\n^yellow;^reset;ストライカー:+^green;1^reset;%クリティカル率\n^yellow;^reset; ^cyan;免疫^reset;ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hacker Overcoat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハッカーオーバーコート"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather broken and tarnished blade. It bears fine etched details."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり壊れていて、傷ついた刃。 細かいエッチング加工が施されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Densinium Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウム鋼"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "An old, tarnished blade now reforged and glowing with an otherworldly light."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "古い、変色した刃は、今では、他の世界的な光で鍛えられ、輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Reforged Densinium Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "象牙質剣"
+    }
+  ]
+]

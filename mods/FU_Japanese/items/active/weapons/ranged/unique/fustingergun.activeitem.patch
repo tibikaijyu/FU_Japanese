@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gene-spliced living weapon. Fires boney stingers.\n^yellow;Inflicts Slow, ^cyan;Floran^reset;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遺伝子スプライシング生物兵器。 骨の多い刺し傷を発射します。\n^yellow;遅い、^cyan;フローラン^reset;^reset; 影響します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sting Needler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "刺針銃"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Warning: Do not provoke these bees."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "警告: これらの蜂を誘発しないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aggressive Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アグレッシブな蜂"
+    }
+  ]
+]

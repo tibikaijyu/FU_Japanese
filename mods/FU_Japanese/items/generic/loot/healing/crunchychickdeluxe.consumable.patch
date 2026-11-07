@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floran delicacy. A live baby boobie.\n^green;Heals ^white;100% ^green;HP ^gray;(^white;50s^gray;)^reset;\n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花の繊細さ。 生きている赤ちゃんのブービー。\n^green;癒し ^white;100% ^green;HP ^gray;(^white;50ス)^gray;)^reset;\n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deluxe Crunchy Chick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デラックスクランチのひよこ"
+    }
+  ]
+]

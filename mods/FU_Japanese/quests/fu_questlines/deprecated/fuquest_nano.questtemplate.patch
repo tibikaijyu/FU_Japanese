@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Both the ^orange;Tinkering Table^reset; and the ^orange;Mining Laser^reset; can be upgraded. You won't want to be without both. The mining laser will really start to shine after a few additions!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;ティンカリングテーブル^reset;と^orange;採掘レーザー^reset;の両方をアップグレードできます。 両方なしにはなりたくないでしょう。 採掘レーザーは本当にいくつかの追加後に輝き始めます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ^orange;Tinkering Table^reset; is an extremely useful device. It can be used to fashion ^green;upgrades, augments, techs^reset; and more. Try making a ^orange;Mining Laser^reset; in yours."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ティンカリングテーブル^reset;は非常に便利な装置です。 ファッション^green;アップグレード、拡張、技術^reset;などに使用することができます。 ^orange;採掘レーザー^reset; をあなたの中に作ってみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Amazing Tinker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "すごいティンカー"
+    }
+  ]
+]

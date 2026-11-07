@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smooth gray stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかな灰色の石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grey Slate Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレースレートストーン"
+    }
+  ]
+]

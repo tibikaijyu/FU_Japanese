@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mere glance at this compels you to be truthful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほんの一目で、君は正直であるように促す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stick of Truth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "真実の棒"
+    }
+  ]
+]

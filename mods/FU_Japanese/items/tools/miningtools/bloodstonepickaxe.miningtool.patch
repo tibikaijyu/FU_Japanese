@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is one heck of a mining tool."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはマイニングツールの一つです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmic Pickaxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチックピカックス"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I doubt much in the universe can destroy matter faster than this. Challenge accepted?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "宇宙の多くでは、これよりも早く物質を破壊することができるとは思えない。 チャレンジは受け入れられますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Activate it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "アクティブにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Taking the tech to entirely unthought power, this ancient technology is astounding."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この古代の技術は、まったく考えられない力にテクノロジーを振り向けると、驚くべきものだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Precursor Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "先駆者マニピュレータ"
+    }
+  ]
+]

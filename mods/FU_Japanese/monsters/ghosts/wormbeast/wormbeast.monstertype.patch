@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A horrible burrowing monstrositiy. Hates ketchup."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい穴あけの怪物。 ケチャップを嫌う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wormbeast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワームビースト"
+    }
+  ]
+]

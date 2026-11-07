@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An FTL drive for Human space ships. Allows faster interstellar travel.\n^yellow;Ship Speed: +30^reset;. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有人宇宙船用のFTLドライブ。 星間移動を速くする。\n^yellow;船速:+30^reset;。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Human FTL Drive Mk2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ヒューマン FTLドライブMk2^reset;"
+    }
+  ]
+]

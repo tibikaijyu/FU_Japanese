@@ -1,0 +1,1886 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze1/0",
+      "value": "Alcohol Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze1/0",
+      "value": "酒造り"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze1/1",
+      "value": "^orange;Tier 2^reset;\n\nBrewing and winemaking are some pretty handy skills to know for an aspiring alcoholic. You can now dip your toes into the craft of booze-making. A word of warning, though - it's a complicated process. You may want to ask a master brewer at the ^orange;Science Outpost^reset; for advice.\n\n^yellow;Did you know?^reset; Frackin' Universe incorporated the beer-brewing system from the Starbooze mod way back in 2015!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze1/1",
+      "value": "^orange;ティア 2^reset;\n\n酒浸りを目指す者にとって、ビールやワインの醸造は実に便利な技術だ。酒造りの世界へ足を踏み入れられるようになる。ただし、工程は複雑なので注意しよう。^orange;科学前哨基地^reset;の醸造の達人に、助言を求めるとよいかもしれない。\n\n^yellow;知っていましたか？^reset; Frackin' Universeは、2015年にStarbooze MODのビール醸造システムを取り入れました！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze2/0",
+      "value": "Advanced Alcohols"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze2/0",
+      "value": "高度な酒造り"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've become quite skilled at brewing. Such talent comes with benefits: you've put to paper some recipes for strange beverages that are sure to be the talk of connoisseurs across the galaxy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze2/1",
+      "value": "^orange;ティア 3^reset;\n\n醸造の腕がかなり上がった。その才能の成果として、銀河の愛好家たちの間で話題になりそうな、奇妙な飲み物のレシピをいくつか書き上げた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze3/0",
+      "value": "Brewing Mastery"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze3/0",
+      "value": "醸造の極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/booze3/1",
+      "value": "^orange;Tier 4^reset;\n\nYour mastery of alcohol is so great that you can make bizarre and esoteric brews with flavors that trascend reality in ways never seen before."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/booze3/1",
+      "value": "^orange;ティア 4^reset;\n\n酒造りを極め、かつてない方法で現実を超越する味わいを持つ、奇妙で奥深い酒を造れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/canvas/0",
+      "value": "Canvas Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/canvas/0",
+      "value": "キャンバスの製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/canvas/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've gotten pretty good at working with cotton. You can now spin cotton into durable and useful canvas sheets at your Sewing Machine."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/canvas/1",
+      "value": "^orange;ティア 3^reset;\n\n綿の扱いにかなり慣れてきた。ミシンで綿を丈夫なキャンバス地へ織り上げ、さまざまな用途に使えるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/coffee/0",
+      "value": "Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/coffee/0",
+      "value": "コーヒー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/coffee/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to make your own coffee, which can provide extra energy and movement speed."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/coffee/1",
+      "value": "^orange;ティア 2^reset;\n\nコーヒーを自作する方法を学んだ。エネルギーや移動速度を高めてくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony1/0",
+      "value": "Colony Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony1/0",
+      "value": "コロニーの建設"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've gained the skills needed to govern a large colony. You can now build a ^orange;Colony Station^reset; at your Inventor's Table, allowing you to craft several colony automation devices.\n\n^yellow;Colony System Guide^reset;: The basis of your colony is the Colony Core, a device which passively collects rent from (and only from) Mk2 Tenant Deeds, which generate no rent on their own - they are co-dependent.\n\nThe happier your tenants are, the more rent they will pay. Happiness can be increased by constructing various add-ons for your colony, which can also generate resources, doing so faster the more tenants you have. There is a limit of one of each add-on per colony."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony1/1",
+      "value": "^orange;ティア 1^reset;\n\n大きなコロニーを運営するための技術を身に付けた。^orange;コロニー作業台^reset;を発明家の作業台で作れるようになり、コロニー用の自動化装置を製作できる。\n\n^yellow;コロニーシステムの説明^reset;：コロニーの基盤となるのはコロニーコアだ。Mk2入居者権利証から、家賃を自動で集める装置である。対象はこの権利証だけで、権利証も単独では家賃を生み出さない。両方が必要だ。\n\n入居者が幸せなほど、家賃は増える。コロニーにさまざまな追加設備を建てると、幸福度を高められる。設備は資源も生産でき、入居者が多いほど生産が速くなる。ただし、各設備はコロニーごとに一基まで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony2/0",
+      "value": "Improved Colonies"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony2/0",
+      "value": "コロニーの改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can make some more add-ons for your colony. You've also realized that your colonists might make perfect test subjects... who cares how happy they are if you're making good use of them?"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony2/1",
+      "value": "^orange;ティア 2^reset;\n\nコロニー用の追加設備を、さらにいくつか作れるようになる。入居者は実験台としても最適だと気付いた……有効活用できるなら、彼らが幸せかどうかなど、誰が気にする？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony3/0",
+      "value": "Advanced Colonies"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony3/0",
+      "value": "高度なコロニー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/colony3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've made some even more advanced colony add-ons, some of which may overstep some ethical bounds. People are a resource, after all!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/colony3/1",
+      "value": "^orange;ティア 3^reset;\n\nさらに高度な追加設備を開発した。中には、倫理の一線を越えているかもしれない物もある。結局、人間だって資源なのだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cooking1/0",
+      "value": "Culinary Arts"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cooking1/0",
+      "value": "料理の技術"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cooking1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou're learning to prepare something more complex than simple campfire food. You can now create a Kitchen Counter to prepare advanced dishes. You also learn quite a few basic recipes."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cooking1/1",
+      "value": "^orange;ティア 1^reset;\n\n単純な焚き火料理より、複雑な料理を学び始めた。調理台を作り、本格的な料理を用意できるようになる。基本的なレシピも、いくつか学べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cooking3/0",
+      "value": "Bizarre Cooking"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cooking3/0",
+      "value": "奇妙な料理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cooking3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou're not satisfied with just 'edible' or 'tasty' food ingredients. You've made some home recipes for meals that could be charitably called experimental."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cooking3/1",
+      "value": "^orange;ティア 3^reset;\n\nただ「食べられる」「おいしい」だけの食材では満足できない。好意的に言えば実験的な料理の、自家製レシピを生み出した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew1/0",
+      "value": "Mercs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew1/0",
+      "value": "傭兵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew1/1",
+      "value": "^orange;Tier 1^reset;\n\nSure, there's merit to traveling with friends, but with mercenaries you won't need friends. Though 'reliable' mercs may pass you up, you can nonetheless hire some greenhorns eager for work at the ^orange;Science Outpost^reset;.\n\nHold ^green;shift^reset; while using a crew contract to satisfy your inner xenophobe, and guarantee a recruit of the same race as you."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew1/1",
+      "value": "^orange;ティア 1^reset;\n\n友人と旅をするのもいいが、傭兵がいれば友人は要らない。「信頼できる」傭兵には相手にされなくても、^orange;科学前哨基地^reset;なら仕事を欲しがる新米を雇える。\n\n^green;shift^reset;を押しながら乗組員の契約書を使えば、必ず自分と同じ種族の新人を迎えられる。内なる異種族嫌いも、これで満足だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew2/0",
+      "value": "Skilled Mercs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew2/0",
+      "value": "熟練の傭兵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've got the leadership skill (and pockets) to get the attention of more talented mercenaries, whom you can now hire."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew2/1",
+      "value": "^orange;ティア 2^reset;\n\n優れた傭兵の目に留まるだけの指導力と、資金力が身に付いた。彼らを雇えるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew3/0",
+      "value": "Superior Mercs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew3/0",
+      "value": "超一流の傭兵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew3/1",
+      "value": "^orange;Tier 3^reset;\n\nLeading and commanding comes naturally to you, and money is no object when it comes to talent. You've paid off informants for knowledge of some very talented individuals who you can convince to work under you for the right price."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew3/1",
+      "value": "^orange;ティア 3^reset;\n\n人を率いて指揮するのも、自然にこなせるようになった。才能のためなら金は惜しまない。情報屋に報酬を払い、適切な額を積めば部下にできる、非常に優秀な人材の情報を得た。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew4/0",
+      "value": "Peerless Mercs"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew4/0",
+      "value": "無双の傭兵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/crew4/1",
+      "value": "^orange;Tier 4^reset;\n\nAmong the galactic crew-for-hire scene, you're something of a minor celebrity. You've got the prestige, money, and charisma to command some of the galaxy's most elite mercenaries and shipworkers."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/crew4/1",
+      "value": "^orange;ティア 4^reset;\n\n銀河の人材市場では、ちょっとした有名人になった。威信、財力、カリスマを兼ね備え、銀河でも屈指の傭兵や船員を指揮できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/0",
+      "value": "Instructions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/0",
+      "value": "操作説明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/1",
+      "value": "Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\n\n- The left most button at the upper part of the screen opens a list of research trees to pick from.\n\n- The second button opens a list of non-hidden research options. Click a research on the displayed to center the view on it. Click again to hide the list.\n\n- The third button will center the view on the middle of the tree, or the currently selected research.\n\n- The last button toggles ^orange;low quality mode^reset;. This makes the GUI jump to a position instead of panning to it, or the center button. In addition, dragging/navigating on the the main screen will update only after you release the mouse button. It is best to use the search list with this mode enabled."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/1",
+      "value": "グリッド上のアイコンをクリックして研究を選択します。\nマウスの左ボタンでドラッグすると、表示範囲を移動できます。\n\n- 画面上部の一番左のボタンで、研究ツリーの選択一覧を開きます。\n\n- 二番目のボタンで、隠されていない研究の一覧を開きます。一覧の研究をクリックすると、その位置へ移動します。もう一度押すと一覧を閉じます。\n\n- 三番目のボタンで、ツリー全体か、現在選択中の研究を画面中央に表示します。\n\n- 最後のボタンは、^orange;低品質モード^reset;の切り替えです。表示位置や中央への移動が、滑らかなスクロールではなく即時切り替えになります。また、メイン画面をドラッグしても、ボタンを離すまで表示が更新されません。このモードでは研究一覧からの検索が便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/dye1/0",
+      "value": "Dyes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/dye1/0",
+      "value": "染料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/dye1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to make dyes which can recolor your worn clothing and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/dye1/1",
+      "value": "^orange;ティア 1^reset;\n\n着ている衣服や防具の色を変える、染料の作り方を学んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/dye2/0",
+      "value": "Advanced Dyes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/dye2/0",
+      "value": "高度な染料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/dye2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can make more advanced dyes out of metals and other more complex materials."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/dye2/1",
+      "value": "^orange;ティア 2^reset;\n\n金属などの複雑な素材から、より高度な染料を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion1/0",
+      "value": "Simple Fashion"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion1/0",
+      "value": "簡単なおしゃれ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion1/1",
+      "value": "^orange;Tier 1^reset;\n\nBy applying your knowledge of sewing, you can now make many simple fashionable items out of plant fibre fabric."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion1/1",
+      "value": "^orange;ティア 1^reset;\n\n裁縫の知識を使い、植物繊維の布から、簡単でおしゃれな品を各種作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion2/0",
+      "value": "Advanced Fashion"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion2/0",
+      "value": "高度なおしゃれ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've become quite knowledgeable about galactic fashion trends and can make better cotton-based clothing to spice up your appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion2/1",
+      "value": "^orange;ティア 2^reset;\n\n銀河のファッションの流行に詳しくなった。綿を使った上質な服を作り、見た目に彩りを添えられる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion3/0",
+      "value": "Fashion Mastery"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion3/0",
+      "value": "おしゃれの極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fashion3/1",
+      "value": "^orange;Tier 3^reset;\n\nSo great is your artistry with fashionable clothing creation that you can make beautiful gowns that are sure to get you a discount when trading goods with space stations by virtue of your sheer magnificence."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fashion3/1",
+      "value": "^orange;ティア 3^reset;\n\n服作りの腕は芸術の域に達した。美しいドレスを作れば、その圧倒的な華やかさだけで、宇宙ステーションの取引価格も割り引いてもらえるだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/lamps/0",
+      "value": "Lava Lamps"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/lamps/0",
+      "value": "ラバランプ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/lamps/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can create decorative lava lamps at a ^orange;Lamporium^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/lamps/1",
+      "value": "^orange;ティア 2^reset;\n\n装飾用のラバランプを、^orange;ランプ製作台^reset;で作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/painting/0",
+      "value": "Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/painting/0",
+      "value": "絵画"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/painting/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've taken up the hobby of painting. With canvas as your... canvas, you can now create pretty decorative art pieces to hang around your lab.\n\nIf you delve into more...^cyan;unusual^reset; artistic pursuits, you'll find a whole new world of strangeness awaiting you."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/painting/1",
+      "value": "^orange;ティア 3^reset;\n\n趣味で絵を描き始めた。キャンバスを……まあ、キャンバスにして、研究室に飾る美しい絵を描けるようになる。\n\nもっと……^cyan;風変わりな^reset;芸術を追究すれば、奇怪さに満ちた新世界が待っているだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/pixelprinter/0",
+      "value": "Pixel Manipulation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/pixelprinter/0",
+      "value": "ピクセル操作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/pixelprinter/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned work with pixels, compressing them into storeable voxels or printing them into decorative furniture that you've scanned."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/pixelprinter/1",
+      "value": "^orange;ティア 3^reset;\n\nピクセルを扱う方法を学んだ。保管できるボクセルへ圧縮したり、スキャン済みの装飾家具として印刷したりできる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing1/0",
+      "value": "Plant Fibre Sewing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing1/0",
+      "value": "植物繊維の裁縫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned the basics of sewing and can now create simple articles out of woven plant fibre."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing1/1",
+      "value": "^orange;ティア 1^reset;\n\n裁縫の基礎を学び、植物繊維を織った布で、簡単な品を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing2/0",
+      "value": "Cotton Sewing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing2/0",
+      "value": "綿の裁縫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing2/1",
+      "value": "^orange;Tier 2^reset;\n\nYour sewing skill has improved. You are now able to spin cotton into usable wool for use in all sorts of stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing2/1",
+      "value": "^orange;ティア 2^reset;\n\n裁縫の腕が上がった。綿を紡ぎ、さまざまな品に使える綿素材を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing3/0",
+      "value": "Silk Sewing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing3/0",
+      "value": "絹の裁縫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou now have the talent to weave silk into sheets used for crafting advanced armors and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing3/1",
+      "value": "^orange;ティア 3^reset;\n\n絹を布に織り上げ、高度な防具や家具の製作に使えるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing4a/0",
+      "value": "Synthetic Fabrics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing4a/0",
+      "value": "合成繊維"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing4a/1",
+      "value": "^orange;Tier 4^reset;\n\nNot just limited to natural threads, you can weave fabrics out of inorganic materials. You are now able to create a synthetic material which is as durable as kevlar, but far more comfortable to wear."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing4a/1",
+      "value": "^orange;ティア 4^reset;\n\n天然の糸に限らず、無機物からも布を織れるようになる。ケブラー並みに丈夫で、はるかに着心地のよい合成素材を作れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing4b/0",
+      "value": "Mutavisk Sewing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing4b/0",
+      "value": "ミュータヴィスクの裁縫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing4b/1",
+      "value": "^orange;Tier 4^reset;\n\nMutavisk is the hardest natural fibre to weave, but you've figured out how by applying fungal ichor during the weaving process. You can now spin Bio-Thread, which, in addition to being exquisitely beautiful, is incredibly resistant to radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing4b/1",
+      "value": "^orange;ティア 4^reset;\n\nミュータヴィスクは、最も織りにくい天然繊維だ。だが、織る際に菌類の体液を使う方法を見つけた。美しさに加え、驚くほど放射線に強いバイオスレッドを紡げるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing5/0",
+      "value": "Peerless Sewing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing5/0",
+      "value": "裁縫の極意"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sewing5/1",
+      "value": "^orange;Tier 5^reset;\n\nYou've mastered the art of sewing. So great is your skill that you can weave the atom-thick Graphene into your synthetic material, creating a nearly indestructible cloth for use in the highest-quality armors available."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sewing5/1",
+      "value": "^orange;ティア 5^reset;\n\n裁縫の技術を極めた。原子ほどの厚みしかないグラフェンさえ合成素材に織り込み、ほぼ破壊不可能な布を作れる。最高品質の防具に使う素材だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/0",
+      "value": "Basic Training"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/0",
+      "value": "基礎訓練"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;Tier 0^reset;\n\nYour training, thanks to four years in the Protectorate Academy, provides you with basic survival skills to keep you alive for extended periods in the event of a crash."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;ティア 0^reset;\n\nプロテクター養成学校での四年間の訓練により、墜落事故に遭っても長期間生き延びるための、基本的なサバイバル技術を身に付けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbench1/0",
+      "value": "Wooden Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbench1/0",
+      "value": "木造建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbench1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned the basics of carpentry and can make simple blocks and furniture out of wood at a Wooden Workbench."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbench1/1",
+      "value": "^orange;ティア 1^reset;\n\n木工の基礎を学んだ。木製作業台で、木を使った簡単なブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchaether/0",
+      "value": "Aetheric Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchaether/0",
+      "value": "エーテル素材の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchaether/1",
+      "value": "^orange;Tier 5^reset;\n\nYou've figured out how to work with Aetheric materials to create sturdy decorative furniture and blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchaether/1",
+      "value": "^orange;ティア 5^reset;\n\nエーテル素材の加工方法を見つけ、頑丈な装飾家具やブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchatechy/0",
+      "value": "Techy Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchatechy/0",
+      "value": "技術設備の建設"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchatechy/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've acquired a techy building style, allowing you to make many lab and high tech-themed blocks and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchatechy/1",
+      "value": "^orange;ティア 3^reset;\n\n技術的な建築様式を身に付けた。研究室やハイテクをテーマにした、多くのブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchatropus/0",
+      "value": "Fleshy Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchatropus/0",
+      "value": "肉の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchatropus/1",
+      "value": "^orange;Tier 3^reset;\n\nYour uniquely twisted mind has produced some rather... interesting furniture made out of still-living meat."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchatropus/1",
+      "value": "^orange;ティア 3^reset;\n\n独特にねじ曲がった精神から、まだ生きている肉を使った、実に……興味深い家具を生み出した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchavian/0",
+      "value": "Avian Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchavian/0",
+      "value": "エイビアン風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchavian/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to make ornate Avian-styled blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchavian/1",
+      "value": "^orange;ティア 3^reset;\n\n華やかなエイビアン様式のブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbamboo/0",
+      "value": "Bamboo Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbamboo/0",
+      "value": "竹の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbamboo/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to make bamboo furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbamboo/1",
+      "value": "^orange;ティア 1^reset;\n\n竹製の家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbees/0",
+      "value": "Honey Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbees/0",
+      "value": "蜂蜜の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbees/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to turn bee products like honey and amber into furniture and blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbees/1",
+      "value": "^orange;ティア 2^reset;\n\n蜂蜜や琥珀など、蜂の生産物を家具やブロックに加工する方法を学んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbone/0",
+      "value": "Bone Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbone/0",
+      "value": "骨の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchbone/1",
+      "value": "^orange;Tier 1^reset;\n\nYou can create dragon-themed furniture out of leather and sculpted bone."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchbone/1",
+      "value": "^orange;ティア 1^reset;\n\n革と彫刻した骨を使い、ドラゴンをテーマにした家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcarbon/0",
+      "value": "Carbon Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcarbon/0",
+      "value": "炭素の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcarbon/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a line of sleek carbon-based furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcarbon/1",
+      "value": "^orange;ティア 3^reset;\n\n洗練された、炭素製の家具シリーズを設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcopper/0",
+      "value": "Copper Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcopper/0",
+      "value": "銅の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcopper/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to build structures out of copper."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcopper/1",
+      "value": "^orange;ティア 1^reset;\n\n銅を使った構造物を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcute/0",
+      "value": "Cute Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcute/0",
+      "value": "かわいい建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchcute/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've used a bunch of shiny dirt and crystals to make cute dollhouse-themed furniture and blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchcute/1",
+      "value": "^orange;ティア 4^reset;\n\nきらきらした土や結晶を使い、ドールハウス風のかわいい家具やブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdensealloy/0",
+      "value": "Dense Alloy Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdensealloy/0",
+      "value": "高密度合金の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdensealloy/1",
+      "value": "^orange;Tier 5^reset;\n\nYou've designed a line of Dense Alloy furniture that you definitely shouldn't kick out of anger."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdensealloy/1",
+      "value": "^orange;ティア 5^reset;\n\n高密度合金の家具シリーズを設計した。腹が立っても、絶対に蹴り飛ばしてはいけない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdensinium/0",
+      "value": "Densinium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdensinium/0",
+      "value": "デンシニウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdensinium/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've fashioned Densinium into the most indestructible furniture in the universe."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdensinium/1",
+      "value": "^orange;ティア 6^reset;\n\nデンシニウムを加工し、宇宙で最も壊れにくい家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdurasteel/0",
+      "value": "Durasteel Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdurasteel/0",
+      "value": "デュラスチールの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchdurasteel/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've learned to build furniture and super-durable blocks out of durasteel."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchdurasteel/1",
+      "value": "^orange;ティア 4^reset;\n\nデュラスチールから家具や、極めて丈夫なブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbencheffigium/0",
+      "value": "Effigium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbencheffigium/0",
+      "value": "エフィギウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbencheffigium/1",
+      "value": "^orange;Tier 5^reset;\n\nYou've made furniture out of Effigium. It's invisible half the time, but you figure that's part of the charm."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbencheffigium/1",
+      "value": "^orange;ティア 5^reset;\n\nエフィギウムで家具を作った。半分の時間は見えないが、それも魅力のうちだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchelder/0",
+      "value": "Elder Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchelder/0",
+      "value": "旧きものの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchelder/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've learned to create eldritch-themed furniture, though exactly how remains a mystery to you. It just...came to you."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchelder/1",
+      "value": "^orange;ティア 6^reset;\n\n忌まわしきものをテーマにした家具を作れるようになった。どうやって学んだのか、自分でも分からない。ただ……ひらめいたのだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchelduu/0",
+      "value": "Elduu'khar Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchelduu/0",
+      "value": "エルドゥーカー風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchelduu/1",
+      "value": "^orange;Tier 2^reset;\n\nGleaming, beautiful crystalline furniture awaits if you pursue this particular knowledge!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchelduu/1",
+      "value": "^orange;ティア 2^reset;\n\nこの知識を学んだ先には、美しく輝く結晶の家具が待っている！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchenergywood/0",
+      "value": "Energy Wood Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchenergywood/0",
+      "value": "エネルギーウッドの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchenergywood/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a whole bunch of EnergyWood-based furniture items."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchenergywood/1",
+      "value": "^orange;ティア 3^reset;\n\nエネルギーウッドを使う家具を、数多く設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchfenerox/0",
+      "value": "Fenerox Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchfenerox/0",
+      "value": "フェネロックス風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchfenerox/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to imitate the Fenerox 'style' to create primitive wood-and-hide furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchfenerox/1",
+      "value": "^orange;ティア 1^reset;\n\nフェネロックスの「様式」をまねて、木と獣皮を使った原始的な家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchfloran/0",
+      "value": "Floran Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchfloran/0",
+      "value": "フローラン風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchfloran/1",
+      "value": "^orange;Tier 1^reset;\n\nFlorans make all their gear from primitive materials, despite being a spacefaring species. This is due to many factors, none of which are relevant to building their furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchfloran/1",
+      "value": "^orange;ティア 1^reset;\n\nフローランは宇宙を旅する種族だが、装備は全て原始的な素材で作る。理由はいくつもあるが、家具作りにはどれも関係ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchgoodwood/0",
+      "value": "Improved Wooden Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchgoodwood/0",
+      "value": "木造建築の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchgoodwood/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to treat wood and create more visually stunning and ornate wood blocks than you could before."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchgoodwood/1",
+      "value": "^orange;ティア 1^reset;\n\n木材を加工し、以前よりも美しく、装飾的な木製ブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchiron/0",
+      "value": "Iron Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchiron/0",
+      "value": "鉄の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchiron/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to build blocks and furniture out of iron."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchiron/1",
+      "value": "^orange;ティア 1^reset;\n\n鉄製のブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchirradium/0",
+      "value": "Irradium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchirradium/0",
+      "value": "イラディウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchirradium/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've taken one of the most radioactive metals in existence and made furniture out of it. This will surely end well."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchirradium/1",
+      "value": "^orange;ティア 4^reset;\n\n存在する中でも屈指の放射性金属を選び、家具に加工した。きっと素晴らしい結果になるだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchisogen/0",
+      "value": "Isogen Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchisogen/0",
+      "value": "アイソジェンの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchisogen/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've turned Isogen metal into furniture, in case you want to freeze to death while having dinner."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchisogen/1",
+      "value": "^orange;ティア 6^reset;\n\nアイソジェンを家具に加工した。夕食中に凍死したくなった時のために。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchlunari/0",
+      "value": "Lunari Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchlunari/0",
+      "value": "ルナリの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchlunari/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've made furniture out of lunari crystals. They're very glowy and shiny."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchlunari/1",
+      "value": "^orange;ティア 3^reset;\n\nルナリ結晶で家具を作った。とても明るく、きらきら光る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchmantizi/0",
+      "value": "Mantizi Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchmantizi/0",
+      "value": "マンティジ風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchmantizi/1",
+      "value": "^orange;Tier 3^reset;\n\nMantizi style is among the most pretentious in the galaxy, but you can now imitate it with your own hands."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchmantizi/1",
+      "value": "^orange;ティア 3^reset;\n\nマンティジの様式は、銀河でも指折りの気取ったものだ。その様式を、自分の手で再現できるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnightar/0",
+      "value": "Nightar Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnightar/0",
+      "value": "ナイター風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnightar/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to imitate the Nightar building style, allowing you to create a lot of furniture and blocks of their design."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnightar/1",
+      "value": "^orange;ティア 3^reset;\n\nナイターの建築様式をまねて、さまざまな家具やブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnightar2/0",
+      "value": "Nightar Construction 2"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnightar2/0",
+      "value": "ナイター風の建築 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnightar2/1",
+      "value": "^orange;Tier 3^reset;\n\nAdditional elements of nightar design."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnightar2/1",
+      "value": "^orange;ティア 3^reset;\n\nナイター様式の追加要素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnoxcium/0",
+      "value": "Nocxium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnoxcium/0",
+      "value": "ノクシウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchnoxcium/1",
+      "value": "^orange;Tier 7^reset;\n\nYou've made furniture out of Nocxium metal. It should be safe as long as you don't touch them with your bare skin."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchnoxcium/1",
+      "value": "^orange;ティア 7^reset;\n\nノクシウムで家具を作った。素肌で触らなければ、安全なはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpeglaci/0",
+      "value": "Peglaci Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpeglaci/0",
+      "value": "ペグラシ風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpeglaci/1",
+      "value": "^orange;Tier 3^reset;\n\nLong ago, the Peglaci were a race of arctic carnivores, the apex predators of their world, until they were uplifted by a race they know only as the Wanderers. You've learned to replicate their unique crafting style, a mix of ice and lignin developed in their race's infancy and metallically augmented by gifted knkowledge."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpeglaci/1",
+      "value": "^orange;ティア 3^reset;\n\n遠い昔、ペグラシは極寒の地に住む肉食種族で、母星の頂点捕食者だった。「放浪者」とだけ呼ばれる種族に、文明を引き上げられるまでは。彼らの初期文明からある氷とリグニンに、与えられた知識による金属加工を加えた、独特の製作様式を再現できるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpenumbrite/0",
+      "value": "Penumbrite Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpenumbrite/0",
+      "value": "ペナンブライトの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpenumbrite/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a set of Penumbrite furniture perfect for the dark and brooding type."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpenumbrite/1",
+      "value": "^orange;ティア 3^reset;\n\n暗く物思いにふける人にぴったりの、ペナンブライト製家具セットを設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchperfect/0",
+      "value": "Perfectly Generic Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchperfect/0",
+      "value": "完璧にありふれた建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchperfect/1",
+      "value": "^orange;Tier 7^reset;\n\nYou've used the mysterious PGIs to create furniture that is both perfectly generic and generically perfect."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchperfect/1",
+      "value": "^orange;ティア 7^reset;\n\n謎のPGIを使い、完璧にありふれ、ありふれたほど完璧な家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchplants/0",
+      "value": "Decorative Plants"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchplants/0",
+      "value": "観葉植物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchplants/1",
+      "value": "^orange;Tier 1^reset;\n\nYou can now create some decorative plant-themed objects."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchplants/1",
+      "value": "^orange;ティア 1^reset;\n\n植物をテーマにした装飾品を、いくつか作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchprecious/0",
+      "value": "Precious Metal Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchprecious/0",
+      "value": "貴金属の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchprecious/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can make some blocks out of precious materials."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchprecious/1",
+      "value": "^orange;ティア 2^reset;\n\n貴重な素材を使ったブロックを、いくつか作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpyreite/0",
+      "value": "Pyreite Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpyreite/0",
+      "value": "パイライトの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchpyreite/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've designed furniture out of Pyreite metal. Don't put them in a wooden house."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchpyreite/1",
+      "value": "^orange;ティア 6^reset;\n\nパイライト製の家具を設計した。木造の家には置かないこと。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchshadow/0",
+      "value": "Shadow Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchshadow/0",
+      "value": "影の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchshadow/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've learned to imitate Tenebrhae styles to create shadowy blocks and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchshadow/1",
+      "value": "^orange;ティア 4^reset;\n\nテネブレイの様式をまねて、影のようなブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchskath/0",
+      "value": "Skath Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchskath/0",
+      "value": "スカス風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchskath/1",
+      "value": "^orange;Tier 3^reset;\n\nThe engimatic Skath are quite adept with technology, and this seeps into just about everything they make."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchskath/1",
+      "value": "^orange;ティア 3^reset;\n\n謎めいたスカスは技術の扱いに長けている。それは、彼らが作るほぼ全ての物にも表れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchslime/0",
+      "value": "Slime Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchslime/0",
+      "value": "スライムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchslime/1",
+      "value": "^orange;Tier 1^reset;\n\nYou can shape furniture out of jelly and slime! Why would you want to do this? Unclear.\n\nMost recipes require the ^cyan;Biochemist Table^reset;. Research it in the ^green;Geology tree^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchslime/1",
+      "value": "^orange;ティア 1^reset;\n\nゼリーやスライムで家具を作れる！ なぜそんなことをしたいのか？ それは不明だ。\n\n大半のレシピには^cyan;生化学作業台^reset;が必要だ。^green;地質学のツリー^reset;で研究しよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchsnowpeople/0",
+      "value": "Peglaci Sculpting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchsnowpeople/0",
+      "value": "ペグラシの雪彫刻"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchsnowpeople/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've picked up the ancient Peglaci art of snow-sculpting, developed on their homeworld aeons ago and practiced even still across all levels of their society.\n\n^cyan;The Snowprinter can be found at the Inventor's Table.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchsnowpeople/1",
+      "value": "^orange;ティア 3^reset;\n\nペグラシ古来の雪彫刻を習得した。遠い昔に母星で生まれ、今でも社会のあらゆる階層で続けられている芸術だ。\n\n^cyan;スノープリンターは、発明家の作業台で作れる。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtechy/0",
+      "value": "Techy Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtechy/0",
+      "value": "技術設備の建設"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtechy/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to create high tech blocks and furniture out of plastics and similar materials."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtechy/1",
+      "value": "^orange;ティア 3^reset;\n\nプラスチックなどの素材から、ハイテクなブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtelebrium/0",
+      "value": "Telebrium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtelebrium/0",
+      "value": "テレブリウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtelebrium/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've made a bunch of Telebrium-based furniture items."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtelebrium/1",
+      "value": "^orange;ティア 2^reset;\n\nテレブリウムを使う家具を、いくつも作った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchthelusian/0",
+      "value": "Thelusian Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchthelusian/0",
+      "value": "セルーシアン風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchthelusian/1",
+      "value": "^orange;Tier 2^reset;\n\nThelusian hives form their furniture communally from their own saliva, shed chitin and farmed fungi. You've substituted Thelusian chitin and saliva for insect shells and water, but hand-shape their furniture just as its creators do."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchthelusian/1",
+      "value": "^orange;ティア 2^reset;\n\nセルーシアンの巣では、自分たちの唾液や脱皮したキチン質、栽培した菌類から、共同で家具を成形する。キチン質と唾液を昆虫の殻と水で代用しつつ、作り手たちと同じように手で家具を形作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtitanium/0",
+      "value": "Titanium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtitanium/0",
+      "value": "チタンの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtitanium/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to build titanium blocks and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtitanium/1",
+      "value": "^orange;ティア 3^reset;\n\nチタン製のブロックや家具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtriangulum/0",
+      "value": "Trianglium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtriangulum/0",
+      "value": "トライアングリウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtriangulum/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've turned Trianglium into some very triangular and pointy furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtriangulum/1",
+      "value": "^orange;ティア 4^reset;\n\nトライアングリウムを加工し、とても三角形で尖った家具を作った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtungsten/0",
+      "value": "Tungsten Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtungsten/0",
+      "value": "タングステンの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchtungsten/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to build furniture and more durable blocks out of tungsten."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchtungsten/1",
+      "value": "^orange;ティア 2^reset;\n\nタングステンから家具や、より丈夫なブロックを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchveluu/0",
+      "value": "Vel'uuish Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchveluu/0",
+      "value": "ヴェルーイシュ風の建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchveluu/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to create special crystal-gold alloy ship paneling."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchveluu/1",
+      "value": "^orange;ティア 3^reset;\n\n結晶と金の特殊な合金から、宇宙船の外装パネルを作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchxithricite/0",
+      "value": "Xithricite Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchxithricite/0",
+      "value": "ジスリサイトの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchxithricite/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've fashioned Xithricite into fancy furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchxithricite/1",
+      "value": "^orange;ティア 6^reset;\n\nジスリサイトを、見事な家具に加工した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchzerchesium/0",
+      "value": "Zerchesium Construction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchzerchesium/0",
+      "value": "ゼルケシウムの建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/workbenchzerchesium/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a whole bunch of Zerchesium-based furniture items."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/workbenchzerchesium/1",
+      "value": "^orange;ティア 3^reset;\n\nゼルケシウムを使う家具を、数多く設計した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/trees/fu_craftsmanship",
+      "value": "Craftsmanship"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/trees/fu_craftsmanship",
+      "value": "工芸"
+    }
+  ]
+]

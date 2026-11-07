@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystalline lunari to pierce foes throats.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルムーンニは敵の喉を突き刺す。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ"
+    }
+  ]
+]

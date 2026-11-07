@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Nightar cape. On"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夜のケープ。 オン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Cape"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜のケープ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Needles of death.\n^cyan;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死の針。\n^cyan; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floran Needler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フローラン・ニードラー"
+    }
+  ]
+]

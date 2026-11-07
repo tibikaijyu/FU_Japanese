@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;5^reset;% Speed^reset;\n^yellow;^reset; Electric/Energy: Damage x^green;1.2^reset;, Energy x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Burning, Electrified"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;5^reset;% 速さ^reset;\n^yellow;^reset;電気/エネルギー:損傷x ^green;1.2^reset;、エネルギーx ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:酸素、燃焼、電化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steampunk Slacks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スチームパンクのスラックス"
+    }
+  ]
+]

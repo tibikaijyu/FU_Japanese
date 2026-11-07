@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An advanced electromagnet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な電磁石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Electromagnet^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;電磁石^reset;"
+    }
+  ]
+]

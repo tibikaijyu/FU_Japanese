@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Leaving this bed in the morning is an ultimate test of one's willpower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このベッドを朝に残すことは、意志力の究極のテストです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボーンベッド"
+    }
+  ]
+]

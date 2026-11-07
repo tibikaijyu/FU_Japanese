@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive energy sniper rifle. Big impact.\n^yellow;AoE Denial Primary^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大なエネルギー狙撃ライフル。 大きな影響。\n^yellow;AoE 否定的プライマリ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Instigator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "司会者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A massive energy sniper rifle. Big impact.\n^yellow;AoE Denial Primary^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "巨大なエネルギー狙撃ライフル。 大きな影響。\n^yellow;AoE 否定的プライマリ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Paladin^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;パラディン^reset; ^yellow;^reset;"
+    }
+  ]
+]

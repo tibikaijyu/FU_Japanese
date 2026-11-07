@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Literally a rock tied to a stick. Design by Dagnez"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字通り棒に結びついた岩。 デザインはDagnez。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stone Club"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーンクラブ"
+    }
+  ]
+]

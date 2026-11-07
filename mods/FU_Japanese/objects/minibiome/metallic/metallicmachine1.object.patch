@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A device that aids in transmissions."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トランスミッションを支援する装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Signal Relay"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "信号中継"
+    }
+  ]
+]

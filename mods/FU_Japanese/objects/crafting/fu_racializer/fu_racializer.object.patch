@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to change ship components into various racial styles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船舶の構成要素をさまざまな人種的スタイルに変えるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Ship Component Racializer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;船コンポーネントRacializer^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute flag. Use ^green;[E]^white; to bookmark a teleportation location.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい旗。 ^green;[E]^white; を使用して、テレポーテーションの場所をブックマークします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい旗"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient, unknown glyphs cover this strange carved stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代、未知のグリフがこの奇妙な彫刻された石を覆っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "高齢者支援"
+    }
+  ]
+]

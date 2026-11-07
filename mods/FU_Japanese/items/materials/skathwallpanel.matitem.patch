@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Panels made of durable impervium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性のあるインパービウム製のパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impervium Wall Panels"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インペルビウム壁パネル"
+    }
+  ]
+]

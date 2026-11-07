@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tungsten-reinforced life support tank. Grants 5% to Fire, Ice, Poison and Electric Resists and an Oxygen Recycler."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タングステン強化ライフサポートタンク。 火、氷、毒、電気抵抗と酸素リサイクル剤にグラント5%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spacesuit Airtank"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙服エアタンク"
+    }
+  ]
+]

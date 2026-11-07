@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Brine Star (6+)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "ブライン・スター (6+)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Brine Star (6+) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "ブライン・スター (6+)（再訪）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "An underground jungle on a far-off planet...what could go wrong? Definitely worth exploring!"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "遠く離れた惑星にある地下ジャングル...何が問題になるのでしょうか? 探索する価値あり!"
+    }
+  ]
+]

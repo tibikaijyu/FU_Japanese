@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute fountain. The water looks refreshing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい噴水。 水は爽やかに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Cute Fountain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大きなかわいい噴水"
+    }
+  ]
+]

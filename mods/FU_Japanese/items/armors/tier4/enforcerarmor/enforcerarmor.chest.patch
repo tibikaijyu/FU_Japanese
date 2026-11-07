@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle/Shotgun: Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Liq.Nitrogen, Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;攻撃ライフル/ショットガン:損傷x ^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;液体窒素、暗黒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Enforcer Chestplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エンフォーサーチェストプレート"
+    }
+  ]
+]

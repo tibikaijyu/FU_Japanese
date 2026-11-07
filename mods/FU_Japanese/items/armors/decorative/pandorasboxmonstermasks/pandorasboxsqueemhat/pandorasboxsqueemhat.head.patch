@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There is no orb on this hat, because 'you' are the orb!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この帽子にはorbはありません。「あなた」がorbだからです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Squeem Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スクイームハット"
+    }
+  ]
+]

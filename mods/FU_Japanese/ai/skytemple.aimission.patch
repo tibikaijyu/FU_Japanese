@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "The Sky Boulevard (6+)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "天空の大通り (6+)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "The Sky Boulevard (6+) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "天空の大通り (6+)（再訪）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "Suspended in the aether, the Sky Boulevard is one of Avian civilization's most sacred sites. It's no doubt also guarded by the most elite warriors!"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "エーテルで休むスカイ・ブールバードは、アビアン文明で最も神聖な場所のひとつです。 最もエリートな戦士たちによって守られていることも間違いありません!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sentient mass of fluids which can influence gravity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重力に影響を与えることができる液体の感覚的な質量。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zapin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "座ピン"
+    }
+  ]
+]

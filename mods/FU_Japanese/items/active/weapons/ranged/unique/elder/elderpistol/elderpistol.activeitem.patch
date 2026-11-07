@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;Pulsing with energy, this weapon promises to punish your enemies.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00; エネルギーで脈打つ、この武器はあなたの敵を罰することを約束します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Disruptor Pistol^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;破壊ピストル^reset;"
+    }
+  ]
+]

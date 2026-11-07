@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your chest is warm, but what of your arms?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの胸は暖かいですが、あなたの腕はどうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Vest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカータのベスト"
+    }
+  ]
+]

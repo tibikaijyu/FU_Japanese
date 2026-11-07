@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;175^reset;s Air, +^green;50^reset;% Breath Regen\n^yellow;^reset; Oceans: Damage x^green;1.15^reset;, +^green;5^reset;% Speed, +^green;3^reset;% Crit Damage\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Poisoned, Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;175^reset;エア+^green;50^reset;% 呼吸再生\n^yellow;^reset; 海:被害x^green;1.15^reset;, +^green;5^reset;% 速度、+^green;3^reset;% 犯罪被害\n^yellow;^reset; ^cyan;免疫^reset;酸、毒、ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nautilus Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノーチラスの胸のピース"
+    }
+  ]
+]

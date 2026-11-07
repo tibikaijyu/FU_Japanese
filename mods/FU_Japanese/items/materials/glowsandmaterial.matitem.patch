@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An interesting and unusual irradiated sand.\n^blue;+^white;1 ^blue;Fuel^reset;\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "興味深く、珍しい照射砂。\n^blue;+^white;1 ^blue;燃料^reset;\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowing Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "輝く砂"
+    }
+  ]
+]

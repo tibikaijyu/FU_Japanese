@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loves your delicious ground-walker insides."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいグラウンドウォーカーが大好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Widow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未亡人"
+    }
+  ]
+]

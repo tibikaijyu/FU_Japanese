@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Left-click: quick harvest of crops/flowers/trees.\nRight-click: till soil"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "左クリック:作物/花/木の迅速な収穫。\n右クリック:土まで"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harvester Beamgun II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハーベスター・ビームガンII"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The label reads, \"A horrifying aberration that really wants your face skin in its mouth.\""
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラベルには「顔の皮膚を口に入れたいという恐ろしい異常」と書かれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floating Horror Figurine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "浮遊するホラーフィギュア"
+    }
+  ]
+]

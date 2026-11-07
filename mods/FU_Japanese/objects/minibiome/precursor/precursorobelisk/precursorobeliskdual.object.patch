@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of...pillar. It looks like there's a place for a palm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の...柱。 手のひらのための場所があるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Dual Obelisk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆双対オベリスク"
+    }
+  ]
+]

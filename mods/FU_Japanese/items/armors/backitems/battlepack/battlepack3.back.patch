@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damage x1.20. +16 Health, +16 Energy, +10 Shield Bash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "被害x1.20. +16健康、+16エネルギー、+10シールドバッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Battle Pack III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パックIII"
+    }
+  ]
+]

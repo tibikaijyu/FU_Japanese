@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High energy concentrations can be found in these cells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの細胞には高エネルギー濃度が見られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Stores"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギー貯蔵庫"
+    }
+  ]
+]

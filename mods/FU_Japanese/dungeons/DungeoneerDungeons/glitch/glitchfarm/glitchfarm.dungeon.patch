@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/tiles/324/brush/0/1/parameters/scriptConfig/guard/dialog/hail/default/0",
+      "value": "Halt! Who goes there?"
+    },
+    {
+      "op": "replace",
+      "path": "/tiles/324/brush/0/1/parameters/scriptConfig/guard/dialog/hail/default/0",
+      "value": "ハール! 誰がそこに行くのですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tiles/324/brush/0/1/parameters/scriptConfig/guard/dialog/stop/default/0",
+      "value": "You may go no further."
+    },
+    {
+      "op": "replace",
+      "path": "/tiles/324/brush/0/1/parameters/scriptConfig/guard/dialog/stop/default/0",
+      "value": "これ以上は行けない。"
+    }
+  ]
+]

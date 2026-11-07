@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Counsellor are quite useful - they can keep madness at bay! They also provide 2% reduced fuel cost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カウンセラーは非常に便利です - 彼らはベイで狂気を保つことができます! また 2% 燃料コストを削減しました"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Counsellor Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カウンセラー契約"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Sievert Gray"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "シバート・グレイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "X'ian Explorer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "シアンの探検家"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "X'ian Explorer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "シアンの探検家"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "I absorb radiation! Handy, that!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "放射線を吸収します! ハンディ、それ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'll give you a massive 20% fuel cost reduction whenever we're on the ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "私たちが船に乗るたびに、大きな20%燃料コストの削減を提供します!"
+    }
+  ]
+]

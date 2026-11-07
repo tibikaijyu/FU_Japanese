@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bioluminescent light that matches a slime's body color. ^#5500ff;Defaults to bluish purple on non-slimes.^reset; Air supply."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムのボディカラーにマッチする生物発光光。 ^#5500ff; 非スライムで紫色を青くするデフォルト。^reset;空気供給。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Glow Growth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムグロー成長"
+    }
+  ]
+]

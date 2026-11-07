@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Throw these to water your crops."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それらを水に投げて農作物に水をまく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウォーターボール"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A barrel to collect rainwater!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雨水を集めるバレル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Rain Barrel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;雨バレル^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Rain Barrel."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "雨バレル。"
+    }
+  ]
+]

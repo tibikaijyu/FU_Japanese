@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stone covered in fungal spores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真菌胞子で覆われた石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fungal Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "菌石"
+    }
+  ]
+]

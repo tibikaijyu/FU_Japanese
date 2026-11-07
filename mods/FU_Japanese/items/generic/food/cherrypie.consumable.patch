@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Puts a smile on your face, 10 miles wide.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150s^gray;)\n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "顔に微笑みを浮かべて、10 マイル幅。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150ス)^gray;)\n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェリーパイ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Most certainly against intergalactic weapons laws.\n^yellow;Area-Effect weapon^reset;\n^green;Inflicts radiation burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河間兵器法に反している。\n^yellow;エリア効果武器^reset;\n^green;放射線燃焼に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradiator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "照射器"
+    }
+  ]
+]

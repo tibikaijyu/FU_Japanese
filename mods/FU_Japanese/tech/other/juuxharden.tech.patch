@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Psionic blasts. (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピシオンブラスト。 (本文は ^yellow;核 ガイド ^reset;: ^blue;Special テック ^reset;)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Psychic Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "精神的な爆風"
+    }
+  ]
+]

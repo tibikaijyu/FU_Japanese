@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A helmet worn by Eld'uukhar guards."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドゥーカーガードが着用するヘルメット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Temple Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寺のヘルメット"
+    }
+  ]
+]

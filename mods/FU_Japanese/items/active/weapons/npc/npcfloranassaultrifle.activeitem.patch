@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An automatic rifle made of organic material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機材料で作られた自動ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Floran Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCフローラン攻撃ライフル"
+    }
+  ]
+]

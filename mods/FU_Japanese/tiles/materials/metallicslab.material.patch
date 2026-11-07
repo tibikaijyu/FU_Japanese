@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metallic Slab"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属スラブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal etched to look like slabs."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属はスラブのようにエッチングされます。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aggressively defends its creator."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "創造主を攻撃的に擁護する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Turtle mkI"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウミガメ"
+    }
+  ]
+]

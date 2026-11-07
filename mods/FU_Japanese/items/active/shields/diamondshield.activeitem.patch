@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Immune: Shock^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;免疫:ショック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gishinanki Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "義信南紀シールド"
+    }
+  ]
+]

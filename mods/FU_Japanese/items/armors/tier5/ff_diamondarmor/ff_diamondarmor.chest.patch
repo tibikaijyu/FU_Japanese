@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Katana Mastery:  +^cyan;32^reset;%\n^yellow;^reset; Dodge Techs:  +^green;20^reset;%\n^yellow;^reset; Defense Techs:  +^green;20^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Bio-ooze"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;刀 習熟度:+^cyan;32^reset;%\n^yellow;^reset;ダッジ技術:+^green;20^reset;%\n^yellow;^reset;防御技術:+^green;20^reset;%\n^yellow;^reset; ^cyan;免疫^reset;酸、バイオオーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gishinanki Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "岸南記"
+    }
+  ]
+]

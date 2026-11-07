@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An interesting algae type. Excellent biofuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "興味深い藻の種類。 優れたバイオ燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Algae Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "藻類"
+    }
+  ]
+]

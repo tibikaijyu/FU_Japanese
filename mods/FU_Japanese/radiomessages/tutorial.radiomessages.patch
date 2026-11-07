@@ -1,0 +1,206 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/fu_pickupgravgun/text",
+      "value": "It appears you have obtained an upgrade to your ^cyan;Matter Manipulator^reset;. Using the ^orange;Shift + Secondary^reset; functionality of your ^green;Tricorder^reset;, you can replace your current device."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_pickupgravgun/text",
+      "value": "^cyan;マターマニピュレーター^reset;の上位機種を手に入れたようですね。^orange;Shift + セカンダリ操作^reset;を^green;トライコーダー^reset;で行うと、現在の装置と交換できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useBathroom/text",
+      "value": "Various species expel their waste within this room. Except ^cyan;Kevin^reset;. Nobody has any clue where he goes to the bathroom, but he has never once used this facility other than as temporary storage for large carnivorous reptiles. ^cyan;Kevin^reset; maintains that this was necessary."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useBathroom/text",
+      "value": "さまざまな種族がこの部屋で用を足します。ただし^cyan;ケビン^reset;を除きます。彼がどこで済ませているかは誰も知りません。この施設を使ったのも、大型の肉食爬虫類を一時保管した時だけです。^cyan;ケビン^reset;は必要だったと言い張っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useBees/text",
+      "value": "If you are an avid beekeeper, this is where you'll want to head to eschew yourself of excess Queens and Drones that do not meet your requirements. In exchange, you'll garner income and rare resources."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useBees/text",
+      "value": "養蜂に熱心なら、ここで余った女王蜂や、条件に合わない雄蜂を手放せます。見返りに収入や希少な資源が得られます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useBooze/text",
+      "value": "The ^orange;Tavern^reset; provides entertainment and legal intoxicants to off-the-clock staff or visitors to the Science Outpost. While not all of us partake, some alcohol provides useful boons when ingested. After the ^orange;Tavern^reset; you'll find nothing of interest to investigate."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useBooze/text",
+      "value": "^orange;酒場^reset;では、科学前哨基地の非番の職員や訪問者に、娯楽と合法のお酒を提供しています。誰もが飲むわけではありませんが、役立つ効果を得られる酒もあります。^orange;酒場^reset;の先には、調べる価値のある物は何もありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useDrugs1/text",
+      "value": "Ah, the garbage area. What else needs to be said? One thing is for certain: you most assuredly have no interest in continuing further, past the next door. Nothing of use awaits. Just turn back and do not proceed. It's better that way."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useDrugs1/text",
+      "value": "さて、ゴミ置き場です。他に何を言えばよいでしょう？ 確かなのは、次の扉の先へ進む理由は一切ないということです。役立つ物はありません。引き返してください。その方がいいのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useDrugs2/text",
+      "value": "So...you didn't listen. No worries. Whatever you do, do not speak with the X'i over there. He is not interesting or at all worth hanging out with. Not even a little. Ignore him. He doesn't have narcotics or illegal substances."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useDrugs2/text",
+      "value": "つまり……忠告を聞かなかったのですね。まあ構いません。何があっても、そこにいるザイには話しかけないでください。面白くもなければ、付き合う価値もありません。少しもです。無視してください。麻薬や違法な品など持っていませんから。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useFreud/text",
+      "value": "The ^orange;Instafreud^reset; reduces ^cyan;madness^reset;, helping even the most insane scientists come back from the worst possible mental traumas. It is the only guaranteed way to tame the voices in your head. You can also reduce Madness with crew, gear or consumables."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useFreud/text",
+      "value": "^orange;インスタフロイト^reset;は^cyan;狂気^reset;を減らし、どれほど狂った科学者でも、深刻な心の傷から立ち直る手助けをします。頭の中の声を確実に鎮める唯一の手段です。乗組員や装備、消耗品でも狂気を減らせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useKevin/text",
+      "value": "Nothing of interest lies below this point. You should definitely not proceed downward."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useKevin/text",
+      "value": "ここより下に面白い物はありません。絶対に下へ進まないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useKevin2/text",
+      "value": "No good can come of going further. Turn back."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useKevin2/text",
+      "value": "この先に進んでも、ろくなことはありません。引き返してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useKevin3/text",
+      "value": "Contrary to the poster on the wall, there will soon be a reason to be upset If you keep going. You might end up in a conversation with ^cyan;Kevin^reset;. This is best avoided for the rest of your natural life if you have any intent of remaining sane. You were warned."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useKevin3/text",
+      "value": "壁のポスターとは違い、進み続ければ、じきに不愉快な目に遭います。^cyan;ケビン^reset;と会話する羽目になるかもしれません。正気を保ちたいなら、一生避けるのが賢明です。警告はしましたよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useMarket/text",
+      "value": "The ^orange;Market^reset; provides a wealth of unique finds for sale to researchers and visitors alike, regardless of their affiliation. Some shopkeeps will provide quests from time to time, as well. I advise perusing every store : you never know what you'll find!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useMarket/text",
+      "value": "^orange;市場^reset;には、所属を問わず研究者や訪問者が買える珍しい品が揃っています。時には店主からクエストを受けることもできます。全ての店を覗いてみましょう。何が見つかるか分かりませんよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useMusicAward/text",
+      "value": "^cyan;Kevin^reset; insists he was given this award for the best-selling album of all time among Mantizi culture :^yellow;'Holy Crap, Look At The Size of that Sandwich!'^reset;. No proof has ever been provided. It is best to assume this is bullshit."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useMusicAward/text",
+      "value": "^cyan;ケビン^reset;は、マンティジ族史上最も売れたアルバム、^yellow;『なんてこった、そのサンドイッチでかすぎだろ！』^reset;でこの賞をもらったと言い張っています。証拠は一度も出されていません。でたらめと思っておくのがよいでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useStarbucks/text",
+      "value": "Yes, we have a ^orange;Starbucks^reset;. It's been here as long as anyone remembers: We cannot find the agreement we signed, nor have Starbucks been able to do so, that led to it being set up here. We have simply learned to accept it. ^cyan;Kevin^reset; without caffeine is not a thing you want to see."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useStarbucks/text",
+      "value": "ええ、ここにも^orange;スターバックス^reset;があります。誰もが覚えている限り、ずっとここにあります。出店時の契約書は、こちらにもスターバックス側にも見つかりません。もう受け入れるしかないのです。カフェイン抜きの^cyan;ケビン^reset;など、見たくないでしょう？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_useTrough/text",
+      "value": "^orange;Troughs^reset; provide a place to store food for your farm animals. When one of them becomes hungry, they will seek food there. With enough food they'll become happy, which increases their chance to produce offspring if a viable mate is nearby!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_useTrough/text",
+      "value": "^orange;飼い葉桶^reset;には、家畜用の餌を入れておけます。お腹がすいた家畜は、そこへ餌を食べに来ます。十分な餌があれば幸せになり、適したつがいが近くにいる時、子が生まれやすくなります！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naturalcave1/text",
+      "value": "I am detecting a variety of life signs in this mine. If you are intending to explore it, I may advise adequately arming yourself first."
+    },
+    {
+      "op": "replace",
+      "path": "/naturalcave1/text",
+      "value": "この鉱山で、さまざまな生命反応を検知しています。探索するなら、まず十分な武装を整えることを勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naturalcave2/text",
+      "value": "If you are not sufficiently confident in your personal combat capabilities, you would be better suited in constructing better equipment before entering."
+    },
+    {
+      "op": "replace",
+      "path": "/naturalcave2/text",
+      "value": "戦闘能力に十分な自信がない場合は、入る前にもっと良い装備を作るべきでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupmanipulatormodule/text",
+      "value": "These useful gadgets are used to upgrade ^orange;tools^reset;, including your ^orange;Matter Manipulator^reset;, from the upgrade interface of your ^orange;Personal Tricorder^reset;. I suggest saving a few for when you build a ^green;Mining laser^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupmanipulatormodule/text",
+      "value": "この便利な装置は、^orange;ツール^reset;の強化に使います。^orange;マターマニピュレーター^reset;などを、^orange;個人用トライコーダー^reset;の強化画面で改良できます。^green;採掘レーザー^reset;を作る時に備え、いくつか残しておくことを勧めます。"
+    }
+  ]
+]

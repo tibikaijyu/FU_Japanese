@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hides the player and whatever they're holding. Good for screenshots."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プレーヤーと彼らが保持しているものを隠します。 スクリーンショットに適しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hat of Invisibility"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "見えない帽子"
+    }
+  ]
+]

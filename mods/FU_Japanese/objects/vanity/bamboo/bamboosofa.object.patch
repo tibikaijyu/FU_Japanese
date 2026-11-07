@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stylish bamboo sofa."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイリッシュな竹製ソファ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bamboo Sofa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竹製ソファー"
+    }
+  ]
+]

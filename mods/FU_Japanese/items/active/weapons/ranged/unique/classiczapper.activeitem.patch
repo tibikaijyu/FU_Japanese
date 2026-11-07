@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly inspired classic. Feel the nostalgia.\n^cyan;Stuns enemies^reset;\n^#e43774;Invisible projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真にインスピレーションを受けたクラシック。 懐かしさを感じなさい。\n^cyan;スタンの敵^reset;\n^#e43774;不可視発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Classic Zapper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラシックザッパー"
+    }
+  ]
+]

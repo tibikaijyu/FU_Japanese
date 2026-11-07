@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It seems this poor person was vivisected."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この貧乏人は生き残ったらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dead scientist"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死んだ科学者"
+    }
+  ]
+]

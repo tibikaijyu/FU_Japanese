@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It seems orderly enough, but the actual data is on how tall each of these bars are..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "しかし実際のデータは、各バーの高さに関するものだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Colorful, but not very engaging, is it?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "カラフルですが、あまり魅力的ではありませんよね?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All your data, now in bar form!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべてのあなたのデータ、バー形式で今!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Colorful barss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "カラフルなバー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. According to this graph, the middle bar is the tallest."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 このグラフによると、中間のバーが最も高いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "As you can see by this graph- ... ahem. GRAPH-"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このグラフでわかるように...ああ。 グラフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Perhaps the simplest and most efficient way to communicate data."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "おそらく、最もシンプルで効率的なデータ通信方法です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Pictures make for easier understandin' than numbers, I reckon."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "写真は数字よりも理解しやすくなります"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bar Graph"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "棒グラフ"
+    }
+  ]
+]

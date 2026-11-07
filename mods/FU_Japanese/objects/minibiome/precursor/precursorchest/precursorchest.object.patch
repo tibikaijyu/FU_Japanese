@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stores stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保管します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体胸部"
+    }
+  ]
+]

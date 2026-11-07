@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A grape honey straw! More nutritious and delicious!\n^green;Heal ^white;160 ^gray;(^white;2m^gray;)^reset; \n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウの蜂蜜わら! 栄養価が高く、美味しい!\n^green;癒し ^white;160 ^gray;(^white;2え?^gray;)^reset; \n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grape Honey Straw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ麦わら"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small silver replica of the Nightar's penumbral homeworld."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイターのペヌブラルの故郷の小さな銀色のレプリカ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nightarDescription",
+      "value": "A hollow silver model of my homeworld. Such use of metal is exhorbitant, but it is vital to remember our past, and She who dwells within."
+    },
+    {
+      "op": "replace",
+      "path": "/nightarDescription",
+      "value": "私の故郷の中空のシルバーモデル。 このような金属の使用は威厳がありますが、私たちの過去を思い出すのが不可欠です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Globe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールグローブ"
+    }
+  ]
+]

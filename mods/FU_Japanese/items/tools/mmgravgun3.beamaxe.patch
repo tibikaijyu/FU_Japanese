@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Supreme tech."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最高の技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;Precursor Manipulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#b84cbc; プレカーダマニピュレータ^reset;"
+    }
+  ]
+]

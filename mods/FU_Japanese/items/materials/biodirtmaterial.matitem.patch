@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is some mighty strange dirt.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはとても奇妙な汚れです。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原土"
+    }
+  ]
+]

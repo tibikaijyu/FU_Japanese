@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Golden Saint Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴールデンセントドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Saint Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンセントドローン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its fruit increases swim speed. Must be planted in liquid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その果実は水泳の速度を増す。 液体に植える必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquapod Bud"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水脚座"
+    }
+  ]
+]

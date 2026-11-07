@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Stegovapti head."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化したステゴヴァプティヘッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stegovapti Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステゴヴァプティの頭蓋骨"
+    }
+  ]
+]

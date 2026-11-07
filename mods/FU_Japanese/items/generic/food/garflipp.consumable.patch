@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brain leech primarily found on Nitrogen seas.\n^cyan;+^white;2% ^cyan;HP ^gray;(^white;1m^gray;)\n^cyan;-^white;20% ^cyan;Risk of Madness Effects^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主に窒素海で見られる脳リーチ。\n^cyan;+^white;2% ^cyan;HP ^gray;(^white;1え?^gray;)\n^cyan;-^white;20% ^cyan;狂気の影響のリスク^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garflipp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガーフリップ"
+    }
+  ]
+]

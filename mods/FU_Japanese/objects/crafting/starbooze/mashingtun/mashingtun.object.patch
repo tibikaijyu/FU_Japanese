@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A vat to make mash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マッシュを作るための猫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Mashing Tun^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;マッシングトン^reset;"
+    }
+  ]
+]

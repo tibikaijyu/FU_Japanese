@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lethal piece of gear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的なギア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cyborg Assassin Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイボーグ・アサシン・ヘルム"
+    }
+  ]
+]

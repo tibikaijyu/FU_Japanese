@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exceptionally tough alloy support."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "例外的にタフな合金サポート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solid Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソリッドサポート"
+    }
+  ]
+]

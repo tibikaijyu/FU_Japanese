@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A horrid and amorphous abomination. A tiny one."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしく、アモルファスな嫌悪。 小さなものです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mini Shoggoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミニショゴート"
+    }
+  ]
+]

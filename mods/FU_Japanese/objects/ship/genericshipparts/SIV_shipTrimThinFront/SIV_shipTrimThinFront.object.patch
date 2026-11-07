@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thin, front trim piece for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の薄くて前部トリムピース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thin Trim Front"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薄切り前線"
+    }
+  ]
+]

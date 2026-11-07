@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Applied sparingly to various materials to encourage unusual changes in structure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "構造の異常な変化を奨励するために、さまざまな材料に散発的に適用される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Lasombrium Seed^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;ラソンブリウムの種^reset;"
+    }
+  ]
+]

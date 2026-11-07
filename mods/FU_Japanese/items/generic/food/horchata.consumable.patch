@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A type of milk made of rice, and seasoned with cinnamon. \n^cyan;+^reset;10%^green; HP^reset;^cyan; +^reset;5%^green; Energy^reset; \n^orange;Type: Dairy + Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "米から作ったミルクで、シナモンで味付けしたものです。 \n^cyan;+^reset;10%^green; HP^reset;^cyan; +^reset;5%^green; エネルギー^reset; \n^orange;タイプ:乳製品+穀物^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horchata"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホルチャタ"
+    }
+  ]
+]

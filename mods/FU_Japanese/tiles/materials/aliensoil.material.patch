@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange neon-like soil"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙なネオン様土壌"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "土"
+    }
+  ]
+]

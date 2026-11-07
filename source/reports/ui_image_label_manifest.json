@@ -1,0 +1,2538 @@
+[
+  {
+    "id": "crafting_apiary",
+    "asset": "interface/objectcrafting/apiary.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/objectcrafting/extract.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/objectcrafting/extractover.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/bees/button.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/bees/buttonhover.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "抽出"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/toggleCrafting/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/toggleCrafting/base",
+      "/gui/toggleCrafting/hover",
+      "/gui/toggleCrafting/caption",
+      "/gui/toggleCrafting/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/toggleCrafting/base",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/extract.png",
+        "target": "/interface/bees/button.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/hover",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/extractover.png",
+        "target": "/interface/bees/buttonhover.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "抽出"
+      },
+      {
+        "path": "/gui/toggleCrafting/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "crafting_apiary"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "crafting_dip",
+    "asset": "interface/objectcrafting/dip.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/objectcrafting/dip.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/objectcrafting/dipover.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/bees/button.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/bees/buttonhover.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "浸す"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/toggleCrafting/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/toggleCrafting/base",
+      "/gui/toggleCrafting/hover",
+      "/gui/toggleCrafting/caption",
+      "/gui/toggleCrafting/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/toggleCrafting/base",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/dip.png",
+        "target": "/interface/bees/button.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/hover",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/dipover.png",
+        "target": "/interface/bees/buttonhover.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "浸す"
+      },
+      {
+        "path": "/gui/toggleCrafting/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "crafting_dip"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "crafting_sprout",
+    "asset": "interface/objectcrafting/sprout.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/objectcrafting/sprout.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/objectcrafting/sproutover.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/bees/button.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/bees/buttonhover.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "発芽"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/toggleCrafting/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/toggleCrafting/base",
+      "/gui/toggleCrafting/hover",
+      "/gui/toggleCrafting/caption",
+      "/gui/toggleCrafting/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/toggleCrafting/base",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/sprout.png",
+        "target": "/interface/bees/button.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/hover",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/sproutover.png",
+        "target": "/interface/bees/buttonhover.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "発芽"
+      },
+      {
+        "path": "/gui/toggleCrafting/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "crafting_sprout"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "crafting_press",
+    "asset": "interface/objectcrafting/press.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/objectcrafting/press.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/objectcrafting/pressover.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/bees/button.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/bees/buttonhover.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "圧搾"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/toggleCrafting/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/toggleCrafting/base",
+      "/gui/toggleCrafting/hover",
+      "/gui/toggleCrafting/caption",
+      "/gui/toggleCrafting/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/toggleCrafting/base",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/press.png",
+        "target": "/interface/bees/button.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/hover",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/pressover.png",
+        "target": "/interface/bees/buttonhover.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "圧搾"
+      },
+      {
+        "path": "/gui/toggleCrafting/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "crafting_press"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "crafting_cloner_cloner",
+    "asset": "interface/objectcrafting/cloner/cloner.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/objectcrafting/cloner/clone.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/objectcrafting/cloner/cloneover.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base",
+        "value": "/interface/bees/button.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/toggleCrafting/hover",
+        "value": "/interface/bees/buttonhover.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/caption",
+        "value": "複製"
+      },
+      {
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/toggleCrafting/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/toggleCrafting/base",
+      "/gui/toggleCrafting/hover",
+      "/gui/toggleCrafting/caption",
+      "/gui/toggleCrafting/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/toggleCrafting/base",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/cloner/clone.png",
+        "target": "/interface/bees/button.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/hover",
+        "source_exists": true,
+        "source": "/interface/objectcrafting/cloner/cloneover.png",
+        "target": "/interface/bees/buttonhover.png"
+      },
+      {
+        "path": "/gui/toggleCrafting/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "複製"
+      },
+      {
+        "path": "/gui/toggleCrafting/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "crafting_cloner_cloner"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mechfuel_btnUpgrade",
+    "asset": "interface/mechfuel/mechfuel.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/btnUpgrade/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnUpgrade/base",
+        "value": "/interface/mechfuel/deploy.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnUpgrade/hover",
+        "value": "/interface/mechfuel/deployhover.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnUpgrade/pressed",
+        "value": "/interface/mechfuel/deploypressed.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnUpgrade/base",
+        "value": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnUpgrade/hover",
+        "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnUpgrade/pressed",
+        "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "op": "add",
+        "path": "/gui/btnUpgrade/caption",
+        "value": "補給"
+      },
+      {
+        "op": "add",
+        "path": "/gui/btnUpgrade/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/btnUpgrade/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/btnUpgrade/base",
+      "/gui/btnUpgrade/hover",
+      "/gui/btnUpgrade/pressed",
+      "/gui/btnUpgrade/caption",
+      "/gui/btnUpgrade/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/btnUpgrade/base",
+        "source_exists": true,
+        "source": "/interface/mechfuel/deploy.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "path": "/gui/btnUpgrade/hover",
+        "source_exists": true,
+        "source": "/interface/mechfuel/deployhover.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "path": "/gui/btnUpgrade/pressed",
+        "source_exists": true,
+        "source": "/interface/mechfuel/deploypressed.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+      },
+      {
+        "path": "/gui/btnUpgrade/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "補給"
+      },
+      {
+        "path": "/gui/btnUpgrade/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "mechfuel_btnUpgrade"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mechfuel_btnEmpty",
+    "asset": "interface/mechfuel/mechfuel.config",
+    "kind": "button",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/btnEmpty/type",
+        "value": "button"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnEmpty/base",
+        "value": "/interface/mechfuel/emptyfuel.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnEmpty/hover",
+        "value": "/interface/mechfuel/emptyfuelhover.png"
+      },
+      {
+        "op": "test",
+        "path": "/gui/btnEmpty/pressed",
+        "value": "/interface/mechfuel/emptyfuelpressed.png"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnEmpty/base",
+        "value": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnEmpty/hover",
+        "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "op": "replace",
+        "path": "/gui/btnEmpty/pressed",
+        "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "op": "add",
+        "path": "/gui/btnEmpty/caption",
+        "value": "排出"
+      },
+      {
+        "op": "add",
+        "path": "/gui/btnEmpty/fontSize",
+        "value": 9
+      }
+    ],
+    "display_paths": [
+      "/gui/btnEmpty/caption"
+    ],
+    "allowed_ui_paths": [
+      "/gui/btnEmpty/base",
+      "/gui/btnEmpty/hover",
+      "/gui/btnEmpty/pressed",
+      "/gui/btnEmpty/caption",
+      "/gui/btnEmpty/fontSize"
+    ],
+    "changes": [
+      {
+        "path": "/gui/btnEmpty/base",
+        "source_exists": true,
+        "source": "/interface/mechfuel/emptyfuel.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "path": "/gui/btnEmpty/hover",
+        "source_exists": true,
+        "source": "/interface/mechfuel/emptyfuelhover.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "path": "/gui/btnEmpty/pressed",
+        "source_exists": true,
+        "source": "/interface/mechfuel/emptyfuelpressed.png",
+        "target": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+      },
+      {
+        "path": "/gui/btnEmpty/caption",
+        "source_exists": false,
+        "source": null,
+        "target": "排出"
+      },
+      {
+        "path": "/gui/btnEmpty/fontSize",
+        "source_exists": false,
+        "source": null,
+        "target": 9
+      }
+    ],
+    "source_image_text": [
+      "mechfuel_btnEmpty"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mechfuel_legend",
+    "asset": "interface/mechfuel/mechfuel.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/interface/mechfuel/body.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFuelTypesCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=46;12",
+          "position": [
+            217,
+            148
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFuelTypesTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            240.0,
+            154.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "燃料の種類",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseOilCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=17;13",
+          "position": [
+            169,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseOilTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            177.5,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "油",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseMechFuelCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=34;13",
+          "position": [
+            185,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseMechFuelTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            202.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "メック",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseErchiusCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=38;13",
+          "position": [
+            219,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseErchiusTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            238.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 7,
+          "value": "エルキウス",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseIsotopesCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=52;13",
+          "position": [
+            260,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseIsotopesTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            286.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "同位体",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseBioFuelCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=32;13",
+          "position": [
+            181,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseBioFuelTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            197.0,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "バイオ",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseCatalystCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=23;13",
+          "position": [
+            224,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseCatalystTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            235.5,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "触媒",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerCoresCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=63;13",
+          "position": [
+            250,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerCoresTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            281.5,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "パワーコア",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseFuelTypesTitle/value",
+      "/gui/fuJapaneseOilTitle/value",
+      "/gui/fuJapaneseMechFuelTitle/value",
+      "/gui/fuJapaneseErchiusTitle/value",
+      "/gui/fuJapaneseIsotopesTitle/value",
+      "/gui/fuJapaneseBioFuelTitle/value",
+      "/gui/fuJapaneseCatalystTitle/value",
+      "/gui/fuJapanesePowerCoresTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseFuelTypesCover",
+      "/gui/fuJapaneseFuelTypesTitle",
+      "/gui/fuJapaneseOilCover",
+      "/gui/fuJapaneseOilTitle",
+      "/gui/fuJapaneseMechFuelCover",
+      "/gui/fuJapaneseMechFuelTitle",
+      "/gui/fuJapaneseErchiusCover",
+      "/gui/fuJapaneseErchiusTitle",
+      "/gui/fuJapaneseIsotopesCover",
+      "/gui/fuJapaneseIsotopesTitle",
+      "/gui/fuJapaneseBioFuelCover",
+      "/gui/fuJapaneseBioFuelTitle",
+      "/gui/fuJapaneseCatalystCover",
+      "/gui/fuJapaneseCatalystTitle",
+      "/gui/fuJapanesePowerCoresCover",
+      "/gui/fuJapanesePowerCoresTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseFuelTypesCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=46;12",
+          "position": [
+            217,
+            148
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseFuelTypesTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            240.0,
+            154.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "燃料の種類",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseOilCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=17;13",
+          "position": [
+            169,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseOilTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            177.5,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "油",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseMechFuelCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=34;13",
+          "position": [
+            185,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseMechFuelTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            202.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "メック",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseErchiusCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=38;13",
+          "position": [
+            219,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseErchiusTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            238.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 7,
+          "value": "エルキウス",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseIsotopesCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=52;13",
+          "position": [
+            260,
+            118
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseIsotopesTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            286.0,
+            124.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "同位体",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseBioFuelCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=32;13",
+          "position": [
+            181,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseBioFuelTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            197.0,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "バイオ",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseCatalystCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=23;13",
+          "position": [
+            224,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseCatalystTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            235.5,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "触媒",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerCoresCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=63;13",
+          "position": [
+            250,
+            93
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerCoresTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            281.5,
+            99.5
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "パワーコア",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "FUEL TYPES",
+      "OIL",
+      "MECH FUEL",
+      "ERCHIUS",
+      "ISOTOPES",
+      "BIO FUEL",
+      "CAT",
+      "POWER CORES"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "generator_fu_quantumgenerator",
+    "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseLogicNodeTitle/value",
+      "/gui/fuJapanesePowerNodeTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseLogicNodeCover",
+      "/gui/fuJapaneseLogicNodeTitle",
+      "/gui/fuJapanesePowerNodeCover",
+      "/gui/fuJapanesePowerNodeTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "LOGIC NODE / CONNECT TO WIRE",
+      "OUTPUT NODE / POWERS DEVICES"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "generator_isn_thermalgenerator",
+    "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseLogicNodeTitle/value",
+      "/gui/fuJapanesePowerNodeTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseLogicNodeCover",
+      "/gui/fuJapaneseLogicNodeTitle",
+      "/gui/fuJapanesePowerNodeCover",
+      "/gui/fuJapanesePowerNodeTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "LOGIC NODE / CONNECT TO WIRE",
+      "OUTPUT NODE / POWERS DEVICES"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "generator_fu_alternatorgenerator",
+    "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseLogicNodeTitle/value",
+      "/gui/fuJapanesePowerNodeTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseLogicNodeCover",
+      "/gui/fuJapaneseLogicNodeTitle",
+      "/gui/fuJapanesePowerNodeCover",
+      "/gui/fuJapanesePowerNodeTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+          "position": [
+            21,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            52.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "制御入力\n配線で制御",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+          "position": [
+            98,
+            29
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            127.0,
+            38.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "電力出力\n機器へ給電",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "LOGIC NODE / CONNECT TO WIRE",
+      "OUTPUT NODE / POWERS DEVICES"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "furnace_electricfurnace",
+    "asset": "objects/power/electricfurnace/electricfurnace.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseInputTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseInputCover",
+      "/gui/fuJapaneseInputTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseInputCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseInputTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "INPUT"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "furnace_fu_blastfurnace",
+    "asset": "objects/power/fu_blastfurnace/fu_blastfurnace.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseInputTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseInputCover",
+      "/gui/fuJapaneseInputTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseInputCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseInputTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "INPUT"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "furnace_isn_arcsmelter",
+    "asset": "objects/power/isn_arcsmelter/isn_arcsmelter.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseInputTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseInputCover",
+      "/gui/fuJapaneseInputTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseInputCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+          "position": [
+            4,
+            60
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseInputTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            15.0,
+            65.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "投入",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "INPUT"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "mmutility_footer",
+    "asset": "interface/scripted/mmutility/mmutility.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileFooter",
+        "value": "/interface/scripted/mmutility/footer.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=95;10",
+          "position": [
+            3,
+            3
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            50.5,
+            8.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "枠にアイテムを入れる",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseFooterTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseFooterCover",
+      "/gui/fuJapaneseFooterTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseFooterCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=95;10",
+          "position": [
+            3,
+            3
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseFooterTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            50.5,
+            8.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "枠にアイテムを入れる",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "DRAG AND DROP ITEM IN SLOT"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "oredetector_footer",
+    "asset": "interface/scripted/tunableoredetector/tunableoredetector.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileFooter",
+        "value": "/interface/scripted/tunableoredetector/footer.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=44;8",
+          "position": [
+            15,
+            6
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            37.0,
+            10.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "鉱石を置く",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseFooterTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseFooterCover",
+      "/gui/fuJapaneseFooterTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseFooterCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=44;8",
+          "position": [
+            15,
+            6
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseFooterTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            37.0,
+            10.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 8,
+          "value": "鉱石を置く",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "PLACE ORE"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "smartbox_extra",
+    "asset": "interface/smartbox/halver.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/background/fileBody",
+        "value": "/interface/smartbox/halver.png"
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseExtraCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=0d2346ff?scalenearest=20;10",
+          "position": [
+            75,
+            16
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseExtraTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            85.0,
+            21.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 7,
+          "value": "余り",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseExtraTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseExtraCover",
+      "/gui/fuJapaneseExtraTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseExtraCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=0d2346ff?scalenearest=20;10",
+          "position": [
+            75,
+            16
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseExtraTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            85.0,
+            21.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 7,
+          "value": "余り",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "EXTRA"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "character_creation_title",
+    "asset": "interface/windowconfig/charcreation.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/paneLayout/background/fileBody",
+        "value": "/interface/title/charactercreation.png"
+      },
+      {
+        "op": "add",
+        "path": "/paneLayout/fuJapaneseCharacterCreationCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=102f64ff?scalenearest=165;14",
+          "position": [
+            179,
+            329
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/paneLayout/fuJapaneseCharacterCreationTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            261.5,
+            336.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 10,
+          "value": "キャラクター作成",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/paneLayout/fuJapaneseCharacterCreationTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/paneLayout/fuJapaneseCharacterCreationCover",
+      "/paneLayout/fuJapaneseCharacterCreationTitle"
+    ],
+    "changes": [
+      {
+        "path": "/paneLayout/fuJapaneseCharacterCreationCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=102f64ff?scalenearest=165;14",
+          "position": [
+            179,
+            329
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/paneLayout/fuJapaneseCharacterCreationTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            261.5,
+            336.0
+          ],
+          "hAnchor": "mid",
+          "vAnchor": "mid",
+          "fontSize": 10,
+          "value": "キャラクター作成",
+          "zlevel": 3,
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "CHARACTER CREATION"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "questline_list_titles",
+    "asset": "zb/questList/questList.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/banner",
+        "value": {
+          "type": "image",
+          "zlevel": -2,
+          "file": "/assetmissing.png",
+          "position": [
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+          "position": [
+            13,
+            8
+          ],
+          "zlevel": -1,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            16,
+            17
+          ],
+          "hAnchor": "left",
+          "vAnchor": "mid",
+          "fontSize": 9,
+          "value": "",
+          "zlevel": 0,
+          "mouseTransparent": true,
+          "wrapWidth": 101
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerCover",
+      "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+          "position": [
+            13,
+            8
+          ],
+          "zlevel": -1,
+          "mouseTransparent": true
+        }
+      },
+      {
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            16,
+            17
+          ],
+          "hAnchor": "left",
+          "vAnchor": "mid",
+          "fontSize": 9,
+          "value": "",
+          "zlevel": 0,
+          "mouseTransparent": true,
+          "wrapWidth": 101
+        }
+      }
+    ],
+    "source_image_text": [],
+    "notes": "Text filled from already-localized QD.strings.questlines[id].title at the display boundary; unavailable titles are gray. IDs and images are retained."
+  },
+  {
+    "id": "questline_selected_title",
+    "asset": "zb/questList/questList.config",
+    "kind": "overlays",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/questlineBanner",
+        "value": {
+          "type": "image",
+          "position": [
+            12,
+            204
+          ],
+          "file": "/assetmissing.png"
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseQuestlineCover",
+        "value": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+          "position": [
+            25,
+            210
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true,
+          "visible": false
+        }
+      },
+      {
+        "op": "add",
+        "path": "/gui/fuJapaneseQuestlineTitle",
+        "value": {
+          "type": "label",
+          "position": [
+            28,
+            219
+          ],
+          "hAnchor": "left",
+          "vAnchor": "mid",
+          "fontSize": 9,
+          "value": "",
+          "zlevel": 3,
+          "mouseTransparent": true,
+          "wrapWidth": 101,
+          "visible": false
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/fuJapaneseQuestlineTitle/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/fuJapaneseQuestlineCover",
+      "/gui/fuJapaneseQuestlineTitle"
+    ],
+    "changes": [
+      {
+        "path": "/gui/fuJapaneseQuestlineCover",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "image",
+          "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+          "position": [
+            25,
+            210
+          ],
+          "zlevel": 2,
+          "mouseTransparent": true,
+          "visible": false
+        }
+      },
+      {
+        "path": "/gui/fuJapaneseQuestlineTitle",
+        "source_exists": false,
+        "source": null,
+        "target": {
+          "type": "label",
+          "position": [
+            28,
+            219
+          ],
+          "hAnchor": "left",
+          "vAnchor": "mid",
+          "fontSize": 9,
+          "value": "",
+          "zlevel": 3,
+          "mouseTransparent": true,
+          "wrapWidth": 101,
+          "visible": false
+        }
+      }
+    ],
+    "source_image_text": [],
+    "notes": "Cover/title visibility follows questlineBanner selection and reset in the Lua display hooks."
+  },
+  {
+    "id": "questline_completed",
+    "asset": "zb/questList/questList.config",
+    "kind": "display_widget",
+    "group": [
+      {
+        "op": "test",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+        "value": {
+          "type": "image",
+          "zlevel": -1,
+          "visible": false,
+          "file": "/zb/questList/questlineComplete.png",
+          "position": [
+            86,
+            0
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+        "value": {
+          "type": "label",
+          "visible": false,
+          "position": [
+            86,
+            0
+          ],
+          "zlevel": 1,
+          "hAnchor": "left",
+          "vAnchor": "bottom",
+          "fontSize": 9,
+          "value": "^green;完了^reset;",
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "display_paths": [
+      "/gui/questlineList/children/list/schema/listTemplate/completeImage/value"
+    ],
+    "allowed_ui_paths": [
+      "/gui/questlineList/children/list/schema/listTemplate/completeImage"
+    ],
+    "changes": [
+      {
+        "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+        "source_exists": true,
+        "source": {
+          "type": "image",
+          "zlevel": -1,
+          "visible": false,
+          "file": "/zb/questList/questlineComplete.png",
+          "position": [
+            86,
+            0
+          ]
+        },
+        "target": {
+          "type": "label",
+          "visible": false,
+          "position": [
+            86,
+            0
+          ],
+          "zlevel": 1,
+          "hAnchor": "left",
+          "vAnchor": "bottom",
+          "fontSize": 9,
+          "value": "^green;完了^reset;",
+          "mouseTransparent": true
+        }
+      }
+    ],
+    "source_image_text": [
+      "COMPLETE"
+    ],
+    "notes": "Retains existing completeImage widget ID, initial visibility and position. Existing Lua completion logic toggles this label."
+  }
+]

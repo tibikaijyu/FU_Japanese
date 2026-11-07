@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "What were cultists doing in here? They were up to something with the locals, but I don't know what. Well, it doesn't matter now. Their loot is mine!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "カルト主義者はここで何をしていたのですか? 地元の人とは何か関係があったが、私は知らない。 まあ、今はどうでもいい。 彼らの略奪は私のものです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Follow the coordinates to the jungle via SAIL and investigate."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "SAIL経由でジャングルまでの座標に従って調査してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've discovered the location of ancient ruins deep in a far-off planet's jungle. This could make for interesting exploration."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "遠く離れた惑星のジャングルの奥深くにある古代遺跡の場所を発見しました。 これは興味深い探索につながる可能性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Evernight Jungle"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;毎晩ジャングル"
+    }
+  ]
+]

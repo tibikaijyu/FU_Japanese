@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tasteful, yet horrific"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しくも恐ろしくも"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Fountain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュ噴水"
+    }
+  ]
+]

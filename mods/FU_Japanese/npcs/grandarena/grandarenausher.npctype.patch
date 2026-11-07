@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I have nothing to sssay to you"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "あなたに伝えることは何もありません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/0",
+      "value": "Floran welcomesss you to grand arena! Sssurvive all wavesss of monstersss to gain victory, but if you die during challenge then you mussst ssstart all over again!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/0",
+      "value": "フローランはグランドアリーナへようこそ! Ssは勝利を得るためにモンスターのあらゆる波を生き残るが、挑戦中に死ぬなら、再びssstartしなければならない!"
+    }
+  ]
+]

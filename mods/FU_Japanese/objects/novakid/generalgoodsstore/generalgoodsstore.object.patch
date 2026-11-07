@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "...?! How on Earth-?!"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "...?! どうやって地球に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I only just built this! These folks are fast!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "たった今作っただけです! これらの人々は速いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whoa! It already has a shopkeep and everything!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うわっ! すでにショップキープなどあり!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Shopkeep sssneak up on Floran while they weren't looking!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "見ていない間、ショップキープはフローランにこっそり!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Startled. I turn away for one second, and this building is already occupied!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 私は一秒間目をそらし、この建物は既に占有されている!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Well that was fast!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "まあ、それは速かった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I didn't even have to post an add for tenants!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "テナントの広告を投稿する必要さえありませんでした!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "All you need to settle new frontier."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "新しいフロンティアを開拓するだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "General Store"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "雑貨店"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now I've seen some boomtowns in my time but..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "今はブームタウンを目にしていますが..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "General Store"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑貨店"
+    }
+  ]
+]

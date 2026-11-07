@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Translate texts, or use the Velbex to Snarsh Garflipps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テキストを翻訳するか、VerlbexをSnarsh Garflippsに使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Snarshing Table"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "シャーシテーブル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snarshing Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャーシテーブル"
+    }
+  ]
+]

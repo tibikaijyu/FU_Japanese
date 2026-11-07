@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a haunted wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を幽霊の森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Haunted Wood Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "お化け木製マイクロフォーマ"
+    }
+  ]
+]

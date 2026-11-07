@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hoe lets you till soil but with half the hands and time!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手と時間の半分で土を耕すことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Hand Hoe^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ハンドホー ^reset;"
+    }
+  ]
+]

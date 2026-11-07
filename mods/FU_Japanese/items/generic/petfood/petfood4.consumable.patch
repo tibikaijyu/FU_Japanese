@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Energize your pet! Don't ask what it's made from. ^red;Do Not Consume.\n^red;-^white;5% ^red;HP^gray;, ^red;Poisoned ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットを元気にしよう! 何から作られたのか尋ねるな。 ^red; 消費しないでください。\n^red;-^white;5% ^red;HP^gray;, ^red;毒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soylent Periwinkle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "甘味ペリウィンクル"
+    }
+  ]
+]

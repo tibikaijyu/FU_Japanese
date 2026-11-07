@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blended rotten food. The greatest invention of Dupont Dewpawnt. 90^red;s -^reset;5^red;% Health^reset; 15^red;s Poisoned^reset; ^blue;Madness Gain^reset; 3 ^red;Type: Raw Meat Dairy Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐った食べ物をブレンド。 デュポン・デューパントの最大の発明。 90^red;ス) -^reset;5^red;% 健康^reset; 15^red;毒^reset; ^blue;狂気の高まり^reset; 3 ^red;タイプ:生肉乳製品デザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Awful Offal Smoothie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オパールスムージー!"
+    }
+  ]
+]

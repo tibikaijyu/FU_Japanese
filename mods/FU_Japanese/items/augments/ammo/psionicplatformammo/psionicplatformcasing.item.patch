@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An empty casing. How sad."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空のケーシング。 なんて悲しいんだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Simple Casing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シンプルなケーシング"
+    }
+  ]
+]

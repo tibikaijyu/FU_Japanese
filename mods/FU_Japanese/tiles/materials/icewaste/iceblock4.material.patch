@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の氷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代の氷"
+    }
+  ]
+]

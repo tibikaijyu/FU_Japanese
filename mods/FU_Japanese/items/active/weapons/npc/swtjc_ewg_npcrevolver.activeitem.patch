@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small handgun with a powerful punch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力なパンチを持つ小さな拳銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC High-Caliber Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC高口径ピストル"
+    }
+  ]
+]

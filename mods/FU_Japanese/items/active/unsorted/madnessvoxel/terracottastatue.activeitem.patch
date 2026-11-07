@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whatever being this represents is unknown, but it chills you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これが何を意味するかは不明だが、それはあなたを冷やす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Terracotta Bust"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テラコッタバスト"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carpenter Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carpenter Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大工ドローン"
+    }
+  ]
+]

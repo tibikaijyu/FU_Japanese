@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset; (^orange;Part 1^reset;):\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Pressure, Extreme Heat/Cold/Radiation, Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange; ボーナス^reset;(^orange;Part1^reset;) を設定します。\n^yellow;^reset; ^cyan;免疫^reset;:酸素、圧力、極限の熱/冷/放射線、暗さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャゴットマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fancy pillar fashioned from telebrium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレブリアムをイメージした派手な柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Pillar Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムピラーブロック"
+    }
+  ]
+]

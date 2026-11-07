@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Vash'Knaaren are composed of a single crystal protected by organic metal plates and stony flesh.\n\n  ^orange;Diet^reset;: Omnivore\n\n^orange;Perks^reset;:\n  ^green;Resist^reset;: +^green;20^reset;% Physical, Shadow, +^green;10^reset;% Radioactive\n  ^cyan;Immune^reset;: Darkness, Poisoned\n  ^green;Charisma^reset; +^green;10^reset;%\n\n^orange;Environment^reset;:\n  ^green;Dark^reset;: Health, Defense x^green;1.15^reset;\n\n^orange;Weapons^reset;:\n  Bioweapon Mastery: +^green;36^reset;%\n\n^red;Weaknesses^reset;:\n  ^red;Resist^reset;: -^red;15^reset;% Elec, -^red;10^reset;% Poison, Fire, Ice,\n  ^red;Hunger Rate^reset; +^red;8^reset;%"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "Vash'Knaarenは、有機金属板と石質の肉で保護された単結晶で構成されています。\n\n  ^orange;食性^reset; : 雑食\n\n^orange;特性^reset;\n  ^green;耐性^reset;:+^green;20^reset;%物理、影、+^green;10^reset;%放射能\n  ^cyan;無効化^reset;:暗闇、毒。\n  ^green;カリスマ^reset; +^green;10^reset;%\n\n^orange;環境^reset;\n  ^green;闇 ^reset;:体力、防衛x ^green;1.15^reset;\n\n^orange; 武器 ^reset; :\n  生物兵器 : +^green;36^reset;%\n\n^red;弱点^reset;:\n  ^red;耐性^reset;: -^red;15^reset;% エレク -^red;10^reset;% 毒 火 氷\n  ^red;空腹率^reset; +^red;8^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Vash'Knaaren are composed of a single crystal protected by organic metal plates and stony flesh.\r\n\r\n  ^orange;Diet^reset;: Omnivore\r\n\r\n^orange;Perks^reset;:\r\n  ^green;Resist^reset;: +^green;20^reset;% Physical, Shadow, +^green;10^reset;% Radioactive\r\n  ^cyan;Immune^reset;: Darkness, Poisoned\r\n  ^green;Charisma^reset; +^green;10^reset;%\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Dark^reset;: Health, Defense x^green;1.15^reset;\r\n\r\n^orange;Weapons^reset;:\r\n  Bioweapon Mastery: +^green;36^reset;%\r\n\r\n^red;Weaknesses^reset;:\r\n  ^red;Resist^reset;: -^red;15^reset;% Elec, -^red;10^reset;% Poison, Fire, Ice,\r\n  ^red;Hunger Rate^reset; +^red;8^reset;%"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "Vash'Knaarenは、有機金属板と石質の肉で保護された単結晶で構成されています。\n\n  ^orange;食性^reset; : 雑食\n\n^orange;特性^reset;\n  ^green;耐性^reset;:+^green;20^reset;%物理、影、+^green;10^reset;%放射能\n  ^cyan;無効化^reset;:暗闇、毒。\n  ^green;カリスマ^reset; +^green;10^reset;%\n\n^orange;環境^reset;\n  ^green;闇 ^reset;:体力、防衛x ^green;1.15^reset;\n\n^orange; 武器 ^reset; :\n  生物兵器 : +^green;36^reset;%\n\n^red;弱点^reset;:\n  ^red;耐性^reset;: -^red;15^reset;% エレク -^red;10^reset;% 毒 火 氷\n  ^red;空腹率^reset; +^red;8^reset;%"
+    }
+  ]
+]

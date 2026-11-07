@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect support."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なサポート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なサポート"
+    }
+  ]
+]

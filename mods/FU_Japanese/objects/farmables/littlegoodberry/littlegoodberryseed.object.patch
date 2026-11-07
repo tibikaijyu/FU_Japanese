@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small, delicious berries that also increase your ability to cause pain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな、おいしい果実も痛みを引き起こすあなたの能力を高めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Little Good Berry Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リトルグッドベリーシード"
+    }
+  ]
+]

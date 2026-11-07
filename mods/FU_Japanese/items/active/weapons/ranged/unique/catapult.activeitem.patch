@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Toxic Kitten Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "毒子猫の発育"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reliably shoots cats.\n^cyan;Explosive cats^reset;\n^yellow;Multiple damage types^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "確実に猫を撃つ。\n^cyan;爆発猫^reset;\n^yellow;複数の損傷タイプ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cat-A-Pult"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネコパルト"
+    }
+  ]
+]

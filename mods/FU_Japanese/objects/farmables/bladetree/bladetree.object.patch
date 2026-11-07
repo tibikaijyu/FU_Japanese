@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The barbs on this tree are as sharp as knives and rich in titanium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この木のバーブはナイフのように鋭く、チタンが豊富です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blade Tree"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "刃木"
+    }
+  ]
+]

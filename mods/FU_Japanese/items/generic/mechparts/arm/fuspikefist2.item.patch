@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shoots phasing blasts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブラストを段階的に発射する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phase Ball Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェーズボールアーム"
+    }
+  ]
+]

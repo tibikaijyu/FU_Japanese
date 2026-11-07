@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glide as gracefully as you can. Use ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "できるだけ優雅に滑る。 ^green;[F] ^reset; を使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Avian Slowfall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "アヴィアン・スローフォール"
+    }
+  ]
+]

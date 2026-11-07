@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its produce is quite packed with energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その農産物はエネルギーで満ちている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fletchweed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑草"
+    }
+  ]
+]

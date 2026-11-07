@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "End your dash with a damage boost!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダメージブーストでダッシュを終了!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Lance Dash^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;槍突進^reset;"
+    }
+  ]
+]

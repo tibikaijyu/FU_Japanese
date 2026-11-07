@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy ancient pillar. Great for building."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な古代の柱。 建物に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的柱"
+    }
+  ]
+]

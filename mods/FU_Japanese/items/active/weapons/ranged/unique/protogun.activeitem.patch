@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blaster Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブラスターボール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blast foes happily with this energy shotgun.\n^yellow;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このエネルギーショットガンで幸せに敵を爆破します。\n^yellow;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトガン"
+    }
+  ]
+]

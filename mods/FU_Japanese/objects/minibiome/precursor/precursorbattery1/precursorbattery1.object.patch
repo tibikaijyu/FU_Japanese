@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfectly honed crystal stores absurd energy.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;25000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧に磨き上げられた結晶は不条理なエネルギーを蓄える。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;25000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a94db3;Precursor^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a94db3;先駆者^reset;バッテリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super lightweight. More fashion than function."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超軽量。 機能よりもファッション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar War Vest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜の戦争ベスト"
+    }
+  ]
+]

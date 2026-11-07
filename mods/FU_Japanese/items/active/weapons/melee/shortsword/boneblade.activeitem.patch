@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Roughly-hewn. Causes slight bleeding.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大まかに言う。 わずかな出血を引き起こす。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨剣"
+    }
+  ]
+]

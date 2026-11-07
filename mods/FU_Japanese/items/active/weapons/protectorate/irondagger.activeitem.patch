@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crudely-made iron dagger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗製鉄製の短剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンダガー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Primary^reset;: Place Foreground\n^yellow;Secondary^reset;: Place Background\n^cyan;Shift + Primary^reset;: Select Mod\n^yellow;Shift + Secondary^reset;: Change Mode"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;通常操作^reset;: Place Foreground\n^yellow;副操作^reset;: 場所の背景\n^cyan;Shift + 通常操作 ^reset;: Mod を選択します。\n^yellow;シフト+セカンダリ^reset; : 変更モード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Material Mod Placer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "材料モードプレーサー"
+    }
+  ]
+]

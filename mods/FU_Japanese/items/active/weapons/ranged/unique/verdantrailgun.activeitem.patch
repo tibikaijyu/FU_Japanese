@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A poisonous sniping experience.\n^yellow;Inflicts Poisoned, ^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有毒な狙撃体験。\n^yellow;害は毒し ^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Verdant Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーダントライフル"
+    }
+  ]
+]

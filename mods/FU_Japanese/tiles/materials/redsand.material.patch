@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine glittering red sand. Could probably be made into glass!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きらびやかな赤い砂。 おそらくガラスになるかもしれません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fine Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "細かい砂"
+    }
+  ]
+]

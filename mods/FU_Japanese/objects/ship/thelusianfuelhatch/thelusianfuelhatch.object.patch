@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Accepts fuel for the ship's FTL dive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船のFTLダイビング用の燃料を受け入れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FTL Fuel Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FTL燃料ハッチ"
+    }
+  ]
+]

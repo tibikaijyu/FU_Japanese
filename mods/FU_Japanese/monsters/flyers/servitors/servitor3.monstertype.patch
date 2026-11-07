@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects an assigned ecosystem with brutal force."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残忍な力によって割り当てられた生態系を保護します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Servitor mkII"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サービタmkII"
+    }
+  ]
+]

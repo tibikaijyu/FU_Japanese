@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whip with an ice cold tip. Swings with a zip."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷の冷たい先端を持つホイップ。 ジップでスイングします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムホップ"
+    }
+  ]
+]

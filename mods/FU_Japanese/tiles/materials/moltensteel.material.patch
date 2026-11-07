@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metallic stone as hard as steel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋼のように硬い金属製の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼材"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despite being made out of kelp, this material is both durable and flexible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この素材は、昆布で作られていますが、耐久性と柔軟性の両方があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kelp Fabric"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "昆布"
+    }
+  ]
+]

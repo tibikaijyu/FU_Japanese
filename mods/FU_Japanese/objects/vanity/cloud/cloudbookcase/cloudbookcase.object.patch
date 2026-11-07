@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bookcase made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られた本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドブックケース"
+    }
+  ]
+]

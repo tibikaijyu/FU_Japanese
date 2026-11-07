@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some stylish checkered tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかのスタイリッシュな市松模様のタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sshiny tile."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "光沢のあるタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. Some stylish checkered tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 いくつかのスタイリッシュな市松模様のタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some nifty lookin' tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "タイルに見えるいくつかの素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Modern Tiles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "近代タイル"
+    }
+  ]
+]

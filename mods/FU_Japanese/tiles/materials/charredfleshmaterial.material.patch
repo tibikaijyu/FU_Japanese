@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Charred, crisping flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭火で、肉を砕く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charred Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャーリー・フレッシュ"
+    }
+  ]
+]

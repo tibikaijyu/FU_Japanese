@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A formal skirt suitable for corporate affairs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "企業業務に適したフォーマルスカート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zaibatsu Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑重スカート"
+    }
+  ]
+]

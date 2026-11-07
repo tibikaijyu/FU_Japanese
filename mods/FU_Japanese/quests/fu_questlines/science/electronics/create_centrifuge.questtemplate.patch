@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "When you are able to, ^green;upgrade to an advanced centrifuge^reset; to really step up your lab game!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^green; 高度な遠心分離機 ^reset; にアップグレードして、ラボゲームを本当にステップアップできます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Lab Centrifuge^reset; to the ^green;annoying guy^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;実験室遠心分離機^reset; へ ^green;うるさいヤツ^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you want to advance your lab, you are going to want ^orange;Lab Centrifuge^reset;. Without one, you can't get ^green;an advanced centrifuge^reset; to produce high-end fissionable materials. Make a ^orange;Lab Centrifuge^reset; in a ^orange;Power Station^reset; and bring it to me."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "研究室を前進させるには、^orange;ラボ Centrifuge ^reset; が必要です。 一つなければ ^green;遠心分離機という遠心分離機^reset; 高級な核分裂性材料を生産します ^orange;ラボ Centrifuge ^reset;を ^orange;Power ステーション ^reset; で作成し、持ってきてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Centrifusion"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "遠心分離"
+    }
+  ]
+]

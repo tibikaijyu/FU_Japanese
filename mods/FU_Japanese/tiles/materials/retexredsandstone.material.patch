@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Monumental!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "モニュメント!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssandstone."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "砂岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. A red variant of sandstone."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 砂岩の赤い変種。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Sandstone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤砂岩"
+    }
+  ]
+]

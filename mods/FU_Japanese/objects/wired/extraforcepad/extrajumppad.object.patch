@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An extra powerful jump pad. Repels objects with a strong elastic force"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超強力なジャンプパッド。 強い弾性力を持つ物体を撃退する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Repelss objectss with a ssstrong elastic force"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "強い弾性力を持つ物体を撃退する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. Repels objects with a strong elastic force"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 強い弾性力を持つ物体を撃退する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Extra Jump Pad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エクストラジャンプパッド"
+    }
+  ]
+]

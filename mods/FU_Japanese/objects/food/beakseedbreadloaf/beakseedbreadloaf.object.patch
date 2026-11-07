@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dense, heavy bread packed full of seeds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃厚で重たいパンに種が詰まっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Birdman filled this bread full of crunchy ssseeds."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "バードマンはこのパンをこわいイチジクの種で満たした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. The little seeds in this loaf are actually quite pleasant."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 このローフの小さな種子は実際に非常に快適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A loaf of bread with a whole bunch of tiny seeds baked in."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "たくさんの小さな種子が焼き込まれたパンの山。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beakseed Bread Loaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビークシードパンローフ"
+    }
+  ]
+]

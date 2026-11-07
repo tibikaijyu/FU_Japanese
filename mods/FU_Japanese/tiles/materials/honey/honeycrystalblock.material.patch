@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shining amber block made of honey and crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツとクリスタルで作られた輝くアンバーブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssshiny block."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "シャイなブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. This block is made of crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 このブロックは結晶でできている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Crystal Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークリスタルブロック"
+    }
+  ]
+]

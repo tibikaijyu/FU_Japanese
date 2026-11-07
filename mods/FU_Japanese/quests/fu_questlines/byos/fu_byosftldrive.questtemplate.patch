@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "All you need to do is place that ^cyan;FTL Drive^reset; in your ship and you'll be able to travel between stars. Good work, agent!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "必要なのは、その ^cyan; FTL ドライブ ^reset; を船に置くだけです。 お疲れさまです、エージェント!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/getErchius",
+      "value": "Explore a nearby moon to find ^pink;Erchius Crystals^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/getErchius",
+      "value": "近くの月を探索すると、^pink;エルキウス 結晶^reset; が見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeFTL",
+      "value": "Research and craft a ^cyan;Small FTL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeFTL",
+      "value": "^cyan;小型 FTL ドライブ ^reset; の研究と開発。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeSTL",
+      "value": "Research and craft an ^orange;STL drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeSTL",
+      "value": "研究と技術 ^orange;STLドライブ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Welcome back, dear. Let's get your ship fixed, shall we? To get to other stars you'll need to repair your ^cyan;FTL drive^reset;. First thing's first, though. Build an ^orange;STL drive^reset; so you can explore the system you're in."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "おかえりなさい。 船を修理しましょうか。 他の星に行くには、あなたの^cyan; FTLドライブ^reset;を修復する必要があります。 でも、まずはまず第一です。 ^orange; STL ドライブ ^reset; を構築し、お使いのシステムを探索できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Interstellar Travel"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "星間旅行"
+    }
+  ]
+]

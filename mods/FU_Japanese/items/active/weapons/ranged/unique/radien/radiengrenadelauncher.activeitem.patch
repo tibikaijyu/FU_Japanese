@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Thorn Spike"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ソーンスパイク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires repulsive glowy goo-globs.\n^yellow;Hunting weapon^reset;\n^cyan;Poisonous Alt Attack^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火は反発する光り輝くグーグロブ。\n^yellow;ハンティング武器^reset;\n^cyan;毒アルト攻撃^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Bulb Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "西安球砲"
+    }
+  ]
+]

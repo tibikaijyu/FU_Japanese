@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Swim Boost (Pod)^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;水泳ブースト(ポッド)^reset;:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquapod Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水脚球"
+    }
+  ]
+]

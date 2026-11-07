@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A deadly fist weapon that projects kinetic force."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "運動力を投射する致命的な拳武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Force Gauntlet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フォースガントレット"
+    }
+  ]
+]

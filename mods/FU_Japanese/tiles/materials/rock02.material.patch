@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined andesite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗く、洗練されていない、エサイト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Andesite."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 そしてサイト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Andesite Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンデサイトブロック"
+    }
+  ]
+]

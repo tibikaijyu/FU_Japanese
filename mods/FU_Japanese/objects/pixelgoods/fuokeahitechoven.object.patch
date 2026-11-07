@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Really seals in the flavor!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "味をしっかり封じ込めて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Prepare and cook food"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2; 料理を準備して調理します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Hi-Tech Oven"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ハイテクオーブン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Oven"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクオーブン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Really seals in the flavor!"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "味をしっかり封じ込めて!"
+    }
+  ]
+]

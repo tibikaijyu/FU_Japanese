@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from all sorts of junk.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あらゆる種類のジャンクから作られています。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンク・スピア"
+    }
+  ]
+]

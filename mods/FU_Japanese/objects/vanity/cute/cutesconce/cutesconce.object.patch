@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute wall-mounted sconce with a pink light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンクのライトが付いた、壁掛けのかわいいスコンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Sconce"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "可愛い風景"
+    }
+  ]
+]

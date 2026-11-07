@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glow in the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗闇の中で輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Shroom Spore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールドシュルームスポーク"
+    }
+  ]
+]

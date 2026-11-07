@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hat will surely warm your noggin!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この帽子は確かにあなたのノギンを暖めます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fennix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェニックスハット"
+    }
+  ]
+]

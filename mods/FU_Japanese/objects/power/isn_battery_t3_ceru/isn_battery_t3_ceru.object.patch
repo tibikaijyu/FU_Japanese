@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A much improved battery perfect for basic industrial use.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;4000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な工業用に最適な大幅に改善されたバッテリー。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;4000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^green;Industrial^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^green;産業用^reset;バッテリー"
+    }
+  ]
+]

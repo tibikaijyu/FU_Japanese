@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark metal beam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダークメタルビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタルビーム"
+    }
+  ]
+]

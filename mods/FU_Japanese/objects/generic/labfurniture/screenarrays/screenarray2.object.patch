@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "LED Screen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "LEDスクリーン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "LED Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "LEDスクリーン"
+    }
+  ]
+]

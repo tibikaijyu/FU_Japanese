@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I...but....how?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は... でも...どうやって?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Box o' Wolves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "箱のオオカミ"
+    }
+  ]
+]

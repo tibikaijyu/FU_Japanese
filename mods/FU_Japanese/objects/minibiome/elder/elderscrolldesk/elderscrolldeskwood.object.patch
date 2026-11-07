@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A good place to sit and translate unknown languages."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の言語に座って翻訳するのに最適な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Linguistics Table"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "言語表"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Linguistics Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "言語表"
+    }
+  ]
+]

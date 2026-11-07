@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shines with shifting color variations. ^red;Sharp^reset; and ^yellow;Weakening^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "色の変化が変化する輝き。 ^red;シャープ^reset; そして ^yellow;弱いもの^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Crystal Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "結晶ブレード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalshard Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶シャードスタッフ"
+    }
+  ]
+]

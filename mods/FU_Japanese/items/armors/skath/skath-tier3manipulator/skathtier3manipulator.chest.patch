@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle/Shortsword: Damage x^green;1.19^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 攻撃ライフル/短剣:損傷x ^green;1.19^reset;\n^yellow;^reset; ^cyan;免疫^reset;酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dracon Chestguard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドラコン・チェストガード"
+    }
+  ]
+]

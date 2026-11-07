@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rapid-breeding gives plants a serious edge.\n^green;Growth Rate x^white;2 ^gray;& ^green;+^white;1 ^green;produce.\n^cyan;Uses -^white;0.5 ^cyan;fluid use ^gray;& ^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "急速な繁殖は植物に深刻な境界を与えます。\n^green;成長率x^white;2 ^gray;& ^green;+^white;1 ^green;農産物\n^cyan;用途 -^white;0.5 ^cyan;流体利用 ^gray;& ^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reproductive Boost"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "繁殖促進"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powered by the crystal moon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルムーンを動力とする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Ice Swarm"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "氷の雲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリスタッフ"
+    }
+  ]
+]

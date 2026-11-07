@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;20^reset;% Phys. and +^green;20^reset;% Fire Resist at the expense of ^red;20^reset;% Cosmic Resist. Great for warm climates such as deserts and rainforests."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;20^reset;% フィス。 そして+^green;20^reset;% 火災は、その費用を負担します。 ^red;20^reset;% 宇宙抵抗。 砂漠や熱帯雨林などの暖かい気候に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repulsor Field Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レパルサーフィールドパック"
+    }
+  ]
+]

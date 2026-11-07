@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Really unhealthily radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に不健康な放射性物質。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Cestus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サウロリウム"
+    }
+  ]
+]

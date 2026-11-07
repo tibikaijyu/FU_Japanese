@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extracted from Capriole flowers. A heavy class-A narcotic.\n^cyan;+^white;20% ^cyan;Energy Regen^gray;, ^cyan;Heavily Intoxicated^gray;, ^red;-^white;30 ^red;Defense^gray;, ^red;Insanity^reset; (220s) ^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カプリオールの花から抽出されます。 重いクラス - A麻薬。\n^cyan;+^white;20% ^cyan;エネルギー再生^gray;, ^cyan;酔っぱらった^gray;, ^red;-^white;30 ^red;防衛^gray;, ^red;狂気^reset; (220) ^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cappa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カッパ"
+    }
+  ]
+]

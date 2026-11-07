@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/armorLabelTitle/value",
+      "value": "Armour"
+    },
+    {
+      "op": "replace",
+      "path": "/armorLabelTitle/value",
+      "value": "甲板"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "Tier"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "ティア"
+    }
+  ]
+]

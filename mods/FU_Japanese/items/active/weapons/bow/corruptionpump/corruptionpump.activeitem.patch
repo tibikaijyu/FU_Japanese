@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for biowarfare"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオ戦争に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corruption Pump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐食ポンプ"
+    }
+  ]
+]

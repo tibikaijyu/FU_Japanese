@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Probably not too effective. It's delicious, and that's what counts! Design by freetorule"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくあまり効果的ではありません。 美味しいですから、それがポイントです! デザインは自由です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeyed Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蜂蜜"
+    }
+  ]
+]

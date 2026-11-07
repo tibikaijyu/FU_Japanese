@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ruins of some cyclopean structure"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シクロペアのいくつかの構造の遺跡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cyclopean Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シクロペアンピラー"
+    }
+  ]
+]

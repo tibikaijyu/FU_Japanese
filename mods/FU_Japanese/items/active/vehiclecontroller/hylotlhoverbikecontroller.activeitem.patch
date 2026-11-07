@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stores an aquadynamic vehicle used by Hylotl envoys."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイロトルの使者が使用するアクアダイナミック車両を保管します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Hoverbike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルホバーバイク"
+    }
+  ]
+]

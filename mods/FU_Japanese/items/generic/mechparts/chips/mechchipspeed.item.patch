@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases mech speed but lowers maneuverability and jump height."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカ速度を向上しますが、操縦性やジャンプの高さを下げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Voyager Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボイジャーモジュール"
+    }
+  ]
+]

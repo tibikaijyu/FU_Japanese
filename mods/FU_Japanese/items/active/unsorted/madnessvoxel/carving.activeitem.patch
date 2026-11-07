@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This symbol tingles your memories, but you can't quite place where you've seen it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このシンボルは記憶をくすぐりますが、あなたが見た場所には行き場がありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Carving"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙な彫刻"
+    }
+  ]
+]

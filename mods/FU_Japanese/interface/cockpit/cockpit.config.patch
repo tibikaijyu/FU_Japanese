@@ -1,0 +1,6530 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/bookmarks/editTitle",
+      "value": "EDIT BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/bookmarks/editTitle",
+      "value": "編集ブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bookmarks/newTitle",
+      "value": "NEW BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/bookmarks/newTitle",
+      "value": "新しいブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/clusterMoons/none",
+      "value": "No orbiting bodies"
+    },
+    {
+      "op": "replace",
+      "path": "/clusterMoons/none",
+      "value": "軌道上の天体は"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/clusterMoons/plural",
+      "value": "%s orbiting bodies"
+    },
+    {
+      "op": "replace",
+      "path": "/clusterMoons/plural",
+      "value": "%s軌道を回る天体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/clusterMoons/singular",
+      "value": "One orbiting body"
+    },
+    {
+      "op": "replace",
+      "path": "/clusterMoons/singular",
+      "value": "軌道を回る物体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/aegisalt/displayName",
+      "value": "Aegisalt"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/aegisalt/displayName",
+      "value": "イージソルト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/cinnabar/displayName",
+      "value": "Cinnabar"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/cinnabar/displayName",
+      "value": "シナバル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/cocainium/displayName",
+      "value": "Narcotium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/cocainium/displayName",
+      "value": "マルコチウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/copper/displayName",
+      "value": "Copper"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/copper/displayName",
+      "value": "銅"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/corruption/displayName",
+      "value": "Lasombrium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/corruption/displayName",
+      "value": "ラソンブリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/crystal/displayName",
+      "value": "Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/crystal/displayName",
+      "value": "結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/densinium/displayName",
+      "value": "Densinium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/densinium/displayName",
+      "value": "デンシニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/durasteel/displayName",
+      "value": "Durasteel"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/durasteel/displayName",
+      "value": "デュラスチール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/effigium/displayName",
+      "value": "Effigium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/effigium/displayName",
+      "value": "エフィギウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/erchius/displayName",
+      "value": "Crystal Erchius Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/erchius/displayName",
+      "value": "結晶性アーキウス燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/ferozium/displayName",
+      "value": "Ferozium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/ferozium/displayName",
+      "value": "フェロジウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/fublooddiamond/displayName",
+      "value": "Plasmic Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/fublooddiamond/displayName",
+      "value": "プラズミック結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/gold/displayName",
+      "value": "Gold"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/gold/displayName",
+      "value": "金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/iron/displayName",
+      "value": "Iron"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/iron/displayName",
+      "value": "鉄"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/irradium/displayName",
+      "value": "Irradium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/irradium/displayName",
+      "value": "イラディウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/isogen/displayName",
+      "value": "Isogen"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/isogen/displayName",
+      "value": "アイソジェン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/junkmod/displayName",
+      "value": "Spare Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/junkmod/displayName",
+      "value": "スペアパーツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/koanite/displayName",
+      "value": "Koanite"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/koanite/displayName",
+      "value": "コアナイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/lunariore/displayName",
+      "value": "Lunari"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/lunariore/displayName",
+      "value": "ルナリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/moonstone/displayName",
+      "value": "Telebrium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/moonstone/displayName",
+      "value": "テレブリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/neptunium/displayName",
+      "value": "Neptunium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/neptunium/displayName",
+      "value": "ネプツニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/nocxium/displayName",
+      "value": "Nocxium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/nocxium/displayName",
+      "value": "ノクシウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/penumbrite/displayName",
+      "value": "Penumbrite"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/penumbrite/displayName",
+      "value": "ペナンブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/plutonium/displayName",
+      "value": "Plutonium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/plutonium/displayName",
+      "value": "プルトニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/prisilite/displayName",
+      "value": "Prism Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/prisilite/displayName",
+      "value": "プリズムシャード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/protocite/displayName",
+      "value": "Protocite"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/protocite/displayName",
+      "value": "プロトサイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/pyreite/displayName",
+      "value": "Pyreite"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/pyreite/displayName",
+      "value": "パイライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/quietus/displayName",
+      "value": "Quietus"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/quietus/displayName",
+      "value": "クワイエタス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/silver/displayName",
+      "value": "Silver"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/silver/displayName",
+      "value": "銀"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/solarium/displayName",
+      "value": "Solarium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/solarium/displayName",
+      "value": "ソラリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/thorium/displayName",
+      "value": "Thorium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/thorium/displayName",
+      "value": "トリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/titanium/displayName",
+      "value": "Titanium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/titanium/displayName",
+      "value": "チタン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/trianglium/displayName",
+      "value": "Trianglium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/trianglium/displayName",
+      "value": "トライアングリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/tungsten/displayName",
+      "value": "Tungsten"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/tungsten/displayName",
+      "value": "タングステン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/uranium/displayName",
+      "value": "Uranium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/uranium/displayName",
+      "value": "ウラン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/violium/displayName",
+      "value": "Violium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/violium/displayName",
+      "value": "ヴァイオリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/xithricite/displayName",
+      "value": "Xithricite"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/xithricite/displayName",
+      "value": "ジスリサイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/zerchesium/displayName",
+      "value": "Zerchesium"
+    },
+    {
+      "op": "replace",
+      "path": "/displayOres/zerchesium/displayName",
+      "value": "ゼルケシウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/acidrain/displayName",
+      "value": "Acid Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/acidrain/displayName",
+      "value": "酸性雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/ash/displayName",
+      "value": "Ashfall"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/ash/displayName",
+      "value": "灰丘"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/ashstorm/displayName",
+      "value": "Ash Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/ashstorm/displayName",
+      "value": "灰嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/biorain/displayName",
+      "value": "Bio Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/biorain/displayName",
+      "value": "バイオレイン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/bloodrain/displayName",
+      "value": "Blood Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/bloodrain/displayName",
+      "value": "雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/bograin/displayName",
+      "value": "Bio Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/bograin/displayName",
+      "value": "バイオレイン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/cosmicblast/displayName",
+      "value": "Cosmic Blasts"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/cosmicblast/displayName",
+      "value": "宇宙ブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/crystalrain/displayName",
+      "value": "Crystal Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/crystalrain/displayName",
+      "value": "結晶雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/crystalstorm/displayName",
+      "value": "Crystal Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/crystalstorm/displayName",
+      "value": "水晶嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/crystalstormmajor/displayName",
+      "value": "Severe Crystal Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/crystalstormmajor/displayName",
+      "value": "重度の結晶嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/darkblast/displayName",
+      "value": "Dark Matter Blasts"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/darkblast/displayName",
+      "value": "ダークマターブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/drizzle/displayName",
+      "value": "Drizzle"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/drizzle/displayName",
+      "value": "ドライザル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/duststorm/displayName",
+      "value": "Dust Storms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/duststorm/displayName",
+      "value": "ダスト嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/ember/displayName",
+      "value": "Cinder Showers"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/ember/displayName",
+      "value": "シンダーシャワー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/firestorm/displayName",
+      "value": "Fire Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/firestorm/displayName",
+      "value": "火嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fog/displayName",
+      "value": "Fog"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fog/displayName",
+      "value": "霧"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/freezestorm/displayName",
+      "value": "Freeze Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/freezestorm/displayName",
+      "value": "フリーズストーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/freezestormlesser/displayName",
+      "value": "Lesser Freeze Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/freezestormlesser/displayName",
+      "value": "より少ない凍結ストーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/freezestormminor/displayName",
+      "value": "Minor Freeze Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/freezestormminor/displayName",
+      "value": "マイナーフリーズストーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fu_smog/displayName",
+      "value": "Smog"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fu_smog/displayName",
+      "value": "スモッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fububblerain/displayName",
+      "value": "Bubble Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fububblerain/displayName",
+      "value": "気泡雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fubuggy/displayName",
+      "value": "Infested"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fubuggy/displayName",
+      "value": "投資"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuearthquake/displayName",
+      "value": "Earthquakes"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuearthquake/displayName",
+      "value": "地震"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuearthquakelesser/displayName",
+      "value": "Minor Earthquakes"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuearthquakelesser/displayName",
+      "value": "小地震"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuearthquakesevere/displayName",
+      "value": "Severe Earthquakes"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuearthquakesevere/displayName",
+      "value": "重大地震"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuheatblast/displayName",
+      "value": "Heatwaves"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuheatblast/displayName",
+      "value": "熱波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuheatblast2/displayName",
+      "value": "Severe Heatwaves"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuheatblast2/displayName",
+      "value": "重度の熱波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fuheatblast3/displayName",
+      "value": "Intense Heatwaves"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fuheatblast3/displayName",
+      "value": "強烈な熱波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fulightningrain/displayName",
+      "value": "Rainy Lightning Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fulightningrain/displayName",
+      "value": "雷雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fulightningrain2/displayName",
+      "value": "Severe Rainy Lightning Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fulightningrain2/displayName",
+      "value": "豪雨の雷雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fulightningstorm/displayName",
+      "value": "Lightning Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fulightningstorm/displayName",
+      "value": "雷雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fulightningstorm2/displayName",
+      "value": "Severe Lightning Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fulightningstorm2/displayName",
+      "value": "激しい雷雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fupretty/displayName",
+      "value": "Butterfly Migration"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fupretty/displayName",
+      "value": "蝶の移動"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fusparklejoy/displayName",
+      "value": "Sparklejoy"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fusparklejoy/displayName",
+      "value": "スパークル喜び"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fusuddenchill/displayName",
+      "value": "Sudden Chill"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fusuddenchill/displayName",
+      "value": "突然の寒さ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fusuddenchill2/displayName",
+      "value": "Severe Chill"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fusuddenchill2/displayName",
+      "value": "重度の冷え"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/fusuddenchill3/displayName",
+      "value": "Intense Chill"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/fusuddenchill3/displayName",
+      "value": "強烈な冷え"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/gasgiantstorm/displayName",
+      "value": "Dense Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/gasgiantstorm/displayName",
+      "value": "高密度ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/gasgiantstorm2/displayName",
+      "value": "Super Dense Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/gasgiantstorm2/displayName",
+      "value": "超高密度ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/gasgiantstorm3/displayName",
+      "value": "Impossibly Dense Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/gasgiantstorm3/displayName",
+      "value": "ありえないほど濃いガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/glowingrain/displayName",
+      "value": "Luminous Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/glowingrain/displayName",
+      "value": "雨天"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/gravrain/displayName",
+      "value": "Anti-Gravity Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/gravrain/displayName",
+      "value": "抗重力雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/gravrainlight/displayName",
+      "value": "Light Anti-Gravity Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/gravrainlight/displayName",
+      "value": "光抗重力雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/groundmist/displayName",
+      "value": "Mist"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/groundmist/displayName",
+      "value": "霧"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/hailstones/displayName",
+      "value": "Hail"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/hailstones/displayName",
+      "value": "くび"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/healingstorm/displayName",
+      "value": "Healing Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/healingstorm/displayName",
+      "value": "癒しの雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/heavyrain/displayName",
+      "value": "Torrential Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/heavyrain/displayName",
+      "value": "豪雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/hurricane/displayName",
+      "value": "Hurricane"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/hurricane/displayName",
+      "value": "ハリケーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/hurricaneelectric/displayName",
+      "value": "Electric Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/hurricaneelectric/displayName",
+      "value": "電気嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/hurricanefungal/displayName",
+      "value": "Hurricane"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/hurricanefungal/displayName",
+      "value": "ハリケーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/icestorm/displayName",
+      "value": "Ice Storms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/icestorm/displayName",
+      "value": "氷の嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/ironstorm/displayName",
+      "value": "Molten Iron Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/ironstorm/displayName",
+      "value": "溶鉄嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/largemeteor/displayName",
+      "value": "Large Meteorites"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/largemeteor/displayName",
+      "value": "大型の石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/lightash/displayName",
+      "value": "Light Ashfall"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/lightash/displayName",
+      "value": "光秋"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/magmastorm/displayName",
+      "value": "Magma Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/magmastorm/displayName",
+      "value": "マグマ嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/magmastormgreater/displayName",
+      "value": "Severe Magma Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/magmastormgreater/displayName",
+      "value": "激しいマグマ嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/meteorshower/displayName",
+      "value": "Small Meteorites"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/meteorshower/displayName",
+      "value": "小型メトライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/mistyrain/displayName",
+      "value": "Misty Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/mistyrain/displayName",
+      "value": "霧雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/mountainmass/displayName",
+      "value": "High-Mass Event"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/mountainmass/displayName",
+      "value": "ハイミズイベント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/orangegravrain/displayName",
+      "value": "Gravity Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/orangegravrain/displayName",
+      "value": "重力雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/orangegravrainlight/displayName",
+      "value": "Light Gravity Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/orangegravrainlight/displayName",
+      "value": "光重力雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/poisongasstorm/displayName",
+      "value": "Poison Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/poisongasstorm/displayName",
+      "value": "毒ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/poisongasstorm2/displayName",
+      "value": "Dense Poison Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/poisongasstorm2/displayName",
+      "value": "濃厚毒ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/poisongasstorm3/displayName",
+      "value": "Severe Poison Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/poisongasstorm3/displayName",
+      "value": "重度の毒ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/poptoprain/displayName",
+      "value": "Organic Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/poptoprain/displayName",
+      "value": "有機雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/rain/displayName",
+      "value": "Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/rain/displayName",
+      "value": "雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sandstorm/displayName",
+      "value": "Sandstorms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sandstorm/displayName",
+      "value": "砂嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/slimestorm/displayName",
+      "value": "Slime Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/slimestorm/displayName",
+      "value": "スライムストーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/slimestormlesser/displayName",
+      "value": "Weak Slime Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/slimestormlesser/displayName",
+      "value": "弱いスライム嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/snow/displayName",
+      "value": "Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/snow/displayName",
+      "value": "雪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/snowstorm/displayName",
+      "value": "Blizzards"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/snowstorm/displayName",
+      "value": "ブリザーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/spacedustshower/displayName",
+      "value": "Stardust"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/spacedustshower/displayName",
+      "value": "スターダスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/spacejunk/displayName",
+      "value": "Orbital Debris"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/spacejunk/displayName",
+      "value": "軌道破片"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/staticcharge/displayName",
+      "value": "Static Charge"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/staticcharge/displayName",
+      "value": "帯電"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/storm/displayName",
+      "value": "Storms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/storm/displayName",
+      "value": "嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sulphuricacidrain/displayName",
+      "value": "Sulphuric Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sulphuricacidrain/displayName",
+      "value": "硫黄雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sulphuriccloud/displayName",
+      "value": "Sulphuric Fog"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sulphuriccloud/displayName",
+      "value": "サルフリック・フォッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sulphurstorm/displayName",
+      "value": "Sulphuric Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sulphurstorm/displayName",
+      "value": "硫黄嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sulphurstormlesser/displayName",
+      "value": "Slight Sulphuric Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sulphurstormlesser/displayName",
+      "value": "微硫黄嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/sulphurstormsevere/displayName",
+      "value": "Major Sulphuric Storm"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/sulphurstormsevere/displayName",
+      "value": "大きな硫黄嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/tarrain/displayName",
+      "value": "Tar Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/tarrain/displayName",
+      "value": "タール雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/thunderclap/displayName",
+      "value": "Thunderstorms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/thunderclap/displayName",
+      "value": "雷雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/thunderclapgreater/displayName",
+      "value": "Severe Thunder"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/thunderclapgreater/displayName",
+      "value": "重度の雷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/thunderclaplesser/displayName",
+      "value": "Rolling Thunder"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/thunderclaplesser/displayName",
+      "value": "転がり雷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayWeathers/windstorm/displayName",
+      "value": "Windstorms"
+    },
+    {
+      "op": "replace",
+      "path": "/displayWeathers/windstorm/displayName",
+      "value": "暴風雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_text/navOffline",
+      "value": "NAVIGATION OFFLINE"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_text/navOffline",
+      "value": "ナビゲーションオフライン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_text/noFTL",
+      "value": "SHIP DRIVE NOT INSTALLED"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_text/noFTL",
+      "value": "インストールされていない船舶ドライブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_text/noSystemTravel",
+      "value": "Unable to use FTL capabilities, please install a proper FTL drive"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_text/noSystemTravel",
+      "value": "FTL 機能を使用できない場合は、適切な FTL ドライブをインストールしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_text/notOnOwnShip",
+      "value": "ONLY USABLE ON YOUR OWN SHIP"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_text/notOnOwnShip",
+      "value": "船内でのみご利用いただけます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/name/value",
+      "value": "Bookmark Name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/name/value",
+      "value": "ブックマーク名"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/planetName/value",
+      "value": "Planet Name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/planetName/value",
+      "value": "惑星名"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/clusterinfo/children/inner/children/moons/value",
+      "value": "MANY MOONS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clusterinfo/children/inner/children/moons/value",
+      "value": "月が多い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/clusterinfo/children/inner/children/name/value",
+      "value": "THIS IS A CLUSTER"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clusterinfo/children/inner/children/name/value",
+      "value": "これはクラスターです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/clusterinfo/children/inner/children/view/caption",
+      "value": "UNEXPLORED"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clusterinfo/children/inner/children/view/caption",
+      "value": "未探索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/coordinatesFrame/children/go/caption",
+      "value": "GO"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/coordinatesFrame/children/go/caption",
+      "value": "移動"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/disabledLabel/value",
+      "value": "INCOMPATIBLE MOD DETECTED"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/disabledLabel/value",
+      "value": "検知した非互換性モード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/editBookmarkFrame/children/close/caption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/editBookmarkFrame/children/close/caption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/editBookmarkFrame/children/name/hint",
+      "value": "Enter bookmark name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/editBookmarkFrame/children/name/hint",
+      "value": "ブックマーク名を入力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/editBookmarkFrame/children/ok/caption",
+      "value": "Accept"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/editBookmarkFrame/children/ok/caption",
+      "value": "承諾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/editBookmarkFrame/children/remove/caption",
+      "value": "Delete"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/editBookmarkFrame/children/remove/caption",
+      "value": "削除"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/editBookmarkFrame/children/title/value",
+      "value": "New Bookmark"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/editBookmarkFrame/children/title/value",
+      "value": "新しいブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/jumpDialog/children/cancel/caption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/jumpDialog/children/cancel/caption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/jumpDialog/children/jump/caption",
+      "value": "Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/jumpDialog/children/jump/caption",
+      "value": "ジャンプ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/jumpDialog/children/text/value",
+      "value": "FTL travel will consume ^green;%s fuel^reset;.\nConfirm to proceed."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/jumpDialog/children/text/value",
+      "value": "FTL旅行は^green;%s燃料^reset;を消費します。\n確認して進めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/jumpDialog/children/title/value",
+      "value": "Confirm FTL"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/jumpDialog/children/title/value",
+      "value": "FTLの確認"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/objectinfo/children/inner/children/bookmark/caption",
+      "value": "ADD BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/objectinfo/children/inner/children/bookmark/caption",
+      "value": "ブックマーク追加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/objectinfo/children/inner/children/description/value",
+      "value": "THIS IS A VERY NICE SPACE OBJECT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/objectinfo/children/inner/children/description/value",
+      "value": "これはとても素敵なスペースオブジェクトです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/objectinfo/children/inner/children/name/value",
+      "value": "SPACE OBJECT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/objectinfo/children/inner/children/name/value",
+      "value": "空間オブジェクト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/objectinfo/children/inner/children/threat/value",
+      "value": "REQUIRES MECH TO DEPLOY"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/objectinfo/children/inner/children/threat/value",
+      "value": "デポジットへの要求メッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/bookmark/caption",
+      "value": "ADD BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/bookmark/caption",
+      "value": "ブックマーク追加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/description/value",
+      "value": "DESCRIPTION OF THIS PLANET"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/description/value",
+      "value": "この惑星の記述"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/name/value",
+      "value": "THIS IS A PLANET"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/name/value",
+      "value": "これは惑星です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/ores/value",
+      "value": "Geological Analysis"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/ores/value",
+      "value": "地質解析"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/threatLabel/value",
+      "value": "Threat: "
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/threatLabel/value",
+      "value": "脅威 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/threatValue/value",
+      "value": "dangerous"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/threatValue/value",
+      "value": "危険だ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/planetinfo/children/inner/children/weather/value",
+      "value": "Weather"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/planetinfo/children/inner/children/weather/value",
+      "value": "天気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/remoteDescription/value",
+      "value": "UNMAPPED CELESTIAL OBJECTS UNAVAILABLE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/remoteDescription/value",
+      "value": "未対応の天体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/remoteTitle/value",
+      "value": "REMOTE SYSTEM VIEW"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/remoteTitle/value",
+      "value": "リモートシステムビュー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/systemName/value",
+      "value": "SYSTEM NAME"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/systemName/value",
+      "value": "システム名"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/systeminfo/children/inner/children/name/value",
+      "value": "SYSTEM"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/systeminfo/children/inner/children/name/value",
+      "value": "システム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/systeminfo/children/inner/children/planetList/schema/listTemplate/type/value",
+      "value": "PLANET TYPE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/systeminfo/children/inner/children/planetList/schema/listTemplate/type/value",
+      "value": "惑星型"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/systeminfo/children/inner/children/type/value",
+      "value": "STAR TYPE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/systeminfo/children/inner/children/type/value",
+      "value": "スタータイプ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/systeminfo/children/inner/children/view/caption",
+      "value": "UNEXPLORED"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/systeminfo/children/inner/children/view/caption",
+      "value": "未探索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/transitLabel/value",
+      "value": "SHIP IN TRANSIT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/transitLabel/value",
+      "value": "トランジットにおける船舶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "^#b9b5b2; Select your destination"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "^#b9b5b2; 目的地を選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Navigation Console"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 航行コンソール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/jumpDialog/invalid",
+      "value": "FTL travel requires ^red;%i fuel^reset;.\n Not enough fuel to proceed."
+    },
+    {
+      "op": "replace",
+      "path": "/jumpDialog/invalid",
+      "value": "FTL旅行は^red;%i燃料^reset;が必要です。\n 進むのに十分な燃料がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/jumpDialog/valid",
+      "value": "FTL travel will consume ^green;%i fuel^reset;.\nConfirm to proceed."
+    },
+    {
+      "op": "replace",
+      "path": "/jumpDialog/valid",
+      "value": "FTL旅行は^green;%i燃料^reset;を消費します。\n確認して進めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectInfoBox/bookmarkButtonCaption/add",
+      "value": "ADD BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/objectInfoBox/bookmarkButtonCaption/add",
+      "value": "ブックマーク追加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectInfoBox/bookmarkButtonCaption/disabled",
+      "value": "CANNOT BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/objectInfoBox/bookmarkButtonCaption/disabled",
+      "value": "ブックマークできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectInfoBox/bookmarkButtonCaption/edit",
+      "value": "EDIT BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/objectInfoBox/bookmarkButtonCaption/edit",
+      "value": "編集ブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectInfoBox/bookmarkButtonCaption/unexplored",
+      "value": "UNEXPLORED"
+    },
+    {
+      "op": "replace",
+      "path": "/objectInfoBox/bookmarkButtonCaption/unexplored",
+      "value": "未探索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/0",
+      "value": "None"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/0",
+      "value": "なし"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/1",
+      "value": "Moderate"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/1",
+      "value": "モデレート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/2",
+      "value": "Risky"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/2",
+      "value": "リスク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/3",
+      "value": "Dangerous"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/3",
+      "value": "危険"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/4",
+      "value": "Extreme"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/4",
+      "value": "エクストリーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/available/5",
+      "value": "Lethal"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/available/5",
+      "value": "致命的"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/friendly",
+      "value": "None"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/friendly",
+      "value": "なし"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/objectThreatText/unavailable",
+      "value": "REQUIRES MECH TO DEPLOY"
+    },
+    {
+      "op": "replace",
+      "path": "/objectThreatText/unavailable",
+      "value": "デポジットへの要求メッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetInfoBox/bookmarkButtonCaption/add",
+      "value": "ADD BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/planetInfoBox/bookmarkButtonCaption/add",
+      "value": "ブックマーク追加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetInfoBox/bookmarkButtonCaption/disabled",
+      "value": "CANNOT BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/planetInfoBox/bookmarkButtonCaption/disabled",
+      "value": "ブックマークできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetInfoBox/bookmarkButtonCaption/edit",
+      "value": "EDIT BOOKMARK"
+    },
+    {
+      "op": "replace",
+      "path": "/planetInfoBox/bookmarkButtonCaption/edit",
+      "value": "編集ブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/aethersea",
+      "value": "Aether World"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/aethersea",
+      "value": "エーテル世界"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/alien",
+      "value": "Alien"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/alien",
+      "value": "異星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/ancientgateway",
+      "value": "Gateway"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/ancientgateway",
+      "value": "ゲートウェイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/arboreal",
+      "value": "Primeval Forest"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/arboreal",
+      "value": "原生林"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/arboreal2",
+      "value": "Volcanic Primeval"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/arboreal2",
+      "value": "火山プライムバル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/arborealdark",
+      "value": "Dark Primeval"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/arborealdark",
+      "value": "ダークプライムバル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/arctic",
+      "value": "Arctic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/arctic",
+      "value": "極寒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/arcticdark",
+      "value": "Dark Arctic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/arcticdark",
+      "value": "北極"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/asteroids",
+      "value": "Asteroids"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/asteroids",
+      "value": "小惑星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/astral",
+      "value": "Aether World"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/astral",
+      "value": "エーテル世界"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/atropus",
+      "value": "Atropus"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/atropus",
+      "value": "アトロプス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/atropusdark",
+      "value": "Nightmare Atropus"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/atropusdark",
+      "value": "悪夢アトロプス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/barren",
+      "value": "Barren"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/barren",
+      "value": "不毛"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/bloodstone",
+      "value": "Bloodstone"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/bloodstone",
+      "value": "血石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/bloodstonesea",
+      "value": "Atropus Sea"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/bloodstonesea",
+      "value": "アトロプス海"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/bog",
+      "value": "Bog"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/bog",
+      "value": "ブログ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/chromatic",
+      "value": "Chromatic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/chromatic",
+      "value": "彩色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/crystalmoon",
+      "value": "Crystalline"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/crystalmoon",
+      "value": "結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/desert",
+      "value": "Desert"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/desert",
+      "value": "砂漠"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/desertwastes",
+      "value": "Red Desert"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/desertwastes",
+      "value": "赤砂漠"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/desertwastesdark",
+      "value": "Dark Red Desert"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/desertwastesdark",
+      "value": "ダークレッドデザート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/eden",
+      "value": "Eden"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/eden",
+      "value": "絵伝"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/ffunknown",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/ffunknown",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/forest",
+      "value": "Forest"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/forest",
+      "value": "森林"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/frozenvolcanic",
+      "value": "Frozen Volcanic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/frozenvolcanic",
+      "value": "凍結火山"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fugasgiant",
+      "value": "Gas Giant"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fugasgiant",
+      "value": "ガスジャイアント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fugasgiant2",
+      "value": "Gas Giant"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fugasgiant2",
+      "value": "ガスジャイアント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fugasgiant3",
+      "value": "Gas Giant"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fugasgiant3",
+      "value": "ガスジャイアント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fugasgiant4",
+      "value": "Gas Giant"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fugasgiant4",
+      "value": "ガスジャイアント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fugasgiant5",
+      "value": "Gas Giant"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fugasgiant5",
+      "value": "ガスジャイアント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/fungus",
+      "value": "Fungal"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/fungus",
+      "value": "真菌"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/garden",
+      "value": "Lush"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/garden",
+      "value": "緑豊か"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/icemoon",
+      "value": "Frozen Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/icemoon",
+      "value": "凍結月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/icewaste",
+      "value": "Ice Waste"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/icewaste",
+      "value": "氷廃棄物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/icewastedark",
+      "value": "Dark Ice Waste"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/icewastedark",
+      "value": "暗い氷の廃棄物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/infernus",
+      "value": "Infernus"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/infernus",
+      "value": "インフェルヌス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/infernusdark",
+      "value": "Dark Infernus"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/infernusdark",
+      "value": "暗黒のインフェルヌス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/irradiated",
+      "value": "Irradiated"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/irradiated",
+      "value": "照射"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/jungle",
+      "value": "Jungle"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/jungle",
+      "value": "ジャングル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/lightless",
+      "value": "Lightless"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/lightless",
+      "value": "ライトレス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/magma",
+      "value": "Lava"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/magma",
+      "value": "溶岩"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/magmadark",
+      "value": "Dark Magma"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/magmadark",
+      "value": "暗黒マグマ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/metallicmoon",
+      "value": "Cyber Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/metallicmoon",
+      "value": "サイバー圏"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/midnight",
+      "value": "Midnight"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/midnight",
+      "value": "真夜中"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon",
+      "value": "Lunar"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon",
+      "value": "月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_desert",
+      "value": "Desert Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_desert",
+      "value": "砂漠の月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_metallic",
+      "value": "Metallic Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_metallic",
+      "value": "金属月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_shadow",
+      "value": "Shadow Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_shadow",
+      "value": "影の月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_stone",
+      "value": "Rocky Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_stone",
+      "value": "ロッキームーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_toxic",
+      "value": "Toxic Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_toxic",
+      "value": "有毒な月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/moon_volcanic",
+      "value": "Volcanic Moon"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/moon_volcanic",
+      "value": "火山月"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/mountainous",
+      "value": "Mountainous"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/mountainous",
+      "value": "山岳"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/nitrogensea",
+      "value": "Nitrogen Sea"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/nitrogensea",
+      "value": "窒素海"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/ocean",
+      "value": "Oceanic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/ocean",
+      "value": "海洋"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/penumbra",
+      "value": "Penumbra"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/penumbra",
+      "value": "ペヌムブラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/protoworld",
+      "value": "Proto World"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/protoworld",
+      "value": "プロトワールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/protoworlddark",
+      "value": "Shadow Proto World"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/protoworlddark",
+      "value": "シャドウプロトワールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/savannah",
+      "value": "Savannah"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/savannah",
+      "value": "サバンナ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/scorchedcity",
+      "value": "Scorched"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/scorchedcity",
+      "value": "焼失"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/shadow",
+      "value": "Shadow"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/shadow",
+      "value": "影"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/slimeworld",
+      "value": "Gelatinous"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/slimeworld",
+      "value": "ゼラチン類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/snow",
+      "value": "Snowy"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/snow",
+      "value": "雪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/snowdark",
+      "value": "Dark Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/snowdark",
+      "value": "黒雪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/strangesea",
+      "value": "Strange Sea"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/strangesea",
+      "value": "不思議な海"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/sulphuric",
+      "value": "Sulphuric"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/sulphuric",
+      "value": "硫黄"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/sulphuricdark",
+      "value": "Dark Sulphur"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/sulphuricdark",
+      "value": "ダークサルファー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/sulphuricocean",
+      "value": "Sulphuric Sea"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/sulphuricocean",
+      "value": "硫黄海"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/superdense",
+      "value": "Super Dense"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/superdense",
+      "value": "超高密度"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/tabularasa",
+      "value": "Tabula Rasa"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/tabularasa",
+      "value": "タブララサ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/tarball",
+      "value": "Tar Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/tarball",
+      "value": "タールボール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/thickjungle",
+      "value": "Rainforest"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/thickjungle",
+      "value": "熱帯雨林"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/tidewater",
+      "value": "Tidewater"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/tidewater",
+      "value": "潮水"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/toxic",
+      "value": "Toxic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/toxic",
+      "value": "有毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/tundra",
+      "value": "Tundra"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/tundra",
+      "value": "ツンドラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/tundradark",
+      "value": "Dark Tundra"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/tundradark",
+      "value": "ダークツンドラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/urbanwasteland",
+      "value": "Wasteland"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/urbanwasteland",
+      "value": "荒野"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/planetTypeNames/volcanic",
+      "value": "Volcanic"
+    },
+    {
+      "op": "replace",
+      "path": "/planetTypeNames/volcanic",
+      "value": "火山"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/binary1",
+      "value": "Binary Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/binary1",
+      "value": "バイナリスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/blacksun1",
+      "value": "Black Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/blacksun1",
+      "value": "ブラックスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/bluestar",
+      "value": "Frozen Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/bluestar",
+      "value": "凍結星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/bluesun1",
+      "value": "Blue Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/bluesun1",
+      "value": "ブルースター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/bluesun2",
+      "value": "Blue Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/bluesun2",
+      "value": "ブルースター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/default",
+      "value": "Mysterious Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/default",
+      "value": "謎の星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/dying1",
+      "value": "Dying Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/dying1",
+      "value": "死の星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/orangestar",
+      "value": "Temperate Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/orangestar",
+      "value": "温帯星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/redstar",
+      "value": "Fiery Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/redstar",
+      "value": "火の星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/redsun1",
+      "value": "Red Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/redsun1",
+      "value": "レッドスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/whitestar",
+      "value": "Gentle Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/whitestar",
+      "value": "ジェントルスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/starTypeNames/yellowstar",
+      "value": "Radioactive Star"
+    },
+    {
+      "op": "replace",
+      "path": "/starTypeNames/yellowstar",
+      "value": "放射性星"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/systemTooltip/exploredLabel/explored",
+      "value": "VISITED"
+    },
+    {
+      "op": "replace",
+      "path": "/systemTooltip/exploredLabel/explored",
+      "value": "訪問"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/systemTooltip/exploredLabel/unexplored",
+      "value": "UNEXPLORED"
+    },
+    {
+      "op": "replace",
+      "path": "/systemTooltip/exploredLabel/unexplored",
+      "value": "未探索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/systemTooltipConfig/explored/value",
+      "value": "UNEXPLORED"
+    },
+    {
+      "op": "replace",
+      "path": "/systemTooltipConfig/explored/value",
+      "value": "未探索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/systemTooltipConfig/name/value",
+      "value": "Anwar al Farkadain Precipice"
+    },
+    {
+      "op": "replace",
+      "path": "/systemTooltipConfig/name/value",
+      "value": "アンワル・アル・ファルカダイン崖"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/systemTooltipConfig/type/value",
+      "value": "Gentle Star"
+    },
+    {
+      "op": "replace",
+      "path": "/systemTooltipConfig/type/value",
+      "value": "ジェントルスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terraformedPlanetDescription/0",
+      "value": "This planet has been altered beyond recognition by extensive terraforming."
+    },
+    {
+      "op": "replace",
+      "path": "/terraformedPlanetDescription/0",
+      "value": "この惑星は、広範囲な地形形成によって認識を超えて変更されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terraformedPlanetDescription/1",
+      "value": "Terraforming has made this planet safe for habitation, though unnatural in appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/terraformedPlanetDescription/1",
+      "value": "テラフォーミングは、この惑星を居住のために安全にしましたが、外観は不自然です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/terraformedPlanetDescription/2",
+      "value": "This planet's climate and ecosystems have been dramatically altered by terraforming."
+    },
+    {
+      "op": "replace",
+      "path": "/terraformedPlanetDescription/2",
+      "value": "この惑星の気候と生態系は、地形形成によって劇的に変化した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/0",
+      "value": "Harmless (I)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/0",
+      "value": "無害 (I)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/1",
+      "value": "Low (II)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/1",
+      "value": "低音(II)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/2",
+      "value": "Moderate (III)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/2",
+      "value": "中等度(III)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/3",
+      "value": "Risky (IV)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/3",
+      "value": "リスキー(IV)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/4",
+      "value": "Dangerous (V)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/4",
+      "value": "危険(V)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/5",
+      "value": "Extreme (VI)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/5",
+      "value": "エクストリーム(VI)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/6",
+      "value": "Lethal (VII)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/6",
+      "value": "致命的(VII)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/7",
+      "value": "Impossible (VIII)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/7",
+      "value": "攻略不能 (VIII)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/8",
+      "value": "Immeasurable (IX)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/8",
+      "value": "計り知れない(IX)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/default/9",
+      "value": "Just No (X)"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/default/9",
+      "value": "ノー(X)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatLevelText/moon/0",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/threatLevelText/moon/0",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/threatTextPrefix",
+      "value": "^reset;Threat: ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/threatTextPrefix",
+      "value": "^reset;脅威:^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/topLeftButtonTooltips/goToQuest",
+      "value": "View quest location"
+    },
+    {
+      "op": "replace",
+      "path": "/topLeftButtonTooltips/goToQuest",
+      "value": "閲覧場所"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/topLeftButtonTooltips/goToShip",
+      "value": "View ship"
+    },
+    {
+      "op": "replace",
+      "path": "/topLeftButtonTooltips/goToShip",
+      "value": "展望"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/topLeftButtonTooltips/showBookmarkList",
+      "value": "Bookmarks"
+    },
+    {
+      "op": "replace",
+      "path": "/topLeftButtonTooltips/showBookmarkList",
+      "value": "ブックマーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/topLeftButtonTooltips/showCoordinates",
+      "value": "Coordinates"
+    },
+    {
+      "op": "replace",
+      "path": "/topLeftButtonTooltips/showCoordinates",
+      "value": "コーディネート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/aethersea/0",
+      "value": "This ^#e78442;aetheric world^reset; is dark, strange and quiet. ^orange;Xithricite Ore detected^reset;.^cyan; Recommend: Cosmic Resistance^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/aethersea/0",
+      "value": "この ^#e78442; エーテル世界 ^reset; は暗く、奇妙で、静かです。 ^orange;ジトリシテ 発見^reset;.^cyan;推奨:宇宙抵抗^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/aethersea/1",
+      "value": "Serious weather, high-tides and strangeness abound on this bizarre ^#e78442;aetheric world^reset;. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/aethersea/1",
+      "value": "風雨や潮風、奇妙さが、この奇妙さにあふれています。 ^#e78442;エーテル世界^reset;. ^cyan;推奨:宇宙抵抗/エーテル保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/aethersea/2",
+      "value": "A bizarre planetoid that seems to straddle dimensions, this ^#e78442;aetheric world^reset; calls to you with its dark serenity. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/aethersea/2",
+      "value": "次元にまたがるように見える奇妙な惑星、この^#e78442;エーテルの世界^reset;は、その暗い静けさであなたに呼びかけます。 ^cyan;推奨:宇宙抵抗/エーテル保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/alien/0",
+      "value": "This is a somewhat risky landing site - ^red;radiation levels are moderately high^reset;. However, the ^#7800ff;mutated^reset; terrain could be described as darkly whimsical."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/alien/0",
+      "value": "^red; 放射線レベルは適度に高い ^reset; です。 しかし、 ^#7800ff; 変異 ^reset; 地形は、暗く気まぐれである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/alien/1",
+      "value": "A landing site characterised by odd flora, aggressive fauna and ^red;moderately high levels of radiation^reset;. The area's inhabitants are severely ^#7800ff;mutated^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/alien/1",
+      "value": "奇動動動植物が特徴の着陸場。 ^red;適度に高い放射線レベル^reset;. 地域住民は重度の ^#7800ff; 変異 ^reset; である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/alien/2",
+      "value": "The beam location is situated in a ^#7800ff;mutated^reset; landscape. The ^red;moderate levels of radiation^reset; create a noxious environment. I advise you to avoid swimming."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/alien/2",
+      "value": "ビーム位置は ^#7800ff; 変異 ^reset; ランドスケープに位置する。 あれは ^red;適度な放射線レベル^reset; 有害な環境を作り出します 水泳は避けるようにアドバイスします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ancientgateway/0",
+      "value": "An ^#571cff;Ancient Gateway^reset; of unknown provenance; an edifice of great power and mystery."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ancientgateway/0",
+      "value": "未知の起源の^#571cff;古代ゲートウェイ^reset;。偉大な力と神秘の建物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal/0",
+      "value": "^#59a849;Giant trees^reset; are abundant on this ^#cd5d02;primeval forest^reset; world. Abundant ^orange;organic resources^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal/0",
+      "value": "^#59a849; 巨木 ^reset; は、この ^#cd5d02; 原生林 ^reset; 界に豊富です。 豊富な ^orange; 有機資源 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal/1",
+      "value": "Scanners have detected extremely dense ^#cd5d02;primeval forests^reset; on this planet. ^orange;Reptilian^reset; life-signs detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal/1",
+      "value": "スキャナは、この惑星で非常に高密度な ^#cd5d02; 原生林 ^reset; を検出しました。 ^orange;Reptilian^reset;ライフサイン検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal/2",
+      "value": "^#59a849;Primeval forest^reset; planets are early in their life-cycles and rich in ^orange;organic resources^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal/2",
+      "value": "^#59a849;原生林^reset; 惑星はライフサイクルの初期段階にあり ^orange;有機資源^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal2/0",
+      "value": "^#59a849;Giant trees^reset; are abundant on this oppressively hot ^#cd5d02;volcanic primeval forest^reset; world. Abundant ^orange;organic resources^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal2/0",
+      "value": "^#59a849; 巨大樹 ^reset; は、この圧巻に熱い ^#cd5d02; 火山原生林 ^reset; 世界に豊富です。 豊富な ^orange; 有機資源 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal2/1",
+      "value": "This ^#59a849;primeval forest^reset; is ripe with ^#cd5d02;volcanic activity^reset; and unpleasantly hot. Abundant ^orange;organic resources^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal2/1",
+      "value": "この ^#59a849; 原生林 ^reset; は ^#cd5d02; 火山活動 ^reset; で熟し、不快に暑い。 豊富な ^orange; 有機資源 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arboreal2/2",
+      "value": "Tread carefully on this stifling ^#59a849;primeval forest^reset; world. ^#cd5d02;Heavy volcanic activity^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arboreal2/2",
+      "value": "このぎゅっとした ^#59a849; 原生林 ^reset; の世界を注意深く歩きなさい。 ^#cd5d02;重火山活動^reset;検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arborealdark/0",
+      "value": "There is little light penetrating the tree canopies here on this ^#59a849;dark primeval^reset; forest planet. Bring a light-source."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arborealdark/0",
+      "value": "この ^#59a849; 暗い原始 ^reset; 森林惑星に木の林冠を貫通する光はほとんどありません。 光源を持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arborealdark/1",
+      "value": "Sunlight rarely touches this ^#59a849;dark primeval^reset; world, yet somehow the plant life grows thick and lush."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arborealdark/1",
+      "value": "日光は、この^#59a849;暗い原初値^reset;世界に触れることは滅多にありませんが、植物は厚く緑が茂ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arborealdark/2",
+      "value": "Darkness covers the dense woodlands of this ^#59a849;dark primeval^reset; planet."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arborealdark/2",
+      "value": "暗黒は、この ^#59a849; 暗黒原始 ^reset; 惑星の濃い森を覆います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arctic/0",
+      "value": "^red;Temperatures at the landing site are dangerously low.^reset; You will be beaming onto a small island surrounded by ^#00ffe4;frigid ocean^reset;. I strongly advise you to wear a scarf."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arctic/0",
+      "value": "^red; 着陸地点の温度は危険なほど低い。^reset; ^#00ffe4; 凍った海に囲まれた小さな島にビームアップします ^reset; 。 スカーフを着ることを強くお勧めします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arctic/1",
+      "value": "The beam site is ^red;intensely cold^reset;: a tiny island in a ^#00ffe4;frigid ocean^reset;. There is a 0.025% chance you will mis-beam into the water, quickly succumbing to the awful chill."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arctic/1",
+      "value": "ビームサイトは、^red;強冷^reset;:^#00ffe4;凍結海中の小さな島^reset;。 0.025%は、水にミスビームし、すぐにひどい寒さに屈するチャンスがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arctic/2",
+      "value": "A site of ^red;dangerously low temperatures^reset;. There are few animals here, and no plant-life at all - just forsaken islands in a ^#00ffe4;frigid ocean^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arctic/2",
+      "value": "^red;危険なほど低い温度^reset;のサイト。 ここには動物がほとんどいませんし、植物はまったくありません - ^#00ffe4;冷凍海内の放棄された島 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arcticdark/0",
+      "value": "^red;Temperatures at the landing site are dangerously low.^reset; You will be beaming onto a small island surrounded by ^#00ffe4;frigid ocean^reset;. I strongly advise you to wear a scarf."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arcticdark/0",
+      "value": "^red; 着陸地点の温度は危険なほど低い。^reset; ^#00ffe4; 凍った海に囲まれた小さな島にビームアップします ^reset; 。 スカーフを着ることを強くお勧めします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arcticdark/1",
+      "value": "The beam site is ^red;intensely cold^reset;: a tiny island in a ^#00ffe4;frigid ocean^reset;. There is a 0.025% chance you will mis-beam into the water, quickly succumbing to the awful chill."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arcticdark/1",
+      "value": "ビームサイトは、^red;強冷^reset;:^#00ffe4;凍結海中の小さな島^reset;。 0.025%は、水にミスビームし、すぐにひどい寒さに屈するチャンスがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/arcticdark/2",
+      "value": "A site of ^red;dangerously low temperatures^reset;. There are few animals here, and no plant-life at all - just forsaken islands in a ^#00ffe4;frigid ocean^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/arcticdark/2",
+      "value": "^red;危険なほど低い温度^reset;のサイト。 ここには動物がほとんどいませんし、植物はまったくありません - ^#00ffe4;冷凍海内の放棄された島 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/asteroids/0",
+      "value": "A bare cluster of ^#d7711e;asteroids^reset;. Readings indicate ^red;there is no atmosphere^reset; or life here. Just endless nothingness, with plenty of space for construction."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/asteroids/0",
+      "value": "^#d7711e;小惑星の裸のクラスター^reset;。 読み取りは、^red; ここには雰囲気^reset;または人生がないことを示します。 無限の無力、そして建設用のスペースが豊富です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/asteroids/1",
+      "value": "A lifeless band of ^#d7711e;asteroids^reset; ^red;without atmosphere^reset;: drifting through space, anchored to a distant star... A nice place to build a house."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/asteroids/1",
+      "value": "命のないバンド ^#d7711e;小惑星^reset; ^red;大気がないと^reset;遠くの星に停泊して宇宙を漂う... 家を建てるのに最適な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/asteroids/2",
+      "value": "A clutch of ^#d7711e;asteroids^reset; drifting along an elliptical orbit. Readings indicate ^red;there is no atmosphere here^reset;. Or anything else for that matter..."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/asteroids/2",
+      "value": "クラッチ ^#d7711e;小惑星^reset; 楕円軌道に沿って漂流しています 読みが示す ^red;ここには雰囲気がありません^reset;. それ以外は..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/astral/0",
+      "value": "This ^#e78442;aetheric world^reset; is dark, strange and quiet. ^orange;Xithricite Ore detected^reset;.^cyan; Recommend: Cosmic Resistance^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/astral/0",
+      "value": "この ^#e78442; エーテル世界 ^reset; は暗く、奇妙で、静かです。 ^orange;ジトリシテ 発見^reset;.^cyan;推奨:宇宙抵抗^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/astral/1",
+      "value": "Serious weather and strangeness abound on this bizarre ^#e78442;aetheric world^reset;. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/astral/1",
+      "value": "この奇怪な ^#e78442; エーテルの世界 ^reset; に、深刻な天気と奇妙さがあふれています。 ^cyan;推奨:宇宙抵抗/エーテル保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/astral/2",
+      "value": "A bizarre planetoid that seems to straddle dimensions, this ^#e78442;aetheric world^reset; calls to you with its dark serenity. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/astral/2",
+      "value": "次元にまたがるように見える奇妙な惑星、この^#e78442;エーテルの世界^reset;は、その暗い静けさであなたに呼びかけます。 ^cyan;推奨:宇宙抵抗/エーテル保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropus/0",
+      "value": "This horrific ^#cc8d5a;atropus^reset; world appears to be composed of flesh, sinew, and gore. ^#b41c1c;Quietus ore^reset; detected. ^red;Warning: Causes Madness^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropus/0",
+      "value": "この恐ろしい^#cc8d5a;アトロポス^reset;の世界は、肉体、シニュー、そしてゴアから構成されているように見えます。 ^#b41c1c;クワイタス鉱石^reset;検出。 ^red; 警告: 狂気を引き起こす ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropus/1",
+      "value": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Plasmic Crystal^reset; detected. ^red;Warning: Insanity-causing agents detected.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropus/1",
+      "value": "^#cc8d5a;アトロポス^reset;の世界は、生きているか死んだかの両方の物質から成っている不快で地獄的な球体です。 ^#b41c1c;プラズミッククリスタル^reset;検出。 ^red; 警告:検出された狂気の原因エージェント。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropus/2",
+      "value": "Lovingly called 'worlds born dead', ^#cc8d5a;atropus^reset; planets are not for the faint of heart or the weak-stomached. ^red;Warning: Psionically disruptive atmosphere^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropus/2",
+      "value": "愛らしい名前の「世界は死んだ」、^#cc8d5a;アトロポス^reset;惑星は、心や胃の弱い人のためのものではありません。 ^red;警告: 生理的に破壊的な雰囲気^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropusdark/0",
+      "value": "This horrific ^#cc8d5a;atropus^reset; world appears to be composed of flesh, sinew, and gore. ^#b41c1c;Quietus ore^reset; detected. ^red;Warning: Causes Madness and fatal illusions^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropusdark/0",
+      "value": "この恐ろしい^#cc8d5a;アトロポス^reset;の世界は、肉体、シニュー、そしてゴアから構成されているように見えます。 ^#b41c1c;クワイタス鉱石^reset;検出。 ^red;警告:狂気と致命的な錯覚を引き起こす^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropusdark/1",
+      "value": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Plasmic Crystal^reset; detected. ^red;Warning: Causes Insanity and fatal hallucinations^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropusdark/1",
+      "value": "^#cc8d5a;アトロポス^reset;の世界は、生きているか死んだかの両方の物質から成っている不快で地獄的な球体です。 ^#b41c1c;プラズミッククリスタル^reset;検出。 ^red;警告:狂気と致命的な幻覚を引き起こす^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/atropusdark/2",
+      "value": "A ^#aa6b48;dark atropus^reset; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^reset; as if created by an insane God. ^red;Warning: Psionically disruptive atmosphere^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/atropusdark/2",
+      "value": "^#aa6b48; ダークアトロパス ^reset; ワールド。 この珍しい惑星は ^#cc8d5a;生物学的に変異し^reset; まるで狂った神が創ったかのように ^red;警告: 生理的に破壊的な雰囲気^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/barren/0",
+      "value": "This location is ^#999966;barren^reset; and lifeless. Readings show there is nothing here. Be cautious however, as scans are not infallible."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/barren/0",
+      "value": "この場所は ^#999966; バレン ^reset; で、無生命です。 読書はここに何もないことを示している。 ただし、スキャンは不可抗力ではありませんので、注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/barren/1",
+      "value": "This planet is ^#999966;barren^reset;, supporting no apparent life of any kind. Be aware that scanners can make mistakes, however, when subterranean depths are involved."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/barren/1",
+      "value": "この惑星は^#999966;barren^reset;であり、いかなる種類の明白な生命も支持しない。 ただし、地下深度が関与している場合は、スキャナーが間違いを犯す可能性があることに注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/barren/2",
+      "value": "Readings indicate that the landing site is of unusual hue. Also, that it is a ^#999966;barren^reset; location and would be suitable for construction. Sub-planet scans inconclusive."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/barren/2",
+      "value": "陸地は珍しい色相である。 また、^#999966;barren^reset;locationであり、施工に適していること。 惑星内スキャンは決定的ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstone/0",
+      "value": "Scanners show strange ^#ba3b04;bloodstone^reset; formations and ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstone/0",
+      "value": "スキャナーは、奇妙な^#ba3b04;血液結石^reset;形成と^#8e5ca6;未知の有機^reset;要素を示す。 ^red; プラスチック結晶とサイクトース鉱石の源泉 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstone/1",
+      "value": "Scanners show strange ^#ba3b04;bloodstone^reset; formations and ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstone/1",
+      "value": "スキャナーは、奇妙な^#ba3b04;血液結石^reset;形成と^#8e5ca6;未知の有機^reset;要素を示す。 ^red; プラスチック結晶とサイクトース鉱石の源泉 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstone/2",
+      "value": "Scanners show strange ^#ba3b04;bloodstone^reset; formations and ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstone/2",
+      "value": "スキャナーは、奇妙な^#ba3b04;血液結石^reset;形成と^#8e5ca6;未知の有機^reset;要素を示す。 ^red; プラスチック結晶とサイクトース鉱石の源泉 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstonesea/0",
+      "value": "Scanners show disgusting ^#ba3b04;atropal seas^reset; ripe with ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;. ^red;Warning: Causes Madness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstonesea/0",
+      "value": "スキャナーは、不快な ^#ba3b04; アトロピカルシー ^reset; を ^#8e5ca6; 未知の有機 ^reset; 要素で熟します。 ^red; プラスチック結晶とサイクトース鉱石の源泉 ^reset; 。 ^red;警告:狂気を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstonesea/1",
+      "value": "While tempting, avoid the urge to swim in the gore and guts on this ^#ba3b04;atropus sea^reset; planet. ^red;Warning: Causes Madness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstonesea/1",
+      "value": "誘惑している間、この ^#ba3b04; アトロポス sea ^reset; 惑星でゴアと腸で泳ぐ衝動を避けてください。 ^red;警告:狂気を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bloodstonesea/2",
+      "value": "^#ba3b04;Atropus Seas^reset; are putrid and repulsive, loaded with ^#8e5ca6;unknown organic^reset; elements. ^red;Warning: Causes Madness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bloodstonesea/2",
+      "value": "^#ba3b04; アトロパス海 ^reset; は、 ^#8e5ca6; 未知の有機 ^reset; 要素を積んで、反発します。 ^red;警告:狂気を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bog/0",
+      "value": "A deep, thick ^#97be6a;bog^reset; covers nearly all of this world. Rich in ^green;Algae^reset; and other organic resources."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bog/0",
+      "value": "深くて太い ^#97be6a;沼地 ^reset;は、この世界のほぼすべてをカバーします。 ^green;藻類^reset;などの有機資源が豊富。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bog/1",
+      "value": "Nearly impenetrable ^#97be6a;bog^reset; blankets this moist and rainy world. ^green;Algae^reset; for bio-fuel is abundant."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bog/1",
+      "value": "ほとんど浸透しない ^#97be6a;沼地 ^reset;は、この湿った雨の世界を毛布で包みます。 ^green;藻類^reset;バイオ燃料は豊富です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/bog/2",
+      "value": "Wet, mucky ground and dense ^#97be6a;bog^reset; extends across most of the surface. Harvesting ^green;algae^reset; should prove simple."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/bog/2",
+      "value": "湿った、湿った地面と密な^#97be6a;沼地^reset;は表面のほとんどに広がっています。 収穫 ^green;藻 ^reset; は簡単であるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/chromatic/0",
+      "value": "^#ffc2f9;Chromatic^reset; worlds are strange and ^orange;radioactive^reset; but rich in valuable ^green;prism shards^reset;. ^cyan;Recommended: Extreme Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/chromatic/0",
+      "value": "^#ffc2f9;クロマティック^reset;ワールドは奇妙で^orange;放射性^reset;ですが、価値ある^green;prismシャード^reset;が豊富です。 ^cyan;推奨:極限放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/chromatic/1",
+      "value": "This unusual planet is ^#ffc2f9;chromatic^reset;, with a ^orange;radioactive atmosphere^reset;. Our scanners detect rare mineral deposits. ^cyan;Recommended: Extreme Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/chromatic/1",
+      "value": "この異常な惑星は ^#ffc2f9; 色 ^reset; であり、 ^orange; 放射性大気 ^reset; を持つ。 私たちのスキャナーは希少鉱物の堆積を検知します。 ^cyan;推奨:極限放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/chromatic/2",
+      "value": "^#ffc2f9;Chromatic^reset; worlds sparkle like a ^orange;radioactive rainbow^reset; with glistening ^green;prism shards^reset;. ^cyan;Recommended: Extreme Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/chromatic/2",
+      "value": "^#ffc2f9;彩色^reset; 世界はまるで ^orange;放射性虹^reset; 光り輝く ^green;プリズムシャード^reset;. ^cyan;推奨:極限放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/crystalmoon/0",
+      "value": "A ^#a56caf;crystalline^reset; planet. These worlds are the sole source of ^#e6c011;lunari crystals^reset;. Silicate ^e43774;crystal formations^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/crystalmoon/0",
+      "value": "^#a56caf;結晶 ^reset;惑星。 これらの世界は ^#e6c011; Mooni 結晶 ^reset; の唯一の源である。 ケイ酸塩^e43774;結晶形成^reset;検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/crystalmoon/1",
+      "value": "This ^#a56caf;crystalline world^reset; is rich in ^#e6c011;lunari crystals^reset; and shines beautifully from the light of the nearby sun."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/crystalmoon/1",
+      "value": "この ^#a56caf;結晶世界 ^reset; は ^#e6c011;ムーン結晶 ^reset; が豊富で、近くの太陽の光から美しく輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/crystalmoon/2",
+      "value": "Silicate ^e43774;crystals^reset; such as ^#e6c011;lunari^reset; have been detected on this ^#a56caf;crystalline world^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/crystalmoon/2",
+      "value": "ケイ酸塩 ^e43774;クリスタル^reset; 例えば ^#e6c011;ムーンアイ^reset; 発見されました ^#a56caf;結晶世界^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desert/0",
+      "value": "There is limited flora here on this ^#e6c801;desert^reset;, but the location does support life. ^red;Hot days, cool nights^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desert/0",
+      "value": "ここには限られた植物相があります ^#e6c801; 砂漠 ^reset; 場所は生命を支えます。 ^red;ホットデイ、クールな夜^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desert/1",
+      "value": "A ^#e6c801;desert^reset; area populated by cacti, as well as various animal life. A relatively safe landing site, so long as you avoid the sandstorms. ^red;Quite warm^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desert/1",
+      "value": "^#e6c801;desert ^reset;はサボテンだけでなく、さまざまな動物が生息しています。 あなたが砂嵐を避けている限り、比較的安全な着陸場所。 ^red;かなり暖かい^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desert/2",
+      "value": "Sand. Readings indicate sand. Also some cacti... but predominantly sand. This ^#e6c801;desert^reset; is ^red;uncomfortably warm^reset; but rich in resources."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desert/2",
+      "value": "砂。 読書は砂を示している。 また、サボテンの...しかし、主に砂。 以下 ^#e6c801;砂漠^reset; です ^red;不快に暖かく^reset; 資源も豊富です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastes/0",
+      "value": "The majority of the planet's surface is a scorching ^#c80000;red desert^reset;. Bio-scans reveal interesting flora and fauna. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastes/0",
+      "value": "惑星の表面の大部分は、焦げた^#c80000;赤い砂漠^reset;です。 バイオスキャンは興味深い植物相と動物相を明らかにする。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastes/1",
+      "value": "Bring heat protection when exploring this ^#c80000;red desert^reset; as exposure for prolonged periods will prove 100% fatal. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastes/1",
+      "value": "長期間の露光として、この^#c80000;赤い砂漠^reset;を探索すると熱保護をもたらすと、100%は致命的です。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastes/2",
+      "value": "A ^#c80000;red desert^reset; stretches across almost the entire circumference of this exceptionally hot world. ^cyan;Recommend: Extreme heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastes/2",
+      "value": "^#c80000;赤い砂漠 ^reset;は、この非常に暑い世界のほぼ全体の周囲に伸びています。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastesdark/0",
+      "value": "The majority of the planet's surface is a scorching ^#c80000;red desert^reset;. Bio-scans reveal interesting flora and fauna. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastesdark/0",
+      "value": "惑星の表面の大部分は、焦げた^#c80000;赤い砂漠^reset;です。 バイオスキャンは興味深い植物相と動物相を明らかにする。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastesdark/1",
+      "value": "Bring heat protection when exploring this ^#c80000;red desert^reset; as exposure for prolonged periods will prove 100% fatal. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastesdark/1",
+      "value": "長期間の露光として、この^#c80000;赤い砂漠^reset;を探索すると熱保護をもたらすと、100%は致命的です。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/desertwastesdark/2",
+      "value": "A ^#c80000;red desert^reset; stretches across almost the entire circumference of this exceptionally hot world. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/desertwastesdark/2",
+      "value": "^#c80000;赤い砂漠 ^reset;は、この非常に暑い世界のほぼ全体の周囲に伸びています。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/eden/0",
+      "value": "This ^#00f0ff;eden ^reset;has very little in the way of hostile life and very little darkness. A lovely place to build a home. ^#9dbeef;Healing waters^reset; dot the surface."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/eden/0",
+      "value": "この ^#00f0ff;eden ^reset; は、敵対的な生活の邪魔になるものはほとんどなく、暗闇もほとんどありません。 家を建てるための素敵な場所。 ^#9dbeef; ^reset;は表面を点滅します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/eden/1",
+      "value": "This ^#00f0ff;eden^reset; looks incredibly hospitable. I detect few life signs and ample ^#9dbeef;Healing waters^reset;. An ideal place to make a home."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/eden/1",
+      "value": "この ^#00f0ff;eden ^reset; は信じられないほど親切に見えます。 生活のしるしや豊富な^#9dbeef;癒し水^reset;を検知します。 家を建てるのに理想的な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/eden/2",
+      "value": "Bright and sunny most of the time, this ^#00f0ff;eden^reset; awaits an intrepid explorer to make it a civilized stop along this star route."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/eden/2",
+      "value": "明るく晴れたこの^#00f0ff;eden^reset;は、このスタールートに沿って文明的な停留所になるための素晴らしい探検家を待っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ffunknown/0",
+      "value": "^#e43774;Unknown^reset; interference prevents scanning of the planet surface. Proceed carefully. ^red;Potentially Lethal!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ffunknown/0",
+      "value": "^#e43774; 未知 ^reset; 干渉は、惑星表面のスキャンを防ぎます。 慎重に進めなさい。 ^red;潜在的に致命的!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ffunknown/1",
+      "value": "Something here is ^red;blocking our scanners^reset;, leaving this planet's composition essentially ^#e43774;unknown^reset;. ^red;Potentially Lethal!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ffunknown/1",
+      "value": "ここでの何かは^red;が私たちのスキャナーをブロックしている^reset;は、この惑星の組成を本質的に^#e43774;unknown^reset;に残します。 ^red;潜在的に致命的!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ffunknown/2",
+      "value": "^#e43774;Unknown^reset; readings are confusing our scanners. I can glean nothing useful from them. ^red;Potentially Lethal!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ffunknown/2",
+      "value": "^#e43774; Unknown ^reset; 読み取りはスキャナーを混乱させています。 私はそれらから何も役に立たない。 ^red;潜在的に致命的!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/forest/0",
+      "value": "Densely colonized by trees and other flora, this ^#15ce02;forest ^reset;landing site is a hospitable location that supports a diversity of life - potentially including your own."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/forest/0",
+      "value": "木々やほかの植物が生い茂る、この^#15ce02;森林^reset;の着陸地点は、多様な生命を育む住みやすい場所です。その生命には、あなたも加われるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/forest/1",
+      "value": "Leafy trees abound in this ^#15ce02;forest ^reset;location. The area is hospitable to life, my database indicates that you may encounter woodland creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/forest/1",
+      "value": "この ^#15ce02;forest ^reset;location に葉の木がたくさんあります。 私のデータベースは、あなたが森の生き物に遭遇するかもしれないことを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/forest/2",
+      "value": "Your beam site for this planet is located in a ^#15ce02;forest^reset;. Readings indicate that this wooded area is relatively tranquil."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/forest/2",
+      "value": "この惑星のビームサイトは ^#15ce02;forest^reset; にあります。 読書は、この樹木が茂った地域が比較的穏やかであることを示している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/frozenvolcanic/0",
+      "value": "^#b86c00;Frozen Volcanic^reset; worlds are relatively rare, and possess a dangerous mix of ice, burning rock and lava. ^green;Many useful resources^reset; detected. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/frozenvolcanic/0",
+      "value": "^#b86c00;凍結火山^reset;の世界は比較的まれであり、氷、燃えている岩と溶岩の危険な混合物を持っています。 ^green;多くの有用なリソース ^reset; が検出されました。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/frozenvolcanic/1",
+      "value": "^#b86c00;Frozen Volcanic^reset;? How is this even possible? Science is at a loss to provide an explanation. ^green;Many useful resources^reset; detected. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/frozenvolcanic/1",
+      "value": "^#b86c00;凍結火山^reset;? どうやって実現できるのでしょうか? 科学は説明ができない。 ^green;多くの有用なリソース ^reset; が検出されました。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/frozenvolcanic/2",
+      "value": "A ^#b86c00;frozen volcanic^reset; surface ripe with hazards awaits below. ^red;Beware of lava, cold and liquid nitrogen dangers.^reset; ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/frozenvolcanic/2",
+      "value": "^#b86c00;凍結火山^reset;表面は、危険が待っています。 ^red;溶岩、寒冷、液体窒素の危険性に注意してください。^reset; ^cyan;推奨事項: 適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/0",
+      "value": "A ^#e43774;gas giant^reset; with enough mass to allow exploration. Take ^red;extreme caution^reset; wandering here. ^cyan;Recommend: Extreme Pressure Protection^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/0",
+      "value": "探査できるだけの質量を持つ ^#e43774; ガス巨人 ^reset;。 ^red; 極端な注意 ^reset; ここでさまよう。 ^cyan;推奨:極限圧力保護^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/1",
+      "value": "A ^#e43774;gas giant^reset; swirling with massive storms and chemical clouds. ^red;Fatal danger^reset; is present here. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/1",
+      "value": "巨大な嵐と化学雲で渦巻く^#e43774;ガス巨人^reset;。 ^red;致命的な危険^reset;がここに存在します。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/2",
+      "value": "Whirling colors and thick gas circle this ^#e43774;gas giant^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/2",
+      "value": "渦巻く色と厚い気体は、これ^#e43774;ガス巨人^reset; を円で囲みます。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/3",
+      "value": "A ^red;deadly^reset; but wonderfully unique ^#e43774;gas giant^reset; with enough atmosphere to explore.^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/3",
+      "value": "^red; 致命的^reset; しかし、探索するのに十分な雰囲気を持つ素晴らしいユニークな^#e43774; ガス巨人^reset;。^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/4",
+      "value": "While it has almost no ground to speak of, ^#505f50;a gas ball^reset; can yield useful resources. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/4",
+      "value": "ほとんど語るべき根拠がありませんが、^#505f50; ガスボール ^reset; は有用なリソースを得られるのです。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant/5",
+      "value": "A ^#505f50;gas ball^reset; with enough atmosphere to provide access to ^orange;valuable resources^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant/5",
+      "value": "^#505f50;ガスボール^reset;は、^orange;は、貴重なリソース ^reset;へのアクセスを提供するのに十分な雰囲気です。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/0",
+      "value": "A ^#e43774;gas giant^reset; with enough mass to allow exploration. Take ^red;extreme caution^reset; wandering here. ^cyan;Recommend: Extreme Pressure Protection^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/0",
+      "value": "探査できるだけの質量を持つ ^#e43774; ガス巨人 ^reset;。 ^red; 極端な注意 ^reset; ここでさまよう。 ^cyan;推奨:極限圧力保護^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/1",
+      "value": "A ^#e43774;gas giant^reset; swirling with massive storms and chemical clouds. ^red;Fatal danger^reset; is present here. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/1",
+      "value": "巨大な嵐と化学雲で渦巻く^#e43774;ガス巨人^reset;。 ^red;致命的な危険^reset;がここに存在します。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/2",
+      "value": "Whirling colors and thick gas circle this ^#e43774;gas giant^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/2",
+      "value": "渦巻く色と厚い気体は、これ^#e43774;ガス巨人^reset; を円で囲みます。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/3",
+      "value": "A ^red;deadly^reset; but wonderfully unique ^#e43774;gas giant^reset; with enough atmosphere to explore.^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/3",
+      "value": "^red; 致命的^reset; しかし、探索するのに十分な雰囲気を持つ素晴らしいユニークな^#e43774; ガス巨人^reset;。^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/4",
+      "value": "While it has almost no ground to speak of, ^#505f50;a gas ball^reset; can yield useful resources. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/4",
+      "value": "ほとんど語るべき根拠がありませんが、^#505f50; ガスボール ^reset; は有用なリソースを得られるのです。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant2/5",
+      "value": "A ^#505f50;gas ball^reset; with enough atmosphere to provide access to ^orange;valuable resources^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant2/5",
+      "value": "^#505f50;ガスボール^reset;は、^orange;は、貴重なリソース ^reset;へのアクセスを提供するのに十分な雰囲気です。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/0",
+      "value": "A ^#e43774;gas giant^reset; with enough mass to allow exploration. Take ^red;extreme caution^reset; wandering here. ^cyan;Recommend: Extreme Pressure Protection^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/0",
+      "value": "探査できるだけの質量を持つ ^#e43774; ガス巨人 ^reset;。 ^red; 極端な注意 ^reset; ここでさまよう。 ^cyan;推奨:極限圧力保護^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/1",
+      "value": "A ^#e43774;gas giant^reset; swirling with massive storms and chemical clouds. ^red;Fatal danger^reset; is present here. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/1",
+      "value": "巨大な嵐と化学雲で渦巻く^#e43774;ガス巨人^reset;。 ^red;致命的な危険^reset;がここに存在します。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/2",
+      "value": "Whirling colors and thick gas circle this ^#e43774;gas giant^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/2",
+      "value": "渦巻く色と厚い気体は、これ^#e43774;ガス巨人^reset; を円で囲みます。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/3",
+      "value": "A ^red;deadly^reset; but wonderfully unique ^#e43774;gas giant^reset; with enough atmosphere to explore.^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/3",
+      "value": "^red; 致命的^reset; しかし、探索するのに十分な雰囲気を持つ素晴らしいユニークな^#e43774; ガス巨人^reset;。^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/4",
+      "value": "While it has almost no ground to speak of, ^#505f50;a gas ball^reset; can yield useful resources. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/4",
+      "value": "ほとんど語るべき根拠がありませんが、^#505f50; ガスボール ^reset; は有用なリソースを得られるのです。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant3/5",
+      "value": "A ^#505f50;gas ball^reset; with enough atmosphere to provide access to ^orange;valuable resources^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant3/5",
+      "value": "^#505f50;ガスボール^reset;は、^orange;は、貴重なリソース ^reset;へのアクセスを提供するのに十分な雰囲気です。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/0",
+      "value": "A ^#e43774;gas giant^reset; with enough mass to allow exploration. Take ^red;extreme caution^reset; wandering here. ^cyan;Recommend: Extreme Pressure Protection^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/0",
+      "value": "探査できるだけの質量を持つ ^#e43774; ガス巨人 ^reset;。 ^red; 極端な注意 ^reset; ここでさまよう。 ^cyan;推奨:極限圧力保護^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/1",
+      "value": "A ^#e43774;gas giant^reset; swirling with massive storms and chemical clouds. ^red;Fatal danger^reset; is present here. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/1",
+      "value": "巨大な嵐と化学雲で渦巻く^#e43774;ガス巨人^reset;。 ^red;致命的な危険^reset;がここに存在します。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/2",
+      "value": "Whirling colors and thick gas circle this ^#e43774;gas giant^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/2",
+      "value": "渦巻く色と厚い気体は、これ^#e43774;ガス巨人^reset; を円で囲みます。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/3",
+      "value": "A ^red;deadly^reset; but wonderfully unique ^#e43774;gas giant^reset; with enough atmosphere to explore.^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/3",
+      "value": "^red; 致命的^reset; しかし、探索するのに十分な雰囲気を持つ素晴らしいユニークな^#e43774; ガス巨人^reset;。^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/4",
+      "value": "While it has almost no ground to speak of, ^#505f50;a gas ball^reset; can yield useful resources. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/4",
+      "value": "ほとんど語るべき根拠がありませんが、^#505f50; ガスボール ^reset; は有用なリソースを得られるのです。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant4/5",
+      "value": "A ^#505f50;gas ball^reset; with enough atmosphere to provide access to ^orange;valuable resources^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant4/5",
+      "value": "^#505f50;ガスボール^reset;は、^orange;は、貴重なリソース ^reset;へのアクセスを提供するのに十分な雰囲気です。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/0",
+      "value": "A ^#e43774;gas giant^reset; with enough mass to allow exploration. Take ^red;extreme caution^reset; wandering here. ^cyan;Recommend: Extreme Pressure Protection^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/0",
+      "value": "探査できるだけの質量を持つ ^#e43774; ガス巨人 ^reset;。 ^red; 極端な注意 ^reset; ここでさまよう。 ^cyan;推奨:極限圧力保護^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/1",
+      "value": "A ^#e43774;gas giant^reset; swirling with massive storms and chemical clouds. ^red;Fatal danger^reset; is present here. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/1",
+      "value": "巨大な嵐と化学雲で渦巻く^#e43774;ガス巨人^reset;。 ^red;致命的な危険^reset;がここに存在します。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/2",
+      "value": "Whirling colors and thick gas circle this ^#e43774;gas giant^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/2",
+      "value": "渦巻く色と厚い気体は、これ^#e43774;ガス巨人^reset; を円で囲みます。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/3",
+      "value": "A ^red;deadly^reset; but wonderfully unique ^#e43774;gas giant^reset; with enough atmosphere to explore.^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/3",
+      "value": "^red; 致命的^reset; しかし、探索するのに十分な雰囲気を持つ素晴らしいユニークな^#e43774; ガス巨人^reset;。^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/4",
+      "value": "While it has almost no ground to speak of, ^#505f50;a gas ball^reset; can yield useful resources. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/4",
+      "value": "ほとんど語るべき根拠がありませんが、^#505f50; ガスボール ^reset; は有用なリソースを得られるのです。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fugasgiant5/5",
+      "value": "A ^#505f50;gas ball^reset; with enough atmosphere to provide access to ^orange;valuable resources^reset;. ^cyan;Recommend: Extreme Pressure Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fugasgiant5/5",
+      "value": "^#505f50;ガスボール^reset;は、^orange;は、貴重なリソース ^reset;へのアクセスを提供するのに十分な雰囲気です。 ^cyan;推奨:極限圧力保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fungus/0",
+      "value": "This planet seems to be covered in a giant ^#7fe96e;fungal^reset; colony. Beware of ^red;poison gas^reset; from huge spore clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fungus/0",
+      "value": "この惑星は巨大な ^#7fe96e; 菌類 ^reset; コロニーで覆われているようです。 巨大な胞子雲から ^red; 毒ガス ^reset; に注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fungus/1",
+      "value": "A mutant ^#7fe96e;fungus^reset; has grown out of control, covering this world. Spores Galore! ^red;Poison gas clouds^reset; are quite common."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fungus/1",
+      "value": "突然変異体 ^#7fe96e;真菌 ^reset;がこの世界を覆うように成長した。 スポーク・ガルール! ^red; 毒ガス雲 ^reset; はかなり一般的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/fungus/2",
+      "value": "A ^#7fe96e;fungal^reset; colony of unsurpassed size engulfs almost this entire world. Pockets of ^red;poisonous clouds^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/fungus/2",
+      "value": "圧倒的なサイズの ^#7fe96e;fungal ^reset; コロニーは、ほぼ全世界を包含します。 ^red;有毒雲のポケット ^reset;検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/garden/0",
+      "value": "^#76fe68;Lush ^reset;foothills mark this landing location. Both flora and fauna are abundant here. A beam site of immeasurable safety."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/garden/0",
+      "value": "^#76fe68;緑豊かな地 ^reset; 足場がこの着陸地点にマークします。 植物相も動物相も豊富です。 計り知れない安全性のビームサイト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/garden/1",
+      "value": "The beam site is located in a tranquil area of great bio-diversity. There are resources here that you could use. A ^#76fe68;lush ^reset;and pleasant land."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/garden/1",
+      "value": "ビームサイトは、大きな生物多様性の静かなエリアに位置しています。 ここに使用できるリソースがあります。 ^#76fe68;緑 ^reset; 快適な土地。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/garden/2",
+      "value": "Readings indicate the landing site is not unfavourable - the area is safe, and lavish with both flora and fauna. A ^#76fe68;lush ^reset;and hospitable place."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/garden/2",
+      "value": "地域は安全で、植物と動物の両方で豊富です。 ^#76fe68;lush^reset;とおもてなしの場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icemoon/0",
+      "value": "A frigid, ^#86a8c5;frozen moon^reset;. Slippery surfaces could prove hazardous. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icemoon/0",
+      "value": "冷凍、^#86a8c5;冷凍月^reset;。 滑りやすい表面は危険である。 豊富な ^#e43558;テレブリウム 鉱石 ^reset; を検出しました。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icemoon/1",
+      "value": "A ^#86a8c5;frozen moon^reset;. Watch your footing, and beware ^red;dangerous wildlife^reset;. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icemoon/1",
+      "value": "^#86a8c5;凍結月^reset;。 足元を見て、注意してください^red;危険な野生生物^reset;。 豊富な ^#e43558;テレブリウム 鉱石 ^reset; を検出しました。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icemoon/2",
+      "value": "^#86a8c5;Frozen moons^reset; are cold and dangerous to the unwary. I am detecting valuable ^#e43558;telebrium ore^reset; underground. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icemoon/2",
+      "value": "^#86a8c5;凍った月 ^reset; 寒くて危険な不注意。 貴重品^#e43558;テレブリアム鉱石^reset;を地下で探知しています。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewaste/0",
+      "value": "Scanners show ^red;deadly ice and absolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Proceed with caution. ^orange;Isogen Ore^reset; detected. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewaste/0",
+      "value": "スキャナが示す ^red;氷と絶対零度は^reset; これについて ^#69f1fd;氷廃棄物^reset;. 注意して進めなさい。 ^orange;アイソゲン鉱石^reset;検出。 ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewaste/1",
+      "value": "This ^#69f1fd;ice waste^reset; appears to have fatal temperatures, so be sure you have cold protection. I am detecting valuable resources underground. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewaste/1",
+      "value": "この ^#69f1fd; 氷廃棄物 ^reset; は致命的な温度を持っているように見えるので、冷たい保護があることを確認してください。 貴重な資源を地下で探知しています。 ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewaste/2",
+      "value": "Scanners show this ^#69f1fd;ice waste^reset; is ^red;extremely dangerous^reset; and has unusual terrain. ^orange;Isogen Ore^reset; detected. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewaste/2",
+      "value": "スキャナーは、この^#69f1fd;氷廃棄物^reset;は^red;非常に危険な^reset;であり、珍しい地形を有する。 ^orange;アイソゲン鉱石^reset;検出。 ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewastedark/0",
+      "value": "Scanners show ^red;deadly ice and absolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Sunlight is minimal. ^red;Tread carefully in the dark^reset;. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewastedark/0",
+      "value": "スキャナが示す ^red;氷と絶対零度は^reset; これについて ^#69f1fd;氷廃棄物^reset;. 日光は最小限です。 ^red;暗闇の中で慎重に歩きなさい^reset;. ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewastedark/1",
+      "value": "This ^#69f1fd;ice waste^reset; appears to have fatal temperatures, so be sure you have cold protection. Nearly all light is blocked by the atmosphere. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewastedark/1",
+      "value": "この ^#69f1fd; 氷廃棄物 ^reset; は致命的な温度を持っているように見えるので、冷たい保護があることを確認してください。 ほとんどすべての光が大気に遮られています。 ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/icewastedark/2",
+      "value": "Scanners show this ^#69f1fd;ice waste^reset; is ^red;extremely dangerous^reset; and nearly no light. ^orange;Trianglium ore^reset; detected. ^cyan;Recommend: Extreme Cold protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/icewastedark/2",
+      "value": "スキャナーは、この^#69f1fd;氷廃棄物^reset;は^red;非常に危険な^reset;であり、光はほとんどありません。 ^orange;トライアングリウム鉱石^reset;検出。 ^cyan;推奨:極寒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernus/0",
+      "value": "Volatile lava and extreme deadly heat await on ^#cd5d02;infernus^reset; worlds. Protection recommended. ^orange;Pyreite Ore^reset; detected. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernus/0",
+      "value": "揮発性溶岩と極度の致命的な熱は、^#cd5d02;不妊症^reset;世界を待つ。 保護が推奨される。 ^orange;パイライト 鉱石 ^reset; 検出。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernus/1",
+      "value": "A hellish ^#cd5d02;infernus^reset; planet covered in ^red;lava^reset; and ^red;lethal temperatures^reset;. Bring heat protection. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernus/1",
+      "value": "地獄 ^#cd5d02;インフェルヌス^reset; 惑星に覆われ ^red;溶岩^reset; そして ^red;致命的な温度^reset;. 保温効果を発揮します。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernus/2",
+      "value": "^#cd5d02;Infernus^reset; worlds are ^red;exceptionally deadly^reset; and not to be undertaken without protection. ^orange;Pyreite Ore^reset; detected. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernus/2",
+      "value": "^#cd5d02;インフェルヌス^reset; 世界は ^red;非常に致命的です^reset; 保護なしでは実行されません ^orange;パイライト 鉱石 ^reset; 検出。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernusdark/0",
+      "value": "Volatile lava and extreme deadly heat await on ^#cd5d02;infernus^reset; worlds. Protection recommended. ^#d16fff;Densinium ore^reset; detected. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernusdark/0",
+      "value": "揮発性溶岩と極度の致命的な熱は、^#cd5d02;不妊症^reset;世界を待つ。 保護が推奨される。 ^#d16fff;デンシニウム鉱石^reset;検出。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernusdark/1",
+      "value": "A hellish ^#cd5d02;infernus^reset; planet covered in ^red;lava^reset; and ^red;lethal temperatures^reset;. Bring heat protection. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernusdark/1",
+      "value": "地獄 ^#cd5d02;インフェルヌス^reset; 惑星に覆われ ^red;溶岩^reset; そして ^red;致命的な温度^reset;. 保温効果を発揮します。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/infernusdark/2",
+      "value": "^#cd5d02;Infernus^reset; worlds are ^red;exceptionally deadly^reset; and not to be undertaken without protection. ^#d16fff;Densinium ore^reset; detected. ^cyan;Recommend: Extreme Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/infernusdark/2",
+      "value": "^#cd5d02;インフェルヌス^reset; 世界は ^red;非常に致命的です^reset; 保護なしでは実行されません ^#d16fff;デンシニウム鉱石^reset;検出。 ^cyan;推奨:極限の熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/irradiated/0",
+      "value": "^#83b369;Irradiated^reset; world. Dense pockets of lethal radiation, and large quantities of ^#4444ff;Irradium ore^reset; detected. ^cyan;Recommend: Moderate Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/irradiated/0",
+      "value": "^#83b369;照射^reset;ワールド。 重度の致死放射線ポケットと多量の^#4444ff;I鉱石^reset;検出。 ^cyan;推奨:適度な放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/irradiated/1",
+      "value": "This unusual ^#83b369;irradiated^reset; world should not be visited without ^green;radiation protection^reset;. ^#4444ff;Irradium ore^reset; detected. ^cyan;Recommend: Moderate Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/irradiated/1",
+      "value": "この珍しい^#83b369;照射^reset;の世界は^green;放射線保護^reset;なしで訪問すべきではありません。 ^#4444ff; IR鉱石^reset; 検出。 ^cyan;推奨:適度な放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/irradiated/2",
+      "value": "Mutated trees and bizarre fauna are abundant on this ^#83b369;irradiated^reset; planet. ^cyan;Recommend: Moderate Radiation protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/irradiated/2",
+      "value": "この^#83b369;照射された^reset;惑星には、変異木や奇妙な動物が豊富にあります。 ^cyan;推奨:適度な放射線保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/jungle/0",
+      "value": "The landing site is in a dense, hot ^#12a003;jungle^reset;. A menagerie of astounding creatures live amongst the lush flora. It is a shame about the ^red;moderately high radiation^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/jungle/0",
+      "value": "着地地点は、密集した熱い ^#12a003;ジャングル ^reset; である。 緑豊かな植物の中に驚くべき生き物が生息しています。 ^red;適度に高い放射線^reset;は残念です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/jungle/1",
+      "value": "A ^#12a003;jungle^reset; landing site densely inhabited by flora and fauna of many kinds. The area is rich with resources but quite hot and ^red;moderately radioactive^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/jungle/1",
+      "value": "^#12a003;ジャングル^reset;は、多くの種類の動植物が密に生息する着陸場です。 この地域は資源が豊富ですが、かなり熱いと^red;適度に放射性^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/jungle/2",
+      "value": "^red;Moderate, unsafe levels of radiation^reset; render this ^#12a003;jungle^reset; location an extremely hostile environment and local fauna is similarly unwelcoming."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/jungle/2",
+      "value": "^red;安全でないレベルの放射線^reset;は、この^#12a003;ジャングル^reset;の位置を非常に敵対的な環境と局所動物相も同様に歓迎されない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/lightless/0",
+      "value": "This strange ^#64616f;lightless sphere^reset; reflects or absorbs light. Reason unknown. ^#c62c7f;Effigium ore^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/lightless/0",
+      "value": "この奇妙な ^#64616f; 光のない球 ^reset; 光を反射または吸収します。 理由は不明。 ^#c62c7f;エフィジウム 鉱石^reset;検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/lightless/1",
+      "value": "The atmosphere of this ^#64616f;lightless sphere^reset; blocks any source of light from penetrating completely. Scans inconclusive."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/lightless/1",
+      "value": "この ^#64616f; 光の無い球 ^reset; の大気は、透過から光源を完全に遮断します。 スキャンは決定的ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/lightless/2",
+      "value": "A ^#64616f;lightless sphere^reset; with no light but plenty of ^#d16fff;Effigium ore^reset; detected. Near-total darkness awaits."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/lightless/2",
+      "value": "^#64616f;無光球体^reset;光はなく、多くの^#d16fff;エフィジウム鉱石^reset;が検出される。 ほぼ真っ暗闇が待っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magma/0",
+      "value": "This ^red;dangerously hot^reset; planet is chiefly composed of ^#ff1818;magma^reset;. Remember, your resilient spirit is admirable, but it is not flame retardant."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magma/0",
+      "value": "この ^red; 危険に熱い ^reset; 惑星は主に ^#ff1818; マグマ ^reset; から構成される。 あなたの回復力のある精神は賞賛すべきですが、それは難燃性ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magma/1",
+      "value": "The planet surface is ^red;dangerously hot^reset;. Few creatures seek out an existence amongst the planet's vast oceans of ^#ff1818;magma^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magma/1",
+      "value": "惑星の表面は、^red;危険に熱い^reset;。 惑星の広大な海の中で存在を求める生物はほとんどいません ^#ff1818;マグマ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magma/2",
+      "value": "The beam site is a tiny island isolated in a sea of ^#ff1818;magma^reset;. That you would consider visiting this ^red;searingly hot^reset; planet speaks volumes of your fortitude."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magma/2",
+      "value": "ビームサイトは ^#ff1818;magma ^reset; の海に隔離された小さな島です。 この ^red; は、とてもホットな ^reset; 惑星を訪問することを検討してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magmadark/0",
+      "value": "This ^red;dangerously hot^reset; planet is chiefly composed of ^#ff1818;magma^reset;. Remember, your resilient spirit is admirable, but it is not flame retardant."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magmadark/0",
+      "value": "この ^red; 危険に熱い ^reset; 惑星は主に ^#ff1818; マグマ ^reset; から構成される。 あなたの回復力のある精神は賞賛すべきですが、それは難燃性ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magmadark/1",
+      "value": "The planet surface is ^red;dangerously hot^reset;. Few creatures seek out an existence amongst the planet's vast oceans of ^#ff1818;magma^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magmadark/1",
+      "value": "惑星の表面は、^red;危険に熱い^reset;。 惑星の広大な海の中で存在を求める生物はほとんどいません ^#ff1818;マグマ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/magmadark/2",
+      "value": "The beam site is a tiny island isolated in a sea of ^#ff1818;magma^reset;. That you would consider visiting this ^red;searingly hot^reset; planet speaks volumes of your fortitude."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/magmadark/2",
+      "value": "ビームサイトは ^#ff1818;magma ^reset; の海に隔離された小さな島です。 この ^red; は、とてもホットな ^reset; 惑星を訪問することを検討してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/metallicmoon/0",
+      "value": "^#666666;Cyber-Sphere^reset; worlds hold ^#90ac7c;abundant rare metals^reset; guarded by dangerous servitors. ^#d16fff;Densinium ore^reset; and ^#ffda44;high metallic content^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/metallicmoon/0",
+      "value": "^#666666;サイバー圏^reset; 世界は ^#90ac7c;豊富なレアメタル^reset; 危険なサービターに守られています ^#d16fff; デンシニウム鉱石^reset; と ^#ffda44; 高い金属含有量 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/metallicmoon/1",
+      "value": "Scanners detect that this ^#666666;cybernetic world^reset; is over ^#90ac7c;12 million^reset; years old. Who built this marvel, and why?"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/metallicmoon/1",
+      "value": "スキャナーは、この^#666666;サイバネティックワールド^reset;は^#90ac7c;12一〇〇万^reset;の年齢を超えることを検出します。 誰がこの驚異を構築したのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/metallicmoon/2",
+      "value": "A ^#666666;metallic world^reset; built by an ancient race. ^#90ac7c;Abundant rare metals^reset; detected. Scans also show mechanical beings."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/metallicmoon/2",
+      "value": "古代の人種によって作られた^#666666;金属世界^reset;。 ^#90ac7c; ^reset;検出された豊富なレアメタル。 スキャンは機械的な存在も示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/midnight/0",
+      "value": "This is a ^#e11212;dark^reset; world where the sun never rises. The surface is ^red;dangerously cold^reset;. You should prepare yourself both mentally and physically before landing here."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/midnight/0",
+      "value": "これは、太陽が決して昇らない、^#e11212;dark^reset;worldです。 表面は ^red; 危険に冷やす ^reset; です。 ここに着地する前に、精神的にも肉体的にも自分自身を準備してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/midnight/1",
+      "value": "This ^#e11212;dark^reset; world is ^red;perilously cold^reset;. Strange shadowy figures dwell here, hidden in the unremitting night."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/midnight/1",
+      "value": "この ^#e11212;dark ^reset;world は ^red;perilouslycold^reset;。 不思議な影の姿が、夜の闇に隠れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/midnight/2",
+      "value": "Scans show that the surface is ^#e11212;dark^reset;. In fact, scans show little else on account of all the darkness. However, I surmise that the surface is ^red;dangerously cold^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/midnight/2",
+      "value": "スキャンすると、表面が ^#e11212;dark^reset; であることがわかります。 実際、スキャンはすべての暗闇のために他にほとんど表示されません。 でも 表面は ^red;危険なほど寒い^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon/0",
+      "value": "A lonely ^#949493;moon^reset; with ^red;no breathable atmosphere^reset;; the sky is open to the stars, there is fuel below the ground. Likelihood of feeling lonesome and desolate: 92%."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon/0",
+      "value": "寂しい ^#949493;moon ^reset; with ^red;no 呼吸可能な大気 ^reset; 空は星に開いていて、地面の下に燃料があります。 寂しさや寂しさを感じる可能性:92%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon/1",
+      "value": "This ^#949493;moon^reset; supports no life and has ^red;no atmosphere^reset;. However, fuel is abundant here - scans indicate that there is a wealth of it buried below the surface. "
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon/1",
+      "value": "以下 ^#949493;月^reset; 生命を支持せず ^red;雰囲気がない^reset;. しかし、ここでは燃料が豊富です - スキャンは、その豊富なものが表面の下に埋もれていることを示しています。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon/2",
+      "value": "This vacant ^#949493;moon^reset; has ^red;no breathable atmosphere^reset;, but there are caverns below ground that contain vast fuel deposits. In summation: useful, but not enticing."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon/2",
+      "value": "この空白は ^#949493;月^reset; です ^red;通気性のない雰囲気^reset;地下には 大量の燃料を貯め込んだ洞窟がある 追加で:有用ですが、魅力的ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_desert/0",
+      "value": "This ^#b3947c;desert moon^reset; is dry, frozen, dusty and unpopulated. ^red;Low temperatures^reset; mean you should bring some limited measure of cold protection."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_desert/0",
+      "value": "この ^#b3947c; 砂漠の月 ^reset; は、乾燥、凍結、ほこり、人口不足です。 ^red;低温^reset;は、寒さ保護のいくつかの限定的な手段をもたらす必要があることを意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_desert/1",
+      "value": "A lifeless ^#b3947c;desert moon^reset;. Take care, as the temperature is ^red;slightly freezing^reset; and will eventually prove fatal if you are not cautious."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_desert/1",
+      "value": "無人の^#b3947c;砂漠の月^reset;。 温度は ^red; やや凍結する ^reset; なので注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_desert/2",
+      "value": "A cold, sandy ^#b3947c;desert moon^reset;. A thin layer of cold protection should be sufficient to protect you."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_desert/2",
+      "value": "寒く、砂質の^#b3947c;砂漠の月^reset;。 薄い防寒層はあなたを保護するのに十分であるべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_shadow/0",
+      "value": "A ^#505f50;Cloying, total darkness^reset; makes this resource-rich moon a rather spooky, dangerous place. Watch your step. ^red;Unknown bio-sign detected^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_shadow/0",
+      "value": "^#505f50;クロイイング、トータルダークネス^reset;は、この資源豊富な月をかなり不気味で危険な場所にします。 足元に気をつけなさい。 ^red;未知バイオサイン検出^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_shadow/1",
+      "value": "There are few places darker than a ^#505f50;shadow moon^reset;. Scanners detect unknown material signatures as well as ^red;an ancient unknown entity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_shadow/1",
+      "value": "^#505f50;シャドームーン^reset;よりも暗い場所はほとんどありません。 スキャナーは、未知の材料シグネチャだけでなく、^red;古代未知のエンティティ^reset;を検出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_shadow/2",
+      "value": "A ^#505f50;shadow moon^reset; prevents most light from penetrating its dark miasma. I detect ^orange;valuable resources^reset; and ^red;some sort of unknown bio-signature^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_shadow/2",
+      "value": "^#505f50;シャドームーン^reset;は、ほとんどの光がその暗いミアスマを貫通するのを防ぐ。 私は^orange;貴重なリソース^reset;と^red;の未知のバイオ署名^reset;を検出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_stone/0",
+      "value": "A ^#999999;rocky moon^reset; with jagged and dangerous stone formations."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_stone/0",
+      "value": "^#999999;岩石の月^reset;ギザギザで危険な石の形成。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_stone/1",
+      "value": "^#999999;Rocky moons^reset; are tough terrain, but otherwise harmless."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_stone/1",
+      "value": "^#999999;岩の多い衛星^reset;は厳しい地形ですが、さもなければ無害です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_stone/2",
+      "value": "Travel may be slower going on this ^#999999;rocky moon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_stone/2",
+      "value": "旅行は遅くなるかもしれません ^#999999;ロッキームーン^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_toxic/0",
+      "value": "^#414556;Toxic^reset; materials compose the majority of this moon. A ^red;severely poisonous^reset; miasma covers the surface."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_toxic/0",
+      "value": "^#414556;有毒 ^reset;材料は、この月の大部分を構成します。 ^red;重毒^reset;ミアスマが表面を覆う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_toxic/1",
+      "value": "A putrid and ^#414556;toxic^reset; moon. While not inherently dangerous, I recommend a ^cyan;Poison EPP II^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_toxic/1",
+      "value": "^#414556;毒 ^reset;ムーン。 本質的に危険ではありませんが、^cyan;毒 EPP II ^reset;をお勧めします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_toxic/2",
+      "value": "A ^#414556;toxic^reset; moon covered in deposits of long-rotted soil, and a dense cloud of ^red;toxic, severely poisonous gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_toxic/2",
+      "value": "^#414556;毒 ^reset;は、長く腐った土壌の堆積物で覆われ、濃い雲の ^red;毒、重毒ガス ^reset; で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_volcanic/0",
+      "value": "^#663322;Volcanic activity^reset; runs rampant on this moon. Temperatures are ^red;severely hot^reset; and protection should be worn when exploring."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_volcanic/0",
+      "value": "^#663322;火山活動^reset;は、この月で横行します。 温度は ^red; 厳しく熱い ^reset; であり、探索時には保護を着用する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_volcanic/1",
+      "value": "This ^#663322;volcanic moon^reset; should contain abundant erchius fuel, but use caution or protection when travelling in the ^red;severe heat^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_volcanic/1",
+      "value": "この ^#663322;火山月 ^reset; は豊富なエルキウス燃料を含むべきですが、^red; 重熱で旅行するときは注意または保護を使用してください ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/moon_volcanic/2",
+      "value": "A ^#663322;volcanic^reset; moon flowing with ^red;lava and severe heat^reset;. Take care when exploring."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/moon_volcanic/2",
+      "value": "^#663322;火山^reset;は、^red;は溶岩と重度の熱で流れます^reset;は。 探索するときは注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/mountainous/0",
+      "value": "This ^#b398ba;mountainous^reset; world is studded with immensely tall rocky mountains. Scans show large bipedal primitives. ^#e47998;Zerchesium ore^reset; detected. High-Gravity events are common."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/mountainous/0",
+      "value": "この ^#b398ba;山岳 ^reset;world は、非常に高い岩山で囲まれています。 Scans show large bipedal primitives. ^#e47998;ゼルケシウム 鉱石^reset;検出。 高重力現象が一般的である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/mountainous/1",
+      "value": "This ^#b398ba;mountainous^reset; world is absolutely riddled with ^#e47998;ores of many sorts^reset;, though is plagued by ^red;violent weather patterns^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/mountainous/1",
+      "value": "この ^#b398ba;山岳^reset;world は、^#e47998;ores の多くの種類の ^reset; で、^red;暴力的な気象パターン ^reset; に悩まされている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/mountainous/2",
+      "value": "A ^#b398ba;mountainous^reset; surface makes for slow travel, but it has ^#e47998;abundant sources of metals^reset; that should prove useful."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/mountainous/2",
+      "value": "A ^#b398ba;山小屋^reset; 表面はゆっくり移動しますが ^#e47998;豊富な金属源^reset; 役に立つはずです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/mountainous/3",
+      "value": "A ^#b398ba;mountainous^reset; with ^#e47998;zerchesium veins^reset; that should prove useful. High-Gravity weather is frequent. Use caution."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/mountainous/3",
+      "value": "^#b398ba;山岳 ^reset; with ^#e47998; zerchesium veins ^reset; は有用である。 高重力の天気が頻繁です。 注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/nitrogensea/0",
+      "value": "A deadly ^#69f1fd;liquid nitrogen sea^reset; awaits beneath a dense layer of ice. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/nitrogensea/0",
+      "value": "重厚な氷層の下には、致命的な ^#69f1fd; 液体窒素海 ^reset; が待っています。 ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/nitrogensea/1",
+      "value": "^#69f1fd;Liquid nitrogen^reset; forms the entirety of this moon's liquid. This will prove ^red;dangerous without protection^reset;. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/nitrogensea/1",
+      "value": "^#69f1fd;液体窒素^reset;は、この月の液体全体を形成する。 証明します ^red;保護なしで危険な^reset;. ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/nitrogensea/2",
+      "value": "It should be assumed that this ^#69f1fd;liquid nitrogen sea^reset; is both ^red;dangerously cold^reset; and slippery. ^cyan;Recommend: Moderate Cold Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/nitrogensea/2",
+      "value": "当然です ^#69f1fd;液体窒素海^reset; 両方です ^red;危険なほど寒い^reset; 滑りやすく ^cyan;推奨:適度なコールドプロテクション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ocean/0",
+      "value": "A planet of deep ^#008aff;oceans^reset; and small islands. My readings indicate that aquatic life is abundant and that the islets of the surface are extremely picturesque."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ocean/0",
+      "value": "深海 ^#008aff;オーシャン ^reset; と小さな島々の惑星。 私の読みは、水生生物が豊富であり、表面の島々は非常に絵のように美しいことを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ocean/1",
+      "value": "An ^#008aff;ocean^reset; covered planet spotted with islands and teeming with life. My readings indicate that there is a great deal of activity in the depths of the waters."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ocean/1",
+      "value": "^#008aff;Ocean ^reset;は、島々と生命でおおわれた惑星です。 私の読みは、水深に多くの活動があることを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/ocean/2",
+      "value": "Floating desert islands pepper the surface of this ^#008aff;ocean^reset; planet. An environment of tropical ambiance and aesthetic."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/ocean/2",
+      "value": "浮遊する砂漠の島は、この^#008aff;海^reset;惑星の表面をコショウ。 熱帯の雰囲気と美的環境。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/penumbra/0",
+      "value": "Sunlight rarely penetrates ^#78657f;penumbral^reset; atmospheres. Rich sources of ^#9d5bd0;penumbrite ore^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/penumbra/0",
+      "value": "太陽の光が ^#78657f;ペヌブラール^reset; 雰囲気だ ^#9d5bd0; ペヌブライト鉱石 ^reset; の豊富な供給源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/penumbra/1",
+      "value": "^#78657f;Penumbra^reset; planets have a unique makeup that blocks light but not UV. They are the sole source of ^#9d5bd0;penumbrite ore^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/penumbra/1",
+      "value": "^#78657f;半影 ^reset;惑星は、光を遮るがUVではないユニークな化粧をしています。 ^#9d5bd0;penumbrite 鉱石 ^reset;の唯一の源です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/penumbra/2",
+      "value": "Dark, but with plenty of bioluminescent fauna, ^#78657f;penumbra^reset; worlds are the only known viable source of ^#9d5bd0;penumbrite^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/penumbra/2",
+      "value": "暗く、しかし多くの生物発光動物相では、^#78657f;penumbra^reset;worldsは^#9d5bd0;penumbrite^reset;の唯一の既知の実行可能な源である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworld/0",
+      "value": "A ^#517f51;proto world^reset;. Mutated flora and unusual life-signs detected. Scanners have also located caches of ^#e2ef55;Protocite Ore^reset;. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworld/0",
+      "value": "^#517f51;プロト惑星^reset;。 突然変異した植物相と異常な生命の兆候が検出される。 スキャナーは ^#e2ef55;プロトサイト鉱石 ^reset; のキャッシュも配置しています。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworld/1",
+      "value": "I am detecting unusual life signs on this ^#517f51;proto world^reset;. It appears this life has been purposefully mutated. ^#e2ef55;Unusual ores^reset; detected. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworld/1",
+      "value": "私はこの^#517f51;プロト惑星^reset;に異常な生命の徴候を検出しています。 この人生は意図的に変更されているようです。 ^#e2ef55;異常な鉱石^reset;検出。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworld/2",
+      "value": "Mutated life runs rampant here on this ^#517f51;proto world^reset;. Valuable ^#e2ef55;protocite^reset; is found in abundance. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworld/2",
+      "value": "突然変異した生命は、この^#517f51;プロト惑星^reset;に横たわっています。 貴重な^#e2ef55;protocite^reset;が豊富にあります。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworlddark/0",
+      "value": "A ^#517f51;proto world^reset;. Mutated flora and unusual life-signs detected. Scanners have also located caches of ^#e2ef55;Protocite Ore^reset;. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworlddark/0",
+      "value": "^#517f51;プロト惑星^reset;。 突然変異した植物相と異常な生命の兆候が検出される。 スキャナーは ^#e2ef55;プロトサイト鉱石 ^reset; のキャッシュも配置しています。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworlddark/1",
+      "value": "I am detecting unusual life signs on this ^#517f51;proto world^reset;. It appears this life has been purposefully mutated. ^#e2ef55;Unusual ores^reset; detected. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworlddark/1",
+      "value": "私はこの^#517f51;プロト惑星^reset;に異常な生命の徴候を検出しています。 この人生は意図的に変更されているようです。 ^#e2ef55;異常な鉱石^reset;検出。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/protoworlddark/2",
+      "value": "Mutated life runs rampant here on this ^#517f51;proto world^reset;. Valuable ^#e2ef55;protocite^reset; is found in abundance. ^cyan;Recommend: Proto-Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/protoworlddark/2",
+      "value": "突然変異した生命は、この^#517f51;プロト惑星^reset;に横たわっています。 貴重な^#e2ef55;protocite^reset;が豊富にあります。 ^cyan;推奨:プロトポーション保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/savannah/0",
+      "value": "The landing site is situated in an area of ^#ffe21d;dry grassland ^reset;that is hot and prone to dust storms. It is neither especially pleasant, nor especially dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/savannah/0",
+      "value": "着陸地点は、そのエリアにあります。 ^#ffe21d;乾燥した草地 ^reset;熱くて 砂嵐を起こしやすい 特に快適でも、特に危険でもない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/savannah/1",
+      "value": "This area of ^#ffe21d;dry grassland ^reset;is sparsely populated by trees. It is not excessively inhospitable - readings indicate that there is a hare bouncing around."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/savannah/1",
+      "value": "^#ffe21d; 乾燥草原 ^reset; のこの領域は、木々でまばらに群がります。 それはあまりにも不快ではありません - 読書は、周りにうさぎが跳ね回っていることを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/savannah/2",
+      "value": "The landing location is located in an area of ^#ffe21d;dry grassland^reset;. Trees and shrubs grow sparsely in the heat. A dusty place of wide, flat vistas."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/savannah/2",
+      "value": "着地位置は ^#ffe21d; 乾燥草地 ^reset; の領域に位置する。 木や低木は暑さの中でまばらに生えます。 広い平らな景色のほこりの多い場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/scorchedcity/0",
+      "value": "The landing location is a ^#b24301;scorched^reset; wasteland. The atmospheric ^red;temperature is severely high^reset;. It is impressively brave of you to consider this destination."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/scorchedcity/0",
+      "value": "着地場所は ^#b24301; 焼けた ^reset; 荒地です。 大気^red;温度は極めて高い^reset;。 この目的地を思い浮かべてくださって、とても勇敢です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/scorchedcity/1",
+      "value": "The beam site is ^#b24301;scorched^reset; and desolate. Little is capable of surviving here as the ^red;temperature is severely high^reset;. People live in the area, but I cannot fathom why."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/scorchedcity/1",
+      "value": "ビーム部位は^#b24301;scorched^reset;で、脱塩します。 ここで生き残ることはほとんどできません。 ^red;気温は 極端に高く^reset;. 人々はその地域に住んでいるが、私はその理由がわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/scorchedcity/2",
+      "value": "The landing site is ^#b24301;scorched^reset; by the ^red;intense heat of the planet's surface^reset;. Only a few hardy individuals remain, possibly out of pure habit."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/scorchedcity/2",
+      "value": "着陸地点は ^#b24301;火傷した^reset; ところで ^red;惑星の表面の激しい熱^reset;. おそらく純粋な習慣から、少数の堅い個人が残っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/shadow/0",
+      "value": "A ^#ccfa33;shadow world^reset; that seems to block our scanners. Whatever is down there, it's likely rather dark. ^red;Potentially Lethal!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/shadow/0",
+      "value": "スキャナーをブロックしているように見える ^#ccfa33; シャドーワールド ^reset;。 下に何があるにせよ、かなり暗い。 ^red;潜在的に致命的!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/shadow/1",
+      "value": "I get no readings whatsoever off of this ^#ccfa33;shadow world^reset;, but it appears there will be little light on the surface to speak of. ^red;Potentially Lethal!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/shadow/1",
+      "value": "この^#ccfa33;影の世界 ^reset; から何の読み物も出しませんが、表面には少し光があるようです。 ^red;潜在的に致命的!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/shadow/2",
+      "value": "This ^#ccfa33;shadow world^reset; prevents any and all scans. ^red;Use extreme caution when travelling^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/shadow/2",
+      "value": "この ^#ccfa33; シャドーワールド ^reset; はスキャンを防止します。 ^red;旅行の際は細心の注意を払います。^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/slimeworld/0",
+      "value": "A ^#517f51;gelatinous^reset;, slimy world. High elasticity. Strange, ^red;massive lifeforms^reset; and a ^red;poisonous atmosphere^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/slimeworld/0",
+      "value": "^#517f51; ゼラチン質 ^reset; 、薄暗い世界。 高弾性。 奇妙、^red;大生命体^reset; と ^red; 有毒な大気 ^reset; が検出される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/slimeworld/1",
+      "value": "^#517f51;Slime^reset; forms almost this entire planet. ^red;Huge nocturnal creatures^reset; detected. The atmosphere is full of ^red;poisonous vapours^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/slimeworld/1",
+      "value": "^#517f51; Slime ^reset; は地球全体をほぼ形成します。 ^red;巨大な夜行生物 ^reset;検出。 大気は ^red; 有毒蒸気 ^reset; でいっぱいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/slimeworld/2",
+      "value": "A bouncy, sticky, ^#517f51;gelatinous^reset; world. It is evident that this will make for some rather gross exploration. ^red;Poisonous atmosphere^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/slimeworld/2",
+      "value": "弾力性、粘着性、 ^#517f51; ゼラチン性 ^reset; ワールド。 これが、かなり大規模な調査につながることは明らかです。 ^red; 毒雰囲気 ^reset; 検出。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snow/0",
+      "value": "This chilly landing site is laden with ^#69f1fd;snow^reset;. Sundry trees grow here and various animals also thrive in the cold conditions. An excellent place to make snowballs."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snow/0",
+      "value": "この冷え地は ^#69f1fd;雪^reset; が積もります。 ここでは雑木が生え、寒い環境でもさまざまな動物が繁栄します。 雪玉を作るのに最適な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snow/1",
+      "value": "The landing location is cold, but not perilously so. ^#69f1fd;Snow^reset; covers the area and blizzards are a possibility. A hat and gloves may be advisable."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snow/1",
+      "value": "着陸地点は寒いですが、危険ではありません。 ^#69f1fd;雪^reset;はエリアをカバーし、ブリザードは可能性です。 帽子と手袋がお勧めです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snow/2",
+      "value": "This location is relatively chill, and ^#69f1fd;snow^reset; lies thickly on the ground. My sensors indicate that there are critters scampering through the soft blanket of white."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snow/2",
+      "value": "この場所は比較的寒く、地面には^#69f1fd;雪^reset;が厚く横たわっています。 私のセンサーは、白い柔らかい毛布を駆け抜けるキラキラがあることを示している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snowdark/0",
+      "value": "This chilly landing site is laden with ^#69f1fd;snow^reset;. Sundry trees grow here and various animals also thrive in the cold conditions. An excellent place to make snowballs."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snowdark/0",
+      "value": "この冷え地は ^#69f1fd;雪^reset; が積もります。 ここでは雑木が生え、寒い環境でもさまざまな動物が繁栄します。 雪玉を作るのに最適な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snowdark/1",
+      "value": "The landing location is cold, but not perilously so. ^#69f1fd;Snow^reset; covers the area and blizzards are a possibility. A hat and gloves may be advisable."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snowdark/1",
+      "value": "着陸地点は寒いですが、危険ではありません。 ^#69f1fd;雪^reset;はエリアをカバーし、ブリザードは可能性です。 帽子と手袋がお勧めです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/snowdark/2",
+      "value": "This location is relatively chill, and ^#69f1fd;snow^reset; lies thickly on the ground. My sensors indicate that there are critters scampering through the soft blanket of white."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/snowdark/2",
+      "value": "この場所は比較的寒く、地面には^#69f1fd;雪^reset;が厚く横たわっています。 私のセンサーは、白い柔らかい毛布を駆け抜けるキラキラがあることを示している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/strangesea/0",
+      "value": "This world is covered in a ^#da67b8;strange sea^reset;. Scanners reveal dense concentrations of Plasmic Fluid. ^red;Deadly gas!^reset; ^cyan;Recommend Poison Gas Immunity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/strangesea/0",
+      "value": "この世界は、^#da67b8;奇妙な海^reset;で覆われています。 スキャナは、プラスチック流体の密な濃度を明らかにする。 ^red; 致命的なガス!^reset; ^cyan;毒ガス免疫を推奨する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/strangesea/1",
+      "value": "A ^#da67b8;strange sea^reset; covers this planet. Scanners reveal little useful info apart from large quantities of plasmic liquid and a gaseous, airless atmosphere. ^red;Potentially Lethal Gas!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/strangesea/1",
+      "value": "^#da67b8;奇妙な海^reset;は、この惑星をカバーします。 スキャナは、大量のプラズマ液体と気体、気体のない大気を除いて、ほとんど有用な情報を明らかにしません。 ^red;潜在的に致命的なガス!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/strangesea/2",
+      "value": "Plasmic Fluid forms the bulk of this unusual world. ^#da67b8;strange sea^reset;. ^red;Poisonous gas clouds ^reset; are common."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/strangesea/2",
+      "value": "プラズミック流体は、この珍しい世界の大部分を形成します。 ^#da67b8;奇妙な海^reset;。 ^red; 毒ガス雲 ^reset; が一般的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuric/0",
+      "value": "^#ffea00;Sulphuric^reset; worlds are extremely dangerous. Airless, acidic and toxic atmosphere. Abundant ^#772211;cinnabar^reset; detected. ^cyan;Recommend: Acid Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuric/0",
+      "value": "^#ffea00;硫黄^reset;世界は非常に危険です。 無気泡、酸性、有毒な雰囲気。 豊富な ^#772211; シナバー ^reset; を検出しました。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuric/1",
+      "value": "^#ffea00;Sulphuric^reset; acid atmosphere detected. ^red;Deadly pools of acid and lethal storms^reset; lie below in abundance. ^cyan;Recommend: Acid Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuric/1",
+      "value": "^#ffea00;硫黄^reset;酸雰囲気を検出しました。 ^red;酸と致命的な嵐の致命的なプール^reset;は豊富にあります。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuric/2",
+      "value": "A ^red;deadly^reset; ^#ffea00;sulphuric^reset; world. Exploration without protection will prove fatal. ^cyan;Recommend: Sulphuric Acid and Breath protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuric/2",
+      "value": "A ^red;致命的^reset; ^#ffea00;硫黄^reset; 世界 保護のない探索は致命的である。 ^cyan;推奨:硫酸と呼吸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricdark/0",
+      "value": "^#ffea00;Sulphuric^reset; worlds are extremely dangerous. Airless, acidic and toxic atmosphere. Abundant ^#772211;cinnabar^reset; detected. ^cyan;Recommend: Acid Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricdark/0",
+      "value": "^#ffea00;硫黄^reset;世界は非常に危険です。 無気泡、酸性、有毒な雰囲気。 豊富な ^#772211; シナバー ^reset; を検出しました。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricdark/1",
+      "value": "^#ffea00;Sulphuric^reset; acid atmosphere detected. ^red;Deadly pools of acid and lethal storms^reset; lie below in abundance. ^cyan;Recommend: Acid Protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricdark/1",
+      "value": "^#ffea00;硫黄^reset;酸雰囲気を検出しました。 ^red;酸と致命的な嵐の致命的なプール^reset;は豊富にあります。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricdark/2",
+      "value": "A ^red;deadly^reset; ^#ffea00;sulphuric^reset; world. Exploration without protection will prove fatal. ^cyan;Recommend: Sulphuric Acid and Breath protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricdark/2",
+      "value": "A ^red;致命的^reset; ^#ffea00;硫黄^reset; 世界 保護のない探索は致命的である。 ^cyan;推奨:硫酸と呼吸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricocean/0",
+      "value": "A ^#ffea00;sulphuric ocean^reset; covers almost the entire surface. Abundant ^#772211;cinnabar^reset; detected. ^cyan;Recommend: Acid protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricocean/0",
+      "value": "^#ffea00;硫黄海^reset;は、ほぼ全表面を覆う。 豊富な ^#772211; シナバー ^reset; を検出しました。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricocean/1",
+      "value": "A ^#ffea00;sulphuric ocean^reset;. This planet is ^red;extremely dangerous. Use caution^reset;. Likely a terrible vacation spot. ^cyan;Recommend: Acid protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricocean/1",
+      "value": "A^#ffea00;硫黄海^reset;。 この惑星は ^red;非常に危険です 注意^reset;. おそらくひどい休暇の場所。 ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/sulphuricocean/2",
+      "value": "A ^#ffea00;sulphuric ocean^reset; ripe with ^red;devastatingly brutal weather^reset;. ^cyan;Recommend: Acid protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/sulphuricocean/2",
+      "value": "A ^#ffea00;硫黄海^reset; 熟して ^red;壊滅的に残忍な天気^reset;. ^cyan;推奨:酸保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/superdense/0",
+      "value": "^#914560;Super-dense^reset; worlds have enormous gravitational force. ^red;Extreme danger from falling^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/superdense/0",
+      "value": "^#914560; 超高密度 ^reset; 超高重力世界。 ^red;落下からの極度の危険^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/superdense/1",
+      "value": "This unusually ^#914560;super-dense^reset; planet has gravity ^orange;far above normal^reset;. Be very careful. ^red;Falling means certain death^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/superdense/1",
+      "value": "この異常な ^#914560; 超高密度 ^reset; 惑星は、重力 ^orange; 通常の ^reset; よりもはるかに高い。 気をつけてね。 ^red;フォールディングとは、特定の死を意味する^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/superdense/2",
+      "value": "A ^#914560;Super-dense^reset; world with a much higher gravitational force than other planets of the same size. ^red;Very dangerous. Tread carefully."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/superdense/2",
+      "value": "A ^#914560;超高密度^reset; 同じ大きさの他の惑星よりも はるかに高い重力を持つ世界です ^red; 非常に危険です。 慎重に歩きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tabularasa/0",
+      "value": "Some hideous catastrophe has resulted in this planet becoming a ^#59a849;Tabula Rasa^reset;. A doomsday virus? Maybe you can find out."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tabularasa/0",
+      "value": "いくつかの恐ろしい大惨事は、この惑星が^#59a849;タブラ・ラサ^reset;になる原因となった。 ドミズデイウイルス? おそらく、あなたは見つけることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tabularasa/1",
+      "value": "Some hideous catastrophe has resulted in this planet becoming a ^#59a849;Tabula Rasa^reset;. A long-ago nuclear armageddon? Who knows?"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tabularasa/1",
+      "value": "いくつかの恐ろしい大惨事は、この惑星が^#59a849;タブラ・ラサ^reset;になる原因となった。 昔の核武装ドン? 誰に?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tabularasa/2",
+      "value": "Some hideous catastrophe has resulted in this planet becoming a ^#59a849;Tabula Rasa^reset;. A Floran invasion? Who can tell?"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tabularasa/2",
+      "value": "いくつかの恐ろしい大惨事は、この惑星が^#59a849;タブラ・ラサ^reset;になる原因となった。 花の侵略? 誰に分かる?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tarball/0",
+      "value": "A ^#8349cc;tar ball^reset; with a semi-livable surface. Encumbering bodies of liquid with ^#555555;abundant oil^reset; litter the surface. ^cyan;Recommend: Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tarball/0",
+      "value": "^#8349cc;tar ボール ^reset; 半居住可能な表面を持つ。 ^#555555;豊富な油^reset;で液体の塊を包み込む。 ^cyan;推奨:熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tarball/1",
+      "value": "A ^#8349cc;tar-covered world^reset; with breathable atmosphere. ^orange;Hazardous sticky pools of tar^reset; will make for slow travel. ^cyan;Recommend: Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tarball/1",
+      "value": "^#8349cc;タールで覆われた世界^reset;通気性がある雰囲気。 ^orange;タールの危険な粘り強いプール^reset;は遅い旅行のためになります。 ^cyan;推奨:熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tarball/2",
+      "value": "A ^#8349cc;tar ball^reset; with ^#555555;abundant oil sources^reset; detected on and below the surface. Some sort of ^orange;tar protection^reset; could prove useful. ^cyan;Recommend: Heat protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tarball/2",
+      "value": "^#8349cc;タールボール^reset;と^#555555;豊富な油源^reset;は、表面および下面に検出される。 ^orange;タール保護^reset;は有用である。 ^cyan;推奨:熱保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/thickjungle/0",
+      "value": "^#8cf387;Rainforest^reset; has claimed the majority of this organic-rich world. Abundant ^#green;organic resources^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/thickjungle/0",
+      "value": "^#8cf387;熱帯雨林^reset;は、この有機豊かな世界の大半を主張しています。 豊富な ^#green; 有機資源 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/thickjungle/1",
+      "value": "A ^#8cf387;rainforest^reset; planet absolutely ripe with organic life. Abundant ^#green;organic resources^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/thickjungle/1",
+      "value": "^#8cf387;熱帯雨林^reset;惑星は、有機生命と絶対的に成熟します。 豊富な ^#green; 有機資源 ^reset; を検出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/thickjungle/2",
+      "value": "^#8cf387;Rainforest^reset; covers nearly the entire surface of this warm and inviting planet. ^green;Bamboo and other organic resources detected in large quantities.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/thickjungle/2",
+      "value": "^#8cf387;熱帯雨林^reset;は、この暖かく魅惑的な惑星のほぼ全体の表面をカバーします。 ^green;竹などの有機資源を大量に検出。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tidewater/0",
+      "value": "This ^#008aff;tidewater^reset; world is subject to massive tidal forces. Ocean currents show fauna rich in ^orange;mutated nodules^reset; with interesting applications. ^cyan;Recommend: Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tidewater/0",
+      "value": "この^#008aff;潮水^reset;世界は、大きな潮力の影響を受けます。 海流は ^orange; 変異した結節 ^reset; に富む動物相を興味深い応用で示している。 ^cyan; 推奨:毒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tidewater/1",
+      "value": "^#008aff;Tidal^reset; forces are extra strong on this ocean world. Unusual ^orange;rare resources^reset; detected on the ocean floor. ^cyan;Recommend: Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tidewater/1",
+      "value": "^#008aff;Tidal ^reset; 力はこの海の世界で非常に強いです。 異常な ^orange; 希少資源 ^reset; 海底で検出。 ^cyan; 推奨:毒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tidewater/2",
+      "value": "A ^#008aff;tidewater^reset; planet covered in sharp reefs, spike-like stone formations and ^orange;rare resources^reset;. ^cyan;Recommend: Poison protection^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tidewater/2",
+      "value": "A ^#008aff;潮水^reset; 鋭いサンゴ礁で覆われた惑星や ^orange;希少資源^reset;. ^cyan; 推奨:毒保護^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/toxic/0",
+      "value": "This planet is ^#06ff00;toxic^reset; - the air is putrefied and the oceans are poisonous. ^red;Radiation levels are moderate^reset; and dense clouds of ^06ff00;poison^reset; cover the surface."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/toxic/0",
+      "value": "この惑星は ^#06ff00; 有毒な ^reset; - 大気は汚染され、海は有毒です。 ^red; 放射線レベルは適度な^reset; であり、表面は ^06ff00; 毒 ^reset; の密集した雲である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/toxic/1",
+      "value": "This ^red;moderately radioactive^reset; planet is a poisonous wilderness inhabited by irradiated lifeforms. Its luminescent surface is ^#06ff00;toxic^reset; with dense ^red;poisonous air^reset;. "
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/toxic/1",
+      "value": "以下 ^red;適度に放射性である^reset; 惑星は有毒な荒野で 生物の生物が生息しています 発光面は ^#06ff00; 有毒 ^reset; で、濃い ^red; 有毒空気 ^reset; である。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/toxic/2",
+      "value": "This is a ^#06ff00;toxic^reset; planet replete with ^red;radiation and poisonous air^reset;. The noxious oceans are ^red;lethally poisonous^reset;. "
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/toxic/2",
+      "value": "これは ^#06ff00;毒性^reset; 惑星は ^red;放射線と有毒な空気^reset;. 有害海は ^red; 致命的に有毒な ^reset; である。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundra/0",
+      "value": "A ^#61ffe3;frozen^reset; place, formed of ice - the permafrost runs deep here. Snow storms are common, and ^red;temperatures are dangerously low^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundra/0",
+      "value": "氷から形成された^#61ffe3;凍った^reset;の場所 - 永久凍土がここで深く流れます。 暴風雨は一般的であり、^red;温度は危険なほど低い^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundra/1",
+      "value": "This ^red;dangerously cold.^reset; landing site is ^#61ffe3;frozen^reset; solid. High likelihood of accidental self-cryopreservation. Protect yourself from the cold."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundra/1",
+      "value": "この ^red; 危険に寒い。^reset;着陸地点は^#61ffe3;凍結^reset;固形です。 偶発的自己凍結保存の可能性が高い。 寒さから身を守る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundra/2",
+      "value": "^red;Temperatures at the beam site are dangerously low^reset;. The area is ^#61ffe3;frozen^reset;, and inhabited only by flora and fauna that are extremely resistant to the cold. "
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundra/2",
+      "value": "^red;ビームサイトの温度は危険なほど低い^reset; です。 寒さに強い動植物だけに生息する「^#61ffe3;冷凍^reset;」エリアです。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundradark/0",
+      "value": "A ^#61ffe3;frozen^reset; place, formed of ice - the permafrost runs deep here. Snow storms are common, and ^red;temperatures are dangerously low^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundradark/0",
+      "value": "氷から形成された^#61ffe3;凍った^reset;の場所 - 永久凍土がここで深く流れます。 暴風雨は一般的であり、^red;温度は危険なほど低い^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundradark/1",
+      "value": "This ^red;dangerously cold.^reset; landing site is ^#61ffe3;frozen^reset; solid. High likelihood of accidental self-cryopreservation. Protect yourself from the cold."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundradark/1",
+      "value": "この ^red; 危険に寒い。^reset;着陸地点は^#61ffe3;凍結^reset;固形です。 偶発的自己凍結保存の可能性が高い。 寒さから身を守る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/tundradark/2",
+      "value": "^red;Temperatures at the beam site are dangerously low^reset;. The area is ^#61ffe3;frozen^reset;, and inhabited only by flora and fauna that are extremely resistant to the cold. "
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/tundradark/2",
+      "value": "^red;ビームサイトの温度は危険なほど低い^reset; です。 寒さに強い動植物だけに生息する「^#61ffe3;冷凍^reset;」エリアです。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/urbanwasteland/0",
+      "value": "A ^#848484;wasteland^reset; housing the remains of a once great civilization. Something awful happened here, long ago. ^#43a43a;Ancient ruins^reset; hold many lost treasures. ^red;Violent weather detected^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/urbanwasteland/0",
+      "value": "^#848484;荒地^reset; かつて偉大な文明の遺跡を収容する。 かなり昔、何かひどいことがここで起きた。 ^#43a43a;古代遺跡 ^reset;多くの失われた宝物を保持します。 ^red;悪天候検出^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/urbanwasteland/1",
+      "value": "A ^#848484;wasteland^reset;. Abundant ruins of ^#43a43a;a dead civilization^reset; located primarily near coastlines. Strange and often ^red;severely deadly^reset; storms form from time to time."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/urbanwasteland/1",
+      "value": "^#848484;荒地^reset; 豊富な遺跡 ^#43a43a;死んだ文明^reset; 主に海岸線の近くにあります。 奇妙でしばしば ^red; 致命的に^reset; 嵐が時々形成される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/urbanwasteland/2",
+      "value": "Once a thriving world, something eradicated most life on this ^#848484;wasteland^reset;. ^red;Bandits and raiders^reset; are commonly found scavenging for resources amid ^red;extremely dangerous weather^reset; patterns."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/urbanwasteland/2",
+      "value": "かつて繁栄した世界は、この ^#848484; 荒廃地 ^reset; でほとんどの生命を根絶しました。 ^red;盗賊や襲撃者^reset; 資源の発見や ^red;非常に危険な天気です^reset; パターン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/volcanic/0",
+      "value": "The ^#e11212;volcanic^reset; landing site is ^red;catastrophically hot^reset;. If you wish, I can calculate your likelihood of immediately bursting into flame upon beam down..."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/volcanic/0",
+      "value": "あれは ^#e11212;火山^reset; 着陸地点は ^red;壊滅的に熱い^reset;. 必要に応じて、ビームダウン時にすぐに炎上する可能性を計算することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/volcanic/1",
+      "value": "^#e11212;Volcanic^reset; activity blights this planet and the beam site is in an area of particular virulence. The ^red;temperature is far beyond normally survivable levels^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/volcanic/1",
+      "value": "^#e11212;Volcanic ^reset;の活動がこの惑星を点滅させ、ビーム部位は特定のウイルスの領域にあります。 ^red;温度は、通常生存可能なレベル^reset;をはるかに超えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/visitableTypeDescription/volcanic/2",
+      "value": "The beam site is situated in ^#e11212;volcanic^reset; terrain and is ^red;exquisitely hot^reset;. Your interest in this place certainly displays your dauntless tenacity."
+    },
+    {
+      "op": "replace",
+      "path": "/visitableTypeDescription/volcanic/2",
+      "value": "ビームサイトは ^#e11212; 火山 ^reset; 地形に位置し、^red; 絶妙に熱い ^reset; です。 この場所へのあなたの関心は確かにあなたの厳しい粘り強さを示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/worldTypeDescription/GasGiant/0",
+      "value": "A giant ball of gases intermingling with one another. There is simply nothing here to land on."
+    },
+    {
+      "op": "replace",
+      "path": "/worldTypeDescription/GasGiant/0",
+      "value": "互いに混ざり合った巨大なガスのボール。 ここには着陸するものが何もない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/worldTypeDescription/GasGiant/1",
+      "value": "A gas giant. There is no solid substance to this planet, just a collection of swirling gases."
+    },
+    {
+      "op": "replace",
+      "path": "/worldTypeDescription/GasGiant/1",
+      "value": "ガス巨人。 この惑星には固体物質は存在せず、渦巻くガスの集まりです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/worldTypeDescription/GasGiant/2",
+      "value": "Can't land. The crushing pressure and tearing winds of this gas giant would kill you instantly."
+    },
+    {
+      "op": "replace",
+      "path": "/worldTypeDescription/GasGiant/2",
+      "value": "着陸できない。 この巨大ガスの圧と引き裂く風は、すぐにあなたを殺します。"
+    }
+  ]
+]

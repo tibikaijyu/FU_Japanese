@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/cancelCaption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/cancelCaption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/message",
+      "value": "This will erase all pets that you added from objects. Are you sure you want to do this?"
+    },
+    {
+      "op": "replace",
+      "path": "/message",
+      "value": "これにより、オブジェクトから追加したすべてのペットが消去されます。 本当にやりたいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/okCaption",
+      "value": "Okay"
+    },
+    {
+      "op": "replace",
+      "path": "/okCaption",
+      "value": "決定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Reset pets added from objects"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "オブジェクトから追加されたペットをリセットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Reset Added Pets"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "リセットペットを追加しました。"
+    }
+  ]
+]

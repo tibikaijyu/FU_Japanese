@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ghostly lash. Rather short but swings fast.\n^cyan;Inflicts Caliginous Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "幽霊のまつげ。 かなり短いが、スイング速い。\n^cyan;カリジンガスの影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウムホイップ"
+    }
+  ]
+]

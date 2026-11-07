@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Links^reset; together certain inventory network nodes. ^red;Will not function if looped.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;リンク^reset; 特定のインベントリネットワークノードを結合します。 ^red; ループすると機能しません。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repeater"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リピーター"
+    }
+  ]
+]

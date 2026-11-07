@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some kind of communication array that includes sensors."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "センサーを含むある種の通信アレイ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Communications Array"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コミュニケーションアレイ"
+    }
+  ]
+]

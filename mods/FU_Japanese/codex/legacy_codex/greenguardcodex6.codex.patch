@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "I dream of oaken soldiers once more. Who is this army that sprawls before me? I feel a stiffening in my limbs as I wake. I think The Dust is getting to me. I require Drysap treatment once a week now, and even then it does little to ease my discomfort."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "私はまたオークの兵士を夢見ている。 この軍隊は誰より前に広がっているのですか。 目を覚ますと手足が固くなる。 どうやら『ダスト』にむしばまれているらしい。今では週に一度、ドライサップによる治療が必要だ。それでも不快感はほとんど和らがない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Today I killed a prisoner. I pushed him down the stairs on the way to dinner. The other guards cheered and hooted, but I felt no such pleasure. The thrill of the hunt is gone from me. I should set a torch to them and see how well they hunt then."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "今日は囚人を殺した。 私は夕食の途中で彼を階段に押し込んだ。 他の警備員は歓声を上げて叫んだが、私はそんな喜びを感じなかった。 狩りのスリルがなくなった。彼らにトーチを向けて、その狩りがどれほどうまくいっているかを確かめるべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Greenguard's Journal 6"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリーンガード誌 6"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Greenguard Journal 6"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "グリーンガード・ジャーナル 6"
+    }
+  ]
+]

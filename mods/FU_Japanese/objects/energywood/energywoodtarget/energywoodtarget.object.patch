@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An energy wood target."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーウッドターゲット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Target"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドターゲット"
+    }
+  ]
+]

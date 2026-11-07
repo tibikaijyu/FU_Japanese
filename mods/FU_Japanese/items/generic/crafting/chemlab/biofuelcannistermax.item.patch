@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly amazing fuel source.\n^blue;+^white;25 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に素晴らしい燃料源です。\n^blue;+^white;25 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Fuel Canister"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "燃料キャニスター"
+    }
+  ]
+]

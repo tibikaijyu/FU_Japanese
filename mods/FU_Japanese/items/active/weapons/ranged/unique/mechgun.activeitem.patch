@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Spread Shot"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "拡散射撃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rifle popular in ages long-past by those known as the Precursors."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "先駆者として知られる人々によって古くから人気のライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のライフル"
+    }
+  ]
+]

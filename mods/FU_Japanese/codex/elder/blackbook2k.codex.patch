@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...for the True Believer will need no eyes,\n  Remove them for He whom Sees,\nPassage is barred for those with sight;\n  In Darkness you must dwell."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "...真の信者は目はいらないから。\n  見る人のためにそれらを取り除きます。\n視覚のある人への通行は禁止されている。\n  暗黒の中では君は住まねばならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A creepy religious text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不気味な宗教的なテキスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Dweller In Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "闇の中の住人"
+    }
+  ]
+]

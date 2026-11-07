@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Psionic Heal"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "ピオニクス治療"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You can mend your flesh and bones with your mind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉や骨を心で補うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Healing Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "癒し弾薬"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Activate to deploy the stored bot."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブにして、ストアドボットを展開します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dimensional Siphon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寸法シフォン"
+    }
+  ]
+]

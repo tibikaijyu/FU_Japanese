@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very bright portable plasma powered device. Cool yet practical.\n^cyan;Immune^reset;: Pressure, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に明るいポータブルプラズマ電源装置。 かっこいいけど実用的。\n^cyan;免疫^reset; : 圧力, 酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Light Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマライトパック"
+    }
+  ]
+]

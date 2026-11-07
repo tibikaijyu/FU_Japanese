@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "The Wanderers have left traces of themselves across the entire galaxy - many or most have been lost to time or salvage, but you may encounter them in your travels. Most, sadly, will scoff at you and call you a liar. Few believe anything predates the Ancients, after all. Yet, if that were not the case, explain our history?"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "タンダラーは銀河全体に自分自身の痕跡を残しています - 多くの人やほとんどが時間や救いに失われていますが、旅行中にそれらに遭遇するかもしれません。 悲しいことに、たいていの人は君をからかって嘘つきと呼ぶ。 結局のところ、古代に先立つものは少ない。 でも、そうでなければ、歴史を説明してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The Artifacts are of great value, but they are also almost indestructible - you won't be breaking them by accident, don't worry. They're easy to identify, given the distinct black metal and glowing yellow inset details. If you encounter them, return them to a Peacekeeper outpost for a finder's fee. It will pay even more than tech from the Ancients!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "アーティファクトは非常に価値がありますが、それらはほとんど破壊不可能です - あなたはそれらを誤って壊すことはありません、心配しないでください。 黒い金属と、黄色がかったインセットのディテールから、簡単に識別できます。 遭遇した場合は、ファインダーの手数料でピースキーパーの拠点に返してください。 それは古代からの技術よりも多くを支払うでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "Alternately, you may wish to try to use them. You are free to try, but we would suggest you be very cautious. Some Peglaci settlements contain a Wanderer artifact or two - you may have the most luck if you start there."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "または、それらを使用しようとすることがあります。 あなたは自由に試すことができますが、非常に慎重であることをお勧めします。 いくつかのペグラシ族の集落にはワンダーアーティファクトまたは二つが含まれています - あなたがそこを始めると、あなたは最も幸運を持っているかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Standing Orders regarding what to do with artifacts the Wanderers have left behind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Wanderersが残したアーティファクトで何をすべきかに関する命令。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Standing Orders: Wanderer Artifacts "
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "立っている順序:ワンダーアーティファクト "
+    }
+  ]
+]

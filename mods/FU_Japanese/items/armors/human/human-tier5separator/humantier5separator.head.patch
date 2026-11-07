@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle/Shortsword: Mastery +^green;22^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; アサルトライフル・ショートソード:マスター+^green;22^reset;%\n^yellow;^reset; ^cyan;免疫^reset;酸素"
+    }
+  ]
+]

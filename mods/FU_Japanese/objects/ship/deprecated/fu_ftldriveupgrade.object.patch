@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;This item was deprecated. Place and break to get the items used to make this back.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red; このアイテムは非推奨でした。 これを元通りにするために使用したアイテムを取得するために場所と休憩。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^red;DEPRECATED^reset; FTL Drive (Upgraded)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^red; 旧式 ^reset; FTL ドライブ (アップグレード)"
+    }
+  ]
+]

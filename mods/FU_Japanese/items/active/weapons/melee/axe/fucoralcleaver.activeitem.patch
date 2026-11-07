@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sharp and dangerous. Give to a friend!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭く、危険です。 友達にプレゼント!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴの切断機"
+    }
+  ]
+]

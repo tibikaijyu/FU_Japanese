@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compression of various metals has resulted in a super strong metal plating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "各種金属の圧縮により、超高強度の金属めっきが生まれました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Advanced Alloy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;高度な合金^reset;"
+    }
+  ]
+]

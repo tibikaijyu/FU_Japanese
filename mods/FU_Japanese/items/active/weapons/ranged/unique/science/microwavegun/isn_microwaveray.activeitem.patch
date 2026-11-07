@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires waves of sound that look spiffy!\n^yellow;It's okay I guess^reset;\n^green;You might like it?^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "吹き出す音の波を放つ!\n^yellow;大丈夫だと思います^reset;\n^green; _ 気に入るかもしれません?^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sonic Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソニックキャノン"
+    }
+  ]
+]

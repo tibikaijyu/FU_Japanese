@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior weapon for superior murder. Design by Gezbo.\n^cyan;Inflicts Electrified^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れた殺人のための優れた武器。 デザインはゲズボ。\n^cyan; 電化 ^reset; に作用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムメイス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chitin nightstand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトスタンドの鶏。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Nightstand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロシアのナイトスタンド"
+    }
+  ]
+]

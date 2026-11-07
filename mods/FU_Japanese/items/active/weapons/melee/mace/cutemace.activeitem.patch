@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hungry for bones to smash and color.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨が砕け、色に飢えています。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズムメイス"
+    }
+  ]
+]

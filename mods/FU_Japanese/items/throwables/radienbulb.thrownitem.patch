@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When thrown, can be quite dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "投げられると、かなり危険になる可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Rad Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン Radの球根"
+    }
+  ]
+]

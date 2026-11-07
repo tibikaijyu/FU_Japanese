@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harnessing science helps kill things! yay!\n^cyan;counts as Energy for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学を身につけることは、物事を殺すのに役立つ!\n^cyan;設定されたボーナスのエネルギーとしてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子ラピッド"
+    }
+  ]
+]

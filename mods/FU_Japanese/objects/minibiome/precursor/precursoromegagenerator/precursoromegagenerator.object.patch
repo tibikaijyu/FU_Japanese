@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of ancient power source. It appears to need exceptionally potent isotopes to even power up. ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の電源のようなもの。 パワーアップするためには、非常に強力な同位体が必要です。 ^blue;左入力 ^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Reactor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆反応器"
+    }
+  ]
+]

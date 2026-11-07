@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sparkling and deadly. Design by Ashey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパークリングと致命的。 デザインはAshey。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルメース"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Valiant be thy heart.\tOriginal design by Ashey."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "バリアントはあなたの心臓です。\tアシーによるオリジナルデザイン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Lordcrusher"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテローム・ロードクラッシャー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reap foes with icey death.\n^cyan;Slows targets ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍った死と敵対する。\n^cyan;目標を遅くする ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷"
+    }
+  ]
+]

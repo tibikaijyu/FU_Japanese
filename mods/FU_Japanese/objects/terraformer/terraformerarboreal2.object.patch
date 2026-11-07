@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Volcanic Primeval Forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を火山性の原生林に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "V.Primeval Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "初歩的テラフォーマ"
+    }
+  ]
+]

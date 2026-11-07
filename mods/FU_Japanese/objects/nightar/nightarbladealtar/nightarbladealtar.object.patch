@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An altar dedicated to the purity of the blade. Standing near slightly increases your defense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "刃の清らかさにこだわった祭壇。 わずかに近くに立っていると防御力が向上します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Blade Altar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールブレード祭壇"
+    }
+  ]
+]

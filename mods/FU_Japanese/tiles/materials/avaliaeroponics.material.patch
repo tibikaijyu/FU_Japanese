@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These tubes transport a nutrient aerosol for growing plants indoors."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのチューブは、屋内で植物を育てるための栄養エアロゾルを輸送します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aeroponics Tubing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エアロポニックチューブ"
+    }
+  ]
+]

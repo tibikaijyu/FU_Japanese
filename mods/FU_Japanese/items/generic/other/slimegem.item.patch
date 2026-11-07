@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tempered slime, extremely hard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に硬く、温和な粘り。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Gem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライム宝石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enormous, malign and unknowable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大胆で悪意があり、分からない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Shoggoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショゴート"
+    }
+  ]
+]

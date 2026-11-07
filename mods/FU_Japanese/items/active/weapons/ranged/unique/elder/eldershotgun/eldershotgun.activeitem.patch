@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;Fires acidic explosives that offer a promise of terror and agony.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00;恐怖と苦痛の約束を提供する酸性爆薬を発射します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Elder Flesheater^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00; 長老フレスヒーター ^reset;"
+    }
+  ]
+]

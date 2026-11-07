@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "This is a ^green;breathtaking specimen^reset;, but oddly maddening to look at. Your reward? Of course! It's all I have in savings, but it should cover your costs."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これは、^green;息をのむような標本^reset;です。 報酬は? もちろん! 貯金は全部私が持っているが、それはあなたの費用をカバーするはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Cthulhu Statue^reset; to the ^green;obsessed scientist by the flower beds^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;チュルフ像^reset; へ ^green;花壇のそばで科学者に夢中になり^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I am obsessed with ancient civilizations. Truly. I hear tell of an ^orange;elder race^reset; that once wandered the stars. If you can ^orange;bring me a Cthulhu Statue^reset; I would reward you very well."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は古代文明に夢中になっている。 本当です かつて星をさまよった ^orange; 長老のレース ^reset; の話を聞きます。 ^orange;がCthulhu像を私に持って来られるなら^reset;私はあなたに非常によく報います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark Obsession"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "暗い執着"
+    }
+  ]
+]

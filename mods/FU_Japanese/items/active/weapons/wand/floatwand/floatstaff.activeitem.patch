@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged by ^cyan;quiqksilver^reset;. Control gravity!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;クイックシルバー^reset;で鍛造。 重力をコントロール!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gravity Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重力杖"
+    }
+  ]
+]

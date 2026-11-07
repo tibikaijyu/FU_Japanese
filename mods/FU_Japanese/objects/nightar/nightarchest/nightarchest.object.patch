@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small Nightarian chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなナイトアリアンの胸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightarian Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアリアンチェス"
+    }
+  ]
+]

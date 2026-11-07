@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some iron grating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄製の格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Grating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄格子"
+    }
+  ]
+]

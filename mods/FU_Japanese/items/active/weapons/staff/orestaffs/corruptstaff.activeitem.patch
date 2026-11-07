@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Conjures a noxious cloud of poisonous gas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有毒ガスの有害な雲を思い浮かべます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupt Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐敗スタッフ"
+    }
+  ]
+]

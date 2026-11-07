@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Full Gem for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のアヴィアン 完全 宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Full Gem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアンの完全な宝石"
+    }
+  ]
+]

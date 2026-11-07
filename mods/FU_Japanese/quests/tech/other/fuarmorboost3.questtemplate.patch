@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Increase passive defense by 15"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "15 による受動防御の増加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Increase passive defense by 15"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "15 による受動防御の増加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Impenetrable III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "未貫通性III"
+    }
+  ]
+]

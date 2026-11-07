@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a haunted graveyard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を墓場に変える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Haunted Graveyard Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "墓場マイクロフォーマー"
+    }
+  ]
+]

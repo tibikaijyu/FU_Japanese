@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark bush."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗い茂み。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブラルブッシュ"
+    }
+  ]
+]

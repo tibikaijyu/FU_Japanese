@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "It seems like a miracle that I survived this onslaught. Perhaps the battleship has leads on Letheia Corp's dastardly deeds."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この猛攻撃で生き残ったのは奇跡のようだ。 おそらくこの戦艦はレタイア・コーポレーションの荒廃した行いを主導したのだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Poke the strange crystal again to get your reward."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "あなたの報酬を得るために再び奇妙な結晶をポーク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I did it! I took on the entire fleet and survived!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "やった! 私は全艦隊を乗っ取り、生き残った!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Letheia Fleet Complete!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;レテイア艦隊、攻略完了！"
+    }
+  ]
+]

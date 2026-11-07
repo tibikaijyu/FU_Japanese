@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well crafted, but heavy. Design by zimberzimber."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく出来ていますが重いです。 ジンバージンバーによる設計。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Balls of Steel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼球"
+    }
+  ]
+]

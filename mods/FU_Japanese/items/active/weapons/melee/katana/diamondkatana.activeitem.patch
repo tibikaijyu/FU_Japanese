@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Two-handed, shining diamond. Exceptionally beautiful and deadly.\n^yellow;8 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "両手、輝くダイヤモンド。 非常に美しく、致命的です。\n^yellow;8 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドカタナ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Ice Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "氷の壁"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezing mists weaponized for your enjoyment\n^yellow;Inflicts freezing^reset;\n^green;Multi-shot^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍った霧があなたの楽しみを武器に\n^yellow;凍結に影響を及ぼす^reset;\n^green;マルチショット^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mistral Icethrower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミストラルアイススロー"
+    }
+  ]
+]

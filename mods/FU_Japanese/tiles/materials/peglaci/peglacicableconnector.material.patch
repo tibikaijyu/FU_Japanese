@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block that connects to many cables."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多くのケーブルに接続するブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "They look like vinesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "まるで精子のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. A block that connects to many cables. Tightly packed."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 多くのケーブルに接続するブロック。 ぎっしり詰まった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chilled Cable Connector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チルドケーブルコネクタ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This superior tent protects from weather-related effects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この優れたテントは、天候関連の影響から保護します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "TC-1 Survival Tent"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "TC-1 生き残るためのテント"
+    }
+  ]
+]

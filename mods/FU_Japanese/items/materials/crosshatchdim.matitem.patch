@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple lattice made of wood. Nobody's home..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木でできたシンプルな格子。 誰も家にはいない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran like crisss crosssy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "十字の森のような花柄。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Inspired. This lattice functions well as either a fence or window."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "インスピレーションを得た。 この格子は、フェンスまたは窓としても機能します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Thin wood strips all criss crossin' together."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "薄い木材は、すべての十字架をストリップします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dim Window Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薄暗い窓格子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Quite heavy, but also quite sharp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり重いが、非常に鋭い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステン大公社"
+    }
+  ]
+]

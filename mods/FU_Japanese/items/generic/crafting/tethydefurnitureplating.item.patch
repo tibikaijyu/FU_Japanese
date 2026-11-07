@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tethyde, carefully prepared for crafting furniture with."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テチド、家具を作るために慎重に準備します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tethyde Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テチドめっき"
+    }
+  ]
+]

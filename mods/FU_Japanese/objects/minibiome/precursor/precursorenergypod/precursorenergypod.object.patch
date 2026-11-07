@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This pod stores energy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このポッドはエネルギーを蓄えています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Storage Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蓄電池"
+    }
+  ]
+]

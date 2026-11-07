@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large handgun that packs a kick."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キックをパックする大きな拳銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Machine Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダラスチールマシンピストル"
+    }
+  ]
+]

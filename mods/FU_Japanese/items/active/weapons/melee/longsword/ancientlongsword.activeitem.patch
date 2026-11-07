@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weapon of the ancients."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient's Warblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代の戦刃"
+    }
+  ]
+]

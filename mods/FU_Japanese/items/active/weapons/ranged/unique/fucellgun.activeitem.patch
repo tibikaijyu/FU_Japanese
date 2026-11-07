@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly unique long-ranged rifle, firing ^cyan;freezing^reset;, ^green;poisonous^reset; blasts of cellular matter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真にユニークな長距離ライフル、発射^cyan;凍結^reset;、^green;有毒^reset;細胞物質のブラスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cellular Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "細胞ライフル"
+    }
+  ]
+]

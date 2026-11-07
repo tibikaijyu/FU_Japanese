@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.05% HP , +4 Shield Bash & Push, -20% Fall Damage^reset;, ^cyan;Immune: Shock^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.05%HP、+4シールドバッシュ&プッシュ、-20%フォールダメージ^reset;、^cyan;免疫:ショック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nutmidge Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナットミッジシールド"
+    }
+  ]
+]

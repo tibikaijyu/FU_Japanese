@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large pretty dresser."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなきれいなドレッサー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルドレッサー"
+    }
+  ]
+]

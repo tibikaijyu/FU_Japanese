@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Dagger Mastery: +^green;15^reset;%\n^yellow;^reset; +^green;0.5^reset;% Health Regen\n^yellow;^reset; +^green;10^reset;% Speed\n^yellow;^reset; Daggers, Whips, Boomerangs, Chakrams: +^green;3^reset;% Crit Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;短剣の習熟度:+^green;15^reset;%\n^yellow;^reset; +^green;0.5^reset;% 健康レーゲン\n^yellow;^reset; +^green;10^reset;% 速さ\n^yellow;^reset; ダガー、ホイップ、ブーメラン、チャクラム:+^green;3^reset;% クリティカルチャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chaos Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カオスパンツ"
+    }
+  ]
+]

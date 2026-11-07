@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bookcase made in the traditional Nightarian style."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的なナイトアリアンスタイルで作られた本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Umbral Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアール・アンブラル本棚"
+    }
+  ]
+]

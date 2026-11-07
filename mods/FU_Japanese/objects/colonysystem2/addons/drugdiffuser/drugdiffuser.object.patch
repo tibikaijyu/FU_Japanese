@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Test experimental drug fumes on your tenants. ^blue;Requires 25W power. \n^red;-10 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのテナントで実験的な薬の煙をテストします。 ^blue; は 25W 電源を必要とします。 \n^red;-10Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Drug Diffuser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薬物拡散"
+    }
+  ]
+]

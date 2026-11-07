@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A clever use of honeycombs.\n^red;Inflicts Bee Stings^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニカムの巧妙な使用。\n^red;蜂の巣に作用する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーサイス"
+    }
+  ]
+]

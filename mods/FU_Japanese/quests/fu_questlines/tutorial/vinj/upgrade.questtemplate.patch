@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Most ^orange;Weapons, Armor and Tools^reset; can be ^green;Upgraded^reset; with your ^orange;Personal Tricorder^reset;. Just click the button that looks like a ^green;Manipulator Module^reset;! It'll cost either ^orange;Upgrade Modules^reset; or ^orange;Manipulator Modules^reset; to do it."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ほとんどの^orange;武器、防具、ツール^reset;は、^green;強化^reset;できる。^orange;個人用トライコーダー^reset;を開き、^green;マニピュレーターモジュール^reset;の形のボタンを押そう！ 強化には^orange;アップグレードモジュール^reset;か^orange;マニピュレーターモジュール^reset;が必要だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Most ^orange;Weapons, Armor and Tools^reset; can be ^green;Upgraded^reset; with your ^orange;Personal Tricorder^reset;. Just click the button that looks like a ^green;Manipulator Module^reset;! It'll cost either ^orange;Upgrade Modules^reset; or ^orange;Manipulator Modules^reset; to do it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ほとんどの^orange;武器、防具、ツール^reset;は、^green;強化^reset;できる。^orange;個人用トライコーダー^reset;を開き、^green;マニピュレーターモジュール^reset;の形のボタンを押そう！ 強化には^orange;アップグレードモジュール^reset;か^orange;マニピュレーターモジュール^reset;が必要だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Upgrading Gear"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "装備の強化"
+    }
+  ]
+]

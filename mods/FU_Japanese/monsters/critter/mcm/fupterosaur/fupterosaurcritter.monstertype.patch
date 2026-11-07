@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small flying beast that can sail through the sky on wings stretching between its front and hind legs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前足と後ろ足の間に伸びる翼で空を航海できる小さな飛獣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pterosaur"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プテロサウルス"
+    }
+  ]
+]

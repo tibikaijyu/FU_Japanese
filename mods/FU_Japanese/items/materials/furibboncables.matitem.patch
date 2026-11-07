@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ribbon cables. I wonder where I can put them..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リボンケーブル。 どこに置けばいいのかしら...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ribbon Cables"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リボンケーブル"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "Protect the temple!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "神殿を守れ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "You dare intrude upon the most holy of places?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "もっとも神聖な場所をあえて思いついたのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "My thorns will crush you, interloper!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "せきがあなたを砕く、インターロパー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "The light of Kluex fills me with life!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "クルーエクスの光が私を人生で満たしてくれます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ]
+]

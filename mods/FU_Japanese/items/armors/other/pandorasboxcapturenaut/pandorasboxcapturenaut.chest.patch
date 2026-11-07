@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Beastmaster^reset;: 30%\n^yellow;^reset; ^cyan;Capturenaut^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;獣師^reset;: 30%\n^yellow;^reset; ^cyan;捕獲探検家^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capturenaut Breastplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲乳房プレート"
+    }
+  ]
+]

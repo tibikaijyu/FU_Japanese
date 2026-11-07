@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Unfocused Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "非焦点ブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;Infused with strange energies, this alien weapon radiates menace.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00; 奇妙なエネルギーを注入すると、このエイリアン兵器は脅威を放射します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Disruptor Rifle^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00; ディスラプターライフル ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With tech used in the Arc Smelter I could ^green;replace the Wall Jump tech^reset; with an ^orange;ultimate upgrade^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "アーク製錬機で使える技術で ^green;ウォールジャンプの技術を^reset; 一緒に ^orange;究極のアップグレード^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With tech used in the Arc Smelter I could ^green;replace the Wall Jump tech^reset; with an ^orange;ultimate upgrade^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "アーク製錬機で使える技術で ^green;ウォールジャンプの技術を^reset; 一緒に ^orange;究極のアップグレード^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ultimate Grip!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "究極のグリップ!"
+    }
+  ]
+]

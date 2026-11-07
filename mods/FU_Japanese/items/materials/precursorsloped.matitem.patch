@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glorious ancient metal\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "華麗な古代金属\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Sloped Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレカー傾斜パネル"
+    }
+  ]
+]

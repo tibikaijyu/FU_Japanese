@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "If the hunted truly wishes to becomes the hunter he must place these three objects upon an alter an offer a prayer for destruction of his enemies. An Elder Artifact, an Elder Tome and five Blade Shards. Be sure to utter the prayer correctly or it will be you who shall be destroyed."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "狩人が真に狩人になりたいなら、彼はこの三つのオブジェクトを変化させ、彼の敵を破壊するための祈りを申し出なければなりません。 長老のアーチファクト、長老のトムと五つのブレードシャード。 必ず正しく祈りを述べてください。さもないと、破壊されるのはあなたになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for a bizarre bow"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な弓の図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Chaugnar Faugn"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "チャウナール・フォーグン"
+    }
+  ]
+]

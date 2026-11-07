@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/clientAssetsMismatchMessage",
+      "value": "You must enable 'Allow assets mismatch' in the game settings to connect to this server"
+    },
+    {
+      "op": "replace",
+      "path": "/clientAssetsMismatchMessage",
+      "value": "このサーバーに接続するには、ゲーム設定で「アセットミスマッチを許可」を有効にする必要があります。"
+    }
+  ]
+]

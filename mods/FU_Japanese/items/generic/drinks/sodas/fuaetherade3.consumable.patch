@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A refreshing can of liquid aether.\n^cyan;+^white;20% ^cyan;EP^gray;, ^cyan;Swim Boost (Cola)^gray;, ^cyan;+^white;30% ^pink;Cosmic ^cyan;Res ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体エーテルの爽やかな缶。\n^cyan;+^white;20% ^cyan;EP^gray;, ^cyan;スイムブースト(コーラ)^gray;, ^cyan;+^white;30% ^pink;宇宙 ^cyan;レズ ^gray;(^white;2え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル"
+    }
+  ]
+]

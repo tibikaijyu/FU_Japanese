@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It doesn't get any better than this."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これ以上良くならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;Quantum Manipulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;量子マニピュレータ^reset;"
+    }
+  ]
+]

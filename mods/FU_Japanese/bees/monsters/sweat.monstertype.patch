@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweat bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汗蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sweat Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汗びん"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honey bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ"
+    }
+  ]
+]

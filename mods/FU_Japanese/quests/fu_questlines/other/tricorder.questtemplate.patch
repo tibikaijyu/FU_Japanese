@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You shouldn't be able to see this in your log."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これをログに表示してはいけません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "This isn't visible"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "これは見えません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Tricorder tracker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "トライコーダートラッカー"
+    }
+  ]
+]

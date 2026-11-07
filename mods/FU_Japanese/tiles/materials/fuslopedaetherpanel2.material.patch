@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy hull panels made from tungsten and aether material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タングステンとエーテル材料から作られた頑丈な船体パネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙用エーテルパネル"
+    }
+  ]
+]

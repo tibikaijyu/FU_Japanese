@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I can create equipment to use for wiring here."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "配線用の設備をここで作れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "It's a workstation for crafting equipment to use for wiring."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "配線用の設備を作るためのワークステーションです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to produce complex wiring components."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複雑な配線部品の製造に使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can make equipment for wiring thingsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは配線用の設備を作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. A workstation for creating wiring related equipment. Very handy."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 配線関連機器を作成するためのワークステーション。 非常に便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Wiring related equipment can be crafted on this workstation. Neat!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このワークステーションでは配線関連機器を製作することができます。 すっごい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "For wiring tools and accessories, this is the go to workstation."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "配線工具やアクセサリの場合、これはワークステーションに行くことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " For everything to do with wiring"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " 配線に関係します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Wiring Station"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " 電線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A workstation for all things wirin' related."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "関連するすべてのことのためのワークステーション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Wiring Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;電線局^reset;"
+    }
+  ]
+]

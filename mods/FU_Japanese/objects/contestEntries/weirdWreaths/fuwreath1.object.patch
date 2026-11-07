@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather unusual sort of wreath or decorative circle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花輪や装飾的な円のかなり珍しい種類。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shard Wreath"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャードリース"
+    }
+  ]
+]

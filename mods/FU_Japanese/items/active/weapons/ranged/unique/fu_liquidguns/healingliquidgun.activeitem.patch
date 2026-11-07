@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gun shoots healing water. Nifty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この銃は癒しの水を撃つ。 素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Healing Water Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水鉄砲の補修"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Master brain-healer-guy. Reduces madness effects up to 65%. Reduces fuel costs by 2%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頭脳を癒す人。 65%まで狂気効果を軽減します。 2% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Psychiatrist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船舶精神科医契約"
+    }
+  ]
+]

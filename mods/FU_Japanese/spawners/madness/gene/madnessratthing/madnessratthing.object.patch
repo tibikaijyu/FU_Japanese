@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hybrid designed to hate everything."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべてを嫌うハイブリッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rat-Thing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラット・シングス"
+    }
+  ]
+]

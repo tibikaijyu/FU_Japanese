@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wheat seed that has sprouted!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発芽した小麦の種!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sprouted Wheat Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小麦の発芽種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impossibly sharp focused light forms the blade.\n^cyan;Inflicts Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど鋭い集束光が刃を形成します。\n^cyan;放射線照射による熱傷^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Rendblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のレンダーブレード"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Short-ranged grapple. ^red;Regenerates health^reset; when attached. Improves healing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "短距離グラップル。 ^red;健康を再生します。^reset; くっついたら 癒しを改善する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodhook"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液フック"
+    }
+  ]
+]

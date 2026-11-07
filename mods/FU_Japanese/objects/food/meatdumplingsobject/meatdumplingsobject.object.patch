@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Steamed meat dumplings. Beautifully simple!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蒸し肉団子。 美しくシンプル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssoft meat dumplings."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "柔らかい肉団子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A plate of steaming meat dumplings."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 蒸し肉の団子のプレート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "These dumplings are small, but mighty savory."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これらの団子は小さいですが、強烈な味です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Dumplings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉ダンプ"
+    }
+  ]
+]

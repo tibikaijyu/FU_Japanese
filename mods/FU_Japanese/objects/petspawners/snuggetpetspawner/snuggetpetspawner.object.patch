@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawns in a pet snugget! \n^orange;To locate it after placing, toggle wire mode.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットのナゲットで産卵! \n^orange; ワイヤーモードを切り替える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Snugget Spawner^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スパウナーをナゲット^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very neat jacket."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に美しいジャケット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Suit jacket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スーツジャケット"
+    }
+  ]
+]

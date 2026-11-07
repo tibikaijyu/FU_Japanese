@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Top-of-the-line computing power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最先端のコンピューティングパワー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Quantum Processor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;量子プロセッサ^reset;"
+    }
+  ]
+]

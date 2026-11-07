@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Pressure, Extreme Cold, Mild Heat/Radiation/Poison, Proto, L.Nitro\n^cyan;+20%^reset; Armor, ^red;-10%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:圧力、極寒、軽熱/放射線/毒素、プロト、L.ニトロ\n^cyan;+20%^reset;防具、^red;-10%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Drakaet Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドラケートメカのボディ"
+    }
+  ]
+]

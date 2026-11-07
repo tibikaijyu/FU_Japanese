@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The wounds caused by these swords are said to never heal.\n^cyan;Combo Strikes causes targets to bleed^reset;\n^yellow;8 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの剣による傷は決して治らないと言われています。\n^cyan;コンボストライクで出血する原因が判明^reset;\n^yellow;8 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "名人刀"
+    }
+  ]
+]

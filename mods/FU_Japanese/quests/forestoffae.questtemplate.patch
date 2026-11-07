@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With the cultists gone, hopefully the forest will recover in time. Either way, my job here is done."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "カルト主義者がいなくなると、森が時間とともに回復することが望まれる。 いずれにしても、私の仕事は終わりです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Stop the cultists from corrupting the Forest of Fae."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "フェの森を汚すことからカルト主義者を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The cultists' map shows a certain beautiful forest planet which they're trying to corrupt. There's also a whole load of loot stored there, too. I could try and crash their party..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "カルティストの地図には、彼らが腐敗しようとしている特定の美しい森の惑星が写っています。 他にも山ほどのルートが保存されています。 パーティーをぶち壊して..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Forest of Fae"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;Faeの森"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cage filled with rotting remains."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐った残骸で満たされたケージ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Torture Cage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;拷問檻^reset;"
+    }
+  ]
+]

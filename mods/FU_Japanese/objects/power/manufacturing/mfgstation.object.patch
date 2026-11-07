@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An assembly line for processing raw materials into finished products.\nRequires ^orange;140J^cyan; of power per craft.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原料を最終製品に加工するための組立ライン。\n^orange;140J ^cyan; クラフトあたりの電力が必要です。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Manufacturing Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;製造ステーション^reset;"
+    }
+  ]
+]

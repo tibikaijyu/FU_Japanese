@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An abomination which creates more abominations. Burn it to death."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より排他的になる排他的行為。 火傷して死ぬ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tentacle Spawner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テンタクルスパウナー"
+    }
+  ]
+]

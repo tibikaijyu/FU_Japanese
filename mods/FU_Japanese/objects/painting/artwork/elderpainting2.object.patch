@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some hideous creature rises from the sea, largely unseen. Its scale must be enormous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海から出てきますが、ほとんど見えません。 その規模は巨大でなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cthulhu Rising"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チュルフの生育"
+    }
+  ]
+]

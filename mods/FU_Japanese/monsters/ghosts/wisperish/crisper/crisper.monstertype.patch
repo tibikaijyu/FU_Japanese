@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wandering fire spirit doing its best to hinder travelers"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "旅行者を邪魔するために最善を尽くしているさまよう火の霊"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crisper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "しわ"
+    }
+  ]
+]

@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/cancel/caption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/cancel/caption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/chipCostDescription/value",
+      "value": "REQUIRED PIXELS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/chipCostDescription/value",
+      "value": "必須ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/emptyLabel/value",
+      "value": "You don't have any vehicles to repair!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/emptyLabel/value",
+      "value": "修理用の車両はありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/repairButton/caption",
+      "value": "Repair"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/repairButton/caption",
+      "value": "修理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Repair your vehicles here!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " ここであなたの車を修理!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Roger Repairo"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " ロジャー・リペア"
+    }
+  ]
+]

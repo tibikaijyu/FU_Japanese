@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Some moons will fall,\n  answering the Call.\nBalance their mass;\n  by twos shalt thou pass."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "月が落ちることもあります\n  電話に答えました\n質量のバランスをとる。\n  二人で通り過ぎる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seems to be a hint of some sort."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかのヒントのように思えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Perfect Balance"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "完璧なバランス"
+    }
+  ]
+]

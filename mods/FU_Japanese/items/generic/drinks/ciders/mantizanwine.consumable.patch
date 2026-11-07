@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The rarest and most highly-esteemed wine in the known universe\n^cyan;+^white;8 ^cyan;Defense^gray;, ^cyan;+^white;15% ^pink;All ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "知られた宇宙で最も希少で最も評価の高いワイン\n^cyan;+^white;8 ^cyan;防衛^gray;, ^cyan;+^white;15% ^pink;すべて ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizan Wine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンティザンワイン"
+    }
+  ]
+]

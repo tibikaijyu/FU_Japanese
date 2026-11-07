@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pangolin! It'll eat most vegetables, fruits and prepared meats."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンゴリン! ほとんどの野菜、果物、準備された肉を食べるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pangolin Pup"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンゴリン子犬"
+    }
+  ]
+]

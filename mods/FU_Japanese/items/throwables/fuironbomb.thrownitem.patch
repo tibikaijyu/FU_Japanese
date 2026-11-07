@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Alchemical creation! Turn tiles into iron!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生化学! タイルを鉄に変えよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄爆弾"
+    }
+  ]
+]

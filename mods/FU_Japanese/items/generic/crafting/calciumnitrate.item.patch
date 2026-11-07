@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A compound that could prove useful in fertilizers and other chemical compounds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肥料やその他の化合物に有用であることが証明できる化合物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Calcium Nitrate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硝酸カルシウム"
+    }
+  ]
+]

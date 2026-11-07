@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aww. Wook at dis widdle guy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごい。 変なヤツで仕事しろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Battrix"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バトリクス"
+    }
+  ]
+]

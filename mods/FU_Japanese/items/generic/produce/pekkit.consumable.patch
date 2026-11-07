@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;200% Ice Thorns^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;氷属性の反射ダメージ200%^reset;：1分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pekkit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペキット"
+    }
+  ]
+]

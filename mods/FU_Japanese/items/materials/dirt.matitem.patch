@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dirty looking dirt.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汚い汚れが見えます。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ]
+]

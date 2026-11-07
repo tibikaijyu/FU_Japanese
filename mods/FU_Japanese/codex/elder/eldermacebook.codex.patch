@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "None before the might of Asatoth! None before his touch! Place the sacrament at an altar: an Elder Artifact, two Blade Shards and a Trapezohedron."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "アサトスの力の前に誰も! 彼の接触の前に誰も! 祭壇: 長老のアーティファクト、二つのブレードシャード、そしてトラペゾヘドロンに聖堂を置きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Vall Bokar"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "バル・ボカール"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A common sidearm in the galaxy.\n^yellow;Reliable^reset;\n^yellow;Counts as 'Energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河系の共通の横腕。\n^yellow;高信頼^reset;\n^yellow;セットボーナスの「エナジー」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Laser Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レーザーピストル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Superior firepower. Sexy sheen. ^yellow;Reliable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "優れた火力。 セクシーな女性。 ^yellow;高信頼^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Scatterlaser Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "散乱レーザーピストル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Detects item drops within 8 tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "8 タイル内のアイテムドロップを検出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムセンサ"
+    }
+  ]
+]

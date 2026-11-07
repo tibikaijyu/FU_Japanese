@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ale mash, the product of malt, yellow petals and water."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エールマッシュ、麦芽、黄色の花びらと水の製品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Ale Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークエールマッシュ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Much fresh, such wet, so dripping~ \n^blue;Input 1^white; : Water Spray. \n^blue;Input 2^white; : Particles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すっきりした、濡れた、滴り落ちる! \n^blue;入力1^white;:水スプレー。 \n^blue;入力 2^white;:粒子。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "SCB Water Emitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "SCBウォーターエミッタ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tough little bastard spits raw plasma."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このタフな野郎は生の血漿を吐き出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowwraith Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウレイス・シュルーム"
+    }
+  ]
+]

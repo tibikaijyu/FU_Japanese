@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A horrid and amorphous mutation. Probably not cuddly. Why not find out?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい、そしてアモルファスな突然変異。 たぶん、かわいい人ではない。 調べてみませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Leech"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュリーチ"
+    }
+  ]
+]

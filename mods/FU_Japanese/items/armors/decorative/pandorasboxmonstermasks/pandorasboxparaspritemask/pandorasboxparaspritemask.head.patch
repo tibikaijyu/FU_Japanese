@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I for one think it suits you perfectly!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私はそれがあなたにぴったりだと思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Parasprite Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パラスプライトマスク"
+    }
+  ]
+]

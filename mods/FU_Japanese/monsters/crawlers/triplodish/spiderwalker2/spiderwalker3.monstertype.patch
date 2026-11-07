@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loves to serve its primary function: kaboom."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主な機能であるkaboomを提供するのが大好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Bomb Droid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身の爆弾ドロイド"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A captured creature can be tethered to this spot."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "捕獲した生き物は、この場所に縛り付けられます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A handy post that a pet to be tethered to."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ペットがつながれる便利な投稿。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small multiple pet pod tether."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな複数のペットポッドテザー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Creaturess attached to post ssstay here."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ポストssに添付された生き物はここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Satisfied. A captured creature placed in this device will stay nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "満足。 この装置に入れられた捕獲された生物は近くにとどまります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A tether for a captured creature."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "捕獲した生き物のためのテザー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Once placed in this device, a captured creature will not wander far."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この装置に入れれば、捕獲された生き物は遠くをさまようことはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A handy tether post for keepin' captured creatures from wanderin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "捕獲した生き物を放浪させない便利なテザーポスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tiny Multi-Tether"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さなマルチテザー"
+    }
+  ]
+]

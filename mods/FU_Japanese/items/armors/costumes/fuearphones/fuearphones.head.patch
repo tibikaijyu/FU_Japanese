@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Listen in style. Perfect for Floyd."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイルで聞いてください。 フロイドに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-Fi Earphones"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Hi-Fiイヤホン"
+    }
+  ]
+]

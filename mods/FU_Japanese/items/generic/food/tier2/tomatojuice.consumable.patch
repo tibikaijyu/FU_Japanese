@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hearty tomato juice. ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まろやかなトマトジュース。 ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

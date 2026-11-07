@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A broken FTL fuel hatch. This won't do!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊れたFTL燃料ハッチ。 そんなことはあり得ない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken FTL Fuel Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FTL燃料ハッチの破損"
+    }
+  ]
+]

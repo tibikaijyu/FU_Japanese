@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A booster. These have been known to malfunction and explode."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ブースター。 これらは誤動作と爆発で知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A booster, the wings of a ship."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ブースター、船の翼。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple core fragment powered thruster.\n^yellow;Ship Speed: +2\n^cyan;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シンプルなコアフラグメントパワードスラスター。\n^yellow;船速:+2\n^cyan;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssscary fire."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "怖い火。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analyse. Temperature too high to measure."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 温度が高すぎると測定できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This thing eats through fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これは燃料で食べます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Propulsion."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "推進力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small STL Booster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型STLブースター"
+    }
+  ]
+]

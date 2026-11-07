@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Encouraging results! Try the same thing with other materials such as wood, dirt, stone...heck, almost anything really. You'll find all sorts of things if you just give it a try!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "いい結果だね！ 木材や土、石など、他の素材でも試してみよう。いや、本当にほぼ何でもいい。試すだけで、いろいろな物が見つかるよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;10 silicon^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;ケイ素10個^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With a ^orange;Hand Mill^reset; you can start cutting your teeth on all sorts of new creations. Try getting at least 50 ^orange;Sand^reset; and extracting it to get some ^orange;Silicon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;手回し粉砕機^reset;があれば、いろいろな新しい物作りに挑戦できる。^orange;砂^reset;を50個以上集めて抽出し、^orange;ケイ素^reset;を手に入れてみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Silicon Knight"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ケイ素の騎士"
+    }
+  ]
+]

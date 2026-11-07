@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches a grenade that accelerates before firing off three missiles the other way."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "三つのミサイルを発射する前に加速する手すりを発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Backscatter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "後方散乱"
+    }
+  ]
+]

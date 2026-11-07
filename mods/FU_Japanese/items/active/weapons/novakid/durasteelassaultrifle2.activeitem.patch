@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A burst-fire automatic military grade rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動式ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Burst Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダーラ鋼バーストライフル"
+    }
+  ]
+]

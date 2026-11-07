@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute stool, suitable for a princess."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "お姫様に適したかわいいスツール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Stool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいスツール"
+    }
+  ]
+]

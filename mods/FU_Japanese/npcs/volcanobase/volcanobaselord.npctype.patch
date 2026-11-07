@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/0",
+      "value": "Furious. I'll slaughter you and use your loot to replace the guards you killed!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/0",
+      "value": "激怒。 あなたを虐殺し、あなたの略奪者を使って、あなたが殺したガードを交換します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/1",
+      "value": "Eager. And so the hero arrives! Brave and foolish, my favourite type. I will break you and relish every moment of it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/1",
+      "value": "早く! そしてヒーローが到着します! 勇敢で愚かな、私のお気に入りのタイプ。 私はあなたを壊し、そのすべての瞬間を楽しんでいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/2",
+      "value": "Haughty. A protector to slaughter, just for me! This will be a crowning achievement; today my legend grows ever larger!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/2",
+      "value": "やばい。 私にとってだけ、虐殺の保護者! これは素晴らしい成果になるでしょう。今日、私の伝説はさらに大きくなります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/3",
+      "value": "Smug. My, my! If a protector feels the need to challenge me, I must be doing something right. Step up and lend your head to one of my many pikes."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/3",
+      "value": "くすくす笑い。 わあ、わあ! プロテクターが私に挑戦する必要性を感じるなら、私は何か正しいことをしている必要があります。 ステップアップして、私の多くのパイクのいずれかにあなたの頭を貸してください。"
+    }
+  ]
+]

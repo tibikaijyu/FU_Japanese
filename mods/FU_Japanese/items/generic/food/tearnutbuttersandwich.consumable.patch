@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mingling cherries and tearnuts was a genius idea. ^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サクランボと催涙は天才のアイデアでした。 ^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tearnut Butter Sandwich"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ティアナッツバターサンド"
+    }
+  ]
+]

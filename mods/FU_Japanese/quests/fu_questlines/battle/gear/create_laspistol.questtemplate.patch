@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Fantastic. Now I just need to somehow get the sack to do it. Ugh. That guy. Screw that guy."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。 今、私はそれを行うためにサックを何とかする必要があります。 うーん あの人。 あの男をねじ込んで下さい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Laser Pistol^reset; to the monocled Hylotl at the ^orange;Science Outpost^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;レーザーピストル^reset;を^orange;科学前哨基地^reset;でモノクラードハイロトルに持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Kevin dressed a doll as my mother, naked, in my living room when I was passed out. I need a ^orange;Laser Pistol^reset; to blast his head right off of his torso. Can you make one?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ケビンは私が捨てられたとき、私のリビングルームで、裸で、私の母親として人形を着ました。 私は彼の胴体からすぐに彼の頭をブラストするために^orange;レーザーピストル^reset;が必要です。 作れますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "I need a sidearm"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "脇腕が必要です"
+    }
+  ]
+]

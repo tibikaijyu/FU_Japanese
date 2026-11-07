@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The label reads, \"Releases toxic seeds when threatened.\""
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラベルには「脅迫された時に有毒な種子を放出する」と書かれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Seeder Trap Figurine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シーダートラップフィギュア"
+    }
+  ]
+]

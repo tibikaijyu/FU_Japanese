@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a field of energy orbs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域をエネルギーオルブの場に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Orb Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロフォーマ"
+    }
+  ]
+]

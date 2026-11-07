@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/label",
+      "value": "Research Bonus: ^green;+7^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/label",
+      "value": "研究ボーナス:^green;+7^reset;"
+    }
+  ]
+]

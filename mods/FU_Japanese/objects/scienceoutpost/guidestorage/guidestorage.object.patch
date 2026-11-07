@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It should be stocked full of science journals and lab reports."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学誌や研究所のレポートが満載です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究室本棚"
+    }
+  ]
+]

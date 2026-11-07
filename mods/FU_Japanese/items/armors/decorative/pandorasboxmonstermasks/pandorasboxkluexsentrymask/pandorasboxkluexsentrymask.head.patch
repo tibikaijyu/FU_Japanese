@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These were salvaged from damaged Kluex Sentries! Careful. We don't know if we disarmed their energy beams right..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらは損傷したクルーエクス 番兵から回収されました! 気をつけて。 エネルギービームを解除したかどうかはわかりませんが"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kluex Sentry Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルーエクスの番兵のマスク"
+    }
+  ]
+]

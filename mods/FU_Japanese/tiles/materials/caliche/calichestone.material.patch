@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rich source of iodine."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヨウ素の豊富な供給源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caliche Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石灰岩"
+    }
+  ]
+]

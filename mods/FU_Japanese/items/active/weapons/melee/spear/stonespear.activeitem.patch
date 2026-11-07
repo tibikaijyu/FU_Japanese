@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for early hide and meat gathering.\n^cyan;Hunting weapon, Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "早期の隠れ家や肉の収集に最適です。\n^cyan; 狩り武器、フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "初歩的スピア"
+    }
+  ]
+]

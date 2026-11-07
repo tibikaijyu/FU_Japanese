@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've discerned a way to improve my Dash tech. I should be able to not only dash farther, but at the end of my dash my damage will also increase significantly for a brief moment!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ダッシュ 技術を改善する方法を見出しました。 私はさらにダッシュできるだけでなく、私のダッシュの終わりに私の損傷も少しの間大幅に増加するはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've discerned a way to improve my Dash tech. I should be able to not only dash farther, but at the end of my dash my damage will also increase significantly for a brief moment!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ダッシュ 技術を改善する方法を見出しました。 私はさらにダッシュできるだけでなく、私のダッシュの終わりに私の損傷も少しの間大幅に増加するはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Spike Em!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "スパイク!"
+    }
+  ]
+]

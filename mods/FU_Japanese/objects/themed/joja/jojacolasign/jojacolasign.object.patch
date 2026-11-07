@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Something about that logo... it's off-putting..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "そのロゴの何か... それはオフパッティングです..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "\"Fuel your life\"? I find it hard to believe a soda can do that."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "「あなたの人生を燃料にしよう」? ソーダがそうできるとは信じられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A billboard advertising the flagship product of the ^blue;Joja^reset; corporation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^blue;ジョジャ^reset; 企業の旗艦商品を広告する看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssuspicious blue drink."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "疑わしい青い飲み物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Snarky. Supposedly this drink is \"Asbestos-Free\". Very reassuring."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "くすんだ。 このドリンクは「アスベストフリー」とします。 心強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "... Well that isn't ominous at all."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "... まぁ、それはまったく不吉ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Is it anything like reef cola?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "サンゴ礁みたいなものでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "That's a mighty blue sign."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "それは強大な青い看板です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Cola Billboard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;コーラの広告板"
+    }
+  ]
+]

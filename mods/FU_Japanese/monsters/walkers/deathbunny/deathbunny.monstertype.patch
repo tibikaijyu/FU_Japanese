@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This rabbit-like beast is evil incarnate. LOOK AT THE BONES!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このウサギのような獣は邪悪な化身です。 骨を見てください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caerbannog"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カエルバノグ"
+    }
+  ]
+]

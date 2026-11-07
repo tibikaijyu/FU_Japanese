@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gives +40% Poison Resist. Use it on planets with ^orange;moderate poison levels^reset;. +150s oxygen and halves how quickly you breathe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+40% 毒抵抗を与える。 ^orange; 適度な毒レベルを持つ惑星でそれを使用 ^reset; 。 +150s 酸素と呼吸の速さの半分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison EPP II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒EPPII"
+    }
+  ]
+]

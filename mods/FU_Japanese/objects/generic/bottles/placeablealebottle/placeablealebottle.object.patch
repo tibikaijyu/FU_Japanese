@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable Pale Ale!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! プレイサブルパールエール!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Pale Ale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレータブルパールエール"
+    }
+  ]
+]

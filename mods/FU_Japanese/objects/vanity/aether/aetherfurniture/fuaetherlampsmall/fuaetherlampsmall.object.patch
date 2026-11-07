@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small pretty lamp with a purple light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫色のライト付きの小さなかわいいランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Desk Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルデスクランプ"
+    }
+  ]
+]

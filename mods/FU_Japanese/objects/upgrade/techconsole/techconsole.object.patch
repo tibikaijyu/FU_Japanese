@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Equip and enhance your techs at this station."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このステーションであなたの技術を装備し、強化してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "I can equip techs here. Calibrating them to my... unique biology was a challenge at first."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "ここに技術を装備することができます。 それらを私の...ユニークな生物学に校正することは、当初の課題でした。"
+    }
+  ]
+]

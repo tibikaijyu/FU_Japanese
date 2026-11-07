@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A leafy locksmiths dream."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "葉っぱの錠前屋が夢見ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rainforest Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "熱帯雨林胸部"
+    }
+  ]
+]

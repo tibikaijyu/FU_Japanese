@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "With these I can create a conclave of tenants... or test subjects."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "これにより、テナントのコンクレーブやテスト対象を作成できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This sure beats pestering my tenants for rent individually."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これは、テナントを個々に貸し出すのに必ず勝る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A colony deed designed for use with a Colony Core. Only collects rent with a Core present.  ^red;Requires a bed in the room.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コロニーコアで使用するように設計されたコロニー証書。 核プレゼントでのみ家賃を徴収します。  ^red; お部屋にベッドが必要です。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "If tenants don't pay rent, Floran will sssstab."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "テナントが家賃を払わなければ、フローランは立ち往生する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Greedy. It's time to make some real money."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "グレディ。 そろそろお金を稼ぐ時間だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "With these, I can become a landlord for real."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これで私は本当の大家になれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Rent-seeking is immoral. Good thing I have no morals."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "家賃の追求は不道徳だ。 良いことは道徳的なことではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "There's good money in runnin' a boarding house."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "寄宿舎を経営するのにはよい金がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^yellow;Colony Deed Mark II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^yellow;入居契約書 マークII^reset;"
+    }
+  ]
+]

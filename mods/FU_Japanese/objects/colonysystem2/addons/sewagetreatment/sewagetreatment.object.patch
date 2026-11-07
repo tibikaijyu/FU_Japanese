@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Collects waste from the colony and stores it for repurposing. \n^yellow;+2 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コロニーから廃棄物を回収し、再利用のために保管します。 \n^yellow;+2Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sewage Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "下水貯留"
+    }
+  ]
+]

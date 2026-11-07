@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shadow Trail"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "シャドウトレイル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;Edged with glowing forms, etched in runes. It whispers into your mind.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00; ルーン文字でエッチングされた、輝きのあるフォームでエッジ。 心にささやきます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Elder Cleaver^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;高齢者クリーバー^reset;"
+    }
+  ]
+]

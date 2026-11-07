@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Double-pronged for twice the fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "二股の刃で、楽しさも二倍。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムナイフ"
+    }
+  ]
+]

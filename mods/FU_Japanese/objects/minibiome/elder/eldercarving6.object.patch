@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Something seems off when I look at it. As if its shaking too fast to really see...or something."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それを見ると何か見当がつく。 まるで、本当に見ることができないほど速く揺れているかのよう...あるいは何か。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代彫刻"
+    }
+  ]
+]

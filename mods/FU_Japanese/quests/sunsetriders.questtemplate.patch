@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now that was a fight! The bounty should be wired to my ship any time now."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今度はそれが戦いでした! 報奨金はいつでも私の船につないだほうがよい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Claim the bounty on Hank 'Hawkeye' Hatfield."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "ハンク・'ホークアイ'・ハットフィールドに賞金を請求する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Along with the map is a bounty for a certain Hank 'Hawkeye' Hatfield, worth 2000 pixels. I might follow these coordinates to the fort mentioned and check in first."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "マップと一緒に、特定のハンク「ホークアイ」ハットフィールド、値2000ピクセルの報奨金です。 私はこれらの座標を前述の砦まで追跡し、最初にチェックインするかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Sunset Riders"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;サンセットライダー"
+    }
+  ]
+]

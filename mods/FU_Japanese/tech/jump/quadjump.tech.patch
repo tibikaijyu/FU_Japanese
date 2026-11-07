@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Four jumps for four times the Awesome!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "四つのジャンプは四倍素晴らしいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Quad Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "クワッドジャンプ"
+    }
+  ]
+]

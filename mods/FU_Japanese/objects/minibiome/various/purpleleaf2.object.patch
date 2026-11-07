@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tesh"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "技術"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術"
+    }
+  ]
+]

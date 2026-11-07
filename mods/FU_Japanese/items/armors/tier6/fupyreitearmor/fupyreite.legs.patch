@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Pyreite weapons: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, All Cold"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;パイライト 武器 : ダメージ x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:酸素、全冷え"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火砕岩墓"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A standard Peacekeeper couch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "標準的なピースキーパーのソファ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peacekeeper Couch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピースキーパーソファ"
+    }
+  ]
+]

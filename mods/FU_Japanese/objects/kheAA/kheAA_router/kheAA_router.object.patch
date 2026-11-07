@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Moves items between containers.\n^blue;Input^white;1^blue;: ^white;On/Off Switch\n^blue;Input^white;2^blue;: ^white;item network\n^red;Output: ^white;item network^reset;\n^red;Will not work when chained.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンテナ間で項目を移動します。\n^blue; 入力 ^white;1^blue; : ^white; スイッチをオフにします。\n^blue; 入力 ^white;2^blue; : ^white; 項目ネットワーク\n^red;出力: ^white;アイテムネットワーク ^reset;\n^red; 連鎖すると動作しません。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Transference Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテム転送装置"
+    }
+  ]
+]

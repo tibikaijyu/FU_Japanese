@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "No self-respecting cultist is without his robe. To make your upper garment, you must place seven Nocxium Bars, a Rune Wand and an Elder Fragment upon the altar and recite the incantation of Horvalaatsh."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "自尊心のあるカルト主義者は彼のローブを欠いている。 あなたの上着を作るには、あなたは祭壇の上に七ノクシウムバー、ルーンワンドと長老のフラグメントを置き、ホルヴァラーシュの呪文を暗唱する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cultists guide to torso-pants"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トルソパンツのカルトガイド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Proper Cult Wear - Torso"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "適切なカルトウェア - トルソ"
+    }
+  ]
+]

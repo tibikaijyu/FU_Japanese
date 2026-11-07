@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Poison Aura II"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "毒アウラII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet gets a poison aura!\n^green;+40%^reset; Poison Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは毒のオーラを得る!\n^green;+40%^reset; 耐毒性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Aura Collar II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒アウラコラーII"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cause of death thus far: undetermined. Autopsy for details."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これまでの死因は未定。 詳細は解剖。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cadaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天守"
+    }
+  ]
+]

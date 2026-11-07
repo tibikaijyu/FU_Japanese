@@ -1,0 +1,56 @@
+{
+  "source_manifest_sha256": "ac3853a15fe0a5ef19d80db5790ec8d480b617c6803bb3307376d2215a6867bd",
+  "patch_assets": 17,
+  "guarded_ui_groups": 21,
+  "japanese_static_labels": 29,
+  "japanese_static_unique_labels": 23,
+  "dynamic_title_widgets": 2,
+  "bitmap_files_modified": 0,
+  "input_callbacks_modified": 0,
+  "existing_control_positions_modified": 0,
+  "source_application_checks_passed": true,
+  "runtime_rendering_verified": false,
+  "related_runtime_hooks": [
+    {
+      "asset": "zb/questList/questList.lua",
+      "owner": "lua_localization.py",
+      "method": "Display-only localized titles and matching cover/title visibility."
+    },
+    {
+      "asset": "interface/scripted/sbvn/pandorasboxsbvngui.lua",
+      "owner": "prepare_sbvn_compat.py",
+      "method": "End-card background uses existing black background and native Japanese canvas text."
+    }
+  ],
+  "remaining_readable_labels": [],
+  "unused_texture_text": [
+    {
+      "asset": "interface/objectcrafting/dye.png",
+      "text": "DYE",
+      "reason": "No active parsed JSON references found in pinned FU."
+    },
+    {
+      "asset": "interface/crafting/fucraft.png",
+      "text": "CRAFT",
+      "reason": "No active parsed JSON references found in pinned FU."
+    },
+    {
+      "asset": "interface/crafting/icons/fu_generator.png",
+      "text": "Generator input/output instructions",
+      "reason": "No active parsed JSON references; live generators use /objects/power/fu_quantumgenerator/fu_generator.png and are covered."
+    }
+  ],
+  "retained_branding": [
+    {
+      "asset": "interface/title/FirstLogo.png",
+      "text": "STARBOUND / Powered by Frackin' Universe / official wiki URL",
+      "reason": "Brand names and destination URL retained."
+    },
+    {
+      "asset": "interface/scripted/sbvn/games/cthululove/title.png",
+      "text": "Beautiful Attempt!",
+      "reason": "Illustrated title/logo; titleScene foreground reference is commented out in pinned source."
+    }
+  ],
+  "scope_note": "Reviewed readable English in FU interface textures. Decorative world textures and unknown third-party mod images are outside this image inventory."
+}

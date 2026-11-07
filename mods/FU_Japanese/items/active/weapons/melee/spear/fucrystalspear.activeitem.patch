@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shimmering, beautiful death.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光り輝く美しい死。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶スピア"
+    }
+  ]
+]

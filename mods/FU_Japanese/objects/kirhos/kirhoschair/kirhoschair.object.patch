@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine chair made from carbon plating and core fragments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カーボンめっきとコアフラグメントから作られたファインチェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "司会のことば"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gun shoots poison!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この銃は毒を撃ちます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒鉄砲"
+    }
+  ]
+]

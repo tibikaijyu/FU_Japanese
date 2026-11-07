@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reach out and hit somebody."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かを叩きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fire Slime Tendrils III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火の粘りのある天蓋III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Fire Slime Tendrils ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "火のスライムテンドリル ^yellow;^reset;"
+    }
+  ]
+]

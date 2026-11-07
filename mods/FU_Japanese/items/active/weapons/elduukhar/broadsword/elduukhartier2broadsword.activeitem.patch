@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A greatsword crafted from crystal. The quality is not the best, but it gets the job done."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルから作られた大剣。 品質は最善ではありませんが、仕事は完了します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Emera Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エメラブロードソード"
+    }
+  ]
+]

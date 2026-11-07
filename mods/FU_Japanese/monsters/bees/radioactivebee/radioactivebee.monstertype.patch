@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A radioactive bee. Just one sting could give you superpowers.. or kill you!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性のミツバチ。 たった一つの刺し傷で超大国が生まれます. 殺してやる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radioactive Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射性蜂"
+    }
+  ]
+]

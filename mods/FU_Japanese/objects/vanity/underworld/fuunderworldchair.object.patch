@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cute in that corpulent sort of way..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あんな大胆な可愛い...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュチェア"
+    }
+  ]
+]

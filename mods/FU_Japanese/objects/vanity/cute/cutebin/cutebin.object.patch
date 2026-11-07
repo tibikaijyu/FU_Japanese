@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Garbage day!"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ガーベジデー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Trash."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ゴミ箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Trash. Just trash. Or is it? Answer: Cute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴミ箱。 ただのゴミ。 それとも? 答え:かわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty rubbish."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "かなり汚い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Unimpressed. Garbage."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感心しない。 ゴミ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Time to take out the trash!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ゴミ取りの時間です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Vile garbage."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "汚いゴミ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Ain't nothin' but trash."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ゴミばかりじゃない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Trash Bin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいゴミ箱"
+    }
+  ]
+]

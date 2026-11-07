@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Possessed by Richard Simmons. Unimaginably evil. And fit.\n^red;Insanity ^gray;(^white;1m^gray;)^reset;\n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リチャード・シモンズが所有。 ありえないほど悪。 そしてフィット。\n^red; 狂気 ^gray;(^white;1m ^gray;) ^reset;\n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crunchy Evil Chick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキー悪の女"
+    }
+  ]
+]

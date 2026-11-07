@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Poptop hums beautifully to confuse its prey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Poptopは獲物を混乱させるために美しくハムします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Micro Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロポップトップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from a Lasher plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラッシャー製の植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lasher Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レーザーホイップ"
+    }
+  ]
+]

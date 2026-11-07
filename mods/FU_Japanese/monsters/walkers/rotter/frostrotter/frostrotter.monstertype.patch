@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A half-dead, horrible thing. It wants to mate with your skull."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半分死んだ、恐ろしいものです。 頭蓋骨と交尾したい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Rotter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロスト・ロッター"
+    }
+  ]
+]

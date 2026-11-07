@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter D."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字D。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter D"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手紙D"
+    }
+  ]
+]

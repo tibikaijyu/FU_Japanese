@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;EMERGENCY USE ONLY!^reset;\nRemove all objects from ship, then place this and break it to reset ship stats."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red;緊急時のみご利用!^reset;\n船からすべてのオブジェクトを削除し、これを配置し、船の状態をリセットするためにそれを破ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FUBYOS Ship Stat Resetter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FU自由建造船の能力値初期化装置"
+    }
+  ]
+]

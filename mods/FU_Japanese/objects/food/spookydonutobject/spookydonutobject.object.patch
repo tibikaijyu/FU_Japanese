@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Too spooky."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不気味すぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "No way! Floran is the ssspookiest one here for sure!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "まさか! フローランは確かにここで最も不気味なものです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Puzzled. What could be so terrifying about these donuts? Other than the sugar content, at least."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "パズル。 ドーナツが怖いのはなぜでしょうか? 少なくとも、糖分以外は。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "#2spooky4me"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "#2スプーキー4私も"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I ain't scared of a li'l fried dough."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "揚げ物が怖くない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spooky Donuts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドナツ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This math is so outlandish as to be offensive. It's also *right*."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この数学はとても突飛なので、攻撃的である。 それはまた*正しい*です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unimaginable Equations"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "想像できない方程式"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I'm not much of a scientist... so umm take this."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私は科学者というよりは...それで、これを見てください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;f4 Energy Rifle^reset; to the Novakid by the crew sign at the ^orange;Science Outpost^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;f 4Energy ライフル ^reset;を、^orange;科学前哨基地^reset;のクルーサインでノヴァキッドに持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I keep getting devoured on this planet! It sucks! Could you build me an ^orange;F4 Energy Rifle^reset; to help me survive? I'd compensate you well enough..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はこの惑星に飲み込まれ続けています! くそっ! ^orange;F4Energy ライフル^reset;を作れませんか? 君に十分報いるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Pew Pew"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ピューピュー"
+    }
+  ]
+]

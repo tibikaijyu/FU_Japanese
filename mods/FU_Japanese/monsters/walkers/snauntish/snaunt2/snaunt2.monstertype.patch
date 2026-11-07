@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Twice as annoying as the lesser type of its kind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "下位の同族と比べて、二倍も厄介だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vile Snaunt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴィール・スヌート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Share your cold feelings.\n^cyan;Inflicts Freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷たい気持ちを分かち合う。\n^cyan;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイソゲンナイフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#7f2282;Glow^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; Bio/Blister Weapons: +^green;2^reset;% Crit Chance, Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Proto-Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#7f2282;発光^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; バイオ/ブリスター武器:+^green;2^reset;% 危機的状況と被害x^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;毒、原毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスター・ヘルム"
+    }
+  ]
+]

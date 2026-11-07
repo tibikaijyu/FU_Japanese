@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A numeric security keypad that requires a specific combination."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定の組み合わせが必要な数値セキュリティキーパッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Numeric Keypad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "数値キーパッド"
+    }
+  ]
+]

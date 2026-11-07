@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Tentacle Burst"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "触手噴出"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This creation fires controlled shadow threads. Weird.\n^cyan;Debilitating debuffs. Elder/Bio^reset;\n^green;alt-fire Dooms enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この作成は制御されたシャドウスレッドを発射します。 すごい。\n^cyan;デバッフィングデバッフィング。 年長者・バイオ^reset;\n^green;アルトファイア敵を倒す^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Lurch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウランチ"
+    }
+  ]
+]

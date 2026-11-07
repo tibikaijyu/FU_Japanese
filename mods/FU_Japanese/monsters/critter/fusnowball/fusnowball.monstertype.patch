@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Their loathing of the Fireballs is unmatched."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファイアボールに対する彼らの嫌悪感は比類のないものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icewalker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスウォーカー"
+    }
+  ]
+]

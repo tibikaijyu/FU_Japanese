@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Interesting. A floating light source? What powers it?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "興味深い。 浮遊光源? 何の力ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Light Orb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆光オルブ"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Phew, that was quite a jaunt through the temple. Did I manage to find all the secret treasure?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ふむ、それはお寺の中をぐるぐる歩いていきました。 秘密の宝物は全部見つけられましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Go to the Ancient Temple and explore it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "古代の寺院に行って、それを探索してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map shows me the coordinates to an ancient Avian temple in the desert wilderness."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図は砂漠の荒野にある古代アヴィアン寺院との座標を示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Ancient Temple"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;古代寺院。"
+    }
+  ]
+]

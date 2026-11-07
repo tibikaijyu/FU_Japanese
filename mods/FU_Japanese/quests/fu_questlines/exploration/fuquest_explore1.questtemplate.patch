@@ -1,0 +1,494 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You did it! That was the last clue we needed. I know just where the Floran artifact is now."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "やったぞ! それが最後の手がかりでした。 フロランの遺物が今どこにあるかはわかっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findClues",
+      "value": "^green;Scan objects^reset; to find ^orange;Floran clues^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findClues",
+      "value": "^green;オブジェクトをスキャン^reset; 見つけるために ^orange;フローランの手がかり^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Esther^reset; at the ^orange;Ark^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;エステル^reset; では ^orange;アーク^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/complete/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/complete/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/complete/text",
+      "value": "Wonderful - I believe I now know just where the Artifact might be! ^#71f2f6;Come and meet me back at the Ark when you're ready^reset;, dear."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/complete/text",
+      "value": "素晴らしい - 私は今、人工物がどこにあるかもしれないか知っていると思います! ^#71f2f6;準備が整ったら、アークで会いに来てください。^reset;やあ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/0/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/0/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/0/text",
+      "value": "Hmmm, how curious... I need to cross-reference this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/0/text",
+      "value": "うーん、何て不思議な... これを相互参照する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/1/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/1/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/1/text",
+      "value": "Hm, I wonder..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/1/text",
+      "value": "うーん、なんだろう......。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/2/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/2/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/2/text",
+      "value": "The Floran don't pay much attention to history, but they greatly value tradition. It's helpful to build a picture of the culture."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/2/text",
+      "value": "フローランは歴史にはあまり注意を払っていませんが、彼らは非常に伝統を大切にします。 文化の絵を作るのが役に立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/3/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/3/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/3/text",
+      "value": "A clue of small implication, but relevant nonetheless!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/3/text",
+      "value": "小さな意味のヒントですが、それでも関連性があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/4/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/4/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/4/text",
+      "value": "Violence reigns in Floran culture - sometimes disorderly, sometimes organised in nature."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/4/text",
+      "value": "フィレンツェの文化における暴力は、時には乱れ、時には自然の中で組織される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/5/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/5/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/5/text",
+      "value": "This confirms something that I had speculated upon!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/5/text",
+      "value": "これは私が推測していたことを裏付けるものです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/6/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/6/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/6/text",
+      "value": "Interesting find! Keep going, you're doing well!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/6/text",
+      "value": "興味深い発見! 続けて、あなたはうまくいっています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/7/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/7/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/7/text",
+      "value": "Interesting that they should value such an item, and display it in this way."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/7/text",
+      "value": "そのようなアイテムを価値として評価し、このように表示するのが興味深い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/8/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/8/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/8/text",
+      "value": "How peculiar! But surprising information can be even more valuable than expected information..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/8/text",
+      "value": "なんて珍しいのだろう。 でも、意外な情報は、予想される情報よりもさらに価値がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/9/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/9/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/genericProgress/9/text",
+      "value": "Every clue gets us closer!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/genericProgress/9/text",
+      "value": "すべての手がかりが私たちを近づけます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/startAlreadyComplete/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/startAlreadyComplete/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/startAlreadyComplete/text",
+      "value": "You're quite the collector of Floran antiquities! It appears you've already located enough clues to to allow me to identify the location of the Artifact!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/startAlreadyComplete/text",
+      "value": "あなたはフローランの古物のコレクターです! あなたはすでに私が人工物の位置を特定することができるように十分な手がかりを見つけているようです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/startWithProgress/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/startWithProgress/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/startWithProgress/text",
+      "value": "It appears you've already found some items that provide clues towards the artifact's whereabouts. I'll begin my analysis on these while you search for more!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/startWithProgress/text",
+      "value": "アーティファクトの所在に関するヒントを提供するいくつかのアイテムがすでに見つかったようです。 もっと探す間、これらの分析を開始します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/championspeardisplay/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/championspeardisplay/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/championspeardisplay/text",
+      "value": "Traditional Floran culture places great importance on their hunts and their hunters... I'm certain that will have an impact upon the location of their artifact.'."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/championspeardisplay/text",
+      "value": "伝統的なフローラン文化は狩猟と狩猟者にとって非常に重要視されています。 私はそれが彼らの人工物の位置に影響を与えると確信しています。'."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranhunterpainting/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranhunterpainting/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranhunterpainting/text",
+      "value": "This image depicts a Floran hunter, their garb seems almost ceremonial."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranhunterpainting/text",
+      "value": "この画像は、フローランハンター、彼らの衣服はほとんど式典のようですを描きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranspinneret/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranspinneret/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranspinneret/text",
+      "value": "This spinneret is unusually large - what kind of creature could support such an organ? This is evidently a prized trophy. I wonder..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranspinneret/text",
+      "value": "このスピナレットは異常に大きい - どのような生物がそのような器官をサポートすることができるか? これは明らかに貴重なトロフィーです。 なんだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranwebbing/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranwebbing/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranwebbing/text",
+      "value": "This glutinous webbing is of unusual hue and texture. The species that produced it must be unique in its characteristics, and probably limited in its environment."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/floranwebbing/text",
+      "value": "この光沢のあるウェビングは、珍しい色合いと質感です。 生産した種は、その特性においてユニークでなければならず、おそらくその環境において限定的である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/ixolingpike/senderName",
+      "value": "Esther"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/ixolingpike/senderName",
+      "value": "エステル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/ixolingpike/text",
+      "value": "The creature that these remains belonged to aren't native to this area - I'll look through my taxonomic records and see if I can discover its origins and importance."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/radioMessages/uniqueProgress/ixolingpike/text",
+      "value": "これらの残存する生物は、この地域に固有のものではありません - 私は私の分類学的な記録を調べ、その起源と重要性を発見することができるかどうかを確認します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now that you're familiar with scanning, ^green;we need to start finding these ^orange;artifacts^reset;, dear. Yes, the Floran one first... Their colonies will contain vital ^orange;clues^reset; to its whereabouts. Floran live all over nowadays, but still prefer the dense ^orange;Forest^reset; vegetation of planets found around ^orange;Gentle stars^reset;. Good luck dear, and thank you."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "スキャンに慣れ親しんだら、^green; は、これらの ^orange; アーティファクト ^reset; を見つけ始める必要があります。 はい、フローランが最初に一つ。 彼らのコロニーは、その位置へのバイタル^orange;手がかり^reset;を含んでいます。 フローランは、今日も生きていますが、まだ^orange;森林^reset;惑星の密集した^orange;ジェントルスター^reset; の植生を好みます。 幸運を祈る、そしてありがとう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Find Clues to Locate the Floran Artifact"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "花のアーチファクトを見つけるためのクロースを見つける"
+    }
+  ]
+]

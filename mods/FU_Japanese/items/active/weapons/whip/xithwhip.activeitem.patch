@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Opens cosmic rifts to summon stabby blades.\n^cyan;Inflicts Minor Vulnerability^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙リフトを開き、刺さった刃を召喚します。\n^cyan;マイナーな脆弱性に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Blade-lash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ブレードラッシュ"
+    }
+  ]
+]

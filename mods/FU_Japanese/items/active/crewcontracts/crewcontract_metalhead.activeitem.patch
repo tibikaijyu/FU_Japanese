@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dude. 4% reduced fuel costs. Rock on."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "男。 4%燃料コストを削減。 ロックオン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "80s Metalhead Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "80s メタルヘッド契約"
+    }
+  ]
+]

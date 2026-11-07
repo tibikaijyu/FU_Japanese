@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Extreme Cold, Moderate Heat, Mild Radiation/Poison/Proto, L.Nitro\n^cyan;+14%^reset; Armor, ^red;-10%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:極寒、中程度の熱、軽度の放射線/毒/プロト、L.ニトロ\n^cyan;+14%^reset;防具、^red;-10%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shockhopper Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショッキングホッパーメカボディ"
+    }
+  ]
+]

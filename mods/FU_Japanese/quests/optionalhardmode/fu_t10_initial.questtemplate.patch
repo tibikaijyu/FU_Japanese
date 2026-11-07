@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You gonna help mew? YAY! Can provide more beacons for shiny, if you can't manage first try."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "手伝ってくれる? やった! あなたが最初の試みを管理することができない場合、光沢のあるビーコンをより多く提供することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/conditions/0/description",
+      "value": "Bring ^orange;<itemName>^reset;: ^green;<current> / <required>^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/conditions/0/description",
+      "value": "^orange;<itemName>^reset;: ^green;<current> / <required>^reset; を持参します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Mew. Need help. See Kevin? New copy from terminal. Nobody noticed lack of corpse yet. Have temporo-spatial beacons to universe where he went, don't ask how. Help find traces, find what happened.\n^red;This begins the optional, tier 10, hard mode for Frackin Universe and Vanilla dungeons. It is designed to be a form of challenge for those who have reached the heights of what FU offers.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "新しい。 助けが必要なのです ケビン? ターミナルからの新しいコピー。 誰もまだ死体の不足に気付かなかった。 時空間ビーコンを宇宙のどこに行ったのか、どうしようもない。 トレースを見つけ、何が起きたかを見つけましょう。\n^red;オプションで開始します ティア 10Frackin Universeとバニラダンジョン用のハードモード。 FUが提供するものの高さに到達した人のための挑戦の形態であるように設計されています。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Khe's Quest"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クエスト"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A station to heal pets, robots and...others."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットやロボットを癒すステーション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Mutari Healing Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; Mutariヒーリングステーション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "For dead pets, broken bots, and more."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "死んだペット、壊れたボットなど。"
+    }
+  ]
+]

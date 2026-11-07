@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Old weakened metal.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い弱った金属。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ready to sssnap."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スナップする準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alarm. This metal makes me uncomfortable."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "アラーム。 この金属は私を不快にさせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brittle Metal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "脆性金属"
+    }
+  ]
+]

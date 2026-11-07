@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With the ^orange;Apiary Crafting Station^reset;, you'll be able to craft a whole new array of goods you've likely not seen before!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;養蜂場 製作 ステーション ^reset;を使用すると、今まで見たこともない全く新しい商品が作れます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Care to try a simpler life, ^green;breeding bees^reset; and reaping the profits? Build an ^orange;Apiary Crafting Station^reset; and you can get started."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;養蜂ミツバチ^reset; よりシンプルな生活に挑戦し、利益を得られるようにしましょう。 ^orange;養蜂場 製作 ステーション^reset; をビルドすると、起動します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Beekeeping 101"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "養蜂 101"
+    }
+  ]
+]

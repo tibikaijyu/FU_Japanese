@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged from carbon. Bolstered by rage.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素から鍛造する。 怒りで盛り上がっている。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長刀"
+    }
+  ]
+]

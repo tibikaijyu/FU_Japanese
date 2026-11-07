@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A commoner's skirt and sandals. Gives +^green;0.3^reset; Health Regen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "庶民のスカートとサンダル。体力再生+^green;0.3^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plebeian Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレビアンスカート"
+    }
+  ]
+]

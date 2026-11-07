@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sandprowler bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サンドプロウラーの蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sandprowler Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンドプロウラービー"
+    }
+  ]
+]

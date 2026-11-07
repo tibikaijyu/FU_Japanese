@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fractal patterns swirl within a red crystalline sphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フラクタルパターンは、赤い結晶圏内で旋回します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Valtan Casing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;バルタンケーシング^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar bed, now you can sleep on the stars rather than under them."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星のベッド、今、あなたはそれらの下にではなく、星の上で眠ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "安園ベッド"
+    }
+  ]
+]

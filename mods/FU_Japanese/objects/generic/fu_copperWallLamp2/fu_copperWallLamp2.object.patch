@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wide wall-mounted lamp made from copper."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製の広い壁掛けランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wide Copper Wall Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "広壁ランプ"
+    }
+  ]
+]

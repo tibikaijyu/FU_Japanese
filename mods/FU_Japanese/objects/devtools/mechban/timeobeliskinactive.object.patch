@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despawns all mechs in range."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "範囲内のすべての機械を産出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FU Mech Ban Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FUメカバンピラー"
+    }
+  ]
+]

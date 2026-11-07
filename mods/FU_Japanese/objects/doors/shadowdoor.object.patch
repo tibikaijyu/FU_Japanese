@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door looks like it could be opened with a heavy explosive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアは重爆で開けられるみたいだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Missile Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミサイルドア"
+    }
+  ]
+]

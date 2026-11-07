@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Greg"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "グレッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unupgraded Skittles. You should try it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アップグレードされていないスキットル。 試してみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skittles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "子犬"
+    }
+  ]
+]

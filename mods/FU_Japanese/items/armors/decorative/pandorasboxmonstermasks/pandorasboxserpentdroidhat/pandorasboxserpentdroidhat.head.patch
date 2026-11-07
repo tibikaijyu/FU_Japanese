@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "We used some robots from some abandoned bunkers to make these hats... Not like they were being used for anything else anyway."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "捨てられたバンカーのロボットを使って、この帽子を作った。 とにかく他のものに使われていたとは言えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Serpentdroid Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘビドロイドマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hurt it! Kill it! Show no mercy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "急げ! 殺せ! 慈悲を示さないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Punchy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンチー"
+    }
+  ]
+]

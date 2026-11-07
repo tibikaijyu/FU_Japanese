@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The drink of the Gods.\n^cyan;+^white;70 ^red;HP^gray;, ^red;Drunk^gray;, ^green;Heal ^white;125 ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神々の飲み物。\n^cyan;+^white;70 ^red;HP^gray;, ^red;酒^gray;, ^green;癒し ^white;125 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ambrosia"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンブロシア"
+    }
+  ]
+]

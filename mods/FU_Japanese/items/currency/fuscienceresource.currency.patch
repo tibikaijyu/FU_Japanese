@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compiled research, notes and knowledge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究、メモ、知識をまとめました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Research"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究"
+    }
+  ]
+]

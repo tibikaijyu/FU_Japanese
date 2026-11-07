@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/deed/grumbleText/enclosedArea",
+      "value": "Area not enclosed"
+    },
+    {
+      "op": "replace",
+      "path": "/deed/grumbleText/enclosedArea",
+      "value": "区域は囲まれていない"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/deed/grumbleText/notByos",
+      "value": "BYOS only"
+    },
+    {
+      "op": "replace",
+      "path": "/deed/grumbleText/notByos",
+      "value": "BYOSのみ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/deed/grumbleText/notShip",
+      "value": "Must be placed on your ship"
+    },
+    {
+      "op": "replace",
+      "path": "/deed/grumbleText/notShip",
+      "value": "船上に置く必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/deed/grumbleText/otherDeed",
+      "value": "Another deed in room"
+    },
+    {
+      "op": "replace",
+      "path": "/deed/grumbleText/otherDeed",
+      "value": "部屋で別の行為"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/deed/grumbleText/tagCriteria",
+      "value": "Requires <tagAmount> more tiles of <tagName> objects"
+    },
+    {
+      "op": "replace",
+      "path": "/deed/grumbleText/tagCriteria",
+      "value": "必須 <tagAmount> より多くのタイル <tagName> オブジェクト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Place in an enclosed building with at least one door, a light source and some furniture to gain ^yellow;Crew +1^reset;! ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "少なくとも一つのドア、光源、いくつかの家具を備えた囲まれた建物に入れれば、^yellow;船員+1^reset;! ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^yellow;Crew Deed (Tiny, Invis)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^yellow;船員契約書（極小・不可視）^reset;"
+    }
+  ]
+]

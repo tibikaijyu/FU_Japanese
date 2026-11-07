@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sickening countenance looms behind this small-town painting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この小さな町の絵の後ろには病的な顔が浮かび上がっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Home of the Strange"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙の故郷"
+    }
+  ]
+]

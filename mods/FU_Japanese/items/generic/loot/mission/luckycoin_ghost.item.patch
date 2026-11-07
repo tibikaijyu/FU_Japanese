@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slightly ethereal coin engraved with the image of a boatman. ^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船乗りのイメージが刻まれた、少しエステ的なコイン。 ^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost Coin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴーストコイン"
+    }
+  ]
+]

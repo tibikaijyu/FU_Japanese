@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Frostrunner"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "フロストランナー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A majestic deer-like creature native to cold places."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寒冷地原産の雄大な鹿のような生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frostrunner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストランナー"
+    }
+  ]
+]

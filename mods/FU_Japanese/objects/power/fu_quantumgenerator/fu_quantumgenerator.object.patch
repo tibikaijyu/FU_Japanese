@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unmatched clean energy up to ^orange;620W^reset;. Fuel type will decide power output. ^orange;Heats up, heat increases output.^reset; ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;620W^reset;までクリーンエネルギー。 燃料タイプで出力が決まります。 ^orange; 加熱すると、熱は出力を増加します。^reset; ^blue;左入力^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Quantum Reactor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;量子反応炉^reset;"
+    }
+  ]
+]

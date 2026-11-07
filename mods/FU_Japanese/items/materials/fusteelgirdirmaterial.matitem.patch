@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A girder made of steel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋼製の桁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼桁"
+    }
+  ]
+]

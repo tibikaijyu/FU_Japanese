@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enough people drink this that it comes in cartons?\n^red;-^white;5% ^red;HP ^gray;& ^red;Damage^gray;, ^cyan;+^white;5% ^cyan;Run^gray;, ^cyan;+^white;8% ^cyan;Jump^gray;, ^cyan;Increased Air Force ^gray;(^white;1m^gray;)^reset; ^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カートンで飲めば十分?\n^red;-^white;5% ^red;HP ^gray;& ^red;被害^gray;, ^cyan;+^white;5% ^cyan;走り^gray;, ^cyan;+^white;8% ^cyan;ジャンプ^gray;, ^cyan;空軍の増員 ^gray;(^white;1え?^gray;)^reset; ^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sour Milk and Bees"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サワーミルクと蜂"
+    }
+  ]
+]

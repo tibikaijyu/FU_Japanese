@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A specialized turret designed to harvest farmbeasts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家畜を収穫するための特殊なタレットです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Farmbeast Harvester Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "農獣ハーベスタータレット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Automatic Harvesting"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "自動収穫"
+    }
+  ]
+]

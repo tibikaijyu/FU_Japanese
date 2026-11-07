@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into crystalline plain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を結晶平原に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Plains Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶平野マイクロフォーマ"
+    }
+  ]
+]

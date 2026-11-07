@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A clock to tell time. Useful underground when the sun can kill you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "時間を伝える時計。 太陽があなたを殺せるなら、地下で役に立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Clock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間時計"
+    }
+  ]
+]

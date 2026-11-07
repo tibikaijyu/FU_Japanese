@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/materialList/children/materials/schema/listTemplate/text/value",
+      "value": "Something is broken...."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/materialList/children/materials/schema/listTemplate/text/value",
+      "value": "何かが壊れている...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Information about the terrain"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " 地形情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " GPS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 惑星情報 GPS"
+    }
+  ]
+]

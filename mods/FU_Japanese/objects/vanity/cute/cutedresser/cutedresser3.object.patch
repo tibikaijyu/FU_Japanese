@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute closet"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいクローゼット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Closet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいクローゼット"
+    }
+  ]
+]

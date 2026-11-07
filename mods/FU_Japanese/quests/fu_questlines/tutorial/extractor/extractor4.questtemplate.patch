@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You're doing great. As a thanks, take this. It's rare, but it might come in handy some day."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よくやっているね。お礼にこれをあげよう。珍しい物だけど、いつか役立つかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Tissue Culture^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;培養組織^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Plant Fibre^reset; is plentiful enough that extracting some for a little ^green;tissue culture^reset; won't hurt. Bring me 5."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;植物繊維^reset;はたくさんあるから、少しくらい抽出に使って^green;培養組織^reset;にしても困らないはずだ。5個持ってきてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Extractor IV"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出機 IV"
+    }
+  ]
+]

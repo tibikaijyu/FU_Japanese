@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Built to cut through hulls. Energy weapon.\n^cyan;Short range. Slows target.^reset;\n^green;Alt-Fire causes bleed, electrified^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船体を切り抜けるために作られた。 エネルギー兵器。\n^cyan; 短距離。 スローターゲット。^reset;\n^green;副射撃 は出血、電化 ^reset; を引き起こす"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Cutter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリーチカッター"
+    }
+  ]
+]

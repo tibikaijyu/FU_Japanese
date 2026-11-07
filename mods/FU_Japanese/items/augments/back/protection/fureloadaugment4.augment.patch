@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Reloader IV"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "リローダーIV"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Decreases weapon reload time by -0.4s."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器のリロード時間を -0.4s で短縮します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reloader IV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リローダーIV"
+    }
+  ]
+]

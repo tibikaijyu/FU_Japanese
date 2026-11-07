@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stops transmitting signals for a quarter of a second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブになるたびに、四分の一秒間信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Stopsss transssmitting sssignalsss for a quarter of a sssecond whenever it becomesss active."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "作動するたびに、4分の1秒だけ信号を止めるっす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. Stops transmitting signals for a quarter of a second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 アクティブになるたびに、四分の一秒間信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inv. Quarter-Sec. Pulse Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インヴ。 クォーターセック。 パルストランスミッタ"
+    }
+  ]
+]

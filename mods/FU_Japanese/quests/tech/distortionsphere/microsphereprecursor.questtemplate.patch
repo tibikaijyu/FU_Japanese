@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've uncovered a unique tech! The Precursor Microsphere! You get wall-cling, increased movement speed, and pressing ^green;[FIRE]^reset; will cause a Repulsor Blast that stuns and pushes enemies. It has been equipped."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ユニークな技術を発見しました! マイクロスフィアの前身! 壁の固まり、移動速度が上昇し、押すと^green;[炎]^reset;は敵をスタントして押す反発器ブラストを引き起こします。 装備されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've uncovered a unique tech! The Precursor Microsphere! You get wall-cling, increased movement speed, and pressing ^green;[FIRE]^reset; will cause a Repulsor Blast that stuns and pushes enemies. It has been equipped."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ユニークな技術を発見しました! マイクロスフィアの前身! 壁の固まり、移動速度が上昇し、押すと^green;[炎]^reset;は敵をスタントして押す反発器ブラストを引き起こします。 装備されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Precursor Microsphere"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "前駆体マイクロスフィア"
+    }
+  ]
+]

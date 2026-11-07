@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A revolting bio-weapon.\n^cyan;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "革命的な生物兵器。\n^cyan; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshweave Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュウィーブ大軸"
+    }
+  ]
+]

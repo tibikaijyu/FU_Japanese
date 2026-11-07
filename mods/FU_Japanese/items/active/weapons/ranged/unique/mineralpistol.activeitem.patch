@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny version of its larger cousins. Always handy.\n^yellow;Destroys tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大型の従兄弟の小さなバージョン。 いつも便利。\n^yellow;瓦の破壊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子ピストル"
+    }
+  ]
+]

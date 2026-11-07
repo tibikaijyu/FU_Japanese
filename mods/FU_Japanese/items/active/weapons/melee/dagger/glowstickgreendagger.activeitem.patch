@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "PLUR"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "平和・愛・団結・敬意（PLUR）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowstick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グロースティック"
+    }
+  ]
+]

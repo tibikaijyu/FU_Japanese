@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Constantly searching for bleach."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "漂白剤を常に探しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gu's Slime Tendrils"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Guのスライムテンドリル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Gu's Slime Tendrils ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Guのスライムテンドリル ^yellow;^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A exspiravit bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂を吸う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exspiravit Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチ"
+    }
+  ]
+]

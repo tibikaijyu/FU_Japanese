@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It...shoots a cookie.\n^cyan;Breaks blocks...somehow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは...クッキーを撃つ。\n^cyan;ブロックを壊す...何とか^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cookie Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキー・ストライカー"
+    }
+  ]
+]

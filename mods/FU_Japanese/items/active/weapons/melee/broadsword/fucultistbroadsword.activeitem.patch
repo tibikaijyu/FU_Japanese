@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged from carbon.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素から鍛造する。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "文化大剣"
+    }
+  ]
+]

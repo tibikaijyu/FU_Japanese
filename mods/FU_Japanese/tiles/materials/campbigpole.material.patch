@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A really immovable stick in the mud."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "泥の中の本当に動かない棒。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Big Tent Pole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビッグテントポール"
+    }
+  ]
+]

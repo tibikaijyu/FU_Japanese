@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Wand/Staff: Mastery +^green;22^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ワンド/杖: 習熟度+^green;22^reset;%\n^yellow;^reset; ^cyan;免疫^reset;毒"
+    }
+  ]
+]

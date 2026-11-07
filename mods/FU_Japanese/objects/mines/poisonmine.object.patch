@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A land mine, it could still be active."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "地雷、それはまだアクティブである可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Uh oh! I do not want to step on this."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "うわっ! 私はこれを踏み出したくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Watch your step, this looks explosive!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのステップを見て、これは爆発的に見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Watch your ssstep!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "あなたのステップに注意してください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. An active land mine, I had better be careful."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 活発な地雷なので、私は注意したほうがよい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I don't want to risk it, this thing could still go off."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "リスクを冒したくないのに、まだうまくいかないかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Land mines, smaller than sea mines but still lethal."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "地雷、海雷よりも小さいが、まだ致命的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This thing could still blow!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これはまだ吹くことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Military Land Mine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "軍事地雷"
+    }
+  ]
+]

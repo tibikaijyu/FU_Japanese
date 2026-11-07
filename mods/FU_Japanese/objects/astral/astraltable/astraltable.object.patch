@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar table, perfect for table top gaming or sacrifices to the old ones."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卓上ゲームや古いものに犠牲に最適な星型テーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天卓"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ghostly as a spirit.\n^cyan;Inflicts Caliginous Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "霊としての幽霊。\n^cyan;カリジンガスの影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phantasm Greatblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンタズムグレートブレード"
+    }
+  ]
+]

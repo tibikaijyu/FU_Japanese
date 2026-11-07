@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impossibly precise."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど正確。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Microparticle Brush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "微粒子ブラシ"
+    }
+  ]
+]

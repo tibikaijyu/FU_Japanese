@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple yet substantial salad of eggshoot and feathercrown."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卵と羽冠のシンプルながら充実したサラダ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Not eggsss. But close enough."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "卵じゃない。 しかし、十分に近い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Knowledgeable. Eggshoot make for a fine substitute for actual eggs."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "知識がある。 エッグシュートは、実際の卵に替わる良いものになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This salad even looks feathery!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このサラダは羽のような感じです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eggshoot Salad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エッグシュートサラダ"
+    }
+  ]
+]

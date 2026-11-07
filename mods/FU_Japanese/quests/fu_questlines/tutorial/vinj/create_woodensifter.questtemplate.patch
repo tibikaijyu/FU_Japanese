@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Sifters are terribly inefficient and slow, so as soon as you can I advise upgrading to a ^orange;Powder Sifter^reset; at an Electronics Center."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ふるい機はとても非効率で遅い。できるだけ早く、電子工作台で作れる^orange;粉末ふるい機^reset;にアップグレードすることを勧めるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Make a ^green;Sifter^reset; at your ^orange;Electronics Center^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;ふるい機^reset;を^orange;電子工作台^reset;で作る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you have stacks of loose grit like ^orange;silt^reset;, ^orange;Gravel^reset; or ^green;other powdery materials^reset; then just toss them in a ^orange;Sifter^reset; and you can pull resources right out of them! Build a ^orange;Sifter^reset; when you can do so."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;シルト^reset;や^orange;砂利^reset;、^green;その他の粉状の素材^reset;がたくさんあれば、^orange;ふるい機^reset;に入れるだけで資源を取り出せる！ 可能になったら^orange;ふるい機^reset;を作ってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Sifting"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ふるいにかけよう"
+    }
+  ]
+]

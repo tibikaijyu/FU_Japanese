@@ -1,0 +1,292 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/cancel/caption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/cancel/caption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelCasualMode/value",
+      "value": "CASUAL"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelCasualMode/value",
+      "value": "カジュアル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelCustomise/value",
+      "value": "^#8d8d8d;CUSTOMISE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelCustomise/value",
+      "value": "^#8d8d8d;外見"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelDifficulty/value",
+      "value": "^#8d8d8d;DIFFICULTY"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelDifficulty/value",
+      "value": "^#8d8d8d;難易度"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelFemale/value",
+      "value": "^#8d8d8d;FEMALE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelFemale/value",
+      "value": "^#8d8d8d;女性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelHardcoreMode/value",
+      "value": "HARDCORE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelHardcoreMode/value",
+      "value": "ハードコア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelMale/value",
+      "value": "^#8d8d8d;MALE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelMale/value",
+      "value": "^#8d8d8d;男性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelName/value",
+      "value": "^#8d8d8d;NAME"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelName/value",
+      "value": "^#8d8d8d;名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelPortrait/value",
+      "value": "HUMAN"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelPortrait/value",
+      "value": "ヒューマン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelRandomise/value",
+      "value": "RANDOMISE:"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelRandomise/value",
+      "value": "ランダム："
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelSpeciesRadio/value",
+      "value": "^#8d8d8d;SPECIES"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelSpeciesRadio/value",
+      "value": "^#8d8d8d;種族"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelSpeciesRadio2/value",
+      "value": "^#8d8d8d;SPECIES"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelSpeciesRadio2/value",
+      "value": "^#8d8d8d;種族"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelSurvivalMode/value",
+      "value": "SURVIVAL"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelSurvivalMode/value",
+      "value": "サバイバル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/labelToggleClothing/value",
+      "value": "Show clothing"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/labelToggleClothing/value",
+      "value": "服を表示"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSkipIntro/value",
+      "value": "Skip intro mission"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSkipIntro/value",
+      "value": "導入をスキップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/mode/buttons/0/data/description",
+      "value": "No need to eat and no death penalties."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/mode/buttons/0/data/description",
+      "value": "食事不要。死亡ペナルティもありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/mode/buttons/1/data/description",
+      "value": "Eat to survive, drop items on death."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/mode/buttons/1/data/description",
+      "value": "生存には食事が必要です。死亡するとアイテムを落とします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/mode/buttons/2/data/description",
+      "value": "Hunger. Death: Lose 50% pixels, drop ^red;ALL^reset; items."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/mode/buttons/2/data/description",
+      "value": "空腹あり。死亡時：ピクセルを50%失い、^red;すべて^reset;のアイテムを落とします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/mode/buttons/2/data/description",
+      "value": "When you die your character stays dead!"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/mode/buttons/2/data/description",
+      "value": "死亡すると、そのキャラクターは復活できません！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/name/hint",
+      "value": "Name"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/name/hint",
+      "value": "名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/saveChar/caption",
+      "value": "Done"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/saveChar/caption",
+      "value": "完了"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/background/fileBody",
+      "value": "/interface/title/charactercreation.png"
+    },
+    {
+      "op": "add",
+      "path": "/paneLayout/fuJapaneseCharacterCreationCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=102f64ff?scalenearest=165;14",
+        "position": [
+          179,
+          329
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/paneLayout/fuJapaneseCharacterCreationTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          261.5,
+          336.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 10,
+        "value": "キャラクター作成",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

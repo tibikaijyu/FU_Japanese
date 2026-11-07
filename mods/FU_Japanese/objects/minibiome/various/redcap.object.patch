@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Redcap Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アカガサキノコ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Redcap Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アカガサキノコ"
+    }
+  ]
+]

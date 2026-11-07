@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NXOR'/ gate. Requires all inputs to be either /'on'/ or /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NXOR /ゲート。 すべての入力は /'on'/ または /'off'/ のいずれかで動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A /'NXOR'/ gate. Requiresss all inputsss to be either /'on'/ or /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "NXOR /ゲート。 すべての入力は /'on'/ または /'off'/ のいずれかで動作するように要求します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. A /'NXOR'/ gate. Requires all inputs to be either /'on'/ or /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 NXOR /ゲート。 すべての入力は /'on'/ または /'off'/ のいずれかで動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NXOR Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隣の門"
+    }
+  ]
+]

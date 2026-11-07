@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "^cyan;Jelly Lump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "^cyan;ゼリーの塊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gain ^cyan;Bouncy^reset; Status and Fall Damage Immunity\nHealth x^green;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゲイン^cyan;バウンシー^reset;ステータスとフォールダメージ免疫能\n健康x^green;1.25^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Jelly Lump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ゼリーの塊^reset;"
+    }
+  ]
+]

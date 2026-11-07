@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This unsettling mask it eerily cheery. It gazes back."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この落ち着かないマスクはとても陽気だ。 振り返って見ます"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Creepy Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリーピーマスク"
+    }
+  ]
+]

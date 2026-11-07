@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Full of scorchy fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーシーな楽しみがいっぱい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Fire Aura"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "火の雰囲気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Orbs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルファイアオーブ"
+    }
+  ]
+]

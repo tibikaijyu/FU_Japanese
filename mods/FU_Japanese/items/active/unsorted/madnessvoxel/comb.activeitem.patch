@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This comb exudes unimaginable menace."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このくしは想像もつかない脅威をかき消す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Comb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "くし"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Places a large donkey in your inbox ^green;[F]^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなロバを受信トレイに入れます。 ^green;[F]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Durrstortin Circle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ダラストルティン円"
+    }
+  ]
+]

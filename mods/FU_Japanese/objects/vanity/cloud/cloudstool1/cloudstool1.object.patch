@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stool made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られたスツール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Stool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドツール"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made of red bees wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤いミツバチのワックスで作られたプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドワックスプラットフォーム"
+    }
+  ]
+]

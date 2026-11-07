@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rusty nail pistol! Super fun!\n^yellow;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "錆びたネイルピストル! 超楽しい!\n^yellow;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crank Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クランクピストル"
+    }
+  ]
+]

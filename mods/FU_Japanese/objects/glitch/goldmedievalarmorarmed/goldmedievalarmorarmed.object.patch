@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny armour stands armed and resolute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある装甲が武装し、解決します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Armed Display Armour"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金腕ディスプレイ装甲"
+    }
+  ]
+]

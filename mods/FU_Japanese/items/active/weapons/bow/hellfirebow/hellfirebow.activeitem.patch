@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Burning Death"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "火傷死"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burn your targets to cinders. Counterproductive, but fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ターゲットを燃えさかす。 反生産的だが楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火弓"
+    }
+  ]
+]

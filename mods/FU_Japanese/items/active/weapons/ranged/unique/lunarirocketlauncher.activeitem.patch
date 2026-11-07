@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A non-conventional rocket launcher.\n^yellow;Lights areas^reset;\n^green;Long-lived projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "従来のロケット発射装置ではない。\n^yellow;照明エリア^reset;\n^green; 長寿命発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ大砲"
+    }
+  ]
+]

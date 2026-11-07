@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A human flag. Looks like it represents their organisation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "人間の旗。 組織を表しているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I see this human symbol a lot."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "私はこの人間のシンボルをたくさん見ます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The flag of the Protectorate. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保護国の旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran like meatman flag!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミートマンフラグみたい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. A human flag, depicting the symbol of the Protectorate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 保護国のシンボルを描いた人間の旗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The flag of the Protectorate!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "保護国の旗!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This human flag represents intercolonial co-operation."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この人間の旗は植民地間協力を表している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "The gold n' white of the Protectorate, flappin' away."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "金は保護国の白ではなく、フラッピンが飛び散ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protectorate Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "保護旗"
+    }
+  ]
+]

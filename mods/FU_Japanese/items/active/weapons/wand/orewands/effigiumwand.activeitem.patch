@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Shadow Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "シャドーブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウム・ワンド"
+    }
+  ]
+]

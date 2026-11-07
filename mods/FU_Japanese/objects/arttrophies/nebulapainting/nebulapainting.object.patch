@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A painting of a nebula, the Aether infused paint makes it glow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星雲の絵、エーテルが注入された塗料は、それを輝きさせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nebula Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "星雲絵画"
+    }
+  ]
+]

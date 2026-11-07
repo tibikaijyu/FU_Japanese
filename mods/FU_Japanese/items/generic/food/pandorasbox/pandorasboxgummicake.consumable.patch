@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious gelatin-pastery combination!."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいゼラチンとペーストリーの組み合わせ!."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gummi Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グミケーキ"
+    }
+  ]
+]

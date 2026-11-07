@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This light has reached the end of its usefulness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この光はその有用性が終わりを迎えた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Faulty Precursor Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "故障前駆光"
+    }
+  ]
+]

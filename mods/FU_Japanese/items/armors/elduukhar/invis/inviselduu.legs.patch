@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Are you sure these are clothes?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当にこれらは服なの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目に見えないズボン"
+    }
+  ]
+]

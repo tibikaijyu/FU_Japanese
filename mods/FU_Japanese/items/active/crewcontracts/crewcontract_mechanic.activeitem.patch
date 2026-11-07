@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a mechanic to ^cyan;reduce fuel costs by 10%^reset;. Also provides special coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカニックを^cyan;に採用し、燃料コストを10%^reset;に削減します。 スペシャルコーヒーも提供しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mechanic Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカニックコントラクト"
+    }
+  ]
+]

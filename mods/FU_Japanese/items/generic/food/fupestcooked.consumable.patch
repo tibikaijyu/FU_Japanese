@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well-cooked rodent meat. Mm. ^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく調理されたげっ歯類の肉。 うーん ^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooked Pest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "料理害虫"
+    }
+  ]
+]

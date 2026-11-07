@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Expensive. Sharpened. Fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "費用が高い。 シャープ。 楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Chakram"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンチャクラム"
+    }
+  ]
+]

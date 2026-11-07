@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bonestalk"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨が話す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bonestalk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨が話す"
+    }
+  ]
+]

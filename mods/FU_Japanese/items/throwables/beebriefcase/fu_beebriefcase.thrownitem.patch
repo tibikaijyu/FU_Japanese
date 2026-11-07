@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Throw to release a swarm of bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂の群れを解放するスロー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Briefcase o' Bees"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチの例"
+    }
+  ]
+]

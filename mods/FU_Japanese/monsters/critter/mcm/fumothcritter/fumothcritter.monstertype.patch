@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny nocturnal insect. It flies toward lights in the night."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな夜行性の昆虫。 夜は光に向かって飛んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Moth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "口"
+    }
+  ]
+]

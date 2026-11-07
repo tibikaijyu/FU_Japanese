@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These are some strong stimulants. Really fast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらは強力な刺激剤です。 本当に速い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Stimulant Rig III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "刺激性リグIII"
+    }
+  ]
+]

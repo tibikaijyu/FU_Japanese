@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from the same springy substance as the real thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のものと同じばね物質から作られています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリップマスク"
+    }
+  ]
+]

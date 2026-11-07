@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Effective in most situations, though somewhat chilling.\n^yellow;Inflicts freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどの状況で効果的ですが、やや冷えています。\n^yellow;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nitrogen Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "窒素大砲"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Charged with purrpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目的によって課金される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシのロングソード"
+    }
+  ]
+]

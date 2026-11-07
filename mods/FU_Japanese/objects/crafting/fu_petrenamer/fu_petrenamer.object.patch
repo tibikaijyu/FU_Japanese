@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The pet renamer is used to rename captured creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットのリネームは捕獲した生物の名前をリネームするために使用される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Pet Renamer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ペットリネーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "For sad pets"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "悲しいペットのため"
+    }
+  ]
+]

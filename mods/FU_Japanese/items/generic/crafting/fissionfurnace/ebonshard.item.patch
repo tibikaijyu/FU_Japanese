@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shiny shard of ebon gemstone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エボン宝石の光沢のあるシャード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ebon Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エボンシャード"
+    }
+  ]
+]

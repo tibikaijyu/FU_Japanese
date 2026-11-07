@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、未精製の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Rocksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ロックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Rock."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 ロック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rock Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロックブロック"
+    }
+  ]
+]

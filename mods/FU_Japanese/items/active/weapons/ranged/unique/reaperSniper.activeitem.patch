@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Supercharged dark matter rounds.\n^yellow;Extremely fast rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "過給ダークマターラウンド。\n^yellow;非常に速いラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-7 Reaper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-7 リーパー"
+    }
+  ]
+]

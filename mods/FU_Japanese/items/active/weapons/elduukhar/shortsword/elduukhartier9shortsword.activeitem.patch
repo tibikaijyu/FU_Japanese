@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This blade is useful, but it seems to have been made more for vanity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この刃は便利だが、より虚栄心のために作られたらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Opul Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オプル短刀"
+    }
+  ]
+]

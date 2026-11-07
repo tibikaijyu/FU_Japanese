@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This seems like something the Miniknog would do."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ミニノッグがそうするかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "They work hard for my benefit."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "彼らは私の利益のために懸命に働く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Uses gnome slave labor to craft your stuff. This is super illegal, but who's going to stop you? Certainly not the gnomes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのものを作るためになしの奴隷労働を使用します。 超違法ですが、誰に止められるでしょうか? 確かにノームではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Work harder, little ssslaves!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "もっと頑張れ、小さな奴隷たち!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Oppresive. These gnomes will work ceaselessly."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "反対。 これらのクノムは絶え間なく機能します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "It's like Santa's workshop. But crueler."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "まるでサンタの工房のようです でも、もっと残酷です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I'm sure most Hylotl would disapprove of this."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "ほとんどのハイロトルがこれに同意しないと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Them little folk sure are hard working!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "小さな人々は確かに一生懸命働いています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Gnome Workshop^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;Gnomeワークショップ^reset;"
+    }
+  ]
+]

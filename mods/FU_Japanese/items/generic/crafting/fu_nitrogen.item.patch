@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pure diatomic ^gray;N2^reset; nitrogen gas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な二原子 ^gray;N 2^reset;窒素ガス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "窒素"
+    }
+  ]
+]

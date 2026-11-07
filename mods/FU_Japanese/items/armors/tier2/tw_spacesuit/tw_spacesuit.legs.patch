@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Max Breath x^green;2^reset;\n^yellow;^reset; Longsword/Energy: Damage x^green;1.12^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;最大呼吸x^green;2^reset;\n^yellow;^reset;ロングソード/エネルギー:ダメージx^green;1.12^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hazard Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "危険物"
+    }
+  ]
+]

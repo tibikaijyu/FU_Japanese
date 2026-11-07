@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An LED display works away quietly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "LEDディスプレイは静かに機能します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "LED Display"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "LEDディスプレイ"
+    }
+  ]
+]

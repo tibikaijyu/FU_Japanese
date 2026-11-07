@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystalline lunari fired at high speeds.\n^yellow;Lights areas^reset;\n^green;Long-lived projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高速で発射されたクリスタルルンニ。\n^yellow;照明エリア^reset;\n^green; 長寿命発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ狙撃ライフル"
+    }
+  ]
+]

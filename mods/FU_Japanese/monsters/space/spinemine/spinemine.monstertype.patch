@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Explodes whenever it meets someone new. No-one knows how they aren't extinct already."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新しい人と出会うたびに爆発します。 絶滅の仕方を誰も知りません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spinemine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉱山"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slim, contoured and light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スリムで、輪郭があり、明るい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Sleek Resin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テルシアン・スリーク・レジン"
+    }
+  ]
+]

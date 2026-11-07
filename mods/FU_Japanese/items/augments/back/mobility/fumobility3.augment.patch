@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Mobility III"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "移動体 III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that removes negative effects from most tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどのタイルから悪影響を取り除くEPPモジュール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mobility III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "移動体 III"
+    }
+  ]
+]

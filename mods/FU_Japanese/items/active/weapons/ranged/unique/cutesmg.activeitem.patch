@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Snuggle them to death with energy bullets!\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギー弾丸で彼らを殺せ!\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic SMG"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹色のサブマシンガン"
+    }
+  ]
+]

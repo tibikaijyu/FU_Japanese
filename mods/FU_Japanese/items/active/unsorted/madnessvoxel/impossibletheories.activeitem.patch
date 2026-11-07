@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flying in the face of reason, this book of your theories is utterly insane."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "理屈に反して、このあなたの理論の本は全く狂気的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impossible Theories"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不可能理論"
+    }
+  ]
+]

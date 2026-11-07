@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mixture of only the sweetest of sweet fruit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘いフルーツの最も甘いものだけを混ぜる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Lotsss of fruit juices here. Too many juices for Floran to count!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フルーツジュースがたっぷり。 フローランが食べられないジュースが多すぎる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Concerned. Why are the various juices layering like that!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "心配。 なぜ様々なジュースがこのような層になっているのか!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now that sounds like a mighty costly drink."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "今や、それは強力な高価な飲み物のように聞こえる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sweet Punch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "甘いパンチ"
+    }
+  ]
+]

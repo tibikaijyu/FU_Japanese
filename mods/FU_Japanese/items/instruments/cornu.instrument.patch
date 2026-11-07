@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large, curved brass horn."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きくて湾曲した真ちゅうの角。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cornu"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コルヌ"
+    }
+  ]
+]

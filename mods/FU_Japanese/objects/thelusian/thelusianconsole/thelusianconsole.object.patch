@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Displays data in the illegible text of the Thelusians."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Thelusians の読みにくいテキストにデータを表示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Console"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンコンソール"
+    }
+  ]
+]

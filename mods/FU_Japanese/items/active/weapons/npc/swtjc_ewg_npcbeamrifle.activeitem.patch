@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sniper rifle that fires streams of energy at distant targets with pinpoint accuracy, it's only as accurate as the one wielding it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遠距離のターゲットで、ピンポイントの精度でエネルギーの流れを発射する狙撃ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Beam Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCビームライフル"
+    }
+  ]
+]

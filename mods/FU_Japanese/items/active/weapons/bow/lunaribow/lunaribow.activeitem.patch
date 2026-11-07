@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Enhanced Shot"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "強化ショット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystalline bow for hunting extra dangerous game."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "余分な危険なゲームを狩るためのクリスタル弓。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ"
+    }
+  ]
+]

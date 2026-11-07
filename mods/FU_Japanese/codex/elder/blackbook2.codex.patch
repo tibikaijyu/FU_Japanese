@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Apparently, at one point it was in-style to use flesh as pages."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一見、ある時点では肉をページとして使うのがスタイル的だったようである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Varok Hashtur"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ヴァロク・ハシュトゥル"
+    }
+  ]
+]

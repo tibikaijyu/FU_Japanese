@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful bow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な弓。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レアボウ"
+    }
+  ]
+]

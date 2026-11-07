@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damage x1.1. +4 Health, +4 Energy, +4 Shield Bash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "被害x1.1. +4健康、+4エネルギー、+4シールドバッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Battle Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バトルパック"
+    }
+  ]
+]

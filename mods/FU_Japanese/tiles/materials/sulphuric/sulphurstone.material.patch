@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jam-packed with goodness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャム満載。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphuric Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫黄石"
+    }
+  ]
+]

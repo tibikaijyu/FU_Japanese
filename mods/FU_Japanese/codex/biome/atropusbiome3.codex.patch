@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "There are rumors that Atropus worlds are not individual entities, but rather, parts of a singular one scattered throughout the cosmos. If this were true, how unimaginably vast would such a being be? What would its purpose be?"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "アトロプスの世界は、個々の実体ではなく、宇宙に散らばった特異な世界の一部であるという噂がある。 もしこれが本当なら、そのような存在がどれほど広大なのでしょうか? その目的は何ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Rumors"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "噂"
+    }
+  ]
+]

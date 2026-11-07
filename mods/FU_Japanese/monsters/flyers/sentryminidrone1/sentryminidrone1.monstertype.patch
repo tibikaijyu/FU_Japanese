@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floats and glows."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "浮きと輝き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライトドローン"
+    }
+  ]
+]

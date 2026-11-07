@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blood-red stone!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血の赤い石!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血石"
+    }
+  ]
+]

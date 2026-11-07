@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An pirate flag. I can use this as a waypoint for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "海賊旗。 これをテレポーテーションのウェイポイントとして使うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This pirate flag can be bookmarked as a destination for my ship teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この海賊旗は、私の船のテレポーターの目的地としてブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Pirate's flag. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海賊の旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pirate flag makess good point to teleport back to ussing teleporter!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "海賊旗は、テレポートをテレポートに戻すのに良いポイントになります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A small locator module attached to this pirate flag allows it to be bookmarked for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この海賊旗に付されている小さなロケータモジュールは、テレポーテーションのためにブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This pirate flag can be saved as a location for my teleporter. Then I can return to it any time."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この海賊旗は、私のテレポーターの場所として保存することができます。 それから私はいつでもそれに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This pirate flag can act as a way point, enabling me to return to this point using a teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この海賊旗はウェイポイントとして機能し、テレポーターを使ってこのポイントに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can bookmark this pirate flag for quick teleportin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの海賊旗をすぐにテレポートするためにブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pirate Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "海賊旗"
+    }
+  ]
+]

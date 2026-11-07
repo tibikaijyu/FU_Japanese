@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Poison Spout"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "毒口"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy-duty quietus weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なサイクリスト兵器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Knight Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトブレード"
+    }
+  ]
+]

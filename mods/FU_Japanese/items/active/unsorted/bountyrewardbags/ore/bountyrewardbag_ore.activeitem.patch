@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A box of ores seized from a raid on an illegal Novakid asteroid mine. You can have the surplus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "違法なノヴァキッドの小惑星鉱山を急襲した際に押収された、鉱石入りの箱。余剰分をもらえる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Box of Contraband Ores"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コントラバンドオレスの箱"
+    }
+  ]
+]

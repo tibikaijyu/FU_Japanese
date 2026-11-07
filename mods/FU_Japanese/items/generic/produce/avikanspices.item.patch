@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strong spices from Kadavan."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カダヴァンの強いスパイス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kadavan Spices"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かだわ香辛料"
+    }
+  ]
+]

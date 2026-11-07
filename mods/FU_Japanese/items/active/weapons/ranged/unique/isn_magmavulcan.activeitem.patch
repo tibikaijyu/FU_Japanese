@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ejects deadly balls of burning iron and magma\n^yellow;Spawns molten metal!^reset;\n^green;Destroys tiles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄とマグマを燃やした玉を排出する\n^yellow;溶融金属を産出!^reset;\n^green;タイルを破壊します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyre Vulcan"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火葬バルカン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Searing death that is also quite capable of cooking great steaks.\n      ^yellow;Spawns molten metal!^reset;\n      ^green;Destroys tiles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "素晴らしいステーキを調理することも非常に可能な死を縫う。\n      ^yellow;溶かした金属を産み出す!^reset;\n      ^green;タイルを破壊します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Infernal Deathblaster"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "インフェルナルデスブラスター"
+    }
+  ]
+]

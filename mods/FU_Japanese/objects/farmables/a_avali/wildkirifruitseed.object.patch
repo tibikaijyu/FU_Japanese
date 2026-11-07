@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The fruiting body of a subterranean slime mold. This one has already begun sporing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地下スライムカビの実体。 これはすでに胞子を吐き始めています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sporing Kiri Fruit [FU]"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キリフルーツの発芽"
+    }
+  ]
+]

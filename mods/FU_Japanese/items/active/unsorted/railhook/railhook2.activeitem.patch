@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ride the rails, gravity can't stop you now!\n\nSlow down with ^orange;Shift+Click^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レールに乗って、重力が今あなたを止めることはできません!\n\n^orange;シフト+クリック^reset;で遅くする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Powered Rail Hook"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パワードレールフック"
+    }
+  ]
+]

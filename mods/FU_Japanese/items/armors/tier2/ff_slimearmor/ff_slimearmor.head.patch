@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Spawns Minions^reset;: Slimes\n^yellow;^reset; Health x^green;1.1^reset;\n^yellow;^reset; Slime weapons: Damage x^green;1.1^reset;/^green;1.2^reset;, +^green;5%^reset; Crit Chance;\n^yellow;^reset; ^cyan;Immune^reset;: Slime, Mud, Clay"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;産卵ミニオン^reset;スライム\n^yellow;^reset;体力 x ^green;1.1^reset;\n^yellow;^reset; スライム武器:被害x^green;1.1^reset;/^green;1.2^reset;, +^green;5%^reset; クリティカルチャンス。\n^yellow;^reset; ^cyan;免疫^reset;スライム、泥、粘土"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムヘルム"
+    }
+  ]
+]

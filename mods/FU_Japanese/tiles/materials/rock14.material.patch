@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined gabbro."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、洗練されていないガブロ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Gabbro."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 ギャブラ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gabbro Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ギャブロブロック"
+    }
+  ]
+]

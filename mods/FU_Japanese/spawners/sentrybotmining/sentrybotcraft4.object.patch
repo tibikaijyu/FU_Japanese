@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Will scan for all ores in a greater radius."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より大きな半径のすべての鉱石をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ore Drone III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレ・ドローンIII"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super wide ,bountifully stylish piece."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超広大でスタイリッシュな作品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fantastic Vista"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "素晴らしいVista"
+    }
+  ]
+]

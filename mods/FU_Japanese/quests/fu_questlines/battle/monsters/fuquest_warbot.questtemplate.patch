@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Good job. The fact that you survived that firepower says much of your prowess in battle. I would not want to mess with you."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よくやった。 あなたがその火力に生き残ったという事実は、戦いにおけるあなたの力の多くを物語っています。 私はあなたとめちゃくちゃになりたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Hyper Targeting Chip^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ハイパーターゲティングチップ^reset; 私に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "On ^orange;Cyber Spheres^reset; or ^orange;Wasteland^reset; planets there often walk dangerous battle machines known as ^orange;War Bots^reset;. Take one down, and I'll pay you well."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;サイバー球体^reset;または^orange;荒地^reset;惑星では、しばしば^orange;戦争ボット^reset;として知られている危険な戦闘機械を歩く。 一つ下ろして、私はよくお金を払うよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Warbot [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ウォーボット［ボス］"
+    }
+  ]
+]

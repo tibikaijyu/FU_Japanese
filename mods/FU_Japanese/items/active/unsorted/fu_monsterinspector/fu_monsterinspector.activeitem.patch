@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Inspects monsters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "怪獣を検査する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monster Inspector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "怪獣探偵"
+    }
+  ]
+]

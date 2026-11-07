@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aquarum Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水族館ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquarum Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水族館ドローン"
+    }
+  ]
+]

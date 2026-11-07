@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'Relay'/. It simply serves as an anchor for relaying distant signals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A / 'リレー' /。 単に、遠くの信号を中継するためのアンカーとして機能する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A /'Relay'/. It simply serves as an anchor for relaying distant signals."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル A / 'リレー' /。 単に、遠くの信号を中継するためのアンカーとして機能する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Relay"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リレー"
+    }
+  ]
+]

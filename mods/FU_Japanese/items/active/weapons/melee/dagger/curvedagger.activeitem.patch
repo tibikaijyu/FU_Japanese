@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Charged plasma-laced dagger. Handy, that.\n^cyan;Inflicts Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラズマ製のダガーを充電。 ハンディ、それ。\n^cyan;焼成現象^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "折れナイフ"
+    }
+  ]
+]

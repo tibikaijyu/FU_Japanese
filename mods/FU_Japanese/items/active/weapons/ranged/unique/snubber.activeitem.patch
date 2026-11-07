@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires 3-round bursts of diamond-tipped rounds.\n^cyan;Piercing bursts^reset;\n^#e43774;Hunting Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファイアーズ 3 - ダイヤモンドチップラウンドのラウンドバースト。\n^cyan;ピアスバースト^reset;\n^#e43774;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snub Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナブガン"
+    }
+  ]
+]

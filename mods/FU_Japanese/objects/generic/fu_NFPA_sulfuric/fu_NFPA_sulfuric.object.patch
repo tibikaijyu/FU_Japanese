@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sulphuric acid NFPA sign."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硫酸NFPA標識。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphuric Acid NFPA Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫酸NFPA標識"
+    }
+  ]
+]

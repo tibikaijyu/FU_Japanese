@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "200% spicier than a normal chili. Also makes a handy weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "200% 通常のチリよりも辛い。 便利な武器も作っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ignus Chili Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イグナスチリ種子"
+    }
+  ]
+]

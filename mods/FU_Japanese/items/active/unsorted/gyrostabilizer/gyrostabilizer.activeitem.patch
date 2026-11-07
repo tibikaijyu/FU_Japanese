@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Capable of stopping inertia completely for a brief moment."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "少しの間慣性を完全に停止することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gyrostabilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャイロスタビライザー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of pus. This is absolutely disgusting.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プッシュの尺度。 これは絶対に嫌なことです。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポス"
+    }
+  ]
+]

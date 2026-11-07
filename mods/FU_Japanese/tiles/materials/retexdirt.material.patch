@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dirty looking dirt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汚い汚れが見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Filthy dirt!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "汚い汚れ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Dirt. Clarification. Just dirt."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 汚い 明確化。 ただ汚いだけ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dirt Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汚れブロック"
+    }
+  ]
+]

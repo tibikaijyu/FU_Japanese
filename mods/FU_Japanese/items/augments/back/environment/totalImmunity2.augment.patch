@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Immunity Field"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "免疫学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Extreme Heat/Cold/Radiation, Liq. Nitrogen, Gas, (Proto) Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:極限の熱/冷たい/放射線、Lic。 窒素・ガス・(プロト)毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Immunity Field"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "免疫学"
+    }
+  ]
+]

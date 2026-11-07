@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic microscope designed to inspect queen bees. User must be present."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチを検査するための基本顕微鏡です。 ユーザーは存在しなければいけません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Basic^reset; Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;基本^reset;顕微鏡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Inspect Bees & Items"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ミツバチの検査とアイテム"
+    }
+  ]
+]

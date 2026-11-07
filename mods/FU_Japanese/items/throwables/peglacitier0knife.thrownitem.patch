@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cold and fragile, but very sharp!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寒く、脆弱ですが、非常にシャープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷ナイフ"
+    }
+  ]
+]

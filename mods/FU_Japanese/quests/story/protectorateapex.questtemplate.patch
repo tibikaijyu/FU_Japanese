@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Your Matter Manipulator is, simply put, superior to the crappy ones other races use."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あなたのマターマニピュレーターは、簡単に言えば、他のレースが使用する粗末なものよりも優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/escape",
+      "value": "Escape the destruction"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/escape",
+      "value": "破壊から逃れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "Attend your graduation ceremony"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "卒業式に出席してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/matterManipulator",
+      "value": "Take the matter manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/matterManipulator",
+      "value": "マターマニピュレーターを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Have an MM"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "MM を持つ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "You're an Apex"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "あなたはアペックスです"
+    }
+  ]
+]

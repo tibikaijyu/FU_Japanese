@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "It'sss a yummy cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "おいしいケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Joyful. It's a delicious cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 おいしいケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "That's a mighty tasty lookin' cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "美味しそうなケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケーキ"
+    }
+  ]
+]

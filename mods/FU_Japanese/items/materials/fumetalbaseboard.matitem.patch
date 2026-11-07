@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decorative metal strip"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装飾的な金属ストリップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Baseboard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属基板"
+    }
+  ]
+]

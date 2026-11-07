@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires remotely-detonated blobs of slime.\n^green;Counts as Hunting Weapon.^reset;  \n^yellow;Detonate all blobs with right-click.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムの遠隔爆風を発射する。\n^green; ハンティング武器としてカウントします。^reset;  \n^yellow; 右クリックですべてのブロブを爆発させます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Grenade Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムグレネードランチャー"
+    }
+  ]
+]

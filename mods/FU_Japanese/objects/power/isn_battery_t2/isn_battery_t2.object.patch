@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slightly upgraded form of battery.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;2500^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バッテリーを少しアップグレードした形。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;2500^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Improved^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;改善された^reset;バッテリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Amplifies effects of gravity within 30 tiles.\n^blue;Input^reset;: On/Off Switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "30タイル内の重力の効果を増幅します。\n^blue; 入力 ^reset; : スイッチをオン/オフします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Gravity Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;重力発生器^reset;"
+    }
+  ]
+]

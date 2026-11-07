@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Creepy crawly properties infuse this cell."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリーピークローリー特性がこの細胞を注入する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Insectoid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "昆虫"
+    }
+  ]
+]

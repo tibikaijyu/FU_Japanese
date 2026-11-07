@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fire a Shadow Burst! Use ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウバーストを発射! ^green;[F] ^reset; を使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Shadowborne"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "シャドウボーン"
+    }
+  ]
+]

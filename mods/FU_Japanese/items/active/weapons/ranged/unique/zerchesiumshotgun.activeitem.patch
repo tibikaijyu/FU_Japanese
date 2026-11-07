@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezing slugs mince foes.\n^cyan;Slows enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フリーズスラグミンス敵。\n^cyan;スローな敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツェルチウムショットガン"
+    }
+  ]
+]

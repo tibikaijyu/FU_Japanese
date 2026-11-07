@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Buy"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "買う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "CAN AFFORD"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "購入可能"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "PRODUCT DETAILS"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "詳細"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "GOODS"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "商品"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  Never be sick again."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  二度と病気にならないで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  PANACEA MEDICINES INC."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  PANACEA MEDICINES INC. - アメリカの医薬品会社。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltip/itemList/schema/listTemplate/itemName/value",
+      "value": "Golden Moustache"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltip/itemList/schema/listTemplate/itemName/value",
+      "value": "金の口ひげ"
+    }
+  ]
+]

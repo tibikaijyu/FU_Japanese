@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;If near death, warps you elsewhere and gives ^gray;(^white;10m^gray;) ^blue;Madness Gain^reset; 1"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;死が近づくと、他の場所にワープして ^gray;(^white;10え?^gray;) ^blue;狂気の高まり^reset; 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Portal Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポータルジュース"
+    }
+  ]
+]

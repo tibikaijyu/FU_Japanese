@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Gas Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "ガス袋"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hostile bags of gas. They feed on subatomic organic particles they create via annihilation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガスの敵対的なバッグ。 彼らは、消滅によって生成する亜原子有機粒子を供給します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Valus Gas Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "貴重ガス袋"
+    }
+  ]
+]

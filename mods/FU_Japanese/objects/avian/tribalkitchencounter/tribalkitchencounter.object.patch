@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Comes with a fresh basket of feathercrown!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "羽冠の新鮮なバスケットが付属しています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Carved Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;刻まれたキッチンカウンター^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cosmic glass made from superheated aether dust."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "過熱エーテル粉じんから作られた宇宙ガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dark Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダークガラス"
+    }
+  ]
+]

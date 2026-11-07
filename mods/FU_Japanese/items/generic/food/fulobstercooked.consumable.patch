@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious aquatic horror. ^orange;Type: Cooked Seafood^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしい水族館の恐怖。 ^orange;タイプ:海鮮料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooked Lobster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "料理ロブスター"
+    }
+  ]
+]

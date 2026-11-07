@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't eat this.\n^blue;Madness Gain^reset; 2\n^yellow;Type: Robot Food^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これ食べないで。\n^blue;狂気の高まり^reset; 2\n^yellow;タイプ:ロボットフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pb and J Sandwich"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "PbとJサンドイッチ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "100% meat from anywhere the manufacturer could locate.\n^cyan;+^white;10% ^pink;Physical ^cyan;Res ^gray;(^white;5m^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "100% メーカーが見つけることができるどこからでも肉。\n^cyan;+^white;10% ^pink;物理 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meaty Meal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉料理"
+    }
+  ]
+]

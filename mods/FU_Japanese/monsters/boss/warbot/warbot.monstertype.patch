@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "War Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "戦争ボット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Resilient robot built for the battlefield."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦場用のレジリエントロボット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "War Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦争ボット"
+    }
+  ]
+]

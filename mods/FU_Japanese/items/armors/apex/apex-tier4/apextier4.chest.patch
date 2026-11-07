@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Magnorb: Mastery +^green;19^reset;%\n^yellow;^reset; Thrown: Damage x^green;1.19^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Radiation Burn"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; マグノーブ: 熟達+^green;19^reset;%\n^yellow;^reset; 投げる : ダメージ x ^green;1.19^reset;\n^yellow;^reset; ^cyan;免疫^reset;:放射線燃焼"
+    }
+  ]
+]

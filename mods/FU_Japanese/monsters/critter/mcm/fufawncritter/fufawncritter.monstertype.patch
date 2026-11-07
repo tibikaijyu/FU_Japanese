@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A medium-sized hoofed forest creature that grows its antlers back each year."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毎年角を生やす中型のふわふわした森の生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鹿"
+    }
+  ]
+]

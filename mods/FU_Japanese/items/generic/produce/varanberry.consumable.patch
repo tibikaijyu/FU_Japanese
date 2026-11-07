@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal 10 HP^reset;: 2s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力を10回復^reset;：2秒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Varan Berries"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バランベリー"
+    }
+  ]
+]

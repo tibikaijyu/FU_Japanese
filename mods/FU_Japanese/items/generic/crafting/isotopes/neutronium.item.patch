@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A substance composed purely of neutrons. Ultra-dense.\n^blue;+^white;300 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中性子でできた物質です。 超高密度。\n^blue;+^white;300 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Neutronium Rod^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;ニュートロニウムロッド^reset;"
+    }
+  ]
+]

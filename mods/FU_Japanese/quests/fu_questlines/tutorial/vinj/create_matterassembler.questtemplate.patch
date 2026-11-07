@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks to ^green;Vinalisj^reset;, you've managed your first steps towards escaping this planet. He asked you to visit a nearby ^orange;Dark Cavern^reset;, which seems to have an ^green;Energy Source^reset; that may prove vital in your repairs."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^green;ヴィナリシュ^reset;のおかげで、この惑星からの脱出に向けて最初の一歩を踏み出した。彼は、近くの^orange;暗い洞窟^reset;を訪ねてほしいと言っている。中には、修理の鍵となりそうな^green;エネルギー源^reset;があるらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/cavern",
+      "value": "Find the cavern and investigate the ^cyan;Energy Source^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/cavern",
+      "value": "洞窟を見つけて、 ^cyan; エネルギー源 ^reset; _ を調べます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeElectromagnet",
+      "value": "Use a ^cyan;Machining Table^reset; to create an ^orange;Electromagnet^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeElectromagnet",
+      "value": "使用します。 ^cyan;加工作業台^reset; 創り出すために ^orange;電磁石^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeForaging",
+      "value": "Research ^cyan;Agriculture^reset; and create a ^orange;Foraging Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeForaging",
+      "value": "研究 ^cyan; 農業 ^reset; と ^orange; フォーエイジングテーブル ^reset; を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeFurnace",
+      "value": "Research ^cyan;Geology^reset; and create a ^orange;Furnace^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeFurnace",
+      "value": "研究 ^cyan; 地質 ^reset; と ^orange; 炉 ^reset; を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeTable",
+      "value": "Research ^cyan;Engineering^reset; and create a ^orange;Machining Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeTable",
+      "value": "研究 ^cyan;エンジニアリング ^reset; と ^orange;加工作業台^reset; を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeWire",
+      "value": "Use a ^cyan;Machining Table^reset; to create ^orange;Wire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeWire",
+      "value": "^cyan;加工作業台^reset; を使用して ^orange; ワイヤー ^reset; を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Perhaps this friendly creature can help me ^green;repair the ship^reset; and get away from this star system. I'll need to work at it either way, using my ^orange;Personal Tricorder^reset; to conduct research whenever I can."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この親切な生き物なら、^green;船の修理^reset;と、この星系からの脱出を手伝ってくれるかもしれない。どちらにしても、^orange;個人用トライコーダー^reset;でできる限り研究しながら、取り組む必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ship Repairs"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "船の修理"
+    }
+  ]
+]

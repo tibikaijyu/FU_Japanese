@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Before you ask, no, it isn't edible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "質問する前に、いいえ、それは食べられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chocolate Caketop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョコレートケーキトップマスク"
+    }
+  ]
+]

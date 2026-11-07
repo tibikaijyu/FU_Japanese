@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A teency, tiny little distortionsphere. With a bomb in it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな小さな歪み球体です 爆弾が入った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Bomb Microsphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;爆弾マイクロスフィア^reset;"
+    }
+  ]
+]

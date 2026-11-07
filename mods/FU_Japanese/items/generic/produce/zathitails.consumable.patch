@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+30% Cosmic Res^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;宇宙属性耐性+30%^reset;：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zathi Node"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Zathiノード"
+    }
+  ]
+]

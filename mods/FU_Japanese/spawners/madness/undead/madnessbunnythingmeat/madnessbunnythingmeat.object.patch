@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Constructed of extra flesh and gore. Super cute!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "余分な肉とゴアで構成。 超可愛い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Bunny"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉バニー"
+    }
+  ]
+]

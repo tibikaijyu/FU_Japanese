@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Boosts energy reserves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギー蓄積を促進する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Yellowfoot Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イエローフットシュルーム"
+    }
+  ]
+]

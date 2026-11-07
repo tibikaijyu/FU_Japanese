@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Let's make some friends!\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "友達を作ろう!\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Dirk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトダーク"
+    }
+  ]
+]

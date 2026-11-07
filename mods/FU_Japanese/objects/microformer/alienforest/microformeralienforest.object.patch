@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into an alien forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積をエイリアンの森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Forest Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアン森林マイクロフォーマ"
+    }
+  ]
+]

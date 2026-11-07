@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An industrial-grade fuel obtained from refining lesser fuel using a catalyst."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "触媒を用いてより少ない燃料を精製して得られる工業用燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Refined Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "精製燃料"
+    }
+  ]
+]

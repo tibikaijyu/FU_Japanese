@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enormous damage potential."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな被害の可能性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-72 Janus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-72 ヤヌス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Captures creatures in Pet Balls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットボールで動物を捕獲します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capture Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲ロボット"
+    }
+  ]
+]

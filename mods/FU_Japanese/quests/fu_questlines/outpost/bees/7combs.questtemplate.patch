@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now you'll need another station to process this resource. Shall we continue?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "このリソースを処理するには別のステーションが必要です。 続けましょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Once your bees have been busy a while ^green;collect the combs from your apiary^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ミツバチが忙しくなったら^green;はあなたのアピアリー^reset;からクマを採取します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Honeycombs"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ハニカム"
+    }
+  ]
+]

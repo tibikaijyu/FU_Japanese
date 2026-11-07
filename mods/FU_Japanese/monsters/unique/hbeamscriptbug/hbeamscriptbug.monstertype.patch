@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is no ordinary bug, no sir. This one is special."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは普通のバグではありません。 これは特別です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scripted Bug"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スクリプト制御の虫"
+    }
+  ]
+]

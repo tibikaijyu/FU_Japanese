@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A desk made of smooth, durable resin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なめらかで耐久性のある樹脂製のデスク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Desk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンデスク"
+    }
+  ]
+]

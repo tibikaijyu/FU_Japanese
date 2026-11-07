@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of 'asking for trouble', valuable for the wrong kinds of people."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誤ったタイプの人々にとって価値のある「トラブルを求める」の密閉箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Contraband"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コントラバンド"
+    }
+  ]
+]

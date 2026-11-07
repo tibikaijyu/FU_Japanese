@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Immune: Poisoned^reset;\n^green;8%^reset; Shield Bash Push\n^green;2%^reset; Shield Bash Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;免疫: 毒 ^reset;\n^green;8%^reset;シールドバッシュプッシュ\n^green;2%^reset;シールドバッシュチャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの盾"
+    }
+  ]
+]

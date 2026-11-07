@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You can create countless bee variants by selectively choosing traits in queens and drones to influence their offspring. ^red;Not all bees^reset; can be bred with every family-type. You'll need to experiment yourself to find out what works."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "女王やドローンの子孫に影響を与える形質を選択的に選択することで、数え切れないほどの種類のミツバチを作れます。 ^red;全てのミツバチが^reset; あらゆる家庭タイプで育てられます 何がうまくいくか確かめるためには、自分自身を実験する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So, you've got apiaries and honey bees. Now, I wonder: what would happen if you put a ^orange;Orchid Queen^reset; and some ^orange;Honey Drones^reset; into that ^orange;Giant Apiary^reset;? And what about if you added a ^orange;Tungsten Frame^reset;?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "養蜂家やミツバチがいますね もし、^orange;蘭の女王^reset;といくつかの^orange;ハニードローン^reset;をその^orange;ジャイアントアピアリー^reset;に入れたらどうなるでしょうか? そして、^orange;タングステンフレーム^reset;を追加した場合はどうでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Breeding New Variants"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "新しい品種の育成"
+    }
+  ]
+]

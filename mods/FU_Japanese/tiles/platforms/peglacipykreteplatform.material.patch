@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chilly - but sturdy - platform made of pykrete."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピクルス製の、冷たく頑丈なプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pykrete Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイクリートプラットフォーム"
+    }
+  ]
+]

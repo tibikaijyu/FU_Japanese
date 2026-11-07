@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Unless the Avali have herbivores with bright stripes on them, I'd wager this is a warning."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "アバリに明るい縞模様の草食動物がいない限り、これは警告です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "An alert prompt... probably just a missing comma in one of the configuration files."
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "アラートプロンプト... おそらく、構成ファイルの一つにカンマが欠けているだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Whatever this sign is, it seems to be designed to catch your attention."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この看板が何であれ、それはあなたの注意を引くように設計されているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny hologram flashes an alert prompt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなホログラムがアラートプロンプトを点滅させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Apex once captured Floran. Cage had same markings around it, pattern mean 'floran here'?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "アペックスはフローランを捕まえた。 ケージは、その周囲に同じマーキングを持っていた、パターンは「ここに花を咲かせる」を意味する?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analytical. Likely intended as a warning based on similar patterns."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 類似したパターンに基づいた警告として意図されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A warning stripe is a warning stripe no matter where you go."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "警告ストライプは、どこに行っても警告ストライプです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "These markings remind me of a sea squirt. They make funny pets, so this is good?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これらの印は、私に海噴出を思い起こさせます。 彼らは面白いペットを作るので、これは良いですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hologram, Alert"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホログラム、アラート"
+    }
+  ]
+]

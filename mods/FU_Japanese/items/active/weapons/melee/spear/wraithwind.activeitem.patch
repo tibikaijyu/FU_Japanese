@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A specially designed spear laced with various metals.\n^cyan;Inflicts Poisoned^reset;.\n^cyan;Hunting weapon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "様々な金属をまぶした特別に設計されたスピア。\n^cyan; 毒を与える ^reset; 。\n^cyan; 狩猟武器^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wraithveil Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レイスヴェールの槍"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grants a massive health boost.\n^cyan;+^white;70 ^cyan;HP ^gray;(^white;3m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな健康増進をもたらします。\n^cyan;+^white;70 ^cyan;HP ^gray;(^white;3え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strong Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニージャー"
+    }
+  ]
+]

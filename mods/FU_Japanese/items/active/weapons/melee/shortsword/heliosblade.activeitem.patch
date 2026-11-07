@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Morphite honed to dangerous perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "モルヒットは危険な完璧に磨きをかけました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helios"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘリオス"
+    }
+  ]
+]

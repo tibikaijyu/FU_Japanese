@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "I ain't kilt nobody, I swear it. It was that eyed tentercle thang!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "私は誰も殺さない、誓う。 心からの感謝でした!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "Ain't nobody ever gonna believe I ain't done in Ginger? I'm sick o' runnin!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "誰も私がジンジャーで終わっていないと信じないだろう? 体調が悪かった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "Fer the last time...I ain't kilt no girl and I ain't let no creature snack on 'er!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "最後の時間のために...私は女の子を殺さないし、私は動物がそれで軽食をさせない!"
+    }
+  ]
+]

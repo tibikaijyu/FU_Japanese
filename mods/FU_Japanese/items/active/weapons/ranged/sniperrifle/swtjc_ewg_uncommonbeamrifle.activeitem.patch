@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sniper rifle that fires streams of energy at distant targets with pinpoint accuracy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遠距離ターゲットでエネルギーの流れをピンポイント精度で発射する狙撃銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Beam Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "異常ビームライフル"
+    }
+  ]
+]

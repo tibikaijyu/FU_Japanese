@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Renders the T0 ship's background image."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "T0 の背景画像をレンダリングします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Render"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船のレンダリング"
+    }
+  ]
+]

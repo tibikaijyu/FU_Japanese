@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy as air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空気のように重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムメイス"
+    }
+  ]
+]

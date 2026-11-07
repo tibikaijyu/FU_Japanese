@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An /'XOR'/ gate. Requires exactly 1 input to be on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "XOR / ゲート。 1 の入力を正確にオンにし、残りをオフにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "An /'XOR'/ gate. Requiresss exxactly 1 input to be on, and the ressst off."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "XOR / ゲート。 sss は ss に正確に 1 を入力すること、そして s は s をオフにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. An /'XOR'/ gate. Requires exactly 1 input to be on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 XOR / ゲート。 1 の入力を正確にオンにし、残りをオフにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "XOR Gate (3 Inputs, 1-Hot)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "XORゲート（3入力・1入力オン）"
+    }
+  ]
+]

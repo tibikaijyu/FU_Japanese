@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive, fully grown Poptop. Fearsome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な、完全に成長したポップトップ。 怖いね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガポップトップ"
+    }
+  ]
+]

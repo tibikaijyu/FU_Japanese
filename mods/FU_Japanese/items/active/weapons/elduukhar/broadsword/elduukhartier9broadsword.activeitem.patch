@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The gold and gems on this sword are strictly for combat purposes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この剣の金と宝石は厳密には戦闘用です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Opul Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オプルブロードソード"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Much more dangerous than it looks.\n^yellow;Counts as 'energy' for set bonuses^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見た目よりもずっと危険です。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Shortspear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズムショートスピア"
+    }
+  ]
+]

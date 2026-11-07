@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A long-lasting honey repellant.\n^pink;Honey Slow ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長持ちするハチミツの忌避剤。\n^pink;ハニースロー^cyan;免疫性^gray;(^white;5m^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeyboon Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハネブーン・スティム"
+    }
+  ]
+]

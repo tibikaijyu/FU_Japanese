@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bamboo"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "竹"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssticks."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Sスティックです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Bamboo."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 竹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bamboo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竹"
+    }
+  ]
+]

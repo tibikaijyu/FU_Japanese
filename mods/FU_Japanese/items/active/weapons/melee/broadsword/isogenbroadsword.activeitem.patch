@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The chilling touch of frosty death.\n^cyan;Inflicts Freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍えるような死の冷静な感触。\n^cyan;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Ruinblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげん羽根"
+    }
+  ]
+]

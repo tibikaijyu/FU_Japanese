@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.5% HP Regen, +6 ShieldBash Push^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;体力再生+0.5%、シールドバッシュの押し出し+6^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムシールド"
+    }
+  ]
+]

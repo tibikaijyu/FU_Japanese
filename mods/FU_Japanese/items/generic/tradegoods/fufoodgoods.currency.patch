@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of foods and ingredients, valuable for interstellar trade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星間貿易に有用な食品や食材の密閉箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Food Rations"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食物の理由"
+    }
+  ]
+]

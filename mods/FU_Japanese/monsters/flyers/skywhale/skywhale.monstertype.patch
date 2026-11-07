@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Passive gas-guzzling behemoths."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パッシブな気まぐれな巨人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sky Whale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空の鯨"
+    }
+  ]
+]

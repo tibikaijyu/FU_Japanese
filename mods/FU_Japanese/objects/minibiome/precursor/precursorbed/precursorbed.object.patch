@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rather stark bedding. I suppose comfort wasn't an issue for them."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "むしろスターク寝具。 彼らにとって快適さは問題ではなかったと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

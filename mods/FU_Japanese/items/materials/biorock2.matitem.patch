@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This blue rock is faintly glowing with bioluminescence.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この青い岩は、生物発光でかすかに輝きます。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ]
+]

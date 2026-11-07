@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create a tiny UFO from stored nanites."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保存したナナイトから小さなUFOを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "UFO Controller"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "UFOコントローラ"
+    }
+  ]
+]

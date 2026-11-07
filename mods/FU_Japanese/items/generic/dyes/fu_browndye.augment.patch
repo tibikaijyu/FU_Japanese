@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This coloured dye can be applied to a piece of armour or clothing with a right-click. Can dye more armour then the normal version."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "右クリックで防具や服を染められる染料。 通常のバージョンよりも多くの装甲を染色することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Enhanced Brown Dye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化ブラウン染料"
+    }
+  ]
+]

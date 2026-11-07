@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An engineered cell."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エンジニアリングされたセル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spliced Cell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スプライシングセル"
+    }
+  ]
+]

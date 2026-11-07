@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a scorching Infernus biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を火傷する灼熱地獄生物群に変身させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Infernus Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "灼熱地獄テラフォーマー"
+    }
+  ]
+]

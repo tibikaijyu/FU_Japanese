@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Fusion Shredder"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "核融合シュレッダー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brutal long ranged rifle.\n^yellow;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乱暴な長距離ライフル。\n^yellow;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FarSight XR-20"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファーサイト XR-20"
+    }
+  ]
+]

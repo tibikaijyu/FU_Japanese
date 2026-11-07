@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even more aggravating than the Bulbop."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バルボップよりもさらに悪化。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bulbop Hop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バルボップホップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sacrifices rate-of-fire for enough firepower to cut through armor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装甲を切り抜けるのに十分な火力のために火の速度を犠牲にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Common Anti-Materiel Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "一般的な抗材料ライフル"
+    }
+  ]
+]

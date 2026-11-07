@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Contained lunar energy. Fun for tossing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "月面エネルギーを含む。 投げるのが楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリウムのブーメラン"
+    }
+  ]
+]

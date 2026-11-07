@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rapid-fire bursts of unmatched potential.\n^yellow;5-round 3-pellet bursts^reset;\n^green;Rebounding plasma alt-fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "比類のないポテンシャルの急速な火災バースト。\n^yellow;5ラウンド 3 - ペレットバースト ^reset;\n^green;プラズマアルトファイアをリバウンドする^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デシニウムショットガン"
+    }
+  ]
+]

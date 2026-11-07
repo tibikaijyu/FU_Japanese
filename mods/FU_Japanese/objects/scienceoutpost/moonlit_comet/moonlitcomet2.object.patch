@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/0",
+      "value": "Excuse me, but I'm rather busy now."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/0",
+      "value": "すみませんが、今はかなり忙しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/1",
+      "value": "We're at the forefront of tech development."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/1",
+      "value": "私たちは技術開発の最前線にいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Famous scientist of the rare Xarwiek race"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しいザルウィエク民族の有名な科学者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴィナリシュ"
+    }
+  ]
+]

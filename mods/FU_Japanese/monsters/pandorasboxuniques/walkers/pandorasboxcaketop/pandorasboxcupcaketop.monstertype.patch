@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cupcaketops rarely stray from their mother. They can only produce cupcakes at this age."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カップケーキトップは母親からめったに迷うことはありません。 カップケーキは、この年齢でしか作れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cupcaketop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カップケーキトップ"
+    }
+  ]
+]

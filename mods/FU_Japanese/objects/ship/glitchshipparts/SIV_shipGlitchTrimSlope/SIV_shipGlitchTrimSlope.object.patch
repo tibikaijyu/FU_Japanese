@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Glitch Trim sloped section for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のグリッチトリム傾斜部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Trim  slope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチトリム斜面"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This magnificently huge caterpillar must molt into something..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この壮大な巨大毛虫は、何かに溶け込まなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ravalok"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラバロール"
+    }
+  ]
+]

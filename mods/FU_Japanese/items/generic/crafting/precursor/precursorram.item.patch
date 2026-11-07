@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some form of data-storage, not unlike RAM."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかの形式のデータストレージで、RAMとは異なります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Memory Unit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリカーサメモリユニット"
+    }
+  ]
+]

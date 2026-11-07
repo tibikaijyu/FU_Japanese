@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block made of a secret Peglaci alloy.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "秘密のペグラシ合金で作られたブロック。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Metal Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属合金ブロック"
+    }
+  ]
+]

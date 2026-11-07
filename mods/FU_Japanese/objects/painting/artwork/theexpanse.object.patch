@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of thing covered with millions of eyes and mouths."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何百万もの目や口を覆うもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Expanding Death"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "拡大する死"
+    }
+  ]
+]

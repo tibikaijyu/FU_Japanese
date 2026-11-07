@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nasty fungal mutation that just can't stop spewing explosive spores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆発する胞子を増殖させるのを止めることができない厄介な真菌突然変異。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nikaw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニカワ"
+    }
+  ]
+]

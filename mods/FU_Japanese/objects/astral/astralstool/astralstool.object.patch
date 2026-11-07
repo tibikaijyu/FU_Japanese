@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar stool, now 99.99% empty space, just like the \"atoms\" it's made of."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星型スツール、今 99.99% 空白スペース、ちょうどそれが作られた「原子」のように。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Stool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "安円便"
+    }
+  ]
+]

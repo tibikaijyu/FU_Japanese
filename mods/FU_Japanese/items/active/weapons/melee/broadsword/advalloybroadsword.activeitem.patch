@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A broadsword modeled after the sword of a martyred Apex rebel. It doubles as a shield to protect the innocent.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狂暴なアペックスの反乱者の剣を模した広刃。 無実を守るための盾として重なります。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスターズ・ブロードソード"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pleasantly sweet and salty juice. Refreshing!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘くて塩辛いジュース。 リフレッシュ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran feelsss robbed of water drinking this."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは水を奪われた気分でこれを飲んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Incredulous. Doesn't having a salty drink defeat the purpose of it being a drink?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "信じられない。 塩辛い飲み物を飲めば、それが飲み物であるという目的を破らないだろうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Salty as the sea it came from."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "海のように塩分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reef Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーフジュース"
+    }
+  ]
+]

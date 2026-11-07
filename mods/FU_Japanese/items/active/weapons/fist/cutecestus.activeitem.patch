@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ripe with adorable energy.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "愛らしいエネルギーで熟す。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Cestus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズム・セスタス"
+    }
+  ]
+]

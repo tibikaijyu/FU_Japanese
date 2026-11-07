@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Your path to brewing enlightment has started. Before we really start with the alcohol though, you must first use the Booze Kit to craft the other stations you'll require."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "醸造啓蒙への道が始まりました。 でも、アルコールを本当に始める前に、まずは酒 キットを使って、必要なステーションを作らなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;booze kit^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;酒のキット^reset; 私に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So you want to make your own booze? Great! I'll help you. You must start by crafting a ^orange;Booze Kit^reset;. Place it against a wall and you can start your path to becoming a Brew Master!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "だから、あなた自身の酒を作りたいですか? すごい! 手伝います。 ^orange;酒 キット ^reset; を作成することから始めなければなりません。 壁に貼れば、ブルーマスターになる道が開けます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Making a Booze Kit"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ブーズキットを作る"
+    }
+  ]
+]

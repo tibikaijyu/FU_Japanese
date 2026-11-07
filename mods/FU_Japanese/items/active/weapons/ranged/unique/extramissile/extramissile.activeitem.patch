@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Select missile and press the fire button."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミサイルを選択し、火ボタンを押します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garuda Missile Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガルーダミサイル発射装置"
+    }
+  ]
+]

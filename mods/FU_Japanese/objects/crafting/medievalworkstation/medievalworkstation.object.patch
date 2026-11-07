@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large, somewhat primitive workstation. Crafts basic gear, but can't be upgraded."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きくてやや原始的なワークステーション。 クラフトの基本装備ですがアップグレードすることはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "Large. Is solid. Make manyt sorts of basic things. Is good!"
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "大きい。 しっかりしている。 多くの基本的なものを作ります。 良いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wistful. This brings back memories of the village I was built in."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ウィスフル。 これは私が建てた村の記憶を蘇らせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Workstation"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世ワークステーション"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;120% Gas Thorns^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;120%ガスソーン^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fayshroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放牧所"
+    }
+  ]
+]

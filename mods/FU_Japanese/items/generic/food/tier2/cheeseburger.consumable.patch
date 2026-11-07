@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A juicy hamburger, topped with cheese. ^orange;Type: Cooked Meat + Vegetables + Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チーズをトッピングしたジューシーなハンバーガー。 ^orange;タイプ:肉+野菜+乳製品^reset;"
+    }
+  ]
+]

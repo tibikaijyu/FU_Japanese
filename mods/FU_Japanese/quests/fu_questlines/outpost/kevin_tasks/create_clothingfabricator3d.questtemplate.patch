@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent. Now I can distill raw rage into crystalline form and feed it to my babies! Just in time for the ballet! Take this crap as a thanks."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。 生の怒りを結晶状に蒸留し、赤ちゃんに食べさせます! バレエに合わせて! ありがたいことに、このくだらないことをやりなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin^reset; 20 ^orange;Plasmic Crystals^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン^reset; 20 ^orange;プラスチック結晶^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm unsure I can trust you after that whole ^orange;orange fruit^reset; thing, but we'll try again I guess. You ever laid hands on some ^orange;Plasmic Crystal^reset;? If so, I could use about 20. For...reasons. Certainly not involving large flightless birds and carnage."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "結局 あなたを信用できるとは思えません ^orange;オレンジフルーツ^reset; もう一度やってみようかな 手をかざしたことがあるでしょう ^orange;プラスチック結晶^reset;? もしそうなら、20 について使うことができます。 理由は...。 確かに大きな飛べない鳥や死体は含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Insanity and Rage."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "狂気と怒り。"
+    }
+  ]
+]

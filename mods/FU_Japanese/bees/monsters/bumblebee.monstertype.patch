@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bumblebee bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチのミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bumblebee Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small white bird that hunts in the coldest reaches of the world."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世界一寒いところで狩りをする小さな白い鳥。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snowy Owl"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雪のフクロウ"
+    }
+  ]
+]

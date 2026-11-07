@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Outputs from ^red;node 1^reset; when not in flight, and ^red;node 2^reset; when the ship is moving."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飛行していない場合は ^red;node1^reset; から、移動中の時は ^red;node2^reset; から出力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warp Detector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワープ検出器"
+    }
+  ]
+]

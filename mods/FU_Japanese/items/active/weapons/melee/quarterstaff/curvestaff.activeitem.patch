@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kinda swordy, for a staff. Ziiiip zaaaap!\n^cyan;Counts as plasma weapon for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キンダ剣、スタッフのために。 ザアップ!\n^cyan;セットボーナスのプラズマ武器としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマ四半期スタッフ"
+    }
+  ]
+]

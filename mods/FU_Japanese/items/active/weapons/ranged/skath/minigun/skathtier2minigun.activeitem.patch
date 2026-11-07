@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "'A high tech minigun that fires plasma rounds.'"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「プラズマ弾を発射するハイテクミニガンです。'"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Skath Minigun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化型スカース・ミニガン"
+    }
+  ]
+]

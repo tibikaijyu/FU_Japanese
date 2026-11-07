@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful toxins emit from this weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な毒素がこの武器から放出される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムスタッフ"
+    }
+  ]
+]

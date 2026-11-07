@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a rainbow forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を虹の森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rainbow Forest Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "熱帯雨林マイクロフォーマ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I know what you're thinking, and the answer is no, it isn't real. I'm a businesstop, not a lunatic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたが何を考えているか知っていますが、答えはノーです。それは現実ではありません。 私はビジネストップで狂信者ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Po Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポーマスク"
+    }
+  ]
+]

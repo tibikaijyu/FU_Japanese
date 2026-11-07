@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for sturdy Glitch armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なグリッチ装甲の青写真。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Schematics (Health)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチ・シェマティクス(健康)"
+    }
+  ]
+]

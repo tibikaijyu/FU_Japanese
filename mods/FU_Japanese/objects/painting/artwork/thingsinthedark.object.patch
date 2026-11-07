@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of bizarre forms seem to shimmer before you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇怪な形が目の前にきらきらと光る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Dark Ones"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "闇"
+    }
+  ]
+]

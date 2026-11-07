@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Weight : 1g^reset;^green;Weight : 1g^reset; ^red;Narcotic.\n^white; Doubles health, but halves energy reserve.\n^blue;Madness Gain^reset; 3\n"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;重量: 1g^reset;^green;重量: 1g^reset; ^red;麻薬。\n^white; 健康を倍にしますが、エネルギーを半分にします。\n^blue;狂気の高まり^reset; 3\n"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aethercreep"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルクリープ"
+    }
+  ]
+]

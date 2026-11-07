@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large, long-necked creature with two fleshy humps on its back. It is domesticated to carry passengers and cargo."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "背中に二つの肉質のたんぱく質を持つ大きな長い首の生き物。 旅客や貨物を輸送する国産である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Two-Humped Camel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "二連キャメル"
+    }
+  ]
+]

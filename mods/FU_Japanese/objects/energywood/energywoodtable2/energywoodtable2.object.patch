@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic table made from energy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーウッドから作られたベーシックなテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Basic Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッド基本テーブル"
+    }
+  ]
+]

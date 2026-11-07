@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires a large swarm of guided mini missiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誘導小型ミサイルの大きな群れを発射する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega Missile Rack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガミサイルラック"
+    }
+  ]
+]

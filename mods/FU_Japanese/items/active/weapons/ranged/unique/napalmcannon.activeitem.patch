@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not the sort of thing you fire indoors at a carpentry show.\n^yellow;Inflicts burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工ショーで室内で発射するものは、決してありません。\n^yellow;焼失する影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Napalm Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナパームランチャー"
+    }
+  ]
+]

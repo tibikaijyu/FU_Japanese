@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense and sharp-edged chitin structure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "緻密で鋭いエッジのキチン構造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

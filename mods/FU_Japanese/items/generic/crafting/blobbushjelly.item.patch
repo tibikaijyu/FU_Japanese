@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange slime with fascinating properties. May be toxic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魅力的な特性を持つ奇妙なスライム。 毒性があるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Putrid Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライム"
+    }
+  ]
+]

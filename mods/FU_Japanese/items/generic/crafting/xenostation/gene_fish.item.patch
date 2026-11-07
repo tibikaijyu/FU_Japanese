@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cells of a fish or other water-dweller."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魚または他の水居住者の細胞。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Osteichthyes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オステイヒテース"
+    }
+  ]
+]

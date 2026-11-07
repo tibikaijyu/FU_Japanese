@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Removes you from danger when near death."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死の直前に危険からあなたを取り除きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tetherhook Weed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑草"
+    }
+  ]
+]

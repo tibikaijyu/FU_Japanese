@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Passive Defense Boost (+10)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パッシブディフェンスブースト(+10)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Defense Matrix II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "防衛マトリックスII"
+    }
+  ]
+]

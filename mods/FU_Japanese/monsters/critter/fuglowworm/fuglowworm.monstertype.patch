@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather apt name for this creature, I should think."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この生き物にとってかなりふさわしい名前だと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glow Worm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グローワーム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter V."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "V字。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter V"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手紙 V"
+    }
+  ]
+]

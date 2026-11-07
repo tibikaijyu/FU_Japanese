@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A more advanced lasher hook that also deals more damage. Weighted."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より高度なラッシャーフックは、さらに多くの損傷を扱います。 重さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lasher Hook II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラッシャーフックII"
+    }
+  ]
+]

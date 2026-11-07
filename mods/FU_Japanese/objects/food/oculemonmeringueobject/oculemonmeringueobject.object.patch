@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sour oculemon-filled pie with a sweet meringue topping."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘いメレンゲのトッピングが入った酸っぱいオクレモンで満たされたパイ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssnack that ssstares back!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "後ろを振り返るスナック!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uneasy. This desert looks expertly baked, but that garnish..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不安です この砂漠は、巧妙に焼き立てられていますが、その装飾品は..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I never eat the fruit on top. Looks like it's... judgin' me."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はその果物を上には決して食べない。 まるで...私を判断しているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oculemon Meringue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オキュレモンメリンゲ"
+    }
+  ]
+]

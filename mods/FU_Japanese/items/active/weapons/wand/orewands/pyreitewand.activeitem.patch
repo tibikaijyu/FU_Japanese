@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Fire Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "火のブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライト・ワンド"
+    }
+  ]
+]

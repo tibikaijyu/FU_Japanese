@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primitive weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原始的な武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Curved Bone Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "曲がった骨の刃"
+    }
+  ]
+]

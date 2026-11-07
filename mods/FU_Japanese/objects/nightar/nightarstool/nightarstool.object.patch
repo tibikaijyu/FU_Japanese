@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple stool."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シンプルなスツール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Simple Stool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シンプルなスツール"
+    }
+  ]
+]

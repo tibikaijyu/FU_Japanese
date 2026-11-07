@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This pet healing station is used to heal pets, and is automated and Item Network capable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットの癒しに利用するペット癒しステーションで、自動化されたアイテムネットワークが可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Automatic Pet Healer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;自動ペットヒーラー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "For broken robots"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "壊れたロボットのために"
+    }
+  ]
+]

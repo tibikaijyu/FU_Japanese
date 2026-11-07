@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reliable, sturdy and stabby."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼性、安定性、安定性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンラピア"
+    }
+  ]
+]

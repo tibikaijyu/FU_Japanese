@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " Rocks and Rock-like things."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " 岩や岩のようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Geologist"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " 地質学者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Geology"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "地質学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Geologist"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "地質学者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I've got things to sell."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "売るものがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran sssell thingss to you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローランはあなたに物を売る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Statement. I've got things to sell."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "声明。 売るものがあります。"
+    }
+  ]
+]

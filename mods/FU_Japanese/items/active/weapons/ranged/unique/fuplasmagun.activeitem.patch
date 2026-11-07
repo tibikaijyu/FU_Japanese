@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Focuses energy for supreme damage output.\n^cyan;Counts as plasma weapon for set bonuses^reset;\n^yellow;Destroys tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最大損傷出力のためのエネルギーに焦点を当てます。\n^cyan;セットボーナスのプラズマ武器としてカウントします。^reset;\n^yellow;瓦の破壊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマライフル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The shadowy tip is great for poking."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "陰影の先端は、ポーキングに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "振り子"
+    }
+  ]
+]

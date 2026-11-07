@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despite what the name suggests, Elder Bees don't live very long."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "名前が示すように、年長のミツバチはそれほど長くは生きません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチ"
+    }
+  ]
+]

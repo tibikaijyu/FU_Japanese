@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You heard of crystal storms? This makes them."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルストームって聞いた? というわけだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Stynger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ・スティンガー"
+    }
+  ]
+]

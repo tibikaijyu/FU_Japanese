@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a Marine Biologist to help you swim faster."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より速く泳ぐのを助けるために海洋生物学者を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scuba Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スキューバ契約"
+    }
+  ]
+]

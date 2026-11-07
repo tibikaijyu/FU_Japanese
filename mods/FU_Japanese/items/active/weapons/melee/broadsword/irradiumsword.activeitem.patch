@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged from irradium.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イラジウムから鍛造。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムブレード"
+    }
+  ]
+]

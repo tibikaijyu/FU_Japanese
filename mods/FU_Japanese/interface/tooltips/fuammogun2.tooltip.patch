@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoAmountTitleLabel/value",
+      "value": "Ammo:"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoAmountTitleLabel/value",
+      "value": "弾薬:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "Damage Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "Energy Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "消費EN:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speedTitleLabel/value",
+      "value": "Rate of Fire:"
+    },
+    {
+      "op": "replace",
+      "path": "/speedTitleLabel/value",
+      "value": "連射速度:"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These stretch to fit anyone, of any weight!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのストレッチは、誰にでも合うように、どんな重量でも!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Stretchy Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカース・ストレッチ・パンツ"
+    }
+  ]
+]

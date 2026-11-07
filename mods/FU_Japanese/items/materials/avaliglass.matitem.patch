@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wonderful orange-tinted glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジ色がかったガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aerogel Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エアロゲルガラス"
+    }
+  ]
+]

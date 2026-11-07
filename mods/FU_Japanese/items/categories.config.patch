@@ -1,0 +1,674 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/labels/armcannon",
+      "value": "Arm Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/armcannon",
+      "value": "アームキャノン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/artifactElderResearched",
+      "value": "^cyan;Researched Artifact^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/artifactElderResearched",
+      "value": "^cyan;アーティファクトの研究^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/artifactResearched",
+      "value": "^cyan;Researched Artifact^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/artifactResearched",
+      "value": "^cyan;アーティファクトの研究^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/bioweapon",
+      "value": "Bioweapon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/bioweapon",
+      "value": "生物兵器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/bugResearched",
+      "value": "^cyan;Researched Insect^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/bugResearched",
+      "value": "^cyan;昆虫の研究^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/bugnet",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/bugnet",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/craftingGene",
+      "value": "Gene"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/craftingGene",
+      "value": "遺伝子"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/craftingOre",
+      "value": "Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/craftingOre",
+      "value": "鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/crewcontract",
+      "value": "Crew Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/crewcontract",
+      "value": "乗組員契約"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/detector",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/detector",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/elder",
+      "value": "Elder"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/elder",
+      "value": "エルダー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/energy",
+      "value": "Energy Weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/energy",
+      "value": "エネルギー兵器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/flamethrower",
+      "value": "Flamethrower"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/flamethrower",
+      "value": "火炎放射器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/fossilResearched",
+      "value": "^cyan;Researched Fossil^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/fossilResearched",
+      "value": "^cyan;化石の研究^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/fu_byosShipUnlock",
+      "value": "S.A.I.L Ship Data"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/fu_byosShipUnlock",
+      "value": "S.A.I.L.の船舶データ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/geodeResearched",
+      "value": "^cyan;Researched Geode^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/geodeResearched",
+      "value": "^cyan;研究済みの晶洞石^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/greataxe",
+      "value": "Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/greataxe",
+      "value": "すごかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/hookshot",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/hookshot",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/injector",
+      "value": "Injector"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/injector",
+      "value": "インジェクタ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/itemUpgrader",
+      "value": "^#a335ee;Item Upgrader^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/itemUpgrader",
+      "value": "^#a335ee;アイテムアップグレード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/katana",
+      "value": "Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/katana",
+      "value": "かたな"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/lance",
+      "value": "Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/lance",
+      "value": "ランス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/liquidGun",
+      "value": "Liquid Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/liquidGun",
+      "value": "液体銃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/longsword",
+      "value": "Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/longsword",
+      "value": "長刀"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/mace",
+      "value": "Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/mace",
+      "value": "メイス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/mechChip",
+      "value": "Mech Module"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/mechChip",
+      "value": "メカモジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/mechrepairtool",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/mechrepairtool",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/mininglaser",
+      "value": "Mining Laser"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/mininglaser",
+      "value": "採掘レーザー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/mininglaser",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/mininglaser",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/parasol",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/parasol",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/petfood",
+      "value": "Pet Food"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/petfood",
+      "value": "ペットフード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/plasma",
+      "value": "Plasma Weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/plasma",
+      "value": "プラズマ兵器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/precursor",
+      "value": "Precursor"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/precursor",
+      "value": "前身"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/quarterstaff",
+      "value": "Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/quarterstaff",
+      "value": "四半期スタッフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/rapier",
+      "value": "Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/rapier",
+      "value": "レイピア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/relocator",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/relocator",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/resourceItem",
+      "value": "^cyan;Resource Item^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/resourceItem",
+      "value": "^cyan;リソースアイテム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/scythe",
+      "value": "Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/scythe",
+      "value": "サイス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/shortspear",
+      "value": "Shortspear"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/shortspear",
+      "value": "ショートスピア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/sniperrifle",
+      "value": "Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/sniperrifle",
+      "value": "狙撃ライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_antiMaterialRifle",
+      "value": "Anti-Materiel Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_antiMaterialRifle",
+      "value": "抗素材ライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_autoShotgun",
+      "value": "Automatic Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_autoShotgun",
+      "value": "自動散弾銃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_battleRifle",
+      "value": "Battle Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_battleRifle",
+      "value": "戦闘ライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_beamPistol",
+      "value": "Beam Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_beamPistol",
+      "value": "ビームピストル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_beamRifle",
+      "value": "Beam Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_beamRifle",
+      "value": "ビームライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_flakCannon",
+      "value": "Flak Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_flakCannon",
+      "value": "火薬大砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_miniRocketLauncher",
+      "value": "Mini-Rocket Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_miniRocketLauncher",
+      "value": "小型ロケット発射装置"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_multiGrenadeLauncher",
+      "value": "Multi-Grenade Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_multiGrenadeLauncher",
+      "value": "マルチグレネードランチャー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_revolver",
+      "value": "High-Caliber Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_revolver",
+      "value": "高口径ピストル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_sawedOffShotgun",
+      "value": "Short-Barreled Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_sawedOffShotgun",
+      "value": "短銃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_squadAutomaticWeapon",
+      "value": "Squad Automatic Weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_squadAutomaticWeapon",
+      "value": "チーム・オートマチック・ウェポン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/swtjc_ewg_submachineGun",
+      "value": "Submachine Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/swtjc_ewg_submachineGun",
+      "value": "サブマシンガン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/translocator",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/translocator",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/unusualRelic",
+      "value": "^green;Unusual Relic^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/unusualRelic",
+      "value": "^green; 珍しい遺物 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/upgradeable",
+      "value": "^#e43774;Upgradeable Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/upgradeable",
+      "value": "^#e43774;アップグレード可能な武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/labels/upgradeableTool",
+      "value": "^#e43774;Upgradeable Tool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/labels/upgradeableTool",
+      "value": "^#e43774;アップグレード可能なツール^reset;"
+    }
+  ]
+]

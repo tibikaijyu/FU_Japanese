@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Any visitor to a Floran village will be greeted with a single reassurance; it is Floran custom not to harm any guest who enters a Floran home patch."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "フローラン村への訪問者は、単一の安心感で歓迎されます。フローランのホームパッチに入るゲストに害を及ぼさないことはフローランの習慣です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "This is, of course, a lie."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "これはもちろん嘘です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "Perhaps the intention was to be hospitable, but the Florans are incapable of sticking to such things, quickly descending into lethal violence if their guests should offend them in some manner. It is also worth noting that it is exceptionally easy to offend a Floran. Examples include: refusing to eat raw meat, damaging the plant life, being a Hylotl."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "おそらく、その意図は親切なものであったが、フローランはそのようなことに固執することができず、客が何らかの方法で彼らを怒らせるならば、すぐに致命的な暴力に陥る。 また、フローランを攻撃するのは非常に簡単です。 例えば、生肉を食べることを拒否し、植物を傷つけ、ハイロトルであること。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Greenfinger's Notes: Receiving Guests"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリーンフィンガーのメモ:ゲストを受け入れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Greenfinger's Notes: Receiving Guests"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "グリーンフィンガーのメモ:ゲストを受け入れる"
+    }
+  ]
+]

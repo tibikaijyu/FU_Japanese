@@ -1,0 +1,1394 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/0",
+      "value": "Second-to-Last <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/0",
+      "value": "最後へ <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/1",
+      "value": "3rd Technical Assistant <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/1",
+      "value": "3rd 技術アシスタント <field>士官。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/10",
+      "value": "Command Master Chief Petty <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/10",
+      "value": "コマンドマスターチーフペティ<field>士官。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/11",
+      "value": "Independent <field> Auditor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/11",
+      "value": "独立 <field> 監査役"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/12",
+      "value": "Dependant <field> Auditor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/12",
+      "value": "依存する <field> 監査人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/13",
+      "value": "Dreadnought <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/13",
+      "value": "ドレッドノート <field> 役人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/14",
+      "value": "Trainee <field> Mastermind"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/14",
+      "value": "修行 <field> 首謀者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/15",
+      "value": "Head of Petty <field> Arguments"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/15",
+      "value": "Petty の 頭部<field> 引数です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/16",
+      "value": "Backup <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/16",
+      "value": "バックアップ <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/17",
+      "value": "Reliable <field> Lacky"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/17",
+      "value": "信頼性 <field> 空白。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/18",
+      "value": "Theoretical <field> Advisor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/18",
+      "value": "理論<field>アドバイザー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/19",
+      "value": "Reliable <field> Lackey"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/19",
+      "value": "信頼性<field> ラッキー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/2",
+      "value": "Assistant Deputy <role> Guy/Gal"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/2",
+      "value": "アシスタント副 <role>ガイ/ガル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/20",
+      "value": "Head of <field> operations"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/20",
+      "value": "<field> 操作の先頭"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/21",
+      "value": "Wild Card <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/21",
+      "value": "ワイルドカード <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/22",
+      "value": "Head of <field> Relations"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/22",
+      "value": "<field>リレーションズの頭文字"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/23",
+      "value": "Last-Minute <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/23",
+      "value": "土壇場の<role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/24",
+      "value": "Expert in <field> Diplomacy"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/24",
+      "value": "<field>外交の専門家。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/25",
+      "value": "<field> Innovation Manager"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/25",
+      "value": "<field>イノベーションマネージャー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/26",
+      "value": "Loose Cannon <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/26",
+      "value": "緩い大砲 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/27",
+      "value": "Regional <field> Director"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/27",
+      "value": "地域 <field> 取締役"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/28",
+      "value": "Private <field> Investigator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/28",
+      "value": "個人 <field> 調査官"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/29",
+      "value": "Temporal <field> Surveyor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/29",
+      "value": "時間 <field> 測量士"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/3",
+      "value": "Trainee Apprentice <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/3",
+      "value": "実習生 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/30",
+      "value": "Radical <field> Innovator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/30",
+      "value": "ラジカル <field> イノベーター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/31",
+      "value": "Independent Head of <field> Operations"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/31",
+      "value": "<field>操作の独立ヘッド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/32",
+      "value": "Just your average <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/32",
+      "value": "平均値 <role> だけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/33",
+      "value": "Hobbyist <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/33",
+      "value": "趣味<role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/34",
+      "value": "Master of <field> Matters"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/34",
+      "value": "<field>Mattersのマスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/35",
+      "value": "Alternative <field> Advisory Representative"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/35",
+      "value": "代替 <field> 顧問代表。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/36",
+      "value": "Runner-Up <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/36",
+      "value": "ランナーアップ <field> 役人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/37",
+      "value": "Emergency <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/37",
+      "value": "緊急事態<field>オフィサー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/38",
+      "value": "First Mate's Second-Cousin's Third <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/38",
+      "value": "ファーストメイトのセカンドクーサンの三番目の<role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/39",
+      "value": "Unpaid <field> Intern"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/39",
+      "value": "無給<field>インターン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/4",
+      "value": "Temporary Relief <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/4",
+      "value": "一時的救済<role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/40",
+      "value": "<field> Student"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/40",
+      "value": "<field>学生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/41",
+      "value": "<field> Forum Moderator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/41",
+      "value": "<field>フォーラムモデレーター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/42",
+      "value": "Rogue <field> Profiteer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/42",
+      "value": "ローグ <field> プロファイター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/43",
+      "value": "Neutral Third Party <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/43",
+      "value": "中立的第三者 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/44",
+      "value": "Low Quality <field> Negotiations"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/44",
+      "value": "低品質<field>交渉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/45",
+      "value": "Armchair <field> Expert"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/45",
+      "value": "アームチェア <field> 専門家"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/5",
+      "value": "3rd Rear Lieutenant <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/5",
+      "value": "3rd 副副官 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/6",
+      "value": "64th Commodore <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/6",
+      "value": "64 コモドール <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/7",
+      "value": "Standing <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/7",
+      "value": "立っている <field> 役人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/8",
+      "value": "Sitting <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/8",
+      "value": "座る <field> 役人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/9",
+      "value": "Executive Coffee-Making <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/9",
+      "value": "コーヒーのエグゼクティブメイキング <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Security"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "セキュリティ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Soldier"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "兵士"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "I can't reach you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "You're too far!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "遠すぎる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Hey, wait up!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "ちょっと待って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "Don't go too far!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "行き過ぎないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Let me catch up!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "追いかけよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
+      "value": "Wait for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
+      "value": "待ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Let me give you a hand real quick!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "手を本当に早くあげましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "Let me help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "Looks like you could use my assistance!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "私の助けを借りてもらえそうです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "I can help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "助けられる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "Let me give you a hand real quick!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "手を本当に早くあげましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "Let me help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "Looks like you could use my assistance!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "私の助けを借りてもらえそうです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "I can help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "助けられる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "Yes, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "はい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "Captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "Let's get going!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "行くぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Let's go, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "さぁ、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Are we going somewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/5",
+      "value": "I shall follow, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/5",
+      "value": "私は従うよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/6",
+      "value": "Shall we go, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/6",
+      "value": "行きましょうか、隊長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/7",
+      "value": "Is it time to move, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/7",
+      "value": "そろそろ移動の時間ですか、船長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Hello adventurer, mind if I join you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "こんにちは冒険家、私があなたに加わるかどうか気にしますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "I'm <selfname>, and I really want to join a ship. Do you want to employ me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "私は<selfname>です、そして私は本当に船に参加したいです。 私を雇いたいですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/10",
+      "value": "Can I join you in the stars? I have skills that could help you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/10",
+      "value": "星に加わってもいい? 私にはあなたを助けるスキルがあります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/11",
+      "value": "A life among the stars is the one for me. Please, can I join your crew?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/11",
+      "value": "星の中での生活は私にとってのものです。 どうかあなたの乗組員に加わってもいいですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/12",
+      "value": "I'm a very useful person! Can I join you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/12",
+      "value": "私はとても便利な人です! 参加できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "You are JUST the kind of person I should work with! Fancy employing me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "あなたは私が一緒に働くべきタイプの人です! 私を雇う空想?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "I'm looking for a ship's crew to join. Are you interested?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "船員を募集しています。 興味ある?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "I'm looking for a place among a crew. Can I join yours?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "私は乗組員のいる場所を探している。 参加できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/5",
+      "value": "I have skills that may help you on your ventures. Would you like to hire me?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/5",
+      "value": "あなたの冒険に役立つスキルがあります。 私を雇ってもらえますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/6",
+      "value": "Perhaps the life aboard a ship is the one for me. Can I join you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/6",
+      "value": "たぶん、船に乗った人生は私にとってのものです。 参加できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/7",
+      "value": "I'm looking to escape to a new life. Are you hiring?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/7",
+      "value": "私は新しい生活に逃げようとしている。 雇ってるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/8",
+      "value": "You have a ship? Perhaps you're looking for people to join a crew?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/8",
+      "value": "あなたは船を持っていますか? 乗組員に加わってくれる人を探しているのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/9",
+      "value": "Tell me, are you looking for crew members? To live among the stars would be wonderful."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/9",
+      "value": "私に教えてください、あなたは乗組員を探していますか? 星の間で生きることは素晴らしいことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "Heh... Dying tickles."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "へえ...。 くすぐりを染める。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "What just happened?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "何があったの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/10",
+      "value": "Respawning makes my head feel fuzzy. I like it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/10",
+      "value": "生まれ変わると頭がファジィになる。 私はそれが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/11",
+      "value": "Did I die, or just black out?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/11",
+      "value": "死んだのか、それともブラックアウトしただけなのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "I'm back! And alive!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "帰ってきた! 生きてる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "I'm back and in one piece!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "私は戻って、一つの部分です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "I'm alive again! That's good."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "もう一回生きてる! それは良いことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "I don't think I respawned properly..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "きちんと生まれ変わったとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "My head hurts."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "頭が痛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "What was I doing just before I died?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "死ぬ直前に何をしていたのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/8",
+      "value": "Was I dead just now?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/8",
+      "value": "ちょうど今、私は死んだのですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/9",
+      "value": "I hope I respawned properly. Do I look alright?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/9",
+      "value": "きちんと再生して欲しい。 顔は大丈夫ですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'll be here for you if you need someone to help you fight bad guys!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "悪人たちと戦うのを手伝ってくれる人が必要なら、私はここに来る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "If you need protection, you know where to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "保護が必要な場合は、どこで私を見つけるか知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/10",
+      "value": "I'll be here if you need help to defend yourself"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/10",
+      "value": "自分を守る手助けが必要ならここにいます"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/11",
+      "value": "If you need assistance on your travels, I will be here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/11",
+      "value": "あなたの旅行に援助が必要な場合は、私はここにいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/12",
+      "value": "I can always lend you my arms and skill in battle, should you need it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/12",
+      "value": "必要なら、いつでも腕と技を貸し出すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/13",
+      "value": "When you need my protection, come get me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/13",
+      "value": "私の保護が必要なら、私に会いに来なさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "If you need me in battle, I'll be here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "戦いで私が必要なら、私はここにいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
+      "value": "I'll stay posted here until you need backup."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
+      "value": "バックアップが必要なまでここに投稿します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
+      "value": "I'll remain on guard here until you need me, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
+      "value": "あなたが私を必要とするまで、私はここで警備します、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
+      "value": "If you need military support, I'll be here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
+      "value": "軍事支援が必要なら、私はここにいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
+      "value": "If you need me in battle, you know where I am."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
+      "value": "戦いで私が必要なら、あなたは私がどこにいるか知っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
+      "value": "I'll be here for you if you need someone to help you in battle."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
+      "value": "戦闘で助けてくれる人が必要なら、私はここにいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/8",
+      "value": "If you need a hand in battle, you know where to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/8",
+      "value": "戦いで手が必要な場合は、どこで私を見つけるか知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/9",
+      "value": "I'll stay here so you know where I'll be if you need protection!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/9",
+      "value": "保護が必要ならどこにいるかわかるようにここに滞在します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "I'll just wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "ここで待ってます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "I'll stay here. Come back when you need me, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "ここに滞在します。 必要なら戻ってきなさい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "I'll stay here for now, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "私は今ここに滞在します、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "Do you need me to stay here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "ここに滞在したいのですが?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "I'll remain here for now, then."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "では今度だけはここに留まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "I can wait here, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "ここで待ってるよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/6",
+      "value": "I'll hold the fort if you want, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/6",
+      "value": "お望みなら砦を押さえておきます、船長。"
+    }
+  ]
+]

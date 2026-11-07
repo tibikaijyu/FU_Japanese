@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honey Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニークイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークイーン"
+    }
+  ]
+]

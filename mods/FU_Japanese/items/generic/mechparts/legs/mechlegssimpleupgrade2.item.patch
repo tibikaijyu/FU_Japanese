@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mass-produced mech legs that allow for basic mobility."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な移動を可能にする大量生産メカ脚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Improved Mech Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカ脚の改良"
+    }
+  ]
+]

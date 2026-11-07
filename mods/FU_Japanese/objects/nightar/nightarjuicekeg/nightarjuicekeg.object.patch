@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A keg full of juice. Mmm, juice!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジュースたっぷりのレッグ。 ジュースだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Juice Keg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジュースケグ"
+    }
+  ]
+]

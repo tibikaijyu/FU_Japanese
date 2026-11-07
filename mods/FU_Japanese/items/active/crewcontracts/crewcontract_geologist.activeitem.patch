@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sells useful resources."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有用なリソースを販売します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Geologist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地質学契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stab faster than a ninja."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "忍者より早く刺す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムラピエ"
+    }
+  ]
+]

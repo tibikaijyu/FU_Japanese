@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devoratrix Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デボラトリクスドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Devoratrix Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デボラトリクスドローン"
+    }
+  ]
+]

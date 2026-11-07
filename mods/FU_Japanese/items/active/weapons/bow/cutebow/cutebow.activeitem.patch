@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Threesome"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "三連射"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Longbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいロングボウ"
+    }
+  ]
+]

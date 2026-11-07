@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.04% Health Regen, Immune: Acid^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.04%健康レーゲン、免疫:酸^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reptilian Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レプティリアンシールド"
+    }
+  ]
+]

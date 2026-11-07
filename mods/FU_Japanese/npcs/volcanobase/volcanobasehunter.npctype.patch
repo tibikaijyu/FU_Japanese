@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/0",
+      "value": "Cryptic. I owe you nothing but an arrow through the eye."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/0",
+      "value": "暗号化。 目から矢だけ借りがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/1",
+      "value": "Menacing. Stay back, or I'll put one through your knee!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/1",
+      "value": "脅威。 後ろに寄れ、さもないと膝を通すぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/glitch/default/2",
+      "value": "Grim. One shot, intruder. That's all I'll need."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/glitch/default/2",
+      "value": "悲鳴。 ワンショット、侵入者。 それしか必要ありません。"
+    }
+  ]
+]

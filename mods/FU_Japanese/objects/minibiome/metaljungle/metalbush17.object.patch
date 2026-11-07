@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual metallic flower."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい金属の花。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属製の花"
+    }
+  ]
+]

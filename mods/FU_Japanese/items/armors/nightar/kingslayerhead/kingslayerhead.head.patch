@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "NOT FOR NORMAL USE, AND DON'T CHEAT IT IN, please ;D"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "通常の使用は行わず、不正使用しないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar king slayer head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトキングスレイヤーヘッド"
+    }
+  ]
+]

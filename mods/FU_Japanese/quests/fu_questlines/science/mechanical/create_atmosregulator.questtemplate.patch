@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent, and the one I ordered is already on the way. There we go. As promised, ^green;a ton of money.^green;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "優秀で、私が注文したものはすでに途中です。 よし、行くぞ。 約束したように、^green;大量のお金。^green;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Atmosphere Regulator^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;大気調節装置^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I need to ^green;borrow^reset; an ^orange;Atmospheric Regulator^reset; so I can colonize a hostile world. You'll find it at your ^orange;Power Station^reset;. I'll need to keep it for a while but I'll pay top dollar for it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "敵対的な世界を植民地化するには、^green;borrow ^reset;an ^orange;Atmospheric Regulator ^reset; が必要です。 ^orange;Power ステーション ^reset; で見つけることができます。 しばらくは持っておく必要があるが、それに対して一流の金を払う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Protective Measures"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "保護措置"
+    }
+  ]
+]

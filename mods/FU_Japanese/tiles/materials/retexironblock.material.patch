@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid iron block."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体鉄ブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンブロック"
+    }
+  ]
+]

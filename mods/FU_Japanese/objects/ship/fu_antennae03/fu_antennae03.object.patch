@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A smaller communications array."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より小さなコミュニケーションアレイ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Comm-Unit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型通信機"
+    }
+  ]
+]

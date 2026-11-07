@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic power storage unit.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;1000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な蓄電ユニットです。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;1000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Basic^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;基本^reset;バッテリー。"
+    }
+  ]
+]

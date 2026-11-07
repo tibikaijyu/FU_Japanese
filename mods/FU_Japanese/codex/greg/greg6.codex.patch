@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "While it took weeks, we have isolated the problem. Some sort of rapidly mutating particle, so small as to be undetectable even in the electron microscope, has tainted the main sample. The source of this particle remains largely unknown, though my theory that Greg mixed some of that fluid into his batch seems the most likely cause."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "何週間もかかったが、問題は解決した。 電子顕微鏡でも検出不可能なほど小さな、突然変異粒子の一種が主なサンプルを汚している。 この粒子の源は、ほとんど不明ですが、グレッグがその液体の一部を彼のバッチに混ぜたという私の理論が最も可能性の高い原因のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lab Notes 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究ノート 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Experimental Vaccine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "実験的ワクチン"
+    }
+  ]
+]

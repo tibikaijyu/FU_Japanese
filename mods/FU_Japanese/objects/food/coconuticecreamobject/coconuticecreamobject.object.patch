@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for when you're stranded on a tropical island."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱帯の島で立ち往生するときに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Not as sssweet as Floran was expecting..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランが期待していたほど甘くはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. This ice cream isn't particularly sweet, but the coolness is still appreciated."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル このアイスクリームは特に甘くないが、冷え性はまだ高く評価されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now that's an odd flavor right there. Not bad though."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "変な味ですね でも悪くない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coconut Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ココナッツアイスクリーム"
+    }
+  ]
+]

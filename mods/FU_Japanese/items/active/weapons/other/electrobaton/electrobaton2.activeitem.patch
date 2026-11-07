@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Originally developed for Miniknog riot police. It's shockingly effective."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "もともとはミニノグ暴動警察のために開発されました。 驚くほど効果的です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zipzap The Astounder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "驚異のジップザップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "2 Zip 2 Furious ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "2Zip2激怒^yellow;^reset;"
+    }
+  ]
+]

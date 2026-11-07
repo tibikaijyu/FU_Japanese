@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...long held as the finest wine in the known galaxy, Mantizian vineyards are viewed with utmost respect by virtually all respected wine connosieurs. Few are those among the elite who are not familiar with the narcotic qualities of these wines. Highly sought, their value on the black market is insultingly astronomical."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "有名な銀河で最も優れたワインとして長い間保持され、マンティツィアのブドウ園は、事実上すべての尊敬されるワイン愛好家によって最大限に尊敬されています。 これらのワインの麻薬的な性質に精通していないエリートの間ではほとんどありません。 非常に求められ、ブラックマーケットにおける彼らの価値は、侮辱的に天文学的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "For the Mantizi themselves, however, the wine is simply delicious. Their natural immunity to the toxin common in the grapes they use gives them no ill effects. Meanwhile, Avians are well-known to be especially susceptible. Most Mantizi hoard a few bottles at any given time (if they have access to stores of them in their family holdings) but are loathe to part with them. In some of the more lawless sectors, Mantizi are captured and 'inspired' by pirates into 'donating' their supply."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "しかし、マンチジ自身にとって、ワインは単に美味しいです。 彼らが使用するブドウに共通する毒素に対する自然な免疫性は、彼らに悪影響を与えません。 一方、アヴィア人は特に影響を受けやすいことがよく知られている。 ほとんどのマンティジは、いつでもいくつかのボトルを保有(彼らが彼らの家族の持ち物でそれらの店へのアクセス権を持っている場合)が、それらと別れるのを嘆いている。 より無法なセクターでは、マンティツィは海賊に捕らえられ、彼らの供給を「寄付」する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "Were it not for the recent collapse of the Mantizi Empire, this would not be the case. Supply and demand is a cruel mistress, and demand has long since outstripped supply."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "最近のマンチス帝国の崩壊のためでなければ、これは当てはまりません。 需要と供給は残酷な愛人であり、需要は供給をはるかに上回った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just a hunch: It's about wine."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワインの話です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ワイン"
+    }
+  ]
+]

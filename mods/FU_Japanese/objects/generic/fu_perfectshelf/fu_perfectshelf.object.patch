@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect shelf."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Shelf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーフェクト棚"
+    }
+  ]
+]

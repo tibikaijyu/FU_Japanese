@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Door?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ドア?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Door."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "[FU] Asra Nox Sail Fix"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "[FU]アスラ・ノックス帆の修正"
+    }
+  ]
+]

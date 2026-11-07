@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Makes useful weapons.\n^yellow;^reset;^red;Poisoned^reset;: 12s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "便利な武器を作る。\n^yellow;^reset;^red; 毒 ^reset; : 12 s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thornitox Dongle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "角膜ドングル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jump height boost, lower fall damage, wall jump, wall slide."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプ高さブースト、下降損傷、壁ジャンプ、壁スライド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Power Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "パワージャンプ"
+    }
+  ]
+]

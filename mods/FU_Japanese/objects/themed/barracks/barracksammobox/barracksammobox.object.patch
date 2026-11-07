@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Ah, an ammo box. It looks to be well stocked."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ああ、弾薬箱だ。 在庫も豊富だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A box of ammunition. Arrows, perhaps?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "弾薬の箱。 たぶん、矢印?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A durable container for safely storing ammunition."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "弾薬を安全に保管するための耐久性のある容器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Box of bullets and ssuch."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "弾丸などの箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A container for storing ammunition. It's a tad too small for Glitch cannonballs, however..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 弾薬を保管するための容器。 グリッチ砲弾には小さすぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This container has a little gun painted on the side... I guess it's for bullets?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この容器には、側面に小さな銃が塗られています。 弾丸のためかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I do hope the lock on this ammunition chest isn't faulty."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この弾薬箱の錠が故障していないことを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A box for haulin' yer musket balls and bullets."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "弾丸と弾丸を運べる箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Barracks Ammo Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "兵舎弾薬箱"
+    }
+  ]
+]

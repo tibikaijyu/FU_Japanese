@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "We promise wearing this hat will not induce poison."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この帽子をかぶっても毒は起こさないと約束します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒帽子"
+    }
+  ]
+]

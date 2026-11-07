@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primitive murder in the palm of your hand.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの手のひらで原始的な殺人。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Cudgel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨カドゲル"
+    }
+  ]
+]

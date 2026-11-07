@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Need to creep people out but have a place to sit? Bam!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人を見捨てる必要がありますが、座る場所はありますか? くそ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Armchair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨付きアームチェア"
+    }
+  ]
+]

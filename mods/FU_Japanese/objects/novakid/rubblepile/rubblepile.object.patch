@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Debris from a failed excursion."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "失敗した遠足からの破片。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Nothing of interest here."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ここには何も興味がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothing but junk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンク以外の何も。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Just dirty rocksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ただ汚れた岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disappointed. There doesn't seem to be anything worthwhile here."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "がっかり。 ここには何の価値もないようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Aw, it's just junk."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ただのジャンクだよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Patience is a virtue indeed."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "忍耐は確かに美徳です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Can't all be winners, I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "誰もが勝者になれるとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rubble Pile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "瓦杭"
+    }
+  ]
+]

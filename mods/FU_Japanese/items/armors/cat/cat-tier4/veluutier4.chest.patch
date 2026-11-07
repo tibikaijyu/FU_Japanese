@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cat's collar imbued with protective power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "猫の首輪は保護力で満たされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cat's Collar Tier 4"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "猫の色 ティア 4"
+    }
+  ]
+]

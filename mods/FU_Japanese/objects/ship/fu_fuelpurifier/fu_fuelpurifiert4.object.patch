@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purifies fuel before it reaches your ships FTL drive. Reduces fuel cost by ^green;20^reset;%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃料を精製してから、船のFTLドライブに到達します。 ^green;20^reset;% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Densinium Fuel Purifier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; デンシニウム燃料精製装置^reset;"
+    }
+  ]
+]

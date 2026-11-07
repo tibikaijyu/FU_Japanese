@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires kinetic blasts.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 発射運動ブラスト。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Prowler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシ・プロウラー"
+    }
+  ]
+]

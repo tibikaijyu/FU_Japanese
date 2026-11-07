@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Be wreathed in holy flame!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "聖火でかき消される!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "You shall burn for your trespass!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "道に火を付けましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "Burn for the glory of Kluex!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "クルーエクスの栄光のために燃えなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "Ashes to ashes!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "灰に灰!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "I shall purify your mind with my sacred flame!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "わたしの神聖な炎であなたの心を清めましょう!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cheap, resilient panelling widely used for Hylotl ship construction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイロトルの船の構造のために広く使用される安価でレジリエントなパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Hull Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトル船体パネル"
+    }
+  ]
+]

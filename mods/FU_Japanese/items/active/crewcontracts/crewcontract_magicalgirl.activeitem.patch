@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A magic girl with a staff. Provides ^pink;Shadow Taint and Caliginous Gas Immunity^reset;, and 5% reduced fuel costs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタッフと魔法少女。 ^pink;影の色合いとカリギナスガス免疫性^reset;、および5%は燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magical Girl Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "魔法少女契約"
+    }
+  ]
+]

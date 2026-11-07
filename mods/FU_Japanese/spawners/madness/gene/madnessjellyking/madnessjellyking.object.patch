@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pleasant-smelling creation that can liquify flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉を液体化できる心地よい香りの創造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチン性眼"
+    }
+  ]
+]

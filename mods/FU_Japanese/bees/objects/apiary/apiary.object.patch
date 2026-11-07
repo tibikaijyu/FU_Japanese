@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bee breeding apiary."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "養蜂所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apiary"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "養蜂箱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Harvest honey!"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ハチミツを収穫!"
+    }
+  ]
+]

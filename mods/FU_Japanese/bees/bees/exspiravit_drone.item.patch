@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exspiravit Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空飛ぶドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exspiravit Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空飛ぶドローン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Emits a screeching wail across a wide area."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "広いエリアを横断するスクリーチングウォールを発します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Sonic Burst^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;音速バースト^reset;"
+    }
+  ]
+]

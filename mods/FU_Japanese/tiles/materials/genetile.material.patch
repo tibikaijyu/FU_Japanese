@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gigantic cell."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な細胞です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A somewhat crude iron greataxe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やや粗い鉄の巨根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄の光"
+    }
+  ]
+]

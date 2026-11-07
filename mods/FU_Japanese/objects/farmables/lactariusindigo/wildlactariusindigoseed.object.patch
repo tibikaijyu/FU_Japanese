@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Resistant to Shadow effects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウ効果に強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lactarius Indigo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラッカリウス・インディゴ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This prototype blade was used to build on existing techniques. It's rather bulky."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このプロトタイプブレードは、既存の技術の上に構築するために使用された。 かなりかさばる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weak Metal Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "摩耗金属広刃"
+    }
+  ]
+]

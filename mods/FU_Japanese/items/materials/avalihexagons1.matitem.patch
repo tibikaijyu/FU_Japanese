@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plating in the shape of, and possibly inspired by, a Glitch hive.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリッチの巣の形を、おそらくは触発されて、めっきする。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hexagonal Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "六角めっき"
+    }
+  ]
+]

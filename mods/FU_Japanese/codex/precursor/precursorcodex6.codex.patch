@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "<Translation: We are at war. We have no idea who ^red;<unknown>^reset; are or where they came from, but they are a truly horrible race. Their sense of morality is non-existent (perhaps they don't even understand the concept), and the unspeakable atrocities carried out on our people...unimaginable.>"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "<翻訳:私たちは戦争中です。 誰だか分かりません ^red;<unknown>^reset; 彼らがどこから来たかは わかっていますが 本当に恐ろしい人種です 彼らの道徳感は存在しません(おそらく彼らは概念さえ理解していません)、そして私たちの人々に対しては口にできない残虐行為...想像もできないことです。>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "<^red;<unknown>^reset;, our most revered General, has fallen in battle. Without his mind, I remain uncertain on how we will achieve victory even with our recent discovery of the ^red;<unknown>^reset; technology. Our most dangerous weapons appear to be a mere annoyance to these abominations.>"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "最も尊敬されている将軍 <^red;<unknown>^reset; が戦いに落ちました。 彼の心がないまま、私は私たちが最近発見した^red;<unknown>^reset;技術でさえ、どのように勝利を達成するかについては不明です。 私たちの最も危険な武器は、これらの嫌悪に対する単なる迷惑のようです。>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "<^red;<unknown>^reset; claimed they were coming. He warned us of their point of origin. We mocked him. We imprisoned him. We sentenced him to death for treason. But he was right. We should have listened. Now....now we all die.>"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "<^red;<unknown>^reset;は彼らが来ると主張した。 彼は彼らの出自を私たちに警告した。 私たちは彼をあざけった。 私たちは彼を投獄した。 私たちは彼を反逆罪で死刑にした。 でも彼は正しかった。 私たちは聞くべきだった。 さぁ...。みんな死ぬんだ>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ulla Vikt"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ウッラ・ヴィクト"
+    }
+  ]
+]

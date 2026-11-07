@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a tailor to keep your crew looking great."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乗組員を素晴らしく見せるために仕立て屋を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tailor Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テーラー契約"
+    }
+  ]
+]

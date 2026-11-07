@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Ah, most exceptional, fleshling. My gratitude showers upon you, and the glory of the Shards will shine on your soul forevermore."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ああ、最も例外的な、肉体的。 私の感謝があなたにシャワーを浴び、シャードの栄光はあなたの魂に永遠に輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring a ^orange;Crystalline Trophy^reset; to the ^green;Gem Shop^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;結晶トロフィー^reset; へ ^green;宝石店^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Good day, being of carbon and flesh. I wonder if you might give aid to this Eld'uukhar? I seek the glorious aspect of a ^orange;Crystalline Trophy^reset;. I've heard that they can be found in ^orange;Ancient Temples^reset;. If you find one, I would reward you handsomely for your efforts."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "良い日、炭素と肉体の存在。 このエルドゥハルに援助をしてくれるかな? ^orange;クリスタルトロフィー^reset;の栄光の面を求めます。 発見できるそうです ^orange;古代寺院^reset;. もし見つけたら、あなたの努力にご褒美を贈ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Crystalline Perfection"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "結晶性完全性"
+    }
+  ]
+]

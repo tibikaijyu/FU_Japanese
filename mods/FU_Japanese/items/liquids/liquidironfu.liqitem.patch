@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Iron ^gray;Fe^reset; has a melting point of 1811K (1537C). Let that be a word of caution.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄^gray;Fe^reset;は、1811K(1537C)の融点を有する。 それは注意点です。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Iron"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体鉄"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+12%^reset; Energy Regen, ^green;-40%^reset; Fall Damage, ^green;Immune:^reset;: Cold,Rad,Heat,Proto"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+12%^reset; エネルギー再生、^green;-40%^reset; フォールダメージ、^green; 免疫: ^reset; : 冷、Rad、Heat、Proto。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quantum Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "量子シールド"
+    }
+  ]
+]

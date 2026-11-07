@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Have a nice hunk of cash as my thanks."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "感謝の気持ちを込めて、現金をたくさん持ってきなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Ice Crystal^reset; to the ^green;scientist^reset; at the first floor of the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;氷結晶^reset; へ ^green;科学者^reset; 一階で ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've heard of ^orange;Ice Crystals^reset; before, but I have yet to actually see one. Can you bring me one? I have no idea where they even come from!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; 氷の結晶 ^reset; は前に聞いたことがあるが、実際には見ていない。 一つ持ってきていただけますか。 どこから来たのか分からない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Icy Situation "
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "氷の状況 "
+    }
+  ]
+]

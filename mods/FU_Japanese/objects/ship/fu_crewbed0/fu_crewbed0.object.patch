@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These crappy beds attach to a wall. Horribly uncomfortable. Can only place 4. ^yellow;Crew +1^reset;. Counts as a deed. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのくだらないベッドは壁に取り付けられます。 ひどく不快。 4 のみを配置できます。 ^yellow;船員+1^reset;。 行為としてカウントされる。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crappy Crew Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラッピークルーベッド"
+    }
+  ]
+]

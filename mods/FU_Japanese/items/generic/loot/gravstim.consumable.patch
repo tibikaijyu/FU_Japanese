@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Temporarily alters your gravity. Don't ask how.\n^cyan;-^white;30% ^cyan;Gravity ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重力を一時的に変える。 どうやって聞くの?\n^cyan;-^white;30% ^cyan;重力 ^gray;(^white;2え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grav-Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重力刺激剤"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slab of purified Uranium. I wouldn't touch this stuff - Radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精製ウランのスラブ。 放射性物質は触れません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Slab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランスラブ"
+    }
+  ]
+]

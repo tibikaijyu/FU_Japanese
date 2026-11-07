@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient holographic depiction of a cataclysmic battle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のホログラフィックによる大災害の描写。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "The concept of sealing away evil shows up in many alien cultures... perhaps this is the reason?"
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "悪を封印するという概念は多くの異国文化に現れます...おそらくこれが理由ですか?"
+    }
+  ]
+]

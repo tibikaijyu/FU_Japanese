@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A curious, unique weapon of ancient design.\n^yellow;Inflicts Electrified^reset;\n^green;Incredible knockback^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代デザインの好奇心とユニークな武器。\n^yellow; 電化 ^reset; に作用します。\n^green;信じられないほどのノックバック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Harbinger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体ハルビンガー"
+    }
+  ]
+]

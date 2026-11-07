@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A box of guns confiscated from a gun-running sting operation. It's not like they need them anymore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銃を走らせる刺し傷から没収された銃の箱。 もはや彼らが彼らを必要としているわけではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Box of Confiscated Weapons"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "没収武器箱"
+    }
+  ]
+]

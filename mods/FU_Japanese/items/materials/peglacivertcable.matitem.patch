@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chilled cable housing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷蔵ケーブルハウジング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssshiny vines."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ツヤツヤのあるブドウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. These cables are kept at a constant temperature."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 これらのケーブルは一定温度に保たれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chilled Vert. Cabling"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷やしたヴェルト。 ケーブル"
+    }
+  ]
+]

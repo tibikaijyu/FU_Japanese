@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Non-hostile bags of gas. It is absolutely advised to not harass them. They tend to explode."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガスの非敵対的な袋。 彼らを嫌がらせしないように絶対に忠告する。 彼らは爆発する傾向があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gas Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガス袋"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "He is the Lord of the Flies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空の神である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Corrupt Fly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型の破損フライ"
+    }
+  ]
+]

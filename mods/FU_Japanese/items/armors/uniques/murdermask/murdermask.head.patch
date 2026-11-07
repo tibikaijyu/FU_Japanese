@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brings merriment and joy ^red;(not murder)^reset; to young camp counsellors everywhere.\n+^green;5^reset;% Crit Chance\n+^green;20^reset;% Phys. Resist\n-^red;20^reset;% Electric Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "至る所のキャンプカウンセラーに、愉快で喜びのある ^red;(殺人ではない) ^reset; を届けましょう。\n+^green;5^reset;%クリティカル チャンス\n+^green;20^reset;% フィス。 レジスト\n-^red;20^reset;%電気抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Friendship Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレンドシップマスク"
+    }
+  ]
+]

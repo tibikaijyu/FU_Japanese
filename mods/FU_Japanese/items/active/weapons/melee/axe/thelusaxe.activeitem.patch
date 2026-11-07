@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Amber and chitin grant bonus Fun Points.\n^cyan;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アンバーとキチンはボーナス楽しいポイントを付与します。\n^cyan;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンアクス"
+    }
+  ]
+]

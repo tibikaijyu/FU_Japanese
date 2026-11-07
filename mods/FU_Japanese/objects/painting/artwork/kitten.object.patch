@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hungry, terrifying predator."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空腹で恐ろしい捕食者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fuzzy Wumpums"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファジィファンパム"
+    }
+  ]
+]

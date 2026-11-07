@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of delicate coral.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "繊細なサンゴのブロック。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Delicate Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "繊細なサンゴ"
+    }
+  ]
+]

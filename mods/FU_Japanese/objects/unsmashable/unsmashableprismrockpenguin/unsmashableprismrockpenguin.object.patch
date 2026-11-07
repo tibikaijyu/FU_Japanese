@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Is that a penguin?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "それはペンギンですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "There's a penguin encased in this crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この結晶に包まれたペンギンがいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly refractive prism. There appears to be something inside. Unsmashable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "屈折率の高いプリズム。 中に何かいるようです。 ぶっ壊せない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Rock has something inside! Floran wantsss to smash rock!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ロックには何かが入っています! フローランは岩を粉砕したい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Puzzled. How could a penguin possibly be inside this prism?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "パズル。 ペンギンはなぜこのプリズムの中にいるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A petrified penguin."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ペトリファイドペンギン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A penguin in a prism. Where does one begin to unravel this mystery?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "プリズムのペンギン。 どこでこの謎を解き明かすのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Hey there, lil' buddy."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "やあ、リリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prism Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズム結晶"
+    }
+  ]
+]

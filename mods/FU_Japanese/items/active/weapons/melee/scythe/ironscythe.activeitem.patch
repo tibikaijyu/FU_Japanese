@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Good ol' sharp and deadly iron!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "良い古い'シャープで致命的な鉄!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアン・サイス"
+    }
+  ]
+]

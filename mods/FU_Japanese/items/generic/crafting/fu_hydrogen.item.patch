@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wonderful applications exist for this, the lightest element.\n^blue;+^white;1 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "もっとも軽い要素である、素晴らしいアプリケーションが存在します。\n^blue;+^white;1 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水素"
+    }
+  ]
+]

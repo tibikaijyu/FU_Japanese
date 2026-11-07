@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Are... Are you really going to eat this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは... 本当にこれ食べるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Crayon Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型クレヨン箱"
+    }
+  ]
+]

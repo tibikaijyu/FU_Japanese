@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ingesting this seems distinctly unwise. But screw it! DOWN THE HATCH!\n^red;Frost Burn ^gray;(^white;5s^gray;), ^red;Insane^gray;(^white;2m^gray;), ^cyan;+^white;8 ^cyan;Defense^gray;, ^cyan;+^white;15% ^pink;All ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを摂取することは明らかに賢くないようです。 しかし、それをねじ込む! ハッチを降ろせ!\n^red;かぼちゃ ^gray;(^white;5ス)^gray;), ^red;狂気^gray;(^white;2え?^gray;), ^cyan;+^white;8 ^cyan;防衛^gray;, ^cyan;+^white;15% ^pink;すべて ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Puka-Cola"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プカ・コーラ"
+    }
+  ]
+]

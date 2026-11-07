@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/description",
+      "value": "A massive dolphin-like fossil."
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/description",
+      "value": "イルカのような巨大化石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "Icthydaemonae Fossil"
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "イチイダモネ化石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Icthydaemonae head."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化したイクシーダモネの頭。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icthydaemonae Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イクシー・デーモネ・スカル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "So long as you hold this, the deceased have great luck."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを持ってさえいれば、死者は幸運を祈る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Good Luck Tonsil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "幸運のトンシル"
+    }
+  ]
+]

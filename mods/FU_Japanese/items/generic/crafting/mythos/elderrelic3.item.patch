@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small shard from a larger blade. Ancient."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな刃からの小さなシャード。 古代。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Blade Shard^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;ブレードシャード^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A model based on the story of a legendary blade..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説の刃の物語に基づいたモデル...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Sword Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レアソードストーン"
+    }
+  ]
+]

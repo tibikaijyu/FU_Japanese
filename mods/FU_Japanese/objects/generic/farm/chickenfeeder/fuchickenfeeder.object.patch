@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keep them animals fed!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "動物に餌をやらせましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chicken Feeder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チキンフィーダー"
+    }
+  ]
+]

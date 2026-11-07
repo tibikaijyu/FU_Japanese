@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sparkling, diamond rapier."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝くダイヤモンドラピエ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドラピア"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "A novel of sorts, etched in crystalline ink on amazingly honed pages, also formed from crystals. It details the travels and trials of one Yettikash Justiri'var, hero of the Garix Clan. It seems he was a figure of historical significance in Eld'uukharic history."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "クリスタルから作られた、驚くほど磨き上げられたページに、クリスタルインクでエッチングされた小説。 ガリックス・クランのヒーロー、エテティカシュ・ジャスティリバルの旅と試練を詳述している。 彼はエルドゥウハリクの歴史において歴史的に重要な人物であったようである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They call me the Wanderer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らは私をワンダラーと呼びます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wanderer's Lament"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ワンダラーの嘆き"
+    }
+  ]
+]

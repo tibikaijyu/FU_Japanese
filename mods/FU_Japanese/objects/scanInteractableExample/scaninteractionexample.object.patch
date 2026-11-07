@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I'm calling the police."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "警察を呼んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A dirty, dirty, rock."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汚い、汚い、岩。"
+    }
+  ]
+]

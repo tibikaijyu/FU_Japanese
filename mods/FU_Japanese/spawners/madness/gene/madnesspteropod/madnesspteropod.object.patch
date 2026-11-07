@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flying monstrosity to spit blood at foes. Sound useful?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵に血を吐く空飛ぶ怪物。 便利そう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodbound Pteropod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血縁獣脚類"
+    }
+  ]
+]

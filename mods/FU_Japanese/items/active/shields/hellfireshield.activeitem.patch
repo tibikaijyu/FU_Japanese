@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+9% Energy Regen, Immune: Lava, Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+9% 免疫エネルギー:溶岩, 炎上^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火の盾"
+    }
+  ]
+]

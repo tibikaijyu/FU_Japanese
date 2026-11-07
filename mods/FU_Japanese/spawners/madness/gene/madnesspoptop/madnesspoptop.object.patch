@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An adorable poptop companion."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいポップトップの仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップ"
+    }
+  ]
+]

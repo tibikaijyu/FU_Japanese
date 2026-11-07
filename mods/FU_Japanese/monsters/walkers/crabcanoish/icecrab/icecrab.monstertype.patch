@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "While not necessarily lethal, they can make getting around rather hazardous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "必ずしも致命的とは限りませんが、彼らはかなり危険を回避することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Pincer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストピンサー"
+    }
+  ]
+]

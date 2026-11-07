@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This lovely piece of gear grants: Energy x1.1, +10% E. Regen, -5% E. Block, protection from electrical storms and a slight ^#00aa00;glow^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーx:この素晴らしいギア助成金1.1, +10% E. レーゲン -5% ブロック、電気嵐とわずかなからの保護。 ^#00aa00;輝き^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erithian Energy Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリートエネルギーパック"
+    }
+  ]
+]

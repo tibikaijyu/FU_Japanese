@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A set of mech legs designed for defense. Low speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "防御用に設計されたメカ脚のセット。 低速。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Falcon Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファルコンレッグ"
+    }
+  ]
+]

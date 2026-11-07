@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Mobility II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "モビリティII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that removes the slowing and slipping effects of mud, clay, jungle, snow, slush and ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "泥、粘土、ジャングル、雪、スラッシュ、氷の減速と滑り効果を取り除くEPPモジュールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mobility II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モビリティII"
+    }
+  ]
+]

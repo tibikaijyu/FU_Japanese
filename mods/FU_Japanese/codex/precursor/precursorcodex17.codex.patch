@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Careful experimentation reveals that not only do ^green;the laws of physics^reset; operate completely uniquely in this new universe, but also that we are able to ^orange;directly influence^reset; these forces without the need for any sort of ^red;thaumaturgical^reset; aid! The potential uses are terrifyingly promising!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "慎重に実験をすると ^green;物理学の法則は^reset; この新しい宇宙で完全にユニークに機能するだけでなく ^orange;直接影響し^reset; これらの部隊は 何らかの形で ^red;タウマタージカル^reset; 助けて! 潜在的な使用は恐ろしいほど有望です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Uru Ghek"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ウル・シェル"
+    }
+  ]
+]

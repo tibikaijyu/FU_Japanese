@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An arrow for... up? Or away?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "矢印は...アップ? それとも離れて?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Does this point to the clouds? Or the stars? Or something else..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これは雲を指していますか? それとも星? というか、何か...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old rusted sign with orders of some kind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の命令がある古い錆びた看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran sees arrow, but nothing above sign."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは矢を見るが、看板の上には何もない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Puzzled. Arrow could indicate several possibilites."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "パズル。 矢印はいくつかの可能性を示す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Can't read the sign, but the only thing in that direction is the stars."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "看板は読めませんが、その方向の唯一のものは星です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Is this a mandate? Perhaps to flee? Or for some other purpose?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これは義務ですか? 逃げる? それとも、他の目的のため?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rusted Instructional Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "さびたインストラクションサイン"
+    }
+  ]
+]

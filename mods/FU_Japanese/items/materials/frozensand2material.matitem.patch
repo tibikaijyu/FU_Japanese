@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sand covered in ice.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷に覆われた砂。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icy Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷の砂"
+    }
+  ]
+]

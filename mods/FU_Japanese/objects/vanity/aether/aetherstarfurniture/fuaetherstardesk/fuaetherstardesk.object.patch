@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty study desk with room for storing supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "備品を保管するスペースのあるかわいいワークデスク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Desk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙用エーテルデスク"
+    }
+  ]
+]

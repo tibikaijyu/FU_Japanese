@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These plain bricks have certainly survived the test of time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの平凡なレンガは確かに時間のテストを生き延びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Plain Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代平野ブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+17 HP^reset;, ^cyan;+40 EP^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力+17^reset;、^cyan;エネルギー+40^reset;：2分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Melodistar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メロディスター"
+    }
+  ]
+]

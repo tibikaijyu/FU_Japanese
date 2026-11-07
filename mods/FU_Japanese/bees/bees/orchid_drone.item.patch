@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Orchid Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蘭のドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orchid Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蘭のドローン"
+    }
+  ]
+]

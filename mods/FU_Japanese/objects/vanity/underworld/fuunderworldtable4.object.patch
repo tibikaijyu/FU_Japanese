@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Composed of solid muscle, flesh...and shrimp?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体筋肉、肉体...そしてエビで構成されていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tendon Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天壇"
+    }
+  ]
+]

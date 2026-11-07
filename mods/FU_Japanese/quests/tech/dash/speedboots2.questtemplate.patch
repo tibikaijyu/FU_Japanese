@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "While the narcotics are rather potent at this point, I'll be really swift."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "現時点では麻薬はかなり強力ですが、私は本当に迅速になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've devised another upgrade to the Stimulant Rig!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は刺激リグに別のアップグレードを考案しました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Stimulant Rig II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "刺激リグII"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dead Floran Protector, mangled beyond any hope of revival."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死んだフローランプロテクター、復活の希望を超えてマングル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "How is plants ded?"
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "植物はどう死んだのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "This isn't happening..."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "これは起こっていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/thelusianDescription",
+      "value": "Murderous creature is murdered."
+    },
+    {
+      "op": "replace",
+      "path": "/thelusianDescription",
+      "value": "殺人鬼が殺害される。"
+    }
+  ]
+]

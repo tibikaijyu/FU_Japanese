@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A booze that increases shadow resistance.\n^red;Drunk^gray;, ^cyan;+^white;30% ^pink;Shadow ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウ抵抗を増す酒。\n^red;酒^gray;, ^cyan;+^white;30% ^pink;影 ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Doom Vodka"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドゥームウォッカ"
+    }
+  ]
+]

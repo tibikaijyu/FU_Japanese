@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Probably not intended for carpentry.\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工を意図したものではない。\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトハンマー"
+    }
+  ]
+]

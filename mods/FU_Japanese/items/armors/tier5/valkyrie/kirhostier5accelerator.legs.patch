@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Slow Fall^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Pressure, Gas, Extreme Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;ゆっくりと落ちる^reset;\n^yellow;^reset; ^cyan;免疫^reset;:酸素、圧力、ガス、極端放射線。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Valkyrie Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バルキリー・グレイブス"
+    }
+  ]
+]

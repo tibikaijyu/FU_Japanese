@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Control with ^green;[Jump]^reset;. ^orange;[Move]^reset;. Negate Falls with ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[ジャンプ] ^reset; で制御します。 ^orange;[Move]^reset;。 ^green;[F]^reset; でフォールを否定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Physics Field"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "物理分野"
+    }
+  ]
+]

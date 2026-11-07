@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primitive hunting weapon.\n^cyan;Hunting weapon, Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狩猟用の武器。\n^cyan; 狩り武器、フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨"
+    }
+  ]
+]

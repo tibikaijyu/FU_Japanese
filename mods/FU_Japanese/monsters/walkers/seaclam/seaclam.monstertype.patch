@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick shell and a bubbly attack."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚いシェルと泡立てた攻撃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sea Clam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウナギ"
+    }
+  ]
+]

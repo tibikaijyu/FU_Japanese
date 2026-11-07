@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A healthy mix of bananas and grapes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バナナとブドウの健康的な混合物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Monkeyman fruit sssalad."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "モンキーマンフルーツサラダ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. A colorful, healthy, and delicious."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 カラフルで健康的で美味しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some bananas and grapes peeled and washed."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "バナナやブドウを皮をむいて洗う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ape Grapes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "猿のブドウ"
+    }
+  ]
+]

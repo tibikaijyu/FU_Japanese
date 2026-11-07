@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stone made out of magmastone and hellfire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石はマグマ石と地獄の火でできています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火石"
+    }
+  ]
+]

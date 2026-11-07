@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fiery whip formed from core fragments. Nice and hot!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コアフラグメントから形成された燃えるようなホイップ。 素敵で熱い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fiery Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火のたまり"
+    }
+  ]
+]

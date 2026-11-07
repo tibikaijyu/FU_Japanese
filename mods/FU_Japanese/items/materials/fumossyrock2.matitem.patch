@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rock covered in moss.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コケで覆われた岩。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mossy Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モッシーロック"
+    }
+  ]
+]

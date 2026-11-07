@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wheelbarrow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手押し車。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wheelbarrow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手押し車"
+    }
+  ]
+]

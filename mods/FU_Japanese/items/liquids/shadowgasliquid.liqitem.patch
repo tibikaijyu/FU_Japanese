@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "WF6CF4Po. Able to absorb light and alter gravitic force through unusual carbon nanotube formations. Toxic.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "WF 6CF 4Po。 光を吸収し、異常なカーボンナノチューブ形成により重力を変化させることができます。 毒性。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caliginous Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルシウムガス"
+    }
+  ]
+]

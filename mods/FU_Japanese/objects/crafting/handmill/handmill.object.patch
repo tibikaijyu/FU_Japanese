@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extracts useful materials from most block types."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどのブロックタイプから有用な材料を抽出する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Hand Mill^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ハンドミル^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Block Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ブロック抽出器"
+    }
+  ]
+]

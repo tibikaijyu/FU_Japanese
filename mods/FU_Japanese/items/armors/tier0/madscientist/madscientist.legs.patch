@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Genius and madness are two sides of the same coin.\n\n+^green;10^reset;% Madness Resist\n+^cyan;25^reset;% Dash Tech Speed"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "天才と狂気は同じコインの両面です。\n\n+^green;10^reset;% 狂気抵抗\nダッシュ技術スピード+^cyan;25^reset;%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mad Science Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狂気の科学パンツ"
+    }
+  ]
+]

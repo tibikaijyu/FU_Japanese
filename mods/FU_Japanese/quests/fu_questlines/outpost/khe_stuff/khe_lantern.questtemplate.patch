@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Yay! Happy kitty! You can keep the old lantern. I got lots of those."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "やった! ハッピーキティ! 古い提灯をとっておくことができます。 たくさん手に入れました"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the Ghost Lantern to ^cyan;Khe^reset; at the Science Outpost."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "ゴーストランタンを持参します。 ^cyan;ケー^reset; では 科学前哨基地."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Hey, you. Mew lantern broke. Sad, sad mew. You found another for mew?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ねえ、そこの君。ミューのランタン、壊れた。悲しい、悲しいミュー。代わりを見つけてくれた？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Cat Toys"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "猫のおもちゃ"
+    }
+  ]
+]

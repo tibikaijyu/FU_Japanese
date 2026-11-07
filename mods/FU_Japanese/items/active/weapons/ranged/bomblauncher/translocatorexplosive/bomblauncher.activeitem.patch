@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires explosive discs.\n^yellow;40^reset; damage\nUpgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆発ディスクを発射する。\n^yellow;40^reset; 損傷\n^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blastcap Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "爆発キノコランチャー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Fires explosive discs.\n^yellow;60^reset; damage\nUpgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "爆発ディスクを発射する。\n^yellow;60^reset; 損傷\n^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Blastcap Launcher Mk2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ブラストキャップランチャーMk2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Fires explosive discs.\n^yellow;80^reset; damage\nUpgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "爆発ディスクを発射する。\n^yellow;80^reset; 損傷\n^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^yellow;Blastcap Launcher Mk3^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^yellow;ブラストキャップランチャーMk3^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/description",
+      "value": "Fires explosive discs.\n^yellow;100^reset; damage\nUpgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/description",
+      "value": "爆発ディスクを発射する。\n^yellow;100^reset; 損傷\n^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "^green;Blastcap Launcher Mk4^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "^green;ブラストキャップランチャーMk4^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters4/description",
+      "value": "Fires explosive discs.\n^yellow;120^reset; damage\n^green;Fully Upgraded^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters4/description",
+      "value": "爆発ディスクを発射する。\n^yellow;120^reset; 損傷\n^green; 完全にアップグレード ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters4/shortdescription",
+      "value": "^orange;Blastcap Launcher Mk5^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters4/shortdescription",
+      "value": "^orange;ブラストキャップランチャーMk5^reset;"
+    }
+  ]
+]

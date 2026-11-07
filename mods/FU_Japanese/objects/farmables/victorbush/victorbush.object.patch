@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides a massive run boost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大規模な実行ブーストを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Victor Leaf Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビクターリーフシード"
+    }
+  ]
+]

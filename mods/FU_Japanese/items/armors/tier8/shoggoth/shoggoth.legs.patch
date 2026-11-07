@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset; (^orange;Part 3^reset;):\n^yellow;^reset; ^cyan;Immune^reset;: Liquid Nitrogen, Caliginous Gas, Bio-Ooze, Slush, Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange; ボーナス^reset;(^orange;Part3^reset;) を設定します。\n^yellow;^reset; ^cyan;免疫^reset;:液体窒素、カルシウムガス、バイオオウズ、スラッシュ、雪。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長剣"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for garnishing tables."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テーブルを飾るのに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran hopes these aren't wax..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランはこれらがワックスでないと..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. These look relatively fresh."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 これらは比較的新鮮に見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fruit Basket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フルーツバスケット"
+    }
+  ]
+]

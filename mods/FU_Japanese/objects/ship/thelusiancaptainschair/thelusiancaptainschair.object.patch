@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Captain sits here to fly the ship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船長は船を飛ばすためにここに座っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Captain's Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロシア大尉の議長"
+    }
+  ]
+]

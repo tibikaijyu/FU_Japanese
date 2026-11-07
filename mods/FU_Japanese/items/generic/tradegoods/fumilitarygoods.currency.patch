@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of weapon components, valuable for interstellar trade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星間貿易に有用な武器部品の密閉箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weapon Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武器部品"
+    }
+  ]
+]

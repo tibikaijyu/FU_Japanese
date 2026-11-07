@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Interdimensional Destruction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異次元破壊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Cosmic Portal"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "宇宙ポータル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "教職員"
+    }
+  ]
+]

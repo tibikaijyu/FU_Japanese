@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+60% Ice Resist. Useful on ^red;extremely cold^reset; planets. Provides air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+60% 氷抵抗。 ^red;極寒^reset;惑星に有用。 空気を供給。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heating EPP III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "加熱EPPIII"
+    }
+  ]
+]

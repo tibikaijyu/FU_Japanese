@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "[The entire book is written in Greggish, which makes discerning anything particularly impossible. None the less, this is clearly a gripping read, as every single page has a dog-ear on it."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "[この本は全部グレッグ語で書かれているので、特に不可能だと判断できる。 とはいえ、これは明らかに、どのページにも犬耳があるため、ギリギリの読み物だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "(page 224) - Gregga gregity greg GREG! GREGGA GREG! (Greg, gregga gregga greg greg gregg!) Gregga? Greg greg greggin-greg gregga! Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "(page 224) - グレッグ・グレッグ! グレッグ! (グレッグ、グレッグ、グレッグ、グレッグ、グレッグ!) グレッグ? グレッググレッググレッグ! グレッグ グレッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "(page 355) - Greg greg gregga greg. Greg. Gregga! Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "(page 355) - グレッググレッググレッグ。 グレッグ グレッグ! 虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/3",
+      "value": "[400 more pages remain]"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/3",
+      "value": "［残り400ページ］"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Greg gregga gregga"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グレッガ・グレッガ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Greg"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "グレッグ"
+    }
+  ]
+]

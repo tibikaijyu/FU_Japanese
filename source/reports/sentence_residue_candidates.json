@@ -1,0 +1,930 @@
+[
+  {
+    "id": "6d51d32479d15a280ca1",
+    "asset": "ai/missionglitch1.aimission",
+    "path": "/speciesText/default/repeatButtonText",
+    "source": "Revisit The Baron's Keep (6)",
+    "translation": "The Baron's Keep (6) を再訪します。",
+    "category": "missions",
+    "method": "machine",
+    "origin": "ai/missionglitch1.aimission.patch",
+    "english_tokens": [
+      "The",
+      "Baron's",
+      "Keep"
+    ],
+    "runs": [
+      "The Baron's Keep"
+    ]
+  },
+  {
+    "id": "51149731a703422b2376",
+    "asset": "cinematics/fuCore/kevin/kevin.cinematic",
+    "path": "/panels/13/text",
+    "source": "Once, I made a sandwich so amazing that my name is forever inscribed in the ^orange;Hall of Sandwiches^reset; on Cygnus Igni IV. Look it up. There's even a ^red;#$@%%$^reset; statue and stuff.",
+    "translation": "一度、私は私の名前が永遠に刻まれているように素晴らしいサンドイッチを作った ^orange;サンドイッチホール^reset; on Cygnus Igni IV. 調べてみなさい。 さらには ^red;#$@%%$^reset; 彫像とか",
+    "category": "cinematic",
+    "method": "machine",
+    "origin": "cinematics/fuCore/kevin/kevin.cinematic",
+    "english_tokens": [
+      "Cygnus",
+      "Igni"
+    ],
+    "runs": [
+      "reset; on Cygnus Igni IV"
+    ]
+  },
+  {
+    "id": "cdd0bb55706faf553bee",
+    "asset": "codex/biome/dark1.codex",
+    "path": "/contentPages/0",
+    "source": "...The larger question still remains, however: What are Black Stars? How do they fail to generate any real light and yet maintain orbits and gravity...and allow for life in their sphere of influence? None of it makes any sense and there must be -some- sort of sense to it. And yet...conventional physics cannot adequately explain it. Not even Denshubbs Law of Matter can apply to them in full, a fact that still baffles science to this day.",
+    "translation": "しかし、もっと大きな問題は、ブラックスターとは何か? どのようにして、実際の光を生成できず、まだ軌道と重力を維持し、その影響の領域で生命を許すのでしょうか? どれも意味がありませんし、それには何らかの意味があるはずです。 しかし、従来の物理学では十分に説明できません。 Denshubbs Law of Matterでさえ、それらを完全に適用することはできません。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/biome/dark1.codex",
+    "english_tokens": [
+      "Denshubbs",
+      "Law",
+      "Matter"
+    ],
+    "runs": [
+      "Denshubbs Law of Matter"
+    ]
+  },
+  {
+    "id": "370081cd6ccb60e15ce3",
+    "asset": "codex/biome/penumbrabiome3.codex",
+    "path": "/contentPages/0",
+    "source": "Day 3 - \nI found a small natural cave system, and decided to take a rest. The rock found on these planets is unusually hard, and it has this weird property that absorbs light. Even shining my flashlight directly at this rock, I can't see very much of anything around me as the rock appears to eat the light coming out of my flashlight. I lit a campfire in here, after I felt a breeze slipping through the cracks, hopefully I don't choke myself with the smoke. I can see more caves below, I'll explore those in a minute.",
+    "translation": "日3 \n私は小さな自然の洞窟システムを見つけ、休憩することに決めました。 これらの惑星で発見された岩石は異常に硬く、光を吸収するこの奇妙な性質を持っています。 この岩に直接懐中電灯を照らしても、その岩が私の懐中電灯から出てくる光を食っているように見えるため、周りのものはほとんど見えません。 キャンプファイヤーを火で照らし、ひび割れた風が吹き抜けるのを感じたが、この煙で自分を窒息させないことを願う。 I can see more caves below, I'll explore those in a minute.",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/biome/penumbrabiome3.codex",
+    "english_tokens": [
+      "can",
+      "see",
+      "more",
+      "caves",
+      "below",
+      "I'll",
+      "explore",
+      "those",
+      "minute"
+    ],
+    "runs": [
+      "I can see more caves below, I'll explore those in a minute"
+    ]
+  },
+  {
+    "id": "ebbba57821b5d2e99ac7",
+    "asset": "codex/biome/penumbrabiome5.codex",
+    "path": "/contentPages/1",
+    "source": "Whatever that stuff was I now I feel sick in the stomach. I already threw up twice. I need to get back out of here...back to the surface. It gets worse by the moment, and unless I get help I fear I may die.",
+    "translation": "あれが何であれ、私は今、胃に病気を感じている。 I already threw up twice. ここから戻って...水面に戻らないと 一瞬で悪化し、助けがなければ死ぬのが怖い。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/biome/penumbrabiome5.codex",
+    "english_tokens": [
+      "already",
+      "threw",
+      "twice"
+    ],
+    "runs": [
+      "I already threw up twice"
+    ]
+  },
+  {
+    "id": "5234c43803032d9f5eab",
+    "asset": "codex/documents/scienceoutpost_kevin.codex",
+    "path": "/contentPages/20",
+    "source": "Aug 8 - Another 'fat guy' joke from Kevin. He's recorded sounds of a tuba playing. Whenever I move, he presses play. This has been ongoing since Jul 16th, and I can't take it anymore.",
+    "translation": "Aug 8 ケビンからまた「太った男」のジョークが出た。 彼はチューバの演奏の音を録音した。 私が動くといつでも彼は遊びを押します。 This has been ongoing since Jul 16では もう とれません",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/documents/scienceoutpost_kevin.codex",
+    "english_tokens": [
+      "Aug",
+      "This",
+      "has",
+      "been",
+      "ongoing",
+      "since",
+      "Jul"
+    ],
+    "runs": [
+      "This has been ongoing since Jul"
+    ]
+  },
+  {
+    "id": "ec1680ed518c289adc33",
+    "asset": "codex/documents/scienceoutpost_kevin.codex",
+    "path": "/contentPages/39",
+    "source": "Jan 24 - We received a shipment of about 400 000 of these vuvuzelas from the Ansible network. We also received a 15% discount card off our next big-scale purchase. Kevin was later found fuelling a bonfire with them and grilling mice over it.",
+    "translation": "Jan 24 - We received a shipment of about 400 000 アンシブルネットワークからのブブゼラを 次の大型購入で15%割引カードも受け取りました。 ケビンは後に彼らと火を燃やし、その上にネズミを焼くのが見つかった。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/documents/scienceoutpost_kevin.codex",
+    "english_tokens": [
+      "Jan",
+      "received",
+      "shipment",
+      "about"
+    ],
+    "runs": [
+      "We received a shipment of about"
+    ]
+  },
+  {
+    "id": "50d5db87361f0568bde0",
+    "asset": "codex/documents/scienceoutpost_kevin.codex",
+    "path": "/longContentPages/2",
+    "source": "^#EDB347;Aug 4^#FFFFFF; - Someone put ixo eggs in the air system. There are now about 900 ixolings rampaging in the kitchen. To 'calm them down' Kevin then added four pounds of Rage Powder. Four. Pounds. Where did he get that much of a class-A narcotic?!?!\n\n^#EDB347;Aug 8^#FFFFFF; - Another 'fat guy' joke from Kevin. He's recorded sounds of a tuba playing. Whenever I move, he presses play. This has been ongoing since Jul 16th, and I can't take it anymore.\n\n^#EDB347;Aug 12^#FFFFFF; - I really can't figure out how it is comical to replace someone's hair products with watered down sulphuric acid. My skin may be immune, but now I'm bald and look like the ass of a newborn.\n\n^#EDB347;Aug 22^#FFFFFF; - I think he's finally toned it down...Nothing since the 12th.\n\n^#EDB347;Aug 23^#FFFFFF; - Damnit. I spoke too soon. He apparently replaced all of the ostrich eggs in the enclosure with raptor eggs. They hatched, and ate the babies. When we got angry, he explained 'the eggs were lonely. I gave them friends.'\n\n^#EDB347;Aug 26^#FFFFFF; - Kevin won't let anyone near the raptors. He has dressed them all in tiny little ballerina tutus and refers to them as his 'students'.",
+    "translation": "^#EDB347;Aug 4^#FFFFFF; - 誰かが空気中にイクソエッグを入れます。 キッチンで暴れ回っている900ixolingsについて今あります。 ケビンを「落ち着かせる」ために、レイジパウダーを四ポンド追加しました。 四人。 ポンド。 彼はどこでそのクラス - A麻薬の多くを取得した!\n\n^#EDB347;Aug 8^#FFFFFF; ケビンからまた「太った男」のジョークが出た。 彼はチューバの演奏の音を録音した。 私が動くといつでも彼は遊びを押します。 This has been ongoing since Jul 16では もう とれません\n\n^#EDB347;Aug12^#FFFFFF; - 誰かの髪の製品に硫酸を水でまぶしたままにすると、それがいかに滑走するかが本当に理解できません。 私の肌は免疫力があるかもしれませんが、今私はハゲで、新生児の尻のように見えます。\n\n^#EDB347; Aug 22^#FFFFFF; - ついに彼はそれをトーンダウンしたと思う... 12th以来何もない。\n\n^#EDB347;Aug 23^#FFFFFF; クソッ! あまりに早く話しました。 彼は明らかに、囲いの中のダチョウの卵をすべてラプター卵に置き換えた。 彼らはハッチをし、赤ちゃんを食べた。 私たちが怒ったとき、彼は「卵は寂しかった。 私は彼らに友達をあげた。'\n\n^#EDB347;Aug26^#FFFFFF; - ケヴィンはラプターの近くに誰も入れません。 彼は小さなバレリーナのチュチュでそれらをすべて着せ、彼の「学生」としてそれらを参照しています。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/documents/scienceoutpost_kevin.codex",
+    "english_tokens": [
+      "Aug",
+      "Aug",
+      "This",
+      "has",
+      "been",
+      "ongoing",
+      "since",
+      "Jul",
+      "Aug",
+      "Aug"
+    ],
+    "runs": [
+      "This has been ongoing since Jul"
+    ]
+  },
+  {
+    "id": "bf97caedaf1dc44ccb3a",
+    "asset": "codex/documents/scienceoutpost_khe.codex",
+    "path": "/contentPages/18",
+    "source": "Day 17 - Along comes Kevin waving about his hands, then \"Suck it in, fat kitty\" he said...and threw a ^gray;neutron bomb^reset; at me. Nice snack. Then he asked me if I wanted to see a magic trick. Couldn't resist...said yes. What was the trick? He fired an ^gray;Atom Smasher^reset; at that annoying Fenerox in the market, ^gray;without seemingly having one^reset;. Gave me the ^gray;blueprint^reset; and said \"For Science!\" Also, he set the noisemaker's respawn delay to a week.",
+    "translation": "デイ 17 - ケビンが手を振り回して来ると、彼は言った \"それを吸う、太った子猫\"...と私に^gray;中性子爆弾^reset;を投げました。 素敵なおやつ。 それから彼は私に魔法のトリックを見たいかどうか尋ねました。 抵抗できなかった...そう言った。 トリックは何でしたか? 彼は発砲した ^gray;原子破砕機^reset; 市場に出回っているフェネロックスが ^gray;一見すると一つも無いまま^reset;. ^gray;青写真^reset;を私に与えて、「科学のため! Also, he set the noisemaker's respawn delay to a week.",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/documents/scienceoutpost_khe.codex",
+    "english_tokens": [
+      "Also",
+      "set",
+      "the",
+      "noisemaker's",
+      "respawn",
+      "delay",
+      "week"
+    ],
+    "runs": [
+      "Also, he set the noisemaker's respawn delay to a week"
+    ]
+  },
+  {
+    "id": "10d5dcc5db0cc51f06bf",
+    "asset": "codex/documents/scienceoutpost_khe.codex",
+    "path": "/contentPages/21",
+    "source": "Day 26 - Kevin has been missing a week. Not unheard of, but usually he leaves something to keep people busy. This time he's just...absent.",
+    "translation": "日 26 - ケヴィン has been missing a week. 聞いたこともないが、普段は忙しい人のために何かを残している。 今回は、彼はただ...欠席している。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/documents/scienceoutpost_khe.codex",
+    "english_tokens": [
+      "has",
+      "been",
+      "missing",
+      "week"
+    ],
+    "runs": [
+      "has been missing a week"
+    ]
+  },
+  {
+    "id": "79a42919dafd0877c468",
+    "asset": "codex/elder/eldercarbinebook.codex",
+    "path": "/contentPages/2",
+    "source": "Tried the ritual. I think I said something wrong. I'm rotting, slowly but surely. My toe fell off this morning. So my other digits won't be far behind. If you try this, say the damned words right!",
+    "translation": "儀式を試みた。 何か悪いことを言ったと思う。 ゆっくり、しかし確実に腐っています。 今朝つま先が落ちました。 So my other digits won't be far behind. これを試すなら、このクソな言葉を正しく言ってください!",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/elder/eldercarbinebook.codex",
+    "english_tokens": [
+      "other",
+      "digits",
+      "won't",
+      "far",
+      "behind"
+    ],
+    "runs": [
+      "So my other digits won't be far behind"
+    ]
+  },
+  {
+    "id": "34a57aea9551f5970f25",
+    "asset": "codex/greg/greg4.codex",
+    "path": "/contentPages/0",
+    "source": "After twenty assorted tests on the genome markers for this curative agent, we were unable to determine what caused C7 to go ballistic and attack, kill, mutilate and devour the other rats at random. The viral load in his cells is not present, nor is there any trace of change in his physiology.",
+    "translation": "After twenty assorted tests on the genome markers for this curative agent, we were unable to determine what caused C7 他のネズミを 殺したり 殺したり 殺したり 食い狂わせたりします 彼の細胞にウイルスの負荷は存在せず、生理学の変化の痕跡もありません。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/greg/greg4.codex",
+    "english_tokens": [
+      "After",
+      "twenty",
+      "assorted",
+      "tests",
+      "the",
+      "genome",
+      "markers",
+      "for",
+      "this",
+      "curative",
+      "agent",
+      "were",
+      "unable",
+      "determine",
+      "what",
+      "caused"
+    ],
+    "runs": [
+      "After twenty assorted tests on the genome markers for this curative agent, we were unable to determine what caused C"
+    ]
+  },
+  {
+    "id": "e2fae656ad7af0ddadad",
+    "asset": "codex/mantizi/mantizi3.codex",
+    "path": "/contentPages/2",
+    "source": "Within twenty years, the coffers of the empire were empty. Workers could no longer be paid, and the unemployment rate rapidly reached over 87% (estimated 87.72% at the official time of dissolution). What followed was a massive civil war, and the complete slaughter of every single member of the senate. Even the Oracles were slain, their entrails used as sashes.",
+    "translation": "Within twenty years, the coffers of the empire were empty. 労働者はもはや支払いができず、失業率は87%(公式解約時に推定87.72%)を超えました。 続いて起きたのが、大内戦であり、上院の全ての議員が完全に虐殺された。 Oracleでさえ殺害され、その進路はサッシとして使われました。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/mantizi/mantizi3.codex",
+    "english_tokens": [
+      "Within",
+      "twenty",
+      "years",
+      "the",
+      "coffers",
+      "the",
+      "empire",
+      "were",
+      "empty",
+      "Oracle"
+    ],
+    "runs": [
+      "Within twenty years, the coffers of the empire were empty"
+    ]
+  },
+  {
+    "id": "b9052b0f35533232d6ac",
+    "asset": "codex/precursor/precursorcodex12.codex",
+    "path": "/contentPages/0",
+    "source": "Subject 552 has exhibited no signs of the mutagen. Artificer Voxlaar recommends releasing the specimen into a native population somewhere in order to observe how it thrives or perishes in a new ecosystem. I have seconded, and Yattak has thirded. Experiment 442 begins at dawn.",
+    "translation": "Subject 552は変異原の兆候を示さない。 職人のVoxlaarは、新しい生態系でどのように繁栄または絶滅するかを観察するために、標本をどこかのネイティブ人口にリリースすることを勧めています。 I have seconded, and Yattak has thirded. 実験442 夜明けに始まります。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/precursor/precursorcodex12.codex",
+    "english_tokens": [
+      "Subject",
+      "Voxlaar",
+      "have",
+      "seconded",
+      "and",
+      "Yattak",
+      "has",
+      "thirded"
+    ],
+    "runs": [
+      "I have seconded, and Yattak has thirded"
+    ]
+  },
+  {
+    "id": "be6b16cb23017064c720",
+    "asset": "codex/radien/radien3.codex",
+    "path": "/contentPages/2",
+    "source": "With my hypothesis, the only thing I'm missing is the catalyst for this disease. We may be fortunate in uncovering more hidden truths in the coming days as we investigate more dead cities. A single sample is all we need!",
+    "translation": "私の仮説では、私が欠けている唯一のことは、この病気の触媒です。 今後数日のうちに、より死んでいる都市を調査し、より隠された真実を明らかにすることは幸運かもしれません。 A single sample is all we need!",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/radien/radien3.codex",
+    "english_tokens": [
+      "single",
+      "sample",
+      "all",
+      "need"
+    ],
+    "runs": [
+      "A single sample is all we need"
+    ]
+  },
+  {
+    "id": "36e604f45c12bd1b357f",
+    "asset": "codex/radien/radien3.codex",
+    "path": "/longContentPages/0",
+    "source": "What caused the mass die-off and near extinction of the X'i is a debated mystery to us. Speculations range from invasion to events such as meteor strikes or gamma ray bursts. Whatever happened, nearly 98% were almost simultaneously rendered intert, their cores dying along with them.\nPersonally, I believe it was a devastating contagious disease in the form of a parasite. By studying some X'i cores that managed to survive the event in recently abandoned ghost towns, I found plenty of small holes that, when scanned, showed a map of unnerving tunnels. Small objects laid within, perhaps eggs, but evaporated when samples were attempted.\nWith my hypothesis, many questions are easily answered. We may be fortunate in uncovering more hidden truths in the coming days as we investigate more dead cities. A single sample is all we need!",
+    "translation": "シーの大量死とほぼ絶滅を引き起こした原因は、私たちにとって議論されている謎です。 投機は、侵略から、流星攻撃やガンマ線バーストなどの出来事まで多岐にわたります。 何が起きたにせよ 98% ほぼ同時にインタートとされ、コアはそれと共に死にかけている。\n個人的には、寄生虫という形で、壊滅的な伝染病だったと思います。 最近放棄されたゴーストタウンで生き残ったシーコアを調べたところ、スキャンすると、穴が空いていたトンネルの地図が表示されていた。 小さな物体が卵の中に横たわっていたが、サンプルが試みられたときに蒸発した。\n私の仮説では、多くの質問に簡単に答えられます。 今後数日のうちに、より死んでいる都市を調査し、より隠された真実を明らかにすることは幸運かもしれません。 A single sample is all we need!",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/radien/radien3.codex",
+    "english_tokens": [
+      "single",
+      "sample",
+      "all",
+      "need"
+    ],
+    "runs": [
+      "A single sample is all we need"
+    ]
+  },
+  {
+    "id": "04e2a1d9908bc6791d3d",
+    "asset": "codex/shoggothdungeon/wagner3.codex",
+    "path": "/contentPages/9",
+    "source": "It gave me a most special task. I brought its babies back to share with the others. We can all be perfect together. We can all be as one with the Watcher in the Deep. It will fill us with need and sweet, sweet hunger. Come my friends, let us share in the feast...",
+    "translation": "それは私にとって最も特別な仕事でした。 私は赤ん坊を連れ戻し、他の人と分かち合った。 皆で完璧になれる。 私たちはみな、Wearer in the Deepと一緒にいることができます。 それは必要性と甘い、甘い飢餓で私たちを埋めます。 友達を呼んで、ごちそうで共有しましょう。",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/shoggothdungeon/wagner3.codex",
+    "english_tokens": [
+      "Wearer",
+      "the",
+      "Deep"
+    ],
+    "runs": [
+      "Wearer in the Deep"
+    ]
+  },
+  {
+    "id": "1a90bfd3cade4d1c486f",
+    "asset": "codex/skath/skathhistory5.codex",
+    "path": "/contentPages/0",
+    "source": "With the discovery of Plasma, our weaponry became extraordinary deadly. All non-scientific vessels were recalled and assembled into a single massive fleet. A guardian to ward off aggression. We were ready for another attack, should anyone try to invade us again.",
+    "translation": "プラズマの発見によって、我々の兵器は極めて致命的なものとなった。 全ての非科学的な船はリコールされ、単一の大型艦隊に組み立てられた。 侵略を防いでいる保護者。 We were ready for another attack, should anyone try to invade us again.",
+    "category": "codex",
+    "method": "machine",
+    "origin": "codex/skath/skathhistory5.codex",
+    "english_tokens": [
+      "were",
+      "ready",
+      "for",
+      "another",
+      "attack",
+      "should",
+      "anyone",
+      "try",
+      "invade",
+      "again"
+    ],
+    "runs": [
+      "We were ready for another attack, should anyone try to invade us again"
+    ]
+  },
+  {
+    "id": "de80cd1a81575dc6ee49",
+    "asset": "dialog/converse.config",
+    "path": "/converse/novakid/fuslimeperson/10",
+    "source": "Awesome, I've an idea for a new saloon ballad: 'The Tale o' <selfname> and the Slime'!",
+    "translation": "素晴らしい、私は新しいサルーンバラードのためのアイデアがあります: 'The Tale o' <selfname> and the Slime'!",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "dialog/converse.config.patch",
+    "english_tokens": [
+      "The",
+      "Tale",
+      "and",
+      "the",
+      "Slime'"
+    ],
+    "runs": [
+      "The Tale o'",
+      "and the Slime'"
+    ]
+  },
+  {
+    "id": "51d4e03505016bf36dd8",
+    "asset": "dialog/towndrunk.config",
+    "path": "/converse/human/default/7",
+    "source": "What are sixh beer good for? eashy - it shtops you from givin' a shi' 'bout everything!",
+    "translation": "What are sixh beer good for? 簡単 - それは彼女がすべてについて \"与えることからあなたを撃つ!",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "dialog/towndrunk.config",
+    "english_tokens": [
+      "What",
+      "are",
+      "sixh",
+      "beer",
+      "good",
+      "for"
+    ],
+    "runs": [
+      "What are sixh beer good for"
+    ]
+  },
+  {
+    "id": "778c11fb11f7de593ac1",
+    "asset": "interface/scripted/spaceStation/texts.config",
+    "path": "/floran/acquireEnhancer",
+    "source": "Floran is told to say: 'ssside effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itchyness, hallucination, dementia, psychosisss, coma, death, and halitosis.'\nThat wasss a mouthful. Also, boossster gone if you die, weakling. Come back if you need another.",
+    "translation": "フロランは、口の乾燥、吐き気、吐出、保水、痛みを伴う直腸のかゆみ、幻覚、認知症、精神病、コマ、死、および口臭が含まれる可能性がある。'\nそれは一口だった。 また、ブススターはあなたが死んだら消えました、弱い。 Come back if you need another.",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "interface/scripted/spaceStation/texts.config",
+    "english_tokens": [
+      "Come",
+      "back",
+      "you",
+      "need",
+      "another"
+    ],
+    "runs": [
+      "Come back if you need another"
+    ]
+  },
+  {
+    "id": "191466655644b30abf33",
+    "asset": "items/generic/food/ictea.consumable",
+    "path": "/description",
+    "source": "I-C Tea; a rather eye-opening beverage.\n^green;Glow 300s ^blue;Madness Gain^reset; 2",
+    "translation": "I-C Tea:目を開くような飲み物。\n^green;輝き 300ス) ^blue;狂気の高まり^reset; 2",
+    "category": "items",
+    "method": "machine",
+    "origin": "items/generic/food/ictea.consumable",
+    "english_tokens": [
+      "I-C",
+      "Tea"
+    ],
+    "runs": [
+      "I-C Tea"
+    ]
+  },
+  {
+    "id": "6c9fcabaf93d41342c4a",
+    "asset": "npcs/barkeep.npctype",
+    "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+    "source": "Looks like you've had a hell of a day, friend. Why don't you have a seat and let me serve you up some refreshment.",
+    "translation": "Looks like you've had a hell of a day, friend. 席をとって、お手軽にお召し上がりください。",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "npcs/barkeep.npctype",
+    "english_tokens": [
+      "Looks",
+      "like",
+      "you've",
+      "had",
+      "hell",
+      "day",
+      "friend"
+    ],
+    "runs": [
+      "Looks like you've had a hell of a day, friend"
+    ]
+  },
+  {
+    "id": "a656fd6cd561b7fff93b",
+    "asset": "npcs/crew/crewmemberbountyhunter.npctype",
+    "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+    "source": "Eager. Hello adventurer, mind if I join you and KICK SOME ASS?!?!?",
+    "translation": "早く! こんにちは冒険家、私があなたとKICK SOME ASSに加わってください!",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "npcs/crew/crewmemberbountyhunter.npctype",
+    "english_tokens": [
+      "KICK",
+      "SOME",
+      "ASS"
+    ],
+    "runs": [
+      "KICK SOME ASS"
+    ]
+  },
+  {
+    "id": "38d1515c201fa74849c7",
+    "asset": "npcs/crew/crewmemberbountyhunter.npctype",
+    "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+    "source": "Hello adventurer, mind if I join you and KICK SOME ASS?!?!?",
+    "translation": "こんにちは冒険家、私があなたとKICK SOME ASSに加わってください!",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "npcs/crew/crewmemberbountyhunter.npctype",
+    "english_tokens": [
+      "KICK",
+      "SOME",
+      "ASS"
+    ],
+    "runs": [
+      "KICK SOME ASS"
+    ]
+  },
+  {
+    "id": "0fb95f7174f0869aeeda",
+    "asset": "npcs/scienceoutpost/fuoutpostcivilian2.npctype",
+    "path": "/scriptConfig/dialog/converse/hylotl/default/2",
+    "source": "Universal Constants are that way for a reason. Why am I trying to change one?!?! I'm a ^yellow;genius^reset;, thats why!",
+    "translation": "万能 Constants are that way for a reason. なぜ私はそれを変えようとしているのですか!?私は^yellow; genius^reset;です。",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "npcs/scienceoutpost/fuoutpostcivilian2.npctype",
+    "english_tokens": [
+      "Constants",
+      "are",
+      "that",
+      "way",
+      "for",
+      "reason",
+      "genius"
+    ],
+    "runs": [
+      "Constants are that way for a reason"
+    ]
+  },
+  {
+    "id": "2ff692e8c05a77fff166",
+    "asset": "npcs/scienceoutpost/fuoutpostcivilian3.npctype",
+    "path": "/scriptConfig/dialog/converse/hylotl/default/2",
+    "source": "Universal Constants are that way for a reason. Why am I trying to change one?!?! Oh yea...I'm a GENIUS!",
+    "translation": "万能 Constants are that way for a reason. なんで変わろうとしてるの!?ああ、私は天才だ!",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "npcs/scienceoutpost/fuoutpostcivilian3.npctype",
+    "english_tokens": [
+      "Constants",
+      "are",
+      "that",
+      "way",
+      "for",
+      "reason"
+    ],
+    "runs": [
+      "Constants are that way for a reason"
+    ]
+  },
+  {
+    "id": "6c731d0404dacafd384b",
+    "asset": "objects/drinks/strawberryshakeobject/strawberryshakeobject.object",
+    "path": "/floranDescription",
+    "source": "SSSweet and red - Just like Floran's favorite juice.",
+    "translation": "SSSweet and red - フロランの好きなジュースと同じように。",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/drinks/strawberryshakeobject/strawberryshakeobject.object",
+    "english_tokens": [
+      "SSSweet",
+      "and",
+      "red"
+    ],
+    "runs": [
+      "SSSweet and red"
+    ]
+  },
+  {
+    "id": "841456f5230df10b91d7",
+    "asset": "objects/produce/neonmelonbasket/neonmelonbasket.object",
+    "path": "/floranDescription",
+    "source": "Floran sssmash neonmelon to make sssquelch sounds. Also to eat.",
+    "translation": "フローラン sss ssmash Neonmelon sssquelch 音を鳴らします。 食べることも。",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/produce/neonmelonbasket/neonmelonbasket.object",
+    "english_tokens": [
+      "sss",
+      "ssmash",
+      "Neonmelon",
+      "sssquelch"
+    ],
+    "runs": [
+      "sss ssmash Neonmelon sssquelch"
+    ]
+  },
+  {
+    "id": "413aa775074395a16485",
+    "asset": "objects/scienceoutpost/scienceinfobooth/scienceinfobooth.object",
+    "path": "/chatOptions/37",
+    "source": "^red;Do not^reset; use Kevins Kill-Pod technology. It does to you exactly what it says on the tin. This is likely not your desire. It sure wasn't the desire of Dr.Demento, revered Mime of Nippango IV. He ignored the warning. Now he's dead. So yea. Careful.",
+    "translation": "^red; ^reset; ケヴィンたち Kill-ポッド 技術を使用しないでください。 スズに何と書かれていますか? これはあなたの欲望ではないでしょう。 It sure wasn't the desire of Dr.Demento, revered Mime of Nippango IV. 彼は警告を無視した。 彼は死んだ。 そうね。 気をつけて。",
+    "category": "dialogue",
+    "method": "machine",
+    "origin": "objects/scienceoutpost/scienceinfobooth/scienceinfobooth.object",
+    "english_tokens": [
+      "Kill-",
+      "sure",
+      "wasn't",
+      "the",
+      "desire",
+      "Demento",
+      "revered",
+      "Mime",
+      "Nippango"
+    ],
+    "runs": [
+      "It sure wasn't the desire of Dr.Demento, revered Mime of Nippango IV"
+    ]
+  },
+  {
+    "id": "21522ef9d9d2a8246994",
+    "asset": "objects/ship/techstation/techstation.object",
+    "path": "/fukirhosDescription",
+    "source": "I can use this to load up on augs or chat with S.A.I.L, if I get lonely.",
+    "translation": "孤独になったら、これを使ってAugsをロードしたり、S.A.I.L.とチャットしたりできます。",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/ship/techstation/techstation.object.patch",
+    "english_tokens": [
+      "Augs"
+    ],
+    "runs": [
+      "S.A.I.L"
+    ]
+  },
+  {
+    "id": "34206dca1c935260ac2f",
+    "asset": "objects/ship/tw_hylotltechstation/tw_hylotltechstation.object",
+    "path": "/fukirhosDescription",
+    "source": "I can use this to load up on augs or chat with S.A.I.L., if I get lonely.",
+    "translation": "孤独になったら、これを使ってAugsをロードしたり、S.A.I.L.とチャットしたりできます。",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/ship/tw_hylotltechstation/tw_hylotltechstation.object",
+    "english_tokens": [
+      "Augs"
+    ],
+    "runs": [
+      "S.A.I.L"
+    ]
+  },
+  {
+    "id": "10cc164e856483b6f714",
+    "asset": "objects/ship/fupeglacitechstation/techstation.object",
+    "path": "/floranDescription",
+    "source": "SSS.A.I.L ssstation! Nice red ssscreen!",
+    "translation": "SSS.A.I.L ステーション! 素敵な赤いssスクリーン!",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/ship/fupeglacitechstation/techstation.object",
+    "english_tokens": [
+      "SSS"
+    ],
+    "runs": [
+      "SSS.A.I.L"
+    ]
+  },
+  {
+    "id": "e8245d278f3964eef687",
+    "asset": "objects/wired/advancedswitch/swtjc_wp_advancedswitch_nolatch.object",
+    "path": "/floranDescription",
+    "source": "Ssso many featuresss! Floran might need to read manual to figure out which node doesss what. Or jussst exxxperiment with it!",
+    "translation": "たくさんの機能があります! フローランはどのノードが何をするのかを理解するためにマニュアルを読む必要があるかもしれない。 Or jussst exxxperiment with it!",
+    "category": "items",
+    "method": "machine",
+    "origin": "objects/wired/advancedswitch/swtjc_wp_advancedswitch_nolatch.object",
+    "english_tokens": [
+      "jussst",
+      "exxxperiment",
+      "with"
+    ],
+    "runs": [
+      "Or jussst exxxperiment with it"
+    ]
+  },
+  {
+    "id": "b5a5699c667907c092f4",
+    "asset": "quests/fu_questlines/other/frozenwastes/shoggoth_unlocknew.questtemplate",
+    "path": "/completionText",
+    "source": "There are no words to express the madness and strangeness that tugs now at the very roots of my soul. A piece of myself has been forever lost to that hellish place.",
+    "translation": "今、私の魂の根底に引いている狂気と奇妙さを表現する言葉はありません。 A piece of myself has been forever lost to that hellish place.",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/fu_questlines/other/frozenwastes/shoggoth_unlocknew.questtemplate",
+    "english_tokens": [
+      "piece",
+      "myself",
+      "has",
+      "been",
+      "forever",
+      "lost",
+      "that",
+      "hellish",
+      "place"
+    ],
+    "runs": [
+      "A piece of myself has been forever lost to that hellish place"
+    ]
+  },
+  {
+    "id": "bc962722cdb2a0362fb6",
+    "asset": "quests/fu_questlines/outpost/bees/9alveary.questtemplate",
+    "path": "/completionText",
+    "source": "These sweet babies can hold ^green;two frames^reset;, and twice as many drones means twice as much production, too. The gains are quite substantial!",
+    "translation": "この甘い赤ちゃんは ^green;二つのフレーム^reset;, and twice as many drones means twice as much production, too. 利益はかなり大きいです!",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/fu_questlines/outpost/bees/9alveary.questtemplate",
+    "english_tokens": [
+      "and",
+      "twice",
+      "many",
+      "drones",
+      "means",
+      "twice",
+      "much",
+      "production",
+      "too"
+    ],
+    "runs": [
+      "reset;, and twice as many drones means twice as much production, too"
+    ]
+  },
+  {
+    "id": "2146c49ddf29fe96959a",
+    "asset": "quests/fu_questlines/outpost/bees/9alveary.questtemplate",
+    "path": "/text",
+    "source": "Now we can get a bit more adventurous. Create a ^orange;Large Apiary^reset; to double your bee farm potential. You'll need some ^orange;Golden Wood^reset; to build it. Try ^cyan;Bumblebees or Orchid bees^reset;.",
+    "translation": "もう少し冒険的なものになろう。 作成する ^orange;大型図書館^reset; to double your bee farm potential. それを構築するには、^orange; 黄金の 木材 ^reset; が必要です。 ^cyan;Bumblebees または蘭の蜂 ^reset; を試してみてください。",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/fu_questlines/outpost/bees/9alveary.questtemplate",
+    "english_tokens": [
+      "double",
+      "your",
+      "bee",
+      "farm",
+      "potential",
+      "Bumblebees"
+    ],
+    "runs": [
+      "reset; to double your bee farm potential"
+    ]
+  },
+  {
+    "id": "f7fb10f0fde08e419c43",
+    "asset": "quests/fu_questlines/outpost/khe_stuff/khe_lantern.questtemplate",
+    "path": "/text",
+    "source": "Hey, you. Mew lantern broke. Sad, sad mew. You found another for mew?",
+    "translation": "やあ、君。 新しい提灯が壊れた。 悲しい、悲しかった。 You found another for mew?",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/fu_questlines/outpost/khe_stuff/khe_lantern.questtemplate",
+    "english_tokens": [
+      "You",
+      "found",
+      "another",
+      "for",
+      "mew"
+    ],
+    "runs": [
+      "You found another for mew"
+    ]
+  },
+  {
+    "id": "35716402fc8c377fdba1",
+    "asset": "quests/fu_questlines/science/mechanical/create_blastfurnace.questtemplate",
+    "path": "/text",
+    "source": "If you can build a ^orange;Blast Furnace^reset; with a ^orange;Power Station^reset; and bring it here, so I can analyze it, I would prove most grateful and perhaps reward you.",
+    "translation": "^orange; Blast 炉 ^reset; with a ^orange; Power ステーション ^reset; をここで作成して、分析すれば、最も感謝しており、おそらくあなたに報いるでしょう。",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/fu_questlines/science/mechanical/create_blastfurnace.questtemplate",
+    "english_tokens": [
+      "Blast",
+      "with",
+      "Power"
+    ],
+    "runs": [
+      "reset; with a"
+    ]
+  },
+  {
+    "id": "ded79a577a779c0dfe59",
+    "asset": "quests/story/shiprepair.questtemplate",
+    "path": "/text",
+    "source": "Since you're an active agent, maybe you could ^green;return to the Outpost and speak to ^orange;Penguin Pete the shipyard captain^reset;? He's been ranting about something for a solid week.",
+    "translation": "活動的なエージェントなので ^green;アウトポストに戻り、話しかける ^orange;ペンギン・ピート造船所長^reset;? He's been ranting about something for a solid week.",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/story/shiprepair.questtemplate.patch",
+    "english_tokens": [
+      "He's",
+      "been",
+      "ranting",
+      "about",
+      "something",
+      "for",
+      "solid",
+      "week"
+    ],
+    "runs": [
+      "reset;? He's been ranting about something for a solid week"
+    ]
+  },
+  {
+    "id": "64c36caa0fc74cd63c96",
+    "asset": "quests/tech/dash/zeroburst1.questtemplate",
+    "path": "/text",
+    "source": "With a bit of tinkering I think I could adapt rapid-burn of fuel safely to create a ^orange;Zero Burst Tech^reset;! With it equipped, I should ^orange;tap up twice^reset; to boost.",
+    "translation": "燃料の急速燃焼を安全に適応して、^orange;ゼロバースト技術^reset;を作成することができると思います! 装備しておけば ^orange;tap up twice^reset; 後押しします",
+    "category": "quests",
+    "method": "machine",
+    "origin": "quests/tech/dash/zeroburst1.questtemplate",
+    "english_tokens": [
+      "tap",
+      "twice"
+    ],
+    "runs": [
+      "orange;tap up twice"
+    ]
+  },
+  {
+    "id": "57730ff5da5706b55e47",
+    "asset": "species/alicorn.species",
+    "path": "/charCreationTooltip/description",
+    "source": "Alicorns are the curious combination of Earth Ponies, Unicorns and Pegasi, known to be deities in equine folklore. While they're theoretically the strongest, practically it mostly relays to their innate charismatic abilities and diverse skills among the board.\n\n  ^orange;Diet^reset;: Herbivore\n\n^orange;Perks^reset;:\n  +^green;10^reset;% Charisma. Health x^green;1.05^reset;, +^green;7^reset;% E. Regen, Fall Damage x^green;0.7^reset;\n  ^cyan;Immune^reset;: Aether\n  ^cyan;Racial Ability^cyan;: Earth Pony Stomp, Unicorn Glow, Pegasus Flight\n\n^orange;Environment^reset;:\n  Aether and Crystalline: Energy x^green;1.05^reset;, Health x^green;1.1^reset;, +^green;20^reset;% E. Regen\n\n^orange;Weapons^reset;:\n  +^green;15^reset;% Staff, Broadsword and Assault Rifle Mastery\n\n^orange;Weaknesses^reset;:\n  ^red;Requires twice as much food to sustain themselves^reset;, +^red;60%^reset; Energy Block time.\n\n^orange;Resistances^reset;:\n  -^red;25^reset;% Physical and Knockback, +^green;15^reset;% Cosmic and Shadow.",
+    "translation": "アリコーンは、ウマの民話の神として知られるアースポニー、ユニコーン、ペガシの奇妙な組み合わせです。 理論上は最強ですが、実際には、その生来のカリスマ的な能力と、ボード内の多様なスキルにほぼ関係しています。\n\n  ^orange;ダイエット^reset;:草食動物\n\n^orange;特性^reset;\n  +^green;10^reset;% カリスマ性。健康 x^green;1.05^reset;, +^green;7^reset;% E. 再生, 落下ダメージ X^green;0.7^reset;\n  ^cyan;免疫^reset;:エーテル\n  ^cyan;人種的能力^cyan;:地球ポニー・スタンプ、ユニコーン・グロー、ペガサス飛行\n\n^orange;環境^reset;\n  エーテルと結晶 : エネルギーx^green;1.05^reset;健康x^green;1.1^reset;, +^green;20^reset;% レーゲン\n\n^orange; 武器 ^reset; :\n  +^green;15^reset;% スタッフ, 剣, 攻撃ライフルマスター。\n\n^orange;弱さ^reset;:\n  ^red;Requires twice as much food to sustain themselves^reset;, +^red;60%^reset; エネルギーブロック時間。\n\n^orange;レジスタンス^reset;:\n  -^red;25^reset;%物理的およびノックバック、+^green;15^reset;%宇宙と影。",
+    "category": "species",
+    "method": "machine",
+    "origin": "species/alicorn.species.patch",
+    "english_tokens": [
+      "Requires",
+      "twice",
+      "much",
+      "food",
+      "sustain",
+      "themselves"
+    ],
+    "runs": [
+      "red;Requires twice as much food to sustain themselves"
+    ]
+  },
+  {
+    "id": "f84e62e06525f84b224a",
+    "asset": "species/alrune.species",
+    "path": "/charCreationTooltip/description",
+    "source": "The Alrune are a mysterious race of rose-themed demonic humanoids, based heavily off the Alruna/Anurla Succubus and Incubus concept created by Alex Ahad for Gaia Online many years ago.\n\n  ^orange;Diet^reset;: Carnivore\n\n^orange;Perks^reset;:\n  Resist: +^green;40^reset;% Fire, +^green;30^reset;% Poison, +^green;40^reset;% Shadow, +^green;40^reset;% Darkness\n  Immune: Madness\n\n^orange;Environment^reset;:\n  ^green;Atropus, Dark Atropus, Tentacle^reset; biomes: E. Regen +^green;40^reset;%, Speed +^green;5^reset;%\n  ^green;Midnight, Penumbra, Lightless, Dark Tundra, Dark Sulphric, Dark Infernus, Dark Atropus^reset; biomes: Damage x^green;1.1^reset;, Health x^green;1.1^reset;\n  ^red;Eden^reset; biomes: E. Regen -^red;50^reset;%\n\n^orange;Weapons^reset;:\n  Whip: Damage x^red;0.9^reset;, Crit Chance +^green;10^reset;%, Crit Damage +^green;15^reset;%\n  Magnorb: Damage x^green;1.05^reset;, Defense x^green;1.1^reset;\n  Wands/Staves: Energy x^green;1.2^reset;, E. Regen +^green;10^reset;%, Defense -^red;5^reset;%, Speed +^green;10^reset;%\n\n^red;Weaknesses^reset;:\n  Health x^red;0.95^reset;\n  Resist: -^red;30^reset;% Cold, -^red;5^reset;% Electricity",
+    "translation": "Alruneは、アレックス・アハドがGaia Onlineのために作ったAlruna/Anurla Succubus and Incubusコンセプトを基調とした、バラをテーマとした悪魔のヒューマノイドの神秘的なレースです。\n\n  ^orange;ダイエット^reset;:肉食\n\n^orange;特性^reset;\n  レジスト: +^green;40^reset;% ファイア, +^green;30^reset;% 毒, +^green;40^reset;% 影, +^green;40^reset;% 闇\n  免疫:狂気\n\n^orange;環境^reset;\n  ^green;アトロポス, 闇 アトロポス, Tentacle ^reset;バイオーム: 再生 +^green;40^reset;%, 速度 +^green;5^reset;%\n  ^green; 真夜中、ペヌムブラ、ライトレス、ダークツンドラ、ダークサルフリック、ダークインフェルヌス、ダークアトロパス^reset; バイオーム:損傷x ^green;1.1^reset; 健康x ^green;1.1^reset;\n  ^red;Eden^reset;バイオーム:E.再生-^red;50^reset;%\n\n^orange; 武器 ^reset; :\n  ダメージx ^red;0.9^reset;、クリトリスチャンス+^green;10^reset;%、クリトリスダメージ+^green;15^reset;%\n  マグノーブ: ダメージ x ^green;1.05^reset;、防御 x ^green;1.1^reset;\n  ワンド/杖: エネルギー x ^green;1.2^reset;, E. 再生 +^green;10^reset;%, 防御力 -^red;5^reset;%, 速度 +^green;10^reset;%\n\n^red;弱さ^reset;:\n  健康x^red;0.95^reset;\n  レジスト: -^red;30^reset;% コールド、-^red;5^reset;% 電力。",
+    "category": "species",
+    "method": "machine",
+    "origin": "species/alrune.species.patch",
+    "english_tokens": [
+      "Alrune",
+      "Gaia",
+      "Online",
+      "Alruna",
+      "Anurla",
+      "Succubus",
+      "and",
+      "Incubus",
+      "Tentacle",
+      "Eden"
+    ],
+    "runs": [
+      "Alruna/Anurla Succubus and Incubus"
+    ]
+  },
+  {
+    "id": "d5f74e274f82276e3a32",
+    "asset": "species/ponex.species",
+    "path": "/charCreationTooltip/description",
+    "source": "Being a mutated hybrid of human and a pony, while they do behave like former, they do take part in some equine activities such as eating hay and watching My Little Human: Warfare is Magic.\n\n  ^orange;Diet^reset;: Herbivore\n\n^orange;Perks^reset;:\n  +^green;10^reset;% E. Regen.\n  +^green;5^reset;% Speed\n  ^green;Resist^reset;: ^green;15^reset;% Radiation, Poison\n  ^cyan;Immune^reset;: Moderate Radiation, Radiation Burn\n\n^orange;Environment^reset;:\n  Radioactive-type biomes: Energy x^green;1.15^reset;, and ^green;25^reset;% E. Regen, Damage & Defense x^red;0.95^reset;.\n\n^orange;Weapons^reset;:\n  Yo-Yo: +^green;15^reset;% Speed\n  Swords: Damage x^green;1.125^reset;, +^green;2.5^reset;% Crit Chance\n\n^red;Weaknesses^reset;:\n  ^red;Resist^reset;: -^red;20^reset;% Shadow, Cosmic, -^red;100^reset;% Fire\n  Defense x^red;0.85^reset;",
+    "translation": "ヒトとポニーの突然変異したハイブリッドであるにもかかわらず、彼らは干し草を食べたり、My Little ヒューマン: Warfare is Magicを見たりするなどのいくつかのウマの活動に参加しています。\n\n  ^orange;ダイエット^reset;:草食動物\n\n^orange;特性^reset;\n  +^green;10^reset;% E.レーゲン\n  +^green;5^reset;% 速さ\n  ^green;レジスト^reset;:^green;15^reset;%放射線、毒。\n  ^cyan;無効化^reset; : 適度な放射線, 放射線燃焼\n\n^orange;環境^reset;\n  放射性バイオーム : エネルギーx^green;1.15^reset;そして ^green;25^reset;% E. 再生, ダメージ & 防御力 x^red;0.95^reset;.\n\n^orange; 武器 ^reset; :\n  ヨーヨー +^green;15^reset;% 速さ\n  剣 : ダメージx ^green;1.125^reset;, +^green;2.5^reset;% クリティカルチャンス\n\n^red;弱さ^reset;:\n  ^red;レジスト^reset;:-^red;20^reset;%影、宇宙、-^red;100^reset;%炎\n  防衛x^red;0.85^reset;",
+    "category": "species",
+    "method": "machine",
+    "origin": "species/ponex.species.patch",
+    "english_tokens": [
+      "Little",
+      "Warfare",
+      "Magic"
+    ],
+    "runs": [
+      "Warfare is Magic"
+    ]
+  },
+  {
+    "id": "318a1eccb43e96c0f0e2",
+    "asset": "zb/researchTree/fu_warcraft.config",
+    "path": "/strings/research/tritaniumgear/1",
+    "source": "^orange;Tier 5^reset;\n\nEven more durable than its constituent Durasteel, Tritanium is very light, very durable, and very resistant to hostile environments. Armor made from Tritanium is among the most readily available source of protection from the ^red;lethal pressure^reset; within gas giants, while its weapons are reliable and very destructive.",
+    "translation": "^orange;ティア 5^reset;\n\n構成のDurasteelよりもさらに耐久性があり、非常に軽く、非常に耐久性があり、敵対的な環境に非常に耐性があります。 防具 made from Tritanium is among the most readily available source of protection from the ^red;致命的な圧力^reset; ガス巨人の中では 武器は信頼でき 破壊的だ",
+    "category": "research",
+    "method": "machine",
+    "origin": "zb/researchTree/fu_warcraft.config",
+    "english_tokens": [
+      "Durasteel",
+      "made",
+      "from",
+      "Tritanium",
+      "among",
+      "the",
+      "most",
+      "readily",
+      "available",
+      "source",
+      "protection",
+      "from",
+      "the"
+    ],
+    "runs": [
+      "made from Tritanium is among the most readily available source of protection from the"
+    ]
+  }
+]

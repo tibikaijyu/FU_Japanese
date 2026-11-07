@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/cat/default/0",
+      "value": "Meow! That looks purrfect!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/cat/default/0",
+      "value": "メオ! それは完璧に見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/cat/default/1",
+      "value": "Meow! Mew have great taste!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/cat/default/1",
+      "value": "メオ! メウの味は最高です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/cat/default/2",
+      "value": "Meow! Watch as everyone pawses to look at your selection!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/cat/default/2",
+      "value": "メオ! みんながあなたの選択を見るように見ましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/cat/default/3",
+      "value": "Meow! Mew are Captain Fashionable!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/cat/default/3",
+      "value": "メオ! 新キャプテンファッショナブルです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Fashion"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "ファッション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Tailor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "仕立て屋"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "Meow. I might be a cat, but my fashion sense is as keen as any other's!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "うわっ! 私は猫かもしれませんが、私のファッションセンスは他の誰よりも熱心です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "Meow. I might be a cat, but I can still use a needle with my powers! Talk to me when you want to change outfits."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "うわっ! 私は猫かもしれませんが、私はまだ私の力と針を使用することができます! 衣装を交換したいときに私に話してください。"
+    }
+  ]
+]

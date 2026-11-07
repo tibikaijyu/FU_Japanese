@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient and terribly deadly sidearm.\n^yellow;Inflicts radiation burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代的で恐ろしく致命的なサイドアーム。\n^yellow;放射線燃焼に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Reaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

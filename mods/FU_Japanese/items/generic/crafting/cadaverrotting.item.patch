@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These remains are well into putrefaction stage. Nasty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの遺跡は、腐敗段階にある。 汚い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rotting cadaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐った死体"
+    }
+  ]
+]

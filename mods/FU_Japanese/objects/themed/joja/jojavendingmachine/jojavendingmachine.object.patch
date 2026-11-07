@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "... Does this vending machine seriously only sell one drink?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "... この自動販売機は一杯しか販売していませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A very blue vending machine. Somehow I still don't feel all that thirsty."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "非常に青い自動販売機。 私はまだそんなにのどが渇いていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It keeps pumping out the good stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは良いものを排出し続ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssoda dispenser."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サソーダディスペンサー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This vending machine is giving off a gentle hum."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この自動販売機は優しいハムを放っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Do they have to stamp their name on everything like this? Are they worried we'd forget their brand's name?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このようなものに自分の名前を刻印しなければならないのでしょうか? ブランド名を忘れてしまう心配はありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I believe this machine only dispenses one brand of soda."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "私はこの機械がソーダの一つのブランドだけをディスペンスすると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " Tasty Snacks"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " おいしいスナック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ^blue;Joja^reset; Vending Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ^blue;ジョジャ^reset;自動販売機。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I ain't wastin' 75 pixels on this."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこれの75ピクセルを浪費しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Vending Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;自動販売機。"
+    }
+  ]
+]

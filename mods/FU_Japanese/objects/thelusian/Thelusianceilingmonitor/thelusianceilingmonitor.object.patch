@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A creepy monitor made of bio-mechanical materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオメカニカル素材で作られた不気味なモニター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Ceiling Display"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンの天井ディスプレイ"
+    }
+  ]
+]

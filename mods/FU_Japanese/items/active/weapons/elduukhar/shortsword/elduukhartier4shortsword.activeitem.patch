@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This bulky prototype paved the way for future techniques."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このかさばるプロトタイプは、今後の技術への道を歩んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weak Metal Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "短刀"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;This item is no longer needed, it's safe to sell it.^reset;\nA strange device made by the Ancients."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red; このアイテムはもはや不要です。^reset;\n古代から作られた不思議な装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代の装置"
+    }
+  ]
+]

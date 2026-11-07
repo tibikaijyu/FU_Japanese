@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A modified Persistent Switch with a built-in NOT Gate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NOTゲート内蔵の永続スイッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A modified Persssissstent Ssswitch with a built-in NOT Gate."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "NOTゲートを組み込んだ、改造版のっ状態保持スイッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. A modified Persistent Switch with a built-in NOT Gate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 NOTゲート内蔵の永続スイッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Persistent Switch (with NOT Gate)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "永続スイッチ(非ゲート付)"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid pillar made of erchius."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルキウス製の固体柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウスピラー"
+    }
+  ]
+]

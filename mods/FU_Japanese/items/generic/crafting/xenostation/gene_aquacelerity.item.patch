@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Swim fast. Sharks are dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "速く泳ぎなさい。 サメは危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquatic Celerity"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水族館"
+    }
+  ]
+]

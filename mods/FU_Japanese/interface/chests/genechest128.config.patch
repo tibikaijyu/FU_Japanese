@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "128 SLOTS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "128枠"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/dragDrop/value",
+      "value": "Drag & Drop"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/dragDrop/value",
+      "value": "ドラッグして配置"
+    }
+  ]
+]

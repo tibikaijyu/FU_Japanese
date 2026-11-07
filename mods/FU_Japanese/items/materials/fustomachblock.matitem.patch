@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This fleshy mass looks like it was part of some creature's stomach.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この肉質の塊は、ある生物の胃の一部のように見える。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sslimy meat."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "肉を冷やしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uncomforatble. This slimy mass looks and smells terrible."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "テーブルを脱いで。 この薄暗い塊はひどいに見えるし、臭いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some sorta slimy lookin' meat."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "肉のように見えるスリミーな何か。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stomach Lining"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "胃内膜"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Bow/Crossbow: Damage x^green;1.15^reset;, +^green;5^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Tar, Bee Stings, Jungle/Mud Slows"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 弓/クロスボウ: ダメージx^green;1.15^reset;, +^green;5^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;:酸、タール、蜂の刺し木、ジャングル/泥のスロー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monster Plate Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モンスタープレートヘルメット"
+    }
+  ]
+]

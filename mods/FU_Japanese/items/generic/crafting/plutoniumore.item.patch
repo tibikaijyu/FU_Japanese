@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's pretty, but extremely radioactive.\n^blue;+^white;7 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きれいですが、非常に放射性です。\n^blue;+^white;7 ^blue;燃料^reset;"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "When the Mother whispers, a Fragment must obey. Consuming allows the Fragment to survive. Mother births the Fragment. Obey."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "母がささやくとき、断片は従わなければならない。 消耗はフラグメントが生き残ることを可能にします。 母は断片を産む。 そうね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fragment reads"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フラグメントを読みます"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Mother Whispers"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "母のささやき"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Scoria Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スコリアクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scoria Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スコリアクイーン"
+    }
+  ]
+]

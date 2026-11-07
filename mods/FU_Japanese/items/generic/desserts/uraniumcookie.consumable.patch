@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Uranium-enriched cookies. Radioactive, but not dangerous.\n^pink;Moderate Radiation^gray;, ^pink;Radiation Burn ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウラン濃縮クッキー。 放射性はありますが危険ではありません。\n^pink; 適度な放射線 ^gray; , ^pink; 放射線燃焼 ^cyan; 免疫性 ^gray; (^white;5m ^gray; ) ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランクッキー"
+    }
+  ]
+]

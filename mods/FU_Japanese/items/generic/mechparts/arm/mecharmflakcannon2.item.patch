@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slight upgrade to the basic model."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベーシックモデルへのわずかなアップグレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flak Cannon II Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火薬大砲II"
+    }
+  ]
+]

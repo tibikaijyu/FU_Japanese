@@ -1,0 +1,302 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/acid_mech/text",
+      "value": "DANGER! Sulphuric acid has compromised your mech plating. I suggest leaving the liquid immediately."
+    },
+    {
+      "op": "replace",
+      "path": "/acid_mech/text",
+      "value": "危険！ 硫酸がメックの装甲を侵食しています。直ちに液体から出ることを勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/aether_mech/text",
+      "value": "DANGER! This fluid is rapidly shorting out every system on board the mech. We should leave this liquid soon or risk death."
+    },
+    {
+      "op": "replace",
+      "path": "/aether_mech/text",
+      "value": "危険！ この液体がメックの全システムを急速に短絡させています。早く脱出しなければ死亡しかねません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomecold_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#00BFFF;cold^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomecold_mech/text",
+      "value": "警告：この機体は、\n^#00BFFF;寒冷^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeelectric_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#6A5ACD;electrically-charged^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeelectric_mech/text",
+      "value": "警告：この機体は、\n^#6A5ACD;帯電^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeheat_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#FF4500;hot^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeheat_mech/text",
+      "value": "警告：この機体は、\n^#FF4500;高温^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeplaceholder_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#FF1493;weird^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeplaceholder_mech/text",
+      "value": "警告：この機体は、\n^#FF1493;奇妙な^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomepoison_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#32CD32;poisonous^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomepoison_mech/text",
+      "value": "警告：この機体は、\n^#32CD32;有毒^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomepressure_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#A0522D;high pressure^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomepressure_mech/text",
+      "value": "警告：この機体は、\n^#A0522D;高圧^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeproto_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#9ACD32;proto^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeproto_mech/text",
+      "value": "警告：この機体は、\n^#9ACD32;プロト^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeradiation_mech/text",
+      "value": "WARNING: Your vehicle is not certified \nfor this ^#00FF00;radioactive^reset; environment!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeradiation_mech/text",
+      "value": "警告：この機体は、\n^#00FF00;放射線^reset;環境での使用に対応していません！\n警告を無視すると、操縦者の死亡や車両保証の失効を招く場合があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/darkwater_mech/text",
+      "value": "DANGER! This poisonous water seems to seep into your mechs components and cause serious issues. You should get out sooner than later."
+    },
+    {
+      "op": "replace",
+      "path": "/darkwater_mech/text",
+      "value": "危険！ この有毒な水がメックの部品に染み込み、深刻な問題を引き起こしているようです。できるだけ早く外へ出てください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/elder_mech/text",
+      "value": "DANGER! Essentia Obscura is rapidly turning your mech into pudding! Get out swiftly!"
+    },
+    {
+      "op": "replace",
+      "path": "/elder_mech/text",
+      "value": "危険！ エッセンティア・オブスクラが、メックをみるみるプリンに変えています！ すぐに脱出してください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive00/text",
+      "value": "Welcome to your Mech Training Course. You can exit and enter your Mech with ^#FF1493;[E]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive00/text",
+      "value": "メック訓練コースへようこそ。^#FF1493;[E]^reset;でメックに乗り降りできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive01/text",
+      "value": "The ^#orange;Tricorder^reset; can help you ^orange;equip^reset; and ^orange;refuel^reset; your mech. Fuel is important, so keep your mech topped up. Press the corresponding buttons on the tricorder after this mission to check it out. ^#Red;(If you see 'unauthorized user' restart the mission.)"
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive01/text",
+      "value": "^#orange;トライコーダー^reset;から、メックの^orange;装備変更^reset;と^orange;燃料補給^reset;を行えます。燃料は重要です。十分に補給しておきましょう。このミッションの後で、対応するボタンを確認してください。^#Red;（「unauthorized user」と表示された場合は、ミッションをやり直してください。）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive02/text",
+      "value": "Your mech can ^#FF1493;duck by pressing ^#FF1493;[DOWN]^reset;, or ^#FF1493;sprint with a ^#FF1493;[double-tap]^reset; in the direction you are walking."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive02/text",
+      "value": "メックで^#FF1493;しゃがむには^#FF1493;[DOWN]を押し^reset;、^#FF1493;ダッシュするには歩いている方向のキーを^#FF1493;素早く2回押します^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive03/text",
+      "value": "Your mech will auto-crouch to fit into areas that it can pass, should the need arise. Such as at the top of this passage."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive03/text",
+      "value": "メックは、通り抜けられる狭さの場所では、必要に応じて自動でしゃがみます。この通路の上部で試してみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive03b/text",
+      "value": "Your mech switches to a ground-movement configuration when in an environment with gravity, you can manually switch from ground-movement to flight-mode by ^#FF1493;double tapping the [UP] key^reset;, even on planets. Do so now to continue."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive03b/text",
+      "value": "重力のある場所では、メックは地上移動形態になります。惑星上でも、^#FF1493;[UP]キーを素早く二回押す^reset;と、地上移動から飛行モードへ手動で切り替えられます。今、切り替えて先へ進んでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive03c/text",
+      "value": "Please be aware of your mech's ^#bf2fe2;fuel^white; and ^#1d8e25;health^white; reserves, visualised respectively as the ^green;colored bars you can see above your vehicle^reset;. The ^#bf2fe2;fuel^white; will deplete over time and the ^#1d8e25;health^white; bar will deplete when the mech takes damage."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive03c/text",
+      "value": "メックの^#bf2fe2;燃料^white;と^#1d8e25;耐久力^white;を確認してください。それぞれ^green;機体の上の色付きバー^reset;で表示されます。^#bf2fe2;燃料^white;は時間とともに減り、^#1d8e25;耐久力^white;はメックがダメージを受けると減ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive04/text",
+      "value": "Zero gravity combat is a bit trickier than on flat ground. Accuracy is important, so you'll need to learn to lead your targets properly."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive04/text",
+      "value": "無重力での戦闘は、平地で戦うより少し難しくなります。正確な射撃が重要です。敵の移動先を予測して撃つ方法を覚えましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/futestdrive05/text",
+      "value": "Now try throwing your mass around. Try to ^#FF1493;leap and ^#FF1493;stomp^reset; on the creatures ahead."
+    },
+    {
+      "op": "replace",
+      "path": "/futestdrive05/text",
+      "value": "今度は機体の重さを生かしましょう。^#FF1493;ジャンプして、前方の生物を^#FF1493;踏み潰して^reset;みてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lava_mech/text",
+      "value": "DANGER! Your mech's temperature control systems are failing! Evacuate immediately!"
+    },
+    {
+      "op": "replace",
+      "path": "/lava_mech/text",
+      "value": "危険！ メックの温度制御システムが故障しかけています！ 直ちに避難してください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nitrogen_mech/text",
+      "value": "DANGER! Your mechs servos and components are rapidly freezing within the liquid nitrogen. That isn't a good thing. Evacuate soon or you will know regret."
+    },
+    {
+      "op": "replace",
+      "path": "/nitrogen_mech/text",
+      "value": "危険！ 液体窒素の中で、メックのサーボ機構と部品が急速に凍り付いています。良い状況ではありません。すぐに脱出しなければ後悔しますよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/proto_mech/text",
+      "value": "Curious. This liquid appears to be restoring your mechs energy, rather than causing negative effects."
+    },
+    {
+      "op": "replace",
+      "path": "/proto_mech/text",
+      "value": "興味深いですね。この液体は悪影響を及ぼすどころか、メックのエネルギーを回復させているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/testdrive04/text",
+      "value": "Remember, you can create a ^orange;Mech Repair tool^reset; at your ^orange;Tinkering Table^reset; and upgrade it to be more effective using your ^orange;Tricorder's upgrade menu^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/testdrive04/text",
+      "value": "覚えておきましょう。^orange;メック修理ツール^reset;は^orange;改造作業台^reset;で作れます。^orange;トライコーダーのアップグレードメニュー^reset;を使えば、さらに性能を高められます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/testdrive05/text",
+      "value": "Hostile entities also exist in zero-gravity environments. My cosmonautical records indicate that defeating them may result in obtaining an erchius battery, which your mech can absorb to replenish health and fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/testdrive05/text",
+      "value": "無重力の環境にも敵対生物は存在します。宇宙航行の記録によると、倒すとエルキウスバッテリーを落とすことがあります。メックで吸収すると、耐久力と燃料を補充できます。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heaping mound of refuse, walking under its own power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自身の力の下で歩いて、拒否の山。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Po Golem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポゴレム"
+    }
+  ]
+]

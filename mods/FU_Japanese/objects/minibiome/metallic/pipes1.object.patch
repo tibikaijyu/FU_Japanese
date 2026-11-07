@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What were these used for? Energy transfer?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何に使われましたか? エネルギー移転?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Pipes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術パイプ"
+    }
+  ]
+]

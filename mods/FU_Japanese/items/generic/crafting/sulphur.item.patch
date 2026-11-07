@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This common element is essential to life despite readily forming explosive compounds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この共通要素は、爆発性化合物を容易に形成するにもかかわらず、生命に不可欠である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphur"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫黄"
+    }
+  ]
+]

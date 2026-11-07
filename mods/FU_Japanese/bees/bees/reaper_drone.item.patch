@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reaper Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーパードローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reaper Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーパードローン"
+    }
+  ]
+]

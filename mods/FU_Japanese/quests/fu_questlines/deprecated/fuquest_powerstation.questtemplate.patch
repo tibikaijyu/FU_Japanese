@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Other options for power include Solar, Combustion, Fission and Quantum power generation. Each has pros and cons. You'll definitely want to try them all."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "他にも、ソーラー、燃焼、フィッション、量子発電などがあります。 それぞれに長所と短所があります。 あなたは間違いなくそれらをすべて試したいでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You can generate power in many ways. ^orange;Alternator^reset; generators are just the simplest. Try building a ^orange;Wind Turbine^reset;, and see how useful they get in a windstorm!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "様々な方法で発電することができます。 ^orange; オルタネータ ^reset; ジェネレーターは最も簡単です。 ^orange;風車^reset; を造ってみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wind Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "風力発電"
+    }
+  ]
+]

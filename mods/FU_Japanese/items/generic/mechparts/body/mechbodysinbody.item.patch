@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Acid, Proto, Moderate Heat/Radiation, Mild Cold/Poison\n^cyan;+25%^reset; Armor, ^cyan;+25%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 酸,プロト,中程度の熱/放射線,冷え性,毒素\n^cyan;+25%^reset;防具、^cyan;+25%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Chassis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイニングシャーシ"
+    }
+  ]
+]

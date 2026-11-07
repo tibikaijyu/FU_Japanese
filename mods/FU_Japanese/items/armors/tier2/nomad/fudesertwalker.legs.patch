@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;20^reset;% Shield Regen^reset;\n^yellow;^reset; Dagger/Shortspear: Damage x^green;1.15^reset;\n^yellow;^reset; Assault/Sniper Rifle: Damage x^green;1.08^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Burning, Sandstorms, Quicksand"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;20^reset;% シールド再生^reset;\n^yellow;^reset;短剣/短槍: ダメージ x ^green;1.15^reset;\n^yellow;^reset;突撃/狙撃 ライフル: ダメージ x ^green;1.08^reset;\n^yellow;^reset; ^cyan;免疫^reset;火傷、砂嵐、速砂"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nomad Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "遊牧民パンツ"
+    }
+  ]
+]

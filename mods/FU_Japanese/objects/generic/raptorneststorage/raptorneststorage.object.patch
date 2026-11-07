@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dinosaur nest. Don't disturb the eggs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐竜の巣。 卵を乱すな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raptor Nest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラプターネスト"
+    }
+  ]
+]

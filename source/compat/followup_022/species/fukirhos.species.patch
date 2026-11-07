@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "They've earned a reputation as traders as they wander through the cosmos on gigantic Ark ships that form the core of their society. These space rodents are well-versed in economics and exploration.\n\n  ^orange;Diet^reset;: Omnivore\n\n^orange;Perks^reset;:\n  +^green;10^reset;% Speed\n  ^green;Resist^reset;: +^cyan;15^reset;% Electric, +^cyan;10^reset;% Radioactive & Ice, +^cyan;7^reset;% Mental\n  Great Traders: +^green;25^reset;% Charisma, +1000 Start Cash\n  +^green;72^reset; Max Food\n\n^orange;Weapons^reset;:\n  Start with reliable sidearm\n  Energy Weapon Mastery: +^green;15^reset;%\n  Striker Mastery: +^green;15^reset;%\n\n^red;Weaknesses^reset;:\n  ^red;Resist^reset;: -^red;20^reset;% Poison, -^red;10^reset;% Fire, -^red;5^reset;%Physical"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "社会の中心となる巨大な方舟船で宇宙を渡り歩き、交易商として名を馳せてきた種族。経済と探検に精通した、宇宙を旅するげっ歯類だ。\n\n  ^orange;食性^reset;：雑食\n\n^orange;特性^reset;：\n  移動速度 +^green;10^reset;%\n  ^green;耐性^reset;：電気 +^cyan;15^reset;%、放射線・氷 +^cyan;10^reset;%、精神 +^cyan;7^reset;%\n  優れた交易商：カリスマ +^green;25^reset;%、初期所持金 +1000\n  最大満腹度 +^green;72^reset;\n\n^orange;武器^reset;：\n  信頼できるサイドアームを所持して開始\n  エネルギー武器の熟練度：+^green;15^reset;%\n  ストライカーの熟練度：+^green;15^reset;%\n\n^red;弱点^reset;：\n  ^red;耐性^reset;：毒 -^red;20^reset;%、炎 -^red;10^reset;%、物理 -^red;5^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/subTitle",
+      "value": "Ne"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/subTitle",
+      "value": "Ne"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/title",
+      "value": "Kirhos"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/title",
+      "value": "キルホス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Skin Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "肌の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Hair style"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "髪型"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Ears"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "耳"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Hair Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "髪の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "KIRHOS"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "キルホス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "They've earned a reputation as traders as they wander through the cosmos on gigantic Ark ships that form the core of their society. These space rodents are well-versed in economics and exploration.\r\n\r\n  ^orange;Diet^reset;: Omnivore\r\n\r\n^orange;Perks^reset;:\r\n  +^green;10^reset;% Speed\r\n  ^green;Resist^reset;: +^cyan;15^reset;% Electric, +^cyan;10^reset;% Radioactive & Ice, +^cyan;7^reset;% Mental\r\n  Great Traders: +^green;25^reset;% Charisma, +1000 Start Cash\r\n  +^green;72^reset; Max Food\r\n\r\n^orange;Weapons^reset;:\r\n  Start with reliable sidearm\r\n  Energy Weapon Mastery: +^green;15^reset;%\r\n  Striker Mastery: +^green;15^reset;%\r\n\r\n^red;Weaknesses^reset;:\r\n  ^red;Resist^reset;: -^red;20^reset;% Poison, -^red;10^reset;% Fire, -^red;5^reset;%Physical"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "社会の中心となる巨大な方舟船で宇宙を渡り歩き、交易商として名を馳せてきた種族。経済と探検に精通した、宇宙を旅するげっ歯類だ。\n\n  ^orange;食性^reset;：雑食\n\n^orange;特性^reset;：\n  移動速度 +^green;10^reset;%\n  ^green;耐性^reset;：電気 +^cyan;15^reset;%、放射線・氷 +^cyan;10^reset;%、精神 +^cyan;7^reset;%\n  優れた交易商：カリスマ +^green;25^reset;%、初期所持金 +1000\n  最大満腹度 +^green;72^reset;\n\n^orange;武器^reset;：\n  信頼できるサイドアームを所持して開始\n  エネルギー武器の熟練度：+^green;15^reset;%\n  ストライカーの熟練度：+^green;15^reset;%\n\n^red;弱点^reset;：\n  ^red;耐性^reset;：毒 -^red;20^reset;%、炎 -^red;10^reset;%、物理 -^red;5^reset;%"
+    }
+  ]
+]

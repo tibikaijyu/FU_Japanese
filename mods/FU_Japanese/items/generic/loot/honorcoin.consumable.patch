@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When consumed it provides a defense boost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "消費されると、それは防御ブーストを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honor Coin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "名誉貨幣"
+    }
+  ]
+]

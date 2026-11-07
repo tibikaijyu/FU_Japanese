@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weapon chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Weapon Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的武器の胸部"
+    }
+  ]
+]

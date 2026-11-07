@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A mystery to the cosmos, the illusive Shadow people prefer to speak only to each other. This is simple, as other species cannot even hear their language.\n\n  ^orange;Diet^reset;: Any\n\n^orange;Perks^reset;:\n  Energy x^green;1.12^reset;, ^green;15%^reset; reduced Hunger drain\n  ^green;Resist^reset;: +^cyan;20^reset;% Shadow, Ice, +^cyan;15^reset;% Poison, +^cyan;10^reset;% Radioactive\n  ^cyan;Immune^reset;: Oxygen, Darkness, Shadow Taint\n  Tech: ^green;Shadow Burst^reset;\n\n^orange;Environment^reset;:\n  ^green;Dark^reset; biomes grant +^green;2^reset; Crit Chance, Energy x^green;1.15^reset;\n  Glows in Dark\n  Darkness increases power and Defense. Light reduces it.\n  ^red;Chromatic^reset; biomes: Defense x^red;0.8^reset;, Health x^red;0.75^reset;\n\n^orange;Weapons^reset;:\n  Scythe Mastery: +^green;25^reset;%\n  Staff/Wand: Health x^green;1.25^reset;\n  Magnorb: Defense x^green;1.25^reset;\n\n^red;Weaknesses^reset;:\n  Health x^red;0.85^reset;\n  ^red;Resist^reset;: -^red;15^reset;% Electric, Cosmic,-^red;10^reset;% Fire"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "宇宙の謎に包まれた、つかみどころのないシャドウたち。彼らは同族との会話を好む。他の種族には、その言語を聞き取ることすらできないのだから当然だ。\n\n  ^orange;食性^reset;：何でも食べられる\n\n^orange;特性^reset;：\n  エネルギー x^green;1.12^reset;、満腹度の消費が^green;15%^reset;減少\n  ^green;耐性^reset;：影・氷 +^cyan;20^reset;%、毒 +^cyan;15^reset;%、放射線 +^cyan;10^reset;%\n  ^cyan;無効^reset;：酸素不足・暗闇・影の汚染\n  テック：^green;シャドウバースト^reset;\n\n^orange;環境^reset;：\n  ^green;暗い^reset;環境：クリティカル率 +^green;2^reset;、エネルギー x^green;1.15^reset;\n  暗闇で発光する\n  暗闇では攻撃力と防御力が上がり、光の下では低下する。\n  ^red;クロマティック^reset;環境：防御力 x^red;0.8^reset;、体力 x^red;0.75^reset;\n\n^orange;武器^reset;：\n  大鎌の熟練度：+^green;25^reset;%\n  スタッフ／ワンド：体力 x^green;1.25^reset;\n  マグノーブ：防御力 x^green;1.25^reset;\n\n^red;弱点^reset;：\n  体力 x^red;0.85^reset;\n  ^red;耐性^reset;：電気・宇宙 -^red;15^reset;%、炎 -^red;10^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Eye colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "目の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Hair style"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "髪型"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Hair colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "髪の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "TENEBHRAE"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "テネブレイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A mystery to the cosmos, the illusive Shadow people prefer to speak only to each other. This is simple, as other species cannot even hear their language.\r\n\r\n  ^orange;Diet^reset;: Any\r\n\r\n^orange;Perks^reset;:\r\n  Energy x^green;1.12^reset;, ^green;15%^reset; reduced Hunger drain\r\n  ^green;Resist^reset;: +^cyan;20^reset;% Shadow, Ice, +^cyan;15^reset;% Poison, +^cyan;10^reset;% Radioactive\r\n  ^cyan;Immune^reset;: Oxygen, Darkness, Shadow Taint\r\n  Tech: ^green;Shadow Burst^reset;\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Dark^reset; biomes grant +^green;2^reset; Crit Chance, Energy x^green;1.15^reset;\r\n  Glows in Dark\r\n  Darkness increases power and Defense. Light reduces it.\r\n  ^red;Chromatic^reset; biomes: Defense x^red;0.8^reset;, Health x^red;0.75^reset;\r\n\r\n^orange;Weapons^reset;:\r\n  Scythe Mastery: +^green;25^reset;%\r\n  Staff/Wand: Health x^green;1.25^reset;\r\n  Magnorb: Defense x^green;1.25^reset;\r\n\r\n^red;Weaknesses^reset;:\r\n  Health x^red;0.85^reset;\r\n  ^red;Resist^reset;: -^red;15^reset;% Electric, Cosmic,-^red;10^reset;% Fire"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "宇宙の謎に包まれた、つかみどころのないシャドウたち。彼らは同族との会話を好む。他の種族には、その言語を聞き取ることすらできないのだから当然だ。\n\n  ^orange;食性^reset;：何でも食べられる\n\n^orange;特性^reset;：\n  エネルギー x^green;1.12^reset;、満腹度の消費が^green;15%^reset;減少\n  ^green;耐性^reset;：影・氷 +^cyan;20^reset;%、毒 +^cyan;15^reset;%、放射線 +^cyan;10^reset;%\n  ^cyan;無効^reset;：酸素不足・暗闇・影の汚染\n  テック：^green;シャドウバースト^reset;\n\n^orange;環境^reset;：\n  ^green;暗い^reset;環境：クリティカル率 +^green;2^reset;、エネルギー x^green;1.15^reset;\n  暗闇で発光する\n  暗闇では攻撃力と防御力が上がり、光の下では低下する。\n  ^red;クロマティック^reset;環境：防御力 x^red;0.8^reset;、体力 x^red;0.75^reset;\n\n^orange;武器^reset;：\n  大鎌の熟練度：+^green;25^reset;%\n  スタッフ／ワンド：体力 x^green;1.25^reset;\n  マグノーブ：防御力 x^green;1.25^reset;\n\n^red;弱点^reset;：\n  体力 x^red;0.85^reset;\n  ^red;耐性^reset;：電気・宇宙 -^red;15^reset;%、炎 -^red;10^reset;%"
+    }
+  ]
+]

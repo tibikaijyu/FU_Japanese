@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Cheers! Now that you can make your own beer, your life is one step closer to perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "乾杯! ビールが作れなくなった今、あなたの人生は完璧に一歩近づいています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;beer^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ビール^reset; 私に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "It's ^blue;beer time^reset;! Go to your ^orange;Fermenter^reset; to make 3 ^green;Beer^reset;. You'll need ^orange;Wort^reset;, ^orange;Hops^reset;, ^orange;Carbon Dioxide^reset;, and ^orange;Yeast Water^reset;, plus an ^orange;Empty Bottle^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^blue;ビールタイム^reset;です! 行きなさい ^orange;発酵^reset; 作り上げるために 3 ^green;ビール^reset;. ^orange;Wort ^reset;、^orange;ホップ ^reset;、^orange;二酸化炭素^reset;、^orange;Yeast Water ^reset;、プラス ^orange;空ボトル ^reset; が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Beer, beer, beer"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ビール、ビール、ビール"
+    }
+  ]
+]

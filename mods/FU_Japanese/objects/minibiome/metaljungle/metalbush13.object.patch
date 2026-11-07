@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual metallic bush. It looks sharp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい金属製の茂み。 鋭く見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属ブッシュ"
+    }
+  ]
+]

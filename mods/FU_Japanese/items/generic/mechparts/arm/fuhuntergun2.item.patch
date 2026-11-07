@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A step up from its lesser cousin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "従兄弟の少ないところから一歩上った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Laser II Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レーザーIIメカアーム"
+    }
+  ]
+]

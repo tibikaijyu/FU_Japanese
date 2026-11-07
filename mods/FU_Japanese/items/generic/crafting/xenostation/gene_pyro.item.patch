@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All things related to heat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱に関連するすべてのもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyrogenic"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発熱性"
+    }
+  ]
+]

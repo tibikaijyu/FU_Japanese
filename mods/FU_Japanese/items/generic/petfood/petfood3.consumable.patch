@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;Do Not Consume.^reset; Side effects include obsessive behavior and bad body odor.\n^red;-^white;5% ^red;HP^gray;, ^red;Poisoned ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red; 消費しないでください。^reset;副作用は、強迫観念行動と悪臭を含みます。\n^red;-^white;5% ^red;HP^gray;, ^red;毒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mr. Chow's Troll Food"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョウさんのトロルフード"
+    }
+  ]
+]

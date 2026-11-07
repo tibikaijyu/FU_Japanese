@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It's a proximity device. It'll sense when I get close to it."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "近接装置です 私がそれに近づくと意味がわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A hidden proximity device. It could trigger something if I'm near."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "隠れた近接装置。 近くにいると何か引き起こすかもしれません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stealthily watch for anything nearby"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近くの何かにこっそり気をつける"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssecret eye on the wall. It can ssee!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "壁の秘密の目。 見える!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Suspicious. This proximity scanner might be aware of me."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 この近接スキャナーは私のことを気づいているかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A proximity sensor. It can tell when I'm near."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "近接センサ。 私がいつ近くにいるか分かる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This scanning device can tell when I'm present."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このスキャン装置は私がいついるかを知ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A proximity scanner. Is it watching me right now?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "近接スキャナー。 今、私を見てるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hidden Proximity Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隠れ近接スキャナ"
+    }
+  ]
+]

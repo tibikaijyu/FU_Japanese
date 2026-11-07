@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Swim Boost 2 ^gray;(^white;220s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;水泳ブースト 2 ^gray;(^white;220ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deepwater Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深水スイム"
+    }
+  ]
+]

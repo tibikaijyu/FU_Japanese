@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Broken, but once was a gloriously huge display."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊れたが、かつては栄光の巨大ディスプレイだった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Huge Broken Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大故障モニタ"
+    }
+  ]
+]

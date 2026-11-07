@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Throws a swift dart that chills foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を冷やす速いダーツを投げなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fanblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "扇刃"
+    }
+  ]
+]

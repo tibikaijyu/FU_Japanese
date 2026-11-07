@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined arkose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗く、洗練されていないアロース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Arkose."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 アーコーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arkose Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコーズブロック"
+    }
+  ]
+]

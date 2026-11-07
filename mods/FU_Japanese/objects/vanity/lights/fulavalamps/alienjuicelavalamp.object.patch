@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with plasmic fluid. It looks like milk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラズマ流体で満たされたランプ。 ミルクのように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmic Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズミック溶岩ランプ"
+    }
+  ]
+]

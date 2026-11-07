@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's so rusty, you may require a Tetanus shot."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは非常に錆びているので、あなたは破傷風ショットを必要とするかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rusty Corrugated Iron"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "さびた波形鉄"
+    }
+  ]
+]

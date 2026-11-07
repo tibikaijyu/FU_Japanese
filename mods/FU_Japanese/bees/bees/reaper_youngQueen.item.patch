@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reaper Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーパー・ヤングクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Reaper Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若きリーパークイーン"
+    }
+  ]
+]

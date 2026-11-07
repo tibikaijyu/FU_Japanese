@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/0",
+      "value": "Hey look, easy prey!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/0",
+      "value": "見てください、簡単な獲物!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/1",
+      "value": "Don't think you're getting out of this one easily!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/1",
+      "value": "簡単にこの一つから抜け出すとは思わないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/2",
+      "value": "I bet you'll drop lots of pixels!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/2",
+      "value": "ピクセルをたくさん落としてしまうでしょうね!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/3",
+      "value": "You've wandered right into the wolf's den!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/3",
+      "value": "オオカミの巣箱の中をうろうろした!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/4",
+      "value": "Good, a fight! I was almost bored!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/4",
+      "value": "よし、戦いだ! ほとんど退屈しました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/5",
+      "value": "This isn't personal, I just love attacking people!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/5",
+      "value": "これは個人的ではありません。人を攻撃するのが大好きです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/human/default/6",
+      "value": "Surprise, you're about to get poked full of holes!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/human/default/6",
+      "value": "驚いたことに、あなたは穴だらけになりそうです!"
+    }
+  ]
+]

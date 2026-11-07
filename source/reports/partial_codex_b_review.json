@@ -1,0 +1,847 @@
+{
+  "scope": "Only flagged suspect segments in codex records [38:75]; all other machine sentences retained.",
+  "whole_fields_manually_reviewed": false,
+  "label": "machine_repaired",
+  "assigned_records": 37,
+  "output_full_source_mappings": 37,
+  "suspect_segment_occurrences": 39,
+  "human_translated_segment_occurrences": 30,
+  "fictional_language_preserved_segment_occurrences": 9,
+  "changed_segment_occurrences": 38,
+  "already_exact_source_segment_occurrences": 1,
+  "unresolved_diagnostics": [],
+  "records": [
+    {
+      "index": 38,
+      "asset": "codex/slimeperson/slime1.codex",
+      "path": "/contentPages/4",
+      "source_chars": 471,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "It immediately begins consuming the hosts brain from the inside out, absorbing memory and motor function, and quite possibly everything else that made the host a unique individual.",
+          "previous_translation": "すぐに、内部からホストの脳を消費し始め、記憶と運動機能を吸収し、おそらくホストをユニークな個人にした他のすべて。",
+          "replacement": "それはすぐに宿主の脳を内側から食い始め、記憶と運動機能を吸収する。おそらく、宿主の個性を形作っていたほかのすべても取り込んでしまうのだろう。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "asset": "codex/veluuish/veluuish4.codex",
+      "path": "/contentPages/1",
+      "source_chars": 311,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "A challenger must first prove their might in a test decided by the 10 Vat'iish council members, and should they survive, the leader will allow the trial to take place.",
+          "previous_translation": "挑戦者はまず、10Vat'iish評議会のメンバーによって決定されたテストで力を証明する必要があります。",
+          "replacement": "挑戦者はまず、10人のVat'iish評議員が定めた試験で自らの力を示さなければならない。それを生き延びた場合に限り、指導者は試練の実施を認める。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "asset": "codex/legacy_codex/fuaviantraditions.codex",
+      "path": "/contentPages/1",
+      "source_chars": 214,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "However, because of this trend, Avian tombs are often the targets of robbery, hence the employment of Tombkeepers, individuals who dedicate their lives to living in the tombs for a period of no less than ten years.",
+          "previous_translation": "しかし、この傾向のために、アヴィアンの墓はしばしば強盗の標的であり、それゆえ墓守の雇用は、墓で一〇年以上生きることに専念する個人です。",
+          "replacement": "しかし、この習慣のためにエイビアンの墓は盗掘の標的になりやすい。そのため、最低でも十年間を墓の中で暮らすことに捧げる者たちが、墓守として雇われている。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "asset": "codex/documents/ffguidepower.codex",
+      "path": "/longContentPages/3",
+      "source_chars": 4444,
+      "full_field_changed": true,
+      "source_newlines": 51,
+      "baseline_target_newlines": 51,
+      "repaired_target_newlines": 51,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "An honourable inclusion, the Hydraulic Dynamo is an early-game generator that evaporates water using hot solids and liquids (or liquid nitrogen) in order to generate power.",
+          "previous_translation": "油圧ダイナモは、熱した固体と液体(または液体窒素)を使って水を蒸発させ、発電するアーリーゲーム用発電機です。",
+          "replacement": "特筆しておきたいのが、序盤に使える発電機の水力ダイナモだ。高温の固体や液体（または液体窒素）を使って水を蒸発させ、電力を生み出す。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "asset": "codex/thelusian/thelusian3.codex",
+      "path": "/contentPages/0",
+      "source_chars": 403,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "This is a good thing, because now that they have learned they can Spore (the term used for their spreading of eggs) into space to spread through the cosmos their population will be booming quite soon.",
+          "previous_translation": "宇宙に広がる宇宙空間に、彼らがSpore(卵の拡散を意味する用語)を作れることを知った今、彼らの人口はすぐに急増するでしょう。",
+          "replacement": "これは望ましいことだ。宇宙空間に『胞子を散布する』（彼らが卵をばらまくことを指す言葉）ことで宇宙全域へ広がれると知った今、彼らの個体数はまもなく爆発的に増えるだろう。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "asset": "codex/fupeglaci/fupeglacicannibals2.codex",
+      "path": "/contentPages/2",
+      "source_chars": 300,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Only two known procedures exist in the present day that can accomplish this, and both are excruciating beyond capacity to tolerate and thus outlawed on every civilized world save for Halsev IV, where to this day all acts except murder and extortion are legal.",
+          "previous_translation": "今日では、これを達成できる二つの手順しか存在せず、両方とも容認する能力を超えており、ハルセフ四世のために保存されているすべての文明世界に対して非合法化されています。",
+          "replacement": "現在知られている実施方法は二つしかなく、どちらも耐えがたい激痛を伴う。そのため、殺人と恐喝以外のあらゆる行為が今も合法であるハルセヴIVを除き、すべての文明世界で禁じられている。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "asset": "codex/kirhos/kirhos1.codex",
+      "path": "/contentPages/0",
+      "source_chars": 417,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Some hundreds (or thousands...the records are unclear on this point) of years ago, the Kirhos had advanced to the absolute pinnacle of scientific and technological achievement.",
+          "previous_translation": "数百年ほど前(あるいは数千年...この時点では記録は不明)、カーホスは科学的、技術的成果の頂点まで到達していた。",
+          "replacement": "数百年、あるいは数千年前（この点の記録は曖昧だが）、キルホスは科学技術の到達し得る頂点にまで進歩していた。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "asset": "codex/shoggothdungeon/wagner4.codex",
+      "path": "/contentPages/3",
+      "source_chars": 404,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "The air here is thick and almost unbreathable and there is some sort of foul taste permeating everything that reminds me of a funeral or something else morbid like that.",
+          "previous_translation": "ここの空気は厚く、ほとんど通気性がなく、葬式や何か他の悪戯を思い出させる何かの汚い味が全てに浸透しています。",
+          "replacement": "ここの空気は重く、ほとんど息ができない。葬式か、それに類する何か忌まわしいものを思わせる嫌な味が、あらゆるものに染みついている。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/1",
+      "source_chars": 290,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "Shagg li'hee ooboshu R'lyeh gotha Shub-Niggurath sgn'wahl Chaugnar Faugn nog uh'e, gokayar gof'nn ehyeog",
+          "previous_translation": "Shagg li'hee ooboshu R'lyehgotha Shub-Niggurath sgn'wahl Chaugnar Faugn nog uh'e, gokar gof'nn ehyeog",
+          "replacement": "Shagg li'hee ooboshu R'lyeh gotha Shub-Niggurath sgn'wahl Chaugnar Faugn nog uh'e, gokayar gof'nn ehyeog",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/2",
+      "source_chars": 116,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "ehye Tsathoggua geb f'bug ngk'yarnak uaaah ngtharanak, nnnzhro n'gha gof'nn hriiyar f'llll cllll nnnstell'bsna goka.",
+          "previous_translation": "ehye Tsathoggua Geb f'bug ngk'yarnak uaaah ngtharanak, nnnzhro n'gha gof'nn hriiyar f'll call nnnstell'bsna goka.",
+          "replacement": "ehye Tsathoggua geb f'bug ngk'yarnak uaaah ngtharanak, nnnzhro n'gha gof'nn hriiyar f'llll cllll nnnstell'bsna goka.",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/0",
+      "source_chars": 288,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "Ch' ah 'fhalma nogog ehye nnngoka syha'h hlirgh zhro hupadgh, fhtagn nglloig athg ehye uln hai y'hah nglui f'Tsathoggua navulgtm, syha'h sll'ha Azathoth ron shogg ee ehye athg. Ph'nw geb ah syha'h nw Nyarlathotep hupadgh n'gha, ah ph'fm'latgh s'uhn r'luh nilgh'ri nog naflgoka nggoka, nog",
+          "previous_translation": "Ch'ah 'fhalma nogog ehye nnngoka syha'h hlirgh zhro hupadgh, fhtagn nglloig at Hg ehye uln hai y'hah nglui f'sathoggua navulgtm, syha'h sll'ha Azathoth ron shogg ee ehye at gh.Ph'nw Geb ah syha'h nw Nyarlathotep hupadgh n'gha, ah ph'fm'latgh s'uhn r'luh n n'ri nog naflgoka nggoka, nog",
+          "replacement": "Ch' ah 'fhalma nogog ehye nnngoka syha'h hlirgh zhro hupadgh, fhtagn nglloig athg ehye uln hai y'hah nglui f'Tsathoggua navulgtm, syha'h sll'ha Azathoth ron shogg ee ehye athg. Ph'nw geb ah syha'h nw Nyarlathotep hupadgh n'gha, ah ph'fm'latgh s'uhn r'luh nilgh'ri nog naflgoka nggoka, nog",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "asset": "codex/documents/ffguidebattle.codex",
+      "path": "/longContentPages/0",
+      "source_chars": 13198,
+      "full_field_changed": true,
+      "source_newlines": 269,
+      "baseline_target_newlines": 269,
+      "repaired_target_newlines": 269,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "^cyan;Shortspear + Shield^reset;: +^green;10^reset;% Shield Bash, +^green;2^reset; Shield Push Distance, Shield Regen x^green;1.2^reset;, +^green;50^reset;% Defense Tech Efficiency",
+          "previous_translation": "^cyan;Shortspear + Shield ^reset;: +^green;10^reset;%Shield Bash, +^green;2^reset;Shield Push Distance, Shield Regen x ^green;1.2^reset;, +^green;50^reset;%Defense Tech Efficiency",
+          "replacement": "^cyan;短槍 + 盾^reset;: シールドバッシュ +^green;10^reset;%、盾で押し出す距離 +^green;2^reset;、盾の回復速度 x^green;1.2^reset;、防御テック効率 +^green;50^reset;%",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/1",
+      "source_chars": 246,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "H'gnaiih wgah'n ph'shagg Azathoth vulgtlagln naflsyha'h nguln nog zhro, 'bthnknyth R'lyeh lloig shugg shtunggli goka uln kn'a, naflFaugn",
+          "previous_translation": "H'gnaiih wgah'n ph'hagg Azathoth vulgtlagin naflsyha'h nguln nog zhro, 'bthnknyth R'lyeh lloig shugg shtunggli goka uln kn'a, naflfaugn",
+          "replacement": "H'gnaiih wgah'n ph'shagg Azathoth vulgtlagln naflsyha'h nguln nog zhro, 'bthnknyth R'lyeh lloig shugg shtunggli goka uln kn'a, naflFaugn",
+          "occurrences": 1
+        },
+        {
+          "segment": 1,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "hai Shub-Niggurath s'uhn shogg cChaugnar Faugn f'hlirgh, ngluiyar 'ai shtunggli geb y-s'uhn nw r'luh Cthulhu.",
+          "previous_translation": "hai Shub-Niggurath s'uhn shogg cChaugnar Faugn f'hlirgh, ngluiyar 'ai shtunggli Geb y-suhn nw n' r'luh Cthulhu.",
+          "replacement": "hai Shub-Niggurath s'uhn shogg cChaugnar Faugn f'hlirgh, ngluiyar 'ai shtunggli geb y-s'uhn nw r'luh Cthulhu.",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "asset": "codex/biome/atropusbiome4.codex",
+      "path": "/contentPages/0",
+      "source_chars": 292,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "I am absolutely positive that these samples taken from fifteen separate Atropus worlds share the same DNA sequences in common, Gina.",
+          "previous_translation": "I am absolutely positive that these samples taken from fifteen separate Atropus worlds share the same DNA sequences in common, Gina.",
+          "replacement": "ジーナ、十五の異なるAtropus型惑星から採取したこれらの試料が、共通する同一のDNA配列を持つことは絶対に間違いない。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "asset": "codex/documents/networkguide.codex",
+      "path": "/contentPages/14",
+      "source_chars": 374,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "A common, useful storage setup is to have rows of containers and storage bridges all linked to a single terminal (or series of terminals) so you can pull from all of them, with a chest nearby and its storage bridge linked to multiple ITDs that will automatically sort any items you dump into it into specific containers in the network without you having to do anything else.",
+          "previous_translation": "A common, useful storage setup is to have rows of containers and storage bridges all linked to a single terminal (or series of terminals) so you can pull from all of them, with a chest nearby and its storage bridge linked to multiple ITDs that will automatically sort any items you dump into it into specific containers in the network without you having to do anything else.",
+          "replacement": "便利な基本構成は、収納容器とストレージブリッジを列状に並べ、それらを一台の端末（または複数の端末）につないで、どの容器からも取り出せるようにするものだ。さらに近くにチェストを置き、そのストレージブリッジを複数のITDにつなぐ。こうすれば、そのチェストに放り込んだアイテムは、何もしなくてもネットワーク内の指定された容器へ自動で仕分けされる。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "asset": "codex/documents/networkguide.codex",
+      "path": "/contentPages/18",
+      "source_chars": 428,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station.",
+          "previous_translation": "No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station.",
+          "replacement": "戦利品を持ち帰るたびに何十個もの容器の間を走り回る必要はもうない。すべてを一つのチェストへ放り込めば、必要な場所へきちんと仕分けされる。製作台を離れずに、製作に必要な材料だけを取り出すこともできる。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "asset": "codex/documents/randombook4.codex",
+      "path": "/contentPages/0",
+      "source_chars": 399,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "We can't be sure who or what made them, but we are one hundred percent certain they did not simply come about from nowhere.",
+          "previous_translation": "We can't be sure who or what made them, but we are one hundred percent certain they did not simply come about from nowhere.",
+          "replacement": "誰が、あるいは何がそれらを作ったのかは断定できない。だが、何もないところから勝手に生じたのではないことだけは、完全に確かだ。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/contentPages/14",
+      "source_chars": 215,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Jul 7 - Twice this week the backup generator fuel was siphoned and completely replaced with Essentia Obscura, causing station-wide hallucinations.",
+          "previous_translation": "Jul 7 - Twice this week the backup generator fuel was siphoned and completely replaced with Essentia Obscura, causing station-wide hallucinations.",
+          "replacement": "七月7日 - 今週は二度も、予備発電機の燃料が抜き取られ、すべてEssentia Obscuraに入れ替えられた。そのせいで基地全体に幻覚が広がった。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/contentPages/26",
+      "source_chars": 225,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "It made sense, on account of the *thousands of bees* he put in my office in June still roaming around.",
+          "previous_translation": "It made sense, on account of the *thousands of bees* he put in my office in June still roaming around.",
+          "replacement": "それも納得できる。六月に彼が私のオフィスへ放った*何千匹もの蜂*が、まだ飛び回っているのだから。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/contentPages/86",
+      "source_chars": 383,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "People decided to go along with Kevin's pranks for a day and it appears that there have been multiple people jumping on the director's tail and promptly being flung into the nearest wall or desk.",
+          "previous_translation": "People decided to go along with Kevin's pranks for a day and it appears that there have been multiple people jumping on the director's tail and promptly being flung into the nearest wall or desk.",
+          "replacement": "皆が一日だけケビンのいたずらに付き合うことにしたらしい。その結果、所長の尻尾に飛び乗っては、すぐさま近くの壁や机へ投げ飛ばされる者が何人も出たようだ。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/longContentPages/1",
+      "source_chars": 1811,
+      "full_field_changed": true,
+      "source_newlines": 14,
+      "baseline_target_newlines": 14,
+      "repaired_target_newlines": 14,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "^#EDB347;Jul 7^#FFFFFF; - Twice this week the backup generator fuel was siphoned and completely replaced with Essentia Obscura, causing station-wide hallucinations.",
+          "previous_translation": "^#EDB347;Jul 7^#FFFFFF; - Twice this week the backup generator fuel was siphoned and completely replaced with Essentia Obscura, causing station-wide hallucinations.",
+          "replacement": "^#EDB347;七月7日^#FFFFFF; - 今週は二度も、予備発電機の燃料が抜き取られ、すべてEssentia Obscuraに入れ替えられた。そのせいで基地全体に幻覚が広がった。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/longContentPages/11",
+      "source_chars": 3233,
+      "full_field_changed": true,
+      "source_newlines": 22,
+      "baseline_target_newlines": 22,
+      "repaired_target_newlines": 22,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "People decided to go along with Kevin's pranks for a day and it appears that there have been multiple people jumping on the director's tail and promptly being flung into the nearest wall or desk.",
+          "previous_translation": "People decided to go along with Kevin's pranks for a day and it appears that there have been multiple people jumping on the director's tail and promptly being flung into the nearest wall or desk.",
+          "replacement": "皆が一日だけケビンのいたずらに付き合うことにしたらしい。その結果、所長の尻尾に飛び乗っては、すぐさま近くの壁や机へ投げ飛ばされる者が何人も出たようだ。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "asset": "codex/documents/scienceoutpost_kevin.codex",
+      "path": "/longContentPages/3",
+      "source_chars": 2334,
+      "full_field_changed": true,
+      "source_newlines": 16,
+      "baseline_target_newlines": 16,
+      "repaired_target_newlines": 16,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "It made sense, on account of the *thousands of bees* he put in my office in June still roaming around.",
+          "previous_translation": "It made sense, on account of the *thousands of bees* he put in my office in June still roaming around.",
+          "replacement": "それも納得できる。六月に彼が私のオフィスへ放った*何千匹もの蜂*が、まだ飛び回っているのだから。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/0",
+      "source_chars": 228,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "already_exact_source",
+          "source_segment": "S'uhn nglui ph'bug ee 'bthnk ebunma nw shogg naflshagg nasll'ha, shoggoth grah'nog nabug gof'nn Nyarlathotep ebunma mnahn'.",
+          "previous_translation": "S'uhn nglui ph'bug ee 'bthnk ebunma nw shogg naflshagg nasll'ha, shoggoth grah'nog nabug gof'nn Nyarlathotep ebunma mnahn'.",
+          "replacement": "S'uhn nglui ph'bug ee 'bthnk ebunma nw shogg naflshagg nasll'ha, shoggoth grah'nog nabug gof'nn Nyarlathotep ebunma mnahn'.",
+          "occurrences": 1
+        },
+        {
+          "segment": 1,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "Y'hah nnnsyha'h ah Chaugnar Faugn sll'ha ph'vulgtlagln uh'e vulgtm 'ai Dagon, h'ftaghu sll'ha Tsathoggua",
+          "previous_translation": "Y'hah nnnsyha'hah Chaugnar Faugn sll'ha ph' vulgtlagin uh'e vulgtm 'ai Dagon, h'ftaghu sll'ha Tsathoggua",
+          "replacement": "Y'hah nnnsyha'h ah Chaugnar Faugn sll'ha ph'vulgtlagln uh'e vulgtm 'ai Dagon, h'ftaghu sll'ha Tsathoggua",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "asset": "codex/fupeglaci/fupeglacisongs.codex",
+      "path": "/contentPages/4",
+      "source_chars": 319,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Another fine example would be the Hevlar Corps, an elite branch of the Protectorate Defense Force composed entire of Peglaci.",
+          "previous_translation": "Another fine example would be the Hevlar Corps, an elite branch of the Protectorate Defense Force composed entire of Peglaci.",
+          "replacement": "もう一つの好例が、ペグラシだけで編成されたプロテクトレイト防衛軍の精鋭部隊、ヘヴラー軍団だ。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "asset": "codex/greg/greg3.codex",
+      "path": "/contentPages/1",
+      "source_chars": 382,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "He swears he didn't use the strange fluid we found on that moon orbiting Coronis IV.",
+          "previous_translation": "He swears he didn't use the strange fluid we found on that moon orbiting Coronis IV.",
+          "replacement": "コロニスIVを周回する衛星で見つけた、あの奇妙な液体は使っていないと、彼は言い張っている。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "asset": "codex/kirhos/kirhos1.codex",
+      "path": "/contentPages/1",
+      "source_chars": 396,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "It was a century, perhaps longer, before a viable replacement was located deep in the asteroid belts near Azakon Reticuli.",
+          "previous_translation": "It was a century, perhaps longer, before a viable replacement was located deep in the asteroid belts near Azakon Reticuli.",
+          "replacement": "アザコン・レティキュリ付近の小惑星帯の奥深くで、代替として使えるものが見つかるまでには、一世紀か、あるいはそれ以上の年月がかかった。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "asset": "codex/kirhos/kirhos2.codex",
+      "path": "/contentPages/1",
+      "source_chars": 254,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "'Arcs', as they are colloquially known, are often owned by a single corporation.",
+          "previous_translation": "'Arcs', as they are colloquially known, are often owned by a single corporation.",
+          "replacement": "俗に『アーク』と呼ばれるこれらの施設は、たいてい一つの企業によって所有されている。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "asset": "codex/legacy_codex/fuavianclippedcouncil.codex",
+      "path": "/contentPages/0",
+      "source_chars": 287,
+      "full_field_changed": true,
+      "source_newlines": 1,
+      "baseline_target_newlines": 1,
+      "repaired_target_newlines": 1,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "These martyred Avians were amongst the select few who retained the ability to fly, yet allowed Kluex to clip their wings so as to be able to empathise with his subjects.",
+          "previous_translation": "These martyred Avians were amongst the select few who retained the ability to fly, yet allowed Kluex to clip their wings so as to be able to empathise with his subjects.",
+          "replacement": "殉教者となったこのエイビアンたちは、飛ぶ能力を保っていた数少ない者たちだった。それでも、Kluexの民の気持ちを理解できるようにと、翼を切って自分たちを飛べなくすることをKluexに許した。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "asset": "codex/legacy_codex/greenguardcodex6.codex",
+      "path": "/contentPages/0",
+      "source_chars": 251,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "I think The Dust is getting to me. I require Drysap treatment once a week now, and even then it does little to ease my discomfort.",
+          "previous_translation": "I think The Dust is getting to me. I require Drysap treatment once a week now, and even then it does little to ease my discomfort.",
+          "replacement": "どうやら『ダスト』にむしばまれているらしい。今では週に一度、ドライサップによる治療が必要だ。それでも不快感はほとんど和らがない。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "asset": "codex/nightar/funightarhistory2.codex",
+      "path": "/contentPages/0",
+      "source_chars": 353,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "There are mysteries to the Nightar I have recently discovered, though I fought tooth and nail for nearly twenty years to even gain enough trust to ask.",
+          "previous_translation": "There are mysteries to the Nightar I have recently discovered, though I fought tooth and nail for nearly twenty years to even gain enough trust to ask.",
+          "replacement": "ナイターについて、最近になってようやく知った謎がある。質問を許されるほどの信頼を得るだけでも、二十年近く必死に努力しなければならなかったのだ。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "asset": "codex/precursor/precursorcodex12.codex",
+      "path": "/contentPages/1",
+      "source_chars": 274,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Fourteen cycles have passed since our experiment began, and in that time the specimen has not only thrived, but has taken to birthing young via parasitic infection in the pain-center of victims.",
+          "previous_translation": "Fourteen cycles have passed since our experiment began, and in that time the specimen has not only thrived, but has taken to birthing young via parasitic infection in the pain-center of victims.",
+          "replacement": "実験開始から十四周期が過ぎた。その間に標本は順調に成長しただけでなく、犠牲者の痛覚中枢に寄生感染することで子を産むようになった。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "asset": "codex/skath/skathcouncil.codex",
+      "path": "/contentPages/1",
+      "source_chars": 362,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "Finally, they must have seen combat at least twice (heroics and long-standing combat records are preferred.)",
+          "previous_translation": "Finally, they must have seen combat at least twice (heroics and long-standing combat records are preferred.)",
+          "replacement": "最後に、少なくとも二度の実戦経験が必要だ（英雄的な活躍や、長年にわたる戦歴があればなお望ましい）。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "asset": "codex/thelusian/thelusian5.codex",
+      "path": "/contentPages/1",
+      "source_chars": 339,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "We don't know if there is a single queen for all Thelusians or if each hive has a unique Queen.",
+          "previous_translation": "We don't know if there is a single queen for all Thelusians or if each hive has a unique Queen.",
+          "replacement": "セルーシアン全体に女王が一体だけいるのか、それとも各巣にそれぞれの女王がいるのかは、まだ分かっていない。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "asset": "codex/thelusian/thelusian7.codex",
+      "path": "/contentPages/1",
+      "source_chars": 367,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "human_translate_flagged_segment",
+          "status": "applied",
+          "source_segment": "This mistake was repeated once more by the Apex, fifty years later, in their ill-advised expansion attempt into Thelusian territory.",
+          "previous_translation": "This mistake was repeated once more by the Apex, fifty years later, in their ill-advised expansion attempt into Thelusian territory.",
+          "replacement": "その五十年後、エイペックスはセルーシアンの領域へ無謀な拡張を試み、同じ過ちを再び犯した。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/3",
+      "source_chars": 118,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "Y-ep shogg lloigor ebunma n'gha orr'e naflkn'a ftaghu naflhlirgh, cDagon nilgh'ri ep mnahn' ooboshu gnaiih mg f'grah'n",
+          "previous_translation": "Y-ep shogg lloogor ebunma n'gha or r'e naflkn'a ftaghu naflhlirgh, cDagon nilgh'ri ep mnahn' ooboshu gnaiih mg f'grah'n",
+          "replacement": "Y-ep shogg lloigor ebunma n'gha orr'e naflkn'a ftaghu naflhlirgh, cDagon nilgh'ri ep mnahn' ooboshu gnaiih mg f'grah'n",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/2",
+      "source_chars": 225,
+      "full_field_changed": true,
+      "source_newlines": 0,
+      "baseline_target_newlines": 0,
+      "repaired_target_newlines": 0,
+      "validation_errors": [],
+      "edits": [
+        {
+          "segment": 0,
+          "action": "restore_fictional_language_exact_source",
+          "status": "applied",
+          "source_segment": "nw nilgh'ri ngstell'bsna Cthulhu lw'nafhog ya Stell'bsnayar hafh'drn ngy'hah 'bthnk Tsathoggua 'bthnk kadishtu R'lyeh, shtungglinyth mnahn' ilyaa gnaiih R'lyeh nnnShub-Niggurath 'ai ngDagon, k'yarnak Tsathoggua gnaiih Yoggoth",
+          "previous_translation": "nw nilgh 'ri ngstell' bsna Cthulhu lw'nathog ya Stell'bsnayar haht' drn ngy' hah 'bthnk Tsathoggua 'bthnk kadishtu R'lyeh, shtngglinyth mnahn' ilya gnaiih R'lyeh nnShub-Niggurath 'ai ngDagon, k'yarnak Tsathoggua gnaiih Yoggothothih",
+          "replacement": "nw nilgh'ri ngstell'bsna Cthulhu lw'nafhog ya Stell'bsnayar hafh'drn ngy'hah 'bthnk Tsathoggua 'bthnk kadishtu R'lyeh, shtungglinyth mnahn' ilyaa gnaiih R'lyeh nnnShub-Niggurath 'ai ngDagon, k'yarnak Tsathoggua gnaiih Yoggoth",
+          "occurrences": 1
+        }
+      ]
+    }
+  ]
+}

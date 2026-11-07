@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honey crystal chair. Fit for a monarch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニークリスタルチェア。 君主のためにフィットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Crystal Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークリスタルチェア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful boost to jumping instead of a double-jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダブルジャンプの代わりにジャンプする強力なブースト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Power Jump I^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;パワージャンプI^reset;"
+    }
+  ]
+]

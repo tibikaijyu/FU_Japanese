@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bizarre specimen out of some sort of nightmare. What could possibly evolve this way?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の悪夢からの奇妙な標本。 このように進化できるものは何でしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不思議な記念碑"
+    }
+  ]
+]

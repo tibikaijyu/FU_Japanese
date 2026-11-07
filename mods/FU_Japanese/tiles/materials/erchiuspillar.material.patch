@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pillar made of solid erchius. Probably explodey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ソリッドエルキウス製の柱。 爆発性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウスピラー"
+    }
+  ]
+]

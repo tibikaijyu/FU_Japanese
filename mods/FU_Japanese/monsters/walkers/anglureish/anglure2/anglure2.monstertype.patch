@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This type of anglure spews noxious gore. Charming."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このタイプの角は有害な穴をあける。 魅力的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rotting Anglure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "回転角"
+    }
+  ]
+]

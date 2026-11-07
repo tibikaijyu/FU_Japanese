@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "The emergency meeting is going to start any minute now."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "緊急会議は今にも始まるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "You're really cutting it close, <entityname>. Please hurry inside before the emergency meeting starts."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "それを本当に近くで切っています、<entityname>。 緊急会議が始まる前に急いでください。"
+    }
+  ]
+]

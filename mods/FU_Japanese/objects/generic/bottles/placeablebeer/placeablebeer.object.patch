@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your beer can be on a table!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今あなたのビールはテーブルの上にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Wheat Beer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小麦ビール"
+    }
+  ]
+]

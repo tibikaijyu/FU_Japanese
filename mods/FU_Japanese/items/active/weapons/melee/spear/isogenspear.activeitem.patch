@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Chillingly cold metal. Loves the taste of flesh.\n^cyan;Inflicts Freezing^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷たく冷やした金属。 肉の味が大好き。\n^cyan;凍結に影響を及ぼす^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イソゲンランス"
+    }
+  ]
+]

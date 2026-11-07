@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, yet swift and high jumping legs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重いが、まだ迅速かつ高いジャンプ脚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Observer Mech Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オブザーバーメカ脚"
+    }
+  ]
+]

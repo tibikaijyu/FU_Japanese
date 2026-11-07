@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Destroys all collision within a 3x3 area, intended for bugfixing. ^red;Deletes foreground tiles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バグ修正を目的とした 3x3 エリア内のすべての衝突を破棄します。 ^red;前景タイルを削除します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failureText",
+      "value": "Don't place this next to your ship's hull!"
+    },
+    {
+      "op": "replace",
+      "path": "/failureText",
+      "value": "船体の隣にこれを置かないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Collision Fixing Tool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "衝突修正ツール"
+    }
+  ]
+]

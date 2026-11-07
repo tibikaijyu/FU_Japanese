@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Nautical Studies"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "自然研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Oceanographer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "海洋学者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Jump right in, the water's fine!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "飛び込んで、水は大丈夫!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "Jump in, sswim with fisshess!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "飛び込んで、魚と泳ぐ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "Mocking. Afraid of a little dip?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "モッキング。 少しおびえていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "Jump right in, the water's fine!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "飛び込んで、水は大丈夫!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "Want to swim with the fishes?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "魚と一緒に泳ぎたいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran wantsss see the fisshess."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローランは魚を見たい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Boastful. I am personally acquanted with Shamu, you know."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "自慢。 私は個人的にはシャムに馴染んでいます。"
+    }
+  ]
+]

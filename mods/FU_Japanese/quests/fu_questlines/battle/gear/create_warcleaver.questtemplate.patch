@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent. And as promised, a reward: ^green;A rare artifact^reset;! It never did work for me..."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。 そして約束どおり、報酬: ^green; 珍しいアーティファクト ^reset; ! 私にとっては役に立たなかった。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Ferozium Cleaver^reset; to the ^green;annoying guy^reset; at the ^orange;Science Outpost^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;フェロジウムクリーバー^reset; へ ^green;うるさいヤツ^reset; では ^orange;科学前哨基地^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'll be frank: My favorite murder tool broke and I need a replacement. If you can bring me a ^orange;Ferozium Cleaver^reset; I'd compensate you for the effort."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "率直に言って、私のお気に入りの殺人ツールが壊れ、私は代替を必要とします。 持って来てくれれば ^orange;フェロジウムクリーバー^reset; その努力で君を償うつもりだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Heavy Weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "重装備"
+    }
+  ]
+]

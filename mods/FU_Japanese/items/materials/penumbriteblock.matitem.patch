@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of penumbrite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブライトのブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライトブロック"
+    }
+  ]
+]

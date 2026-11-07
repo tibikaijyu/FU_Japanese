@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A damaged shield bearing the Protectorate symbol. ^green;-10% Fall Damage^reset;, ^cyan;Immune: Shock^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プロテクターシンボルがついたシールド。 ^green;-10%フォールダメージ^reset;, ^cyan;免疫:ショック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improveParameters/description",
+      "value": "Much stronger than before."
+    },
+    {
+      "op": "replace",
+      "path": "/improveParameters/description",
+      "value": "以前よりもずっと強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improveParameters/shortdescription",
+      "value": "^cyan;Protectorate Shield^reset; ^white;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/improveParameters/shortdescription",
+      "value": "^cyan;防護シールド^reset; ^white;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rusty Protectorate Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "防錆シールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Vastly improved defense."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "防衛力も大幅に向上。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Protectorate Shield^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;防護シールド^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "A shield for a true hero."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "真のヒーローの盾。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Protectorate Shield^reset; ^green;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;防護シールド^reset; ^green;^reset;"
+    }
+  ]
+]

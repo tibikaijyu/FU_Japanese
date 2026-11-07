@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;[Double-tap Up]^reset; to explode upward! Harms foes!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[ダブルタップアップ] ^reset; 爆発! ハームズ敵!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Zero Burst I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "バースト一"
+    }
+  ]
+]

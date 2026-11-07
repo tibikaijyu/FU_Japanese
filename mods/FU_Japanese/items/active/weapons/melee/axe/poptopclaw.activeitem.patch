@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carved from the still-twitching corpse of a Mama Poptop. You monster.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ママ・ポップトップの未だに変な死体から彫られた。 怪物!\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mama Poptop Claw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ママポップトップクロー"
+    }
+  ]
+]

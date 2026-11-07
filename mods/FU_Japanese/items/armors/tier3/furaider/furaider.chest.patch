@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;12^reset;% Speed\n^yellow;^reset; Machine Pistol: Damage x^green;1.075^reset;/^green;1.15^reset;\n^yellow;^reset; Dagger: +^green;25^reset;% Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;12^reset;% 速さ\n^yellow;^reset;マシンピストル:損傷x ^green;1.075^reset;/ ^green;1.15^reset;\n^yellow;^reset;短剣:+^green;25^reset;%クリティカルダメージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raider Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レイダーアーマー"
+    }
+  ]
+]

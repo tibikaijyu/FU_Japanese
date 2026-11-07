@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "RADIOACTIVE! DO NOT EAT!\n^blue;+^white;1 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラジオ活動! 食べないで!\n^blue;+^white;1 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radioactive Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射性ハニカム"
+    }
+  ]
+]

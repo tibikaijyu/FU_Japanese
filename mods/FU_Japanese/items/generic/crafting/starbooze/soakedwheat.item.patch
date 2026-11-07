@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very soggy wheat seed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に光沢のある小麦の種子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soaked Wheat Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小麦の種を浸した"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...and by properly combining these artifacts, you'll be able to grapple with amazing ease and throw yourself long distances: An Elder Artifact, an Unknown Reactor and an Elder Fragment. Be sure to utter the prayer correctly. The gutteral language is difficult but accuracy is survival, in this case."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "...そして、これらのアーティファクトを適切に組み合わせることで、あなたは驚くほど簡単に対処し、あなた自身を長距離に投げることができます: 高齢者アーティファクト、未知リアクター、高齢者フラグメント。 必ず正しく祈りを述べてください。 口径言語は難しいが、正確さは生存である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ik'vathk Vesh"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ヴァトク・ヴェッシュです"
+    }
+  ]
+]

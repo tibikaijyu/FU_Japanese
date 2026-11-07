@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with liquid Deuterium. Its light is almost blinding."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体重水素で満たされたランプ。 その光はほとんど目が見えません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deuterium Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重水素溶岩ランプ"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delightful ornate flooring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しい華やかな床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran feelss fancy walking on ornate floor."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "華やかな床を歩いて華やかです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Charmed. A beautiful ornate wooden floor."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "チャーミング。 美しい華やかな木製の床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some fancy lookin' ornate floorin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "華麗な床を眺めるファンシーな人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Ornate Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "華やかな床"
+    }
+  ]
+]

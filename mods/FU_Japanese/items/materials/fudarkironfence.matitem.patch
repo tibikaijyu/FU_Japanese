@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy iron fence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な鉄のフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Iron Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークアイアンフェンス"
+    }
+  ]
+]

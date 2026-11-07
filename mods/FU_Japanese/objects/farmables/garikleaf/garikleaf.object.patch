@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grants a large boost to ground speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地上速度に大きなブーストを付与します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garik Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガリク葉"
+    }
+  ]
+]

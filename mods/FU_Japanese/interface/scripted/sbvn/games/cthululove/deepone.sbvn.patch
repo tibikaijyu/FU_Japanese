@@ -1,0 +1,2246 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/displayConfig/subtitle",
+      "value": "A sickening, creepy love epic"
+    },
+    {
+      "op": "replace",
+      "path": "/displayConfig/subtitle",
+      "value": "気持ち悪い、不気味なラブエピック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayConfig/title",
+      "value": "Humped by a Deep One"
+    },
+    {
+      "op": "replace",
+      "path": "/displayConfig/title",
+      "value": "深いものにつまずかれる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art1/text",
+      "value": "\"That's right!\" she says. \"Wait here, and when I'm done, you can judge if my art is worthy.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art1/text",
+      "value": "「そうだ!」と彼女は言う。 「ここで待ってて、終わったら私の芸術がふさわしいかどうか判断できる」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art12/options/0/0",
+      "value": "Some sort of dog?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art12/options/0/0",
+      "value": "犬ってどんな犬?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art12/options/1/0",
+      "value": "An alien of some kind?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art12/options/1/0",
+      "value": "何かのエイリアン?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art12/text",
+      "value": "\"Can you tell what it is?\" she asks, eagerly."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art12/text",
+      "value": "「何だか分かるかい?」と彼女は熱心に尋ねる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art13/text",
+      "value": "She giggles. \"No, silly, it's a duck!\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art13/text",
+      "value": "彼女は笑います。 「ちがう、くそ、アヒルだよ!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art15/text",
+      "value": "I question if Kasumi has literally ever seen a duck, or even heard a second-hand description of one."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art15/text",
+      "value": "カズミが文字通りアヒルを見たことがあるのか、それとも中古のカズミを聞いたことがあるのか疑問です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art16/options/0/0",
+      "value": "Is this a joke?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art16/options/0/0",
+      "value": "これは冗談ですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art16/options/1/0",
+      "value": "It's beautiful!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art16/options/1/0",
+      "value": "美しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art16/text",
+      "value": "I turn back to her. \"Well?\" she asks. \"What do you think?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art16/text",
+      "value": "私は彼女に振り向く。 「ええ?」と彼女はたずねます。 「どう思う?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art17a/text",
+      "value": "\"...I guess the standard of art is different in your time, huh?\" she says flatly. I presume that the picture was not, in fact, a joke."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art17a/text",
+      "value": "「...あなたの時代には、芸術の基準が違いますよね?」と彼女は平たく言う。 私はその絵が実は冗談ではなかったと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art17b/options/0/0",
+      "value": "So is the 'Tribute of song' next?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art17b/options/0/0",
+      "value": "では、次に「歌のトリビュート」は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art17b/text",
+      "value": "\"Why, thank you!\" she says with a beaming smile. "
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art17b/text",
+      "value": "「何で、ありがとう!」と、彼女はにっこり笑って言う。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art18/options/0/0",
+      "value": "So is the 'Tribute of song' next?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art18/options/0/0",
+      "value": "では、次に「歌のトリビュート」は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art18/text",
+      "value": "I figure that I may have upset her, and desperately think of a way to move the conversation forward."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art18/text",
+      "value": "私は彼女を怒らせ、会話を前進させる方法を必死で考えるかもしれないと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art2/text",
+      "value": "Kasumi leaves for the beach, opening a chest of calligraphy brushes. I sit awkwardly on the steps of the pagoda entrance, watching her from a short distance."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art2/text",
+      "value": "かずみはビーチに出発し、書道筆の箱を開けます。 塔の入り口の階段にぎこちなく座り、近距離から見守っていました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art3/text",
+      "value": "I have a short time go gather my thoughts."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art3/text",
+      "value": "短い時間に自分の考えをまとめる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art4/text",
+      "value": "To think that not only is she beautiful, but that she is also a talented artist? Surely I must be in a dream, or perhaps an elaborate coma fantasy."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art4/text",
+      "value": "彼女は美しいだけでなく、才能のあるアーティストでもあると思いますか? 確かに私は夢や、おそらく精巧なコマファンタジーでなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art5a/text",
+      "value": "She thinks my name is Vaughn St. Lovecastle. If we are truly destined for one another, would she appreciate my true name? Could she ever?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art5a/text",
+      "value": "私の名前はヴォーン・セント・ラブキャッスルだと思います。 もし私たちが本当に互いの運命に就いているなら、彼女は私の本当の名前に感謝しますか? 彼女はできるだろうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art5b/text",
+      "value": "Could she truly love me? Will she be able to come to the present with me? Will that cause a rift in the space-time continuum?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art5b/text",
+      "value": "彼女は本当に私を愛してくれるだろうか? 彼女は私と一緒にプレゼントに来ることができるでしょうか。 それは時空連続体に亀裂を引き起こすでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art6/text",
+      "value": "I ponder my tribulations so far, but as I do so, Kasumi returns with a rolled up scroll."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art6/text",
+      "value": "ここまでの苦悩を振り返るが、そうするように、かずみは巻き上げられた巻物を持って戻ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art7/options/0/0",
+      "value": "Can I see?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art7/options/0/0",
+      "value": "見える?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art7/options/1/0",
+      "value": "What did you paint?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art7/options/1/0",
+      "value": "何を描いたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art7/text",
+      "value": "\"I have finished!\" she announces. Her smile glitters in the sunset like the lure of a beautiful angler fish."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art7/text",
+      "value": "「終わった!」と彼女は告白する。 美しい釣り魚のルアーのように、夕日に微笑みが輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art8a/text",
+      "value": "\"Yep! Here it is!\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art8a/text",
+      "value": "「ええ!ここです!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art8b/text",
+      "value": "\"You'll be able to see when I show you, riiiight now!\"."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art8b/text",
+      "value": "「君は私が君に見せた時に見えるだろう、今だ!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/art9/text",
+      "value": "She presents the scroll to me."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/art9/text",
+      "value": "彼女は私にその巻物を見せてくれた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding/text",
+      "value": "Kasumi's poem echoes in my head, guiding me through the darkness. I feel like a fish on a lead. In the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding/text",
+      "value": "カスミの詩は私の頭に響き渡り、暗闇の中を案内してくれます。 私は魚が先を行くような気分だ。 暗闇の中で。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding1/text",
+      "value": "After what feels like a millenia, but also only maybe five or six minutes, I wake up where I began."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding1/text",
+      "value": "ミレニアムのように感じるものの、おそらく五分か六分しか経っていない後、私はどこで始めたかを目覚めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding2/text",
+      "value": "The hockey table... The present day... Kasumi! I feel like fate has been snatched from me."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding2/text",
+      "value": "ホッケーテーブル...。 今日... カスミ! 運命は私から奪われたような気がする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding3/text",
+      "value": "I cry out in a dramatic and wimpering rage. This Hockey table is nothing compared to love. In my anger, I attempt to flip the table, but my weak arms fail me."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding3/text",
+      "value": "ドラマチックで刺激的な怒鳴り声を上げた。 このホッケーのテーブルは愛とは何ら変わりない。 怒ってテーブルをひっくり返そうとするが、腕が弱い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding4/text",
+      "value": "I could never destroy this Hockey table. Beautiful shrine maidens may come and go..."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding4/text",
+      "value": "私はこのホッケーテーブルを壊すことができなかった。 美しい神社の女が行き交うかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/badEnding5/text",
+      "value": "But at least I'll have my games."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/badEnding5/text",
+      "value": "でも、少なくともゲームはやるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation1a/text",
+      "value": "\"You're at the Grand Hylotl Library, which is opening one week from tonight.\" She explains."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation1a/text",
+      "value": "「今夜から一週間ほど開館するグランド・ハイロトル図書館にいらっしゃいます」 彼女は説明する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation1b/text",
+      "value": "\"I am Kasumi, a shrine maiden sent to bless the Grand Hylotl Library before its opening next week.\" She explains."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation1b/text",
+      "value": "「来週の開館前に、大ハイロトル図書館に祝福を捧げてくださった神社の女神、カスミです」 彼女は説明する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2a/options/0/0",
+      "value": "To meet beautiful girls!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2a/options/0/0",
+      "value": "美しい女の子に会う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2a/options/1/0",
+      "value": "I was sent through time!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2a/options/1/0",
+      "value": "時間をかけて送られてきました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2a/text",
+      "value": "\"No-one else is supposed to be here whilst I bless the island! Why did you come here?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2a/text",
+      "value": "「島を祝福する間は誰もここにはいないはず!どうしてここに来たの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2b/options/0/0",
+      "value": "To meet beautiful girls!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2b/options/0/0",
+      "value": "美しい女の子に会う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2b/options/1/0",
+      "value": "I was sent through time!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2b/options/1/0",
+      "value": "時間をかけて送られてきました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/explanation2b/text",
+      "value": "\"No-one else is supposed to be here, though! Why did you come here?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/explanation2b/text",
+      "value": "「他に誰もいないはずなのに、なぜここに来たの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale1/options/0/0",
+      "value": "What's going on?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale1/options/0/0",
+      "value": "どうなってるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale1/text",
+      "value": "An ethereal light suddenly fills the area as her words of power leave her lips. My stomach churns like a washing machine left out in the sun."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale1/text",
+      "value": "彼女の力の言葉が彼女の唇を残しているように、エーテルの光が突然その領域を埋めます。 おなかが日照りの洗濯機のように回転します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale2/text",
+      "value": "\"I don't know!\" she cries out. I feel something tugging at me. An unseen hand of fate. I suddenly realise my time here may be over shortly."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale2/text",
+      "value": "「分からない!」と彼女は叫ぶ。 私に何かつまずく感じます。 目に見えない運命の手。 突然、ここでの時間も間もなく終わるかもしれないと分かった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale3/options/0/0",
+      "value": "Never forget me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale3/options/0/0",
+      "value": "忘れないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale3/options/1/0",
+      "value": "I love you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale3/options/1/0",
+      "value": "愛してる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale3/text",
+      "value": "I have precious seconds left. I may fail at winning her love, but I must make an attempt! A BEAUTIFUL ATTEMPT!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale3/text",
+      "value": "貴重な時間があります。 私は彼女の愛に勝つことに失敗するかもしれませんが、私は試みなければなりません! 美しい試み!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale4a/text",
+      "value": "I never hear her reply, as time pulls me away into the dark void of nothingness once more."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale4a/text",
+      "value": "彼女の返事は決して聞こえず、時間が私を再び何もない暗い空に引っ張り出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/finale4b/text",
+      "value": "\"That's a bit weird, we don't know either other that well!\" she responds. I barely have time to process my rejection as I feel the familiar tug of time, and everything fades."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/finale4b/text",
+      "value": "「ちょっと奇妙ね、僕たちはそんな風にお互いよく知らない」と彼女は答えた。 慣れ親しんだ時間の流れを感じると全てが消えてしまうので、拒絶を処理できる時間はほとんどありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding/text",
+      "value": "Kasumi's poem echoes in my head, guiding me through the darkness. I feel like a fish on a lead. In the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding/text",
+      "value": "カスミの詩は私の頭に響き渡り、暗闇の中を案内してくれます。 私は魚が先を行くような気分だ。 暗闇の中で。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding1/text",
+      "value": "After what feels like a millenia, but also only maybe five or six minutes, I wake up where I began."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding1/text",
+      "value": "ミレニアムのように感じるものの、おそらく五分か六分しか経っていない後、私はどこで始めたかを目覚めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding2/text",
+      "value": "The hockey table... The present day... Kasumi! I feel like fate has been snatched from me."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding2/text",
+      "value": "ホッケーテーブル...。 今日... カスミ! 運命は私から奪われたような気がする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding3/text",
+      "value": "I cry out in a dramatic and wimpering rage. This Hockey table is nothing compared to love. In my anger, I flip the table over, sending it crashing to the ground."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding3/text",
+      "value": "ドラマチックで刺激的な怒鳴り声を上げた。 このホッケーのテーブルは愛とは何ら変わりない。 怒りの中、私はテーブルをひっくり返して地面にぶつからせました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding4/text",
+      "value": "I collapse to the ground sobbing, next to the destroyed table. It was too real - Kasumi can't just be a dream, can she?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding4/text",
+      "value": "破壊されたテーブルの隣で、地面に倒れました。 あまりにも現実的だった - かすみはただの夢ではいられないのでは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding5/options/0/0",
+      "value": "Open the letter"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding5/options/0/0",
+      "value": "手紙を開けて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding5/text",
+      "value": "Curiously enough, I see a letter, sticking out of the rubble. It looks old, very old. Has this always been here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding5/text",
+      "value": "好奇心をそそることに、瓦から突き出ている手紙が見えた。 古く、とても古く見えます。 これはいつもここにありましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding6/text",
+      "value": "Still on my knees, I eagerly peel away at the wax seal, careful not to tear the paper. Will this be a letter from Kasumi, confessing her love?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding6/text",
+      "value": "それでも膝の上で、私は熱心に紙を破らないように注意して、ワックスシールで剥離します。 これはかすみからの手紙でしょうか、彼女の愛を告白しますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding7/text",
+      "value": "I open the envelope, my heart racing. Perhaps the letter from Kasumi will instruct me how to return to her time so we can resume our fated love?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding7/text",
+      "value": "私は封筒を開けて、心臓を競い合う。 おそらく、カスミからの手紙は、運命の愛を再開できるように、彼女の時間に戻る方法を教えてくれるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/goodEnding8/text",
+      "value": "I lift out the letter. Everything comes down to this."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/goodEnding8/text",
+      "value": "私はその手紙を持ち出した。 全てがこれにあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey1/text",
+      "value": "\"Air Hockey? What is this 'Air Hockey'? you speak of?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey1/text",
+      "value": "「エア・ホッケー?この「エア・ホッケー」って何? 言ってたでしょ?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey3/text",
+      "value": "She doesn't know what Air Hockey is."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey3/text",
+      "value": "彼女はエアホッケーとは何か分からない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey4/text",
+      "value": "There probably isn't even any Air Hockey IN this era."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey4/text",
+      "value": "この時代にエアホッケーはおそらくありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey5/text",
+      "value": "I suddenly feel the crushing weight of how serious my circumstances have become."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey5/text",
+      "value": "私は突然、私の状況がどれほど深刻になっているかの砕ける重荷を感じる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey6/options/0/0",
+      "value": "Not really, no"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey6/options/0/0",
+      "value": "いえいえいえ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey6/options/1/0",
+      "value": "I'm pretty sure no"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey6/options/1/0",
+      "value": "間違いないと思います"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey6/text",
+      "value": "\"Does this 'Air Hockey' of yours usually send people through time?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey6/text",
+      "value": "「この「エアホッケー」は、普段は時間をかけて人を送りますよね?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey7/options/0/0",
+      "value": "Your ceremonial ritual"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey7/options/0/0",
+      "value": "あなたの儀式は"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey7/options/1/0",
+      "value": "No it's Air Hockey"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey7/options/1/0",
+      "value": "いいえ、エアホッケー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey7/text",
+      "value": "\"Perhaps it was something else?\" she says thoughtfully.."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey7/text",
+      "value": "「たぶん、それは別のこと?」と彼女は思慮深く言う。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey8/options/0/0",
+      "value": "What is it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey8/options/0/0",
+      "value": "なんですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/hockey8/text",
+      "value": "She ignores me entirely, contemplating for a moment before her face lights up."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/hockey8/text",
+      "value": "彼女は完全に私を無視し、彼女の顔がライトアップされる前にしばらく考えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro0/text",
+      "value": "[...and then you find the juicy bits. Near the end of the book, scrawled in a more hasty hand (yes, they actually wrote on real live paper instead of digital!) a number of entries are found that are quite unsettling.]"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro0/text",
+      "value": "[...そして、ジューシーな部分が見つかります。この本の終わり近くで、もっと急いで手を伸ばして(そう、彼らは実際の紙にデジタルでなく書きました!)、かなり落ち着かないエントリがたくさんあります。]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro1/text",
+      "value": "The driller fell through the damned ice! The entire thing is lost, utterly unsalvagable without some means to block the effects of the liquid nitrogen pool. And that still doesn't help lug the thing out."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro1/text",
+      "value": "掘削機が氷をすり抜けた! 液体窒素プールの効果をブロックする何らかの手段なしで、全体のものは、完全に回収不可能、失われます。 それもまだ、うまくいかない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro10/text",
+      "value": "My vision slowly returns to me, and I feel warm sand beneath my hands and feet. Am I on a planet's surface? Is that the sun I feel upon me, or perhaps I am merely on fire?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro10/text",
+      "value": "ゆっくりと視界が戻り、手足の下に温かい砂が感じられます。 私は惑星の表面にいますか? 太陽があたしを照らしているのかな?それともただの火かな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro11/text",
+      "value": "I am not on fire, but that doesn't give me much reassurance. The place I am in is almost entirely unfamiliar."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro11/text",
+      "value": "私は火事ではないが、それは私にはあまり安心感を与えない。 私が住んでいる場所は、ほとんど完全に見慣れていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro12/options/0/0",
+      "value": "Sneak around"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro12/options/0/0",
+      "value": "こっそりと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro12/options/1/0",
+      "value": "Cry for help"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro12/options/1/0",
+      "value": "助けを求めて泣く"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro12/text",
+      "value": "I am on the shore of a small island, in the center of which is a grand pagoda. A sun sets above me. It is clear to me that I must plan my next move very carefully..."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro12/text",
+      "value": "私は小さな島の海岸にいます。その中央には大塔があります。 日があたしの上に沈む。 次の移動を非常に慎重に計画しなければならないことは明らかです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro1a/text",
+      "value": "Jun 4 - Something in the ice"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro1a/text",
+      "value": "Jun 4 - 氷の中の何か"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro2/text",
+      "value": "We found some sort of corpse in the ice. I can't even discern what it is. Never seen anything like it. It's like a chimera of lifeforms. Terrifying to behold. I'm going to bring it to MacReady to autopsy."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro2/text",
+      "value": "私たちは氷の中に何かの死体を見つけた。 それが何であるかさえ分からない。 そんなものは見たことがない。 まるで生命体のキメラのようです 恐ろしければ見るもよし。 私はMacReadyに解剖に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro3/text",
+      "value": "Jun 5 - Changes"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro3/text",
+      "value": "Jun 5 -変更"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro3a/text",
+      "value": "Actually, I think it may be in the eyes. It's almost as if he sees you and...knows you. Knows you in ways he shouldn't. He remarked on Doakes's sordid past, and he wasn't there."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro3a/text",
+      "value": "実は、目の中にあるのかもしれない。 まるで君に会って...君を知ってるみたいだ。 彼をしてはいけないやり方で君を知っている。 彼はドークスの悲惨な過去について言及し、彼はそこにいなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro3b/text",
+      "value": "Jun 6 - Confinement"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro3b/text",
+      "value": "Jun6 - 制限"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro3c/text",
+      "value": "MacReady has been acting strange lately. I can't place my finger on it, but ever since that...thing...fell under his operating knife he's changed. It's unsettling."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro3c/text",
+      "value": "最近MacReadyは変な振る舞いをしている。 指は置けませんが、それ以来...彼は彼の操作ナイフの下に落ちました。 落ち着かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro4/text",
+      "value": "We found one of the dogs this morning. It had been strung up and vivisected. Its organs were in a neat pile beside it on the floor, stacked to resemble that malign aberration I found."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro4/text",
+      "value": "私たちは今朝犬の一匹を見つけた。 強くなり、生き生きとしていた。 その臓器は床の横にあるきちんとした山の中にあり、私が見つけた悪性の収差に似ているように積み上げられました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro5/text",
+      "value": "We've confined MacReady to the labs. He's totally lost it. At least we can seal the door remotely and he can be holed up with that...thing. I should investigate beyond the cliffs...see what is going on."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro5/text",
+      "value": "私たちはMacReadyを研究室に限定した。 彼はそれを完全に失った。 少なくともドアをリモートで密封すれば、彼はその...もので穴を開けることができます。 崖越しに調査すべきだ...何が起きているのかを見てみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro6/text",
+      "value": "I'm taking the first rover tomorrow morning, and leaving the second for the rest should I fail to return. At least then they can still escape. Now we just need to hope for some damned answers. I'm starting to lose it."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro6/text",
+      "value": "明日の朝最初のローバーをとって、あと二番目を出発する。 少なくとも、彼らはまだ逃げることができます。 今、我々はいくつかのクソ答えを希望する必要があります。 私はそれを失い始めている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro7/text",
+      "value": "Jun 9 - Tacos are nutritious"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro7/text",
+      "value": "Jun 9 -タコスは栄養価が高い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro8/text",
+      "value": "The find I have just made rewrites the knowledge of the cosmos in its entirety. There are ruins past the mountain. It was a treacherous climb but well worth it. This place is ancient beyond telling."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro8/text",
+      "value": "発見は、その全体の宇宙の知識を書き換えました。 山を過ぎたところには遺跡がある。 それは危険な登頂でしたが、それに値するものでした。 この場所は言い表せないほど古い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/intro9/text",
+      "value": "These ruins match no known species, language or style I am aware of. Something about them is wrong, though. The angles are just...off. Dimensions seem larger or smaller than they should. My mind is cracking."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/intro9/text",
+      "value": "これらの遺跡は、私が知っている既知の種、言語、スタイルと一致しません。 ただし、それらについて何かが間違っている。 角度は...オフです。 寸法は、彼らがするよりも大きいか小さいように見えます。 心がひび割れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1a/options/0/0",
+      "value": "Where am I?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1a/options/0/0",
+      "value": "私はどこですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1a/options/1/0",
+      "value": "Who are you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1a/options/1/0",
+      "value": "あなたは誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1a/text",
+      "value": "\"Who are you, and why are you sneaking around?\" says the girl, light dancing off her beautiful, clammy skin."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1a/text",
+      "value": "「誰だ、なぜこっそりこっそりしているんだ?」と、少女は、光が美しいし、しわがんだ肌を踊っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1b/options/0/0",
+      "value": "Where am I?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1b/options/0/0",
+      "value": "私はどこですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1b/options/1/0",
+      "value": "Who are you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1b/options/1/0",
+      "value": "あなたは誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/kasumi1b/text",
+      "value": "\"Who are you, and why are you screaming like a nerd?\" says the girl, light dancing off her beautiful, clammy skin."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/kasumi1b/text",
+      "value": "「あなたは誰ですか、そして、なぜオタクのように叫んでいるのですか?」と、少女は、美しい、しつこい肌から光が踊っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda1/text",
+      "value": "The library... The Grand Hylotl Library!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda1/text",
+      "value": "図書館...。 The Grand Hylotl Library!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda2/text",
+      "value": "Of course I've heard of it, it is a famous historical site, yet right now it hasn't even opened yet! THAT is why I knew I have been sent to the past!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda2/text",
+      "value": "もちろん聞いたことありますが、有名な史跡ですが、まだオープンしてません! だからこそ、自分が過去へ送られてきたことを知ったのです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda3/text",
+      "value": "I quickly explain to Kasumi that in my era, the library is open."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda3/text",
+      "value": "私はすぐに、私の時代に図書館はオープンだということをカスミに説明します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda4a/text",
+      "value": "\"Your story is far-fetched, Mr. Lovecastle,\" she begins, \"But you don't look or talk like anyone I've ever known. Perhaps your story is true.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda4a/text",
+      "value": "「あなたの話は、とてもおもしろくなっていますね、ラヴキャッスルさん」と彼女は言う。「でも、私が今まで知っていた人のようには見えず、話すこともしません。おそらく、あなたの話は本当です」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda4b/text",
+      "value": "\"Your story sounds insane,\" she begins, \"But you don't look or talk like anyone I've ever known. Perhaps your story is true.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda4b/text",
+      "value": "「あなたの話はおかしいように聞こえます」と彼女は始めます。「でも、私の知る人のようには見えず、話すこともしません。おそらくあなたの話は本当です」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda5/options/0/0",
+      "value": "Your ceremonial ritual"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda5/options/0/0",
+      "value": "あなたの儀式は"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda5/options/1/0",
+      "value": "The Power of Air Hockey"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda5/options/1/0",
+      "value": "エアホッケーの力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pagoda5/text",
+      "value": "\"If you have been sent through time and space at an unusual rate, what do you think caused you to come here?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pagoda5/text",
+      "value": "「異例の速さで時間と空間を通ったとしたら、なぜここに来たと思いますか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/pre_credits/text",
+      "value": "[This appears to be a journal, written by one C.C Wagner. The cover is blood-stained, ruining the once meticulously tidy book. Mostly, it's boring entries detailing nothing interesting. Sample data, climate experiments...]"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/pre_credits/text",
+      "value": "[原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ] [原文へ](翻訳者へ](翻訳者へ) タ・原文へ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty1/text",
+      "value": "She is taken aback by the abruptness of my statement. I panic, wondering why that would be one of the first things I would say to a girl."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty1/text",
+      "value": "彼女は私の言明の急な急行に感心した。 パニックになって、それがなぜ私が女の子に言う最初のことの一つになるのか疑問に思った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty2/text",
+      "value": "She replies, \"Well I'm afraid you've come to the wrong place, because the Grand Hylotl Library isn't open to the public just yet.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty2/text",
+      "value": "彼女は「グランド・ハイロトル図書館はまだ一般公開されていないので、あなたは間違った場所に来たと思います」と答えた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty3/text",
+      "value": " I assume that she misunderstood the implication of my remark, but I cannot help stare a little too long into her triumvirate of ruby red eyes."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty3/text",
+      "value": " 私は彼女が私の発言の意味を誤解していると仮定しますが、私は少し長い間彼女の赤い目の勝利をじっと見つめることはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4a/options/0/0",
+      "value": "Tell her your name"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4a/options/0/0",
+      "value": "あなたの名前を伝えなさい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4a/options/1/0",
+      "value": "Give her a romantic fake name"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4a/options/1/0",
+      "value": "ロマンチックな偽名を与えて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4a/text",
+      "value": "\"Where are my manners,\" she adds suddenly, \"I forgot to ask you your name. Who are you?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4a/text",
+      "value": "「私のマナーはどこだ」と彼女は突然言う。「お名前を聞き忘れました。誰ですか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4b/options/0/0",
+      "value": "Tell her your name"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4b/options/0/0",
+      "value": "あなたの名前を伝えなさい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4b/options/1/0",
+      "value": "Give her a romantic fake name"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4b/options/1/0",
+      "value": "ロマンチックな偽名を与えて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty4b/text",
+      "value": "\"Where are my manners,\" she adds suddenly, \"My name is Kasumi. And who might you be?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty4b/text",
+      "value": "「私のマナーはどこにありますか」と彼女は突然付け加える。「私の名前はカズミです。そして、あなたは誰ですか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty5a/text",
+      "value": "\"...That's a weird name,\" she says flatly. \"Why would your parents even call you that?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty5a/text",
+      "value": "「それは変な名前です」と彼女は平たく言う。 「なぜあなたの両親は君をそんな風に呼ぶの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty5b/text",
+      "value": "\"It's a pleasure to meet you, Vaughn St. Lovecastle!\" she says with a pleasant smile. \"Why are you interested in this unopened library, of all places?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty5b/text",
+      "value": "「お会いできて嬉しいです、ヴォーン・セント・ラブキャッスル」と彼女は楽しい笑顔で言う。 「なぜこの図書館に興味があるの? どの場所でも?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty6a/text",
+      "value": "I tersely avoid the subject of my name's embarassing origin."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty6a/text",
+      "value": "私は自分の名前の恥ずかしい起源の話題を本当に避けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_beauty6b/text",
+      "value": "\"So tell me,\" she begins, \" Why are you interested in this unopened library, of all places?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_beauty6b/text",
+      "value": "「じゃあ言ってくれ」と彼女は言う。「なぜこのオープンしていない図書館に興味があるの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_time1/text",
+      "value": "\"Travelled... Through time?\" she repeats, confused. \"But doesn't everyone travel through time?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_time1/text",
+      "value": "「旅を...時間をかけて?」と彼女は繰り返し、混乱します。 「でも、みんなが時間をかけて旅をしませんか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_time2/text",
+      "value": "I ask her what she means."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_time2/text",
+      "value": "私は彼女にどういう意味かたずねる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_time3/text",
+      "value": "\"We're all moving through time, at a rate of around 1 second per second.\" she elaborates."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_time3/text",
+      "value": "「私たちは皆、一秒あたり約1秒の速度で時間をかけて移動しています」と、彼女は詳しく説明する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/question_time4/text",
+      "value": "I cannot tell if this beautiful girl is a genius or insane."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/question_time4/text",
+      "value": "私はこの美しい女の子が天才か狂気かわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual1/text",
+      "value": "\"The ceremony!\" she exclaims. \"But it is a ceremony of tradition, not divine power. And it is not even finished, either.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual1/text",
+      "value": "「式典だ!」と彼女は叫ぶ。 「しかし、それは神聖な力ではなく、伝統の儀式です。そして、それもまた終わっていません」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual2a/text",
+      "value": "I ask her why her ceremony wasn't complete."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual2a/text",
+      "value": "私は彼女になぜ式典が終わっていないのか尋ねる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual2b/text",
+      "value": "I ask her why her ceremony wasn't complete."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual2b/text",
+      "value": "私は彼女になぜ式典が終わっていないのか尋ねる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual3a/text",
+      "value": "\"Well of course it isn't - I was interrupted by you flailing about and screaming for help.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual3a/text",
+      "value": "「もちろんそうではありません。君がうろついて助けを呼ぶのに邪魔されました」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual3b/text",
+      "value": "\"Well of course it isn't - I was interrupted by you flailing about screaming for help.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual3b/text",
+      "value": "「ええ、もちろんそうではありません。あなたが助けを求める悲鳴を上げているのに、私は途方に暮れました」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual4/options/0/0",
+      "value": "What do you need to do?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual4/options/0/0",
+      "value": "あなたは何をする必要がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual4/text",
+      "value": "\"But perhaps...\" she says whilst looking intently at the staff in her hand, \"Perhaps finishing the ceremony will help send you back?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual4/text",
+      "value": "「でも、たぶん...」と彼女は、手元にいるスタッフをじっと見つめながら言う。「式典を終えれば、君を返してくれるかな?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual5/options/0/0",
+      "value": "What is the talent?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual5/options/0/0",
+      "value": "才能とは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual5/text",
+      "value": "\"Well first was the 'tribute of prayer' - next comes the 'tribute of talent', and then the 'tribute of song'.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual5/text",
+      "value": "「まずは「祈りの賛辞」、次に「才能の賛辞」、次に「歌の賛辞」です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual6/options/0/0",
+      "value": "Paint?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual6/options/0/0",
+      "value": "ペイント?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/ritual6/text",
+      "value": "She smiles, saying, \"I am an artist. I must paint for the ritual!\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/ritual6/text",
+      "value": "彼女は微笑んで「私は芸術家です儀式のために絵を描かなければなりません」と言った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/sneak1/text",
+      "value": "An unfamiliar land, a pounding headache... I decide to approach this situation with stealth. I crouch low, making my way across the beach towards the pagoda."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/sneak1/text",
+      "value": "身近な土地、頭が痛い...。 私はこの状況にこっそりと近づくことにした。 私は低くしゃがみ込み、ビーチを渡り、塔に向かっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/sneak2/text",
+      "value": "The air is quiet, except for the soft lapping of waves on this mysterious beach. The ocean appears to be water, and not acid or magma. This fact calms me somewhat."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/sneak2/text",
+      "value": "この神秘的なビーチで波の柔らかいラップを除いて、空気は静かです。 海は水のように見え、酸性やマグマはない。 この事実は私をやや落ち着かせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/sneak3/text",
+      "value": "I hear voices! I hide behind a nearby post. The architecture is all Hylotl, so at least my chances of being in Floran territory seems low."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/sneak3/text",
+      "value": "声が聞こえます! 私は近くの駅の後ろに隠れている。 アーキテクチャはすべてHylotlなので、少なくともフロラン領土にいる可能性は低いようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/sneak4/text",
+      "value": "Outside the entrance to the pagoda, I see a girl, kneeling in the sand. I gasp, unable to steel myself, and she turns to see me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/sneak4/text",
+      "value": "塔の入り口の外には、砂にひざまずく女の子がいます。 気絶して、自分でもこなせないのに、彼女は私に会いにくるんだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song1/options/0/0",
+      "value": "I can help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song1/options/0/0",
+      "value": "助けられる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song1/text",
+      "value": "She nods. \"I have to come up with a song that will cleanse the land of uncivility. But I will need help coming up with ideas...\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song1/text",
+      "value": "彼女はうなずきます。 「礼儀正しくない国を清める歌を思いつく必要がある。でも、アイデアの出番を手伝ってほしい」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song2/options/0/0",
+      "value": "A fun song!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song2/options/0/0",
+      "value": "楽しい歌!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song2/options/1/0",
+      "value": "A romantic song!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song2/options/1/0",
+      "value": "ロマンチックな歌!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song2/text",
+      "value": "\"That sounds good! What kind of song should it be, then?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song2/text",
+      "value": "「それでいいね!どんな曲がいいの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3a/options/0/0",
+      "value": "A talking fish!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3a/options/0/0",
+      "value": "おしゃべり魚!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3a/options/1/0",
+      "value": "A sad bear!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3a/options/1/0",
+      "value": "悲しいクマ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3a/text",
+      "value": "\"A fun song? That sounds... Fine. What kind of characters would it have?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3a/text",
+      "value": "「楽しい曲? 聞こえますね...いいですねどんなキャラクターが出てくるでしょうか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3b/options/0/0",
+      "value": "Starfish, in love!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3b/options/0/0",
+      "value": "スターフィッシュ、恋で!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3b/options/1/0",
+      "value": "A lovesick octopus!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3b/options/1/0",
+      "value": "恋病タコ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song3b/text",
+      "value": "\"A romantic song! How wonderful! What should it be about?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song3b/text",
+      "value": "「ロマンチックな歌!素晴らしかった!どうしよう?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4a/options/0/0",
+      "value": "Searching for gold!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4a/options/0/0",
+      "value": "金を探そう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4a/options/1/0",
+      "value": "Just yelling at everyone!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4a/options/1/0",
+      "value": "みんなに叫んで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4a/text",
+      "value": "\"A talking fish sounds fun. What should the fish be doing?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4a/text",
+      "value": "「おしゃべりの魚は楽しく聞こえる。魚は何をすべきなのか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4b/options/0/0",
+      "value": "His house is being foreclosed!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4b/options/0/0",
+      "value": "彼の家が閉ざされている!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4b/options/1/0",
+      "value": "He doesn't exist!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4b/options/1/0",
+      "value": "存在しない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4b/text",
+      "value": "\"A sad bear? Um, okay. Why is the bear sad?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4b/text",
+      "value": "「悲しいクマ?ええと、分かったわ。どうしてクマは悲しいの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4c/options/0/0",
+      "value": "A youth club!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4c/options/0/0",
+      "value": "ユースクラブ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4c/options/1/0",
+      "value": "The village dance!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4c/options/1/0",
+      "value": "村の踊り!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4c/text",
+      "value": "\"That's cute! Where did they meet?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4c/text",
+      "value": "「可愛い!どこで会ったの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4d/options/0/0",
+      "value": "He loves a Hylotl!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4d/options/0/0",
+      "value": "彼はハイロトルが大好き!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4d/options/1/0",
+      "value": "He can't get a date!"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4d/options/1/0",
+      "value": "彼はデートができない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song4d/text",
+      "value": "\"I can picture it now! Why is he so lovesick?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song4d/text",
+      "value": "「今、想像できるわ!なぜ彼はそんなに病人なの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5a/text",
+      "value": "\"Okay, I think I have something...\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5a/text",
+      "value": "「分かった、何かあると思う...」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5b/text",
+      "value": "\"Yelling? Sure. In fact, I think I have something...\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5b/text",
+      "value": "「ええ? もちろんです。実は、何かあると思うんです」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5c/text",
+      "value": "\"He's losing his house? How sad! I have a song idea, but it isn't very funny.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5c/text",
+      "value": "「彼は家を失ったの? 悲しい! 歌のアイデアはあるけど、あまり面白くない」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5d/text",
+      "value": "\"He's losing his house? How sad! I have a song idea, but it isn't very funny.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5d/text",
+      "value": "「彼は家を失ったの? 悲しい! 歌のアイデアはあるけど、あまり面白くない」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5e/text",
+      "value": "\"How wholesome! I think I can sing about this.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5e/text",
+      "value": "「何て健康なんだろう!このことで歌えると思う」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5f/text",
+      "value": "\"How adorable! I think I can sing about this.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5f/text",
+      "value": "「なんて可愛いの!歌えると思う」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5g/text",
+      "value": "\"That is quite tragic! I have a song in mind just for this.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5g/text",
+      "value": "「それはかなり悲劇的です。このために歌を念頭に置いています」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song5h/text",
+      "value": "\"Poor lonely octopus! I have a song in mind just for this.\" she says."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song5h/text",
+      "value": "「寂しいタコさん!このためだけに歌を歌おう」と彼女は言う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6a/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6a/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6a/text",
+      "value": "\"Talking fish, of utmost health, what makes you journey, for such wealth?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6a/text",
+      "value": "「魚と言えば、健康の面でも、なぜそんな富のために旅をするのか?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6b/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6b/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6b/text",
+      "value": "\"Talking fish, straight from my dreams, how can we, prevent your screams?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6b/text",
+      "value": "「私の夢の魚を話して、あなたの悲鳴をどうやって防げるの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6c/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6c/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6c/text",
+      "value": "\"Sad old bear, destined to roam, after the banks, repossessed his home.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6c/text",
+      "value": "「悲しい年老いた熊は、銀行の後、うろついて、家を取り戻したのです」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6d/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6d/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6d/text",
+      "value": "\"Sad old bear, it's all gone wrong, since you realised, you're just a song.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6d/text",
+      "value": "「悲しい年老いたクマさん、みんなが間違ってる。あなたが気づいてから、あなたはただの歌だから」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6e/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6e/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6e/text",
+      "value": "\"Starfish lovers, united hearts, met at the youth club, playing darts.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6e/text",
+      "value": "「スターフィッシュの恋人たち団結した心は若者クラブで出会いダーツを演じました」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6f/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6f/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6f/text",
+      "value": "\"Starfish lovers, oh so sweet, how do you dance, without some feet?\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6f/text",
+      "value": "「スターフィッシュの恋人たちよ、ああ、そんなに甘いのに、足なしでどうやって踊ればいいの?」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6g/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6g/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6g/text",
+      "value": "\"Lone Octopus, hesong fatigued, because his crush, is out of his league.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6g/text",
+      "value": "「ロン・オクトパスは、彼のクッションが彼のリーグから外れているので、疲れて歌いました」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6h/options/0/0",
+      "value": "Is that it?"
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6h/options/0/0",
+      "value": "そうなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/song6h/text",
+      "value": "\"Lone Octopus, you can't just wait, put in some effort, if you want to date.\""
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/song6h/text",
+      "value": "「ひとりぼっちのタコくん、待っているだけじゃだめ。デートしたいなら、少しは努力しなくちゃ」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/yell1/text",
+      "value": "I panic and start yelling. I'm sure I will draw the attention of a helpful authority figure who will help me in my predicament."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/yell1/text",
+      "value": "パニックになって叫び始めます。 私は私の苦境で私を助けるであろう有用な権威の人物の注意を引きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scenes/yell2/text",
+      "value": "However, who instead greets me is a beautiful girl, dressed in strange ceremonial robes. Grasped in her hands is a pink staff."
+    },
+    {
+      "op": "replace",
+      "path": "/scenes/yell2/text",
+      "value": "しかし、代わりに私に挨拶する人は、奇妙な式典のローブを着た美しい女の子です。 彼女の手でつかまっているのはピンクのスタッフです。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of ancient coral.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のサンゴのブロック。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴ"
+    }
+  ]
+]

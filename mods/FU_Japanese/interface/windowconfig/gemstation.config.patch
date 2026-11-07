@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Craft"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "作成"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "Stop"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "停止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "HAVE MATERIAL"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "素材あり"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSubTitle/value",
+      "value": " Create crystalline forms."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSubTitle/value",
+      "value": " 結晶形を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblTitle/value",
+      "value": " Gem Fusion Station"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblTitle/value",
+      "value": " 宝石核融合ステーション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ]
+]

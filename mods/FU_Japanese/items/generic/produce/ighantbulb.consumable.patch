@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Bouncy, Immune to Fall Damage^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;バウンシィ, 落下被害に免疫^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ighant Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イガント球根"
+    }
+  ]
+]

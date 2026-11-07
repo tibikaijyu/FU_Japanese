@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An alcoholic drink made from coconut milk and rum.\n^white;35% ^red;Slow^gray;, ^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ココナッツミルクとラム酒から作られたアルコール飲料。\n^white;35% ^red;ゆっくり^gray;, ^red;酒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Piña Colada"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピニャ・コラーダ"
+    }
+  ]
+]

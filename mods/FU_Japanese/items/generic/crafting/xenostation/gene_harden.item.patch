@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tough cells built to withstand stress."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ストレスに耐えられるように作られたタフな細胞。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hardened Shell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硬化シェル"
+    }
+  ]
+]

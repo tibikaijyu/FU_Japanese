@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shoji Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "障子壁"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoji Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障子壁"
+    }
+  ]
+]

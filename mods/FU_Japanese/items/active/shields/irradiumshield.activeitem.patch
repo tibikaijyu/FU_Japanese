@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Immune: Extreme Radiation, Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;免疫:極限放射線、燃焼^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤外線シールド"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "by K'arn Hollowbeak, Avian scholar\nThose who serve Kluex with passion and dedication in this life are said to regain their wings in the next. It is the Avians' ultimate goal; to regain the power of flight, and join our gods in the afterlife."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "エイヴィア人の学者カーン・ホロベックが\nこの生活の中で情熱と献身でクルエクに仕える人々は、次の彼らの翼を取り戻すと言われています。 飛行の力を取り戻し、死後の私たちの神々に加わります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kluex: After Death series"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クルーエクス: クルエクス「死の後」シリーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Afterlife"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "余生"
+    }
+  ]
+]

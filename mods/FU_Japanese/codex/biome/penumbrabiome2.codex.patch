@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 2 - \nBeamed down on this strange planet to find myself surrounded by some of the weirdest foilage -- tree-like plant structures that have big round glowing skyblue bulbs on them, small little flowers that glow with light. I also keep hearing distant sounds, rustling of weeds, but I can't see more than a few feet in front of me, even with a flashlight. I think I'm going to start digging down into the ground, maybe board the exit off behind me. I don't want to get pulled into the jungle by some nasty beast or something."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "日2 \nこの奇妙な惑星を照らし、自分自身を最も奇妙なホイルで囲まれています。木のような植物構造で、大きな丸い青空の球根があり、小さな小さな花が光で輝きます。 遠くから雑草の音も聞こえていますが、懐中電灯があっても、目の前には数フィートしか見えません。 地面を掘って下へ進み、後ろの出口を板でふさいでしまおうかと思う。嫌な獣か何かに、ジャングルの中へ引きずり込まれたくはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 2"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 2"
+    }
+  ]
+]

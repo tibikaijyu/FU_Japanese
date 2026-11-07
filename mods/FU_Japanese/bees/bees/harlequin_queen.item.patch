@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harlequin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハーレクインクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harlequin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハーレクインクイーン"
+    }
+  ]
+]

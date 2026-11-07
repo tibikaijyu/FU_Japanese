@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bookcase for storing flesh-bound hellish tomes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉に縛られたヘリッシュなトームを収納する本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長編本棚"
+    }
+  ]
+]

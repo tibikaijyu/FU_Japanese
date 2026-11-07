@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A collection of sun-bleached bones tightly packed together.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の漂白された骨のコレクションが密に詰め込まれています。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Bleached bonesss!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "漂白骨!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Horrified. Bleached bones from a variety of sources packed together."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恐ろしさ。 さまざまなソースから骨を漂白して詰めました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Bunch of bleached bones. Who needs 'em!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "漂白された骨の束。 誰が必要なんだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bleached Packed Bones"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "漂白した骨"
+    }
+  ]
+]

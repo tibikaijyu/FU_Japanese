@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bloodstone flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血石の花"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodstone flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血石の花"
+    }
+  ]
+]

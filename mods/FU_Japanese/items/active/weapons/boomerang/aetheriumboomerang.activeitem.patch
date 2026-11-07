@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "State-of-the-art microthrusters guarantee that it will always return."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最先端のマイクロスラスターは、常に戻ってくることを保証します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテローム・ブーメラン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "完璧。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Ultrum Boomerang^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ウルトラム・ブーメラン^reset; ^yellow;^reset;"
+    }
+  ]
+]

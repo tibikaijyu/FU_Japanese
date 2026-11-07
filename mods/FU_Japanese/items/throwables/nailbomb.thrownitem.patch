@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This lovely explosive will fill your foe with nails. Fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この美しい爆薬はあなたの敵を爪で満たします。 楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nail Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネイル爆弾"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It glows, but its real strength is in how it increases speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光りますが、その本当の強さは、それが速度を上げる方法にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goldenglow Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデングローシード"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Repair ^white;140% ^green;Shield HP^reset;, and gain +^cyan;42^reset;% Defense Tech Efficiency (^white;30s^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;修理量^white;140%^green;のシールド耐久力を回復^reset;し、防御テック効率が+^cyan;42^reset;%（^white;30秒^reset;）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shield Patch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シールドパッチ"
+    }
+  ]
+]

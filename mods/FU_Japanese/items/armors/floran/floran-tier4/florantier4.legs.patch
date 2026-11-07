@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Spear/Bow: Mastery +^green;19^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Burning"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 槍 / 弓: マスター+^green;19^reset;%\n^yellow;^reset; ^cyan;免疫^reset;焼成"
+    }
+  ]
+]

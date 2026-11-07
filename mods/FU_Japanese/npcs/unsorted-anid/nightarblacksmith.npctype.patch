@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/0",
+      "value": "You will come again, yes?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/0",
+      "value": "もう一度来ますね?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/1",
+      "value": "Slay something for me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/1",
+      "value": "私に何か言ってくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/2",
+      "value": "Tarnish not my masterwork in your battles."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/nightar/default/2",
+      "value": "あなたの戦いで私のマスターワークをターニッシュします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/nightar/default/0",
+      "value": "Follow if you wish to purchase."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/nightar/default/0",
+      "value": "購入をご希望の場合はフォローしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/nightar/default/1",
+      "value": "My creations are in my shop."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/nightar/default/1",
+      "value": "私の作品は私の店にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/0",
+      "value": "Buy a sword, save your life."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/0",
+      "value": "剣を買って命を救え。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/1",
+      "value": "The finest weapons here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/1",
+      "value": "ここの最高級の武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/2",
+      "value": "Blades, blessed by the Matriarch!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/2",
+      "value": "聖母マリアに祝福されたブレード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/3",
+      "value": "My skill is supreme. Puruse my wares."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/nightar/default/3",
+      "value": "私のスキルは最高です。 商品はご購入ください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/0",
+      "value": "What wares seeketh thee?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/0",
+      "value": "どのような商品があなたのように見えますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/1",
+      "value": "My craftsmanship is sublime."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/1",
+      "value": "私の職人技は崇高です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/2",
+      "value": "Make your purchase."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/nightar/default/2",
+      "value": "購入してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Lethally crafted penumbrite."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  致命的に作られたペヌブライト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Nightar Blacksmith"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  ブラックスミスの夜"
+    }
+  ]
+]

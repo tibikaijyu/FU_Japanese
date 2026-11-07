@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "What are you looking at? I'm not finished yet."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "何を見てるの? まだ終わっていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gemcrafting"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "宝石製造"
+    }
+  ]
+]

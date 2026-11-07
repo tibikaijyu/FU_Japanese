@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Shadow Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "シャドウシールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that protects against the horrific taint of Shadow.\n^cyan;Immune: Shadow Taint, Caliginous Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "影の恐ろしい汚れから保護するEPPモジュールです。\n^cyan;免疫:影の色合い、カルシウムガス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウシールド"
+    }
+  ]
+]

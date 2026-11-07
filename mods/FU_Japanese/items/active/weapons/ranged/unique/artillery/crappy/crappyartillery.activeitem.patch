@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Call in a minor missile assault from above."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上空から小さなミサイル攻撃を呼び出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Missile Strike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミサイル攻撃"
+    }
+  ]
+]

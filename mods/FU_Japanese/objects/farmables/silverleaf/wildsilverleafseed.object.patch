@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A great way to boost energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーを高めるための素晴らしい方法です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silverleaf Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀箔種子"
+    }
+  ]
+]

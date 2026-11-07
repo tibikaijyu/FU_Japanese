@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Will scan for all ores and caves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべての鉱石や洞窟をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉱業ドローン"
+    }
+  ]
+]

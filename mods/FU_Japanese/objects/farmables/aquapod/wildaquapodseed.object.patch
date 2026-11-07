@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its fruit enables rapid movement when suspended in liquid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その果実は液体中に吊り下げられると速い動きを可能にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquapod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水玉"
+    }
+  ]
+]

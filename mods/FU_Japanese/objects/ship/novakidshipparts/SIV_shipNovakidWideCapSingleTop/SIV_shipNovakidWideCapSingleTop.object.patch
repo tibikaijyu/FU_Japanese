@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hull for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船の船体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Novakid Widecap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不変の広域"
+    }
+  ]
+]

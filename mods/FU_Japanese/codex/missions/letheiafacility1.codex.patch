@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "INCIDENT REPORT #14590\n\nSpecimen J-11 has been confirmed missing from the lab. We're all fairly puzzled - even if it did break out of its capsule, someone had to have deactivated the security system in order to open the doors for it to escape. I can personally account for everyone with the security codes that night, as they were all at the sushi-appreciation event."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "インシデントレポート #14590\n\n試験片J-11がラボから欠落していることを確認しました。 カプセルから抜け出したとしても、誰かがドアを開けて脱出するためには、セキュリティシステムを無効にしなければならなかったのです。 私は、その夜のセキュリティコードを持つすべての人が、寿司鑑賞会に参加していたため、個人的に説明することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "We haven't been able to pinpoint its exact location, but all signs appear to point to it escaping towards, for some reason, an amusement park. I don't think J-11 is traceable back to us in any way, so it's just a write-off - I'll just let those protectorate do-gooders take care of the problem once the inevitable starts."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私たちはその正確な位置を特定することはできていませんが、すべての兆候は、何らかの理由で、遊園地に向かって逃げていることを示しています。 J-11から我々にたどり着ける手掛かりは、何ひとつないはずだ。損失として切り捨てればいい。避けられない事態が始まったら、あのプロテクターのお人よしたちに後始末をさせよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "To be honest, I'm kind of glad it's no longer our problem. J-11 was rather unnerving - I know some of the research associates claim it had been developing some form of sapience, but we all know that's nonsense. Senior management has assured us that they'll deal with the problem, and to get on with our work. I'm inclined to agree."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "正直に言うと、もはや我々の問題ではないのがうれしいです。 J-11は、かなり神経質で、いくつかの研究仲間は、何らかの感覚を発達させてきたと主張しているが、我々は皆、それがナンセンスであることを知っている。 経営幹部は、問題に対処し、作業を進めることを保証してくれました。 私は賛成する傾向があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A document stamped with the logo of the Letheia Corporation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レテリア社のロゴを刻印した書類です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Letheia Facility) Incident Report"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(レテア施設)事件報告"
+    }
+  ]
+]

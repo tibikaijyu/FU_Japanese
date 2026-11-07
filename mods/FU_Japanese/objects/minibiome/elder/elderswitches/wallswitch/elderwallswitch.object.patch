@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ornate and ancient switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "華やかで古代のスイッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Wall Switch (Light)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さな壁スイッチ(ライト)。"
+    }
+  ]
+]

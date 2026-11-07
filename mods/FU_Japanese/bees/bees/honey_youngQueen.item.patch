@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honey Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニー・ヤング・クイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Honey Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークイーン"
+    }
+  ]
+]

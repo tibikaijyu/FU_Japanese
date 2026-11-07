@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You can touch this without losing a hand.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手を失わずにこれに触れることができます。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooled Volcanic Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷却火山岩"
+    }
+  ]
+]

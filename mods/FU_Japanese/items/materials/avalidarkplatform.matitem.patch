@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark metal platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダークメタルプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタルプラットフォーム"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Broadsword: Damage x^green;1.05^reset;\n^yellow;^reset; Hunger -^green;20^reset;%"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 剣 : ダメージ x ^green;1.05^reset;\n^yellow;^reset;ハンガー-^green;20^reset;%"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now I can leap a lot faster, letting me boost in the air super high!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今ではずっと速くジャンプでき、空気を非常に高くブーストすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "This upgrade is certainly not safe. But worth it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "このアップグレードは確かに安全ではありません。 でも、それだけの価値はあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Explosive Redirection IV"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "爆発的リダイレクトIV"
+    }
+  ]
+]

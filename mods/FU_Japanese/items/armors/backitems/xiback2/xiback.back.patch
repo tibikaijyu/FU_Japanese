@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Immune: Acid, Oxygen. Helpful on ^red;Sulphuric^reset; planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "免疫:酸、酸素。 ^red;硫黄 ^reset;惑星に役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'i Acid Node"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シー 酸ノード"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an engineer to increase ship speed by 3.75 and reduce fuel costs by 10%. Also provides special coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船の速度を3.75で向上させ、燃料コストを10%で削減するエンジニアを雇う。 スペシャルコーヒーも提供しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Engineer Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技師契約"
+    }
+  ]
+]

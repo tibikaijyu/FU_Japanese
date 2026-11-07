@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loaded full of delicious eyeballs\n^cyan;Inflicts bleeding^reset;\n^red;Deals Physical Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいアイボールがたっぷり詰まっています。\n^cyan;出血を引き起こす^reset;\n^red;ディールズ・フィジカル・ダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト・クォータースタッフ"
+    }
+  ]
+]

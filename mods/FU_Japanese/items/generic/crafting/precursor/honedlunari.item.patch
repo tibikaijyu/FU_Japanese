@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfectly re-shaped piece of lunari, ready to charge with energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーで充電する準備ができて、ムーンニ、完全に再形。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honed Lunari"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "栄典ルナリ"
+    }
+  ]
+]

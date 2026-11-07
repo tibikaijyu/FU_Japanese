@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create powered gear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電動ギアを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Electronics Center^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;電子工作台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Create powered gear."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;電源ギアを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#e158ff;Electronics Center^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#e158ff;電子工作台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "Create powered gear."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "電動ギアを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Electronics Center^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;電子工作台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Hi-Tech power and wiring solutions."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;ハイテク電源と配線ソリューション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#e158ff;Power Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#e158ff; パワーステーション ^reset; _"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "High-tech powered devices."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "ハイテク電源装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Power Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange; パワーステーション ^reset; _"
+    }
+  ]
+]

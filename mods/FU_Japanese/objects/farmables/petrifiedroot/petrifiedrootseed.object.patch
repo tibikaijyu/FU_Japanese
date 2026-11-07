@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dark matter meets flora. Increases defenses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗黒物質は植物と出会う。 防御力を高める。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Umbral Root Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エンブレム根種子"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Refines mech fuel into a superior grade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカ燃料を高級グレードに精製します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Fuel Refinery^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;燃料精製所^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Refine oil into fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "石油を燃料に精製する"
+    }
+  ]
+]

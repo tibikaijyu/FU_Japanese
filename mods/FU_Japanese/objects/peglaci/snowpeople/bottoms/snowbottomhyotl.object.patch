@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The bottom of a Snowhylotl."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スノーハイロトルの底。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Snowbottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルスノーボトム"
+    }
+  ]
+]

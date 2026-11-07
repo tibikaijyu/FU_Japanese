@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now we need to fill'em up, right? Here, take some seeds, you'll need them. Make sure you grow and harvest them."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今度は彼らに埋める必要があるでしょう? ここでは、いくつかの種を取る、あなたはそれらが必要になります。 成長して収穫することを確認してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now let's start. Make some ^green;bottles^reset; with your ^orange;Furnace^reset;. Three...no, four bottles should do."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "では始めましょう 作って ^green;ボトル^reset; あなたと ^orange;炉^reset;. 三つ... だめだ四つのボトルを"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Brewing"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "醸造"
+    }
+  ]
+]

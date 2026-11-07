@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create modified versions of saplings for unique trees."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ユニークな木の苗木の修正版を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Cloning Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;クローンラボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Mash together tree genetics"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ツリー遺伝学を"
+    }
+  ]
+]

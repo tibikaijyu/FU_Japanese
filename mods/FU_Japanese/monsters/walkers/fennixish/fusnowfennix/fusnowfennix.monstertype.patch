@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An icy little cutie."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷のかわいいかわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snow Fennix"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雪フェニックス"
+    }
+  ]
+]

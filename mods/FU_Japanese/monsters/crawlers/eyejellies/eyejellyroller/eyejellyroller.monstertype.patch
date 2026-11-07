@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rolling jelly blob."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ローリングゼリーの球。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eye jelly roller"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイゼリーローラー"
+    }
+  ]
+]

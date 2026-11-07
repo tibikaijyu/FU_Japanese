@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Traditional Nightar flooring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的なナイトフロア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間フロアリング"
+    }
+  ]
+]

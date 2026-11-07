@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Residential Large background"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "住宅大背景"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Residential Large background"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "住宅大背景"
+    }
+  ]
+]

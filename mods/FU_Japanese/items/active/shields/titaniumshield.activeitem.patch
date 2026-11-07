@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Acid Protection, +5 Shieldbash Push^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;酸保護、+5シールドバッシュプッシュ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンシールド"
+    }
+  ]
+]

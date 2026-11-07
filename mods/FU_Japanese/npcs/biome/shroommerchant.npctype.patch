@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Shroomy salesman selling stuff"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  物を売る浅いセールスマン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Agaran Merchant"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  アガラン商人"
+    }
+  ]
+]

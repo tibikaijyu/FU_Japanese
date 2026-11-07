@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This notice is about the Protectorate's emergency meeting regarding the recent unknown threat devastating member worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この通知は、最近の未知の脅威がメンバーの世界に壊滅的な影響をもたらすことについて保護国の緊急会議についてです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Emergency Meeting Notice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "緊急会合のお知らせ"
+    }
+  ]
+]

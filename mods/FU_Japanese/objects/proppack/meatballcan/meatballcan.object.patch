@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A discarded empty meatball can."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "捨てられた空のミートボール缶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Empty meatball can."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "空のミートボール缶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Miffed. A discarded can. Does no one know how to recycle?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ミフ。 捨てられた缶。 リサイクルの仕方を誰も知りませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "An ol' meatball can. Some litterbug's about."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "古いミートボール缶。 虫の虫がいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meatball Can"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミートボール缶"
+    }
+  ]
+]

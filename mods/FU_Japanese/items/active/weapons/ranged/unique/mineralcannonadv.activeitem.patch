@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enormous blasting potential.\n^yellow;Destroys tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大爆風の可能性。\n^yellow;瓦の破壊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子大砲"
+    }
+  ]
+]

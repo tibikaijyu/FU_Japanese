@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This variety of drinks can't be found under Miniknog rule."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この種類の飲み物はミニノグルールでは見つかりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "These drinks are a bit too sweet..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この飲み物は少し甘すぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dispenser for a variety of soft drinks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "各種ソフトドリンク用のディスペンサーです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Machine gives Floran drinksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "マシンはフローランドリンクを与えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A soda fountain."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル ソーダ噴水。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "It's free refills if you own it, right? Right."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "あなたがそれを所有しているなら、それは無料の補充ですよね? そうだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A dispenser for sugary soft drinks."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "砂糖のようなソフトドリンク用のディスペンサーです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Cola, punch... but still no Dandelion Root Pop..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "コーラ、パンチ...でもダンデリオン・ルート・ポップは..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soda Fountain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーダ噴水"
+    }
+  ]
+]

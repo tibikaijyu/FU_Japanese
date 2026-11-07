@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Delivery boxes. But what's inside?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "配達箱。 でも中には?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Bright packages, some left unopened."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "明るいパッケージ、いくつかの未開封。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stack of Prop Pack delivery boxes. Is anything inside?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飾り パックの配送ボックスのスタック。 中に何かありますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "What iss in pretty yellow boxes?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいな黄色の箱には何がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. What are all these packages doing out here? Is it for me...?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 これらのパッケージはすべてここで何をしていますか? 私にとってはそれです。.?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I didn't even know they made cardboard in these colors."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "色が段ボールだとさえ知りませんでした"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Whoever shipped these packages out certainly is dedicated to their brand."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これらのパッケージを出荷した人は、確かに彼らのブランドに専念しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Well don't mind if I do."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "よろしければ構いません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prop Packaging Boxes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "包装箱"
+    }
+  ]
+]

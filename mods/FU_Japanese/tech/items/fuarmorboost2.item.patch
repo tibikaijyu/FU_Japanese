@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Passive +10 bonus to defense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パッシブ+10防御へのボーナス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Defense Matrix II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;防御マトリックスII^reset;"
+    }
+  ]
+]

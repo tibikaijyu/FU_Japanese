@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spiced and cooked Bolbohns make for a decidedly odd taste.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;245s^gray;)^reset; ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパイスと調理されたボルボンは、明らかに奇妙な味を作ります。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;245ス)^gray;)^reset; ^green;野菜の種類^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spice Bol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "香辛料"
+    }
+  ]
+]

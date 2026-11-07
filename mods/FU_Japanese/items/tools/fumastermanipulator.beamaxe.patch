@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "God-like power to reshape matter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物質を形作る神のような力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;Master Manipulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;Master マニピュレータ ^reset;"
+    }
+  ]
+]

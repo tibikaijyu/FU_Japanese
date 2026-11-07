@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Evil lurks within."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪は中に潜んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mask of Nekron"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神経のマスク"
+    }
+  ]
+]

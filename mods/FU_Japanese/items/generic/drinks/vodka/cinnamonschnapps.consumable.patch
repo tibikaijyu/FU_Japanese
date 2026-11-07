@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle of cinnamon-infused schnapps!\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シナモン入りのシャンアップボトル!\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon Schnapps"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモンのシュナップス"
+    }
+  ]
+]

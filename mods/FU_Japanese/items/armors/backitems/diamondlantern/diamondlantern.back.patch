@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A diamond lantern. Refracts light for high brightness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダイヤモンドの提灯。 高輝度の屈折光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Lantern"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンド提灯"
+    }
+  ]
+]

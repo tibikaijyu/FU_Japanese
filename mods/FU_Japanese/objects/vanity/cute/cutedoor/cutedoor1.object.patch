@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいドア"
+    }
+  ]
+]

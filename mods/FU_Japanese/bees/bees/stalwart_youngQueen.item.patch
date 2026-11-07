@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stalwart Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "若い女王。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Stalwart Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若いスタールワート女王"
+    }
+  ]
+]

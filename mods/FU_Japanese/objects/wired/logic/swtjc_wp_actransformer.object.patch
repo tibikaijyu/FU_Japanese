@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When active, it rapidly alternates between /'on'/ and /'off'/ states."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブの場合、 /'on' / と /'off' / の状態を高速に交互に切り替えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "AC Transformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "交流変圧器"
+    }
+  ]
+]

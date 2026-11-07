@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Cleanliness"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "清浄さ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Janitor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "管理人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'm <selfname>... The janitor."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "私は<selfname>... 管理人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "The name's <selfname>... The janitor."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "名前は <selfname>... です。 管理人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran is <selfname>... Floran's job is to sssweep. A lot."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローラン は <selfname> です。 フローランの仕事は一掃することである。 たくさん。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "Floran's name is <selfname>. <selfname> the Janitor."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "フローランの名前は <selfname> です。 <selfname> 管理者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Bored. I'm <selfname>... The janitor."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "退屈だ。 私は<selfname>... 管理人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "Underwhelmed. A job is a job, but still..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "圧倒的。 仕事は仕事ですが、それでも...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/novakid/default/0",
+      "value": "When a floor get's all dusty, someone's gotta sweep. That's the way it is."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/novakid/default/0",
+      "value": "床がほこりだらけになると、誰かが掃除しなきゃ。 そういうことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/novakid/default/1",
+      "value": "The name's <selfname>, the Janitor. I take whatever work I can get round here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/novakid/default/1",
+      "value": "名前は <selfname> です。 私はここでどんな仕事でも受けられる。"
+    }
+  ]
+]

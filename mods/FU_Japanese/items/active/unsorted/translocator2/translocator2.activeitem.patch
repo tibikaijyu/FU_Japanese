@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires teleport-node discs. Quite useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレポートノードディスクを発射する。 かなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Translocator II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トランスロケータII"
+    }
+  ]
+]

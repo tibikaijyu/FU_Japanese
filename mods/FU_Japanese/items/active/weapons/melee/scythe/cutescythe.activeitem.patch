@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Kawaii Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "河合ブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reap the weak.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "弱者をつかまえなさい。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズム・サイス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Magma in a bomb. Nice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆弾の中のマグマ。 いいね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Nodule"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマ結節"
+    }
+  ]
+]

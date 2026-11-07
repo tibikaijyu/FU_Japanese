@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grows crops through community effort. Scan for info. \n^yellow;+2 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コミュニティの取り組みを通じて作物を育てます。 スキャン情報。 \n^yellow;+2Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Community Garden"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コミュニティガーデン"
+    }
+  ]
+]

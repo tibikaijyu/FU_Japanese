@@ -1,0 +1,57 @@
+{
+  "version": "0.2.1",
+  "baseline_version": "0.2.0",
+  "baseline_archive_sha256": "09abec002f7a13e2dd81e74d613c58f1cf5edf53a2239663f42c502d7aea78fb",
+  "observed_crash": {
+    "exception": "NameGeneratorException",
+    "message": "Unknown name source 'エル・デュカ・マール'",
+    "phase": "TitleScreen -> CharCreationPane -> randomizeName -> PatternedNameGenerator",
+    "cause_confirmed_by_log_and_payload": true
+  },
+  "removed_control_translations": [
+    {
+      "id": "b8ec3db0639d5eb8eab8",
+      "asset": "species/elduukharfemalenamegen.config",
+      "path": "/names/1/1/0/source",
+      "source": "elduukharfemale",
+      "translation": "エルドゥカー・メス",
+      "category": "generated_names",
+      "method": "machine",
+      "origin": "species/elduukharfemalenamegen.config"
+    },
+    {
+      "id": "4c69f468bdd0a97e0a73",
+      "asset": "species/elduukharmalenamegen.config",
+      "path": "/names/1/1/0/source",
+      "source": "elduukharmale",
+      "translation": "エル・デュカ・マール",
+      "category": "generated_names",
+      "method": "machine",
+      "origin": "species/elduukharmalenamegen.config"
+    }
+  ],
+  "game_payload_policy": "Only remove these two complete source-ID patches and change the version string. Preserve every other game file byte-for-byte.",
+  "prevent_recurrence": [
+    "Only candidate-array indices are allowed under name generator rules.",
+    "Protect all .namesource fields except individual sourceNames strings.",
+    "Reject unsafe catalogs before build output is touched.",
+    "Check actual patch operations independently of the catalog in validate.py."
+  ],
+  "runtime_tested": false,
+  "validation_pending": false,
+  "other_log_messages": {
+    "source": "japanese.pak",
+    "count": 4,
+    "scope": "Earlier patch application errors; loading continued. Not the fatal exception being repaired."
+  },
+  "limits": [
+    "Starbound itself was not launched in this work environment.",
+    "The inherited v0.2.0 JSON validator did not distinguish source IDs from display strings. Passing that validator did not establish runtime correctness.",
+    "Existing name-candidate translations are unchanged. UTF-8 Markov generation and naturalness of every candidate still require in-game review."
+  ],
+  "passed": true,
+  "preserved_main_mod_files": 14519,
+  "regression_tests_passed": 11,
+  "patch_files_parsed": 14383,
+  "validation_report": "validation.json"
+}

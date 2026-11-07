@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;55^reset;% Airborne Damage (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;55^reset;%空襲被害(弓)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sniper's Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狙撃手の声"
+    }
+  ]
+]

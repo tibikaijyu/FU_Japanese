@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;100% HP Damage Barrier^reset;: 1m\n^yellow;^reset;^red;Wretchel Poisoning^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;100%HP損傷バリア^reset;:1m\n^yellow;^reset;^red;レッチェル 毒 ^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wretchel Fruit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレッチェル果実"
+    }
+  ]
+]

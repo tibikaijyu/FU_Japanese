@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An empty 10 round mag."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空の 10 丸マグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Simple Magazine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "簡易誌"
+    }
+  ]
+]

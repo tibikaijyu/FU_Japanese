@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ice Stalk"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイスストーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Stalk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスストーク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an apprentice chef to keep you slightly fed and reduce fuel costs by 2%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見習いシェフを雇って、少しでも給油し、燃料コストを2%で削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chef Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シェフ契約"
+    }
+  ]
+]

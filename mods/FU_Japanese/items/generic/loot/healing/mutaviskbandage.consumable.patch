@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Heal ^white;85 ^gray;over ^white;1s^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;癒し ^white;85 ^gray;終わった ^white;1ス)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Mutavisk Bandage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;ムタヴィスク 帯域 ^reset;"
+    }
+  ]
+]

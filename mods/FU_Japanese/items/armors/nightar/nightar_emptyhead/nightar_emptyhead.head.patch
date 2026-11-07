@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Show your glorious hair!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの栄光の髪を見せてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty head slot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空のヘッドスロット"
+    }
+  ]
+]

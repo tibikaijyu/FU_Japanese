@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I think I hear something inside..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "中に何か聞こえていると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "These urns look cursed..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このくずは呪われているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small, dark vase. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな、暗い花瓶。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssmash it and tear out its dark inssidess!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "それを壊して、その暗い内面を壊す!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Destructive. I believe there may be something dark inside."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "破壊的。 中に何か暗いものがあるかもしれないと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'm almost scared to smash this creepy urn."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この不気味な骨を砕くのが怖い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "If you break an urn it's said you get bad luck. I'd hate to think what you'd get from breaking this."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "くずを折ると運が悪くなると言われています。 これを壊して何が得られるか考えたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Dark Vase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さな暗い花瓶"
+    }
+  ]
+]

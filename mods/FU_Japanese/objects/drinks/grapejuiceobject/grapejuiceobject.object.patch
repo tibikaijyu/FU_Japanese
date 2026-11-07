@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet juice made of grapes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウから作られた甘いジュース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Little grapes burssst open with sssweet juice. Floran likes that very much."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "小さなブドウは、甘みのあるジュースで開く。 フローランはそれが大好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Delighted. The taste of this juice is well worth the finicky conditions needed to grow it. "
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 このジュースの味は、それを育てるために必要な厳しい条件に十分価値があります。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Not a bad fruit to quench yer thirst with."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "あなたの渇きを癒すのに悪い果物ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grape Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレープジュース"
+    }
+  ]
+]

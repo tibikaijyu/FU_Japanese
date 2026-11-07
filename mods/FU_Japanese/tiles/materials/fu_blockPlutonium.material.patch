@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slab of purified Plutonium. I wouldn't touch this stuff - Radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精製プルトニウムのスラブ。 放射性物質は触れません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plutonium Slab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プルトニウムスラブ"
+    }
+  ]
+]

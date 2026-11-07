@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Holy crap, that is a lot of jumpy goodness"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんてこった、あれはすごいジャンプだ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Gravity Jump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;重力ジャンプ^reset;"
+    }
+  ]
+]

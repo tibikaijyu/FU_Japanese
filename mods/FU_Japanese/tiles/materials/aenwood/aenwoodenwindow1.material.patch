@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A window with wooden panes, made of Aetheric Glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテルガラス製の木製のペイン付きの窓。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty windowss, Floran can see outside."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "美しい窓、フローランは外を見ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Delighted. This window helps brighten the room, as if the wood didn't."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 この窓はまるで木がないかのように部屋を明るくするのを助ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now I can look at the stars through stars, as a star."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "今では星を星として見ることが出来ます"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Window"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "窓"
+    }
+  ]
+]

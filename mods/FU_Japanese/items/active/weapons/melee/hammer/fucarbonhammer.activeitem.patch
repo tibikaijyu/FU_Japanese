@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy, reliable carbon hammer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で信頼性の高いカーボンハンマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Hammerpick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンハマーピック"
+    }
+  ]
+]

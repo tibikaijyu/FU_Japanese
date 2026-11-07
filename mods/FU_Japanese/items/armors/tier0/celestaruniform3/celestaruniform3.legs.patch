@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fashion trend-setter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファッショントレンドセッター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Myral Bottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミラルボトム"
+    }
+  ]
+]

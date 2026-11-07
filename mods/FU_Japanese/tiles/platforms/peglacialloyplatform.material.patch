@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made of an advanced alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な合金製のプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金プラットフォーム"
+    }
+  ]
+]

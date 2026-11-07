@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Emits a dense, shadowy gas. Not friendly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃密で陰影な気体を発する。 フレンドリーではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dusk Anglure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夕暮れ角"
+    }
+  ]
+]

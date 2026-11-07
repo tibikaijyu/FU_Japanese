@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge bubble of honey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツの巨大な泡。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hive Blob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巣の塊"
+    }
+  ]
+]

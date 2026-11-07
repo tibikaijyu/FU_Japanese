@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mug of stout\n^cyan;+^white;3 ^cyan;Defense ^gray;(^white;45s^gray;)\n^white;35% ^red;Slow ^gray;(^white;10s^gray;)\n^red;Drunk ^gray;(^white;25s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタウトのマグカップ\n^cyan;+^white;3 ^cyan;防衛 ^gray;(^white;45ス)^gray;)\n^white;35% ^red;ゆっくり ^gray;(^white;10ス)^gray;)\n^red;ドリンク^gray;(^white;25s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coal Stout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コールスタウト"
+    }
+  ]
+]

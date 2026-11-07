@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Poisoned: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫^reset;毒 2え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spongeweed Slice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スポンジ状スライス"
+    }
+  ]
+]

@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I have nothing to sssay to you"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "あなたに伝えることは何もありません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/0",
+      "value": "Remember to eatsss up well before going in!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/0",
+      "value": "入ってくる前によく食べることを忘れないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/1",
+      "value": "During the flying monstersss phassse, the ground becomesss treacherousss!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/1",
+      "value": "空飛ぶモンスターの相の間に、地面はsstreacheroussssになります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/2",
+      "value": "The number of torchesss tellsss you how many wavesss remain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/2",
+      "value": "トーチの数は、残された波の数を示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/3",
+      "value": "Monstersss are teleported into arena with magicsss!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/3",
+      "value": "モンスターは魔法でアリーナにテレポートされます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/4",
+      "value": "Thisss isss a tessst of onessself, we will not ssstab you...today."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/4",
+      "value": "これは自分自身のテストです、私たちはあなたを刺しません...今日。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/5",
+      "value": "Even if you sssurvive the lassst wave, you mussst ssstab all enemiesss to win."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/5",
+      "value": "最後の波を生き延びても、勝つためにはすべての敵を刺さなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/6",
+      "value": "Floran ran out of energy lassst time, but remembered to bring ssspear to ssstab!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/6",
+      "value": "フローランは最後にエネルギーを使い果たしたが、sspearをsstabに持ち込んだことを思い出した!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/7",
+      "value": "Floran wasss ssslow in ssstabbing monstersss lassst time. Got ssswamped."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/7",
+      "value": "フローランは最後にモンスターを刺すのが遅かった。 水没した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/floran/default/8",
+      "value": "Floran likesss rocket launchersss for arena! Hurtsss many enemiesss at once! But also sometimes hurtsss self..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/floran/default/8",
+      "value": "フローランはアリーナ用のロケット発射機が大好きです! 一度に多くの敵を傷つける! しかし、時には自分自身を傷つける。"
+    }
+  ]
+]

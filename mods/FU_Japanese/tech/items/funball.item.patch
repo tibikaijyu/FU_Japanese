@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well...I guess it could be useful. It sure is *fun*! ^red;Dangerous^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まあ、それは有用かもしれないと思います。 確かに*楽しみです! ^red;危険^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Oddball Sphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;奇妙な球体^reset;"
+    }
+  ]
+]

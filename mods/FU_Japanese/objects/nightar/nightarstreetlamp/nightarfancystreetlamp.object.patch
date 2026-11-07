@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an old street lamp. It gives off a little warmth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い街灯です。 それは少し暖かさを放ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fancy Street Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンシーストリートランプ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A picture of you on a beach, dated 600 years ago. On the horizon, a misty figure stands. It emanates cold malice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビーチのあなたの写真、日付 600 数年前。 地平線には霧が立つ。 冷酷な悪意を放つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Beach Photograph"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビーチ写真"
+    }
+  ]
+]

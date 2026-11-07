@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Fantastic work! Truly amazing. As promised, your reward: ^green;lots of money^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事! 本当にすごい。 約束どおり、報酬: ^green; _ お金の多く ^reset; _。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Arc Smelter^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;アーク製錬機^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "There is an expensive but ^green;very powerful^reset; piece of technology called an ^orange;Arc Smelter^reset; which will increase smelting yields a great deal. Prove you can build one with your ^orange;Power Station^reset; and I'll toss you a bonus."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "高価なが、^green;非常に強力な^reset;技術、^orange;Arc Smelter^reset;があります。 ^orange;Power ステーション ^reset;を使ってビルドできることを証明してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Smelting Masterclass"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "製錬マスタークラス"
+    }
+  ]
+]

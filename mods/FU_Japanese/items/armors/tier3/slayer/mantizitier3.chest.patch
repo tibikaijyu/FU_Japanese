@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Thorns^reset;\n^orange;Set Bonuses^reset;:\nFist/Axe: Damage x^green;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;反射ダメージ^reset;\n^orange;セットボーナス^reset;：\n拳／斧：ダメージ×^green;1.25^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slayer Gauntlets"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スレイヤーガントレット"
+    }
+  ]
+]

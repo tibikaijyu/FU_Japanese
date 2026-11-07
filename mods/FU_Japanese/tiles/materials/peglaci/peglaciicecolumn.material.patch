@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gracefully inscribed column of ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優雅に刻まれた氷の柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran lick ice, tongue get stuck."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランのなめし氷、舌が詰まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. This column is made of ice with some metallic impurities."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 この柱は、いくつかの金属不純物を持つ氷でできています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Column"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷柱"
+    }
+  ]
+]

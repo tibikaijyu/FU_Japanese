@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stone of solid darkness found in the Umbra.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウンブラで見つかった、真っ暗闇の石。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssstone of darknessss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "闇の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Hard darkness."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 暗い闇。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Block of Darkstone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークストーンのブロック"
+    }
+  ]
+]

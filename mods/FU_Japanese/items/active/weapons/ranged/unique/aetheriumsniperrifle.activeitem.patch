@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dangerous and supremely accurate.\n^cyan;Energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険で非常に正確です。\n^cyan; エネルギー兵器 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Vindicator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルVインジケータ"
+    }
+  ]
+]

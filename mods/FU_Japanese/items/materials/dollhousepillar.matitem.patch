@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute dollhouse pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい人形小屋の柱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cute pillar iss very cute."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "かわいい柱はとてもかわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Charmed. A cute pillar for a dollhouse."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "チャーミング。 人形小屋のかわいい柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This is one cute lookin' cute pillar."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "可愛いピラーが可愛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dollhouse Pillar Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドールハウスピラーブロック"
+    }
+  ]
+]

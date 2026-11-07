@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches smaller anti-personnel rockets in fairly quick succession (by rocket launcher standards)."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より小型の対人ロケットをかなり迅速に(ロケット発射器の基準で)発射する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Mini-Rocket Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC小型ロケット発射装置"
+    }
+  ]
+]

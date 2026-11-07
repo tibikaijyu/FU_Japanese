@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious cake-like pastery produced by Caketops."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ケーキトップスが生産する美味しいケーキのようなペストリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caketop Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケーキトップ"
+    }
+  ]
+]

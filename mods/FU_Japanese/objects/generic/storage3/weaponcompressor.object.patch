@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pushes weapons into otherspace pockets. Purely a cosmetic feature, but hilarious."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器を他の宇宙ポケットに押し込む。 純粋にコスメティックな機能ですが、笑えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weapon Compressor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武器コンプレッサ"
+    }
+  ]
+]

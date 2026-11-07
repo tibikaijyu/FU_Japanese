@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I can guarantee this is not healthy.\n^cyan;+^white;10% ^pink;Ice ^cyan;Res^gray;, ^pink;Frost ^cyan;Immunity ^gray;(^white;2m^gray;)^reset; ^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは健康的ではないと保証できます。\n^cyan;+^white;10% ^pink;氷 ^cyan;レズ^gray;, ^pink;フロスト ^cyan;免疫 ^gray;(^white;2え?^gray;)^reset; ^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Butter on a Stick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "棒のバター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The mechanism behind their flying contraption is a great mystery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空飛ぶ仕掛けのメカニズムは、とても謎めいている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helicultist"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘリカルト奏者"
+    }
+  ]
+]

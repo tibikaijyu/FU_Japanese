@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now you can create some more advanced chemicals, and grow even better crops! Upgrade your ^orange;Alchemy Table^reset; into a ^orange;Chemistry Lab^reset; as soon as you are able."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これで、より高度な化学物質を作成し、より良い作物を育てることができます! ^orange;錬金術 作業台 ^reset; を ^orange; 化学 ラボ ^reset; にアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Fertilizer^reset; to the green-tailed cat at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; 肥料 ^reset; は、^orange;科学前哨基地^reset; で緑色の猫に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Fertilizer^reset; is essential to produce plants of any real value. To make some, you will first need an ^orange;Alchemy Table^reset;. I need 1 barrel of ^orange;Fertilizer^reset; for this project. Bring me some, would you?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;肥料^reset;は、実際の価値のある植物を生産するために不可欠です。 いくつかを作成するには、まず ^orange;錬金術 作業台 ^reset; が必要です。 このプロジェクトには ^orange; Fertilizer^reset; の 1 バレルが必要です。 いくつか持ってきてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Fertile Ground"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "肥育地"
+    }
+  ]
+]

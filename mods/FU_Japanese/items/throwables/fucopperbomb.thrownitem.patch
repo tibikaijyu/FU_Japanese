@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Alchemical creation! Turn tiles into copper!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生化学! タイルを銅に変えよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅爆弾"
+    }
+  ]
+]

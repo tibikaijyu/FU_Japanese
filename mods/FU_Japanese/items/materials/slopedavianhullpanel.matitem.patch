@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hull panels worthy of Avian praise. Very strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイヴィアの賞賛に値する船体パネル。 非常に強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Hull Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船体パネル"
+    }
+  ]
+]

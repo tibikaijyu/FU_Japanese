@@ -1,0 +1,769 @@
+{
+  "format_version": 1,
+  "entries": [
+    {
+      "id": "crafting_apiary",
+      "kind": "button",
+      "asset": "interface/objectcrafting/apiary.config",
+      "widget": "/gui/toggleCrafting",
+      "guards": {
+        "/gui/toggleCrafting/type": "button",
+        "/gui/toggleCrafting/base": "/interface/objectcrafting/extract.png",
+        "/gui/toggleCrafting/hover": "/interface/objectcrafting/extractover.png"
+      },
+      "images": {
+        "base": "/interface/bees/button.png",
+        "hover": "/interface/bees/buttonhover.png"
+      },
+      "text": "抽出",
+      "fontSize": 9,
+      "source_image_text": [
+        "crafting_apiary"
+      ]
+    },
+    {
+      "id": "crafting_dip",
+      "kind": "button",
+      "asset": "interface/objectcrafting/dip.config",
+      "widget": "/gui/toggleCrafting",
+      "guards": {
+        "/gui/toggleCrafting/type": "button",
+        "/gui/toggleCrafting/base": "/interface/objectcrafting/dip.png",
+        "/gui/toggleCrafting/hover": "/interface/objectcrafting/dipover.png"
+      },
+      "images": {
+        "base": "/interface/bees/button.png",
+        "hover": "/interface/bees/buttonhover.png"
+      },
+      "text": "浸す",
+      "fontSize": 9,
+      "source_image_text": [
+        "crafting_dip"
+      ]
+    },
+    {
+      "id": "crafting_sprout",
+      "kind": "button",
+      "asset": "interface/objectcrafting/sprout.config",
+      "widget": "/gui/toggleCrafting",
+      "guards": {
+        "/gui/toggleCrafting/type": "button",
+        "/gui/toggleCrafting/base": "/interface/objectcrafting/sprout.png",
+        "/gui/toggleCrafting/hover": "/interface/objectcrafting/sproutover.png"
+      },
+      "images": {
+        "base": "/interface/bees/button.png",
+        "hover": "/interface/bees/buttonhover.png"
+      },
+      "text": "発芽",
+      "fontSize": 9,
+      "source_image_text": [
+        "crafting_sprout"
+      ]
+    },
+    {
+      "id": "crafting_press",
+      "kind": "button",
+      "asset": "interface/objectcrafting/press.config",
+      "widget": "/gui/toggleCrafting",
+      "guards": {
+        "/gui/toggleCrafting/type": "button",
+        "/gui/toggleCrafting/base": "/interface/objectcrafting/press.png",
+        "/gui/toggleCrafting/hover": "/interface/objectcrafting/pressover.png"
+      },
+      "images": {
+        "base": "/interface/bees/button.png",
+        "hover": "/interface/bees/buttonhover.png"
+      },
+      "text": "圧搾",
+      "fontSize": 9,
+      "source_image_text": [
+        "crafting_press"
+      ]
+    },
+    {
+      "id": "crafting_cloner_cloner",
+      "kind": "button",
+      "asset": "interface/objectcrafting/cloner/cloner.config",
+      "widget": "/gui/toggleCrafting",
+      "guards": {
+        "/gui/toggleCrafting/type": "button",
+        "/gui/toggleCrafting/base": "/interface/objectcrafting/cloner/clone.png",
+        "/gui/toggleCrafting/hover": "/interface/objectcrafting/cloner/cloneover.png"
+      },
+      "images": {
+        "base": "/interface/bees/button.png",
+        "hover": "/interface/bees/buttonhover.png"
+      },
+      "text": "複製",
+      "fontSize": 9,
+      "source_image_text": [
+        "crafting_cloner_cloner"
+      ]
+    },
+    {
+      "id": "mechfuel_btnUpgrade",
+      "kind": "button",
+      "asset": "interface/mechfuel/mechfuel.config",
+      "widget": "/gui/btnUpgrade",
+      "guards": {
+        "/gui/btnUpgrade/type": "button",
+        "/gui/btnUpgrade/base": "/interface/mechfuel/deploy.png",
+        "/gui/btnUpgrade/hover": "/interface/mechfuel/deployhover.png",
+        "/gui/btnUpgrade/pressed": "/interface/mechfuel/deploypressed.png"
+      },
+      "images": {
+        "base": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=1.4827586206896552;1",
+        "hover": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1",
+        "pressed": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+      },
+      "text": "補給",
+      "fontSize": 9,
+      "source_image_text": [
+        "mechfuel_btnUpgrade"
+      ]
+    },
+    {
+      "id": "mechfuel_btnEmpty",
+      "kind": "button",
+      "asset": "interface/mechfuel/mechfuel.config",
+      "widget": "/gui/btnEmpty",
+      "guards": {
+        "/gui/btnEmpty/type": "button",
+        "/gui/btnEmpty/base": "/interface/mechfuel/emptyfuel.png",
+        "/gui/btnEmpty/hover": "/interface/mechfuel/emptyfuelhover.png",
+        "/gui/btnEmpty/pressed": "/interface/mechfuel/emptyfuelpressed.png"
+      },
+      "images": {
+        "base": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=0.896551724137931;1",
+        "hover": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1",
+        "pressed": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+      },
+      "text": "排出",
+      "fontSize": 9,
+      "source_image_text": [
+        "mechfuel_btnEmpty"
+      ]
+    },
+    {
+      "id": "mechfuel_legend",
+      "kind": "overlays",
+      "asset": "interface/mechfuel/mechfuel.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/interface/mechfuel/body.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseFuelTypes",
+          "source": "FUEL TYPES",
+          "text": "燃料の種類",
+          "rect": [
+            217,
+            148,
+            46,
+            12
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseOil",
+          "source": "OIL",
+          "text": "油",
+          "rect": [
+            169,
+            118,
+            17,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseMechFuel",
+          "source": "MECH FUEL",
+          "text": "メック",
+          "rect": [
+            185,
+            118,
+            34,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseErchius",
+          "source": "ERCHIUS",
+          "text": "エルキウス",
+          "rect": [
+            219,
+            118,
+            38,
+            13
+          ],
+          "fontSize": 7,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseIsotopes",
+          "source": "ISOTOPES",
+          "text": "同位体",
+          "rect": [
+            260,
+            118,
+            52,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseBioFuel",
+          "source": "BIO FUEL",
+          "text": "バイオ",
+          "rect": [
+            181,
+            93,
+            32,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapaneseCatalyst",
+          "source": "CAT",
+          "text": "触媒",
+          "rect": [
+            224,
+            93,
+            23,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapanesePowerCores",
+          "source": "POWER CORES",
+          "text": "パワーコア",
+          "rect": [
+            250,
+            93,
+            63,
+            13
+          ],
+          "fontSize": 8,
+          "color": "030b18ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "FUEL TYPES",
+        "OIL",
+        "MECH FUEL",
+        "ERCHIUS",
+        "ISOTOPES",
+        "BIO FUEL",
+        "CAT",
+        "POWER CORES"
+      ]
+    },
+    {
+      "id": "generator_fu_quantumgenerator",
+      "kind": "overlays",
+      "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseLogicNode",
+          "source": "LOGIC NODE / CONNECT TO WIRE",
+          "text": "制御入力\n配線で制御",
+          "rect": [
+            21,
+            29,
+            62,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapanesePowerNode",
+          "source": "OUTPUT NODE / POWERS DEVICES",
+          "text": "電力出力\n機器へ給電",
+          "rect": [
+            98,
+            29,
+            58,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "LOGIC NODE / CONNECT TO WIRE",
+        "OUTPUT NODE / POWERS DEVICES"
+      ]
+    },
+    {
+      "id": "generator_isn_thermalgenerator",
+      "kind": "overlays",
+      "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseLogicNode",
+          "source": "LOGIC NODE / CONNECT TO WIRE",
+          "text": "制御入力\n配線で制御",
+          "rect": [
+            21,
+            29,
+            62,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapanesePowerNode",
+          "source": "OUTPUT NODE / POWERS DEVICES",
+          "text": "電力出力\n機器へ給電",
+          "rect": [
+            98,
+            29,
+            58,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "LOGIC NODE / CONNECT TO WIRE",
+        "OUTPUT NODE / POWERS DEVICES"
+      ]
+    },
+    {
+      "id": "generator_fu_alternatorgenerator",
+      "kind": "overlays",
+      "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/objects/power/fu_quantumgenerator/fu_generator.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseLogicNode",
+          "source": "LOGIC NODE / CONNECT TO WIRE",
+          "text": "制御入力\n配線で制御",
+          "rect": [
+            21,
+            29,
+            62,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        },
+        {
+          "name": "fuJapanesePowerNode",
+          "source": "OUTPUT NODE / POWERS DEVICES",
+          "text": "電力出力\n機器へ給電",
+          "rect": [
+            98,
+            29,
+            58,
+            18
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "LOGIC NODE / CONNECT TO WIRE",
+        "OUTPUT NODE / POWERS DEVICES"
+      ]
+    },
+    {
+      "id": "furnace_electricfurnace",
+      "kind": "overlays",
+      "asset": "objects/power/electricfurnace/electricfurnace.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseInput",
+          "source": "INPUT",
+          "text": "投入",
+          "rect": [
+            4,
+            60,
+            22,
+            10
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "INPUT"
+      ]
+    },
+    {
+      "id": "furnace_fu_blastfurnace",
+      "kind": "overlays",
+      "asset": "objects/power/fu_blastfurnace/fu_blastfurnace.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseInput",
+          "source": "INPUT",
+          "text": "投入",
+          "rect": [
+            4,
+            60,
+            22,
+            10
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "INPUT"
+      ]
+    },
+    {
+      "id": "furnace_isn_arcsmelter",
+      "kind": "overlays",
+      "asset": "objects/power/isn_arcsmelter/isn_arcsmelter.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/interface/crafting/icons/fu_furnaceBody.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseInput",
+          "source": "INPUT",
+          "text": "投入",
+          "rect": [
+            4,
+            60,
+            22,
+            10
+          ],
+          "fontSize": 8,
+          "color": "071e43ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "INPUT"
+      ]
+    },
+    {
+      "id": "mmutility_footer",
+      "kind": "overlays",
+      "asset": "interface/scripted/mmutility/mmutility.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileFooter": "/interface/scripted/mmutility/footer.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseFooter",
+          "source": "DRAG AND DROP ITEM IN SLOT",
+          "text": "枠にアイテムを入れる",
+          "rect": [
+            3,
+            3,
+            95,
+            10
+          ],
+          "fontSize": 8,
+          "color": "1a2d17ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "DRAG AND DROP ITEM IN SLOT"
+      ]
+    },
+    {
+      "id": "oredetector_footer",
+      "kind": "overlays",
+      "asset": "interface/scripted/tunableoredetector/tunableoredetector.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileFooter": "/interface/scripted/tunableoredetector/footer.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseFooter",
+          "source": "PLACE ORE",
+          "text": "鉱石を置く",
+          "rect": [
+            15,
+            6,
+            44,
+            8
+          ],
+          "fontSize": 8,
+          "color": "1a2d17ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "PLACE ORE"
+      ]
+    },
+    {
+      "id": "smartbox_extra",
+      "kind": "overlays",
+      "asset": "interface/smartbox/halver.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/background/fileBody": "/interface/smartbox/halver.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseExtra",
+          "source": "EXTRA",
+          "text": "余り",
+          "rect": [
+            75,
+            16,
+            20,
+            10
+          ],
+          "fontSize": 7,
+          "color": "0d2346ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "EXTRA"
+      ]
+    },
+    {
+      "id": "character_creation_title",
+      "kind": "overlays",
+      "asset": "interface/windowconfig/charcreation.config",
+      "widget_root": "/paneLayout",
+      "guards": {
+        "/paneLayout/background/fileBody": "/interface/title/charactercreation.png"
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseCharacterCreation",
+          "source": "CHARACTER CREATION",
+          "text": "キャラクター作成",
+          "rect": [
+            179,
+            329,
+            165,
+            14
+          ],
+          "fontSize": 10,
+          "color": "102f64ff",
+          "zlevel": 2
+        }
+      ],
+      "source_image_text": [
+        "CHARACTER CREATION"
+      ]
+    },
+    {
+      "id": "questline_list_titles",
+      "kind": "overlays",
+      "asset": "zb/questList/questList.config",
+      "widget_root": "/gui/questlineList/children/list/schema/listTemplate",
+      "guards": {
+        "/gui/questlineList/children/list/schema/listTemplate/banner": {
+          "type": "image",
+          "zlevel": -2,
+          "file": "/assetmissing.png",
+          "position": [
+            0,
+            2
+          ]
+        }
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseBanner",
+          "cover_name": "fuJapaneseBannerCover",
+          "label_name": "fuJapaneseBannerTitle",
+          "source": "Quest category names in banner textures",
+          "text": "",
+          "rect": [
+            13,
+            8,
+            105,
+            19
+          ],
+          "text_position": [
+            16,
+            17
+          ],
+          "hAnchor": "left",
+          "wrapWidth": 101,
+          "fontSize": 9,
+          "color": "10182fff",
+          "zlevel": -1
+        }
+      ],
+      "notes": "Text filled from already-localized QD.strings.questlines[id].title at the display boundary; unavailable titles are gray. IDs and images are retained."
+    },
+    {
+      "id": "questline_selected_title",
+      "kind": "overlays",
+      "asset": "zb/questList/questList.config",
+      "widget_root": "/gui",
+      "guards": {
+        "/gui/questlineBanner": {
+          "type": "image",
+          "position": [
+            12,
+            204
+          ],
+          "file": "/assetmissing.png"
+        }
+      },
+      "labels": [
+        {
+          "name": "fuJapaneseQuestline",
+          "cover_name": "fuJapaneseQuestlineCover",
+          "label_name": "fuJapaneseQuestlineTitle",
+          "source": "Selected quest category name in banner texture",
+          "text": "",
+          "rect": [
+            25,
+            210,
+            105,
+            19
+          ],
+          "text_position": [
+            28,
+            219
+          ],
+          "hAnchor": "left",
+          "wrapWidth": 101,
+          "fontSize": 9,
+          "color": "10182fff",
+          "zlevel": 2,
+          "visible": false
+        }
+      ],
+      "notes": "Cover/title visibility follows questlineBanner selection and reset in the Lua display hooks."
+    },
+    {
+      "id": "questline_completed",
+      "kind": "display_widget",
+      "asset": "zb/questList/questList.config",
+      "widget": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+      "guards": {
+        "/gui/questlineList/children/list/schema/listTemplate/completeImage": {
+          "type": "image",
+          "zlevel": -1,
+          "visible": false,
+          "file": "/zb/questList/questlineComplete.png",
+          "position": [
+            86,
+            0
+          ]
+        }
+      },
+      "replacement": {
+        "type": "label",
+        "visible": false,
+        "position": [
+          86,
+          0
+        ],
+        "zlevel": 1,
+        "hAnchor": "left",
+        "vAnchor": "bottom",
+        "fontSize": 9,
+        "value": "^green;完了^reset;",
+        "mouseTransparent": true
+      },
+      "source_image_text": [
+        "COMPLETE"
+      ],
+      "notes": "Retains existing completeImage widget ID, initial visibility and position. Existing Lua completion logic toggles this label."
+    }
+  ],
+  "related_runtime_hooks": [
+    {
+      "asset": "zb/questList/questList.lua",
+      "owner": "lua_localization.py",
+      "method": "Display-only localized titles and matching cover/title visibility."
+    },
+    {
+      "asset": "interface/scripted/sbvn/pandorasboxsbvngui.lua",
+      "owner": "prepare_sbvn_compat.py",
+      "method": "End-card background uses existing black background and native Japanese canvas text."
+    }
+  ],
+  "remaining_readable_labels": [],
+  "unused_texture_text": [
+    {
+      "asset": "interface/objectcrafting/dye.png",
+      "text": "DYE",
+      "reason": "No active parsed JSON references found in pinned FU."
+    },
+    {
+      "asset": "interface/crafting/fucraft.png",
+      "text": "CRAFT",
+      "reason": "No active parsed JSON references found in pinned FU."
+    },
+    {
+      "asset": "interface/crafting/icons/fu_generator.png",
+      "text": "Generator input/output instructions",
+      "reason": "No active parsed JSON references; live generators use /objects/power/fu_quantumgenerator/fu_generator.png and are covered."
+    }
+  ],
+  "retained_branding": [
+    {
+      "asset": "interface/title/FirstLogo.png",
+      "text": "STARBOUND / Powered by Frackin' Universe / official wiki URL",
+      "reason": "Brand names and destination URL retained."
+    },
+    {
+      "asset": "interface/scripted/sbvn/games/cthululove/title.png",
+      "text": "Beautiful Attempt!",
+      "reason": "Illustrated title/logo; titleScene foreground reference is commented out in pinned source."
+    }
+  ]
+}

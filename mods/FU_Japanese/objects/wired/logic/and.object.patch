@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An /'AND'/ gate. Requires all inputs to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゲートは \"'AND'/\" です。 すべての入力は /'on'/ で動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "An /'AND'/ gate. Requiresss all inputsss to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ゲートは \"'AND'/\" です。 すべての入力を /'on'/ にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. An /'AND'/ gate. Requires all inputs to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 ゲートは \"'AND'/\" です。 すべての入力は /'on'/ で動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "AND Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "門"
+    }
+  ]
+]

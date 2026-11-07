@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks so much. It's not much, but take this data I uncovered by scanning ^orange;Technology of the Ancients^reset;. Maybe you can make use of it."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとうございました それほど多くはありませんが、古代のスキャン^orange;テクノロジー^reset;で発見したこのデータを取り出します。 おそらくあなたはそれを利用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^orange;3 Thornitox Seeds^reset; to the yellow Avian at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;3Thornitox種子^reset; を ^orange;科学前哨基地^reset; で黄色の アヴィアン に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "My ^orange;Xeno Lab^reset; is on the fritz, and I need 3 ^orange;Thornitox^reset; seeds for a client or I don't eat this month! Can you help me out?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私の ^orange;異種生物 ラボ^reset; フリッツに乗っていて 3 ^orange;角膜^reset; 今月は 客の種を 食べないから! 手伝ってくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gene Splicing 101"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "遺伝子スプライシング 101"
+    }
+  ]
+]

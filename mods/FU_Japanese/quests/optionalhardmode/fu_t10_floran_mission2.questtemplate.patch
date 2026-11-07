@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Kevin touched artifact, definitely, and...eww! He left it covered in raptor piss! Dirty stinker used it to etch 'Kevin was here' in the shiny. Hmm...have beacon with new signature though."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ケビンは間違いなくアーティファクトに触れた、そして...! 彼はそれをラプターの水で覆われて残した! 汚れた臭い光の中で「ケビンがここにいた」とエッチングするために使用。 うーん...新しいシグネチャのビーコンを。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "Find the ^orange;artifact^reset; in ^green;the Dark Hunting Grounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "を見つける ^orange;アーティファクト^reset; で ^green;ダークハンティンググラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Kherae^reset; at ^orange;the Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケーレ^reset; で ^orange;えッ? 科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Hero fetches artifacts, saves universe. Right? Not in other reality. Why not? Go find first one. See if Kevin was there."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ヒーローはアーティファクトをフェッチし、宇宙を救う。 でしょ? 他の現実では。 なぜでしょう? まずは探してみてください。 ケビンがそこにいたかどうか確認してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Darkness among the Trees"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "樹木の闇"
+    }
+  ]
+]

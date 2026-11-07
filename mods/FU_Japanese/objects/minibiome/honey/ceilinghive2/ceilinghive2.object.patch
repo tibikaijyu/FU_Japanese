@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This honey is falling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この蜂蜜が落ちている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dripping Honey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツを垂らす"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stone covered in moss.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コケに覆われた石。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mossy Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モッシーストーン"
+    }
+  ]
+]

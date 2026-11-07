@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Debilitator"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "デビリテータ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Radioactive Hunting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性狩猟。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹"
+    }
+  ]
+]

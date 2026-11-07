@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whatever this is, it is bloated and gross."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これが何であれ、それは肥大化して粗大化している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horde"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "山間部"
+    }
+  ]
+]

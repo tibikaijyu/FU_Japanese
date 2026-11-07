@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblGravity/value",
+      "value": "GRAVITY"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblGravity/value",
+      "value": "重力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Control your Gravity!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " 重力をコントロールしよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Gravity Console"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 重力コンソール"
+    }
+  ]
+]

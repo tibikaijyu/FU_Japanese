@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purplish-black grass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫色の黒草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウグラス"
+    }
+  ]
+]

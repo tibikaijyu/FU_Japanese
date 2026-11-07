@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purified, extracted bloodstone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精製、抽出血液結石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmic Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズミック結晶"
+    }
+  ]
+]

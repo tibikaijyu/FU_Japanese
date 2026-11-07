@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Energy x^green;1.05^reset;\n^yellow;^reset; One-handed Swords: +^green;1.5^reset;% Crit Chance/+^green;25^reset;% Crit Damage\n^yellow;^reset; ^cyan;Immune^reset;: Slime, Mud, Ice, Snow, Tar\n^yellow;^reset; ^orange;Mitigates Nightar/Tenebrhae Light Penalties^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;エネルギーx ^green;1.05^reset;\n^yellow;^reset;片手剣:+^green;1.5^reset;%クリティカル率/+^green;25^reset;%クリティカルダメージ\n^yellow;^reset; ^cyan;免疫^reset;スライム、泥、氷、雪、タール\n^yellow;^reset; ^orange;ナイター/テネブラエの軽度のペナルティを軽減する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Daywalker Chestplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デイウォーカー胸板"
+    }
+  ]
+]

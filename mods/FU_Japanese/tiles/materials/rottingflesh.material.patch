@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Okay...ew."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よし...うん。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rotting Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐った火"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dry, rough grasses"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乾燥した粗い草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dry Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乾燥草"
+    }
+  ]
+]

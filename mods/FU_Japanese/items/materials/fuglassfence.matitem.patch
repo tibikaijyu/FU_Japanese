@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Modern steel and glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "現代鋼鉄およびガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glass Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガラスフェンス"
+    }
+  ]
+]

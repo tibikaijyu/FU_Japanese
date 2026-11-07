@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Smaller than most models, but it works. For now."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ほとんどのモデルよりも小さいですが、機能します。 今のところ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This small device gathers electricity and converts it into motion."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この小さな装置は電気を集めて動作に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An FTL drive for a space ship. Allows interstellar travel and STL travel. ^orange;Ship Speed: +3^reset;. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のFTLドライブ。 星間旅行とSTL旅行を可能にします。 ^orange;船速:+3^reset;。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "FTL drive sssmall, but Floran make do."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "FTLドライブは小さいですが、フローランはそれを行います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Content. This FTL drive works enough for space travel."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "内容。 このFTLドライブは宇宙旅行に十分機能します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Small, but an FTL drive is a must have for any ship."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "小さいですが、FTLドライブはどんな船にも必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A smaller model FTL drive for intergalactic travel."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "銀河間旅行用の小型モデルFTLドライブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This faster'n 'light machine is workin' fine, though it's quite small."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この高速な'n'ライトマシンはうまく機能していますが、かなり小さいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Small FTL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;小さなFTLドライブ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An impenetrable locked gate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貫通不能な門。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "High-Tech Security Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクセキュリティゲート"
+    }
+  ]
+]

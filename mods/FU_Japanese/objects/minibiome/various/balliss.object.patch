@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ballis Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バリス植物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Balliss Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バリス植物"
+    }
+  ]
+]

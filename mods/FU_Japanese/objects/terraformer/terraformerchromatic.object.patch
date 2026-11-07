@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Chromatic biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を色質バイオームに変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chromatic Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カラーテラフォーマ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Marks the edge of the generated field."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生成されたフィールドのエッジをマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Field Marker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フィールドマーカー"
+    }
+  ]
+]

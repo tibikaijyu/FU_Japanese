@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Basic frame for an apiary. Does nothing special.\n<beeData>"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海賊のための基本的なフレーム。 特別なことは何もしない。\n<beeData>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Basic Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "基本フレーム"
+    }
+  ]
+]

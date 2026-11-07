@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Highest capacity Grabber. Grabs items from the world. Range: 12.\n^blue;Input: ^white;On/Off Switch\n^red;Output: ^white;item network^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大容量グラバー。 世界からアイテムをつかむ。 範囲:12。\n^blue; 入力: ^white; スイッチをオン/オフします。\n^red;出力: ^white;アイテムネットワーク ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grabber v3"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "第五章3"
+    }
+  ]
+]

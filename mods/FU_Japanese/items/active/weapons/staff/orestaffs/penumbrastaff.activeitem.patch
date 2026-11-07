@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shadow Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "影の雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Penumbral Power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブラー力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Shadow Swarm"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "シャドウクラウド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbra Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌムブラスタッフ"
+    }
+  ]
+]

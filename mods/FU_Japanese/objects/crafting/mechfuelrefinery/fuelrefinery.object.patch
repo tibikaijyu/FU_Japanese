@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Refines Oil into unrefined mech fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精油を未精製の機械燃料に精製する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Oil Distiller^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;オイル蒸留所^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Convert Oil into Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "石油を燃料に変換する"
+    }
+  ]
+]

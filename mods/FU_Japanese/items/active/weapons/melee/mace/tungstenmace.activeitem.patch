@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super-useful death dealer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超便利なデスディーラー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンメイス"
+    }
+  ]
+]

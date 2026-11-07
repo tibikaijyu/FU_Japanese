@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Wrath of Thor"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "トールの怒り"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A supreme long-ranged option for snipers.\n^yellow;Inflicts Electrified^reset;\n^cyan;Amazing crowd control^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狙撃手のための最高の長距離オプション。\n^yellow; 電化 ^reset; に作用します。\n^cyan; 素晴らしい群衆制御^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tesla Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テスラガン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare, multi-phasic, super-dense ore. Impossibly hard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "希少多相超高密度鉱石。 信じられないほど難しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウム鉱石"
+    }
+  ]
+]

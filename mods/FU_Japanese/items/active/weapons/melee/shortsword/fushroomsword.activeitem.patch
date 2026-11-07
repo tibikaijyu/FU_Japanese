@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fungus, somehow turned into a weapon.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファンガスは、なんとか武器に変わった。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mushroom Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "きのこ刃"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perhaps a bit warm for most people, but better than a pile of rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくほとんどの人にとって少し暖かいですが、岩の山よりも優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマベッド"
+    }
+  ]
+]

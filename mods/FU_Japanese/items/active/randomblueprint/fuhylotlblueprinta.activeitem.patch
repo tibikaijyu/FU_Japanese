@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for energetic Hylotl armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギッシュなハイロトル装甲用の設計図。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Schematics (Energy)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロット・シュメマティクス(エネルギー)"
+    }
+  ]
+]

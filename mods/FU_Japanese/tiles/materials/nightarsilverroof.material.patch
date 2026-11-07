@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, shining silver roof shingles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で光沢のあるシルバールーフの帯状。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Shingles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーシングルス"
+    }
+  ]
+]

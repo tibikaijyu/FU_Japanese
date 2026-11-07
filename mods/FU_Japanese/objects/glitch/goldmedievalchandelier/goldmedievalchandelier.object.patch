@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gold chandelier. A good way to light a large room."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金のシャンデリア。 大きな部屋を照らす良い方法です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Medieval Chandelier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黄金中世のシャンデリア"
+    }
+  ]
+]

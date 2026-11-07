@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sells all manner of interesting wares."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あらゆる面白い商品を販売しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Lorewalker's Shop^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ロアウォーカーの店^reset;"
+    }
+  ]
+]

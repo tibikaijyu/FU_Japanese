@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A popular quality-focused flooring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人気の品質重視のフロア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quality Plasteel (Red)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "質のプラスチック(赤)。"
+    }
+  ]
+]

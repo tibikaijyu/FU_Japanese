@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exceptionally heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Falcon III Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファルコンIII"
+    }
+  ]
+]

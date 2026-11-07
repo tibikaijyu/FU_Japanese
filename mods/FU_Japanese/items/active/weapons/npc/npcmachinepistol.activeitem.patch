@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small fully-automatic pistol that lacks stopping power, but can be wielded in one hand with decent accuracy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ストップパワーを欠く小型の全自動ピストルですが、片手でまともな精度で振り回すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Machine Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCマシンピストル"
+    }
+  ]
+]

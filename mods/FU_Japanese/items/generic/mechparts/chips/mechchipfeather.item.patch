@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Decreases mech mass and defense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "質量と防御を減少させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Featherweight Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェザーウェイトモジュール"
+    }
+  ]
+]

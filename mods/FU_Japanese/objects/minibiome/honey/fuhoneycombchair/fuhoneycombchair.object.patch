@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A beautiful honeycomb chair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しいハニカムチェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeycomb Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカムチェア"
+    }
+  ]
+]

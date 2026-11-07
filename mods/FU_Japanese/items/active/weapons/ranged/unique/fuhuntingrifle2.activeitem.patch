@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for hunting game."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狩猟ゲームに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hunting Rifle II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狩猟ライフルII"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.07% HP regen, +5% Energy regen, -20% Fall Damage^reset;, ^cyan;Immune: Shock^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.07%HP遺伝子、+5%エネルギー遺伝子、-20%フォールダメージ^reset;、^cyan;免疫:ショック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムシールド"
+    }
+  ]
+]

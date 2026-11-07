@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This should be perfect for tool storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはツールの保存に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Toolbox^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774;ツールボックス^reset;"
+    }
+  ]
+]

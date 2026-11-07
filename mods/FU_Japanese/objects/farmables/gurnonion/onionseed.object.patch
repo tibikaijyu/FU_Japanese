@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sun-powered Gurn Onion. Quite useful, actually."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽発電のターンオニオン。 かなり便利だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gurn Onion Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "玉ねぎの種子"
+    }
+  ]
+]

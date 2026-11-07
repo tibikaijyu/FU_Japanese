@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "<Written in Eld'uukharic script, this draconic guide informs the user on the best method of growing various crystals to what it describes as 'most holy perfection'."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "< \"Eld'uukharic script\" に書かれているこのドラコニックガイドは、様々な結晶を「最も神聖な完成度」と表現するものに育てる最良の方法をユーザに知らせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A guide to vibrant crystals"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "結晶の生き生きとしたガイド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Pellucid Shaping"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "孔質成形"
+    }
+  ]
+]

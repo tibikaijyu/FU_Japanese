@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Slowfall^reset;\n^yellow;^reset; Fall Damage x^green;0.75^reset;\n^yellow;^reset; Magnorbs/Energy: Damage x^green;1.2^reset; and +^green;5^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Proto-Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;ゆっくりと落ちる^reset;\n^yellow;^reset; 損傷x ^green;0.75^reset;\n^yellow;^reset; マグノルブ/エネルギー:損傷x^green;1.2^reset; そして+^green;5^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;:原毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invader Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "侵略装甲"
+    }
+  ]
+]

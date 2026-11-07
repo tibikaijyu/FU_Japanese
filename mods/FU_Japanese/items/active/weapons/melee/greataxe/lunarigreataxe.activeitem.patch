@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glistening with crystalline beauty.\n^blue;Slows Enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "結晶美で輝きます。\n^blue; スロー敵 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ大公"
+    }
+  ]
+]

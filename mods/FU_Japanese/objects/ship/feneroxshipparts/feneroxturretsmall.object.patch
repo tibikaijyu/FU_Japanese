@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A point-defence cannon gifted to the Fenerox, to watch their backs from untold new foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポイント防御用の大砲がフェナロックスに贈られ、新しい敵から背中を眺めた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox PDC"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェネロクスPDC"
+    }
+  ]
+]

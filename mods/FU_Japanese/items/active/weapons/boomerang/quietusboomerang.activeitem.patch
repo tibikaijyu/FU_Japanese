@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "How does this heavy boomerang even function properly?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この重いブーメランはどのように正しく機能しますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスのブーメラン"
+    }
+  ]
+]

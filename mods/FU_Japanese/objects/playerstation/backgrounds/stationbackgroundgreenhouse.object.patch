@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Greenhouse background"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "温室背景"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenhouse background"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "温室背景"
+    }
+  ]
+]

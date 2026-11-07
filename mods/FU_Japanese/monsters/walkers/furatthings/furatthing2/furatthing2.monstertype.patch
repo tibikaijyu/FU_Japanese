@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These ones make babies. Lots of babies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤ちゃんを作るのです たくさんの赤ちゃん。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wretched Rat Matriarch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラットの母乳の破片"
+    }
+  ]
+]

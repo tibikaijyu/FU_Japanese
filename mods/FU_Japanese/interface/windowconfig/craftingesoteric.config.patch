@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Prepare"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "準備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "Stop"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "停止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "MATERIALS AVAILABLE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "使用可能な素材"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;PREVIEW"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;プレビュー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;RELIC"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;遺物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Discover forgotten secrets"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;忘れられた秘密を発見。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/title",
+      "value": " Esoteric Research"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": " 密教研究"
+    }
+  ]
+]

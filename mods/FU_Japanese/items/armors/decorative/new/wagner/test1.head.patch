@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Did you cheat this in?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これをだましたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wagner's Face"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワーグナーの顔"
+    }
+  ]
+]

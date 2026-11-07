@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+4 ^cyan;Defense^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+4 ^cyan;防衛^reset;: 3え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leafshell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "葉殻"
+    }
+  ]
+]

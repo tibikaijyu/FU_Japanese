@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Cold Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "コールドシールドII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that repels all cold. ^cyan;Immune: Extreme Cold, Liquid Nitrogen^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷えを全て省くEPPモジュールです。 ^cyan;免疫:極寒液体窒素^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cold Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コールドシールドII"
+    }
+  ]
+]

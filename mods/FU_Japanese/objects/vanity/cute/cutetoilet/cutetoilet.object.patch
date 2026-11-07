@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute toilet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいトイレ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Toilet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいトイレ"
+    }
+  ]
+]

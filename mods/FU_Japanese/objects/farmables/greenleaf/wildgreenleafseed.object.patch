@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A potent energy source that looks like grass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "草のように見える強力なエネルギー源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenleaf Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "緑の葉の種"
+    }
+  ]
+]

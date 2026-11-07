@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vibrant with moving colors, this bizarre substance can alter the structure of cells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "動く色で振動し、この奇妙な物質は細胞の構造を変えることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durable Mutagene"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "耐久突然変異遺伝子"
+    }
+  ]
+]

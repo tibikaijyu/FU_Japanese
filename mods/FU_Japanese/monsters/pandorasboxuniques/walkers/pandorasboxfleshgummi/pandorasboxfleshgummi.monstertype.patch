@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This species of Gummi is grotesque, but still manages to look adorable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グミのこの種はグロテスクですが、それでも可愛く見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Gummi"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュ・グミ"
+    }
+  ]
+]

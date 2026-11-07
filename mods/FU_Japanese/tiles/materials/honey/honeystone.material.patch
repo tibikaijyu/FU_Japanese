@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Golden stones saturated with honey, smooth to the touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツで飽和した黄金の石、なめらかなタッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Gold ssmooth sstoness ssmell like honey."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "金色のなめらかな石は蜂蜜の匂いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Watchful. These smooth stones seem to be imbued with honey."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "気をつけなさい。 この滑らかな石に蜂蜜が染み込んでいるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "What a buncha weird-smelling rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "なんと、変な匂いのする岩の束。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeystone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーストーン"
+    }
+  ]
+]

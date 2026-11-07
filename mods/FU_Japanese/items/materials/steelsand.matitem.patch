@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fine grains of metal.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属の細かい粒。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Sand Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼砂ブロック"
+    }
+  ]
+]

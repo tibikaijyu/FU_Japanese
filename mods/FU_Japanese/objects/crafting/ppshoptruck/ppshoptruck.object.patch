@@ -1,0 +1,194 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A delivery truck. Is this penguin manning it or just loitering?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "配達トラック。 このペンギンって、うそをついてるだけ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A penguin? Alone with a truck? I ought to be on guard."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ペンギン? トラックで一人で? 警備員でなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/0",
+      "value": "Hey you - yeah, you! C'mere a sec. You want in on some killer deals?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/0",
+      "value": "やあ、ああ! ちょっと来なさい。 キラー取引をしたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/1",
+      "value": "Pssst - hey kid! You interested in some... Furniture and furniture byproducts?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/1",
+      "value": "パスト - やあ! 興味のある方は... 家具や家具の副産物?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/2",
+      "value": "OKEA? ... Nope, uh, can't ever say I've heard of 'em. ... What's with that look?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/2",
+      "value": "分かった? ... 聞いたことあるなんて言えない ... その外観はなんですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/3",
+      "value": "Quality goods here, fallen right off the back of a truck! ... Er, not this one, though."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/3",
+      "value": "ここで高品質の商品は、トラックの後ろから落ちました! ... でも、これは違う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/4",
+      "value": "Where do I get this stuff? I got a, er, supplier. Honest Dave. Swell guy, really."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/4",
+      "value": "どこで入手できますか? 仕入先は、ええ、サプライヤーです。 デイヴ。 すごいね、本当に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/5",
+      "value": "I'm upset to hear about Earth, don't get me wrong, but I'd be lying if I said I'm not relieved to get the Protectorate off of my flippers."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/5",
+      "value": "地球について聞くことに怒っています、誤解しないでください、しかし、私が私のフリッパーから保護者を引き離すために安心していないと言ったら、私は嘘をつくでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/6",
+      "value": "What, you think I can't drive this thing? Me and my booster seat would like to disagree."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/6",
+      "value": "なに、この車を運転できないと思う? 私と私のブースターシートは反対を望みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfectly original and legitimate furniture shipment company."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なオリジナルと正当な家具の出荷会社。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Little penguin hasss wares!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "小さなペンギンは製品を持っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Suspicious. This delivery truck is unoccupied save for one penguin \"employee\"..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 この配達トラックは一ペンギン「従業員」のために空いています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'm not too sure I can trust this guy... but just look at his stock!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私はこの男を信頼できるかどうかは分かりませんが、彼の株を見てください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A penguin delinquent, claiming to be running a shop. I might alert the authorities if this goes south. "
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "店を経営していると主張するペンギンの遅れ。 これが南下するなら当局に警告するかもしれない。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Somethin' tells me this stock wasn't legally obtained..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この株は合法的には取得されていないと、何かが私に言った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prop Pack Truck"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロップパックトラック"
+    }
+  ]
+]

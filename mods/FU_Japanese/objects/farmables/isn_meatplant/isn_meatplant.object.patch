@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A plant that grows meat! Not for the squeamish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉を育ててくれる植物! 悲鳴のためではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meatvine Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食肉球根"
+    }
+  ]
+]

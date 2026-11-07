@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nectar of the Gods. ^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神の御名。 ^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Latte"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラテ"
+    }
+  ]
+]

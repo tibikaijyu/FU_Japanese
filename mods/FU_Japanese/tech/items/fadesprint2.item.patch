@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damage foes with your sprint."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スプリントでダメージを被る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Phase Sprint II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;フェーズスプリントII^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an Oceanographer to help you swim much faster, and provides ^cyan;Lava^reset; and ^cyan;Liquid Nitrogen^reset; immunity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より速く泳ぐためにOceanographerを雇い、^cyan;溶岩^reset;と^cyan;液体窒素^reset;免疫を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oceanographer Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "海洋学者契約"
+    }
+  ]
+]

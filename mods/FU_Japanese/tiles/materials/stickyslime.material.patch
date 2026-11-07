@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick mucus. It jiggles when poked."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚い粘液。 突っ込んだときにジャグリングします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran lovess sslime!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはスライムが大好き!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Hesitant. This slime looks sticky."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "彼は座った。 このスライムはくっつく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This slime is some nasty lookin' stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このスライムはちょっと汚い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sticky Slime Glob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粘りのあるスライムグローブ"
+    }
+  ]
+]

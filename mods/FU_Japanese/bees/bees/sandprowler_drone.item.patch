@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sandprowler Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サンドプロウラードローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sandprowler Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンドプロウラードローン"
+    }
+  ]
+]

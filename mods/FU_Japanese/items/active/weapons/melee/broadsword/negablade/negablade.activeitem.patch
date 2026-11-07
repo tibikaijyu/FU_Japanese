@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Said to house the screaming, corrupted essence of a thousand innocents.\n^cyan;Heavy. Slows wielder^reset;\n^green;Friggin Huge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "千人の無実者の悲鳴、腐敗した本質を収容すると言われました。\n^cyan;重い。 スローワイルダー ^reset;\n^green;大きなフリッグ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Negablade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネガブレード"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jam made from toxictop fruit. But is it actually toxic to eat? Only one way to find out!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒性トップフルーツから作られたジャム。 でも、食べるのに有毒なのでしょうか? 発見する方法は一つだけです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran's Greenfinger always told Floran to ssstay away from weird purple goo."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランのグリーンフィンガーは、いつもフローランに、変な紫色のグーから離れるように言っていた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wry. Glitch kitchens are often stocked with these preserves. For use as rat poison."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "大丈夫。 グリッチキッチンは、しばしばこれらの保存庫が備わっている。 ラット毒として使用する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Not sure I should be eatin' anything made with toxictop."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "有毒なものは何でも食べるべきだとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxictop Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒素"
+    }
+  ]
+]

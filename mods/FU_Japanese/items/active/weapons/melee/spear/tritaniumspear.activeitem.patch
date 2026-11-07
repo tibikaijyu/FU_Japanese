@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You should shove this in a foe. For science!\n^cyan;Inflicts Electrified^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを敵に突き刺すべきだ。 科学のため!\n^cyan; 電化 ^reset; に作用します。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tritanium Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリチウムスピア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Counts as 'plasma' (set bonuses)^reset;\n^yellow;Stun^reset; and apply ^cyan;Minor Vulnerability^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;「プラズマ」としてカウントします。^reset;\n^yellow;気絶^reset;と適用する^cyan;マイナー脆弱性^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコンキャノン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Volcanic rock"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山岩"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山岩"
+    }
+  ]
+]

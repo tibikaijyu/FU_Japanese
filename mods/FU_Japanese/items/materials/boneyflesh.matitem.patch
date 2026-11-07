@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This goes well beyond creepy.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは不気味な話ではありません。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bony Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボニー・フラッシュ"
+    }
+  ]
+]

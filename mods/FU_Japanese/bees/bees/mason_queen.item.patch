@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mason Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メイソンクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mason Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メイソンクイーン"
+    }
+  ]
+]

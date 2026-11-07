@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small FTL drive, built to travel the stars. This one's broken."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星を移動するために建てられた小さなFTLドライブ。 これは壊れています"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Broken Small FTL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;壊れた小さなFTLドライブ^reset;"
+    }
+  ]
+]

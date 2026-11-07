@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly insane painting depicting the raw essence of misery, anguish and despair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悲惨、苦痛、絶望の生のエッセンスを描いた本当に狂気の絵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Demiurge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デミレイジ"
+    }
+  ]
+]

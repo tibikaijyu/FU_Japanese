@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sword made out of slime.\tStrange, but effective."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライム製の剣。\t奇妙だが効果的だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Sword II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムソードII"
+    }
+  ]
+]

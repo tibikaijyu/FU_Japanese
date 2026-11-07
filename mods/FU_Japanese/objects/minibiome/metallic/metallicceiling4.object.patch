@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Precursor power junction. It's broken."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリカーサ電源ジャンクション。 壊れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Artifact"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

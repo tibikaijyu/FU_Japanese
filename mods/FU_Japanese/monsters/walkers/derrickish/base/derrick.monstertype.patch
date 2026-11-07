@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Psionic amphibians. Relatively friendly, and make great pets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "両生類。 比較的フレンドリーで、素晴らしいペットを作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psilamander"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピラマンダー"
+    }
+  ]
+]

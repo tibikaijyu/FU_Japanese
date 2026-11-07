@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carpenter Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工クイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carpenter Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大工クイーン"
+    }
+  ]
+]

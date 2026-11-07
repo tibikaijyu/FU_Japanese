@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Barrier Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "バリアー圏"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even if you graze 'em, the radiation burn is deadly.\n^yellow;Inflicts radiation burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放牧しても、放射線は致命的です。\n^yellow;放射線燃焼に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Energy Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムエネルギーライフル"
+    }
+  ]
+]

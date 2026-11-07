@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super Choppy, Super Cute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超かわいい、超かわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい大物"
+    }
+  ]
+]

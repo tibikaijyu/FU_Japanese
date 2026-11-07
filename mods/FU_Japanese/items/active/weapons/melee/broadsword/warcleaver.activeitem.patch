@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A curious mix of organic and metallic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機と金属の奇妙な混合物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ferozium Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェロジウムクリーバー"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compel entities beyond understanding to gift you with knowledge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "知識をあなたに与えるために、理解を超えてエンティティを強制します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Antediluvian Texts"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "古文書"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Antediluvian Texts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古文書"
+    }
+  ]
+]

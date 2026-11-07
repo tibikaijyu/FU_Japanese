@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This should be perfect for your lab storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはあなたの研究室の貯蔵に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Wall Storage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774;壁ストレージ^reset;"
+    }
+  ]
+]

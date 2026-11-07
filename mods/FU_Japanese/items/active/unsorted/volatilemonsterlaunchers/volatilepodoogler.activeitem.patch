@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires...gleaps?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火事... 痛い?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volatile Oogler Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドグラーポッド"
+    }
+  ]
+]

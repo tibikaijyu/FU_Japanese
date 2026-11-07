@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/0",
+      "value": "Who daress intrude upon ssacred landss?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/0",
+      "value": "神聖な土地に侵入するドレスは誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/1",
+      "value": "Sshiny thingss belongss to tribe! Not you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/1",
+      "value": "ピカピカなものは部族のものです! あなたじゃない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/2",
+      "value": "Tribe hass lived here for aeonss!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/2",
+      "value": "この部族は、ずーっと昔からここに住んでる！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/3",
+      "value": "Devour meatss! Devour sshiniess! Floran becomess powerful!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/3",
+      "value": "肉を食え! 熱烈な輝き! フローランが力強く!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautiful red wax platforms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しい赤いワックスプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドワックスプラットフォーム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cute. A tiny little geyser."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい。 小さな小さな間欠泉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Geyser (Small)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガイザー(小さい)"
+    }
+  ]
+]

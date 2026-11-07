@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Why did I come here, again?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どうしてまたここに来たの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Spatter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液スパッタ"
+    }
+  ]
+]

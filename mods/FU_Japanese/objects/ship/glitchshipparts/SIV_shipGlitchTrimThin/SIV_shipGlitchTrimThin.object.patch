@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Glitch Trim section for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のグリッチトリムセクション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Thin Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチ・シン・トリム"
+    }
+  ]
+]

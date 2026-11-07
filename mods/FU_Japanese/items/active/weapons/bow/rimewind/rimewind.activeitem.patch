@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Ice Shot"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "アイスショット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires arrows imbued with crippling frost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炎の矢は、砕ける凍り付き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rimewind"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイムウインド"
+    }
+  ]
+]

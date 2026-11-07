@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kill them with kindness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らを親切に殺しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heart Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "心臓病棟"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "At home in forests, and rather slimy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家には森があり、むしろだらしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Forest Anglure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "森林の角"
+    }
+  ]
+]

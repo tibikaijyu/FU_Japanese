@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lovely sulphur-rich dirt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛らしい硫黄分豊富な汚れ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphuric dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫黄汚れ"
+    }
+  ]
+]

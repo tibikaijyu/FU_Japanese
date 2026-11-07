@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Like a shark mask, but more adorable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サメの仮面みたいだけど、もっと可愛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lilodon Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リロドンマスク"
+    }
+  ]
+]

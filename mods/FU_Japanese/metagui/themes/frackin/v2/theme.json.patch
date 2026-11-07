@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stock theme from the latest model of the Science Outpost's standard-issue tricorder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学前哨基地の標準発行トライコーダーの最新モデルからテーマをストックします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/name",
+      "value": "Frackin' Standard"
+    },
+    {
+      "op": "replace",
+      "path": "/name",
+      "value": "フラッキン標準"
+    }
+  ]
+]

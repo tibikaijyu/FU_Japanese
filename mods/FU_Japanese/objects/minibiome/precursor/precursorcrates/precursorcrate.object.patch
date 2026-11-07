@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crate containing cargo. What cargo? Who knows."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貨物を含む箱。 どんな貨物? 誰にでも分かる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Cargo Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーゴ箱の前駆体"
+    }
+  ]
+]

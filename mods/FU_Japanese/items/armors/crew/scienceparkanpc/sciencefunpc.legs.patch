@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Repels even the most extreme cold temperatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も極端な寒い温度でさえも忌避します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arctic Snowpants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "北極スノーパンツ"
+    }
+  ]
+]

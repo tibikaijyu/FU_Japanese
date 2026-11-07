@@ -1,0 +1,494 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "Come back and rest a spell anytime!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "戻って、いつでも呪文を休んでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/felin/default/0",
+      "value": "Don't forget to review us online!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/felin/default/0",
+      "value": "オンラインで私たちを確認することを忘れないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/felin/default/1",
+      "value": "Wait! where are you going?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/felin/default/1",
+      "value": "待って! どこ行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/floran/default/0",
+      "value": "Tell your friends about Floran's coffee!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/floran/default/0",
+      "value": "フロランのコーヒーについてお友達に伝えてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/glitch/default/0",
+      "value": "Desperate. Don't forget to review us online!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/glitch/default/0",
+      "value": "絶望的。 オンラインで私たちを確認することを忘れないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/novakid/default/0",
+      "value": "Y'all come back now, ya hear?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/novakid/default/0",
+      "value": "もう帰ってくるのね?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "We've got a special on coffee today... And every other day too, for that matter!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "今日はコーヒーの特売ですよ……まあ、毎日やっているんですけどね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "Okay! Will that be a short, a tall, a grande, a venti, or a... shoot. Lost track again..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "よし! それはショート、背の高い、壮大な、ベンチ、または...シュートになりますか? 再び道に迷う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "Now, what can I get for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "さて、今日は何が手に入りますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/0",
+      "value": "Our coffee's brewed from the best beans, selected by the best ca--. Um, forget it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/0",
+      "value": "私たちのコーヒーは、最高のコーヒーによって選ばれた最高の豆から醸造されています。 忘れて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/1",
+      "value": " Will that be a short, a tall, a grande, a venti, or a... Oh no, I've lost track again..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/1",
+      "value": " 短いか、背が高いか、大きかったか、ベンチか、それとも...ああ、いや、また道に迷ったんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/2",
+      "value": "Right then, what can I brew for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/2",
+      "value": "では、今日は何を醸造すればよいでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/3",
+      "value": "Kopi luwak? sorry, we don't have that ... for obvious reasons. But we do serve other tasty treats!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/felin/default/3",
+      "value": "コピ・ルワク? ごめんねそんなことないの... 明らかな理由で しかし、我々は他のおいしい御treat走を提供しています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/0",
+      "value": "Floran's coffee is extra good today!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/0",
+      "value": "フローランのコーヒーは今日は最高です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/1",
+      "value": "Floran's coffee comes in five sssizes! ... Though Floran forgets what."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/1",
+      "value": "フロランのコーヒーは五ssサイズ! ... フローランは忘れていますが。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/2",
+      "value": "What can Floran make you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/floran/default/2",
+      "value": "フローランは何ができる?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/0",
+      "value": "Cheery. We've got a special on coffee today... And everyday too, for that matter!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/0",
+      "value": "さようなら。 今日はコーヒーが特別です。 そして、毎日、その点も!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/1",
+      "value": "Nervous. Will that be a short, a tall, a grande, a venti, or a... Frustrated. Oh no, I've lost track again..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/1",
+      "value": "神経質。 それは短いか、背の高いか、大きめか、ベンチか、それとも... イライラ。 あらいや、また道に迷ったの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/2",
+      "value": "Cordial. Right then, what can I brew for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/glitch/default/2",
+      "value": "心から。 では、今日は何を醸造すればよいでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/0",
+      "value": "Got a special on coffee today... Always do, come to think of it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/0",
+      "value": "今日はコーヒーの特製ができた。 いつもそうする、考えに来てください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/1",
+      "value": "We got coffee in a few different sizes. Beats me what they were called though..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/1",
+      "value": "コーヒーは数種類ある。 でも、あの人たちが呼ばれていたことを、私に打ち負かして...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/2",
+      "value": "Now what can I fix you with?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/novakid/default/2",
+      "value": "では、何が修正できるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "Next please!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "次はどうぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "The line starts right over here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "ここからラインが始まります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "Welcome! Come right in!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "ようこそ! すぐ入って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/0",
+      "value": "Welcome to Four Felins' Coffee Corner! our coffees won't taste like cat poop, honest!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/0",
+      "value": "フォーフェリンズのコーヒーコーナーへようこそ!私たちのコーヒーは猫の糞のようには味わえません、正直!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/1",
+      "value": "We've coffees so rich in flavour you'd think they were brewed with ... um, never mind!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/1",
+      "value": "コーヒーがとても豊富で、コーヒーを飲んだのが...ああ、気にしないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/2",
+      "value": "Welcome to Four Felins' Coffee Corner! Stay a while, and drink something!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/2",
+      "value": "Four Felins' Coffee Cornerへようこそ! しばらく滞在して、何か飲む!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/3",
+      "value": "Nothing but the finest coffee, purr-colated to purr-fection!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/3",
+      "value": "最高級のコーヒー、ピューリッコレート、ピューリッコ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/4",
+      "value": "We serve all coffee brews - with the exception of kopi luwak, so don't worry!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/felin/default/4",
+      "value": "すべてのコーヒー醸造をご用意しております - kopi luwakを除いて、心配しないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/0",
+      "value": "Floran makes great foodssstuff!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/0",
+      "value": "フローランは素晴らしい食べ物を作ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/1",
+      "value": "Come try Floran's sssweets!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/1",
+      "value": "フローランのスイーツを試してみてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/2",
+      "value": "Line is thisss way. No stabbing, promise!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/floran/default/2",
+      "value": "ラインはこのようにです。 刺さないで、約束!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/0",
+      "value": "Hospitable. Please do come in!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/0",
+      "value": "ホスピタブル。 どうぞお入りください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/1",
+      "value": "Assured. Ours is a quality brew, I assure you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/1",
+      "value": "確かな。 私たちのビールは質の高い醸造酒です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/2",
+      "value": "Welcoming. Oh! A patron!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/glitch/default/2",
+      "value": "ようこそ。 おお! パトロン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/0",
+      "value": "Heya! The line's over this-a-way!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/0",
+      "value": "やあ! こっちはこっちだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/1",
+      "value": "Well blow me down, it's a customer!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/1",
+      "value": "うーん、お客さんだよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/2",
+      "value": "We gotta a whole bunch of stuff for ya to try!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/novakid/default/2",
+      "value": "試してみるためには、たくさんのことが必要です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Get your caffeine fix!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  カフェインを直せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Barista"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  バリスタ"
+    }
+  ]
+]

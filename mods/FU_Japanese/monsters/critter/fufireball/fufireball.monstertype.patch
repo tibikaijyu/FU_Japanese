@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hates Iceballers. It's mutual."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイスバラーを嫌う。 相互関係です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fireballer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファイアバラー"
+    }
+  ]
+]

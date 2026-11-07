@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honey Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニードローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニードローン"
+    }
+  ]
+]

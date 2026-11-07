@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now that you know the basics, you should be able to whip up a wide array of useful plants. Each provides different benefits, so tailor your farm to your personal needs!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "基礎を知っているので、有用な植物の幅広い配列をホイップアップできるはずです。 それぞれに異なる利点がありますので、あなたの個人的なニーズに合わせて農場をカスタマイズしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ^orange;Mutavisk^reset; seed is extremely useful, being the sole source in the galaxy of the wonderous textile known as ^orange;Mutavisk Silk^reset;. Why not try crafting a few seeds? You'll need to upgrade to a ^green;more powerful lab^reset; first."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ムタヴィスク ^reset;シードは、^orange;ムタヴィスク Silk ^reset;として知られる不思議な織物の銀河における唯一の源である。 いくつかの種を作ろう。 まずは^green;より強力なlab^reset;にアップグレードしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Advanced Textiles"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "先端繊維"
+    }
+  ]
+]

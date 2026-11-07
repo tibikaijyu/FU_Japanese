@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough and unrefined, this golden wood looks freshly chopped."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗く、洗練されていない、この黄金の木は、新鮮に切り刻まれたように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Unssstabbed wood is pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "刺さらない木はきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Novel. This unrefined wood has a golden hue."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "小説。 この木は黄金色をしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This wood might be rough, but it sure is purty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この木は粗いかもしれないが、確かに可愛らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unrefined Golden Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金木"
+    }
+  ]
+]

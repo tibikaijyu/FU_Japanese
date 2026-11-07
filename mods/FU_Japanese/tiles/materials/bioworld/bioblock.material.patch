@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This soil appears to have been heavily altered by an unknown agent."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この土壌は、未知のエージェントによって大きく変更されたようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Shale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトシェール"
+    }
+  ]
+]

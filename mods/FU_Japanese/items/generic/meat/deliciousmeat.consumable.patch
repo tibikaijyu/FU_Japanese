@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderfully tasty looking morsel which you should *definitely* eat.\n^red;Bleeding ^gray;(^white;20s^gray;)^reset; ^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたが間違いなく食べるべき素晴らしくおいしいモーゼル。\n^red;出血 ^gray;(^white;20ス)^gray;)^reset; ^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Delicious Mystery Meat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "美味しいミステリーミート"
+    }
+  ]
+]

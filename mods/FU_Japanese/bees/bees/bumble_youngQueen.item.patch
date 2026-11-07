@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bumblebee Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "若い女王さま"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Bumblebee Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若いバンブルビークイーン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made with 99.9999% cotton!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "99.9999%コットンで作られました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cottonbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "綿棒マスク"
+    }
+  ]
+]

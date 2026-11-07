@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge cable for directing intense energies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強烈なエネルギーを導くための巨大なケーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Power Cable"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電源ケーブル"
+    }
+  ]
+]

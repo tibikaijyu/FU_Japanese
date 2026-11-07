@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy blade made of junk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンク製の重い刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンクブレード"
+    }
+  ]
+]

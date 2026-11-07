@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reality-challenging flavor. Is it meat? Is it fruit? Is it bike? It's all three\n^cyan;-^white;5% ^cyan;HP ^gray;(^white;70s^gray;)\n^cyan;-^white;60% ^cyan;Risk of Madness Effects^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "現実に挑戦する味。 肉ですか? フルーツですか? 自転車ですか? 全部で三つ\n^cyan;-^white;5% ^cyan;HP ^gray;(^white;70ス)^gray;)\n^cyan;-^white;60% ^cyan;狂気の影響のリスク^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snarshed Garflipp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナーシュド・ガーフリップ"
+    }
+  ]
+]

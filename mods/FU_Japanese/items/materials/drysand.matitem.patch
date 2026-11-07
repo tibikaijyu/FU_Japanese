@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hard, cracked sand that shatters underfoot.\n^green;Extractable^reset;, ^orange;Siftable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "足元で砕ける砂が固く割れています。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;、^red;製錬可能^reset;。"
+    }
+  ]
+]

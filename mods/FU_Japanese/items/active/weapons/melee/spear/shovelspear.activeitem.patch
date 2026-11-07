@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dangerous shovel for the discerning knight.\n^cyan;Hunting weapon^reset;\n^red;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目立たない騎士のための危険なシャベル。\n^cyan;ハンティング武器^reset;\n^red;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "David Spade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デイビッド・スペード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "The greatest shovel in the universe. ^yellow;It's true.^reset;\n^cyan;Hunting weapon^reset;\n^red;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "宇宙最大のシャベル。 ^yellow; それは本当です。^reset;\n^cyan;ハンティング武器^reset;\n^red;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Shovel of Crail"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "すきまのシャベル"
+    }
+  ]
+]

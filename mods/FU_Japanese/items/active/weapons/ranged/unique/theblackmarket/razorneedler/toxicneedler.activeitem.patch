@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Horribly poisonous barbs just aching to enter your foes.\n^yellow;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの敵に入るためにちょうど痛む恐ろしい毒有毒なバーブ。\n^yellow; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#5aff00;Toxic Needler^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#5aff00; 毒性針 ^reset;"
+    }
+  ]
+]

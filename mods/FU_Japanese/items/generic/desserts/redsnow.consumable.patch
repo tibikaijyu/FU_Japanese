@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Three red stimpacks, in a long-lasting popsicle form.\n^green;Heal ^white;3.3% ^green;HP^gray;/S for ^white;3m^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "三つの赤い刺激パック、長持ちするアイスキャンディーの形。\n^green;癒し ^white;3.3% ^green;HP^gray;のS ^white;3え?^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤い雪"
+    }
+  ]
+]

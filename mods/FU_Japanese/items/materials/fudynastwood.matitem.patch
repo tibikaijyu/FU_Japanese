@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dynast wood that has been prepared for building and crafting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "建築や工芸のために準備されているダイナスト材。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dynast Timber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイナスト材"
+    }
+  ]
+]

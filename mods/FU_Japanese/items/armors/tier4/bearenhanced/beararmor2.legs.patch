@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;30^reset;% Knockback Resist\n^yellow;^reset; Axes, Two-handed Melee: +^green;4.5^reset;% Crit Chance, Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Ice status effects"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;30^reset;% ノックバック抵抗\n^yellow;^reset; 軸、両手メリー:+^green;4.5^reset;% 危機的状況と被害x^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;: アイスステータス効果"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Savage Bear Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サベージベアグリーブ"
+    }
+  ]
+]

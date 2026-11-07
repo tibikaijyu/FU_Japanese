@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Immune: Moderate Heat/Cold, Lava, Burning. +^green;20^reset;% Ice and Fire Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "免疫:適度な熱/冷、溶岩、燃焼。 +^green;20^reset;% 氷と火の抵抗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thermal Shell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サーマルシェル"
+    }
+  ]
+]

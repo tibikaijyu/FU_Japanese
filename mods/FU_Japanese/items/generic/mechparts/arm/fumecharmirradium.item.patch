@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires highly radioactive blasts of energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーの非常に放射性爆風を発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤外線ビーム"
+    }
+  ]
+]

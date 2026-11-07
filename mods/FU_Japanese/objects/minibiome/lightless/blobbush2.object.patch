@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, that's repulsive looking."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うーん、これは反発の的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pustule Growth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "歯の生長"
+    }
+  ]
+]

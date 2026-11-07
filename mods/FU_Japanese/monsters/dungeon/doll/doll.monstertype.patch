@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Possessed by an evil spirit"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪霊に依拠する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Creepy Doll"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリーピードール"
+    }
+  ]
+]

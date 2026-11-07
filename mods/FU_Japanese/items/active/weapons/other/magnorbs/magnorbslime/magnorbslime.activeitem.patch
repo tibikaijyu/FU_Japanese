@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Releases globs of delicious slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいスライムをたっぷりリリース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Slimey Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "スライミーディフェンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Lobber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムロバー"
+    }
+  ]
+]

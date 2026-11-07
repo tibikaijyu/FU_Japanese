@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large hooved, maned herbivore. They can run swiftly and many are domesticated as steeds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなひづめの有人草食動物。 スピーディーに走ることができ、多くは国産化されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "馬"
+    }
+  ]
+]

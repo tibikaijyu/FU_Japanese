@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawns in a pet dog! \n^orange;To locate it after placing, toggle wire mode.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "犬の産卵! \n^orange; ワイヤーモードを切り替える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Dog Spawner^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;犬スパウナー^reset;"
+    }
+  ]
+]

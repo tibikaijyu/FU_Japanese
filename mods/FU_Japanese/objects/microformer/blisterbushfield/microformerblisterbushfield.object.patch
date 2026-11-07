@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a blister bush field."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域をブリスターブッシュ場に変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスターマイクロフォーマ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly brutal arm weapon. ^green;Phys/Elec Hybrid Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に残忍な腕の武器。 ^green;フィス/エレックハイブリッドダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fusion Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "核融合機構"
+    }
+  ]
+]

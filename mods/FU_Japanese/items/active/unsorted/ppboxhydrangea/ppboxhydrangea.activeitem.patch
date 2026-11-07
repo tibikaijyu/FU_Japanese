@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A complete set of ^green;Hydrangea^white; themed furniture. ^green;A savings of 25%!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;アジサイ^white;をテーマにした家具のセット。 ^green;貯蓄 25%!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydrangea Set Bundle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アジサイセットバンドル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Chillingly effective. Freeze'em dead."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に効果的です フリーズが死んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Fistblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウム拳刃"
+    }
+  ]
+]

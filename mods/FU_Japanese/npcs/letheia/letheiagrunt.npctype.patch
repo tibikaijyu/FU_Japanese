@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Halt! Who are you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "ハール! あなたは誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "This is a restricted zone!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "ここは限定ゾーンです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "Only employees of Letheia Corp allowed here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "レテイア Corpの従業員だけがここで許可されています!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aquarum Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクアラムクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquarum Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクアラムクイーン"
+    }
+  ]
+]

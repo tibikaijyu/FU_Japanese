@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-findGate/text",
+      "value": "My scans indicate there is some kind of ^orange;Welcome Beacon^reset; on this planet. I estimate a ^green;82% chance that it is worth investigating^reset;, and a 98% chance that you have nothing better to do."
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-findGate/text",
+      "value": "スキャンによると、この惑星には^orange;歓迎ビーコン^reset;のようなものがあります。^green;調査する価値がある確率は82%^reset;、あなたにほかの用事がない確率は98%と推定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-gateFound1/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-gateFound1/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-gateFound1/text",
+      "value": "^orange;Welcome^reset; to my Mobile Lab, traveller! Come on in and visit! I've got a big comfy couch and a medical bay if you have any nasty injuries to heal up!"
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-gateFound1/text",
+      "value": "私の移動研究室へ^orange;ようこそ^reset;、旅人さん！ 中へおいで！ 大きくて座り心地のいいソファがあるよ。ひどいけがを治せる医療ベイもね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-gateFound1b/text",
+      "value": "If you've picked up this message, you must be near an ^orange;Ancient Gateway^reset; - please activate it to come and find me. ^green;You can power up the Gate with ^orange;Core Fragments^reset; and a ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-gateFound1b/text",
+      "value": "このメッセージが届いたなら、君は^orange;古代のゲート^reset;の近くにいるはずだ。起動して、私に会いに来てほしい。^green;ゲートの動力には^orange;コアフラグメント^reset;と^orange;トライコーダー^reset;が使える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-gateFound2/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-gateFound2/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gaterepair-gateFound2/text",
+      "value": "In order to fix your ship you'll need to complete ^orange;several tasks^reset;. ^green;Speak to me^reset; to begin."
+    },
+    {
+      "op": "replace",
+      "path": "/gaterepair-gateFound2/text",
+      "value": "船を修理するには、^orange;いくつかの仕事^reset;をこなす必要がある。まずは^green;私に話しかけて^reset;くれ。"
+    }
+  ]
+]

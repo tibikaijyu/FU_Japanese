@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Techy metal pipes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テクな金属パイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Piping"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属配管"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pie."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パイ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apple Honey Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アップルのハニーパイ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A golden wooden door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金色の木製のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黄金の扉"
+    }
+  ]
+]

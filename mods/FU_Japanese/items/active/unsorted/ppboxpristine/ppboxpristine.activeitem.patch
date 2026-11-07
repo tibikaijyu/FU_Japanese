@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A complete set of ^green;Pristine^white; themed furniture. ^green;A savings of 25%!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green; 清潔 ^white; をテーマにした家具のセット。 ^green;貯蓄 25%!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pristine Set Bundle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "清潔 セットバンドル"
+    }
+  ]
+]

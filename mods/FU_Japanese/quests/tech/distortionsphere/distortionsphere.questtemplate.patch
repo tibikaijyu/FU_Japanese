@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've discovered an unusual technology that allows me to turn into a ball. With it I can access areas I otherwise couldn't. ^green;Press [F]^reset; to activate."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ボールに変身できる特殊な技術を発見しました それを使って、他の方法ではアクセスできなかった領域にアクセスできます。 ^green;[F]^reset;を押して有効にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've discovered an unusual technology that allows me to turn into a ball. With it I can access areas I otherwise couldn't. ^green;Press [F]^reset; to activate it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ボールに変身できる特殊な技術を発見しました それを使って、他の方法ではアクセスできなかった領域にアクセスできます。 ^green;[F]^reset;を押して有効にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Distortion Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "歪み球体"
+    }
+  ]
+]

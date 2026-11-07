@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/nightar/default/0",
+      "value": "You want a fight? Very well!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/nightar/default/0",
+      "value": "戦いたい? よくやった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/nightar/default/1",
+      "value": "I hold rank in the warrior elite. Can you say the same?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/nightar/default/1",
+      "value": "私は戦士エリートにランクインしています。 同じことを言えますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/nightar/default/2",
+      "value": "This is our territory, and ours alone!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/nightar/default/2",
+      "value": "これは私たちの領土であり、私たちだけ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/nightar/default/3",
+      "value": "I've been trained by the best! You have no chance against me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/nightar/default/3",
+      "value": "私は最善を尽くした! 私に不利な機会はないのね!"
+    }
+  ]
+]

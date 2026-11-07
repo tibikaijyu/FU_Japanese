@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "throwing stars for NPCs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NPCに星を投げる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shock Shroom for NPCs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC用ショックシュルーム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient computers, their data long-since corrupted."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のコンピュータ、彼らのデータは長い間破損していた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Computer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のコンピュータ"
+    }
+  ]
+]

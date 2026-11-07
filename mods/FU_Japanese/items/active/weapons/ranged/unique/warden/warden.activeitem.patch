@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Energy Zone"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "エネルギー領域"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dangerously powerful minigun.\n^cyan;Counts as 'plasma' for set bonuses^reset;\n^yellow;Heavy. Extreme fire rate^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険なほど強力な小型銃。\n^cyan;「プラズマ」に数えられるボーナス数^reset;\n^yellow;重い。 極限火力率^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Warden"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコン・ウォーデン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Nothing compares. Anywhere.\n^cyan;Counts as 'plasma' for set bonuses^reset;\n^yellow;Heavy. Extreme fire rate^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "何も比較できない。 どこにでも。\n^cyan;「プラズマ」に数えられるボーナス数^reset;\n^yellow;重い。 極限火力率^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Chaingun of Destiny^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;運命の鎖銃^reset; ^yellow;^reset;"
+    }
+  ]
+]

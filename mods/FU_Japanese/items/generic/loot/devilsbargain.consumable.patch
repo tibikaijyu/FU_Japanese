@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;-^white;25% ^red;HP ^gray;& ^red;EP^gray;,\n^cyan;+^white;20% ^pink;All ^cyan;Res ^gray;& ^cyan;Damage^gray;,\n^cyan;+^white;55% ^cyan;Run ^gray;(^white;2m^gray;)\n^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red;-^white;25% ^red;HP ^gray;& ^red;EP^gray;,\n^cyan;+^white;20% ^pink;すべて ^cyan;レズ ^gray;& ^cyan;被害^gray;,\n^cyan;+^white;55% ^cyan;走り ^gray;(^white;2え?^gray;)\n^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Devil's Bargain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "悪魔の交渉"
+    }
+  ]
+]

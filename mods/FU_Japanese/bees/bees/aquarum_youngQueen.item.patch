@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aquarum Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクアラム・ヤングクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Aquarum Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若きアクアラムクイーン"
+    }
+  ]
+]

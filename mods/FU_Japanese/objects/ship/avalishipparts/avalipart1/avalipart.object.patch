@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avali Solar Sail"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アバリソーラーセイル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Solar Sail"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アバリソーラーセイル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whispers from the cosmos compel you to write this text."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙からのささやきがこのテキストを書くことを強制します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Tattered Grimoire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;ぼろぼろの魔導書^reset;"
+    }
+  ]
+]

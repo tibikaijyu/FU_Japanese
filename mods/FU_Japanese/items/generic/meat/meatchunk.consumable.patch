@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large chunk of barely cooked alien meat. An Avikan favourite.\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;2m^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かろうじて調理されたエイリアンの肉の大きな塊。 アヴィカンのお気に入り。\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;2え?^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Chunk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉チャンク"
+    }
+  ]
+]

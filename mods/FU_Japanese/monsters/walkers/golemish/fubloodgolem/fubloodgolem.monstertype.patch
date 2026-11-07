@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This shouldn't even be possible, but there you have it. I dare you to lick one."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そんなことはあり得ないけど、でも、君はそれを持っている。 なめるようにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hemogolem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘモゴーレム"
+    }
+  ]
+]

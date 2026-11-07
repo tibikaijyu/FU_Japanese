@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Auto-Protect against falls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "転倒から自動保護。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Emergency Bounce^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;緊急バウンス^reset;"
+    }
+  ]
+]

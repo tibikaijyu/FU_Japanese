@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pop it like it's hot!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱くなるくらいに叩きなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pop all the corn! Right into Floran's mouth!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "トウモロコシを全部どけなさい! フローランの口の中へ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. It's so strange how kernels react to heat by exploding their innards."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 核が内臓を爆破して熱にどう反応するかはとても奇妙です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Salty and buttery. Can't beat the classics."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "塩分とバター。 古典に勝てない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Popcorn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップコーン"
+    }
+  ]
+]

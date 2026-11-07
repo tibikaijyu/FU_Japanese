@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Consumes fuel to duplicate certain items.\n^cyan;Requires ^orange;200J^cyan; per duplication.^reset;\n^blue;Upper Input^reset;: On/Off Switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃料を消費して、特定のアイテムを複製します。\n^cyan; は、複製ごとに ^orange;200J^cyan; が必要です。^reset;\n^blue; 上部入力 ^reset; :スイッチのオン/オフ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Duplicator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "複写機"
+    }
+  ]
+]

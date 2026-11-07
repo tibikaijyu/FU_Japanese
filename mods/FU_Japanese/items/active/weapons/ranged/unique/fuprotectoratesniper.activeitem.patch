@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lightweight, accurate rifle with a built-in ultra-zoom scope."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超ズームスコープを内蔵した軽量で正確なライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protectorate Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "防護ライフル"
+    }
+  ]
+]

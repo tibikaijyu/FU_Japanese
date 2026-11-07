@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny venomous snake found in the woods and swamps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "森や沼地で発見された小さな毒蛇。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brown Snake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラウンヘビ"
+    }
+  ]
+]

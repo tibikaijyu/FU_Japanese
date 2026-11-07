@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devote worship to the things that lurk beyond our reality.\n^red;-20 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私たちの現実を越えて潜んでいるものへの崇拝を捧げてください。\n^red;-20Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Statue of the Old One"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "旧像"
+    }
+  ]
+]

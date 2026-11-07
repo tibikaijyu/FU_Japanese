@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This sword teaches the crafter to create a sword only with crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この剣は、水晶だけで剣を創り出すように職人に教えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Emera Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エメラ短刀"
+    }
+  ]
+]

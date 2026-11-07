@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires electric blasts.\n^yellow;Counts as 'electric' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 電気発火。\n^yellow;セットボーナスの「エレクトリック」にカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Riot Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベルギー暴動銃"
+    }
+  ]
+]

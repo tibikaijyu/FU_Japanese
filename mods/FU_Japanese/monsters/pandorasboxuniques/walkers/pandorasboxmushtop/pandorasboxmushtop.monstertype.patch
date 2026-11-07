@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mushtops still sing even after becoming infested with fungal matter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キノコは菌類に感染しても歌います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mushtop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キノコ"
+    }
+  ]
+]

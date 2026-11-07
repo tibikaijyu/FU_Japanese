@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautiful white wax platforms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しいホワイトワックスプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "White Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホワイトワックスプラットフォーム"
+    }
+  ]
+]

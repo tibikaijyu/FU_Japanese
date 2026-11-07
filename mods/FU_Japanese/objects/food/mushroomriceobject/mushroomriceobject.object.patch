@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious eggy fried rice with mushrooms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きのこで卵揚げのおいしいお米。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Little mushrooms are sssoft and chewy!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "小さなキノコは柔らかくて噛み付きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Satisfied. These mushrooms compliment the egg fried rice rather nicely."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "満足。 これらのキノコは卵揚げ米をかなりきれいにほめる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Lotsa textures on this one. Lotsa good flavors too."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ロッサのテクスチャーです。 味も美味しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mushroom Rice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "きのこライス"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An online catalog! How convient."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "オンラインカタログ! なんて便利だろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Brand new furniture delivered in microseconds. The future is now!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "マイクロ秒でお届けするブランドの新しい家具。 未来は今です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Prop Packaging's finest products avaliable at the touch of a button!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飾り 包装の最高級製品はボタンひとつで手に入ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likes to play with sssmooth touch screen."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはスムーズなタッチスクリーンで遊ぶのが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Overjoyed. So many options to choose from!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "喜びました 選択する多くのオプション!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Huh. This catalog seems... familiar?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "フフフフ。 このカタログは...お馴染み?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The furniture featured here very quality... And reasonably priced, as well!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "家具はここで非常に高品質でした。 そして、手頃な価格、同様に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A mini virtual furniture catalog. Ain't that the darnedest thing."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ミニ仮想家具カタログ。 最悪なことじゃない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Prop Pack Online Catalog^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 飾り パック オンラインカタログ ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not the kind of fuel you need... ^yellow;Glow^reset; 120s ^green;+^reset;40 ^green;Fuel^reset; ^blue;Madness Gain^reset; 4 ^orange;Type: Cooked Meat + Vegetables + Dairy + Eggs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "必要な燃料は... ^yellow;輝き^reset; 120ス) ^green;+^reset;40 ^green;燃料^reset; ^blue;狂気の高まり^reset; 4 ^orange;タイプ:肉+野菜+乳製品+卵を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Omlette"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウス・オムレット"
+    }
+  ]
+]

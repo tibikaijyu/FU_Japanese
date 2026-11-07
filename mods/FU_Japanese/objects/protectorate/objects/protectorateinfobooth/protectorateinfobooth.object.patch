@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/0",
+      "value": "Welcome back to the Terrene Protectorate, Agent! Talk to me for handy tips!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/0",
+      "value": "Terrene プロテクトレート, 工作員にようこそ! 便利なヒントを私に話してください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "Mami helped me so much when I was a student here..."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "ママは私が学生の頃、とても助けてくれました。"
+    }
+  ]
+]

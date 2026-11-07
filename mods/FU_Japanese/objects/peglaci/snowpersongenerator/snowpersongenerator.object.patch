@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A 3D printer that... creates snowmen?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "3Dプリンタは...雪だるまを作成しますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A snowman machine? Odd use of advanced technology, but okay."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "雪だるま? 高度な技術の奇妙な使用、しかし、大丈夫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This compact 3D printer works in the medium of snow to generate cunning replicas of a variety of races."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このコンパクトな3Dプリンタは、雪の中で動作するため、さまざまな人種のカニングレプリカを生成する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran make ssnowpeople with fancy machine!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、高級マシンで雪の人を作ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fupeglaciDescription",
+      "value": "This prototype of our own pixel printers uses snow as a printing medium. Unfortunately, this one is only good for producing snowpeople."
+    },
+    {
+      "op": "replace",
+      "path": "/fupeglaciDescription",
+      "value": "当社独自のピクセルプリンタのプロトタイプは、雪を印刷媒体として使用します。 残念ながら、これは雪を降らせるのにしか適していません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. This machine can create snowmen."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 この機械は雪だるまを作ることができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A 3d printer for making snowmen? Now I feel like a kid again!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "雪だるまを作るための3dプリンタ? 今、私は再び子供のように感じます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "With this machine, I shall master the art of snowman crafting."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この機械で私は雪だるま作りの芸術を習得します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "That's something y'don't see every day. I reckon I can make a snowvakid with this!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "それは毎日目にすることのないものです。 これで雪玉が作れると思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Snowprinter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スノープリンター^reset;"
+    }
+  ]
+]

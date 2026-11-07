@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid block of diamond alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダイヤモンド合金のソリッドブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドブロック"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You hear a voice from inside the Arc Smelter say 'Ooh, shiny noms! My turn. Here, have recipe!'"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "アーク・スメルターの内側から「ああ、キラキラしたノム! ターン。 レシピをとれ!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You hear a voice from inside the Arc Smelter say 'Ooh, shiny noms! My turn. Come visit. Get recipe!'"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "アーク・スメルターの内側から「ああ、キラキラしたノム! ターン。 来てください。 レシピをとれ!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Shiny Coin"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "シャイニーコイン"
+    }
+  ]
+]

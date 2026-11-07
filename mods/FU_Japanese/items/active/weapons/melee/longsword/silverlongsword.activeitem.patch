@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Silver is capable of harming even non-corporeal beasts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シルバーは、非肉体獣にも害を及ぼす可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀長刀"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A beam of hard light creating a platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラットフォームを作成する硬い光のビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Light Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代の光プラットフォーム"
+    }
+  ]
+]

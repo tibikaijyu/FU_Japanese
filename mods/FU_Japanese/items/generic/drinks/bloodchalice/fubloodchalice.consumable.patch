@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Chalice full of blood from a terrible ritual devised by ^orange;Synniebun^reset;, ^orange;Izuna^reset;, and ^orange;Koshi^reset;.\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;90s^gray;), ^green;Heal ^white;60 ^gray;(^white;2s^gray;), ^green;Heal ^white;200.2% ^green;HP ^gray;(^white;3m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;Synniebun^reset;, ^orange;Izuna^reset;, ^orange;Koshi^reset;によって考案された恐ろしい儀式からの血でいっぱいの聖杯。\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;90ス)^gray;), ^green;癒し ^white;60 ^gray;(^white;2ス)^gray;), ^green;癒し ^white;200.2% ^green;HP ^gray;(^white;3え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Chalice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血の聖杯"
+    }
+  ]
+]

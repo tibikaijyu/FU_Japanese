@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious donuts filled with banana and cream. It's almost healthy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バナナとクリームで満たされた美味しいドーナツ。 ほとんど健康です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Creamy monkeyman donuts."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クリーミーな猿のドーナツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Doubtful. I have to question the nutritional value of these pastries."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 私はこれらのペストリーの栄養価に疑問を投げかけなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Bananas and cream, eh? Yeah, that sounds about right for the Apex."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "バナナとクリームね? そう、エイペックスにとってそれは正しいように聞こえる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Cream Donuts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナクリームドーナツ"
+    }
+  ]
+]

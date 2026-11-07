@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mask. Made of wood. You really need this described? C'mon!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "仮面。 木製。 本当にこれが必要ですか? 来い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wood Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製マスク"
+    }
+  ]
+]

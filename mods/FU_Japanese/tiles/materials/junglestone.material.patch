@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stone covered in vines and roots."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウや根で覆われた石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jungle Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャングルストーン"
+    }
+  ]
+]

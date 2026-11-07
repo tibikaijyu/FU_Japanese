@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Airy, light and beautiful glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "風通しの良い、軽くて美しいガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stained Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステンドグラス"
+    }
+  ]
+]

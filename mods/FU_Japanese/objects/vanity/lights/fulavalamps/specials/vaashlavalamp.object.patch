@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with Vaash acid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バアッシュ酸で満たされたランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vaash Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Vaash 溶岩ランプ"
+    }
+  ]
+]

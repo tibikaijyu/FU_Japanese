@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for the salesman in you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのセールスマンにとって素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Merchant's Cart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "商人のカート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A common trace gas with many applications."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多くのアプリケーションと共通のトレースガス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Dioxide"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "二酸化炭素"
+    }
+  ]
+]

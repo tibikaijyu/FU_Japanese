@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With mineral and DNA samples in your possession you've opened up a whole new world of research and possibility. Now you should upgrade to a ^orange;Bio-Chem Lab^reset; for even more advanced research!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ミネラルサンプルとDNAサンプルを所有すれば、全く新しい研究と可能性の世界が開けます。 これで、さらに高度な研究のために^orange;Bio-Chem ラボ ^reset;にアップグレードします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Next up: ^orange;Mineral Samples^reset;. Make some in your ^orange;Chemistry Lab^reset;. Like DNA samples they are ^green;essential^reset; in lab use."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次は ^orange; 鉱物サンプル ^reset; です。 ^orange;化学 ラボ ^reset; でいくつか作ってください。 DNAサンプルのように、ラボで使う場合、^green;Essential^reset;です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Critical Minerals"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "臨界鉱物"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pierces through foes while draining their very energy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を突き抜け、そのエネルギーを排出しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Witherblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウィザーブレード"
+    }
+  ]
+]

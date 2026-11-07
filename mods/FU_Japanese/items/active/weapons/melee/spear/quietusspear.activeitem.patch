@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fantastic foe-stabber.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしい敵の刺し手。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスの槍"
+    }
+  ]
+]

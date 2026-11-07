@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Horrify the enemy with clouds of stinging, angry bugs.\n^cyan;Causes stings, weakening and poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "刺す、怒る虫の雲で敵を怖がらせます。\n^cyan; 刺し傷、弱体化、中毒を引き起こす ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swarm Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "群発砲"
+    }
+  ]
+]

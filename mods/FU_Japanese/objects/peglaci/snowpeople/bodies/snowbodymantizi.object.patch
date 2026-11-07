@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The body of a Snowmantizi."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スノーマンティジの遺体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizi Snowbody"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンティーズ雪だるま"
+    }
+  ]
+]

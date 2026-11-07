@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A maid dress. Can even be worn over armour, just in case."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メイドドレス。 万一に備えて、装甲で着用することもできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Maid Dress"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メイドドレス"
+    }
+  ]
+]

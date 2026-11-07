@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impervium walls made to support heavy weights."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重量重量をサポートするために作られたインペルビウム壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impervium Wall Beams"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インペルビウム壁ビーム"
+    }
+  ]
+]

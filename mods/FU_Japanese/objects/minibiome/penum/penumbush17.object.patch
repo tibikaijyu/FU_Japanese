@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark flower."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗い花。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花びら"
+    }
+  ]
+]

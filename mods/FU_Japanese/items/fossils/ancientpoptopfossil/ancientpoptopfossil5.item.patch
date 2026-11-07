@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Poptopalon tail."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたポトパロンの尾。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptopalon Tail"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポトパロンテール"
+    }
+  ]
+]

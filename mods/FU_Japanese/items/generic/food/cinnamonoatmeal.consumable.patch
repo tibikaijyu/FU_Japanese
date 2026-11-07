@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A breakfast favorite among humans. Great with a side of milk. \n^cyan;+^green;12% Energy^reset; ^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間の間で好きな朝食。 ミルクの側面で素晴らしい。 \n^cyan;+^green;12% エネルギー^reset; ^green;種類:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon Oatmeal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモンオートミール"
+    }
+  ]
+]

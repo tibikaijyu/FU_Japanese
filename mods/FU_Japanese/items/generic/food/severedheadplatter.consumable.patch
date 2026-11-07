@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's literally just a rotting severed head. There is no platter.\n^red;-^white;5% ^red;HP ^gray;(^white;1m^gray;) ^blue;Madness Gain^reset; 5 ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字通り腐った頭です 太鼓はありません。\n^red;-^white;5% ^red;HP ^gray;(^white;1え?^gray;) ^blue;狂気の高まり^reset; 5 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Severed Head Platter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重大頭板"
+    }
+  ]
+]

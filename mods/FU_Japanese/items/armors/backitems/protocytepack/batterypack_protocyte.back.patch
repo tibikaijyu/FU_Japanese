@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An improved energy pack. Immune: proto-poison, electrical storms. Energy x1.15, +20% E. Regen, -10% E. Block, and a slight ^#3c3c00;glow^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "改善されたエネルギーパック。 免疫:プロト毒、電気嵐。 エネルギーx1.15, +20% E. レーゲン -10% ブロック、そして少し ^#3c3c00;輝き^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Energy Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトエネルギーパック"
+    }
+  ]
+]

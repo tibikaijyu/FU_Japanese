@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A concealed whip made of sticky, cold slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベタベタした冷たいスライムで作った隠されたホイップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Concealed Ice Slime Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隠された氷の粘液"
+    }
+  ]
+]

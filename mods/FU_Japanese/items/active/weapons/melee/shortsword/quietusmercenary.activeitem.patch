@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Quietus forged for a warrior."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クワイアトスは戦士のために偽造した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mercenary's Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武将の剣"
+    }
+  ]
+]

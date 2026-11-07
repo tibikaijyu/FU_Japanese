@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pair of shorts with gold anklets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金の足首とショートパンツのペア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Temple Shorts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寺道"
+    }
+  ]
+]

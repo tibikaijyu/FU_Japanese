@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Low-class Apex housing is usually near generators like these. The constant noise prevents you from getting any good sleep."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "低クラスのエイペックスハウジングは通常、このような発電機の近くにあります。 一定の騒音は、あなたが良い睡眠を得ることを防ぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I'm not a fan of heavy industry."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "私は重工業のファンではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A versatile fuel-burning generator. Generates up to ^orange;12W^reset;, fuel type determines consumption rate. ^orange;Heats up, heat determines output.^reset; ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汎用性の高い燃料燃焼発電機。 ^orange;12W^reset;まで生成し、燃料タイプは消費率を決定します。 ^orange; 加熱し、熱によって出力が決定される。^reset; ^blue;左入力^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "Loud machine is scare. Not like. Why clank and BRRRR? Just make power, no sound!"
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "ラウドマシンは怖いです。 気に入らない。 なぜクランプとBRRRR? 電源を入れ、音を出さない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran not like hot noisssy machine. Makesss noissy soundss all the time."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ホットノイッシーマシンが好きではありません。 Makesssのうるさい音がいつも聞こえる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. It is designed with replaceable parts to minimize repair costs."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 交換部品で設計されており、修理コストを最小限に抑えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This'll generate a lot of power, but it'll eat up fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "発電量は多いが、燃料を消費する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Fossil fuel generation. Crass and primitive. It is, however, effective."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "化石燃料発電。 クラスと原始的。 しかし、それは効果的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Combustion Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;燃焼発電機^reset;"
+    }
+  ]
+]

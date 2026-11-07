@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A positronic artificial brain. Amazing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポジトロニック人工脳。 すごい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Artificial Brain Housing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人工脳住宅"
+    }
+  ]
+]

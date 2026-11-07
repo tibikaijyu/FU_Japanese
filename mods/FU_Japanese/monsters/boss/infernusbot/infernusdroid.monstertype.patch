@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient guardian with corrupted programming."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破損したプログラミングを持つ古代の守護者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyrobot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイロボット"
+    }
+  ]
+]

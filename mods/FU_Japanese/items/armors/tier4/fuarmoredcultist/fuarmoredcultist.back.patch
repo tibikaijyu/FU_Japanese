@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, these are cheery...and they increase energy and shield regen!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まあ、これらは陽気です...そしてそれらはエネルギーを増加させ、再生を遮ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Writhing Tentacles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "筆記テンタクル"
+    }
+  ]
+]

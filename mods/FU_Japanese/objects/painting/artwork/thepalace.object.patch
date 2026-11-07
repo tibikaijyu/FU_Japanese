@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Everything about this is ever-so-slightly off. Nauseating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この点に関しては、ほとんど何もかもがややずれている。 吐き気。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Palace of the Mind"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "心の御所"
+    }
+  ]
+]

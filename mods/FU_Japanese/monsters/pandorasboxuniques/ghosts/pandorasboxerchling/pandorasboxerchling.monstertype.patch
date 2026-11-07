@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Their tendency to swarm makes them very hazardous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "群がる傾向がとても危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchling"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーチリング"
+    }
+  ]
+]

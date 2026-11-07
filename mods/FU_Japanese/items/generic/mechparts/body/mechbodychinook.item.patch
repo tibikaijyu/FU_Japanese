@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: L.Nitro, Proto, Moderate Heat/Cold/Radiation, Mild Poison\n^cyan;+20%^reset; Armor, ^red;-10%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:L.ニトロ、プロト、中程度の熱/冷/放射線、軽毒。\n^cyan;+20%^reset;防具、^red;-10%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chinook Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チヌーク機構"
+    }
+  ]
+]

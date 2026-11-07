@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense, red stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃い赤い石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Slate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いスレート"
+    }
+  ]
+]

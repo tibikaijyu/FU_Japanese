@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Because of the size of its head in proportion to its body, it can't run long distances."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "体の大きさに比例して頭のサイズがあるため、長距離を走らせることはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leadlit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉛"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Scimitar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シミタールエーテル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Justice be thy blade."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "正義はあなたの刃です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Beheader"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "ヘリウムビーヘッダー"
+    }
+  ]
+]

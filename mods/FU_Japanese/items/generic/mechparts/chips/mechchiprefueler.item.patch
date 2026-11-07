@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improves mech fuel efficiency by 20%"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "20% でメカ燃費を向上します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Economist Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エコノミストモジュール"
+    }
+  ]
+]

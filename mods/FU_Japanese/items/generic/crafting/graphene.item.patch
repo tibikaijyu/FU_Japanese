@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This sheet of pure carbon is seemingly magical due to its extreme durability, flexibilty, and conductivity despite being only 1-atom thick!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極端に耐久性、柔軟性、導電性があるのに1-原子厚にもかかわらず、この純炭素シートは魔法のようにも見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Graphene^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;グラフェン^reset;"
+    }
+  ]
+]

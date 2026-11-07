@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into irradiated waste."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を照射廃棄物に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradiated Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "照射マイクロフォーマ"
+    }
+  ]
+]

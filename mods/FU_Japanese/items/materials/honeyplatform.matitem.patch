@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A golden, sticky platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黄金の粘り強いプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニープラットフォーム"
+    }
+  ]
+]

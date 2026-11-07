@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Fascinating. The artifact has taught me the ^orange;Teleport Dash^reset; tech. It should really keep the enemy guessing!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "魅惑的です アーティファクトは私に^orange;テレポートダッシュ^reset;techを教えました。 それは本当に敵の推測を維持するべきです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Fascinating. The artifact has taught me the ^orange;Teleport Dash^reset; tech. It should really keep the enemy guessing!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "魅惑的です アーティファクトは私に^orange;テレポートダッシュ^reset;techを教えました。 それは本当に敵の推測を維持するべきです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Zip! Pew! Kableeeeew! Pew!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ジップ! ピュー! カブルビュー! ピュー!"
+    }
+  ]
+]

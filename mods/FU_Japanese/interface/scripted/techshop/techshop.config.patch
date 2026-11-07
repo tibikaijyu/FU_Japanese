@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblProduct/value",
+      "value": "HAVE MATERIALS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblProduct/value",
+      "value": "材料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblSubTitle/value",
+      "value": " Unlock new powerful techs"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblSubTitle/value",
+      "value": " 新しい強力なテクノロジーを解き放つ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblTitle/value",
+      "value": " Tech Research"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblTitle/value",
+      "value": " 技術研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/popupList/schema/listTemplate/itemName/value",
+      "value": "Golden Moustache"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/popupList/schema/listTemplate/itemName/value",
+      "value": "金の口ひげ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/popupTitle/value",
+      "value": "INGREDIENTS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/popupTitle/value",
+      "value": "材料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A specially crafted orb that emits freezing bursts to slow targets and cover an area with pain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍ったバーストを発し、目標を遅くし、痛みを伴う領域をカバーする特別に作られたオーブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hobbler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホブラー"
+    }
+  ]
+]

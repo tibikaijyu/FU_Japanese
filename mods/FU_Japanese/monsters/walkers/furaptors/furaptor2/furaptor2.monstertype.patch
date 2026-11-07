@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a freakin' dinosaur!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごい恐竜です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corvulraptor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コルブラプター"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/shipStatus/0/text",
+      "value": "^#6f6f6f;$ status\n^cyan;> Ship modification manual override in place.\n> Any ship modifications must be manually done by the captain."
+    },
+    {
+      "op": "replace",
+      "path": "/shipStatus/0/text",
+      "value": "^#6f6f6f;$ ステータス\n^cyan;> 修正マニュアルを出荷します。\n艦の改造は船長が手作業で行う必要がある。"
+    }
+  ]
+]

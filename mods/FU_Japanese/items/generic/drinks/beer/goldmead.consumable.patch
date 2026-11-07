@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It is said this ale brings amazing luck.\n^white;35% ^red;Slow ^gray;, ^red;Buzzed ^gray;(^white;30s^gray;)\n^orange;chance of gifts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このエールは驚くべき幸運をもたらすと言われています。\n^white;35% ^red;ゆっくり ^gray;, ^red;バズド ^gray;(^white;30ス)^gray;)\n^orange;ギフトの機会^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Taelon Mead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テロン・ミード"
+    }
+  ]
+]

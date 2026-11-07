@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Laced with poisonous quantities of Quietus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒量のクワイエトゥスとレース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クイエタス・ボウ"
+    }
+  ]
+]

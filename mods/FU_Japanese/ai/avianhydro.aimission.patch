@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Hydro Distribution Center (6+)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "配水センター(6+)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Hydro Distribution Center (6+) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "配水センター (6+) (R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "An underwater Avian temple...most odd indeed. Perhaps some treasure hunting is in order."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "水中のアヴィアン寺院...最も奇妙。 おそらく、宝探しは順調でしょう。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crystalwing bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルウィングミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalwing Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶羽蜂"
+    }
+  ]
+]

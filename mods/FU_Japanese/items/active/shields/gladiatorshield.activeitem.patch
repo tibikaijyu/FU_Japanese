@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+4 Defense^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+4防御^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gladiator Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラディエーターシールド"
+    }
+  ]
+]

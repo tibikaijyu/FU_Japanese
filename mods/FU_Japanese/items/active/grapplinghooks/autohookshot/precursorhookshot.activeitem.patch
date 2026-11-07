@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Be careful not to get whiplash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホイップラッシュを起こさないように注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Hookshot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フックショット前身"
+    }
+  ]
+]

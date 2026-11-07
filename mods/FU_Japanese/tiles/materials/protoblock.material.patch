@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid block of protocite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体のプロトサイトブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトブロック"
+    }
+  ]
+]

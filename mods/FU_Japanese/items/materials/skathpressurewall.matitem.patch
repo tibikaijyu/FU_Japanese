@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of tethyde alloy made for use in high pressure environments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高圧環境で使用するテチド合金のブロックです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tethyde Pressurised Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テチド加圧ビーム"
+    }
+  ]
+]

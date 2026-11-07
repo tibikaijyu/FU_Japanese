@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A juicy hamburger. ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジューシーなハンバーガー。 ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ]
+]

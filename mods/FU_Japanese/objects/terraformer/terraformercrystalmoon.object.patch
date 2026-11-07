@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Crystalline biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を結晶質の生物群に変化させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶テラフォーマ"
+    }
+  ]
+]

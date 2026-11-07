@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a chiropterror!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テロだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Chiropterror"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的カイロプテロ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small chitin storage that keeps food fresh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食材を新鮮に保つ小さなキチン貯蔵庫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Small Fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型冷蔵庫"
+    }
+  ]
+]

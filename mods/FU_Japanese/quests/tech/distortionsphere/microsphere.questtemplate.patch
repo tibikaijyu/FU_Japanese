@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks to this new breakthrough, I can shrink my existing distortionsphere even smaller...into a ^orange;Microsphere^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この新しいブレークスルーのおかげで、私は既存の歪み球をさらに小さく縮小することができます。 ^orange;マイクロスフィア^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Thanks to this new breakthrough, I can shrink my existing distortionsphere even smaller...into a ^orange;Microsphere^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この新しいブレークスルーのおかげで、私は既存の歪み球をさらに小さく縮小することができます。 ^orange;マイクロスフィア^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Microsphere"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "マイクロスフィア"
+    }
+  ]
+]

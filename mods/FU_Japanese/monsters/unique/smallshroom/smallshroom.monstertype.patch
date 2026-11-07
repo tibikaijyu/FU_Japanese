@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These creatures are often spotted among Agaran settlements. However, their relation to the Agaran is currently unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの生物はしばしばアガラン族の集落で発見されている。 ただし、アガランとの関係は不明である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shroomling"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "しじまき"
+    }
+  ]
+]

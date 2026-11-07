@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This looks... Wrong. What is this thing?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは... 違います これは何ですか?"
+    }
+  ]
+]

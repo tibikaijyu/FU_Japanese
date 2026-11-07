@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Side effects may include burst eardrums."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "副作用は、バースト鼓膜を含むことがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cluster Mine II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラスター鉱山II"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's what plants crave.\n^green;Growth Rate x^white;2 ^gray;& ^green;+^white;1 ^green;produce.\n^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物が欲しがるものです\n^green;成長率x^white;2 ^gray;& ^green;+^white;1 ^green;農産物\n^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fertilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肥料"
+    }
+  ]
+]

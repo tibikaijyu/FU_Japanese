@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Coffee and hot milk.\n^cyan;+^white;15% ^cyan;Run ^gray;(^white;1m^gray;), ^cyan;Caffeinated ^gray;(^white;1m^gray;)^reset; \n^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーヒーとホットミルク。\n^cyan;+^white;15% ^cyan;走り ^gray;(^white;1え?^gray;), ^cyan;カフェイン ^gray;(^white;1え?^gray;)^reset; \n^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cafe Au Lait"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カフェオレ"
+    }
+  ]
+]

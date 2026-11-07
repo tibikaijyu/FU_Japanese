@@ -1,0 +1,26 @@
+{
+  "zip_sha256": "1b61632f971348ab45bc27709bd3c7111f96938b1415c02e9e7ff5c5c11b6795",
+  "mod_assets": [
+    "interface.config.patch"
+  ],
+  "patch": [
+    {
+      "op": "replace",
+      "path": "/minInterfaceScale",
+      "value": 3
+    },
+    {
+      "op": "replace",
+      "path": "/maxInterfaceScale",
+      "value": 3
+    }
+  ],
+  "same_filename_overlap_with_fu_japanese": [],
+  "character_creation_files": [],
+  "character_selection_files": [],
+  "font_assets": [],
+  "font_configuration_changes": [],
+  "installed_user_bytes_verified": false,
+  "limited_to_two_positive_integer_scale_values": true,
+  "conclusion": "The reference Readable UI package changes only minInterfaceScale and maxInterfaceScale to 3. It contains no character-creation/selection file or font change. It does not directly overlap FU Japanese 0.2.2 game files. Runtime fit/clipping can depend on resolution; this audit does not establish a freeze cause."
+}

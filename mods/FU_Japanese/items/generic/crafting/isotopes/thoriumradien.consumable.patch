@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "X'ian processes have stripped the impurities. \n^yellow;Type: Isotope^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シアンプロセスは不純物を除去しました。 \n^yellow;型:同位体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Edible Thorium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食用トリウム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a hunter. Provides ^red;Burning^reset;, ^yellow;Proto-Poison^reset;, jungle and mud slow immmunities."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハンターを雇う。 ^red;燃焼^reset;、^yellow;プロトポーション^reset;、ジャングルと泥の緩やかな免疫を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hunter Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハンター契約"
+    }
+  ]
+]

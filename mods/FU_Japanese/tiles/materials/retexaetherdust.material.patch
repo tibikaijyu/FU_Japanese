@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strangely glittering dust"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不思議な光るほこり"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dust"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダスト"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burninate!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃える!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flame Arm II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火炎器II"
+    }
+  ]
+]

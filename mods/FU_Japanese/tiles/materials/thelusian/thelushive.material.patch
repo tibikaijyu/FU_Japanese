@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sharp and jagged, but super strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャープでギザギザですが、超強力です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Resin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシア樹脂"
+    }
+  ]
+]

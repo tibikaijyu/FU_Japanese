@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A couch made from Thelusian resin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシア樹脂製のソファ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Couch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンソファー"
+    }
+  ]
+]

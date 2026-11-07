@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute vanity, for a bathroom"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛い洗面所"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Bath Vanity"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいお風呂"
+    }
+  ]
+]

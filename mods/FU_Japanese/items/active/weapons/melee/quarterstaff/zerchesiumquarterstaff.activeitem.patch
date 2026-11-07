@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dense and deadly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重厚で致命的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムクォータースタッフ"
+    }
+  ]
+]

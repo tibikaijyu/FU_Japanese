@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange fluid with no true stable state."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真の安定状態を持たない奇妙な流体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Subspace Flux Fluid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サブスペースフラックス流体"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A black market customized special needler with razor sharp crystal shards."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カミソリの鋭い結晶シャードを持つ黒い市場カスタマイズされた特別な針。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Shard Needler^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;破片ニードラー^reset;"
+    }
+  ]
+]

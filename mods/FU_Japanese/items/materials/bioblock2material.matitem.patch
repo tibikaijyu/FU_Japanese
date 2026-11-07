@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compacted organic dirt.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンパクト有機汚れ。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dense Proto Shale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "高密度プロトシェール"
+    }
+  ]
+]

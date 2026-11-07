@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "The paranoia of the project lead is great. Perhaps not unjustifiably so, but still it's annoying when you're walking down the hallway and a stray sawblade nearly takes your head off."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "プロジェクトリーダーの放浪は素晴らしいです。 でも、廊下を歩いていて、迷ったソーブレードで頭を離すのが嫌なときはまだイライラします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I ought to speak to Xolotl about this. If the Charge Beam is to be the most basic of weaponry in this line, then what are we going to have to put up with in the future? This must break several safety regulations."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私はこのことについてソロットに話すべきだ。 もしチャージビームがこのラインで最も基本的な武器であるなら、将来的には何を我慢しなければならないでしょうか? これはいくつかの安全規則を破らなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These pages are crumbling away from age."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのページは歳をとらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Hydro Center) Old Memo"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(ハイドロセンター)古いメモ"
+    }
+  ]
+]

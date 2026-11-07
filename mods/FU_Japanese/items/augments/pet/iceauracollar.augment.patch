@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Ice Aura I"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "氷オーラ I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet gets a ice aura!\n^green;+20%^reset; Ice Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは氷のオーラをゲット!\n^green;+20%^reset; 耐氷性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Aura Collar I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷オーラの首輪 I"
+    }
+  ]
+]

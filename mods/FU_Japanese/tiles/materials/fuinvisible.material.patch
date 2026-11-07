@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A useful tile for making hidden walls and backgrounds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "隠れた壁や背景を作るための有用なタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目に見えないタイル"
+    }
+  ]
+]

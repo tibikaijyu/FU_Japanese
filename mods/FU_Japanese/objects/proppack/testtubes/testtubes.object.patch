@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Who knows what's being measured here..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ここで測定されているものを知っている人...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Three tiny vials, propped up on a stand."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "三つの小さなバイアルがスタンドに立っていました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not recommended for drinking."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飲用はお勧めできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Maybe red one iss raspberry flavored?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ラズベリー風味の赤いもの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wary. One must take caution handling unknown chemicals."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "注意。 未知の化学物質の取り扱いには注意しなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Would just a little sip hurt? ... Yeah probably."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "少しだけ口が痛くなるでしょうか? ... たぶんね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Unknown substances appear to be measured in these test tubes."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これらの試験管では未知の物質が測定されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I think I'll keep my distance from these."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこれらから私の距離を保つと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Test Tubes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "試験管"
+    }
+  ]
+]

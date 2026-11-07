@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You'd probably startle the real thing if you wore this!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こういうの着てたら、本気でびっくりするかも!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snuffish Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナフフィッシュマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A locker. Store some stuff, why don't you?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロッカー。 いくつかのものを保存、なぜしませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Locker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船のロッカー"
+    }
+  ]
+]

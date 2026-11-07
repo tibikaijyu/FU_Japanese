@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well crafted, but heavy.\n^yellow;3 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく出来ていますが重いです。\n^yellow;3 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kells Flawless Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケルの無欠の刀"
+    }
+  ]
+]

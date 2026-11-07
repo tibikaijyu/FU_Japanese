@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A VERY high dosage of performance enhancers.\n^cyan;+^white;350% ^cyan;Run^gray;, ^cyan;+^white;150% ^cyan;Jump^gray;, ^cyan;Feather Fall ^gray;(^white;24s^gray;) ^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に高い用量パフォーマンスエンハンサー。\n^cyan;+^white;350% ^cyan;走り^gray;, ^cyan;+^white;150% ^cyan;ジャンプ^gray;, ^cyan;羽毛の滝 ^gray;(^white;24ス)^gray;) ^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uber-Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "超強力刺激剤"
+    }
+  ]
+]

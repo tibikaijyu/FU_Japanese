@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, but sharp as heck.\n^yellow;4 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重いが、ヘックのように鋭い。\n^yellow;4 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンカタナ"
+    }
+  ]
+]

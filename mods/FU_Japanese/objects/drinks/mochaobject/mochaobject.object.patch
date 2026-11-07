@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mild blend of coffee and hot chocolate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーヒーとホットチョコレートの穏やかなブレンド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssweet coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "甘いコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. A mild blend of coffee and hot chocolate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 コーヒーとホットチョコレートの穏やかなブレンド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Coffee sweetened with a li'l chocolate."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "リヨンチョコレートで甘くしたコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mocha"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "茂茶"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy door made from cosmic materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙素材で作られた重いドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルドア"
+    }
+  ]
+]

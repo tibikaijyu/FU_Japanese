@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, dense metal platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で高密度な金属プラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sturdy Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頑丈なホーム"
+    }
+  ]
+]

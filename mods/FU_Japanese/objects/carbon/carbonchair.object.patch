@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This chair is lighter than it looks."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この椅子は見かけより軽い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A simple looking chair."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "シンプルな椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chair made from carbon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カーボン製の椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran ssseesss it isss a chair."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはそれが椅子だと判断した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A chair."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "It's simple, but it looks nice and sleek."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "シンプルですが、すっきりとすっきりしています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The design is simple, I wouldn't mind this in my room."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "デザインはシンプルで、私の部屋でこれは気にしません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This is mighty simple, but it's pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これはとても簡単ですが、きれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンチェア"
+    }
+  ]
+]

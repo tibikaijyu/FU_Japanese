@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases mech health bonus effiency as well as raising total mass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカニカルヘルスボーナスの効率を高め、総質量を増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goliath Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴリアテモジュール"
+    }
+  ]
+]

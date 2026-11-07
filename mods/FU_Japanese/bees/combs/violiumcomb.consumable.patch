@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honeycomb with high violium contents. Increases energy max."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高いバイオリウム含有量を持つハニカム。 最大エネルギーを増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Violium Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビオリウムハニカム"
+    }
+  ]
+]

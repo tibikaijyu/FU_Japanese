@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primitive shaman's implement."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原始シャーマンの道具。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨の杖"
+    }
+  ]
+]

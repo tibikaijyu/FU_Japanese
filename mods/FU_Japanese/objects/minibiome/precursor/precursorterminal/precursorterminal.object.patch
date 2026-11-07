@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient device used to form raw creatia into nearly any object imaginable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の装置は、想像できるほぼすべての物体に生の創造物を形成するために使用されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "Reshape pixels into known objects using ancient technology."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "古代の技術を使って、ピクセルを既知のオブジェクトに形変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Precursor Fabricator"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "前駆体製造装置"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Fabricator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体製造装置"
+    }
+  ]
+]

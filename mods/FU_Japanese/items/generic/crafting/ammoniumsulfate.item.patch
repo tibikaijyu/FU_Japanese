@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sulfur-rich inorganic salt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硫黄を多く含んだ無機塩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ammonium Sulfate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫酸アンモニウム"
+    }
+  ]
+]

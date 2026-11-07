@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A delivery box. But of what?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "配送ボックス。 でも何?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A blue package, left unopened."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "未開封の青いパッケージ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blue cardboard box, adorned with an ominous blue \"J\"."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "青い段ボール箱、不吉な青 \"J\"で飾られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "What iss in pretty blue box?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいな青い箱には何がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. What is a package doing out here? Is it for me...?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 パッケージはここで何をしていますか? 私にとってはそれです。.?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I didn't even know they made blue cardboard."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "彼らが青い段ボールを作ったことさえ知りませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Whoever shipped this package out certainly is dedicated to their branding."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "確かにこのパッケージを出荷した人は、彼らのブランディングに専念しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Well don't mind if I do."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "よろしければ構いません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;の箱"
+    }
+  ]
+]

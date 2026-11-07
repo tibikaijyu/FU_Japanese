@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gives your tenants a place to dispose of their recyclable goods. \n^yellow;+1 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テナントにリサイクル可能な商品を処分する場所を与えます。 \n^yellow;+1Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Recycling Center"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リサイクルセンター"
+    }
+  ]
+]

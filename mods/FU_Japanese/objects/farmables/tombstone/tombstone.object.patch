@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A grave."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "墓。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grave"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "墓"
+    }
+  ]
+]

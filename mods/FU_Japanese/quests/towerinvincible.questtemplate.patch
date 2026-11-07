@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Ha ha! A true test and proof of my stremf! Now time to help myself to all this sweet, sweet loot!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ハハハ! 真のテストと私の強みの証明! 今、この甘くて甘いルートすべてに自分自身を助ける時間!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Defeat the dread warlord of the Tower Invincible."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "無敵の塔の恐怖の武将を倒す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A dread Glitch warlord has been terrorising nearby planets from his tower on a far-off planet. I should do something about this."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ある恐ろしいグリッチ将軍は、遠く離れた惑星にある彼の塔から近くの惑星を恐怖させています。 私はこれを何とかすべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Tower Invincible"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; 無限の塔"
+    }
+  ]
+]

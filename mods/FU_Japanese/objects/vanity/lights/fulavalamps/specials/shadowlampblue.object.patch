@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A light blue lava lamp. It gives off a cold glow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水色の溶岩ランプ。 冷たい輝きを放ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowy Blue Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウブルーラバランプ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Eradicates large swathes of terrain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな地形を放射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Grenade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子グレネード"
+    }
+  ]
+]

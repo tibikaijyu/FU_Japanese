@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Life Seeker"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "生命探査家"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Deadly rockets. Internal battery charged by your energy pool when not in use.\n^cyan;Heat-Seeking Alt (3 tick lock-on)^reset;\n^yellow;Alt slows, irradiates and burns!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的なロケット。 使用していない場合、エネルギープールによって充電される内部バッテリー。\n^cyan; 熱探知Alt(3 ティックロックオン) ^reset;\n^yellow;Altは遅くなり、照射され、燃えます!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spankr"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スパンク"
+    }
+  ]
+]

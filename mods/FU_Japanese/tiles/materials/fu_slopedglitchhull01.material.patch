@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hull paneling made for Glitch ships. Strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリッチ船用の船体パネル。 強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. Made to line the outside of our ships."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 私たちの船の外を並べるために作られました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Glitch Hull Paneling"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜グリッチハルパネル"
+    }
+  ]
+]

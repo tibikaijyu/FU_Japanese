@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vitality-increasing plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "活力 - 増加植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Root Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液根種子"
+    }
+  ]
+]

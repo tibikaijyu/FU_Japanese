@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "(The poster appears to have been poorly translated from some other language. The center is focused on a blond man in a white bodysuit and wearing large sunglasses. Flanking him are a ninja with absurdly long hair, and a young woman with blue-feathered wings.)\n\nEIGHT GUARDIANS FIGHTS TO REGAIN PEACE OF THEIR ADVANCE CITY"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "(ポスターは、他の言語から翻訳されていないようです。センターは、白いボディースーツを着て大きなサングラスをかけている金髪の男性に焦点を当てています。彼の横には、不条理なほど長い髪の忍者がいて、青い羽を持つ若い女性がいます。)\n\n八人のガーディアンズが先進都市の平和を回復する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "'Techno City, a city filled with advance technologies that it looks like a city from the distant future. Everyone wanted to live under this wonderful, highly advance city.\n\n'Just then, the leader of the city became mad and started to wreck havoc all across. He created strong biomutants and powerful technological warriors, teamed up with his army of enhanced humans, the leader spreads his chaos all over the city."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "「テクノシティは、遠くの都市のような先進技術で満たされた都市です。 誰もがこの素晴らしい、高度に進んだ都市で暮らしたいと思っていました。\n\nちょうどその時、街の指導者は怒って、全土で大惨事を起こし始めました。 彼は強力なバイオミュータントと強力な技術戦士を創造し、強化された人間の彼の軍隊と協力して、リーダーは彼の混乱を街中に広げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "'In the midst of all the chaos, one man rose up against it. A young commander that controls 'SMASH', an elite unit functions as guardians of Techno City. With the help of his eight guardians, the 'SMASH' unit wages war with the leader.\n\n'The battle for the fate of Techno City begins...'"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "混乱の真っただ中に、一人の男がそれに対して立ち上がった。 エリートユニット「破壊」を統括する若き指揮官がテクノシティの守護役を務める。 彼の八人の守護者の助けを借りて、 \"破壊\"ユニットはリーダーと戦います。\n\n「テクノシティの運命への戦いが始まります......」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old advertisement for an obscure arcade game."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "難解なアーケードゲームの古い広告。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Penguin Highway) Guardians"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(ペンギンハイウェイ)ガーディアンズ"
+    }
+  ]
+]

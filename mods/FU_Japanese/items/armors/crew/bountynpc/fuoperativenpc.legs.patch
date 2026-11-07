@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stylish, classy, and dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイリッシュで、上品で、危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Operative Leg Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手術用脚甲甲"
+    }
+  ]
+]

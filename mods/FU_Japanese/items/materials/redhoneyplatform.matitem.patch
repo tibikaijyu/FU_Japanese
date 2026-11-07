@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A red, sticky platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤く、粘り強いプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Honey Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドハニープラットフォーム"
+    }
+  ]
+]

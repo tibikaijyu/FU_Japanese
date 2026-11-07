@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Golden Paneling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴールデンパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "High tech golden panels."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクゴールデンパネル。"
+    }
+  ]
+]

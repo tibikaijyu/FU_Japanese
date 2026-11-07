@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Disgusting, writhing grossness. Taste it. I dare you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "嫌悪で、粗雑な書き方。 味見しよう。 あなたを大事にしています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Maggot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウジ虫"
+    }
+  ]
+]

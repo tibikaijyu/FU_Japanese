@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Craft into bombs, or extract for iron.\n^yellow;^reset;^red;Poisoned^reset;: 5s\n^yellow;Type: Robot Food^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆弾を仕掛けるか、鉄の抽出を行います。\n^yellow;^reset;^red; 毒 ^reset; : 5 s\n^yellow;タイプ:ロボットフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nailery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "製粉所"
+    }
+  ]
+]

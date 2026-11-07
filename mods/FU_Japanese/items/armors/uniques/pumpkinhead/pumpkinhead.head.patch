@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Call on Ichabod Crane!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Ichabod Craneを呼び出します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pumpkin Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カボチャマスク"
+    }
+  ]
+]

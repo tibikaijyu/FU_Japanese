@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strangely glittering dust.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不思議な光るほこり。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dust"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダスト"
+    }
+  ]
+]

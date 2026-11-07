@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A handy farm animal, since they digest their food into copper pellets. Carnivore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らは食べ物を銅のペレットに消化するので、便利な家畜。 肉食動物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copperbeak"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅くちばし"
+    }
+  ]
+]

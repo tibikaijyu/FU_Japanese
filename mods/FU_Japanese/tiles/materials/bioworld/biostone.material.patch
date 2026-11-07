@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stone, yet organic material saturates it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石、まだ有機材料はそれを飽和させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原石"
+    }
+  ]
+]

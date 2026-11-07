@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floor of the ancients.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の床。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Lit Floor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆光床"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "How does it glow? I see no power source. Yep, that's creepy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どのように輝きますか? 電源はありません。 うーん、これは不気味だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowing Monolith"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モノリスの輝き"
+    }
+  ]
+]

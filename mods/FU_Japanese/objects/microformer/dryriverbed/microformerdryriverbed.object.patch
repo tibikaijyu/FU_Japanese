@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a dry riverbed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を乾燥した河床に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dry Riverbed Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドライリバーベッドマイクロフォーマ"
+    }
+  ]
+]

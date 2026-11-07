@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exceptionally effective. Reduces fuel cost by ^green;40^reset;%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に効果的です。 ^green;40^reset;% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Precursor Fuel Purifier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;プリカーサ燃料精製装置^reset;"
+    }
+  ]
+]

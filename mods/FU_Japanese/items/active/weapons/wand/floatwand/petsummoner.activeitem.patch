@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to summon your pets to your side.\nHold ^green;Shift^reset; to summon crew instead.\n^red;Consumes ALL energy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットをあなたの側に呼び出すために使用されます。\n^green;Shift^reset; を長押しして、クルーを召喚します。\n^red;全エネルギーを消費する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Companion Recall Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンパニオンリコール装置"
+    }
+  ]
+]

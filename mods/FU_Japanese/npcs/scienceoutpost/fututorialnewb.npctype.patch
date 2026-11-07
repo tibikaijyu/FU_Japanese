@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Welchie"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "ウェルチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "Be quiet. Some of these liquids can explode."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "静かにしろ。 これらの液体の一部は爆発する可能性がある。"
+    }
+  ]
+]

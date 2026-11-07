@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Trim Block for an Apex spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス宇宙船用のトリムブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Trim Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アペックストリムブロック"
+    }
+  ]
+]

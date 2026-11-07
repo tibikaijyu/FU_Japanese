@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Greatly increase Shielding abilities."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シールド能力を大幅に向上させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Shieldmaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "シールドマスター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rusty chainsaws taped to the ends? Sure. Why not. Seems totally viable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "錆びたチェーンソーが端にテープで貼られていますか? もちろん。 違うのはなぜ? 完全に実行可能のように思えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンククォータースタッフ"
+    }
+  ]
+]

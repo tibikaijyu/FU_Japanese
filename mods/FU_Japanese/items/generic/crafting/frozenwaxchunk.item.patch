@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A frozen chunk of beeswax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷凍したミツバチの塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Beeswax"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍ミツバチ"
+    }
+  ]
+]

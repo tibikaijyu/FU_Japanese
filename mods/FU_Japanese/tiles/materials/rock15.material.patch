@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined chert."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、洗練されていないチャート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Chert."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 シャート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chert Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャートブロック"
+    }
+  ]
+]

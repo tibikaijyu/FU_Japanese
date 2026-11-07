@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large fluffy cloud chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなふわふわの雲の胸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Cloud Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型クラウド胸部"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reads the soul."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魂を読む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soulreader"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソウルリーダー"
+    }
+  ]
+]

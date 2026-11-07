@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very hard vegetable, capable of resisting damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に硬い野菜で、損傷に耐えることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rockroot Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "岩根種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick, with whole cherries to accent the flavor.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;120s^gray;)\n^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚く、全体のチェリーで味をアクセントにします。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;120ス)^gray;)\n^green;種類:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry Porridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "さくら"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block that enhances the speed of the person moving over it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その上を移動する人の速度を高めるブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Speed Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スピードブロック"
+    }
+  ]
+]

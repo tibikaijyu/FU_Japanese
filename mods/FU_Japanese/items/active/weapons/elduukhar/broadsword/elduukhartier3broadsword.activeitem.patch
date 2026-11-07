@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ornate greatsword crafted from metal and crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属と結晶から作られた華麗な大剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feya Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "太刀"
+    }
+  ]
+]

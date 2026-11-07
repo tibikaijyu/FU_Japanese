@@ -1,0 +1,1348 @@
+{
+  "status": "read_only_audit_complete",
+  "runtime_tested": false,
+  "user_freeze_causation_established": false,
+  "modifications_to_released_mod": 0,
+  "scope": "v0.2.2 Lua deltas, display helper boundaries, startup-related FU source identity, root generation settings, and patch control-key scan",
+  "limits": [
+    "No Starbound native process was launched or profiled.",
+    "A last log entry does not prove that the operation named by that entry is the blocked operation.",
+    "No claim that all third-party MOD interactions are safe.",
+    "The patch control-key scan checks operation leaf keys; it does not prove semantic safety of every string or generated name.",
+    "Name generation and species/character UI were assigned to other reviewers; their findings are outside this audit."
+  ],
+  "log": {
+    "path": "external-inputs/starbound.log",
+    "sha256": "d94f2f6fc39daf0f9f01be8f049ed0d4c3c8e734f04a249da18aba2280847373",
+    "line_count": 147,
+    "last_entry": "[20:54:07.151] [Info] UniverseServer: Acquiring universe lock file",
+    "lua_exception_lines": [],
+    "fatal_exception_lines": [],
+    "guide_species_helper_activation_lines": [],
+    "errors": [
+      "[20:50:05.167] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\\mods\\japanese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find \"apexDescription\" to remove",
+      "[20:50:05.686] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\\mods\\japanese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find \"novakidDescription\" to remove",
+      "[20:50:05.935] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\\mods\\japanese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find \"novakidDescription\" to remove",
+      "[20:50:46.713] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\\mods\\japanese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply(\"/paneLayout/labelGender/value\")"
+    ],
+    "observed_loaded_databases": [
+      "NameGenerator",
+      "PlayerFactory",
+      "SpeciesDatabase",
+      "CodexDatabase",
+      "ItemDatabase"
+    ]
+  },
+  "lua": {
+    "file_count": 135,
+    "comparison_to_021": {
+      "identical": 131,
+      "added": 2,
+      "changed": 2
+    },
+    "changes_since_021": [
+      {
+        "asset": "fujp/guide_display.lua",
+        "sha256": "10e055338117fb4c08b5fd6ebc589f4a30f9af4a55ed3a9ce8a432243847fa62",
+        "relative_to_021": "added"
+      },
+      {
+        "asset": "fujp/species_display.lua",
+        "sha256": "6af32b39aba2da167cc0afe9a519b23339fc3dd67512380377723ae820563731",
+        "relative_to_021": "added"
+      },
+      {
+        "asset": "interface/scripted/statWindow/statWindow.lua",
+        "sha256": "2603f26483c474f3893f80a1f912dc49c0936ac17099f9c696817fc2c439ac5e",
+        "relative_to_021": "changed"
+      },
+      {
+        "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+        "sha256": "7b0976d09beac0865e9dbc20bf6470b0e583398d8f80b60a4b8ed46b207cd26e",
+        "relative_to_021": "changed"
+      }
+    ],
+    "direct_player_or_universe_lua_replacements": [],
+    "reviewed_helper_findings": [
+      "fujp/lua_display.lua does not replace a Starbound API; it caches dictionaries and returns display values.",
+      "The guide/species helper additions are loaded by their respective scripted in-game panels, not by a newly introduced startup hook.",
+      "Guide/species helper lookups use finite tables and contain no while/repeat loop or self-requiring import.",
+      "No added recursive API wrapper or unbounded loop was identified in the v0.2.2 Lua delta.",
+      "Item-builder changes inspected are tooltip/description/name display values; gameplay/stat IDs remain in the original variables."
+    ],
+    "inventory": [
+      {
+        "asset": "bees/beeBuilder.lua",
+        "sha256": "0e45f60e0ed431f82fb9a40e919a3daa9c1d8dffab065dd3497f38f08e479843",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "bees/beeExaminer.lua",
+        "sha256": "bde475f8a7ee323d302fd319c263240d56bea8b57af86ee8ffce18a63bccd009",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "bees/beeExaminerITNShell.lua",
+        "sha256": "7829c8c6e67d294af4370277888a49e5001dcc96bd09e1fc1d90e61e3f07568f",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "bees/interface/beeexaminer/beeexaminer.lua",
+        "sha256": "5d40ff748155c55d8ecfdacf41b3bed7c26de7f39e83ec53d87a154efb824c2e",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "fu_metagui/settings/module.lua",
+        "sha256": "4f2508e659f52c6956c18d78cce4e2208bb1cc3faf9ef9f8b8015d456d2c3393",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "fujp/guide_display.lua",
+        "sha256": "10e055338117fb4c08b5fd6ebc589f4a30f9af4a55ed3a9ce8a432243847fa62",
+        "relative_to_021": "added"
+      },
+      {
+        "asset": "fujp/lua_display.lua",
+        "sha256": "876a8b00b9dc395c19e334d7f3d8425cde200da42306f94912542e6aa80f0f7b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "fujp/species_display.lua",
+        "sha256": "6af32b39aba2da167cc0afe9a519b23339fc3dd67512380377723ae820563731",
+        "relative_to_021": "added"
+      },
+      {
+        "asset": "interface/ai/fu_byosai.lua",
+        "sha256": "0806e1e2926fcafd8329c7118e5567c66768ec1c01f6b46e0b5c722d7291741a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/catalystfuelrefinery/refinery.lua",
+        "sha256": "fa9c73c1e9e04a43f21f013108983ff2d9bd21e4f4a8e0c4a38c4a37096fafd3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/chests/ContainerControl.lua",
+        "sha256": "783020d4dc43b3f90aea243eea1b6232d0679c34a0db280452494691b789b1d2",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/games/fossilgame/fossilgame.lua",
+        "sha256": "ee4493edfc26db04a18fb64672612892c81ea25c4444938003d21be82b8b6c4b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/kheAA/kheAA_router/kheAA_routerGui.lua",
+        "sha256": "2f6b955c906721ec22fd3312a816b6160fdb1d2bb911de5726bdb873982aa665",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/kheAA/kheAA_toolforge/kheAA_toolforgegui.lua",
+        "sha256": "7f82b54259f2b678279fd57e30a50cb52fff49c577b02dd9427765d344af99ee",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/kukagps/kukagps.lua",
+        "sha256": "ec586d923c590c1296bd36deb269cfd5bf5a34fc06b8da92f96874e1feb543cb",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.lua",
+        "sha256": "f79ee27a3c55f5f11e700a9c4270d98dbd2676508c863cc46c62c82f12cd6a52",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/mechfuelrefinery/fuelrefinery.lua",
+        "sha256": "ce92945c45267ab555f5033996695d64fc0aee9cb68743e4d59a4eb8ece92614",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/mechstats/mechstats.lua",
+        "sha256": "43f3201545f5f42ad1597b37e7cecf3de9f6db4b080487fcb62d8e6dd5c596c8",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/objectcrafting/fu_pethouse/fu_pethouse.lua",
+        "sha256": "65559bc51a6746485e89dee1c2dc5be06fb7bdbd03a3520eabb9a433703cc482",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/objectcrafting/fu_petnamer/fu_petnamer.lua",
+        "sha256": "9ca103e0b10af5633250c7a825b4bbf940f7ffa223d054cc79dd02c0129ead6a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/objectcrafting/fu_racializer/fu_racializer_gui.lua",
+        "sha256": "126e02777f8c3f97bfd3514e78e727b0a931896f1af8d58644581489ec01e883",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/fm_musicplayer/fm_musicplayer.lua",
+        "sha256": "7c857b8c9e210a3a2986bc26b3c295a44e6261f5bc0314691b55c4dff9e534be",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/fu_craftinfo/fu_craftinfo.lua",
+        "sha256": "0610d7273aa958b5cd7c0a57c6fc505842dd287333687591a626d6df781dd100",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/fu_lootbox/fu_lootbox.lua",
+        "sha256": "8aa66b92397c18a7c8f448d74c57d79e4029e79c6b1098064ea7be7da7eff689",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/fu_matmodplacer/fu_matmodplacer.lua",
+        "sha256": "15b0399f8f37c5d09944dfd4ef853ddd25aff2efe4d7c62198afc82316f8a308",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/fu_upgradetable/fu_upgradetable.lua",
+        "sha256": "902cf8559bdc261f64cf790f89dcb5197e8b9f297ddf00786f3dd1e458452a7f",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/sbvn/pandorasboxsbvngui.lua",
+        "sha256": "1c2d8d11108e02a582db93a62ae04c50d2d940ba0443f42c3975a09b1b73ab8f",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/spaceStation/spaceStation.lua",
+        "sha256": "4288521f1501e290e18f5ad218965a8ab543f02230e42bd1c4cd92c3ed5ce354",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/statWindow/statWindow.lua",
+        "sha256": "2603f26483c474f3893f80a1f912dc49c0936ac17099f9c696817fc2c439ac5e",
+        "relative_to_021": "changed"
+      },
+      {
+        "asset": "interface/scripted/stickynotepadfu/stickynotepadfu.lua",
+        "sha256": "6ed99b54878d9ea178b5f4a4b660315c58e86b43bb3ea4154553fc416d175591",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/techshop/techshop.lua",
+        "sha256": "4846f9e74c322ec5a385683572509f6e18e562a4b891bb7469401f7c30e1c11b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/tunableoredetector/tunableoredetector_gui.lua",
+        "sha256": "d974b82c10827fab23acf0ec949029e8f0136583b275f0c9f4ca77efcd491cc0",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+        "sha256": "7b0976d09beac0865e9dbc20bf6470b0e583398d8f80b60a4b8ed46b207cd26e",
+        "relative_to_021": "changed"
+      },
+      {
+        "asset": "interface/shipnameplate/fu_shipnameplate_ui.lua",
+        "sha256": "f4adb056e540227d48d2c1d09605ef59c92fbcb20452257837ab41bdab8d21e0",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/active/unsorted/fu_monsterinspector/inspector.lua",
+        "sha256": "7bac7fa7fc42ec88ff036e955f5767ecf079719fe707eab548f4ebfef9a3c872",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/active/unsorted/kheAA/pointsensor/pointsensor.lua",
+        "sha256": "655bdcc00bcb9f34c867b8dc4090b932fd01c3fe520f55144463f5530966c84e",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/active/weapons/other/skittlegun/skittlegun.lua",
+        "sha256": "dc94042272d5a3e046d75cf0f24b3a3326f2a70f04e910f66801711abe4d8d9b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/active/weapons/other/skittlegun/skittlegunfake.lua",
+        "sha256": "cb918bbb57a673549a61d913453426a72670fa9fad6812bdfb37cc15e57e246a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/active/weapons/ranged/gunammo.lua",
+        "sha256": "635e4188de756365adc1331d7e254964202c0dd54853d2ac125a3dbd85594a5d",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildbeeframe.lua",
+        "sha256": "ed686d5c3a7db1a2a09d8e79a5c9fce9895db3c5ef110c8e9b7a1b3cf0dfeacf",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildboomerang.lua",
+        "sha256": "a03fe9ce7a43df4cc9c332eed256f504224ab4db3bc3a58e508fe6b62b7c2844",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildbow.lua",
+        "sha256": "709ab395367fc00ee8b4a2b4c4d38cd3535780a8282fcd92f51d19c565e7a0a1",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildfist.lua",
+        "sha256": "15689ebe33509e5d400bdb9ddf818980d2656c9f593365e080a079a24eca6d1c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildfood.lua",
+        "sha256": "9b4db807ef526294813e26c14182b29610700e5149782eb54a7a3ed412d4c78c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildfuoverheatweapon.lua",
+        "sha256": "31e0647fbb78e27570aca6dbee4072bf5caee8f9615b231e08d793bfb177323a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildsapling.lua",
+        "sha256": "6bbac07533b8f4d8d7c77f7836690373ae1b1e20497e776bc9c8cd00cff49dd4",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildunrandweapon.lua",
+        "sha256": "9044b936b949628aa461b303505f4460886d0af896c07cfd3309ec87d253ab28",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildweapon.lua",
+        "sha256": "58fe47d57d030bc9ec8a8761fd4dd61fb993eafa10dbaf9eadee28672dedb051",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/buildwhip.lua",
+        "sha256": "0f13b7da55f166611c43dbdd2cc3ac9b167d3167e28526af27c77733107d6a0c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/fubuildarmor.lua",
+        "sha256": "bc63942a182355b977a5826c4df2216773d9cc9ec555a8c44ee3b1fbdb13771b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/fubuildchakram.lua",
+        "sha256": "92a77c19d8137ddc7276fc65cd0a75e351b2690c7ca9c08838dfde014745c313",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/fubuildmagnorb.lua",
+        "sha256": "0c0e93f090559dbccb795a59ffb16885dc6b27be6073df7e16b9a552b17c6f48",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/neb-buildbow.lua",
+        "sha256": "6d6b01473ab1b0c5f587d338bf80d07fcc8eae23eec541970247a148ac66c7ae",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "items/buildscripts/neb-buildrandombow.lua",
+        "sha256": "f6166254213ffd4f34354f96c9683a5e08958cc3f9ccc30cfa2307bf06cc8adb",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "metagui.lua",
+        "sha256": "eee04c5d6ef201b4ddc881fecb57583cd576a81ae4c12126aa759da5f08b20b7",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/ancientsentry/ancientsentry.lua",
+        "sha256": "a0b702f5b9ab391dbc0805de00dd51774c302ce59f5e01a269a9951ea479c738",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/infernusbot/monster.lua",
+        "sha256": "9398c61024956fce1c09be78fa6c6b739d346ff41c1eabc77f0bb960f82119b8",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/megaspider/monster.lua",
+        "sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/megaspiderbaby/monster.lua",
+        "sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/megaspiderradbaby/monster.lua",
+        "sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/precursorwarbot/monster.lua",
+        "sha256": "19161dad16d681f9d5e767e4d498707f34bdcfd0d78793aa33f67eeb86499004",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/shoggoth/bossmonster.lua",
+        "sha256": "1c5f6f192c92d3c73020ebf491b6bf6fc9c7f3d06bdef573e772ae1ab4cce012",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/shoggoth2/monster.lua",
+        "sha256": "9e3147f11f352f80868c0e6588e52c8ae951286a80baccbb33d28e31ef5accd3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/boss/warbot/monster.lua",
+        "sha256": "11202a82fd19b4bfc3b56d6f4f2ec9d5ae0bbfd6253dadb09fdbe8242f8f6f19",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/dungeon/starspawns/starspawn/monster.lua",
+        "sha256": "b6764b88fbdc4a8013658c6b870b3d028494a9880b75d2d7ba0ed1e8b8fe1742",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/dungeon/starspawns/starspawn2/monster.lua",
+        "sha256": "205c233219e82a020183a27f474ecb096e1f6b40608054c55e889382779e79b3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/dungeon/starspawns/starspawn3/monster.lua",
+        "sha256": "9b001a34cd97e5b1db4c836c658137d7764ea97c63e17ec5c483a09c88e81518",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/fish/atropusfish/monster.lua",
+        "sha256": "ec4e9375294bf6883a732b02184173eda7690969ccbcc2594ceee37a4418e7b5",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/fish/veilendrex/monster.lua",
+        "sha256": "80fe0723296040c746622e9b2b71e48557dfba7a285eddcbbcd3b395696be76e",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/flyers/bighairyfrank/monster.lua",
+        "sha256": "71b48dcd1ad0ff4d41afe486d8463a244bc37efba77abffa4cd40ebba3eca582",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/generated/ground/hugebiped/monster.lua",
+        "sha256": "63121273fe2d625ba668aa4131f91d57a83a19dde29814699a54cab05243c30d",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/monstersegmentmega.lua",
+        "sha256": "61d2c1157d5c805b2e3cddb3e12f2c543ae793955b220007206dcbde35f344f5",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/space/fuheavydrone/fuheavydrone.lua",
+        "sha256": "2de3d55eb2282b09c3d4672749cf9cc78260c302d37fd3caf6e1dc17b65ad7f6",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/walkers/adultpoptop/monster.lua",
+        "sha256": "1705e0ec8dc9e4c9193f83731158a848ef6016078a777393012be4a2c9f636f4",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/walkers/adultpoptop/monster3.lua",
+        "sha256": "33ca03d48a7187a49d75de6c1f5dc7c732b63e26887824b204eff28c63c299ac",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/walkers/adultpoptopish/adultpoptopfire/monster.lua",
+        "sha256": "2f0e827e3803d5a7cc1eb05b0303f54fa158ec0e754e644d826c4550f46047db",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "monsters/walkers/adultpoptopish/adultpoptopfire/monster2.lua",
+        "sha256": "f2dc8a938ee9183c88c28ef39a407540e8f81f0be57f0247aab35aa7ce7e6fc2",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/augmentextractor/aex.lua",
+        "sha256": "32b9f7cacb31695d2ec171b573944f046d4fc4c36349764c536ae0db5d91cfab",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/blooddonation/blooddonation.lua",
+        "sha256": "2a1c9004e90881a4f628f1353f4943d8b74cabc12e5aae99e577c76ecf866288",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/communitygarden/communitygarden.lua",
+        "sha256": "f1f828499451671c954e5e88da286147e3da80feffa82d4b6f35d07cb8b5c94b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/communitygarden/communitygardenold.lua",
+        "sha256": "55792c220513d6c456f8cf04272b870444f2dd2cf4bfc4210afec97d165fca7c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/computerlab/computerlab.lua",
+        "sha256": "f367b6c408f14c0e59969191957ffad4dbcf6a758db3f8f081e5fcac1cd8d119",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/drugdiffuser/drugdiffuser.lua",
+        "sha256": "55494f2fa005fa161520b15ec0c312d126a40ce5c2c03f1ff89f29c88db682c3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/ftlcommsdish/ftlcommsdish.lua",
+        "sha256": "74e468b8470e0ae80594fc786e9a5eb3b3176dab901ef49edf42796ab1d8f52c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/hiddencameras/hiddencameras.lua",
+        "sha256": "41de5bc1751dcd75ff9e4018c599fcd552d43f8c9d7521a26d02f396916ff930",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/hobbytable/hobbytable.lua",
+        "sha256": "8c366d4ad6df1f92efdb349e8654bb2b6355abb303efb7722b4b5d2b2a1bfaed",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/psionicharvester/psionicharvester.lua",
+        "sha256": "051c25517d4bce0d1efd4b996bc0f8100ca0c4e3442e90c8b87c196032a06afd",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/recyclingcenter/recyclingcenter.lua",
+        "sha256": "0c9c2ae68a6247370561720d3f2b24ee50c92e3d82bb2c65fd8aa617234c1435",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/sewagetreatment/sewagetreatment.lua",
+        "sha256": "5bf13eba8968edba75be271afda83273225de92bb769de3ab86210a3a4f5d28b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/colonysystem2/addons/subliminalmessaging/subliminalmessaging.lua",
+        "sha256": "9b7a5f8828ea404339b13b5351713ae25790f006c00d8c82ac48d986f3a133a7",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/crafting/farmwell/farmwell.lua",
+        "sha256": "67282ab9bde7ddf793cbdd07729a60dbc0b846b2e08bd660021b24a8eaabdd2c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/crafting/servitorloader/servitorloader.lua",
+        "sha256": "aeb3f4275bc99c804f6ec12dca4846abdca99731c6253da32f08345f938aa1d6",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/crafting/xiwell/xiwell.lua",
+        "sha256": "e3d9aaec80293e3818f326bc758066d11ff993ea6342c5146216cb68c7e6301d",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/generic/extractor_research.lua",
+        "sha256": "cd55fc1d5c5aea6d53642eca70bf75a51c89d423b64e70bdb33a4cced6f35777",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/generic/fm_musicplayer/fm_musicplayer.lua",
+        "sha256": "639e003a79466bf44745df8b6afbdf183715b99e97227b44a3b51a8e12df17bd",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/generic/pong/pong.lua",
+        "sha256": "3c427642ab66d3a651ce5eee6a0b5b5142830c71508b365777f46558d6148be3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/generic/timeobelisk/obeliskscan.lua",
+        "sha256": "94e1b1b063dfdc5950e0eb728c598e07f742d0d12b65a81332a32ab685464302",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/isn_unifiedgrowingtray.lua",
+        "sha256": "892df83b431d4e67ca61f38f479797c1b10cb7fa1b954dded35a87639acd5fb3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/minibiome/elder/cultaltar/cultaltar.lua",
+        "sha256": "0d5a02749e22ca58d6f0bde340b32845e5158a0d378091f8d28d99f98938f673",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/minibiome/lush/poptopcavern.lua",
+        "sha256": "05635634f0f1145ea6eb984a4b2d409c2ffaf7f199157e82faa492fbe5567fc5",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/pilch_shieldadminconsole/pilch_shieldadminconsole.lua",
+        "sha256": "1456f82e48330e718dc42aa85020ee1a92eb947ed4ca248c7f69169fba86c42a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/pilch_shieldadminconsole/pilch_shieldadminconsole_gui.lua",
+        "sha256": "d1edae31db823eb1b73a25df094224fa11ac2f59404b78f6b883bdf27251889a",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/pilch_shieldgenerator/pilch_shieldgenerator.lua",
+        "sha256": "21df09dabf4196f6951802caab8891dd55e5da5609f771527cf579dd98d66a58",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/pilch_shieldgenerator/pilch_shieldgeneratorasteroid.lua",
+        "sha256": "b9eb5ab9d54fbbb0197d17f330aa31bad420a65711e3692a1fd7d745f830c9ee",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/portals/extrateleportradar/extrateleportradar.lua",
+        "sha256": "0f6bfe9f28de8429f1c45755b2406368791d4d3f41d7429add7084591937cc34",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/power/fu_liquidcondenser/isn_resource_generator.lua",
+        "sha256": "3eec4b64025c41cde34b7698d4212829814df90e2d025432e935107f17b77d34",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/power/isn_atmoscondenser/isn_resource_generator.lua",
+        "sha256": "abccc2a8e18908c01718828bd3aa0c6147d7051eae2f62dd722d882914b4002c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/power/isn_battery.lua",
+        "sha256": "cc69f3863850bfc577b9c186d5f72ca165e6980ab4979edd86c84c9d1e832edf",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/scanInteractableExample/scaninteractionexample.lua",
+        "sha256": "3920a953f883d470d218d0e8ea374cddef15372e16ae35bb13c8ff7e689d97f2",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/ship/fu_byospethouse/fu_byospethouse.lua",
+        "sha256": "fd85934e92527a191d87d7a9ffaec00e144acb3a98a4d099d29b52304df1d0a8",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "objects/ship/fu_crewdeed/fu_crewdeed.lua",
+        "sha256": "2bf48d6bba9f51553cb75ded839cb7bb6716b06858dbed5745befd8bd756eb54",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "quests/scripts/items/itemspawn.lua",
+        "sha256": "59dc7df734979c4253a66c25e76f43d24372da8a4e862aec1b1c9dcb09b4109f",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "quests/scripts/main.lua",
+        "sha256": "ff8c21640b9ffae15ef6248b6d5bffcbe1727c4391d06b08c672825447ea4d99",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/actions/npc.lua",
+        "sha256": "6ca5a31f06671b26f4a6cfe8042f7df97c0738222494da81bda8c3ff382d3b0b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/colonycorefu.lua",
+        "sha256": "80388cdbf59469d6fa8ac02022cadf6fc43339ae51c3aa69abd18b63e9d0d543",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/companions/capturable.lua",
+        "sha256": "d35b3fd3069fda29b52ba065d75a54f2ab28a6bc69bb448b4fccf6c423544637",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/effectUtil.lua",
+        "sha256": "f93367d446fe92dc78921951c1e65f198bb84ceb39c4afd22bcd2cbb08a9795b",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/fu_crewoverflow.lua",
+        "sha256": "1339c961a300ff27c8d0a0a4382b28168185171184da49ef3b83ad486e451109",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/fupesttrap.lua",
+        "sha256": "f790dbf6bcbcf3e7ff5d7810227de0f23fbee180dd09c89670b9818dd8cdc6ca",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/fuwell.lua",
+        "sha256": "12f7da47aebae25bc4f507a0325ae72670447ba1f25e0ea683cd7a92fe9c05ea",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/pandorasbox/objects/pandorasboxfeatures.lua",
+        "sha256": "5572db8fb7a8066dfa16c552e7d2eff1f955b150bee6fb240fce61b0c747e505",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "scripts/pandorasbox/objects/pandorasboxkeepcontent.lua",
+        "sha256": "7c5f0d3a8054c3bc86b2b7a16a4d9b9444fed129cc522fd6ff572deac336cd3f",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "spawners/fubotspawner.lua",
+        "sha256": "8cb50f8a710a0e50d4cbfb1b88bd94d0a9c7e42f111f8330d7cb3ae4dcb7211c",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "spawners/fuminionspawner.lua",
+        "sha256": "6dea57fd61ceda4b8c20758550f14d3d9a47a7a006fd2fa9fcdbc091b227c571",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "stats/effects/fu_weaponeffects/Skittles/timefreezeSkittles.lua",
+        "sha256": "c390020911e23f77e596e82d81ba93f72eccc6e827781ecbe1714a8329ae13da",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "stats/effects/partytime/partytime3.lua",
+        "sha256": "f6a9d6ad32c3418690510a16e8e721409fa3ac48f0931d73b87481a9445cedb3",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/newSail/fr_toggleFunction.lua",
+        "sha256": "99cdd37e6f75664c90a1b97eb3e4bbe92edf5b6a7b4ec42649737d4decdd5107",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/newSail/fu_customFunctions.lua",
+        "sha256": "270109c8fa4114e0391eca3e9434e5e90084b18430e398079a16242fd7148bf5",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/newSail/newSail.lua",
+        "sha256": "f48fb7eb8ecee7db8cfb8c5310e95f23a5435f9a8f4315b8fdc4c21002a70110",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/newSail/zb_customFunctions.lua",
+        "sha256": "de19f4221053cedb98a6dfb2d28f0a58279f9f8b737e436d83ba885741732b31",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/questList/questList.lua",
+        "sha256": "6ccd1491ddaca66fff78ea12b8c0c61409d4bafbc20f81aa90f47c5d4624880e",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/researchTree/researchTree.lua",
+        "sha256": "8752a3eb837315ace10216e40bbceb134ced93730d4dcd32711836b515bdc4c2",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/updateInfoWindow/updateInfoWindow.lua",
+        "sha256": "cb1b120488b78430d3f91c0e227270970e92cbae148ea011693fb528bd7f7402",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/updateInfoWindow/updateInfoWindowError.lua",
+        "sha256": "6897c0c64ba2dcca435d735fd11b10eaae687b0977ce40e2344e5032f8159dd0",
+        "relative_to_021": "identical"
+      },
+      {
+        "asset": "zb/zb_textTyper.lua",
+        "sha256": "74e62d0ad4d1d1d78b8e5b95eb40a0acd78cb0b6f1322552d0daa4ce220e1cf8",
+        "relative_to_021": "identical"
+      }
+    ]
+  },
+  "official_source_checks": {
+    "stable_tag_commit": "329e714b3fe87571055c8ad7aa38135d199d3317",
+    "reference_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+    "targeted_source_count": 25,
+    "bytes": 192999,
+    "files_with_pinned_hash": 22,
+    "identical_stable_and_pinned": 22,
+    "mismatches": [],
+    "provenance_file": "source_provenance.json"
+  },
+  "patch_scan": {
+    "patch_files": 14385,
+    "operations": {
+      "test": 188109,
+      "replace": 188089,
+      "add": 60
+    },
+    "written_value_types": {
+      "str": 188095,
+      "int": 7,
+      "dict": 47
+    },
+    "control_leaf_keys_scanned": [
+      "animation",
+      "animationScripts",
+      "biome",
+      "biomeName",
+      "callback",
+      "charLimit",
+      "characterLimit",
+      "delay",
+      "effect",
+      "end",
+      "gravity",
+      "icon",
+      "id",
+      "identifier",
+      "image",
+      "includes",
+      "itemName",
+      "level",
+      "maxLength",
+      "method",
+      "minLength",
+      "mode",
+      "nameGen",
+      "nameGenSource",
+      "nameSource",
+      "oldSource",
+      "oldsource",
+      "param",
+      "path",
+      "planetType",
+      "planetaryType",
+      "probability",
+      "questId",
+      "requiredMods",
+      "requires",
+      "script",
+      "scriptConfig",
+      "scriptDelta",
+      "scripts",
+      "seed",
+      "shipType",
+      "shipworld",
+      "source",
+      "spawnType",
+      "species",
+      "start",
+      "state",
+      "statusEffects",
+      "systemType",
+      "templateId",
+      "type",
+      "updateDelta",
+      "weight",
+      "worldType"
+    ],
+    "control_key_writes": [],
+    "nonstring_writes": [
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/btnUpgrade/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/btnEmpty/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFuelTypesCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFuelTypesTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseOilCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseOilTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseMechFuelCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseMechFuelTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseErchiusCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseErchiusTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseIsotopesCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseIsotopesTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseBioFuelCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseBioFuelTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseCatalystCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseCatalystTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerCoresCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerCoresTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/objectcrafting/apiary.config.patch",
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/objectcrafting/cloner/cloner.config.patch",
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/objectcrafting/dip.config.patch",
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/objectcrafting/press.config.patch",
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/objectcrafting/sprout.config.patch",
+        "op": "add",
+        "path": "/gui/toggleCrafting/fontSize",
+        "value_type": "int"
+      },
+      {
+        "asset": "interface/scripted/mmutility/mmutility.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/scripted/mmutility/mmutility.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/scripted/tunableoredetector/tunableoredetector.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/scripted/tunableoredetector/tunableoredetector.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseFooterTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/smartbox/halver.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseExtraCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/smartbox/halver.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseExtraTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/windowconfig/charcreation.config.patch",
+        "op": "add",
+        "path": "/paneLayout/fuJapaneseCharacterCreationCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "interface/windowconfig/charcreation.config.patch",
+        "op": "add",
+        "path": "/paneLayout/fuJapaneseCharacterCreationTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/electricfurnace/electricfurnace.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/electricfurnace/electricfurnace.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_blastfurnace/fu_blastfurnace.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_blastfurnace/fu_blastfurnace.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/fu_quantumgenerator/fu_quantumgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_arcsmelter/isn_arcsmelter.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_arcsmelter/isn_arcsmelter.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseInputTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseLogicNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "objects/power/isn_thermalgenerator/isn_thermalgenerator.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapanesePowerNodeTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "zb/questList/questList.config.patch",
+        "op": "add",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "zb/questList/questList.config.patch",
+        "op": "add",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "zb/questList/questList.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseQuestlineCover",
+        "value_type": "dict"
+      },
+      {
+        "asset": "zb/questList/questList.config.patch",
+        "op": "add",
+        "path": "/gui/fuJapaneseQuestlineTitle",
+        "value_type": "dict"
+      },
+      {
+        "asset": "zb/questList/questList.config.patch",
+        "op": "replace",
+        "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+        "value_type": "dict"
+      }
+    ],
+    "all_nonstring_writes_under_gui_or_paneLayout": true,
+    "known_ui_image_base_writes": [
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "replace",
+        "path": "/gui/btnUpgrade/base"
+      },
+      {
+        "asset": "interface/mechfuel/mechfuel.config.patch",
+        "op": "replace",
+        "path": "/gui/btnEmpty/base"
+      },
+      {
+        "asset": "interface/objectcrafting/apiary.config.patch",
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base"
+      },
+      {
+        "asset": "interface/objectcrafting/cloner/cloner.config.patch",
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base"
+      },
+      {
+        "asset": "interface/objectcrafting/dip.config.patch",
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base"
+      },
+      {
+        "asset": "interface/objectcrafting/press.config.patch",
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base"
+      },
+      {
+        "asset": "interface/objectcrafting/sprout.config.patch",
+        "op": "replace",
+        "path": "/gui/toggleCrafting/base"
+      }
+    ]
+  },
+  "root_config_changes": {
+    "celestial.config.patch": {
+      "write_operations": 88,
+      "leaf_keys": {
+        "description": 58,
+        "regionName": 30
+      },
+      "write_paths": [
+        "/planetaryTypes/binarySunCool/baseParameters/description",
+        "/planetaryTypes/binarySunFrozen/baseParameters/description",
+        "/planetaryTypes/binarySunHabitable/baseParameters/description",
+        "/planetaryTypes/binarySunHot/baseParameters/description",
+        "/planetaryTypes/binarySunScorching/baseParameters/description",
+        "/planetaryTypes/blackSunCool/baseParameters/description",
+        "/planetaryTypes/blackSunFrozen/baseParameters/description",
+        "/planetaryTypes/blackSunHabitable/baseParameters/description",
+        "/planetaryTypes/blackSunHot/baseParameters/description",
+        "/planetaryTypes/blackSunScorching/baseParameters/description",
+        "/planetaryTypes/blueSunCold/baseParameters/description",
+        "/planetaryTypes/blueSunFrozen/baseParameters/description",
+        "/planetaryTypes/blueSunHabitable/baseParameters/description",
+        "/planetaryTypes/blueSunHot/baseParameters/description",
+        "/planetaryTypes/blueSunScorching/baseParameters/description",
+        "/planetaryTypes/dyingSunCool/baseParameters/description",
+        "/planetaryTypes/dyingSunFrozen/baseParameters/description",
+        "/planetaryTypes/dyingSunHabitable/baseParameters/description",
+        "/planetaryTypes/dyingSunHot/baseParameters/description",
+        "/planetaryTypes/dyingSunScorching/baseParameters/description",
+        "/planetaryTypes/fugasplanet/baseParameters/description",
+        "/planetaryTypes/redSunCool/baseParameters/description",
+        "/planetaryTypes/redSunFrozen/baseParameters/description",
+        "/planetaryTypes/redSunHabitable/baseParameters/description",
+        "/planetaryTypes/redSunHot/baseParameters/description",
+        "/planetaryTypes/redSunScorching/baseParameters/description",
+        "/satelliteTypes/coldMoons/baseParameters/description",
+        "/satelliteTypes/coolMoons/baseParameters/description",
+        "/satelliteTypes/frozenMoons/baseParameters/description",
+        "/satelliteTypes/habitableMoons/baseParameters/description",
+        "/satelliteTypes/hotMoons/baseParameters/description",
+        "/satelliteTypes/lightlessMoons/baseParameters/description",
+        "/satelliteTypes/mutatedMoons/baseParameters/description",
+        "/satelliteTypes/scorchedMoons/baseParameters/description",
+        "/satelliteTypes/warmMoons/baseParameters/description",
+        "/systemTypes/binary1/orbitRegions/0/regionName",
+        "/systemTypes/binary1/orbitRegions/1/regionName",
+        "/systemTypes/binary1/orbitRegions/2/regionName",
+        "/systemTypes/binary1/orbitRegions/3/regionName",
+        "/systemTypes/binary1/orbitRegions/4/regionName",
+        "/systemTypes/binary1/variationParameters/0/description",
+        "/systemTypes/binary1/variationParameters/1/description",
+        "/systemTypes/binary1/variationParameters/2/description",
+        "/systemTypes/binary1/variationParameters/3/description",
+        "/systemTypes/blacksun1/orbitRegions/0/regionName",
+        "/systemTypes/blacksun1/orbitRegions/1/regionName",
+        "/systemTypes/blacksun1/orbitRegions/2/regionName",
+        "/systemTypes/blacksun1/orbitRegions/3/regionName",
+        "/systemTypes/blacksun1/orbitRegions/4/regionName",
+        "/systemTypes/blacksun1/variationParameters/0/description",
+        "/systemTypes/blacksun1/variationParameters/1/description",
+        "/systemTypes/blacksun1/variationParameters/2/description",
+        "/systemTypes/bluesun1/orbitRegions/0/regionName",
+        "/systemTypes/bluesun1/orbitRegions/1/regionName",
+        "/systemTypes/bluesun1/orbitRegions/2/regionName",
+        "/systemTypes/bluesun1/orbitRegions/3/regionName",
+        "/systemTypes/bluesun1/orbitRegions/4/regionName",
+        "/systemTypes/bluesun1/variationParameters/0/description",
+        "/systemTypes/bluesun1/variationParameters/1/description",
+        "/systemTypes/bluesun1/variationParameters/2/description",
+        "/systemTypes/bluesun1/variationParameters/3/description",
+        "/systemTypes/bluesun2/orbitRegions/0/regionName",
+        "/systemTypes/bluesun2/orbitRegions/1/regionName",
+        "/systemTypes/bluesun2/orbitRegions/2/regionName",
+        "/systemTypes/bluesun2/orbitRegions/3/regionName",
+        "/systemTypes/bluesun2/orbitRegions/4/regionName",
+        "/systemTypes/bluesun2/variationParameters/0/description",
+        "/systemTypes/bluesun2/variationParameters/1/description",
+        "/systemTypes/bluesun2/variationParameters/2/description",
+        "/systemTypes/bluesun2/variationParameters/3/description",
+        "/systemTypes/dying1/orbitRegions/0/regionName",
+        "/systemTypes/dying1/orbitRegions/1/regionName",
+        "/systemTypes/dying1/orbitRegions/2/regionName",
+        "/systemTypes/dying1/orbitRegions/3/regionName",
+        "/systemTypes/dying1/orbitRegions/4/regionName",
+        "/systemTypes/dying1/variationParameters/0/description",
+        "/systemTypes/dying1/variationParameters/1/description",
+        "/systemTypes/dying1/variationParameters/2/description",
+        "/systemTypes/dying1/variationParameters/3/description",
+        "/systemTypes/redsun1/orbitRegions/0/regionName",
+        "/systemTypes/redsun1/orbitRegions/1/regionName",
+        "/systemTypes/redsun1/orbitRegions/2/regionName",
+        "/systemTypes/redsun1/orbitRegions/3/regionName",
+        "/systemTypes/redsun1/orbitRegions/4/regionName",
+        "/systemTypes/redsun1/variationParameters/0/description",
+        "/systemTypes/redsun1/variationParameters/1/description",
+        "/systemTypes/redsun1/variationParameters/2/description",
+        "/systemTypes/redsun1/variationParameters/3/description"
+      ]
+    },
+    "universe_server.config.patch": {
+      "write_operations": 1,
+      "leaf_keys": {
+        "clientAssetsMismatchMessage": 1
+      },
+      "write_paths": [
+        "/clientAssetsMismatchMessage"
+      ]
+    },
+    "client.config.patch": {
+      "write_operations": 1,
+      "leaf_keys": {
+        "windowTitle": 1
+      },
+      "write_paths": [
+        "/windowTitle"
+      ]
+    },
+    "system_objects.config.patch": {
+      "write_operations": 22,
+      "leaf_keys": {
+        "description": 11,
+        "displayName": 11
+      },
+      "write_paths": [
+        "/apexweaponsplatform/parameters/description",
+        "/apexweaponsplatform/parameters/displayName",
+        "/fastfoodspace/parameters/description",
+        "/fastfoodspace/parameters/displayName",
+        "/flyingpyramid/parameters/description",
+        "/flyingpyramid/parameters/displayName",
+        "/ixolinggrounds/parameters/description",
+        "/ixolinggrounds/parameters/displayName",
+        "/letheiafleet/parameters/description",
+        "/letheiafleet/parameters/displayName",
+        "/ninjapagoda/parameters/description",
+        "/ninjapagoda/parameters/displayName",
+        "/outlawmine/parameters/description",
+        "/outlawmine/parameters/displayName",
+        "/spacestation_food/parameters/description",
+        "/spacestation_food/parameters/displayName",
+        "/spacestation_medical/parameters/description",
+        "/spacestation_medical/parameters/displayName",
+        "/spacestation_weapons/parameters/description",
+        "/spacestation_weapons/parameters/displayName",
+        "/wizardabode/parameters/description",
+        "/wizardabode/parameters/displayName"
+      ]
+    }
+  },
+  "disposition": {
+    "lua_change_recommended": false,
+    "reason": "No causal Lua/startup or world-generation control mutation was established. Preserve these reviewed files while the separately identified name-generation defects are corrected.",
+    "additional_possible_factor": "Some name-related patches contain over 10,000 guard batches. Native first-load cost was not measured, so this remains a possible performance factor, not a diagnosis."
+  }
+}

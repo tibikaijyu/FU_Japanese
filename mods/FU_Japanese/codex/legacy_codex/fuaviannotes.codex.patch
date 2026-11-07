@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "While it is the case that I may have escaped for my own self-preservation, it is important I do not forget my larger mission also. Kluex is not real. I will prove it. If I can do this, I can free my people."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "私自身の自己保存のために逃げたのかもしれないという場合ですが、大きな使命も忘れてはなりません。 クルーエクスは現実ではない。 私はそれを証明します。 もしこれができれば、私は民を解放できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I have heard of other species whose gods are celestial. Kluex, however, is flesh and blood. And yet, he has not been seen for many, many years. I will discover why. I will uncover the secret behind the Kluex deception. But also flee for my life."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "神が天国である他の種を聞いたことがあります。 しかし、クルーエクスは肉体と血です。 しかし、彼は何年も前から見られていない。 私はその理由を発見する。 私はクルエクの欺きの秘密を突き止める。 でも命の恩も逃がして"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heathen text spreading lies..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うそをまき散らす異教のテキスト...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Truth about Kluex"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クルーエクスの真実"
+    }
+  ]
+]

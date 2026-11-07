@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ornate totem pole."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "華やかなトーテムポール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Totem Pole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トーテムポール"
+    }
+  ]
+]

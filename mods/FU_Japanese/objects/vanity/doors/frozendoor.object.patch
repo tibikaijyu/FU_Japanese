@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, and rather heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で、かなり重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heavy Tungsten Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重タングステンドア"
+    }
+  ]
+]

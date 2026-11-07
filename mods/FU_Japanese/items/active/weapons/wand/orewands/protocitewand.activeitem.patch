@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Poison Bouncer"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "毒バウンサー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトワンド"
+    }
+  ]
+]

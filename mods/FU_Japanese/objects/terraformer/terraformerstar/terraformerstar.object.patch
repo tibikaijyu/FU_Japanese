@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet to make a star-like landscape."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星を形作り、星のような風景を作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetheric Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルテラフォーマ"
+    }
+  ]
+]

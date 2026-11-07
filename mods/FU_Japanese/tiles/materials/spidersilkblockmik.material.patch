@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Webs packed tightly, but not too tight to pass through."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウェブはしっかりと詰め込まれていましたが、通すにはあまりにもきつすぎませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssspidersss make great websss!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クモは素晴らしいWebsssを作る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spider Silk (Platform)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモ糸(ホーム)"
+    }
+  ]
+]

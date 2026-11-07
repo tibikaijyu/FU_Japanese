@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of advanced robotic bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度なロボットミツバチのようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属蜂"
+    }
+  ]
+]

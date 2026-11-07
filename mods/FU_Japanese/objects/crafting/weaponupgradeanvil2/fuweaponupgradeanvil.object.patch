@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient technology capable of enhancing weapons, armor and equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器、装甲、装備を強化することができる古代の技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Crucible"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙のるつぼ"
+    }
+  ]
+]

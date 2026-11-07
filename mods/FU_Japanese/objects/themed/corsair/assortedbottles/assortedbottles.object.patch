@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I somehow doubt the drinks in these were made by a licensed brewery."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私は、これらの飲み物がライセンスされた醸造所によって作られたとはなんとか思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Leaving these laying around is an accident waiting to happen."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これらのまま放置することは、事故が起きるのを待つことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A collection of multicolored bottles. They smell of alcohol."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "色とりどりのボトルのコレクション。 彼らはアルコールの匂いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssparkly glass..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スパークリーガラス..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. I hope there isn't any broken glass about."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 ガラスが割れていないことを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Someone might have a drinking problem."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "誰かが飲酒問題を抱えているかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Perhaps I can find a way to recycle these."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "リサイクルする方法が見つかるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Yeesh, there was definitely some strong stuff in these."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "確かに、これらには強力なものがありました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assorted Bottles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "各種ボトル"
+    }
+  ]
+]

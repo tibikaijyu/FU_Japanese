@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sent straight from the Gods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神々から直接遣わされます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Godly Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神聖な蜂"
+    }
+  ]
+]

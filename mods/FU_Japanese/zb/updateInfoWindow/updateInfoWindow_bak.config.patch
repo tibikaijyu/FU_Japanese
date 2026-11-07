@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonChangelog/caption",
+      "value": "Changelog"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonChangelog/caption",
+      "value": "更新履歴"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonCredits/caption",
+      "value": "Credits"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonCredits/caption",
+      "value": "クレジット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonInfo/caption",
+      "value": "Information"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonInfo/caption",
+      "value": "情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonNext/caption",
+      "value": "Next"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonNext/caption",
+      "value": "次"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonPrevious/caption",
+      "value": "Previous"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonPrevious/caption",
+      "value": "前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/close/caption",
+      "value": "Dismiss"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/close/caption",
+      "value": "解雇"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/textScrollBox/children/text/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/textScrollBox/children/text/value",
+      "value": "私は間違いです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/version/value",
+      "value": "version"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/version/value",
+      "value": "バージョン"
+    }
+  ]
+]

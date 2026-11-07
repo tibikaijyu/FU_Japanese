@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "I find myself in a Miniknog-controlled Apex town. But oh, control is such an ugly word, isn't it? The Apex here are all so polite, and friendly. They bow and grovel as I pass, my Miniknog entourage only occasionally having to knock them back!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ミニノッグが支配するエイペックスの街にいる。 でも、コントロールってそんなにひどい言葉でしょ? ここエイペックスはすべてとても丁寧でフレンドリーです。 私が通り過ぎると、彼らは弓とうろつき、私のミニノッグの内心は、たまにそれらをノックバックしなければならないだけ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "It's all very exciting. An audience with Big Ape! Greenfinger told me he's heard about my exploits, and would like to pick my brain. I mean gosh, I've heard rumours about Big Ape picking peoples' brains, but I don't think it means that this time."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "全てがとてもエキサイティングなものです。 ビッグエイプの観客! グリーンフィンガーは私の悪用について聞いたことがあると言って、私の脳を選びたいと言いました。 ビッグ・エイプが人の脳を摘むという噂は聞いたことがあるけど、今回は意味がないと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "By Hiraki Corale, Hylotl Adventurer"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒラキ・コラーレ著『ヒロトル・アドベンチャー』"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Pleasant Town"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "心地よい町"
+    }
+  ]
+]

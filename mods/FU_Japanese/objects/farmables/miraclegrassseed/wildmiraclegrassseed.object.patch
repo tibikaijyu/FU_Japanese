@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grass renowned for its healing ability. Produces a weak long-term regeneration effect."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その癒しの能力で有名な草。 弱い長期再生効果を発揮します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Miracle Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇跡の草"
+    }
+  ]
+]

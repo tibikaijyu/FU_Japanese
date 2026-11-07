@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient book. Perfectly safe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の本。 完全に安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ishj'ik Tel-tagn"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "イシイク・テルタグン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;+20^reset;% X'i Bulb Regen Rate (60%)\n^orange;Set Bonuses^reset;:\n^yellow;^reset; Health x^green;1.25^reset;, Energy x^green;1.2^reset;, Damage x^green;1.07^reset;\n^yellow;^reset; X'i Weapons: Defense x^green;1.1^reset;\n^yellow;^reset; Sulphuric biomes: Energy x^green;1.05^reset;, +^green;5^reset;% Knockback Resistance\n^yellow;^reset; ^cyan;Immune^reset;: Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;+20^reset;% シー 球根再生率 (シー 球根再生率)60%)\n^orange;ボーナス設定^reset;:\n^yellow;^reset; 健康 x ^green;1.25^reset; エネルギー x ^green;1.2^reset; 損害 x ^green;1.07^reset; 。\n^yellow;^reset;シー武器:防御x ^green;1.1^reset;\n^yellow;^reset;硫酸バイオーム : エネルギーx^green;1.05^reset;,+^green;5^reset;%ノックバック抵抗\n^yellow;^reset; ^cyan;免疫^reset;酸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Muta-Chitin Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "麦キチンの墓"
+    }
+  ]
+]

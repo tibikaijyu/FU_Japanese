@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of long-frozen creature trapped within the ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷の中に閉じ込められた長い冷凍生物のようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen creature"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "凍結生物"
+    }
+  ]
+]

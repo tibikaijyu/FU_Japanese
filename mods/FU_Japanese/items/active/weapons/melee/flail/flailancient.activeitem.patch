@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful, statement making fun.\n^cyan;Breaks blocks^reset;\n^yellow;Stuns enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力で、文言を楽しくする。\n^cyan;ブロックを破る^reset;\n^yellow;スタンの敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代ストライカー"
+    }
+  ]
+]

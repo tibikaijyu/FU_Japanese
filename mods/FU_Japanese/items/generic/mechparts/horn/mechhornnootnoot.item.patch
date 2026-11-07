@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Offensive and crass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "攻撃的で、大げさ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Offensive Mech Horn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカホーン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cute Broads are all the rage these days."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最近は可愛いブロードが大流行している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長剣"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A life-essential non-metallic chemical element."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生命に不可欠な非金属元素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phosphorus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リン"
+    }
+  ]
+]

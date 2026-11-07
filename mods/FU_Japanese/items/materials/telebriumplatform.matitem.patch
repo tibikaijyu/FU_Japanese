@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sharp, stylish platform made from telebrium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレブリアムから作られたシャープでスタイリッシュなプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアプラットフォーム"
+    }
+  ]
+]

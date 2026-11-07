@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pipe made for transporting highly dangerous substances."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険性の高い物質を輸送するためのパイプです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tethyde Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テチドパイプ"
+    }
+  ]
+]

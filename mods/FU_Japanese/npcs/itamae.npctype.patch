@@ -1,0 +1,182 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "I hope you've had an enjoyable experience."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "楽しい経験をしていたら幸いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "Greetings. What can I make for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "あいさつ 今日は何を作れますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "All of our ingredients are locally grown and raised."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "私たちの成分はすべて地元で育てられ、育てられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "Please take your time in choosing."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "どうぞお時間をかけてお選びください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/0",
+      "value": "Greetings. What can I make for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/0",
+      "value": "あいさつ 今日は何を作れますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/1",
+      "value": "All of our ingredients are locally grown and raised."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/1",
+      "value": "私たちの成分はすべて地元で育てられ、育てられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/2",
+      "value": "Please take your time in choosing."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/hyltol/default/2",
+      "value": "どうぞお時間をかけてお選びください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "Right this way, if you please."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "こちらへどうぞ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "I can serve you right over here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "ここでお役に立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "What can I start you off with today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "今日は何を始めましょうか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/0",
+      "value": "Right this way, if you please."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/0",
+      "value": "こちらへどうぞ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/1",
+      "value": "I can serve you right over here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/1",
+      "value": "ここでお役に立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/2",
+      "value": "What can I start you off with today?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/hylotl/default/2",
+      "value": "今日は何を始めましょうか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Fish serving fish? Weird."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  魚を仕えるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Itamae"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  板前"
+    }
+  ]
+]

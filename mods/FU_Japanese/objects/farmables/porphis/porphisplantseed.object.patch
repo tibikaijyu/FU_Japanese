@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can increase power and health."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パワーと健康を高めることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Porphis Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポーフィス球根"
+    }
+  ]
+]

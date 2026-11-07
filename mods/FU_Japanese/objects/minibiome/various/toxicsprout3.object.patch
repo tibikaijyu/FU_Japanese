@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sprout"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "芽"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sprout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "芽"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blocker Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブロッカーブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enormous damage potential."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな被害の可能性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Friendmaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレンドメーカー"
+    }
+  ]
+]

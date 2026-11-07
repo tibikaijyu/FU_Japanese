@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires a ton of missiles at the enemy\n^yellow;Homing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵に大量のミサイルを発射する\n^yellow;ホーミング発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Micro-Rocket Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロロケット大砲"
+    }
+  ]
+]

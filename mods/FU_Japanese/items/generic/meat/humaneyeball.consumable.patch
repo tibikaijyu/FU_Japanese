@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious and nutritious. ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しく栄養価が高い。 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Squishy Human Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人間の目。"
+    }
+  ]
+]

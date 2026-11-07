@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Apex teleporter door. Connect to another door to teleport between them.\n^blue;Input 1^reset;: Lock\n^blue;Input 2^reset;/^red;Output^reset;: Door connections"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックスのテレポータードア。 別のドアに接続してテレポートします。\n^blue; 入力 1^reset; ロックします。\n^blue;入力2^reset;/^red;出力^reset;:ドア接続"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Background Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイペックスの背景ドア"
+    }
+  ]
+]

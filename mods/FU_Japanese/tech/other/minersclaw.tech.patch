@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dig with claws. (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爪で掘る。（^yellow;基本ガイド^reset;の^blue;特殊テック^reset;を参照）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Mining Claws"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "鉱山用爪"
+    }
+  ]
+]

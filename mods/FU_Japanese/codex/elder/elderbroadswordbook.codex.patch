@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "None shall resist your blade. Six blade shards, two ancient glyphs and a rune wand upon the altar should bind the cosmos to the blade. Your rage shall sew chaos through the galaxy."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "誰もあなたの刃に抵抗しない。 六つの刃のシャード、二つの古代のグリフ、祭壇の上にルーンの杖は、宇宙を刃に結びつける必要があります。 あなたの怒りは銀河に混乱を縫い付けるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Cleaver of Souls"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "魂の切り裂き"
+    }
+  ]
+]

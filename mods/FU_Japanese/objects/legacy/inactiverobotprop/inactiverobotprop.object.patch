@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An inactive robot. It looks pretty friendly!"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "不活性ロボット。 それはかなりフレンドリーに見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Perhaps I can activate this robot and be met with gratitude."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "たぶん私はこのロボットを活性化し、感謝の気持ちで満たすことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An inactive robot! ... Nothing happens if it's switched on."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不活性ロボット! ... 電源が入っても何も起こらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran want wake metalman!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはウェイクメタルマンが欲しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alarm. I detect a hostile logarhythm in this robot's programming."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "アラーム。 私はこのロボットのプログラミングで敵対的な対比を検知します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "All the other robots I've met have been mostly friendly, I bet this is too!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私が出会った他のロボットは、ほとんどがフレンドリーでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Even if this robot is hostile, I can no doubt use diplomacy to reason with it."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "たとえこのロボットが敵対的であっても、私はそれについて考えるために外交を利用することは間違いない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Well shucks, it looks friendly enough. Wakey-wakey, big guy!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "まあシャック、それは十分に友好的に見える。 ウェイキー - 目を覚ます、大きな男!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inactive Robot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不活性ロボット"
+    }
+  ]
+]

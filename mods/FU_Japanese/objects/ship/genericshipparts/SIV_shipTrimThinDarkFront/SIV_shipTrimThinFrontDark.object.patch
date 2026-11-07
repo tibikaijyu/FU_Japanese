@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thin, dark front trim for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の薄くて暗いフロントトリム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thin Dark Trim Front"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薄暗いトリムフロント"
+    }
+  ]
+]

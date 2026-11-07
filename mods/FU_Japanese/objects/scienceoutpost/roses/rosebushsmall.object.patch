@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A beautiful rose bush."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しいバラの茂み。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rose Bush Small"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ローズブッシュ・スモール"
+    }
+  ]
+]

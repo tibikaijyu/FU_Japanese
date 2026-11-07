@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A meat shop."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉屋。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Sstabbed-Thingss Emporium^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;刺さった - Thingss Emporium ^reset;"
+    }
+  ]
+]

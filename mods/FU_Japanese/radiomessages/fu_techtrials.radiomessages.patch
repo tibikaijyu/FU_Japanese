@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/fu_techtrials_emergencybounce1/text",
+      "value": "You know what you should do? ^red;Jump off that cliff right in front of you!^reset; I promise you won't die a painful, messy death!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_techtrials_emergencybounce1/text",
+      "value": "何をすればいいか教えてやろうか？ ^red;目の前の崖から飛び降りろ！^reset; 痛くてひどい死に方はしないと約束するよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_techtrials_emergencybounce2/text",
+      "value": "What, you thought I was lying? Oh, come on. While seeing you impact the ground at terminal velocity would be funny, it wouldn't tell me anything about you I don't already know. Anyways, ^green;see you tonight!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_techtrials_emergencybounce2/text",
+      "value": "何だ、嘘だと思ったのか？ おいおい。お前が終端速度で地面に激突すれば面白いだろうが、そんなものを見ても、お前について新しく分かることは何もない。じゃあ、^green;今夜また会おうな！^reset;"
+    }
+  ]
+]

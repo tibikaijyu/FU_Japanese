@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Auto-Protect against falls, holding [Space] will make you bounce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "転倒から自動保護し、[スペース]を保持するとバウンスします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Emergency Bounce MK2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;緊急バウンスMK2^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasteel reinforced glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラスチール強化ガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Glass Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化ガラスブロック"
+    }
+  ]
+]

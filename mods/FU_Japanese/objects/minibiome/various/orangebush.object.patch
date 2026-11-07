@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Orangeleaf Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジの茂み"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orangeleaf Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジの茂み"
+    }
+  ]
+]

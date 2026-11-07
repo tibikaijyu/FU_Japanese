@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of organic soup.\n^green;Growth Rate x^white;1.5 ^gray;& ^green;+^white;2 ^green;produce.\n^cyan;-^white;1 ^cyan;seed use^reset;\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機スープの尺度。\n^green;成長率x^white;1.5 ^gray;& ^green;+^white;2 ^green;農産物\n^cyan;-^white;1 ^cyan;種子の使用^reset;\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Organic Soup"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有機スープ"
+    }
+  ]
+]

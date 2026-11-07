@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This fragile plant is immune to poison."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この壊れやすい植物は毒に免疫がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spongeweed Clump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スポンジ状雑草群"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "White Potato"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "白物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "White Potato"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "白物"
+    }
+  ]
+]

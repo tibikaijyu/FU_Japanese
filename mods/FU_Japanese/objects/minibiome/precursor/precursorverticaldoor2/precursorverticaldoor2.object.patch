@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient and glowy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古く、光り輝く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体ハッチ"
+    }
+  ]
+]

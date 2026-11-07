@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enriched Uranium ^gray;235-U^reset; isotope.\n^blue;+^white;9 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃縮ウラン^gray;235-U^reset;同位体。\n^blue;+^white;9 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Rod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウラン棒"
+    }
+  ]
+]

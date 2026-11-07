@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Disturbingly, this Erchius creature might have been a person once..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このエルキウスの生物はかつて人間だったのかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Muta-Moontant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "麦山"
+    }
+  ]
+]

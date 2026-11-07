@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Finely honed zerchesium steel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "磨き上げられたザルチシウム鋼。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウム短剣"
+    }
+  ]
+]

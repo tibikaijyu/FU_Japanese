@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+12.5% E. Regen & -6.25% E. Regen Block^reset;, ^cyan;+50% Run^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+12.5% E. 再生 & -6.25% E. 再生ブロック^reset;, ^cyan;+50% 走り^reset;: 1え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goldenglow Petal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花びら"
+    }
+  ]
+]

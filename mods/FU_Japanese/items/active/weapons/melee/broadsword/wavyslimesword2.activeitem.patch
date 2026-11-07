@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wobbly-looking sword made of slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムで作られたうずうずした剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Rapier II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムラピアII"
+    }
+  ]
+]

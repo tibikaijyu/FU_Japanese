@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An amazing super-fabric with nearly magical potential."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほぼ魔法の可能性を持つ驚くべきスーパーファブリック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Molecular Nano-Fibre"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "分子ナノファイバー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now that is one helluva jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "では、これは地獄のジャンプです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Omega Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "オメガジャンプ"
+    }
+  ]
+]

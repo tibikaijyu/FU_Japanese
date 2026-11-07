@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The tutorial sequence has been skipped, speak to Esther to continue the vanilla questline. Have fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "チュートリアルシーケンスはスキップされ、バニラクエストラインを続けるためにエスターに話しかけます。 楽しんでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/gaterepair",
+      "value": "Interact with SAIL to continue"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/gaterepair",
+      "value": "SAILと対話し、継続します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/outpostBookmark/bookmarkName",
+      "value": "Outpost - The Ark"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/outpostBookmark/bookmarkName",
+      "value": "序盤-箱舟"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/outpostBookmark2/bookmarkName",
+      "value": "Science Outpost"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/outpostBookmark2/bookmarkName",
+      "value": "科学前哨基地"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/shipRepairMessage",
+      "value": "Please interact with SAIL before continuing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/shipRepairMessage",
+      "value": "続行する前に、SAILと対話してください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/vanillaCompletionText",
+      "value": "The tutorial sequence has been skipped, speak to Esther to continue the vanilla questline. Your ship has been repaired, have fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/vanillaCompletionText",
+      "value": "チュートリアルシーケンスはスキップされ、バニラクエストラインを続けるためにエスターに話しかけます。 あなたの船は修理されました、楽しんでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The tutorial sequence has been skipped, speak to Esther to continue the vanilla questline. Have fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "チュートリアルシーケンスはスキップされ、バニラクエストラインを続けるためにエスターに話しかけます。 楽しんでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "FU Quickstart"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "FUクイックスタート"
+    }
+  ]
+]

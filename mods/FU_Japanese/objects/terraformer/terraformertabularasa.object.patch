@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into an bleak Tabula Rasa biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を、暗いタブラ・ラサの生物群に変身させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tabula Rasa Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タブラ・ラサテラフォーマー"
+    }
+  ]
+]

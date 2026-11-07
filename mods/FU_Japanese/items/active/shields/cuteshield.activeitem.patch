@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+5% Energy Regen, +2 Defense, Immune: Insanity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+5%エネルギーレーゲン, +2防御, 免疫:狂気^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいシールド"
+    }
+  ]
+]

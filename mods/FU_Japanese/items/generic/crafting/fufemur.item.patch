@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dense, tough bone such as a femur."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大腿骨などの濃厚で丈夫な骨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dense Bone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "濃厚骨"
+    }
+  ]
+]

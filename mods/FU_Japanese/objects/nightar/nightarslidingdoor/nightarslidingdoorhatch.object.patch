@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pure obsidian hatch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な黒曜石のハッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石ハッチ"
+    }
+  ]
+]

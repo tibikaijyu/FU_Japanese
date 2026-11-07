@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honeycomb with strange properties that can provide great healing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしい癒しを提供することができる奇妙な特性を持つハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Recombinant Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リコンビナントハニカム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasteel is pretty awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラスティールはすごいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチックの壁"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just looking at it makes you shiver."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見ているだけで震える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Trophy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨トロフィー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;x3.5^reset; Draw Speed (Bows), ^red;+5^reset; Energy Per Shot (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;x 3.5^reset; スピード(ボウズ)、^red;+5^reset; ショットあたりのエネルギー(ボウズ)を描画します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lightning Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "稲妻"
+    }
+  ]
+]

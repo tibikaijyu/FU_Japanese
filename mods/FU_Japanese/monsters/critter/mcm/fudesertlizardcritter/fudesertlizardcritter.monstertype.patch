@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny reptile that eats insects. It is commonly found in deserts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "昆虫を食べる小さな虫。 砂漠でよく見られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lizard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トカゲ"
+    }
+  ]
+]

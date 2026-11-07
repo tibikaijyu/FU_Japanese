@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange and ancient artifact of unknown origin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の起源の奇妙で古代のアーティファクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Obelisk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙オベリスク"
+    }
+  ]
+]

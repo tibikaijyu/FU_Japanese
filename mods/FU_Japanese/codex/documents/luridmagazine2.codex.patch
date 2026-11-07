@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "This rather...revealing publication appears to contain humans in various states of undress engaging in mating rituals of just about every imaginable sort. And some that are not all that imaginable. It would seem (at least before the end of Earth) that Humans document their mating acts. And sell it to other humans. Strange."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "この公開出版物には、想像できる限りのあらゆる儀式を交配する様々な服装のアンドレス状態の人間が含まれているようです。 想像もつかないものもあります 少なくとも地球の終わり以前には、人間は彼らの交尾行為を文書化しているようです。 そして、他の人間にそれを販売します。 不思議な。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Benthouse, Issue 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベントハウス、問題 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A lurid magazine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ルリッド誌"
+    }
+  ]
+]

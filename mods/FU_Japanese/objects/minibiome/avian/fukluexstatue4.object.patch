@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A battered and broken statue of Kluex."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砕けて壊れたクルエクスの像。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kluex Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルエクス像"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Grand Pagoda Library (4)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "大塔図書所(4)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Revisit the Grand Pagoda Library (4)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "グランドパゴダライブラリー(4)をご覧ください。"
+    }
+  ]
+]

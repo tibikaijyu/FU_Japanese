@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnUpgrade/caption",
+      "value": "Upgrade"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnUpgrade/caption",
+      "value": "強化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/emptyLabel/value",
+      "value": "You don't have any weapons to upgrade!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/emptyLabel/value",
+      "value": "強化できる武器がありません！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/essenceCostDescription/value",
+      "value": "REQUIRED ESSENCE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/essenceCostDescription/value",
+      "value": "必須条件"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/upgradeTargetLabel/value",
+      "value": "To: "
+    },
+    {
+      "op": "replace",
+      "path": "/gui/upgradeTargetLabel/value",
+      "value": "強化後： "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/warningLabel/value",
+      "value": "SCRIPT ERROR!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/warningLabel/value",
+      "value": "SCRIPT エラー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Upgrade most equipment"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " ほとんどの機器をアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Precursor Crucible"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 前駆的クルシブル"
+    }
+  ]
+]

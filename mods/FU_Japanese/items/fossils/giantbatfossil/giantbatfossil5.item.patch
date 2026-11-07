@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/description",
+      "value": "An ancient bat of giant proportions."
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/description",
+      "value": "巨大な比率の古代のコウモリ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "Vampiradon Fossil"
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "バンピラドン化石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Vampiradon skull."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたヴァンピラドンの頭蓋骨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vampiradon Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァンピラドン・スカル"
+    }
+  ]
+]

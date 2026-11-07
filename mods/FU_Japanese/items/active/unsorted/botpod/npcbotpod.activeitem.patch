@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Throw it down to release the creature captured inside!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "投げて中に捕獲した生き物を放せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Filled Capture Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "充填式キャプチャポッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Equipped with basic anti-grav tech."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な抗重力技術を装備。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hover Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホバータイル"
+    }
+  ]
+]

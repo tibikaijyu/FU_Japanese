@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "These ruins sure are expansive, and the alpaca well-hidden! Hopefully all this was worth it!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これらの遺跡は確かに拡大的で、アルパカはよく隠れています! うまくいけば、これらすべてはそれの価値がある!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Defeat the leader of the alpaca raiders."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "アルパカの襲撃者のリーダーを破る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Alpaca raiders are threatening an ancient Glitch monastery. The defenders look like they could use a little help."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "アルパカの襲撃者は、古代のグリッチ修道院を脅かしています。 守備側は少し助けを借りる事ができるように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Away In A Longship^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;長い船で逃げる^reset;"
+    }
+  ]
+]

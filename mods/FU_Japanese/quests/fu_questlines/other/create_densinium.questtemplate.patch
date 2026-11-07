@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent. Now I can really cut my teeth on exploring this frozen hell. As promised: ^green;your payment^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。 この凍った地獄を探検する時、私は本当に歯を切ることができます。 約束どおり: ^green;あなたの支払い ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Deliver the ^orange;Densinium Helm^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; デンシニウムヘルム ^reset; を納品!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Simply put: I need better protection for the cold outside. A ^orange;Densinium Helm^orange; would be perfect. I would handsomely compensate you for the materials."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "簡単に言うと、私は外の寒さをよりよく保護する必要があります。 ^orange; デンシニウム 兜 ^orange; は完璧です。 材料を手軽に補償します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Toughest of Metals"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "金属のタフさ"
+    }
+  ]
+]

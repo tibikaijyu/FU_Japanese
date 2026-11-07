@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mmm, fresh out of the oven. ^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うーん、オーブンから新鮮。 ^green;種類:穀物^reset;"
+    }
+  ]
+]

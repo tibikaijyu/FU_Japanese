@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pair of giant bee wings. Increases air agility, reduces fall speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な蜂の羽のペア。 空気の俊敏性を高め、落下速度を下げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bee Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蜂の翼"
+    }
+  ]
+]

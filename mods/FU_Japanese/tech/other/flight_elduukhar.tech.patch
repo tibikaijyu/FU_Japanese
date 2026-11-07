@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Draconic flight activated with ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[F]^reset;で起動するドローン飛行。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Elduu'khar Flight"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "エルドゥオハール航空"
+    }
+  ]
+]

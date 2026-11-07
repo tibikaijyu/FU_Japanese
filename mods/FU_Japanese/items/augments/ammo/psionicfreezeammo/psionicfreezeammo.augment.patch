@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Cryokinesis"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "冷凍機序"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freeze enemies with your mind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "心で敵を凍らせなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cryokinesis Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キノコアカゲザル"
+    }
+  ]
+]

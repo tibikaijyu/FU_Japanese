@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious carrot cake! Like the original, but for ^green;herbivores^reset;. ^green;Type: Vegetable Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいニンジンケーキです! オリジナルのように、しかし^green;herbivores ^reset; の場合。 ^green;種類: 野菜デザート ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vegan Carrot Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビーガンニンジンケーキ"
+    }
+  ]
+]

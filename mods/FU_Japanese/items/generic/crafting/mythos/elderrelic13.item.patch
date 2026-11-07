@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of warding symbol."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種のウォーディングシンボル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Elder Sign^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e; エルダーサイン^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block that enhances the jumping power of the person standing on top of it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その上に立っている人のジャンプ力を高めるブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jump Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンプブロック"
+    }
+  ]
+]

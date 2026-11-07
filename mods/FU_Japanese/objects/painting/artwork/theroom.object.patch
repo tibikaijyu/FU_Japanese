@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It appears to be a point-of-view from a surgery table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手術台からの視点のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Victim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "犠牲者"
+    }
+  ]
+]

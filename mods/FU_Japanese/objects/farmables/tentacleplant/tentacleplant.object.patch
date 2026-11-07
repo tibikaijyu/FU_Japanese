@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lashes out at enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を攻撃する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Writhing Vine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "筆記用ワイン"
+    }
+  ]
+]

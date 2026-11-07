@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This mutagen is nearly devoid of useful material, yet can adversely affect cell structure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この変異原は有用な物質をほとんど含まないが、細胞構造に悪影響を与える可能性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutagene"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムタ遺伝子"
+    }
+  ]
+]

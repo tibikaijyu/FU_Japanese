@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Why would I want to display an advertisement in my home like this?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "なぜこんな広告を家に表示したいのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The blue light from this sign is a little nauseating, actually."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この看板の青いライトは、実際には少し痛いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Advertise the flagship product of the ^blue;Joja^reset; corporation in the comfort of your own home with this trendy sign!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このトレンディな看板でご自宅の快適さで^blue;ジョジャ^reset;コーポレーションの旗艦商品を宣伝!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssickly blue sign."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "病気の青い看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Unimpressed. Is this supposed to be wall art? It's such an eyesore."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感心しない。 これはウォールアートなのでしょうか? 目障りな話です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Isn't this cola a little new to be getting vintage decor signs?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このコーラは、ヴィンテージの装飾の兆候を得るのが少し新しいではありませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Fitting that a tasteless beverage has an equally tasteless advertising."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "味の無い飲み物に合うように、同じように味の悪い広告があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I reckon I glow enough for my own place, thanks."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私は自分の場所のために十分光ると思います、ありがとう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;の看板"
+    }
+  ]
+]

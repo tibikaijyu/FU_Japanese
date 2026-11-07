@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A useful, if unorthodox, pistol.\n^yellow;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不整形毒なら、ピストル。\n^yellow;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトタイプピストル"
+    }
+  ]
+]

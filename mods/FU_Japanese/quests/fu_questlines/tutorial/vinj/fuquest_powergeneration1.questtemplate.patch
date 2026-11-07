@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Try throwing some ^orange;Coal or Wood^reset; in there now to give your new ^orange;Alternator^reset; some life!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "さっそく^orange;石炭か木材^reset;を入れて、新しい^orange;交流発電機^reset;を動かしてみよう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "An ^orange;Alternator^reset; provides you with power. To fuel it, you'll need ^green;wood or coal^reset;. To wire it to things, you'll first need to unlock ^orange;Wiring^reset; on your ^orange;Matter Manipulator^reset; or build a ^orange;Mechanic's Wrench^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;交流発電機^reset;は電力を生み出す。燃料は^green;木材か石炭^reset;だ。他の設備へつなぐには、^orange;配線機能^reset;を^orange;マターマニピュレーター^reset;で解放するか、^orange;整備士のレンチ^reset;を作る必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Power Source"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "動力源"
+    }
+  ]
+]

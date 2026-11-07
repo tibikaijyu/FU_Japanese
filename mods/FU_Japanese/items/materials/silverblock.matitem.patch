@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whole block of silver.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀のブロック全体。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

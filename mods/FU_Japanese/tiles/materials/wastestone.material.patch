@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tough wastestone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タフな廃石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wastestone Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "廃石ブロック"
+    }
+  ]
+]

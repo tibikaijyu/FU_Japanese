@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ripe red apple. ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熟した赤いリンゴ。 ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

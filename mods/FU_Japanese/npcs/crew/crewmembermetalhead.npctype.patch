@@ -1,0 +1,494 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Riffs and Fills"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "切りくずと塗りつぶし"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Axe-Wielder"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "軸線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "Guy, I'm carrying a guitar here. Slow the hell down."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "ギターを運んでるよ。 ゆっくりしろ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "This gear may be awesome, but it isn't *light*, douchebag! Slow down."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "このギアは素晴らしいかもしれませんが、それは*light*、douchebagではありません! ゆっくりしろ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Do I look like a superhuman? I can't run that fast."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "超人に見える? そんなに速く走れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "I hate running."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "走るのは嫌いだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Hello? I'm trying to tune my guitar. *mutters*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "もしもし? 私はギターをチューニングしようとしている。 マターズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Dude."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "男。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "ウオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "I play guitar. What the #@$@$#@ do you think I do?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "私はギターを弾きます。 私がやっていることは何ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "Honestly, dude. Look at what's in my hand. Clearly I am a chef."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "正直なところ。 私の手に何があるか見なさい。 明らかに私はシェフです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "Let's rock!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "ロックしよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/5",
+      "value": "The crowd will be insane tonight!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/5",
+      "value": "今夜は群衆が狂うでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "While you were out I wrote 12 new riffs!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "外出中は「12」と書きました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "You ready to record , finally? I've been waiting forever."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "最後に、記録する準備ができていますか? 私はずっと待っていた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "I've had like, 15 beers while you were gone. What took so long?."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "あなたがいない間、私は「15ビール」が好きでした。 何がそんなに長くかかったの?."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "I'm practicing. What do you want?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "練習中です。 何が欲しいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "Wanna form a band, man?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "バンドになりたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "Check out these riffs, mother#$@$#@$@!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "母 #####@@@@!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "I have some pretty sick ideas when it comes to badass licks, man."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "悪いなめらかになると、かなり病気のアイデアがいくつかあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "Floran's practicing. What do you want?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "フローランが練習している。 何が欲しいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "Wanna form a band, man?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "バンドになりたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "Check out these riffss, mother#$@$#@$@!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "母 #####@@@@!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "I have some pretty sick ideas when it comes to badass lickss, man."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "悪いなめらかなことに関しては、かなり病気のアイデアがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "Annoyed. I'm practicing. What do you want?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "困った。 練習中です。 何が欲しいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "Cool. Wanna form a band, man?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "かっこいい。 バンドになりたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "Passionate. Check out these riffs, mother#$@$#@$@!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "情熱的。 母 #####@@@@!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "Proud. I have some pretty sick ideas when it comes to badass licks, man."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "すごい。 悪いなめらかになると、かなり病気のアイデアがいくつかあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "Man, Satan kinda sucked. Back to riffing."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "サタンが吸い込んだ。 リフティングに戻ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "*guitar sounds*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "ギターの音"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "*gives the horns*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "角を与える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "I bring the metal."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "金属を持ってきます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "*guitar sounds*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "ギターの音"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "*gives the horns*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "角を与える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "Floran bringss the metal!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "フローランは金属を持ってきます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "*guitar sounds*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "ギターの音"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "*gives the horns*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "角を与える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "Passionate. I bring the metal."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "情熱的。 金属を持ってきます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "This place sucks."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "この場所はひどい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "Without music? You suck."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "音楽なし? くだらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "Dude."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "男。"
+    }
+  ]
+]

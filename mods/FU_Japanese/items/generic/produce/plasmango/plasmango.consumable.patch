@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "\"Everything is gonna be fine\" - non-Novakid prior to eating a Plasmango. \n^yellow;^reset;^cyan;+20% Jump^reset;: 40s\n^yellow;^reset;^red;Burning^reset;: 10s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「全ては大丈夫だ」 - プラズマンゴを食べる前にノヴァキッドではない。 \n^yellow;^reset;^cyan;+20%ジャンプ^reset;:40s\n^yellow;^reset;^red;バーニング^reset;:10s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmango"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマngo"
+    }
+  ]
+]

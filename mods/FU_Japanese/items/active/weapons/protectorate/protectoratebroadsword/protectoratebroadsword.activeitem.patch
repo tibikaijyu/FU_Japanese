@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "An exquisite sword."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "絶妙な剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Master Sword^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;マスターソード^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "An exquisite sword."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "絶妙な剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Power Sword^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;パワーソード^reset; ^yellow;^reset;"
+    }
+  ]
+]

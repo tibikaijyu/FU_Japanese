@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flameleaf Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花の葉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flameleaf Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花の葉"
+    }
+  ]
+]

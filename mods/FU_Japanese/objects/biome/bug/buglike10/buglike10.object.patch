@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange formation of organic chitin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機キチンの奇妙な形成。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

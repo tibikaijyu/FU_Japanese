@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny, all-purpose metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある汎用金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属製の胸部"
+    }
+  ]
+]

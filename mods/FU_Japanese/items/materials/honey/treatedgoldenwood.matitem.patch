@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carefully treated golden wood that maintains a freshly chopped appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "切り刻まれたての外観をキープした金木を丁寧に扱います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Wood lookss funny. Like gold?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "木は面白そうに見える。 金のように?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amazed. This carefully treated wood has a golden hue."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 この丁寧に処理された木材は、黄金色をしています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This wood has been treated with somethin'. Is that why it's gold lookin'?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この木は何かで扱いました。 金色に見えるのはそのためですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Treated Golden Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金木"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy iron longsword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重い鉄の長い剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄刀"
+    }
+  ]
+]

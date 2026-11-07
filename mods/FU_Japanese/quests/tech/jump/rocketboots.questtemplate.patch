@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've had an epiphany, and subconciously invented ^green;the greatest thing ever: ^orange;ROCKET BOOTS^reset;! As a tech! Woohoo!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ひらめきがあり、潜在意識で発明されました ^green;今までで最大のことです ^orange;ロケットブーツ^reset;! 技術として! うわっ!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've had an epiphany, and subconciously invented ^green;the greatest thing ever: ^orange;ROCKET BOOTS^reset;! As a tech! Woohoo!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ひらめきがあり、潜在意識で発明されました ^green;今までで最大のことです ^orange;ロケットブーツ^reset;! 技術として! うわっ!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Rocket Boots?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ロケット・ブーツ?"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wall of vines.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウの壁。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vine Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ぶどう酒"
+    }
+  ]
+]

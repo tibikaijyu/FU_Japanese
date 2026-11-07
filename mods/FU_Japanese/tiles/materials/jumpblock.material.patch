@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases your jump height."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプの高さを上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jump Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンプブロック"
+    }
+  ]
+]

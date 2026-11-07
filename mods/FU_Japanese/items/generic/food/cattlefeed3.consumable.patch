@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great feed for cattle. Not for sapient ingestion. You'll get sick.\n^red;-^white;5% ^red;HP^gray;, ^red;Poisoned ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "牛のための偉大な飼料。 食欲をそそる摂取のためではない。 病気になるよ。\n^red;-^white;5% ^red;HP^gray;, ^red;毒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Superior Feed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "優れた飼料"
+    }
+  ]
+]

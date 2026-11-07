@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stalwart Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタールワートクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalwart Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタールワートクイーン"
+    }
+  ]
+]

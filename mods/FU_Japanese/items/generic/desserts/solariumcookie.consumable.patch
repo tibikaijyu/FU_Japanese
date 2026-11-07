@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cookies shine with light. Surprisingly cool.\n^pink;Lava^gray;, ^pink;Moderate Heat ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのクッキーは光で輝きます。 驚くほどクール。\n^pink; 溶岩^gray;, ^pink; 熱を和らげる ^cyan; 免疫性 ^gray;(^white;5m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンルームクッキー"
+    }
+  ]
+]

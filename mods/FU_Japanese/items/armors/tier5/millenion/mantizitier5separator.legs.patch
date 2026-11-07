@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;30^reset;% Shield Regen, Block, Stamina\n^yellow;^reset; Shield + Sword: Health x^green;1.2^reset;, +^green;25^reset;% Knockback Resist\n^yellow;^reset; ^cyan;Immune^reset;: Tar, Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;30^reset;% シールドレゲン、ブロック、スタミナ。\n^yellow;^reset; シールド+剣:ヘルスx^green;1.2^reset;, +^green;25^reset;% ノックバック抵抗\n^yellow;^reset; ^cyan;免疫^reset;タール、ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Millenion's Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "千年の墓"
+    }
+  ]
+]

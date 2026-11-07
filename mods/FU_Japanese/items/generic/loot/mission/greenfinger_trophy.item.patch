@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Given to accomplished Greenfingers as a mark of honor.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "名誉の印としてグリーンフィンガースを達成した。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenfinger Medal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリーンフィンガーメダル"
+    }
+  ]
+]

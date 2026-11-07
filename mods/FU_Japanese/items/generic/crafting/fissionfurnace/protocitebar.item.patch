@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bar of compressed protocite, found on Protoworlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Protoworlds.comにある圧縮プロトサイトバーです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトインゴット"
+    }
+  ]
+]

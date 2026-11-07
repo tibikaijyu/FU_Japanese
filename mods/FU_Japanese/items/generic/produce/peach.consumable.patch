@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fresh, juicy peach, ripe for baking or consuming with my face! ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新鮮でジューシーな桃、焼き物や顔で食べるための熟した! ^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peach"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "桃"
+    }
+  ]
+]

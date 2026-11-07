@@ -1,0 +1,194 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "Right, you here for the sweet stuff? ... Ice cream, I mean."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "ねえ、甘いもののためにここに? ... アイスクリームだよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "All right, all right. What can I fix you with?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "よし、よし。 何で解決できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "Take your pick, mate."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "選べよ、仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/0",
+      "value": "Right, you here for the sweet stuff? ... Ice cream, I mean."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/0",
+      "value": "ねえ、甘いもののためにここに? ... アイスクリームだよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/1",
+      "value": "All right, all right. What can I fix you with?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/1",
+      "value": "よし、よし。 何で解決できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/2",
+      "value": "Take your pick, mate."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/penguin/default/2",
+      "value": "選べよ、仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "Can I interest you in a sardine sundae?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "イワシの日没に興味がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "A single scoop starts at 300,000 pixels... kidding! Just kidding!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "単一のスクープは300,000ピクセルから始まります。 冗談だよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "Let's talk business. ... ICE CREAM business, mind you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/2",
+      "value": "ビジネスについて話しましょう。 ... 氷 CREAM ビジネスは、あなたの心。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/end/default/default/0",
+      "value": "Yeah, yeah, don't let the door hit ya on the way out."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/end/default/default/0",
+      "value": "ああ、ああ、ドアが出て行く途中に君を殴らないでくれよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/end/penguin/default/0",
+      "value": "Yeah, yeah, don't let the door hit ya on the way out."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/end/penguin/default/0",
+      "value": "ああ、ああ、ドアが出て行く途中に君を殴らないでくれよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/0",
+      "value": "Can I interest you in a sardine sundae?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/0",
+      "value": "イワシの日没に興味がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/1",
+      "value": "A single scoop starts at 300,000 pixels... kidding! Just kidding!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/1",
+      "value": "単一のスクープは300,000ピクセルから始まります。 冗談だよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/2",
+      "value": "Let's talk business. ... ICE CREAM business, mind you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/penguin/default/2",
+      "value": "ビジネスについて話しましょう。 ... 氷 CREAM ビジネスは、あなたの心。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  A legit penguin business?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  ペンギンビジネス!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Ice Cream Vendor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  アイスクリームベンダー"
+    }
+  ]
+]

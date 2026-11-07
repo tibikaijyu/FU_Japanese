@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Knock your enemies away with prismatic energy.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵をプリズマティックなエネルギーで遠ざけましょう。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズムハンマー"
+    }
+  ]
+]

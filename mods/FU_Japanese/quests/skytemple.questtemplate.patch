@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The view from up here is grandiose and inspiring! Did I manage to discover all the secrets this place holds?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ここからの眺めは壮大で感動的です! 私はこの場所が持つすべての秘密を発見することができましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Ascend to the heavens of the Sky Boulevard."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "空の大通りの天国に昇る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map gives me directions to one of the greatest Avian sacred sites, the Sky Boulevard. I ought to be extremely well-prepared before attempting any tomb raiding."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図は、最も偉大なアヴィアの神聖な場所、スカイ大通りへの道順を教えてくれます。 墓の襲撃を試みる前に、私は非常に準備が整っているはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Sky Boulevard"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; スカイバルド!"
+    }
+  ]
+]

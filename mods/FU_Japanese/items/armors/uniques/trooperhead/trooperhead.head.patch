@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Built for frontline infantry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最前線の歩兵用に作られた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tactical Combat Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦術戦闘ヘルメット"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothing better on a hot day than a cool, refreshing can of Oculemonade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暑い日には、オクルモネードの涼しく爽やかな缶ほど良いものはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "The tasste Floran can sssee! Hehe."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フラーンが味わえる! ヘヘヘ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uneasy. This drink is delicious, but I'm not sure how I feel about it being made of... Oculemons..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不安です この飲み物は美味しいですが、どう思うかは分かりません。 オキュレモン...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Purty sweet taste, if you can get past the ingredients."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "食材を過ぎても甘みが薄みのある味わい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oculemonade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オクルモナーデ"
+    }
+  ]
+]

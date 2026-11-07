@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Ship set to manual repair."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "マニュアル修理にセット船。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Adding certain machines to your ship will upgrade its abilities."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたの船に特定の機械を追加すると、その能力をアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "BYOS Tracker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "BYOSトラッカー"
+    }
+  ]
+]

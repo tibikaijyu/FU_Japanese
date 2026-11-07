@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some hideous, foul-smelling kind of flesh.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汚い、汚い種類の肉。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

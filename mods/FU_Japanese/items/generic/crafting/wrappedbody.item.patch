@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A corpse, wound unceremoniously in cloth to prevent gore leaving a mess."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死体は、穴が混乱するのを防ぐために布で無礼に巻かれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wrapped Corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "包帯遺体"
+    }
+  ]
+]

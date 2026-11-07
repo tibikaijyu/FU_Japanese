@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toumingo Legs not included."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Toumingoの足は含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toumingo Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "富んご帽子"
+    }
+  ]
+]

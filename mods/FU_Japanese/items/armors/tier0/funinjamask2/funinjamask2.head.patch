@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Be a ninja. Life will improve."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "忍者になりなさい。 人生は改善される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassin Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アサシンマスク"
+    }
+  ]
+]

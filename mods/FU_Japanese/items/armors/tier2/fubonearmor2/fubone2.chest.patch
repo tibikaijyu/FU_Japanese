@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Fall Damage x^green;0.75^reset;\n^yellow;^reset; Swords: Damage x^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 損傷x ^green;0.75^reset;\n^yellow;^reset; 剣 : ダメージ x ^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone-Steel Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨鋼製の胸部"
+    }
+  ]
+]

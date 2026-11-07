@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When you wear these cool bottoms, you feel as though anything is possible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのクールなボトムスを身に着けると、何かが可能なように感じます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケートパンツ"
+    }
+  ]
+]

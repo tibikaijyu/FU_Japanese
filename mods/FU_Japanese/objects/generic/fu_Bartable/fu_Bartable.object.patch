@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bar table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バーテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bar Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーテーブル"
+    }
+  ]
+]

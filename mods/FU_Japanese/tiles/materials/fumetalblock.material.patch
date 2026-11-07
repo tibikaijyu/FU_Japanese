@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rusted, solid metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "錆びた固体金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Metal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代金属"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A data disk containing research seized from an illegal Miniknog blacksite. You can put it to better use. Maybe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "違法なミニノグブラックサイトから取得した研究を含むデータディスク。 よりよく使うことができます。 たぶん。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Illicit Research Disk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "違法な研究ディスク"
+    }
+  ]
+]

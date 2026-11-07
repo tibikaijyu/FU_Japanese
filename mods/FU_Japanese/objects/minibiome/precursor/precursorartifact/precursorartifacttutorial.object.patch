@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This relic tantalizes you with its potential value. Take it!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この遺物は、潜在的な価値をあなたに与えます。 持ってけ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Artefact"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

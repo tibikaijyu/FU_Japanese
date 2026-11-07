@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A grotesque, bizarre crown of gold.\n+^green;25^reset;% Shadow Resistance.\n^green;+30^reset;% Energy Regen\nDefense x^green;1.15^reset;, Damage x^green;1.2^reset;.\n^cyan;Immune^reset;: Caliginous Gas, Shadow Taint"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グロテスクで奇妙な金の冠。\n+^green;25^reset;% シャドウレジスタンス。\n^green;+30^reset;% エネルギー再生\n防御x ^green;1.15^reset;、損傷x ^green;1.2^reset;。\n^cyan;免疫^reset; : カリギナスガスと影の色合い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Crown"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老冠"
+    }
+  ]
+]

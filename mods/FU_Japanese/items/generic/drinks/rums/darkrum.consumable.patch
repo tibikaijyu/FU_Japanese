@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yo-ho-ho and a bottle of rum!\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヨーホーとラム酒!\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Rum"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークラム"
+    }
+  ]
+]

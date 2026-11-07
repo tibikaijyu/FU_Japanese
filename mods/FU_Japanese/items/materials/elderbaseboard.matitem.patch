@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Etched with a strange language. Kinda creepy, too."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "変な言葉でエッチングされる。 気持ち悪いのも。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Baseboard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老ベースボード"
+    }
+  ]
+]

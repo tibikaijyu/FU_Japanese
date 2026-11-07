@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rich detailed stone platform"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "豊富な石造りのプラットホーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアプラットフォーム"
+    }
+  ]
+]

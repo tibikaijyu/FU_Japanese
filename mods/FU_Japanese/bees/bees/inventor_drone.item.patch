@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Inventor Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発明家ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inventor Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発明家ドローン"
+    }
+  ]
+]

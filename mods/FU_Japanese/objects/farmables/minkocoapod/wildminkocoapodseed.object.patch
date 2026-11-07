@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A variant of cocoa favored with mustelids. Provides speed boost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カカオの変種で、ムストリッドが好まれている。 スピードアップを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Minkocoa Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミンココア種子"
+    }
+  ]
+]

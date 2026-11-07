@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Received communication for the first time in years. Wasn't Earth, but someone claiming to be a Hylotl, saying they were outside our door and it was really cold outside. Not falling for that one. Ignored it."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "数年ぶりにコミュニケーションをとった。 地球ではなかったけど、誰かがハイロトルだと言って、ドアの外は寒いって言ってました。 その人には向いていない。 無視した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Still confused how they knew our transmission frequency."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "送信周波数をどうやって知るのか混乱したままでした"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #54126"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #54126"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #54126"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #54126"
+    }
+  ]
+]

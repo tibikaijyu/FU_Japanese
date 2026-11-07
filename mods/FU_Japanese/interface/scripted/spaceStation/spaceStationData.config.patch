@@ -1,0 +1,2210 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/medical/0/0",
+      "value": "^red;Berserker Rage"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/0/0",
+      "value": "^red;Berserker レート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/0/4",
+      "value": "25% More Power, Increased Movement Speed. \n-50% Knockback Resistance, -35 Protection."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/0/4",
+      "value": "25% パワーアップ、移動速度アップ。 \n-50% ノックバック抵抗、-35 保護。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/1/0",
+      "value": "^gray;Glass Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/1/0",
+      "value": "^gray;ガラス砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/1/4",
+      "value": "100% More Damage at the cost of 90% Less Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/1/4",
+      "value": "100% 90%レスプロテクションのコストでより多くの損傷。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/10/0",
+      "value": "^cyan;Mitochondria"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/10/0",
+      "value": "^cyan;ミトコンドリア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/10/4",
+      "value": "Consumes 2 energy to regenerate 1 health every 0.15 seconds. Energy will regenerate only at full health."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/10/4",
+      "value": "消費 2 再生するエネルギー 1 常に健康で 0.15 秒ね エネルギーは健康でのみ再生します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/11/0",
+      "value": "^#7A7D81;Shadow Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/11/0",
+      "value": "^#7A7D81;影の反発"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/11/4",
+      "value": "Increases shadow resistance by 50% and grants immunity to shadow status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/11/4",
+      "value": "シャドウ抵抗を50%で増加させ、シャドウステータス効果に対する免疫力を与えますが、他の抵抗(物理を除く)の全体的な効果は33%で減少します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/12/0",
+      "value": "^#C5B00A;Radiation Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/12/0",
+      "value": "^#C5B00A; 放射線防止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/12/4",
+      "value": "Increases radiation resistance by 50% and grants immunity to radiation status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/12/4",
+      "value": "放射線抵抗を50%で増加させ、放射線状態効果に対する免疫力を与えますが、他の抵抗(物理を除く)の全体的な効果を33%で減少させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/13/0",
+      "value": "^#69B115;Poison Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/13/0",
+      "value": "^#69B115;毒殺"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/13/4",
+      "value": "Increases poison resistance by 50% and grants immunity to poison status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/13/4",
+      "value": "50% による耐毒性の増加と毒ステータス効果に対する免疫性を与えるが、33% による他の抵抗(物理を除く)の全体的な有効性を低下させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/14/0",
+      "value": "^#A1F1FE;Ice Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/14/0",
+      "value": "^#A1F1FE; 氷の反発"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/14/4",
+      "value": "Increases ice resistance by 50% and grants immunity to ice status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/14/4",
+      "value": "50% によって氷抵抗を増加させ、氷ステータス効果に対する免疫を与えますが、33% によって他の抵抗(物理的を除く)の全体的な有効性を減少させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/15/0",
+      "value": "^#E99400;Fire Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/15/0",
+      "value": "^#E99400; 消火"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/15/4",
+      "value": "Increases fire resistance by 50% and grants immunity to fire status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/15/4",
+      "value": "耐火性は50%で向上し、火災状態に対する免疫力は付与されるが、他の抵抗(物理を除く)の全体的な効果は33%によって低下する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/16/0",
+      "value": "^#9711E4;Electrical Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/16/0",
+      "value": "^#9711E4;電気的反発"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/16/4",
+      "value": "Increases electric resistance by 50% and grants immunity to electric status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/16/4",
+      "value": "抵抗を50%で増加させ、電気的ステータス効果に対する免疫を与えますが、他の抵抗(物理を除く)の全体的な有効性は33%で減少します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/17/0",
+      "value": "^#6062EB;Cosmic Repel"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/17/0",
+      "value": "^#6062EB;コスミックリペール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/17/4",
+      "value": "Increases cosmic resistance by 50% and grants immunity to cosmic status effects, but reduces the overall effectiveness of other resistances (except physical) by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/17/4",
+      "value": "50% によって宇宙抵抗を増加させ、宇宙状態効果に対する免疫を与えるが、33% によって他の抵抗(物理的を除く)の全体的な有効性を減少させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/2/0",
+      "value": "^green;Immunization"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/2/0",
+      "value": "^green;免疫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/2/4",
+      "value": "Provides immunity to most negative status effects. 10% Less Power and Protection."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/2/4",
+      "value": "最もネガティブなステータス効果に対する免疫を提供します。 10% 電源と保護を削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/3/0",
+      "value": "^white;Juggernaut"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/3/0",
+      "value": "^white;ジャガーノート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/3/4",
+      "value": "You become immune to knockback and gain 50 protection, but your movement speed is reduced by 33%."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/3/4",
+      "value": "ノックバックとゲイン50保護に免疫になりますが、動作速度は33%によって低下します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/4/0",
+      "value": "^green;Toxic Cloud"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/4/0",
+      "value": "^green; 毒性雲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/4/4",
+      "value": "Every 3 seconds a toxic cloud that lasts 5 seconds and deals 30 piercing damage is released at your location. Every time this happens, you take 5 piercing damage. 20% Increased Hunger Drain."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/4/4",
+      "value": "3 秒毎に 5 秒続き、 30 ピアス損傷を発生させる有毒な雲が、あなたの場所にリリースされます。 このたびに 5 ピアス損傷を受ける。 20%飢餓ドレインを増やしました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/5/0",
+      "value": "^#B200FF;Experiment #322"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/5/0",
+      "value": "^#B200FF;実験#322"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/5/4",
+      "value": "Applies random positive and/or negative statuses every 10 seconds which last 15-25 seconds."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/5/4",
+      "value": "ランダムな正または負のステータスを毎回適用します。 10 最後の秒 15-25 秒ね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/6/0",
+      "value": "^red;Trollblood"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/6/0",
+      "value": "^red;血液を回す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/6/4",
+      "value": "Regenerate 40% of damage taken over 5 seconds, at the cost of 20% Less HP and 50% increased Energy Block Time."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/6/4",
+      "value": "再生 40% 被害を受けたこと 5 数秒で 20% HP以下。 50% エネルギーブロック時間の増加。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/7/0",
+      "value": "^green;Renergizer"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/7/0",
+      "value": "^green;リナジャイザー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/7/4",
+      "value": "50% More Energy, 33% More Energy Regeneration. Hunger Drain increased by 25%. 100% Increased Energy Block Time."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/7/4",
+      "value": "50% より多くのエネルギー、33% より多くのエネルギー再生。 飢餓ドレインは 25% で増加しました。 100% エネルギーブロック時間の増加。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/8/0",
+      "value": "^yellow;Hypopanic"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/8/0",
+      "value": "^yellow; ヒポパニック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/8/4",
+      "value": "33% More Energy Regen, -50 Energy. In addition, Increased movement speed the less energy you have (up to +67% speed at 35% energy remaining). Taking damage briefly stops energy regen, and  consumes energy for 150% of damage."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/8/4",
+      "value": "33% エネルギーのレーゲン、-50 エネルギーを増やします。 さらに、移動速度が増加すると、エネルギーが減少します(+67% は 35% のエネルギーが残ります)。 短時間での損傷はエネルギーの再生を阻害し、エネルギーを消費します。 150% 被害を"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/9/0",
+      "value": "^green;Hivemind"
+    },
+    {
+      "op": "replace",
+      "path": "/medical/9/0",
+      "value": "^green; 心が休む"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/medical/9/4",
+      "value": "While over 10% health, drains 1.25% of your Current Health to shoot a projectile at the closest enemy, prioritizing targets not hit recently, in a medium radius with a clear line of fire every 0.5 seconds, dealing 2.5% of your Max HP as base damage (^orange;affected by power multiplier^reset;) on impact and causing Beestings."
+    },
+    {
+      "op": "replace",
+      "path": "/medical/9/4",
+      "value": "終われば 10% 健康 排水 1.25% 近距離の敵に発射物を発射し、最近ヒットしていない目標を、ほぼ一直線に発射する。 0.5 秒数 取引 2.5% 最大 HP のベースとなる損傷。^orange;パワー乗算器によって影響される^reset;影響とビースティングを引き起こします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/0/0",
+      "value": "^gray;Assassin"
+    },
+    {
+      "op": "replace",
+      "path": "/military/0/0",
+      "value": "^gray; 暗殺者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/0/4",
+      "value": "An assassin specialized in shooting stuff from afar."
+    },
+    {
+      "op": "replace",
+      "path": "/military/0/4",
+      "value": "遠方から物を撃つことに特化した暗殺者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/1/0",
+      "value": "Captain"
+    },
+    {
+      "op": "replace",
+      "path": "/military/1/0",
+      "value": "隊長"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/1/4",
+      "value": "Attacks and defends with a sword and a shield."
+    },
+    {
+      "op": "replace",
+      "path": "/military/1/4",
+      "value": "剣と盾で攻撃と防御。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/2/0",
+      "value": "^#2222FF;Commander"
+    },
+    {
+      "op": "replace",
+      "path": "/military/2/0",
+      "value": "^#2222FF; コマンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/2/4",
+      "value": "A commander who'll fight for you with a badass shotgun, and a nitrogen gun."
+    },
+    {
+      "op": "replace",
+      "path": "/military/2/4",
+      "value": "銃と窒素銃で戦い続ける指揮官。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/3/0",
+      "value": "^orange;Mercenary"
+    },
+    {
+      "op": "replace",
+      "path": "/military/3/0",
+      "value": "^orange; マーセナリー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/3/4",
+      "value": "They fight for coin with a wide variety of ranged weapons. Yours, if you can afford their efforts.."
+    },
+    {
+      "op": "replace",
+      "path": "/military/3/4",
+      "value": "彼らは幅広い種類の武器でコインのために戦います。 努力する余裕があるなら、あなたのものです。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/4/0",
+      "value": "^red;Devastator"
+    },
+    {
+      "op": "replace",
+      "path": "/military/4/0",
+      "value": "^red;デヴァステーター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/4/4",
+      "value": "They have a thing for explosions."
+    },
+    {
+      "op": "replace",
+      "path": "/military/4/4",
+      "value": "彼らには爆発物がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/5/0",
+      "value": "^#FF2222;Warmonger"
+    },
+    {
+      "op": "replace",
+      "path": "/military/5/0",
+      "value": "^#FF2222;ウォーモンガー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/military/5/4",
+      "value": "There are people in this universe you want on your side. This person, is one of them."
+    },
+    {
+      "op": "replace",
+      "path": "/military/5/4",
+      "value": "この宇宙には、あなたの側に欲しい人がいます。 この人は、その一人です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/0",
+      "value": "Alpha"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/0",
+      "value": "アルファ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/1",
+      "value": "Barad"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/1",
+      "value": "バラド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/10",
+      "value": "Youuk"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/10",
+      "value": "御用達"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/11",
+      "value": "Taur"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/11",
+      "value": "タウル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/12",
+      "value": "Scorpio"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/12",
+      "value": "サソリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/13",
+      "value": "Iszh"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/13",
+      "value": "イジ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/14",
+      "value": "Hermes"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/14",
+      "value": "エルメス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/15",
+      "value": "Murdertown"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/15",
+      "value": "殺人者町"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/16",
+      "value": "Apollo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/16",
+      "value": "アポロ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/17",
+      "value": "Herrah"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/17",
+      "value": "ヘラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/18",
+      "value": "San"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/18",
+      "value": "山"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/19",
+      "value": "Bur"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/19",
+      "value": "でも"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/2",
+      "value": "In"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/2",
+      "value": "陰"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/20",
+      "value": "Synha"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/20",
+      "value": "シンハ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/21",
+      "value": "Halo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/21",
+      "value": "ハロ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/22",
+      "value": "Doro"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/22",
+      "value": "ドロ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/23",
+      "value": "Sauce"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/23",
+      "value": "ソース"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/24",
+      "value": "Zote"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/24",
+      "value": "図像"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/25",
+      "value": "Bara"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/25",
+      "value": "原"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/26",
+      "value": "Tor"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/26",
+      "value": "鳥"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/27",
+      "value": "Magi"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/27",
+      "value": "マギ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/28",
+      "value": "Xol"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/28",
+      "value": "ゾル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/29",
+      "value": "Jah"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/29",
+      "value": "ジャー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/3",
+      "value": "Beta"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/3",
+      "value": "ベータ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/30",
+      "value": "Top"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/30",
+      "value": "トップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/31",
+      "value": "Mid"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/31",
+      "value": "中期"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/32",
+      "value": "Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/32",
+      "value": "しかし"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/33",
+      "value": "Bite"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/33",
+      "value": "バイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/34",
+      "value": "Rath"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/34",
+      "value": "ラト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/4",
+      "value": "Gamma"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/4",
+      "value": "ガンマ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/5",
+      "value": "Delta"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/5",
+      "value": "デルタ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/6",
+      "value": "Zeta"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/6",
+      "value": "ゼータ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/7",
+      "value": "Tera"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/7",
+      "value": "寺"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/8",
+      "value": "Leo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/8",
+      "value": "レオ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/0/9",
+      "value": "Steve"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/0/9",
+      "value": "スティーブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/0",
+      "value": "Ith"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/0",
+      "value": "イス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/1",
+      "value": "Dur"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/1",
+      "value": "概要"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/10",
+      "value": "Ruby"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/10",
+      "value": "ルビー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/11",
+      "value": "Thoth"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/11",
+      "value": "説"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/12",
+      "value": "Nice"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/12",
+      "value": "ニース"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/13",
+      "value": "Whoosh"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/13",
+      "value": "うわっ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/14",
+      "value": "Dal"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/14",
+      "value": "ダル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/15",
+      "value": "Git"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/15",
+      "value": "ギット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/16",
+      "value": "Ov"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/16",
+      "value": "オヴ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/17",
+      "value": "Ark"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/17",
+      "value": "アーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/18",
+      "value": "Synth"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/18",
+      "value": "シンセ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/19",
+      "value": "Nou"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/19",
+      "value": "能"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/2",
+      "value": "Es"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/2",
+      "value": "訳エッセイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/20",
+      "value": "Nup"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/20",
+      "value": "直し"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/21",
+      "value": "Ger"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/21",
+      "value": "ゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/22",
+      "value": "Bip"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/22",
+      "value": "ビップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/23",
+      "value": "Juuk"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/23",
+      "value": "ジューク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/24",
+      "value": "Tylen"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/24",
+      "value": "タイレン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/25",
+      "value": "Zilcher"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/25",
+      "value": "訳ジルチャー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/26",
+      "value": "Tyl"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/26",
+      "value": "タイラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/27",
+      "value": "Tyr"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/27",
+      "value": "ティア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/28",
+      "value": "Abbad"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/28",
+      "value": "概要"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/29",
+      "value": "Nom"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/29",
+      "value": "能"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/3",
+      "value": "Nebulus"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/3",
+      "value": "星雲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/30",
+      "value": "Torvald"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/30",
+      "value": "トーバルド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/31",
+      "value": "Mnmemic"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/31",
+      "value": "貧血"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/32",
+      "value": "Aeth"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/32",
+      "value": "歯"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/33",
+      "value": "Slabb"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/33",
+      "value": "スラブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/4",
+      "value": "Oroth"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/4",
+      "value": "オロース"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/5",
+      "value": "Theo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/5",
+      "value": "セオ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/6",
+      "value": "Tarrasque"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/6",
+      "value": "タラスク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/7",
+      "value": "Anda"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/7",
+      "value": "安田"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/8",
+      "value": "Steve"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/8",
+      "value": "スティーブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/1/9",
+      "value": "Topaz"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/1/9",
+      "value": "トパーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/0",
+      "value": "Ber"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/0",
+      "value": "ベル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/1",
+      "value": "Meme"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/1",
+      "value": "ミーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/10",
+      "value": "Dastu"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/10",
+      "value": "ダスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/11",
+      "value": "Wardo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/11",
+      "value": "武道"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/12",
+      "value": "Ress"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/12",
+      "value": "レス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/13",
+      "value": "Capo"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/13",
+      "value": "カポ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/14",
+      "value": "Valid"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/14",
+      "value": "有効"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/15",
+      "value": "Slaugh"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/15",
+      "value": "笑"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/16",
+      "value": "vek"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/16",
+      "value": "ヴェル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/17",
+      "value": "Junt"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/17",
+      "value": "ジャント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/18",
+      "value": "Polla"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/18",
+      "value": "ポラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/19",
+      "value": "Miumb"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/19",
+      "value": "ミウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/2",
+      "value": "Requiem"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/2",
+      "value": "要件"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/20",
+      "value": "Qing"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/20",
+      "value": "清"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/21",
+      "value": "Zalk"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/21",
+      "value": "散策"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/22",
+      "value": "Da"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/22",
+      "value": "太田"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/23",
+      "value": "La"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/23",
+      "value": "ラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/24",
+      "value": "Minku"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/24",
+      "value": "民国"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/25",
+      "value": "Donkey"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/25",
+      "value": "ロバ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/26",
+      "value": "Overg"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/26",
+      "value": "概要"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/27",
+      "value": "Pyth"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/27",
+      "value": "ピュス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/28",
+      "value": "Funland"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/28",
+      "value": "ファンランド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/29",
+      "value": "Walkabout"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/29",
+      "value": "歩き回る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/3",
+      "value": "Gud"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/3",
+      "value": "神"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/30",
+      "value": "Macdaw"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/30",
+      "value": "マクドー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/31",
+      "value": "Bell"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/31",
+      "value": "鐘"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/4",
+      "value": "Mallas"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/4",
+      "value": "マラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/5",
+      "value": "Emporium"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/5",
+      "value": "エンポリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/6",
+      "value": "Tippur"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/6",
+      "value": "ヒント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/7",
+      "value": "Steve"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/7",
+      "value": "スティーブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/8",
+      "value": "Norn"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/8",
+      "value": "ノルン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/naming/2/9",
+      "value": "Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/naming/2/9",
+      "value": "女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/0/location",
+      "value": "Sol III"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/0/location",
+      "value": "第三園"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/0/objective",
+      "value": "kill a horde of Hippies"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/0/objective",
+      "value": "ヒッピーの群れを殺せ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/0/reward",
+      "value": "300 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/0/reward",
+      "value": "300ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/0/time",
+      "value": "90 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/0/time",
+      "value": "90 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/1/location",
+      "value": "Sol IV"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/1/location",
+      "value": "四代目"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/1/objective",
+      "value": "eliminate several Martians"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/1/objective",
+      "value": "火星人数人を排除"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/1/reward",
+      "value": "450 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/1/reward",
+      "value": "450ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/1/time",
+      "value": "60 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/1/time",
+      "value": "60 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/2/location",
+      "value": "Sol IIIa"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/2/location",
+      "value": "ソロIIIa"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/2/objective",
+      "value": "defeat a few Moonmen"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/2/objective",
+      "value": "数人のムーンメンを倒す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/2/reward",
+      "value": "600 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/2/reward",
+      "value": "600ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif0/2/time",
+      "value": "45 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif0/2/time",
+      "value": "45 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/0/location",
+      "value": "Altair II"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/0/location",
+      "value": "アルタイル II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/0/objective",
+      "value": "exterminate a pack of huge spiders"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/0/objective",
+      "value": "巨大なクモの群れを駆除する."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/0/reward",
+      "value": "1750 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/0/reward",
+      "value": "1750ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/0/time",
+      "value": "35 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/0/time",
+      "value": "35 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/1/location",
+      "value": "Sol IX"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/1/location",
+      "value": "ソル IX"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/1/objective",
+      "value": "return a single cartoon dog"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/1/objective",
+      "value": "ワンマンガの犬を返して"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/1/reward",
+      "value": "1000 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/1/reward",
+      "value": "1000ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/1/time",
+      "value": "30 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/1/time",
+      "value": "30 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/2/location",
+      "value": "Orion I"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/2/location",
+      "value": "オリオン I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/2/objective",
+      "value": "destroy the Guardian"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/2/objective",
+      "value": "ガーディアンを壊す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/2/reward",
+      "value": "2500 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/2/reward",
+      "value": "2500ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif1/2/time",
+      "value": "40 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif1/2/time",
+      "value": "40 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/0/location",
+      "value": "Anteras III"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/0/location",
+      "value": "アンテラス III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/0/objective",
+      "value": "destroy the Harbinger"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/0/objective",
+      "value": "ハービンガーを壊す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/0/reward",
+      "value": "5000 pixels & 200 ancient essence"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/0/reward",
+      "value": "5000ピクセル&200古代の本質"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/0/time",
+      "value": "10 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/0/time",
+      "value": "10 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/1/location",
+      "value": "Grandma Armpit II"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/1/location",
+      "value": "おばあちゃんピットII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/1/objective",
+      "value": "defeat an elite squadron"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/1/objective",
+      "value": "エリート戦隊を破る."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/1/reward",
+      "value": "8000 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/1/reward",
+      "value": "8000ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/1/time",
+      "value": "30 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/1/time",
+      "value": "30 ちょっと"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/2/objective",
+      "value": "purify several corruptors"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/2/objective",
+      "value": "複数の汚職者を浄化する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/2/reward",
+      "value": "2500 pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/2/reward",
+      "value": "2500ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/quests/dif2/2/time",
+      "value": "25 minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/quests/dif2/2/time",
+      "value": "25 ちょっと"
+    }
+  ]
+]

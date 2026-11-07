@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for early meat and hide gathering.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "早期の肉と隠れた集まりに最適です。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原始軸"
+    }
+  ]
+]

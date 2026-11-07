@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A flame trap, definitely one to avoid."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "炎のトラップ、間違いなく避けるべきものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Ouch! Flames and feathers don't mix!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "痛い! 火炎と羽毛が混ざらない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flames, embers, and burning, oh my~ \n^blue;Input 1^white; : Flames. \n^blue;Input 2^white; : Particles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火炎、火葬、火傷。 \n^blue;入力1^white;:炎。 \n^blue;入力 2^white;:粒子。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Fire trap is Floran's worssst enemy!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ファイアートラップはフローランの最悪の敵です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Terrified. It's just a little flame trap, nothing that can't be overcome."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恐ろしさ。 ただの炎のトラップで、乗り越えられないものは何もありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A trusty, reliable flame trap."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "信頼と信頼の炎のトラップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The swift warrior fears not the flame."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "迅速な戦士は炎を恐れません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Simple yet deadly. My favourite kind."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "シンプルだが致命的。 お気に入りです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "SCB Flame Emitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "SCB 火炎エミッタ"
+    }
+  ]
+]

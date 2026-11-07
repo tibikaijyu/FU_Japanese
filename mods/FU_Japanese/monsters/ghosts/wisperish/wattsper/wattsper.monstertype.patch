@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some believe wattspers are lost spirits. At night their glow can lead explorers astray."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワットパースは精神を失っていると信じる人もいます。 夜には、彼らの輝きは探検家を迷わせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wattsper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワッツパー"
+    }
+  ]
+]

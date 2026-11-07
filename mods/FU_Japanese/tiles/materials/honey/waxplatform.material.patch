@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautiful wax platforms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しいワックスプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワックスプラットフォーム"
+    }
+  ]
+]

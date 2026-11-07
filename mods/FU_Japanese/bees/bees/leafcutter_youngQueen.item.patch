@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Leafcutter Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "若き女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Leafcutter Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若葉カッタークイーン"
+    }
+  ]
+]

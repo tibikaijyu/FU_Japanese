@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floran delicacy.\n^red;-^white;5% ^red;HP ^gray;(^white;10s^gray;) ^blue;Madness Gain^reset; 1\n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花の繊細さ。\n^red;-^white;5% ^red;HP ^gray;(^white;10ス)^gray;) ^blue;狂気の高まり^reset; 1\n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Baby Head (on a stick)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベビーヘッド(棒)"
+    }
+  ]
+]

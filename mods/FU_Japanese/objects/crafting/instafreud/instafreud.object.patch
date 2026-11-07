@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A one-stop mental health kiosk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワンストップメンタルヘルスキオスク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Insta-Freud"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インスタフリート"
+    }
+  ]
+]

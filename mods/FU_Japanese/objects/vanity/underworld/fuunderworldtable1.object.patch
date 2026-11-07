@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Clearly a place to eat supper in peace."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "平穏に夕食を食べる場所は明らかです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュテーブル"
+    }
+  ]
+]

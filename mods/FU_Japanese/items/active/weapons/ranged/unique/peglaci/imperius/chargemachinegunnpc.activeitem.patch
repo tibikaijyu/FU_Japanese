@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A storm of aegisalt shards rend armor with ease and reflect off walls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エージカルトシャードの嵐は、簡単に装甲を描き、壁を映し出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Imperius Minigun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "帝国ミニガン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A segment of a camoflauged burrowing worm"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カモフラージュされた穴あけ虫の一節"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burrower Segment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トンネルセグメント"
+    }
+  ]
+]

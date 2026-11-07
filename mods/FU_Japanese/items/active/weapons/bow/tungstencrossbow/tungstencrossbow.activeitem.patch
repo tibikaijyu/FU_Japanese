@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy tungsten crossbow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重いタングステンクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンクロスボウ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Butter, lemon, lobster, and joy. All in one. ^orange;Type: Cooked Seafood^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バター、レモン、ロブスター、そして喜び。 全部一つ。 ^orange;タイプ:海鮮料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lemony Lobster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レモンロブスター"
+    }
+  ]
+]

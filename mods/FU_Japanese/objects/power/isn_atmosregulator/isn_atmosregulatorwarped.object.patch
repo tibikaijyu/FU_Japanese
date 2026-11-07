@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates a mysterious field at significantly higher range. ^cyan;Requires ^orange;320W^cyan; of power^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり高い範囲で神秘的なフィールドを生成します。 ^cyan;必須 ^orange;320W:^cyan; 権力の^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Warped Regulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ワープレギュレータ^reset;"
+    }
+  ]
+]

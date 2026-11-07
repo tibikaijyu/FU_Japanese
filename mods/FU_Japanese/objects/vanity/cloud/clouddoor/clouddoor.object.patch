@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fluffy door made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られたふわふわのドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドドア"
+    }
+  ]
+]

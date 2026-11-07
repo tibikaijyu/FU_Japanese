@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Contains valuable quietus essence.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貴重なquietusエッセンスが含まれています。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液結晶"
+    }
+  ]
+]

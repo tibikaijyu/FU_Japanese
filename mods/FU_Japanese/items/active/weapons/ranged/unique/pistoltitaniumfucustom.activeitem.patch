@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Custom-tweaked for a badass.\n^yellow;High damage homing rounds.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カスタム調整でお尻を。\n^yellow; 高いダメージホーミングラウンド。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Velvet Revolver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベルベットリボルバー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform with built-in anti-grav technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アンチグラビア技術内蔵のプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hover Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホバータイル"
+    }
+  ]
+]

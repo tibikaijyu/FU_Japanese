@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires condensed magma bullets. Incredibly painful.\n^yellow;Inflicts melting^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "弾丸を凝縮した。 信じられないほど痛い。\n^yellow;溶融作用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellraiser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルライザー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bamboo cabinet. Charming.."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "竹製のキャビネット。 魅力的。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bamboo Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竹閣"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Immune^reset;: Stun, Electricity, Sandstorms\n^yellow;^reset; Lance/(Short)Spear/Sniper^reset;: Damage x^green;1.25^reset;\n^yellow;^reset; Bow^reset;: +^green;3^reset;% Crit Chance, Damage x^green;1.2^reset;, -^green;6^reset; Energy Per Shot, +^green;15^reset;% Draw Speed"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;免疫^reset;スタン、電気、砂嵐\n^yellow;^reset;ランス/(短い)槍/狙撃 ^reset;:損傷x ^green;1.25^reset;\n^yellow;^reset;ボウ^reset;:+^green;3^reset;%クリティカルチャンス、ダメージx ^green;1.2^reset;、 -^green;6^reset;エネルギーショットごとに、+^green;15^reset;%描画速度。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rimworlder's Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リムワーダーの帽子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bloody severed leg from a hapless scientist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不運な科学者からの血まみれの切断された足。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloody leg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれの足"
+    }
+  ]
+]

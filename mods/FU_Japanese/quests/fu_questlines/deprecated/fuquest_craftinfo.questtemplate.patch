@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now take that to your base and place it next to an extractor, centrifuge or other production station. Access it, and you'll soon see just how amazing a device it truly is."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それをベースに持ち、抽出器、遠心分離機、または他の生産ステーションの隣に置いてください。 アクセスすれば、本当に素晴らしいデバイスがすぐにわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Lab Directory^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ラボディレクトリ^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^red;(Deprecated)^reset; A ^orange;Lab Directory^reset; does only one thing: ^green;Telling you what makes what^reset; in your production stations. Try making one now in your ^orange;Machining Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^red;(廃止)^reset; A ^orange;ラボディレクトリ^reset; 一つだけ行うことです ^green;何が何をもたらすのか^reset; 生産現場に 今すぐあなたの^orange;加工作業台^reset;で作ってみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "New Directions"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "新しい方向性"
+    }
+  ]
+]

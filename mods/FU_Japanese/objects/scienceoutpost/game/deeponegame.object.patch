@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An arcade machine with an interactive narrative game."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "インタラクティブな物語ゲームを備えたアーケードマシン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Humped By a Deep One"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深海に突き刺さった"
+    }
+  ]
+]

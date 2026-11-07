@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pillar block, made of marble."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大理石製のピラーブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Marble Pillar Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大理石の柱ブロック"
+    }
+  ]
+]

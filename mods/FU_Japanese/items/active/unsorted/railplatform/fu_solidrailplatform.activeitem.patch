@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Place a self-propelled platform that follows rails and can't be fallen through."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レールを踏んで倒れない自走式プラットフォームを置きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solid Rail Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄道ホーム"
+    }
+  ]
+]

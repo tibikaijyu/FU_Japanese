@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ye olde counter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古いカウンター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世"
+    }
+  ]
+]

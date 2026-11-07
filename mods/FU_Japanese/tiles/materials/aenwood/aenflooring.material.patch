@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This floor seems more starry than most."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この床は、他のどの床よりも星のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran feelss weird walking on starry floor."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは星座の上を歩くのが変な感じがします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Charmed. A beautiful stellar wooden floor."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "チャーミング。 美しいスターの木製床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some insanely fancy lookin' ornate floorin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "華麗な床に見える狂ったような派手な人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Wood Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フローリング"
+    }
+  ]
+]

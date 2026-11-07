@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Once triggered this switch will remain in its switched state."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一度トリガーされると、このスイッチはスイッチされた状態に残ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Once triggered this sswitch will remain in its sswitched ssstate."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "トリガーされると、このスイッチはスイッチされた ss 状態に残ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. Once triggered this switch will remain in its switched state."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 一度トリガーされると、このスイッチはスイッチされた状態に残ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compact Persistent Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型永続化スイッチ"
+    }
+  ]
+]

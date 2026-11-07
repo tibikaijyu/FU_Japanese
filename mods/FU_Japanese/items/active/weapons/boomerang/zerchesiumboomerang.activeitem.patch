@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cold as ice, swift and deadly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷のように、迅速かつ致命的な寒さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブメラン座"
+    }
+  ]
+]

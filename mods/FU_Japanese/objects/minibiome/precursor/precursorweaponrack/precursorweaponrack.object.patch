@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An array of alien weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイリアンの武器の配列。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Weapon Rack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身の武器ラック"
+    }
+  ]
+]

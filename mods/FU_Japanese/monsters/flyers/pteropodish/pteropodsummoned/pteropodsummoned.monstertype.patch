@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brings death with sharp, poisoned spines."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭い毒を被った脊髄で死をもたらす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hunter Pteropod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハンター・ペロポッド"
+    }
+  ]
+]

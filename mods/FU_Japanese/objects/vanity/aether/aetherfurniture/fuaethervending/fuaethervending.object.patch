@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A vending machine filled with aetheric beverages."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテル飲料をたっぷり入れた自動販売機。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " Delicious Cosmic Drinks"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " 美味しい宇宙ドリンク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Aether Vending Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "エーテル自動販売機"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Vending Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル自動販売機"
+    }
+  ]
+]

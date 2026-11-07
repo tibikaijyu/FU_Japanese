@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "As you unlock more blueprints, you will find your potential for death, destruction and protection will increase exponentially."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "より多くの設計図を解錠すると、死、破壊、保護の可能性が指数関数的に増加することがわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm sure you don't need to be told what your ^orange;Armorworks^reset; does!\tThe armor and weapons you can create here are varied. Let's test it out by building a ^orange;Plebeian Cap^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたの^orange;武具製作台^reset;が何をしているかを伝える必要はありません!\tここで作成できる武器と防具はさまざまです。 ^orange;PlebeianCap^reset; を構築して試してみましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Armor Up"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "アーマーアップ"
+    }
+  ]
+]

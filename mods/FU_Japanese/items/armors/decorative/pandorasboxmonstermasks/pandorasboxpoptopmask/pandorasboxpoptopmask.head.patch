@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poptop music not included."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポップトップミュージックは含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップマスク"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Few can say they have hunted and killed one of these. I salute your skill."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "狩りをして殺したと言う人はほとんどいない。 私はあなたの腕前を敬う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Gorgolith Tail^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;Gorgolith Tail ^reset; を ^orange;科学前哨基地^reset; で持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Rare, and horrifically deadly, the ^orange;Gorgolith^reset; prowl ^orange;Protoworlds^reset; looking for delicious prey. Find one and kill it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "まれで恐ろしいことに、おいしい獲物を探している^orange;Gorgolith^reset;prowl^orange;Protoworlds^reset;。 探して殺しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gorgolith [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ゴルゴリス[BOSS]."
+    }
+  ]
+]

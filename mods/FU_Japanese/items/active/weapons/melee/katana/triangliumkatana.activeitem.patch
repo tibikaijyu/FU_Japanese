@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light as air, sharp as a razor.\n^cyan;Massive 10-hit combo!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空気のように光、かみそりのように鋭利。\n^cyan; Massive 10 - コンボヒット!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trianglium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コウモリ"
+    }
+  ]
+]

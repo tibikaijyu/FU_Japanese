@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A famous modified Graviton pistol thought lost forever.\n^yellow;Causes Freeze^reset;\n^green;Powerful knockback^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有名な改造グラビトンピストルの思考は永遠に失われました。\n^yellow;凍結の原因^reset;\n^green;強力なノックバック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffdb31;Susan^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffdb31;スーザン^reset;"
+    }
+  ]
+]

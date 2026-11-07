@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large slab of stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石の大きなスラブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大きな石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All that remains after being contaminated by dark water.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗い水に汚染された後に、すべてが残ります。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corruption"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破損"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior weaponry offering unsurpassed utility.\n^yellow;4-round bursts^reset;\n^green;Piercing alt-fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卓越した実用性を提供する優れた武器。\n^yellow;4 - ラウンドバースト^reset;\n^green; ピアシングオールトファイア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムライフル"
+    }
+  ]
+]

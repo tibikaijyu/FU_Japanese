@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An alien laser blaster, very colourful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常にカラフルなエイリアンレーザーブラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Laser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンレーザー"
+    }
+  ]
+]

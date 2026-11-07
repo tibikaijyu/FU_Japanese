@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Why fire bullets when you can fire living creatures?\n^yellow;Spawns Spike-bugs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生物を発射できるのに、なぜ弾丸を発射するのか?\n^yellow;スパイク虫を産む^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spike-Bug Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トゲムシランチャー"
+    }
+  ]
+]

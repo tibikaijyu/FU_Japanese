@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is really, really unsafe to handle.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは本当に、本当に扱いにくいものです。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Molten Steel Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "溶鋼砂"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet juice made of grapes. ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウから作られた甘いジュース。 ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

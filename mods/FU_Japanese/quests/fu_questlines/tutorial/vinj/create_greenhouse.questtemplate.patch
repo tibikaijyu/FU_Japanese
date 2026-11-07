@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Don't forget that certain plants are ^green;almost essential^reset; for a viable gene-research laboratory. At the very least, you'll want ^orange;Mutavisk Seeds^reset; and ^orange;Bracken Tree Seeds^reset; for the resources they produce."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "遺伝子研究を行う研究室では、特定の植物が^green;ほぼ必須^reset;になることを覚えておこう。少なくとも、資源を生み出す^orange;ミュータヴィスクの種^reset;と^orange;ブラッケンの木の種^reset;は欲しいところだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With a ^orange;Greenhouse^reset; in your home you can craft all sorts of plants that bestow ^green;fantastic buffs and abilities^reset; to make your life easier. Build a ^orange;Greenhouse^orange; now. You'll need to ^orange;Research^reset; into ^orange;Agriculture^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "家に^orange;温室^reset;があれば、^green;素晴らしい強化効果や能力^reset;を与えてくれる、さまざまな植物を作れる。さっそく^orange;温室^orange;を作ろう。^orange;研究^reset;メニューの^orange;農業^reset;を進める必要があるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Greenhouse"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "温室"
+    }
+  ]
+]

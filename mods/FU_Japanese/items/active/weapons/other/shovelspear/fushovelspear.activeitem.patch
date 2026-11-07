@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pierce the heavens, or at least the earth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "天国、少なくとも地球を突き刺す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Diginator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ディジネータ"
+    }
+  ]
+]

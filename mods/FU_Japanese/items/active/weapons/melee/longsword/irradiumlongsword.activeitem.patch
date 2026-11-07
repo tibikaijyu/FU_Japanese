@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honed irradium edge makes this rather...reactive.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "磨き上げられた赤外線エッジは、これをかなり...反応性にします。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロングソード"
+    }
+  ]
+]

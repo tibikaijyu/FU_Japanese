@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Higher dose. Now grants +25% speed and dash. Passive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高用量。 今度は +25% 速度とダッシュを許可します。 パッシブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Stimulant Rig II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;刺激リグII^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+40% Radiation Resist. Use it on planets with ^orange;moderate radiation levels^reset;. +150s oxygen and halves how quickly you breathe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+40%放射線抵抗。 惑星で使用します。 ^orange;適度な放射線レベル^reset;. +150s 酸素と呼吸の速さの半分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radiation EPP II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射線EPPII"
+    }
+  ]
+]

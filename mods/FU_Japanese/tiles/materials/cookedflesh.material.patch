@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hideous, cooked block made of some kind of flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の肉でできた、ひどい、調理されたブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssquishy pre-cooked meat block."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "肉のブロックを調理します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disgust. A block made of flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 肉製のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooked Flesh Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "調理されたフレッシュブロック"
+    }
+  ]
+]

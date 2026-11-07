@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A painting of a Peglaci Peacekeeper ship, sailing through the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシの平和維持船の絵、宇宙を航海。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peacekeeper Ship Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピースキーパー船絵"
+    }
+  ]
+]

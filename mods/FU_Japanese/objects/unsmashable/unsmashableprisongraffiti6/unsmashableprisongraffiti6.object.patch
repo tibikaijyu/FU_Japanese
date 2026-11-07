@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I'll turn back when I reach a dead end."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "行き詰まったら振り返るよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This graffiti is so pushy."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この落書きはとても難しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Graffiti reading \"turn back\". Chances of it being adhered to: zero. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落書きは「ターンバック」。 守られている可能性はゼロです。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Don't tell Floran what to do!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランに何をすべきか言わないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Defiant. No."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "逆らう。 いいえ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "How does this graffiti know which direction you've approached it from?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この落書きは、どの方向から近づいたのかをどうやって知るのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Demanding."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "要求。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "There ain't no turnin' back now."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "いまのところは何も戻らない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graffiti"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "落書き"
+    }
+  ]
+]

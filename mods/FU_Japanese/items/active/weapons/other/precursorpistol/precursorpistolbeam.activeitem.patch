@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ejects energy beams.\n^yellow;Projects energy beams^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギービームを放出する。\n^yellow;エネルギービームを^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Beamgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身ビームガン"
+    }
+  ]
+]

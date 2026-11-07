@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burning-hot magma walls. You should probably not touch this."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃えるようなマグマの壁。 おそらくこれに触れてはいけません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burning Volcanic Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼成火山岩"
+    }
+  ]
+]

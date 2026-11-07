@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of red honeycomb.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤いハニカムのブロック。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Honeycomb Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いハニカムブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of power conduit. It appears functional."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかのパワーコンジット。 機能的である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junction Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンクションボックス"
+    }
+  ]
+]

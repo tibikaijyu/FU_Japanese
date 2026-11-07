@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A potent incendiary weapon.\n^yellow;Inflicts Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な火傷兵器。\n^yellow;Burn^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fahrenheit 451"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファーレンハイト 451"
+    }
+  ]
+]

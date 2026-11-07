@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pity yourself."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残念に思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fool's Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フールの帽子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;80^reset;% Knockback Resist. Fall Damage x^green;0.2^reset;\n^yellow;^reset; Chain Weapons: Damage x^green;2.5^reset;, +^green;2^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Pressure"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;80^reset;% ノックバック抵抗。 転倒被害x^green;0.2^reset;\n^yellow;^reset; チェーン武器:損傷x^green;2.5^reset;, +^green;2^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;酸素、圧力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "War Angel Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エンジェル・ヘルム"
+    }
+  ]
+]

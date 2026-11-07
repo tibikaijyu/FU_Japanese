@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A newborn mooshi! It'll eat most fruits and vegetables."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生まれたてのムーシ! ほとんどの果物や野菜を食べるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mooshi Calf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムーシ子牛"
+    }
+  ]
+]

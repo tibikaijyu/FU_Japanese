@@ -1,0 +1,554 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/biomeairless/text",
+      "value": "It may be worth noting that this celestial body has no atmosphere and you will die without some sort of oxygen source."
+    },
+    {
+      "op": "replace",
+      "path": "/biomeairless/text",
+      "value": "この天体には大気がありません。何らかの酸素供給手段がなければ死亡します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomecold/text",
+      "value": "^red;WARNING! EXTREME COLD DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/biomecold/text",
+      "value": "^red;警告！ 極端な低温を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeheat/text",
+      "value": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/biomeheat/text",
+      "value": "^red;警告！ 極端な高温を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/biomeradiation/text",
+      "value": "^red;WARNING! RADIATION DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/biomeradiation/text",
+      "value": "^red;警告！ 放射線を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeaether/text",
+      "value": "^red;WARNING! COSMIC ENERGY DETECTED ^reset;! Some sort of protection from cosmic damage would help a great deal. This energy appears to decrease energy regeneration rates."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeaether/text",
+      "value": "^red;警告！ 宇宙エネルギーを検出しました ^reset;！ コズミック属性のダメージへの防護が非常に役立つでしょう。このエネルギーは、エネルギー回復速度を低下させるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeaethernight/text",
+      "value": "As night falls, the effects of the cosmic energy permeating this planet seem to increase in severity. Somehow, the sun holds the worst of these effects at bay."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeaethernight/text",
+      "value": "夜になると、この惑星に満ちる宇宙エネルギーの影響が強まるようです。どういうわけか、太陽が最も危険な影響を抑えているのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomecold/text",
+      "value": "^red;WARNING! EXTREME COLD DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomecold/text",
+      "value": "^red;警告！ 極端な低温を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomecoldnight/text",
+      "value": "As night falls, the temperature will fall. This will make any effects you feel from the cold even deadlier on you. I suggest finding warmth, and soon."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomecoldnight/text",
+      "value": "夜になると気温が下がり、寒さの影響がさらに致命的になります。早急に暖かい場所を探すことを勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomecoldwater/text",
+      "value": "You fell in water. On a freezing world. Good job, idiot! Now you'll freeze to death ^red;twice as fast^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomecoldwater/text",
+      "value": "凍える世界で水に落ちた。よくやったな、馬鹿者！ これで^red;2倍の速さ^reset;で凍死できるぞ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedeadlycold/text",
+      "value": "^red;WARNING! RADIATION DETECTED ^reset;! You should not attempt further exploration without proper protective equipment. Radiation will sap your health and energy, and make you sick!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedeadlycold/text",
+      "value": "^red;警告！ 放射線を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください。放射線は体力とエネルギーを奪い、体をむしばみます！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedeadlyheat/text",
+      "value": "^red;WARNING! RADIATION DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedeadlyheat/text",
+      "value": "^red;警告！ 放射線を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesert/text",
+      "value": "^red;WARNING: DESERT HEAT ^reset;! The climate here is exceptionally warm during the day. Water will help you cool off, if you can find it. Fire Resistance will help a great deal. Night is cool but tolerable."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesert/text",
+      "value": "^red;警告：砂漠の暑さ ^reset;！ ここの日中は非常に高温です。水が見つかれば、体を冷やせます。炎耐性も大いに役立ちます。夜は涼しくなりますが、耐えられる範囲です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesertnight/text",
+      "value": "The sun has set, and the temperature has blissfully dropped to tolerable levels. You should be relatively comfortable until daybreak."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesertnight/text",
+      "value": "日が沈み、ありがたいことに気温が耐えられる範囲まで下がりました。夜明けまでは、比較的快適に過ごせるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesertnoon/text",
+      "value": "At its brightest, the sun here is extremely uncomfortable. Until it gets into the afternoon, expect to suffer a bit more."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesertnoon/text",
+      "value": "太陽が最も明るく輝く時間帯は、極めて不快な暑さです。午後になるまでは、影響が少し強まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesertsunrise/text",
+      "value": "The sun is rising, bringing another blistering hot day. Take care, and be aware that the brighter it gets, the worse things will become."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesertsunrise/text",
+      "value": "太陽が昇り、また焼けつくような1日が始まります。明るくなるほど状況は悪化します。注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesertunderground/text",
+      "value": "Heading underground? Not a bad idea. The effect of the surface heat is substantially reduced down here."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesertunderground/text",
+      "value": "地下へ向かうのですか？ 良い考えです。ここでは、地表の暑さによる影響が大幅に軽減されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomedesertwater/text",
+      "value": "You've managed to cool off in this wonderful pool of liquid. You feel much less uncomfortable now!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomedesertwater/text",
+      "value": "この素晴らしい水場で、体を冷やすことができました。暑さがずいぶん和らいだようです！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeelectric/text",
+      "value": "^red;WARNING: ELECTRICAL STORM ^reset;! A nasty electric storm is picking up. The charge in the air will interfere with your energy supply and could cause dangerous overloads. I advise you to find shelter immediately."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeelectric/text",
+      "value": "^red;警告：雷嵐 ^reset;！ 激しい雷嵐が起きています。空気中の電荷がエネルギー供給を妨げ、危険な過負荷を引き起こす恐れがあります。直ちに避難することを勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeelectricsurface/text",
+      "value": "Lightning storms are significantly stronger when you are outside. Perhaps head underground where you are grounded and cannot be struck by lightning."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeelectricsurface/text",
+      "value": "雷嵐の影響は屋外で大幅に強まります。落雷を受けない、接地された地下へ移動するとよいでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeelectricwater/text",
+      "value": "I must advise you against swimming in liquid during a lightning storm. I hope that I do not need to explain what will happen if lightning strikes you now."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeelectricwater/text",
+      "value": "雷嵐の最中に液体の中を泳ぐことは勧められません。今落雷を受けるとどうなるか、説明する必要はないと願います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericcold/text",
+      "value": "^red;WARNING: FREEZING ^reset;! It suddenly got exceptionally cold! Be careful, and keep warm!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericcold/text",
+      "value": "^red;警告：凍結する寒さ ^reset;！ 急激に気温が下がりました！ 注意して、体を温めてください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericelectric/text",
+      "value": "^red;WARNING: ELECTRICAL STORM ^reset;! A sudden electrical storm has broken out, which will affect your energy supply. There's also the threat of being struck by a blast. Take shelter underground."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericelectric/text",
+      "value": "^red;警告：雷嵐 ^reset;！ 突然の雷嵐がエネルギー供給に影響しています。雷撃を受ける危険もあります。地下へ避難してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericheat/text",
+      "value": "^red;WARNING: HEAT WAVE ^reset;! The climate is spiking in temperature, resulting in extra exertion from movement. You'll be hungry a bit faster, and gradually lose health."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericheat/text",
+      "value": "^red;警告：熱波 ^reset;！ 気温が急上昇し、移動で余計に体力を消耗します。空腹の進行が速まり、体力も徐々に失われます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericmildcold/text",
+      "value": "^red;WARNING: COLD ^reset;! While not absolutely freezing, this world is chilly and brisk. Nights are colder, and water could be dangerous to swim in. Wear cold protection."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericmildcold/text",
+      "value": "^red;警告：寒冷環境 ^reset;！ 凍り付くほどではありませんが、この世界は冷え込んでいます。夜はさらに寒くなり、水泳は危険かもしれません。防寒装備を着用してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericpoison/text",
+      "value": "^red;WARNING: POISONOUS CLOUDS ^reset;! Poisonous clouds are blowing in the wind, which will weaken and eventually kill you. Seek shelter or find some measure of protection."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericpoison/text",
+      "value": "^red;警告：毒の雲 ^reset;！ 有毒な雲が風で流れてきています。体が弱り、やがて死に至ります。避難するか、防護手段を確保してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomegenericradiation/text",
+      "value": "^red;WARNING: RADIATION STORM ^reset;! Sudden winds have blown in a radiation cloud from somewhere else on this world. Take precautions."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomegenericradiation/text",
+      "value": "^red;警告：放射線嵐 ^reset;！ 突風によって、この世界の別の場所から放射性物質の雲が流れ込んできました。対策を取ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeheat/text",
+      "value": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeheat/text",
+      "value": "^red;警告！ 極端な高温を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeheatcavern/text",
+      "value": "You'll find it much warmer in caverns, thanks to heat being trapped within. Stay cool, or you'll stay dead^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeheatcavern/text",
+      "value": "洞窟には熱がこもるため、中はさらに高温です。体を冷やしてください。さもなければ、死ぬことになります^reset;！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomejungle/text",
+      "value": "^red;WARNING: TROPICAL HEAT ^reset;! The climate here is exceptionally warm, which could lead to discomfort if care is not taken. Water will help you cool off, if you can find it. Physical Resistance will help, too."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomejungle/text",
+      "value": "^red;警告：熱帯の暑さ ^reset;！ ここは非常に高温で、対策を怠ると体調に影響します。水が見つかれば、体を冷やせます。物理耐性も役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomejunglewater/text",
+      "value": "Ah, a soothing spring. This should help lower your temperature and give you a brief moment of respite."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomejunglewater/text",
+      "value": "ああ、心地よい泉です。体温が下がり、しばらく一息つけるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomepoison/text",
+      "value": "^red;WARNING! POISONOUS AIR DETECTED ^reset;! These toxins can permeate through skin and small openings. You are getting weaker. This will get worse the more sick you become."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomepoison/text",
+      "value": "^red;警告！ 有毒な空気を検出しました ^reset;！ この毒素は皮膚や小さな隙間から侵入できます。体が弱っています。症状が進むほど、さらに悪化します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomepoisonwind/text",
+      "value": "This breeze is really stirring up poisonous vapour. Threat level increased."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomepoisonwind/text",
+      "value": "この風が有毒な蒸気を激しく巻き上げています。危険度が上昇しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeproto/text",
+      "value": "^red;WARNING! POISON ATMOSPHERE DETECTED ^reset;! With ^green;Proto-Poison protection^reset; you'll be fine. Otherwise, Proto-poison slowly drains your vitality. Poison resistance reduces or nullifies the effects."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeproto/text",
+      "value": "^red;警告！ 有毒な大気を検出しました ^reset;！ ^green;プロト毒への防護^reset;があれば問題ありません。なければプロト毒が徐々に生命力を奪います。毒耐性によって、影響を軽減または無効化できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeradiation/text",
+      "value": "^red;WARNING! RADIATION DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeradiation/text",
+      "value": "^red;警告！ 放射線を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeradiationsevere/text",
+      "value": "^red;WARNING! RADIATION DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeradiationsevere/text",
+      "value": "^red;警告！ 放射線を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomeradiationwind/text",
+      "value": "I suggest taking care, as a nasty wind is blowing radioactive fallout right to your position. Good times!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomeradiationwind/text",
+      "value": "厄介な風が、放射性降下物をあなたのいる場所へ運んでいます。注意を勧めます。楽しくなってきましたね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomesulphuric/text",
+      "value": "^red;WARNING! SULPHURIC ATMOSPHERE DETECTED ^reset;! You should not attempt further exploration without proper protective equipment!"
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomesulphuric/text",
+      "value": "^red;警告！ 硫酸性の大気を検出しました ^reset;！ 適切な防護装備なしで探索を続けないでください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ffbiomesulphuricstorm/text",
+      "value": "^red;WARNING! SULPHURIC STORM^reset;! A deadly Sulphuric storm is brewing! Get to shelter as soon as possible unless you have protection against Sulphuric Acid. You will otherwise die rather rapidly."
+    },
+    {
+      "op": "replace",
+      "path": "/ffbiomesulphuricstorm/text",
+      "value": "^red;警告！ 硫酸の嵐^reset;！ 致命的な硫酸の嵐が発生しています！ 硫酸への防護がなければ、できる限り早く避難してください。さもなければ、短時間で死亡します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/foodtype/text",
+      "value": "^red;TOXINS DETECTED ^reset;: While I am sure that *looked* delicious, I regret to inform you that this type of food ^orange;cannot be digested by your physiology^reset;. Avoid foods like this in the future."
+    },
+    {
+      "op": "replace",
+      "path": "/foodtype/text",
+      "value": "^red;毒素を検出しました ^reset;：確かに、おいしそうには見えたのでしょう。しかし残念ながら、この食べ物は^orange;あなたの体では消化できません^reset;。今後は避けてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/foodtyperad/text",
+      "value": "^red;RADIOACTIVE MATERIAL DETECTED ^reset;: You just ate potentially lethal radioactive isotopes. Your chance of painful death has increased by 99.72%."
+    },
+    {
+      "op": "replace",
+      "path": "/foodtyperad/text",
+      "value": "^red;放射性物質を検出しました ^reset;：あなたは、命に関わる可能性のある放射性同位体を食べました。苦痛を伴う死を迎える確率が99.72%増加しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupAnvil/text",
+      "value": "In ^blue;Frackin Universe^reset;, nearly everything you can make on an anvil can also be made with an ^orange;Armorworks^reset;. The anvil is still great for decoration though!"
+    },
+    {
+      "op": "replace",
+      "path": "/pickupAnvil/text",
+      "value": "^blue;Frackin Universe^reset;では、金床で作れるもののほとんどは^orange;武具製作台^reset;でも作れます。金床は装飾品としては便利ですけれどね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupWood/text",
+      "value": "Wood is absolutely essential to your early survival. You'll be able to craft ^orange;Basic Weapons^reset; and gear with your bare hands. I recommend a ^green;Primitive Spear^reset; to start with. ^orange;Research^reset; other uses for wood in your ^orange;Personal Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupWood/text",
+      "value": "序盤の生存に、木材は欠かせません。作業台なしでも^orange;基本的な武器^reset;や道具を作れます。最初は^green;原始的な槍^reset;がお勧めです。ほかの木材の用途を^orange;研究^reset;するには、^orange;個人用トライコーダー^reset;を使いましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupshield/text",
+      "value": "Shields are a useful defensive tool. If you time blocks well, you can ^orange;Shield Bash^reset; (^green;stuns, knocks back enemies and does damage^reset;). Some species get great bonuses for ^orange;perfectly timed blocks^reset;, too."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupshield/text",
+      "value": "盾は便利な防御道具です。うまくタイミングを合わせて防ぐと、^orange;シールドバッシュ^reset;で^green;敵を気絶・ノックバックさせ、ダメージを与えられます^reset;。種族によっては、^orange;完璧なタイミングの防御^reset;で大きな追加効果も得られます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/radienhealing/text",
+      "value": "^red;Remember:^reset; You can't heal like carbon-based life does. You're going to need to rely on your natural abilities, ^green;edible isotopes^reset; and ^green;reactive gels^reset;. You will need access to ^green;Algae^reset; in order to make these gels. Build a ^orange;Greenhouse^reset; to get started."
+    },
+    {
+      "op": "replace",
+      "path": "/radienhealing/text",
+      "value": "^red;忘れずに：^reset; あなたは炭素系生命のようには回復できません。生来の能力、^green;食用の同位体^reset;、^green;反応性ジェル^reset;を頼る必要があります。このジェルを作るには^green;藻類^reset;が必要です。まずは^orange;温室^reset;を建てましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/radienmsg/text",
+      "value": "^green;Excellent^reset;! You have remembered how to spawn X'i Bulbs. With them you can craft many things in your [C] menu, or use them for other purposes unique to the X'i."
+    },
+    {
+      "op": "replace",
+      "path": "/radienmsg/text",
+      "value": "^green;素晴らしい^reset;！ X'iバルブの生成方法を思い出しましたね。[C]のメニューでさまざまな物を作れるほか、X'iならではの用途にも使えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/wrexornar/text",
+      "value": "^red;WARNING: PIRATE SIGNAL DETECTED ^reset;! This appears to be a raiding ship under the control of the Wrexor Nar. These vicious cyborgs are among the most feared of raider factions in the galaxy. Tread carefully."
+    },
+    {
+      "op": "replace",
+      "path": "/wrexornar/text",
+      "value": "^red;警告：海賊の信号を検出しました ^reset;！ Wrexor Narの襲撃船のようです。この凶暴なサイボーグたちは、銀河でも特に恐れられる略奪者の一派です。慎重に行動してください。"
+    }
+  ]
+]

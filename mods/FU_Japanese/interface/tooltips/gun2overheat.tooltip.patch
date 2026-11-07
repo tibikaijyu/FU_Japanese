@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/cooldownTitleLabel/value",
+      "value": "^#ee1414;Charge Time^reset;:"
+    },
+    {
+      "op": "replace",
+      "path": "/cooldownTitleLabel/value",
+      "value": "^#ee1414;充電時間^reset;:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "Damage Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Tier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ティア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/overheatLabelTitleLabel/value",
+      "value": "^green;Shots per Charge^reset;:"
+    },
+    {
+      "op": "replace",
+      "path": "/overheatLabelTitleLabel/value",
+      "value": "^green;充電あたりのショット^reset;:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speedTitleLabel/value",
+      "value": "Rate of Fire:"
+    },
+    {
+      "op": "replace",
+      "path": "/speedTitleLabel/value",
+      "value": "連射速度:"
+    }
+  ]
+]

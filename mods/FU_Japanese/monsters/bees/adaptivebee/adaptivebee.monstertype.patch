@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bee with no preference for the heat or the cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暑さや寒さに無関心なミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Adaptive Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アダプティブビー"
+    }
+  ]
+]

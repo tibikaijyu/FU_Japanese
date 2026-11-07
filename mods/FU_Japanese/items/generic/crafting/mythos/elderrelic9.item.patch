@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bust of a hideous alien. Probably not the best decoration. Unless you're evil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪質なエイリアンの胸像。 おそらく最高の装飾ではありません。 悪でない限り。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Elder Bust^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;エルダーの胸像^reset;"
+    }
+  ]
+]

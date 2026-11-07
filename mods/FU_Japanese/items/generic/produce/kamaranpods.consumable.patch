@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Icy, Tar, Mud : 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;無効化^reset;：凍結・タール・泥：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kamaran Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "釜蘭"
+    }
+  ]
+]

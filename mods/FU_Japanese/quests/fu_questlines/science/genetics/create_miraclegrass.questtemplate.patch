@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks, now I can complete this research project and wow the investors! ^green;I'll send replacement seeds^reset; later."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとう、今私はこの研究プロジェクトを完了し、投資家を驚かせることができます! ^green;代替種子を送ります^reset; あとで"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the 3 ^orange;Miracle Grass Seeds^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み 3 ^orange;ミラクル草の種^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I am in need of 3 ^orange;Miracle Grass^reset; seeds to try a new regeneration experiment. You'll find them at your ^orange;Gene Design Lab^reset;. Can you fetch me some?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "必要です 3 ^orange;奇跡の草^reset; 新しい再生実験を試すための種子です ^orange;遺伝子 Design ラボ ^reset; で見つけることができます。 いくつか取り出してくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Grass of Life"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "生活草"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautiful icy wax platforms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しい氷のワックスプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍ワックスプラットフォーム"
+    }
+  ]
+]

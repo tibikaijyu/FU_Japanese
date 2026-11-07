@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A poisonous lash made from telebrium. Not for recreational use."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレブリアムから作られた毒のまつげ。 レクリエーション用ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムホイップ"
+    }
+  ]
+]

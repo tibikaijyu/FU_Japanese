@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "There appears to be silver within this fragile rock."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この壊れやすい岩の中に銀が見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "If I break this rock I should be able to gather the silver ore within it."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この岩を割れば、その中に銀鉱石を集めることができるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cracked rock full of silver. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀でいっぱいの割れた岩。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Glittery rock. Sssmash it!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "キラキラした岩。 ss を破る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This rock contains silver, and is covered in cracks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この岩には銀が含まれており、亀裂で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A rock full of silver! Maybe I can break it."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "銀でいっぱいの岩! たぶん、壊せる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A swift blow to this rock would free the silver within."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この岩に一撃を掛ければ、その銀は解放される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A rock rich with silver. I should break it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "シルバーが豊富な岩。 壊すべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀岩"
+    }
+  ]
+]

@@ -1,0 +1,386 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/backgroundPresentConfirmation/cancelCaption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/backgroundPresentConfirmation/cancelCaption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/backgroundPresentConfirmation/message",
+      "value": "The normal background image has been detected. This background image will be rendered permanently on your Frackin' Ship. If you do not have the Frackin' Ship modded race support patch, you should grab it from: https://steamcommunity.com/sharedfiles/filedetails/?id=1194878261 and create a new character."
+    },
+    {
+      "op": "replace",
+      "path": "/backgroundPresentConfirmation/message",
+      "value": "通常の船の背景画像が検出されました。この画像はFrackin’ Shipの背景に表示され続けます。追加種族用のFrackin’ Ship対応パッチを導入していない場合は、https://steamcommunity.com/sharedfiles/filedetails/?id=1194878261 から導入し、新しいキャラクターを作成してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/backgroundPresentConfirmation/okCaption",
+      "value": "Okay"
+    },
+    {
+      "op": "replace",
+      "path": "/backgroundPresentConfirmation/okCaption",
+      "value": "決定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/backgroundPresentConfirmation/subtitle",
+      "value": "Repair your ship"
+    },
+    {
+      "op": "replace",
+      "path": "/backgroundPresentConfirmation/subtitle",
+      "value": "船を修復する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/backgroundPresentConfirmation/title",
+      "value": "Repair Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/backgroundPresentConfirmation/title",
+      "value": "船の修復"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonBack/caption",
+      "value": "Back"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonBack/caption",
+      "value": "戻る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonByos/caption",
+      "value": "^white;Buildable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonByos/caption",
+      "value": "^white;自由建造^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonUpgradable/caption",
+      "value": "^white;Upgradable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonUpgradable/caption",
+      "value": "^white;段階的拡張^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowSubtitle/value",
+      "value": "Ship-based Artificial Intelligence Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowSubtitle/value",
+      "value": "船舶搭載型人工知能システム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/repairShip/cancelCaption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/repairShip/cancelCaption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/repairShip/message",
+      "value": "This will re-create your ship. Only do this if your ship was been reset. Are you sure you want to do this?"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/repairShip/message",
+      "value": "船を作り直します。船がリセットされてしまった場合にだけ実行してください。本当に実行しますか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/repairShip/okCaption",
+      "value": "Okay"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/repairShip/okCaption",
+      "value": "決定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/repairShip/subtitle",
+      "value": "Repair your ship"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/repairShip/subtitle",
+      "value": "船を修復する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/repairShip/title",
+      "value": "Repair Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/repairShip/title",
+      "value": "船の修復"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/cancelCaption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/cancelCaption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/message",
+      "value": "This will set your ship as repaired. Only do this if your ship hasn't been reset. Are you sure you want to do this?"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/message",
+      "value": "船を修理済みの状態にします。船がリセットされていない場合にだけ実行してください。本当に実行しますか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/okCaption",
+      "value": "Okay"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/okCaption",
+      "value": "決定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/subtitle",
+      "value": "Skip repairing your ship"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/subtitle",
+      "value": "船の修理を省略する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/title",
+      "value": "Skip Repairs"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetConfirmationDialogs/skipRepairs/title",
+      "value": "修理を省略"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/frackinShipChoice/buttons/0/name",
+      "value": "Select"
+    },
+    {
+      "op": "replace",
+      "path": "/states/frackinShipChoice/buttons/0/name",
+      "value": "選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/frackinShipChoice/buttons/1/name",
+      "value": "Preview"
+    },
+    {
+      "op": "replace",
+      "path": "/states/frackinShipChoice/buttons/1/name",
+      "value": "プレビュー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/frackinShipPreview/buttons/0/name",
+      "value": "Select"
+    },
+    {
+      "op": "replace",
+      "path": "/states/frackinShipPreview/buttons/0/name",
+      "value": "選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/frackinShipSelected/buttons/0/name",
+      "value": "Confirm"
+    },
+    {
+      "op": "replace",
+      "path": "/states/frackinShipSelected/buttons/0/name",
+      "value": "確定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/frackinShipSelected/text",
+      "value": "The Frackin' Ship. Upgraded differently, get more space by building it yourself and improve its performance with better engines and boosters.\n\nCurrently Selected Ship: <shipName>\nCurrently Selected Ship Mode: <shipMode>"
+    },
+    {
+      "op": "replace",
+      "path": "/states/frackinShipSelected/text",
+      "value": "Frackin’ Shipは自由に建造できる船です。ブロックを設置して船内を広げ、より高性能なエンジンやブースターを取り付けて性能を上げます。\n\n選択中の船: <shipName>\n選択中の船モード: <shipMode>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/initial/buttons/0/name",
+      "value": "Frackin' Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/states/initial/buttons/0/name",
+      "value": "自由建造船"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/initial/buttons/1/name",
+      "value": "Vanilla Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/states/initial/buttons/1/name",
+      "value": "標準の船"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/initial/text",
+      "value": "Ship has sustained major damage when escaping Earth. Please select which ship type you want:\n\nFrackin' Ship:\nBuild your ship block by block, choosing from a variety of presets. Requires installation of a new FTL Drive. See your tricorder quests for guidance.\n\nVanilla Ship:\nThe default Starbound ship for your race. Does not have access to some FU ship features."
+    },
+    {
+      "op": "replace",
+      "path": "/states/initial/text",
+      "value": "地球から脱出する際に船が大破しました。使用する船の種類を選んでください。\n\n自由建造船（Frackin’ Ship）:\n複数のひな型から選び、ブロックを積んで自分だけの船を作れます。新しいFTLドライブの設置が必要です。トライコーダーのクエストに従ってください。\n\n標準の船（Vanilla Ship）:\n種族ごとに用意されたStarbound標準の船です。FUの船機能の一部は利用できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/shipChosen/text",
+      "value": "Constructing ship, please wait."
+    },
+    {
+      "op": "replace",
+      "path": "/states/shipChosen/text",
+      "value": "船を建造しています。しばらくお待ちください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/skipRepairs/buttons/0/name",
+      "value": "Confirm"
+    },
+    {
+      "op": "replace",
+      "path": "/states/skipRepairs/buttons/0/name",
+      "value": "確定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/skipRepairs/text",
+      "value": "Only skip repairs if the ship isn't currently damaged."
+    },
+    {
+      "op": "replace",
+      "path": "/states/skipRepairs/text",
+      "value": "船が損傷していない場合にだけ、修理を省略してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/vanillaShipSelected/buttons/0/name",
+      "value": "Confirm"
+    },
+    {
+      "op": "replace",
+      "path": "/states/vanillaShipSelected/buttons/0/name",
+      "value": "確定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/states/vanillaShipSelected/text",
+      "value": "The regular vanilla ship. Upgraded normally by earning or buying the ship licenses. This ship type won't have access to some of the features the Frackin' Ship will have access to, like boosters."
+    },
+    {
+      "op": "replace",
+      "path": "/states/vanillaShipSelected/text",
+      "value": "Starbound標準の船です。船舶ライセンスを獲得または購入して、通常の方法で拡張します。ブースターなど、自由建造船で利用できる機能の一部は使えません。"
+    }
+  ]
+]

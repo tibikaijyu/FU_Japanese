@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "I got Greg to admit it: He put that weird fluid in his mix. According to him, testing showed that the effect it has on biological samples is astounding and was worth a test if it meant the safety of our species. He seems a bit overly defensive , despite my assurances that he was not in any form of administrative trouble."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "グレッグは変な液体を混ぜていきました。 彼によると、テストはそれが生物学的サンプルに与える影響が驚くべきものであり、それが私たちの種の安全性を意味するならテストする価値があったことを示しています。 行政上のトラブルに巻き込まれていないという私の保証にもかかわらず、彼は少し防御的すぎるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lab Notes 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究ノート 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Experimental Vaccine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "実験的ワクチン"
+    }
+  ]
+]

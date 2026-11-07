@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothing could possibly go wrong storing things in a pocket dimension!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポケットに物を収納しても、間違いはあり得ません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Dimensional Storage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774;次元記憶装置^reset;"
+    }
+  ]
+]

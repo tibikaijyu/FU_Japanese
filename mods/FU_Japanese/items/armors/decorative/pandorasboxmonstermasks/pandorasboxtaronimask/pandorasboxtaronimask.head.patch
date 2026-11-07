@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Early versions of its materials utilized real tar, but it proved to be unpopular."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "初期の素材は本物のタールを使用していたが、人気がないことが判明した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Taroni Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タロニマスク"
+    }
+  ]
+]

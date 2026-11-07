@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "S-mart's top of the line.\n^cyan;Stuns enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "S-martのラインのトップ。\n^cyan;スタンの敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "S-Mart Special"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Sマート特別"
+    }
+  ]
+]

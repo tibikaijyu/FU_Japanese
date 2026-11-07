@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A power core used to energize tech."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "技術を活性化させるためのパワーコア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Power Core^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;パワーコア^reset;"
+    }
+  ]
+]

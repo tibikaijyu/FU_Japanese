@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shadowroot temporarily increases your crit chance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウルートは一時的にクリトリスチャンスを増やします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowroot Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウルート種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A complete set of ^green;Sloppy^white; themed furniture. ^green;A savings of 25%!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;散らかった部屋^white;テーマの家具一式。^green;25%もお得！^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloppy Set Bundle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "散らかった部屋セット"
+    }
+  ]
+]

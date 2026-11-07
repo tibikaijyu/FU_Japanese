@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mmm crunchy. ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くっきりしたね。 ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

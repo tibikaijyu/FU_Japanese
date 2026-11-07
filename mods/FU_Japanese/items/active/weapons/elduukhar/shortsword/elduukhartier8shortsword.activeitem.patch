@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This blade is crafted after a weapon wielded by a hero of legend."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この剣は伝説のヒーローが武器を振り回した後に作られます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属製短剣"
+    }
+  ]
+]

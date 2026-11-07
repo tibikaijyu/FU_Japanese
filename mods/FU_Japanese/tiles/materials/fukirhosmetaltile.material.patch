@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-quality industrial metal tile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業用金属タイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Tiles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金タイル"
+    }
+  ]
+]

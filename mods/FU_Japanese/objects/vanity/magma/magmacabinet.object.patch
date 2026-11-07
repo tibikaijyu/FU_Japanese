@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Probably not safe. But hey...intimidating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらく安全ではありません。 でも、ちょっと...恐ろしさ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマ閣"
+    }
+  ]
+]

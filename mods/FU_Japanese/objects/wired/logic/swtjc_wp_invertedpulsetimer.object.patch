@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stops transmitting signals for half of a second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブになるたびに、信号を半秒間送信するのを止めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Stopsss transssmitting sssignalsss for half of a sssecond whenever it becomesss active."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ss がアクティブになるたびに、ss 信号を ss 秒の半分だけ送信するのを止めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. Stops transmitting signals for half of a second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 アクティブになるたびに、信号を半秒間送信するのを止めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inv. Half-Sec. Pulse Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インヴ。 ハーフセック。 パルストランスミッタ"
+    }
+  ]
+]

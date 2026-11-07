@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense aura of cold permeates this sword"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寒さの濃密な空気がこの剣に浸透する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストブレード"
+    }
+  ]
+]

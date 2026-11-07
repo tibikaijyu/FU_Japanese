@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Alive with potential, this soil is fertile and mildly mutagenic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可能性を秘めた生育地で、肥やし、やや変異原性です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原土"
+    }
+  ]
+]

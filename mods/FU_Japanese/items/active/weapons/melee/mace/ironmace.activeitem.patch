@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well crafted, but heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく出来ていますが重いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンメイク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nearly magically light, yet sharp as a razor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんど魔法のように軽いが、かみそりのように鋭い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・サイス"
+    }
+  ]
+]

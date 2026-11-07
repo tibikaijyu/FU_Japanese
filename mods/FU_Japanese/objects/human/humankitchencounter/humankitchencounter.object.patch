@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stainless steel!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ステンレス!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Human Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ヒューマンキッチンカウンター^reset;"
+    }
+  ]
+]

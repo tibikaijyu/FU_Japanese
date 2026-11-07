@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sign telling you to turn back."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戻るように指示するサイン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Turn Back Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ターンバックサイン"
+    }
+  ]
+]

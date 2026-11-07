@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A boron-based creature that can split its body and consciousness when damaged."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "傷ついたとき、身体と意識を分断できるホウ素系生物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Masteroid (Large)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マステロイド"
+    }
+  ]
+]

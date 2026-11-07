@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive statue, likely depicting the reach of the Ruin. Extremely rare and expensive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な像で、おそらく遺跡の手の届くところを描いている。 非常にまれで高価です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代像"
+    }
+  ]
+]

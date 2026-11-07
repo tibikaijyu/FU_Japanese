@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mercury is the only metal that is liquid at standard temperatures and pressures. Caution: Toxic\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水銀は、標準温度と圧力で液体である唯一の金属です。 注意:毒性\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mercury"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水銀"
+    }
+  ]
+]

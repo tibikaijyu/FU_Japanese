@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a trained medic to help keep you alive and kicking."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたを生きて蹴り続けるのに役立つ訓練を受けた医師を雇います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medic Contract II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "医学契約II"
+    }
+  ]
+]

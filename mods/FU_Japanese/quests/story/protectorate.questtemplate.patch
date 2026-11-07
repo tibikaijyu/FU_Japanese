@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The years of training paid off - you survived the meeting!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "トレーニングの年月は報われた - あなたは会議を生き残った!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "Attend the emergency meeting"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "緊急会議に出席してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Survive the meeting."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "会議を生き延びなさい。"
+    }
+  ]
+]

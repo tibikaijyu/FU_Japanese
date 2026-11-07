@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Laugh it up."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "笑え。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Joke Glasses"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジョーク・グラス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plutonium-enriched honey. Probably dangerous!\n^green;Heal ^white;57.5 ^gray;(^white;30s^gray;)\n^blue;+^white;8 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プルトニウムが豊富な蜂蜜。 おそらく危険!\n^green;癒し ^white;57.5 ^gray;(^white;30ス)^gray;)\n^blue;+^white;8 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Healing Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニージャーの癒し"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small Nightar wallbanner."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなナイトアールの壁バナー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Wall Banner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間の壁バナー"
+    }
+  ]
+]

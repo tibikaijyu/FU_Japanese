@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for those lost in the wilds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "野生で失われた人に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Survival Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生存軸"
+    }
+  ]
+]

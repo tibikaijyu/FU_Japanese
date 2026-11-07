@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Likely unpleasant to be smashed by. Solid durasteel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "殴られるのはおそらく不快だ。 固体デュラ鋼。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Facebreaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェイスブレーカー"
+    }
+  ]
+]

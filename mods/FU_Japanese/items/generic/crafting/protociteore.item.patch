@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A unique element found only on protoworlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原型世界にしか見られないユニークな要素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイト"
+    }
+  ]
+]

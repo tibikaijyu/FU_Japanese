@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dangerously irradiated. Also cutty and pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険な照射。 可愛いし、かわいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trianglium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長刀"
+    }
+  ]
+]

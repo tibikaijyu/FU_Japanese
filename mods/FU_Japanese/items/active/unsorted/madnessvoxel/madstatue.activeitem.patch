@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The angles of this carving are all wrong, making you violently hallucinate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この彫刻の角度はすべて間違っており、あなたを激しく幻覚させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇像"
+    }
+  ]
+]

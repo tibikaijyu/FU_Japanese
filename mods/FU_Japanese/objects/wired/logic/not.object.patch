@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NOT'/ gate. Inverts the input on the circuit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A / 'NOT' / ゲート。 回路上の入力を反転します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NOT Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "門なし"
+    }
+  ]
+]

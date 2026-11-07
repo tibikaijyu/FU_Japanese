@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+10% Radiation Res & Immune^reset;: Radiation Burn: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+10% 放射線の反応と免疫性 ^reset; : 放射線の燃焼:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garp Berry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガープベリー"
+    }
+  ]
+]

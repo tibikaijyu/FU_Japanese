@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "Your death comes this day."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "あなたの死はこの日来ます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "Blade and sinew. The way is clear."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "ブレードとシニュー。 道ははっきりしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/3",
+      "value": "Honor meets honor. Blood meets blood."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/3",
+      "value": "名誉は名誉と出会う。 血は血と出会う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/4",
+      "value": "I do as She commands."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/4",
+      "value": "私は彼女が命じるとおりだ。"
+    }
+  ]
+]

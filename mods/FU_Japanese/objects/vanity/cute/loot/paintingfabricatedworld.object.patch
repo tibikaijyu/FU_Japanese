@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A disturbing painting of some kind of fabricated world."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかの造形された世界の邪魔な絵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fabricated World Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "造形世界絵画"
+    }
+  ]
+]

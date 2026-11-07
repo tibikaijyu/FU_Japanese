@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Even more powerful than the Morphite manipulator, this sweet tool should be plenty powerful!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "モルヒットマニピュレーターよりもさらに強力で、この甘いツールは十分に強力であるべきです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Activate it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "アクティブにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Rather than deconstruct matter, why not completely rewrite it however you please?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "分解するよりも、好きなように完全に書き直してみませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Quantum Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "量子マニピュレータ"
+    }
+  ]
+]

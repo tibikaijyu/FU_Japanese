@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Some hundreds (or thousands...the records are unclear on this point) of years ago, the Kirhos had advanced to the absolute pinnacle of scientific and technological achievement.  Unfortunately, around the same time, they exhausted all resources on their homeworld required to utilize their knowledge. What followed was a series of brutal wars that devastated their infrastructure and led to them fleeing for the stars."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "数百年、あるいは数千年前（この点の記録は曖昧だが）、キルホスは科学技術の到達し得る頂点にまで進歩していた。  残念なことに、同じ頃、彼らは彼らの知識を活用するために必要な彼らの故郷のすべてのリソースを消耗しました。 その後、一連の残忍な戦争が彼らのインフラを壊滅させ、星のために逃げ出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The loss of their homeworld and its resources meant that the only known location of the super-rare element Thulium was forever lost. Thulium formed the core of all of their computer technology and without it they were unable to maintain their previous level of advancement. It was a century, perhaps longer, before a viable replacement was located deep in the asteroid belts near Azakon Reticuli."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "彼らの故郷と資源の喪失は、超希少元素トゥリウムの唯一の既知の場所が永遠に失われたことを意味していた。 ツリウムはコンピュータ技術の核をなしており、それなしでは以前のレベルの進歩を維持することができなかった。 アザコン・レティキュリ付近の小惑星帯の奥深くで、代替として使えるものが見つかるまでには、一世紀か、あるいはそれ以上の年月がかかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kirhosi History"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キルホシ史"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Masters of Microchips"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "マイクロチップの巨匠"
+    }
+  ]
+]

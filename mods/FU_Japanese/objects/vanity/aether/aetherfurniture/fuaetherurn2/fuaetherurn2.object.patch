@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An aether urn full of aetheric dust and cosmic essence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテルの粉塵と宇宙のエッセンスが詰まったエーテルローブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Urn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルウルン"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Constructing a ^orange;Xeno Lab^reset; upon upgrading your ^orange;Machining Table^reset; is a good idea, as they are ^green;much faster^reset;! Effectively every plant seed can be placed within seed labs, and each one will produce ^green;Genes^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;異種生物ラボ^reset;を作るのもお勧めだ。^orange;加工作業台^reset;をアップグレードすると作れ、処理が^green;ずっと速い^reset;！ 種を扱うラボには、ほぼ全ての植物の種を入れられ、それぞれから^green;遺伝子^reset;が得られるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So you've built a ^orange;Sprouting Table^reset;? Why are you looking so clueless? It's simple: Toss in a ^orange;Potato Seed^reset; and wait about 60 seconds. You'll get a useful ^green;Gene^reset; for your botany research, or other goods"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;発芽台^reset;を作ったんだね？ 何をすればいいか分からないって？ 簡単だよ。^orange;ジャガイモの種^reset;を入れ、60秒ほど待つだけだ。植物の研究に役立つ^green;遺伝子^reset;や、他の品が手に入る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Using the Sprouting Table"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "発芽台を使おう"
+    }
+  ]
+]

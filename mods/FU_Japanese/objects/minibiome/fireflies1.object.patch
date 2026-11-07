@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fireflies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホタル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fireflies"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホタル"
+    }
+  ]
+]

@@ -1,0 +1,254 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I can talk to SAIL through this console."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私はこのコンソールを通してSAILと話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I can use this station to talk to SAIL."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "私はこの駅を使ってSAILと話をすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船上の人工知能格子、略してS.A.I.L。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "I'm down, please help."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "下がったので、助けてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "I'm not working right, reboot me."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "私は正しく働いていません、再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "Boot me up, I'm offline."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "やめて、オフラインです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "Help me, I'm broken."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "助けて、壊れた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "Are you there?"
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "そこにいるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "I'm so sleepy."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "私はとても眠い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "I'm alive!"
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "生きてる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "Hello symbiote. I'm SAIL. I operate this ship."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "こんにちは、シンバイオート。 私はセイルです。 私はこの船を運航している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "I'm sure we'll be great friends."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "私たちはきっと偉大な友人になるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "If you don't die first, I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "先に死ななければ、たぶんね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "What was that thing that attacked Earth? It looked like nothing in my databanks."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "地球を襲ったものは何か? 私のデータバンクには何も見えませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/5/0",
+      "value": "At least we're still in one piece. I'm not sure where we are, though."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/5/0",
+      "value": "少なくとも、私たちはまだ一つの部分にあります。 でも、どこにいるかはわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likesss sssquishy SAIL!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローラン、ぷにぷにのSAILが好き！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Happy. This station allows me to talk to SAIL."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ハッピー。 この駅で私はSAILと話すことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Whatever this is, i'm not touching it. It seems like it's a SAIL console though."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これが何であれ、私はそれに触れていません。 でも、それはSAILコンソールのようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This console allows me to communicate with SAIL."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このコンソールでSAILと通信することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This here station lets me talk with SAIL."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この駅でSAILと話をします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "My friend."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "友達。"
+    }
+  ]
+]

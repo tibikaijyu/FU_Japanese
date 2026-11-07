@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A corpse, bound in an elaborate gold-plated casket."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精巧な金メッキの箱に縛られた死体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wrapped Avian Corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラップした鳥の死体"
+    }
+  ]
+]

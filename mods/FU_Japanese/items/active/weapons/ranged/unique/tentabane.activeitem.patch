@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A uniquely deadly sniper rifle with super-cooled energy blasts.\n^yellow;Inflicts freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超冷却されたエネルギーブラストを備えた、ユニークで致命的な狙撃ライフル。\n^yellow;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Frostbringer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; フロストボーダー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Freezing death.\n^yellow;Brutal freezing shots^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "死を凍らせる。\n^yellow;Brutal冷凍ショット^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Black Frost^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;黒こぼれ^reset; ^yellow;^reset;"
+    }
+  ]
+]

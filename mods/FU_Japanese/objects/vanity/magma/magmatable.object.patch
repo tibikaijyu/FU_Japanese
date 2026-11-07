@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burning death for dinner."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夕食に火傷死。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマテーブル"
+    }
+  ]
+]

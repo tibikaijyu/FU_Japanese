@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "For each additional crewmate you'll need a new bed. Some beds can house more than one, such as Bunk Beds."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "追加のクルーメイトごとに、新しいベッドが必要です。 一部のベッドには、二段ベッド ベッドなどの複数のベッドがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you want to ^orange;Hire Crewmates^reset; then you first need to build a ^green;Crappy Crew Bed^reset;. Build one at a ^orange;Ship Component Assembler^reset; and place it on your ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;Crewmates^reset;を採用したい場合は、まず^green;CrappyCrew ベッド^reset;を構築する必要があります。 ^orange;船 部品 組立機 ^reset; でビルドして、船上に置きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Crew Beds"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "乗組員用ベッド"
+    }
+  ]
+]

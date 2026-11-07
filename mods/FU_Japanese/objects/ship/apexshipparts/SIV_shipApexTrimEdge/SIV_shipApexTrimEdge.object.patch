@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Trim Edge for an Apex spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス宇宙船用のトリムエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Trim Edge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイペックスの縁飾り"
+    }
+  ]
+]

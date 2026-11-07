@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a frosty taiga."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を凍ったタイガに変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Taiga Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイガマイクロフォーマ"
+    }
+  ]
+]

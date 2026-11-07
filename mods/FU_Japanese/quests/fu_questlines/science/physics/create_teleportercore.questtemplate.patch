@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Without ^orange;Teleporter Cores^reset;, you won't be able to craft several useful technologies. Plus, teleporters are just plain fun!!! Oh, there's the courier with ^green;your replacement core^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange; Teleporter Cores ^reset; がなければ、いくつかの有用な技術を構築することはできません。 しかも、テレポーターはただの楽しみです! ^green;あなたの交換コアは^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Teleporter Core^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;テレポーターコア^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I am in dire need of your assistance. I need a ^orange;Teleporter Core^reset; to finish my teleporter, but ^green;the courier delivering my supplies is late^reset; and I'm running out of time. You can craft one in your ^orange;Matter Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はあなたの援助を切望している。 必要なのは ^orange;テレポーターコア^reset; テレポートを 仕上げるためには ^green;宅配便が遅れて^reset; 時間がないのです ^orange;物質組立機^reset; で作成できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Shortest distance is zero"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "最短距離はゼロです。"
+    }
+  ]
+]

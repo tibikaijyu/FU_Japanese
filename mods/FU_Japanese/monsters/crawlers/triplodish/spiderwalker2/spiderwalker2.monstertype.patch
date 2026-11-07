@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires laser blasts at any chosen target."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "選択したターゲットにレーザー発火します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Spider Droid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆クモのドロイド"
+    }
+  ]
+]

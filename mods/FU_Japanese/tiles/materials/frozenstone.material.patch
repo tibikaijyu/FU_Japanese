@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ice-covered stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷に覆われた石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "凍結石"
+    }
+  ]
+]

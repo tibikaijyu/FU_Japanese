@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compressed, purified irradium. Generally found on Irradiated worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧縮、精製されたイラジウム。 一般的に照射された世界にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラディウムインゴット"
+    }
+  ]
+]

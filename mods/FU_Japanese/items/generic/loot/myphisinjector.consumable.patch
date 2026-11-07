@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mysterious drug.\n^red;Hammered^gray;, ^red;-^white;50% ^red;Run^gray;, ^red;-^white;30% ^red;Jump^gray;, ^cyan;+^white;15% ^pink;All ^cyan;Res^gray;, ^cyan;Extremely Caffeinated ^gray;(^white;220s^gray;) ^blue;Madness Gain^reset; 1"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "謎の薬。\n^red;ハマード^gray;, ^red;-^white;50% ^red;走り^gray;, ^red;-^white;30% ^red;ジャンプ^gray;, ^cyan;+^white;15% ^pink;すべて ^cyan;レズ^gray;, ^cyan;カフェインが激減 ^gray;(^white;220ス)^gray;) ^blue;狂気の高まり^reset; 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Myphis Mist Injector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミフィスミストインジェクター"
+    }
+  ]
+]

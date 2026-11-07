@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A red jar of honey! Exceptional healing ability.\n^green;Heal ^white;100 ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツの赤い瓶! 優れた治癒能力。\n^green;癒し ^white;100 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドハニージャー"
+    }
+  ]
+]

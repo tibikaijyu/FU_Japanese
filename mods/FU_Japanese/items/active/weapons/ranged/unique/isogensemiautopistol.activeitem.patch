@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires devastating ice bullets colder than liquid nitrogen.\n^cyan;Slows targets ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体窒素よりも冷たい氷弾を壊滅させる火。\n^cyan;目標を遅くする ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Semiauto"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげんセミオート"
+    }
+  ]
+]

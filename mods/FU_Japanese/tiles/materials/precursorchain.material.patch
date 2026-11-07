@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super-strong alloy of ancient origin"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の超強合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Chain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体鎖"
+    }
+  ]
+]

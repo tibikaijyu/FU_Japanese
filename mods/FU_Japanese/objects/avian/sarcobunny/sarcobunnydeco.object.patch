@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^red;This object is being deprecated. Just place it down to get the normal version^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^red; このオブジェクトは非推奨です。 通常のバージョン ^reset; を取得するには、それを下に置きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bunny Sarcophagus (Deprecated)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウサギの石棺（旧式）"
+    }
+  ]
+]

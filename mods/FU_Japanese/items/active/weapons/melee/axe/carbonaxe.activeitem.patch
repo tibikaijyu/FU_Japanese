@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, and ideal for survivalists.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で、生存者にとって理想的です。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Hatchet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンハチェット"
+    }
+  ]
+]

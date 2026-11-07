@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-quality industrial alloy walkway."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業用合金通路。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Walkway"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アロイウォークウェイ"
+    }
+  ]
+]

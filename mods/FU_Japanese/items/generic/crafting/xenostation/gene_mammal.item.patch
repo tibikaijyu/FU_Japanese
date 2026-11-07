@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mammalian cells define this gene."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "哺乳類細胞はこの遺伝子を定義します"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mammalian"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "哺乳類"
+    }
+  ]
+]

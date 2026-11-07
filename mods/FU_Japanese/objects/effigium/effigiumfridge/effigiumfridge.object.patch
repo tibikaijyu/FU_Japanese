@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A fridge. There seems to be food inside."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "冷蔵庫。 中には食べ物があるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I can see clearly into this fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この冷蔵庫には"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fridge that fades in and out of existence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "存在の内外に消えていく冷蔵庫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cold!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "寒い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wary. This fridge keeps fading away."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "注意。 この冷蔵庫は消え続けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A fridge. I can see what's inside without opening the door."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "冷蔵庫。 ドアを開けずに中が見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A food-chilling device."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "食品冷却装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A fridge! THere ain't no mystery about what's inside."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "冷蔵庫! 中に何が入っているのかは謎がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウム冷蔵庫"
+    }
+  ]
+]

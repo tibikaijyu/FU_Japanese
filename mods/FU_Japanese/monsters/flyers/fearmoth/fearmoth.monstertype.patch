@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge, annoying moth. Likes to eat flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大でイライラするネズミ。 肉を食べるのが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fear Moth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐怖の口"
+    }
+  ]
+]

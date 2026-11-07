@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A frozen meat and Boneboo sandwich, cooked to perfection - then served cold. ^green;Heal ^white;20 ^gray;(^white;2s^gray;)^reset; ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷凍肉とボーンブーサンドイッチ、完璧に調理 - その後、冷やして提供しています。 ^green;癒し ^white;20 ^gray;(^white;2ス)^gray;)^reset; ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coldmarrow Panini"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷え性骨髄"
+    }
+  ]
+]

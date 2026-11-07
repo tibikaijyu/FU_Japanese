@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This mutant strain of guam can filter any radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この変異型グアムはどんな放射線でも濾過できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rad Grass Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤草種子"
+    }
+  ]
+]

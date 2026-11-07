@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a ruthless outlaw companion."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷酷な無法者の仲間を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Outlaw Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不法契約"
+    }
+  ]
+]

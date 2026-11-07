@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of tentacle thingy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テンタクルの何かがおかしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "年長のホイップ"
+    }
+  ]
+]

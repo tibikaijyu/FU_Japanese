@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I am reminded of how insignificant my place in the cosmos really is..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は、宇宙における私の位置が本当にどれほど重要でないかを思い出します。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horrid Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐ろしい像"
+    }
+  ]
+]

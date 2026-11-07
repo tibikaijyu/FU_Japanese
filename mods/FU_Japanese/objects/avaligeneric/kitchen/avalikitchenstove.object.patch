@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Interesting, the gas rings on this pump oxygen, not methane."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "興味深いことに、ガスはメタンではなく、このポンプ酸素で鳴ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "We breathe methane, our stoves have to pump oxygen which then burns with the methane in the air."
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "メタンを吸うと、ストーブは酸素をポンプで排出し、空気中のメタンで燃焼します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "It's got a way to properly cook almost anything here!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ほとんど何でも正しく調理する方法があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a combi gas-fan-microwave-oven-stove!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンビガスファン電子レンジストーブです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran put wood in box, then heats 'till it bursssts into flame. Campfire for sssstupidss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは箱に木を入れ、火が燃えるまで加熱する。 キャンプファイヤーは愚か者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Dubious. I doubt this device gets hot enough to properly melt microcheese until rust-brown."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 この装置は、錆びた茶色になるまで、マイクロチーズを適切に溶かすのに十分な熱を得られるとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I should probably read the instructions before trying to dry my cat in this thing."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私はおそらくこれで私の猫を乾燥させようとする前に指示を読むべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I'm beginning to suspect that for all their flaws, the Avali may have promise as culinarians."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "私は、彼らの欠点のすべてについて、アバリが料理人として約束しているのではないかと疑い始めている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " Yum, yum"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ユムユム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Avali Kitchen"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " アバリキッチン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Avali Cooker^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;アヴァリの調理器^reset;"
+    }
+  ]
+]

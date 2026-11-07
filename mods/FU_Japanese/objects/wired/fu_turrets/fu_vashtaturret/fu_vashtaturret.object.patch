@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Base Damage: 4\nFire Rate: 0.4\nEnergy per Shot: 7\nRange: Mid"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベース損傷:4\n火率:0.4\nショット当たりのエネルギー: 7\n範囲:中央"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vashta Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァシタ・タレット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Automatic Base Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "自動基地防衛"
+    }
+  ]
+]

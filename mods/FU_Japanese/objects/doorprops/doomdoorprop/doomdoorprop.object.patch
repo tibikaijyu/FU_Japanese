@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This door is creepy enough to stop anyone trying to break in."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このドアは不気味なので、侵入しようとする人を止めることができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A very eerie door."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "非常に不気味なドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A creepy doom door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不気味な部屋のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran hide behind door. Then door scare Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはドアの後ろに隠れています。 ドアはフローランを怖がらせた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Nervous. This door has an eye on it."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "神経質。 このドアには目がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A fairly terrifying doom door."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "かなり恐ろしい部屋のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A robust doom door. It also has an eye on it. Strange design."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "頑丈なドア。 また、その点にも目を向ける。 不思議なデザイン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This here door is lookin' at me."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ここのドアは私を見ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Doom Door Prop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドゥームドアの飾り"
+    }
+  ]
+]

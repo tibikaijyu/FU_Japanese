@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic Protectorate sidearm. Reliable and compact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な保護側腕。 信頼性とコンパクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/description",
+      "value": "Fires two-round bursts.\n^cyan;+1 projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/description",
+      "value": "二回発火。\n^cyan;+1 発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/shortdescription",
+      "value": "^cyan;Protectorate Incapacitator^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/shortdescription",
+      "value": "^cyan;プロテクタレートインコンデンサ^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protectorate Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロテクタートピストル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Fires two-round bursts.\n^cyan;+1 projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "二回発火。\n^cyan;+1 発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Protectorate Incapacitator^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;プロテクタレートインコンデンサ^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "A finely-tuned pistol with dangerous burst-fire!\n^cyan;+3 projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "危険なバーストファイアと微調整ピストル!\n^cyan;+3 発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Protectorate Decimator^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;プロテクター・デシメータ^reset; ^yellow;^reset;"
+    }
+  ]
+]

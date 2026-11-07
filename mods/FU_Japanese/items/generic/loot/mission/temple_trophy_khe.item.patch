@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A formerly valuable crystal trophy. Now it's just gnawed and broken."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "以前は貴重なクリスタルトロフィー。 今は傷ついて壊れています"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Crystalline Trophy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破砕した結晶性トロフィー"
+    }
+  ]
+]

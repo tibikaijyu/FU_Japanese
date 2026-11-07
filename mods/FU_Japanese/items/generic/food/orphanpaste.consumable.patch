@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from only the finest ingredients. A perfect food for Vegans! Can fuel ships (40) and mechs.\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75s^gray;)^reset; ^blue;Madness Gain^reset; 3 ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最高級の素材だけから作られています。 ビーガンにとって完璧な食べ物! 船(40)や機械に燃料を供給できます。\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75ス)^gray;)^reset; ^blue;狂気の高まり^reset; 3 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orphan Paste"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "孤児ペースト"
+    }
+  ]
+]

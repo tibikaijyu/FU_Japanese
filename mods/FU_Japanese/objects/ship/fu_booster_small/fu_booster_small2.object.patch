@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A booster. These have been known to malfunction and explode."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ブースター。 これらは誤動作と爆発で知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A booster, the wings of a ship."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ブースター、船の翼。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small sub-light thruster. Somewhat increases interplanetary travel speed.\n^yellow;Ship Speed: +12\n^cyan;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小型サブライトスラスター。 惑星間移動速度が上昇する。\n^yellow;船速:+12\n^cyan;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssscary fire."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "怖い火。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analyse. Temperature too high to measure."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 温度が高すぎると測定できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This thing eats through fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これは燃料で食べます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Propulsion."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "推進力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This flame 'ere has a powerful kick."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この炎は強力な蹴りがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Ship Booster Mk2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型船ブースターMk2"
+    }
+  ]
+]

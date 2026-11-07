@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezes the target's skin, stopping them in their tracks and sapping their heat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ターゲットの皮膚を凍結し、トラックでそれらを停止し、熱を吸い取る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Disabler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障害"
+    }
+  ]
+]

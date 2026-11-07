@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Another dead body, another signature with a message. \"No sandwiches.\" This Kevin worries mew. Something isn't right."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "別の死体、メッセージ付きの別の署名。 「サンドイッチはない」 ケビンは私を心配している。 何かが正しくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "Use the ^orange;Silver Arena Beacon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "^orange; シルバーアリーナビーコン ^reset; を使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "Win the arena battle"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "アリーナバトルに勝つ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Khe^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケー^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Signature leads to another nasty place full of awful badness. But it's best we have. Go win, bring shiny, and...no die. Okay?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "シグネチャーはひどい悪さでいっぱいの別の厄介な場所につながる。 でも一番良いことです 勝って、輝いて、そして...死なないで。 いいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark 'Lord' Volo Mort"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "暗い「主」ヴォロモート"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It seems there's a bridge ahead."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "前方に橋があるらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A bridge apparently is nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "橋が近くにあるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sign designating a bridge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "橋を示す看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssign for bridge."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ブリッジを割り当てます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. This sign signifies a nearby bridge."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル この標識は近くの橋を意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Looks like there's a bridge nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "近くに橋のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This huge sign informs me that there is a bridge nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この大きな看板は私に近くに橋があることを知らせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A big sign for a bridge."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "橋の大きな看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bridge Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "橋の看板"
+    }
+  ]
+]

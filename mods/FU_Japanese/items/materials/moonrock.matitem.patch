@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tough, gritty moon rock.\n^green;Extractable^reset;, ^orange;Crushable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タフで脂っこい月の岩。\n^green;抽出可能な^reset;、^orange;粉砕可能 ^reset;、^red;製錬可能 ^reset;。"
+    }
+  ]
+]

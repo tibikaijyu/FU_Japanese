@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Re-randomizes items using Upgrade Modules."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アップグレードモジュールを使用してアイテムを再ランダム化する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weapon Shuffler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武器シャフラー"
+    }
+  ]
+]

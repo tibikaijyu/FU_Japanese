@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/inputLabel/value",
+      "value": "Input"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/inputLabel/value",
+      "value": "入力"
+    }
+  ]
+]

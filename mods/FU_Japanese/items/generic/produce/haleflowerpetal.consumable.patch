@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+30% E. Regen & -15% E. Regen Block^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+30% E. 再生 & -15% E. 再生ブロック^reset;: 1え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hale Flower Petal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘールフラワーペタル"
+    }
+  ]
+]

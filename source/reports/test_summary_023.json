@@ -1,0 +1,47 @@
+{
+  "version": "0.2.3",
+  "passed": true,
+  "runtime_tested": false,
+  "direct_hang_causation_confirmed": false,
+  "reports": [
+    {
+      "passed": true,
+      "tests_run": 11,
+      "failures": 0,
+      "errors": 0,
+      "runtime_tested": false,
+      "scope": "Pinned FU fixture reference resolution, generator-control preservation, original Markov training-data preservation, source catalogs and shipped mutation paths. Does not execute Starbound or simulate Markov name output.",
+      "file": "namegen_regression.json",
+      "sha256": "60920e4859491d6abe55d1cc8c2e2096dfea3d3630641f6cac3ba58b8779e062"
+    },
+    {
+      "passed": true,
+      "tests_run": 8,
+      "failures": 0,
+      "errors": 0,
+      "runtime_tested": false,
+      "scope": "Actual release folder overlays, 32 obsolete translations replaced by no-op patches, file identities, pinned FU source-reference resolution and original training-word preservation. Does not execute Starbound or its Markov generation algorithm.",
+      "file": "namegen_upgrade.json",
+      "sha256": "37f92724ca8d8f8f22d08c01017d1180aa18c38b40f786451a83e49c263d2263"
+    },
+    {
+      "passed": true,
+      "tests_run": 4,
+      "failures": 0,
+      "errors": 0,
+      "runtime_tested": false,
+      "scope": "Original character generator data restoration, exact training-word UTF-8 bytes, registered source IDs, and a necessary seed-length input condition of an independent C# implementation. No native game or Markov generation simulation.",
+      "file": "namegen_023_restoration.json",
+      "sha256": "33aea620a5f255c05bef3af665a64cb3ab18e4cafa8f76d6e239fdb860527e26"
+    }
+  ],
+  "reused_evidence": {
+    "baseline": "0.2.2",
+    "scope": "All Lua and guide/species display assets remain byte-identical. Their 0.2.2 tests are retained, not re-run as native game validation.",
+    "reports": [
+      "guide_022_validation.json",
+      "species_022_validation.json"
+    ]
+  },
+  "limits": "No Starbound launch or native Markov-generator execution. The short-name condition is a static input-contract check based on an independent implementation, not a freeze reproduction."
+}

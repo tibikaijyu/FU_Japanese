@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+8 HP^reset;, ^cyan;+12 EP^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力+8^reset;、^cyan;エネルギー+12^reset;：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heartroot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "心臓の根"
+    }
+  ]
+]

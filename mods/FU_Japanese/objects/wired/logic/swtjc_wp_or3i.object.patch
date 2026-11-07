@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An /'OR'/ gate. Requires at least 1 input to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "OR\"/ ゲート。 動作には少なくとも 1 入力を /'on'/ にする必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "An /'OR'/ gate. Requiresss at leassst 1 input to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "OR\"/ ゲート。 動作するためには少なくとも 1 入力を /'on'/ にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. An /'OR'/ gate. Requires at least 1 input to be /'on'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 OR\"/ ゲート。 動作には少なくとも 1 入力を /'on'/ にする必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "OR Gate (3 Inputs)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "OR ゲート (3 入力)"
+    }
+  ]
+]

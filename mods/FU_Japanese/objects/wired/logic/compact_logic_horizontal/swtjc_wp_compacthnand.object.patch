@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NAND'/ gate. Requires at least 1 input to be /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NAND / ゲート。 動作するためには少なくとも 1 入力は /'off'/ でなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A /'NAND'/ gate. Requiresss at leassst 1 input to be /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "NAND / ゲート。 動作するためには少なくとも 1 入力を /'off'/ にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. A /'NAND'/ gate. Requires at least 1 input to be /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 NAND / ゲート。 動作するためには少なくとも 1 入力は /'off'/ でなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compact NAND Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンパクトNANDゲート"
+    }
+  ]
+]

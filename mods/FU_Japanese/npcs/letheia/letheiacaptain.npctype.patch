@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "The board of directors will hear of this!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "取締役会はこれを聞きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "Guess I'll have to deal with you personally!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "個人的に対処しなければならないと思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "How unfortunate."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "なんて残念なこと。"
+    }
+  ]
+]

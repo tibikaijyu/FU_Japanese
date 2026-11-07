@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Frozen Volcanic biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を凍った火山生物群に変身させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Vol. Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フリーズンヴォル。 テラフォーマ"
+    }
+  ]
+]

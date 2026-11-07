@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A corn tortilla filled with veggies and meat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "野菜と肉で満たされたトウモロコシのトルティーヤ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Tacoss!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "タコス!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. This taco is filled with just the right ratio of meat to  vegetables."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 このタコは、野菜と肉のちょうど適切な比率で満たされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I'm more a burrito kind of fella myself."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はブリトーみたいなのが大好きです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Taco"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タコ"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Somewhat solid clouds! You can even walk on them! They're pretty wet, though.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんとも固い雲! あなたはそれらの上を歩くこともできます! でも、かなり濡れています。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Mushy wet clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "濡れた雲。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. A block of clouds. Wet."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 雲のブロック。 濡れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raincloud Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雨雲ブロック"
+    }
+  ]
+]

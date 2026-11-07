@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious cake! ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいケーキです! ^orange;タイプ: 穀物+乳製品+卵+砂糖^reset;"
+    }
+  ]
+]

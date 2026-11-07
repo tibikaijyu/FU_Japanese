@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can probably improve on this substantially as I learn more."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "もっと学んだら、この点を大幅に改善できると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Using what I've learned from research, I have devised a new tech. The ^orange;Stimulant Rig^reset;! It injects ^red;unsafe levels of narcotic stimulants^reset; to provide a constant speed boost! Hurray!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "研究で学んだことを使って、私は新しい技術を考案しました。 ^orange;刺激リグ^reset;! ^red; 危険レベルの麻薬刺激剤 ^reset; を注入し、一定のスピードアップを提供します! 急げ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Stimulant Rig"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "刺激リグ"
+    }
+  ]
+]

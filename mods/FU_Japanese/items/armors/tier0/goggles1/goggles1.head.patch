@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Look good while obliterating reality. +^green;5^reset;% Knockback Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "現実を消しながら見栄えがいい。 +^green;5^reset;% ノックバック抵抗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obliterator Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オプティマイザゴーグル"
+    }
+  ]
+]

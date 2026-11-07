@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decorative strip made of pykrete."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パイクレテで作られた装飾的なストリップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran lick ice, tongue get sstuck."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランのなめし氷、舌が詰まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. This strip is made from a mixture of ice and finely ground wood pulp."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 このストリップは、氷と細かく粉砕された木材パルプの混合物から作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pykrete Strip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピュークレットストリップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A helmet that hides headwear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘッドウェアを隠すヘルメット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helmet Cloaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルメット・クローカー"
+    }
+  ]
+]

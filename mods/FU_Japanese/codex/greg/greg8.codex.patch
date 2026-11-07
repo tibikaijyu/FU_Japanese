@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Greg started acting a bit off today. I can't quite put my finger on it. Something is up with his speech patterns. It's slight, but there. I'll keep an eye on him. In the meantime I have managed to isolate the strange particle and neutralize it in subject C7. Two hours ago I administered antibodies into her, and now I wait to see what happens."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "グレッグは今日から少し休みを取り始めた。 あまり指を置けない。 彼の話のパターンには何かが表れている。 ほんの少しですが、そこにあります。 彼を見守っておきましょう。 その間、私は奇妙な粒子を隔離し、対象C7で中和することに成功しました。 二時間前、私は彼女に抗体を投与し、今何が起こるかを見るのを待ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lab Notes 4"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究ノート 4"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Experimental Vaccine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "実験的ワクチン"
+    }
+  ]
+]

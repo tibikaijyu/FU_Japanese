@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;Dmg +^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;威力 +^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;Crit %^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;会心率 %^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/forceTitleLabel/value",
+      "value": "Knockback:"
+    },
+    {
+      "op": "replace",
+      "path": "/forceTitleLabel/value",
+      "value": "吹き飛ばし:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/maxDamageTitleLabel/value",
+      "value": "Base Damage:"
+    },
+    {
+      "op": "replace",
+      "path": "/maxDamageTitleLabel/value",
+      "value": "基本威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldHealthTitleLabel/value",
+      "value": "Shield Health:"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldHealthTitleLabel/value",
+      "value": "盾の耐久値:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPowerTitleLabel/value",
+      "value": "Special:"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPowerTitleLabel/value",
+      "value": "特別"
+    }
+  ]
+]

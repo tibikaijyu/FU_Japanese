@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined rostone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、未精製の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rostone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石"
+    }
+  ]
+]

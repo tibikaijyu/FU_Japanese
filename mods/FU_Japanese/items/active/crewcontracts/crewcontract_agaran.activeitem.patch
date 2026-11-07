@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an Agaran sellsword to fight alongside you. Gives ^green;10% poison resistance^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アガランを雇って剣を売って、あなたと一緒に戦おう。 ^green;10%毒抵抗^reset;を与える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Agaran Sellsword Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "阿賀蘭売り剣契約"
+    }
+  ]
+]

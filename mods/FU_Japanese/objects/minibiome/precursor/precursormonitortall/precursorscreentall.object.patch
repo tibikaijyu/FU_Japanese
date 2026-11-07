@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This interface has no clear indication of how to use it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このインターフェースは、使い方を明確に示していません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型モニタ"
+    }
+  ]
+]

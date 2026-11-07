@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avesmingos can taste like anything! For better or worse, so can this ice cream"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Avesmingosはどんな味でも味わえます! 良いか悪いか、このアイスクリームは"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Can this ice cream tassste like meats...?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "このアイスクリームは肉のような味が...?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. When they say these can taste like anything, they mean it."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 どんな味でも味わえると言うとき、それはそれを意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Good for those who like surprises, I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "サプライズが好きな人には良いと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avesmingo Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アベスミンゴアイスクリーム"
+    }
+  ]
+]

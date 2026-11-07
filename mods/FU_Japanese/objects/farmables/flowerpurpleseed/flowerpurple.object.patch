@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Happy little flowers of purple hue"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫色の花が咲き誇ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Purple Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "紫色の花"
+    }
+  ]
+]

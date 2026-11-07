@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attack with absolute certainty that your foe will fall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの敵が倒れることを絶対的に確信して攻撃します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムブロードソード"
+    }
+  ]
+]

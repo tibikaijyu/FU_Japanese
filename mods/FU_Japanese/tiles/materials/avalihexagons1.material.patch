@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like a Glitch beehive!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるでハチミツの巣のようです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Hexagons"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタル六角形"
+    }
+  ]
+]

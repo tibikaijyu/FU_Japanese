@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Water Walk"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "水上歩行"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that lets you walk on top of water."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水の上を歩くことができるEPPモジュール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Walk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水上歩行"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This putrid ground is ripe with warts filled with...stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この荒れた地面は、物で満たされた麦芽で熟しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いぼ"
+    }
+  ]
+]

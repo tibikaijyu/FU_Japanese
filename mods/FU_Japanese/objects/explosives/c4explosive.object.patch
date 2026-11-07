@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-payload Explosive. Be sure to stand clear. Detonation requires impact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高ペイロード爆薬。 はっきりさせておきなさい。 起爆には衝撃が必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "C4 Plastic Explosive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "C4プラスチック爆薬"
+    }
+  ]
+]

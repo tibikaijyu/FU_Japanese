@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large, heavy titanium blade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大型で重いチタン製の刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンブロードソード"
+    }
+  ]
+]

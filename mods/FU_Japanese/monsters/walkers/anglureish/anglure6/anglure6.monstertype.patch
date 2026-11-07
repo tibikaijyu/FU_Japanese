@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This type of anglure has no eyes, yet can still murder you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この種の角は目がありませんが、まだあなたを殺せます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eyeless Anglure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目の見えない怒り"
+    }
+  ]
+]

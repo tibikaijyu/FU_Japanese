@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A titanium wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チタンの壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンの壁"
+    }
+  ]
+]

@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "FUEL SLOT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "燃料スロット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileBody",
+      "value": "/objects/power/fu_quantumgenerator/fu_generator.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseLogicNodeCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=62;18",
+        "position": [
+          21,
+          29
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseLogicNodeTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          52.0,
+          38.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "制御入力\n配線で制御",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapanesePowerNodeCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=58;18",
+        "position": [
+          98,
+          29
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapanesePowerNodeTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          127.0,
+          38.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "電力出力\n機器へ給電",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

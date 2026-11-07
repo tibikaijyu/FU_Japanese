@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I'm not sure I understand. Am I expected to purchase dirt?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく分からない。 汚れの購入は予定されていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Munchies' Dirt^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;マンチーズの土^reset;"
+    }
+  ]
+]

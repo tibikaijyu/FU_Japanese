@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful Plasma polearm forged in Skathi style."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スケーティスタイルで鍛造された強力なプラズマポールアーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Plasmaspear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカースプラズマ"
+    }
+  ]
+]

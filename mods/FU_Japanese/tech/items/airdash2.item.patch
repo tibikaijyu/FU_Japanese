@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dash further in the air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "更に空気を洗ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Air Dash II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;空中ダッシュ II^reset;"
+    }
+  ]
+]

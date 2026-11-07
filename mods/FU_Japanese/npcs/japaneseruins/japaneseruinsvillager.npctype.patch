@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "You shouldn't be seeing this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "見るべきではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/0",
+      "value": "Rumour has it there is a great treasure in the ruins, but no one dares go search."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/0",
+      "value": "噂では、遺跡には大きな宝物がありますが、誰も検索しようとしません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/1",
+      "value": "It's said that the ruins are cursed. People who venture in there are transformed into oni."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/1",
+      "value": "遺跡は呪われたという。 そこへ冒険する人は鬼に変わる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/2",
+      "value": "There are many restless spirits in the mountain ruins."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/2",
+      "value": "山の廃虚には落ち着きのない霊が数多くいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/3",
+      "value": "Even the village is supposed to harbour an important secret, but no one has found it yet."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/3",
+      "value": "村でさえ、重要な秘密を解くはずですが、誰もそれを見つけていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/4",
+      "value": "Many go into the mountain ruins, but few return."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/4",
+      "value": "多くは山陰に侵入するが、ほとんど帰還しない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/5",
+      "value": "There are said to be irregularities in the ruin walls that can be dug out with a matter manipulator."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/5",
+      "value": "遺跡の壁には、マターマニピュレーターで掘り出すことができる不規則性があると言われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/6",
+      "value": "Vicious oni are said to live in the ruins, men warped by power...but that's just a tale."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/6",
+      "value": "悪玉鬼は廃虚の中で生き、人は力にゆがめられ、ただの物語である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/7",
+      "value": "The mountain ruins are littered with many secrets. Keep your eyes peeled for loose tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/7",
+      "value": "その山の廃虚は多くの秘密で散らかされている。 ゆるいタイルのためにあなたの目を剥がしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/8",
+      "value": "Five gems of power are said to lead the way to the ruins' treasure."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/8",
+      "value": "五つの力の宝物が遺物への道を歩むといわれる。"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extracts useful materials from most blocks. ^cyan;Requires ^orange;10J^cyan; per extraction.^reset; Can be placed on floors -or- ceilings."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどのブロックから有用な材料を抽出します。 ^cyan; 抽出ごとに ^orange;10J^cyan; が必要です。^reset; 床または天井に置くことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Extraction Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;抽出ラボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Resource converter"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "リソースコンバータ"
+    }
+  ]
+]

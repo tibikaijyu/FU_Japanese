@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An expensive Kirhosi keycard, providing VIP access to space station teleporters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高価なキルホスキーカードで、宇宙ステーションのテレポーターにVIPアクセスを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Station Keycard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホシ駅キーカード"
+    }
+  ]
+]

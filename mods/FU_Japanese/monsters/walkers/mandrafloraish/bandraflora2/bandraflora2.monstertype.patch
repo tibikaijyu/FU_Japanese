@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A variation of the standard genus with tar-laden cells"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タール負荷細胞を用いた標準属の変異"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Keldraflora"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イワシ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Prevents nasty bee stings!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂の刺し傷を防いで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bee Keeper's Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蜂の飼い主の甲"
+    }
+  ]
+]

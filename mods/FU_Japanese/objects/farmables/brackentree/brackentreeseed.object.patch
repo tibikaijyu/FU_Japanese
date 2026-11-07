@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bracken provide essential Silk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブラッケンは不可欠なシルクを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bracken Tree Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒木種子"
+    }
+  ]
+]

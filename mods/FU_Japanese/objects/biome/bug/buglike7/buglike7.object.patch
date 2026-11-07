@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is rather unusual. I wonder what built this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはかなり珍しい。 何でこの建物を作ったのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

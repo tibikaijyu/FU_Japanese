@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Kinetic Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "念動の足場"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can contain enough energy for up to 100 uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "100 まで使用できる十分なエネルギーを収容できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kinetic Focus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "運動学の焦点"
+    }
+  ]
+]

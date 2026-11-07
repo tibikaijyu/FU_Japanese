@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compress pixels and research for storage instantly, for a small fee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな料金で、ピクセルを圧縮し、保存のための研究を即座に行うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Hyper Compressor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ハイパーコンプレッサー^reset;"
+    }
+  ]
+]

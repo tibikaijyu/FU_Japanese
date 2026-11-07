@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Using alien technology I could create a ^orange;superior stim rig^reset; the likes of which nobody has ever seen!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "エイリアン技術を使って、誰も見たことのないような^orange;優れたstim rig^reset;を作成することができました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've found some sort of ancient alien technology that appears to ^orange;significantly improve mobility^reset; passively while worn!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "古代のエイリアンの技術が ^orange;移動性も大幅に向上します^reset; 身に着けている間 受動的に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Precursor Rig"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "前駆体"
+    }
+  ]
+]

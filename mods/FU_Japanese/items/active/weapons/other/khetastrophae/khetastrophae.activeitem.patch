@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Erupting Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "爆弾爆発"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires grenades... LOTS of grenades.\nDragoncat weapon of choice.\nHas a thumb trigger in addition to the normal two."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火の手すり...。 手足をたくさん。\nドラゴンキャットの武器。\n通常の二つに加えて、親指トリガーがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Khetastrophae"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケタストロファ"
+    }
+  ]
+]

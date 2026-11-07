@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a volcanic-sulphuric waste."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を火山硫黄廃棄物に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Sulphur Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山性硫黄マイクロフォーマ"
+    }
+  ]
+]

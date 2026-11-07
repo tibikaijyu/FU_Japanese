@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very powerful sword to be wielded telepathically."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレパシー的に振り回される非常に強力な剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Telekinetic Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドテレキネティックブレード"
+    }
+  ]
+]

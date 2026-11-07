@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wrapped corpse of an unknown alien species."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知のエイリアン種の包まれた死体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wrapped Alien Corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "包帯されたエイリアン死体"
+    }
+  ]
+]

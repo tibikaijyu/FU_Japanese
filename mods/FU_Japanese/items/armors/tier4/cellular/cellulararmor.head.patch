@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^#3c3c00;Glow^reset;\n^yellow;^reset; +^green;0.06^reset;% Regen,\n^yellow;^reset; Bio-Weapon: Damage x^green;1.2^reset;\n^yellow;^reset; Fall Damage x^green;0.88^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^#3c3c00;輝き^reset;\n^yellow;^reset; +^green;0.06^reset;% レーゲン\n^yellow;^reset;生物兵器:損傷x^green;1.2^reset;\n^yellow;^reset; 損傷x ^green;0.88^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cellular Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セルラーヘルム"
+    }
+  ]
+]

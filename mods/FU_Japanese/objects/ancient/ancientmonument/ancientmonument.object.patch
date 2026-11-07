@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive Ancient monument, clearly only part of a larger whole."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明らかに大きな全体の一部である、巨大な古代記念碑。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代記念碑"
+    }
+  ]
+]

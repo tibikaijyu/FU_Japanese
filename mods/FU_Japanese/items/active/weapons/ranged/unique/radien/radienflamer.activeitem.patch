@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires deadly radiation streams.\n^yellow;Causes Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的な放射線の流れを発射します。\n^yellow;放射線燃焼の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Radthrower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの放射線放射器"
+    }
+  ]
+]

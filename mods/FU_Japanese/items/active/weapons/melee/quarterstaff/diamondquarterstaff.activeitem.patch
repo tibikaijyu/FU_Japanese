@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is a very high-value weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは非常に価値の高い武器です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドクォータースタッフ"
+    }
+  ]
+]

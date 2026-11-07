@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spices can be made by drying this plants fruits."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この植物の果実を乾燥させることで香辛料を作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ponexDescription",
+      "value": "When people aren't watching, I like to eat babies."
+    },
+    {
+      "op": "replace",
+      "path": "/ponexDescription",
+      "value": "人々が見ていないとき、私は赤ちゃんを食べるのが好きだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kadavan Spice Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カダヴァンスパイス種子"
+    }
+  ]
+]

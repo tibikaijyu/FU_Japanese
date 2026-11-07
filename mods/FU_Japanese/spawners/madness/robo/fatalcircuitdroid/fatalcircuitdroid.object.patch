@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pretty great, really. You're so smart!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごいですね。 賢いね!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Robot Guard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロボットガード"
+    }
+  ]
+]

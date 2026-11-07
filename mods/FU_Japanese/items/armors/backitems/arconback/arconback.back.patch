@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+25% Cosmic Resist. Immune: Acid, Oxygen. Helpful on ^red;Aether^reset; planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+25%宇宙抵抗。 免疫:酸、酸素。 ^red;エーテル^reset;惑星に役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Protector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコンプロテクター"
+    }
+  ]
+]

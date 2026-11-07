@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Debug tool to print clock stuffs to log."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ログに時計のものを印刷するためのデバッグツール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Clock test"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "時計試験"
+    }
+  ]
+]

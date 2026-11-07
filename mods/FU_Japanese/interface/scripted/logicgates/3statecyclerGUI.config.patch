@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelLeft/value",
+      "value": "First"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelLeft/value",
+      "value": "第一"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelLoad/value",
+      "value": "^black;Load"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelLoad/value",
+      "value": "^black; 負荷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelMid/value",
+      "value": "Second"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelMid/value",
+      "value": "二番目"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelReset/value",
+      "value": "^black;Reset"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelReset/value",
+      "value": "^black; リセットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelRight/value",
+      "value": "Third"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelRight/value",
+      "value": "三番目"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelSave/value",
+      "value": "^black;Save"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelSave/value",
+      "value": "^black; 保存します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Configure timers here."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " ここでタイマーを設定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " 3-State Cycler"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 3 - ステートサイクラー"
+    }
+  ]
+]

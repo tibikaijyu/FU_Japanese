@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fence of glass and metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガラスと金属のフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボフェンス"
+    }
+  ]
+]

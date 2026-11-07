@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Chaos Arrow"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "カオス矢印"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pulsing with cosmic energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙エネルギーで脈打つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズムボウ"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I kin finally make ^green;Clementine^reset; the ^orange;symbol of our love^reset; I always promised 'afore her tragic passing back in '72. Take this and my thanks, friend."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これでようやく、^green;クレメンタイン^reset;に約束した^orange;愛の証^reset;を作れる。彼女が72年に亡くなる前からの約束だったんだ。これを受け取ってくれ。本当にありがとう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Craft a ^green;Silver Bar^reset; at a ^orange;Furnace^reset; and return to ^green;Welchie^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;銀のインゴット^reset;を^orange;炉^reset;で作り、^green;ウェルチー^reset;の所へ戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm lookin' to acquire some ^orange;Silver^reset;, but I ain't no good in enclosed spaces. ^green;Rarer ores are more commonly found at depths below the surface^reset;. ^orange;1 Silver Bar^reset; should be plenty. You'll need to ^orange;Research^reset; into ^orange;Geology^reset; to learn how."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;銀^reset;が欲しいんだが、狭い所は苦手でな。^green;珍しい鉱石ほど、地下深くで見つかりやすい^reset;んだ。^orange;銀のインゴット1本^reset;で十分だよ。作り方は^orange;研究^reset;メニューの^orange;地質学^reset;で学べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Homestead IV"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "田舎暮らし IV"
+    }
+  ]
+]

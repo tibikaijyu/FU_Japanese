@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Potent and heavy. Serious impact damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポテンシャルと重量。 重大な被害。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbra Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌムブラ・メイス"
+    }
+  ]
+]

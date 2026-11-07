@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pie made from crunchy, delicious baby chickens! So much floof!\n^cyan;+^white;35% ^cyan;EP ^gray;(^white;2m^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パン粉とおいしいベビーチキンから作られたパイ! たくさんの床!\n^cyan;+^white;35% ^cyan;EP ^gray;(^white;2え?^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crunchy Chick Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チキンパイ!"
+    }
+  ]
+]

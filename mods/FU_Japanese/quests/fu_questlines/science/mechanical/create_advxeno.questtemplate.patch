@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Well...I guess that settles it. I suck. Since you bested me fair and square, have these ^orange;Tech Cards^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "まあ...それで決着がつくのかな。 ひどい。 正方形と正方形を選べたので、これらの ^orange;Tech Cards ^reset; をもらいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Advanced Xenolab^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;先端異種生物ラボ^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Can you out-science me? I doubt it. If you think you can, prove it by bringing me a completed ^orange;Advanced Xeno Lab^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "科学を勉強してもらえますか? 疑わしい。 できると思うなら、完成した ^orange;高性能 異種生物 ラボ ^reset; を持って来てください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Advanced Genetics"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "先端遺伝学"
+    }
+  ]
+]

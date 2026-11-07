@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mutant strain of algae loaded with energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーを積んだ藻類の突然変異株。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erithian Algae Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリート藻の種"
+    }
+  ]
+]

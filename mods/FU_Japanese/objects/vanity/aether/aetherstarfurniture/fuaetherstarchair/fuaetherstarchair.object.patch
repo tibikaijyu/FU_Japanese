@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sitting in this chair feels like a dream..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この椅子に座ると、まるで夢のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙用エーテルチェア"
+    }
+  ]
+]

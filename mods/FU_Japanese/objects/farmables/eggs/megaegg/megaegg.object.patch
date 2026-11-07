@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This egg is at least twice as big as most."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この卵は、普通の卵の少なくとも二倍の大きさがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unknown Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未知卵"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made with that second shot in mind. Sporting.\n^yellow;Burst fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その第二弾を念頭に置いて作られた。 スポーツ。\n^yellow;バーストファイア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "K3 Double-Tap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "K3 ダブルタップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Why stop at a double tap? Make extra sure!\n^yellow;More bursty^reset;\n^cyan;Burst fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "なぜダブルタップで停止するのですか? ぜひご確認下さい!\n^yellow;もっとバースト^reset;\n^cyan;バーストファイア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;S7 Triple-Tap^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;S7 トリプルタップ^reset; ^yellow;^reset;"
+    }
+  ]
+]

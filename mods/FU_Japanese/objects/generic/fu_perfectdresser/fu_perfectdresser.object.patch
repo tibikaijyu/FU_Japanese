@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect dresser."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なドレッサー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーフェクトドレス"
+    }
+  ]
+]

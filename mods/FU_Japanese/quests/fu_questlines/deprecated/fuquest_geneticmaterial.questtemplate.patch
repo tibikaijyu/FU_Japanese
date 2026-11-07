@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "And let's not forget plants...let's continue, shall we?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "植物を忘れないように... 続けましょう"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you toss some ^green;meat^reset; into your extractor, you'll be rewarded with some ^orange;Genetic Material^reset;. This item is ^green;absolutely essential^reset; to your success in creating plant life in the lab."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "抽出器に ^green; 肉 ^reset; を投入すると、いくつかの ^orange; 遺伝物質 ^reset; が報酬となります。 この項目は、研究室で植物生命を創造することに成功するための^green;絶対に必須^reset;です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The stuff of life"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "生命の物質は"
+    }
+  ]
+]

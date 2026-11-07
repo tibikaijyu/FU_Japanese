@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Alien fruit jam. Sticky."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "果実ジャム。 くっきり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssticky..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "くっきり..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Puzzled. This fruit jam is rather sticky"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "パズル。 このフルーツジャムはかなりベタベタです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some sticky alien fruit jam."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "いくつかの粘り強いエイリアンフルーツジャム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Fruit Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアン・フルーツ・ジャム"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/burstCountTitleLabel/value",
+      "value": "^#61be3f;Burst^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/burstCountTitleLabel/value",
+      "value": "^#61be3f;連射数^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;C.Dmg%^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;会心威力%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;Crit%^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;会心率%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/projectileCountTitleLabel/value",
+      "value": "^green;Projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/projectileCountTitleLabel/value",
+      "value": "^green;発射体数^reset;"
+    }
+  ]
+]

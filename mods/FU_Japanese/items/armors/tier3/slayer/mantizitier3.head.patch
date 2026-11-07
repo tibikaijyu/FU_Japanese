@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\nFist/Axe: Damage x^green;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n拳/斧: ダメージ x^green;1.25^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slayer Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スレイヤーヘルム"
+    }
+  ]
+]

@@ -1,0 +1,554 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Scott"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "スコット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/accuse/default/0",
+      "value": "*angry stare*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/accuse/default/0",
+      "value": "怒れる目*"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/alert/default/0",
+      "value": "*unholy screeching*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/alert/default/0",
+      "value": "聖なる叫び声"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/breakObject/default/0",
+      "value": "Reeep Reeep!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/breakObject/default/0",
+      "value": "リープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/breakObject/default/1",
+      "value": "Glbglb! Piff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/breakObject/default/1",
+      "value": "ゴルフ! ピフ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "Reeep Reeep!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "リープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "Glbglb! Piff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "ゴルフ! ピフ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "Steve!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "スティーブ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "*purring*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "パーリング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "*stares blankly, incapable of comprehending you*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "きっぱりと見つめていて、理解できない"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/5",
+      "value": "*excitedly twitches*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/5",
+      "value": "ワクワクするほどツイスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/6",
+      "value": "*sighs*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/6",
+      "value": "ため息"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/7",
+      "value": "*raises its paw as if in solidarity with your cause*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/7",
+      "value": "* 原因* と一致しているかのように足を上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/8",
+      "value": "*demands a treat*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/8",
+      "value": "は、必須項目です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/0",
+      "value": "Reeep Reeep!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/0",
+      "value": "リープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/1",
+      "value": "Glbglb! Piff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/1",
+      "value": "ゴルフ! ピフ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/2",
+      "value": "Steve!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/2",
+      "value": "スティーブ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/3",
+      "value": "*purring*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/3",
+      "value": "パーリング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/4",
+      "value": "*stares blankly, incapable of comprehending you*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/4",
+      "value": "きっぱりと見つめていて、理解できない"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/5",
+      "value": "*excitedly twitches*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/5",
+      "value": "ワクワクするほどツイスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/6",
+      "value": "*sighs*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/6",
+      "value": "ため息"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/7",
+      "value": "*raises its paw as if in solidarity with your cause*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/7",
+      "value": "* 原因* と一致しているかのように足を上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/8",
+      "value": "*demands a treat*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/fuphotonpoptop/default/8",
+      "value": "は、必須項目です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/flee/helpme/default/0",
+      "value": "Reeep Reeep!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/flee/helpme/default/0",
+      "value": "リープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/flee/helpme/default/1",
+      "value": "Glbglb! Piff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/flee/helpme/default/1",
+      "value": "ゴルフ! ピフ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/flee/safe/default/0",
+      "value": "Reeep Reeep!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/flee/safe/default/0",
+      "value": "リープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/flee/safe/default/1",
+      "value": "Glbglb! Piff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/flee/safe/default/1",
+      "value": "ゴルフ! ピフ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/0",
+      "value": "*purrs softly*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/0",
+      "value": "ソフトに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/1",
+      "value": "*purrs loudly*"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/1",
+      "value": "声高に"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/0/1/reactions/flee/0/1",
+      "value": "wave"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/0/1/reactions/flee/0/1",
+      "value": "波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/1/1/reactions/flee/0/1",
+      "value": "chase"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/1/1/reactions/flee/0/1",
+      "value": "追いかけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/10/1/reactions/flee/0/1",
+      "value": "chase"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/10/1/reactions/flee/0/1",
+      "value": "追いかけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/0/1",
+      "value": "quit"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/0/1",
+      "value": "やめて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/1/1",
+      "value": "neutral"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/1/1",
+      "value": "中立"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/2/1",
+      "value": "smile"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/2/1",
+      "value": "笑う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/3/1",
+      "value": "chase"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/11/1/reactions/flee/3/1",
+      "value": "追いかけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/12/1/reactions/flee/0/1",
+      "value": "cry"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/12/1/reactions/flee/0/1",
+      "value": "泣け"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/12/1/reactions/flee/1/1",
+      "value": "chase"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/12/1/reactions/flee/1/1",
+      "value": "追いかけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/13/1/reactions/flee/0/1",
+      "value": "chase"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/13/1/reactions/flee/0/1",
+      "value": "追いかけ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/13/1/reactions/follow/0/1",
+      "value": "gohome"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/13/1/reactions/follow/0/1",
+      "value": "家に帰れ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/2/1/reactions/follow/0/1",
+      "value": "wink"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/2/1/reactions/follow/0/1",
+      "value": "ウィンク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/4/1/reactions/follow/0/1",
+      "value": "flee"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/4/1/reactions/follow/0/1",
+      "value": "逃げる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/7/1/reactions/flee/0/1",
+      "value": "creepyfollow"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/7/1/reactions/flee/0/1",
+      "value": "不気味なフォロー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/7/1/reactions/follow/0/1",
+      "value": "smile"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/7/1/reactions/follow/0/1",
+      "value": "笑う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/9/1/reactions/flee/0/1",
+      "value": "quit"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/9/1/reactions/flee/0/1",
+      "value": "やめて"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/personalities/9/1/reactions/flee/1/1",
+      "value": "cry"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/personalities/9/1/reactions/flee/1/1",
+      "value": "泣け"
+    }
+  ]
+]

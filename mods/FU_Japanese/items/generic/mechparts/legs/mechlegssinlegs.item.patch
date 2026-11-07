@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These mech legs enable maximum mobility, awesome!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのメカの脚は最大移動を可能にします、素晴らしい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stabilized Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "安定脚"
+    }
+  ]
+]

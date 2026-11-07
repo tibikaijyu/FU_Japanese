@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Anger and rage, and rage and anger. Grr."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "怒りと怒り、怒りと怒り。 はい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Epinephrine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エピネフリン"
+    }
+  ]
+]

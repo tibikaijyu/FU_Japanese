@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A remote for some sort of device of the Ancients.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のデバイスのようなもの用のリモコン。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Remote"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代遠隔地"
+    }
+  ]
+]

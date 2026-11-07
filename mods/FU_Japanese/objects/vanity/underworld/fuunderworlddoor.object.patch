@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perhaps the creepiest door in the neighborhood"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近所で一番不気味なドアは"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュドア"
+    }
+  ]
+]

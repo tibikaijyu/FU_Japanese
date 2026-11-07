@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This device propels objects and creatures with energy rather than mechanics. ^red;Uses Force Regions (may break worlds). Use with caution.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "機械ではなくエネルギーで物体や生き物を推進する装置です。 ^red; フォース領域(世界を壊す可能性がある)を使用します。 注意して使用してください。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Repulsion Lift"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体反発リフト"
+    }
+  ]
+]

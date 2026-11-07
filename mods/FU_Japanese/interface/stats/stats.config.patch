@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/darkregen/description",
+      "value": "-todo-"
+    },
+    {
+      "op": "replace",
+      "path": "/darkregen/description",
+      "value": "――そうしよう――"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/darkregen/label",
+      "value": "Counter-Photonic Regen Rate"
+    },
+    {
+      "op": "replace",
+      "path": "/darkregen/label",
+      "value": "反光子再生速度"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fuCharisma/description",
+      "value": "-todo-"
+    },
+    {
+      "op": "replace",
+      "path": "/fuCharisma/description",
+      "value": "――そうしよう――"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fuCharisma/label",
+      "value": "Charisma"
+    },
+    {
+      "op": "replace",
+      "path": "/fuCharisma/label",
+      "value": "カリスマ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lightregen/description",
+      "value": "-todo-"
+    },
+    {
+      "op": "replace",
+      "path": "/lightregen/description",
+      "value": "――そうしよう――"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lightregen/label",
+      "value": "Photonic Regen Rate"
+    },
+    {
+      "op": "replace",
+      "path": "/lightregen/label",
+      "value": "フォトニック再生速度"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeable/description",
+      "value": "-todo-"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeable/description",
+      "value": "――そうしよう――"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeable/label",
+      "value": "Upgradeable"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeable/label",
+      "value": "アップグレード可能"
+    }
+  ]
+]

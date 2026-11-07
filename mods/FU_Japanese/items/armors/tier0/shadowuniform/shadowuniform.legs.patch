@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lead the fleet in style. Gives +^green;5^reset;% Shadow Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粋な装いで艦隊を率いよう。闇耐性+^green;5^reset;%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadekin Bottoms"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャデキンボトム"
+    }
+  ]
+]

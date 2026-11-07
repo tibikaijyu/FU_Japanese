@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stone rubble which appears to be debris from an old structure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い構造物の破片のように見える石瓦。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Rubble"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老の瓦"
+    }
+  ]
+]

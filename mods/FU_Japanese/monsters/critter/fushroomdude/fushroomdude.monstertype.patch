@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Half gnome, half mushroom. All tasty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半裸、半きのこ。 美味しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Funga-Gnome"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船鹿ドーム"
+    }
+  ]
+]

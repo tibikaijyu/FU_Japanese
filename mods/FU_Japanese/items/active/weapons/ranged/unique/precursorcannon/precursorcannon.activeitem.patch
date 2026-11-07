@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Photon Spread"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "光子拡散"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The compressed rage of the Precursors.\n^cyan;Charges Up^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前駆体の圧縮された範囲。\n^cyan;料金^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Annihilator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体アニヒレータ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient archway, Aether is built into its design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のアーチウェイ、エーテルはその設計に組み込まれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Archway"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルアーチ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A luxurious soft fabric for wall hangings or carpets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁掛けやカーペット用の豪華な柔らかいファブリック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soft Tapestry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソフトテープ"
+    }
+  ]
+]

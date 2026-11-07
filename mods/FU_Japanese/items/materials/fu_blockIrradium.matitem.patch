@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slab of purified Irradium. I wouldn't touch this stuff - Radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精製されたイラジウムのスラブ。 放射性物質は触れません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Slab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウム"
+    }
+  ]
+]

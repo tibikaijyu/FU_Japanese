@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It watches you through its big lens. And crawls to murder you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなレンズを通してあなたを観察します。 そして、あなたを殺そうとクロールします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spiderwalker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモの歩行器"
+    }
+  ]
+]

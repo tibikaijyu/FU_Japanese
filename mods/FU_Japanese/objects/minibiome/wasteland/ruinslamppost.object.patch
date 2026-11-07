@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp post."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "街灯。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lamp Post"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ランプポスト"
+    }
+  ]
+]

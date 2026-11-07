@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rich amber platform"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リッチアンバープラットフォーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバープラットフォーム"
+    }
+  ]
+]

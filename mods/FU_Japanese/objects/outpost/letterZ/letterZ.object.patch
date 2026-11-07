@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter Z."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字「Z」。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter Z"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "文字「Z」"
+    }
+  ]
+]

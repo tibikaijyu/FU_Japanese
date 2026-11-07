@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shines gloriously, and is wonderfully valuable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝かしく輝き、とても貴重です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンド刃"
+    }
+  ]
+]

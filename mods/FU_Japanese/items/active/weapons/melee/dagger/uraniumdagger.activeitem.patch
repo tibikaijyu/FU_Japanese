@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Swift and radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スウィフトと放射性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランナイフ"
+    }
+  ]
+]

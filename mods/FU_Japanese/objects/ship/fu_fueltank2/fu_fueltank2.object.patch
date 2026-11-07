@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tank for storing ship fuel. Holds 2000 Fuel. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船舶燃料を貯蔵するためのタンク。 保有者 2000 燃料。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fuel Tank MKII"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "燃料タンクMKII"
+    }
+  ]
+]

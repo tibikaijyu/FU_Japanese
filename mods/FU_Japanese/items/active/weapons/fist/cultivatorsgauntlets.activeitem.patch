@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "No, they are not perfectly balanced.\n^yellow;Inflicts burn, poisoned, electrified, defense reduction and shadow.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いいえ、完全にバランスが取れていないのです。\n^yellow; 焼却、毒、電化、防御、影に作用します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Infinite Fists"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "無限拳"
+    }
+  ]
+]

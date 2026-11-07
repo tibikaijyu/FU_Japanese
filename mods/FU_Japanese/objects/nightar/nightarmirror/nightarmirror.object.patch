@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gaze at your visage in the Nightarian style."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトアリアンスタイルであなたの視線を眺めてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Mirror"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石鏡"
+    }
+  ]
+]

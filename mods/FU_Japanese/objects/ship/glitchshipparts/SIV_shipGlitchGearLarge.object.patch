@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very large decorative Glitch gear. Functionally, it's found on their ships."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に大きな装飾的なグリッチギア。 機能的には、それは彼らの船上にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Copper Gear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型銅歯車"
+    }
+  ]
+]

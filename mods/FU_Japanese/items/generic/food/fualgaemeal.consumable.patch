@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tastes !@#!$!%! disgusting.\n^red;-^white;5% ^red;HP ^gray;(^white;1m^gray;)^reset; \n^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "味がする!@#!$!%!\n^red;-^white;5% ^red;HP ^gray;(^white;1え?^gray;)^reset; \n^green; タイプ: 野菜 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compressed Algae"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "圧縮藻類"
+    }
+  ]
+]

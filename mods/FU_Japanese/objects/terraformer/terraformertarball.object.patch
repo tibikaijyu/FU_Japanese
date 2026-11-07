@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Tarball biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候をターボールバイオームに変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tarball Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ターボール・テラフォーマー"
+    }
+  ]
+]

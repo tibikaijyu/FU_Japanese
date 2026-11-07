@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unspeakable abomination out of a nightmare."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢から抜け出した、口に通じない悪夢。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショゴス"
+    }
+  ]
+]

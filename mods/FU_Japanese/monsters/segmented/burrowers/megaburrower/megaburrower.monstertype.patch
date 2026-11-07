@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive, deadly worm. Definitely not natural."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大で致命的なワーム。 もちろん自然ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burrower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トンネル"
+    }
+  ]
+]

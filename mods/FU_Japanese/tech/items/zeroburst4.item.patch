@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ultimate blast jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "究極のブラストジャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Zero Burst IV^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3; バースト IV ^reset;"
+    }
+  ]
+]

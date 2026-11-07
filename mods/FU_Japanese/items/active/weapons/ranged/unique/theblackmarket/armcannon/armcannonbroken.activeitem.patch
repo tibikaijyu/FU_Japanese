@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Broken af"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊れた"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arm Cannon [Broken] "
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腕大砲[壊れた]. "
+    }
+  ]
+]

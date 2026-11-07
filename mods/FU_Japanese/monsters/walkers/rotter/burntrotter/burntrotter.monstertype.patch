@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A half-dead, fire-breathing abomination. Great with kids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半分死んだ、火を吐く嫌悪感。 子ども達にぴったり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burnt Rotter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼けただれたロッター"
+    }
+  ]
+]

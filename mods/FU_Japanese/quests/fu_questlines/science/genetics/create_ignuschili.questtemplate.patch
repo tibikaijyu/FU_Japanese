@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can't wait to make some chili with these! Take this ^green;alloy^reset;: it should do you more good than I. Enjoy."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私はこれらでいくつかのチリを作るのが待ちきれない! これを取る ^green;合金 ^reset; : それは私よりも良いはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Ignus Chili Seeds^reset; to the monocled Thelusian at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; チリの種子 ^reset; を ^orange;科学前哨基地^reset; で単鎖テルシアンに持ち込む"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I love spicy foods but getting what I need here is a pain. Using a ^orange;Gene Design Lab^reset; could you perhaps make me some ^orange;Ignus Chili Seeds^reset;? I'd reward you for the effort."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は辛い食べ物が大好きですが、ここで必要なものを得ることは苦痛です。 ^orange;遺伝子設計ラボ^reset;を使って、私にいくつかの^orange;Ignusチリシード^reset;を作ることができますか? その努力で君に報いるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "I like it Hot!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ホット好き!"
+    }
+  ]
+]

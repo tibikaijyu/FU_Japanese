@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can't go wrong with a strawberry milkshake!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イチゴミルクセーキでうまくいきません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "SSSweet and red - Just like Floran's favorite juice."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "あっまくて赤い。フローランの大好きなジュースみたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Blissful. What a delightfully sweet beverage."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "至福だ。 何と楽しい甘い飲み物でしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "It's almost too sweet to stomach. Almost."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "胃に甘すぎます。 ほぼ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strawberry Shake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イチゴシェイク"
+    }
+  ]
+]

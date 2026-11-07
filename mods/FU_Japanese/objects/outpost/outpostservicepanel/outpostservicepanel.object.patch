@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A service panel. Transmits power. Use with care. ^blue;Upper Input^reset;: On/Off Switch. You may need ^cyan;Watchers^reset; to keep distant stations running."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サービスパネル。 パワーを伝達する。 注意して使用してください。 ^blue; 上部入力 ^reset; :スイッチのオン/オフ。 遠くの駅を走らせるには、^cyan;Watchers^reset; が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Service Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サービスパネル"
+    }
+  ]
+]

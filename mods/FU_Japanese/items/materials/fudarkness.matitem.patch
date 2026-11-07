@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hello darkness, my old friend~"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こんにちは、私の古い友人の暗闇。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウブロック"
+    }
+  ]
+]

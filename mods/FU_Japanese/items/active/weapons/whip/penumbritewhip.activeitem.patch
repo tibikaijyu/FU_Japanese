@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chain knife fashioned from penumbrite, also makes a great glowstick."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブライト製のチェーンナイフも、大きなグロースティックを作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Chain Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェーンナイフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tool will last a long time, and I'll be able to dig pretty fast with it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このツールはかなり長い時間持続し、私はそれでかなり速く掘り下げることができるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Pickaxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素ピッカックス"
+    }
+  ]
+]

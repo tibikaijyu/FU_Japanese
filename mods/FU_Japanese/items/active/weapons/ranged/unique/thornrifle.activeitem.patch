@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Bio-Spawn"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "バイオスポーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stab the hell out of your foolish foes.\n^yellow;Inflicts Poisoned,^reset;\n^cyan;Summons Pterobombs, Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "愚かな敵から地獄を突き落としなさい。\n^yellow; 毒を与える ^reset;\n^cyan;Pterobombs, フローラン ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thorn Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーンライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "What greater joy than cooking flesh?\n^yellow;Inflicts Poisoned^reset;\n^cyan;Summons Pterobombs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "肉を調理するよりも大きな喜びは何ですか?\n^yellow; 毒を与える ^reset;\n^cyan;Summons Pterobombs ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Thornrage^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;激怒^reset; ^yellow;^reset;"
+    }
+  ]
+]

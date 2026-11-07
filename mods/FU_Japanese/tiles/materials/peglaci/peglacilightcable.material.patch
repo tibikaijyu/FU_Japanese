@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glowing strip of light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝く光のストリップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Bright sshiny vines."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "明るい輝きのぶどう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. These illuminated cables are kept at a constant temperature."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 これらの照明ケーブルは一定温度に保たれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peglaci Light Cables"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペグラシ光ケーブル"
+    }
+  ]
+]

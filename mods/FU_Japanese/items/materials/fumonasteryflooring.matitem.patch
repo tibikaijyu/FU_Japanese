@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flooring of Shoji design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "障子デザインのフロアリング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoji Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障子フロアリング"
+    }
+  ]
+]

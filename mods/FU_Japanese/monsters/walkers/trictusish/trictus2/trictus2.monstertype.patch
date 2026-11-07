@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual and deadly energy-based variation of the Trictus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トリクタスの珍しい、致命的なエネルギーベースのバリエーション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vectus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "獣医"
+    }
+  ]
+]

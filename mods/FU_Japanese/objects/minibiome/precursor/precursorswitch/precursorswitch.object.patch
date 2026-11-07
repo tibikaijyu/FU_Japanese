@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What secrets does this ancient switch reveal?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この古代のスイッチはどんな秘密を明らかにしていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wall Interface"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壁面インタフェース"
+    }
+  ]
+]

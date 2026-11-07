@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Ice Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "アイスブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげん杖"
+    }
+  ]
+]

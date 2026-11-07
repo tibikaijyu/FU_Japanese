@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flag used to identify Thelusian hives. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアの巣を識別した旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロシア国旗"
+    }
+  ]
+]

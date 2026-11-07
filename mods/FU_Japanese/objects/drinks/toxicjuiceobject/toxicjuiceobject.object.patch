@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What do you get if you blend a toxictop with an alien fruit? That's right, you guessed it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒性トップにエイリアンの果実をブレンドすると、何が得られますか? そうですね、ご想像のとおり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Juice burns the back of Floran's throat. Doesn't taste that bad though!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ジュースはフロランの喉の後部を燃やす。 でも、そんな味はしません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confident. I'm more convinced battery acid would be safer to drink than this beverage."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "信頼。 私は、この飲料よりも電池酸の方が安全だと確信しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Well don't that color just scream 'fun'?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "あの色はただ「楽しい」と叫ばないの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxic Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒性ジュース"
+    }
+  ]
+]

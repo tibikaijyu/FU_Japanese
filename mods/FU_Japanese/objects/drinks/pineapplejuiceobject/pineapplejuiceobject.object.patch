@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweet, tasty pineapple juice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘く美味しいパイナップルジュース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "No sssilly spikes to save you from Floran now, sssweet juice!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "今フローランからあなたを救うために愚かなスパイク、ssSweetジュースはありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Knowledgeable. There's a fine line for ripened pineapples and their sweetness. This drink one seems to have hit that line just right."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "知識がある。 熟したパイナップルと甘さの細かい線があります。 この飲み物はちょうどその線を打ったようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "You really have to work for it to taste this juice."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このジュースを味わうには、本当にそれのために働かなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pineapple Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイナップルジュース"
+    }
+  ]
+]

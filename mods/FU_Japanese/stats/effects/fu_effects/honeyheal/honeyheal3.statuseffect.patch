@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/label",
+      "value": "Heals 100 hp over 60 seconds"
+    },
+    {
+      "op": "replace",
+      "path": "/label",
+      "value": "100hp を 60seconds で回復します。"
+    }
+  ]
+]

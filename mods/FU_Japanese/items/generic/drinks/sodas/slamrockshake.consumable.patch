@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Liquid rock and...carbonation? Okay...\n^cyan;+^white;20% ^pink;Radiation ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体岩と...炭酸化? よし...。\n^cyan;+^white;20% ^pink;放射線 ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slamrock Shake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スラムロックシェイク"
+    }
+  ]
+]

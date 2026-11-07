@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High-Calibre. Super fun.\n^cyan;Counts as 'plasma' for set bonuses.^reset;\n^yellow;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高音質。 すごく楽しい。\n^cyan; セットボーナスの「プラズマ」としてカウントします。^reset;\n^yellow;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Longinus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコン・ロンギヌス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Higher Calibre. Super duper fun.\n^cyan;Counts as 'plasma' for set bonuses.^reset;\n^yellow;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "高音質。 スーパーデュパー楽しい。\n^cyan; セットボーナスの「プラズマ」としてカウントします。^reset;\n^yellow;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Longinus MkII^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ロンギヌス MkII^reset; ^yellow;^reset;"
+    }
+  ]
+]

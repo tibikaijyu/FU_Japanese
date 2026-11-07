@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Stegovapti Torso."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたステゴヴァプティ Torso。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stegovapti Torso"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステゴヴァプティの胴体"
+    }
+  ]
+]

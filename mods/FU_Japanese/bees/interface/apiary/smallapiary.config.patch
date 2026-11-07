@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/labelinput/value",
+      "value": "Input"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labelinput/value",
+      "value": "入力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/labeloutput/value",
+      "value": "Output"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/labeloutput/value",
+      "value": "出力"
+    }
+  ]
+]

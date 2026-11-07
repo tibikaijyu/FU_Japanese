@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specially formed with Pharitu methods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファリトゥメソッドで特別に形成される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石メイス"
+    }
+  ]
+]

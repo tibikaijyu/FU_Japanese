@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange ore that challenges the scientific definition of \"life\"."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「生命」の科学的定義に挑戦する奇妙な鉱石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタス鉱石"
+    }
+  ]
+]

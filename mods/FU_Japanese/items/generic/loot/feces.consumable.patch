@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fecal matter. I doubt you require more description\n^red;Poisoned ^gray;(^white;5s^gray;)\n^blue;Madness Gain^reset; 2\n^green;Growth Rate x^white;1.5 ^gray;& ^green;+^white;1 ^green;produce.\n^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "糞便の問題。 もっと説明が必要なのかしら?\n^red; 毒 ^gray;(^white;5s ^gray;)\n^blue;狂気の高まり^reset; 2\n^green;成長率x^white;1.5 ^gray;& ^green;+^white;1 ^green;農産物\n^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fecal Matter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "便秘事"
+    }
+  ]
+]

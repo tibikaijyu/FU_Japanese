@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Without the discovery of plasma weapons, the Skath would not be where we are today. We owe our very existence to these, our greatest weapons. With them, we fought for our freedom and won. Through them, we have taken worlds. Through them, we shall have more."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "プラズマ兵器が発見されなければ、スカースは現在の私たちの居場所とは言えない。 我々にとっての最大の武器は存在のおかげだ。 彼らと共に、私たちは自由のために戦い、勝った。 それらを通して、私たちは世界を奪ってきました。 それらを通して、私たちはもっと多くを持つでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "How does it work, you ask? Honestly, we aren't all trusted with this knowledge. Those among the scientific caste are the ones you need to ask. In the War Caste...we just do the killing. And we do it well. Based on what I do know, I can tell you a tiny reactor generates amplified energy and converts it into the lethal plasmic ejections, not unlike gas converting to fire."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "どのように機能しますか? 正直なところ、私たちは皆この知識を信頼しているわけではない。 科学的なカーストの中で、あなたが尋ねる必要があるものです。 戦争の城では...我々はただ殺す。 私たちはうまくやっています 私が知っていることに基づいて、小さな原子炉が増幅エネルギーを生成し、それをガスに変換して火に変換するのとは異なり、致死的なプラズマ射出に変換することを説明することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "The result is a brutal form of energy blast that can melt flesh and bone and decimate anything it touches. It brings fear to our foes, and gains us respect in the cosmic community. Best yet...the bigger we make them, the more other species leave us be."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "その結果、肉体と骨を溶かして、触れるものをまねくエネルギー爆発の残酷な形が生まれます。 敵を恐れさせ、宇宙コミュニティに敬意を払います。 最善を尽くせばするほど、他の種も増えていく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A log about the greatest discovery of the Skath."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカースの最大の発見についてのログ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Our greatest achievement"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "最大の成果は"
+    }
+  ]
+]

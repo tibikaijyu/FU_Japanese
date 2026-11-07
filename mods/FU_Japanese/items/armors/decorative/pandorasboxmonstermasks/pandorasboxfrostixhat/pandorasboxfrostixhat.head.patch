@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nice hat to wear on a hot day!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暑い日に身に着ける素敵な帽子!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frostix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロスティクスハット"
+    }
+  ]
+]

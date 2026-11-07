@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient-looking door. Try opening it with ^orange;explosives^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古風なドア。 ^orange;爆薬^reset;で開けてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代のドア"
+    }
+  ]
+]

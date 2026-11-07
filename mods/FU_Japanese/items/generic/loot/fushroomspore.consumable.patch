@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ghost mushroom spores. Best when burned.\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;Heavily Intoxicated^gray;, ^red;Insanity^gray; (^white;520s^gray;)^reset; ^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴーストキノコの胞子。 燃えるとき最高。\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;酔っぱらった^gray;, ^red;狂気^gray; (^white;520ス)^gray;)^reset; ^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost-Spore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "幽霊 - 胞子"
+    }
+  ]
+]

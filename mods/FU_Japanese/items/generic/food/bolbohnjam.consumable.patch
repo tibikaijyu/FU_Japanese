@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A good way to make something nasty even nastier.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;225s^gray;)^reset; \n^green;Type: Vegetable Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より厄介なものをより悪質にするための良い方法。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;225ス)^gray;)^reset; \n^green;種類: 野菜デザート ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bolbohn Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "訳ボルボン・ジャム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perhaps the deadliest curved blade around.\n^cyan;Inflicts Electrified^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらく最も致命的な曲がった刃の周り。\n^cyan; 電化 ^reset; に作用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムサイス"
+    }
+  ]
+]

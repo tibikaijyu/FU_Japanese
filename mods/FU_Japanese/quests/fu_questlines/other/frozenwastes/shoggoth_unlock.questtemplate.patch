@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That did it, thanks!...hmm, that's odd. No signal from the ^green;lab on Delta Freya II^reset;. Not even static. I'll have to investigate this. Thanks for this Core, it will go a long way to helping communications here."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとう!...うーん、おかしい。 信号はありません ^green;Delta Freya IIの研究室^reset;. 静的でさえありません。 私はこれを調査しなければならない。 この核のおかげで、これはここでのコミュニケーションを助けるために長い道のりを行くでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Molten Core^reset; to the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; 溶融 核 ^reset; を ^orange;科学前哨基地^reset; に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm trying to fix this relay, but the damned thing just won't relent. I desperately need to reach a friend. Could you perhaps craft a ^orange;Molten Core^reset; in your ^orange;Matter Assembler^reset;? That should solve my predicament."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はこのリレーを直そうとしていますが、このことは許されません。 私は必死で友達と連絡を取る必要がある。 ^orange;溶融コア^reset;をあなたの^orange;物質組立機^reset;に作ってもらえますか? それは私の苦悩を解決するはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Molten Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "溶融力"
+    }
+  ]
+]

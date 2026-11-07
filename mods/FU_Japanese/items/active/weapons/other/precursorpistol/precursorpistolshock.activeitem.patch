@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shockingly fun\n^yellow;Electrocute your enemies.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "驚くほど楽しい\n^yellow; 敵を電撃する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Jolt Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のヨルトガン"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "\"Get out while you still can\". How do I know when that expires?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "「出来る限り出て行け」 それがいつ期限切れになるか、どうやって知るのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I'm sure it's just a joke."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ただの冗談だと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Graffiti. A harsh warning. Ignore it. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グラフィティ。 厳しい警告。 無視しなさい。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran wonderss if the person writing this got out?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、これを書いている人が出て来たかどうか疑問に思いますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alarmed. A severe warning."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "武装。 厳しい警告。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Oh, those jokers."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ジョーカーさんたち"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Perhaps I should follow the advice."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "おそらく私はその忠告に従うべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A warnin' from someone. I will keep it in mind."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "誰かからの警告。 私はそれを念頭に置いておく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graffiti"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "落書き"
+    }
+  ]
+]

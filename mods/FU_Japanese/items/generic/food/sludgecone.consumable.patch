@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For species that can't get enough radioactive iced cream.\n^cyan;+^white;20% ^pink;Radiation ^cyan;Res ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "十分な放射性アイスクリームを得ることができない種のために。\n^cyan;+^white;20% ^pink;放射線 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sludge Cone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スラッジコーン"
+    }
+  ]
+]

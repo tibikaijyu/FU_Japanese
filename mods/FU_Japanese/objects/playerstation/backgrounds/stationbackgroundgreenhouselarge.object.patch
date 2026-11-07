@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Large Greenhouse background"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな温室の背景"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Greenhouse background"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大きな温室の背景"
+    }
+  ]
+]

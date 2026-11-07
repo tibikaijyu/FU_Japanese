@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Prism-powered shots decimate the enemy.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリズムを動力とするショットが敵を撃退する。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズムピストル"
+    }
+  ]
+]

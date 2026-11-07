@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devastatingly sharp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "とてつもなく鋭い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル軸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Great be thy blows."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "素晴らしいあなたの打撃です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Worldchopper"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテロームワールドチョッパー"
+    }
+  ]
+]

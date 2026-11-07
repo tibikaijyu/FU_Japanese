@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gives you tremendous bounce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "とてつもないバウンスになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Bounce Wrap^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;バウンスラップ^reset;"
+    }
+  ]
+]

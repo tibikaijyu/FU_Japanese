@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+40% Ice Resist. Useful on ^orange;moderately cold^reset; planets. +150s oxygen and halves how quickly you breathe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+40% 氷抵抗。 ^orange;適度に寒い^reset;惑星に有用。 +150s 酸素と呼吸の速さの半分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heating EPP II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "加熱EPP II"
+    }
+  ]
+]

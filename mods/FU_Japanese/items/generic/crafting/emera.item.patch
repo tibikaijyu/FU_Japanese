@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brittle gemstone that is spun into strong crystal fabric."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強い水晶の生地に紡がれる脆い宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Emera Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エメラ結晶"
+    }
+  ]
+]

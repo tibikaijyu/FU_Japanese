@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shirt worn by attractive spacefarers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魅力的な宇宙飛行士が着用するシャツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Starfarer's Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スターファーラーズシャツ"
+    }
+  ]
+]

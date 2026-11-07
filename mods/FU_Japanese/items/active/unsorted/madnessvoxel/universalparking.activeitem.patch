@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unlimited parking. For a different universe than this one."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "駐車場は無料。 この宇宙とは違った世界のために"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Universal Parking"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ユニバーサルパーキング"
+    }
+  ]
+]

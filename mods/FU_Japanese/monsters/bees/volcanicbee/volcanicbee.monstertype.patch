@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A volcanic bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山のミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山性蜂"
+    }
+  ]
+]

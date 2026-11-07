@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/0/1",
+      "value": "^red;Eating this would be a gamble^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/0/1",
+      "value": "^red;これを食べるとギャンブルになります^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/10/1",
+      "value": "^green;Pristine, fresh and delicious^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/10/1",
+      "value": "^green;新鮮で美味しい。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/2/1",
+      "value": "^orange;Starting to look gross^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/2/1",
+      "value": "^orange; グロスに見え始める^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/4/1",
+      "value": "^yellow;Looks less than fresh^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/4/1",
+      "value": "^yellow;新鮮さよりも見た目が劣ります^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/6/1",
+      "value": "^cyan;Still safely edible^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/6/1",
+      "value": "^cyan;まだ安全に食べられる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/7/1",
+      "value": "^cyan;Looks like its still fresh^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/7/1",
+      "value": "^cyan; まだ新鮮に見える^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rotTimeDescriptions/8/1",
+      "value": "^green;Still looks delicious^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/rotTimeDescriptions/8/1",
+      "value": "^green;まだおいしそう^reset;"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "There is a species, in the far corners of the universe, which many are aware of. Small Avian-like creatures, waddling beasts with beaks and flightless wings. They operate as space pirates, rogues and renegades. Legend tells that they are the children of Kluex himself, cast out due to their wicked ways; the first Flightless."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "宇宙の隅には、多くの人が知っている種があります。 小さなアヴィアンのような生き物、くちばしと飛べない翼を持つワドリングビースト。 彼らは宇宙海賊、悪党、レネードとして活動する。 伝説によると、彼らはクルエクス自身の子供であり、邪悪なやり方のために投げ出されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Kluex laments the loss of his children, and their spiral into darkness. But they will not embrace him, will not return to the fold. And thus, it is any good Avian's duty to report a space pirate penguin sighting to the nearest authorities."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "クルエクスは子供たちの喪失と彼らの渦巻きを闇に嘆く。 しかし、彼らは彼を抱きしめず、折り目には戻らないでしょう。 そのため、最寄りの当局に宇宙海賊ペンギンを目撃させることを報告することは、アヴィアンの義務です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Children of Kluex"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クルエクスの子供たち"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Children of Kluex"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クルエクスの子供たち"
+    }
+  ]
+]

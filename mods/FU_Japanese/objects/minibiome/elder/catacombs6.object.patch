@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy and ancient tomb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で古代の墓。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

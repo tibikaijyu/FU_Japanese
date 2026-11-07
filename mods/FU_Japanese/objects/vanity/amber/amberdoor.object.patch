@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny and wonderful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝かしく素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバードア"
+    }
+  ]
+]

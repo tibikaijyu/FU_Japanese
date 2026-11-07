@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick, strong girder made of tethyde alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テチド合金製の厚みのある強い桁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tethyde Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テチド桁"
+    }
+  ]
+]

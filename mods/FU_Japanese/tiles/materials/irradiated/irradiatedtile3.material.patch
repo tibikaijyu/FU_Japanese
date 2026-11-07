@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yea, this definitely is NOT safe to touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そう、これは間違いなく触れることは安全ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radioactive Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射性岩"
+    }
+  ]
+]

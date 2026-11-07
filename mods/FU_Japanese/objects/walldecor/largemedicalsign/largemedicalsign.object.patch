@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It seems there's a infirmary ahead."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "先は病院のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A infirmary apparently is nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "病院が近くにあるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sign designating am infirmary."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "病院を示す看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssign for infirmary."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "病院に配属される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. This sign signifies a nearby infirmary."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル この看板は近くの病院を意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Looks like there's a infirmary nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "近くに病院があるみたいだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This huge sign informs me that there is a infirmary nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この大きな兆候は、近くに病院があることを知らせてくれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A big sign for a infirmary."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "病院の大きな兆候。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medical Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "医学的兆候"
+    }
+  ]
+]

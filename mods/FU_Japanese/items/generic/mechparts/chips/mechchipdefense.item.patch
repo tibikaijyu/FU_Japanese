@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reinforces mech defense, increasing total mass as a result."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラインは機械防御を強化し、結果として総質量を増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bastion Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーションモジュール"
+    }
+  ]
+]

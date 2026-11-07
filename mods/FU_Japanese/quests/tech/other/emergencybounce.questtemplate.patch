@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I have an idea! An auto-firing bubble that activates when I fall at a certain speed! Screw you, gravity!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "考えがある! 一定の速度で落ちると活性化する自動発射気泡! スクリューで、重力!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I have an idea! An auto-firing bubble that activates when I fall at a certain speed! Screw you, gravity!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "考えがある! 一定の速度で落ちると活性化する自動発射気泡! スクリューで、重力!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Impact Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "衝撃保護"
+    }
+  ]
+]

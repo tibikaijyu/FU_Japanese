@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A matter block. A block that matters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "問題ブロック。 重要なブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran musst gather colourful matter crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはカラフルな結晶を収集する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Fascinated. This appears to be a rare form of raw matter."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "魅了された。 これは珍しい生物質のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some strange lookin' crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "奇妙な結晶のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Matter Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マターブロック"
+    }
+  ]
+]

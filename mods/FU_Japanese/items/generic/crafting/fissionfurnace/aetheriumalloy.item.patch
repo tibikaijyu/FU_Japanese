@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A godly and thunderous alloy composed of the densest and rarest substances in the Cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙で最も高密度で希少な物質からなる神聖で雷のような合金。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Aetherium Alloy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;エーテリウム合金^reset;"
+    }
+  ]
+]

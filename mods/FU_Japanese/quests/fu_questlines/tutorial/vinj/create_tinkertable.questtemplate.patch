@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Might I recommend starting with a ^orange;Mining Laser?^reset; They are truly effective tools to use for rapidly digging through dirt!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "まずは^orange;採掘レーザー^reset;を試してみないかい？ 土を素早く掘り進むのに、とても便利な道具だよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Without a ^orange;Tinkering Table^reset; you'll be hard-pressed to create ^green;augments, upgrades and specialist tools^reset;. When you get a chance, ^orange;Research^reset; into ^orange;Engineering^reset; and build one for me."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;改造作業台^reset;がないと、^green;オーグメントや強化部品、特殊なツール^reset;を作るのは難しい。機会があれば、^orange;研究^reset;メニューの^orange;工学^reset;を進めて、作ってみてほしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Tinkering"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "道具を改造しよう"
+    }
+  ]
+]

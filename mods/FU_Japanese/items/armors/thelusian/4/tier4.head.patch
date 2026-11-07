@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For the truly blood-crazed warrior.\n+^green;15^reset;% Ice Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血にまみれた戦士のために。\n+^green;15^reset;% 氷抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian War Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロシア戦争地獄"
+    }
+  ]
+]

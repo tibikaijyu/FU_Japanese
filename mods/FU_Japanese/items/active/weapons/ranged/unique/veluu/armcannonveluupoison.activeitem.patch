@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires poison blasts.\n^cyan;Poison weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 火薬を発射する。\n^cyan; 毒武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Reaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシ川"
+    }
+  ]
+]

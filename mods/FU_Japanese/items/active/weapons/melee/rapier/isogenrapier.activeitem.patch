@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Icey-cold stabby side. Deadly in almost any hand.\n^cyan;Inflicts Frost Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷の冷たいスタンバイサイド。 ほとんどどんな手にも致命的です。\n^cyan;フロストバーン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげんラピア"
+    }
+  ]
+]

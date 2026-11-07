@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Encouraging: You will need a large amount of boards, for they are the building block of many more advanced chipsets."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "励まし: ボードの大量の、彼らは多くのより高度なチップセットのビルディングブロックであるため、必要になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Silicon Board^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;シリコンボード^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Instructive: Now that you have ^orange;Silicon^reset; and ^orange;Copper Wire^reset; why not combine the two at your ^orange;Matter Assembler^reset; and craft a ^orange;Silicon Board^reset;?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "インストラクティブ:今 ^orange;シリコン^reset; そして ^orange;銅線^reset; 二つをあんたの所に 組み合わせて ^orange;物質組立機^reset; 作りましょう ^orange;シリコンボード^reset;?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hardware Matters"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ハードウェア問題"
+    }
+  ]
+]

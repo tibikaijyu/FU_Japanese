@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Laced with the entropic force of Corruption.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破壊のエントロピー力とレース。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupted Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破損したスピア"
+    }
+  ]
+]

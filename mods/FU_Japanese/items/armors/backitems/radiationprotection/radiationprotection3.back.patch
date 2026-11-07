@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+60% Radiation Resist. Use it on planets with ^red;extreme radiation levels^reset;. Provides air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+60%放射線抵抗。 惑星で使用します。 ^red;極度の放射線レベル^reset;. 空気を供給。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radiation EPP III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射線EPPIII"
+    }
+  ]
+]

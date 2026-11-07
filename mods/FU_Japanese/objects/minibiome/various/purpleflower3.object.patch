@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A purple tulip."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫色のチューリップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Purple Tulip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "紫チューリップ"
+    }
+  ]
+]

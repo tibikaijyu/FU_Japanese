@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A javelin that explodes to emit freezing clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍った雲を放射するために爆発するジャベリン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spiker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スパイカー"
+    }
+  ]
+]

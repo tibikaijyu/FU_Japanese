@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Swim Boost 2^reset;\n^yellow;^reset; +^green;35^reset;% Shield Stamina, Block, Shield Regen\n^yellow;^reset; Sword and Shield: Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Pressure, Insanity, Aether"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;水泳ブースト 2^reset;\n^yellow;^reset; +^green;35^reset;% シールドスタミナ、ブロック、シールド再生。\n^yellow;^reset;剣と盾:損傷x ^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;圧力、狂気、エーテル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ultra-Mesh Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウルトラメッシュヘルム"
+    }
+  ]
+]

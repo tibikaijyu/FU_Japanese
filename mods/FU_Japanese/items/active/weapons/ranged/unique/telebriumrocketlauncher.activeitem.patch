@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Telebrium Spikes"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "テレブリアムスパイク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poison explosions, endless fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒の爆発、無限の楽しみ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Rocket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムロケット"
+    }
+  ]
+]

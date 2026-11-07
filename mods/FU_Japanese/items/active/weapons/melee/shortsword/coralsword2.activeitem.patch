@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sharp, jagged coral sword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭い、ぎざぎざのサンゴの剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴの短剣"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautiful, shiny, and deadly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しく、光沢があり、致命的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶ブレード"
+    }
+  ]
+]

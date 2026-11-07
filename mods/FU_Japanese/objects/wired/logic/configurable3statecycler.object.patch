@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cycles between three output nodes. Configurable timers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "三つの出力ノード間のサイクル。 設定可能なタイマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Configurable 3-State Cycler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "構成可能 3 - ステートサイクラー"
+    }
+  ]
+]

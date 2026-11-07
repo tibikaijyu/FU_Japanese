@@ -1,0 +1,146 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/human/default/0",
+      "value": "Thanks!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/human/default/0",
+      "value": "ありがとう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/human/default/1",
+      "value": "I hope my wood brings you pleasure."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/human/default/1",
+      "value": "私の木があなたに喜びをもたらしてくれることを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/human/default/0",
+      "value": "I've got plenty of wood for sale."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/human/default/0",
+      "value": "木はたくさん売っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/human/default/1",
+      "value": "My lumber stockpile is thataway."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/human/default/1",
+      "value": "私の材木備蓄はそこにある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/0",
+      "value": "Good wood! Get good wood here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/0",
+      "value": "良い木! ここで良い木材を取得!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/1",
+      "value": "Professionally murdered trees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/1",
+      "value": "プロに殺害された木!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/2",
+      "value": "Hey, buy my wood!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/human/default/2",
+      "value": "おい、私の木を買え!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/0",
+      "value": "You wanna buy some wood?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/0",
+      "value": "木を買いたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/1",
+      "value": "Got baby trees and dead trees - take your pick."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/1",
+      "value": "赤ちゃんの木や死んだ木を取得 - あなたの選択を取る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/2",
+      "value": "Could it be that you're interested in my wood?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/human/default/2",
+      "value": "私の森に興味があるのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Wood and Wood Accessories."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  木と木の付属品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Lumberjack"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  ランバージャック"
+    }
+  ]
+]

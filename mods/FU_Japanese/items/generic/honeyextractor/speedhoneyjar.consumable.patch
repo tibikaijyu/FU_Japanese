@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A contraband jar of honey.\n^cyan;+^white;25% ^cyan;Run ^gray;(^white;3m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツの禁忌の瓶。\n^cyan;+^white;25% ^cyan;走り ^gray;(^white;3え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Speed Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スピードハニージャー"
+    }
+  ]
+]

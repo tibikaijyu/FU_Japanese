@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Testing rotating monster. Wait, how do you see this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "回転モンスターのテスト。 待って、あなたはこれをどのように見ますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Debug sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デバッガ圏"
+    }
+  ]
+]

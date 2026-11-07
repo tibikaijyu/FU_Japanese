@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Should you wish to vanquish the enemies of the true faith by whip, you need pay homage at His altar. Place 5 Nocxium Bars, a Rune Wand and a Celaeno Fragment upon it and pray for his rage."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "真の信仰の敵をひそかに征服したいなら、彼の祭壇で敬意を払う必要があります。 5Nocxium インゴット、Rune ワンド、セラエノ 破片をその上に置き、怒りを祈る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematic for some sort of weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかの武器のための"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Frek'Snarr Volshtk"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "フレクスナール・ヴォルシュトク"
+    }
+  ]
+]

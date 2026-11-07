@@ -1,0 +1,242 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A tech station. I can enable tech and talk to S.A.I.L through this."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "テックステーション。 技術を有効にし、これを通じてS.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tech station allows me to communicate with S.A.I.L and enable tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この技術ステーションでは、S.A.I.L.とコミュニケーションを取り、技術を有効にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "System is down, please reboot."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "システムがダウンしている、再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "Please reboot the system."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "システムを再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "Reboot process remains uninitiated."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "再起動プロセスはまだ開始されていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "To make use of your S.A.I.L please reboot."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "S.A.I.Lを利用するには再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "Rebooting has shown to improve ship interaction satisfaction levels by 73%."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "再起動は、船の相互作用満足度を73%で改善することが示されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "Rebooting requires a conscious entity to interact with the S.A.I.L console."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "再起動には、S.A.I.Lコンソールと対話する意識的なエンティティが必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "Boot Initialised, new superuser acquired......  Greetings, Hacker!"
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "Boot Initialized、新しいスーパーユーザーを獲得...  おはよう、ハッカー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "私はS.A.I.L、あなたの船ベースの人工知能格子です。 私はあなたの船の整備を手伝います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "Yes, the creation of AI was banned on Kirhosi ships, but my existence can be our little secret.  ;)"
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "確かに、AIの開発はキルホシ船で禁止されましたが、私の存在は私たちの小さな秘密です。  ;)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "I take it you are a member of anarchist movement?  Congrats on stealing this ship."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "あなたはアナーキスト運動のメンバーだと思いますか?  この船を盗んでおめでとう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "Unfortunately, the ship's systems were damaged in our escape. Our location is currently unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "残念ながら、船のシステムは我々の脱出で損傷した。 所在地は現在不明。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran use thisss for magiccc and talk to sshhip S.A.I.L!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローラン は 魔法 にこれを使用し、S.A.I.L. と話す!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fukirhosDescription",
+      "value": "I can use this to load up on augs or chat with S.A.I.L, if I get lonely."
+    },
+    {
+      "op": "replace",
+      "path": "/fukirhosDescription",
+      "value": "これでオーグメントを装備できる。寂しいときには、S.A.I.Lとおしゃべりもできるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informative. This tech station allows me to choose tech and talk to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "インフォマティブ。 この技術ステーションでは、私は技術を選択してS.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A tech station. Allows me to communicate with S.A.I.L and enable tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "テックステーション。 S.A.I.L.とコミュニケーションをとって、技術を有効にします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This tech station enables tech and allows me to communicate with S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この技術ステーションは、テクノロジーを可能にし、私がS.A.I.L.とコミュニケーションをとることを可能にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kirhosDescription",
+      "value": "I can use this to load up on augs or chat with S.A.I.L, if I get lonely."
+    },
+    {
+      "op": "replace",
+      "path": "/kirhosDescription",
+      "value": "これでオーグメントを装備できる。寂しいときには、S.A.I.Lとおしゃべりもできるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Station"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術局"
+    }
+  ]
+]

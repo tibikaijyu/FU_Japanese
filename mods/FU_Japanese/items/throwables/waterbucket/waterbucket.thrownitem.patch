@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bucket full of water"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水でいっぱいのバケツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Bucket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウォーターバケット"
+    }
+  ]
+]

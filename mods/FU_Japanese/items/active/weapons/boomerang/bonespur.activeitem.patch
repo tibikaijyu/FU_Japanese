@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cheery little maiming device. Keep out of children.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "陽気な小さなメイキングデバイス。 子供を捨てなさい。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Spur"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨芽"
+    }
+  ]
+]

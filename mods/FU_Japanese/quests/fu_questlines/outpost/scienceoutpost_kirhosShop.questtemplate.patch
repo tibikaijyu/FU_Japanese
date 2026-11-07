@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You've no idea how much this means to me. As thanks for this most wonderous technology I bequeath to you another sort of rarity. May it bring you fortune in your travels."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私にこれがどれほど意味があるのか、あなたは知りません。 この最も素晴らしい技術のおかげで、私はあなたにもう一つの種類の珍しいことを誓います。 それはあなたの旅行に幸運をもたらしますように。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring a ^orange;Alien Broadcast Node^reset; to the ^green;Kirhosi Shop^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;エイリアンのブロードキャストノード^reset; へ ^green;キルホシ店^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've heard that there is a rare component called a ^orange;Alien Broadcast Node^reset; that could be utilized for a truly great FTL drive just waiting to be found somewhere in the ^green;Evernight Jungle^reset;. It's a rumour, granted, but hypothetically, if you found one, I might have something for you..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "珍しい部品があるそうです ^orange;エイリアンのブロードキャストノード^reset; どこかで見つかるのを待っているだけの、本当に素晴らしいFTLドライブに活用できます。 ^green;毎晩ジャングル^reset;. 当然噂だが、仮にそれを見つけたら、君に何かあるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A rare treasure"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "貴重な宝物"
+    }
+  ]
+]

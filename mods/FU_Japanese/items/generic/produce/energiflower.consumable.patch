@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+17.5% E. Regen & -8.25% E. Regen Block^reset;: 2m\n^blue;+4 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+17.5% E. 再生 & -8.25% E. 再生ブロック^reset;: 2え?\n^blue;+4 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energiflower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エナジーフラワー"
+    }
+  ]
+]

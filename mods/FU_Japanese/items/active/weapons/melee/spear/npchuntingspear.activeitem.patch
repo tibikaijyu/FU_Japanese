@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense metal spear for puncturing enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を突き刺すための高密度金属製のスパイク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素線"
+    }
+  ]
+]

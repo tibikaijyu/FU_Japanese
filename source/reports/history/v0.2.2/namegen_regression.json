@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "runtime_tested": false,
+  "scope": "Pinned FU fixture reference resolution, generator-control preservation, Japanese name-material preservation, source catalogs and shipped mutation paths. Does not execute Starbound or simulate Markov name output.",
+  "metrics": {
+    "name_catalog_rows_examined": 17792,
+    "fixed_source_references_resolved": 2,
+    "allowed_display_field_cases": 9,
+    "japanese_source_name_entries_preserved": 114,
+    "shipped_name_display_mutations_examined": 86090,
+    "unguarded_or_wrongly_guarded_slot_cases": 7,
+    "old_release_unknown_source_errors_reproduced": 2,
+    "protected_patch_mutation_cases": 7,
+    "protected_field_cases": 15
+  },
+  "upstream_fixture_sha256": {
+    "species/elduukharmalenamegen.config": "e2fe9398ba589f4e080d4dfe010cae1bcc497e710299a8638b0c508ff398494d",
+    "species/elduukharfemalenamegen.config": "0845bbe817eb0ba9303abb83572d81d8cb57e630c819f640657649ee9a178bb7",
+    "names/elduukharmale.namesource": "bf214789dd44ee5196e32d0adff8851736a1d9f7ecbc6e1965196284d307402c",
+    "names/elduukharfemale.namesource": "7e273ef47fc9cf748d9c702cf0f33fca0db1e199b521203c54f2a1718090b77e"
+  }
+}

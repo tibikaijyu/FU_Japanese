@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Rapier Mastery: +^green;15^reset;%\n^yellow;^reset; +^green;8^reset;% Jump, -^green;20^reset;% Hunger Drain\n^yellow;^reset; Rapier/Pistol: Damage x^green;1.075^reset;/^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; レイピア 習熟度:+^green;15^reset;%\n^yellow;^reset; +^green;8^reset;% ジャンプ -^green;20^reset;% 空腹ドレイン\n^yellow;^reset;レイピア/ピストル:損傷x ^green;1.075^reset; / ^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swashbuckler Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スワッシュバックラーパンツ"
+    }
+  ]
+]

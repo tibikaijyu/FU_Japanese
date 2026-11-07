@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a glass. For wine. Duh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガラスです。 ワイン用。 え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wine Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワイングラス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A special electrical coil. It has the ability to charge itself."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特殊電気コイルです。 それは自分自身を充電する能力を持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コイル"
+    }
+  ]
+]

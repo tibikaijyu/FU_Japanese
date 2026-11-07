@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Something feels off about this art..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この芸術について何か感じたこと..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inspired Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インスパイアされた絵画"
+    }
+  ]
+]

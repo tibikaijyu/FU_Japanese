@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Cosmic Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "宇宙爆撃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリサイトワンド"
+    }
+  ]
+]

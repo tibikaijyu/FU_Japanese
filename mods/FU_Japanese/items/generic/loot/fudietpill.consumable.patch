@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Suppresses hunger for a time. \n^cyan;-^white;35% ^cyan;Hunger Drain^gray;, ^red;-^white;20 ^red;Defense^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "しばらくの間飢えを抑えます。 \n^cyan;-^white;35% ^cyan;空腹ドレイン^gray;, ^red;-^white;20 ^red;防衛^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diet Pill"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイエットピル"
+    }
+  ]
+]

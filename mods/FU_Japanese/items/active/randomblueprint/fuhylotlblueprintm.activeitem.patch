@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for potent Hylotl armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力なハイロトル装甲用の青写真。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Schematics (Power)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルの設計図（攻撃力）"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks to you, I can finally take a trip to an ^orange;Irradiated^reset; world with my complete ^orange;Mutavisk Armor Set^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "おかげで、私は最終的に私の完全な^orange;ムタヴィスクアーマーセット^reset;で^orange;照射された^reset;世界への旅行を取ることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Mutavisk Helm^reset; to the Novakid by the crew sign at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; ムタヴィスク 兜 ^reset; を、^orange;科学前哨基地^reset; のクルーサインで ノヴァキッド に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A task for you: Research ^cyan;Penumbrite Equipment^reset; and create a ^orange;Mutavisk Helm^reset;. I'll pay well for it, as I am in dire need."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "研究^cyan;Penumbrite装置^reset;と^orange;MutaviskHelm^reset;を作成します。 困っているので、私はそれに対してよくお金を払う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Mutavisk Headware"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ムタヴィスクヘッドウェア"
+    }
+  ]
+]

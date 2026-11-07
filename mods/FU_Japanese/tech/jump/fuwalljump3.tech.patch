@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wall Jump, with three more jumps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁ジャンプ、さらに三つのジャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Wall Jump IV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ウォールジャンプIV"
+    }
+  ]
+]

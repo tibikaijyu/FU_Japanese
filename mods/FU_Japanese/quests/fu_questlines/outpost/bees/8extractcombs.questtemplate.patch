@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Different combs contain very different resources. Experimentation is part of the challenge!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "異なるクマは、非常に異なる資源を含んでいる。 実験は課題の一部です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Place the combs within a ^orange;Wooden Centrifuge^reset;, which you can build at the Machining Table, and collect the ^green;wax chunks^reset; from within."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; 木製遠心分離機 ^reset; にくしを配置します。これを加工作業台で構築し、内部から ^green; ワックスチャンク ^reset; を収集します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wax and Wane"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ワックスとワネ"
+    }
+  ]
+]

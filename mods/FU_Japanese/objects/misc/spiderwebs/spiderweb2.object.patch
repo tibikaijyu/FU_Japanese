@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spiderweb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クモの巣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spiderweb2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモの巣2"
+    }
+  ]
+]

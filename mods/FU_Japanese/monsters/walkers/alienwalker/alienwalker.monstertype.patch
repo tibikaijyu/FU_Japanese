@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A vicious looking insectoid. It appears to be in agony."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪そうな昆虫の様相。 それは苦痛のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wretch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "著作"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Useful for adhesives, and hardening certain materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "接着剤や特定の材料を硬化させるのに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Resin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "樹脂"
+    }
+  ]
+]

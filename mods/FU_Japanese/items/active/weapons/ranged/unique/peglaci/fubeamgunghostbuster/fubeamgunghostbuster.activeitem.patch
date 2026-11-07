@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid beam guaranteed to roast ghosts. Don't cross the streams!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴーストをローストするソリッドビーム。 川を渡ってはいけません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beam Gun (Ghostbuster)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビームガン(ゴーストバスター)"
+    }
+  ]
+]

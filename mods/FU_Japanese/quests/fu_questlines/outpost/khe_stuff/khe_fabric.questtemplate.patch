@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "A bit of weaving here, a bit of trimming there, *burp* mrr... and it's done. If you need a replacement set, I'll have some for sale."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ここで少し織り、そこを少しトリミングし、*burp* mrr...そしてそれは完了です。 交換セットが必要な場合は、いくつかの販売を行います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^cyan;Khe^reset; the ingredients."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^cyan;ケー ^reset; を食材に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Mew. I like shiny. You like shiny too, right? How about we make the shiniest outfit ever? Need specific, very special ingredients. Fetch 3 each. Gold, diamond, crystal, core fragments, pure erchius. Quickly. Mew."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "新しい。 私は光沢が好きです。 あなたもピカピカ好きよね? 今までで一番輝かしい衣装を作ろう。 特定の、非常に特別な成分が必要です。 フェッチ 3 それぞれ。 金、ダイヤモンド、結晶、コアフラグメント、純粋なエルキウス。 早速。 新しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Perfect Threads"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "完璧な糸"
+    }
+  ]
+]

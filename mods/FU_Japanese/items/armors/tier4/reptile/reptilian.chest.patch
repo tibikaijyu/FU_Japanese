@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Damage/Health x^green;1.16^reset;\n^yellow;^reset; Sword+Shield: +^green;10^reset;% Phys. Resist\n^yellow;^reset; Axe/Shortspear + Shield: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Moderate Heat, Acid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;損傷/健康x^green;1.16^reset;\n^yellow;^reset; 剣+盾+^green;10^reset;% フィス。 レジスト\n^yellow;^reset;斧/短槍 + 盾: ダメージ x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:中程度の熱、酸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reptile Scale Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虫よけの胸片"
+    }
+  ]
+]

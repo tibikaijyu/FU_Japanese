@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ultimate in block extraction technology. ^cyan;Requires ^orange;60J^cyan; per extraction.^reset; Can be placed on floors -or- ceilings."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブロック抽出技術の究極の。 ^cyan; 抽出ごとに ^orange;60J^cyan; が必要です。^reset; 床または天井に置くことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Quantum Extractor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;量子抽出機^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Resource converter"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "リソースコンバータ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Endowed with energies of the moon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "月のエネルギーに恵まれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアソード"
+    }
+  ]
+]

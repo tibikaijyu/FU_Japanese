@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange experiments long forgotten, involving bizarre devices and theories."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な実験は、奇妙な装置や理論を伴って長い間忘れられていた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Forgotten Knowledge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "忘れられた知識"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditionally crafted Nightarian shelf."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的に造られたナイトアリアンの棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Shelf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "棚の夜"
+    }
+  ]
+]

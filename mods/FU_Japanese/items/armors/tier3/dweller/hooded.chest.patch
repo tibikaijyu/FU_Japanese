@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Mining Laser: Combat Damage x^green;2.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Slime, Mud, Ice, Snow, Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 採掘レーザー:戦闘被害x^green;2.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;スライム、泥、氷、雪、タール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dweller Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダウラー胸部"
+    }
+  ]
+]

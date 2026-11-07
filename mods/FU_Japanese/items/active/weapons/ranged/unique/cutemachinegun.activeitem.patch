@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light up the room. With death.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "部屋を照らしなさい。 死によって。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Machinegun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズマティック機関銃"
+    }
+  ]
+]

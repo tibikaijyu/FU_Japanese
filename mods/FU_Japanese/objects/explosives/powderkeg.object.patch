@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crude explosive for mining. Detonation requires impact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉱山用の粗大爆薬。 起爆には衝撃が必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Powder Keg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粉体ケグ"
+    }
+  ]
+]

@@ -1,0 +1,19 @@
+{
+  "asset": "interface/scripted/statWindow/statWindow.lua",
+  "baseline_sha256": "aaf292b622ad5efd0ede4f97ae23ce74b75c69762661f3ad1d0ee5843b63c899",
+  "output_sha256": "2603f26483c474f3893f80a1f912dc49c0936ac17099f9c696817fc2c439ac5e",
+  "changes": [
+    {
+      "before": "require \"/scripts/util.lua\"\n",
+      "after": "require \"/scripts/util.lua\"\nrequire \"/fujp/species_display.lua\"\n"
+    },
+    {
+      "before": "\tlocal racialName = (notRecognized and \"\") or JSON.charCreationTooltip.title\n",
+      "after": "\tlocal racialName = (notRecognized and \"\") or JSON.charCreationTooltip.title\n\tracialName = fuJapaneseSpeciesDisplay.name(race, racialName)\n"
+    },
+    {
+      "before": "\tlocal str = JSON.charCreationTooltip.description\n",
+      "after": "\tlocal str = JSON.charCreationTooltip.description\n\tstr = fuJapaneseSpeciesDisplay.description(race, str)\n"
+    }
+  ]
+}

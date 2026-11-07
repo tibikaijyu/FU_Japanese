@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for energetic Avian armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精力的なアヴィアン装甲用の設計図。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Schematics (Energy)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアン・シュメマティクス (エネルギー)"
+    }
+  ]
+]

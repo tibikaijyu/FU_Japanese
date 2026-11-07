@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Built to process entire worlds into cyberspheres. Sifts and crushes blocks. ^cyan;Requires ^orange;120W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世界をサイバーに加工するために構築されました。 ブロックをふるいにかけ、砕く。 ^cyan; は ^orange;120W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Precursor Forge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;先駆者の炉^reset;"
+    }
+  ]
+]

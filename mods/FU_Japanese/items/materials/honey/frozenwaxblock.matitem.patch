@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of frozen wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷凍ワックスのブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Wax Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍ワックスブロック"
+    }
+  ]
+]

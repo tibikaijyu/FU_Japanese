@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reinforced table made from energy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エナジーウッド製の強化テーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Reinforced Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッド強化テーブル"
+    }
+  ]
+]

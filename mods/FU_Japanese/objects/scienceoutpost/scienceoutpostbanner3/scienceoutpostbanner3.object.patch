@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A noticeboard where bounties for notorious criminals are posted!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪名高い犯罪者の報奨金が投じられる掲示板!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bounty Board"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "報奨金委員会"
+    }
+  ]
+]

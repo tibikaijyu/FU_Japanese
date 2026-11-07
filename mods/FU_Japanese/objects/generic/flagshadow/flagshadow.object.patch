@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A shadow flag. I can use this as a waypoint for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "影の旗。 これをテレポーテーションのウェイポイントとして使うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This shadow flag can be bookmarked as a destination for my ship teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この影の旗は、私の船のテレポーターの目的地としてブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The shadow flag. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "影の旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sshadow flag makess good point to teleport back to ussing teleporter!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Sshadowフラグは、テレポートを使用してテレポートする良い点を作ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A small locator module attached to this shadow flag allows it to be bookmarked for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 このシャドウフラグに添付されている小さなロケータモジュールは、テレポーテーション用のブックマークを可能にする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This shadow flag can be saved as a location for my teleporter. Then I can return to it at any time."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このシャドウフラグは、テレポーターの場所として保存することができます。 その後、私はいつでもそれに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This shadow flag can act as a way point, enabling me to return to this point using a teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このシャドウフラグはウェイポイントとして機能し、テレポーターを使ってこのポイントに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can bookmark this shadow flag for quick teleportin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの影の旗をブックマークしてすぐにテレポートすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウフラグ"
+    }
+  ]
+]

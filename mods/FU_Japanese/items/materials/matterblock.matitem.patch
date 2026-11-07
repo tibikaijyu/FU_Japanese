@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A matter block. A block that matters.\n^green;Extractable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "問題ブロック。 重要なブロック。\n^green; 抽出可能 ^reset; 、^red; 溶融可能 ^reset; 。"
+    }
+  ]
+]

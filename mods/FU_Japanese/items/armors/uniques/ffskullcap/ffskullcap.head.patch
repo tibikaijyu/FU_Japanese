@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "\n\n\nDense head protection. ^cyan;Immune^reset; to stun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "\n\n\n高密度ヘッド保護。 ^cyan;無効化^reset; スタントします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skullcap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頭蓋骨"
+    }
+  ]
+]

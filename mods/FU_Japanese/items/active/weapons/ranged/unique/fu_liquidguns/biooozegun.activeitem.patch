@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spews toxic poison. Fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒を吐く。 楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ooze Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大瀬郡"
+    }
+  ]
+]

@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Intruder!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "侵入者!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/0",
+      "value": "Prisssoner mussst be dealt with!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/0",
+      "value": "Prisssonerは対処する必要があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/1",
+      "value": "I senssse an essscape!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/1",
+      "value": "エススケープを感知する!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/2",
+      "value": "Prisssoner will be ssstabbed to death!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/2",
+      "value": "Prisssonerは刺殺されます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/3",
+      "value": "Floran know nothing but ssstab and ssssslice..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/3",
+      "value": "フローラン、さっすことと、切りっ裂くことしか知らない……。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/4",
+      "value": "Prisssoner's death is no sssacrifice..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/4",
+      "value": "プリースソナーの死は犠牲ではない..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/5",
+      "value": "There isss no escape!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/5",
+      "value": "逃げられない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/floran/default/6",
+      "value": "It isss either Floran or ssstarvation which will kill you..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/floran/default/6",
+      "value": "フローランかssstarvationのいずれかがあなたを殺します。"
+    }
+  ]
+]

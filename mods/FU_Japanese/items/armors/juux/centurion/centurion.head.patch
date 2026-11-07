@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Pharitu hold their Centurions in high regard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パリトゥ族は百貨店を高く評価している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Centurion Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "センチュリオンヘルメット"
+    }
+  ]
+]

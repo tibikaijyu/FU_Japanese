@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Peeled bark from large trees growing on penumbra planets.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブラ惑星で生えている大きな木から剥がれた樹皮。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Bark"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "半島樹皮"
+    }
+  ]
+]

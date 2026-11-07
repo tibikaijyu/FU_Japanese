@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lashers are nasty things, and can induce rage. Their tongues are useful, too."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラッシャーは厄介なものであり、怒りを引き起こす可能性があります。 彼らの舌も役に立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lasher Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラッシャーシード"
+    }
+  ]
+]

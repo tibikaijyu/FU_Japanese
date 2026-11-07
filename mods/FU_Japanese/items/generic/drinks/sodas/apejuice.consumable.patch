@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks like a clever play on words. It isn't. It's Apex blood.\n^cyan;+^white;30% ^cyan;Rage ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "言葉に対する巧妙な遊びのようだ。 違います エイペックスの血です\n^cyan;+^white;30% ^cyan;レイジ ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ape Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サルジュース"
+    }
+  ]
+]

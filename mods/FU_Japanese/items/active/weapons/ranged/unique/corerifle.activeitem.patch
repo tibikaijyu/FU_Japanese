@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A primitive ^cyan;Energy^reset; blaster.\n^red;Prone to overheating^reset;\n^cyan;Upgrade to Empower^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリミティブ^cyan;エネルギー^reset;ブラスター。\n^red;過熱する傾向がある^reset;\n^cyan;エンパワーへのアップグレード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Core Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コアライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Lingering burning for extra pain.\n^cyan;Upgrade to Empower^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "余計な痛みのために燃えるリンギング。\n^cyan;エンパワーへのアップグレード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Core Rifle MkIII"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "コアライフルMkIII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Simple tech taken to extraordinary levels."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "シンプルな技術は並外れたレベルまで昇った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^red;Core Rifle MkIV^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^red;コアライフルMkIV^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParametersTricorder/description",
+      "value": "Explosive, super-hot power.\n^cyan;Upgrade to Empower^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParametersTricorder/description",
+      "value": "爆発的な超ホットパワー。\n^cyan;エンパワーへのアップグレード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParametersTricorder/shortdescription",
+      "value": "Core Rifle MkII"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParametersTricorder/shortdescription",
+      "value": "コアライフルMkII"
+    }
+  ]
+]

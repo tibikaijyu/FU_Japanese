@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A snake-like construct composed of aqua distortion spheres."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘビのような構成で、水面歪球から構成される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A segment of an aqua sphere snake."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクアスフィアヘビの一部。"
+    }
+  ]
+]

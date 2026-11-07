@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cook honey based food on this!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂蜜ベースの料理をこの上で調理!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Prepare and cook honey!"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;蜂蜜を準備して調理!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Honey Cooking Table"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ハニークッキングテーブル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Cooking Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークッキングテーブル"
+    }
+  ]
+]

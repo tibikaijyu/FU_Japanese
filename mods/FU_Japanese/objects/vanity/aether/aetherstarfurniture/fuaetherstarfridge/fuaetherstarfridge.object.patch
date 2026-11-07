@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty fridge for keeping food cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食べ物を冷やすためのかなり冷蔵庫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙用エーテル冷蔵庫"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harness the power of the cosmos, in machinegun form.\n^yellow;Homing energy weapon.^reset;\n^green;Alt ignores walls^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "機関銃の形で、宇宙の力を発揮します。\n^yellow;エネルギー兵器を収容する。^reset;\n^green;アルトは壁を無視する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#bb39ce;Hail Strike^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#bb39ce;かかとストライキ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Perfection.\n^cyan;+2 projectiles^reset;\n^yellow;Homing projectiles^reset;\n^green;Alt ignores walls^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "完璧。\n^cyan;+2 発射体 ^reset;\n^yellow;ホーミング発射体^reset;\n^green;アルトは壁を無視する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Deathstrike^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;デスストライキ^reset; ^yellow;^reset;"
+    }
+  ]
+]

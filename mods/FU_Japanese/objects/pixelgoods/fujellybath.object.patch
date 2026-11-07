@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft, bouncy...but a little slippery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やわらかく弾力のある...しかし、少し滑りやすい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jelly Bathtub"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼリー浴槽"
+    }
+  ]
+]

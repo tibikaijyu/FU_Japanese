@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Almost as frightening as the real thing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当のことと同じくらい怖い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nocttop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノートトップマスク"
+    }
+  ]
+]

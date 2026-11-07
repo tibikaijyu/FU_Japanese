@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jolly good show!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "楽しいショー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mister Wisper Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウィスパー・マスクさん"
+    }
+  ]
+]

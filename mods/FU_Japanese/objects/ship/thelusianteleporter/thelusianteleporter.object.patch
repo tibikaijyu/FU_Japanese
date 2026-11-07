@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thelusian teleporter technology is not understood by other races."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアン・テレポーターの技術は、他の人種には理解されていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレポーター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/thelusianDescription",
+      "value": "Links minds and places, one and the same."
+    },
+    {
+      "op": "replace",
+      "path": "/thelusianDescription",
+      "value": "心と場所を、一つ一つリンクします。"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "First, you must carve the flesh from the bones of the sacrifice; be careful, for any tearing of the skin will result in severe repercussions."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "まず、あなたは犠牲の骨から肉を彫らなければなりません。皮膚の裂け目のために注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Now, you must stitch the flesh into your own, starting at the toes and working up. Only once the full suit is complete may you begin the Black Chant."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "今、あなたはつま先から始めて、あなたのものに肉を縫い合わせる必要があります。 フルスーツが完成したら、黒の聖歌を始めることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "Next, place the artifact in the center and begin the chant and the dance. His power guides you, should you be true to the call. Should the sacrifice struggle, end that struggle for the time has come. You shall be cleansed."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "次に、アーチファクトを中央に置き、聖歌とダンスを開始します。 彼の力は君を導いてくれる。君が電話に当てはまるなら。 犠牲の闘いが終わったら、その時の闘いは終わりだ。 君はきれいにされるだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This falls into the 'nope' category of biographies"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは「nope」の伝記分類に分類される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Invocation of Hashtur"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "Hashturの呼び出し"
+    }
+  ]
+]

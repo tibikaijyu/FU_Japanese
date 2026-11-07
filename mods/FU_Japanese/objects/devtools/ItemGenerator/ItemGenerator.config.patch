@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/printButton/caption",
+      "value": "Print"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/printButton/caption",
+      "value": "印刷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scanButton/caption",
+      "value": "Scan"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scanButton/caption",
+      "value": "調べる"
+    }
+  ]
+]

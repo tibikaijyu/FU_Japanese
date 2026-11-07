@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Energy Shell^reset;: 50%, 10% E.Reg, 200% E. Block\n^yellow;^reset; ^cyan;Shell Bonuses^reset;: +^green;25^reset;% Knockback and Physical Res., Fall Damage x^green;0.75^reset;\n^yellow;^reset; ^cyan;Shell Immunities^reset;: Most tile effects, Poisoned, Shadow"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;エネルギーシェル^reset;: 50%, 10% レグ、 200% ブロック\n^yellow;^reset; ^cyan;シェルボーナス^reset;: +^green;25^reset;% ノックバックと物理樹脂, 秋の被害x^green;0.75^reset;\n^yellow;^reset; ^cyan;シェル免疫^reset;:ほとんどのタイル効果、毒、影。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wraith Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レイス・マスク"
+    }
+  ]
+]

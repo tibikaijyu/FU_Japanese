@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle filled with the basis of yeast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "酵母の基礎を詰め込んだ瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grain Water"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "穀物水"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic wooden beam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木製の基本梁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "初歩的サポート"
+    }
+  ]
+]

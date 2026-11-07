@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mixed bone powder and... gore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "混合骨粉と...ゴア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Meal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨粉"
+    }
+  ]
+]

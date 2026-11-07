@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, and keeps a keen edge.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で、鋭いエッジを保ちます。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素ナイフ"
+    }
+  ]
+]

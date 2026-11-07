@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honeycomb made of solid durasteel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体デュラ鋼製のハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラスチールハニカム"
+    }
+  ]
+]

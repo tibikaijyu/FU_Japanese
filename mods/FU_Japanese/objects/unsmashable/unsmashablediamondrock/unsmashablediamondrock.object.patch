@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "There appears to be diamond within this fragile rock."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この脆い岩の中にダイヤモンドがあるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "If I break this rock I should be able to gather the diamond ore within it."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この岩を砕いたら、その中にダイヤモンド鉱石を溜めることができるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cracked rock full of diamond. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダイヤモンドでいっぱいの割れた岩。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Glittery rock. Sssmash it!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "キラキラした岩。 ss を破る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This rock contains diamond, and is covered in cracks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この岩にはダイヤモンドが含まれており、亀裂で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A rock full of diamond! Maybe I can break it."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ダイヤモンドでいっぱいの岩! たぶん、壊せる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A swift blow to this rock would free the diamond within."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この岩に一撃でダイヤは解放される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A rock rich with diamond. I should break it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ダイヤモンドが豊富な岩。 壊すべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンド岩"
+    }
+  ]
+]

@@ -1,0 +1,554 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/0",
+      "value": "Cheery. Take advantage of our new 'double the price' special! ^green;Now pay 2x the usual price^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/0",
+      "value": "さようなら。 新しい「ダブル・ザ・プライス」スペシャルをぜひご活用ください! ^green;さて 支払い 2通常の価格より^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/1",
+      "value": "Nervous. Will that be a short, a tall, a grande, a venti, or a... Frustrated. Oh no, I've lost track again..."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/1",
+      "value": "神経質。 それは短いか、背の高いか、大きめか、ベンチか、それとも... イライラ。 あらいや、また道に迷ったの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/10",
+      "value": "Angry. Can you believe Kim missed her shift ^red;*again*^reset;? She claims she's sick. Have you ever seen a sick Novakid?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/10",
+      "value": "怒った。 キムがシフトを逃したと信じられますか? ^red;再び^reset;? 彼女は病気だと主張する。 病気のノバキアを見たことがありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/11",
+      "value": "Stupid. Hi. Where am I?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/11",
+      "value": "すごい。 こんにちは 私はどこですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/12",
+      "value": "Curious. Ever had a feeling of Deja Vu? I swear I served you earlier...yet here you are now."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/12",
+      "value": "好奇。デジャヴュを感じたことはありますか？ さっき接客したはずなのに……またここにいらっしゃる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/13",
+      "value": "Curious. Are you an art student like me?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/13",
+      "value": "好奇心。 あなたは私のような美術学生ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/14",
+      "value": "Sarcastic. A degree in fine arts is perfectly valid career choice that will not end in working here."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/14",
+      "value": "皮肉なことに 芸術の学位は、ここでの仕事で終わりではない完全に有効なキャリア選択です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/15",
+      "value": "Curious. I wonder why we stopped getting orders from the folks at that Delta Freya research base? They were *fiends* for this stuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/15",
+      "value": "好奇心。 デルタ・フレイヤ研究所で注文をもらうのをやめたのはなぜなんだろう? 彼らはこのことに対して「友達」でした!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/16",
+      "value": "Raging. I am going to strangle the next ^red;@$#@^reset; that says their order is wrong when they placed it via the ^red;@$#@^reset; app! Honestly. Sorry, what can I get you?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/16",
+      "value": "レイジング。 私は次の^red;@#@^reset;が、^red;@@^reset;アプリを介してそれを配置したときに、彼らの順序が間違っていると述べています! 正直。 すみません、何が手に入りますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/17",
+      "value": "^yellow;*horrible trendy pop music plays*^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/17",
+      "value": "^yellow;* トレンディなポップ音楽遊び* ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/18",
+      "value": "Sarcastic. *sigh* I'm sworn to carry your burdens..."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/18",
+      "value": "皮肉なことに あなたの負担を背負って誓います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/19",
+      "value": "Casual. I used to be an adventurer like you. But then I took an arrow to the knee."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/19",
+      "value": "カジュアル。 昔は君のような冒険家だった。 しかし、私は膝に矢をとった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/2",
+      "value": "Cordial. Welcome, guest! What can I brew for you today?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/2",
+      "value": "心から。 ようこそ、お客様! 今日は何を醸造できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/20",
+      "value": "Casual. Let me guess: Someone stole your sweetroll?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/20",
+      "value": "カジュアル。 誰かがあなたの甘いロールを盗んだ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/21",
+      "value": "Angry. It is 5 minutes till closing and they won't let me close the till."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/21",
+      "value": "怒った。 閉じるまで5分であり、閉じさせません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/22",
+      "value": "Devious. Do you think anyone will notice the taste of motor oil in their coffee? I feel an 'accident' coming on..."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/22",
+      "value": "うわっ! 誰かコーヒーにモーターオイルの味に気づくと思いますか? 「事故」がやって来るような気がする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/23",
+      "value": "Confused. Why would you want to pay these prices? Honestly...I'm truly curious if people are this stupid or if its just convenience?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/23",
+      "value": "混乱している。 なぜあなたはこれらの価格を支払いたいですか? 正直なところ、私は本当に、人々がこんなに愚かな人なのか、それとも単に便利なのか、好奇心が強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/24",
+      "value": "Sarcastic. I've made sure the coffee is bugfreebugfreebugfree ^red;--ERROR RECOVERED--^reset; May I take your order?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/24",
+      "value": "皮肉なことに コーヒーがバグフリーのバグフリーであることを確認しました。^red;--エラー回復 --^reset; ご注文をお願いできますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/25",
+      "value": "Cheerful. I've pre-bent this coffee for you."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/25",
+      "value": "陽気。 このコーヒーを事前に曲げておきました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/26",
+      "value": "Cheerful. How do you take it? Double-double? Bent? Square?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/26",
+      "value": "陽気。 どうやって取るの? ダブル? ベント 広場?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/27",
+      "value": "Elated. Management said they would consider my cubed coffee concept."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/27",
+      "value": "敬具。 経営陣は、私のキューブコーヒーのコンセプトを検討すると言いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/28",
+      "value": "Silly. Want to hear me make armpit farts?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/28",
+      "value": "サイリー。 ウナギのおならがつくるのを聞きたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/29",
+      "value": "Whimsical. I can create the greatest coffee art in the universe using only my dipstick. Want to see?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/29",
+      "value": "気まぐれ。 ディップスティックだけを使って、宇宙最大のコーヒーアートを創造することができます。 見たい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/3",
+      "value": "Annoyed. Kevin won't stop replacing the stir sticks with garflipps when I'm on break."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/3",
+      "value": "困った。 ケビンは、私が休憩しているときに、かき混ぜスティックをガーフリップで交換するのを止めません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/30",
+      "value": "Mathmatical. I had to use a straightedge to get the fold on the coffee right."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/30",
+      "value": "数学。 コーヒーをしっかりひっくり返すために、私は真っ直ぐなエッジを使わなければならなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/31",
+      "value": "Annoyed. I am not naturally gold in color. Management insisted I get a paint job to show they also hire minorities. Scummy."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/31",
+      "value": "困った。 私は色が金色ではない。 経営陣は、少数派を雇用していることを示すためにペイントの仕事を得ていると言い張った。 サミー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/32",
+      "value": "Confused. Wh.... wh.. where did my portable Snarsher go? Oh. Hi. What can I get you?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/32",
+      "value": "混乱している。 うわっ...。 はあ?. 携帯のスナーシャーはどこに行った? ああ。 こんにちは 何が手に入りますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/33",
+      "value": "Annoyed. Some dipstick stuck their dipstick in the coffee before I could."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/33",
+      "value": "困った。 コーヒーにディップスティックを詰めてから、コーヒーを飲めるようにしたディップスティックもあった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/34",
+      "value": "Curious. I tried social lubrication once, but it only seemed to scare people."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/34",
+      "value": "好奇心。 一度は社会的な潤滑を試したが、怖かったのは人だけだった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/35",
+      "value": "Surveying. Do you take your bloody meat coffee with or without the eyes?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/35",
+      "value": "測量。 目の有無に関わらず、血まみれの肉のコーヒーを飲んでいますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/36",
+      "value": "Excited. A customer. What can I get you? ........ Hi. Welcome. Can I take your order? .... wait. Who am I?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/36",
+      "value": "興奮した。 顧客。 何が手に入りますか? ........ こんにちは ようこそ。 ご注文は受け付けていますか? .... 待って 私は誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/37",
+      "value": "Informative. If you force-feed a human cake and coffee non-stop for approximately 1 year they will gain between 12kg and 64kg pounds depending on volume consumed."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/37",
+      "value": "インフォマティブ。 約1年の間、人間のケーキとコーヒーを強制給餌すると、消費量に応じて12kgと64kgのポンドが増加します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/38",
+      "value": "Angry. I can heat the beans to optimum tempature, but management says my deposit method would turn off customers. What's wrong with thermic exhaust liquid process?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/38",
+      "value": "怒った。 私は豆を最適な温度に加熱することができますが、経営陣は、私の預金方法は顧客をオフにすると述べています。 熱排気液プロセスはどうしたのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/39",
+      "value": "Curious. What is your favorite flavor: Vegetable? Meat? Bike? We carry goods catered to all diet types. Except mine. So, no bikes. @%$#ing management."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/39",
+      "value": "好奇心。 あなたの好きな味は何ですか? 肉? バイク? すべてのダイエットタイプに対応した商品を取り扱っています。 僕のは別だ。 だから、バイクはありません。 @%リングマネジメント。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/4",
+      "value": "Annoyed. Can I take your order?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/4",
+      "value": "困った。 ご注文は受け付けていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/40",
+      "value": "Proud. As a barista, I can safely say I have mastered the art of flavor. I gave my last customer a free shot of Polonium Syrup. They asked for a remake."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/40",
+      "value": "すごい。 バリスタとして、私は味の芸術をマスターしたといっても過言ではありません。 私は最後の顧客にポロニウムシロップの無料ショットを与えました。 彼らはリメイクを要求した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/41",
+      "value": "Confused. Nobody has tried the Radium Foam option."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/41",
+      "value": "混乱している。 ラジウムフォームオプションを試した人はいません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/42",
+      "value": "Surprised. You are actually going to pay these prices, willingly, without any encouragement from our marketing department?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/42",
+      "value": "驚いた。 マーケティング部門からの励ましなしに、喜んでこれらの価格を支払うつもりですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/43",
+      "value": "Queried. Kevin? He does make the sandwiches, yes. His McChitin is a crunchy dream."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/43",
+      "value": "質問。 ケビン? 彼はサンドイッチを作る。 彼のマッキティンはくしゃくしゃした夢だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/5",
+      "value": "Sarcastic. Our coffee is amazing."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/5",
+      "value": "皮肉なことに 私たちのコーヒーはすごいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/6",
+      "value": "Sarcastic. Working here is truly a joy."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/6",
+      "value": "皮肉なことに ここで働くことは本当に喜びです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/7",
+      "value": "Sarcastic. I get paid well for the work I do."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/7",
+      "value": "皮肉なことに 私は自分の仕事に対してよく給料をもらっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/8",
+      "value": "Gleeful. My shift is over soon. Until then, what can I get you?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/8",
+      "value": "親切。 私のシフトはもうすぐ終わります。 それまでは、何が手に入りますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/9",
+      "value": "Angry. Kim didn't show up for her shift for the third time this month. She's probably with that ^red;%$#@^reset; Stacy again."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/9",
+      "value": "怒った。 キムは今月三度目のシフトに現れなかった。 おそらく、彼女はそれを持っています ^red;%#@ ^reset;ステイシー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Overpriced, crappy coffee and baked goods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーヒーや焼き物が高すぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Starbucks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スターバックス^reset;"
+    }
+  ]
+]

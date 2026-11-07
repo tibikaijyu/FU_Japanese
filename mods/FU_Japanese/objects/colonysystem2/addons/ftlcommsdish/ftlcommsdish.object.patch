@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful, long-ranged transmitter with incredible upload and download speed. ^yellow;+15 Happiness^reset; ^blue;Requires 20J every 300s.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほどのアップロードとダウンロード速度を持つ、強力で長距離の送信機。 ^yellow;+15 幸福^reset; ^blue;必須 20ジェリー 300ス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FTL Internet Dish"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FTLインターネットディッシュ"
+    }
+  ]
+]

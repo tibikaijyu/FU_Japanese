@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileBody",
+      "value": "/interface/smartbox/halver.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseExtraCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=0d2346ff?scalenearest=20;10",
+        "position": [
+          75,
+          16
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseExtraTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          85.0,
+          21.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 7,
+        "value": "余り",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

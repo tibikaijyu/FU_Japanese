@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These display axes look very sharp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの表示軸は非常にシャープに見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weapon Display"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武器ディスプレイ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Theme from an older model of tricorder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トライコーダーの古いモデルからのテーマ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/name",
+      "value": "Frackin' Classic"
+    },
+    {
+      "op": "replace",
+      "path": "/name",
+      "value": "古典"
+    }
+  ]
+]

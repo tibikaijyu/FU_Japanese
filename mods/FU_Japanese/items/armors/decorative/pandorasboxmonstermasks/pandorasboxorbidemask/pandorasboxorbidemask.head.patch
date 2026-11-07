@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "How are you even supposed to see out of this thing?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どうやってこれを見抜けるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orbide Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オルバイドマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A door made of dense, super-tough metal. Requires an explosion to open."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高密度で超硬金属製のドア。 開くには爆発が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Blast Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のブラストドア"
+    }
+  ]
+]

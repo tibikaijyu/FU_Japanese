@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An Apex rebel is no stranger to explosives."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "エイペックスの反乱者は爆薬に見知らぬ人ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Well at least the packager makes it very clear what's inside."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "少なくともパッケージは、中身がはっきりしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Take a guess at what's inside."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中身を見てみましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Crate goesss boom boom!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Crate gossブームブーム!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. I'm detecting explosives within this crate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 私はこの箱の中の爆薬を検知している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Not writing ACME on this crate was a great show of restraint on behalf of the packager."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この箱にACMEを書いていないことは、パッケージャのために拘束の偉大なショーでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Best to not drop this."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これを落としないのが最善です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Decidedly not to be trifled with."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ちゅうちょしないことにした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "TNT Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "TNT箱"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Extreme Radiation: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;無効化^reset;:極限放射線:3m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rad-Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤葉"
+    }
+  ]
+]

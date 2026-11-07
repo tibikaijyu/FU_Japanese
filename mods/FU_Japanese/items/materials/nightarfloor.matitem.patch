@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Traditional Nightar floor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的なナイトフロア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran iss confussed..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは混乱している..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Charmed. A beautiful black floor."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "チャーミング。 美しい黒い床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some fancy lookin' black floorin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "「黒い床」に見えるいくつかの派手な。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Floor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間フロア"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shadow Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "シャドウランス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extracts a targets brain at the moment of death.\n^cyan;Collects Brains from enemies^reset;\n^yellow;Counts as Bio-Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死の瞬間にターゲットの脳を抽出します。\n^cyan;敵から脳を集める^reset;\n^yellow;バイオウェポンとしてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brain Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "脳抽出器"
+    }
+  ]
+]

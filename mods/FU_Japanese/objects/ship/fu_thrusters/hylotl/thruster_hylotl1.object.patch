@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Hylotl design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイロトルデザインの宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Thruster (Hylotl)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型スラスター(ヒロトル)"
+    }
+  ]
+]

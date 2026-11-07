@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A formidable hammer made of a nearly indestructible alloy.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんど破壊不可能な合金製の強靭なハンマー。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスターズ・ハマー"
+    }
+  ]
+]

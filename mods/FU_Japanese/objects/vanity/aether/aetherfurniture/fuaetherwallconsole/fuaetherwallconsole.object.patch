@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wall-mounted aether computer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁に取り付けられたエーテルコンピュータ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Wall Console"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルウォールコンソール"
+    }
+  ]
+]

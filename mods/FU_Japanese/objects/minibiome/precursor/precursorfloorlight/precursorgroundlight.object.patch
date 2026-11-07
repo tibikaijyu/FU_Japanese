@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny lightsource with bright yellow light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明るい黄色の光と小さな光源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Floor Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体フロアライト"
+    }
+  ]
+]

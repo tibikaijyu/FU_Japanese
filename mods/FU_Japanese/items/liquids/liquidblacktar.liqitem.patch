@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of viscous tar.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粘性のタールの尺度。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒タール"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A long-lasting energy enhancer.\n^cyan;+^white;25% ^cyan;EP ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長持ちするエネルギーエンハンサー。\n^cyan;+^white;25% ^cyan;EP ^gray;(^white;2え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Organic Energy Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有機エネルギー刺激"
+    }
+  ]
+]

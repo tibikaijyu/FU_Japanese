@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny and perfect.\n^cyan;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝きと完璧。\n^cyan;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phase Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェーズブレード"
+    }
+  ]
+]

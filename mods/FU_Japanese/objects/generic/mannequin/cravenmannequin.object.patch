@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This poor soul's quite unable to equip back items."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この貧しい人は、バックアイテムを装備することはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Craven Mannequin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クレイヴン・マネキン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Clever. A bit hot, though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かしこまりました でも、ちょっと暑い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lava Ceiling Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラバ天井ランプ"
+    }
+  ]
+]

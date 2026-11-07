@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Holy crap."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんてこった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ultracannon Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "超大砲"
+    }
+  ]
+]

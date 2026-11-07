@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These leeches, placed in the ear, cure insanity and madness.\n^red;-^white;5% ^red;HP ^gray;(^white;2m^gray;)\n^cyan;-^white;80% ^cyan;Risk of Madness Effects^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耳に置かれたこれらのリーチは、狂気と狂気を治します。\n^red;-^white;5% ^red;HP ^gray;(^white;2え?^gray;)\n^cyan;-^white;80% ^cyan;狂気の影響のリスク^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sanity Leech"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サニティ・リーチ"
+    }
+  ]
+]

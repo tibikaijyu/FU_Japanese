@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a cellular wonderland."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を、細胞質の不思議の地に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cellular Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "細胞マイクロフォーマ"
+    }
+  ]
+]

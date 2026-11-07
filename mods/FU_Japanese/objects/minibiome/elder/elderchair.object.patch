@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A malignant stone chair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪性石の椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老"
+    }
+  ]
+]

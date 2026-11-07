@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious rich cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいリッチケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frosted Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストケーキ"
+    }
+  ]
+]

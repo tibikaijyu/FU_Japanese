@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crown for the King of the Nightar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "騎士王の王冠。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Crown"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトクラウン"
+    }
+  ]
+]

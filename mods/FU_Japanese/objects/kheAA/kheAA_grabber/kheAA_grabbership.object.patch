@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specialized grabber only for use on ships. Absolutely massive range, but no storage.\n^blue;Input: ^white;On/Off Switch^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船舶専用のグラバーです。 絶対に広い範囲ですが、ストレージはありません。\n^blue;入力: ^white;スイッチのオン/オフ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grabber (Ship)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラバー(船)"
+    }
+  ]
+]

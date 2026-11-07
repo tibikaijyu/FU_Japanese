@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Melts walls and flesh with microwaves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁と肉を電子レンジで溶かす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Melta Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メルタアーム"
+    }
+  ]
+]

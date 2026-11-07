@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thrice as many bugs. The enemy will just love it!\n^cyan;Causes stings, bio-ooze and weakening^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Thrice as many bugs. 敵はただそれを愛します!\n^cyan; 刺し傷、バイオオイズ、弱体化を引き起こす ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutaswarm Ejector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Mutaswarmエジェクタ"
+    }
+  ]
+]

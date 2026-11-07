@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Horrify the enemy with clouds of stinging, angry bugs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "刺す、怒る虫の雲で敵を怖がらせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swarm Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "群発砲"
+    }
+  ]
+]

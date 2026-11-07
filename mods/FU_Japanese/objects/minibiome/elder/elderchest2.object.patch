@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の胸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "年長者胸部"
+    }
+  ]
+]

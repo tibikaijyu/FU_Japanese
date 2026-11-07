@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cosmic power stabilized into high powered shots.\n^cyan;Cosmic blasts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙力は高出力ショットに安定。\n^cyan;コスミックブラスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジスリサイトのアサルトライフル"
+    }
+  ]
+]

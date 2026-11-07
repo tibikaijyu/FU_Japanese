@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of device."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかのデバイス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体装置"
+    }
+  ]
+]

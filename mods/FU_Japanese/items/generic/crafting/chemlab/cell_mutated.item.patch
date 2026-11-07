@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cell riddled with unusual biological mutations."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "細胞は異常な生物学的突然変異で混乱した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutated Cell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "変異細胞"
+    }
+  ]
+]

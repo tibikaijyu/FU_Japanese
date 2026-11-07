@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Top of the line microsphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "線の上部のマイクロスフィア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Precursor Microsphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;プレカーマイクロスフィア^reset;"
+    }
+  ]
+]

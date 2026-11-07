@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-end processor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイエンドプロセッサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Advanced Processor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;高度なプロセッサ^reset;"
+    }
+  ]
+]

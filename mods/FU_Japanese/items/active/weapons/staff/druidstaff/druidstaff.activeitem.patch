@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can ^yellow;slow^reset;, ^blue;electrify^reset; and ^green;poison^reset; foes.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を^yellow;鈍足^reset;・^blue;感電^reset;・^green;毒^reset;状態にできる。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Druid Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドルイドスタッフ"
+    }
+  ]
+]

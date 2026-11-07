@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Long thought impossible to create, this supreme energy is exceptionally dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "創造不可能な長い思考、この最高のエネルギーは非常に危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Matter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤物"
+    }
+  ]
+]

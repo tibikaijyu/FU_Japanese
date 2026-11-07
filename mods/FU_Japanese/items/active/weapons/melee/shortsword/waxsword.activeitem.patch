@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Useless. Maybe with some upgrades..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "無駄だ。 おそらくいくつかのアップグレードで..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wax Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワックス剣"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Actually capable of cutting.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "実際に切断することができます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Wax Slasher^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ワックススラッシャー^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Unsurpassed in lethality.\n^cyan;Gods fear it. Women crave it.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "致死率では劣る。\n^cyan;神はそれを恐れます。 女性はそれを切望します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;God Cleaver^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;神聖なるクレーター^reset; ^yellow;^reset;"
+    }
+  ]
+]

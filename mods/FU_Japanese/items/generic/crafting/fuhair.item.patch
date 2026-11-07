@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pile of hair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "髪の毛の山。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bunch of hair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "髪の毛の束"
+    }
+  ]
+]

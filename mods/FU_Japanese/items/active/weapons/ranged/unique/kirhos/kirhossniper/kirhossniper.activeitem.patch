@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful energy rifle.\n^cyan;Hunting and Energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力なエネルギーライフル。\n^cyan;ハンティングとエネルギー武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホシライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Perfection.\n^cyan;Hunting and Energy Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "完璧。\n^cyan; 狩猟とエネルギー武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Kirhosi Rifle II^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;キルホシライフルII^reset; ^yellow;^reset;"
+    }
+  ]
+]

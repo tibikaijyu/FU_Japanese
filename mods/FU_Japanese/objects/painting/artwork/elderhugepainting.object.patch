@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive and disturbing painting of some sort of entity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の実体の巨大で邪魔な絵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "He"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "彼は"
+    }
+  ]
+]

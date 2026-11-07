@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark-tinted panel of glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃い色のガラスのパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can hide behind dark glasss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは暗いガラスの後ろに隠れることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Interested. This glass has been so darkly tinted it is almost not transparent."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興味津々。 このガラスは暗く着色されているので、ほとんど透明ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Glass so dark the sun'll hardly shine through."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "日が当たらないほど暗いガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Black Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜黒ガラス"
+    }
+  ]
+]

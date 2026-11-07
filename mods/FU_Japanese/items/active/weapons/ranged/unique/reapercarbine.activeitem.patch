@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires super-cold dark matter infused rounds.\n^yellow;Extremely fast, accurate rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極寒暗黒物質を発射するラウンド。\n^yellow; 非常に速く正確なラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-4 Violator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-4 バイオレーター"
+    }
+  ]
+]

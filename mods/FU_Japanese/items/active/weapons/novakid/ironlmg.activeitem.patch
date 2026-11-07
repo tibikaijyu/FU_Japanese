@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dangerous, but inaccurate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険だが不正確。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron LMG"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンLMG"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When programming goes wrong, this is what you get."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プログラミングがうまくいかなかったら、これが問題になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitched Deathbot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デスボットが衝突"
+    }
+  ]
+]

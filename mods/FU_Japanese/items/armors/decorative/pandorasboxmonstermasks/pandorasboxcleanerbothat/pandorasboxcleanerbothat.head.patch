@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This mask may help keep your head clean! (Spoilers: It doesn't.)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このマスクはあなたの頭をきれいに保つのに役立ちます! (スポイラー) 違う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cleanerbot Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "掃除ロボットハット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Canned, processed gnome corpses. Never goes bad! \n^red;-^white;5% ^red;HP^reset; (1m) \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "缶詰、加工されたノーム死体。 決して悪くなるな! \n^red;-^white;5% ^red;HP^reset; (1m) \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soylent Gnome"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソイレントグノーム"
+    }
+  ]
+]

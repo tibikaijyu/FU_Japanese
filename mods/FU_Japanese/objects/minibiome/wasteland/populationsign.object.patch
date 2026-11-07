@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I wonder what sort of people once lived here?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かつてはどんな人が住んでいたのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ruined Population Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "荒廃した人口の兆候"
+    }
+  ]
+]

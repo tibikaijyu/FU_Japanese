@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Starry wooden slats that don't let much light through."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あまり光を通さないスターリーウッドスラット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can peak through large sslats of star wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、スターウッドの大きなスラットをピークにすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This wood filters light and acts as a barrier, too good of a barrier."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この木材は、光をろ過し、バリアとして機能し、バリアのあまりにも良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can see right through the spaces in this wood, clear to the other side."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの森の空間を、反対側にクリアに見ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Wood Blinds"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンウッドブラインド"
+    }
+  ]
+]

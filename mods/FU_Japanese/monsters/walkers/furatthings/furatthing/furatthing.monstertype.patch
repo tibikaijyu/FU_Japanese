@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What ARE these things? Devolved Elder beings? Ugh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらはなんですか? 進化した老人? うーん"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wretched Rat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラットの生育"
+    }
+  ]
+]

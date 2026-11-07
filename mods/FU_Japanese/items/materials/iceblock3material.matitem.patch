@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Visible strata of freezing shows the age of this ice.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍結の目に見える層は、この氷の年齢を示しています。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thick Layered Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "厚層氷"
+    }
+  ]
+]

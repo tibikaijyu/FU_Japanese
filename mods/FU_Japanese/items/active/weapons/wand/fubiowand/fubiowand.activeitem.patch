@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Organic meets Magic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機は魔法と出会う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bio Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオワンド"
+    }
+  ]
+]

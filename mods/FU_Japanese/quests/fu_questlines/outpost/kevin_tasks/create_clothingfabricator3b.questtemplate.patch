@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Many thanks, Lester. This time I have an ^orange;honestly good^reset; thing for you! Promise!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "レスター、ありがとう。 今回は ^orange; 正直良い ^reset; をあなたのために持っています! 約束!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin, your overlord^reset; 200 ^orange;Baby Heads on Sticks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン、あなたの支配者は^reset; 200 ^orange;棒の上の赤ちゃんの頭^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You ever wonder how many ^orange;baby heads^reset; you can fit in a refrigerator? I do! Let's find out, shall we? If you were to gather say...200 ^orange;baby heads on sticks^reset; I'd be ever so thankful."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "赤ちゃんの頭数 ^orange; ^reset; 冷蔵庫に収まるか? やります! 調べてみましょう。 もしあなたが集まっていたら。..200 ^orange;赤ちゃんは棒で頭^reset; ずっと感謝しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Infantile Deliciousness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "幼児の美味しさ"
+    }
+  ]
+]

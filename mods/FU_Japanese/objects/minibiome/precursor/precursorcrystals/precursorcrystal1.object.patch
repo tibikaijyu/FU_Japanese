@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Highly energized Lunari crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高エネルギーのルナリ結晶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Charged Lunari"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型充電ルナリ"
+    }
+  ]
+]

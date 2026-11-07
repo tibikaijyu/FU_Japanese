@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Assassin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アサシンクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アサシンクイーン"
+    }
+  ]
+]

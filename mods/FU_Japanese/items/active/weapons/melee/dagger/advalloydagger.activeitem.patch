@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sleek and shadowy. Cool to the touch.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なめらかで陰影。 タッチにクール。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスターズダガー"
+    }
+  ]
+]

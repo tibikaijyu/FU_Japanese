@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bloody, raw chunks of meat. Great for carnivores. ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血まみれの生肉の塊。 肉食動物に最適です。 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meaty Kibble"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミーティ・キブル"
+    }
+  ]
+]

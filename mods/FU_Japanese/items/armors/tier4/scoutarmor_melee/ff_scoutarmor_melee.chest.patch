@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Health & Speed x^green;1.1^reset;\n^yellow;^reset; Melee: Damage x^green;1.1^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ヘルス&スピードx^green;1.1^reset;\n^yellow;^reset;近接:損傷x ^green;1.1^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warrior Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦士の胸像"
+    }
+  ]
+]

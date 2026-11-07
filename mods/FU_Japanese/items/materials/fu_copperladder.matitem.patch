@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A copper ladder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製のはしご。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Ladder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅ラダー"
+    }
+  ]
+]

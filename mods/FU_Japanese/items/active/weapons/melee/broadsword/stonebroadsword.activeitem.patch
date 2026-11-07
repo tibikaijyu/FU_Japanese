@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for early meat and hide gathering."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "早期の肉と隠れた集まりに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原始的広義剣"
+    }
+  ]
+]

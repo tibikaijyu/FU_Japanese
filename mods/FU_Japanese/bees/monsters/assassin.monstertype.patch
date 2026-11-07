@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A assassin bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチの暗殺者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassin Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アサシンビー"
+    }
+  ]
+]

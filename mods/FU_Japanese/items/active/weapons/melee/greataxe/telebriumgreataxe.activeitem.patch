@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Surprisingly light and agile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "驚くほど軽くて機敏。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・グレートアックス"
+    }
+  ]
+]

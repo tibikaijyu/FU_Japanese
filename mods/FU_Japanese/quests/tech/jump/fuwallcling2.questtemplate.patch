@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now, when I grip walls, I should get defensive bonuses and increased energy...sapped right from the material itself! Also, W and S allow me to travel up and down."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "さて、私が壁を握るとき、私は防御的なボーナスとエネルギーの増加を得るべきです...材料自体から吸い上げ! また、WとSは私が上下に移動することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've managed to think of a cool upgrade to the Magnet Grip! I should be able to apply some advanced science to it and really grip with power!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "マグネットグリップのクールなアップグレードを思いついたよ! 私はそれにいくつかの高度な科学を適用することができ、本当に力をつかむことができるはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Power Grip"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "パワーグリップ"
+    }
+  ]
+]

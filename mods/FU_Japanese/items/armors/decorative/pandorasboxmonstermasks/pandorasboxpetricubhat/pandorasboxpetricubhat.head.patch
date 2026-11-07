@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "With its beady eyes, it could give you the upper hand in a staring contest!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その美しい目で、それはあなたにスターリングコンテストで優勢を与えることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Petricub Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペトリキュブハット"
+    }
+  ]
+]

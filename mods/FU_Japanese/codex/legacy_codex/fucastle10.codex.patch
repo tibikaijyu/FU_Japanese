@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "We have tolerated the Outcasts at a distance, with the understanding that they do not infiltrate our most precious of sanctums; our castles, our homes, our underground fight clubs. Outcasts have infiltrated all these places. They loiter around, saying words, and having opinions. It is disconcerting and disruptive."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "私たちは遠くでアウトキャストを容認し、彼らが私たちの最も貴重な聖域に浸透していないという理解を持ってきました。私たちの城、私たちの家、私たちの地下戦闘クラブ。 アウトキャストはこれらの場所すべてに浸透しています。 彼らはうずくまり、言葉を言い、そして意見を持っている。 それは不快で破壊的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Our goodwill can only last so long. They are corrupting many of our number and severing their link with the central consciousness. As such, any Outcast spotted in a designated safe zone must be immediately arrested and sent to the laboratories for repurposing."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私たちの善意はそんなに長く続くことはできません。 彼らは私たちの数字の多くを汚し、中心意識とのつながりを断ち切っています。 そのため、指定されたセーフゾーンで発見されたアウトキャストは直ちに逮捕され、再利用のために研究所に送られる必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Message to all Glitch Guards"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全ての警備員へのメッセージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Message to all Glitch Guards"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "全ての警備員へのメッセージ"
+    }
+  ]
+]

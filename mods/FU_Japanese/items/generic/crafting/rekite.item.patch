@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reacts with the Oceanite in Eld'uukhar tech to create a small amount (+2) of fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドゥーカーのオーシャナイトと反応して、少量の燃料(+2)を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rekite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レカイト結晶"
+    }
+  ]
+]

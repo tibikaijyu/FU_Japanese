@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, ethereal brew. Perfect for an out of body experience.\n^cyan;Ethereal^reset; and ^red;Drunk^reset; for 30s."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な、エステリーの醸造。 体外体験に最適です。\n^cyan;Ethereal ^reset; および ^red; ドリンク ^reset; を 30 s にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soulleaf Spritz"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソウルリーフ・スプリッツ"
+    }
+  ]
+]

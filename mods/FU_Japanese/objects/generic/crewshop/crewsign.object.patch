@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seems to point out that I might obtain crewmates nearby. That, or a badly spelled Motley Crew reference."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近くでクルーメイトを捕まえるかもしれないと指摘しておこう。 それかモットリー・クルーの悪い綴りの参照。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crew Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乗組員サイン"
+    }
+  ]
+]

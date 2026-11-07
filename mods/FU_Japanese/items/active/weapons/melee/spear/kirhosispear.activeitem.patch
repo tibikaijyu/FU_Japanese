@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to burn through ship hulls for deep-space boarding.\n^cyan;Hunting weapon^reset;\n^red;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "深宇宙船の船体燃焼に使用。\n^cyan;ハンティング武器^reset;\n^red;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Boarding Pike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホシ遊覧場"
+    }
+  ]
+]

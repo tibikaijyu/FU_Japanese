@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flash em with flashy gold!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "派手なゴールドでフラッシュ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールドレイピア"
+    }
+  ]
+]

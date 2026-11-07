@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solarium-infused sword, forged by Asra Nox, refabricated into a proper Katana by you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アスラ ノックスによって鍛造されたソラリウム注入剣は、あなたによって適切なカタナに再構築されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solus Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラスの刀"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Asra Nox's sword, Now with more Valiantness! And killy Kunais! ...By the way, is it just me or is the color a bit off?"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "アスラ ノックスの剣、今よりバリアントで! そして、キリギリのKunais! ところで、それは私だけなのか、それとも色が少しずれているのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Valiantus Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "ヴァリアントゥスの刀"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Your constant meddling with Asra's Katana and Essence has changed the blade's color to purple! Oh, and it's far more killy too."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "アスラ's 刀とEssenceとの絶え間ない干渉は、ブレードの色を紫に変えました! ああ、そしてそれもまたはるかにクールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Essenus Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "エッセヌス・カタナ"
+    }
+  ]
+]

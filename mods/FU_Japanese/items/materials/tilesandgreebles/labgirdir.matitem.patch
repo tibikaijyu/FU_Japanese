@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strong looking plasteel girder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強い外観のプラスチール桁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチール桁"
+    }
+  ]
+]

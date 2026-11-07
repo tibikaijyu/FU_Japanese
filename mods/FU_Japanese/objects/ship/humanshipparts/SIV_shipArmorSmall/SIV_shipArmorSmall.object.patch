@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small Armored section for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の小さなアーモーテッドセクション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Small Armored section"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒト小型機甲区画"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, cumbersome and awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重い、面倒で素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライトストライカー"
+    }
+  ]
+]

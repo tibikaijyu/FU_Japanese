@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "[REDACTED]"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "[編集部注]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A log about the Skath's strongest material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカースの最も強い材料についてのログ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "About Tethyde"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "テチドについて"
+    }
+  ]
+]

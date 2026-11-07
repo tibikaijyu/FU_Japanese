@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tethyde layered with impervium for an exceptionally strong material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テチドは、非常に強い材料のためにインペルビウムで層状に重ねられます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impervium Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インペルビウムめっき"
+    }
+  ]
+]

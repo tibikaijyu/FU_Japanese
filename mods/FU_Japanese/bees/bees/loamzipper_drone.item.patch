@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loamzipper Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロームジッパードローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Loamzipper Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロームジッパードローン"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Nice work! Now, we'll have one last recipe to do."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "すてき! 最後のレシピが一つあります"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;spirits^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;spirits^reset; を ^orange;科学前哨基地^reset; に持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So *hic* with all these mashed fruits we're ready to make some ^green;shpirits^white;. You'll need some ^orange;Yeast Water^reset; and ^orange;Water^reset; too. Bring all to the ^green;distiller^reset; and do yer magic! *hic*"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "なので、これらすべてのマッシュフルーツで* hic* は、いくつかの^green;shpirits^white; を作る準備が整いました。 ^orange;酵母水^reset;と^orange;水^reset;も必要です。 ^green;蒸留器^reset;にすべてを持ってきて、あなたの魔法をやろう! イチチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Spirits"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "霊"
+    }
+  ]
+]

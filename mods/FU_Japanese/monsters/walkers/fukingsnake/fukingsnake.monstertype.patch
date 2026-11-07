@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge snake that is rather poisonous"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり毒っぽい巨大なヘビ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "King Snake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スネーク王"
+    }
+  ]
+]

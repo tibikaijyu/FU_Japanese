@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rod of tritium. Product of fission.\n^blue;+^white;3 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トリチウムの棒。 核分裂の産物。\n^blue;+^white;3 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tritium Rod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリチウム棒"
+    }
+  ]
+]

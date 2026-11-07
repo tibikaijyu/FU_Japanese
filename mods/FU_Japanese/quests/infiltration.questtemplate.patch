@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The deed is done. Let's get out of here."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "その行為は終わった。 ここから出ましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Infiltrate the Miniknog facility and assassinate the research team."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "ミニノグ施設に潜入し、研究チームを暗殺します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map shows the way to a remote Miniknog stronghold on a distant planet. Seems like the rebels need help."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図は、遠く離れた惑星にあるミニノグのリモート拠点への道を示しています。 反乱軍は助けを必要としているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Infiltration"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;浸透"
+    }
+  ]
+]

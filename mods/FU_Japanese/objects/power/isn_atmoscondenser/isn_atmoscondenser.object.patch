@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Condenses the atmosphere into usable reagents. ^cyan;Requires ^orange;50J^cyan; every 2s^reset;. ^red;Slower production  when stacked^reset;. Scan for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大気を使用可能な試薬に凝縮します。 ^cyan; 必須は ^orange;50J^cyan; すべての 2s ^reset; です。 ^red;積み重ねると生産が遅くなります。^reset;. スキャン情報。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Atmospheric Condenser^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;大気凝縮機^reset;"
+    }
+  ]
+]

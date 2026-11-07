@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An extremely basic bed of hay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に基本的な干し草のベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Hay Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世ヘイベッド"
+    }
+  ]
+]

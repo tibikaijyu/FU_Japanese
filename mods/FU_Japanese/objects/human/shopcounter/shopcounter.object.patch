@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "What to buy, what to buy..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "購入するもの、購入するもの..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Perhaps there's a sale going on?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "たぶん、販売が進行中ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shop 'til you drop!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたが落ちるまで「ショップ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran will have one of everything!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、すべてのうちの一つを持っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. What wares are carried here, I wonder."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 どのような商品がここに運ばれているのかしら。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Alright! Excessive spending!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "よし! 超過支出!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I must remember to spend wisely."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "賢明に過ごすことを忘れてはならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A l'il spendin' never hurt no one."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私は誰も傷つけない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shop Counter, Human"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショップカウンター、人間。"
+    }
+  ]
+]

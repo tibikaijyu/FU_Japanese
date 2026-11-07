@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A book that pairs a sapient being with a random mythological creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ランダムな神話上の生き物と霊をペアにする本。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bizarre Erotica"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇怪な官能本"
+    }
+  ]
+]

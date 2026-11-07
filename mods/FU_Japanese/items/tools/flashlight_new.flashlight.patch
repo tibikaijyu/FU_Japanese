@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crappy flashlight."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ちっちゃな懐中電灯。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Faulty Flashlight"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "故障した懐中電灯"
+    }
+  ]
+]

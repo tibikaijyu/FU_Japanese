@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatches into a robotic Orbis, which regularly regurgitates spare parts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スペアパーツを定期的に回転させるロボットオルビスにハッチします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orbis Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オルビスエッグ"
+    }
+  ]
+]

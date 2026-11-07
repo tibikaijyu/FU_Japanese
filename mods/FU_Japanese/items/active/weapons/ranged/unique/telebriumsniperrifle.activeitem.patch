@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Telebrium Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "テレブリアムブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poisonous rounds are handy in a pinch.\n^cyan;Fast projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "痛いラウンドはピンチで便利です。\n^cyan;速い発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリア狙撃ライフル"
+    }
+  ]
+]

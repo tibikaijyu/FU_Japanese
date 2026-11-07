@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Death themed body armor!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死をテーマにしたボディアーマー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalker's Robe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーカーのローブ"
+    }
+  ]
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "version": "0.2.2",
+  "python_assertions": 2459,
+  "lua_assertions": 1467,
+  "complete_species_cases_lf_and_crlf": 44,
+  "line_ending_variant_groups_tested": 126,
+  "description_variants_tested": 136,
+  "field_overrides_checked": 349,
+  "runtime_tested": false,
+  "scope": "Actual Lua helper and stat-window display function with fixed FU data and mocked root/widget APIs; Starbound-style require executes the helper and returns nil; full known FU species assets with LF and physical CRLF; all field override tags/numbers/newlines; exact source guards and unknown-source preservation.",
+  "limits": "Does not run Starbound or determine the exact untranslated text in the user PAK. Native window rendering and layout require game-side confirmation."
+}

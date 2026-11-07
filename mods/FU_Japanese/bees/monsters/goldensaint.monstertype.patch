@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A goldensaint bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金色の聖蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goldensaint Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンサントビー"
+    }
+  ]
+]

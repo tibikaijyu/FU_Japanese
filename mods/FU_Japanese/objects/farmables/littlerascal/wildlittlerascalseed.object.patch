@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its produce will restore health and energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その生産は健康とエネルギーを回復させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uri Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウリ種子"
+    }
+  ]
+]

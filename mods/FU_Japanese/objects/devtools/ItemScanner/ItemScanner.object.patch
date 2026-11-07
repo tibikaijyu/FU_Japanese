@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Debug tool to print all that an item is to the log."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムがすべてログに出力するデバッグツール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムスキャナー"
+    }
+  ]
+]

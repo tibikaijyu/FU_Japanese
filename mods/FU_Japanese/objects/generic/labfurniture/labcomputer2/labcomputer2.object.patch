@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This cool computer is making a lot of 'beep boop boop beep' noises."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このクールなコンピューターは、多くの「ビープ音のブーンビープ音」を鳴らしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アドバンストモニタ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One gnome was harmed in making this sandwich. \n^cyan;+^reset;20%^green; HP^reset;^cyan; +^reset;20%^green; Energy^reset; ^blue;Madness Gain^reset; 3 ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このサンドイッチを作るのに一回はけがをした。 \n^cyan;+^reset;20%^green; HP^reset;^cyan; +^reset;20%^green; エネルギー^reset; ^blue;狂気の高まり^reset; 3 ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gnomewich"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グノメウィッチ"
+    }
+  ]
+]

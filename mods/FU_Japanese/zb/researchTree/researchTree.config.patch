@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/consumptionText/value",
+      "value": "Will not consume currency\nWill not consume items"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/consumptionText/value",
+      "value": "通貨を消費しません\nアイテムを消費しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/infoList/children/unlocksLabel/value",
+      "value": "^green;Unlocks:\n\n\n"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/infoList/children/unlocksLabel/value",
+      "value": "^green; ロック解除します。\n\n\n"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/researchButton/caption",
+      "value": "Research"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/researchButton/caption",
+      "value": "研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/title/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/title/value",
+      "value": "私は間違いです"
+    }
+  ]
+]

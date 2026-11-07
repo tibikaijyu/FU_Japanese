@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A spear made for keeping enemies at bay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を湾に留めるために作られたスピア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Skath Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化スケース"
+    }
+  ]
+]

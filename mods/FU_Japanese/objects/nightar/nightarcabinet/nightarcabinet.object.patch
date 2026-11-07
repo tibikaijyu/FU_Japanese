@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleek looking cabinet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "洗練されたキャビネット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間内閣"
+    }
+  ]
+]

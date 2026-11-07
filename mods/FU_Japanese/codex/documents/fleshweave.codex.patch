@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "A colorful magazine loaded with all sorts of wonderful sewing and decorative craft instruction. Every single object is crafted in flesh from other races, which is likely quite upsetting if you are not a Floran. Of note, three separate articles detail removing flesh from a still-living 'donor'."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "色とりどりの縫製と装飾的なクラフトインストラクションが詰まったカラフルな雑誌。 すべてのオブジェクトは他の人種から肉体で作られています。 注目すべきは、まだ生きている「ドナー」から肉を取り除く三つの別々の記事です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floran Interior Design"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花のインテリアデザイン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Fleshweaving Quarterly"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "四分の一の糸織り"
+    }
+  ]
+]

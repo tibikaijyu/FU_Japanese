@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Siphons atmospheric particulates and recycles them into water. Must be ^red;25 tiles^reset; from other X'ian wells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイフォンは、大気中の粒子を水にリサイクルします。 他のシアン井戸から^red;25タイル^reset;でなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Well"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの井戸"
+    }
+  ]
+]

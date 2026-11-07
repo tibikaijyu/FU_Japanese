@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What IS this disgusting creation?! \n^red;-^reset;5^red;% Health^reset; \n^blue;Madness Gain^reset; 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この嫌な創造とは? \n^red;-^reset;5^red;% 健康^reset; \n^blue;狂気の高まり^reset; 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Boogerbread"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブーガーパン"
+    }
+  ]
+]

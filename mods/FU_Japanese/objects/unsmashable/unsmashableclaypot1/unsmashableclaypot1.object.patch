@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A small clay pot. Should I smash it?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "小さな土鍋。 壊すべきですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A clay pot. It might have something useful in it!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "土鍋。 何か便利なことがあるかもしれない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decorative clay pot. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装飾的な粘土鍋。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thiss clay pot can be ssmasshed!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "この土鍋は固まることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Interested. Breaking this fragile pot will reveal the contents inside."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興味津々。 この壊れやすい鍋を壊すと中身が見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I think there's something in there. I can probably break it open."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "何かあると思います。 私はおそらくそれを開けることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This clay pot was carefully crafted, but the contents cannot be explored without breaking it."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この土鍋は丁寧に作られましたが、中身を壊さずに探検することはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I'd bet I could smash this 'ol pot with one shot."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この鍋を一発で壊せると思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Clay Pot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型粘土鍋"
+    }
+  ]
+]

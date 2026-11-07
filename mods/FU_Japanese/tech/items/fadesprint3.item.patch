@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ultimate sprint."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "究極のスプリント。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Phase Sprint III^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;フェーズスプリントIII^reset;"
+    }
+  ]
+]

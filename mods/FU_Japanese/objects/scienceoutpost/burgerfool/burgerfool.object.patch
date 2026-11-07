@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Overpriced, crappy burgers, fries and expired milk with bees."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "価格も高すぎ、ハンバーガー、フライドポテト、ミルクに蜂が入ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Burger Fool^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;バーガーファウル^reset;"
+    }
+  ]
+]

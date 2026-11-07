@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beep-Beep!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビープビープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Giddy. Beep-Beep!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ガキ。 ビープビープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Jeep"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人間のジープ"
+    }
+  ]
+]

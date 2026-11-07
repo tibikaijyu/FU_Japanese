@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ingesting this 'fruit' alters your brain chemistry for a short time at the expense of defense. \n^yellow;^reset;^cyan;Research Bonus^reset;: ^cyan;+5 ^reset;,^yellow;^reset;^cyan;Defense x0.5^reset;: 300s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この「果物」を摂取すると、防御費を負担して、あなたの脳の化学反応が短時間変わります。 \n^yellow;^reset;^cyan;研究賞^reset;: ^cyan;+5 ^reset;,^yellow;^reset;^cyan;防衛x0.5^reset;: 300ス)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neuropod Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神経節球"
+    }
+  ]
+]

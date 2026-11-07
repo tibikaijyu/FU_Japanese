@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "This book is 266 pages in length, and details the various rules that govern the Honor code of the Nightar people. It seems that nearly everything they do is subject to this code, in some small way. There are even tenets dictating proper honor during mealtimes. This seems rather absurd."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "この本は266ページの長さであり、ナイターの人々名誉のコードを管理するさまざまなルールを詳述します。 彼らが行うほとんどすべてが、いくつかの小さな方法で、このコードの対象になっているようです。 食事中に適切な名誉を指示する教義もあります。 これはかなりばかげているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It is mandatory."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "必須です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Honor"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "名誉"
+    }
+  ]
+]

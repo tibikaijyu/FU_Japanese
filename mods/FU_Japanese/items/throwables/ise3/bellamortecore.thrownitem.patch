@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This weapon spews out a cheery neurotoxin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この武器は陽気な神経毒を吐き出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bella Morte Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラ・モルテ爆弾"
+    }
+  ]
+]

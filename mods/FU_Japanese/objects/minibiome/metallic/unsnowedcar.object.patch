@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A multi-purpose exploration vehicle. ^red;Decorative. Does not drive.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多目的探査車。 ^red; 装飾的。 運転はしない。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scientific Rover"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイエンティフィックローバー"
+    }
+  ]
+]

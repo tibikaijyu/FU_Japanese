@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A purple and green gem that sparkles in the sun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の下で輝く紫と緑の宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kespar Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケスパー結晶"
+    }
+  ]
+]

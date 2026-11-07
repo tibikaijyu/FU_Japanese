@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This strange machine appears to be...actually, I can't even imagine what is within."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この奇妙な機械は...実際、私は中に何があるか想像すらできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙な装置"
+    }
+  ]
+]

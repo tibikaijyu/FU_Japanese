@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange veins course through this stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この石を通り抜ける不思議な静脈。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodvein Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "静脈ブロック"
+    }
+  ]
+]

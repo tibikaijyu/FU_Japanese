@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This element has many uses in science and tech due to its semiconductor property."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この素子は半導体特性から、科学技術分野で多くの用途があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silicon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケイ素"
+    }
+  ]
+]

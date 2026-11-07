@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Normal shades. Or are they?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "通常の色合い。 それともそうでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neat Shades"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "きちんとした陰影"
+    }
+  ]
+]

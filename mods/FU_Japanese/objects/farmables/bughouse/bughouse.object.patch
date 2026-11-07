@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attracts insects! All sorts of creepy crawlies can live in here."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "虫を誘う! あらゆる不気味なクローリーがここに住んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bug House"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バグハウス"
+    }
+  ]
+]

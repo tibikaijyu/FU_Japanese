@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy-duty pipe used for transporting fluids, gases and anything else that can fit!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体や気体など、フィットできるものは何でも輸送できるヘビーデューティパイプ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボパイプ"
+    }
+  ]
+]

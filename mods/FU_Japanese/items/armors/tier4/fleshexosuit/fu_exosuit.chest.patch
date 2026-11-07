@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^green;1^reset;/^green;2^reset;% Health Regen when under ^cyan;50^reset;/^cyan;25^reset;% Health\n^yellow;^reset; ^green;12^reset;% Speed, Jump\n^yellow;^reset; ^green;5^reset;% Energy Regen, reduced recharge time\n^yellow;^reset; Bio-Weapon: Damage x^green;1.15^reset;\n^cyan;Immune^reset;: Pus"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^green;1^reset;/^green;2^reset;% 下における健康再生 ^cyan;50^reset;/^cyan;25^reset;% 健康\n^yellow;^reset; ^green;12^reset;% スピード、ジャンプ\n^yellow;^reset; ^green;5^reset;% エネルギー再生、充電時間の短縮。\n^yellow;^reset;生物兵器:損傷x^green;1.15^reset;\n^cyan;無効化^reset;:膿"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bio-Flesh Torso"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオフレッシュ・トーソ"
+    }
+  ]
+]

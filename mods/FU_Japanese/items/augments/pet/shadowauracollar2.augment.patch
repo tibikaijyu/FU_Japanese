@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Shadow Aura II"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "シャドーアウラII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet gets a shadow aura!\n^green;+40%^reset; Shadow Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは影のオーラをゲット!\n^green;+40%^reset;シャドーレジスタンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Aura Collar II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウオーラカラーII"
+    }
+  ]
+]

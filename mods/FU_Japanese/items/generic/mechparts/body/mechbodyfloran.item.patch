@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Extreme Cold/Poison, Moderate Radiation, Desert/Tropical Heat, L.Nitro"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:極寒/毒、適度な放射線、砂漠/熱帯熱、L.ニトロ"
+    }
+  ]
+]

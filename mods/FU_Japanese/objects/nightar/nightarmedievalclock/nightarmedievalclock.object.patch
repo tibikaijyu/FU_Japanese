@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small clock with a pendulum. It ticks and tocks but the hands never move."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "振り子付きの小さな時計。 くすぐるし、くすぐるが、手は決して動かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Wall Clock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世の壁時計"
+    }
+  ]
+]

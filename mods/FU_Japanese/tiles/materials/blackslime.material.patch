@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extremely viscous black slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極端に粘度の黒い粘り。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒スライム"
+    }
+  ]
+]

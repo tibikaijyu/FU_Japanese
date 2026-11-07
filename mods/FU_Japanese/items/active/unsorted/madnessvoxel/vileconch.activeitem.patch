@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Listening to this shell reveals abhorrent secrets in vile whispers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このシェルを聞くと、悪意のあるささやき声の嫌な秘密が明らかになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vile Conch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "忌まわしい巻き貝"
+    }
+  ]
+]

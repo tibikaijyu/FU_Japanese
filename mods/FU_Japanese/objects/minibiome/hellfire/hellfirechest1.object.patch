@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hellishly hot chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地獄のように熱い胸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄の火の胸"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A red chunk of beeswax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツロウの赤い塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Beeswax"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤ミツロウ"
+    }
+  ]
+]

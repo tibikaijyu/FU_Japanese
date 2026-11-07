@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Preserves your food in a miniature stasis capsule for thousands of years."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何千年もの間、あなたの食べ物をミニチュアスタシスカプセルに保存してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテク冷蔵庫"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter T."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字T。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter T"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レターT"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place unrefined fuel and catalyst in the left slots to make mech fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2; 未精製燃料と触媒を左スロットに入れ、メカ燃料を作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "Refine"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "改良する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2;Refines mech fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2; メカ燃料を精製します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "  Mech fuel refinery"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "  メカ燃料精製所"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Live, vital coral"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生き生きとした重要なサンゴ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Darkwater Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークウォーターサンゴ"
+    }
+  ]
+]

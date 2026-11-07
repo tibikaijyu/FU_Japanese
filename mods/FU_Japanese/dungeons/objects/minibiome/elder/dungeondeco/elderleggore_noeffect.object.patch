@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bloody severed leg from a hapless miner."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶望的な鉱山労働者からの血まみれの切断された足。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloody Leg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれの足"
+    }
+  ]
+]

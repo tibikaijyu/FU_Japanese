@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It won't stop begging for life, unless you eat it.\n^blue;+Insanity^reset; and...? ^orange;Type: Cooked Meat + Vegetables + Dairy + Eggs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食べなければ、一生物ごいはいはいはいやだ。\n^blue;+狂気^reset;と...? ^orange;タイプ: 肉+野菜+乳製品+卵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentient Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキー刑事"
+    }
+  ]
+]

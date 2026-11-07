@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Secretly emits subtle tones to make your tenants like your colony more. ^yellow;+12 Happiness\n^blue;Requires 12J every 5s.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "密かに微妙なトーンを発し、コロニーのようなテナントをより多くします。 ^yellow;+12ハッピー\n^blue;必須 12ジェリー 5ス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Subliminal Messaging"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サブリミナルメッセージング"
+    }
+  ]
+]

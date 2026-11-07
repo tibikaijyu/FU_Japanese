@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious jar of shell honey.^cyan;+^white;30% ^pink;Physical ^cyan;Resistance ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シェルハニーのおいしい瓶。^cyan;+^white;30% ^pink;物理 ^cyan;抵抗 ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shell Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シェルハニージャー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy golden chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な金色の胸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金の胸"
+    }
+  ]
+]

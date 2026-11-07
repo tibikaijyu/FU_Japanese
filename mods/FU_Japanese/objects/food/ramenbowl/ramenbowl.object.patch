@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Hylotl staple - wheat noodles served in a savory meat broth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒロトル・ステープル・小麦の麺は、おいしい肉のスープで供される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmells so good..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "いい匂いがする..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Ravenous. I might actually be willing to risk scalding my mouth for a taste."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "狂った。 私は実際に味のために私の口をscaldingするリスクを喜んでいるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A step up from cup noodles for sure."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "必ずカップ麺からステップアップしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ramen Bowl"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラーメンボウル"
+    }
+  ]
+]

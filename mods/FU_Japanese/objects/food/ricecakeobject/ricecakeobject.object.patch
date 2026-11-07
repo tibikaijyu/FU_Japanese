@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple snack formed of rice, held together by seaweed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海藻で結ばれたお米でできたシンプルなスナック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thessse donuts are great!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "これらのドーナツは素晴らしいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Delighted. Jelly-filled donuts are my favorite."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 ゼリー入りドーナツがお気に入りです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nothin' beats a jelly-filled donut. "
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ゼリーで満たされたドーナツに勝るものはない。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rice Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "餅"
+    }
+  ]
+]

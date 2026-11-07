@@ -1,0 +1,266 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/defaultTooltip",
+      "value": "Hover over a stat for its description"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultTooltip",
+      "value": "その説明のための統計をホバーします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/title/value",
+      "value": "Advanced stats"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/title/value",
+      "value": "先端統計"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/0/tooltip",
+      "value": "Maximum Health"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/0/tooltip",
+      "value": "最大健康状態"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/1/tooltip",
+      "value": "Maximum Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/1/tooltip",
+      "value": "最大エネルギー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/10/tooltip",
+      "value": "Breath Regen Time"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/10/tooltip",
+      "value": "呼吸再生時間"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/11/tooltip",
+      "value": "Knockback Threshold"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/11/tooltip",
+      "value": "ノックバックのしきい値"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/12/tooltip",
+      "value": "Shield Bash Push"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/12/tooltip",
+      "value": "シールドバッシュプッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/13/tooltip",
+      "value": "Charisma"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/13/tooltip",
+      "value": "カリスマ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/14/tooltip",
+      "value": "Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/14/tooltip",
+      "value": "防御力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/15/tooltip",
+      "value": "Energy Block Duration"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/15/tooltip",
+      "value": "エネルギーブロックの持続時間"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/16/tooltip",
+      "value": "Crit Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/16/tooltip",
+      "value": "クリティカルチャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/17/tooltip",
+      "value": "Starvation (Minutes from Full)"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/17/tooltip",
+      "value": "飢餓(満腹から数分)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/18/tooltip",
+      "value": "Fall Damage Mult"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/18/tooltip",
+      "value": "転倒による転倒被害"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/19/tooltip",
+      "value": "Madness Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/19/tooltip",
+      "value": "狂気抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/2/tooltip",
+      "value": "Power Multiplier"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/2/tooltip",
+      "value": "パワー乗算器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/3/tooltip",
+      "value": "Breath Duration"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/3/tooltip",
+      "value": "呼吸時間"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/4/tooltip",
+      "value": "Knockback Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/4/tooltip",
+      "value": "ノックバック抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/5/tooltip",
+      "value": "Shield Bash Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/5/tooltip",
+      "value": "シールド・バッシュ・チャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/6/tooltip",
+      "value": "Healing Bonus"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/6/tooltip",
+      "value": "癒しのボーナス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/7/tooltip",
+      "value": "Health Regen"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/7/tooltip",
+      "value": "健康レーゲン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/8/tooltip",
+      "value": "Energy Regen"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/8/tooltip",
+      "value": "エネルギー再生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltipBoxes/9/tooltip",
+      "value": "Crit Multiplier"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltipBoxes/9/tooltip",
+      "value": "クリット乗算器"
+    }
+  ]
+]

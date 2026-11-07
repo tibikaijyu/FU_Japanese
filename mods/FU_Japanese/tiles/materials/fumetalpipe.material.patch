@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy looking pipe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈に見えるパイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Metal Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜金属管"
+    }
+  ]
+]

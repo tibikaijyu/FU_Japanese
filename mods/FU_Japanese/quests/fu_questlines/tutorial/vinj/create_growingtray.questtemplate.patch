@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "In the first slot, place 3 seeds. In the second, place a liquid to feed the plant with. The third slot is for fertilizer. ^green;Different fertilizers^reset; will result in ^green;different production and growth rates^reset; for plants."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "最初のスロットには種を3個、次には植物に与える液体を入れる。最後は肥料用のスロットだ。^green;肥料の種類^reset;によって、植物の^green;生産量や成長速度が変わる^reset;よ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "While you can farm the old-fashioned way with a hoe , dirt and your own two hands there is another option: ^orange;Growing Trays^reset;. Build one of these at a ^orange;Foraging Table^reset; now, if you have researched it in ^oraange;Agriculture^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "鍬と土と自分の両手で、昔ながらの農業をするのもいい。でも、別の選択肢もある。^orange;栽培トレイ^reset;だ。^orange;採集作業台^reset;で作ってみよう。^oraange;農業^reset;の研究で作り方を学んでおいてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Growing"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "植物を育てよう"
+    }
+  ]
+]

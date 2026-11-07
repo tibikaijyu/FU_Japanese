@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crafted blocks made from hardened aether stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硬化したエーテル石から作られたブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Walls"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルの壁"
+    }
+  ]
+]

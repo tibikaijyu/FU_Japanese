@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "It may not seem like much...but paper will come in handy when yer least expectin' it. Besides, it's great for writin', no matter how pretty a computer can make things look."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "大した物には見えんかもしれんが……紙は意外な時に役立つ。どれだけコンピューターできれいに作れても、紙に書くのはいいもんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Craft ^orange;10 Paper^reset; at a ^orange;Furnace^reset; and return to ^green;Welchie^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;紙を10枚^reset;、^orange;炉^reset;で作り、^green;ウェルチー^reset;の所へ戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've got a tip for you: You can make ^orange;Paper^reset; in a ^orange;Furnace^reset;! I could use say, ^orange;10^reset; pieces. I'm fixin' to write some letters to loved ones."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "いいことを教えよう。^orange;紙^reset;は^orange;炉^reset;で作れるんだ！ そうだな、^orange;10^reset;枚ほど欲しい。大切な人たちに手紙を書きたくてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Homestead II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "田舎暮らし II"
+    }
+  ]
+]

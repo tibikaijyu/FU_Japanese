@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge, powerful battery perfect for massive energy storage.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;18000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大容量エネルギー貯蔵に最適な、巨大で強力なバッテリー。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;18000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a94db3;Ultra^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a94db3;Ultra^reset;バッテリー"
+    }
+  ]
+]

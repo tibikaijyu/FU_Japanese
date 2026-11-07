@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tall lamp, with each light capped in amber casing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高いランプで、各光はアンバーケーシングで覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバーランプ"
+    }
+  ]
+]

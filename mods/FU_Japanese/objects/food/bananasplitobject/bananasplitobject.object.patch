@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The secret ingredient in this Apex favourite is pineapple!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このエイペックスのお気に入りはパイナップルです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Two ssscoops!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "二つのサスクープ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Deliberative. I highly doubt this is very healthy, BUT..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "審議。 私はこれが非常に健康的であると非常に疑っていますが、しかし..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Lots of fruit to spare, it looks like."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "たくさんの果物を余すところなく、それは見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Split"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナスプリット"
+    }
+  ]
+]

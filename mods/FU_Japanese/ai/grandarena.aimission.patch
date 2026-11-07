@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "The Grand Arena (5)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "グランドアリーナ (5)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "The Grand Arena (5) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "グランドアリーナ (5) (R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "I've received world of a grand Floran jungle arena where hunters test themselves against monsters from all over. There are prizes too, it could be worth checking out!"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "ハンターがモンスターに試着する、グランドなフロラン・ジャングルのアリーナが世界中から届きました。 賞品もありますので、チェックする価値あり!"
+    }
+  ]
+]

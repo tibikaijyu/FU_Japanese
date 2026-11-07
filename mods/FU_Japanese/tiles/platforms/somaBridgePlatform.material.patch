@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleek, low impact platforming device."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "洗練された、低インパクトのプラットフォームデバイス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glass bridge platform."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガラス橋プラットフォーム。"
+    }
+  ]
+]

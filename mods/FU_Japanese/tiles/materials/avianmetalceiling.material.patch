@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Metal Ceiling"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴィアン金属天井"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal panel typically used for ceiling structure using Avian technology."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アビアン技術を用いた天井構造に使用される金属パネル。"
+    }
+  ]
+]

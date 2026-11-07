@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extremely viscous blue slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極端に粘りのある青色のスライム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "青いスライム"
+    }
+  ]
+]

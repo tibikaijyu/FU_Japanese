@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I'll be zonked out of my mind, but damn I'll be fast!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "気が狂いそうになるけど、くそっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've devised an upgrade to the Stimulant Rig"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "刺激リグの改良を考案しました"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Stimulant Rig II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "刺激リグII"
+    }
+  ]
+]

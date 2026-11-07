@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient holographic depiction of a many-limbed horror."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のホログラフィックで、多肢恐怖を描き出しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "A tentacular being destroying a planet, almost like... Oh. Ah. I see."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "まるで... 惑星を壊しているような触手。 ああ。 ああ。 なるほど。"
+    }
+  ]
+]

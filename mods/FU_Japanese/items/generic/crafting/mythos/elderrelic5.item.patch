@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange glyph with an embossed symbol."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エンボスシンボルの奇妙なグリフ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Ancient Glyph^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;古代グリフ^reset;"
+    }
+  ]
+]

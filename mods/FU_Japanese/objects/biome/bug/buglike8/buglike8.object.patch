@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smoothe and unusual chitinous mass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかで珍しいキチン質塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

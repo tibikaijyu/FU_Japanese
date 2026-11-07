@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect craftsmanship by some sort of fish-man-thing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魚の技で完璧な職人技。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老内閣"
+    }
+  ]
+]

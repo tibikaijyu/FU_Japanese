@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "Bumpy Warts:"
+    },
+    {
+      "op": "replace",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "バンピー・ワーツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "Ostriches:"
+    },
+    {
+      "op": "replace",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "オストリーチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Yorp^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ヨープ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speedTitleLabel/value",
+      "value": "Screams:"
+    },
+    {
+      "op": "replace",
+      "path": "/speedTitleLabel/value",
+      "value": "悲鳴"
+    }
+  ]
+]

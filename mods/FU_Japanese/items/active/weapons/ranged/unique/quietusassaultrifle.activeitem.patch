@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blaster Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブラスターボール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A unique flavor of bioweapon that avoids violations of intergalactic law.\n^cyan;Reduces healing on targets by 30%^reset;. (10s)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河間法則の違反を避ける、ユニークなバイオ武器。\n^cyan;ターゲットの癒しを軽減します。 30%^reset;. (10s)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスのアサルトライフル"
+    }
+  ]
+]

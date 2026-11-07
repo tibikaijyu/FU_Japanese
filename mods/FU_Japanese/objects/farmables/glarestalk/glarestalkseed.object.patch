@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is one ugly plant mutant. Immune to insanity, and increases damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは一つの不快な植物突然変異体です。 狂気に免疫し、損傷を増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glarestalk Gib"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレアストークギブ"
+    }
+  ]
+]

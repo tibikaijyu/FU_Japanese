@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A SinCo. brand shotgun mech arm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シンコ。 ブランドショットガン・メカ腕"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mech Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカショットガン"
+    }
+  ]
+]

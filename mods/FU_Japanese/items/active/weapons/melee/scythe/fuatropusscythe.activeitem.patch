@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Plague Wave"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ペスト波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Repulsive, yet deadly.\n^cyan;Plague-Bearing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷酷で、致命的である。\n^cyan;ペストベアリング^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshweave Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュウィーブスキス"
+    }
+  ]
+]

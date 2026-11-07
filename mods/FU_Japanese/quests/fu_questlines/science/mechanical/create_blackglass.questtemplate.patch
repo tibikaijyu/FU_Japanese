@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Fantastic work! Truly amazing. Thank you for the help. As thanks, here's payment for your troubles."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事! 本当にすごい。 助けてくれてありがとう。 ありがとう、ここであなたのトラブルの支払いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Black Glass^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;黒ガラス^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Do you have a ^orange;Blast Furnace^reset; yet? If so, try to smelt ^orange;Obsidian^reset; and bring me the results. I will be most grateful for your assistance."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; Blast 炉 ^reset; をまだ持っていますか? もしそうなら、^orange;Obsidian^reset; をかき混ぜて、結果を持ってきてください。 ご協力を賜りますようお願い申し上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark Stained Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ダークステンドグラス"
+    }
+  ]
+]

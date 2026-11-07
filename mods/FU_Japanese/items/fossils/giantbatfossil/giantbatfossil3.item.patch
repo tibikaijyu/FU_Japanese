@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Vampiradon torso."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたヴァンピラドンの胴体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vampiradon Torso"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァンピラドントルソ"
+    }
+  ]
+]

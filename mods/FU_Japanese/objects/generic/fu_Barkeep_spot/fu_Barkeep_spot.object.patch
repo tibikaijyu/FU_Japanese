@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bar keep counter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バーカウンター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bar Keep Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーカウンター"
+    }
+  ]
+]

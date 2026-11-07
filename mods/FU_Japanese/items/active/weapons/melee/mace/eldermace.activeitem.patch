@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#a5ff00;In your hand, it has no weight. Your rage grows with each moment.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#a5ff00; あなたの手では、それは重量がありません。 あなたの怒りは、その瞬間ごとに高まります。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#a5ff00;Elder Soulhammer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#a5ff00; 年長魂ハンマー ^reset;"
+    }
+  ]
+]

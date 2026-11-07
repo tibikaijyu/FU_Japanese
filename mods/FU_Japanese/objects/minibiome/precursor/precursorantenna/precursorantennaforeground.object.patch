@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An exceptionally crafted transmitter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に優れたトランスミッタです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Transmatter Antenna"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トランスマターアンテナ"
+    }
+  ]
+]

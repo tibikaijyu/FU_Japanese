@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A screen displaying text in the Skath language."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカース語でテキストを表示する画面。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Energy Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカースエネルギースクリーン"
+    }
+  ]
+]

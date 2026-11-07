@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A terrible mutation of the poptop. Aggressive and dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポップトップの恐ろしい突然変異。 攻撃的で危険。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowtop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウトップ"
+    }
+  ]
+]

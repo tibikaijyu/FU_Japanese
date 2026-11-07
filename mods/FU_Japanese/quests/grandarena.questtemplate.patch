@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now that was one hell of a brawl! Time to claim my hard-earned loot!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "さぁ、あれは一戦一敗だ! 私の苦労した略奪を主張する時間!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Survive all waves in the Grand Arena without dying."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "死なずにグランドアリーナですべての波を生き抜く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map shows me the way to a grand jungle arena where Floran hunters go test their strength. There's a prize advertised for those who manage to survive..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図では、フローランハンターが力を試すグランドジャングルアリーナへの道を教えてくれます。 生き延びた人には賞品が贈られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Grand Arena"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;グランドアリーナ。"
+    }
+  ]
+]

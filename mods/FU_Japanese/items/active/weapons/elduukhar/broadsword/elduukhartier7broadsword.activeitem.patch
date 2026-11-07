@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This greatsword was designed more for vanity than practicality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この偉大な剣は実用性よりも虚栄心のために設計されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fused Emera Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "融合エメラブロードソード"
+    }
+  ]
+]

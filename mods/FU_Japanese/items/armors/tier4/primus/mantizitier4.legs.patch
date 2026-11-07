@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Fists: Damage x^green;1.15^reset;, +^green;3^reset;% Crit Chance\n^yellow;^reset; +^green;50^reset;% Knockback Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 拳: ダメージ x^green;1.15^reset;, +^green;3^reset;% クリティカルチャンス\n^yellow;^reset; +^green;50^reset;% ノックバック抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primus Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリムススカート"
+    }
+  ]
+]

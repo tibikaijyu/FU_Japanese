@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mass-produced mech boosters, with external fuel tank attachments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "外付け燃料タンクを取り付けた量産型メカブースター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stock Mech Boosters"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストックメカブースター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small crayon box for your table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テーブル用の小さなクレヨンボックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Crayon Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型クレヨン箱"
+    }
+  ]
+]

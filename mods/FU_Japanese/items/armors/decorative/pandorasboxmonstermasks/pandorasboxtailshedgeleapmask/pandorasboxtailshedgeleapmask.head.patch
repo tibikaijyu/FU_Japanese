@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not capable of flying high."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高く飛べない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tails Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テイルズ・ヘッジジャンプ・マスク"
+    }
+  ]
+]

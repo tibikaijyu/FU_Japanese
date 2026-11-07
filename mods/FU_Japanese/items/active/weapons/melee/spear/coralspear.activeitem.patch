@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dangerously sharp bits of coral. Stabby!\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険なほど鋭いサンゴのビット。 安定しろ!\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴ"
+    }
+  ]
+]

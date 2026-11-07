@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly unforgettable bathing experience!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に忘れられない入浴体験!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Bathtub"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテク浴槽"
+    }
+  ]
+]

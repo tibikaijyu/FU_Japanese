@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides access to the contents of connected storage containers.\n^blue;Input: ^white;item network^reset; ^red;UNRELIABLE AT RANGE!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "接続されたストレージコンテナの内容へのアクセスを提供します。\n^blue;入力: ^white;アイテムネットワーク^reset; ^red;信頼できない範囲!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Network Terminal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムネットワーク端末"
+    }
+  ]
+]

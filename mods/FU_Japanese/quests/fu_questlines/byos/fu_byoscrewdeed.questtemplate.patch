@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "For each additional crewmate you'll need a new crew deed. Interacting with the ^green;Crew Deed^reset; when it has issues will show what they are."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "クルーメイトは、新しいクルー証書が必要です。 ^green;船員 契約書 ^reset; と対話すると、それが何であるかが表示されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^green;Crew Deeds^reset; allow you to ^orange;Hire Crewmates^reset; if you place them in an enclosed room that contains at least 1 ^orange;Door^reset;, 1 ^orange;Light^reset; and 1 ^orange;Bed^reset;. Build one at a ^orange;Ship Component Assembler^reset; and place it on your ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;乗組員の行動^reset; 許して ^orange;クルーメイトを雇う^reset; 少なくとも 閉じられた部屋に入れれば 1 ^orange;ドア^reset;, 1 ^orange;光^reset; そして 1 ^orange;ベッド^reset;. ^orange;船 部品 組立機 ^reset; でビルドして、船上に置きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Crew Quarters"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "乗組員クォーター"
+    }
+  ]
+]

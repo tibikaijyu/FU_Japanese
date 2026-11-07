@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.05% HP Regen, Immune: Insanity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.05%体力再生, 無効化: 狂気 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshrot Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレストロットシールド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare meat with potent nutrients\n^cyan;+^white;15% ^cyan;HP ^gray;(^white;125s^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "栄養価の高い希少な肉。\n^cyan;+^white;15% ^cyan;HP ^gray;(^white;125ス)^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horkulbeast Sausage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホルクルビーストソーセージ"
+    }
+  ]
+]

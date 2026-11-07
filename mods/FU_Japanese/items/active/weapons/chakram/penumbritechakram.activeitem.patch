@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Precise and powerful, and shiny!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "正確で強力で、光沢があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Chakram"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライトチャクラム"
+    }
+  ]
+]

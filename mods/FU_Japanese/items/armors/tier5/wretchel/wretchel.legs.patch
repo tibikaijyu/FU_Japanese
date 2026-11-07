@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Low Gravity^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Pus, Bio-Ooze"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;低重力^reset;\n^yellow;^reset; ^cyan;免疫^reset;毒、膿、バイオオオゼ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wretchel Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レンシェル・パンツ"
+    }
+  ]
+]

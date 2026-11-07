@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid, with rivets for added rivety-ness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リベット付きのソリッドで、リベットを追加しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rivetted Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リベットサポート"
+    }
+  ]
+]

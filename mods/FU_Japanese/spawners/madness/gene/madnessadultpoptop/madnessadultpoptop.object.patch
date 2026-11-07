@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An adult, voracious Poptop."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大人の、熱狂的なポップトップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop Adult"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップ大人"
+    }
+  ]
+]

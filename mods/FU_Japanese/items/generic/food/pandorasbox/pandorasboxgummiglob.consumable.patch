@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A somewhat chewy, gelatinous glob. Has a hint of sweetness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やや噛みしめ、ゼラチン状の球体。 甘さのヒントがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gummi Glob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グミグローブ"
+    }
+  ]
+]

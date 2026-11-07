@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderfully layered bit of icy ground.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷に覆われた地面の素晴らしい層。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deep-Frozen Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深凍氷"
+    }
+  ]
+]

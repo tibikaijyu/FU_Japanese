@@ -1,0 +1,230 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/0",
+      "value": "Live a little, buy a corpse!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/0",
+      "value": "少し生きる、死体を買う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/1",
+      "value": "Got some extra dead stuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/1",
+      "value": "余分な死んだものを手に入れました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/2",
+      "value": "Hey there... want some corpses?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/converse/avian/default/2",
+      "value": "ねえ... 死体が欲しい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/0",
+      "value": "OK, that's a few more corpses 'buried'..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/0",
+      "value": "よし、これでまた何体かの死体が「埋葬」されたな……。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/1",
+      "value": "I hope the Stargazers don't find out about this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/1",
+      "value": "スターゲイザーがこれについて知ることができないことを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/2",
+      "value": "Whatever you're going to do with them, I don't wanna know."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/avian/default/2",
+      "value": "彼らと何をするにしても、私は知りたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/avian/default/0",
+      "value": "This way, this way!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/avian/default/0",
+      "value": "こっちへ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/avian/default/1",
+      "value": "Gotta keep my secrets. Follow me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/avian/default/1",
+      "value": "ゴッタは私の秘密を守ってくれます。 ついて来なさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/0",
+      "value": "Live a little, buy a corpse!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/0",
+      "value": "少し生きる、死体を買う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/1",
+      "value": "Got some extra dead stuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/1",
+      "value": "余分な死んだものを手に入れました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/2",
+      "value": "Hey there... want some corpses?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/avian/default/2",
+      "value": "ねえ... 死体が欲しい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/0",
+      "value": "Live a little, buy a corpse!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/0",
+      "value": "少し生きる、死体を買う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/1",
+      "value": "Got some extra dead stuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/1",
+      "value": "余分な死んだものを手に入れました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/2",
+      "value": "Hey there... want some corpses?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/tout/avian/default/2",
+      "value": "ねえ... 死体が欲しい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/0",
+      "value": "These weren't going to Kluex anyways."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/0",
+      "value": "いずれにせよ、これらはクルエックスには行きませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/1",
+      "value": "Ooh - I think that one's brain is still good."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/1",
+      "value": "おお - 私は人の脳はまだ良いと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/2",
+      "value": "Plenty of corpses. Got some royal stuff too."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/avian/default/2",
+      "value": "たくさんの死体。 王室のものもあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  The Igor to your Frankenstein."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  あなたのフランケンシュタインへのイゴール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Avian Gravedigger"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  アヴィアン・グレイブディガー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+30% Physical & Knockback Res.^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+30%物理&ノックバックレス。^reset;:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Teratomato"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寺トマト"
+    }
+  ]
+]

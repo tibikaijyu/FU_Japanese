@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+10% Physical & Knockback Res.^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+10%物理&ノックバックレス。^reset;:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Root"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液"
+    }
+  ]
+]

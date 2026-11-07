@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metallic hive construct."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属製のハビタリー構造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Hive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼片"
+    }
+  ]
+]

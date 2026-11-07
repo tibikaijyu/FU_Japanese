@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This dresser has a musty smell. It doesn't look very clean."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドレッサーは臭いがする。 あまりきれいに見えません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世のドレス"
+    }
+  ]
+]

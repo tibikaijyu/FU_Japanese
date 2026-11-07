@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The purpose of these runed wands is unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "使用目的は不明である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Rune Wand^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e; 実行ワンド ^reset;"
+    }
+  ]
+]

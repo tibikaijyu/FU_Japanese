@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loads Psionic Focii."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超能力 Fociiをロードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psionic Focus Loader"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピオニクスフォーカスローダ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Fill Empty Focii"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "空の焦点を埋める"
+    }
+  ]
+]

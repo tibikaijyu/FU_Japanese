@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impossibly good fuel.\n^blue;+^white;3000 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど良い燃料。\n^blue;+^white;3000 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Purrpetual Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "紫外エネルギー"
+    }
+  ]
+]

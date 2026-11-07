@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gun shoots sticky honey!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この銃はべたべたした蜂蜜を撃ちます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーガン"
+    }
+  ]
+]

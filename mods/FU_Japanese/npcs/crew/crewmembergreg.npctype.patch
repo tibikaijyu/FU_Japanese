@@ -1,0 +1,638 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Greg"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "グレッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Gregology"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "グレゴロジー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Greg"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "グレッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "Greg. Greeeeg greg greg Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "グレッグ グリーングレッググレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Greg!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "グレッグ!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "グレッグ。グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
+      "value": "Gregggggga gregga greg greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
+      "value": "グレッグガグレッググレッググレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/6",
+      "value": "Greg!? Greg. Gregga."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/6",
+      "value": "グレッグ!? グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/7",
+      "value": "Greg. Gregogreg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/7",
+      "value": "グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Greg!!!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "グレッグ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": ".....Greg!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "....グレッグ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "Gregga greg! Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "グレッグ! グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "...Greg? GREGGGGG!!!!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "グレッグ? グレッグ GG GG!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "...............greg. Gregga greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "... ... グレッグ。 グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "Greg. Greeeeg greg greg Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "グレッグ グリーングレッググレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "Greg!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "グレッグ!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "グレッグ。グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/5",
+      "value": "Gregggggga gregga greg greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/5",
+      "value": "グレッグガグレッググレッググレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/6",
+      "value": "Greg!? Greg. Gregga."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/6",
+      "value": "グレッグ!? グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/7",
+      "value": "Greg. Gregogreg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/7",
+      "value": "グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "Greg. Greeeeg greg greg Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "グレッグ グリーングレッググレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "Greg!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "グレッグ!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "グレッグ。グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/5",
+      "value": "Gregggggga gregga greg greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/5",
+      "value": "グレッグガグレッググレッググレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/6",
+      "value": "Greg!? Greg. Gregga."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/6",
+      "value": "グレッグ!? グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/7",
+      "value": "Greg. Gregogreg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/7",
+      "value": "グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "Greg. Greeeeg greg greg Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "グレッグ グリーングレッググレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "Greg!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "グレッグ!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "グレッグ。グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "Gregggggga gregga greg greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "グレッグガグレッググレッググレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "Greg!? Greg. Gregga."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "グレッグ!? グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "Greg. Gregogreg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "Greg. Greeeeg greg greg Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "グレッグ グリーングレッググレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "Greg!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "グレッグ!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
+      "value": "Greg. Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
+      "value": "グレッグ。グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
+      "value": "Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
+      "value": "虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
+      "value": "Gregggggga gregga greg greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
+      "value": "グレッグガグレッググレッググレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
+      "value": "Greg!? Greg. Gregga."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
+      "value": "グレッグ!? グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
+      "value": "Greg. Gregogreg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
+      "value": "グレッグ グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": ".....Greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "....グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "Gregga greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "グレッグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "...Greg?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "グレッグ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "...............greg."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "... ... グレッグ。"
+    }
+  ]
+]

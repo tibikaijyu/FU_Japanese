@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Allows a X'i to craft pieces of itself through direct melding."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シーは直接溶融することで、自分自身の部品を作製することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;For everything to do with X'i"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; X'i で行うすべてのこと。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;X'ian Forming Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;X'ian 形成球根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Forming Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの成形球根"
+    }
+  ]
+]

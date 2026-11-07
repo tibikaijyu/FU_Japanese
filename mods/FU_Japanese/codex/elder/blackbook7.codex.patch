@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "To invoke the hive-mind representing chaos.\n    Invoking the feeling of chaos.\n    With out order.\n    The Nezperdian hive-mind of chaos. Zalgo.\n    He who Waits Behind The Wall.\n    "
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "混迷を表すハイブマインドを呼び出す。\n    混乱感を呼び起こす。\n    順序なし。\n    ネズペルディアの混乱の精神ザルゴ\n    壁の後ろで待つ人。\n    "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient text that makes no sense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "意味のない古代のテキスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Xallosh Feer"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "カロシュビール"
+    }
+  ]
+]

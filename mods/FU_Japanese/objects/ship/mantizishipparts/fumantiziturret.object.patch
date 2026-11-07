@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "O, I am fortune's fool! I defy you, stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おお、私は幸運の愚か者です! 星よ、君に敵対するぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizi Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンチジ・タレット"
+    }
+  ]
+]

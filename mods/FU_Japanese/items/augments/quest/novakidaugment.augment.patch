@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "The Dawn Sigil"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "夜明けシジル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;10^reset;% Pistol Mastery\n+^green;10^reset;% Sniper Mastery  \nEnergy x^green;1.15^reset;\n^orange;Glow in the Dark^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;10^reset;% ピストルマスター。\n+^green;10^reset;% 狙撃手  \nエネルギーx^green;1.15^reset;\n^orange; 闇に光る ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Dawn Sigil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜明けシジル"
+    }
+  ]
+]

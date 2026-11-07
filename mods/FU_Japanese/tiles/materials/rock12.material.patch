@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined limestone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、洗練されていない石灰岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Limestone."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 石灰岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Limestone Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石灰岩ブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A support made of tethyde alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テチド合金製のサポート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tethyde Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テチドのサポート"
+    }
+  ]
+]

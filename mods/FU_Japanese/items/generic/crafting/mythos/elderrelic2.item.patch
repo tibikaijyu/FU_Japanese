@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A piece of the fabled Celaeno."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説のセレノ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Celaeno Fragment^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;セラエノフラグメント^reset;"
+    }
+  ]
+]

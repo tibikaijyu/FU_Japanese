@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Erchius Mining Facility (3)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "エルキウス採掘施設 (3)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Revisit the Erchius Mining Facility (3)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "エルキウス採掘施設を再訪する (3)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "This (^cyan;optional^reset;) Facility is the central source of Erchius Crystals. A distress call beckons us to help."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "この(^cyan;オプション^reset;)施設は、エルキウス 結晶の中心源です。 苦痛の電話が助けを呼ぶ。"
+    }
+  ]
+]

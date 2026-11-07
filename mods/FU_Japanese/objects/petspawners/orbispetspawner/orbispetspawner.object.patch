@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawns in a pet orbis! \n^orange;To locate it after placing, toggle wire mode.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットオルビスで産卵! \n^orange; ワイヤーモードを切り替える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Orbis Spawner^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;Orbisスパウナー^reset;"
+    }
+  ]
+]

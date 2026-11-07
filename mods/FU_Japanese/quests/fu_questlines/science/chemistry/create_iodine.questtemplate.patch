@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Good work! Several basic ingredients such as ^orange;Iodine^reset; are essential. So stay stocked! You'll need ^orange;Iodine^reset; specifically to make ^orange;Graphene^reset; and high quality ^green;fertilizers^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よくやった! ^orange;ヨウ素^reset;などのいくつかの基本成分が不可欠です。 だから在庫を保て! 必要なのは ^orange;私は^reset; 特に ^orange;グラフェン^reset; 高品質で ^green;肥料^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Iodine^reset; to ^green;Bella^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;私は^reset; です ^green;ベラ^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You'll need to find some ^orange;Caliche Stone^reset; if you want to get ^orange;Iodine^reset;. Throw batches of ^orange;Caliche Stone^reset; into your ^green;extraction lab^reset; and bring me some! You'll find them in ^orange;Desert^reset; biomes."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;カリーチェ Stone ^reset; は、^orange;ヨウ素 ^reset; を取得したい場合に必要です。 ^orange;カリーチェ Stone ^reset; を ^green;抽出ラボ^reset; に投入して、お持ちください! ^orange; 砂漠 ^reset;バイオーム に表示されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Essential Ingredient"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "必須成分"
+    }
+  ]
+]

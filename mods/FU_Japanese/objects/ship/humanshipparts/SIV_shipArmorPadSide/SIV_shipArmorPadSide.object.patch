@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Armored Pad Side for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の装甲パッドサイド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Armored Pad Side"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人造のパッドサイド"
+    }
+  ]
+]

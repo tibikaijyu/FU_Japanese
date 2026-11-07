@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sort of energy-infused, beer-ish liquid.\n^cyan;+^white;20% ^pink;Poison ^cyan;Res^gray;, ^cyan;+^white;50 ^cyan;EP^gray;, ^red;Hammered ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーを注入したビールのような液体です\n^cyan;+^white;20% ^pink;毒 ^cyan;レズ^gray;, ^cyan;+^white;50 ^cyan;EP^gray;, ^red;ハマード ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protovex"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトベックス"
+    }
+  ]
+]

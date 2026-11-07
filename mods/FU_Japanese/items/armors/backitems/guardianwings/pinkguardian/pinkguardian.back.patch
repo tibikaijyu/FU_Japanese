@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These ancient crystals hum with energy. They release a gentle, healing light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの古代の結晶はエネルギーで満たされます。 彼らは優しく癒しの光を放ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pink Guardian Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピンクガーディアンウィングス"
+    }
+  ]
+]

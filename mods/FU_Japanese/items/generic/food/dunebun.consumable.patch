@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Almost like bread, but it tastes sort of odd.\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;100s^gray;)^reset; \n^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンに似ていますが、味は奇妙です。\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;100ス)^gray;)^reset; \n^green;種類:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dunebun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダンブン"
+    }
+  ]
+]

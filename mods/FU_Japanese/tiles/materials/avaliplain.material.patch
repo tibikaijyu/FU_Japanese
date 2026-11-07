@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plain paneling, because sometimes less is more."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "平坦なパネリング。なぜなら、時には少ないほうが大きいからだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plain Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "平板"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Because we all know what cats like to do to ornaments..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "猫が装飾にどんなことをするのが好きか、誰もが知っているからです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glass Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガラス球"
+    }
+  ]
+]

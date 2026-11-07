@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Orchid Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蘭の若い女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Orchid Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若い蘭の女王"
+    }
+  ]
+]

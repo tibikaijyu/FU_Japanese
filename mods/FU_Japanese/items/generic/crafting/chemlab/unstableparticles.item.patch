@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unstable but contained particles for use in weapons, energy projection and more."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不安定だが、武器、エネルギー投射などで使用するための粒子を含んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Unstable Particles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;不安定粒子^reset;"
+    }
+  ]
+]

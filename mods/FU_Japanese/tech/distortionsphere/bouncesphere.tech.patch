@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mobile Sphere ^green;[F]^reset; capable of great jumping!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "移動式球体 ^green;[F] ^reset; ジャンプもできる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Bounce Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "バウンス球体"
+    }
+  ]
+]

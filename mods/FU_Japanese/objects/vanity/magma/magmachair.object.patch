@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Do you really want to sit on that?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたは本当にそれに座ってみたいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマチェア"
+    }
+  ]
+]

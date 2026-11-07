@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A less potent, commercial-grade coffee.\n^cyan;Weakly Caffeinated ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より強力な、商業グレードのコーヒー。\n^cyan;カフェインが弱い ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blonde Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブロンドコーヒー"
+    }
+  ]
+]

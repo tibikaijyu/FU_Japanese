@@ -1,0 +1,49 @@
+{
+  "version": "0.2.2",
+  "passed": true,
+  "runtime_tested": false,
+  "reports": [
+    {
+      "passed": true,
+      "tests_run": 11,
+      "runtime_tested": false,
+      "scope": "Pinned FU fixture reference resolution, generator-control preservation, Japanese name-material preservation, source catalogs and shipped mutation paths. Does not execute Starbound or simulate Markov name output.",
+      "file": "namegen_regression.json",
+      "sha256": "54cd60e2f627d1f83993a3704d5266e50d2774377e5959758041b4f4922cf512"
+    },
+    {
+      "passed": true,
+      "tests_run": 7,
+      "runtime_tested": false,
+      "scope": "Actual release folder overlays, file identities, pinned FU source-reference resolution and Japanese name-candidate preservation. Does not execute Starbound or its Markov generation algorithm.",
+      "file": "namegen_upgrade.json",
+      "sha256": "ce13d5aec8379b4ea260182baa229eeb6abda39daa4b4ac05cbd16a738fc3ab1"
+    },
+    {
+      "passed": true,
+      "tests_run": 14,
+      "assertions": 731,
+      "runtime_tested": false,
+      "scope": "Actual Lua display helper and codex UI callback execution with stubbed Starbound APIs; exact FU LF/CRLF/mixed-source patch application. Not a game launch.",
+      "file": "guide_022_validation.json",
+      "sha256": "6e0ed02d9c366d5116a2d243214b9ea780647e20df99724187555140600e79a2"
+    },
+    {
+      "passed": true,
+      "python_assertions": 2459,
+      "lua_assertions": 1467,
+      "runtime_tested": false,
+      "scope": "Actual Lua helper and stat-window display function with fixed FU data and mocked root/widget APIs; Starbound-style require executes the helper and returns nil; full known FU species assets with LF and physical CRLF; all field override tags/numbers/newlines; exact source guards and unknown-source preservation.",
+      "file": "species_022_validation.json",
+      "sha256": "d473627b4d669f86d44c0694f63cae674cc949d9f1a04d504c981761526b2a15"
+    },
+    {
+      "passed": true,
+      "tests_run": 3,
+      "runtime_tested": false,
+      "file": "followup_022_regression.json",
+      "sha256": "427dc68ab8f379fbc26f4ed6d7fddaba05d8026721fbf300fbc48ceef50f1ceb"
+    }
+  ],
+  "limits": "Starbound APIs are mocked for Lua behavior; no native game launch, UI rendering, or full upstream patch reapplication was performed in this follow-up."
+}

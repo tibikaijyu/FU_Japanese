@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with some sort of strange fluid. It whispers to you softly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な液体で満たされたランプ。 それはあなたに優しくささやきます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老の溶岩ランプ"
+    }
+  ]
+]

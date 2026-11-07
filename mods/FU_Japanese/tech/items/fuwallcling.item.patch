@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Latch onto walls for 8s."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "8s の壁にラッチします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Magnet Grip I^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;マグネットグリップI^reset;"
+    }
+  ]
+]

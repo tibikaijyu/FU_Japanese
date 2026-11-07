@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "At this point it's probably safe to assume everyone is dead."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この時点で、全員が死んだと仮定するのはおそらく安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Spatter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液スパッタ"
+    }
+  ]
+]

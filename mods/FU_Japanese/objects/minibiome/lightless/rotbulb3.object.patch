@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It smells like rotting flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐った肉の匂いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rot Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "球根"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides more slots for frames and drones."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フレームやドローン用のスロットをもっと提供する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Apiary"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型養蜂箱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Harvest honey!"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ハチミツを収穫!"
+    }
+  ]
+]

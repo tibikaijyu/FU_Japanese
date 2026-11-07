@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This beast absolutely murders the enemy!\n^yellow;Inflicts frozen-fire^reset;\n^cyan;Summons Assault Drones^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この獣は絶対に敵を殺します!\n^yellow;凍結火災に影響を及ぼす^reset;\n^cyan;サモンズ・アサルトドローン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentry Railgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セントリーレールガン"
+    }
+  ]
+]

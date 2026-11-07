@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These highly aggressive blood suckers prefer dark places."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの非常に攻撃的な吸血者は暗い場所を好む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vampire Bat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "吸血鬼コウモリ"
+    }
+  ]
+]

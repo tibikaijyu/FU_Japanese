@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bubble of honey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツの泡。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Blob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーブロブ"
+    }
+  ]
+]

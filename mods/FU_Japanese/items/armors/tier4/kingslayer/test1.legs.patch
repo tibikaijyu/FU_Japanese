@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Health x^green;1.12^reset;\n^yellow;^reset; Melee: +^green;3^reset;%/^green;6^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;体力 x ^green;1.12^reset;\n^yellow;^reset;近接:+^green;3^reset;%/^green;6^reset;%クリティカル チャンス\n^yellow;^reset; ^cyan;免疫^reset;酸、酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kingslayer Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キングスレイヤー墓"
+    }
+  ]
+]

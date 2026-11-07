@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Prickly, somewhat bland cactus juice.\n^cyan;+^white;100% ^pink;Physical ^cyan;Thorns ^gray;(^white;90s^gray;)^reset; ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サボテンの果汁を少しふっくらと。\n^cyan;+^white;100% ^pink;物理 ^cyan;竜 ^gray;(^white;90ス)^gray;)^reset; ^green;野菜の種類^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kadavan Cactus Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カダヴァンサボテンジュース"
+    }
+  ]
+]

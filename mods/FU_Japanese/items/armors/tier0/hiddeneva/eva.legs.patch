@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These E.V.A pants have broken hydraulics and are no longer operational."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのEVAパンツは油圧が壊れており、もはや動作していません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Damaged E.V.A Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "損傷したEVAパンツ"
+    }
+  ]
+]

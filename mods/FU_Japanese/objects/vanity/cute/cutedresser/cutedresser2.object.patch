@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute dresser with glass panelling"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガラス張りのかわいいドレッサー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Accented Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "可愛いアクセントドレッサー"
+    }
+  ]
+]

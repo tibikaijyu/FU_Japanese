@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Repulsor Field III"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "レパルサー場III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keeps enemies away from you with a ^orange;20ms electrical field.\n^cyan;24 knockback^reset;, ^#e43774;2 damage.\n^green;+20% Electric resist^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;20ms 電場で敵を近づけないようにします。\n^cyan;24ノックバック^reset;、^#e43774;2損傷。\n^green;+20%電気レジスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repulsor Field III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レパルサー場III"
+    }
+  ]
+]

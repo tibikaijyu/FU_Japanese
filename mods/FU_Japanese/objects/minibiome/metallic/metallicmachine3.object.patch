@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive, barely functional data storage of unknown design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知のデザインの巨大でほとんど機能しないデータストレージ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Data Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "データストレージ"
+    }
+  ]
+]

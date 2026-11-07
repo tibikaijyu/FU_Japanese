@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That isn't orange. But thanks for trying, loser."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それはオレンジではありません。 でもやってみてくれてありがとう、負け犬。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin^reset; 1 ^orange;orange fruit^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン^reset; 1 ^orange;オレンジフルーツ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "There is no such thing as an orange fruit. Prove me wrong."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "オレンジの果実というものはない。 間違いを証明しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "This guy is annoying."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "この男はいらいらしています。"
+    }
+  ]
+]

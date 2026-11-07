@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A collection of charred bones tightly packed together. Something awful happened to these people.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ぎっしり詰まった炭化した骨のコレクション。 これらの人々には恐ろしいことが起きた。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Charred bonesss!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "チャーリー・ボネス!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Horrified. Charred bones from a variety of sources packed together."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恐ろしさ。 さまざまなソースから集めた炭化した骨が詰まっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Bunch of charred bones. Who needs 'em!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "炭化した骨の束。 誰が必要なんだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charred Packed Bones"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭化充填骨"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What the? This is just too strange."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なに? これはあまりにも奇妙です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Organic Oddity"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有機物"
+    }
+  ]
+]

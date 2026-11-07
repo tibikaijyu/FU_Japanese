@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Oh my god. It's made of stars...\n^cyan;Inflicts Minor Vulnerability^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんてこと。 星でできています\n^cyan;マイナーな脆弱性に影響を及ぼす^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙のすす"
+    }
+  ]
+]

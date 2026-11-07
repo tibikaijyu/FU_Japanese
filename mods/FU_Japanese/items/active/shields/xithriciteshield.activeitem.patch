@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Proto, Bio-ooze Protections, +12 Shieldbash Push, 0.2 Regen^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;プロト毒・生体汚泥への耐性、シールドバッシュの押し出し+12、再生0.2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジトリサイトシールド"
+    }
+  ]
+]

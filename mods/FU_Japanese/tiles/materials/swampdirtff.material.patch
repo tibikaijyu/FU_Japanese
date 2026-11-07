@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Swamp Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "沼地汚れ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swamp Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "沼地汚れ"
+    }
+  ]
+]

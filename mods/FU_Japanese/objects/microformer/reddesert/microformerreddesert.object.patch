@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a red desert."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を赤い砂漠に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Desert Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤砂漠マイクロフォーマ"
+    }
+  ]
+]

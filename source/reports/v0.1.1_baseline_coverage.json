@@ -1,0 +1,92 @@
+{
+  "upstream_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+  "upstream_metadata_version": "6.5.8",
+  "catalog_entries": 56014,
+  "catalog_unique_sources": 37543,
+  "translated_entries": 55348,
+  "translated_unique_sources": 36978,
+  "patch_files": 13170,
+  "methods_entries": {
+    "machine": 52081,
+    "glossary": 1960,
+    "machine_repaired": 69,
+    "manual": 1238
+  },
+  "methods_unique_sources": {
+    "manual": 988,
+    "glossary": 356,
+    "machine_repaired": 69,
+    "machine": 35565
+  },
+  "categories": {
+    "abilities": {
+      "extracted": 372,
+      "translated": 363
+    },
+    "cinematic": {
+      "extracted": 150,
+      "translated": 150
+    },
+    "codex": {
+      "extracted": 1687,
+      "translated": 1643
+    },
+    "crew": {
+      "extracted": 190,
+      "translated": 187
+    },
+    "dialogue": {
+      "extracted": 6988,
+      "translated": 6927
+    },
+    "interface": {
+      "extracted": 1845,
+      "translated": 1800
+    },
+    "items": {
+      "extracted": 39045,
+      "translated": 38606
+    },
+    "missions": {
+      "extracted": 88,
+      "translated": 74
+    },
+    "quests": {
+      "extracted": 1102,
+      "translated": 1095
+    },
+    "radio": {
+      "extracted": 870,
+      "translated": 866
+    },
+    "research": {
+      "extracted": 846,
+      "translated": 845
+    },
+    "species": {
+      "extracted": 393,
+      "translated": 390
+    },
+    "status": {
+      "extracted": 1036,
+      "translated": 1016
+    },
+    "worlds": {
+      "extracted": 1402,
+      "translated": 1386
+    }
+  },
+  "retained_entries": 666,
+  "retained_reasons": {
+    "unchanged_name_or_retained_source": 477,
+    "no_japanese_output": 189
+  },
+  "rejected_entries": 0,
+  "rejected_reasons": {},
+  "runtime_tested": false,
+  "notes": [
+    "Counts refer to extracted safe display fields, not all FU text.",
+    "Lua hard-coded strings, image text, unsupported schemas and unknown array appends are outside coverage.",
+    "Unchanged proper names, outputs without Japanese, and failed validation remain in English."
+  ]
+}

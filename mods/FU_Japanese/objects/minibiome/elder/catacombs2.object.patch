@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Structurally sound, though the material is unknown to me."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "構造的には、材料は私には不明ですが、音。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

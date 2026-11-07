@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brutally dense metal. Super murdery fun.\n^cyan;Inflicts Electrified^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属の密度が高い。 超人的楽しみ。\n^cyan; 電化 ^reset; に作用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長刀"
+    }
+  ]
+]

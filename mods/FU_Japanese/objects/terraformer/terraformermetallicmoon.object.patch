@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Cybersphere biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地球の気候をサイバースフィアのバイオームに変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cybersphere Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイバースフィア・テラフォーマ"
+    }
+  ]
+]

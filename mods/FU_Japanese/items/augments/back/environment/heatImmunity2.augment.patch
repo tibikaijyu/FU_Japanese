@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Heat Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "シールドII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that repels heat over 500 Kelvin. ^cyan;Immune: Extreme Heat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "500ケルビン上の熱を忌避するEPPモジュール。 ^cyan;免疫:極限熱^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heat Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シールドII"
+    }
+  ]
+]

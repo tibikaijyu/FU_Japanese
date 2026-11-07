@@ -1,0 +1,120 @@
+"""Release notes for preserving original character-name generation inputs."""
+
+
+def make_readme(project, version, coverage, validation):
+    return f'''# Frackin' Universe 日本語化MOD {version}
+
+FU 6.5.8向けの非公式日本語化MODです。機械翻訳を基礎に、表示文を個別に補完しています。日本語を表示できるフォントが必要です。
+
+## 0.2.3の変更
+
+キャラクター作成・既存キャラクター選択時のフリーズ報告を受け、名前生成データを再点検しました。前版では、名前を作るための学習用辞書まで翻訳対象に含めていました。2文字単位の設定を持つ辞書に、翻訳後1文字になった候補が男女合計8件あり、元の生成設定と組み合わせるには不適切なデータが残っていました。
+
+今回は、**キャラクター名を自動生成するための候補・学習辞書をFU本来の原文で使う構成**にしました。学習辞書2ファイルと種族の名前生成設定30ファイルについて、日本語化による変更を止めます。旧版の32パッチを同名の空パッチで上書きするため、フォルダへの上書き更新でも古い変更が残らないようにしています。
+
+これにより、今後自動生成するキャラクター名・対応するNPC名は原文の命名方式になります。既存のセーブに記録された名前や、プレイヤーが入力した名前を書き換える処理はありません。武器名など別の表示名生成は今回の変更対象に含めていません。
+
+FUガイド10冊、種族情報、キャラクター作成画面の説明・ラベル、アイテム、研究、クエスト、会話等の翻訳は0.2.2から引き継いでいます。ゲーム用ファイルは、名前生成パッチ30個の内容とバージョン表記以外、0.2.2とバイト単位で同一です。以前から空だった男女2個の参照IDパッチも維持しています。
+
+## 確定できたこと・未確認のこと
+
+- 短すぎる学習用候補8件は、配布データと固定した公式FU元データの比較で確認しました。元辞書は最短3文字です。
+- 公式FUのキャラクター名欄にはASCIIを前提とする入力規則があります。自動生成候補の翻訳も原文へ戻し、生成設定と候補を一緒に保持します。ただし、利用者の別MODが入力規則を変更しているか、自動生成名にゲーム本体がその規則を適用するかは確認していません。
+- **2026-11-07、利用者環境で0.2.3によってキャラクター画面のフリーズが解消したとの報告を受けています。** この作業環境でStarbound本体を起動した検査ではありません。直接の内部原因や全環境での解消は未確定です。
+- 修正前に確認したログはワールド開始時の `UniverseServer: Acquiring universe lock file` で終わっていました。この情報行だけでは、ロックの破損や停止原因を断定できません。
+- ガイド・種族情報・Lua・Readable UI参照版も確認しましたが、その範囲ではフリーズ原因と確定できる追加の欠陥は見つかっていません。
+
+名前生成用の大量の照合処理も外れますが、ゲーム上の処理時間短縮は計測していません。
+
+## 導入・更新
+
+1. Starboundを完全に終了します。
+2. ZIPを展開します。
+3. 既存の `Starbound/mods/FU_Japanese` フォルダをmodsの外へ移動します。
+4. ZIP内の `mods/FU_Japanese` を、ゲームの `Starbound/mods` へコピーします。
+5. 起動し、キャラクター作成画面と、既存キャラクターを選択してゲームへ入る操作を確認します。
+
+正しい配置は `Starbound/mods/FU_Japanese/_metadata` です。`_metadata` の版は `0.2.3-fu6.5.8` です。外側の `FU_Japanese_{version}` フォルダやZIP自体をmodsへ入れないでください。
+
+同じフォルダへの上書きにも対応しますが、別名の旧版フォルダはmods内に残さないでください。FU本体・セーブデータ・現在使用中の日本語フォントはそのまま利用できます。導入のためにPythonやpak化は必要ありません。`source` は開発資料であり、ゲームへコピーする必要はありません。
+
+日本語が四角になる場合だけ `optional/FU_Japanese_Font` を追加してください。現在の日本語フォントで読めている場合は、そちらを使えます。
+
+## 同じ操作で固まる場合
+
+ゲームを終了してから、この日本語化MODの `FU_Japanese` フォルダだけを一時的にmodsの外へ移し、同じ操作で止まるかを比較してください。FU本体やセーブデータを削除する手順ではありません。
+
+比較結果と、停止した画面・選択していた種族、停止直後の `Starbound/storage/starbound.log` を確認すると、次の調査対象を絞れます。ガイドと種族情報が英語のままの場合は、該当画面の画像もあると対象文章を特定できます。
+
+ガイドと種族情報の表示補完処理は0.2.2と同一です。そのため、各画面を開く際の識別ログも以下の表記を維持しています。これはMOD全体の版番号ではありません。
+
+```text
+[FU Japanese 0.2.2] Guide display helper active
+[FU Japanese 0.2.2] Species display helper active
+```
+
+## 翻訳範囲と検査
+
+通常JSONの表示カタログは **{coverage['catalog_entries']:,}項目中{coverage['translated_entries']:,}項目**を日本語へ変更します。配列追加、Lua、埋め込みJSONは別枠です。名前生成用の6,100項目（通常JSON 6,076＋配列追加24）は、表示文カタログから除外しました。文字列を持つ生成用入力と、表示する文章を区別するための変更です。
+
+固定したFU元データへの適用、原辞書・生成設定・参照IDの不変、旧版フォルダへの上書き、翻訳対象からの除外、名前以外の全ゲームファイルのバイト一致を検査しています。ガイド等の変更のない処理は、0.2.2の検査記録とファイルの一致を確認しています。完成ZIPは全ファイルのCRCとSHA-256を検査しています。
+
+Starbound本体の生成アルゴリズムや画面描画を実行した検査ではありません。今回の対策で、ゲーム全体の動作や全画面の翻訳品質を保証するものではありません。固有名・化学式・架空言語・変数等は原文を保持する箇所があり、装飾画像内の文字や別MODの追加文も全件を対象にはしていません。
+
+## 開発資料
+
+`source/source/excluded_character_name_generation.json` に除外した項目と理由、`retired_character_name_assets.json` に空パッチを置く対象を収録しています。抽出・ビルド・パッチ検査は、学習用辞書とキャラクター名生成への書き込みを拒否します。旧版を誤って再生成しないよう、配布用のビルド経路も更新しています。
+
+最新検査結果は `source/reports/validation.json` と `test_summary_023.json`、名前生成の詳細は同フォルダの `namegen_023_` で始まる資料を参照してください。旧版の検査記録は `source/reports/history` に保持しています。旧検査の成功は、実機フリーズがないことの証明にはなりません。
+
+`source` フォルダから再生成する例:
+
+```sh
+python -m venv .venv
+.venv/bin/pip install -r requirements-build.txt
+.venv/bin/python tools/build.py --project . --upstream /path/to/FrackinUniverse --machine machine_translation/machine_translations.json --output build/FU_Japanese
+.venv/bin/python tools/validate.py --project . --upstream /path/to/FrackinUniverse --mod build/FU_Japanese
+```
+
+WindowsではPythonのパスを `.venv/Scripts/python.exe` に読み替えてください。完全な再生成には固定したFUソース、Luaの検査にはLua共有ライブラリが必要です。モデル重みとゲーム本体は同梱していません。
+
+## 対応元・ライセンス
+
+- FUメタデータ版: 6.5.8。
+- 基準ソース: `17868d86c9bb7bc00f92038fb78b48cebd1b41b8`。
+- 原作: SayterおよびFrackin' Universeの貢献者。原作・翻訳・改変部分はCC BY 4.0。出典とライセンス本文を同梱しています。
+- 公式ソース: https://github.com/sayterdarkwynd/FrackinUniverse
+- 公式Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=729480149
+- 機械翻訳の基礎: FuguMT（S-Taka）、CTranslate2変換（jkawamoto）。モデル重みは含めていません。
+- 任意フォント: PixelMplus（itouhiro / M+ FONTS PROJECT）。M+ FONT LICENSEを同梱しています。
+
+本MODはFU原作者・Chucklefishによる制作・承認を受けたものではありません。
+'''
+
+
+def make_install(version):
+    return f'''Frackin' Universe 日本語化MOD {version}
+
+キャラクター名の自動生成データを原文維持へ戻した修正版です。
+ガイド・種族説明・画面・アイテム等の日本語化は引き継いでいます。
+2026-11-07、利用者環境でキャラクター画面のフリーズが解消したとの報告を受けています。
+全種族・他環境・全MOD構成の確認は未完了です。
+
+1. Starboundを完全に終了します。
+2. ZIPを展開します。
+3. 既存の Starbound/mods/FU_Japanese をmodsの外へ移動します。
+4. 新しい mods/FU_Japanese を Starbound/mods へコピーします。
+5. キャラクター作成画面と、既存キャラクターでゲームに入る操作を確認します。
+
+正しい配置: Starbound/mods/FU_Japanese/_metadata
+_metadata の version: 0.2.3-fu6.5.8
+
+別名にした旧版フォルダもmods内に残さないでください。
+同じフォルダへ上書きする場合も、旧版の名前生成パッチを同名の空パッチへ置き換えます。
+FU本体・セーブデータ・現在の日本語フォントはそのまま利用できます。
+source は開発資料です。ゲームのmodsへコピーする必要はありません。
+
+再発する場合は、ゲームを終了後にFU_Japaneseだけをmods外へ移して比較してください。
+比較結果・停止した画面・選択した種族・停止直後のstarbound.logが次の調査に役立ちます。
+詳しい修正内容、確認できた範囲、ライセンスは README_JA.md を参照してください。
+'''

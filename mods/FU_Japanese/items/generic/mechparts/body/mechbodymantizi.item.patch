@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Pressure, Extreme Heat/Cold, Mild Radiation/Poison, Proto"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 圧力、極限の熱/冷、軽度の放射線/毒素、プロト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Il Ventuno Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イルベンチュノメカ"
+    }
+  ]
+]

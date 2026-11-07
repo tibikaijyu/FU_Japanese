@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle of mild ale. The alcohol content is around 5%.\n^cyan;+^white;3 ^cyan;Defense ^gray;(^white;45s^gray;)\n^white;35% ^red;Slow ^gray;(^white;10s^gray;)\n^red;Buzzed ^gray;(^white;15s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マイルドなエールのボトル。 アルコール度数は 5% 前後です。\n^cyan;+^white;3 ^cyan;防衛 ^gray;(^white;45ス)^gray;)\n^white;35% ^red;ゆっくり ^gray;(^white;10ス)^gray;)\n^red; Buzzed ^gray;(^white;15s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mild Ale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイルドエール"
+    }
+  ]
+]

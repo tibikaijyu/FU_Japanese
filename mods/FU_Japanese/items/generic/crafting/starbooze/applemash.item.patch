@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Apple Mash, the product of crushed and squeezed apples."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リンゴ マッシュは、押しつぶして絞ったリンゴの製品だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apple Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "すりつぶしたリンゴ"
+    }
+  ]
+]

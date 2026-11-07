@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Froggs have a rather... unsettling presence, to say the least."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "カエルは、控えめに言っても、かなり...落ち着かない存在です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "How do you haggle with one who does not speak?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "話しかけない人とどのように闘うのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This shop stinks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この店は臭い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran approves of leafy sssales table."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローラン 葉の sssales テーブルの承認。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uneasy. I can never seem to tell what Frogg merchants are thinking."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不安です フロッグの商人が何を考えているのか、私にはわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Frogg's must be great at poker. No one can ever seem to tell what they're thinking!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "フロッグはポーカーが得意でなければならない。 誰も自分が考えていることを知らないようです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can appreciate a silent shopkeep. There ain't always a need for conversation."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "静かで静かな店員に感謝します。 会話が必ずしも必要ないわけではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shop Counter, Swamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショップカウンター、沼地"
+    }
+  ]
+]

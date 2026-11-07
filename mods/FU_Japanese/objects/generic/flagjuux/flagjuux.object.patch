@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flag marking Pharitu territory."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファリツの領土をマークする旗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pharitu Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファリツ旗"
+    }
+  ]
+]

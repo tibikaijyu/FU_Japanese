@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 4 - I found a solid metal of a sort. It remains translucent but glowing, even in darkness. Whether it is metal or crystal, I can't tell. I'm glad it's here though, because I can see some movement in the darkness around me. Little glowing eyes are peering from the shadows..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "日 4 ――固体の金属を見つけた。 暗闇の中でさえ、半透明だが輝きを放つ。 それが金属であろうと結晶であろうと、私にはわからない。 でも、この辺りの暗闇の中で、何か動きがあるのが見えるから嬉しいです。 影から小さな光る目が覗き込んでいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 4"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 4"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy cute bookcase."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈でかわいい本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい本棚"
+    }
+  ]
+]

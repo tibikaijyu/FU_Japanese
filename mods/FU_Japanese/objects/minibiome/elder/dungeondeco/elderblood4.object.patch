@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks like some dude just...exploded. Gross."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるで爆発したみたいだ。 クロス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液"
+    }
+  ]
+]

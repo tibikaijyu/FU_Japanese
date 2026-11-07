@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicate lattice made of wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木で作られた繊細な格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoji Window Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障子窓格子"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Engineering"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "工学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Engineer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "技術者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "Meow! Purrfect! Fuel costs reduced by 10%!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "メオ! 完璧! 燃料費を10%で削減!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/shipImprovementApplied/default/default/0",
+      "value": "Meow! Purrfect! Fuel costs reduced by 10%!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/shipImprovementApplied/default/default/0",
+      "value": "メオ! 完璧! 燃料費を10%で削減!"
+    }
+  ]
+]

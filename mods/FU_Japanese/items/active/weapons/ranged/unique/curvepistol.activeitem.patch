@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space pirate plasma sidearm.\n^yellow;+Bouncy and Burny^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙海賊プラズマサイドアーム。\n^yellow;+バウンシー&バーニー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブローチピストル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A space pirate favorite in plasma technology.\n^yellow;+Bouncy and Burny^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "プラズマ技術で人気の宇宙海賊。\n^yellow;+バウンシー&バーニー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Breach Pistol^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ブローチピストル^reset; ^yellow;^reset;"
+    }
+  ]
+]

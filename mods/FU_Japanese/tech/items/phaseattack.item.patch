@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sneak attack, but with lower speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スニーク攻撃、しかしより低い速度で。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Phase Attack^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;フェーズ攻撃^reset;"
+    }
+  ]
+]

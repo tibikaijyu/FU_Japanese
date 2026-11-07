@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects from harmful (and beneficial) gasses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有害(および有益な)ガスから保護します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mark VI Gasmask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マークVI防毒マスク"
+    }
+  ]
+]

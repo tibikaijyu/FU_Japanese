@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shred, Rip, and play the sickest solos!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シュレッド、リップ、そして最も病気のソロを演奏します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lead Guitar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リードギター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your stout can be on a table!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今あなたのスタウトはテーブルの上にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Coal Stout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレータブルコールスタウト"
+    }
+  ]
+]

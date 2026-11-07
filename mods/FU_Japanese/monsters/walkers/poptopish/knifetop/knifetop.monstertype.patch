@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Who taught this thing to use a knife?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰がナイフを使ってこれを教えたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Knifetop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイフトップ"
+    }
+  ]
+]

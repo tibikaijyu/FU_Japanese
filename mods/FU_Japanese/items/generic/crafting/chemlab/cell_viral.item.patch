@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Potentially dangerous viral cells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "潜在的に危険なウイルス細胞。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Viral Cell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウイルス"
+    }
+  ]
+]

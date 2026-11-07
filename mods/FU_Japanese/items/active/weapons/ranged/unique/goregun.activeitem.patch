@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A repulsive weapon that spews putrid blood. Awesome.\n^yellow;Alt shoots vomit! Fun!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血を吐く反発器。 すごい。\n^yellow;Altは吐出します! 楽しい!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gore Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Absolutely -spews- gore."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "絶対に - スピード - ゴーア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Ol' Pukey"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "オルピューキー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Deathblossoms are not what you'd call a good snack. They do kill quite well, though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デスフラワーは、良いおやつとは言えません。 でも、殺すのはとても上手です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deathblossom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死花"
+    }
+  ]
+]

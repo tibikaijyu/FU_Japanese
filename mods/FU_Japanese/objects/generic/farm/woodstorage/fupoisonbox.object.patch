@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keep dangerous crap in here."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ここに危険なクズを保管してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒止め"
+    }
+  ]
+]

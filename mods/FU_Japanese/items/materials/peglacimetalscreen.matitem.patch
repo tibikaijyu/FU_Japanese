@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metal screen decorated with Peglaci glyphs.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシグリフで飾られた金属製のスクリーン。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金スクリーン"
+    }
+  ]
+]

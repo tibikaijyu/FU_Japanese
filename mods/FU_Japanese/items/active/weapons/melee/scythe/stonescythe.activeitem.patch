@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavier than heck, but hey... painful!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘックより重いけど、ちょっと...痛い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "初歩的暗唱"
+    }
+  ]
+]

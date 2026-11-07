@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Muscle control, strength or enhancement come from this gene."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "筋肉のコントロール、強さや強化は、この遺伝子から来ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Musculature"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "筋肉"
+    }
+  ]
+]

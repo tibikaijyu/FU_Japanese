@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "We used a sugary substance in the material once, but customers complained it irritated their eyes.. Whoops."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一度は糖質を使用したことがありますが、お客様には目もとを悩ませていただきました。. うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gummi Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グミマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Incredibly powerful neuron-based processor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど強力なニューロンベースのプロセッサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neural Processor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニューラルプロセッサ"
+    }
+  ]
+]

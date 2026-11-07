@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An urn. Adorably smashable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くず。 可愛らしいほど破壊的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "An Ancient Urn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代のウルン"
+    }
+  ]
+]

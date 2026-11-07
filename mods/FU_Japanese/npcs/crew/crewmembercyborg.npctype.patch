@@ -1,0 +1,866 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Obliteration"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "オブルイテレーション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Cyborg"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "サイボーグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "I can't reach you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "You're too far!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "遠すぎる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Hey, wait up!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "ちょっと待って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "Don't go too far!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "行き過ぎないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Let me catch up!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "追いかけよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "Floran too far away!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "浮き過ぎ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "Floran iss left behind!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "フローランは残ってる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "Floran not close enough to you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "フローランはあなたに十分近づきません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "Frustrated. I can't reach you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "イライラ。 手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "Concerned. Wait for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "心配。 待ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "I can protect you from the Aether, and murder things."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "私はエーテルからあなたを保護し、物事を殺すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "Floran hasss things to help you out in the Aether. I also excel at destructive tasks!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "フローランはエーテルであなたを助けるものを持っています。 破壊的な仕事も得意です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "Eager. I can grant immunity to Aether and target enemies with glee!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "早く! エーテルに免疫を与え、敵を目標にグリーで攻撃!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "Yes, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "はい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "Captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "Let's get going!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "行くぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Let's go, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "さぁ、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Are we going somewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "Yesss, Captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "はい、キャプテン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "Let'ss go!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "行くぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "Captain wantss Floran to follow?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "キャプテンはフローランに従わせたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "Floran ready to go again!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "フローは再び行く準備をしました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "Are we going ssomewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "Humble. I shall follow, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "謙虚。 私は従うよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "Alert. Shall we go, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "警告。 行きましょうか、隊長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "Solemn. Is it time to move, captain?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "厳重。 そろそろ移動の時間ですか、船長?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "Inquisitive. Are we going somewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "質問あり。 どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/0",
+      "value": "Okay, I'm ready, waddle on."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/0",
+      "value": "よし、準備は出来たぞ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/1",
+      "value": "Let's go then."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/1",
+      "value": "では行きましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/2",
+      "value": "You're the boss!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/2",
+      "value": "ボスだよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/3",
+      "value": "I'm coming."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/penguin/default/3",
+      "value": "行くよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Perhaps together we can annihilate our foes."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "おそらく一緒に我々は敵を滅ぼすことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "I wish to utilize my weaponry on the enemy. Hire me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "私は敵に武器を使わせたい。 私を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "My programming requires that I obliterate the enemy. Hire me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "私の計画では、私は敵を弾圧しなければならない。 私を雇え!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "We should band together and annihilate your foes."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "私たちは一緒に団結し、あなたの敵を滅ぼすべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "Let'ss work together and annihilate our foess."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "一緒に働き、敵を滅ぼしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "Floran wantss to sstab and burn enemiess. Hire Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "フローランは敵を刺して焼きたい。 フローランを雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "Floran's programming requires that Floran obliterate the enemy. Hire Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "フロランのプログラムは、フロランが敵を弾圧することを要求する。 フローランを雇え!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "Menacing. My organic components feel only rage. Let us annihilate our foes together."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "脅威。 私の有機成分は怒りを感じるだけです。 一緒に敵を滅ぼしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "Fevered. I was told that the installation of an Apex adrenal gland would drive me insane. I acquired one anyways. Hire me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "熱狂的。 私はエイペックス副腎のインストールは、私は狂気を駆り立てるだろうと言われました。 とにかく一つ獲得した。 私を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "My organic brain components drive me to obliterate the enemy. Hire me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "有機的な脳成分によって、私は敵を消し去る。 私を雇え!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "I remain ever-ready to vanquish the enemy."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "私は常に敵を征服する準備ができています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "Circuits reset. Commencing program."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "サーキットをリセットします。 プログラム開始。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "I seek retribution, fearless leader."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "私は報復を求め、恐れない指導者です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "Floran remainss ever-ready to vanquish enemiess."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "フロランは敵を退治する準備が整っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "Circuitss reset. Commencing program."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "サーキットをリセットします。 プログラム開始。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "Floran sseekss retribution, sstrong leader."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "フローランは報復を求め、強い指導者です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "Manic. I cannot rest until I slay the one who slew me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "マニック。 私を殺した人を殺してまで、私は眠れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "Concerned. My organic neural components appear to have grown in size. Is this normal?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "心配。 私の有機神経成分は、サイズが大きくなったようです。 これは普通ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "Furious. I am ready for retribution, fearless leader."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "激怒。 私は報復の準備ができており、恐れないリーダーです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I will interface with SAIL and increase your ships speed."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "私はSAILとインターフェイスし、船の速度を上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran will interface with SAIL and increase ssship sspeed!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローランはSAILと対話し、船速度を上げます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Intense. With my biological enhancements, I can increase your ships speed."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "力強い。 私の生物学的な強化により、私はあなたの船の速度を上げることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "I'll just wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "ここで待ってます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "I'll stay here. Come back when you need me, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "ここに滞在します。 必要なら戻ってきなさい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "I'll stay here for now, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "私は今ここに滞在します、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "Do you need me to stay here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "ここに滞在したいのですが?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "I'll stay here for now, then."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "では、今ここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "I'll stay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "ここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "Floran should sstay here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "フローランはここに滞在するべきですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "Floran will sstay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "フローランはここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "Floran will sstay, then..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "フローランが留まるなら..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "Obliging. I will remain here for now, then."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "予算。 では、当面はここに留まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "Patient. I can wait here, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "患者。 ここで待ってるよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "Amicable.  I will remain here if you want me to, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "可愛い。  よければここに留まりますよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "Agreeable. I can stay here if you prefer, captain."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "同意する。 気に入ったらここに泊まるよ、船長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/0",
+      "value": "I'll just be here... Waiting..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/0",
+      "value": "ここにいるだけ...。 待って..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/1",
+      "value": "Alright, boss, I'll wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/1",
+      "value": "はい、ボス、ここで待ってます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/2",
+      "value": "I can wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/2",
+      "value": "ここで待つことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/3",
+      "value": "I'll just wait here, rest my flippers."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/penguin/default/3",
+      "value": "ここで待ってて、フリッパーを休ませる。"
+    }
+  ]
+]

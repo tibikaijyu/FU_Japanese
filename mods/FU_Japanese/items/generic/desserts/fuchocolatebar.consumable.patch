@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tastes !@#!$!%! amazing! ^green;Type: Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "味がする!@#!$!%! ^green;型:砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Better Chocolate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "より良いチョコレート"
+    }
+  ]
+]

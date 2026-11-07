@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lethal edged weapon of the Thelusians.\n^cyan;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアンの致命的な刃の武器。\n^cyan;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロシアロングソード"
+    }
+  ]
+]

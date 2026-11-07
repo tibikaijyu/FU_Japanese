@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a steel jungle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を鋼のジャングルに変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Jungle Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼ジャングルマイクロフォーマ"
+    }
+  ]
+]

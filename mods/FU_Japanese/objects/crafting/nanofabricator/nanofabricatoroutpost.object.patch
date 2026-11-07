@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This station helps with upgrading gear and creating ideas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このステーションは、ギアをアップグレードし、アイデアを作り出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Tinkering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;改造作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "This station helps with upgrading gear and creating ideas."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "このステーションは、ギアをアップグレードし、アイデアを作り出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Tinkering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;改造作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "Upgrade and enhance, conceptualize and experiment."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "アップグレードと拡張、概念化と実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Engineering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;エンジニアリングテーブル^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Access to terminal disabled."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;端末無効化へのアクセス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^red;UNAUTHORIZED ACCESS DETECTED^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^red;不正アクセスを検知^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "Create upgrades and hi-tech gear with nanites."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "アップグレードとナナイトでハイテクギアを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;Nanofabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;ナノファブリケータ^reset;"
+    }
+  ]
+]

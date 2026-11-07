@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "-^green;6^reset; Energy Per Shot (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "-^green;6^reset;ショットあたりのエネルギー(弓)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギー災害"
+    }
+  ]
+]

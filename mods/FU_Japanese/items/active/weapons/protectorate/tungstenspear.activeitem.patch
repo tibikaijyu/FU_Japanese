@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tungsten spear is quite heavy.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このタングステンのくちばしはかなり重い。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンスピア"
+    }
+  ]
+]

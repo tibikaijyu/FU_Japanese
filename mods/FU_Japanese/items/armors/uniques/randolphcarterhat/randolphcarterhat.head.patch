@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Face the foulest creatures bravely.\n^green;20^reset;% Mental Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "勇敢に最も汚い生き物に直面します。\n^green;20^reset;%メンタルレジスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Randolph Carter Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ランドルフ・カーター・ハット"
+    }
+  ]
+]

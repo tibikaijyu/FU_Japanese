@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, this is unnecessarily glowy, but nice. Hard as rock, though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まぁ、これは不必要に輝いているけど、いいね。 でも、岩のように硬い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前座"
+    }
+  ]
+]

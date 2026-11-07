@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Guaranteed to cause tetanus. Share with friends for bonus fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破傷風を引き起こすことを保証します。 友達と共有してボーナスを楽しんでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンクレイピア"
+    }
+  ]
+]

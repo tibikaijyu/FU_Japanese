@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I scream, you scream.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;366s^gray;)\n^red;Burning ^gray;(^white;10s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "叫んで、叫んで、叫んで。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;366ス)^gray;)\n^red;炎上^gray;(^white;10s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmango Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマngoアイスクリーム"
+    }
+  ]
+]

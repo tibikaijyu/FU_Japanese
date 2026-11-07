@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense, red slate stone\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃い赤いスレート石\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Slate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いスレート"
+    }
+  ]
+]

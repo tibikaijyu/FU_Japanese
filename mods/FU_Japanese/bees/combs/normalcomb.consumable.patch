@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious honeycomb with mild medicinal properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マイルドな薬効を持つ美味しいハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

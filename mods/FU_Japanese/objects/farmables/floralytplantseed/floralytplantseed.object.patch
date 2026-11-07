@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the greatest healing agents known anywhere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どこでも知られている最大の癒しのエージェントの一つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floralyt Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花芽種子"
+    }
+  ]
+]

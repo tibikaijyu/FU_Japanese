@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Somewhat solid clouds! You can even walk on them!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんとも固い雲! あなたはそれらの上を歩くこともできます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cloudsss. Can Floran eat, maybe?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "雲。 フローランは食べられるのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. A block of clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 雲のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドブロック"
+    }
+  ]
+]

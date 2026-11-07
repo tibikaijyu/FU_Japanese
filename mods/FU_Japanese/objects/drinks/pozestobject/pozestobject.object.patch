@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A popular Glitch energy drink. Or is it just a placebo?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人気のあるグリッチエナジードリンク。 それとも単なるプラセボでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "So ssswirly..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Ashamed. These are meant to be used sparingly, but during last semester's finals at the protectorate..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恥ずかしい。 これらは控えめに使用することを意図していますが、保護区での最後の学期中に..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This 'posed to be a drink or a potion?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "「これは飲み物か薬ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pozest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポーズ"
+    }
+  ]
+]

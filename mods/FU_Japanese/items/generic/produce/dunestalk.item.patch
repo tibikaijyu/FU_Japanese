@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hardy crop, found growing in arid locations."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乾燥した場所で成長している堅い作物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dunestalk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "砂丘"
+    }
+  ]
+]

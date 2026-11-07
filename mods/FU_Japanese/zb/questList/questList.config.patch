@@ -1,0 +1,191 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/questButton/caption",
+      "value": "Accept"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/questButton/caption",
+      "value": "承諾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/questTitle/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/questTitle/value",
+      "value": "私は間違いです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/questlineNoSelected/value",
+      "value": "^cyan;Select a questline"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/questlineNoSelected/value",
+      "value": "^cyan; クエストラインを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/textScrollArea/children/questText/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/textScrollArea/children/questText/value",
+      "value": "私は間違いです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsLabel/value",
+      "value": "Rewards:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsLabel/value",
+      "value": "報酬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/questlineList/children/list/schema/listTemplate/banner",
+      "value": {
+        "type": "image",
+        "zlevel": -2,
+        "file": "/assetmissing.png",
+        "position": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+        "position": [
+          13,
+          8
+        ],
+        "zlevel": -1,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/questlineList/children/list/schema/listTemplate/fuJapaneseBannerTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          16,
+          17
+        ],
+        "hAnchor": "left",
+        "vAnchor": "mid",
+        "fontSize": 9,
+        "value": "",
+        "zlevel": 0,
+        "mouseTransparent": true,
+        "wrapWidth": 101
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/questlineBanner",
+      "value": {
+        "type": "image",
+        "position": [
+          12,
+          204
+        ],
+        "file": "/assetmissing.png"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseQuestlineCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=10182fff?scalenearest=105;19",
+        "position": [
+          25,
+          210
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true,
+        "visible": false
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseQuestlineTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          28,
+          219
+        ],
+        "hAnchor": "left",
+        "vAnchor": "mid",
+        "fontSize": 9,
+        "value": "",
+        "zlevel": 3,
+        "mouseTransparent": true,
+        "wrapWidth": 101,
+        "visible": false
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+      "value": {
+        "type": "image",
+        "zlevel": -1,
+        "visible": false,
+        "file": "/zb/questList/questlineComplete.png",
+        "position": [
+          86,
+          0
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/gui/questlineList/children/list/schema/listTemplate/completeImage",
+      "value": {
+        "type": "label",
+        "visible": false,
+        "position": [
+          86,
+          0
+        ],
+        "zlevel": 1,
+        "hAnchor": "left",
+        "vAnchor": "bottom",
+        "fontSize": 9,
+        "value": "^green;完了^reset;",
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All the tech since 1989 still couldn't save this travesty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "1989以降の技術は、この旅を救えませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Power Glove"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パワーグローブ"
+    }
+  ]
+]

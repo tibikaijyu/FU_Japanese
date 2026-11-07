@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An omni-directional point defence cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全方位点防御砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Omnicannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オムニ砲"
+    }
+  ]
+]

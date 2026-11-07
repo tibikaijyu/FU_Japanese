@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A scorchy, burny, stony bugger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "焼ける、燃える、石のバガー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flintlit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フリントライト"
+    }
+  ]
+]

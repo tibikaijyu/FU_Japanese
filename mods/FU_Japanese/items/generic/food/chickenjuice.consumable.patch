@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "With pulp. \n^cyan;+^reset;20%^green; HP ^gray;(^white;180s^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パルプ付き。 \n^cyan;+^reset;20%^green; HP ^gray;(^white;180ス)^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chicken Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チキンジュース"
+    }
+  ]
+]

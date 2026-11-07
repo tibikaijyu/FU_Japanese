@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A zaptastic specimen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乳房標本。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shocktop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックトップ"
+    }
+  ]
+]

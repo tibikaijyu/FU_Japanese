@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Health x^green;1.05^reset;\n^yellow;^reset; (Machine) Pistol: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;20^reset;% chance for bonus defense below 33% Health"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;体力 x ^green;1.05^reset;\n^yellow;^reset;(マシン) ピストル : ダメージ x ^green;1.25^reset;\n^yellow;^reset; ^cyan;20^reset;% 以下のボーナス防御の機会 33% 健康"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost-Weave Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴースト織りマスク"
+    }
+  ]
+]

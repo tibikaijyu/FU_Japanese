@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A standard wooden crossbow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "標準的な木製のクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製クロスボウ"
+    }
+  ]
+]

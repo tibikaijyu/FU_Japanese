@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place oil in the left slot to refine into mech fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2; 左スロットに油を入れ、メカ燃料に精製します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "Distill"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "蒸留"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2;Converts Oil"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2;油を変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "  Oil Distiller"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "  石油蒸留所"
+    }
+  ]
+]

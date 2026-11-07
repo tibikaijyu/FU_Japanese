@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Scrotal Obliterator"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "陰影消音器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your mother is a hooker. ^cyan;I have proof.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのお母さんは売春婦です。 ^cyan; 証明があります。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scrotal Obliterator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "陰影消音器"
+    }
+  ]
+]

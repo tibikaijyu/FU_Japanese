@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Though technically a cyborg, its organic brain controls only lower functions"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "技術的にはサイボーグですが、その有機脳はより低い機能しか制御しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fatal Circuit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "致死回路"
+    }
+  ]
+]

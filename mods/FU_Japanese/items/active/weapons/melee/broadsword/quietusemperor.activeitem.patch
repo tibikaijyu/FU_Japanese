@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy-duty quietus weapon. Slow as molasses, but brutally deadly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なサイクリスト兵器。 糖蜜のように遅いが、残酷に致命的である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Emperor Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレード天皇"
+    }
+  ]
+]

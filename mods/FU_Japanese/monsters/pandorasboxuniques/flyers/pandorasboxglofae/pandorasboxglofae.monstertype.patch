@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These whimsical-looking monsters are actually a highly intelligent bioluminescent insect."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの気まぐれな怪物は、実際には高度にインテリジェントな生物発光昆虫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glofae"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クロファエ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beautifully gleaming flowers that cure insanity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狂気を治す美しい輝きの花。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Darklight Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークライトフラワー"
+    }
+  ]
+]

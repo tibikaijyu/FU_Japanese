@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pulsing with crystalline energy.\n^cyan;Breaks blocks^reset;\n^yellow;Spawns microbursts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "結晶エネルギーで脈打つ。\n^cyan;ブロックを破る^reset;\n^yellow;マイクロバーストを生成^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリストライカー"
+    }
+  ]
+]

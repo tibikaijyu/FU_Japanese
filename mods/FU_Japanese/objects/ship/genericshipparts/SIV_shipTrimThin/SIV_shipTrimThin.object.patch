@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thin trim piece for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の薄いトリムピース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thin Trim centerpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薄いトリムセンターピース"
+    }
+  ]
+]

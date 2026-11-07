@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A superior furnace for processing mass quantities. Can smelt up to ^cyan;rare^reset; ores, and many more materials. ^cyan;Requires ^orange;50W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大量処理に適した優れた炉です。 ^cyan;希少な^reset;鉱石など多くの材料に製錬できます。 ^cyan; は ^orange;50W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Blast Furnace^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;溶鉱炉^reset;"
+    }
+  ]
+]

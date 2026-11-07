@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Apex Protector, mangled beyond any hope of revival."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アペックスプロテクターは、復活の希望を超えてマングルしました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "Ded monkeyman. Not me. Glad."
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "サルマン。 私じゃない。 よかった"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "Goodbye..."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "さようなら..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/thelusianDescription",
+      "value": "Looks delicious."
+    },
+    {
+      "op": "replace",
+      "path": "/thelusianDescription",
+      "value": "美味しそうに見える。"
+    }
+  ]
+]

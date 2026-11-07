@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Okay, this not good. Signature data has many journal entries. Kevin found remains of different version of mew. Her inner shell had ruptured due to lack of noms. All da bad energies? In one word: ^red;Fallout^reset;...or is dat two?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よし、これは良くない。 署名データには多くのジャーナルエントリがあります。 ケビンは新種の残骸を発見した。 彼女の内殻は名目不足で破裂していた。 エネルギーが悪い? すなわち、^red;Fallout^reset;... または dat 二ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "Find the ^orange;artifact^reset; in the ^orange;Dark Glitch keep^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "^orange;アーティファクト ^reset; は ^orange; ダークグリッチキープ ^reset; で検索します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Kherae^reset; at ^orange;the Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケーレ^reset; で ^orange;えッ? 科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Should be no surprise da next stop is da Baron's Keep. Off you go..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次の停留所が男爵のキープであることは驚くに当たらない。 出て行け..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "In Darkness Keep"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "闇の中で"
+    }
+  ]
+]

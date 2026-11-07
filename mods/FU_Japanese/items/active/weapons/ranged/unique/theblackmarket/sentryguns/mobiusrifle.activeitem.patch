@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mainstay of advanced forces. Rivaled by few.\n^yellow;Inflicts frozen-fire^reset;\n^cyan;Summons Shield Drones^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "先進勢力の主力。 少数派である。\n^yellow;凍結火災に影響を及ぼす^reset;\n^cyan;サモンシールドドローン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentry Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セントリーライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Shatterstar^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;シャッタースター^reset; ^yellow;^reset;"
+    }
+  ]
+]

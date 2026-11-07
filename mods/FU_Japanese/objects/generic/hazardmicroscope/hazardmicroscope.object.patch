@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Hazard^reset; Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ハザード^reset;顕微鏡"
+    }
+  ]
+]

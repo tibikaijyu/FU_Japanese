@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Horkulbeast"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "北陸獣"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the most valuable creatures in the known universe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "既知の宇宙で最も貴重な生き物の一つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horkulbeast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "北陸獣"
+    }
+  ]
+]

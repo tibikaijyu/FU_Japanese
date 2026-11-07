@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your skin gives off light for a while when consuming this illicit substance. Makes you feel sloppy.\n^cyan;Cosmetic Effect ^gray;(^white;220s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この違法な物質を摂取すると、あなたの肌はしばらくの間光を放ちます。 ずんぐりと感じる。\n^cyan;コスメティックエフェクト^gray;(^white;220s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Novaglow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノヴァグロー"
+    }
+  ]
+]

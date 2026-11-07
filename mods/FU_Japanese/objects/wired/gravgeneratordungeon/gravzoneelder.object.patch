@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This unknown glyphs seems to generate a strange force..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この未知のグリフは、奇妙な力を生み出すようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Sigil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "年長者シジル"
+    }
+  ]
+]

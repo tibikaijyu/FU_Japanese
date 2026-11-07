@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A loose blouse made from sheer fabric. It fits slimes rather well."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "薄手の生地で作られたゆったりしたブラウス。 それはかなりよくスライムにフィットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "White Sheer Blouse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホワイトシアーブラウス"
+    }
+  ]
+]

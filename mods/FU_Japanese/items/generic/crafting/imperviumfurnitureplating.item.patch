@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impervium, carefully prepared for crafting furniture with."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家具を作るために慎重に準備されたインペルビウム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impervium Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インペルビウムめっき"
+    }
+  ]
+]

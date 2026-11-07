@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Mulch^reset; is useful in a ^orange;Growing Tray^reset; as a ^green;weak fertilizer^reset;. You can craft all sorts of chemicals, plastics and lab-made materials. Be sure to upgrade the ^orange;Alchemy Table^reset; when you can!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;腐葉土^reset;は、^orange;成長トレイ^reset;は^green;弱い肥料^reset;として有用です。 あらゆる種類の化学物質、プラスチック、ラボ製の材料を製造できます。 ^orange;錬金術 作業台 ^reset; をアップグレードしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So you've built an ^orange;Alchemy Table^reset; and want to learn to use it? Simple enough. Just don't blow yourself to bits, please. Place it down and start by making some ^orange;Mulch^reset; for fertilizer."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "では、^orange;錬金術 作業台^reset;を構築して、使いたいですか? シンプルです。 自分を少しだけ吹き飛ばすな。 それを下に置き、肥料のためにいくつかの^orange;腐葉土^reset;を作成することから始めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Alchemy, Chemistry...whatever"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "錬金術化学... 何でも"
+    }
+  ]
+]

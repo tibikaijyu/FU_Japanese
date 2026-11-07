@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A volcanic formation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山の形成。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Formation"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山の形成"
+    }
+  ]
+]

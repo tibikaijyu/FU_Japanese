@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wonderfully, colorfully dangerous.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不思議なことに、カラフルに危険です。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹色のムチ"
+    }
+  ]
+]

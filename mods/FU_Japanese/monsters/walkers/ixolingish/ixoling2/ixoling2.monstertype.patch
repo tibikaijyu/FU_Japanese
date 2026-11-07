@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "If it survives for 200 years, it might become an Ixodoom."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "もしそれが200年の間生き残るなら、それはIxodoomになるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jungle Ixoling"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャングルアイソリング"
+    }
+  ]
+]

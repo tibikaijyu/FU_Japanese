@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pulsing core of energized plasma. \n^blue;+^white;250 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "通電プラズマの脈動コア。 \n^blue;+^white;250 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Core"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマコア"
+    }
+  ]
+]

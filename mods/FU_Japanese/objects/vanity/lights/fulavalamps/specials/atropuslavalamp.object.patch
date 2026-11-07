@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with what looks to be pus. The outer flesh pulses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポスに見えるものでいっぱいのランプ。 外側の肉の脈。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュラバランプ"
+    }
+  ]
+]

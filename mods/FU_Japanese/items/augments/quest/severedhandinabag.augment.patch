@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Severed Hand in a Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "袋の中の重度の手"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Can walk on water. For some reason.^reset;\n^cyan;You are also quite enraged.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;水の上を歩くことができます。 なぜか。^reset;\n^cyan; あなたもかなり怒っています。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Severed Hand in a Bag^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;バッグに重度の手^reset;"
+    }
+  ]
+]

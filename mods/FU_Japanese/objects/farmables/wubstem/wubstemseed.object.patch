@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides electric resistance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電気抵抗を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wubstem Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "亜種"
+    }
+  ]
+]

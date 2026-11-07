@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This axe is light, but strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この軸は軽くて強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタン軸"
+    }
+  ]
+]

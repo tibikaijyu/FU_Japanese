@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bricks made out of magmastone and hellfire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグマストーンと地獄の火でできたレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Bricks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火れんが"
+    }
+  ]
+]

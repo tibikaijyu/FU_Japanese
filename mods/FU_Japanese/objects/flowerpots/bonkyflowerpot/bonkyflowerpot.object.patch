@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large potted tree. It comes from an arid region."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな鉢植えの木。 乾燥した地域から来ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Dry tree."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ドライツリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analytical. A large potted tree. It comes from an arid region."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 大きな鉢植えの木。 乾燥した地域から来ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A dry lookin' tree in a pot."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "鍋の中の乾燥した木。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Potted Bonky Tree"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉢植えのバンキーツリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mutation of the common genus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "共通の属の突然変異。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rajaflora"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラジャワラ"
+    }
+  ]
+]

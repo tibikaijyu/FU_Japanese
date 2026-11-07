@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Uh....."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うーん...。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Bag of Farts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;ファーツのバッグ^reset;"
+    }
+  ]
+]

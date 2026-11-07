@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Oxygen x^green;30^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;酸素x^green;30^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spacepunk Duster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スペースパンクダスター"
+    }
+  ]
+]

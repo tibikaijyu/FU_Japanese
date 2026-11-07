@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unusually scented alien grass"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異種の香りのする雑草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアン草"
+    }
+  ]
+]

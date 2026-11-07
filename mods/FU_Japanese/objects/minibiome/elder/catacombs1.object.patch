@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These have stood the test of time. For a long, long time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらは時間の試練に耐えてきた。 長い間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

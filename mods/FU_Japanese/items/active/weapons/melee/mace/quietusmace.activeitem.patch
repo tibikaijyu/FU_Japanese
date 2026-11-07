@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hefty and dangerous, with a high Stun chance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重くて危険で、高い確率で。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスのメイス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A malignant and unsettling door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪性で落ち着きのないドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Drop bombs while in ball form with [down]"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆弾をボール状に投下します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Distortion Sphere II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;歪球II^reset;"
+    }
+  ]
+]

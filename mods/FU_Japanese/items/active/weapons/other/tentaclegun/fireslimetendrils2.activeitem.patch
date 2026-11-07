@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reach out and hit somebody."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かを叩きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fire Slime Tendrils II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炎スライムの触手 II"
+    }
+  ]
+]

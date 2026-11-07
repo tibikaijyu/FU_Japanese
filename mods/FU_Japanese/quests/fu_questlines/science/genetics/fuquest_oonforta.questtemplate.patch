@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Great work. Next, I suggest you start getting to work crafting ^orange;Mutavisk Seeds^reset; and start a farm. You'll want the textiles they can create fairly soon."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事。 次に、作成を開始することをお勧めします ^orange; ムタヴィスク種子 ^reset; 農場を開始します。 すぐに作れそうなテキスタイルが欲しいでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ^orange;Oonforta^reset; is a weird but useful fungus. It produces light when thrown, and will be invaluable to you. Create some at your ^orange;Greenhouse^reset; and try them out!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ウンフォルタ ^reset;は奇妙だが有用な真菌である。 投げると光を発生させ、あなたには計り知れません。 ^orange;Greenhouse^reset;で作成して試してみてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Light in the Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "闇の中の光"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flowery, lush soil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花、緑豊かな土壌。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rainforest Flowers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "熱帯雨林の花"
+    }
+  ]
+]

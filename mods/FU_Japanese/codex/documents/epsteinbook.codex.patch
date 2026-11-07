@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Epstein didn't kill himself."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "エプスタインは自殺しなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "If you have this you cheated."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを持ってたら、だまされた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/longContentPages/0",
+      "value": "Epstein didn't kill himself."
+    },
+    {
+      "op": "replace",
+      "path": "/longContentPages/0",
+      "value": "エプスタインは自殺しなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "An Amazing Fact"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "驚くべき事実"
+    }
+  ]
+]

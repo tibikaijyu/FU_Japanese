@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A somewhat-crude iron hammer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やや粗い鉄製のハンマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンハマー"
+    }
+  ]
+]

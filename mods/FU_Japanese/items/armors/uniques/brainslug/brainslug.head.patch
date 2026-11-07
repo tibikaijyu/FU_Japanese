@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grants ^green;agility^reset; and ^purple;Aether ^green;immunity^reset;, but heavily impacts ^red;energy^reset; supply and increases ^red;hunger rate^reset;. Also, ^red;Insanity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;アジリティ^reset;と^purple;エーテル^green;免疫^reset;は、^red;エネルギー^reset;供給に大きく影響し、^red;飢餓率^reset;を増加させます。 また、^red;狂気^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brain Slug"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "脳スラグ"
+    }
+  ]
+]

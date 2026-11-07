@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pierces through any elemental defenses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あらゆる要素防御を貫く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーレイピア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfectly cast, exceptionally balanced."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧にキャストされ、非常にバランスが取れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exitus Mech Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エキシタスメカ脚"
+    }
+  ]
+]

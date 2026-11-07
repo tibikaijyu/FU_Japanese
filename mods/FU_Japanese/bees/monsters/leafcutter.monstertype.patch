@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A leafcutter bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーフカッターミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leafcutter Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーフカッタービー"
+    }
+  ]
+]

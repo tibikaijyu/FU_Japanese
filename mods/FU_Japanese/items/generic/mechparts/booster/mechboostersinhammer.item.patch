@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A set of boosters manufactured by SinCo."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "SinCoによって製造されたブースターのセット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Control Boosters"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コントロールブースター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A loamzipper bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロームジッパーミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Loamzipper Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロームジッパービー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+5% E. Regen & -2.5% E. Regen Block^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+5% E. 再生 & -2.5% E. 再生ブロック^reset;: 2え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Star Mint"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スターミント"
+    }
+  ]
+]

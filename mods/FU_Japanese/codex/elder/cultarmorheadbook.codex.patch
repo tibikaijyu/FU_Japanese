@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...and that is why your robe is never to be used in lieu of toilet paper. You'd not want that, right? As for your hood, which you of course already made using six Nocxium, a Valtan Casing and an Elder Core...well, just be sure you don't go using that, either..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "だから、あなたのローブはトイレットペーパーの代わりに決して使われないのです。 そんなの欲しくないでしょ? もちろん、六つのノクシウム、ヴァルタン Casing、そしてエルダー 核を使って作ったフードは、もちろん、それを使ってはいけない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cultists guide to proper hood attire"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カルト主義者がフードの服装を導く"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Proper Cult Wear - Hood"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "適切なカルトウェアフード"
+    }
+  ]
+]

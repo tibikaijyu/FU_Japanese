@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Kinetic Field II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "運動学II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that multiplies Defense by 1.075."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "防御力 を 1.075 に乗じた EPP モジュールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kinetic Field II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "運動学II"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Covered in blood and creepy carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血と不気味な彫刻で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sacrificial Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "犠牲刃"
+    }
+  ]
+]

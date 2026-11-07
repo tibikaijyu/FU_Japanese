@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet tart, enough for one."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘いタルト、一つで十分です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Little sweet is so sssmall..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "小さな甘味はとても小さいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. An adorable little tart."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 可愛らしい小さなタルト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A flaky li'l pastry."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ふわふわしたライルペストリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タルト"
+    }
+  ]
+]

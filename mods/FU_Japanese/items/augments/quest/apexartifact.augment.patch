@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "The Genesis Coil"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "ジェネシスコイル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Improved efficiency with all techs^reset;\nEnergy x^green;1.15^reset;\n^orange;Mobility II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;すべての技術で効率を向上。^reset;\nエネルギーx^green;1.15^reset;\n^orange;機動力II^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Genesis Coil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジェネシスコイル"
+    }
+  ]
+]

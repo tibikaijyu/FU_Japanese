@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Fireblast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "火芽"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather large flame weapon.\n^yellow;Inflicts burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり大きな火器。\n^yellow;焼失する影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inferno"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インフェルノ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Fleshroaster^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;フロースター^reset; ^yellow;^reset;"
+    }
+  ]
+]

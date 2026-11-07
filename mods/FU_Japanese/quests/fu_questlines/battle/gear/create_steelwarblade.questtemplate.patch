@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent, enjoy cutting stuff up. Here, take this off my hands."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "優れた、物事を切ることを楽しむ。 はい、手を離してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;steel warblade^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;スチール戦刃^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'll be blunt. My sword sucks. Make me a new one. Go craft a ^orange;Steel Warblade^reset; in your ^orange;Assembly Line^reset;! You'll need to upgrade your ^orange;Armorworks^reset; first."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は無能だ。 私の剣はしゃぐ。 新しいものを作れ。 ^orange;アセンブリライン ^reset; で ^orange; スチールウォーブレード ^reset; を作成してください! ^orange;武具製作台^reset;を最初にアップグレードする必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Sharpening the Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "刃を研ぎ澄ます"
+    }
+  ]
+]

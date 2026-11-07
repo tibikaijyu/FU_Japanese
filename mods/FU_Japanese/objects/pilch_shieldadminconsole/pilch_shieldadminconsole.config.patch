@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/warningLabel/value",
+      "value": "^#ff0000;CAUTION: Purging will remove/reset all fields on this world.\nAll registered field generators will be broken."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/warningLabel/value",
+      "value": "^#ff0000; 注意: パージは、この世界のすべてのフィールドを削除/リセットします。\n登録済みのフィールドジェネレーターはすべて壊れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "Generator Control Console"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "発電機制御盤"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "Pilchenstein's Field Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "Pilchensteinのフィールドジェネレータ"
+    }
+  ]
+]

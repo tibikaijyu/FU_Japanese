@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "My apologies for dropping in unannounced. You looked like you needed help."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "未発表でお立ち寄りになったことを申し訳ございません。 助けが必要なように見えました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "My name is Jinrei; I am a Guardian who fights with SMASH to protect this fine city."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "私はこの素晴らしい都市を守るために破壊と戦うガーディアンです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "I take it you have met Zeldia? Nevertheless, there is little time to lose. More enemies await us."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "ゼルディアに会ったことある? それにもかかわらず、失う時間はほとんどありません。 もっと敵が待っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "The penguin threat must be eliminated at all costs; I am sure you will find more of my allies ahead to aid you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "ペンギンの脅威は、すべてのコストで排除されなければなりません。私はあなたがあなたを助けるために先に私の同盟者の多くを見つけると確信しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "I will stay to secure this area and ensure the penguins do not re-infest it. Please, move on without me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "私はこの領域を確保し、ペンギンがそれを再感染しないようにします。 私なしで進んでください。"
+    }
+  ]
+]

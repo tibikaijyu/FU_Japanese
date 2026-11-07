@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keep the glare of the sun out of your face."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の輝きを顔に近づけないようにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peglaci Bandana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペグラチ・バンダナ"
+    }
+  ]
+]

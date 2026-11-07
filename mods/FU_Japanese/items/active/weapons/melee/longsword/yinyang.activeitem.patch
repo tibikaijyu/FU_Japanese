@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A balanced blade. Light and dark combined."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バランスのとれた刃。 明暗が組み合わさった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Yin Yang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "陰陽"
+    }
+  ]
+]

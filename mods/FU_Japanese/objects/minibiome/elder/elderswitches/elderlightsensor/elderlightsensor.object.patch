@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whatever this says, it's probably not a greeting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これが何といっても、おそらく挨拶ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Glyph"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙なグリフ"
+    }
+  ]
+]

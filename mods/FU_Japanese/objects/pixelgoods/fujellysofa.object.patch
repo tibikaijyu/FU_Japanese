@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Netflix and Chill with some added bounce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NetflixとChillは、いくつかのバウンスを追加した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jelly Couch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼリーソファー"
+    }
+  ]
+]

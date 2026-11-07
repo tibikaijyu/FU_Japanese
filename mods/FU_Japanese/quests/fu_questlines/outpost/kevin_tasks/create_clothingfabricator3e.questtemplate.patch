@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That's a whole lot of brains! Also, I didn't even bother collecting any. You beat me! You're also now ^orange;a murderer^reset;! Congratulations!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あれは多くの脳みそです! また、私は何も収集しようともしなかった。 ぶち壊された! あなたも今^orange;殺人者^reset;! おめでとう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin^reset; 50 ^orange;Brains^reset; of average quality."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン^reset; 50 ^orange;脳^reset; 平均的な品質です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I bet you can't collect more brains than I can! In fact, I ^orange;double-dog-dare^reset; you to collect ^orange;more brains^reset; than I can! Remove ^orange;50 brains^reset; from random life-forms...that's a decent start."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "きっと君は私より多くの脳を集めることはできないだろう。 実際 私は ^orange;二重犬のあえて^reset; 集めて ^orange;脳を^reset; できるより! ^orange;50brains^reset;をランダムな生命体から削除する...それはまともなスタートです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Madness and Death"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "狂気と死"
+    }
+  ]
+]

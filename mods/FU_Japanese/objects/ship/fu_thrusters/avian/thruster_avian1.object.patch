@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Avian design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴィアンデザインの宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Thruster (Avian)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型スラスター(鳥)"
+    }
+  ]
+]

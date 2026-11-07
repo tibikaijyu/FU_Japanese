@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Infused with deadly enriched uranium. That's kind of you.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウランが大きかった。 それはあなたの親切です。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウラン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Intake Body for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の吸気体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Intake Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人体摂取量"
+    }
+  ]
+]

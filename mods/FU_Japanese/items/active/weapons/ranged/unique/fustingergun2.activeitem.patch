@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sting the living hell out of your foes.\n^yellow;Lots of stingy fun, ^cyan;Floran^reset;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵から生き地獄を突き止めなさい。\n^yellow; ^cyan;フローラン^reset;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stinger Burstrifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "刺すバーストライフル"
+    }
+  ]
+]

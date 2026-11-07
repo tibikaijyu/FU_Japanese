@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Experimental Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "実験植物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Experimental Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "実験植物"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a magical snowland."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を魔法の雪地に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snowland Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノーランドマイクロフォーマ"
+    }
+  ]
+]

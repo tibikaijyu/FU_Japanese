@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I'm not sure that I should like to sleep here."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ここで寝たいかどうかわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This looks more like a tomb than a bed..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これはベッドというよりは墓のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark bed that looks more like a coffin..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗いベッドで、まるでひつじ座のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran doesssn't like thisss bed."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこのベッドが嫌いだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. My power levels are low, but this bed is too ominous."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 私のパワーレベルは低いですが、このベッドは不吉すぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This bed creeps me out."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このベッドは私をこっそりさせてくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "It seems like you wouoldn't get much sleep in this..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "あまり眠れないみたいで...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I wouldn't step one foot in there, no sir."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はそこに一歩も踏み込まない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowy Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウベッド"
+    }
+  ]
+]

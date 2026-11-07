@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nice lattice made of wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木で作られた素敵な格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Window lettuce."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ウィンドウレタス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. A window lattice."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 窓格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rich Window Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リッチウィンドウ格子"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Warty but not very weedy. ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワーティしかし、あまり雑草。 ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

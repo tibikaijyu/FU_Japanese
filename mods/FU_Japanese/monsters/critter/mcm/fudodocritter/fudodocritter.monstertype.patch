@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flightless bird that eats fruit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "果物を食べる飛べない鳥。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dodo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "堂堂"
+    }
+  ]
+]

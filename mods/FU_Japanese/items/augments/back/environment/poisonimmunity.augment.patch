@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Poison Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "毒シールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that resists Poisons, ^green;+25% Poison Resist, Immune: Poisoned, Proto-poison^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒に抵抗するEPPモジュール、^green;+25% 毒抵抗、免疫:毒、原毒^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒シールド"
+    }
+  ]
+]

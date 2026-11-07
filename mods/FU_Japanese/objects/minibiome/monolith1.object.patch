@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What manner of abomination is this carved to represent? More importantly...who carved it?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この彫刻はどんな嫌がらせを表しているのか? もっと重要なことは...誰がそれを彫ったのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不思議な記念碑"
+    }
+  ]
+]

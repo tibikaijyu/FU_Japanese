@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cybernetic Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイバネティッククイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cybernetic Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイバネティッククイーン"
+    }
+  ]
+]

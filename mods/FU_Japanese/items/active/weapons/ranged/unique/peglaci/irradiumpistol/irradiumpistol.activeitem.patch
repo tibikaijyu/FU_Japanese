@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Radiation has never been so adorably lethal.\n^yellow;Inflicts radiation burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射線は決してとても愛らしい致命的ではありません。\n^yellow;放射線燃焼に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムピストル"
+    }
+  ]
+]

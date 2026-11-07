@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A set of mech legs designed for exploration."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "探査用に設計されたメカの脚のセット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Explorer Mech Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エクスプローラメカの脚"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Radioactive Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "放射性バリア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that resists the Radioactive element, ^green;+25% Rad Resist, Rad-Burn Immunity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性元素に抵抗するEPPモジュール、^green;+25%Rad 耐性、放射線熱傷 無効化 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radioactive Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射性バリア"
+    }
+  ]
+]

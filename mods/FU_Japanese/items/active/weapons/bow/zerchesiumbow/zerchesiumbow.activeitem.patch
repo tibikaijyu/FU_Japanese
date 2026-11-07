@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Ice Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "アイスビーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Full of frosty menace.\n^cyan;Slows enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍えるような脅威に満ちている。\n^cyan;スローな敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムボウ"
+    }
+  ]
+]

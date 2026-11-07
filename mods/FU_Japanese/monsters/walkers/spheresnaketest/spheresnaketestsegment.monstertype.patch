@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Testing rotating monster"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "回転モンスターのテスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "head of the snake - has status changing color"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘビの頭 - 色が変化する状態を持つ"
+    }
+  ]
+]

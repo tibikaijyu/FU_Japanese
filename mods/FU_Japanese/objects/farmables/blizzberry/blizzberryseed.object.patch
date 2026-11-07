@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Helps provide immunity to even the most extreme cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も極端な寒さにも免疫を与えるのに役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blizzberry Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリズベリー種子"
+    }
+  ]
+]

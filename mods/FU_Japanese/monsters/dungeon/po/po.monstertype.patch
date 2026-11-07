@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Little shit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ちっともクソ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mini Po"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミニポー"
+    }
+  ]
+]

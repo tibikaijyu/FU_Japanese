@@ -1,0 +1,398 @@
+{
+  "upstream_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+  "scope": "Display arguments and <elementalName> only; not gameplay IDs or saved values",
+  "files": [
+    {
+      "asset": "bees/beeBuilder.lua",
+      "upstream_sha256": "07fd987d05bfd2b356aa8c349e3fc1e6955832a209bc3884d0853cb6e0c3a9bf",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "..subtype",
+          "new": "..fujpDisplay.beeSubtype(subtype)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "interface/mechfuel/mechfuel.lua",
+      "upstream_sha256": "3c69ebb00a8b39fd96b46626d9facd9439b07fb17ff2ecbd7b995ef4984acd97",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": ".. textColor .. \";\" .. type)",
+          "new": ".. textColor .. \";\" .. fujpDisplay.text(type))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "interface/objectcrafting/fu_pethouse/fu_pethouse.lua",
+      "upstream_sha256": "fd99ab347b0ec90e251da72464f32a74a3fa5ea791a57e9365929c8994f3f543",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "widget.setText(listItem .. \".name\", pet)",
+          "new": "widget.setText(listItem .. \".name\", fujpDisplay.monster(pet))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": ".. world.getObjectParameter(containerId, \"shipPetType\") .. \".\"",
+          "new": ".. fujpDisplay.monster(world.getObjectParameter(containerId, \"shipPetType\")) .. \".\"",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "interface/scripted/spaceStation/spaceStation.lua",
+      "upstream_sha256": "df618cde9bcb438a5b0629f1c4638b92d8aa1a03cf20ccd1892472ae84edb96c",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "widget.setText(\"button1\", tostring(b1[1]))",
+          "new": "widget.setText(\"button1\", fujpDisplay.text(tostring(b1[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button1\", tostring(b1))",
+          "new": "widget.setText(\"button1\", fujpDisplay.text(tostring(b1)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button2\", tostring(b2[1]))",
+          "new": "widget.setText(\"button2\", fujpDisplay.text(tostring(b2[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button2\", tostring(b2))",
+          "new": "widget.setText(\"button2\", fujpDisplay.text(tostring(b2)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button3\", tostring(b3[1]))",
+          "new": "widget.setText(\"button3\", fujpDisplay.text(tostring(b3[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button3\", tostring(b3))",
+          "new": "widget.setText(\"button3\", fujpDisplay.text(tostring(b3)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button4\", tostring(b4[1]))",
+          "new": "widget.setText(\"button4\", fujpDisplay.text(tostring(b4[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button4\", tostring(b4))",
+          "new": "widget.setText(\"button4\", fujpDisplay.text(tostring(b4)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button5\", tostring(b5[1]))",
+          "new": "widget.setText(\"button5\", fujpDisplay.text(tostring(b5[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button5\", tostring(b5))",
+          "new": "widget.setText(\"button5\", fujpDisplay.text(tostring(b5)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button6\", tostring(b6[1]))",
+          "new": "widget.setText(\"button6\", fujpDisplay.text(tostring(b6[1])))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "widget.setText(\"button6\", tostring(b6))",
+          "new": "widget.setText(\"button6\", fujpDisplay.text(tostring(b6)))",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildboomerang.lua",
+      "upstream_sha256": "510f0eb9fdada2b1e6b6dfe7db3320ca3b9119656b3efd556b565b0ea73ecd76",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildbow.lua",
+      "upstream_sha256": "76c3dfc806762c2bac5a8fabd19a1edc0a2bb8b490873b2644ffea8b8a05c8ae",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildfist.lua",
+      "upstream_sha256": "35957fe55505d79b49f1f1e89ce311193acfea37529ca35bb8e557df776094ae",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildfuoverheatweapon.lua",
+      "upstream_sha256": "0d4d64b67521ed89c1a28b777071280f0f95dd4d6cdef440a62a9c2c016ecc3a",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildsapling.lua",
+      "upstream_sha256": "6d98c1042060f8a3aa058c177b9f277cf0255dd1b2a0a88d994c4b72f8bbcb8e",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "..(parameters.foliageName or ",
+          "new": "..(foliageName or ",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        },
+        {
+          "old": "..(parameters.stemName or ",
+          "new": "..(stemName or ",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildunrandweapon.lua",
+      "upstream_sha256": "728118b42185637ddab5fc4b0796d19dbeca7b70c625f546e0e5d6f28d66669e",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildweapon.lua",
+      "upstream_sha256": "88be745fa6d14af10ed3647397a8447cd6271f1fdd0d2539b0ab46de9df7f1d8",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/buildwhip.lua",
+      "upstream_sha256": "ad69a1f408a58525345dba3c75620a38ec5d22e1d69aad950fe9be01cb3c74ce",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/fubuildchakram.lua",
+      "upstream_sha256": "a55eaf5f4aae3fe48a660b42b711f3265bdf72e4234010d7a965e60fd1b72b98",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/fubuildmagnorb.lua",
+      "upstream_sha256": "a2806b08c3b160ac625c30558f07eb840b098a6b464f3542edd55780fdf62654",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/neb-buildbow.lua",
+      "upstream_sha256": "a2fa5f1bed5c1a274776255a9e974538c1a42682182e4c1309505374670ebebb",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "items/buildscripts/neb-buildrandombow.lua",
+      "upstream_sha256": "5509861529008de882c00e8029013df226fc00e1cf0808a8d2eb640bcb6326a4",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "replacePatternInData(config, nil, \"<elementalName>\", elementalType:gsub(\"^%l\", string.upper))",
+          "new": "replacePatternInData(config, nil, \"<elementalName>\", fujpDisplay.text(elementalType:gsub(\"^%l\", string.upper)))",
+          "count": 1,
+          "reason": "Only the display <elementalName> placeholder; <elementalType>, image names, damage IDs stay original"
+        },
+        {
+          "old": "config.tooltipFields.subtitle = parameters.category",
+          "new": "config.tooltipFields.subtitle = fujpDisplay.text(parameters.category)",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "objects/power/isn_atmoscondenser/isn_resource_generator.lua",
+      "upstream_sha256": "cc51ddc169459d4d4399de51e9395e07b3bc9ff98803d1f3dd64232cde2bb3ba",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "..firstToUpper(weight)..",
+          "new": "..fujpDisplay.text(firstToUpper(weight))..",
+          "count": 3,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "scripts/companions/capturable.lua",
+      "upstream_sha256": "8f3846aa16e0986b9061649bafe9aab94e591d346ec0dd75d32f5d19d227f93b",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "monster.setName(petName .. \"\\n ^white;\" .. storage.statusText)",
+          "new": "monster.setName(petName .. \"\\n ^white;\" .. fujpDisplay.text(storage.statusText))",
+          "count": 1,
+          "reason": "Translate cached built-in pet mood only when drawing; petName and saved status remain unchanged"
+        }
+      ]
+    },
+    {
+      "asset": "zb/newSail/newSail.lua",
+      "upstream_sha256": "197f297514be395ed59f0c2eaf706418ff7db26e9f287bf15764ca25c176ab90",
+      "require_helper": true,
+      "replacements": [
+        {
+          "old": "..crew.config.species..",
+          "new": "..fujpDisplay.species(crew.config.species)..",
+          "count": 1,
+          "reason": "Display alias only; original gameplay value retained"
+        }
+      ]
+    },
+    {
+      "asset": "zb/questList/questList.lua",
+      "upstream_sha256": "04097092807ce0a9ce163dcf5789ad91ca9af5c219e0e8a77aca3d11af1e8170",
+      "require_helper": false,
+      "replacements": [
+        {
+          "old": "widget.setImage(path..\".banner\", \"/zb/questList/banners/\"..tbl.id..\".png:default\")",
+          "new": "widget.setImage(path..\".banner\", \"/zb/questList/banners/\"..tbl.id..\".png:default\")\n\t\t\twidget.setText(path..\".fuJapaneseBannerTitle\", tostring(QD.strings.questlines[tbl.id].title))",
+          "count": 1,
+          "reason": "Draw localized questline title over bitmap text; retain quest data and image IDs"
+        },
+        {
+          "old": "widget.setImage(path..\".banner\", \"/zb/questList/banners/\"..tbl.id..\".png:unavailable\")",
+          "new": "widget.setImage(path..\".banner\", \"/zb/questList/banners/\"..tbl.id..\".png:unavailable\")\n\t\t\twidget.setText(path..\".fuJapaneseBannerTitle\", \"^gray;\"..tostring(QD.strings.questlines[tbl.id].title)..\"^reset;\")",
+          "count": 1,
+          "reason": "Draw localized questline title over bitmap text; retain quest data and image IDs"
+        },
+        {
+          "old": "widget.setImage(\"questlineBanner\", \"/zb/questList/banners/\"..questline..\".png:default\")",
+          "new": "widget.setImage(\"questlineBanner\", \"/zb/questList/banners/\"..questline..\".png:default\")\n\t\t\twidget.setText(\"fuJapaneseQuestlineTitle\", tostring(QD.strings.questlines[questline].title))\n\t\t\twidget.setVisible(\"fuJapaneseQuestlineTitle\", true)\n\t\t\twidget.setVisible(\"fuJapaneseQuestlineCover\", true)",
+          "count": 1,
+          "reason": "Show localized title and bitmap cover when entering a questline"
+        },
+        {
+          "old": "widget.setImage(\"questlineBanner\", \"/assetmissing.png\")",
+          "new": "widget.setImage(\"questlineBanner\", \"/assetmissing.png\")\n\twidget.setText(\"fuJapaneseQuestlineTitle\", \"\")\n\twidget.setVisible(\"fuJapaneseQuestlineTitle\", false)\n\twidget.setVisible(\"fuJapaneseQuestlineCover\", false)",
+          "count": 1,
+          "reason": "Clear and hide localized title and cover on returning to the questline list"
+        }
+      ]
+    }
+  ]
+}

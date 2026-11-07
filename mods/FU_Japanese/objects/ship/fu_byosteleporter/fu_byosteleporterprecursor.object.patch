@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ship teleporter crafted from an ancient Precursor schematic"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代前駆体図から作られた船のテレポーター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Ship Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身の船のテレポート"
+    }
+  ]
+]

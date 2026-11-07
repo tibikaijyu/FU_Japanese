@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chilling drink. Har har.\n^red;Drunk^gray;, ^cyan;+^white;20% ^pink;Ice ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷たい飲み物。 彼女の髪。\n^red;酒^gray;, ^cyan;+^white;20% ^pink;氷 ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Spirits"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷魂"
+    }
+  ]
+]

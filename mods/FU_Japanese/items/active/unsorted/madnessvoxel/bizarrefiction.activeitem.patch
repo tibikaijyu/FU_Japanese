@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Weird fiction that is completely bonkers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全におしゃれな奇妙なフィクション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bizarre Fiction"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙なフィクション"
+    }
+  ]
+]

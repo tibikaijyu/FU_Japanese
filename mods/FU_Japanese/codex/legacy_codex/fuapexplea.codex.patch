@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "To our Apex comrade,\nThe Resistance is counting on you. Even now, the Miniknog descend on our secret base. You're our last, best hope, and only partly because you're the sole member of our cell who can fly a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "エイペックスの仲間たちにとって\nレジスタンスがあなたを頼りにしています。 今でも、ミニノグは私たちの秘密基地に降りてきます。 あなたは最後の、最も良い希望であり、そしてそれはあなたが宇宙船を飛行できる唯一のセルのメンバーだからです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Go now, brave Apex. Go, spread the plight of our people to the universe at large. Call for help! Return with an army so that we may crush Big Ape once and for all! And pick up some bananas on your way back. Just be sure not to run out of fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "さあ、勇敢なエイペックス。 私たちの人々の窮状を広く宇宙に広げてください。 助けを呼べ! 私たちは一度にそしてすべてのためにビッグエイプを粉砕することができるように軍隊で戻って! 帰りにバナナを拾いましょう 燃料が枯渇しないようにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A plea from the Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レジスタンスからの嘆願"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Resistance Plea"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "レジスタンスプレア"
+    }
+  ]
+]

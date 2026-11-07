@@ -1,0 +1,158 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Khe"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "ケー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "Be well. Bring back shinies!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "元気でいなさい。 輝きを取り戻せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/1",
+      "value": "It's no small feat to sell such great things!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/1",
+      "value": "あんな素晴らしいものを売るのは小さな偉業ではない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/default/default/0",
+      "value": "Follow me for shiny."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/default/default/0",
+      "value": "私についてきらびやかにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/follow/default/default/1",
+      "value": "Follow me and we can do business."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/follow/default/default/1",
+      "value": "私に従って、私たちはビジネスをすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "I'm Khe. I find shinies. Lose some?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "私はケーです。 輝いている。 いくらか失う?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "I sell lost things. Check them out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "私は失われたものを売る。 チェックしてみてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/tout/default/default/0",
+      "value": "Shinies for sale! Lost some? Want some? Get some!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/tout/default/default/0",
+      "value": "発売中! いくつか失った? 欲しい? 少しは!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/tout/default/default/1",
+      "value": "Mrowr. Looking to purchase things you've lost? I've got what you need."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/tout/default/default/1",
+      "value": "悲鳴。 あなたが失ったものを購入したいですか? 必要なものは手に入れました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "We're here. Shiny?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/0",
+      "value": "私たちはここにいます。 ピカピカ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "Greetings."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/welcome/default/default/1",
+      "value": "ごきげんよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Recover lost 'shinies'"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  失われた「光沢」を取り戻す"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "Khe's Shinies"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "ケーのキラキラ宝物"
+    }
+  ]
+]

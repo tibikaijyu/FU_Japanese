@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glass reinforced with durasteel wire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガラスは、デュラ鋼線で補強。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Reinforced Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチック強化ガラス"
+    }
+  ]
+]

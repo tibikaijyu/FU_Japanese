@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blaster Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブラスターボール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An energy-based sniper rifle with a bouncy projectile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "弾力のある発射体を持つエネルギーベースの狙撃銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトライフル"
+    }
+  ]
+]

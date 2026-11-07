@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine quietus weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしいサイクリスト兵器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rogue's Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ローグの剣"
+    }
+  ]
+]

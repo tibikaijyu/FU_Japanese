@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block made of a soft, glowing fungus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やわらかく光る菌でできたブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowing Mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "きのこ"
+    }
+  ]
+]

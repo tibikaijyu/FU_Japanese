@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Sunset Riders (3)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "サンセットライダー(3)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Sunset Riders (3) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "サンセットライダー (3) (R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "Law enforcement at a certain Fort Nova is offering a bounty for a notorious local criminal. I could try my hand at cashing this one in."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "特定のフォートノバの法執行機関は、悪名高い地元の犯罪者に報奨金を提供しています。 私はこれを現金化してみることができた。"
+    }
+  ]
+]

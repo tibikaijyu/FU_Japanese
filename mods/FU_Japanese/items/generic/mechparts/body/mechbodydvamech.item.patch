@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Pressure, Extreme Heat/Cold/Radiation/Poison, Proto"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 圧力、極限熱、冷熱、放射線、毒素、プロト"
+    }
+  ]
+]

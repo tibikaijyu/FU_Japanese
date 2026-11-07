@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Article 5, Paragraph 21.\nAbout the use of Weapons of Mass Destruction\n\nIt is not permitted to use any kind of weapons of mass destruction outside of war. This includes orbital bombardment, the use of energy projectors or plasma bombs. Such an incident will result in the dismissal and expulsion of the leading General, Commander or Admiral. Participants of the incident will also be punished."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "記事 5 、パラグラフ 21 。\n大量破壊兵器の使用について\n\n戦争以外の大量破壊兵器の使用は禁止されている。 これには、軌道砲撃、エネルギープロジェクターまたはプラズマ爆弾の使用が含まれます。 そのような出来事は、主要な将軍、司令官または提督の解任と追放をもたらします。 事件の参加者も罰せられます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An excerpt from the Codex of War."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦国コードから抜粋。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Codex of War 3"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "戦国コード 3"
+    }
+  ]
+]

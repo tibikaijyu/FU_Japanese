@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gem that generates thermal energy. Can be used to keep warm on colder planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱エネルギーを生成する宝石。 寒い惑星で暖かく保つために使用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thanatite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サナタイト結晶"
+    }
+  ]
+]

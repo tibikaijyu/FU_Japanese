@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a pine forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を松林に変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pine Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パインマイクロフォーマ"
+    }
+  ]
+]

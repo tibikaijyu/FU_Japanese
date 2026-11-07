@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; Fall Damage x^green;0.7^reset;\n^yellow;^reset; Assault/Energy Rifle: Damage x^green;1.2^reset; and +^green;2^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Gas, Moderate Cold, Liq.Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; 損傷x ^green;0.7^reset;\n^yellow;^reset; 攻撃・エネルギーライフル : 被害x^green;1.2^reset; そして+^green;2^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;酸素、ガス、適度な寒さ、窒素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X10 Power Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "X10 パワーヘルム"
+    }
+  ]
+]

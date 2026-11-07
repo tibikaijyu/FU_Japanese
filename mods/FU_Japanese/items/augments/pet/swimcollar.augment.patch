@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Aqua Collar"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "アクアカラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increase your pet's liquid agility."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットの流動性を高めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aqua Collar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクアカラー"
+    }
+  ]
+]

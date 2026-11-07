@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick, nutty and delicious. ^green;Type: Nut^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚く、ナッツで、美味しい。 ^green; タイプ: なし ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tearnut Butter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピーナッツバター"
+    }
+  ]
+]

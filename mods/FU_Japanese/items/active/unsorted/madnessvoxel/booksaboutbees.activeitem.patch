@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is the Bee Movie script. Over and over again."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビームービーの脚本です。 何度も何度も。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "All About Bees"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蜂について"
+    }
+  ]
+]

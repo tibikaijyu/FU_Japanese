@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Holy forking shirtballs, you did it. I guess you aren't the dumbass I had assumed. In return, I give you this super-neat technology blueprint I found in the ^orange;Anti-Realm^reset;! No, I won't tell you where that is. You can't know, because you aren't special like ^cyan;Dave^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "聖なるフォークのシャツボール、あなたがそれをやった。 たぶん君は私が想定していたような悪ふざけではないと思う。 その見返りとして、私は ^orange;Anti-Realm ^reset; で見つけたこの素晴らしい技術の青写真を提供します! いいえ、その場所は教えません。 あなたは^cyan;Dave^reset;のような特別なものではないので、あなたは知ることができません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin^reset; 1 ^orange;Neutronium and Anti-Neutronium^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン^reset; 1 ^orange;ニュートロニウムと反ニュートロニウム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Wanna try something ^orange;super fun^reset;? Let's create something previously thought to be ^green;hypothetical^reset;! Let's try making ^orange;Neutronium^reset; and ^orange;Anti-Neutronium^reset;! I'll give you something ^red;truly amazing^reset; if you can do it! I promise. For real, this time."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;スーパーファン^reset; を試してみませんか? ^green; 仮説 ^reset; と以前考えられていたものを作成しましょう! ^orange;Neutronium^reset;と^orange;反ニュートロニウム^reset;を作ろう! いくつかお見せします ^red;本当にすごい^reset; できるなら! 約束する。 今回は本当に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "He's insane. I like it."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "彼は狂っている。 私はそれが好きです。"
+    }
+  ]
+]

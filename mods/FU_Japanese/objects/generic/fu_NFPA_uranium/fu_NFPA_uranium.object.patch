@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A uranium NFPA sign."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウランNFPAサイン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium NFPA Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランNFPAサイン"
+    }
+  ]
+]

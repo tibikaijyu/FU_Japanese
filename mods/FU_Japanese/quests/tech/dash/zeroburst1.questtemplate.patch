@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With a bit of tinkering I think I could adapt rapid-burn of fuel safely to create a ^orange;Zero Burst Tech^reset;! With it equipped, I should ^orange;tap up twice^reset; to boost."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "少し手を加えれば、燃料の急速燃焼を安全に利用して、^orange;ゼロバースト・テック^reset;を作れそうだ！ 装備したら、^orange;上方向を二回押す^reset;と加速できるはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With a bit of tinkering I think I could adapt rapid-burn of fuel safely to create a ^orange;Zero Burst Tech^reset;! With it equipped, I should ^orange;tap up twice^reset; to boost."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "少し手を加えれば、燃料の急速燃焼を安全に利用して、^orange;ゼロバースト・テック^reset;を作れそうだ！ 装備したら、^orange;上方向を二回押す^reset;と加速できるはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Explosive Redirection"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "爆発的リダイレクト"
+    }
+  ]
+]

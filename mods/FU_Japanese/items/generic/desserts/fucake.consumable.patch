@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious rich cake!\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;500s^gray;)^reset; \n^orange;Type: Fruits + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいリッチケーキです!\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;500ス)^gray;)^reset; \n^orange;タイプ:フルーツ+乳製品+卵+砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frosted Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストケーキ"
+    }
+  ]
+]

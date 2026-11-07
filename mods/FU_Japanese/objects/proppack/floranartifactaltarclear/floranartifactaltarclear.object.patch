@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks like it was made to hold something important. Emphasis on \"was\"."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大切なものを握るために作られたようです。 「戦争」に重点を置く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Floran Artifact Altar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空の花のアーティファクト祭壇"
+    }
+  ]
+]

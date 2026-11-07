@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can be used to change the race of certain ship objects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定の船舶オブジェクトのレースを変更するために使用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Racialiser^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ラジアル化器^reset;"
+    }
+  ]
+]

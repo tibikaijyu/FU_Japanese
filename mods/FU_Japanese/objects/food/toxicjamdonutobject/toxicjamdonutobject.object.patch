@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harmless donuts filled with toxictop jam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒性トップジャムで満たされた無害なドーナツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran livesss on the edge! Bring it on doughy thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは縁に命を吹きます! ダウイものに持ち込みなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wary. Those bright colors aren't fooling me. That's not a pastry I ought to eat."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "注意。 その明るい色は私をだまさない。 それは私が食べるべきペストリーではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Yeah no, I'm pretty sure that's poisoned."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "毒を盛ったのは確かです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxic Jam Donuts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒ジャムドーナツ"
+    }
+  ]
+]

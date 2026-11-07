@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect end table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なエンドテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect End Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なエンドテーブル"
+    }
+  ]
+]

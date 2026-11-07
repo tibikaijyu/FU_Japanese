@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There exist more chemical compounds involving Carbon than don't."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素を含む化合物は、そうでないものよりも多く存在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素"
+    }
+  ]
+]

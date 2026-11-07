@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A starry kind of wood imbued with Aether.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテルをまぶした星のような木。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/florandescription",
+      "value": "Floran likess wooden log wallss."
+    },
+    {
+      "op": "replace",
+      "path": "/florandescription",
+      "value": "フローランは木製の丸太の壁が好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchdescription",
+      "value": "Impressed. These logs fit together closely and are effective for building."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchdescription",
+      "value": "感銘を受けた。 これらのログは密接に適合し、構築に効果的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakiddescription",
+      "value": "Ain't uncommon to see logs laid like this in cabins."
+    },
+    {
+      "op": "replace",
+      "path": "/novakiddescription",
+      "value": "小屋にこんな丸太が敷かれているのを見るのも珍しくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Wood Log"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アエンの原木"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-burst jump with a fluttery secondary jump. Useful!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ふわふわした二次ジャンプと高バーストジャンプ。 便利!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Flutter Jump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Flutterジャンプ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A collection of charred bones tightly packed together. Something awful happened to these people."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ぎっしり詰まった炭化した骨のコレクション。 これらの人々には恐ろしいことが起きた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Horrified. Bones from a variety of sources packed together."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恐ろしさ。 さまざまなソースからの骨が一緒に詰め込まれました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charred Bones"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭骨"
+    }
+  ]
+]

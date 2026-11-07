@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Deadly hood. Armor that really demands attenSHUN!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的なフード。 本当に注意が必要な装甲!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalker's Hood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーカーズフード"
+    }
+  ]
+]

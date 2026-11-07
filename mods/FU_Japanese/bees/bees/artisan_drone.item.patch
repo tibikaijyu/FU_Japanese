@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Artisan Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "職人用ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Artisan Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "職人用ドローン"
+    }
+  ]
+]

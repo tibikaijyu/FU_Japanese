@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Creamy, icy, banana goodness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリーミーで、アイスで、バナナの良さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Icy monkeyman cream."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "アイスモンキーマンクリーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. This ice cream is perfectly sweet."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 このアイスクリームは完璧に甘い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can see how Apex could get addicted to this."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "エイペックスがいかに中毒になるかがわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナアイスクリーム"
+    }
+  ]
+]

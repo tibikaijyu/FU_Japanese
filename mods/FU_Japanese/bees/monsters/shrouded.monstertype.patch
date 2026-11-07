@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shrouded bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "群生したミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shrouded Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒツジバチ"
+    }
+  ]
+]

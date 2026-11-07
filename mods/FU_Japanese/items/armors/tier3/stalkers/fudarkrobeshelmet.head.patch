@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;8^reset;% Speed, Fall Damage x^green;0.75^reset;\n^yellow;^reset; Bows/Crossbows, Sniper Rifles: Damage x^green;1.15^reset;, +^green;3^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Bio-Ooze"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;8^reset;% スピード、フォールダメージx^green;0.75^reset;\n^yellow;^reset; 弓・クロスボウ・狙撃ライフル : ダメージx^green;1.15^reset;, +^green;3^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;毒・バイオオオゼ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalker's Hood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーカーズフード"
+    }
+  ]
+]

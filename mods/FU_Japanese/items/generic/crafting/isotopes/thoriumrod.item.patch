@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This radioactive isotope is typically found on Threat 4+ planets.\n^blue;+^white;6 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この放射性同位体は、通常、脅威 4+ 惑星上に存在する。\n^blue;+^white;6 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thorium Rod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリウムロッド"
+    }
+  ]
+]

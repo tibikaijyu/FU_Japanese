@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "F$%@* YEA!"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ヒャッハー、最高だぜ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fire condensed freedom at enemies of capitalism."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火は資本主義の敵に対して自由を凝縮した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^red;FR^white;EED^blue;OM^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^red;フ^white;リーダ^blue;ム^reset;"
+    }
+  ]
+]

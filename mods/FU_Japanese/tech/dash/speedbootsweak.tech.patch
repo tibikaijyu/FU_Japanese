@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Speed and a Dash. Energy and Hunger penalties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スピードとダッシュ。 エネルギーと飢餓のペナルティ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Stimulant Rig"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "刺激リグ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires incendiary blasts.\n^yellow;Counts as 'flamethrower' and 'machinepistol' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 火が燃え盛る。\n^yellow;「火炎放射器」と「マシンピストル」をセットボーナスとしてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Arm Cannon (Fire)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 武器大砲(発射)^reset;"
+    }
+  ]
+]

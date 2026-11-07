@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful, focused blasts of raw cosmic energy.\n^cyan;Energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な、生の宇宙エネルギーの集中爆風。\n^cyan; エネルギー兵器 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Vigilant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテロームビジラント"
+    }
+  ]
+]

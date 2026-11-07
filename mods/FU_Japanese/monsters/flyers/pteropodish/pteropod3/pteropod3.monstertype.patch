@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Erupts with noxious gore. Horrible for dinner parties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有害ガスで噴火します。 ディナーパーティーは恐ろしくなる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodbound Pteropod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血縁獣脚類"
+    }
+  ]
+]

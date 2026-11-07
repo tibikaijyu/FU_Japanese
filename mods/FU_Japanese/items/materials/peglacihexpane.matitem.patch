@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A panel of crystal with hexagonal tiles.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "六角形のタイルを持つクリスタルのパネル。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hexpane Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘキサパネ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Manipulates anything that matters. ^green;Quick select with [R] key.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重要なものを操作します。 ^green;[R]キーで素早く選択します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Miniknog Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミニノッグマニピュレータ"
+    }
+  ]
+]

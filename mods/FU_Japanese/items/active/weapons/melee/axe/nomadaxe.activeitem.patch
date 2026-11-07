@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The weapon of a desert nomad"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砂漠遊牧民の武器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nomad Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノマドの斧"
+    }
+  ]
+]

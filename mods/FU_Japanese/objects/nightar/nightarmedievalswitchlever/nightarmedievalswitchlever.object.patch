@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mysterious lever. I wonder what this does?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神秘的なレバー。 これはどうなのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Switch Lever"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スイッチレバー"
+    }
+  ]
+]

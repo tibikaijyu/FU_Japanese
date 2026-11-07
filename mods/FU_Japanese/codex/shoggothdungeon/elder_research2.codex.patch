@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Apparently, this specimen is infectious. I have come down with a strange sickness I cannot detect in my cells. It's changing me somehow, and I don't think I like it. I won't tell the others, though. The last thing we need is a panic with everything else already going on. I'm sure it'll be fine."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "どうやらこの標本は感染性らしい。 細胞では検出できない奇妙な病気にかかった。 どこかで私を変えようとしているのだが、気に入らないと思う。 でも、私は他の人には言いません。 最後に必要なのは、他のすべてがすでに起こっているパニックです。 きっと大丈夫でしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A somewhat ominous entry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やや不吉なエントリ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Sickness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "病気"
+    }
+  ]
+]

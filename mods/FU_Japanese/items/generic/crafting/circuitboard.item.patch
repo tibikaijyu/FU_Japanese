@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a typical circuit board, used in many electronics."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "典型的な回路基板で、多くの電子機器で使用されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Circuit Board"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "回路基板"
+    }
+  ]
+]

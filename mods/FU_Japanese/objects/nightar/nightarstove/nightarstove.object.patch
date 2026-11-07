@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An advanced cooking device, with controllable heat for perfect cooking."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な調理のための制御可能な熱を備えた高度な調理装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Cooker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトクッカー"
+    }
+  ]
+]

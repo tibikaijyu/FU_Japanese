@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A computer desk for your tenants. \n^yellow;+10 Happiness\n^blue;Requires 4J every 5s.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テナント用のコンピューターデスク。 \n^yellow;+10ハッピー\n^blue;必須 4ジェリー 5ス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Computer Lab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンピュータ研究室"
+    }
+  ]
+]

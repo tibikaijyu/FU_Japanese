@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A handy farm animal, since they digest their food into iron pellets. Carnivore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らは鉄のペレットに食べ物を消化するため、便利な家畜。 肉食動物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ironbeak"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄のくちばし"
+    }
+  ]
+]

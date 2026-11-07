@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vibrant, with sticky leaves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くっきりした葉を持つ、鮮やかな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Green Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "緑の花"
+    }
+  ]
+]

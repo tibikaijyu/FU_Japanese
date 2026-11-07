@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A horrifying sea creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい海の生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deep Seer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深海"
+    }
+  ]
+]

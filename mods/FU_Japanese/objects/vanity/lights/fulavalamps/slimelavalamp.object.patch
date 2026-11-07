@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with slime. It's strangely pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムで満たされたランプ。 奇妙にきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムラバランプ"
+    }
+  ]
+]

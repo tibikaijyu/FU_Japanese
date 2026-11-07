@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Welcome back to the ^orange;Protectorate^reset;, Agent. With your help I know we can triumph. I've had one of our mechanics ^green;repair your FTL Drive^reset; so that you can resume your duties!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange; プロテクトレート ^reset;, 工作員 にようこそ。 あなたの助けを借りて、私たちは勝てることを知っています。 私たちの仕組みの一つは ^green;FTL ドライブを修復します。^reset; 任務を再開できる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/BYOSCompletionText",
+      "value": "Welcome back to the ^orange;Protectorate^reset;, Agent. With your help I know we can triumph. You need to fix that ^red;broken FTL drive^reset; first, though! ^cyan;Research Engineering^reset; and ^green;build an STL drive^reset; at a ^orange;Machining Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/BYOSCompletionText",
+      "value": "^orange; プロテクトレート ^reset;, 工作員 にようこそ。 あなたの助けを借りて、私たちは勝てることを知っています。 でも、その^red;壊れたFTLドライブ^reset;を最初に修正する必要があります! ^cyan;研究技術^reset; そして ^green;STLドライブを構築する^reset; で ^orange;加工作業台^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/collectRepairItem",
+      "value": "Locate the ^orange;Energy Source^reset; in the ^green;Cavern^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/collectRepairItem",
+      "value": "^orange; エネルギー源 ^reset; を ^green; 洞窟 ^reset; に検索します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findGate",
+      "value": "Find the source of the ^green;Welcoming Beacon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findGate",
+      "value": "^green;歓迎ビーコン^reset;のソースを検索します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/makeTable",
+      "value": "Complete the objectives given by ^green;Vinalisj^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/makeTable",
+      "value": "^green;ヴィナリシュ ^reset; によって与えられた目的を完了します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/outpostBookmark2/bookmarkName",
+      "value": "Science Outpost"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/outpostBookmark2/bookmarkName",
+      "value": "科学前哨基地"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Should you wish to vanquish the enemies of the true faith by blade, you need pay homage at His altar. Place a Tome, a Celaeno Fragment and five Blade Shards upon it and pray for his wrath."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "真の信仰の敵を刃で征服したいなら、彼の祭壇に敬意を払う必要があります。 ドーム、セレノの断片、そして五つの刃のかけらを置き、彼の怒りを祈ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Blade of the Vile"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "胆汁の刃"
+    }
+  ]
+]

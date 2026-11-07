@@ -1,0 +1,686 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton1Label/value",
+      "value": "Research"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton1Label/value",
+      "value": "研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton2Label/value",
+      "value": "GPS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton2Label/value",
+      "value": "惑星情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton3Label/value",
+      "value": "Codex"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton3Label/value",
+      "value": "図鑑"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton4Label/value",
+      "value": "Tech Equip"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton4Label/value",
+      "value": "テック装備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton5Label/value",
+      "value": "Tech Craft"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton5Label/value",
+      "value": "テック製作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton6Label/value",
+      "value": "Mech Gear"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton6Label/value",
+      "value": "メック装備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton7Label/value",
+      "value": "Mech Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton7Label/value",
+      "value": "メック燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton8Label/value",
+      "value": "Upgrade"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton8Label/value",
+      "value": "強化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/expandButton9/caption",
+      "value": "Adv. Stats"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/expandButton9/caption",
+      "value": "詳細能力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/immunitiesLabel/value",
+      "value": "Immunities"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/immunitiesLabel/value",
+      "value": "状態異常耐性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblSubTitle/value",
+      "value": " ^#bbbbbb;Accesses Stats, Research, Mechs and more."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblSubTitle/value",
+      "value": " ^#bbbbbb;能力・研究・メックなどを確認できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblTitle/value",
+      "value": " ^#00eaff;Personal Tricorder^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblTitle/value",
+      "value": " ^#00eaff;携帯トライコーダー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/resistancesLabel/value",
+      "value": " ^#ffffff;Resistances^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/resistancesLabel/value",
+      "value": " ^#ffffff;属性耐性^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/aetherImmunity/name",
+      "value": "^#E33FFF;Aether"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/aetherImmunity/name",
+      "value": "^#E33FFF;エーテル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/beestingImmunity/name",
+      "value": "^#ffae00;Bee Sting"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/beestingImmunity/name",
+      "value": "^#ffae00;ビーシング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/biomecoldImmunity/name",
+      "value": "^#4BF3FD;Moderate Cold"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/biomecoldImmunity/name",
+      "value": "^#4BF3FD; 適度な寒さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/biomeelectricImmunity/name",
+      "value": "^#4BF3FD;Lightning"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/biomeelectricImmunity/name",
+      "value": "^#4BF3FD;稲妻"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/biomeheatImmunity/name",
+      "value": "^#FDBE4B;Moderate Heat"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/biomeheatImmunity/name",
+      "value": "^#FDBE4B; 熱を和らげます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/biomeradiationImmunity/name",
+      "value": "^yellow;Moderate Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/biomeradiationImmunity/name",
+      "value": "^yellow;中程度の放射線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/biooozeImmunity/name",
+      "value": "^#78f04f;Bio-Ooze"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/biooozeImmunity/name",
+      "value": "^#78f04f;バイオオーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/blacktarImmunity/name",
+      "value": "^#5B6177;Black Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/blacktarImmunity/name",
+      "value": "^#5B6177;ブラックタール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/breathProtection/name",
+      "value": "Breath"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/breathProtection/name",
+      "value": "息"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/darknessImmunity/name",
+      "value": "^#EA907E;Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/darknessImmunity/name",
+      "value": "^#EA907E; 暗さ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/electricStatusImmunity/name",
+      "value": "^#FFE149;Shock"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/electricStatusImmunity/name",
+      "value": "^#FFE149;ショック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/extremepressureProtection/name",
+      "value": "^gray;Pressure"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/extremepressureProtection/name",
+      "value": "^gray;圧力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/ffextremecoldImmunity/name",
+      "value": "^#4BF3FD;Extreme Cold"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/ffextremecoldImmunity/name",
+      "value": "^#4BF3FD;極寒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/ffextremeheatImmunity/name",
+      "value": "^#FDBE4B;Extreme Heat"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/ffextremeheatImmunity/name",
+      "value": "^#FDBE4B;極限熱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/ffextremeradiationImmunity/name",
+      "value": "^yellow;Extreme Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/ffextremeradiationImmunity/name",
+      "value": "^yellow;極端放射線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/fireStatusImmunity/name",
+      "value": "^#FDBE4B;Burning"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/fireStatusImmunity/name",
+      "value": "^#FDBE4B;炎上"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/fujungleslowImmunity/name",
+      "value": "^green;Jungle [Tile]"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/fujungleslowImmunity/name",
+      "value": "^green;ジャングル[タイル]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/fumudslowImmunity/name",
+      "value": "^brown;Mud [Tile]"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/fumudslowImmunity/name",
+      "value": "^brown;泥[タイル]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/gasImmunity/name",
+      "value": "^#D1E160;Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/gasImmunity/name",
+      "value": "^#D1E160;ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/gravrainImmunity/name",
+      "value": "^gray;Gravity Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/gravrainImmunity/name",
+      "value": "^gray;重力雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/honeyslowImmunity/name",
+      "value": "^#FFEC84;Honey Slow"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/honeyslowImmunity/name",
+      "value": "^#FFEC84;はちみつが遅い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/iceStatusImmunity/name",
+      "value": "^#4BF3FD;Freeze"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/iceStatusImmunity/name",
+      "value": "^#4BF3FD;フリーズします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/iceslipImmunity/name",
+      "value": "^#4BF3FD;Ice [Tile]"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/iceslipImmunity/name",
+      "value": "^#4BF3FD;氷[タイル]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/insanityImmunity/name",
+      "value": "^#EA907E;Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/insanityImmunity/name",
+      "value": "^#EA907E; 狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/lavaImmunity/name",
+      "value": "^#C83E14;Lava"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/lavaImmunity/name",
+      "value": "^#C83E14;溶岩"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/liquidnitrogenImmunity/name",
+      "value": "^#4BF3FD;Liquid Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/liquidnitrogenImmunity/name",
+      "value": "^#4BF3FD;液体窒素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/nitrogenfreezeImmunity/name",
+      "value": "^#4BF3FD;Nitrogen Freeze"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/nitrogenfreezeImmunity/name",
+      "value": "^#4BF3FD;窒素凍結。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/poisonStatusImmunity/name",
+      "value": "^#D1E160;Poisoning"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/poisonStatusImmunity/name",
+      "value": "^#D1E160;毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/pressureProtection/name",
+      "value": "^gray;Pressure"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/pressureProtection/name",
+      "value": "^gray;圧力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/protoImmunity/name",
+      "value": "^#78f04f;Proto-Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/protoImmunity/name",
+      "value": "^#78f04f;プロトポゾン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/pusImmunity/name",
+      "value": "^yellow;Pus"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/pusImmunity/name",
+      "value": "^yellow;膿"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/quicksandImmunity/name",
+      "value": "^yellow;Quick Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/quicksandImmunity/name",
+      "value": "^yellow;クイックサンド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/radiationburnImmunity/name",
+      "value": "^yellow;Radiation Burn"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/radiationburnImmunity/name",
+      "value": "^yellow;放射線燃焼"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/sandstormImmunity/name",
+      "value": "^orange;Sandstorm"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/sandstormImmunity/name",
+      "value": "^orange;砂嵐"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/shadowImmunity/name",
+      "value": "^#3F2E4D;Shadow Taint"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/shadowImmunity/name",
+      "value": "^#3F2E4D;影の絵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/slimeImmunity/name",
+      "value": "^#61D13F;Slow (Slime)"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/slimeImmunity/name",
+      "value": "^#61D13F; スロー (スライム)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/slimefrictionImmunity/name",
+      "value": "^#61D13F;Slimed"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/slimefrictionImmunity/name",
+      "value": "^#61D13F; スリム化。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/slimestickImmunity/name",
+      "value": "^#61D13F;Sticky Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/slimestickImmunity/name",
+      "value": "^#61D13F;スティッキースライム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/slushslowImmunity/name",
+      "value": "^#4BF3FD;Slush [Tile]"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/slushslowImmunity/name",
+      "value": "^#4BF3FD; スラッシュ[タイル]。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/snowslowImmunity/name",
+      "value": "^#4BF3FD;Snow [Tile]"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/snowslowImmunity/name",
+      "value": "^#4BF3FD;雪[タイル]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/stunImmunity/name",
+      "value": "^gray;Stun"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/stunImmunity/name",
+      "value": "^gray;気絶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/sulphuricImmunity/name",
+      "value": "^#ffd800;Sulph. Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/sulphuricImmunity/name",
+      "value": "^#ffd800;Sulph.com。 酸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/tarImmunity/name",
+      "value": "^#5B6177;Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/tarImmunity/name",
+      "value": "^#5B6177;タール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/statuses/waterbreathProtection/name",
+      "value": "^blue;Drowning"
+    },
+    {
+      "op": "replace",
+      "path": "/statuses/waterbreathProtection/name",
+      "value": "^blue;水死"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vanquish monsters with stylish silver!\n^cyan;Able to damage all elements equally^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイリッシュなシルバーでモンスターをバンキッシュ!\n^cyan;すべての要素を均等に損傷することができます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーホイップ"
+    }
+  ]
+]

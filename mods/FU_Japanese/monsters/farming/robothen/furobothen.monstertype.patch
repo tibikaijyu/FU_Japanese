@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Robotic Hen, which lays AA batteries."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "AA電池を敷設するロボティックヘン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Robot Hen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロボットへん"
+    }
+  ]
+]

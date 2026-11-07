@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Creates a field that cancels 50% of mech Mass. Toggle with ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メッシュの 50% をキャンセルするフィールドを作成します。 ^green;[F]^reset; で切り替えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Frame (50)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライトフレーム(50)"
+    }
+  ]
+]

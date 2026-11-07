@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sliced violiroot is a simple but delicious Novakid food. ^cyan;+^white;20% ^cyan;Jump ^gray;(^white;100s^gray;)\n^red;Electrified ^gray;(^white;5s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライスしたバイオリルートは、シンプルだが美味しいノバキア料理です。 ^cyan;+^white;20% ^cyan;ジャンプ ^gray;(^white;100ス)^gray;)\n^red; 電化 ^gray;(^white;5s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Violiroot Plate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオルートプレート"
+    }
+  ]
+]

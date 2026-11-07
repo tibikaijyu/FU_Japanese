@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A half-broken, crappy sprinkler."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半分壊れた、くだらないスプリンクラー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crappy Sprinkler (roof)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラッピースプリンクラー(屋根)"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bed made from energy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーウッドで作られたベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Bed (Down)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドベッド(ダウン)"
+    }
+  ]
+]

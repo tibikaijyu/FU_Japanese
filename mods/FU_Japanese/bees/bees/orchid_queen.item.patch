@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Orchid Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蘭女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orchid Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蘭女王"
+    }
+  ]
+]

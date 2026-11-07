@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Eject super-cold fun at enemies.\n^yellow;Charge increases damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵に超寒い楽しみを放出する。\n^yellow;チャージはダメージを増加させます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glacial Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷火薬"
+    }
+  ]
+]

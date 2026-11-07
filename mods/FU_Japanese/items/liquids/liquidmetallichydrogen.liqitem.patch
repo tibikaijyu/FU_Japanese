@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Manipulation of ZPE via ^blue;Arc^reset; tech has unlocked liquid state at STP!\n^blue;+^white;32 ^blue;Fuel\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ZPEの操作 ^blue;弧^reset; 技術STPで液体状態を解錠しました!\n^blue;+^white;32 ^blue;燃料\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Metallic Hydrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体金属水素"
+    }
+  ]
+]

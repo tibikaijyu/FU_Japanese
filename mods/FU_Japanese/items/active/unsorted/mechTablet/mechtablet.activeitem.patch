@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Primary^reset;: Mech Assembly\n^yellow;Secondary^reset;: Mech Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;通常操作^reset;: メカアセンブリ\n^yellow;副操作^reset;:メカ燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mech Tablet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカタブレット"
+    }
+  ]
+]

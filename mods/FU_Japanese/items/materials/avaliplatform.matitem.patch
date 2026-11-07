@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform of Avali design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴァリデザインプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floorrr."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. An Avali platform."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 アヴァリプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴァリプラットフォーム"
+    }
+  ]
+]

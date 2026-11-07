@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks like this man died in extreme pain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この男は極度の苦痛で死んだようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient human corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代人の遺体"
+    }
+  ]
+]

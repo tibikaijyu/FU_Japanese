@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 5 - Yuck. While trying to get away from the sea of transparent metal, I found myself in another cave system, the floor of which oddly did not absorb my light like the rock had before. I probably should have been more careful, but one step on this stuff, and I found myself sliding down a steep incline, and when I landed, I bounced around the room several times and wound up face-first in some of the most disgusting tar-like substance I've ever seen! I managed to somehow crawl out of the junk and back up onto more rock."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "日5 - ハック。 透明な金属の海から離れようとしていたとき、私は別の洞窟システムで自分自身を見つけました。その床は、岩がかつて持っていたように奇妙なことに私の光を吸収しませんでした。 もっと気をつけるべきだったのに、この物質を一歩踏み出して、急な傾斜を滑り降りて、着地したとき、何回か部屋を跳ね回って、今まで見た中で一番嫌なタール状の物質の中で、真っ先に顔を巻き上げました! なんとかジャンクから抜け出して、さらに多くの岩に戻ってくることができました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Whatever that stuff was I now I feel sick in the stomach. I already threw up twice. I need to get back out of here...back to the surface. It gets worse by the moment, and unless I get help I fear I may die."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "あれが何だったにせよ、今は胃の具合が悪い。もう二度も吐いた。ここから出て……地表に戻らないと。刻一刻と悪化している。助けがなければ死んでしまうかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 5"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 5"
+    }
+  ]
+]

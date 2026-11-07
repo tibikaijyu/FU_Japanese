@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sharpened edges make this boomerang cut foes deeply.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャープなエッジは、このブーメランカットの敵を深くします。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warspinner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦争スピナー"
+    }
+  ]
+]

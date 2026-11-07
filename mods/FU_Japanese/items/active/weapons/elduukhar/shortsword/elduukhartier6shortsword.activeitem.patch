@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An artfully crafted blade. The crystal on the handle shines softly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巧みに作られた刃。 ハンドルのクリスタルがやわらかく輝いています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nhydri Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "nhydri短刀"
+    }
+  ]
+]

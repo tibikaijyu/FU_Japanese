@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather unusual choice in weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器のかなり珍しい選択。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Sharpened Mouse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋭いマウス"
+    }
+  ]
+]

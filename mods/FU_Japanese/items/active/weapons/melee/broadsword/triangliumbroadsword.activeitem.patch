@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stacked Trianglium Pyramids shaped into a sword blade. More effective than you think.\n^cyan;Shoots radioactive exploding shards^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "積み上げられたトライアングリウムピラミッドを剣の刃に形作る。 思ったよりも効果的です。\n^cyan;放射能爆発シャード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trianglium Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三角剣"
+    }
+  ]
+]

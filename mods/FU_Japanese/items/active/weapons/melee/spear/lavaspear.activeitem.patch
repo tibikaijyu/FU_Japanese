@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Flame Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "火炎爆撃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Searing heat, and puncture-fresh lethality.\n^orange;Inflicts Burning^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱、および穿刺 - 新鮮な致死性。\n^orange;焼成現象^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Core Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コアランス"
+    }
+  ]
+]

@@ -1,0 +1,326 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Medical Combat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "医学コンバット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Trained Medic"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "医学教育"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "You look like you could use some healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "あなたは癒しを使えるように見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "Let me help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "I'm a combat medic - let me help you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "私は戦闘医です - 助けましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "Looks like you could use my assistance!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "私の助けを借りてもらえそうです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "I can heal you! Come to me, quickly!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/4",
+      "value": "癒してあげよう! 早く来なさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "Floran hasss things to help out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "フローランは助ける事を大事にしている!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "Floran can help out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "フローランは助けることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "Floran hasss things to help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "フローランは助ける事を嫌う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "Eager. I can help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "早く! お手伝いします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "Excited. Perhaps you could do with some healing?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "興奮した。 おそらく、癒しでできるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "Helpful. This should heal you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "役に立つ。 これで癒されるはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "Helpful. Take this, it will help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "役に立つ。 これを取ると、それが助けになります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "You look hurt. Let me help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "痛そうね。 助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "Let me help you out!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "You look like you wouldn't mind some healing. Here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "癒しを気にしないみたいね。 ここだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "Hey, I can heal you! Just hold still!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "やあ、癒してあげるよ! じっとして!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/0",
+      "value": "You look wounded. Floran can help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/0",
+      "value": "けがをしたみたいね。 フローランがお手伝いします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/1",
+      "value": "Floran is medic! Trust Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/1",
+      "value": "フロランは医学者だ! フローランを信頼しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/2",
+      "value": "You look hurt. Floran can help you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/2",
+      "value": "痛そうね。 フローランはあなたを助けることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/0",
+      "value": "Concerned. You look like you could do with some healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/0",
+      "value": "心配。 あなたは癒しでできるように見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/1",
+      "value": "Caring. Perhaps you could do with some healing?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/1",
+      "value": "気遣い。 おそらく、癒しでできるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/2",
+      "value": "Helpful. You look like you could be in better shape. Let me assist you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/2",
+      "value": "役に立つ。 あなたはもっと良い体型を保てるようですね。 助けてあげよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'll heal you whenever we're on the ship."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "私たちが船に乗っているときはいつでも癒してあげよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Floran will heal you whenever we're on the ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローランは、私たちが船に乗っているたびにあなたを癒します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Helpful. I'll heal you whenever we're on the ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "役に立つ。 船に乗ればいつでも癒してあげるよ!"
+    }
+  ]
+]

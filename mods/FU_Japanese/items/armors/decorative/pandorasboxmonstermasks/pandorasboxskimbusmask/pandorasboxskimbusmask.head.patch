@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just as light as the real thing (We are not responsible if this product blows off your face in the wind.)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物と同じくらい軽く(この商品が風であなたの顔を吹き飛ばした場合、私たちは責任を負いません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skimbus Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スキムバスマスク"
+    }
+  ]
+]

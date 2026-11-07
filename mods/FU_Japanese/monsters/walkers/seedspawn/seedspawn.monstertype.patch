@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Watch your step."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "足元に気をつけなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spikespawn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スパイクスポーン"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Participants: Big Ape, Greenfinger, Thornwing, [Redacted]\n\nBig Ape: So, let's get started then. We have important things to discuss.\n\nGreenfinger: [Redacted]\n\nThornwing: [Redacted]\n\n[Redacted]: Are you serious?"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "参加者: ビッグエイプ、グリーンフィンガー、ソーンウィングなど。\n\nビッグ・エイプ:では始めましょう 話し合うべき重要なことがある。\n\nグリーンフィンガー:[編集済み]\n\nソーンウィング: [編集済み]\n\n【編集部】本気ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Big Ape: [Redacted]\n\nBig Ape: [Redacted]\n\nBig Ape: [Redacted]\n\nBig Ape: And that's why you should never date a Hylotl.\n\nThornwing: Kluex save us.\n\nGreenfinger: [Redacted]"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "ビッグ・エイプ: [編集済み]\n\nビッグ・エイプ: [編集済み]\n\nビッグ・エイプ: [編集済み]\n\nビッグエイプ: だからこそ、ハイロトル と付き合うべきではないのです。\n\nソーンウィング: クルーエクスが助けてくれます。\n\nグリーンフィンガー:[編集済み]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Minutes of a Peculiar Meeting"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特別会議の要旨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Meeting Minutes"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "会議時間"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Neuro Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ニューロフラワー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neuro Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニューロフラワー"
+    }
+  ]
+]

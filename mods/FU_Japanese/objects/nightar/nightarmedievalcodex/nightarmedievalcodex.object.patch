@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This book is full of strange illustrations."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この本は変なイラストでいっぱいだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Codex"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コードx"
+    }
+  ]
+]

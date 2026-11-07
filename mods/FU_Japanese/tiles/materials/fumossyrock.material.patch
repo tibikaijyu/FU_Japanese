@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mossy Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "モッシーストーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mossy Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モッシーストーン"
+    }
+  ]
+]

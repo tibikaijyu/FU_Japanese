@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Living Stone Door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Living Stone Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リビングストーンドア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "- Armor "
+    },
+    {
+      "op": "replace",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "-装甲 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/particleEmitters/statustext2/particles/0/particle/text",
+      "value": "+ Armor "
+    },
+    {
+      "op": "replace",
+      "path": "/particleEmitters/statustext2/particles/0/particle/text",
+      "value": "アーマー "
+    }
+  ]
+]

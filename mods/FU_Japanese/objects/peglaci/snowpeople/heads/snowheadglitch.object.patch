@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The head of a Snowglitch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪崩の頭。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Snowhead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雪山"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Restore themselves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自身を回復する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Regenerative"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "再生"
+    }
+  ]
+]

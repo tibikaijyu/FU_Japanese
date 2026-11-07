@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This machine mixes liquids together in a controlled environment. ^cyan;Requires ^orange;15J ^cyan;per action.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "制御された環境で液体を混合します。 ^cyan; アクションごとに ^orange;15J^cyan; が必要です。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Liquid Mixer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;液体ミキサー ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Madness Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "狂気の盾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that protects against insanity. ^cyan;Immune: Insanity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狂気から保護するEPPモジュール。 ^cyan;免疫:狂気^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Insanity Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狂気の盾"
+    }
+  ]
+]

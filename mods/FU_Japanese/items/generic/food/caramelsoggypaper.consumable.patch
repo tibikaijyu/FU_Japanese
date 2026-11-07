@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Way more delicious than it has any right to be.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;125s^gray;)^reset; \n^green;Type: Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どんな権利よりも美味しい。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;125ス)^gray;)^reset; \n^green;型:砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caramelized Soggy Paper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャラメル化ソギー紙"
+    }
+  ]
+]

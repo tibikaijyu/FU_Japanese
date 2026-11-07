@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slime variant of the Spike Sphere. ^green;[F]^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Spike 球体のスライムタイプです。 ^green;[F]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Adaptable Slime Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "適応型スライム球体"
+    }
+  ]
+]

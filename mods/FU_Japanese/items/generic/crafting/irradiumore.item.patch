@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Irradium is a rare and valuable radioactive metal. Handle with care!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イルラジウムは希少で貴重な放射性金属である。 丁寧に対応!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラディウム鉱石"
+    }
+  ]
+]

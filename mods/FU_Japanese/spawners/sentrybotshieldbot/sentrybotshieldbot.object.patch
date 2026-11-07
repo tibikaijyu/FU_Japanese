@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A well protected little buddy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく保護された小さな仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shield Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シールドボット"
+    }
+  ]
+]

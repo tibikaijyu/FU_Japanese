@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect tall lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な背の高いランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Tall Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーフェクトな高所ランプ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The buds on this plant produce caliginous gas and are hot to the touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この植物の芽は、カリガスを生成し、触れてホットです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aenema Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アネマフラワー"
+    }
+  ]
+]

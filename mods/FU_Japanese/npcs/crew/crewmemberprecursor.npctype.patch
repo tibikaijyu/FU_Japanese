@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Precursor Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "前駆体ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Precursor Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "前駆体ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "ERROR: UNABLE TO REACH TARGET LOCATION."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "エラー: ターゲット位置に到達できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "DANGER: FOREIGN ELEMENTS DETECTED. REINFORCING BIOSTRUCTURE AGAINST UNKNOWN QUANTITIES."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "危険: 外国の要素を検出しました。 未知量に対する生体構造の補強。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "ACKNOWLEDGEMENT: UNIT READY TO DEPLOY. AWAITING FURTHER COMMANDS."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "知名度: デポロイへのユニット準備。 さらに命令を待つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "ERROR: IFF SYSTEMS DAMAGED. REQUESTING REBOOT."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "エラー:IFF SYSTEMSが破損しました。 リクエストのリブート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "REPORT: UNIT SUCCESSFULLY RECONSTRUCTED. READY TO DEPLOY."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "報告: 単位は首尾よく再建されました。 出荷準備完了。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "CAUTION: VESSEL ENGINE DOES NOT CONFORM TO HEGEMONY STANDARDS. RECALIBRATING FUEL INJECTORS."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "注意: 容器エンジンはヘゲモン標準に準拠していません。 燃料噴射器の再調整。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "ACKNOWLEDGEMENT: FOLLOW MODE DISENGAGED. UNIT WILL REMAIN IN PLACE AWAITING FURTHER COMMANDS."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "知名度: 以下のモードを解除します。 ユニットはさらにコマンドを待つ場所に残されます。"
+    }
+  ]
+]

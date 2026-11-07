@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Rad Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "赤爆風"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from your own parts. Sturdy and dangerous.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなた自身の部分から作られる。 頑丈で危険です。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの槍"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^white;Bio-Spear^reset; ^cyan;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^white;バイオスパイク^reset; ^cyan;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^white;Muta-Spear^reset; ^#d472ff;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^white;無田-^reset; ^#d472ff;^reset;"
+    }
+  ]
+]

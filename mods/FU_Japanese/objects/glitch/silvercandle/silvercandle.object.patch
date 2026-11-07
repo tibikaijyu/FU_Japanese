@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small silver candle in a holder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホルダーの中の小さな銀のろうそく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Candle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーキャンドル"
+    }
+  ]
+]

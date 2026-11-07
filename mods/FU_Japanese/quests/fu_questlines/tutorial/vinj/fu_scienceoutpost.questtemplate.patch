@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Vinalisj^reset; has just informed me of a place he operates. This ^orange;Science Outpost^reset; sounds worth visiting. I've marked the location ^green;in my ships SAIL^reset; so I can teleport there."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;ヴィナリシュ^reset;から、彼が運営している施設のことを聞いた。^orange;科学前哨基地^reset;というその場所は、訪ねる価値がありそうだ。転送できるよう、^green;船のSAILに^reset;場所を登録した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Vinalisj^reset; has just informed me of a place he operates. This ^orange;Science Outpost^reset; sounds worth visiting. I've marked the location ^green;in my ships SAIL^reset; so I can teleport there."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ヴィナリシュ^reset;から、彼が運営している施設のことを聞いた。^orange;科学前哨基地^reset;というその場所は、訪ねる価値がありそうだ。転送できるよう、^green;船のSAILに^reset;場所を登録した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Science Outpost"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "科学前哨基地"
+    }
+  ]
+]

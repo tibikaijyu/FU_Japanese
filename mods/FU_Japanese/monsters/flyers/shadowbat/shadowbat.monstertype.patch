@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange creature composed of pulsing sacks of shadowy material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "影の素材の脈打つ袋から成る不思議な生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vorp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボルプ"
+    }
+  ]
+]

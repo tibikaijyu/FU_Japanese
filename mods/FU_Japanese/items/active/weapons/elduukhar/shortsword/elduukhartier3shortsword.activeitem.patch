@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple blade crafted with crystal and metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルとメタルで作ったシンプルな刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feya Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "太刀"
+    }
+  ]
+]

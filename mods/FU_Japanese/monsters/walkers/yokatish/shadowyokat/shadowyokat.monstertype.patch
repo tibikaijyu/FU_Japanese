@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even more vile than their lesser cousins."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いとこたちよりもっと邪悪だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phantokat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファントカト"
+    }
+  ]
+]

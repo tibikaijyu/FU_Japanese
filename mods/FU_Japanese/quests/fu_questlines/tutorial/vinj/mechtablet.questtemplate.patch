@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Mechs^reset; are powerful machines that can really make your life easier! To make the most out of one, you need a ^orange;Mech Tablet^reset;. Try your new ^orange;Mech Tablet^reset; out now! Primary fire activates the configuration screen, and with the secondary fire you can set your mechs fuel!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;メック^reset;は強力な機械で、暮らしをとても便利にしてくれる！ 使いこなすには^orange;メックタブレット^reset;が必要だ。さっそく新しい^orange;メックタブレット^reset;を試してみよう！ プライマリ操作で設定画面を開き、セカンダリ操作でメックの燃料を設定できるよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Mechs^reset; are powerful machines that can really make your life easier! To make the most out of one, you need a ^orange;Mech Tablet^reset;. Try your new ^orange;Mech Tablet^reset; out now! Primary fire activates the configuration screen, and with the secondary fire you can set your mechs fuel!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;メック^reset;は強力な機械で、暮らしをとても便利にしてくれる！ 使いこなすには^orange;メックタブレット^reset;が必要だ。さっそく新しい^orange;メックタブレット^reset;を試してみよう！ プライマリ操作で設定画面を開き、セカンダリ操作でメックの燃料を設定できるよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Mech Tablet"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メックタブレット"
+    }
+  ]
+]

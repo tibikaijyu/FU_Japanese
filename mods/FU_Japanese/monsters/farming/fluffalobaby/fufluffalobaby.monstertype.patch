@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A newborn fluffalo's diet determines the type it grows into."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生まれたばかりのふわふわの食生活は、それが成長するタイプを決定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fluffalo Calf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ふわふわ子牛"
+    }
+  ]
+]

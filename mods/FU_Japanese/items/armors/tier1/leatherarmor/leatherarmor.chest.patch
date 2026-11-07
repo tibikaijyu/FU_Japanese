@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;1^reset;% Crit Chance, +^green;2.5^reset;% Speed\n^yellow;^reset; Garden/Forest: Energy x^green;1.05^reset;, +^green;5^reset;% Knockback Resistance\n^yellow;^reset; Bow/XBow^reset;: +^green;2^reset;% Crit Chance, Damage x^green;1.15^reset;, -^green;4^reset; Energy Per Shot, +^green;5^reset; Air Dmg, +^green;10^reset;% Draw Speed"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;1^reset;% クリティカルチャンス+^green;2.5^reset;% 速さ\n^yellow;^reset; 庭園/森:エネルギーx^green;1.05^reset;, +^green;5^reset;% ノックバック抵抗\n^yellow;^reset;ボウ/Xボウ^reset;:+^green;2^reset;%クリティカルチャンス、ダメージx ^green;1.15^reset;、 -^green;4^reset;エネルギーあたりショット、+^green;5^reset;空気ダメージ、+^green;10^reset;%描画速度。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leather Jerkin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レザー・ジャーキン"
+    }
+  ]
+]

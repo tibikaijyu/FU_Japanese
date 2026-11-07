@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A supreme metal of unsurpassed hardness and density."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "比類のない硬さと密度の最高金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムインゴット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A box from Khe containing 'the most perfect outfit ever'. Looks suspiciously empty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ケーのボックスに「今までで最高の衣装」がセットになっています。 不審に空っぽに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "'Perfect Outfit' Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "「完璧な衣装」ボックス"
+    }
+  ]
+]

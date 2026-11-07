@@ -1,0 +1,338 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Inventory Transference Network (ITN) devices allow you to create an automated, object-based network that can move and sort any item between your inventory, containers, and the open world. ITN objects use Starbound's wiring system to function, a familiarity with wiring is recommended but not required to use the ITN. All ITN objects are found at the Electronics Center (or its upgraded version, the Power Center)."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "在庫転送ネットワーク(ITN)デバイスを使用すると、在庫、コンテナ、オープンワールド間で任意のアイテムを移動およびソートできる自動化されたオブジェクトベースのネットワークを作成できます。 ITNオブジェクトはStarboundの配線システムを使用して機能しますが、配線に精通していることをお勧めしますが、ITNを使用する必要はありません。 すべてのITNオブジェクトは、電子工作台(またはアップグレードされたバージョン、Power Center)にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Pay close attention to the item tooltips for the various ITN objects, these will tell you exactly what each of that object's nodes are used for. Also be aware that some item descriptions will change after being placed - examine them both in your inventory and while placed! Also note that while many of these objects have power nodes that can be used to toggle them between active and inactive, none of the ITN objects require power (as created by generators) to function."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "さまざまなITNオブジェクトのアイテムツールチップに注意を払い、これらのオブジェクトの各ノードが何に使われているかを正確に教えてくれます。 また、いくつかのアイテムの説明は配置後に変更されることに注意してください - あなたのインベントリと配置中にそれらを調べてください! また、これらのオブジェクトの多くは、アクティブと非アクティブの間でそれらを切り替えるために使用できるパワーノードを持っているが、機能するために(ジェネレータによって作成されたように)パワーを必要とするITNオブジェクトはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/10",
+      "value": "You can place items in the empty item boxes in the top-right corner of an ITD's configuration screen to tell it to pull specific kinds of items and ignore others. You can further specify whether you want the ITD to pull that exact item, or else the same types or categories of that item. Furthermore, you can specify how many to move at a time by placing stacks of the desired quantity. Using the Inverted Logic setting tells the ITD to ignore that specific, type, or category of item."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/10",
+      "value": "ITDのコンフィギュレーション画面の右上隅にある空のアイテムボックスにアイテムを配置して、特定の種類のアイテムをプルして、他のアイテムを無視するように指示することができます。 さらに、ITDがその正確なアイテムをプルするかどうか、あるいはそのアイテムの同じタイプまたはカテゴリを指定することもできます。 さらに、希望する量のスタックを配置することで、一度に移動する数を指定することができます。 Inverted Logic設定を使用すると、アイテムの特定のタイプやカテゴリを無視するようにITDに指示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/11",
+      "value": "Item Types:\n  Hand Tools (Flashlight, rope, picks)\n  Instruments (Violin, xylaphone, assflute)\n  Thrown weapons (Throwing knives, bombs)\n  Augments\n  Collars\n  Dyes"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/11",
+      "value": "アイテムの種類：\n  道具（懐中電灯、ロープ、つるはし）\n  楽器（バイオリン、木琴、お尻フルート）\n  投てき武器（投げナイフ、爆弾）\n  拡張パーツ\n  首輪\n  染料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/12",
+      "value": "Item Categories:\n  Treasure (Valuable & rare items)\n  Materials (Blocks, liquids, platforms)\n  Rails (Including platforms and trams)\n  Books (Including Blueprints)\n  Ingredients (Crafting materials, ores)\n  Objects (Containers, crafting stations, lights & doors)\n  Farm (Most agricultural products)\n  Weapons\n  Armor (Including back items & augments)\n  Unhandled (Anything not in the other categories)"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/12",
+      "value": "項目カテゴリ:\n  宝物(貴重品・希少品)\n  材料(ブロック、液体、プラットフォーム)\n  Rails (プラットフォームとトラムを含む)\n  書物(青写真含む)\n  材料(材料、鉱石)\n  物(容器・造船所・照明・ドア)\n  農園(ほとんどの農産物)\n  武器\n  アーマー(バックアイテム&エンハンスメントを含む)\n  未処理 (他のカテゴリにはないもの)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/13",
+      "value": "Once you have a basic ITN setup (described on page 9), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/13",
+      "value": "基本的なITN設定(ページ 9 に記載)が終わったら、電子/電源センターで端末を作成できます。 コンテナのストレージブリッジの出力を端末の入力ノードに接続することで、コンテナに格納されているすべてのアイテムを検索および検索し、それらをインベントリに引っ張ることができます - しかし、端末を通してアイテムを送信することはできません。 ひとつのターミナルを複数のコンテナに接続することで、複数のコンテナからアイテムを一度に表示およびプルすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/14",
+      "value": "A common, useful storage setup is to have rows of containers and storage bridges all linked to a single terminal (or series of terminals) so you can pull from all of them, with a chest nearby and its storage bridge linked to multiple ITDs that will automatically sort any items you dump into it into specific containers in the network without you having to do anything else."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/14",
+      "value": "便利な基本構成は、収納容器とストレージブリッジを列状に並べ、それらを一台の端末（または複数の端末）につないで、どの容器からも取り出せるようにするものだ。さらに近くにチェストを置き、そのストレージブリッジを複数のITDにつなぐ。こうすれば、そのチェストに放り込んだアイテムは、何もしなくてもネットワーク内の指定された容器へ自動で仕分けされる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/15",
+      "value": "As you start making more sophisticated ITN setups, you may have trouble getting your wiring across large areas of space without vanishing, or else want to optimize the efficiency of your wiring. Repeaters can serve as wiring waypoints to extend your wiring range, while a single Repeater can be wired to all your containers so that you do not need to wire all of them individually between a dozen different terminals. It is important to note that if repeaters are looped, they will cease function."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/15",
+      "value": "より洗練されたITNのセットアップを始めると、多くのスペースをまたいで配線が切れたり、配線の効率を最適化したりすることが難しくなることがあります。 リピータは、配線範囲を拡張するための配線ウェイポイントとして機能し、一方、一つのリピータはすべてのコンテナに配線できるため、一ダース単位の異なる端末間で個別に配線する必要はありません。 リピータがループされている場合は、機能を停止させることに注意することが重要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/16",
+      "value": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n\n  Do not try to move large amounts of items into a container which already has many items in it. Do not daisy-chain ITDs. These are sources of lag, and ITD configurations do not stack without a separating container."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/16",
+      "value": "Dos & Don't:\n\n  複数のコンテナをデイジーチェーン化して、ITDを使って別のITDによってダンプされたコンテナからアイテムを引き出し、可能な限りアイテムスタックを自動的に圧縮し、アイテム固有のストレージスペースを提供します。\n\n  大量のアイテムを、すでに多くのアイテムがあるコンテナに移動しようとしないでください。デイジーチェーンのITDはしないでください。これらは遅延の源であり、ITD構成はコンテナを分離せずにスタックしません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/17",
+      "value": "Dos & Don'ts:\n\n  Do create branching ITD trees along a string of containers where you feel you need to.\n\n  Do Not create any sort of infinite back-and-forth loop that shifts the same items between the same containers unless you have a very good reason to do so. This can be a substantial source of lag."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/17",
+      "value": "運用のコツと注意点：\n\n  必要に応じて、並べた収納容器に沿ってITDの経路を分岐させてください。\n\n  明確な理由がない限り、同じアイテムを同じ容器の間で延々と往復させる無限ループは作らないでください。大きな処理遅延の原因になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/18",
+      "value": "The pros of the ITN system are that it allows for extremely powerful, precise, decentralized and fully automated item storage. No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/18",
+      "value": "ITNシステムの長所は、非常に強力で、正確で、分散化され、完全に自動化されたアイテムストレージを可能にすることです。 戦利品を持ち帰るたびに何十個もの容器の間を走り回る必要はもうない。すべてを一つのチェストへ放り込めば、必要な場所へきちんと仕分けされる。製作台を離れずに、製作に必要な材料だけを取り出すこともできる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/19",
+      "value": "The cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/19",
+      "value": "ITNシステムの欠点は、動作するためには、大規模なセットアップと時には高度な配線が必要であり、フィルタリングしたいアイテムの例が必要であることです。 複数のコンテナ間で一〇〇スタックのアイテムを一度にシフトおよび再編成するプロセスは、Starboundに存在する最もプロセス集約的な側面の一つである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "The first core component of the ITN is the storage bridge, which is used to provide containers with input & output wiring nodes by way of proxy. Storage bridges look around themselves for the nearest container to connect to (by placement point), but can get confused if you put them right between multiple containers. Make sure your storage bridges are placed as close as possible to the one container you want them linked to, and to leave space between them and other containers."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "ITNの最初のコアコンポーネントであるストレージブリッジは、プロキシを介してコンテナに入出力配線ノードを提供するために使用される。 ストレージブリッジは最寄りのコンテナを(配置ポイントによって)接続するために自分自身を見回しますが、複数のコンテナの間に配置すると混乱することがあります。 ストレージブリッジがリンクしたいコンテナに可能な限り近くに配置され、それらと他のコンテナの間にスペースが残されていることを確認してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/20",
+      "value": "Credits:\n\n  Kherae for making all this arcane schlock work.\n  HelloWorld123 for writing the original Network Guide.\n  TP for Steambound Reloaded.\n  Cratesmith for the Vesselbound Container Link Code.\n  Terminal for figuring out how to reverse entropy and for writing this guide."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/20",
+      "value": "クレジット：\n\n  Kherae：この複雑な仕組みを動くものにしてくれたことに感謝します。\n  HelloWorld123：元のネットワークガイドの執筆。\n  TP：Steambound Reloadedの制作。\n  Cratesmith：Vesselboundのコンテナ接続コードの制作。\n  Terminal：エントロピーを逆転させる方法の解明と、このガイドの執筆。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/3",
+      "value": "Storage bridges work with more than just ordinary containers. Almost any object which can be interacted with that has item slots can be linked to a storage bridge. This includes some FrackinUniverse crafting stations and a few misc. objects that might already have power nodes (but no input/output nodes). If you find yourself uncertain about which nodes to use, remember that storage bridge nodes always function as ITN input/output nodes."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/3",
+      "value": "ストレージブリッジは、通常のコンテナ以上のもので動作する。 アイテムスロットを持つオブジェクトと対話できるオブジェクトは、ほとんどすべてストレージブリッジにリンクすることができます。 これには、いくつかのFrackinUniverseクラフトステーションといくつかのミスが含まれます。 すでにパワーノードがあるかもしれないオブジェクト(入出力ノードがない)。 使用するノードが不確かであれば、ストレージブリッジノードは常にITNの入出力ノードとして機能することを忘れないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/4",
+      "value": "Object Data Sensor: Crafted in the tinkering table. Detects object placement points, to allow for more precise placement of Storage Bridges. Bridges select a single container based on the distance between themselves and object placement points."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/4",
+      "value": "物体データセンサー: いじり台で作ったもの。 オブジェクト配置点を検出し、より正確なストレージブリッジの配置を可能にします。 ブリッジは、自分自身とオブジェクトの配置点との距離に基づいて単一のコンテナを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/5",
+      "value": "Item Transference Devices (ITDs) are additional core components of the ITN system. While ITDs are capable of moving all items by default, you will need special token items to filter for currencies or items the ITD does not recognize. You can place them wherever you want as long as you can keep their wiring straight. Mastery of the ITD will bring mastery over the entire ITN system."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/5",
+      "value": "アイテム転送デバイス(ITD)はITNシステムのコアコンポーネントである。 ITDはデフォルトですべてのアイテムを移動することができますが、ITDが認識していない通貨やアイテムをフィルタリングする特別なトークンアイテムが必要になります。 配線をまっすぐに保てる限り、どこにでも配置できます。 ITDの習得はITNシステム全体の習得をもたらす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/6",
+      "value": "Overflow: ITDs will sound off alarms if you are trying to move too much into a container that does not have space. They will also slow down their processing speed. If you have alarms sounding and periodic lag, you should work on improving flow control."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/6",
+      "value": "オーバーフロー: スペースのないコンテナにあまり移動しようとすると、ITDはアラームを鳴らします。 また、処理速度も遅くなります。 アラームの鳴りと周期的な遅延がある場合は、流量制御の改善に取り組む必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/7",
+      "value": "Stack Move: To move stacks of specific sizes, place the desired stack size in your filter area. This works well with Even Split and Slot Split, as it will only move stacks there are enough to do so equally. It does not, however, account for amounts in the destination."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/7",
+      "value": "スタック移動: 特定のサイズのスタックを移動させるには、希望するスタックサイズをフィルター領域に配置します。 スタックを均等に移動できるのが十分なので、Event SplitとSlot Splitではこれがうまく機能します。 ただし、目的地の金額は考慮されません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/8",
+      "value": "In order to set up a basic ITN network, connect the red output node for a container's storage bridge to the second blue input node for an ITD, and then connect the ITD's red output node to the blue input node of a second container's storage bridge. Now all items put into the first container will be automatically moved to the second one."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/8",
+      "value": "基本的なITNネットワークを設定するには、コンテナのストレージブリッジ用の赤い出力ノードをITD用の二番目の青い入力ノードに接続し、ITDの赤い出力ノードを二番目のコンテナのストレージブリッジの青い入力ノードに接続します。 これで、最初のコンテナに入れられたすべてのアイテムが自動的に二番目のコンテナに移動されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/9",
+      "value": "ITDs can be interacted with to bring up their configuration menu. Input slots indicate what slots in a container the ITD will pull from; output slots designate what inventory slots in a container the ITD will drop items into. You can press the red I button to invert the selected slots, telling the ITD to ignore those specific slots rather than use them specifically. Even splitting and slot splitting dictate whether the ITD sorts items into single stacks or splits items between every indicated output slot. ITDs may not be used as repeaters."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/9",
+      "value": "ITDは、設定メニューを作成するために対話することができます。 入力スロットは、ITDがコンテナ内のどのスロットから取得するかを示し、出力スロットは、ITDがアイテムをドロップするコンテナ内のどのインベントリスロットを指定する。 赤のIボタンを押すと、選択したスロットを反転させ、ITDに特定のスロットを具体的に使うのではなく、無視するように指示することができます。 分割やスロット分割でさえ、ITDがアイテムを単一のスタックに分類するか、表示された出力スロットごとにアイテムを分割するかを決定する。 ITDはリピーターとして使用することはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Beginner's Guide to ITN"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムネットワーク入門"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^yellow;FU Guide^reset; : Beginner ITN"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^yellow;FUガイド^reset; : アイテムネットワーク入門"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/11",
+      "value": "Item Types:\r\n  Hand Tools (Flashlight, rope, picks)\r\n  Instruments (Violin, xylaphone, assflute)\r\n  Thrown weapons (Throwing knives, bombs)\r\n  Augments\r\n  Collars\r\n  Dyes"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/11",
+      "value": "アイテムの種類：\n  道具（懐中電灯、ロープ、つるはし）\n  楽器（バイオリン、木琴、お尻フルート）\n  投てき武器（投げナイフ、爆弾）\n  拡張パーツ\n  首輪\n  染料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/12",
+      "value": "Item Categories:\r\n  Treasure (Valuable & rare items)\r\n  Materials (Blocks, liquids, platforms)\r\n  Rails (Including platforms and trams)\r\n  Books (Including Blueprints)\r\n  Ingredients (Crafting materials, ores)\r\n  Objects (Containers, crafting stations, lights & doors)\r\n  Farm (Most agricultural products)\r\n  Weapons\r\n  Armor (Including back items & augments)\r\n  Unhandled (Anything not in the other categories)"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/12",
+      "value": "項目カテゴリ:\n  宝物(貴重品・希少品)\n  材料(ブロック、液体、プラットフォーム)\n  Rails (プラットフォームとトラムを含む)\n  書物(青写真含む)\n  材料(材料、鉱石)\n  物(容器・造船所・照明・ドア)\n  農園(ほとんどの農産物)\n  武器\n  アーマー(バックアイテム&エンハンスメントを含む)\n  未処理 (他のカテゴリにはないもの)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/16",
+      "value": "Dos & Don'ts:\r\n\r\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\r\n\r\n  Do not try to move large amounts of items into a container which already has many items in it. Do not daisy-chain ITDs. These are sources of lag, and ITD configurations do not stack without a separating container."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/16",
+      "value": "Dos & Don't:\n\n  複数のコンテナをデイジーチェーン化して、ITDを使って別のITDによってダンプされたコンテナからアイテムを引き出し、可能な限りアイテムスタックを自動的に圧縮し、アイテム固有のストレージスペースを提供します。\n\n  大量のアイテムを、すでに多くのアイテムがあるコンテナに移動しようとしないでください。デイジーチェーンのITDはしないでください。これらは遅延の源であり、ITD構成はコンテナを分離せずにスタックしません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/17",
+      "value": "Dos & Don'ts:\r\n\r\n  Do create branching ITD trees along a string of containers where you feel you need to.\r\n\r\n  Do Not create any sort of infinite back-and-forth loop that shifts the same items between the same containers unless you have a very good reason to do so. This can be a substantial source of lag."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/17",
+      "value": "運用のコツと注意点：\n\n  必要に応じて、並べた収納容器に沿ってITDの経路を分岐させてください。\n\n  明確な理由がない限り、同じアイテムを同じ容器の間で延々と往復させる無限ループは作らないでください。大きな処理遅延の原因になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/20",
+      "value": "Credits:\r\n\r\n  Kherae for making all this arcane schlock work.\r\n  HelloWorld123 for writing the original Network Guide.\r\n  TP for Steambound Reloaded.\r\n  Cratesmith for the Vesselbound Container Link Code.\r\n  Terminal for figuring out how to reverse entropy and for writing this guide."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/20",
+      "value": "クレジット：\n\n  Kherae：この複雑な仕組みを動くものにしてくれたことに感謝します。\n  HelloWorld123：元のネットワークガイドの執筆。\n  TP：Steambound Reloadedの制作。\n  Cratesmith：Vesselboundのコンテナ接続コードの制作。\n  Terminal：エントロピーを逆転させる方法の解明と、このガイドの執筆。"
+    }
+  ]
+]

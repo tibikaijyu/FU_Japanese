@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brr. Chalked full of icy goodness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どうぞ。 氷の善良さに満ち溢れたチョーク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cryogenic"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "極低温"
+    }
+  ]
+]

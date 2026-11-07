@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Forge"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "鍛冶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "Stop"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "停止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "MATERIALS AVAILABLE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "使用可能な素材"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;PRODUCT"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;完成品"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;BLUEPRINTS"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;設計図"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  Create new parts for your modular mech!"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  モジュラーメカの新しいパーツを作ろう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  Mech Part Crafting"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  機械部品製造"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged from uranium and advanced alloy. Quite radioactive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウランと高度な合金から鍛造。 かなり放射性です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランハマー"
+    }
+  ]
+]

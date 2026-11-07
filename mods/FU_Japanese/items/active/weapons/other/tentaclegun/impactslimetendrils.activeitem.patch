@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Knock enemies silly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵をノックするのはばかげている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impact Slime Tendrils"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インパクトスライムテンドル"
+    }
+  ]
+]

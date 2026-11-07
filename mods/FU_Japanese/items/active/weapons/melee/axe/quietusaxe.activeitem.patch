@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Swift and sure, this sucker will keep you alive and well."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スウィフトと確かに、この吸盤はあなたを生き生きと保ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイエトゥス軸"
+    }
+  ]
+]

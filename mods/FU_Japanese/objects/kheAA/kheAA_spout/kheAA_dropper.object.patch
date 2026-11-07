@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Drops Items into the world.\n^blue;Input^white;1^blue;: ^white;On/Off Switch^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムを世界に落とします。\n^blue;入力^white;1^blue;: ^white;スイッチのオン/オフ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Dropper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムドロッパー"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now we have everything we need to make ^green;beer^reset;, the glory of the Gods."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今必要なのは ^green;ビール^reset;神の栄光"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;wort and yeast water^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;麦芽と酵母の水を^reset; 私に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "First, make one measure of ^orange;Yeast Water^reset;. I already taught you how to do this. Next, use the ^orange;Mashing Tun^reset; to mix your malt with water. We need one flask of ^orange;Wort^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "まずは ^orange; 酵母水 ^reset; の一つの測定を行います。 私はすでにあなたにこれを行う方法を教えました。 次に、^orange; Mashing Tun ^reset;を使用して、麦芽に水を混ぜます。 ^orange;Wort^reset;のフラグが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wort"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ワート"
+    }
+  ]
+]

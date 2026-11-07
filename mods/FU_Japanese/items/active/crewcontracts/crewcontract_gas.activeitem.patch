@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a gas specialist to boost max ship fuel by 200 and grant ^pink;Gas Immunity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ガススペシャリストを雇い、最大船燃料を200と助成^pink;ガス免疫^reset;で昇圧します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gas Specialist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガススペシャリスト契約"
+    }
+  ]
+]

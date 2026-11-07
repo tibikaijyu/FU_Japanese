@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cacti originating from Kadavan, but with variations in genetics that sets them apart."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サボテンはカダヴァンから生まれましたが、遺伝的に異なるため、それらを区別します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kadavan Cactus Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カダバンサボテン種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Peach Mash, the product of crushed and squeezed peaches."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピーチマッシュ、粉砕し、絞った桃の製品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peach Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピーチマッシュ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Without DNA, you'll have a hard time doing much xenobiology. You can't create or modify life without this resource. Stockpile it!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "DNAがなければ、多くの異種生物学を行うのに苦労するでしょう。 このリソースなしでは、生命を作成または修正することはできません。 備蓄せよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now that the basics are clear to you, try making some essential ^orange;DNA Samples^reset; in the ^orange;Chemistry Lab^reset;. ^green;Upgrade your Alchemy Table^reset; to access it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "基礎が明確になったので、^orange;化学 ラボ ^reset; で、必須の ^orange;DNA サンプル ^reset; を作ってみてください。 ^green;錬金術 作業台 ^reset; をアップグレードしてアクセスします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Deoxyribonucleic Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "脱酸反応"
+    }
+  ]
+]

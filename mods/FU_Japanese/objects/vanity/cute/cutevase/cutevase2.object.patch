@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tall thin cute vase."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "背の高い薄いかわいい花瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Vase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい花瓶"
+    }
+  ]
+]

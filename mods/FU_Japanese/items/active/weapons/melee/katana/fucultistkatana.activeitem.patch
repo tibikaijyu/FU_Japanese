@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from skin and eyes... and some metal.\n^cyan;Inflicts bleeding^reset;\n^yellow;8 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "皮膚と目から作られた...そしていくつかの金属。\n^cyan;出血を引き起こす^reset;\n^yellow;8 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト・カタナ"
+    }
+  ]
+]

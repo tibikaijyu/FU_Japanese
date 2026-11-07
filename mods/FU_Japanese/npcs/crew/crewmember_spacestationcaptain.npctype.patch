@@ -1,0 +1,938 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Picarding"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "ピカルド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Captain"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "隊長"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "I can't kills things for you from here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "ここからは君に殺せない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "You're too far! Come back sir!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "遠すぎる! 戻ってきなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Hey, wait up! The hell is your problem?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "ちょっと待って! 何が問題なの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "Don't go too far! Again! Do I smell bad?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "行き過ぎないで! もう一度! 悪臭がする?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Let me catch up! Sheesh."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "追いかけよう! 彼女は"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "Floran too far away!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
+      "value": "浮き過ぎ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "Floran iss left behind!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
+      "value": "フローランは残ってる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "Floran not close enough to you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
+      "value": "フローランはあなたに十分近づきません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "Frustrated. I can't reach you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
+      "value": "イライラ。 手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "Concerned. Wait for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/glitch/default/1",
+      "value": "心配。 待ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "FOR THE GLORY OF BATTLE, WE RIDE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "戦いの栄光のために、私たちは乗る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "SIR, YES SIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "サー、はい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "DEATH TIME!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "死の時間!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Your foes will be vanquished, and ale shall be drank."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "あなたの敵は滅び、エールは飲みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Let's get a move on, then!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "さぁ、移動しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "FOR THE HUNT!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/0",
+      "value": "ハントのために!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "SSIR, YES SSSSIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/1",
+      "value": "はい、了解でっす！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "DEATH TIME!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/2",
+      "value": "死の時間!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "Floran good at hunting prey."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/3",
+      "value": "花は狩りの獲物が得意だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "Floran want sssstab!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/floran/default/4",
+      "value": "フローラン、さっしたい！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "Eager. FOR THE GLORY OF BATTLE, WE RIDE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
+      "value": "早く! 戦いの栄光のために、私たちは乗る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "Obedient. SIR, YES SIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/1",
+      "value": "従順です サー、はい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "Murderous. DEATH TIME!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
+      "value": "殺人行為。 死の時間!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "Enthusiastic. Your foes will be vanquished, and ale shall be drank."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/3",
+      "value": "熱狂的。 あなたの敵は滅び、エールは飲みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/4",
+      "value": "Impatient. Let's get a move on, then!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/glitch/default/4",
+      "value": "辛抱強い。 さぁ、移動しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Greetings, Number One."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "あいさつ、ナンバーワン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "I know you're the captain. But so am I. Let's double up on captain power!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "キャプテンは君だ。 でも私もですキャプテン・パワーを倍増させましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "You probably suck at captainship way more than me. Hire me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "あなたは私よりもキャプテンシップを大好きなのでしょう。 私を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "Hire me. That's an order!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "私を雇う。 それは命令です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "Hello adventurer, maybe Floran join you and SSSTAB SOME ASS?!?!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/0",
+      "value": "やあ、冒険者！ フローランも仲間に入って、悪党どもをっ刺していいか?!?!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "Look at that gear! Let Floran go with you and SSSTAB THE PREY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/1",
+      "value": "あのギアを見なさい! フローランをあなたとさっせ THE 獲物に連れて行きましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "FLORAN ALL ANGRY, ALL THE TIME! YOU WANT TO HIRE FLORAN MAYBE YOU WEAK NO-SSSTABBY?!?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/2",
+      "value": "フローラン、いつも怒ってる！ ずっと怒ってる！ フローランを雇いたいのか？ お前、弱くてっ刺せないのか?!?!?!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "Hire Floran. That isss not request."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/floran/default/3",
+      "value": "フローランを雇う。 それは要求されません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "Eager. Hello adventurer, mind if I join you and KICK SOME ASS?!?!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
+      "value": "熱望。やあ冒険者、一緒に悪党どもをぶっ飛ばしに行ってもいいか?!?!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "Impressed. Look at that gear! Let me travel with you, and we can DECIMATE THE OPPOSITION!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/1",
+      "value": "感銘を受けた。 あのギアを見なさい! 一緒に旅行しましょう、そして私たちは反対を決定付けることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "Statement. I'M ALL ANGRY, ALL THE TIME! YOU WANT TO HIRE ME, DON'T YOU, YOU WEAK SISSY?!?!?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
+      "value": "声明。 私はいつも怒っています! 私を雇いたいのね、シシィを弱めるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "Statement. Hire me. That is not a request."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/glitch/default/3",
+      "value": "声明。 私を雇う。 それは要求ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "I'M GOING TO FIND THAT THING AND MURDER IT IN VENGEANCE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "私はそのことを見つけ出し、緊急に殺すつもりです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "CRAP! ANOTHER GLORIOUS DEATH? THAT'S 42 THIS WEEK!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "クラップ! もう一つの栄光死? 今週は 42 です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "I'm already missing murder! Get me back out there, Sir!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "私はもう殺人を見逃している! 戻ってきてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "I need to cave in the skull of whatever just killed me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "自分が死んだことの頭蓋骨に穴をあける必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "FLORAN GOING TO FIND THAT THING AND STAB IT IN VENGEANCE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
+      "value": "フロランは、その物事を見つけ、それを緊急に安定させます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "CRAP! ANOTHER GLORIOUSSSS DEATH? THAT'SSS 42 THISS WEEK!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
+      "value": "クラップ! もう一つの栄光死? SSです 42 今週は!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "Floran already missssing murder! Get Floran back out there, Sssir!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
+      "value": "フローランは既に殺人を逃している! フローランを戻って来い、サー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
+      "value": "Floran need to cave in the ssskull of whatever jusst killed Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
+      "value": "フローランは、フローランを殺したのに何かしらの頭蓋骨を掘る必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "Murderous. I'M GOING TO FIND THAT THING AND MURDER IT IN VENGEANCE!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
+      "value": "殺人行為。 私はそのことを見つけ出し、緊急に殺すつもりです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "Incorrigible. CRAP! ANOTHER GLORIOUS DEATH? THAT'S 42 THIS WEEK!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/1",
+      "value": "信じられない。 クラップ! もう一つの栄光死? 今週は 42 です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "Eager. I'm already missing murder! Get me back out there, Sir!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
+      "value": "早く! 私はもう殺人を見逃している! 戻ってきてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/3",
+      "value": "Vengeful. I need to cave in the skull of whatever just killed me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/glitch/default/3",
+      "value": "ベンジュフル。 自分が死んだことの頭蓋骨に穴をあける必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I'M READY TO STAB, SHOOT AND KILL WHATEVER YOU ASK ME TO!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "私を停めて、撃つ、殺す準備はできています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "Do you happen to have a burrito? I've grown rather peckish."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "たまたまブリトーを持っていますか。 私はかなりペニスっぽい成長を遂げた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "Ever wonder what sawing someone in half with BULLETS would be like? LET'S TRY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "銃弾で誰かを半分に縫うのはどうでしょうか? やってみよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "FLORAN READY TO SSTAB, SHOOT AND KILL ALL THE PREY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "スタッブ、シュート、すべての準備を殺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "Do you have burrito? Floran hungry."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
+      "value": "ブリトーはありますか? 空腹だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "Floran wonder what sssawing ssomeone in half with BULLETSS would be like? MAYBE FLORAN TRY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
+      "value": "フローランは、銃弾で誰かを半分に見たらどうなるか疑問に思っています。 フローランを試してみよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Statement. I'M READY TO STAB, SHOOT AND KILL WHATEVER YOU ASK ME TO!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "声明。 私を停めて、撃つ、殺す準備はできています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "Request. Do you happen to have a burrito? I've grown rather peckish."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/1",
+      "value": "リクエスト。 たまたまブリトーを持っていますか。 私はかなりペニスっぽい成長を遂げた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "Murderous. Ever wonder what sawing someone in half with BULLETS would be like? LET'S TRY!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
+      "value": "殺人行為。 銃弾で誰かを半分に縫うのはどうでしょうか? やってみよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "WHAT? TOO MANY AWESOME BULLETS FOR YOU, SISSY?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/0",
+      "value": "なに? あなたにあまりにも多くの素晴らしいバレットを、シシィ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "SIR, YES SIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/1",
+      "value": "サー、はい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "But...how can I murder things without tagging along?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/2",
+      "value": "でも...タグ付けせずに、どうやって殺せるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "Sir, are you sure that is wise? I can't kill things from here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/3",
+      "value": "本当に賢明ですか? ここからは殺せない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "Fine. I'll stay. Just...sit here and be bored. Whatever."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/4",
+      "value": "いいですよ 私はとどまります。 ただ...ここで座って退屈する。 ともかく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "I'll stay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/default/default/5",
+      "value": "ここに滞在します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "WHAT? TOO MANY AWESOME BULLETS FOR YOU, SSSISSSSY?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/0",
+      "value": "なに? あなたに素晴らしいバレットが多すぎる、弱虫?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "SSIR, YESSSS SIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/1",
+      "value": "はい、了解でっす！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "But...how can Floran ssstab thingss when Floran here?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/2",
+      "value": "でも...フローランがここで刺すものは、どうして?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/3",
+      "value": "Sssir, Floran no kill thingsss from here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/3",
+      "value": "サー、フローランはここから何も殺さない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/4",
+      "value": "Fine. Floran sstay. Jusst...sssit here and no stab. Whatever."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/4",
+      "value": "いいですよ フローランが滞在する。 ただ...ここですわって、刺さない。 ともかく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/5",
+      "value": "Floran stay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/floran/default/5",
+      "value": "フローランはここにとどまる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "Critical. WHAT? TOO MANY AWESOME BULLETS FOR YOU, SISSY?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/0",
+      "value": "クリティカル。 なに? あなたにあまりにも多くの素晴らしいバレットを、シシィ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "Obedient. SIR, YES SIR!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/1",
+      "value": "従順です サー、はい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "Perplexed. But...how can I murder things without tagging along?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/2",
+      "value": "戸惑った。 でも...タグ付けせずに、どうやって殺せるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "Curious. Sir, are you sure that is wise? I can't kill things from here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3",
+      "value": "好奇心。 本当に賢明ですか? ここからは殺せない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/4",
+      "value": "Irritated. I'll stay. Just...sit here and be bored. Whatever."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/4",
+      "value": "と回想した。 私はとどまります。 ただ...ここで座って退屈する。 ともかく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/5",
+      "value": "Statement. I'll stay here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/unfollow/glitch/default/5",
+      "value": "声明。 ここに滞在します。"
+    }
+  ]
+]

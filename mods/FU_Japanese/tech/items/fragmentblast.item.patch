@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires shards of dangerous solid light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険な固体光のシャードを発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Shard Blast^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;シャードブラスト^reset;"
+    }
+  ]
+]

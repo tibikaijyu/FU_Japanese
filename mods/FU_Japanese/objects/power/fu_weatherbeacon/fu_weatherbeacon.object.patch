@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/nocturnArray",
+      "value": "Nocturn Array: "
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/nocturnArray",
+      "value": "夜の配列 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/solarArray",
+      "value": "Solar Array: "
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/solarArray",
+      "value": "ソーラーアレイ "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/solarPanel",
+      "value": "Solar Panel: "
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/solarPanel",
+      "value": "ソーラーパネル "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/solarTower",
+      "value": "Solar Tower: "
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/solarTower",
+      "value": "ソーラータワー "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/windTurbine",
+      "value": "Wind Turbine: "
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/windTurbine",
+      "value": "風車 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A scanning radar used to measure light and wind levels."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光と風のレベルを測定するために使用するスキャンレーダー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weather Beacon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天気ビーコン"
+    }
+  ]
+]

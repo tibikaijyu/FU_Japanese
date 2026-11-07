@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some super-hard penumbrite, waiting to be smelted."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超硬質のペヌブライトで、溶かされるのを待っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペナンブライト鉱石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune: Poisoned & 25% Poison Res^reset;, ^cyan;Immunity ^reset;: Bee Stings, Bio-Ooze, Pus, Slime: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫: 毒と 25% 毒の樹脂 ^reset; , ^cyan; 免疫性 ^reset; : 蜂の刺し傷, バイオオーズ, 膿, スライム: 1 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ita Flower Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イタフラワーヘッド"
+    }
+  ]
+]

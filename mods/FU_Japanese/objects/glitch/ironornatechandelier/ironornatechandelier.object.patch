@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An iron ornate chandelier. A good way to light a large room."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄の華やかなシャンデリア。 大きな部屋を照らす良い方法です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Ornate Chandelier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアン華麗シャンデリア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This creature appears to care about nothing at all. Strange."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この生き物は何も気にしていないようです。 不思議な。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Odd formation^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 奇形 ^reset;"
+    }
+  ]
+]

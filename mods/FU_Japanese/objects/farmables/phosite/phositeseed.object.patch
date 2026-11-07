@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "These crystals are incredibly brittle. It would be wise to handle them with care."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "これらの結晶は非常に脆いです。 慎重に扱うのが賢明だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "These crystals seem to only grow with each other."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これらの結晶は互いにしか成長しないように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Eld'uukhar grow Phosite in a much weaker form. Upilite naturally grows with it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドゥーカーはリン酸塩をはるかに弱い形に成長させます。 イピライトは自然に生長します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/elduukharDescription",
+      "value": "Upilite only grows with Phosite, you can't have one without the other."
+    },
+    {
+      "op": "replace",
+      "path": "/elduukharDescription",
+      "value": "UpiliteはPhositeでしか成長しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likesss the pretty gemsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランは美しい宝石が好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. These crystals are more fragile than they look."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 これらの結晶は見た目よりも脆い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "These look pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これはきれいに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The way they catch the light is beautiful."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "光を捉える方法は美しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phosite Crystal Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リン酸塩結晶種"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワックスのブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wax Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワックスブロック"
+    }
+  ]
+]

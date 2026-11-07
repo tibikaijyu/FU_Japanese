@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The mask's tuft is more durable than the real thing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マスクのタフトは本物よりも丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "King Nutmidgeling Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナチス・マスク王"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This poor soul suffered long before death. Now he decays in solitude."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この貧しい魂は死のずっと前に苦しんだ。 彼は今独りぼっちで倒れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Torture Cage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;拷問檻^reset;"
+    }
+  ]
+]

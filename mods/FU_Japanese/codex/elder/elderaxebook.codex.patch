@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "With a hacking chop, you will sever the limbs of His foes for the glory of all. The flesh sacrament can then be imbibed, and the true path to fighteousness revealed. Upon the altar, place five Noxcium, one Valtan Casing and four Blade Shards."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ハッキングチョップで、あなたはすべての栄光のために彼の敵の手足を切断します。 肉体的なサクラメントはその後、inbibed、そして戦いへの真のパスが明らかにすることができます。 祭壇には、ノキシウム五個、バルタンケーシング一個、ブレードシャード四個が置かれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Fellhammer"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "フェルハンマー"
+    }
+  ]
+]

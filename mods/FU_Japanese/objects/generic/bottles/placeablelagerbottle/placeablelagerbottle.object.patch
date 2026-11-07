@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable Lager Bottle!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! 配置可能なラガーボトル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Lager Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "配置可能なラガーボトル"
+    }
+  ]
+]

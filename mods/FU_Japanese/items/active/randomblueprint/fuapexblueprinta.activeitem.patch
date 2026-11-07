@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for energetic Apex armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精力的なエイペックス装甲用の設計図。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Schematics (Energy)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイペックスの設計図（エネルギー）"
+    }
+  ]
+]

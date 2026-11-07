@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Popular lower-street wear.\n+^green;5^reset;% Crit Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人気の下通りウェア。\n+^green;5^reset;%クリティカル チャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Booster Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブースターパンツ"
+    }
+  ]
+]

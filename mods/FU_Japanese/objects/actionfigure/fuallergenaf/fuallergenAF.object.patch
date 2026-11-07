@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The label reads, \"Capable of spewing lethal toxic pollen.\""
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラベルには「致死性の有毒花粉を発散できる」と書かれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snarker Trap Figurine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナーカートラップフィギュア"
+    }
+  ]
+]

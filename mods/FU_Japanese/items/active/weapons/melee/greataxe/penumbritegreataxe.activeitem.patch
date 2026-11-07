@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fantastically stylish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしいスタイリッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライト"
+    }
+  ]
+]

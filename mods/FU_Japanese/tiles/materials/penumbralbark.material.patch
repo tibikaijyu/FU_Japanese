@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Peeled bark from large trees growing on penumbra planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブラ惑星で生えている大きな木から剥がれた樹皮。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Bark"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "半島樹皮"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unsurpassed in its weapon class.\n^yellow;Utterly eradicates tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その武器クラスで一流。\n^yellow;タイルを消し去る^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hyperion Particle Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子大砲"
+    }
+  ]
+]

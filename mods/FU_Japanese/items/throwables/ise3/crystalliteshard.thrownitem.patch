@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ludicrously dangerous shards."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ばかげて危険なシャード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystallite Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶シャード"
+    }
+  ]
+]

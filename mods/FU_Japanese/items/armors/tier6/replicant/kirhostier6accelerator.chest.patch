@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Single Sword: +^green;2^reset;% Crit,\n^yellow;^reset; Dual Swords: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Gas, Shadow Taint, Tar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 単刀:+^green;2^reset;% クリット。\n^yellow;^reset;二重剣:ダメージx ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:ガス、影、タール。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Replicant's Hardsuit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レプリカントのハードスーツ"
+    }
+  ]
+]

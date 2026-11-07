@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Nice. Now we have everything we need to make a delicious wartwine."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "いいね 今、私たちはおいしい麦酒を作るために必要なすべてを持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Use some ^orange;Grapes^reset; and a ^orange;Bottle^reset; in the ^orange;Fruit Press^reset; to make ^orange;Grape Mash^reset;. You'll want two units of it for the wine you'll be making."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;Grapes ^reset; と ^orange; ボトル ^reset; を ^orange; フルーツプレス ^reset; に使って、^orange;Grape マッシュ ^reset; を作れます。 作っているワインには二つのユニットが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Brewing III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "酒造III"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Splits a stack into 100s, 10s,\nand 1s (as well as it can).\nItem-Network compatible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタックを 100s, 10s に分割します。\nそして 1s (出来る限り)。\nアイテム-ネットワーク対応。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stack Splitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタックスプリッタ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Smartbox"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "スマートボックス"
+    }
+  ]
+]

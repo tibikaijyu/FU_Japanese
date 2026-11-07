@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gleaming with lethal promise.\n^yellow;6 hit combo^reset;\n^green;Combos cause bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的な約束で叫ぶ。\n^yellow;6 ヒットコンボ^reset;\n^green;コンボは出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmic Crystal Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチック結晶カタナ"
+    }
+  ]
+]

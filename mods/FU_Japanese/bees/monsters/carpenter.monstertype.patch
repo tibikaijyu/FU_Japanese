@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A carpenter bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工の蜂です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carpenter Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大工ミツバチ"
+    }
+  ]
+]

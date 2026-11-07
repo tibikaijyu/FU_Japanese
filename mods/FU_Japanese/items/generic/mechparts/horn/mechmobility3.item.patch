@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improves performance of mech Legs and Boosters.\n+^green;30%^reset; Mobility"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカ脚・ブースターの性能向上。\n+^green;30%^reset;機動力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mobility Unit III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "移動体ユニットIII"
+    }
+  ]
+]

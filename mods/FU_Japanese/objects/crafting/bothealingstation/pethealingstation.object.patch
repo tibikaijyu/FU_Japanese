@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This bot repair station is used to repair compressed robots."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧縮ロボットの補修に使用されるロボット修理ステーションです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Bot Healing Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ボットヒーリングステーション^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "For broken robots"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "壊れたロボットのために"
+    }
+  ]
+]

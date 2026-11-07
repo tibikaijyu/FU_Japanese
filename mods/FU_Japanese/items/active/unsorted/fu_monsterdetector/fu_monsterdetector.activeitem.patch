@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reveals nearby monsters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近くの怪物を明らかにする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monster Detector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モンスター探知機"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Paneling made from solid telebrium. Don't lick it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体テレブリアム製のパネル。 なめるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムパネル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Kirhosi design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キルホスデザインの宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medium Thruster (Kirhos)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミディアムスラスター"
+    }
+  ]
+]

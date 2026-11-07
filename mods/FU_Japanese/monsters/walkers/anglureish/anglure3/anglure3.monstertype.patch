@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spewing forth toxic bubbles is fun for this pest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有害な泡を吐き出すのはこの害虫にとって楽しいことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tar Anglure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タールアングル"
+    }
+  ]
+]

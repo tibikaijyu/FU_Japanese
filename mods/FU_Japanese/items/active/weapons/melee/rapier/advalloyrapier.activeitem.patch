@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honed to utter perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧に光栄です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスターズ・レイピア"
+    }
+  ]
+]

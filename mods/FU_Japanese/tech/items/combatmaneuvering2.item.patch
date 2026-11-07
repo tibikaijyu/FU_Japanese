@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improved dodge. Maintains inertia."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "改良されたダッジ。 慣性を維持する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Dodge II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;ダッジII^reset;"
+    }
+  ]
+]

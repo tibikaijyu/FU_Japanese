@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It loves spewing out annoying little buggers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "迷惑な小さなバガーを吐き出すのが大好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bandraflora"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バンドラフローラ"
+    }
+  ]
+]

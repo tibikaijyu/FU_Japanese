@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The cinnamon treat that gives you a sugar rush! \n^cyan;+^reset;10%^green; Energy^reset;^cyan; +^reset;15%^green; Movement Speed^reset; ^green;Type: Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シナモントリートメントで、糖分をいち早く! \n^cyan;+^reset;10%^green; エネルギー^reset;^cyan; +^reset;15%^green; 移動速度^reset; ^green;砂糖の種類^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fiery Candy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火のキャンディ"
+    }
+  ]
+]

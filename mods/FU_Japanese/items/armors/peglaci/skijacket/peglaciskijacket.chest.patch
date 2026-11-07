@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Warm leather jacket preferred by Peglaci everywhere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシが好きな暖かい革のジャケット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tundra Jacket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツンドラジャケット"
+    }
+  ]
+]

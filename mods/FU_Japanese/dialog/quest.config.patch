@@ -1,0 +1,614 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/barter/trade/skath/default/0",
+      "value": "Thank you for bringing me these goods. Here's the <receivedItems> <questGiver> needed."
+    },
+    {
+      "op": "replace",
+      "path": "/barter/trade/skath/default/0",
+      "value": "この商品を持ってきてくれてありがとう。 以下は <receivedItems> <questGiver> 必要だ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/borrow/giftProvided/skath/default/0",
+      "value": "Sure, I will lend <questGiver> my <item>."
+    },
+    {
+      "op": "replace",
+      "path": "/borrow/giftProvided/skath/default/0",
+      "value": "もちろん、私は<questGiver>my<item>を貸し出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/borrow/giftProvided/skath/default/1",
+      "value": "If <questGiver> has need of my <item>, they can certainly borrow it."
+    },
+    {
+      "op": "replace",
+      "path": "/borrow/giftProvided/skath/default/1",
+      "value": "<questGiver> に my<item> が必要であれば、確実に借りることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bribe/giftAccepted/skath/default/0",
+      "value": "So <questGiver> is resorting to bribes now? Very well, then, bring them my thanks."
+    },
+    {
+      "op": "replace",
+      "path": "/bribe/giftAccepted/skath/default/0",
+      "value": "では、<questGiver>は賄いに頼っているのでしょうか? よし、それじゃあ、感謝の気持ちを伝えてくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bribe/giftAccepted/skath/default/1",
+      "value": "Did <questGiver> send this gift? Or is it more of a bribe?"
+    },
+    {
+      "op": "replace",
+      "path": "/bribe/giftAccepted/skath/default/1",
+      "value": "<questGiver>はギフトを送りましたか? それとも、もっと贈賄でしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bribe/giftAccepted2/skath/default/0",
+      "value": "I would like to know what <questGiver> wants from me though..."
+    },
+    {
+      "op": "replace",
+      "path": "/bribe/giftAccepted2/skath/default/0",
+      "value": "知りたいのです <questGiver> オレに望んでるけど..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bribe/requestAdditionToHouse/skath/default/0",
+      "value": "This is a really nice gift. Can you place it in my home for me?"
+    },
+    {
+      "op": "replace",
+      "path": "/bribe/requestAdditionToHouse/skath/default/0",
+      "value": "これは本当に良い贈り物です。 私の家に置けますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/bribe/requestAdditionToHouse/skath/default/1",
+      "value": "Sweet! Could you place this gift in my home? I'm certain it would look great!"
+    },
+    {
+      "op": "replace",
+      "path": "/bribe/requestAdditionToHouse/skath/default/1",
+      "value": "甘い! この贈り物を家に置けませんか。 きっと素晴らしく見えると思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/collect_fine/fineCollected/skath/default/0",
+      "value": "Alright, Alright, I'll pay..."
+    },
+    {
+      "op": "replace",
+      "path": "/collect_fine/fineCollected/skath/default/0",
+      "value": "よし、よし、払うぞ..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/collect_fine/fineCollected/skath/default/1",
+      "value": "I'll pay the fine. Sorry for this inconvenience."
+    },
+    {
+      "op": "replace",
+      "path": "/collect_fine/fineCollected/skath/default/1",
+      "value": "罰金を払うよ。 このご迷惑をおかけして申し訳ございません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/collect_gift/giftProvided/skath/default/0",
+      "value": "Here is the <item> you requested. I hope it's what <questGiver> needed."
+    },
+    {
+      "op": "replace",
+      "path": "/collect_gift/giftProvided/skath/default/0",
+      "value": "以下がリクエストした <item> です。 必要なのが <questGiver> です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/collect_gift/giftProvided/skath/default/1",
+      "value": "Here is the <item> that <questGiver> asked for."
+    },
+    {
+      "op": "replace",
+      "path": "/collect_gift/giftProvided/skath/default/1",
+      "value": "<item> は <questGiver> のリクエストです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/escort/found/skath/default/0",
+      "value": "I'm think I'm lost... Could you take me back to <questGiver>?"
+    },
+    {
+      "op": "replace",
+      "path": "/escort/found/skath/default/0",
+      "value": "道に迷ったと思う。 <questGiver> に戻してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/escort/found/skath/default/1",
+      "value": "I've lost my way... Could you please take me back to <questGiver>?"
+    },
+    {
+      "op": "replace",
+      "path": "/escort/found/skath/default/1",
+      "value": "道に迷った...。 <questGiver> に戻してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/escort_trade/collectDelivery/skath/default/0",
+      "value": "Do you have a delivery for me?"
+    },
+    {
+      "op": "replace",
+      "path": "/escort_trade/collectDelivery/skath/default/0",
+      "value": "配達をお願いできますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/escort_trade/provideDelivery/skath/default/0",
+      "value": "Here's your goods. Do enjoy them!"
+    },
+    {
+      "op": "replace",
+      "path": "/escort_trade/provideDelivery/skath/default/0",
+      "value": "これがあなたの商品です。 お楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/extort/giftProvided/skath/default/0",
+      "value": "I know when I'm defeated... Take my <item> then, but leave me alone!"
+    },
+    {
+      "op": "replace",
+      "path": "/extort/giftProvided/skath/default/0",
+      "value": "負けたときはわかっている。 では <item> を取ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/extort/giftProvided/skath/default/1",
+      "value": "<questGiver> lost their honour. Fine then, take the <item>!"
+    },
+    {
+      "op": "replace",
+      "path": "/extort/giftProvided/skath/default/1",
+      "value": "<questGiver>は名誉を失った。 よければ、<item> をとってください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/giftAccepted/skath/default/0",
+      "value": "This gift is very nice! Please thank <questGiver> for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/gift/giftAccepted/skath/default/0",
+      "value": "この贈り物はとても良いです! <questGiver> ありがとうございました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/giftAccepted/skath/default/1",
+      "value": "Could you thank <questGiver> for me? This gift is wonderful!"
+    },
+    {
+      "op": "replace",
+      "path": "/gift/giftAccepted/skath/default/1",
+      "value": "<questGiver> ありがとうございました。 この贈り物は素晴らしいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/giftAccepted2/skath/default/0",
+      "value": "<questGiver> is a good friend."
+    },
+    {
+      "op": "replace",
+      "path": "/gift/giftAccepted2/skath/default/0",
+      "value": "<questGiver>は良い友達です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/giftAccepted2/skath/default/1",
+      "value": "<questGiver> is an honourable person."
+    },
+    {
+      "op": "replace",
+      "path": "/gift/giftAccepted2/skath/default/1",
+      "value": "<questGiver>は名誉ある人です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/requestAdditionToHouse/skath/default/0",
+      "value": "I'm certain this gift would look great in my home. Could you place it for me?"
+    },
+    {
+      "op": "replace",
+      "path": "/gift/requestAdditionToHouse/skath/default/0",
+      "value": "この贈り物は私の家ではきっと素敵に見える。 置いてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gift/requestAdditionToHouse/skath/default/1",
+      "value": "Could you place this gift in my home? I'm certain it would look great!"
+    },
+    {
+      "op": "replace",
+      "path": "/gift/requestAdditionToHouse/skath/default/1",
+      "value": "この贈り物を家に置けませんか。 きっと素晴らしく見えると思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hat/crafted/skath/default/0",
+      "value": "Here you go! Please, take this to <questGiver> for me."
+    },
+    {
+      "op": "replace",
+      "path": "/hat/crafted/skath/default/0",
+      "value": "どうぞ! これを <questGiver> に持って行ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hat/crafted/skath/default/1",
+      "value": "I'm all done! Take this to <questGiver>, would you?"
+    },
+    {
+      "op": "replace",
+      "path": "/hat/crafted/skath/default/1",
+      "value": "終わりました! これを <questGiver> に持っていきますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hat/crafting/skath/default/0",
+      "value": "You've secured the materials? Hold a moment, I'll get to work immediately..."
+    },
+    {
+      "op": "replace",
+      "path": "/hat/crafting/skath/default/0",
+      "value": "材料を確保した? ちょっと待って、すぐに仕事に行くわ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hat/crafting/skath/default/1",
+      "value": "I see you have everything we need! Hold a moment, I just need some time to craft..."
+    },
+    {
+      "op": "replace",
+      "path": "/hat/crafting/skath/default/1",
+      "value": "必要なものは全部君にあるぞ! ちょっと待って、私はちょうどクラフトする時間が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helmet/crafted/skath/default/0",
+      "value": "Here you go! Please, take this to <questGiver> for me."
+    },
+    {
+      "op": "replace",
+      "path": "/helmet/crafted/skath/default/0",
+      "value": "どうぞ! これを <questGiver> に持って行ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helmet/crafted/skath/default/1",
+      "value": "I'm all done! Take this to <questGiver>, would you?"
+    },
+    {
+      "op": "replace",
+      "path": "/helmet/crafted/skath/default/1",
+      "value": "終わりました! これを <questGiver> に持っていきますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helmet/crafting/skath/default/0",
+      "value": "You've secured the materials? Hold a moment, I'll get to work immediately..."
+    },
+    {
+      "op": "replace",
+      "path": "/helmet/crafting/skath/default/0",
+      "value": "材料を確保した? ちょっと待って、すぐに仕事に行くわ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helmet/crafting/skath/default/1",
+      "value": "I see you have everything we need! Hold a moment, I just need some time to craft..."
+    },
+    {
+      "op": "replace",
+      "path": "/helmet/crafting/skath/default/1",
+      "value": "必要なものは全部君にあるぞ! ちょっと待って、私はちょうどクラフトする時間が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/intimidate/intimidated/skath/default/0",
+      "value": "Fine, fine. Just calm down and put that <item> away."
+    },
+    {
+      "op": "replace",
+      "path": "/intimidate/intimidated/skath/default/0",
+      "value": "大丈夫、大丈夫。 落ち着いて、それを置くだけです <item>。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/intimidate/notIntimidated/skath/default/0",
+      "value": "Do you really think you can scare me with that? Begone!"
+    },
+    {
+      "op": "replace",
+      "path": "/intimidate/notIntimidated/skath/default/0",
+      "value": "本当に怖がらせると思う? 消えろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/intimidate/notIntimidated/skath/default/1",
+      "value": "Really? <questGiver> ordered you to scare me with that thing? Nice try."
+    },
+    {
+      "op": "replace",
+      "path": "/intimidate/notIntimidated/skath/default/1",
+      "value": "本当? <questGiver>はあなたにそれを怖がらせるように命令しましたか? 試してみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kidnapping/followHome/skath/default/0",
+      "value": "Could you please take me back home to <questGiver>?"
+    },
+    {
+      "op": "replace",
+      "path": "/kidnapping/followHome/skath/default/0",
+      "value": "<questGiver> へ帰ってきてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kidnapping/followHome/skath/default/1",
+      "value": "I'll need some time to recover from this... Could you take me to <questGiver>?"
+    },
+    {
+      "op": "replace",
+      "path": "/kidnapping/followHome/skath/default/1",
+      "value": "回復には時間が必要です。 <questGiver>まで連れて行ってもらえますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kidnapping/kidnappersDead/skath/default/0",
+      "value": "You were sent by Rhadeis! Thank you for rescuing me!"
+    },
+    {
+      "op": "replace",
+      "path": "/kidnapping/kidnappersDead/skath/default/0",
+      "value": "あなたはRhadeisによって送信されました! 助けてくれてありがとう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kidnapping/kidnappersDead/skath/default/1",
+      "value": "Thank you for getting me out of that mess!"
+    },
+    {
+      "op": "replace",
+      "path": "/kidnapping/kidnappersDead/skath/default/1",
+      "value": "私をその混乱から解放してくれてありがとう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npc/betray/skath/default/0",
+      "value": "I'd rather die than surrender, you idiot!!"
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npc/betray/skath/default/0",
+      "value": "降伏するより死んだほうがましだよ、バカ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npc/betray/skath/default/1",
+      "value": "You seriously fell for that? Fool!"
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npc/betray/skath/default/1",
+      "value": "マジで落ちたの? ファウル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npc/betray/skath/default/2",
+      "value": "You've been tricked!"
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npc/betray/skath/default/2",
+      "value": "だまされた!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npc/surrender/skath/default/0",
+      "value": "I know when I am defeated. Please lower your weapon!"
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npc/surrender/skath/default/0",
+      "value": "いつ敗れたか知っている。 武器を下ろしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npc/surrender/skath/default/1",
+      "value": "You are the stronger one! I surrender!"
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npc/surrender/skath/default/1",
+      "value": "あなたは強い人です! 降伏!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kill_npcs/assistantIntro/skath/default/0",
+      "value": "Greetings. <questGiver> has asked me to help you fight the <enemy>."
+    },
+    {
+      "op": "replace",
+      "path": "/kill_npcs/assistantIntro/skath/default/0",
+      "value": "あいさつ <questGiver>は私に<enemy>と戦うのを手伝ってくれと頼まれました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/new_stock/trade/skath/default/0",
+      "value": "Thank you for delivering this. Here's what <questGiver> needed."
+    },
+    {
+      "op": "replace",
+      "path": "/new_stock/trade/skath/default/0",
+      "value": "これを納品していただきありがとうございます。 <questGiver> が必要なのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/request_craft/giftProvided/skath/default/0",
+      "value": "Here is the <item> you asked me to make."
+    },
+    {
+      "op": "replace",
+      "path": "/request_craft/giftProvided/skath/default/0",
+      "value": "あなたが私に作ってもらった <item> です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/request_craft/giftProvided/skath/default/1",
+      "value": "I made this <item> earlier. Please, take it!"
+    },
+    {
+      "op": "replace",
+      "path": "/request_craft/giftProvided/skath/default/1",
+      "value": "私はこれを <item> 前に どうぞお持ちください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/return_stolen/objectTaken/skath/default/0",
+      "value": "I swear on my honour, that <item> was acquired legally!"
+    },
+    {
+      "op": "replace",
+      "path": "/return_stolen/objectTaken/skath/default/0",
+      "value": "私は誓います、その<item>は合法的に取得されました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/return_stolen/objectTaken/skath/default/1",
+      "value": "I borrowed that <item> with permission - I swear it!"
+    },
+    {
+      "op": "replace",
+      "path": "/return_stolen/objectTaken/skath/default/1",
+      "value": "私はそれを借りました <item> 許可を得て - 私は誓います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/share_secret/pleaseTakeReply/skath/default/0",
+      "value": "Would you take this reply back to <questGiver> for me?"
+    },
+    {
+      "op": "replace",
+      "path": "/share_secret/pleaseTakeReply/skath/default/0",
+      "value": "この答えを <questGiver> に返してくれませんか?"
+    }
+  ]
+]

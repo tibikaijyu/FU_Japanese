@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Adult Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "大人のポップトップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's huge..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "とてつもなく大きい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mother Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マザーポップトップ"
+    }
+  ]
+]

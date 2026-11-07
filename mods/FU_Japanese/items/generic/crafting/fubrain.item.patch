@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bloody brain still pulsing with grossness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血まみれの脳はまだ粗大さで脈打っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fresh brain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "新脳"
+    }
+  ]
+]

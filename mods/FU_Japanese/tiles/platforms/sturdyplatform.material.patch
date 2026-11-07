@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy platform"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なプラットホーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sturdy Metal Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頑丈な金属プラットフォーム"
+    }
+  ]
+]

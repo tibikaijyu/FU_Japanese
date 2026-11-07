@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy wooden fence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な木製のフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssturdy fence."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "頑丈なフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. This wooden fence is quite sturdy."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 この木製のフェンスはかなり頑丈だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nothin' like a sturdy wooden fence."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "頑丈な木製のフェンスのようなものではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ornate Wooden Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "華やかな木製のフェンス"
+    }
+  ]
+]

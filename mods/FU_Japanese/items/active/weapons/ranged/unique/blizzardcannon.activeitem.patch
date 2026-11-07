@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freeze enemies with cryogenic rockets!\n^cyan;Freeze enemies^reset;\n^#e43774;Area Clear^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極低温ロケットで敵を凍らせよう!\n^cyan;敵を凍らせる^reset;\n^#e43774;領域クリア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blizzard Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリザード砲"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient cage used for unfathomable purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のケージは、不屈の目的のために使用されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Torture Cage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;拷問檻^reset;"
+    }
+  ]
+]

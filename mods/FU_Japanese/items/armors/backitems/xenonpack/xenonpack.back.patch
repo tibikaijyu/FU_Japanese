@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A backpack with an attached xenon light. More light than you'll ever need!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "付属のキセノンライト付きのバックパック。 必要以上に光を!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xenon Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キセノンパック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^#7f2282;Glow^reset;: 5m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^#7f2282;発光^reset;：5分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Sack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスター・サック"
+    }
+  ]
+]

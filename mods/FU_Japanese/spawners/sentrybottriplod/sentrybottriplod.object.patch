@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reliable sidekick to protect you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたを守る信頼性の高いサイドキック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Triplod Guard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三脚"
+    }
+  ]
+]

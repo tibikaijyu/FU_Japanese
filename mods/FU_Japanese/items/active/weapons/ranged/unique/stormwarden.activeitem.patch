@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches rapid-fire bomblets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "速射砲を発射する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stormwarden"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストームウォーテン"
+    }
+  ]
+]

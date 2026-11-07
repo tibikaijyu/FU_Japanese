@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Apex^reset; Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;エイペックス^reset;顕微鏡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Inspect Bees & Items"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ミツバチの検査とアイテム"
+    }
+  ]
+]

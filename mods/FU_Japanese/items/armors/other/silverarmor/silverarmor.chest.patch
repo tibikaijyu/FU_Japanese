@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Chakram/Boomerang: Damage x^green;1.1^reset;, +^green;2^reset;% Crit\n^yellow;^reset; Fall Damage x^green;0.75^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; チャクラム/ブーメラン: チャクラム / ブーメラン:被害x^green;1.1^reset;, +^green;2^reset;% 批判\n^yellow;^reset; 損傷x ^green;0.75^reset;"
+    }
+  ]
+]

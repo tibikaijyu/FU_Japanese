@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Sometimes rebels try to escape the Miniknog with engines like this. They never get far."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このようなエンジンでミニノッグを逃れようとする反逆者が時々いる。 彼らは決して遠くへは行きません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I better not fall into any gravity wells with an engine like this."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "私はこのようなエンジンで重力井戸に落ちないほうがよい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An STL drive for a space ship. Allows travel within a system, but isn't strong enough to travel to others.\n^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のSTLドライブ。 システム内での移動は可能だが、他人への移動には十分ではない。\n^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssslow engine."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スローエンジン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Irked. Core Fragments are nowhere near as powerful as Erchius Crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "と私は言った。 コアフラグメントは、エルキウス 結晶ほど強力ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Humans colonized the Sol system with engines like this, so I shouldn't complain."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "人間は、このようなエンジンでソルシステムを植民地化したので、文句を言うべきではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Going somewhere slowly is better than going nowhere fast."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "ゆっくり行くほうが、どこも速く行くよりはましだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "It's basically just a steam engine, but that's just fine."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "基本的には蒸気エンジンですが、それでも問題ありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^red;STL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^red;STLドライブ^reset;"
+    }
+  ]
+]

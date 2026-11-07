@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Ahhh. Refreshing."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "うーん。 リフレッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I feel better."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "気分が良くなりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates a field that heals any lifeform within its area of effect. ^cyan;Requires ^orange;120W^cyan; of power^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "効果の領域内で任意の生命体を癒すフィールドを生成します。 ^cyan;必須 ^orange;120W:^cyan; 権力の^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Healy box make Floran happy."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "健康ボックスはフローランを幸せにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Reassured. I won't die while standing near this machine."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "安心。 私はこの機械の近くに立っては死にません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I won't have to worry about the peril of death near this thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私はこれの近くで死の危険を心配する必要はありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This will provide excellent healing at a constant rate."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これは、一定の速度で優れた治癒を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Regeneration Matrix^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;再生マトリックス^reset;"
+    }
+  ]
+]

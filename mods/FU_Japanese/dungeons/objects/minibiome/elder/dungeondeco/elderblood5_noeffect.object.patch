@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I really shouldn't touch this blood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この血には本当に触れるべきではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a chemist that helps you see in the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗闇の中で見るのに役立つ化学者を雇います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chemist-D Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "化学者-D契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of electronic components, valuable for interstellar trade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星間貿易に有用な電子部品の密封箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electronic Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電子部品"
+    }
+  ]
+]

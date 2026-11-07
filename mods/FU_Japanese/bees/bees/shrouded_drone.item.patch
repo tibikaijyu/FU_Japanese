@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shrouded Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "密輸ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shrouded Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "密輸ドローン"
+    }
+  ]
+]

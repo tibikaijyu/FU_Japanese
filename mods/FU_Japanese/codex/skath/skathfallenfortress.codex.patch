@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Recent discussion has led me to believe that the answer to the Skath problem and the Thelusian problem is one and the same. I suggest we find a way to encourage a war between these two species in order to reduce their surplus populations, lest we all suffer the consequences of unchecked growth. We will otherwise choke on their numbers."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "最近の議論で、スカース問題とテルシアン問題の答えは一つで同じだと信じています。 この二種族の過剰な人口を減らすため、両者の戦争を促す方法を探すべきだと提案する。増加を放置すれば、その代償を我々全員が負うことになる。 さもなければ、私たちは彼らの数を窒息させるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I realize it is not moral. I also am quite aware that it is necessary, whether we like it or not. I have no urge to wake up next week facing a ten-trillion strong Thelusian fleet in need of food. Do you? Imagine what could happen if left to their own devices? We'd face annihilation at best...slavery at the worst. There is no winning in the face of such numbers."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私はそれが道徳的ではないことに気付きます。 好むと好まざるとに関わらず、それが必要であることも承知しています。 来週、食料を欲しがるテルシア艦隊が一〇兆台も迫る中、私は目を覚ます気はない。 あなたは? 自分のデバイスに任せると、どうなるか想像してみてください。 最悪なら奴隷制に直面するでしょう そのような数字に直面しても勝てません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Encoded discussions about solutions to growing threats."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "脅威の増加に対する解決策に関する議論をコード化する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "An Unpopular Opinion"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "不評な意見"
+    }
+  ]
+]

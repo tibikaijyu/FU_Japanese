@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an egg, it might hatch soon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卵だから、すぐにかゆみが出るかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primed Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プライムドエッグ"
+    }
+  ]
+]

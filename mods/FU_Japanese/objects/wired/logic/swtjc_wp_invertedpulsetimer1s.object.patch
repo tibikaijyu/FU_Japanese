@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stops transmitting signals for 1 second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブになるたびに 1 秒の信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Stopsss transssmitting sssignalsss for 1 sssecond whenever it becomesss active."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ss がアクティブになるたびに、1sssecond の sssignals を送信停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. Stops transmitting signals for 1 second whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 アクティブになるたびに 1 秒の信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inv. 1-Sec. Pulse Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インヴ。 1 - Sec。 パルストランスミッタ"
+    }
+  ]
+]

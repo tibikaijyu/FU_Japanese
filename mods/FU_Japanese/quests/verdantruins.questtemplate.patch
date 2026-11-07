@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Well, looks like the ruins weren't as abandoned as I thought they would be. Did I manage to discover all of its secrets?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "まあ、この遺跡は思ったほど放棄されていないみたいです。 その秘密を全部発見できたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Explore the Verdant Ruins."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "緑豊かな遺跡を探索する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map shows me how to get to some ancient, overgrown ruins. It supposedly holds a wealth of Floran artifacts."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図には、古代の荒廃した遺跡への行き方が示されています。 おそらくは、多くのフロランの遺物が残されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Verdant Ruins"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; バーダント遺跡"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They are a common pest to ocean divers, due to their persistence to feed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らは食物への忍耐のために、海のダイバーに共通の害虫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nautileech"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノウティレッチ"
+    }
+  ]
+]

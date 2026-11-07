@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful and wonderous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力で素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテクォータースタッフ"
+    }
+  ]
+]

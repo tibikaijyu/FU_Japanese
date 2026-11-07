@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with honey. It smells like a beehive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツで満たされたランプ。 蜂の巣の匂いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーラバランプ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hot and spicy with a side of die.\n^cyan;Inflicts Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホットとスパイシーなダイの側面。\n^cyan;焼成現象^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄炎刃"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Poptopalon torso."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたポトパロンの胴体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptopalon Torso"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポトパロントルソ"
+    }
+  ]
+]

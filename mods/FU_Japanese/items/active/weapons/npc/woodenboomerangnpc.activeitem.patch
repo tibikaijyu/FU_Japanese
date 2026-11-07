@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An aboriginal design made in the bush.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブッシュで作られたアボリジニのデザイン。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Boomerang NPC"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製ブーメランNPC"
+    }
+  ]
+]

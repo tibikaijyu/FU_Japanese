@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lost knowledge of an unknown race."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の人種の知識を失う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Elder Fragment^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e; 長老フラグメント ^reset;"
+    }
+  ]
+]

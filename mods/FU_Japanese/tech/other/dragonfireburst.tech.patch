@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Breathe Fire! (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炎の息を吐く！（^yellow;基本ガイド^reset;の^blue;特殊テック^reset;を参照）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Dragonfire"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "竜火"
+    }
+  ]
+]

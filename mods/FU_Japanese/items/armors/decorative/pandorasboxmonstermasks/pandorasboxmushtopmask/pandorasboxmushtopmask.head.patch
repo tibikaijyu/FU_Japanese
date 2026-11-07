@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fungal spore free! (Potentially..)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真菌の胞子無料! (おそらく)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mushtop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キノコマスク"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Rock Golem"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "岩石ロボット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rolling around, being awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "転がり回って、素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stone Brute"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーンブルート"
+    }
+  ]
+]

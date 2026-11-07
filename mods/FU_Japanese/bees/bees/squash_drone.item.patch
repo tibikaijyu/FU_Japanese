@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Squash Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカッシュドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Squash Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカッシュドローン"
+    }
+  ]
+]

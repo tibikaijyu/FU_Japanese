@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter H."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字はH。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter H"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手紙H"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metal parts for some unknown purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかの未知の目的のための金属部品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属部品"
+    }
+  ]
+]

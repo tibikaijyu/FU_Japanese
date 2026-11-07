@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carefully treated starry wood, it's almost like the night sky."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丁寧に処理された星木、それはほぼ夜空のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Jusst some sstarry wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スターリーウッドだけ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. How can freshly chopped wood be so pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 切り刻んだての木はどうしてこんなにきれいにできるのでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "It looks fresh cut, but this weird wood has been treated with somethin' more wierd."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "新鮮に切り取られたようにも見えますが、この奇妙な木材はもっとぎっしりと処理されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Treated Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木材"
+    }
+  ]
+]

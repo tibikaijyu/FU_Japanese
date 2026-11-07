@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "This absolutely enormous tome is three thousand pages of sword study, techniques, patterns, stances and so much more. Truly a wonderful find for a historian or someone looking to learn swordplay in the style of the Nightar. There are entire chapters devoted to proper cleaning of blades, how to remove rust and improve the blade by a process called Shadow-Tempering, and proper resolutions to common problems in their society such as stolen blades and intentional damaging of heirloom weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "剣術、技法、パターン、姿勢など、計三〇〇〇ページに及ぶ膨大な時間。 真に歴史家やナイトアールのスタイルで剣術を学ぶために探している人のための素晴らしい発見。 ブレードの適切な洗浄、シャドウテンパリングと呼ばれるプロセスによって錆を除去し、ブレードを改善する方法、および盗まれたブレードや相続人の武器の意図的な損傷などの彼らの社会における一般的な問題に対する適切な解決に専用の章全体があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The rest is entirely devoted to proper Arena etiquette, dispute settling and Kingsryche rules and regulations, and on the proper observation of honor in all things."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "残りは、適切なアリーナのエチケット、紛争解決とキングスライチの規則と規制、およびすべてのものにおける名誉の適切な観察に完全に捧げられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blademasters study"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "剣術研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Arena"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "アリーナ"
+    }
+  ]
+]

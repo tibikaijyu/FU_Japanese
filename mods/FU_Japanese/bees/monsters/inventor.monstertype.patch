@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A inventor bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発明家ミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inventor Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発明家蜂"
+    }
+  ]
+]

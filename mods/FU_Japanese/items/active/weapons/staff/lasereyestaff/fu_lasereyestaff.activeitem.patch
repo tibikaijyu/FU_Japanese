@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fairly interesting technological weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり興味深い技術兵器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cane of Eyes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "眼の杖"
+    }
+  ]
+]

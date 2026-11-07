@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires non-threatening light sources."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非脅威光源を発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flare Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレアガン"
+    }
+  ]
+]

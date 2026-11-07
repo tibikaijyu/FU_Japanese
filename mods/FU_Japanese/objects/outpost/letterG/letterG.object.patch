@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter G."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字G。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter G"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手紙G"
+    }
+  ]
+]

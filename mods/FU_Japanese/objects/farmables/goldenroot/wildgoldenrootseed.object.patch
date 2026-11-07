@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flecks of gold adorn this health-restoring vine."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金のほこりがこの健康回復のブドウを飾ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Root Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金根種子"
+    }
+  ]
+]

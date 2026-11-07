@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made of bees wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチのワックスで作られたプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワックスプラットフォーム"
+    }
+  ]
+]

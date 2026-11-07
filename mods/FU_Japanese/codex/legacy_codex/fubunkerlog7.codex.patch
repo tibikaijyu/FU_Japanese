@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "After seven long years, the USCM has decreed that our bunkers shall be opened to friendly life from the outside. As I'm sure many of you are aware, numerous species turn up at our door, and we refuse them entry."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "七年後、USCMは私たちのバンカーを外部からフレンドリーな生活に開放することを決定しました。 皆さんの多くはご存じのとおり、多くの種が私たちの戸口に現れ、私たちはそれらが入ることを拒否します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "It is apparent that many of them believe our bunker to be some kind of shop. As such, we have decided to allow them access to take a look around. Perhaps we can even enlist a few new members, should the need arise."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "彼らの多くは私たちのバンカーがある種の店であると考えていることは明らかです。 そのため、私たちはそれらにアクセスして見回すことを許可することに決めました。 必要に応じて、いくつかの新しいメンバーを登録することもできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A New Policy"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新しい方針"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A New Policy"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "新しい方針"
+    }
+  ]
+]

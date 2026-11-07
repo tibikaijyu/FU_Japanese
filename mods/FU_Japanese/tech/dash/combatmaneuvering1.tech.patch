@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A short ^green;[Double-tap]^reset; Dodge with Defense boost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "短い^green;[ダブルタップ]^reset;防御ブースト付きダッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Dodge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "さや"
+    }
+  ]
+]

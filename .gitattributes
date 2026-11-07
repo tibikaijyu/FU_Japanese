@@ -1,0 +1,5 @@
+# Retain release bytes on every platform, including existing BOMs and line endings.
+# SHA256SUMS.txt and source/reports/mod_sha256.json depend on these exact bytes.
+* -text
+*.png binary
+*.ttf binary

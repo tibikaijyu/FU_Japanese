@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with liquid crystal. How does one liquefy crystal?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液晶で満たされたランプ。 液状の結晶はどうやって?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Crystal Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液晶ラバランプ"
+    }
+  ]
+]

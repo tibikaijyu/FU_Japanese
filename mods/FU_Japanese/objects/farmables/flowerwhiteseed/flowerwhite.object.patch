@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These flowers have a sweet and pleasant scent"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘く心地よい香りがする花です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "White Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "白花"
+    }
+  ]
+]

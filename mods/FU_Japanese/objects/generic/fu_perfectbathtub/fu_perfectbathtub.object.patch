@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect bathtub."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な浴槽。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Bathtub"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "浴槽完備。"
+    }
+  ]
+]

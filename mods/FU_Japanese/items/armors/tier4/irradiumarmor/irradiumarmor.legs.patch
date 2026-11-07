@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Irradium weapons: +^green;3^reset;% Crit Chance, +^green;10^reset;% Rad Resist\n^yellow;^reset; ^cyan;Immune^reset;: All Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;I 武器:+^green;3^reset;%クリティカル率, +^green;10^reset;%Rad 耐性\n^yellow;^reset; ^cyan;免疫^reset;全ての放射線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウム残骸"
+    }
+  ]
+]

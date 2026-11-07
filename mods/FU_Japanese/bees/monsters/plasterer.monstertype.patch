@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A plasterer bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石膏の蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasterer Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石膏蜂"
+    }
+  ]
+]

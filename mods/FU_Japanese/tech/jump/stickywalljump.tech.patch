@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lets you stick to and jump off vertical walls!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "垂直の壁に飛び降りることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Sticky Wall Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "棒状壁ジャンプ"
+    }
+  ]
+]

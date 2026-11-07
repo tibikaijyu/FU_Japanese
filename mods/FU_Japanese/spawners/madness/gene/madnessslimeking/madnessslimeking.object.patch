@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gargantuan slime creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な粘液生物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムアイ"
+    }
+  ]
+]

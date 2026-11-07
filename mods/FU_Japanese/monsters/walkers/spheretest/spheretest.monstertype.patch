@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Testing rotating monster"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "回転モンスターのテスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "spheretest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "球面試験"
+    }
+  ]
+]

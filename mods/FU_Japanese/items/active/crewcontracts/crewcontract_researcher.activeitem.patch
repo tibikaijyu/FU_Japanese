@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a field researcher to take notes on the worlds you explore. ^cyan;+1 passive research^reset; - ^red;doesn't stack^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "探検する世界についてメモを取るためにフィールド研究者を雇います。 ^cyan;+1 受動的な研究^reset; - ^red;積み上げられません^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Researcher Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究者契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Those who are lost count on Pharitu Waypointers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "失った人は、ファリトゥ Waypointersにカウントします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Waypointer Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウェイポインターマスク"
+    }
+  ]
+]

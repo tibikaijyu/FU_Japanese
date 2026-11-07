@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny armour stands resolute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある装甲が固まります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Display Armour"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ディスプレイアーマー"
+    }
+  ]
+]

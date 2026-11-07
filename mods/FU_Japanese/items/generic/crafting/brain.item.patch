@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This brain looks to be perfect for experimentation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この脳は実験に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Superior Brain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "上脳"
+    }
+  ]
+]

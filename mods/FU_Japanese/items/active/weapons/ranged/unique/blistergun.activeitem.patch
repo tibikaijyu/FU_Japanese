@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires repulsive glowy goo-globs.\n^green;Targets glow\n^yellow;+Pus effect^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火は反発する光り輝くグーグロブ。\n^green; 輝きを狙う\n^yellow;+膿エフェクト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスターガン"
+    }
+  ]
+]

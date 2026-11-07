@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Constructed of some sort of fine cell-like fabric."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "細胞様の微細な布地を構成。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nightarDescription",
+      "value": "Perfect comfort, and with a nano-quilt blanket!"
+    },
+    {
+      "op": "replace",
+      "path": "/nightarDescription",
+      "value": "完璧な快適さ、そしてナノキルト毛布で!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Cell Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアセルベッド"
+    }
+  ]
+]

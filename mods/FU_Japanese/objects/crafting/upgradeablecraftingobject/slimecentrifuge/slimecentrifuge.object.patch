@@ -1,0 +1,458 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Biochemist table is used to change the bonds between slimes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生化学者の表は、粘液間の結合を変えるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Biochemist Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;生化学者表^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Slimy stuff"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2; スリミーなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Biochemist Table"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " 生化学者表"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/apexDescription",
+      "value": "A Biochemist table. The Apex haven't used these like they're used here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/apexDescription",
+      "value": "生化学者のテーブル。 エイペックス は、これらの使い方をここでは使っていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/avianDescription",
+      "value": "I don't like glass bottles, these are almost invisible to us."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/avianDescription",
+      "value": "私はガラス瓶が好きではありません。これらはほとんど見えません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "The Biochemist table is used to change the bonds between slime."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "生化学者の表は、粘液間の結合を変えるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/floranDescription",
+      "value": "Very sssothing, goo sssalvation."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/floranDescription",
+      "value": "非常に、良い救い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/glitchDescription",
+      "value": "Confused. The Glitch don't know the purpose of these Biochemist tables."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/glitchDescription",
+      "value": "混乱している。 The グリッチは生化学者のテーブルの目的を知らない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/humanDescription",
+      "value": "A biochemist table, these were used alot when the earth was still whole."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/humanDescription",
+      "value": "生化学者のテーブル、これらは地球がまだ完全にあったときに多く使用されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/hylotlDescription",
+      "value": "Probably used to mix elements."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/hylotlDescription",
+      "value": "おそらく要素を混ぜるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/novakidDescription",
+      "value": "Ah, biochemistry, lovely aspect of science."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/novakidDescription",
+      "value": "ああ、生化学、科学の素敵な側面。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Biochemist Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;生化学者表^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/slimepersonDescription",
+      "value": "I can bond other slime here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/slimepersonDescription",
+      "value": "私はここで他の粘液を接着できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Slimy stuff"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2; スリミーなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Biochemist Centrifuge"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " 生化学濃縮装置"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/apexDescription",
+      "value": "A forge. I can use titanium and other materials here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/apexDescription",
+      "value": "フォージ。 ここではチタンなどの素材を使用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/avianDescription",
+      "value": "A forge for creating equipment out of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/avianDescription",
+      "value": "金属製の装置を作るための鍛造品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "The Biochemist centrifuge is used to change the bonds between slime."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "生化学の遠心分離機は、スライム間の結合を変えるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/floranDescription",
+      "value": "Floran make ssstrong weapon on sssstation."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/floranDescription",
+      "value": "フロランはsssstationに強い武器を作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/glitchDescription",
+      "value": "Eager. I can make titanium equipment and more here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/glitchDescription",
+      "value": "早く! チタン製の設備などはここで作れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/humanDescription",
+      "value": "This forge let's me craft equipment out of metal!"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/humanDescription",
+      "value": "この鍛造品は、金属製の機器を作ろう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/hylotlDescription",
+      "value": "A crafting station dedicated to creatin' equipment out of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/hylotlDescription",
+      "value": "金属から設備を創り出すためのクラフトステーション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/novakidDescription",
+      "value": "This forge will come in handy for creatin' equipment out of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/novakidDescription",
+      "value": "この鍛造品は、金属製の機器を作成するのに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Biochemist Centrifuge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;生化学セントリフュージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/slimepersonDescription",
+      "value": "I can bond other slime here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/slimepersonDescription",
+      "value": "私はここで他の粘液を接着できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Slimy stuff"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2; スリミーなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Biochemist Microseparator"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " 生化学マイクロセパレータ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/apexDescription",
+      "value": "A replicator. I can create high quality equipment with this."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/apexDescription",
+      "value": "レプリケータ。 これによって高品質な設備を創り出すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/avianDescription",
+      "value": "I can turn ores into good quality equipment from here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/avianDescription",
+      "value": "私はここから良質の装置に鉱石を回すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "The Biochemist Microseparator is used to change the bonds between slime."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "生化学者マイクロセパレーターは、スライム間の結合を変えるために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/floranDescription",
+      "value": "Floran make ssstrong weapon here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/floranDescription",
+      "value": "フローランはここで強力な武器を作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/glitchDescription",
+      "value": "Neutral. I can make equipment and more with this."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/glitchDescription",
+      "value": "ニュートラル これで設備をもっと作れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/humanDescription",
+      "value": "I can create super strong equipment from this replicator."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/humanDescription",
+      "value": "このレプリケータから超強力な装置を作れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/hylotlDescription",
+      "value": "This replicator enables me to create high quality equipment from good quality materials."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/hylotlDescription",
+      "value": "このレプリケータは、良質な材料から高品質の装置を作成することを可能にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/novakidDescription",
+      "value": "I can make myself some great equipment using this replicator."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/novakidDescription",
+      "value": "私はこのレプリケータを使って素晴らしい機器を作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;Biochemist Microseparator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;生化学マイクロセパレータ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/slimepersonDescription",
+      "value": "I can bond other slime here."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/slimepersonDescription",
+      "value": "私はここで他の粘液を接着できる。"
+    }
+  ]
+]

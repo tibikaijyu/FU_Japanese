@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Pressure, Extreme Heat/Cold/Radiation/Poison, Proto, Acid, L.Nitro, Aether"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;:圧力、極限熱/寒さ/放射線/毒、プロト、酸、L.ニトロ、エーテル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titan Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイタンメカボディ"
+    }
+  ]
+]

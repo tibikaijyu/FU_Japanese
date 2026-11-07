@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "IT'S FRACKIN' RAW \n^red;Drunk^reset; 2m \n^blue;Madness Gain^reset; 4 \n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フラッキン生です \n^red;酒^reset; 2え? \n^blue;狂気の高まり^reset; 4 \n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Idiot Sandwich"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンドイッチ"
+    }
+  ]
+]

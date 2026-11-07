@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its roots lash out when attacked."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その根は攻撃されたときに突き出ます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strangler Vine Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストレンジラーワインシードします。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Auto-flush and self-cleaning!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動フラッシュ&セルフクリーニング!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Toilet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクトイレ"
+    }
+  ]
+]

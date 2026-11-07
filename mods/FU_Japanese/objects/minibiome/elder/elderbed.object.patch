@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You could sleep on it. If you're brave enough."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寝てもいいですよ。 勇気があれば。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長床"
+    }
+  ]
+]

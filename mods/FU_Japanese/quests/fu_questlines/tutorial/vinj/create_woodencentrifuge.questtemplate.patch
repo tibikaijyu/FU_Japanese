@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "While not incredibly effective, a ^orange;Wooden Centrifuge^reset; is able to process basic liquids and grind up honeycombs to get at the goodies inside. As soon as possible, upgrade to an ^orange;Iron Centrifuge^reset; for far more utility."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;木製遠心分離機^reset;は高性能ではないけど、基本的な液体の処理や、ハニカムを砕いて中身を取り出すことができる。できるだけ早く^orange;鉄製遠心分離機^reset;にアップグレードすると、もっと便利になるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A ^green;centrifuge^reset; allows you to separate liquid from material, and more. There are several types of these devices, but we'll start simple: build a ^orange;Wooden Centrifuge^reset; to get started."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;遠心分離機^reset;は、素材から液体を分けるなどの処理に使える。何種類かあるけど、まずは簡単な^orange;木製遠心分離機^reset;を作って始めよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Centrifuge"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "遠心分離機"
+    }
+  ]
+]

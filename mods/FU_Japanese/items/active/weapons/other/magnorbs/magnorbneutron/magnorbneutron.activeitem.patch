@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior gravity orbs. ^cyan;Counts as 'energy' weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超高重力オーブ。 ^cyan;「エネルギー」兵器として数えられるもの^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Gravity Well"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "グラビティウェル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neutron Star Orbs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中性子スターオーブ"
+    }
+  ]
+]

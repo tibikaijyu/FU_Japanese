@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Confectionery perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "菓子の完成度。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sweets!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スイーツ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A bowl of sugary confections. Brushing before and after consumption is highly advised."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 砂糖菓子のボウル。 食前と食後のブラッシングは強くお勧めします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "You can only eat about one of these in a sittin' without feeling sick."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "体調を崩さずに食べられるのは、一つだけ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bon Bons"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "盆盆"
+    }
+  ]
+]

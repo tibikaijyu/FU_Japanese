@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ultimate Flutter Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "究極のフラッタージャンプ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Flutter Jump III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "フラッタージャンプIII"
+    }
+  ]
+]

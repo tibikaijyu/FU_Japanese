@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thickened jelly. It's really tempting to eat it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃厚なゼリー。 食べているのはとても魅力的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチナスブロック"
+    }
+  ]
+]

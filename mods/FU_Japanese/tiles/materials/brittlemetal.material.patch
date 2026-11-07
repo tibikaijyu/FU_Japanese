@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Old weakened metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い弱った金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ready to sssnap."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スナップする準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alarm. This metal makes me uncomfortable."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "アラーム。 この金属は私を不快にさせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brittle Metal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "脆性金属"
+    }
+  ]
+]

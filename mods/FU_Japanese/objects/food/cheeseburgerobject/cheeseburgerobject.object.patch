@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A juicy hamburger, topped with cheese."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チーズをトッピングしたジューシーなハンバーガー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran eatsss theirs double stacked."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは二重積み重ねを食べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relieved. In spite of the name, I cannot detect any signs of pork in this sandwich."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "救われた。 名前にもかかわらず、私はこのサンドイッチに豚肉の兆候を見つけることができません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nothin' beats a juicy burger."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ジューシーなハンバーガーに勝るものはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cheeseburger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チーズバーガー"
+    }
+  ]
+]

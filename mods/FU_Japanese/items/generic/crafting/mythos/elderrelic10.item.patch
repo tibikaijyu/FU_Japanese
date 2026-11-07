@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This stone reads as inorganic, yet bleeds if cut."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この石は無機質のものですが、切断した場合は血を流します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Akashic Stone^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;アラシックストーン^reset;"
+    }
+  ]
+]

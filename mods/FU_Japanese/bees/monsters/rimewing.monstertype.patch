@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rimewing bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熟した蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rimewing Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライムシバチ"
+    }
+  ]
+]

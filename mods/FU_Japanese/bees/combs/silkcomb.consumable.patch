@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This honeycomb is packed full of silk. Not tasty, but still medicinal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハニカムは絹でいっぱいです。 美味しくないが、まだ薬を。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silk Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルクハニカム"
+    }
+  ]
+]

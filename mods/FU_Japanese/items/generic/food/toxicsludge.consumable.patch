@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothin' fancy. Just typical radioactive waste sold as a snack.\n^cyan;+^white;10% ^pink;Radiation ^cyan;Res ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何もおしゃれじゃない。 典型的な放射性廃棄物は、スナックとして販売されています。\n^cyan;+^white;10% ^pink;放射線 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sludgey Blubs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汚いクラブ"
+    }
+  ]
+]

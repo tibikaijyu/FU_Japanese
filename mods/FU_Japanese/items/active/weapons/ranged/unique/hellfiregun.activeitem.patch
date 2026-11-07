@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dangerous weapon in any hand. Watch out for fire.\n^yellow;Inflicts burning^reset;\n^green;Erupting projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どんな手にも危険な武器。 火に気をつけなさい。\n^yellow;焼失する影響^reset;\n^green; 投射物を爆発させる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火砲"
+    }
+  ]
+]

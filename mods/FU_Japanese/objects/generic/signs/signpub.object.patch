@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sign advertising a place to grab a brew and enjoy yourself!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "醸造所を宣伝して、自分を楽しむサイン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pub Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パブサイン"
+    }
+  ]
+]

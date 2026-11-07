@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't recommend petting one of these. Absolutely lethal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私はこれらを片付けることはお勧めしません。 絶対に致命的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Adult Magmatop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "成虫マグマトップ"
+    }
+  ]
+]

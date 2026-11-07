@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+8% Energy Regen, +2 Defense, Immune: Bio-Ooze^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+8%エネルギーレーゲン、+2防御、免疫:バイオオーズ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老シールド"
+    }
+  ]
+]

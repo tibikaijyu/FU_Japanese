@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A rusted door, just about opens."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "錆びたドア、ちょうど約開く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This door is heavy and rusted."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このドアは重く錆びています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door is almost rusted shut."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアはほとんど錆びています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Heavy door is hard to open."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "重いドアは開くのが難しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. Rust makes this door creek."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 さびがこのドアを小川に通す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A rusty old door. Very heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "さびた古いドア。 非常に重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This door was once very secure."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このドアはかつてとても安全だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This might have been secure once, before its hinges rusted."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これは、その蝶番が錆びる前に、一度安全だったかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wrecked Door Prop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戸口の破片"
+    }
+  ]
+]

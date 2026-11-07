@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A horrifying book rests upon the altar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい本が祭壇にかかっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Lectern"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "謎のレクタン"
+    }
+  ]
+]

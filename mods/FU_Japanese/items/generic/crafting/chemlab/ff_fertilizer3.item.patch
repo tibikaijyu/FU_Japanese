@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ultra fertilizer.\n^green;Growth Rate x^white;2 ^gray;& ^green;+^white;3 ^green;produce.\n^cyan;Uses -^white;0.25 ^cyan;fluid use ^gray;& ^cyan;-^white;2 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超肥料。\n^green;成長率x^white;2 ^gray;& ^green;+^white;3 ^green;農産物\n^cyan;用途 -^white;0.25 ^cyan;流体利用 ^gray;& ^cyan;-^white;2 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Superior Fertilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "上等肥料"
+    }
+  ]
+]

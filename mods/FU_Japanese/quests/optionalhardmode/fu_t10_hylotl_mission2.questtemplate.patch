@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Artifact had energy signature, yus. Different. Encoded message. Kevin's. \"There was no Kevin.\" That's...concerning. Well...cookie trail."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "アーティファクトにはエネルギーのサインがある。 違う。 エンコードされたメッセージ。 ケビンの 「ケビンはいなかった」 それは...関係している。 まあ、クッキーの跡。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "Find the ^orange;artifact^reset; in the ^orange;Dark Pagoda Library^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/artifact",
+      "value": "^orange;アーティファクト ^reset; は ^orange; 闇 Pagoda ライブラリ ^reset; で検索します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Kherae^reset; at ^orange;the Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケーレ^reset; で ^orange;えッ? 科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Hero visits the library! Right? Get events out of order sometimes. Kevin probably went there. Go look."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ヒーローが図書館を訪れます! でしょ? 時々イベントを順不同にします。 ケビンはおそらくそこに行った。 見ろよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Darkest Pages, Darkest Knowledge"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "最も暗いページ、最も暗い知識"
+    }
+  ]
+]

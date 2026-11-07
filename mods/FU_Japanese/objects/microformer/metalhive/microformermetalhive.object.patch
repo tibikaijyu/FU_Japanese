@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a steel hive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を鋼の巣に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Hive Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼製ハイブマイクロフォーマ"
+    }
+  ]
+]

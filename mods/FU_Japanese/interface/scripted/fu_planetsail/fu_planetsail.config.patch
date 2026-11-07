@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonCrew/caption",
+      "value": "CREW"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonCrew/caption",
+      "value": "クルー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMain/caption",
+      "value": "BALANCE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMain/caption",
+      "value": "残高"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMisc/caption",
+      "value": "MISC."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMisc/caption",
+      "value": "その他"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMissions/caption",
+      "value": "MISSIONS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMissions/caption",
+      "value": "ミッション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowSubtitle/value",
+      "value": "Ship-based Artificial Intelligence Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowSubtitle/value",
+      "value": "船舶搭載型人工知能システム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipStatus",
+      "value": "Could not connect to S.A.I.L. Please move the S.A.I.L. Interface to your ship to connect to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/shipStatus",
+      "value": "S.A.I.L.に接続できませんでした。S.A.I.L.インターフェースを船に移動してS.A.I.L.に接続してください。"
+    }
+  ]
+]

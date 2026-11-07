@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lightweight sliding door made with hardened aether materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硬化したエーテル素材で作られた軽量のスライドドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Sliding Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルスライドドア"
+    }
+  ]
+]

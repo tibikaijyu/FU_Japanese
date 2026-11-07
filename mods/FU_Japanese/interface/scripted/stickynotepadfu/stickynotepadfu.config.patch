@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/makebutton/caption",
+      "value": "Peel"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/makebutton/caption",
+      "value": "皮"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "Leave yourself a reminder"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "思い出してください"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "Sticky Note Pad"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "スティッキーノートパッド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/writebox/hint",
+      "value": "Write something..."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/writebox/hint",
+      "value": "何か書くこと...。"
+    }
+  ]
+]

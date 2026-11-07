@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Friendly until provoked."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "刺激されるまで友好的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bulbop Vop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "球根投票"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Glitch Protector, mangled beyond any hope of data recovery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データ復旧の希望を超えた、グリッチプロテクター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "Dead Glitch. Too mangled. Can't recover. Feeling mournful!"
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "デッド・グリッチ。 あまりに笑った。 回復できない。 悲しそう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/thelusianDescription",
+      "value": "Hive would not leave bodies like this."
+    },
+    {
+      "op": "replace",
+      "path": "/thelusianDescription",
+      "value": "巣箱はこのような体を残しません。"
+    }
+  ]
+]

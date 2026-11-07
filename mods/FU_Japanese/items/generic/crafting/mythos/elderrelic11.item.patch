@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of power core, or perhaps a battery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パワーコアとか、バッテリーとか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Elder Core^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;エルダーの核^reset;"
+    }
+  ]
+]

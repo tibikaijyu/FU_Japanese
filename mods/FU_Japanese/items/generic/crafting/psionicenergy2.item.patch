@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Infused with additional power.\n^blue;+^white;20 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "追加電源を内蔵。\n^blue;+^white;20 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psi-2 Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイ-2エネルギー"
+    }
+  ]
+]

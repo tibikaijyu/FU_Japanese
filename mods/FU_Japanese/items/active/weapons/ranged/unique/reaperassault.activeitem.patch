@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires super-cold dark matter infused rounds.\n^cyan;Spawns defensive drones^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極寒暗黒物質を発射するラウンド。\n^cyan;防御ドローンを産み出す^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-12 Akasha"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-12 赤社"
+    }
+  ]
+]

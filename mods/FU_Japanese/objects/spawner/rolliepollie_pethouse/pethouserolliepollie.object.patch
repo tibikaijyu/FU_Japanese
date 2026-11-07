@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rock that rollie pollies love to hide under."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ローリーポーリーが隠れるのが大好きな岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rollie Pollie Pet House"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ローリーポリーペットハウス"
+    }
+  ]
+]

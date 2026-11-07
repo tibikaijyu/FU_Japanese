@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a birch forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域をシラカンバの森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Birch Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーチマイクロフォーマ"
+    }
+  ]
+]

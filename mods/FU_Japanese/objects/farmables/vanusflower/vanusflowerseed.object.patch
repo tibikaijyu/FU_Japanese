@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects the user from harm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ユーザーを害から保護します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vanus Flower Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花の種"
+    }
+  ]
+]

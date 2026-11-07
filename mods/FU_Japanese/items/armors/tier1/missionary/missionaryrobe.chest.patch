@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;5^reset;% Speed and Jump\n^yellow;^reset; +^green;5^reset;% Crit Damage^reset;\n^yellow;^reset; Dual Fist/Quarterstaff: Damage x^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;5^reset;% スピードとジャンプ\n^yellow;^reset; +^green;5^reset;% 犯罪被害^reset;\n^yellow;^reset;デュアルフィスト/クォータースタッフ:損傷x^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monk's Robe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "僧のローブ"
+    }
+  ]
+]

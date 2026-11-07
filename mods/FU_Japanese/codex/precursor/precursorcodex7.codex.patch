@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "<Translation: We have reason to believe that ^red;<unknown>^reset; has illegally traded with the Shanti against the wishes of the Hegemony. Unfortunately, since the Shanti are a pre-warp civilization our protocol of non-interference requires us to sterilize the world. This is why you obey the Overlords.>"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "<翻訳: ^red;<unknown>^reset;は、覇権の希望に対してシャンティと違法に取引されていると信じる理由があります。 残念ながら、シャンティ文明は戦前の文明であるため、私たちの非干渉のプロトコルは世界を滅菌する必要があります。 これがあなたが支配者に従う理由です。>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Nkia Tellis"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ニヤ・テリス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Quietus weapons: Damage x^green;1.3^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Burning, Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;クワイエタス兵器:損傷x^green;1.3^reset;\n^yellow;^reset; ^cyan;免疫^reset;火傷、狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ranger Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レンジャーグリーブ"
+    }
+  ]
+]

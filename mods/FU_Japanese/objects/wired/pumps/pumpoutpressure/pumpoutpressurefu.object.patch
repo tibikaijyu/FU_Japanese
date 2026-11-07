@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Blue - connect to Liquid Pump^reset;. Pressurizes released liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;液体ポンプへの青色接続^reset;. 放出液を加圧する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pressurized Mover Pump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "加圧モータポンプ"
+    }
+  ]
+]

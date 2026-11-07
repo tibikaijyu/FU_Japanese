@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Any time you glance at it, you are blinded for a moment."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それを見るたびに、あなたは一瞬盲目になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blinding Envelope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラインドエンベロープ"
+    }
+  ]
+]

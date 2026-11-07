@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A relic of importance to none but a X'i.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シー以外の誰にとっても大切な遺物。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'i Relic"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シーの遺物"
+    }
+  ]
+]

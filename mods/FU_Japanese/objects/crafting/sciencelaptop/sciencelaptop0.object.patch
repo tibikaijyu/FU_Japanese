@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bulky and simple computer which slowly researches items.\n^cyan;Research Rate^reset;: 5%, 10s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゆっくりと研究する、かさばるシンプルなコンピュータ。\n^cyan;研究率^reset;:5%,10s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Basic Computer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンピュータの基本"
+    }
+  ]
+]

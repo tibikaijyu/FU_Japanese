@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A spiky, creepy-assed table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパイキーで不気味なテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老台"
+    }
+  ]
+]

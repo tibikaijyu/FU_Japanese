@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now I can truly ignore gravity and travel in style!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今、私は本当に重力を無視し、スタイルで旅行することができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Thanks to advancements in my research I can upgrade my Physics Field."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私の研究の進歩のおかげで、私は私の物理フィールドをアップグレードすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Breaking Physics II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "物理の破滅II"
+    }
+  ]
+]

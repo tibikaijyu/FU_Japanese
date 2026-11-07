@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cells are protected by some means."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの細胞は何らかの方法で保護されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Natural Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "自然防衛"
+    }
+  ]
+]

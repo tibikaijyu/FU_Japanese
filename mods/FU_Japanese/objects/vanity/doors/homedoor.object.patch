@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nicely made door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すてきに作られたドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "House Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハウスドア"
+    }
+  ]
+]

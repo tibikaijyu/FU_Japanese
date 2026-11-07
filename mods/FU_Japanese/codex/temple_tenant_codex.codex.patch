@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Buildingbuildingbuildingbuildingbuildingbuildingbuildingbuildingbuildingbuildingbuildingbuilding. The voices tell me to build, so I build. If I had ^red;my own workshop with access to an Elder Altar^reset; I could build even greater temples."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ビルビルビルビルビルビルビルビルビルビルビルビル。 声は私に作るように指示するので、私は作る。 もし私が^red;私のワークショップで高齢者祭壇にアクセスできたら^reset;私はさらに大きな寺院を建てることができました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A torn page from a cultist's journal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カルト雑誌のページをめくった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Housing Request"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "住宅請求"
+    }
+  ]
+]

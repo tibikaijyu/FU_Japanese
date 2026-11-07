@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A condensed rod of Deuterium.\n^blue;+^white;2 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重水素の凝縮棒。\n^blue;+^white;2 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deuterium Rod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重水素棒"
+    }
+  ]
+]

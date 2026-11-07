@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stops transmitting signals for an instant whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブになるたびに、瞬時に信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Stopsss transssmitting sssignalsss for an inssstant whenever it becomesss active."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ss がアクティブになるたびに、瞬時に ss シグナルを送信するのを止めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. Stops transmitting signals for an instant whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 アクティブになるたびに、瞬時に信号の送信を停止します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inverted Pulse Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "逆パルス送信器"
+    }
+  ]
+]

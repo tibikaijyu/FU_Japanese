@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A fridge. All the food is frozen."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "冷蔵庫。 すべての食べ物は冷凍されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The food is kept a little too cold."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "その食べ物は少し冷え過ぎている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very cold fridge. It's almost a freezer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に冷たい冷蔵庫。 ほとんど冷凍庫です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cold!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "寒い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. This might be too cold for food."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 これは食べ物には寒すぎるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A fridge."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "冷蔵庫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A food-chilling device that seems to be too cold for its purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "冷やし過ぎているように見える食品冷却装置です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A fridge! It's mighty cold."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "冷蔵庫! とても寒いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Fridge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげん冷蔵庫"
+    }
+  ]
+]

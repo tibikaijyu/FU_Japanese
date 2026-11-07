@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A valuable crystal trophy.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貴重なクリスタルトロフィー。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Trophy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶トロフィー"
+    }
+  ]
+]

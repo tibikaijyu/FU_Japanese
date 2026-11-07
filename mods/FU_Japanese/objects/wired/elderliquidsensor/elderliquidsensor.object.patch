@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't use your finger! This trusty sensor indicates the presence of liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "指を使うな! この信頼できるセンサは液体の存在を示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Don't use your finger! This ssensor indicatesss the presence of liquidss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "指を使うな! 液体の存在を示すセンサです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. This trusty sensor indicates the presence of liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 この信頼できるセンサは液体の存在を示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体センサ"
+    }
+  ]
+]

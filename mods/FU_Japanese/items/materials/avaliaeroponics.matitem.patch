@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Once tilled, these tubes transport a nutrient aerosol for growing plants within."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耕うれば、これらのチューブは植物を育てるための栄養エアロゾルを輸送します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Aeroponic Tubing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;エアロポニックチューブ^reset;"
+    }
+  ]
+]

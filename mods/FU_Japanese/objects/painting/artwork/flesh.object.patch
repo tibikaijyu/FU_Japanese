@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mass of flesh and hate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉と憎しみの塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Titan"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイタン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches a defensive turret. 10s reload."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "防御砲塔を発射する。 10s リロードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentry Gun Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セントリーガンアーム"
+    }
+  ]
+]

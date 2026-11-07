@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive power matrix of ancient design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代デザインの大きなパワーマトリックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Matrix"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体マトリックス"
+    }
+  ]
+]

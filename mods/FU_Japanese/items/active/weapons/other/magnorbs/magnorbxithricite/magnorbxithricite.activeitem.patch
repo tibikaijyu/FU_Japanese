@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Erase them from existence with cosmic power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の力によって存在からそれらを消しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Cosmic Absorbtion"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "宇宙吸収"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Magnorb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙マグノルブ"
+    }
+  ]
+]

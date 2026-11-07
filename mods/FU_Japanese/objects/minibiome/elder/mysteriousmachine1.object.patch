@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The purpose of this machine is unclear. I am most certain, however, that it would result in no good were I to strap myself to it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この機械の目的は不明である。 しかし、私がそれに身を包んでいたら、それは良い結果にならないであろうことは、最も確実です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "謎の機械"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A handy, simple plastic with many uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "使い勝手の良いシンプルなプラスチックです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plastic Polymer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチックポリマー"
+    }
+  ]
+]

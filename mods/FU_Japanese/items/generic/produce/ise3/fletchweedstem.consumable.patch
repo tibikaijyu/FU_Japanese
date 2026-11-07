@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+145 EP^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;エネルギー+145^reset;：1分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fletchweed Stem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑草茎"
+    }
+  ]
+]

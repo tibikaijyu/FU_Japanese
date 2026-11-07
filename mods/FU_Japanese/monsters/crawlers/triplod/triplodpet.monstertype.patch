@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It watches you through its big lens."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなレンズを通してあなたを観察します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Triplod mk1"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三脚1"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some neatly placed cables."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ケーブルをきちんと置いたものもあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Wirrrre."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ウィザード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Excited. Cables!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興奮した。 ケーブル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wall Cables"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壁ケーブル"
+    }
+  ]
+]

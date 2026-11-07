@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some imposing glowy bedding. I am impressed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかの印象的なグローな寝具。 感銘を受けました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Captain's Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身大尉のベッド"
+    }
+  ]
+]

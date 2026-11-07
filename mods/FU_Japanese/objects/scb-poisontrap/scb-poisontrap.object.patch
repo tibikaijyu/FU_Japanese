@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Much drippy, such poison, so wow~ \n^blue;Input 1^white; : Poison Spray. \n^blue;Input 2^white; : Particles.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒が多すぎるからうわー。 \n^blue;入力1^white;:毒スプレー。 \n^blue;入力 2^white;:粒子。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "SCB Poison Emitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "SCB毒エミッタ"
+    }
+  ]
+]

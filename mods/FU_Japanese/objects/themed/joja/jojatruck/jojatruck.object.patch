@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I'm staying on guard. I've learned not to trust groups that use smilies like this."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私は警備に留まる。 私はこのような笑顔を使うグループを信頼しないことを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A very blue truck. It appears to hold cargo."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "非常に青いトラック。 貨物を積んでいるらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delivery truck from a mysterious company... What could it possibly hold?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "謎の会社からの配送トラック...。 何ができるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran would break truck door, but isss already open."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはトラックのドアを壊したが、イシスはすでに開いている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. What on earth is a truck doing all the way out here?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 いったいトラックは一体何をしているのだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Oh hey! The boxes in here are still unopened! Is this a delivery truck?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "おお、おい! ここの箱はまだ開いていません! これは配達用のトラックですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A truck adorned with a company logo that is making me a bit uneasy, for some reason."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "なんらかの理由で、少し不安になる会社のロゴで飾られたトラック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A blue cargo truck. What's it carryin'?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "青い貨物トラック。 何を運ぶの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^blue;Joja^reset; Truck"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^blue;ジョジャ^reset;トラック"
+    }
+  ]
+]

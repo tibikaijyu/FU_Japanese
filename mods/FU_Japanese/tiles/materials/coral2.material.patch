@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicate coral."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいサンゴ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Delicate Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "繊細なサンゴ"
+    }
+  ]
+]

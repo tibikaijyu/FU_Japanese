@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What does it mean? How can it be translated?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どういう意味ですか? どうやって翻訳できますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Voynich Manuscript"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴォイニヒ写本"
+    }
+  ]
+]

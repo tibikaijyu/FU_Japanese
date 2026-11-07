@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny and nice, and keeps out the bugs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢と素晴らしさ、そしてバグを排除します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キロシドア"
+    }
+  ]
+]

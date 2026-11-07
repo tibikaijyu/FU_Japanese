@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The explosive version of this has long since been recalled! (At least.. I think we recalled them.)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この爆発的なバージョンは、長い間リコールされています! (少なくとも・・・思い出したと思う)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Paratail Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パラテールマスク"
+    }
+  ]
+]

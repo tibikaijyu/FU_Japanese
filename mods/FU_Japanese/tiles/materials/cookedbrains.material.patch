@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mmm. Delicious."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そうね。 おいしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooked brains"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "調理脳"
+    }
+  ]
+]

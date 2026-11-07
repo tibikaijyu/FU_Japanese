@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A greatsword made with unusual love and care. I somehow feel safe wielding this."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい愛と気遣いで作った大剣。 何とかしてこれを振り回すと安心です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属製広刃"
+    }
+  ]
+]

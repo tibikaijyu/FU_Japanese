@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Expensive and painful!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高価で苦痛です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンメイス"
+    }
+  ]
+]

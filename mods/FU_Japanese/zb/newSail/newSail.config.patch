@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonCrew/caption",
+      "value": "CREW"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonCrew/caption",
+      "value": "クルー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMain/caption",
+      "value": "BALANCE"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMain/caption",
+      "value": "残高"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMisc/caption",
+      "value": "MISC."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMisc/caption",
+      "value": "その他"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonMissions/caption",
+      "value": "MISSIONS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonMissions/caption",
+      "value": "ミッション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonScreenLeft/caption",
+      "value": "< BACK"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonScreenLeft/caption",
+      "value": "<バック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/buttonScreenRight/caption",
+      "value": " GO! >"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/buttonScreenRight/caption",
+      "value": " 行け!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/root/children/missionList/schema/listTemplate/replayLabel/value",
+      "value": "REPLAYS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/root/children/missionList/schema/listTemplate/replayLabel/value",
+      "value": "再生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/switchMissionMain/caption",
+      "value": "^white;PRIMARY^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/switchMissionMain/caption",
+      "value": "^white;メイン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/switchMissionSecondary/caption",
+      "value": "^white;SECONDARY^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/switchMissionSecondary/caption",
+      "value": "^white;サブ^reset;"
+    }
+  ]
+]

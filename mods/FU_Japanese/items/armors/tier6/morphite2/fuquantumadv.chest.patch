@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Immune^reset;: Extreme Heat/Cold/Radiation, Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;免疫^reset;極限熱・冷・放射線・酸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Morphite Chestpiece MK2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モルフィト胸部ピースMK2"
+    }
+  ]
+]

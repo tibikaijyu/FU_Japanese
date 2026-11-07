@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A useful genetic trick of the X'i."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シーの有用な遺伝トリック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Grapple Vine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの鉤付きツタ"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle/Shortsword: Damage x^green;1.1^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 攻撃ライフル/短剣:損傷x ^green;1.1^reset;"
+    }
+  ]
+]

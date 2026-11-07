@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Once tilled, automatically hydrates soil for growing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耕し終わったら、自動的に土壌を水和して成長させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydroponic Tube"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイドロポニックチューブ"
+    }
+  ]
+]

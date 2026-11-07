@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Vampiradon wing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたヴァンピラドンの翼。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vampiradon Wing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァンピラドンウィング"
+    }
+  ]
+]

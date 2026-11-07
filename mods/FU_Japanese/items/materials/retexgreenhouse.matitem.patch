@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A greenhouse to let the sun through."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽を通す温室。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenhouse Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "温室壁"
+    }
+  ]
+]

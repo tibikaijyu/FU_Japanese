@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Simply placing this in an apiary will work its magic. ^red;Mites hate these things^reset; and will be killed or driven off by them. Keep some handy. That's all I can teach you, it's up to you to experiment and breed the best bees you can! Bee all you can bee!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "単にこれを海賊に配置すると、その魔法が機能します。 ^red;ダニは^reset; 殺されるか 追い出されます 少しは便利にしておけ。 あなたに教えられるのはそれだけです。最高のミツバチを実験し、繁殖させることはあなた次第です! ビーは、あなたがビーすることができますすべてです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "It should be noted that bees have a natural predator: ^green;Mites^reset;. These parasites infest your apiaries from time to time, and reduce their productivity and can even kill the bees. Create an ^orange;Anti-Mite frame^reset; to combat them."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "蜂には自然な捕食者がいます。 ^green;ダニ^reset;. これらの寄生虫は、時々あなたの養蜂場に感染し、生産性を低下させ、蜂を殺すこともできます。 ^orange; Anti-Mite フレーム ^reset; を作成し、それらと戦います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Mites"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ダニ"
+    }
+  ]
+]

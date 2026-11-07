@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A machine that allows distillation of alcohol!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アルコールを蒸留できる機械!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Distillery / Still^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;蒸留所/スティル^reset;"
+    }
+  ]
+]

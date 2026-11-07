@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shim Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シム・ブッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shim Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シム・ブッシュ"
+    }
+  ]
+]

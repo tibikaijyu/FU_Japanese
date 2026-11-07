@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with liquid aether."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体エーテルで満たされたランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Aether Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体エーテル溶岩ランプ"
+    }
+  ]
+]

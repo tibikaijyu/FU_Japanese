@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Daggers: +^green;20^reset;/^green;40^reset;% Crit Damage\n^yellow;^reset; ^cyan;Immune^reset;: Snow, Slush, Ice, Extreme Cold"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 短剣:+^green;20^reset;/^green;40^reset;% 犯罪被害\n^yellow;^reset; ^cyan;免疫^reset;雪、雪、氷、極寒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wolf Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オオカミのレギンス"
+    }
+  ]
+]

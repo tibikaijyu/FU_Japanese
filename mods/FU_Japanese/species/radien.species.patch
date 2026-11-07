@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A race of shy radioactive beings with a disputed origin. This species ^red;is designed around Hunger^reset;. ^red;Challenge is high^reset;.\n\n  ^orange;Diet^reset;: Any, including prepared Isotopes.\n\n^orange;Perks^reset;:\n  Health x^green;1.1^reset;, Energy x^green;1.2^reset;, ^red;Reduced by Hunger^reset;. Defense x^green;1.03^reset;\n  ^green;Resist^reset;: +^green;35^reset;% Radiation, +^green;10^reset;% Poison, +^green;5^reset;% Cosmic, ^green;Up to 2x when Full Belly^reset;. +^green;5^reset;% Mental.\n  Tech: Seed Bulb.\n  ^cyan;Immune^reset;: Radiation Burn\n\n^orange;Environment^reset;:\n  ^green;Radioactive^reset; biomes: Damage x^green;1.15^reset;, +^green;15^reset;% E. Regen, -^green;5^reset;% Hunger Drain\n  ^red;Hot^reset; biomes: Defense x^red;0.85^reset;, +^red;35^reset;% Hunger Drain.\n  ^green;Defense increases over time^reset;\n  ^cyan;Racial Tech is integral to success^reset;.\n  ^green;Passively generate Genes^reset;.\n\n^orange;Weapons^reset;:\n  X'i Weapons: +^green;1.5^reset;% Crit Chance, Defense x^green;1.15^reset;\n\n^red;Weaknesses^reset;:\n  +^red;25^reset;% Hunger drain.\n  ^red;Resist^reset;: -^red;20^reset;% Fire, Ice & Electric, ^red;Up to 1.5x when Hungry^reset;.\n  ^red;CANNOT^reset; use Healing items. Must use racial heals."
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "起源について諸説ある、内気な放射性生命体。^red;空腹の管理を中心に設計された^reset;種族で、^red;難度は高い^reset;。\n\n  ^orange;食性^reset;：調理済みの同位体を含め、何でも食べられる\n\n^orange;特性^reset;：\n  体力 x^green;1.1^reset;、エネルギー x^green;1.2^reset;。^red;空腹で効果が低下^reset;。防御力 x^green;1.03^reset;\n  ^green;耐性^reset;：放射線 +^green;35^reset;%、毒 +^green;10^reset;%、宇宙 +^green;5^reset;%、^green;満腹なら最大2x^reset;。精神 +^green;5^reset;%\n  テック：シードバルブ\n  ^cyan;無効^reset;：放射線やけど\n\n^orange;環境^reset;：\n  ^green;放射線^reset;環境：ダメージ x^green;1.15^reset;、エネルギー再生 +^green;15^reset;%、満腹度の消費 -^green;5^reset;%\n  ^red;高温^reset;の環境：防御力 x^red;0.85^reset;、満腹度の消費 +^red;35^reset;%\n  ^green;時間とともに防御力が上昇^reset;\n  ^cyan;種族専用テックの活用が生存の鍵^reset;\n  ^green;遺伝子を自動生成^reset;\n\n^orange;武器^reset;：\n  ザイ武器：クリティカル率 +^green;1.5^reset;%、防御力 x^green;1.15^reset;\n\n^red;弱点^reset;：\n  満腹度の消費 +^red;25^reset;%\n  ^red;耐性^reset;：炎・氷・電気 -^red;20^reset;%、^red;空腹なら最大1.5x^reset;\n  回復アイテムは^red;使用不可^reset;。種族専用の回復手段が必要。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Feather Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "羽毛の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Crest"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "とさか"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Core Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "核の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Markings"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "模様"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A race of shy radioactive beings with a disputed origin. This species ^red;is designed around Hunger^reset;. ^red;Challenge is high^reset;.\r\n\r\n  ^orange;Diet^reset;: Any, including prepared Isotopes.\r\n\r\n^orange;Perks^reset;:\r\n  Health x^green;1.1^reset;, Energy x^green;1.2^reset;, ^red;Reduced by Hunger^reset;. Defense x^green;1.03^reset;\r\n  ^green;Resist^reset;: +^green;35^reset;% Radiation, +^green;10^reset;% Poison, +^green;5^reset;% Cosmic, ^green;Up to 2x when Full Belly^reset;. +^green;5^reset;% Mental.\r\n  Tech: Seed Bulb.\r\n  ^cyan;Immune^reset;: Radiation Burn\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Radioactive^reset; biomes: Damage x^green;1.15^reset;, +^green;15^reset;% E. Regen, -^green;5^reset;% Hunger Drain\r\n  ^red;Hot^reset; biomes: Defense x^red;0.85^reset;, +^red;35^reset;% Hunger Drain.\r\n  ^green;Defense increases over time^reset;\r\n  ^cyan;Racial Tech is integral to success^reset;.\r\n  ^green;Passively generate Genes^reset;.\r\n\r\n^orange;Weapons^reset;:\r\n  X'i Weapons: +^green;1.5^reset;% Crit Chance, Defense x^green;1.15^reset;\r\n\r\n^red;Weaknesses^reset;:\r\n  +^red;25^reset;% Hunger drain.\r\n  ^red;Resist^reset;: -^red;20^reset;% Fire, Ice & Electric, ^red;Up to 1.5x when Hungry^reset;.\r\n  ^red;CANNOT^reset; use Healing items. Must use racial heals."
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "起源について諸説ある、内気な放射性生命体。^red;空腹の管理を中心に設計された^reset;種族で、^red;難度は高い^reset;。\n\n  ^orange;食性^reset;：調理済みの同位体を含め、何でも食べられる\n\n^orange;特性^reset;：\n  体力 x^green;1.1^reset;、エネルギー x^green;1.2^reset;。^red;空腹で効果が低下^reset;。防御力 x^green;1.03^reset;\n  ^green;耐性^reset;：放射線 +^green;35^reset;%、毒 +^green;10^reset;%、宇宙 +^green;5^reset;%、^green;満腹なら最大2x^reset;。精神 +^green;5^reset;%\n  テック：シードバルブ\n  ^cyan;無効^reset;：放射線やけど\n\n^orange;環境^reset;：\n  ^green;放射線^reset;環境：ダメージ x^green;1.15^reset;、エネルギー再生 +^green;15^reset;%、満腹度の消費 -^green;5^reset;%\n  ^red;高温^reset;の環境：防御力 x^red;0.85^reset;、満腹度の消費 +^red;35^reset;%\n  ^green;時間とともに防御力が上昇^reset;\n  ^cyan;種族専用テックの活用が生存の鍵^reset;\n  ^green;遺伝子を自動生成^reset;\n\n^orange;武器^reset;：\n  ザイ武器：クリティカル率 +^green;1.5^reset;%、防御力 x^green;1.15^reset;\n\n^red;弱点^reset;：\n  満腹度の消費 +^red;25^reset;%\n  ^red;耐性^reset;：炎・氷・電気 -^red;20^reset;%、^red;空腹なら最大1.5x^reset;\n  回復アイテムは^red;使用不可^reset;。種族専用の回復手段が必要。"
+    }
+  ]
+]

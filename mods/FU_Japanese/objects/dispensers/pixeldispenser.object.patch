@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This pod dispenses currency."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このポッドは通貨を消費します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Free loot. Nice."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "自由略奪。 いいね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pixel dispensing pod."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピクセルディスペンシングポッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Machine ssspit loot at Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランでマシンスピットルート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wonder. A machine that gives treasures for free!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不思議です 宝物を無料で配る機械!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This is like a gashapon machine, but useful!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これはガスハポンマシンのようなものですが、便利です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A pod that supplies basic materials."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "基礎材料を供給するポッドです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pixel Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピクセルポッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small handgun that fires streams of energy at distant targets with pinpoint accuracy, it's only as accurate as the one wielding it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遠くのターゲットにエネルギーの流れをピンポイントの精度で発射する小さな拳銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Beam Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCビームピストル"
+    }
+  ]
+]

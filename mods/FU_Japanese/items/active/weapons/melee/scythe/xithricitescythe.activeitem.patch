@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The wisdom of the cosmos, ready for butchering things."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の知恵は、物事を肉食する準備ができています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙科学"
+    }
+  ]
+]

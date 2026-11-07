@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You won't get far without one of these doing its work on the higher-strength metals you are bound to find. Always have it ready to go. It will never let you down!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それらのいずれかが、あなたが見つけることができる高強度の金属でその仕事をしなければ、あなたは遠く行くことはありません。 いつでも行く準備をしなさい。 それは決してあなたを失望させません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "To process advanced ores, you'll need a ^orange;Fission Furnace^reset;. It can melt down even the strongest metals. But you've got some work to do to get one! Why not start by making some ^orange;Protocite Bars^reset; in a lesser furnace."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "高度な鉱石を処理するには、^orange;フィッション炉^reset; が必要です。 最強の金属までも溶かします。 しかし、それを得るためにはいくつかの仕事があります! ^orange; プロトサイト インゴット ^reset;を少ない炉で作ってみませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "He who smelt it..."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "あれをかき混ぜる者は...。"
+    }
+  ]
+]

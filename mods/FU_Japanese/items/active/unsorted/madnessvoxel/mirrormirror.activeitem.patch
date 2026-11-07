@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reflects only things you hate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "嫌なことだけを振り返る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mirror of Vision"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミラーオブビジョン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires a spread that's lethal at close range."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近距離で致命的な広がりを発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンショットガン"
+    }
+  ]
+]

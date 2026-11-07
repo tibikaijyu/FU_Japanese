@@ -1,0 +1,179 @@
+{
+  "guide_ids": [
+    "ffguide",
+    "ffguide2",
+    "ffguide3",
+    "ffguide4",
+    "ffguide5",
+    "ffguide6",
+    "ffguidebattle",
+    "ffguidepower",
+    "networkguide",
+    "networkguide2"
+  ],
+  "guide_count": 10,
+  "guide_display_fields": 62,
+  "core_guide_source_chars": 11705,
+  "core_guide_translation_chars": 7149,
+  "core_guide_newline_count": 183,
+  "manual_field_overrides": 34,
+  "additional_crlf_guard_groups": 16,
+  "assets": [
+    {
+      "asset": "codex/documents/ffguide.codex.patch",
+      "baseline_sha256": "05e4b58454fad2891e3a2ab2ce1ceaf69f2cab860b5ade25e9b3902d5884fb33",
+      "sha256": "e1b31853867bf6a6ed58782de48277f2e484f140896938a5b29fcd9d60c32553"
+    },
+    {
+      "asset": "codex/documents/ffguide2.codex.patch",
+      "baseline_sha256": "a24198b48f8bffb76e68a0dbd24a5c57d9ca8285def18a89409bab5c8b704762",
+      "sha256": "c771b161d3cfbfe8849213c29c71a75061b9142b7c77909ef08ba4237cb2052a"
+    },
+    {
+      "asset": "codex/documents/ffguide3.codex.patch",
+      "baseline_sha256": "3002af2f37312a903ef9ce078a28194f80d5eabbc5966d7dceceee47f3349e07",
+      "sha256": "b625a31d78569cb30a1081bd05e81041945fc230fc08b7efa18c7cdf8e9f6c52"
+    },
+    {
+      "asset": "codex/documents/ffguide4.codex.patch",
+      "baseline_sha256": "214a207fbcac8ff36b18178acefdc304ffebfd01e1dc873ceb8873ffd69c3b6d",
+      "sha256": "da2c8fa1ae05965b25d487fe62ea23673d7ff577049ec6f3ce9bf9e04ec0a3da"
+    },
+    {
+      "asset": "codex/documents/ffguide5.codex.patch",
+      "baseline_sha256": "63d3f5141c43448078bdaa7d3767ed32a0e10453fbe8c9e7b4a90345e29db311",
+      "sha256": "2106ab51f20831aed1d06ca9ef9e2f0547b7edac43761b88c9bf0d5603ab51e5"
+    },
+    {
+      "asset": "codex/documents/ffguide6.codex.patch",
+      "baseline_sha256": "5d887692064096eedcec4c390e23a3b8c24ddc95016a0647cc66c0617519b8a5",
+      "sha256": "ed11d0cc1dd5dc2123f2473323b67d09433857b28ff51ffe913163b7a3507095"
+    },
+    {
+      "asset": "codex/documents/ffguidebattle.codex.patch",
+      "baseline_sha256": "ec5fc89a6f1340e249e3881c9192f6719469edb3a78f35b7a82aa7d7d8546dfb",
+      "sha256": "2aa33f7540237c7b9129f117c3c400d25c2823b866b7b97f5385de35524fc6ac"
+    },
+    {
+      "asset": "codex/documents/ffguidepower.codex.patch",
+      "baseline_sha256": "fef257814b2c6aeb5f4c7b443a2b2ec325fc67874835cce1bb0125def58f999d",
+      "sha256": "5f54226791ada484e37d6d85385aef124b4c318efc1e7add6e2eaf53f0394323"
+    },
+    {
+      "asset": "codex/documents/networkguide.codex.patch",
+      "baseline_sha256": "65ec0b591bfc0ad00a5403eae878288a9106b98fd9df5b05102aab3ca998ef4d",
+      "sha256": "35f84b4ccea4bb740627c6be5a8d38a8fb61e79d0de8ef1d35b40ccca683996f"
+    },
+    {
+      "asset": "codex/documents/networkguide2.codex.patch",
+      "baseline_sha256": "e6fc6a21a7a546fa7d18e70cf41cb105e656966e1fd993c7410748adf325979a",
+      "sha256": "5974ef38f8e3a1cd19d33bb639f3852181c70b068d99f5d0ad3027015fbeb99b"
+    },
+    {
+      "asset": "fujp/guide_display.config",
+      "baseline_sha256": null,
+      "sha256": "2cadc2240d3b9f5a3621f82bf1c7c3bbd4a353aabd2862a2e468ed0adc8ee5fa"
+    },
+    {
+      "asset": "fujp/guide_display.lua",
+      "baseline_sha256": null,
+      "sha256": "10e055338117fb4c08b5fd6ebc589f4a30f9af4a55ed3a9ce8a432243847fa62"
+    },
+    {
+      "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+      "baseline_sha256": "74212e376c3348c1b29648eee0c6b29312648b1eddb7a356f351603ef4833eb4",
+      "sha256": "7b0976d09beac0865e9dbc20bf6470b0e583398d8f80b60a4b8ed46b207cd26e"
+    },
+    {
+      "asset": "interface/scripted/xcustomcodex/xcodexui.config.patch",
+      "baseline_sha256": "58ff171ba288d87060020c22f702297e61349719f4741c239da6c79da249ea5e",
+      "sha256": "5b5aa28279defefb96241924ea23eedb90842223d233b9de76185248b3491ebf"
+    }
+  ],
+  "lua_display_hook_changes": [
+    {
+      "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+      "before": "rawCodexData = root.assetJson(codexInfo[2] .. codexInfo[1] .. \".codex\")",
+      "after": "rawCodexData = fuJapaneseGuide.localize(root.assetJson(codexInfo[2] .. codexInfo[1] .. \".codex\"))",
+      "occurrences": 2
+    }
+  ],
+  "lua_import_contract": "Starbound require returns nil. The helper exports global fuJapaneseGuideDisplay, which the viewer aliases after require.",
+  "upstream_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+  "stable_658_commit": "329e714b3fe87571055c8ad7aa38135d199d3317",
+  "provenance": [
+    {
+      "asset": "codex/documents/ffguide.codex",
+      "upstream_sha256": "83284811f27b701ab25060a41140af52e36c4ac2e3ab19bb28349bfee1793fdf",
+      "stable_658_sha256": "83284811f27b701ab25060a41140af52e36c4ac2e3ab19bb28349bfee1793fdf",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguide2.codex",
+      "upstream_sha256": "118ab7abf3c2e8bbdea142a360db6a95e170d50f5cfadd0a29fe425525cfd237",
+      "stable_658_sha256": "118ab7abf3c2e8bbdea142a360db6a95e170d50f5cfadd0a29fe425525cfd237",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguide3.codex",
+      "upstream_sha256": "889a180aca88d8a7faa97d03844e92b7e9454ca89b95ba683a248a0b08a0c518",
+      "stable_658_sha256": "889a180aca88d8a7faa97d03844e92b7e9454ca89b95ba683a248a0b08a0c518",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguide4.codex",
+      "upstream_sha256": "4b1b614034764102227ea7a6db6451d2a61caf4d016efa87f956f8894f57e310",
+      "stable_658_sha256": "4b1b614034764102227ea7a6db6451d2a61caf4d016efa87f956f8894f57e310",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguide5.codex",
+      "upstream_sha256": "b1da8b38581119fd44d5227a49afe9566fb5275cf3416d3a6f26bd68d0b9090a",
+      "stable_658_sha256": "b1da8b38581119fd44d5227a49afe9566fb5275cf3416d3a6f26bd68d0b9090a",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 172
+    },
+    {
+      "asset": "codex/documents/ffguide6.codex",
+      "upstream_sha256": "2e8fdafe9bdbe0cc6351bd9ca1a9b1288e89d33cfca09a7bc690f20cbc6c17b1",
+      "stable_658_sha256": "2e8fdafe9bdbe0cc6351bd9ca1a9b1288e89d33cfca09a7bc690f20cbc6c17b1",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguidebattle.codex",
+      "upstream_sha256": "ba796c81c0243b2124e41d22cd99e80e5fe379148a393306ca27f9fb45dd7bd4",
+      "stable_658_sha256": "ba796c81c0243b2124e41d22cd99e80e5fe379148a393306ca27f9fb45dd7bd4",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/ffguidepower.codex",
+      "upstream_sha256": "7c519bb59797470fcbdc082bec5d8f888efbcbbb9a4daf2c72bfa32beff3abfd",
+      "stable_658_sha256": "7c519bb59797470fcbdc082bec5d8f888efbcbbb9a4daf2c72bfa32beff3abfd",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/networkguide.codex",
+      "upstream_sha256": "5c481abdb4eb33b7fc019ca61278349521df7b458d5c30a5f2b3b9fcfdc006b7",
+      "stable_658_sha256": "5c481abdb4eb33b7fc019ca61278349521df7b458d5c30a5f2b3b9fcfdc006b7",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    },
+    {
+      "asset": "codex/documents/networkguide2.codex",
+      "upstream_sha256": "f7ee2de9f3db6019b2fa98a551f1141308926f8279e390cd22dbf2306802504c",
+      "stable_658_sha256": "f7ee2de9f3db6019b2fa98a551f1141308926f8279e390cd22dbf2306802504c",
+      "identical_between_tag_658_and_pinned_head": true,
+      "physical_crlf_lines": 0
+    }
+  ],
+  "runtime_tested": false,
+  "cause_status": "Original guide translations and UI labels already existed; user PAK bytes are unavailable. Exact cause of the reported English display is not established. These changes cover formatting-only source differences at JSON and GUI display boundaries.",
+  "scope": "Only known guide IDs and title/description/contentPages/longContentPages. Unknown text and Japanese already supplied by another patch are retained."
+}

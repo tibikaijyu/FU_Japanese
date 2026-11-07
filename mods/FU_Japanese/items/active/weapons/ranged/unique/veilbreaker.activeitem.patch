@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Gravity Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "重力爆弾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutal and efficient weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残酷で効率的な武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Veilbreaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベールブレーカー"
+    }
+  ]
+]

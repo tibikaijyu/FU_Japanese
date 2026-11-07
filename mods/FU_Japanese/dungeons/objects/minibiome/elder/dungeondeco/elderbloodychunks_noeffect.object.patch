@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Meaty, bone-strewn gore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉厚で骨が張った穴。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloody Chunks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれのチャンク"
+    }
+  ]
+]

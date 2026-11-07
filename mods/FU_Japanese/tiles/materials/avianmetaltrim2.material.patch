@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Metal Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴィアンメタルトリム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal trim using Avian technology."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアン技術を使用したメタルトリム。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High tech golden panels."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイテクゴールデンパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Golden Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシ黄金パネル"
+    }
+  ]
+]

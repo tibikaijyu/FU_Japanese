@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blocker Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブロッカーブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Enormous knockback potential."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなノックバックの可能性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jessica"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジェシカ"
+    }
+  ]
+]

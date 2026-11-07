@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This implant allows you to ignore the laws of physics in motion."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このインプラントは、運動中の物理法則を無視することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Physics Field II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;物理場II^reset;"
+    }
+  ]
+]

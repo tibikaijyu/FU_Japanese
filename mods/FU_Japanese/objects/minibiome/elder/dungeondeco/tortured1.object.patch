@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I'm feeling sick to my stomach..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "お腹が痛い...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Very dead scientist"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死んだ科学者"
+    }
+  ]
+]

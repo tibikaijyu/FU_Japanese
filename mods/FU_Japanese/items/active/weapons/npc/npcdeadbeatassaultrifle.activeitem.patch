@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rusty military grade rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "さびた軍用ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Deadbeat Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC デッドビート攻撃ライフル"
+    }
+  ]
+]

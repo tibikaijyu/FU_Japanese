@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High-tech composite material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイテク複合材料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek Composite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テクコンポジット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Look stylish at dinner parties. -^green;10^reset;% Energy Block time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ディナーパーティーでおしゃれに見える。 -^green;10^reset;%エネルギーブロック時間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elite Dress"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリートドレス"
+    }
+  ]
+]

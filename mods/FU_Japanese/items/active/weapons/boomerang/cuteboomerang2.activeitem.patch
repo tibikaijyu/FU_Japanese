@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sailor Kelp's main weapon is a boomerang, you know."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "セーラー・ケルプの主力武器はブーメランだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Clingy Girlfriend"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリンギーガールフレンド"
+    }
+  ]
+]

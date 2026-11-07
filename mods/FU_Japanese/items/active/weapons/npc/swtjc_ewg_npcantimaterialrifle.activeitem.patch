@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-powered rifle that sacrifices rate-of-fire for enough firepower to cut through armor like a hot knife through butter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砲撃率を犠牲にして、バターを貫通するホットナイフのような装甲を切り抜けるための高出力ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Anti-Materiel Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC抗材料ライフル"
+    }
+  ]
+]

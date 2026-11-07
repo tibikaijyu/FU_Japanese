@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal 20^reset;: 2s \n^green;Type: Nut^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal20^reset;:2s \n^green; タイプ: なし ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tearnut"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "耳鳴り"
+    }
+  ]
+]

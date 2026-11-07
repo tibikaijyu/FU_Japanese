@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just in case you want your table to lick your food."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テーブルに食べ物をなめるようにしたい場合に備えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tongue Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "言語表"
+    }
+  ]
+]

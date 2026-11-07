@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of disturbing statue, carved in bone and flesh by who-knows-what."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨と肉体で刻まれた何らかの邪魔な像 - 何を知っている - 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュモニュメント"
+    }
+  ]
+]

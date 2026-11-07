@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bulb Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "球根花"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bulb Root"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "球根"
+    }
+  ]
+]

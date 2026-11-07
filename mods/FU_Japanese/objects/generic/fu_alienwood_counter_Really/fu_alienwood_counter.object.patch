@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An alienwood counter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイリアンの木製のカウンター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Wood Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンウッドカウンター"
+    }
+  ]
+]

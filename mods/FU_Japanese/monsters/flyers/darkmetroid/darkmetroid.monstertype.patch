@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nasty, nasty beast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汚い、不快な獣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral 'Troid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "半影のトロイド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rapid fire ice rocket launcher.\n^cyan;Slows enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロケット発射機。\n^cyan;スローな敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Rocketlauncher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツェルチウムロケット発射装置"
+    }
+  ]
+]

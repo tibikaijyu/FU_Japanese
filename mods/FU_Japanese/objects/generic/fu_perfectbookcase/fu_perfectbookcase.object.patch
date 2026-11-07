@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect bookcase full of books."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本でいっぱいの完璧な本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧な本棚"
+    }
+  ]
+]

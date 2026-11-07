@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kablooie. These cells explode with purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カブロア。 これらの細胞は目的を持って爆発する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reactive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "反応性"
+    }
+  ]
+]

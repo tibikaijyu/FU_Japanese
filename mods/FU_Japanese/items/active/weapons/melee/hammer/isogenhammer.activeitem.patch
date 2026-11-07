@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Clearly a tool of friendship and tolerance.\n^cyan;Inflicts Freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明らかに友情と寛容のツール。\n^cyan;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Sledge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげんそり"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Is this a real creature? How can it even fly?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは本物の生き物ですか? どうやって飛べるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skeletal Bird"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケルタルバード"
+    }
+  ]
+]

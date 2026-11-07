@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Using some fancy ancient tech I think I can produce a Quad-Jump tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "古風な技術を使って、Quad-ジャンプの技術を作れます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've come up with a way to double a double-jump tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "二段ジャンプを、さらに二倍にする方法を思いついたんだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Jump Harness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ジャンプハーネス"
+    }
+  ]
+]

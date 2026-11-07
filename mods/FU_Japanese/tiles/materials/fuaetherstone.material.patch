@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid stone made of hardened aether."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硬化したエーテルでできた固い石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル石"
+    }
+  ]
+]

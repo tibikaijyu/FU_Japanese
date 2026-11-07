@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A structural beam made of tethyde alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テチド合金製の構造梁です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Smooth Tethyde Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "滑らかテチドビーム"
+    }
+  ]
+]

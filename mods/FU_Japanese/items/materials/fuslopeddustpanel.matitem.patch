@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy hull panels made from compressed aether material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧縮エーテル素材による頑丈な船体パネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compressed Dust Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "圧縮ダストパネル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Woven for consumption. \n^red;+Slow^reset; (60s) \n^green;Type: Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "消費のために織った。 \n^red;+Slow^reset;(60s) \n^green;型:砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spider Cotton"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモ綿"
+    }
+  ]
+]

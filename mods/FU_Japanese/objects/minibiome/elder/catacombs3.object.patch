@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The edges are...amazingly precise. And looking closer...tiny glyphs adorn the surface."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エッジは...驚くほど正確です。 そして、近くを見る...小さなグリフが表面を飾る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

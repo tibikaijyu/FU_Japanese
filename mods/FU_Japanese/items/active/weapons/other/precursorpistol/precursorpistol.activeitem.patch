@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Projects ^orange;Regen Zones^reset; that:\n^green;Provide Defense. Convert Energy to Health.^reset;\n^red;Reduce Energy and Shield Regen.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プロジェクト ^orange; 再生 Zones ^reset; 以下。\n^green;防御を提供します。 エネルギーを健康へ。^reset;\n^red;エネルギーとシールドの再生を低減します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Protector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体プロテクター"
+    }
+  ]
+]

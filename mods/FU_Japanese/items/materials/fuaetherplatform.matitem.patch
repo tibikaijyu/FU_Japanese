@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cosmic platforms made from hardened aether stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硬化エーテル石から作られた宇宙プラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルプラットフォーム"
+    }
+  ]
+]

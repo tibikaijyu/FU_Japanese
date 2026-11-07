@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cluster of dark leaves and hydrangea flowers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗い葉とヒドラゲアの花の束。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran lovess flowery plantss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "花は花が大好きな植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Delighted. These leaves smell of earth and flowers."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 これらの葉は土や花の匂いがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "There's some real nice flowers growin' here."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ここには素晴らしい花が生えています"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydrangea Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイドランガ・ブッシュ"
+    }
+  ]
+]

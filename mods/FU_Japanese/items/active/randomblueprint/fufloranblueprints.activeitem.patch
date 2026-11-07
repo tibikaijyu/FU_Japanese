@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for sturdy Floran armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なフロラン装甲の青写真。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floran Schematics (Health)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フローラン・シェマティクス(健康)"
+    }
+  ]
+]

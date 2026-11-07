@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your Sphere ^green;[F]^reset; can drop bombs with ^red;[Fire]^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これで、球体 ^green;[F] ^reset;は^red;[炎] ^reset;で爆弾を落とすことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Distortion Sphere II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "歪球II"
+    }
+  ]
+]

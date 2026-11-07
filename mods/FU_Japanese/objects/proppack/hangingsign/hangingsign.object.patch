@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A directory. It seems people get lost around here quite a bit."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ディレクトリ。 ここら辺で迷子になる人が多いようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Much simpler than asking around for directions."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "道順を尋ねるよりもずっと簡単です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Useful for giving directions over large crowds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大勢の人に指示を与えるのに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssign doesn't say anything interessting."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ササインは何もおもしろいことを言っていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Frustrated. This directory is only serving to make my route more confusing."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "イライラ。 このディレクトリは、ルートをより混乱させるのに役立つだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Y'know, for something supposed to help me find my way around, this sign sure is hard to understand."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "そうね、僕が道を見つけるのに役に立つはずの何かのために、このサインは確かに理解するのが難しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This sign has multiple different routes. I'm not sure where I should head to find what I need."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この標識には複数の異なるルートがあります。 必要なものを見つけるのにどこへ行くべきかわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can find my own way, thanks."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ありがとう、私は自分の道を見つけることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hanging Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "吊り看板"
+    }
+  ]
+]

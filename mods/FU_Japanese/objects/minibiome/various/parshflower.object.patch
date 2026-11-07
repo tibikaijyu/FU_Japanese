@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Parsh Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パーシュフラワー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Parsh Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーシュフラワー"
+    }
+  ]
+]

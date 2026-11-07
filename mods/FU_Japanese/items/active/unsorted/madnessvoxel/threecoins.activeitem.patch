@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "No matter how much you try, they cannot be spent."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくらやってみても、彼らは費やすことができない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Three Coins"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三コイン"
+    }
+  ]
+]

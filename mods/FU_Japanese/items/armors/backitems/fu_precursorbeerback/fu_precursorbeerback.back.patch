@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates an infinite amount of beer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "無限のビールを生産します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Beer Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビール前駆体"
+    }
+  ]
+]

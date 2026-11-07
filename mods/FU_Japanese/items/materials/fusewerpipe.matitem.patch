@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sewer pipe used for transporting waste."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "廃棄物輸送用の下水道管です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmelly sssewer pipesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "汚い下水道パイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disgusted. This pipe is filthy, I would hate to see what is inside it."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 このパイプは汚いので、中に何が入っているか見たくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Filthy, dirty lookin' sewer pipes."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "汚く汚い下水道。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Sewer Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜下水道管"
+    }
+  ]
+]

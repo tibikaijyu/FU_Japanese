@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The bottom of a Snowapex."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スノーアペックスの底。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Snowbottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アペックススノーボトム"
+    }
+  ]
+]

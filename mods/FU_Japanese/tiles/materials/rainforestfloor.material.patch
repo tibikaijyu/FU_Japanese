@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft, pliable rainforest floor"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかで柔軟な熱帯雨林の床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rainforest Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "熱帯雨林"
+    }
+  ]
+]

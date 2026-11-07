@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Swim Boost 2^reset;\n^yellow;^reset; Ocean/Tidewater: +^green;4^reset;% Crit Chance, Damage x^green;1.15^reset;, +^green;5^reset;% Speed\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Poisoned, Bio-Ooze, Gas, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;水泳ブースト 2^reset;\n^yellow;^reset;海洋/潮水:+^green;4^reset;%危機の機会、損害x^green;1.15^reset;、+^green;5^reset;%速度。\n^yellow;^reset; ^cyan;免疫^reset;酸、毒、バイオオーズ、ガス、酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kraken Cuirass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラケン・キュイラス"
+    }
+  ]
+]

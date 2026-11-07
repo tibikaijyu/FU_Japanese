@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grows out of your back when you need it most. ^green;+1 Gene production^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も必要なときに背中から成長します。 ^green;+1遺伝子生産^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Lantern Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンのランタン球根"
+    }
+  ]
+]

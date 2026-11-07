@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What greater joy than cooking flesh?\n^yellow;Inflicts burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉を調理するよりも大きな喜びは何ですか?\n^yellow;焼失する影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Incinerator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼却炉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "What greater joy than cooking flesh?\n^yellow;Inflicts burning^reset;\n^cyan;Dual-flames and increased range^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "肉を調理するよりも大きな喜びは何ですか?\n^yellow;焼失する影響^reset;\n^cyan;二重炎と増加範囲^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Burninator^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;焼却炉^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "What greater joy than cooking flesh?\n^yellow;Inflicts burning^reset;\n^cyan;Dual-flames and increased range^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "肉を調理するよりも大きな喜びは何ですか?\n^yellow;焼失する影響^reset;\n^cyan;二重炎と増加範囲^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Roastmaster^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;ローストマスター^reset; ^yellow;^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Happy little flowers of pink hue"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンクの色の幸せな小さな花。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pink Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピンクフラワー"
+    }
+  ]
+]

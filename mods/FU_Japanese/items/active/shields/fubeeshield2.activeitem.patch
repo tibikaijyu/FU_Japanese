@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+15% Energy Regen, Immune: Black Tar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+15%エネルギー再生、免疫:ブラックタール^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバーシールド"
+    }
+  ]
+]

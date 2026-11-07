@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.1% HP Regen, +20% Energy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.1%体力再生, +20%エネルギー ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aqua Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクアシールド"
+    }
+  ]
+]

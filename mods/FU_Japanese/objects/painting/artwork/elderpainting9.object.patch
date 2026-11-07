@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A red, barren and deadly expanse that exudes a feeling of menace."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険の感覚を喚起する赤、不毛、致命的な拡大。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellscape"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄景"
+    }
+  ]
+]

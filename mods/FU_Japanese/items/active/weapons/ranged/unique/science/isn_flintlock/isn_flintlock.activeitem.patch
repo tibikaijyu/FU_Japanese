@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Astounding stopping power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "驚異的な停電。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fellshot Revolver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェルショット・リボルバー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Revolver...evolved.\n^cyan;+1 projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "リボルバー...進化した。\n^cyan;+1Projectile^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Deadeye^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;死眼^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Open many large holes in your foes.\n^cyan;+2 projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "敵に多くの大きな穴を開けなさい。\n^cyan;+2Projectile^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Equalizer^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;等化器^reset; ^yellow;^reset;"
+    }
+  ]
+]

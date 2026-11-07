@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Genetic material comes from many things, not just meat. Remember that if it is alive and full of cells, it just might give you some."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "遺伝物質は、肉以外の多くの物からも取れる。生き物で、細胞がたくさん含まれていれば、手に入るかもしれないと覚えておこう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Genetic Material^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;遺伝物質^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^green;Meat^reset; is both delicious and useful. Extract some ^green;meat^reset; and bring me 5 of the results."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;肉^reset;はおいしい上に役立つ。^green;肉^reset;を抽出して、得られた物を5個持ってきてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Extractor V"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出機 V"
+    }
+  ]
+]

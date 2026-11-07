@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dodge a further distance. Keeps momentum. Allows jumping mid-dodge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "もっと遠くをダッジします。 勢いを保て。 ドッジの途中でジャンプすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Dodge III^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;ダッジIII^reset;"
+    }
+  ]
+]

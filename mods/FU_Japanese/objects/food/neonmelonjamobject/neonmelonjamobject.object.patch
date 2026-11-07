@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tangy jam made from neonmelons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ネオンメロン製のタンギージャム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Could Floran use ssshiny jam as a light instead fiery torch?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは火のついたトーチではなく、光のようなジャムを光として使うことができるだろうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. I'm not sure I want to be eating something radiating light."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 光を放つものを食べたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A jam almost as bright as me!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私とほぼ同じくらい明るいジャム!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neonmelon Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネオンメロン・ジャム"
+    }
+  ]
+]

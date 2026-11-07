@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bludgeon with style."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイルでブルジョン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ・メイス"
+    }
+  ]
+]

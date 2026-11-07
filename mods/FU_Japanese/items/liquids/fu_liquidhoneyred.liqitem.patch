@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sickeningly sweet honey that contains nearly-microscopic meat and flesh particles in great abundance.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉や肉の粒子を豊富に含む、ほのかな甘い蜂蜜。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crimson Honey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリムゾンハニー"
+    }
+  ]
+]

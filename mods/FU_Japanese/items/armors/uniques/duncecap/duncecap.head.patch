@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderful hat for idiots."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "愚か者のための素晴らしい帽子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dunce Cap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダンスキャップ"
+    }
+  ]
+]

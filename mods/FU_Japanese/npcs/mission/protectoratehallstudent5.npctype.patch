@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I hear that Huxven II and Omicron Theta III have both gone dark."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "ハクスヴェン IIもオミクロン・シータ IIIも、消息を絶ったそうだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "My homeworld was wiped out by the unknown enemy. I want vengeance."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "私の故郷は未知なる敵に滅ぼされた。 復唱をしたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "Without a military strike in response to the attacks, the Protectorate will look weak."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "攻撃に対する軍事攻撃がなければ、保護国は弱いように見えます。"
+    }
+  ]
+]

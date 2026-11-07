@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "For the glory of Shogun Kigai!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "将軍木外の栄光を!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "I will slay you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "殺してやる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "A thousand blows shall rain upon you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "千回も雨が降ってくるぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "Banzai!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "バンザイ!"
+    }
+  ]
+]

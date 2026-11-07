@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stellar Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "星蜂"
+    }
+  ]
+]

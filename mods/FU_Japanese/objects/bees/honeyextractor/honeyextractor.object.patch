@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slowly turns ^green;combs and bottles^reset; into ^orange;honey^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゆっくり ^green; とボトル ^reset; を ^orange; の蜂蜜 ^reset; に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ抽出器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Fill bottles with awesome honey."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "素晴らしい蜂蜜でボトルをいっぱいにします。"
+    }
+  ]
+]

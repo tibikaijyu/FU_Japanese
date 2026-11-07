@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Needle-free, for your safety."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの安全のために、針なし。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trictus Cap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トライクタスキャップ"
+    }
+  ]
+]

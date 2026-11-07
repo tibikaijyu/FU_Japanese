@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bee with a hunger for the living."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生活に飢えているミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Morbid Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒツジハチ"
+    }
+  ]
+]

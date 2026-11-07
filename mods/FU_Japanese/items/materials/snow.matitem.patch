@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft and fluffy snow.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかくてふわふわの雪。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

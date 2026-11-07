@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ooey-gooey caramel!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オイ - グーイキャラメル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caramel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャラメル"
+    }
+  ]
+]

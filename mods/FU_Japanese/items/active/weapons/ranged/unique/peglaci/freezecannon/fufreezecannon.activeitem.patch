@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Freeze Ball Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ボールブラストを凍結する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cloud-laying ice weapon.\n^yellow;Blasts cause targets to slip^reset;\n^cyan;Alt-fire freezes enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲を張った氷の武器。\n^yellow;爆風で目標が滑る^reset;\n^cyan;アルトファイアは敵を凍らせる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coldsnap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コールドスナップ"
+    }
+  ]
+]

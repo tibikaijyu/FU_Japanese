@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improved dodge. Allows jumping mid-dodge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "改良されたダッジ。 ドッジの途中でジャンプすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Dodge III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "回避 III"
+    }
+  ]
+]

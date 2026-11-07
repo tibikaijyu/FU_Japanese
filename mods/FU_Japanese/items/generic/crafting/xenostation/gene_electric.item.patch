@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Capable of generating electric charge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電荷発生可能。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electrogenic"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エレクトロジェニック"
+    }
+  ]
+]

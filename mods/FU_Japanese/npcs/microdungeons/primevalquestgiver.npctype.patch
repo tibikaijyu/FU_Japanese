@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/apex/0",
+      "value": "It makes me happy to see another Apex who has escaped the brutality of the Miniknog."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/apex/0",
+      "value": "ミニノッグの残忍さから逃れた別のアペックスを見て、私は幸せになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "I grew weary of watching my Apex brothers and sisters  being tormented at the hands of the Miniknog, so I left."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "エイペックスの兄弟姉妹がミニノグの手に苦しんでいるのを見て、私は疲れてから出発しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I grew weary of watching my Apex brothers and sisters being tormented at the hands of the Miniknog, so I left."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "エイペックスの兄弟姉妹がミニノグの手に苦しんでいるのを見て、私は疲れてから出発しました。"
+    }
+  ]
+]

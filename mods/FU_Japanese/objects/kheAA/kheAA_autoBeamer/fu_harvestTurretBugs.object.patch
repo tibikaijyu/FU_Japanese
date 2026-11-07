@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A specialized turret designed to grab bugs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "虫をつかむための特殊なタレット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bug Harvester Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バグハーベスタータレット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Automatic Harvesting"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "自動収穫"
+    }
+  ]
+]

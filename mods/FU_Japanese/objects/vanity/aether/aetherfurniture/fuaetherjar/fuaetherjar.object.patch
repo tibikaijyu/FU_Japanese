@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small pretty jar made of pure dreams."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な夢で作られた小さなかわいい瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルジャー"
+    }
+  ]
+]

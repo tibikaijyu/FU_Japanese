@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;5^reset;% Healing Strength\n^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;10^reset;% Speed\n^yellow;^reset; +^green;5^reset;% Life Leech\n^yellow;^reset; Dagger/Whip/Striker: +^green;4^reset;% Crit Chance, +^green;5^reset;% Life Leech"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;5^reset;% 癒しの強さ\n^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;10^reset;% 速さ\n^yellow;^reset; +^green;5^reset;% ライフリーチ\n^yellow;^reset;短剣/ムチ/ストライカー:+^green;4^reset;%クリティカル率, +^green;5^reset;%Life 吸収"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sanguine Vest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンギン・ベスト"
+    }
+  ]
+]

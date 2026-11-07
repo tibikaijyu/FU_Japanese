@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Radiation Shield I"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "放射線シールドI"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that repels common varieties of radiation. Does not stop radiation burn.\n^cyan;Immune: Moderate Radiation^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一般的な種類の放射線を忌避するEPPモジュール。 放射線の燃焼を止めません。\n^cyan;免疫:中程度の放射線^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radiation Shield I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射線シールドI"
+    }
+  ]
+]

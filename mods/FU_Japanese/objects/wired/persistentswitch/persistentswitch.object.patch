@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When the top or bottom nodes are active, the switch turns /'on'/ or /'off'/ respectively."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上部ノードまたは下部ノードがアクティブになっている場合、スイッチはそれぞれ /'on' / または /'off' / をオンにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "When the top or bottom nodesss are active, the ssswitch turnsss /'on'/ or /'off'/ ressspectively."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "上部ノードまたは下部ノードがアクティブであれば、スイッチ は /'on'/ または /'off'/ をそれぞれ ress に切り替えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. When the top or bottom nodes are active, the switch turns /'on'/ or /'off'/ respectively."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 上部ノードまたは下部ノードがアクティブになっている場合、スイッチはそれぞれ /'on' / または /'off' / をオンにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Persistent Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "永続スイッチ"
+    }
+  ]
+]

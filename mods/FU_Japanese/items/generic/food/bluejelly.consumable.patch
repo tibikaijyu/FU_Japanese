@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gelatin flavored with Hylotl blood.\n^cyan;+^white;10% ^pink;Poison ^cyan;Res^gray;, ^pink;Poisoned ^cyan;Immunity ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゼラチンにヒロットルの血を風味付け。\n^cyan;+^white;10% ^pink;毒 ^cyan;レズ^gray;, ^pink;毒 ^cyan;免疫 ^gray;(^white;2え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bluelotl Jelly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーロートルゼリー"
+    }
+  ]
+]

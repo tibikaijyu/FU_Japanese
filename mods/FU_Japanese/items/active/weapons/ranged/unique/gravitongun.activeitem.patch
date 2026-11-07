@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Micro-gravity turned into a weapon.\n^yellow;Wave-burst primary^reset;\nAlt: ^green;Big knockback, Major Vulnerability^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "微小重力を兵器にしたもの。\n^yellow;通常攻撃：波動の連射^reset;\n副攻撃：^green;大きく吹き飛ばし、被ダメージを大幅に増加させる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graviton Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラビトンガン"
+    }
+  ]
+]

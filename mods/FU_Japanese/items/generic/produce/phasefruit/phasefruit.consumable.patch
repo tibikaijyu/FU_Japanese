@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Has it just melted my teeth?!\n^yellow;^reset;^cyan;+20% Run^reset;: 40s\n^yellow;^reset;^red;Burning^reset;: 10s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "歯が溶けちゃったの?\n^yellow;^reset;^cyan;+20% 走り^reset;: 40ス)\n^yellow;^reset;^red;バーニング^reset;:10s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phasefruit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェーズフルーツ"
+    }
+  ]
+]

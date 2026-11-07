@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid and unyielding tile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固くて耐え難いタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Floor Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金床タイル"
+    }
+  ]
+]

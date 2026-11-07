@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "It is strange to build a temple so far into the water away from the sky, but it must be done. Filtering the seawater of this planet is the only expedient way to acquire the necessary resources for the project."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "空から遠く離れた水に今までに寺院を建てるのは奇妙ですが、それは行わなければなりません。 この惑星の海水を濾過することは、プロジェクトに必要な資源を取得するための唯一の簡単な方法です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The necessity might be there, but the damp and salt make maintenance a chore. There's always something to replace or repair. That's not to mention the seawater weakening the mortar of the walls."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "必要なのはそこかもしれませんが、湿気と塩はメンテナンスを面倒にします。 交換や修理には常に何かがあります。 壁の迫力を弱める海水は言うまでもありません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "It would be a shame to let this place fall into disrepair when we're done here, but the upkeep is simply too much for it to be justified."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "ここが終わったら、この場所が荒廃してしまうのは残念ですが、その維持管理は正当化するには多すぎるだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These pages are crumbling away from age."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのページは歳をとらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Hydro Center) Maintenance Log"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(ハイドロセンター)メンテナンスログ"
+    }
+  ]
+]

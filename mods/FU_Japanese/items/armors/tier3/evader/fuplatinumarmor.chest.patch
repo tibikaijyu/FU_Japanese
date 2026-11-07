@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;25^reset;% Shield Regen, Stamina, Block\n^yellow;^reset; Shield and Sword: +^green;8^reset;% Phys. Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;25^reset;% シールドレーゲン、スタミナ、ブロック\n^yellow;^reset; 盾と剣+^green;8^reset;% フィス。 レジスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Evader Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エベダー・チェストピース"
+    }
+  ]
+]

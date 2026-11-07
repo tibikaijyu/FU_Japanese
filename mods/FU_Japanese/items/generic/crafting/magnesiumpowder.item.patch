@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Magnesium ^gray;Mg2+^reset; ions in a lab-ready, powdery form!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグネシウム^gray;Mg2+^reset;イオンをラボ対応で粉末状に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magnesium Powder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグネシウム粉末"
+    }
+  ]
+]

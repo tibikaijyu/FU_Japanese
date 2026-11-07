@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hellishly powerful beam cannon.\n^yellow;Will decimate anything it hits.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に強力なビーム砲。\n^yellow; ヒットするものを全て割り出します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Atom Smasher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原子破砕機"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "The second-most powerful beam cannon in existence.\n^yellow;Improved decimation ratio.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "現存する二番目に強力なビームキャノン。\n^yellow; デシメーション率を改善。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Dominus Smasher"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "ドミナス・スマスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "The most powerful beam cannon in existence.\n^yellow;Why kill mortals when you can kill Gods?^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "現存する最も強力なビームキャノン。\n^yellow; あなたが神を殺すことができるとき、なぜ人を殺すのですか?^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Deus Smasher"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "デウス・スマッシャー"
+    }
+  ]
+]

@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "Hello! My name is Svetlana Twofeather. I'm The Observer's main character, so to speak."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "こんにちは! 私はスヴェトラーナ Twofeatherです。 私は、いわばオブザーバーの主人公です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "He usually hides me in places that're way hard to find! I don't appear in all dungeons, but I am in this one!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "彼は通常、見つけるのが難しい場所で私を隠します! 私はすべてのダンジョンに現れませんが、私はこの中にいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "That you managed to find me shows your dedication towards finding all the little secrets he's hidden in his work, and I commend you for taking the time to search every nook and cranny of his dungeons!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "あなたが私を見つけることができたことは、彼が彼の仕事で隠しているすべての小さな秘密を見つけるためのあなたの献身を示し、私は彼のダンジョンのすべてのノックとクラニーを検索するために時間を取ったことをお勧めします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "Bonus points if you didn't open up the mod and cheat...but I know not too many people do that, right? It's much more fun to explore like this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "ボーナスは、あなたがmodとチートを開かなかった場合、ポイント...しかし、私はあまり多くの人がそれをしていないことを知っていますよね? このように探索するのはずっと楽しいことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "Take a moment to rest up before you continue with your adventure! I have some supplies you might find handy, and thank you for playing Extra Dungeons again!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "冒険を続ける前に、少し休んでください! 私はあなたが便利を見つけるかもしれないいくつかの物資を持っていて、余分なダンジョンを再びプレイしていただきありがとうございます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "Oh hey, you managed to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "おお、君はなんとか私を見つけたんだ!"
+    }
+  ]
+]

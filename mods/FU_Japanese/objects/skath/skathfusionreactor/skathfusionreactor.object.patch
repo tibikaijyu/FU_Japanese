@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It might explode and kill me, but cheap power is cheap power."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "爆発して殺されるかもしれませんが、安い力は安い力です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Building this may have been a bad idea."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これを造ることは悪い考えだったかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates ^orange;35-600w^reset; power from hydrogen isotopes. Each slot outputs independently. ^Red;Needs coolant.^reset; ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水素同位体から^orange;35-600w^reset;を生成。 各スロットは独立して出力される。 ^Red;クーラントが必要です。^reset; ^blue;左入力^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "What iss 'coolant'?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クーラントとは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uneasy. I am not immune to radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不安です 私は放射線に免疫がありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'm sure nothing will go wrong."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "きっと何もうまくいかないだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Clean, if dangerous, power."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "危険であれば、きれいに、力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now this is some good clean livin'!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "今、これは良いきれいな生活です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Large Fusion Reactor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;大型核融合炉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/skathDescription",
+      "value": "A fusion reactor, for powering whole cities. Its power output is fantastic."
+    },
+    {
+      "op": "replace",
+      "path": "/skathDescription",
+      "value": "都市全体を動力源とする核融合炉。 その出力は素晴らしいです。"
+    }
+  ]
+]

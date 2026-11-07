@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A material shielded against electromagnetic waves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電磁波に対してシールドされる材料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electromagnetic Shielding"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電磁シールド"
+    }
+  ]
+]

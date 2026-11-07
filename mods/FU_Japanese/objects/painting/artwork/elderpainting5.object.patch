@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gargantuan, bizarre elder creature whirls in the astral chaos it creates"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大で奇怪な長老の生き物が、星座の混迷の中を渦巻く"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Azatoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "字(あざ)"
+    }
+  ]
+]

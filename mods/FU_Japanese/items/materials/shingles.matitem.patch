@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy wooden shingles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な木製の帯状。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssshingles are ssstrong."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "帯状骨は強いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. Some basic shingles for roofing."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 屋根のためのいくつかの基本的な帯状骨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some mighty sturdy roof shingles."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "頑丈な屋根の帯状骨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Shingles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製シングル"
+    }
+  ]
+]

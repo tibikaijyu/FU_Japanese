@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place Pod in any slot."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2; 任意のスロットにポッドを置きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scanButton/caption",
+      "value": "Repair Image"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scanButton/caption",
+      "value": "補修画像"
+    }
+  ]
+]

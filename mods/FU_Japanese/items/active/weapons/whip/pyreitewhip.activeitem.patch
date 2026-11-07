@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There is no whip hotter than this. Take that as you will.\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これより熱くなることはない。 それを君と同じように取りなさい。\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトホイップ"
+    }
+  ]
+]

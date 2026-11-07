@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a hellish hive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を地獄の巣に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hell-Hive Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄に隠れたマイクロフォーマー"
+    }
+  ]
+]

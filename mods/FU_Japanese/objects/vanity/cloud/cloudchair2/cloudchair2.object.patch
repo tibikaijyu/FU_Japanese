@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chair made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られた椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドチェア"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bricks made from smooth marble."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかな大理石から作られたレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Marble bricksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "大理石のレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Fine marble bricks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 大理石のレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Marble Bricks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大理石れんが"
+    }
+  ]
+]

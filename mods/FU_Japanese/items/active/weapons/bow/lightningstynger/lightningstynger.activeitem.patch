@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Send out bolts like a lightning storm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雷雨のようなボルトを送り出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lightning Stynger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "稲妻"
+    }
+  ]
+]

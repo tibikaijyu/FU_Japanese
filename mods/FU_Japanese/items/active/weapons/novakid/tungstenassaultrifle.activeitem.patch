@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fully-automatic tungsten-cased rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全自動のタングステンケースライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステン攻撃ライフル"
+    }
+  ]
+]

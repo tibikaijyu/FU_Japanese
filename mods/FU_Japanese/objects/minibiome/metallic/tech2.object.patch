@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "While its purpose remains largely unknown, it appears to be some form of massive storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その目的はほとんど知られていないが、何らかの形態の大容量ストレージである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Sub-Space Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体サブスペースストレージ"
+    }
+  ]
+]

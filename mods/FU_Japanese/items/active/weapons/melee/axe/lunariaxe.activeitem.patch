@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jagged edge. Endless fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ギザギザのエッジ。 エンドレス楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Hatchet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリハチェット"
+    }
+  ]
+]

@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;Dmg +^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;威力 +^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^orange;Crit %^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^orange;会心率 %^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "Damage Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "Energy Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/energyPerShotTitleLabel/value",
+      "value": "消費EN:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speedTitleLabel/value",
+      "value": "Rate of Fire:"
+    },
+    {
+      "op": "replace",
+      "path": "/speedTitleLabel/value",
+      "value": "連射速度:"
+    }
+  ]
+]

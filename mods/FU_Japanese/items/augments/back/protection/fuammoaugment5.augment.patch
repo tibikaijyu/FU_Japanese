@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Ammo Belt V"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "弾薬ベルト V"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases weapon ammo by +10."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器弾薬を +10 で増やします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ammo Belt V"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "弾薬ベルト V"
+    }
+  ]
+]

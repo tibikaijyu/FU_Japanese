@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its composition is truly repulsive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その組成は本当に反発的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Excremental Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "臨時職員"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "The Poopmaster^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "うんちの達人^yellow;^reset;"
+    }
+  ]
+]

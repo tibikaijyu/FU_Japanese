@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Microsphere ^green;[F]^reset;! Fits in tiny holes!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マイクロスフィア ^green;[F] ^reset;! 小さな穴にフィット!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Micro Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "マイクロスフィア"
+    }
+  ]
+]

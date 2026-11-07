@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy iron. Deadly edge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な鉄。 致命的なエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cruel Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルエルアクセサリ"
+    }
+  ]
+]

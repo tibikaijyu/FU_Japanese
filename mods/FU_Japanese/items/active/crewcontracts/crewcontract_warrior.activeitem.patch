@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an inexperienced warrior to fight alongside you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたと一緒に戦うために経験の浅い戦士を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warrior Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦士契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny knight animated by sorcery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魔術でアニメーションされた小さな騎士。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toy Knight"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トイナイト"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cream-filled moon cake. ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリームで満たされたムーンケーキ。 ^orange;タイプ: 穀物+乳製品+卵+砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chocolate Yum Yum"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョコレート・ユム・ユム"
+    }
+  ]
+]

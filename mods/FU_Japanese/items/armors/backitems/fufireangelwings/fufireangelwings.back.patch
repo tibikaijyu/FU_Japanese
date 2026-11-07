@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rise like the phoenix. +30% Fire Resist, +15 Health/Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フェニックスのように昇ります。 +30%消火抵抗、+15健康/エネルギー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burning Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "燃焼翼"
+    }
+  ]
+]

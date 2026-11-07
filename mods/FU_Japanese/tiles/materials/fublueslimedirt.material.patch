@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew. Slimy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え? スリミー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Healing Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムを癒す"
+    }
+  ]
+]

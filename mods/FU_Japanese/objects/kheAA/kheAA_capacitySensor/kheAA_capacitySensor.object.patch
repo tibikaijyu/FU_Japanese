@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Outputs whether a container's slots are partially or fully filled. Place near object placement point. Scan for more info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンテナのスロットが部分的か完全かのどちらかを出力します。 オブジェクト配置ポイントの近くに配置します。 詳細についてはスキャンしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scanDescription",
+      "value": "^red;Output1:^reset; Partial Fill ^red;Output2:^reset; Complete Fill"
+    },
+    {
+      "op": "replace",
+      "path": "/scanDescription",
+      "value": "^red;出力1：^reset;一部充填 ^red;出力2：^reset;満杯"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capacity Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "容量センサ"
+    }
+  ]
+]

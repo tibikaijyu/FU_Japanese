@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I'm absolutely positive these bear no semblance to any recorded language."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は、これらがどの記録言語にも似ていないことを絶対に肯定的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代彫刻"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A waste of brain cells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "脳細胞の無駄。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inferior Brain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "下脳"
+    }
+  ]
+]

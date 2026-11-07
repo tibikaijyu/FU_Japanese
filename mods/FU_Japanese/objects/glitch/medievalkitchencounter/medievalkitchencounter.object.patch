@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's recommended when chopping currentcorn to wear insulated gloves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶縁手袋を着用するために現在のトウモロコシを刻むときにお勧めです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Medieval Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;中世キッチンカウンター^reset;"
+    }
+  ]
+]

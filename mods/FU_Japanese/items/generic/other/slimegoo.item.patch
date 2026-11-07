@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gloppy, runny and rather gross looking slime goo."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グロッピー、ランニー、やや粗雑なスライムグー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グー"
+    }
+  ]
+]

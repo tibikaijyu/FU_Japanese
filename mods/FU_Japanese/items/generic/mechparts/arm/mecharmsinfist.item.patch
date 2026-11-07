@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harder, better, faster, stronger!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より強く、より良く、より速く、より強く!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fist Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "拳砲"
+    }
+  ]
+]

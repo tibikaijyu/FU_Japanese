@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dark as night."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夜のように暗い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Midnight Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "真夜中のシャツ"
+    }
+  ]
+]

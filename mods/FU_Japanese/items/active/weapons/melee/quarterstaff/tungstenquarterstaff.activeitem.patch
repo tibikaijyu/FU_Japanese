@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This quarterstaff is perfect for enemies just out of reach."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このクォータースタッフは、手の届かない敵に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンクォータースタッフ"
+    }
+  ]
+]

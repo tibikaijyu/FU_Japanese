@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge-scale hunting laser."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大ハンティングレーザー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Laser Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レーザーメカアーム"
+    }
+  ]
+]

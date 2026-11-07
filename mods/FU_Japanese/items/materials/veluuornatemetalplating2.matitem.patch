@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A golden pillar made using a crystal alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルアロイを使用した金色の柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Ornate Golden Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラルーシの華やかな黄金の柱"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Handy for storing your farm goods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "農産物の保管に便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Farm Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "農木箱"
+    }
+  ]
+]

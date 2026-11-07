@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutal salvo of energy blasts.\n^cyan;Counts as Rocket or Energy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギー爆発の残酷なサルボ。\n^cyan;ロケットかエネルギーか^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orbital Strike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オービタルストライク"
+    }
+  ]
+]

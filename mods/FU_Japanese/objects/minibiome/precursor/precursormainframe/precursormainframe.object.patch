@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly amazing, ancient computer. Can devise the perfect cup of coffee.\n^cyan;Research Rate^reset;: 6% (1.2%), 0.5s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に素晴らしい、古代のコンピュータ。 完璧なコーヒーを考案することができます。\n^cyan;研究率 ^reset;:6%(1.2%)、0.5s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Precursor Mainframe^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;先駆者のメインフレーム^reset;"
+    }
+  ]
+]

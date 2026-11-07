@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Regeneration II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "再生II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that slowly regenerates living cells, providing ^green;0.74^reset;% HP/s."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;0.74^reset;%HP/sを提供し、ゆっくり生細胞を再生するEPPモジュール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Regeneration II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "再生II"
+    }
+  ]
+]

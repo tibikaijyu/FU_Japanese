@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You should drink this.\n^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こいつを飲んだ方がいいよ。\n^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神秘的なジュース"
+    }
+  ]
+]

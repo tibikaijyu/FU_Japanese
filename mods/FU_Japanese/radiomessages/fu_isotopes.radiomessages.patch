@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/pickupAntiNeutronium/text",
+      "value": "^red;WARNING!!!^reset;: This element is extremely dangerous and should, under no circumstances, be used to make an explosive paired with Neutronium."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupAntiNeutronium/text",
+      "value": "^red;警告！！！^reset; この物質は極めて危険です。いかなる場合も、ニュートロニウムと組み合わせて爆発物を作ってはいけません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupDeuterium/text",
+      "value": "Deuterium is relatively common, but difficult to extract. It is also necessary for unstable particles which are *extremely* useful in the lab."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupDeuterium/text",
+      "value": "重水素は比較的ありふれていますが、抽出は困難です。研究室で極めて役立つ不安定粒子の製造にも必要となります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupEnrichedplutonium/text",
+      "value": "Much more viable as a fuel and resource than its unrefined self. Enriched Plutonium can help you reach the stars."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupEnrichedplutonium/text",
+      "value": "濃縮プルトニウムは、未精製のものより燃料や資源としてはるかに有用です。星々への旅に役立つでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupEnricheduranium/text",
+      "value": "Enriched uranium finds itself a unique niche: armor piercing ability when applied to metallic rounds."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupEnricheduranium/text",
+      "value": "濃縮ウランには独特の用途があります。金属製の弾丸に使うと、装甲を貫く力を与えられるのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupNeptunium/text",
+      "value": "Slightly more radioactive than uranium, and also a much more useful source of fuel, Neptunium will be your friend when you need it."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupNeptunium/text",
+      "value": "ネプツニウムはウランよりやや放射能が強く、燃料としてもはるかに有用です。必要なときに頼りになるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupNeutronium/text",
+      "value": "This was supposed to be a ^yellow;hypothetical^reset; element. You've gone ahead and created it. I heavily (and I cannot stress this enough) recommend against being careless with this."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupNeutronium/text",
+      "value": "これは^yellow;仮説上の^reset;物質だったはずですが、あなたは作り出してしまいました。くれぐれも、何度でも念を押しますが、不用意に扱わないことを強く勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupThorium/text",
+      "value": "Relatively rare, but exceptionally useful, Thorium will provide a boost to your survival and ability to travel the stars."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupThorium/text",
+      "value": "トリウムは比較的希少ですが、非常に有用です。生存能力を高め、星々を旅する力にもなるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupTritium/text",
+      "value": "Tritium is produced by fission reaction, and is a viable means to obtain helium-3 as well, via extraction in a laboratory."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupTritium/text",
+      "value": "トリチウムは核分裂反応によって生成されます。研究室で抽出すれば、ヘリウム3を得るための有用な原料にもなります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupUltronium/text",
+      "value": "Who knows how this is even possible, but you have created a whole new type of radiation. Let us call it: Ultronium. Check out that fuel capability!"
+    },
+    {
+      "op": "replace",
+      "path": "/pickupUltronium/text",
+      "value": "どうして可能なのかは分かりませんが、あなたはまったく新しい種類の放射性物質を作り出しました。ウルトロニウムと名付けましょう。驚くべき燃料性能です！"
+    }
+  ]
+]

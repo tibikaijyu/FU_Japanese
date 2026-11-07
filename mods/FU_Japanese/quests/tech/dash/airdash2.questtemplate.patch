@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I think this technology will help me to enhance my ^orange;Air Dash^reset; tech! With this new ^orange;Advanced Dash^reset; I should see significant improvements!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この技術があれば、^orange;空中ダッシュ^reset;のテックを強化できそうだ！ 新しい^orange;高性能ダッシュ^reset;で、性能が大きく向上するはず！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I think this technology will help me to enhance my ^orange;Air Dash^reset; tech! With this new ^orange;Advanced Dash^reset; I should see significant improvements!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この技術があれば、^orange;空中ダッシュ^reset;のテックを強化できそうだ！ 新しい^orange;高性能ダッシュ^reset;で、性能が大きく向上するはず！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Enhancing Inferior Tech"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "劣った技術を強化する"
+    }
+  ]
+]

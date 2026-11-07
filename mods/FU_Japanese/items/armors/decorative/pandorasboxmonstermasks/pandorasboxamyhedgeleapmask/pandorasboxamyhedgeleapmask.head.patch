@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just as clingy as the real thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のものと同じくらいこっそり!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amy Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイミー・ヘッジリープのマスク"
+    }
+  ]
+]

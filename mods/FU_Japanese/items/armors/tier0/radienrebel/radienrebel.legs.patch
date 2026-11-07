@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A skirt belonging to X'i war rebels. ^reset;+5%^reset; to Mental Protection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シー戦争反逆者のスカート。 ^reset;+5%^reset;メンタルプロテクションへ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'i Tailored Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シーテーラースカート"
+    }
+  ]
+]

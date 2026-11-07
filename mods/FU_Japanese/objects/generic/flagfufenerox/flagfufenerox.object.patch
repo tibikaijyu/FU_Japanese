@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flag used to identify the Fenerox uplifted by the Kirhosi. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キリョーシ族が持ち上げたフェネロックスを識別した旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェナロックス旗"
+    }
+  ]
+]

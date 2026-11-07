@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient panelling of unknown origin\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "起源不明の古代パネル\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Floor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体床"
+    }
+  ]
+]

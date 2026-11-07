@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Fire Nova when hit^reset;\n^yellow;^reset; ^#ac522b;Glow^reset;\n^yellow;^reset; Flamethrower/Hellfire: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Extreme Heat, Burning"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;ヒット時の火災ノバ^reset;\n^yellow;^reset; ^#ac522b;輝き^reset;\n^yellow;^reset; 火炎放射器 / 地獄火:損傷 x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;極熱燃焼"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄の火の胸"
+    }
+  ]
+]

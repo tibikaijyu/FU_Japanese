@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impossible. Weaponized honey.\nNormal Strikes deal ^red;Physical Damage^reset; and inflict ^red;Bee Stings^reset; and ^orange;Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不可能です ハチミツを武器に。\n通常のストライクは、^red;物理的な損傷^reset;とインフリクト^red;ビーストリング^reset;と^orange;バーニング^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Honey Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンハニーブレード"
+    }
+  ]
+]

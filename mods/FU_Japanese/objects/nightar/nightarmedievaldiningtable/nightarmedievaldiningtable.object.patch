@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fancy feasting table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "豪華な宴会用のテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Royal Dining Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロイヤルダイニングテーブル"
+    }
+  ]
+]

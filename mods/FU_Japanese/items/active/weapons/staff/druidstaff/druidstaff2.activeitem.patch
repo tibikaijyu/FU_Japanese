@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fashioned from bones and petrified wood.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨と石化木材からファッショナブル。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nature's Wrath"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "自然の怒り"
+    }
+  ]
+]

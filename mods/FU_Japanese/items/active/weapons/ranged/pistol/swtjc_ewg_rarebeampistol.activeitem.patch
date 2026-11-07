@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small handgun that fires streams of energy at distant targets with pinpoint accuracy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遠くのターゲットにエネルギーの流れをピンポイントの精度で発射する小型ハンドガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Beam Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レアビームピストル"
+    }
+  ]
+]

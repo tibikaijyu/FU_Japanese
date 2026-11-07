@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the most intelligent of birds. It can be found in a rainforest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鳥の最も知的な一つ。 熱帯雨林に生息する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amazon Parrot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アマゾンインコ"
+    }
+  ]
+]

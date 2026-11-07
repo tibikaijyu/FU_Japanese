@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Florans are known throughout the universe to be aggressive hunters. They still partially sustain themselves on sunlight, regenerating in direct light. Lack of sunlight slowly starves them.\n\n  ^orange;Diet^reset;: Carnivore\n\n^orange;Perks^reset;:\n  Health x^green;1.15^reset;\n  ^green;Resist^reset;: +^cyan;20^reset;% Mental, Poison, +^cyan;15^reset;% Electric\n  ^green;Regenerate^reset; during day. If Health+Food are full, +^green;E. Regen^reset;\n\n^orange;Environment^reset;:\n  In ^green;forest-like^reset; biomes: Energy x^green;1.15^reset;\n  In ^red;barren, corrosive and frozen^reset; biomes: Defense x^red;0.8^reset;\n\n^orange;Weapons^reset;:\n  Bow Mastery +^green;20^reset;%\n  Spear Mastery +^green;15^reset;%. Chance for Poison Strike.\n  Needler/Floran Weapons/Thrown: +^green;2^reset;% Crit\n\n^red;Weaknesses^reset;:\n  ^red;At night^reset;: Health x^red;0.9^reset; and Energy x^red;0.8^reset;, increased Hunger drain\n  ^red;Resist^reset;: -^red;30^reset;% Fire, -^red;5^reset;% Shadow"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "フローランは、攻撃的な狩人として宇宙中に知られている。今も栄養の一部を日光から得ており、光を直接浴びると体力が再生する。日光がないと徐々に飢えていく。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  体力 x^green;1.15^reset;\n  ^green;耐性^reset;：精神・毒 +^cyan;20^reset;%、電気 +^cyan;15^reset;%\n  日中は体力が^green;再生^reset;する。体力・満腹度が最大なら、^green;エネルギー再生^reset;も向上。\n\n^orange;環境^reset;：\n  ^green;森林系^reset;の環境：エネルギー x^green;1.15^reset;\n  ^red;不毛・腐食・極寒^reset;の環境：防御力 x^red;0.8^reset;\n\n^orange;武器^reset;：\n  弓の熟練度 +^green;20^reset;%\n  槍の熟練度 +^green;15^reset;%。確率で毒攻撃が発生。\n  ニードラー／フローラン武器／投擲武器：クリティカル率 +^green;2^reset;%\n\n^red;弱点^reset;：\n  ^red;夜間^reset;：体力 x^red;0.9^reset;、エネルギー x^red;0.8^reset;、満腹度の消費が増加\n  ^red;耐性^reset;：炎 -^red;30^reset;%、影 -^red;5^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Florans are known throughout the universe to be aggressive hunters. They still partially sustain themselves on sunlight, regenerating in direct light. Lack of sunlight slowly starves them.\r\n\r\n  ^orange;Diet^reset;: Carnivore\r\n\r\n^orange;Perks^reset;:\r\n  Health x^green;1.15^reset;\r\n  ^green;Resist^reset;: +^cyan;20^reset;% Mental, Poison, +^cyan;15^reset;% Electric\r\n  ^green;Regenerate^reset; during day. If Health+Food are full, +^green;E. Regen^reset;\r\n\r\n^orange;Environment^reset;:\r\n  In ^green;forest-like^reset; biomes: Energy x^green;1.15^reset;\r\n  In ^red;barren, corrosive and frozen^reset; biomes: Defense x^red;0.8^reset;\r\n\r\n^orange;Weapons^reset;:\r\n  Bow Mastery +^green;20^reset;%\r\n  Spear Mastery +^green;15^reset;%. Chance for Poison Strike.\r\n  Needler/Floran Weapons/Thrown: +^green;2^reset;% Crit\r\n\r\n^red;Weaknesses^reset;:\r\n  ^red;At night^reset;: Health x^red;0.9^reset; and Energy x^red;0.8^reset;, increased Hunger drain\r\n  ^red;Resist^reset;: -^red;30^reset;% Fire, -^red;5^reset;% Shadow"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "フローランは、攻撃的な狩人として宇宙中に知られている。今も栄養の一部を日光から得ており、光を直接浴びると体力が再生する。日光がないと徐々に飢えていく。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  体力 x^green;1.15^reset;\n  ^green;耐性^reset;：精神・毒 +^cyan;20^reset;%、電気 +^cyan;15^reset;%\n  日中は体力が^green;再生^reset;する。体力・満腹度が最大なら、^green;エネルギー再生^reset;も向上。\n\n^orange;環境^reset;：\n  ^green;森林系^reset;の環境：エネルギー x^green;1.15^reset;\n  ^red;不毛・腐食・極寒^reset;の環境：防御力 x^red;0.8^reset;\n\n^orange;武器^reset;：\n  弓の熟練度 +^green;20^reset;%\n  槍の熟練度 +^green;15^reset;%。確率で毒攻撃が発生。\n  ニードラー／フローラン武器／投擲武器：クリティカル率 +^green;2^reset;%\n\n^red;弱点^reset;：\n  ^red;夜間^reset;：体力 x^red;0.9^reset;、エネルギー x^red;0.8^reset;、満腹度の消費が増加\n  ^red;耐性^reset;：炎 -^red;30^reset;%、影 -^red;5^reset;%"
+    }
+  ]
+]

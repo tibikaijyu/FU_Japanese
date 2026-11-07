@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Katana Mastery: +^green;15^reset;%\n^yellow;^reset; Dodge Techs: +^green;10^reset;%\n^yellow;^reset; Defense Techs: +^green;10^reset;%"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;刀 習熟度:+^green;15^reset;%\n^yellow;^reset;ダッジ技術:+^green;10^reset;%\n^yellow;^reset;防御技術:+^green;10^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Samurai Breastplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "侍乳皿"
+    }
+  ]
+]

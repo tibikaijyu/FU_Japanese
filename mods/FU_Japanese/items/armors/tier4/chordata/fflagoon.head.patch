@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset;Hammer Mastery: ^cyan;40^reset;%\n^yellow;^reset; ^cyan;Swim Boost 1^reset;\n^yellow;^reset; (Short) Spear: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Insanity, Oxygen, Poisoned"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ハンマー 習熟度:^cyan;40^reset;%\n^yellow;^reset; ^cyan;水泳ブースト 1^reset;\n^yellow;^reset;(ショート) スピア:損傷x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;狂気、酸素、毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chordata Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コラダヘッド"
+    }
+  ]
+]

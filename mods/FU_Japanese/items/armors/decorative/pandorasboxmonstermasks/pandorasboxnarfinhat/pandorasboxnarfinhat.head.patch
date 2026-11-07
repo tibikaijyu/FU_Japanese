@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Careful not to poke someone's eye out!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かの目を突っ込まないように注意してください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Narfin Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナーフィン・ヘルメット"
+    }
+  ]
+]

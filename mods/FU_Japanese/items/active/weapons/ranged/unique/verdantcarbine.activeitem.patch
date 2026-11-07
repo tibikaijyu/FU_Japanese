@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A deadly mix of plant and machine.\n^yellow;Inflicts Poisoned, ^cyan;Floran^reset;\n^#e43774;6-round microbursts (x6 dmg)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物と機械の致命的な混合物。\n^yellow;害は毒し ^cyan;フローラン^reset;\n^#e43774;6ラウンドマイクロバースト(x6dmg)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Verdant Carbine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビダントカービン"
+    }
+  ]
+]

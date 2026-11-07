@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't even want to contemplate what this did to him."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼に何をしたかを考えたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horrifying Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐ろしい装置"
+    }
+  ]
+]

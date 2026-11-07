@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "Oh, you're <entityname>. Shore base radioed me to let you know you were coming, took you long enough."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "ああ、あなたは<entityname>です。 ショアベースは君が来ることを知らせるためにラジオを送った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/1",
+      "value": "Took me a little while to dig all quiet-like, but I've managed to expose part of the facility's waste system."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/1",
+      "value": "静けさを掘り起こすのに少し時間がかかりましたが、施設の廃棄物システムの一部を露出させることに成功しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/2",
+      "value": "They be discharging their effluent straight into the ocean, but I guess they can't mess this rock up any worse, aye?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/2",
+      "value": "水はそのまま海に排出されるのだが、この岩はこれ以上壊せないのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/3",
+      "value": "Now I've just finished setting them beauties of charges...a good bang to them, and they go with a minimum of noise."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/3",
+      "value": "今、私はそれらに料金の美しさを設定し終わった...彼らに良いバン、そして彼らは最小限のノイズで行く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/4",
+      "value": "Just poke at that there console and you'll be in no sweat."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/4",
+      "value": "コンソールを覗いてみれば、汗をかくことはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "You shouldn't be seeing this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "見るべきではない。"
+    }
+  ]
+]

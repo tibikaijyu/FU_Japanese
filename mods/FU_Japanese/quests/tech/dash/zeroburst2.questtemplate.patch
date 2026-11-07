@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can now boost a lot higher than before."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私は今以前よりもずっと高くブーストすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've created an ungraded version of the Zero Burst tech."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "Zero バーストのテクノロジーの未完成版を作成しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Explosive Redirection II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "爆発的リダイレクトII"
+    }
+  ]
+]

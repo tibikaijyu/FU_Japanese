@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Xithricite Weapons: +^green;3^reset;% Crit\n^yellow;^reset; ^cyan;Immune^reset;: All Radiation, Pressure, Shadow Taint, Aether, Insanity, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ジスリサイト 武器:+^green;3^reset;%クリティカル\n^yellow;^reset; ^cyan;免疫^reset;:すべての放射線、圧力、影の色合い、エーテル、狂気、酸素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテヘルム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Who could have built this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰がこれを作れたのでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不思議な記念碑"
+    }
+  ]
+]

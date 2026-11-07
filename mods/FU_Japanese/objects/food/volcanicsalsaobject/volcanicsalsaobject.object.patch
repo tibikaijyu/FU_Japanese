@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fiery salsa made from fruit and veg that can really bring the heat!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "果物と野菜で作った火のついたサルサが熱をもたらします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Hissss! Keep fiery sssauce away from Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "くそっ! フロランから火のソースを遠ざけてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. Only the most daring Glitch attempt to ingest this salsa. Well, them and the attention seekers."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 最も大胆なグリッチだけがこのサルサを摂取しようとします。 まあ、彼らと注目したい人。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Whoo-ee! That there salsa packs a punch!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "うわっ! サルサがパンチを詰めるって!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Salsa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山サルサ"
+    }
+  ]
+]

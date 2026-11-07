@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The nutritional and medicinal qualities of this comb are staggering."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このくしの栄養価と薬効は驚くべきものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ambrosia Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンブロシアハニカム"
+    }
+  ]
+]

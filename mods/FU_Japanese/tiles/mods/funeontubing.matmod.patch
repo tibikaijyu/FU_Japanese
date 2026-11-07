@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glowing Neon Tubes! You can run them through stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ネオンチューブを輝かせます! それらを物事に通すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Dang, this stuff reminds me of home."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ダン、これは私を家に思い出させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neon Tubing Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネオンチューブトリム"
+    }
+  ]
+]

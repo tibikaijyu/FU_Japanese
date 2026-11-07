@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Examine things really, really close up.\nScan after placement for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物事を詳しく調べる。\n配置後にスキャンして情報を取得します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "N. Electron Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電子顕微鏡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Inspect Bees & Items"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ミツバチの検査とアイテム"
+    }
+  ]
+]

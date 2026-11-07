@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "And this is...?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "そしてこれは....?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I can't say I've seen a plant like this before... Or that I'd like to see one like it again."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "こんな植物は見たことがない...。 あるいは、もう一度このようなものを見たい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather aptly named strange plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり見知らぬ植物と名付けられた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Weird plant. Floran relate to it."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "奇妙な植物。 フローランはそれに関連している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Distaste. An ugly plant."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 だらしない植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "It kind of looks like an alien cactus."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "まるでエイリアンのサボテンのようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Such strange flora."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "こんな奇妙な植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can't make heads or tails of this here plant."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの植物の頭や尻尾が作れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Flower Pot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇華な植木鉢"
+    }
+  ]
+]

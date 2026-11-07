@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle of...time...flavored schnapps? The best drink that never happened!\n^white;Temporal Loop ^gray;(^white;5s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "時間のボトル...風味のスナップル? 決して起こらなかった最高の飲み物!\n^white; 一時ループ ^gray;(^white;5s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Timewinder Schnapps"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイムワインダーのシュナップス"
+    }
+  ]
+]

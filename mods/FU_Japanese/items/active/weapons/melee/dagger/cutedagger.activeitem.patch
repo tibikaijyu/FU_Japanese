@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Favorite weapon of colorful assassins.\n^yellow;Counts as 'energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カラフルな暗殺者のお気に入りの武器。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズマティックダガー"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires solidified shadow at foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵の影を固めた火。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Reverse Gravity"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "逆重力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Orbs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウオーブ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "A Dead Animal"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "死んだ動物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dead animal. What's wrong with you?\n+^green;10^reset;% Poison Resist\n^cyan;Haunting Meow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死んだ動物。 どうしたの?\n+^green;10^reset;% 毒抵抗性\n^cyan;Hunting Meow^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Dead Animal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死んだ動物"
+    }
+  ]
+]

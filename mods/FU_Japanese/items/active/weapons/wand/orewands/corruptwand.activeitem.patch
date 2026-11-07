@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Poison Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "毒発疹"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupt Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破損した杖"
+    }
+  ]
+]

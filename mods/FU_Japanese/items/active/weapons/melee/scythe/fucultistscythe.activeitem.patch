@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keep an... eye... on your enemy.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を見張れ。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodweave Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血織りのサイス"
+    }
+  ]
+]

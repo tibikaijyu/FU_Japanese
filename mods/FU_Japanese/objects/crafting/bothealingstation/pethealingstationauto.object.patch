@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This bot repair station is used to repair compressed robots, and is automated and Item Network capable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧縮ロボットの修理に使用し、自動化されたアイテムネットワーク対応のロボット修理ステーションです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Automatic Bot Healer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;自動ボットヒーラー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "For broken robots"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "壊れたロボットのために"
+    }
+  ]
+]

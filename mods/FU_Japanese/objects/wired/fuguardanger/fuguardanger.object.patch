@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This switch looks suspicious."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このスイッチは怪しげに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tiny Wall Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さな壁のスイッチ"
+    }
+  ]
+]

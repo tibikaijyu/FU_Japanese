@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "This tome is 4,362 pages, entirely devoted to annoying or pissing off anything Floran. It contains useful tips such as 'salt their houses' and 'ignite their infants'. It was allegedly penned by legendary Hylotl revolutionary (and crazed mad-man) Yikasha Hirochi."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "この時間は4,362ページです。 「家を塩漬けにし、幼児に火を付ける」などの有用なヒントを含んでいる。 伝説的なヒュロトル革命家(狂人狂人)のイカシャ・ヒロチが描いたとされる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yikasha Hirochi"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イカシャ・ヒロチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Annoying Florans"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "うるさい花"
+    }
+  ]
+]

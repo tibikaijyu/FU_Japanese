@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I have no idea what this strange alien technology is, but it looks valuable and unique."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この奇妙なエイリアンの技術が何であるかは分かりませんが、それは貴重でユニークに見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I have no idea what this strange alien technology is, but it looks valuable and unique."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この奇妙なエイリアンの技術が何であるかは分かりませんが、それは貴重でユニークに見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Strange Technology"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "奇妙な技術"
+    }
+  ]
+]

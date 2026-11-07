@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Free your mane with this handy item!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この便利なアイテムであなたのたてがみを解放!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目に見えない頭"
+    }
+  ]
+]

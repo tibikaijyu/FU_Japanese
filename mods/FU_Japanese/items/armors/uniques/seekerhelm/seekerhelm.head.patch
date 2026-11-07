@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High energy reserve. ^cyan;Immune^reset; to Insanity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高エネルギー準備。 ^cyan;無効化 ^reset; 狂気に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Seeker Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シーカーヘルム"
+    }
+  ]
+]

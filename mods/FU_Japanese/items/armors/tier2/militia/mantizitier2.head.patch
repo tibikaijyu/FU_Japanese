@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; Health x^green;1.1^reset;\n^yellow;^reset; Shotgun/Assault Rifle: Damage x^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset;体力 x ^green;1.1^reset;\n^yellow;^reset;ショットガン/突撃 ライフル: ダメージ x ^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムヘルメット"
+    }
+  ]
+]

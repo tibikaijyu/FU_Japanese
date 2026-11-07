@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glittering honeycomb with small particles of pure crystal within."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内部に純粋な結晶の小さな粒子を持つキラキラしたハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's all sticky and ^red;really^reset; hot...ow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全てが固く ^red;本当に^reset; 熱い..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマスライム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The label reads, \"This flower is filled with toxic gas.\""
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラベルには「この花は毒ガスで満たされている」と書かれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gasser Trap Figurine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガッサートラップフィギュア"
+    }
+  ]
+]

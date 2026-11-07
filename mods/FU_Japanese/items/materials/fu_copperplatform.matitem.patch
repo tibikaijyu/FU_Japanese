@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made from copper with metal brick sides."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製の金属レンガ製のプラットフォームです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Copper Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属銅プラットフォーム"
+    }
+  ]
+]

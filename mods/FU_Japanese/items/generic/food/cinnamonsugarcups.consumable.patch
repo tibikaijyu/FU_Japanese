@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Good with a cup of coffee! \n^cyan;+^reset;15%^green; HP^reset; \n^orange;Type: Grain Dairy Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コーヒーを一杯飲みましょう! \n^cyan;+^reset;15%^green; HP^reset; \n^orange;タイプ: 穀物乳製品デザート ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon Sugar Cups"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモンシュガーカップ"
+    }
+  ]
+]

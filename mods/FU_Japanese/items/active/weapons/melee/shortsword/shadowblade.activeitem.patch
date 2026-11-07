@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Darkness given form."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗黒が形を成す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowspike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウスパイク"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Oooh, what's for dinner? Is it me?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おはよう、夕食は? 私ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Camp Fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;キャンプファイア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Campsite cooking."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "キャンプ場料理。"
+    }
+  ]
+]

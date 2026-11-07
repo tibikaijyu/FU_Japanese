@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cybernetic Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイバネティックドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cybernetic Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイバネティックドローン"
+    }
+  ]
+]

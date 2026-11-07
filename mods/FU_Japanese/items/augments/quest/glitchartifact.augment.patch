@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "The Royal Medallion"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "ロイヤルメダリオン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;10^reset;% Shield Stamina/Bash\n+^green;10^reset;% Knockback Resist\n+^green;8^reset;% Axe/Hammer Mastery\nDefense x^green;1.2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;10^reset;% シールドスタミナ・バッシュ\n+^green;10^reset;%ノックバック抵抗\n+^green;8^reset;% アクセラレーション/ハンマーマスタリー\n防衛x^green;1.2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Royal Medallion"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロイヤルメダリオン"
+    }
+  ]
+]

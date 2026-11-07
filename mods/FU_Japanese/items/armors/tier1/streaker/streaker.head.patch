@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Apparently this is a hat?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは帽子のようですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "'Hat'?"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "『え?』?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Ooh sparkly..."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "すばらしく..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Glimmering 'Hat'"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "きらめく「帽子」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Look who's here! The life of the party!"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "誰だか見ろ! パーティーの人生!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Streaker's Sight"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "風船の光景"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/description",
+      "value": "You see only the unworthy around you."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/description",
+      "value": "周りの人には価値のないものしか見えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "Emperor's Gaze"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "天皇注視"
+    }
+  ]
+]

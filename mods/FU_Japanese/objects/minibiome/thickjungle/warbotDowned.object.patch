@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This probably did something useful, a long time ago. Now it's little more than trash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくこれは、ずっと前に役に立つことだった。 今はゴミばかりだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Robot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代ロボット"
+    }
+  ]
+]

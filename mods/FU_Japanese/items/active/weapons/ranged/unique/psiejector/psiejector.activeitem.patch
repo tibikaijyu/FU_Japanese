@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Focuses mental power via Psionic energy.\n^yellow;Can use various types of ammo.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超能力 エネルギーを通じて精神的な力に焦点を当てます。\n^yellow; 様々なタイプの弾薬を使用できます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psionic Focus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "霊感的フォーカス"
+    }
+  ]
+]

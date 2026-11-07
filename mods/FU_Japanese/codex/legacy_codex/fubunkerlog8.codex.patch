@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "All station personnel:\nAt approximately 2200 hours Earth time this station received an unsecured transmission from USCM Central Command indicating that Earth is currently under heavy attack from a currently unknown enemy."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "全駅員\nおよそ2200hour地球時間に、このステーションは、現在未知である敵から地球が重攻撃を受けていることを示すUSCM中央司令部から、安全でない送信を受けました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The transmission did not give any details about the enemy or how the battle was progressing. The only orders given were for all USCM outposts and stations to stay put and await further orders."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "送信は、敵や戦いが進行している方法についての詳細を与えませんでした。 唯一の命令は、USCMの基地と駅がさらに命令を待って留まることであった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "I will notify everyone the second we receive any further contact - until then your orders are to stay sharp and prepare for the worst. These coming days may be the most important for us as a species. We all need to be at our best."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "私は私たちがこれ以上の連絡を受け取った瞬間に全員に通知します - それまであなたの命令は鋭敏にとどまり、最悪の事態に備えています。 近日中に、人類にとって最も重要な種になるかもしれません。 私たちは皆最善を尽くす必要がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Subject: Standing Orders"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主題:定規"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Subject: Standing Orders"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "主題:定規"
+    }
+  ]
+]

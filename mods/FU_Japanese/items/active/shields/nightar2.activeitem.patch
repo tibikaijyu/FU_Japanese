@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+10% Shield Bash^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+10%シールドバッシュ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Battler Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦士シールド"
+    }
+  ]
+]

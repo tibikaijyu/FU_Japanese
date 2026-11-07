@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An orange honey straw! Vitamin C++!\n^green;Heal ^white;160 ^gray;(^white;2m^gray;)^reset; \n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジ色のハチミツわら! ビタミンC++!\n^green;癒し ^white;160 ^gray;(^white;2え?^gray;)^reset; \n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orange Honey Straw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジハチミツ"
+    }
+  ]
+]

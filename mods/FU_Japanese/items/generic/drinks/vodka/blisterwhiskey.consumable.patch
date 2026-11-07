@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lumpy, slimey, and glowy.\n^#800080;Glow ^gray;(^white;200s^gray;)\n^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すっきりした、なめらかな、そして輝き。\n^#800080;発光 ^gray;(^white;200s ^gray;)\n^red;ドリンク^gray;(^white;1m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Whiskey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスターウィスキー"
+    }
+  ]
+]

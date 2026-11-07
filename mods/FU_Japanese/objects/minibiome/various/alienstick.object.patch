@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fasha Stalk"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファーシャの茎"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fasha Stalk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファーシャの茎"
+    }
+  ]
+]

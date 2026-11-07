@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shock shrooms make useful weapons when processed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ショックシュルームは、加工時に有用な武器になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shock-Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックシュルーム"
+    }
+  ]
+]

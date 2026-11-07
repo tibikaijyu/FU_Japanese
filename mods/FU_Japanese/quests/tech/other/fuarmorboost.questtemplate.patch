@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Increase passive defense by 5"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "5 による受動防御の増加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Increase passive defense by 5"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "5 による受動防御の増加"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Impenetrable"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "不可解"
+    }
+  ]
+]

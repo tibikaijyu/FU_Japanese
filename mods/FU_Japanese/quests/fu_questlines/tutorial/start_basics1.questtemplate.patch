@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks fer the tasty tots, friend. As a thanks, you can have this store of ^green;Iron Ore^reset; my grand-papa kept around when this place was still nice. T'aint worth a thing to me, but it'll sure be useful for you!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "うまいイモをありがとうよ。お礼に、この^green;鉄鉱石^reset;を持っていきな。ここがまだ立派だった頃、じいさんが蓄えておいた物だ。わしには役に立たんが、お前さんには重宝するはずだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Gather or Grow ^orange;5 potatos^reset; and return to ^green;Welchie^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;ジャガイモを5個^reset;集めるか育てて、^green;ウェルチー^reset;の所へ戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I t'aint much fer fightin', lemme tell you. But in a pinch, I's been known ter swing a fist or two. But fists ain't gonna cut it. You'll be needin' somethin' more dangerous. Try making"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "わしは、あまり戦うのが得意じゃない。まあ、いざとなれば拳を振るうこともあるがな。だが、素手では心もとない。もっと危険な物が必要になる。試しに作ってみな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Armament"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "武装"
+    }
+  ]
+]

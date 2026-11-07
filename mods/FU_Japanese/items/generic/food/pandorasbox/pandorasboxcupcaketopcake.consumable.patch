@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious small cake-like pastery produced by Cupcaketops."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カップケーキトップスが生産する美味しい小さなケーキのようなペストリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cupcaketop Cupcake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カップケーキ"
+    }
+  ]
+]

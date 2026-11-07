@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient weapon system."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の武器システム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Mine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身鉱山"
+    }
+  ]
+]

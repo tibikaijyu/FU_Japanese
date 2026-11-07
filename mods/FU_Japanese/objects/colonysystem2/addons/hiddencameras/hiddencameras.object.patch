@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generate research by spying on your tenants. Makes your tenants paranoid. \n^red;-5 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テナントをスパイして研究を生成。 テナントを偏執にします。 \n^red;-5Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hidden Camera Network"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隠れカメラネットワーク"
+    }
+  ]
+]

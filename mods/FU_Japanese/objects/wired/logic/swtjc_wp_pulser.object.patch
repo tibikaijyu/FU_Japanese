@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sends a short signal pulse whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アクティブになるたびに短い信号パルスを送ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssendsss a short sssignal pulssse whenever it becomesss active."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Sssendss がアクティブになるたびに、短い sssignal パルス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. Sends a short signal pulse whenever it becomes active."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 アクティブになるたびに短い信号パルスを送ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pulse Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パルストランスミッタ"
+    }
+  ]
+]

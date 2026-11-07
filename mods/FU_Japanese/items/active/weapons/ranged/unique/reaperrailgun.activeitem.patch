@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devastatingly cold blasts.\n^yellow;Extremely fast rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊滅的に冷たい爆風。\n^yellow;非常に速いラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-98 Kaiju"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-98 海獣"
+    }
+  ]
+]

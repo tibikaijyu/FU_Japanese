@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Leafcutter Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーフカッタードローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leafcutter Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーフカッタードローン"
+    }
+  ]
+]

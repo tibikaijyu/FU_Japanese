@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A primitive bone bow, almost too stiff to draw.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原始的な骨弓で、ほとんど硬く描きにくい。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨弓"
+    }
+  ]
+]

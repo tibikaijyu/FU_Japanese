@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This sword is as much art as it is a weapon. It was fashioned to look like a serpent."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この剣は武器であると同時に芸術でもある。 それは蛇のように見えるように設計されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fused Emera Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エメラ短刀"
+    }
+  ]
+]

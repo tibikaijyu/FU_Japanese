@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its petals are made with soft silk!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花びらは柔らかい絹で作られています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Springbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スプリングボップマスク"
+    }
+  ]
+]

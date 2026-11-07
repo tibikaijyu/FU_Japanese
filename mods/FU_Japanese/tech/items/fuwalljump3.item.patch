@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases grip, leap and capability of Wall Jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁ジャンプのグリップ、跳躍と能力を高めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Wall Jump IV^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;壁ジャンプIV^reset;"
+    }
+  ]
+]

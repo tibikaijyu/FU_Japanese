@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shockingly shocking. Do not touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "衝撃的です。 触れないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shockjelli"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックジェリ"
+    }
+  ]
+]

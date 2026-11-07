@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient construct of unknown origin"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原産地不明の古代建築"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Rune Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体タイル"
+    }
+  ]
+]

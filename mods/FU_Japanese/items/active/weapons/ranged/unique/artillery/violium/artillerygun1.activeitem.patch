@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Fury Field"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "毛皮"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Call in a devastating missile strike. Obliterates tiles.\n^cyan;Alt-fire increases damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊滅的なミサイル攻撃を呼び出す。 タイルを弾む。\n^cyan;アルトファイアは被害を増加させる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volatile Missile Salvo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "揮発性ミサイルサルボ"
+    }
+  ]
+]

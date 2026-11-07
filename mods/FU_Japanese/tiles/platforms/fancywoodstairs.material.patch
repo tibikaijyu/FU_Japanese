@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fancy. Polished wood, gleaming iron."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファンシー。 磨かれた木材、光沢のある鉄。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fancy Wood Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンシーウッドプラットフォーム"
+    }
+  ]
+]

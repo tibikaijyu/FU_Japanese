@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutally effective pistol.\n^cyan;Shotgun - style bursts ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乱暴に効果的なピストル。\n^cyan;ショットガンスタイルバースト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blasthammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラストハンマー"
+    }
+  ]
+]

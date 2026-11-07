@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Human design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間のデザインの宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Thruster (Human)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型推力(人間)"
+    }
+  ]
+]

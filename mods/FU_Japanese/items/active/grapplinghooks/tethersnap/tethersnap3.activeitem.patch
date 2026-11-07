@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Siphons light and ^orange;converts it to food^reset; when extended."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シフォンが点灯し ^orange;食物に変換し^reset; 延長されたら"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Line"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "影線"
+    }
+  ]
+]

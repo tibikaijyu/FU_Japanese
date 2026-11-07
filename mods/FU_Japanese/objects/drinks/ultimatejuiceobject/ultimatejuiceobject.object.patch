@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All the fruit, in a juice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジュースで、すべての果物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ultimate drink, meet ultimate Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "究極のドリンク、究極のフローランに出会う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amazed. My scanners are picking up several hundreds strains of different fruits in this drink."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 私のスキャナは、この飲み物に数百種類のフルーツを拾っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "How can ya appreciate the flavor when there's so many of 'em?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "こんなにたくさんいると、どうやって味を鑑賞できるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ultimate Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "究極のジュース"
+    }
+  ]
+]

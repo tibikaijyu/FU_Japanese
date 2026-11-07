@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Perhaps with the facility shut down, the Letheia Corporation will stop its deeds... haha, who are you kidding?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "おそらく、この施設が閉鎖されると、レテイア 企業はその行為を停止します...ハハハ、あなたは誰を冗談ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Raid the Letheia bioweapons facility."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "レタイアの生物兵器施設を襲撃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Discovered in the Letheia Fleet is a map to a secluded Letheia Corporation facility. There's enough evidence here to warrant an investigation."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "レテア艦隊で発見されたのは、レテア・コーポレーションの秘密施設への地図である。 ここには捜査の証拠が十分ある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Letheia Facility"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; レテイア施設"
+    }
+  ]
+]

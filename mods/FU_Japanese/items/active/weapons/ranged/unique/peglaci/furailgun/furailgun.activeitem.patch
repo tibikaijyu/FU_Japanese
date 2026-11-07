@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Energy Zone"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "エネルギー領域"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A devastating long-ranged rifle.\n^yellow;Pierces tiles, increases damage with range^reset;\n^cyan;Efficient alt-fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破壊的な長距離ライフル。\n^yellow;ピアスタイルは、範囲で損傷を増やします。^reset;\n^cyan; 効率的なオールトファイア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Railgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄砲"
+    }
+  ]
+]

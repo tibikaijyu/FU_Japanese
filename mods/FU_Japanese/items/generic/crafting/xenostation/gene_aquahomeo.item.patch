@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Water survival is impossible without it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それなしでは水は生き残れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquatic Homeostasis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水生ホメオスタシス"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stack of canned food goods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "缶詰の食料品の山。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Not fressh meat, but it'll do."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "新鮮な肉ではないが、それはできる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Approving. You can never have enough stockpiled foods for when an emergency strikes."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "承認。 緊急事態が起きたとき、十分な備蓄食品を持つことはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I ain't no stranger to beans from a can. Doesn't make 'em taste any better though."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "缶から豆をこぼすのが私には見知らぬ人はいない。 でも、味が良くない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stack of Cans"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "缶詰"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Etched metal to look like a slab of stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石のスラブのように見えるようにエッチングされた金属。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Slab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属スラブ"
+    }
+  ]
+]

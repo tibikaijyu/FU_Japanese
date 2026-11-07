@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Delicarellix"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "デリカレリクス"
+    }
+  ]
+]

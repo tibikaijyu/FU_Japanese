@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Easily the heaviest and most valuable of Nightar weapons.\n^green;Counts as Greataxe or Broadsword^reset;\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイターの武器の中で最も重く、最も貴重。\n^green;太刀・太刀など。^reset;\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar War Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜の開戦"
+    }
+  ]
+]

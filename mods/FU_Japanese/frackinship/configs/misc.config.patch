@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/shipResetSelectionInterfaceData/states/initial/buttons/0/name",
+      "value": "Repair Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetSelectionInterfaceData/states/initial/buttons/0/name",
+      "value": "船の修復"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetSelectionInterfaceData/states/initial/buttons/1/name",
+      "value": "No, it's fine"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetSelectionInterfaceData/states/initial/buttons/1/name",
+      "value": "いいえ大丈夫です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipResetSelectionInterfaceData/states/initial/text",
+      "value": "Ship has sustained major damage and is in need of repair. Perform repairs now?"
+    },
+    {
+      "op": "replace",
+      "path": "/shipResetSelectionInterfaceData/states/initial/text",
+      "value": "船舶は大きな被害を受けており、修理を必要としています。 今修理をしますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipUnlockMessages/alreadySet",
+      "value": "Ship data already uploaded to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/shipUnlockMessages/alreadySet",
+      "value": "S.A.I.L.に既にアップロードされた出荷データ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipUnlockMessages/disabled",
+      "value": "Unlockable ships have been disabled."
+    },
+    {
+      "op": "replace",
+      "path": "/shipUnlockMessages/disabled",
+      "value": "ロック解除可能な船舶は無効化されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipUnlockMessages/notOnShip",
+      "value": "You need to be on a ship to be able to connect to the S.A.I.L database for the upload."
+    },
+    {
+      "op": "replace",
+      "path": "/shipUnlockMessages/notOnShip",
+      "value": "アップロードのためにS.A.I.Lデータベースに接続するためには、船上にいる必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shipUnlockMessages/success",
+      "value": "Successfully uploaded ship data to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/shipUnlockMessages/success",
+      "value": "S.A.I.L.に船データをアップロードしました。"
+    }
+  ]
+]

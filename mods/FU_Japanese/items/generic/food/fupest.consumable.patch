@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small mammalian pest. Edible, and nutritious. ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな哺乳類の害虫。 食用、栄養価が高い。 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "害虫"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High tech panelling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイテクパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テクパネル"
+    }
+  ]
+]

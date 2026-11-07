@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/apex/0",
+      "value": "I don't think anyone should eat thumbtacks."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/apex/0",
+      "value": "誰もサムタックを食べるべきではないと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "I've never seen a unicorn that farts fire before. Have you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "私は今までに炎上するユニコーンを見たことがありません。 ありましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I grew weary of watching Jersey Shore like all the other idiots out there. I turned to murder, instead."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "ジャージー・ショアを他のどのバカたちと同じように見るのが嫌になった。 代わりに殺人に目を向けました"
+    }
+  ]
+]

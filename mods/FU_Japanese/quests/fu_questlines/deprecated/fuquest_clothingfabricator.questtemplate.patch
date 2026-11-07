@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You can also produce fabrics in this station, from cotton to silk and beyond. It really is a robust creation. The ^green;armors it makes^reset; aren't too shabby either!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "また、綿から絹まで、このステーションで布地を生産することもできます。 本当に強固な創造です。 ^green; のアーマーは、^reset; もそれほど粗末ではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Congratulations on your new ^orange;Clothing Fabricator^reset;! You can utilize it to create various ^green;clothes and armors^reset; that use little or no metal components. Start by making a ^orange;Bone Mask^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "新しい ^orange; 服のファブリケータ ^reset; でおめでとうございます! 金属成分をほとんど使用しない様々な ^green; 服や装甲 ^reset; を作るのに利用できます。 ^orange;ボーンマスク^reset; から始めましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Using the Clothing Fabricator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "衣料用ファブリケータ"
+    }
+  ]
+]

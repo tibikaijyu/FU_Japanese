@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Military grade crossbow not designed for hunting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狩猟用に設計されていない軍用グレードのクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クロスボウ"
+    }
+  ]
+]

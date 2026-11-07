@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extremely powerful energy tank. Blocks electrical storms. Energy x1.25, +40% E. Regen, -20% E. Block, and a slight ^#0000aa;glow^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に強力なエネルギータンク。 電気ストームをブロックします。 エネルギーx1.25, +40% E. レーゲン -20% ブロック、そして少し ^#0000aa;輝き^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quantum Energy Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "量子エネルギーパック"
+    }
+  ]
+]

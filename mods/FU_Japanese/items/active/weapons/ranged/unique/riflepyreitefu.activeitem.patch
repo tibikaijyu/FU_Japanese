@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reliable and accurate, and quite hot.\n^yellow;Devastating incendiary rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼性と正確さ、そして非常にホット。\n^yellow;壊滅的な焼夷弾^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトライフル"
+    }
+  ]
+]

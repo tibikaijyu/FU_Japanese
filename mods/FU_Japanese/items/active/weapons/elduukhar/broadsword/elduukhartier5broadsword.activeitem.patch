@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An elegant greatsword with a dragon's head as a pommel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "龍の頭がポンメルのような優雅な大剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fused Thanatite Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サナタイトの広刃"
+    }
+  ]
+]

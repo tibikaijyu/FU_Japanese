@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny insect that seeks out unwatched food and garbage. They fear light"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見知らぬ食べ物やゴミを探す小さな昆虫。 彼らは光を恐れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cockroach"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴキブリ"
+    }
+  ]
+]

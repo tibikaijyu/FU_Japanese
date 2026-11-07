@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Become invincible with this spinning jump technique!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このスピンジャンプテクニックで無敵になろう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Screw Attack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "スクリューアタック"
+    }
+  ]
+]

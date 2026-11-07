@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its liquid core produces a constant flow of water. It hates you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その液体コアは、水の一定の流れを生成します。 それはあなたを嫌う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquamantle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アクアマントル"
+    }
+  ]
+]

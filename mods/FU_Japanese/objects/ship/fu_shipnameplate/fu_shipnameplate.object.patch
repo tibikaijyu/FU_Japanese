@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fancy plaque made to commemorate a ship. Displays its name, type and construction date. Break to reset ship name."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船を記念して作られた豪華な銘板。 名前、タイプ、施工日を表示します。 船名をリセットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fancy Ship Plaque"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンシーシッププラーク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text/notOnOwnShip",
+      "value": "Only the ships owner can name it."
+    },
+    {
+      "op": "replace",
+      "path": "/text/notOnOwnShip",
+      "value": "船主のみが命名できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text/shipNamed",
+      "value": "Reading the plaque, it says the ship name is: ^red;<shipName>^white;.\nConstructed On: ^green;<shipDate>\n^white;Its classification is ^cyan;<shipType>^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text/shipNamed",
+      "value": "プラークを読むと、船名は:^red;<shipName>^white;。\n施工: ^green;<shipDate>\n^white; 分類は ^cyan;<shipType>^reset; です。"
+    }
+  ]
+]

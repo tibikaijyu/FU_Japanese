@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shard-like bolts puncture foes. Great for hunting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャードライクボルト穿刺敵。 狩猟に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリクロスボウ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An attractive place to put things."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物を置くのに魅力的な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間内閣"
+    }
+  ]
+]

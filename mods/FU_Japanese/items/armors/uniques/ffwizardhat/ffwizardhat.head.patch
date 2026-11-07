@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Amazing energy production! Also lowers your rate of descent during falls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしいエネルギー生産! また、秋の間に降下速度を下げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wizard's Cap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "魔法使いの帽子"
+    }
+  ]
+]

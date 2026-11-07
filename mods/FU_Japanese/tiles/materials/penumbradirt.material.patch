@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This dirt reflects no light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この汚れは光を反射しない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Umbral Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "浮遊汚泥"
+    }
+  ]
+]

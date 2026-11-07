@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful capacitors with several coil stages.\n^yellow;Area damage^reset;\n^yellow;Hunting weapon^reset;\n^yellow;High velocity projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかのコイルステージを持つ強力なコンデンサ。\n^yellow;領域損傷^reset;\n^yellow;ハンティング武器^reset;\n^yellow;高速発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gauss Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガウス・スナイパーライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Overclocked capacitors take Gaussian mechanics to the extreme.\n^yellow;Area damage^reset;\n^yellow;Hunting weapon^reset;\n^yellow;High velocity projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "オーバークロックされたコンデンサはガウス力学を極端に利用する。\n^yellow;領域損傷^reset;\n^yellow;ハンティング武器^reset;\n^yellow;高速発射体^reset;"
+    }
+  ]
+]

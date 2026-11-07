@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of red honeycombs! Yum!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤いハニカムのブロック! うむ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Honeycomb Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いハニカムブロック"
+    }
+  ]
+]

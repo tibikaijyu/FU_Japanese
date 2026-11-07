@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Watch your eyes out there!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目を見張れ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peglaci Eyepatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペグラシ アイパッチ"
+    }
+  ]
+]

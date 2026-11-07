@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a Line Chef to keep you fed and reduce fuel costs by 4%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラインシェフを雇って、給油を維持し、燃料コストを4%で削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Line Chef Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラインシェフ契約"
+    }
+  ]
+]

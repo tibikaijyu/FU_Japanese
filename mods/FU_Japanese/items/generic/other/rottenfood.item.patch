@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gross. There's absolutely no way this is still edible.\n^green;Growth Rate x^white;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クロス。 まだ食べられるわけがない。\n^green;成長率 x ^white;1.25^reset;"
+    }
+  ]
+]

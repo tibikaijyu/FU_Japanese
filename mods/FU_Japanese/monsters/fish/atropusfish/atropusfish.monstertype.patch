@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It lurks in the depths, and sees all."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "深海に潜り、全てを見る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deep Seer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深海"
+    }
+  ]
+]

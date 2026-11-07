@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strong wall made of penumbral bricks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブラールレンガ製の強い壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Brick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブラルれんが"
+    }
+  ]
+]

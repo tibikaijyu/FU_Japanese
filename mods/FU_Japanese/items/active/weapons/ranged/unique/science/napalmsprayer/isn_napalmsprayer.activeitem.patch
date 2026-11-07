@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Huge gouts of dangerous napalm. Keep away from children.\n^yellow;Inflicts burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険なナパームの巨大な痛風。 子供から離れなさい。\n^yellow;焼失する影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scorchburst"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "教会破裂"
+    }
+  ]
+]

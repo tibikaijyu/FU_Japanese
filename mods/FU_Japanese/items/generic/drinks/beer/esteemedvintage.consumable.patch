@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yes, you read that right. It's made from insect babies.\n^cyan;+^white;3 ^cyan;Defense ^gray;(^white;45s^gray;)\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;1m^gray;)\n^orange;\"New Friend\" ^gray;after ^white;2m^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そう、そのとおりです。 虫の赤ちゃんから作られています\n^cyan;+^white;3 ^cyan;防衛 ^gray;(^white;45ス)^gray;)\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;1え?^gray;)\n^orange;『新友』 ^gray;その後 ^white;2え?^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Esteemed Vintage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "名高いヴィンテージ"
+    }
+  ]
+]

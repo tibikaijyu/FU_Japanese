@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toss to mine out blocks at a distance. Fire in the hole!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遠くでブロックを採掘するために投げます。 穴に火を!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Throwing Dynamite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "投げるダイナマイト"
+    }
+  ]
+]

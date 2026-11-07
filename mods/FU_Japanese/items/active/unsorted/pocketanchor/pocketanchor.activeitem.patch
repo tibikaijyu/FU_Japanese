@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When held, will weigh you down. Great to sink fast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "抱っこすると、体重を量ります。 速く沈むのに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pocket Anchor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポケットアンカー"
+    }
+  ]
+]

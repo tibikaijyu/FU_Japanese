@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just like mom used to make.\n^red;-^white;5% ^red;HP ^gray;(^white;10s^gray;)\n^blue;Madness Gain^reset; 2 \n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "お母さんが作ったように。\n^red;-^white;5% ^red;HP ^gray;(^white;10ス)^gray;)\n^blue;狂気の高まり^reset; 2 \n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Face Skin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "顔面皮膚"
+    }
+  ]
+]

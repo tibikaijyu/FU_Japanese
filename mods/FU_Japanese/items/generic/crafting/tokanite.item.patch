@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A green gem that rings with a high tone when struck."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "打つと高い音色で鳴る緑色の宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tokanite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トカナイト結晶"
+    }
+  ]
+]

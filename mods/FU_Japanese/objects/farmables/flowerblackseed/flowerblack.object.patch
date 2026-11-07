@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "How incredibly Gothic-pretentious."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴシック様式の素晴らしさ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒花"
+    }
+  ]
+]

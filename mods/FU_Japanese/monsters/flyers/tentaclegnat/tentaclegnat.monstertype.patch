@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A disgusting fleshy parasite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "嫌な肉質の寄生虫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tentacle Gnat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テンタクル・グナット"
+    }
+  ]
+]

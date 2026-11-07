@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with organic soup. Somehow I'm not hungry anymore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機スープが詰まったランプ。 私はもう腹が減らない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Organic Soup Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有機スープラバランプ"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like an automato flavoured lollipop! Which is kind of weird."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるで自動風味のロリポップのようです! それはちょっと奇妙です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Metal... sssweet? Floran is confused."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "メタル... 甘い? フローランは混乱している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Dumbfounded. Automatos are decidedly savory crops... Why would anyone try to candy it?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ファウンダー。 オートマトンは間違いなくおいしい作物です。 なぜ誰もそれをキャンディーにしようとするのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "That's an odd choice for sweetenin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "それは甘味料としては奇妙な選択だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Candy Automato"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャンディオートマト"
+    }
+  ]
+]

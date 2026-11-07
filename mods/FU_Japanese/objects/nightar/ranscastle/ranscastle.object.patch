@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A storefront for the Nightar merchant, Ran, to sell his wares."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトアールの商人、ランが商品を売る店頭。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "^#b9b5b2;Sells Nightar-themed goods"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "^#b9b5b2;ナイトアールをテーマにした商品を販売。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Ran's Castle"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "蘭城"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ran's Castle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蘭城"
+    }
+  ]
+]

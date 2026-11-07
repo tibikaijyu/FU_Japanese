@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super-cold alloy with numerous powerful applications.\nOften located on Ice Wastes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "数多くの強力なアプリケーションを持つ超冷間合金。\nしばしば氷の廃棄物上に位置する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイソジェンインゴット"
+    }
+  ]
+]

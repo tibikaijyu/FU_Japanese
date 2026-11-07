@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devoratrix Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デボラトリクスクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Devoratrix Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デボラトリクスクイーン"
+    }
+  ]
+]

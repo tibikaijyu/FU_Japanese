@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of these books looks out of place... I wonder..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの本のうちの一冊は見栄えが悪い。 なんだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Switch Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアスイッチ本棚"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solar Hallway Background."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽ホールウェイの背景。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solar Hallway Background"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーラーホールウェイの背景"
+    }
+  ]
+]

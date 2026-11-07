@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Masterful crafting, deadly edges.\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巧みな職人技、致命的なエッジ。\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトメイス"
+    }
+  ]
+]

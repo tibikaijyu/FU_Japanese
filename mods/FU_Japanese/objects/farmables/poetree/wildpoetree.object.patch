@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poe trees actually produce a form of silicon. Handy, that."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポーの木はシリコンの形態を作り出します ハンディ、それ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poe Tree"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポーツリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Put your enemies on ice.\n^cyan;Grenade Launcher^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を氷の上に置きなさい。\n^cyan;グレネードランチャー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムアサルトライフル"
+    }
+  ]
+]

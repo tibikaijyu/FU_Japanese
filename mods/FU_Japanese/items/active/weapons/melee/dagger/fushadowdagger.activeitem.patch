@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shadow-forged dagger.\n^cyan;Shadow Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドーフォージドダガー。\n^cyan;影のダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadeclaw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シェーデック法"
+    }
+  ]
+]

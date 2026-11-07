@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wants to do nothing but giggle, spew gore, and devour flesh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "笑い、怒鳴り、肉を食いたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Bunny"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉バニー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Both tasty and useful! Not!\n^yellow;^reset;^cyan;Health x1.2^reset;: 1m\n^yellow;^reset;^red;Burning^reset;: 10s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しくも便利! 違う!\n^yellow;^reset;^cyan; 健康 x 1.2^reset; : 1m\n^yellow;^reset;^red;バーニング^reset;:10s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Violiroot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオリルート"
+    }
+  ]
+]

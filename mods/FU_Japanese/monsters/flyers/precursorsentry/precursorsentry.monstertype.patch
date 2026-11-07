@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small sentry bot designed to assist larger sentry bots."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大型のセントリーボットを支援するために設計された小さなセントリーボット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lesser Sentry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小便器"
+    }
+  ]
+]

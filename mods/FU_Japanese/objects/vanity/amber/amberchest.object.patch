@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A beautiful amber chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美しいアンバーチェスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバー胸"
+    }
+  ]
+]

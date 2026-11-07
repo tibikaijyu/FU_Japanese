@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brain in a jar, daydreaming."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空想的な瓶の中の脳。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Superior Brain Housing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "上脳住宅"
+    }
+  ]
+]

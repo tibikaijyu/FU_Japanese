@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Truly solid amber condensed into a mallet.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真に固いアンバーを木ラに凝縮。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバーハマー"
+    }
+  ]
+]

@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "I am Heptarch. I alone defeated one-thousand foes and was made glorious through victory. Kneel."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "私はヘプタークです。 私は一人で一〇〇〇人の敵を破り、勝利によって栄光を授けられました。 ニール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/cantReach/default/default/0",
+      "value": "You will not escape, wretch."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/cantReach/default/default/0",
+      "value": "逃げられないぞ、レンチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/cheerOn/default/default/0",
+      "value": "Onward!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/cheerOn/default/default/0",
+      "value": "先へ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "Crushed like the insect you are."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/killedTarget/default/default/0",
+      "value": "あなたがいる昆虫のようにクラッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/lostTarget/default/default/0",
+      "value": "It is pointless to hide!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/lostTarget/default/default/0",
+      "value": "隠れることは無意味です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/outOfSight/default/default/0",
+      "value": "You really believe the darkness to be your ally, challenger...?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/outOfSight/default/default/0",
+      "value": "あなたは本当に暗闇があなたの同盟者、挑戦者であると信じていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "There will be no honor in your death."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/reattack/default/default/0",
+      "value": "あなたの死に名誉はない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/reattack/default/default/1",
+      "value": "May She guide my blade."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/reattack/default/default/1",
+      "value": "彼女が私の剣を案内してくれますように。"
+    }
+  ]
+]

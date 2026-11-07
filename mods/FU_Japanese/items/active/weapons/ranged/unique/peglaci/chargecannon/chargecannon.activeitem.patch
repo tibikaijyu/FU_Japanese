@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Charge and release radioactive-electric blasts.\n^yellow;Increases damage with charge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "帯電して、放射性電気ブラストを放出する。\n^yellow;チャージでダメージを増加します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rad Charger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤色帯電体"
+    }
+  ]
+]

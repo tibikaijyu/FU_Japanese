@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle: +^green;2^reset;% Crit\n^yellow;^reset; +^green;1^reset;% Regen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;アサルトライフル:+^green;2^reset;%クリティカル\n^yellow;^reset; +^green;1^reset;% 霊元"
+    }
+  ]
+]

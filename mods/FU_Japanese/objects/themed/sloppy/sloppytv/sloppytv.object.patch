@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I can't see this television's screen at all..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私はこのテレビの画面がまったく見えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "There a TV under this? I'd just assumed it was a shelf."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この下にテレビがありますか。 棚だと仮定していた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A TV, or an impromptu table?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレビか即席のテーブルか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Television makes great makeshift ssshelf!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "テレビは素晴らしい間に合わせのssshelfを作ります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Annoyed. How is anyone supposed to watch this television from under all this clutter?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "困った。 この混乱の中で、このテレビをどうやって見るのがよいでしょうか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I don't even think this TV's plugged in."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私はこのテレビがつないだとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "How charming. Someone's converted their television stand into a closet."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "なんて魅力的でしょう。 誰かがテレビスタンドをクローゼットに変えました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I guess I ain't watchin' TV like this..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "こんなテレビ見ないのかな...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloppy TV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレビ"
+    }
+  ]
+]

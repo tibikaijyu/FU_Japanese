@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This plain carved brick is immeasurably old."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この平らな彫刻のレンガは計り知れないほど古い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Plain Brick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代平れんが"
+    }
+  ]
+]

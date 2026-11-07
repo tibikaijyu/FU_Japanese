@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "New signature, another message. Mew disapproves. Picture of Mantizi in codpiece armor. Not Kevin. Face upside down smiling. Kevin clue?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "新しい署名、別のメッセージ。 新人は賛成しない。 マンチジのコッドピースアーマーの写真。 ケビンじゃない。 逆さまに笑みを浮かべて顔。 ケビンの手がかり?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "Use the ^orange;Gold Arena Beacon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "^orange;金 闘技場 ビーコン ^reset; を使用してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "Win the arena battle"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "アリーナバトルに勝つ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Khe^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケー^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Another super bad place, you know da drill by now."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "またまた、とびきりヤバい場所だ。もう勝手はわかってるだろ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark Flames"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "暗い炎"
+    }
+  ]
+]

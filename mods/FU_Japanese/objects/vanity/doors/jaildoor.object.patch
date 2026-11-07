@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy pressure door, great for use on ships."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重圧ドアで、船舶での使用に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pressure Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレッシャードア"
+    }
+  ]
+]

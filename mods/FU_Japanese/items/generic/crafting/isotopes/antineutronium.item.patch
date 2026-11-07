@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A 'natural' opposite to neutronium. Exceptionally unsafe.\n^blue;+^white;600 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中性子とは反対の「自然」です。 例外的に安全でない。\n^blue;+^white;600 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Anti-Neutronium Rod^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;反ニュートロニウムロッド^reset;"
+    }
+  ]
+]

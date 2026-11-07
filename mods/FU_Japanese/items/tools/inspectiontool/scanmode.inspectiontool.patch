@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/0",
+      "value": "Thing not there?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/0",
+      "value": "何も無い?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/1",
+      "value": "See nothing. Why look?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/1",
+      "value": "何も見えない。 なぜですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/2",
+      "value": "Nothing there?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/2",
+      "value": "何も?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/3",
+      "value": "Watch nothing? See nothing."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/3",
+      "value": "何も見ない? 何も見えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/0",
+      "value": "Thing not seen?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/0",
+      "value": "見えないもの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/1",
+      "value": "See nothing. Move closer?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/1",
+      "value": "何も見えない。 近づく?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/2",
+      "value": "Scanner weak. Should move."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/2",
+      "value": "スキャナが弱い。 動くべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/3",
+      "value": "Can't see. Scanner broken?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/3",
+      "value": "見えません スキャナーが壊れた?"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-quality industrial metal wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業用金属の壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金の壁"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Has a mop. Sweeps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "モップがある。 掃除。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Custodian Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カストディア契約"
+    }
+  ]
+]

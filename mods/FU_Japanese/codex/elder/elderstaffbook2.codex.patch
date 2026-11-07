@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Never be without your implements, young apprentice. The staff is your most favored good, and without it you are but meat to the Elder ones. You must fashion it from an Elder Tome, two Valtan Casings and an Elder Bust..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "あなたの道具、若い徒弟なしでは決してありません。 スタッフはあなたの最も好まれる良いです、そしてそれなしであなたは高齢者の肉だけです。 ファッションは、エルダー Tomeと二つのヴァルタン Casings、そしてエルダー Bustから作らなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Instructions on constructing a fell staff"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "倒産スタッフの施工方法"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Quellex Text"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "Quellexテキスト"
+    }
+  ]
+]

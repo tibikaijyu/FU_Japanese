@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Inventor Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発明家クイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inventor Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発明家クイーン"
+    }
+  ]
+]

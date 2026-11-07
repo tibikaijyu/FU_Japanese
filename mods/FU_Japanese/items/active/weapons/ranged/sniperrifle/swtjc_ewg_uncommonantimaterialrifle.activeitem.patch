@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-powered rifle that sacrifices rate-of-fire for enough firepower to cut through armor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装甲を貫通するのに十分な火力のために発射速度を犠牲にする高出力ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Anti-Materiel Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "異種抗物質ライフル"
+    }
+  ]
+]

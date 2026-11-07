@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Takeshi's Castle (3)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "タケシの城(3)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Takeshi's Castle (3) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "タケシの城(3)(R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "Ninjas in the employ of Shogun Takeshi have kidnapped the Hylotl princess Koto! Are you a bad enough dude to rescue her?"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "将軍武の雇い主に忍者がヒロト王女コトを誘拐しました! 彼女を救えるほど悪いやつか。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "C-c-c-commmmbo breaker!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "C-c-c-commmboブレーカー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Orchid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒蘭"
+    }
+  ]
+]

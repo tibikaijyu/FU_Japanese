@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This can't possibly be comfortable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはおそらく快適ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Sofa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマソファ"
+    }
+  ]
+]

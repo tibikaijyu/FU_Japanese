@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cool whip fashioned from crystal. Put your enemies on ice!\n^cyan;Inflicts Slow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルを基調としたクールなホイップ。 敵を氷の上に置け!\n^cyan;影響の遅い^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリホイップ"
+    }
+  ]
+]

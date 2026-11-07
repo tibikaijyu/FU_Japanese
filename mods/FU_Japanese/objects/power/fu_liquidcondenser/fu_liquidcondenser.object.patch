@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Condenses liquid from biome atmosphere. ^cyan;Requires ^orange;15W^cyan; of power^reset;. ^red;Slower production when stacked^reset;. Scan for Info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオーム雰囲気から液体を凝縮します。 ^cyan;必須 ^orange;15W:^cyan; 権力の^reset;. ^red;積み重ねると生産が遅くなります。^reset;. 情報 をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Liquid Collector^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;液体コレクター^reset;"
+    }
+  ]
+]

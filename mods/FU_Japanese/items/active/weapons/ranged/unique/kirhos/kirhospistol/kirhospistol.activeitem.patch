@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A low-capacity, high power energy sidearm.\n^cyan;Hunting and Energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "低容量、高出力エネルギーサイドアーム。\n^cyan;ハンティングとエネルギー武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホシブラスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Perfection.\n^cyan;Hunting and Energy Weapon^reset;\n^yellow;+1 projectile^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "完璧。\n^cyan; 狩猟とエネルギー武器^reset;\n^yellow;+1Projectile^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Kirhos Blaster II^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;キルホス・ブラスター II^reset; ^yellow;^reset;"
+    }
+  ]
+]

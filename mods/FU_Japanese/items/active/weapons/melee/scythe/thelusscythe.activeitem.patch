@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jagged and chitinous curved reaper of flesh.\n^cyan;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ギザギザでキチン質のカーブした肉のビーパー。\n^cyan;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアン・サイス"
+    }
+  ]
+]

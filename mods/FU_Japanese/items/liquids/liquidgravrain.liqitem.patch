@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of blue grav-liquid, manipulating gravity upon touch. How does this liquid even exist!?\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タッチで重力を操作し、青い重力液体の測定。 この液体はどうやって存在するの?\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Grav-Liquid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーグラブ液体"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for catching smaller sources of meat. Holds 1 rat. Scan for Info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉の小さなソースをキャッチするのに最適です。 1 ラットを保持します。 情報 をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pest Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "害虫の道"
+    }
+  ]
+]

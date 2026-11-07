@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "9 SLOTS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "9枠"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/openCodex/caption",
+      "value": "Read all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/openCodex/caption",
+      "value": "すべて読む"
+    }
+  ]
+]

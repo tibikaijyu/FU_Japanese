@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Captures creatures in Mega Pet Balls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メガペットボールで生き物を捕獲します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega Capture Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガキャプチャーボット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bunch of fallen leaves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落ち葉の束。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fallen Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "落ち葉"
+    }
+  ]
+]

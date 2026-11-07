@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Corrosive toxin, or similar mechanisms, come from this gene."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐食性毒素、または同様のメカニズムは、この遺伝子から来る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrosive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐食性"
+    }
+  ]
+]

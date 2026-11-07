@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even the ancient races needed shelves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の民族でさえ棚が必要でした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Wall Shelf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前壁棚"
+    }
+  ]
+]

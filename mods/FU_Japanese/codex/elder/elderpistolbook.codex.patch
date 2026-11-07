@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "The sidearm pictured seems to be crafted from 3 different core materials: An Elder Artifact, one Elder Fragment and an Elder Core."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "サイドアームは3の異なるコア材料から作られたようです: 長老アーティファクト、一つの長老フラグメントと長老コア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Strange Schematic"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "奇妙な計画"
+    }
+  ]
+]

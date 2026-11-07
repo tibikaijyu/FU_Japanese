@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of liquid irradium.\n^blue;+^white;2 ^blue;Fuel\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体イラジウムの測定。\n^blue;+^white;2 ^blue;燃料\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Irradium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体イラジウム"
+    }
+  ]
+]

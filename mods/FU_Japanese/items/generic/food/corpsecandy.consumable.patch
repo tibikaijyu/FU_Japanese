@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dried and sweetened...um...corpses. Delicious.\n^cyan;+^white;12% ^cyan;HP ^gray;(^white;1m^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乾燥して甘く... あの... 死体。 おいしい。\n^cyan;+^white;12% ^cyan;HP ^gray;(^white;1え?^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corpse Candy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コーセキャンディ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Use brains to store and transfer electrical energy! Substantial storage!^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;5000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電気エネルギーの保存と転送に脳を使ってください! 大容量ストレージ!^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;5000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Psionic^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;超能力^reset;バッテリー"
+    }
+  ]
+]

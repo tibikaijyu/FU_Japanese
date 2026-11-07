@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now you've started the engineering path of your adventure. I suggest getting some other machines up soon!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "冒険のエンジニアリングパスを始めました。 すぐに他のマシンを立ち上げることをお勧めします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Solar Panel^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ソーラーパネル^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Powered stations are a ^green;huge productivity booster^reset;. To start with, you'll need a ^orange;Solar Panel^reset; to produce energy. Build one on a ^orange;Power Station^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "パワードステーションは ^green; 巨大な生産性ブースター ^reset; です。 まず、エネルギーを生成するには ^orange; Solar Panel ^reset; が必要です。 ^orange;Power ステーション ^reset;でビルドします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Solar Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "太陽光発電"
+    }
+  ]
+]

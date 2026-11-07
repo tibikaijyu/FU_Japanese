@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーフェクトドア"
+    }
+  ]
+]

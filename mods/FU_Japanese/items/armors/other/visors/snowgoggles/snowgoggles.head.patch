@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This will protect your eyes in blizzards.\n+^green;8^reset;% Ice Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは、ブリザードであなたの目を保護します。\n+^green;8^reset;% 氷抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snow Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノーゴーグル"
+    }
+  ]
+]

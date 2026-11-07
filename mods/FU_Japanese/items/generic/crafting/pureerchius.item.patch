@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You've never seen a more pristine erchius crystal.\n^blue;+^white;25 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より純度の高いエルキウス結晶は見たことがありません。\n^blue;+^white;25 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pure Erchius Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "純エルキウス結晶"
+    }
+  ]
+]

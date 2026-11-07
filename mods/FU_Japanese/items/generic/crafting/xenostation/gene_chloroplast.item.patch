@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strong photosynthetic ability means a hardy plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強い光合成能力は、丈夫な植物を意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chloroplast Boost"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "葉緑体ブースト"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A charming bone and wood staff dripping with poison.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魅力的な骨と木のスタッフが毒で滴り落ちる。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Battle Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト戦士"
+    }
+  ]
+]

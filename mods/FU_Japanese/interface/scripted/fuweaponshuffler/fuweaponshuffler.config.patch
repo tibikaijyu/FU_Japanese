@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/doShuffle/caption",
+      "value": "Shuffle"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/doShuffle/caption",
+      "value": "シャッフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place randomizable item in the left slot."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2; 左スロットにランダムなアイテムを配置します。"
+    }
+  ]
+]

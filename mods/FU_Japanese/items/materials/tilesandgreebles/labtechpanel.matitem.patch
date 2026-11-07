@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A techy lab panel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "技術ラボパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Tech Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチック技術パネル"
+    }
+  ]
+]

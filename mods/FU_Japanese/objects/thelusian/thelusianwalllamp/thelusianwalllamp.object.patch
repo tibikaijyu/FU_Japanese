@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A biomechanical wall light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオメカニカルウォールライト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Wall Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンのウォールライト"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Use extreme caution with this tech. It is both a great bonus and a dangerous tool."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この技術には細心の注意を払いなさい。 それは偉大なボーナスと危険なツールの両方です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm not sure how this even works. But it is absolutely ^orange;amaze-balls^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "これがどう機能するのかは分かりません。 しかし、それは絶対に^orange;アメーズボール^reset;です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Breaking Physics III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "物理の破線III"
+    }
+  ]
+]

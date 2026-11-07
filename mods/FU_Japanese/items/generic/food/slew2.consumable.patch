@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improved carnivore slew. Not for sapient ingestion. You'll get sick.\n^red;-^white;5% ^red;HP^gray;, ^red;Poisoned ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉食肉のスリューを改良。 食欲をそそる摂取のためではない。 病気になるよ。\n^red;-^white;5% ^red;HP^gray;, ^red;毒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Improved Slew"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "改良されたスキュー"
+    }
+  ]
+]

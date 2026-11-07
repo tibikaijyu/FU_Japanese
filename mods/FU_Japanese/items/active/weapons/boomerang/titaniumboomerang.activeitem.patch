@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for beer parties and death-causing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビールパーティや死の引き金に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンブメラン"
+    }
+  ]
+]

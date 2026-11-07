@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "^#7fac66;Delta Freya II^reset; (7+)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "^#7fac66;デルタ・フレイヤ II^reset; (7+)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "^#7fac66;Delta Freya II^reset; (7+)(R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "^#7fac66;デルタ・フレイヤ II^reset; (7+)（再訪）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "There is no communication from this remote outpost. Investigate why."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "この遠隔地からの連絡はありません。 理由を調べてください。"
+    }
+  ]
+]

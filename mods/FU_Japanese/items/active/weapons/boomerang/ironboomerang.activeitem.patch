@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Iron. Whoosh."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイアン。 うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンブーメラン"
+    }
+  ]
+]

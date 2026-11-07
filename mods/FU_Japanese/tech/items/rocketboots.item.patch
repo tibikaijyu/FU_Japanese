@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hold jump to blast off. Performs poorly in high gravity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプを離して爆破します。 高重力下では動作しにくい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Rocket Boots^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;ロケットブーツ^reset;"
+    }
+  ]
+]

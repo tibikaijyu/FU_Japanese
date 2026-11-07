@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even looking at this painting hurts my eyes and yet I feel compelled to touch it..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この絵を見ても目は痛いけど、触りたくなる...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thing in the Dark"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗闇の中でのこと"
+    }
+  ]
+]

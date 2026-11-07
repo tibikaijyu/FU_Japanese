@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ice spike"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイススパイク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice spike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイススパイク"
+    }
+  ]
+]

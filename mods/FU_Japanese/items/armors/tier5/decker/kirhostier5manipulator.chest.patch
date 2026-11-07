@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Shotgun/Grenade Launcher: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Liq. Nitrogen, Pus, Poisoned"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ショットガン/Grenade ランチャー:損傷x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;リク。 窒素、膿、毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Decker's Suit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デッカーのスーツ"
+    }
+  ]
+]

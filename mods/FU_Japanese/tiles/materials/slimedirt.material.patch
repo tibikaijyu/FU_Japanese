@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew. Slimy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え? スリミー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slimy Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汚れた土"
+    }
+  ]
+]

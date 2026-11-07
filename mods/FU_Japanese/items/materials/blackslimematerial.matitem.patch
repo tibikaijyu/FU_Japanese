@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is just gross. Seriously. It's all gloppy and toxic!\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはただの粗悪だ。 マジで。 それはすべてグロッピーで有毒です!\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒スライム"
+    }
+  ]
+]

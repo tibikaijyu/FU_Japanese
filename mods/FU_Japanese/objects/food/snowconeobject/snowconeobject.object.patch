@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One tasty snowcone, multiple flavours!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいスノーコーン、複数の味!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssticky, sweet, ssnow!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ベタベタで、甘くて、雪だ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. A snowcone with several generous pumps of colorful syrup."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 色とりどりのシロップを数個、寛大なポンプで包んだスノーコーン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Hope the snow this came from was clean."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "雪がきれいになるといいのだが。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snow Cone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノーコーン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carpenter Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大工若女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Carpenter Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若き大工女王"
+    }
+  ]
+]

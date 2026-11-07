@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small Angled Trim of an Apex Spaceship"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アペックス宇宙船の小型角トリム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Small Angled Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頂点小角トリム"
+    }
+  ]
+]

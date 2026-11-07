@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raised goggles look friendlier. +^green;5^reset;% Knockback Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上昇したゴーグルはよりフレンドリーに見えます。 +^green;5^reset;% ノックバック抵抗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dr.Horrible Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドクター・ホラーブル・ゴーグル"
+    }
+  ]
+]

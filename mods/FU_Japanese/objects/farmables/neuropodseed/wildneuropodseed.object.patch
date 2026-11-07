@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Truly a mad-science creation. Consuming its 'fruit' increases intelligence for a time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真に狂った科学の創造。 その「果実」を消費すると、しばらく知性が増す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neuropod Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神経節種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made of white bees wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "白いミツバチのワックスで作られたプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "White Wax Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホワイトワックスプラットフォーム"
+    }
+  ]
+]

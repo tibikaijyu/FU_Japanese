@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "One of the princess' lapdogs! Time to test my blade on you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "王女のラップドッグの一つ! 私のブレードをテストします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "It is said, 'know your enemy and know yourself, and you will emerge the victor of a thousand battles'. You cannot hope to win."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "「敵を知れ、自分自身を知れ。千戦の勝者が現れる」と言われています。 勝ちたいとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "The princess is mine! Mine! Mine!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "王女は私のものです! 私の! 私の!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "So, you invade my village and castle? Audacious indeed!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "私の村と城に侵入したの? 確かに愚かな!"
+    }
+  ]
+]

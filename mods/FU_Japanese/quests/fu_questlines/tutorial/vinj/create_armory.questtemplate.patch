@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Don't forget to upgrade this station whenever you have the resources to do so. It is absolutely worth the effort."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "資源が揃ったら、この設備のアップグレードを忘れずに。手間をかける価値は十分あるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With an ^orange;Armorworks^reset; you can fashion weapons and armor. Upgraded, it provides tons of variety. Try building an ^orange;Armorworks^reset; now. You'll need to ^orange;Research^reset; into ^orange;Armor and Weapons^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;武具製作台^reset;があれば、武器や防具を作れる。アップグレードすれば、種類もぐっと増えるよ。さっそく^orange;武具製作台^reset;を作ってみよう。^orange;研究^reset;メニューの^orange;武器と防具^reset;を進めてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Armorworks"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "武具製作台"
+    }
+  ]
+]

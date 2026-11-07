@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A loose dress made from sheer fabric. It fits slimes rather well."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "薄手の生地で作られたゆるいドレス。 それはかなりよくスライムにフィットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Sheer Dress"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒ずんぐりドレス"
+    }
+  ]
+]

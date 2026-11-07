@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfectly ripe pearlpeas work best for this hearty rice dish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熟した真珠豆が一番効くお料理です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pearlpeasss? Floran would prefer meats..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "パールピース? フローランは肉を好む..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Approving. The pearlpeas add to the rice's flavor, but doesn't detract from it either."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "承認。 真珠のエンドウ豆は米の風味を増すが、それも損なわない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some pearlpeas on rice."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "米に真珠のエンドウ豆。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pearlpea Risotto"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パールピーリゾット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious spirits infused with raw chaos. And you're going to drink it.\n^pink;Shadow Taint ^cyan;Immunity^gray;, ^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生の混同をまとった美味しい精神。 それを飲んでください\n^pink;影の輝き ^cyan;免疫性 ^gray;, ^red;ドリンク ^gray;(^white;1m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Spirits"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "影霊"
+    }
+  ]
+]

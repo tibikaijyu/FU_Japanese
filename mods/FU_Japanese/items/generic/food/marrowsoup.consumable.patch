@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "450% of your daily amount of calcium. \n^cyan;+^reset;10% ^green;Physical Resist^reset; ^cyan;(300s)^reset; ^orange;Type: Meaty Plant + Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "450%あなたの毎日のカルシウムの量。 \n^cyan;+^reset;10% ^green;物理レジスト^reset; ^cyan;(300)^reset; ^orange;タイプ:肉植物+乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Marrow Soup"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨髄スープ"
+    }
+  ]
+]

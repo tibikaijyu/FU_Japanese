@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+20% Ice Res^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+20% 氷の耐性 ^reset;:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Talon Sprout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タロン芽"
+    }
+  ]
+]

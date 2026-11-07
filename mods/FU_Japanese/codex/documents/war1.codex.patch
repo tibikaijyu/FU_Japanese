@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "An extremely long and drawn out accounting of an ancient war fought by two long-forgotten races. It appears that this entire war was based solely on the misappropriation of four muffins and a pound of baking flour. This somehow takes 11,456 pages to accomplish."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "二つの長い間忘れられていた人種によって戦われた古代戦争の非常に長くて引き出された説明。 この戦争全体は、四つのマフィンと一ポンドの小麦粉の誤用にのみ基づいているようです。 達成するには 11,456 ページが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A terribly bad history book"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ひどい歴史書"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Vakrishaw War Vol371"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ヴァリショー戦争 Vol371"
+    }
+  ]
+]

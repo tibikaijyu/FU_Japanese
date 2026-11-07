@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This powered upgrade of the wooden centrifuge more efficiently performs extraction involving liquids. ^cyan;Requires ^orange;4W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木製遠心分離機のこのパワーアップにより、液体を含む抽出をより効率的に行うことができます。 ^cyan; は ^orange;4W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Iron Centrifuge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;鉄遠心分離機^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Powered Centrifuge"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "電源付き遠心分離機"
+    }
+  ]
+]

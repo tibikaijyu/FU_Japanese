@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yellowtail"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イエローテール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Yellowtail"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イエローテール"
+    }
+  ]
+]

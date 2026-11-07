@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for all your automated door needs! Keeps a loving eye on you and everyone you love."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ドアのニーズに最適です! あなたとあなたが愛するすべての人に愛の目を向けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proximity Friendly Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "親密性フレンドリースキャナ"
+    }
+  ]
+]

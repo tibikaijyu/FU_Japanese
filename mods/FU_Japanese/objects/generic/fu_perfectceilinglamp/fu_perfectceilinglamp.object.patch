@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect ceiling lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧な天井ランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Ceiling Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧な天井ランプ"
+    }
+  ]
+]

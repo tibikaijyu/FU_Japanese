@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, ghost like creature native to dark, forboding places."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗いところから生まれた不思議な幽霊のような生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Reaper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュリーパー"
+    }
+  ]
+]

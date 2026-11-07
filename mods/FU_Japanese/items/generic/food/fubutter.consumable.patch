@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's butter. I don't think you need a description. ^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バターです。 説明は必要ないと思います。 ^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Butter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sentient mass of fluids which will divide to survive damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "損傷に耐えるために分裂する液体の感覚的な塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒素"
+    }
+  ]
+]

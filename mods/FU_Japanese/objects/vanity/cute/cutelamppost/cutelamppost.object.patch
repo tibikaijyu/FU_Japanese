@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute lamp-post with a pink light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンクのライトとかわいいランプポスト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Lamp-Post"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいランプポスト"
+    }
+  ]
+]

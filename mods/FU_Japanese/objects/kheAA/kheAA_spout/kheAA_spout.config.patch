@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "1 SLOT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "1 スロット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/dragDrop/value",
+      "value": "Drag&Pour"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/dragDrop/value",
+      "value": "ドラッグ&ドロップ"
+    }
+  ]
+]

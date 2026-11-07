@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Get up to four mid-air jumps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空中ジャンプは最大四回。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Quad Jump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Quadジャンプ^reset;"
+    }
+  ]
+]

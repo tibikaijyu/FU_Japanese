@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loves to vomit up slime. Great at dinner parties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムを吐くのが大好きです。 ディナーパーティーで最高です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slimetop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムトップ"
+    }
+  ]
+]

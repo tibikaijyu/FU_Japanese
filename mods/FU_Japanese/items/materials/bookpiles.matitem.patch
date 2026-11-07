@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pile of dusty old books, they're full of tales of dragons and knights.\n^green;Extractable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い本が山積し、ドラゴンや騎士の物語がいっぱいです。\n^green; 抽出可能 ^reset; 、^red; 溶融可能 ^reset; 。"
+    }
+  ]
+]

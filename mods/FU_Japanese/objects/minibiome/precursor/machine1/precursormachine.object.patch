@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This appears to be some sort of storage medium for electronic data."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは、電子データのためのある種の記憶媒体のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Data Server"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前置データサーバ"
+    }
+  ]
+]

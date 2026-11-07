@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;25^reset;% Speed, +^green;15^reset;% Jump\n^yellow;^reset; Bee Weapons: +^green;8^reset;% Crit Chance, +^green;50^reset;% Crit Damage, Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Beestings, Honey, Extreme Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;+^green;25^reset;%速度, +^green;15^reset;%ジャンプ\n^yellow;^reset;ハチ 武器:+^green;8^reset;%クリティカル チャンス、+^green;50^reset;%クリティカル ダメージ、損傷 x ^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;蜂蜜、極端放射線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queen's Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クイーンズスカート"
+    }
+  ]
+]

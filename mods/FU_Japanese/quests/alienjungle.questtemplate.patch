@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That was truly harrowing! Did I manage to find all the secret rooms?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "本当にひどいことです! 密室は全部見つかりましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Explore the entirety of the Brine Star ruins."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Brine 星遺跡全体を探索してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ancient map gives me directions to a deep underground jungle on a far-off, remote planet. What will I find there?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "古代の地図は、遠く離れた惑星にある深い地下ジャングルへの道を教えてくれます。 そこでは何を見つけるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Brine Star"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;塩水星"
+    }
+  ]
+]

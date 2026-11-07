@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A redbanded bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤縞のミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Redbanded Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤毛蜂"
+    }
+  ]
+]

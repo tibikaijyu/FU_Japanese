@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Weight : 0.1g^reset; ^red;Narcotic\n^white; Triggers severe hallucinations. Breaks the mind, but inspires creativity.\n^blue;Madness Gain^reset; 9"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;重量: 0.1g^reset; ^red;麻薬\n^white; 厳しい幻覚を誘発します。 心を砕くが、創造性を刺激する。\n^blue;狂気の高まり^reset; 9"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dried Fay Mushrooaams"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乾燥したフェイムシュロアム"
+    }
+  ]
+]

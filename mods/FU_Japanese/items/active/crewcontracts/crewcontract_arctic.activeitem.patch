@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an arctic explorer that provides ^cyan;30% Cold resistance^reset; and reduces ship fuel costs by 8%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;30%耐寒性^reset;を提供し、船の燃料コストを8%で削減する北極探検家を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arctic Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "北極協定"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This unusual mineral formation keeps whispering your name, as if intimate with you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この珍しい鉱物層は、あなたの名前に親しみやすいようにささやきます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Whispering Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホイッパリング結晶"
+    }
+  ]
+]

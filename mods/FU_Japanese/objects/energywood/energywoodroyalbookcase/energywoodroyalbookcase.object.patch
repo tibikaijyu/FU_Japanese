@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A monarchs energy wood bookcase... let's find out what royalty reads."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "君主のエナジー・ウッドの本棚...王族が何を読むか調べよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Royal Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドロイヤルブックケース"
+    }
+  ]
+]

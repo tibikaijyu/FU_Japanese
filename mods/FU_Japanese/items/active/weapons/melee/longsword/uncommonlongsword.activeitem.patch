@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful one-handed sword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "力強い片手剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "珍しい長刀"
+    }
+  ]
+]

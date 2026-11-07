@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Waterpod"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水玉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Waterpod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水玉"
+    }
+  ]
+]

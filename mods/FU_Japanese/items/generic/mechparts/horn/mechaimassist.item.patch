@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cancels out vehicle movement while firing. Toggle with ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発射中に車両の動きをキャンセルします。 ^green;[F]^reset; で切り替えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mech Aim Actuator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカ・アジャクタ"
+    }
+  ]
+]

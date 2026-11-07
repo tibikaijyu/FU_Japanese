@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "At least it's sweetened... \n^red;Poisoned^reset; ^gray;(^white;1m^gray;)^reset; \n^green;Type: Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "少なくとも甘かった...。 \n^red;毒^reset; ^gray;(^white;1え?^gray;)^reset; \n^green;型:砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bowel Chocolate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボウェルチョコレート"
+    }
+  ]
+]

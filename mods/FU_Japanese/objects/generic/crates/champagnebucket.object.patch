@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Break out the bubbly!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "気まぐれなことを言ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Champagne Bucket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャンパンバケット"
+    }
+  ]
+]

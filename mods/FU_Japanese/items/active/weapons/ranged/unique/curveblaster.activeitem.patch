@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A unique plasma phase weapon specially designed for breaching hulls.\n^yellow;Burns targets^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船体への侵入用に特別に設計されたユニークなプラズマフェーズ武器。\n^yellow;ターゲットを焼く^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乱射銃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A unique plasma phase weapon specially designed for breaching hulls.\n^yellow;Burns targets^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "船体への侵入用に特別に設計されたユニークなプラズマフェーズ武器。\n^yellow;ターゲットを焼く^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Breach Ripper^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ブリーチリッパー^reset; ^yellow;^reset;"
+    }
+  ]
+]

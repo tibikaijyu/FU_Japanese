@@ -1,0 +1,158 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "An unusual psionic species of extremophiles. Can generate a powerful psionic vibration through sheer willpower.\n\n  ^orange;Diet^reset;: Any (including prepared Isotopes)\n\n^orange;Perks^reset;:\n  Energy x^green;1.1^reset;\n  ^green;Resist^reset;: +^cyan;30^reset;% Mental, +^cyan;20^reset;% Fire & Electric, +^cyan;15^reset;% Cosmic & Radioactive\n  ^cyan;Immune^reset;: Burning\n  Tech: ^green;Psionic Wave^reset;\n\n^orange;Environment^reset;:\n  ^green;Electrically charged or crystal^reset; biomes: +^green;5% speed^reset;\n  ^red;Cold^reset; biomes: Defense x^red;0.9^reset;\n\n^orange;Weapons^reset;:\n  Precognition: +^cyan;8%^reset; to ^green;all^reset; damage\n  Psionic Ejector:  Damage x^green;1.2^reset;\n  Magnorb Mastery: +^green;20^reset;%\n\n^red;Weaknesses^reset;:\n  Health: x^red;0.88^reset;\n  ^red;Resist^reset;:  -^red;12^reset;% Physical, -^red;20^reset;% Poison, -^red;5^reset;% Ice\n  -^red;10^reset;% Charisma"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "超能力を持つ、珍しい極限環境生物の種族。意志の力だけで強力な精神波動を生み出せる。\n\n  ^orange;食性^reset;：何でも食べられる（調理済みの同位体を含む）\n\n^orange;特性^reset;：\n  エネルギー x^green;1.1^reset;\n  ^green;耐性^reset;：精神 +^cyan;30^reset;%、炎・電気 +^cyan;20^reset;%、宇宙・放射線 +^cyan;15^reset;%\n  ^cyan;無効^reset;：炎上\n  テック：^green;サイオニックウェーブ^reset;\n\n^orange;環境^reset;：\n  ^green;帯電・水晶^reset;の環境：^green;移動速度 +5%^reset;\n  ^red;低温^reset;の環境：防御力 x^red;0.9^reset;\n\n^orange;武器^reset;：\n  予知能力：^cyan;8%^reset;を^green;すべて^reset;のダメージに加算\n  サイオニックイジェクター：ダメージ x^green;1.2^reset;\n  マグノーブの熟練度：+^green;20^reset;%\n\n^red;弱点^reset;：\n  体力 x^red;0.88^reset;\n  ^red;耐性^reset;：物理 -^red;12^reset;%、毒 -^red;20^reset;%、氷 -^red;5^reset;%\n  カリスマ -^red;10^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/title",
+      "value": "Pharitu"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/title",
+      "value": "ファリトゥ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Body colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "体の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Gem"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "宝石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Marking Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "模様の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Gem colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "宝石の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "PHARITU"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "ファリトゥ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "An unusual psionic species of extremophiles. Can generate a powerful psionic vibration through sheer willpower.\r\n\r\n  ^orange;Diet^reset;: Any (including prepared Isotopes)\r\n\r\n^orange;Perks^reset;:\r\n  Energy x^green;1.1^reset;\r\n  ^green;Resist^reset;: +^cyan;30^reset;% Mental, +^cyan;20^reset;% Fire & Electric, +^cyan;15^reset;% Cosmic & Radioactive\r\n  ^cyan;Immune^reset;: Burning\r\n  Tech: ^green;Psionic Wave^reset;\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Electrically charged or crystal^reset; biomes: +^green;5% speed^reset;\r\n  ^red;Cold^reset; biomes: Defense x^red;0.9^reset;\r\n\r\n^orange;Weapons^reset;:\r\n  Precognition: +^cyan;8%^reset; to ^green;all^reset; damage\r\n  Psionic Ejector:  Damage x^green;1.2^reset;\r\n  Magnorb Mastery: +^green;20^reset;%\r\n\r\n^red;Weaknesses^reset;:\r\n  Health: x^red;0.88^reset;\r\n  ^red;Resist^reset;:  -^red;12^reset;% Physical, -^red;20^reset;% Poison, -^red;5^reset;% Ice\r\n  -^red;10^reset;% Charisma"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "超能力を持つ、珍しい極限環境生物の種族。意志の力だけで強力な精神波動を生み出せる。\n\n  ^orange;食性^reset;：何でも食べられる（調理済みの同位体を含む）\n\n^orange;特性^reset;：\n  エネルギー x^green;1.1^reset;\n  ^green;耐性^reset;：精神 +^cyan;30^reset;%、炎・電気 +^cyan;20^reset;%、宇宙・放射線 +^cyan;15^reset;%\n  ^cyan;無効^reset;：炎上\n  テック：^green;サイオニックウェーブ^reset;\n\n^orange;環境^reset;：\n  ^green;帯電・水晶^reset;の環境：^green;移動速度 +5%^reset;\n  ^red;低温^reset;の環境：防御力 x^red;0.9^reset;\n\n^orange;武器^reset;：\n  予知能力：^cyan;8%^reset;を^green;すべて^reset;のダメージに加算\n  サイオニックイジェクター：ダメージ x^green;1.2^reset;\n  マグノーブの熟練度：+^green;20^reset;%\n\n^red;弱点^reset;：\n  体力 x^red;0.88^reset;\n  ^red;耐性^reset;：物理 -^red;12^reset;%、毒 -^red;20^reset;%、氷 -^red;5^reset;%\n  カリスマ -^red;10^reset;%"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Boostier than its lesser cousin!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そのより少ない従兄弟よりもブースター!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Zero Burst II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "バーストII"
+    }
+  ]
+]

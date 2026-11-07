@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute present. Can store stuff in it!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいプレゼント。 中身を保存できます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute White Ribbon Present"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい白いリボンの現況"
+    }
+  ]
+]

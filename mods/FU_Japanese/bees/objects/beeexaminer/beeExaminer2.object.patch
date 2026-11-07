@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic microscope designed to inspect queen bees. Works automatically."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチを検査するための基本顕微鏡です。 自動で動作します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Advanced^reset; Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;高性能^reset;顕微鏡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Inspect Bees & Items"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ミツバチの検査とアイテム"
+    }
+  ]
+]

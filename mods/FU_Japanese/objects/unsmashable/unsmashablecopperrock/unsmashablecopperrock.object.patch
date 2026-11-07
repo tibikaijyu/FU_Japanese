@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "There appears to be copper within this fragile rock."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この壊れやすい岩の中に銅があるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "If I break this rock I should be able to gather the copper ore within it."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この岩を割れば、その中に銅鉱石を集めることができるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cracked rock full of copper. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅でいっぱいの割れた岩。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Glittery rock. Sssmash it!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "キラキラした岩。 ss を破る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This rock contains copper, and is covered in cracks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この岩には銅が含まれており、亀裂で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A rock full of copper! Maybe I can break it."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "銅でいっぱいの岩! たぶん、壊せる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A swift blow to this rock would free the copper within."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この岩に一撃を掛ければ、銅は解放される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A rock rich with copper. I should break it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "銅が豊富な岩。 壊すべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅岩"
+    }
+  ]
+]

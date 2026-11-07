@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy duty pipes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘビーデューティパイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボパイプ"
+    }
+  ]
+]

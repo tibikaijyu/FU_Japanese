@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient but fancy screen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代ながら派手な画面。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリカーサモニタ"
+    }
+  ]
+]

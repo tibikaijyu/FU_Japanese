@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keeps a light on in the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗闇の中で明かりを点ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライトボット"
+    }
+  ]
+]

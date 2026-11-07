@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/type",
+      "value": "button"
+    },
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/base",
+      "value": "/interface/objectcrafting/press.png"
+    },
+    {
+      "op": "test",
+      "path": "/gui/toggleCrafting/hover",
+      "value": "/interface/objectcrafting/pressover.png"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/toggleCrafting/base",
+      "value": "/interface/bees/button.png"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/toggleCrafting/hover",
+      "value": "/interface/bees/buttonhover.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/toggleCrafting/caption",
+      "value": "圧搾"
+    },
+    {
+      "op": "add",
+      "path": "/gui/toggleCrafting/fontSize",
+      "value": 9
+    }
+  ]
+]

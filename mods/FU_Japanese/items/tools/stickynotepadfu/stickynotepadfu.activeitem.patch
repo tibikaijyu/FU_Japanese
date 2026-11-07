@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Write yourself notes. Leave them everywhere. Drive your roommates crazy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メモを自分で書きなさい。 どこにでも置き去りにしなさい。 ルームメイトを狂わせなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sticky Note Pad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スティッキーノートパッド"
+    }
+  ]
+]

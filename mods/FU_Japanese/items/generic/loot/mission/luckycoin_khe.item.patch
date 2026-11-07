@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare, ancient lucky coin. Somehow, it has been gnawed and is no longer recognizable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい、古代の幸運のコイン。 何らかの理由で、それはもはや認識できなくなりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gnawed Coin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グノードコイン"
+    }
+  ]
+]

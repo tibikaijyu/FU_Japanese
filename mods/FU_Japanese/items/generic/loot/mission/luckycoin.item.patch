@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare, ancient lucky coin.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい、古代の幸運のコイン。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lucky Coin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラッキーコイン"
+    }
+  ]
+]

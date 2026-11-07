@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A camoflauged worm burrowing through the earth"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地球に穴を開ける迷彩されたワーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burrower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トンネル"
+    }
+  ]
+]

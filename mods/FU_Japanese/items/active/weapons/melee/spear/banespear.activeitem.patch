@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A piercing weapon of great style and sophistication.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れたスタイルと洗練のピアス武器。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bane Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かご"
+    }
+  ]
+]

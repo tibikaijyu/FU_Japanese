@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bumblebee Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マルハナバチドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bumblebee Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マルハナバチドローン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Spawns Minions^reset;: Magma Slime\n^yellow;^reset; Slime weapons: +^green;6^reset;% Crit, Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Bio-Ooze, Slime, Mud, Clay, Snow, Ice Slip"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;産卵ミニオン^reset;マグマスライム\n^yellow;^reset; スライム武器:+^green;6^reset;% クリティカル、ダメージx^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;毒、バイオオウズ、スライム、泥、粘土、雪、アイススリップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Slime Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いスライムグレーブ"
+    }
+  ]
+]

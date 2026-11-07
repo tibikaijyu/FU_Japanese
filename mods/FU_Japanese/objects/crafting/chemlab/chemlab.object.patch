@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Play with chemicals. Endless fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化学物質で遊ぶ。 エンドレス楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Alchemy Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;錬金術台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Experiment with chemicals."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; 化学物質の実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;Alchemy Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;錬金術台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "Experiment with chemicals."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "化学物質の実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Alchemy Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;錬金術台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;More advanced experiments. More kaboom."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; より高度な実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;Chemistry Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;化学研究所^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "More advanced experiments. More kaboom."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "より高度な実験。 より多くのカブール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Chemistry Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;化学研究所^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Superior chemistry and biology experiments."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;優れた化学と生物学実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;Bio-Chem Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^orange;生物化学研究所^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "Superior chemistry and biology experiments."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "優れた化学と生物学の実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;Bio-Chem Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;生物化学研究所^reset;"
+    }
+  ]
+]

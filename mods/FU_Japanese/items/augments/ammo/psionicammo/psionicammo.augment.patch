@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Overload"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "オーバーロード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerful multi-element attack."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な多要素攻撃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Overload Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オーバーロード弾薬"
+    }
+  ]
+]

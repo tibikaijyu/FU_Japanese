@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Constantly applies increased movement so long as it is held."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保持している限り、常に動きを増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perpetual Accelerator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーペチュアルアクセラレータ"
+    }
+  ]
+]

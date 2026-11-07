@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block made of pykrete.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピクレテ製のブロック。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pykrete Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピューレブロック"
+    }
+  ]
+]

@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseProduction/value",
+      "value": "Base Production:"
+    },
+    {
+      "op": "replace",
+      "path": "/baseProduction/value",
+      "value": "ベース生産"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/droneBreedRate/value",
+      "value": "Drone Breed Rate:"
+    },
+    {
+      "op": "replace",
+      "path": "/droneBreedRate/value",
+      "value": "ドローンの繁殖率:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/droneToughness/value",
+      "value": "Drone Toughness:"
+    },
+    {
+      "op": "replace",
+      "path": "/droneToughness/value",
+      "value": "ドローンタフネス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/mutationChance/value",
+      "value": "Mutation Chance: (%)"
+    },
+    {
+      "op": "replace",
+      "path": "/mutationChance/value",
+      "value": "変異の機会: (%)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/queenBreedRate/value",
+      "value": "Queen Breed Rate:"
+    },
+    {
+      "op": "replace",
+      "path": "/queenBreedRate/value",
+      "value": "クイーンブリードレート:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/queenLifespan/value",
+      "value": "Queen Lifespan:"
+    },
+    {
+      "op": "replace",
+      "path": "/queenLifespan/value",
+      "value": "クイーン・ライフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/workTime/value",
+      "value": "Work Time:"
+    },
+    {
+      "op": "replace",
+      "path": "/workTime/value",
+      "value": "勤務時間"
+    }
+  ]
+]

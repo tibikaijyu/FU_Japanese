@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grabs items from the world."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世界からアイテムをつかむ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grabber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラバー"
+    }
+  ]
+]

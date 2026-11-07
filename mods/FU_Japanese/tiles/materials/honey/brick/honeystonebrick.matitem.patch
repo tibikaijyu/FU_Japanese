@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small bricks made of honeystone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜜石で作られた小さなレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssmall brickss made of honeysstone."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ハチミツの石で作られた小さなレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Dazzled. Honeystone has been crafted into charming bricks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "うっとうしい。 ハニーストーンは、魅力的なレンガに作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Dang, if those honeystone bricks aren't the purdiest little things."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ダング、あのハニーストーンレンガが一番ピューディな小さなものではないなら。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeystone Brick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハネストーンれんが"
+    }
+  ]
+]

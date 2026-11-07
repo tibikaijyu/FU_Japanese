@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Useful for extremely short-ranged grappling. Survival tool. Can also do 5 damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に短距離のグラップリングに便利です。 生存ツール。 5 ダメージを受けることもできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷の箱"
+    }
+  ]
+]

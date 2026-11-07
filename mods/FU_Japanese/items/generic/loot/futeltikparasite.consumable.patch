@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Parasites found on fletchweed. Converts saliva into hallucinogens.\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;Heavily Intoxicated^gray;, ^red;Insanity^gray;, ^reset;(^white;220s^reset;) ^blue;Madness Gain^reset; 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寄生虫はfletchweedに見られる。 唾液を幻覚物質に変換する。\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;酔っぱらった^gray;, ^red;狂気^gray;, ^reset;(^white;220ス)^reset;) ^blue;狂気の高まり^reset; 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Teltik Vision Worm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Teltik Visionワーム"
+    }
+  ]
+]

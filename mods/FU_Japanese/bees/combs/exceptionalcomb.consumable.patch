@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious and top-quality honey comb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しくて最高品質のハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exceptional Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "例外ハニカム"
+    }
+  ]
+]

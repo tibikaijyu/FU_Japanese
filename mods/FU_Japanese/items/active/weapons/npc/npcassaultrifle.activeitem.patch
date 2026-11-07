@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fully-automatic, military grade rifle, with decent stopping power and accuracy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全自動の軍用グレードライフルで、まともな停止力と精度を備えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPC攻撃ライフル"
+    }
+  ]
+]

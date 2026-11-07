@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Left it in the toaster for too long. \n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45s^gray;)^reset; ^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トースターに入れっぱなしにしすぎた。 \n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45ス)^gray;)^reset; ^green;種類:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burnt Toast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼きトースト"
+    }
+  ]
+]

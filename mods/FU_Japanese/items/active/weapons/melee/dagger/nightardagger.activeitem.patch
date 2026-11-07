@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dull and nearly lifeless, but still dangerous. Upgrade for lethality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鈍く、ほぼ無生命ですが、まだ危険です。 致命的なアップグレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/description",
+      "value": "Sharpened and improved."
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/description",
+      "value": "研ぎ澄まされ改良される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/shortdescription",
+      "value": "Honed Nightar Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/shortdescription",
+      "value": "ナイターナイフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightarian Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアリアンナイフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Gleams with a bright darkness."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "明るい暗闇で輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Peerless Nightar Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Peerless ナイターブレード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "The finest edge possible."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "可能な限り最高のエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Legendary Nightar Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "伝説のナイトアーブレード"
+    }
+  ]
+]

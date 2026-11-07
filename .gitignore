@@ -1,0 +1,74 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+.codex/
+.agents/
+.local/
+
+# Local development documentation
+/docs/development/
+
+# Python environments, caches, and machine-translation downloads
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+fugumt-model/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# Generated builds and local upstream checkouts
+/build/
+/dist/
+/upstream/
+/models/
+/release/
+/source/build/
+/source/lua-build/
+/source/release-*/
+*.zip
+*.7z
+*.pak
+
+# Raw discovery inventories and execution logs (not build inputs).
+/source/reports/scope/
+/source/reports/**/*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Game installations, saves, and private user reports
+/upload/
+/uploads/
+/storage/
+/starbound/
+starbound.log*
+*.player
+*.player.bak*
+*.shipworld
+*.shipworld.bak*
+*.world
+*.world.bak*
+*.clientcontext
+*.clientcontext.bak*
+
+# Editor / OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

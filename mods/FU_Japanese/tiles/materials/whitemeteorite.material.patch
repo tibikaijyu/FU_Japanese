@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny, almost opalescent meteorite stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある、ほぼオパールの石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meteorite Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石英岩"
+    }
+  ]
+]

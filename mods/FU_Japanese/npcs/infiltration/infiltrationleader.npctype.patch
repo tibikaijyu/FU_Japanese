@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "So, you're the special agent Lana was going to send us?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/0",
+      "value": "ではラナが送ってくれた特別捜査官はあなたですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/1",
+      "value": "Personally speaking, I don't trust the looks of you, but if Lana is vouching for you I'll defer to her judgement."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/1",
+      "value": "個人的には、私はあなたの外観を信頼していませんが、ラナがあなたに保証しているなら、私は彼女の判断を延期します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/2",
+      "value": "The Miniknog facility is up ahead through the swamp. A bit of a hellhole, but them's the breaks."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/2",
+      "value": "ミニノッグ施設は沼地を抜けています。 ちょっと穴が空いてるけど、壊れてるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/3",
+      "value": "Our demolitions expert, Tavish, went and set up a forward base ahead. Rendezvous with him, and he'll get you into the facility."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/3",
+      "value": "私たちの解体専門家であるタヴィッシュは、前進の基盤を先取りしました。 彼との貸し切りなら、彼は君を施設に連れて行くだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/apex/default/4",
+      "value": "From there, it's all up to you. Take what you need from my camp - within reason, of course. Good luck, I suppose, but I don't believe in luck."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/apex/default/4",
+      "value": "そこからは、それはすべてあなた次第です。 もちろん、理由の中で - あなたは私のキャンプから必要なものを取る。 幸運を祈ると思うが、私は幸運を信じない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "You shouldn't be seeing this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "見るべきではない。"
+    }
+  ]
+]

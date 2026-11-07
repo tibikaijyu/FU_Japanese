@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The danciest companion in the universe, with booze and 4% reduced fuel costs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙で一番大切な仲間は、酒と4%で燃料コストを削減しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "PLUR Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "PLUR契約"
+    }
+  ]
+]

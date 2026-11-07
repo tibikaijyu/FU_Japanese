@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reliable sidekick. Will aggressively attack all foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼できるサイドキック。 すべての敵を攻撃します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentry Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セントリーボット"
+    }
+  ]
+]

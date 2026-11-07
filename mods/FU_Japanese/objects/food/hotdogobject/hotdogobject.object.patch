@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thankfully, still not made up of actual dogs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ありがたいことに、まだ実際の犬で構成されていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pft, Floran eats doggies all the time!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フット、フローランは常に犬を食べる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Concerned. My scanners are picking up several different meat sources from this sausage."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "心配。 私のスキャナは、このソーセージからいくつかの異なる肉源を拾っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Fine as it is with just the meat, but just as good in a bun."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "肉だけでは大丈夫ですが、パンでも同じように良いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hot Dog"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホットドッグ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweet, creamy and delicious.\n^cyan;+^white;20% ^cyan;Crit Chance ^gray;(^white;1m^gray;)^reset; \n^orange;Type: Fruit Dairy Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘く、クリーミーで美味しい。\n^cyan;+^white;20% ^cyan;クリティカルチャンス ^gray;(^white;1え?^gray;)^reset; \n^orange;タイプ:フルーツ乳製品デザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Pudding"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナプディング"
+    }
+  ]
+]

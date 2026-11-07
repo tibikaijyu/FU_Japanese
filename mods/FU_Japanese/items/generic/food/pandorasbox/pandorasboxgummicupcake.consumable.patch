@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bite sized delicious gelatin-pastery combination!."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一口大のゼラチンとペーストリーの組み合わせ!."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gummi Cupcake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グミカップケーキ"
+    }
+  ]
+]

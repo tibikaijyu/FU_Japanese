@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A 'cake' made from rendered fat and bonemeal. ^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "油脂と骨粉から作られた「ケーキ」。 ^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gorge Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴージケーキ"
+    }
+  ]
+]

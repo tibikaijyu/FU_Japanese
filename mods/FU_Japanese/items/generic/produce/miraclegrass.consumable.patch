@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal 244.7% HP^reset;: 220s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力を244.7%回復^reset;：220秒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Miracle Grass Root"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇跡の草の根"
+    }
+  ]
+]

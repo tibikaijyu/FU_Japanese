@@ -1,0 +1,374 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/0/1",
+      "value": "^#e43774;[FR]^reset; Player Bonuses (%%status.statusProperty(\"fr_enabled\")%%)"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/0/1",
+      "value": "^#e43774;[FR]^reset; 種族ボーナス (%%status.statusProperty(\"fr_enabled\")%%)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/1/1",
+      "value": "^cyan;[FU]^reset; BYOS Atmosphere (%%world.getProperty(\"fu_byos.newAtmosphereSystem\")%%)"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/1/1",
+      "value": "^cyan;[FU]^reset; BYOS船内大気 (%%world.getProperty(\"fu_byos.newAtmosphereSystem\")%%)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/10/1",
+      "value": "Vanilla SAIL"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/10/1",
+      "value": "標準のSAIL"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/11/1",
+      "value": "^cyan;[FS]^reset; Change S.A.I.L Image"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/11/1",
+      "value": "^cyan;[FS]^reset; S.A.I.Lの画像を変更"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/2/1",
+      "value": "^cyan;[FU]^reset; Configure Ship Pet"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/2/1",
+      "value": "^cyan;[FU]^reset; 船内ペット設定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/3/1",
+      "value": "^cyan;[FU]^reset; Toggle Shipwide Grabber"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/3/1",
+      "value": "^cyan;[FU]^reset; 船内全域の自動回収を切り替え"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/4/1",
+      "value": "^cyan;[FU]^reset; Character Status"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/4/1",
+      "value": "^cyan;[FU]^reset; キャラクター情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/5/1",
+      "value": "^orange;[ZB]^reset; Update Window"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/5/1",
+      "value": "^orange;[ZB]^reset; 更新情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/6/1",
+      "value": "^orange;[ZB]^reset; Quest List"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/6/1",
+      "value": "^orange;[ZB]^reset; クエスト一覧"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/7/1",
+      "value": "^orange;[ZB]^reset; Research Tree"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/7/1",
+      "value": "^orange;[ZB]^reset; 研究ツリー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/8/1",
+      "value": "^orange;[ZB]^reset; Queue Research Recheck"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/8/1",
+      "value": "^orange;[ZB]^reset; 研究の再確認を予約"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/misc/9/1",
+      "value": "^orange;[ZB]^reset; Custom SAIL Info"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/misc/9/1",
+      "value": "^orange;[ZB]^reset; カスタムSAIL情報"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Data/miscAdmin/0/1",
+      "value": "[Admin] Clear Statuses"
+    },
+    {
+      "op": "replace",
+      "path": "/Data/miscAdmin/0/1",
+      "value": "[Admin] 状態異常を解除"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/GUI/subtitle",
+      "value": "Ship-based Artificial Intelligence Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/GUI/subtitle",
+      "value": "船舶搭載型人工知能システム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/noCrewSpeech/text",
+      "value": "You are the only registered crew member of this ship.\n\nRecruiting additional crew members may allow for increased operational efficiency."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/noCrewSpeech/text",
+      "value": "現在、この船に登録されているクルーはあなただけです。\n\nクルーを新たに雇えば、船の運用効率を高められる可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/noMissionsSpeech/text",
+      "value": "No mission co-ordinates currently available."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/noMissionsSpeech/text",
+      "value": "現在、利用できるミッション座標はありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/noStoredCrewSpeech/text",
+      "value": "There are currently no inactive crew members.\n\nCrew members become inactive if the the number of active crew exceeds the number of crew your ship can support."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/noStoredCrewSpeech/text",
+      "value": "現在、待機中のクルーはいません。\n\n活動中のクルーが船の収容人数を超えると、超過したクルーは待機状態になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/shipStatus/0/text",
+      "value": "Zzz... Zzz... Zzz..."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/shipStatus/0/text",
+      "value": "すや…すや…すや…"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/shipStatus/1/text",
+      "value": "> Ship thrusters are currently offline.\n> Ship teleportation system functioning correctly.\n> ^green;Currently only the planet below is accessible."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/shipStatus/1/text",
+      "value": "> 船のスラスターは停止中です。\n> テレポートシステムは正常に動作しています。\n> ^green;現在は直下の惑星にのみ移動できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/shipStatus/2/text",
+      "value": "> Ship thrusters are online.\n> Ship teleportation system functioning correctly.\n> ^green;Planets within this star system are accessible."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/shipStatus/2/text",
+      "value": "> 船のスラスターは稼働中です。\n> テレポートシステムは正常に動作しています。\n> ^green;この星系内の惑星へ移動できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/Speech/shipStatus/3/text",
+      "value": "> Ship thrusters are online.\n> FTL drive is online.\n> Ship teleportation system functioning correctly.\n> ^green;The entire universe is accessible."
+    },
+    {
+      "op": "replace",
+      "path": "/Speech/shipStatus/3/text",
+      "value": "> 船のスラスターは稼働中です。\n> FTLドライブは稼働中です。\n> テレポートシステムは正常に動作しています。\n> ^green;宇宙のあらゆる場所へ移動できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/currencies/fu_research",
+      "value": "Research"
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/currencies/fu_research",
+      "value": "研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/currencies/fu_tradegoods",
+      "value": "Trade Goods"
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/currencies/fu_tradegoods",
+      "value": "交易品"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/currencies/main",
+      "value": "Main"
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/currencies/main",
+      "value": "メイン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/currencies/unsorted",
+      "value": "Unsorted"
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/currencies/unsorted",
+      "value": "未分類"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/buttonError",
+      "value": "^red;ERROR:^reset;\nNo button was pressed, but the function for it was called.\nPlease report how you achieved this on the Steam page or Discord server, and try clicking the button again."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/buttonError",
+      "value": "^red;エラー:^reset;\nボタンが押されていないのに、対応する処理が呼び出されました。\nSteamページかDiscordで発生時の操作を報告し、もう一度ボタンを押してみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/customAI",
+      "value": "Insert A.I. chips in the slots below to customize the A.I.\nClick the '^green;CRAFT^reset;' button to open the A.I. chip crafting menu."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/customAI",
+      "value": "下のスロットにAIチップを入れると、AIをカスタマイズできます。\n「^green;作成^reset;」ボタンを押すと、AIチップの製作メニューが開きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/error",
+      "value": "An error has occured. Please report this on the Steam page or Discord server with a log attached. ^green;If the error message below is green, you should pay attention to it.^reset;\n\nMeanwhile, you can click any of the buttons to open the vanilla version of SAIL."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/error",
+      "value": "エラーが発生しました。ログを添えて、SteamページかDiscordで報告してください。^green;下のエラーメッセージが緑色の場合は、その内容を確認してください。^reset;\n\n各ボタンから標準版SAILを開くこともできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/intro",
+      "value": "Welcome to S.A.I.L.\n\nUsing this interface you can check the ship's status, view your currency ^green;[BALANCE]^reset;, begin ^green;[MISSIONS]^reset;, manage your ^green;[CREW]^reset;, and access other useful ^green;[MISC]^reset; features."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/intro",
+      "value": "S.A.I.L.へようこそ。\n\nこの画面では船の状態を確認し、^green;[残高]^reset;を表示し、^green;[ミッション]^reset;を開始し、^green;[クルー]^reset;を管理できます。^green;[その他]^reset;から便利な機能も利用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/noCustomAIMod",
+      "value": "^red;ERROR:^reset;\nMissing the '^green;Scripted Artificial Intelligence Lattice^reset;' mod.\nPlease install it if you wish to use this feature."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/noCustomAIMod",
+      "value": "^red;エラー:^reset;\n「^green;Scripted Artificial Intelligence Lattice^reset;」MODが見つかりません。\nこの機能を使う場合は導入してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/TextData/strings/promiseError",
+      "value": "customDataPromise failed - Incompatible or faulty SAIL object definition. Please contact the modder who made your current race about a fault in their techStation object definition."
+    },
+    {
+      "op": "replace",
+      "path": "/TextData/strings/promiseError",
+      "value": "customDataPromiseの処理に失敗しました。SAILオブジェクトの定義に互換性の問題か不具合があります。使用中の種族MODの作者に、techStationオブジェクトの定義に問題があることを知らせてください。"
+    }
+  ]
+]

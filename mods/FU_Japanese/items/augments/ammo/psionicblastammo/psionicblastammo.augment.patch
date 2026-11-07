@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Mental Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "精神的発火"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires psionic bursts"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発火したシオニックバースト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mental Blast Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "精神爆薬"
+    }
+  ]
+]

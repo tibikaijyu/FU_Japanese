@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "UNENCRYPTED QUANTUM TRANSMISSION RECEIVED\nFROM: USCMCENTCOM EARTH\nBEGIN MESSAGE:\nALL STATIONS. EARTH UNDER HEAVY ATTACK. ORDERS ARE TO HOLD FAST. GOOD LUCK\nEND MESSAGE"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "受信した暗号化されていない量子送信\nUSCMCENTCOMアースより\nメッセージを開始します。\n全ての駅。 地球は重く攻撃されている。 ご注文は速さでお持ちください。 幸運\nメッセージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #12572"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #12572"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #12572"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #12572"
+    }
+  ]
+]

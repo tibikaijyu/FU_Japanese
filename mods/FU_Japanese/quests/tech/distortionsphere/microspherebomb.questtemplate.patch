@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can now adjust the microsphere tech and allow it to materialize bombs using the [FIRE] key!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "マイクロスフィアの技術を調整し、[ファイア]キーを使って爆弾を具体化することができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I can now adjust the microsphere tech and allow it to materialize bombs using the [FIRE] key!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "マイクロスフィアの技術を調整し、[ファイア]キーを使って爆弾を具体化することができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Baby Bomba"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ボンバ"
+    }
+  ]
+]

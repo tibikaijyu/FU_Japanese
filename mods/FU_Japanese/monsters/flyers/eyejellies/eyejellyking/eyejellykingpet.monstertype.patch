@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An array of eyes immersed in a violet viscous fluid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオレット粘性流体に浸された目の配列。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Behemoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチノス・ビヘモス"
+    }
+  ]
+]

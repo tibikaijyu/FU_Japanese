@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pure carbon graphite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な炭素黒鉛。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pure Carbon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "純炭素"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This E.V.A suit is charred and no longer operational."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このEVAスーツはチャージされ、もはや動作しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charred E.V.A Suit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャリティースーツ"
+    }
+  ]
+]

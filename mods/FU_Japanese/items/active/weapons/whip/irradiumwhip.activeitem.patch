@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whip coated in irradium. Rad.\n^cyan;Inflicts Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "インラジウムでコーティングしたホイップ。 レッド\n^cyan;放射線照射による熱傷^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤外線ホイップ"
+    }
+  ]
+]

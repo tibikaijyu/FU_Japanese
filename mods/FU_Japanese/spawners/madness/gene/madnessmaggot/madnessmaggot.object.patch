@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew. Why?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え? なぜでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Maggot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウジ虫"
+    }
+  ]
+]

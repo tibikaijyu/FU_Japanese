@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "The bottle is empty, so what's left to do but smash it?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ボトルは空なので、それを壊す以外には何が残っていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The bottle is empty, so what's left to do but smash it?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ボトルは空なので、それを壊す以外には何が残っていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An empty bottle of fancy water. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空のボトルの派手な水。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmash!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "こっわせ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Mischievous. There's nothing left in the bottle, so it's tempting to smash it."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ミスシエフ。 びんには何も残っていないので、壊してしまいがちです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The bottle is empty, so what's left to do but smash it?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ボトルは空なので、それを壊す以外には何が残っていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A small part of me would very much like to smash this bottle..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "少しだけこのボトルを壊したい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Yeehaw! Target practice!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "うーん! ターゲット練習!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Fancy Water Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空のファンシーウォーターボトル"
+    }
+  ]
+]

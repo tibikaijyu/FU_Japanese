@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Highly destructive. Don't poke your eye out.\n^blue;Inflicts Electrified^reset;\n^cyan;Epic Swooshy Alt^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に破壊的。 目を突っ込むな。\n^blue; 電化 ^reset; に作用します。\n^cyan;Epic Swooshy Alt^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Antimatter Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "反物質ブレード"
+    }
+  ]
+]

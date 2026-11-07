@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The metal interior is a little cold, but it's a cool mask, so it's definitely worth it!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属製のインテリアは少し寒いですが、クールなマスクなので、間違いなく価値があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Spider Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチスパイダーマスク"
+    }
+  ]
+]

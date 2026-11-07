@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Deals Percentage Damage. Captures creatures. Very shiny."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "被害額の割合が高い。 生物を捕獲する。 すごくキラキラ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega Capture Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガキャプチャーガン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extremely short ranged defensive laser drones."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超短距離防衛レーザードローン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Point Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポイントディフェンス"
+    }
+  ]
+]

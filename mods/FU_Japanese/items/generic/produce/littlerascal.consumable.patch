@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+12 HP^reset;, ^cyan;+20 EP^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力+12^reset;、^cyan;エネルギー+20^reset;：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Little Rascal Herb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リトルラスカハーブ"
+    }
+  ]
+]

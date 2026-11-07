@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Causes rage while increasing energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーを増加させながら怒りを引き起こします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pinkloom Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピンク織機種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweat Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汗をかくドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sweat Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汗をかくドローン"
+    }
+  ]
+]

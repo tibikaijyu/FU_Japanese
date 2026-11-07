@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place Servitor in the left slot."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;左スロットにサービターを置きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scanButton/caption",
+      "value": "Load Servitor"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scanButton/caption",
+      "value": "ロードサービタ"
+    }
+  ]
+]

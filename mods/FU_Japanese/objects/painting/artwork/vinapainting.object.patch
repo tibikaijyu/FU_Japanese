@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare species, immortalized in art."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "芸術で不死化した珍しい種。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Xariwiek"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザリウィック"
+    }
+  ]
+]

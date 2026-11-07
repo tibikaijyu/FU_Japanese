@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty material to build a bridge, doesn't even need supports."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブリッジを構築するためのきれいな材料は、サポートも必要ありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty bridge, sseems ssturdy."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいな橋、頑丈そうだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Joking. I never expected to be on a cosmic bridge."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "冗談だよ。 宇宙橋上にいるとは思わなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Ain't never seen a bridge made o' stars."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私は決して橋が星をつけたのを見たことがない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Bridge Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "愛園橋"
+    }
+  ]
+]

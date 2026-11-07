@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I would wager that this is excreted by something large and insectoid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は、これは大きくて昆虫のような何かによって排他されていると賭けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chitin Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キチン構造"
+    }
+  ]
+]

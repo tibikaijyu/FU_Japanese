@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect fit if you have a bad temper!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたが悪い気質を持っているなら完璧なフィット!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crabcano Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カニの帽子"
+    }
+  ]
+]

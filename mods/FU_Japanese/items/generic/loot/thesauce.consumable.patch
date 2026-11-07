@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects you from damage via some sort of...weird mojo.\n^cyan;+^white;30% ^cyan;Defense ^gray;(^white;2m^gray;) ^blue;Madness Gain^reset; 4"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかの...奇妙なモホを通して、あなたを損傷から保護します。\n^cyan;+^white;30% ^cyan;防衛 ^gray;(^white;2え?^gray;) ^blue;狂気の高まり^reset; 4"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Sauce"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソース"
+    }
+  ]
+]

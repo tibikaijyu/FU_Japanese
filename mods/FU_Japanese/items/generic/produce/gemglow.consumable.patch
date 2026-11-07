@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Grav-Rain: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;無効化 ^reset;: グラブ雨: 2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gemglow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゲンガロー"
+    }
+  ]
+]

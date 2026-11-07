@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Tiny Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身の小さなドア"
+    }
+  ]
+]

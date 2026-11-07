@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "^green;Lucky Severed Toe^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "^green;ラッキーセビアつま先^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+20%^reset; Physical Resistance\n^green;+3%^reset; Crit Chance\n^red;-50%^reset; Poison Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+20%^reset;物理抵抗\n^green;+3%^reset;クリティカル チャンス\n^red;-50%^reset; 耐毒性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^green;Lucky Severed Toe^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^green;ラッキーセビアつま先^reset;"
+    }
+  ]
+]

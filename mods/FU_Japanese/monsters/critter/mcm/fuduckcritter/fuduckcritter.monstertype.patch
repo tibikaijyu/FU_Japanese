@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small water bird. It has a long neck and powerful legs meant for swimming and diving."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな水鳥。 長い首と、水泳やダイビング用の強力な脚を持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Duck"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヒル"
+    }
+  ]
+]

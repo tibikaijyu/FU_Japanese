@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Micro-gravity turned into a weapon.\n^yellow;Short-ranged^reset;\n^green;Huge knockback^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "微小重力は武器に変わった。\n^yellow;ショートレンジ ^reset;\n^green; 巨大なノックバック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graviton Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラビトンピストル"
+    }
+  ]
+]

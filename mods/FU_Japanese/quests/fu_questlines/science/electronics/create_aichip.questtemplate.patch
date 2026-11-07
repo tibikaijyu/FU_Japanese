@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks. I've transferred payment for your troubles directly to your account."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとうございました あなたのトラブルの支払いをアカウントに直接転送しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;AI Chip^reset; to the goggled Novakid at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;AI Chip ^reset; を ^orange;科学前哨基地^reset; でゴーグル付き ノヴァキッド に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "AI is expressly forbidden on my homeworld. But I need an ^orange;AI Chip^reset; for my research! Can you please bring me one? I would reward you nicely."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "AIは私の故郷では明示的に禁止されています。 しかし、私の研究には^orange;AIチップ^reset;が必要です! 一つ持ってきてください。 君に報いるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Contraband"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "コントラバンド"
+    }
+  ]
+]

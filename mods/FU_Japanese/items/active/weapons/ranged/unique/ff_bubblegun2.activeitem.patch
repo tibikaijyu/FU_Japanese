@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks like a harmless bubble gun. It isn't.\n^yellow;Inflicts radiation burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "無害な気泡銃のように見える。 違います\n^yellow;放射線燃焼に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジェイク"
+    }
+  ]
+]

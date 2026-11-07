@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tabletop salt and pepper shakers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食卓上の塩とコショウのシェーカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Salt & Pepper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "塩・唐辛子"
+    }
+  ]
+]

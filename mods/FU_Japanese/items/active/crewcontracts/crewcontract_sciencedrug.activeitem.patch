@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a drug specialist to increase jump height and speed, and reduces your ship's fuel costs by 5%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプの高さと速度を向上し、船の燃料コストを5%で削減する薬剤専門家を雇います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Drug Specialist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薬剤スペシャリスト契約"
+    }
+  ]
+]

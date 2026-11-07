@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high quality industrial flooring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業床材。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金フロアリング"
+    }
+  ]
+]

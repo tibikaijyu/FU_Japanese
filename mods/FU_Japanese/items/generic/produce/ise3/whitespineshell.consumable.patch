@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Sulphuric Acid: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫^reset;:硫酸:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Whitespine Shell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シロイヌナズナ"
+    }
+  ]
+]

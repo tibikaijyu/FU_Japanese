@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Something about this painting..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この絵の何か...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Gaze"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "視線"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An eye immersed in a viscous fluid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粘性流体に溶け込んだ目。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムアイ"
+    }
+  ]
+]

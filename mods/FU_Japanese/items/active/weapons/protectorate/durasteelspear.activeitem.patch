@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A durasteel spear. Among the finest.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デュラスチールのスピア。 最高級です。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラ鋼製スピア"
+    }
+  ]
+]

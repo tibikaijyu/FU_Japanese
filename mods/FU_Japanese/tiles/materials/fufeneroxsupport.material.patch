@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A primitive support beam made of wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木製の原始的な支持梁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Made for holdin' spaceships together."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "一緒に宇宙船を停めるために作られた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェナロックスのサポート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old Protectorate favorite dessert! Just like mom used to make. \n^cyan;+^reset;10% ^green;Energy^reset;^cyan; +^reset;10% ^green;HP^reset; \n^orange;Type: Fruit Dairy Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古いプロテクターのお気に入りのデザート! お母さんが作ったように。 \n^cyan;+^reset;10% ^green;エネルギー^reset;^cyan; +^reset;10% ^green;HP^reset; \n^orange;タイプ:フルーツ乳製品デザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apple Cinnamon Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リンゴとシナモンのパイ"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "My mech should be able to deploy in relative safety from within this pod."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私のメカは、このポッド内から比較的安全にデプロイできるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "These pods are meant to withstand a great deal of damage."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これらのポッドは、大きな損傷に耐えることを意図しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metal hull used to safely deploy personal Mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカを安全に展開するために使用される金属製の船体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran's mech is sssafe in metal ssshell."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランの機械は金属製のシェルで安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relieved. Even with hostiles about, I should be safe deploying my mech in this hull."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "救われた。 たとえ敵対者であっても、私はこの船体に機械を安全に配備する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This mech hull falls apart once it gets to its destination - kinda like rocket boosters."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このメカ船体は、目的地に着くと、まるでロケットブースターのようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A sturdy deployment pod made for mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "メカのために作られた頑丈なデプロイポッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Once I'm outta this pod, just about anything could happen."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私がこのポッドを外したら、ほとんど何も起こり得ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Mech Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空のメカポッド"
+    }
+  ]
+]

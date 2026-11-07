@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blink Dash in the air! Cooldown: 2.0s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダッシュを空中に点滅させよう! クールダウン: 2.0s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Air Blink"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "エアリンク"
+    }
+  ]
+]

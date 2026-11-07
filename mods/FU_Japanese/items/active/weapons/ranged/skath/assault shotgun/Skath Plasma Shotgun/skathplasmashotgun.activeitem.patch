@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": " Plasma Grenade"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": " プラズマグレネード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "'A high tech shotgun that fires plasma rounds.'"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「プラズマ弾を発射するハイテクショットガン。'"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Plasma Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカースプラズマショットガン"
+    }
+  ]
+]

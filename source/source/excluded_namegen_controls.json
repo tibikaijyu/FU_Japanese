@@ -1,0 +1,29 @@
+{
+  "reason": "Internal Markov namesource references are not display strings. Both source IDs must equal the unmodified .namesource name.",
+  "error_from_user_log": "(NameGeneratorException) Unknown name source 'エル・デュカ・マール'",
+  "version_removed": "0.2.1",
+  "removed_translations": [
+    {
+      "id": "b8ec3db0639d5eb8eab8",
+      "asset": "species/elduukharfemalenamegen.config",
+      "path": "/names/1/1/0/source",
+      "source": "elduukharfemale",
+      "translation": "エルドゥカー・メス",
+      "category": "generated_names",
+      "method": "machine",
+      "origin": "species/elduukharfemalenamegen.config"
+    },
+    {
+      "id": "4c69f468bdd0a97e0a73",
+      "asset": "species/elduukharmalenamegen.config",
+      "path": "/names/1/1/0/source",
+      "source": "elduukharmale",
+      "translation": "エル・デュカ・マール",
+      "category": "generated_names",
+      "method": "machine",
+      "origin": "species/elduukharmalenamegen.config"
+    }
+  ],
+  "namesource_candidates_retained": 114,
+  "runtime_tested": false
+}

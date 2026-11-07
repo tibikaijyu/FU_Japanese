@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "This was all just so weird."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "全てがとても奇妙でした"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Poke the strange crystal again to get your reward."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "あなたの報酬を得るために再び奇妙な結晶をポーク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I should poke the crystal again to get my reward."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は報酬を得るために再び水晶を突っ込むべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Challenge Labs Complete!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;チャレンジラボ完成!"
+    }
+  ]
+]

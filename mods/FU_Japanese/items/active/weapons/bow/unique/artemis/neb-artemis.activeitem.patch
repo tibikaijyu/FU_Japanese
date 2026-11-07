@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual yet fearsome bow, the hefty arrows it slings always return."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しいが怖い弓、それはスリングが常に戻ってくる重い矢印。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Artemis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルテミス"
+    }
+  ]
+]

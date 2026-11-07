@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.08% HP Regen^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;体力再生+0.08%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leather Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レザーシールド"
+    }
+  ]
+]

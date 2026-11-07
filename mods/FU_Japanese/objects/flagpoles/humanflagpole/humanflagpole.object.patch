@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A human flag. Looks like it represents their organisation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "人間の旗。 組織を表しているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I see this human symbol a lot."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "私はこの人間のシンボルをたくさん見ます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The flag of the Protectorate. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保護国の旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran like meatman flag!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミートマンフラグみたい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. A human flag, depicting the alternate symbol of the Terrene Protectorate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 人間の旗、テレネ保護区の代替シンボルを描いています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The other flag of the Protectorate!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "プロテクトレートのもう一つの旗だ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This human flag represents intercolonial co-operation."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この人間の旗は植民地間協力を表している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Can't say I'm as familiar with this Protectorate flag."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの保護国旗に慣れていないと言うことはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人間の旗"
+    }
+  ]
+]

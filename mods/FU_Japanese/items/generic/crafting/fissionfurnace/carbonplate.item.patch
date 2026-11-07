@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Carbon plating can be used for armor or other goods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炭素めっきは、装甲やその他の商品に使用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Plate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素板"
+    }
+  ]
+]

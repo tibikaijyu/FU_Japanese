@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despite its protective appearance, this will not serve as a replacement for a proper helmet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その保護的な外観にもかかわらず、これは適切なヘルメットの交換として機能しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iguarmor Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イグアーマーハット"
+    }
+  ]
+]

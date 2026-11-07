@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A copper ladder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製のはしご。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ladder iss made from sshiny copper."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ラダーは光沢のある銅から作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. This ladder is made from copper."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 このはしごは銅製です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A ladder made outta copper."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "はしごが銅でできた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Ladder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅ラダー"
+    }
+  ]
+]

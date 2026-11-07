@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Debug tool to generate an item from code. Doubles as an item copier."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コードからアイテムを生成するデバッグツール。 アイテムコピーとして二重になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムジェネレータ"
+    }
+  ]
+]

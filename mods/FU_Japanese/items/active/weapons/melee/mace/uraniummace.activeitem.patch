@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Completely non-toxic"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全無毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランメイス"
+    }
+  ]
+]

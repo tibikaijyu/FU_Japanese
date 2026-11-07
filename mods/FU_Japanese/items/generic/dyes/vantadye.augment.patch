@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This coloured dye can be applied to a piece of armour or clothing with a right-click."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "右クリックで防具や服を染められる染料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vantablack Dye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァンタブラック染料"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shrouded Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ひろがった若い女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Shrouded Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若き女王"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Article 4, Paragraph 2.\nObey your superiors.\n\n Those who stand above you must be respected. Disobeying the commands of your superior gives your superior the authority to punish you in a way appropriate to the severity of disobedience (so long as your honour is untouched). If your superior chooses a punishment that affects your honour, you may report it to an officer after completing your punishment."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "記事 4 、パラグラフ 2 。\n上官を裏切りなさい。\n\n 上から立つ者は尊敬されなければならぬ。上から命令に従わなければ、上から(あなたの名誉が手付かずであれば)不服従の重大さに相応しい方法であなたを罰する権限を与えられる。上から名誉に影響する刑を選択すれば、その罰を終えた後にそれを士官に報告することができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An excerpt from the Codex of War."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦国コードから抜粋。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Codex of War 2"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "戦国コード 2"
+    }
+  ]
+]

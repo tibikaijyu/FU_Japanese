@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks so much. You are a life saver! Now I can tinker with plant life! Maybe I can figure out how to upgrade it, too!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとうございました あなたは命を救う人です! 今、私は植物をいじくり回すことができます! アップグレードする方法も分かるかも!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Greenhouse^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^green;温室^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Greenhouses^reset; are all the rage these days. I want one, but my budget can't swing it. Do you have one lying around I might use?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;温室^reset;は、最近流行している。 欲しいけど予算が回らない。 私が使うかもしれないのに嘘をついていますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gene Designing"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "遺伝子設計"
+    }
+  ]
+]

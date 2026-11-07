@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A freakish mutant plant with blood-filled tomatoes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血をまとったトマトを入れた、奇抜な突然変異植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Teratomato Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テラトマト種子"
+    }
+  ]
+]

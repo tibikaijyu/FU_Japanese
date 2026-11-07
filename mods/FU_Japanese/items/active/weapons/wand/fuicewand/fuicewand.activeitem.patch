@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freeze your enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を凍らせなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストワンド"
+    }
+  ]
+]

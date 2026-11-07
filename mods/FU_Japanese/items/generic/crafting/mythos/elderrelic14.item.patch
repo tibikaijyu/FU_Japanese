@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A non-euclidian artifact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非ユークリッドのアーティファクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Trapezohedron^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;偏方多面体^reset;"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ice cream with the delightful taste of custard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カスタードの楽しい味わいのアイスクリーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Taste jussst like birdman egg! But sssweeter."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "バードマンの卵みたいに味わえ! でも、もっと甘い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. Much tastier than I would have imagined."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 想像していたよりもずっと美味しかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Pretty creamy. This ice cream's practically yogurt."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "かなりクリーミーです。 このアイスクリームは事実上ヨーグルトだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eggshoot Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エッグシュートアイスクリーム"
+    }
+  ]
+]

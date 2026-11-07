@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A new style of textile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テキスタイルの新しいスタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poly-Thread Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "多糸パンツ"
+    }
+  ]
+]

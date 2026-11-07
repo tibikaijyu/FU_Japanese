@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jagged and not-too-friendly.\n^cyan;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ギザギザでフレンドリーすぎない。\n^cyan; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coral Stingblade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンゴの刺繍"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A Protectorate flag. I can use this as a waypoint for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "保護旗。 これをテレポーテーションのウェイポイントとして使うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This Protectorate flag can be bookmarked as a destination for my ship teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このプロテクトレートフラグは、船のテレポーターの宛先としてブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Protectorate flag. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保護旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Protectorate flag makesss good point to teleport back to usssing teleporter!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "プロテクトレートフラグは、テレポートをテレポートに戻す良いポイントになります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A small locator module attached to this Protectorate flag allows it to be bookmarked for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この プロテクトレート フラグに付随する小さなロケータモジュールにより、テレポーテーション用のブックマークが可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This Protectorate flag can be saved as a location for my teleporter. Then I can return to it at any time."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このプロテクトレートフラグは、テレポーターの場所として保存することができます。 その後、私はいつでもそれに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This Protectorate flag can act as a way point, enabling me to return to this point using a teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このプロテクトレートフラグはウェイポイントとして機能し、テレポーターを使ってこのポイントに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can bookmark this Protectorate flag for quick teleportin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこのプロテクトレートフラグをブックマークして、すぐにテレポートすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protectorate Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "保護旗"
+    }
+  ]
+]

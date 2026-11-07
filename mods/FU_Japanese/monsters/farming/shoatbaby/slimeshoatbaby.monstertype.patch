@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A newborn shoat's diet determines the type it grows into."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新生児のシュートの食事は、それが成長するタイプを決定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoat Lamb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "靴子羊"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The body of a Snowapex."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪山の体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Snowbody"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頂点雪体"
+    }
+  ]
+]

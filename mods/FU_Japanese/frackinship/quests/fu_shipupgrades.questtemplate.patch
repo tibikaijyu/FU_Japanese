@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You shouldn't complete this quest."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あなたはこの冒険を終えるべきではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Adding certain machines to your ship will upgrade its abilities. An FTL drive is required to navigate the stars."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたの船に特定の機械を追加すると、その能力をアップグレードします。 恒星をナビゲートするには、FTLドライブが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ship Quest Tracker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "船舶クエストトラッカー"
+    }
+  ]
+]

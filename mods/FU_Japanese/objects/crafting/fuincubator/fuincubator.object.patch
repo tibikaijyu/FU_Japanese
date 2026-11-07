@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatch eggs into creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卵を生物に捕らえなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Incubator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;インキュベーター^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Resource converter"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "リソースコンバータ"
+    }
+  ]
+]

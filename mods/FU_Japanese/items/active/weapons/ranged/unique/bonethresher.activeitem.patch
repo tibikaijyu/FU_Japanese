@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shoots sharp bone shards that cause enormous pain.\n^cyan;Bio Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "激しい痛みを引き起こす鋭い骨のかけらを撃つ。\n^cyan;生体武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Shard Thresher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨硬化スレッシャー"
+    }
+  ]
+]

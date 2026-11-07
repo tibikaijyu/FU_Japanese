@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a hotspring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を温泉に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hotsprings Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "温泉マイクロフォーマ"
+    }
+  ]
+]

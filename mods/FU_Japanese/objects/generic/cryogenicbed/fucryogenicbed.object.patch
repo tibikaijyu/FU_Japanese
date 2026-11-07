@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A great way to sleep off that hangover."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その二日酔いをなくすのに最適な方法。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cryogenic Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "極低温ポッド"
+    }
+  ]
+]

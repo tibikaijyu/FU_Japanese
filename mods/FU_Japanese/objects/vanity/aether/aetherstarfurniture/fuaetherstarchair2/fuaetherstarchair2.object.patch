@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Too bad I can't swivel in this chair... It would be so cool if I could, though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残念なことに、この椅子で回転できない。 でも、できるなら、とてもクールだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Bar Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙エーテルバーチェア"
+    }
+  ]
+]

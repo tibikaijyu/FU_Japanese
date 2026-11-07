@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Checks if the room is enclosed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "部屋が閉まっているかどうかを確認します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "BYOS Atmosphere Temp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "BYOSの大気温度"
+    }
+  ]
+]

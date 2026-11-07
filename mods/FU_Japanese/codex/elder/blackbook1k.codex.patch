@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Foul liquids, toxic.\nChained and helpless.\nOne, the lock pick.\nBe patient, and judge each in turn.\nAwait the Old Ones decision."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "汚い液体、有毒。\n鎖と無力。\n一つは、ロックピック。\n忍耐強く、順番に判断しなさい。\nオールドワンズの決定を待ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seems to be a hint of some sort."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何らかのヒントのように思えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Passage"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "経過"
+    }
+  ]
+]

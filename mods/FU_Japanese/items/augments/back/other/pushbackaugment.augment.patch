@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Repulsor Field I"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "レパルサー場I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keeps enemies away from you with a ^orange;24ms pulsing electric field^reset;\n^cyan;20 Knockback^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;24ms パルス電場 ^reset; で敵を遠ざける。\n^cyan;20ノックバック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repulsor Field I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レパルサー場I"
+    }
+  ]
+]

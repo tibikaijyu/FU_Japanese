@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pear Mash, the product of crushed and squeezed pears."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧搾した梨の製品「ピアマッシュ」。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pear Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピアマッシュ"
+    }
+  ]
+]

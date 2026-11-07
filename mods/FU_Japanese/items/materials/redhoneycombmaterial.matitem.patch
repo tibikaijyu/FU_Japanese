@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Waxy!\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やだ!\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Honey Material"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドハニー素材"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A comfy golden oak bed with a headboard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘッドボード付きの快適なゴールデンオークベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Oak Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンオークベッド"
+    }
+  ]
+]

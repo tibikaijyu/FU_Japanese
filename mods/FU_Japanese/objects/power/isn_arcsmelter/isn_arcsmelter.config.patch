@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileBody",
+      "value": "/interface/crafting/icons/fu_furnaceBody.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseInputCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=071e43ff?scalenearest=22;10",
+        "position": [
+          4,
+          60
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseInputTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          15.0,
+          65.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "投入",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

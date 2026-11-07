@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A devastating dark matter sidearm.\n^yellow;Extremely fast rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壊滅的なダークマターサイドアーム。\n^yellow;非常に速いラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-4 Keter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-4 ケテル"
+    }
+  ]
+]

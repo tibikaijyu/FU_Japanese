@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires frost blasts.\n^yellow;Counts as 'ice' or 'isogen' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 凍った火を放つ。\n^yellow;セットボーナスは「氷」「アイソゲン」と数える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Arm Cannon (Ice)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;アームキャノン(氷)^reset;"
+    }
+  ]
+]

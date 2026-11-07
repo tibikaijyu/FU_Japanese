@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks exactly like another famous painting, but crappier."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるで別の有名な絵画のように見えますが、もっとくだらないです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Starscape"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタースケープ"
+    }
+  ]
+]

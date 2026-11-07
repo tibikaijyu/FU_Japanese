@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An orb of glowing energy growing from a plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物から成長している光るエネルギーのオーブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energiflower Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギフラワー種子"
+    }
+  ]
+]

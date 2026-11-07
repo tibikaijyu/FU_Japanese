@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bulky crossbow with poison-tipped bolts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒入りボルト付きのかさばるクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスのクロスボウ"
+    }
+  ]
+]

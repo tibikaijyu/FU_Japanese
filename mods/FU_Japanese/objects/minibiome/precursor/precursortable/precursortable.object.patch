@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Surprisingly stark and simple for a super-race."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スーパーレースで驚くことにスタークでシンプル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前置表"
+    }
+  ]
+]

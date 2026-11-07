@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Roasted to perfection. ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶賛された。 ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

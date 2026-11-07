@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/essence",
+      "value": "Essence"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/essence",
+      "value": "エッセンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/fugeneticmaterial",
+      "value": "Genes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/fugeneticmaterial",
+      "value": "遺伝子"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/fumadnessresource",
+      "value": "Madness"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/fumadnessresource",
+      "value": "狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/fuprecursorresource",
+      "value": "Protheon"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/fuprecursorresource",
+      "value": "プロセオン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/fuscienceresource",
+      "value": "Research"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/fuscienceresource",
+      "value": "研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/currencies/money",
+      "value": "Pixels"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/currencies/money",
+      "value": "ピクセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/info/0",
+      "value": "Instructions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/info/0",
+      "value": "操作説明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/info/1",
+      "value": "Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\n\n- The topmost button at the right corner closes the research interface.\n\n- The second button opens a list of research trees to pick from.\n\n- The third button opens a list of non-hidden research options. Click a research on the displayed to center the view on it. Click again to hide the list.\n\n- The fourth button will center the view on the middle of the tree, or the currently selected research.\n\n- The last button toggles ^orange;low quality mode^reset;. This makes the GUI jump to a position instead of panning to it, or the center button. In addition, dragging/navigating on the the main screen will update only after you release the mouse button. It is best to use the search list with this mode enabled."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/info/1",
+      "value": "グリッド上のアイコンのいずれかをクリックして研究を選択します。\n左のマウスボタンでドラッグすると、グリッドをナビゲートできます。\n\n- 右隅にある最上部のボタンが研究インターフェースを閉じます。\n\n- 二番目のボタンは、選択する研究ツリーのリストを開きます。\n\n- 三番目のボタンは非隠れた研究オプションのリストを開きます。 表示されている研究をクリックして、ビューを集中します。 リストを非表示にするには、もう一度クリックします。\n\n-四つ目のボタンは、木の真ん中、または現在選択されている研究のビューを集中します。\n\n-最後のボタンは、^orange;低品質モード^reset; を切り替えます。 これにより、GUIはパンニングや中央ボタンではなく、ポジションにジャンプします。 また、マウスボタンを離すと、メイン画面でドラッグ/ナビゲーションが更新されます。 このモードを有効にして検索リストを使用することをお勧めします。"
+    }
+  ]
+]

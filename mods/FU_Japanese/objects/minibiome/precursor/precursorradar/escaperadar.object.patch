@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of radar technology utilizing completely alien methods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全にエイリアン方式を利用したレーダー技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Transwarp Transmitter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トランスワープトランスミッタ"
+    }
+  ]
+]

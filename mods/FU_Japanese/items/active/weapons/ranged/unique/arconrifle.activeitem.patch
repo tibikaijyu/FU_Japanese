@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Deadly and rapid fire plasma for spreading joy.\n^cyan;Counts as 'plasma' for set bonuses.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "喜びを広めるための致命的で迅速な火のプラズマ。\n^cyan; セットボーナスの「プラズマ」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコンライフル"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A refreshing salsa made from tropical and ocean fruits."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱帯と海の果実から作られた爽やかなサルサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can almost taste the sssea breeze in this jam."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、このジャムで海風をほとんど味わうことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Convinced. This would make a fantastic addition to any luau."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "確信した。 これはどんなルアウにも素晴らしい追加になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This sure tastes like the sea, alright."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これは確かに海のような味です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ocean Salsa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オーシャンサルサ"
+    }
+  ]
+]

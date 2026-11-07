@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unusually delicious, harmless, and able to calm the mind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異常に美味しく、無害で、心を落ち着かせることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garflipp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガーフリップ"
+    }
+  ]
+]

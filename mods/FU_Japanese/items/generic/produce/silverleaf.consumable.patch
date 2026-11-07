@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Energy x1.35^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;エネルギーx 1.35^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silverleaf Herb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀葉ハーブ"
+    }
+  ]
+]

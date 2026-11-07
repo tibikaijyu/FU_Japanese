@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "by Hiraki Corale, Hylotl Adventurer\nLet it never be said that I do not attempt to integrate with whichever hosts I find myself indebted to. I have noticed that when addressing me, the Glitch use prefix words. Examples: 'Dismissive', 'Annoyed', 'Sarcastic' and 'Frustrated'. Feeling as if this is a custom I should celebrate, I have begun to partake in such linguistic frippery myself."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ヒロトル・アドベンチャーズのヒラキ・コーラレが\n自分が借りているホストと統合しようとしないとは決して言わないようにしましょう。 私は、グリッチがプレフィックスワードを使っていることに気がついた。 例: 'Dismissive'、'Annoyed'、'Sarcastic'、'Frustrated'。 まるでこの風習を祝福するかのように、私はそんな言葉遣いのフリッピーに加わり始めた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "'Delight. It is nice to see you.' I said, but the Glitch just looked at me strangely, and then said something to his friend. I noticed something here, too. When the Glitch address each other, they do not use these prefix words. Perhaps something in their programming means they can read each others' tones without explanation."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "「おいで、会えて嬉しいです」 私は言った、しかし、グリッチはちょうど奇妙なように私を見て、その後、彼の友人に何かを言った。 私もここで何かに気づきました。 グリッチが互いにアドレスを合わせると、これらのプレフィックス語は使用されません。 おそらく彼らのプログラミングでは、お互いに説明なしで音を読めるということです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Prefix Problem"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "接頭辞問題"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Prefix Problem"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "接頭辞問題"
+    }
+  ]
+]

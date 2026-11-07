@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge, ultra-quality screen unmarred by eons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大で超高品質のスクリーン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Huge Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大モニタ"
+    }
+  ]
+]

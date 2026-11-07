@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Feeding III"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "摂食 III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "EPP Module: -^green;50^reset;% Hunger Drain"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "EPPモジュール: -^green;50^reset;%空腹ドレイン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feeding III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "摂食 III"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ship turret gifted to the Fenerox, to defend their territory on the galactic scale."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フェネロックスに贈られた船の砲塔は、その領土を銀河規模で防衛するためであった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "羽根毒タレット"
+    }
+  ]
+]

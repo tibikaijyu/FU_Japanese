@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very neat, gentle-looking bottom piece."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常にきれいで、優しく見えるボトムピース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Suit bottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スーツ底面"
+    }
+  ]
+]

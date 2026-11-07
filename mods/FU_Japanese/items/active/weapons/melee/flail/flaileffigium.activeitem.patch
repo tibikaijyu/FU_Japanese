@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Emits dense shadow matter.\n^cyan;Breaks blocks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃密な影物質を放出する。\n^cyan;ブロックを破る^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウムストライカー"
+    }
+  ]
+]

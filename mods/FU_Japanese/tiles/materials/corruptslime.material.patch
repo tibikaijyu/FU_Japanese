@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All that remains after being touched by Dark Water."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべてはダークウォーターに触られた後に残ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corruption"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破損"
+    }
+  ]
+]

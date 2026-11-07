@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cherry Mash, the product of crushed and squeezed cherries."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チェリーマッシュ(Cherry マッシュ)は、チェリーを粉砕し絞った製品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェリーマッシュ"
+    }
+  ]
+]

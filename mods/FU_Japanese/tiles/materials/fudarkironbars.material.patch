@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Durable. Perfect for jails."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久。 刑務所に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tempered Iron Bars"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼戻し鉄棒"
+    }
+  ]
+]

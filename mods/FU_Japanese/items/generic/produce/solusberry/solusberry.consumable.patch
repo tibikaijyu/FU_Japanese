@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't think this is healthy food...\n^yellow;^reset;^#b3b398;Glow^reset;: 90s\n^yellow;^reset;^red;Burning^reset;: 10s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは健康的な食べ物とは思えない。\n^yellow;^reset;^#b3b398;発光^reset;:90s\n^yellow;^reset;^red;バーニング^reset;:10s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solusberry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソルスベリー"
+    }
+  ]
+]

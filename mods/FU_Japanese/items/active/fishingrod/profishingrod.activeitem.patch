@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pro-level rod with long line length and fast reeling time. Also durable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長いライン長と速いリーリング時間を持つプロレベルのロッド。 耐久性もある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pro Fishing Rod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロ釣り棒"
+    }
+  ]
+]

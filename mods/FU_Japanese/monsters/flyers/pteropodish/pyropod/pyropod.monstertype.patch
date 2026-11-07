@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "In addition to wings, this monster can propel itself like a rocket."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このモンスターは、翼に加えてロケットのように自走できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyropod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火薬類"
+    }
+  ]
+]

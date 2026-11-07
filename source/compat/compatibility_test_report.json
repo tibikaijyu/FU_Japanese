@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "assertions": 1139,
+  "ascii_regression_cases": 13,
+  "unicode_cases": 19,
+  "runtime": "Lua 5.4",
+  "upstream_sha256": "7cc6d3ac5148bad81549c7892083dd4a946ce85853df041f4d433c3a8294c214",
+  "patched_sha256": "74e62d0ad4d1d1d78b8e5b95eb40a0acd78cb0b6f1322552d0daa4ce220e1cf8",
+  "limitations": "Lua logic test only; Starbound in-game rendering not exercised."
+}

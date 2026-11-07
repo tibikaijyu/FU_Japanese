@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This stuff glows. Nifty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは光る。 素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bioluminescent Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生物発光シュルーム"
+    }
+  ]
+]

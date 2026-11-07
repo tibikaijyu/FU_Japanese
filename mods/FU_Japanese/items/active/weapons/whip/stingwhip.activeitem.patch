@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Real jellyfish aren't electric, but this bad boy sure is. Deals great damage at the tip."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のクラゲは電動じゃないけど、この悪い子が確かに。 先端に大きな損傷を扱います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stinger Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "刺し毛"
+    }
+  ]
+]

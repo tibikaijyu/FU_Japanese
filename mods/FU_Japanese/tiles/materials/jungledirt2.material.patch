@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Moist leafy dirt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "湿った葉の汚れ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jungle Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャングル土壌"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An automated slime spitting sprinkler."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動スライムスパッティングスプリンクラー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Acid Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酸性トラップ"
+    }
+  ]
+]

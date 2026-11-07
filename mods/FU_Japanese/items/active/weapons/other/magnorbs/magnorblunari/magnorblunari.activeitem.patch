@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This lunari-forged weapon can both defend and attack. Quite useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "防御と攻撃の両方を行うことができる。 かなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Electric Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "電気抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shard Field"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャードフィールド"
+    }
+  ]
+]

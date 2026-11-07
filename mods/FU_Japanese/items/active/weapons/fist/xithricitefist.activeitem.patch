@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for punchification."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンチ加工に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Cestus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジトリサイト・セスト"
+    }
+  ]
+]

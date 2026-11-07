@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You'd like to go somewhere, but there's a huge tentacle in the way!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どこかへ行きたいけど、道のりには大きな触手がある!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tentacle Barrier (Ruin)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テンタクルバリア(廃れ)"
+    }
+  ]
+]

@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clearInputs/caption",
+      "value": "Clear Inputs"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clearInputs/caption",
+      "value": "クリアな入力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/filterBox/hint",
+      "value": "filter"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filterBox/hint",
+      "value": "フィルター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/refresh/caption",
+      "value": "Refresh"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/refresh/caption",
+      "value": "更新"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/request/caption",
+      "value": "Request"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/request/caption",
+      "value": "依頼"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/requestAllButOne/caption",
+      "value": "Request All-1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/requestAllButOne/caption",
+      "value": "すべてを要求する-1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/requestOne/caption",
+      "value": "Request X"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/requestOne/caption",
+      "value": "リクエストX"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ]
+]

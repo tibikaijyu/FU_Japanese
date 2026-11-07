@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solarium-infused sword, forged by Asra Nox. A broadsword that looks like a katana."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アスラ ノックスが鍛造したソラリウム注入剣。 刀のように見える太刀。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solus Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラス剣"
+    }
+  ]
+]

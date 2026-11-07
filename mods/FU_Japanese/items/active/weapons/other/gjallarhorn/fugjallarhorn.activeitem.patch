@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "If there is beauty in destruction, why not also in its delivery?\n  ^yellow;Wow.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破壊に美しさがある場合は、その配信にも注意してください。\n  ^yellow;すごい。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffbe32;Gjallarhorn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffbe32;ギャラルホルン^reset;"
+    }
+  ]
+]

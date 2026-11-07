@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reward for combat ability."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦闘能力に対する報酬。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prowess Medal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅メダル"
+    }
+  ]
+]

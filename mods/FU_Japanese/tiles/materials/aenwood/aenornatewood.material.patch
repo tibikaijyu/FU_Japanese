@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This wooden support is very pretty to look at."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この木製のサポートは、見るのがとてもきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty wood, Floran likess."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "美しい木材、フローラン好き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Why would anyone need a wood support this pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 木でできた支持が必要なのはなぜでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This support sure is pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このサポートは確かに美しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Ornate Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "華やかな木材"
+    }
+  ]
+]

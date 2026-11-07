@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heatlamp powered growing tray. Requires 3 seeds and ^red;additional^reset; water. ^cyan;Requires ^orange;1W ^cyan;power^reset; to increase production. Scan for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒートランプ式成長トレイ。 3シードと^red;追加^reset;水が必要です。 ^cyan; 生産を増やすには ^orange;1 W ^cyan; 電源 ^reset; が必要です。 スキャン情報。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Heatlamp Tray^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ヒートランプトレイ^reset;"
+    }
+  ]
+]

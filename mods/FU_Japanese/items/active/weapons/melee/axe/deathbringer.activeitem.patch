@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bone and sinew and death. Also, smiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨とシノと死。 また、笑顔。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deathbringer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死をもたらす人"
+    }
+  ]
+]

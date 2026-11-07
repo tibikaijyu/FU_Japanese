@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Berserker Unit"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "バーサーカーユニット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damage x^green;1.2^reset;, Health x^red;0.8^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "被害x^green;1.2^reset;健康x^red;0.8^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Berserker Unit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーサーカーユニット"
+    }
+  ]
+]

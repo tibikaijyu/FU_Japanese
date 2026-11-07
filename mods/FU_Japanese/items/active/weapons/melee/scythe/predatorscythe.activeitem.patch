@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despite simplicity, it leaks with deadly toxins."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "単純さにもかかわらず、それは致命的な毒素で漏れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Predator Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕食者サイス"
+    }
+  ]
+]

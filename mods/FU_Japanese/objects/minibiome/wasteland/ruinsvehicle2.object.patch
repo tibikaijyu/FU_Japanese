@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A vehicle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "車両。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Abandoned Vehicle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "廃車"
+    }
+  ]
+]

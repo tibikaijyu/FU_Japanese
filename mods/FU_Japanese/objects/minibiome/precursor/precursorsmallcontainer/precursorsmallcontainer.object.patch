@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy and of ancient design. Stores a lot for so small a space."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で古代デザイン。 小さなスペースをたくさん収納します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Precursor Container"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型プリカーサコンテナ"
+    }
+  ]
+]

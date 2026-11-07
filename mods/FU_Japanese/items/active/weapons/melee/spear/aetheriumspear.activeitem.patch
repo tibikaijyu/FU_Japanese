@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Aether Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "エーテルブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harnessed chaos, ready to poke your friends.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの友人を突っ込む準備ができて、ハーネスカオス。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテローム・スピア"
+    }
+  ]
+]

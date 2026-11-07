@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small decorative object to add detail to Glitch ships."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリッチ船に細部を追加する小さな装飾オブジェクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Greeble (Glitch)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シップグリーブル(グリッチ)"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "With this you can play electrician, linking up power nodes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これにより、電源ノードを接続して、電気技師を再生することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mechanic's Wrench"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "機械のレンチ"
+    }
+  ]
+]

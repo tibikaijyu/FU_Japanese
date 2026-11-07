@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I wonder if there are any secrets inside this locker?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このロッカーの中に何か秘密があるのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Could there be anything of value within this locker?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このロッカーの中に何か価値あるものはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A locker. Store some stuff, why don't you?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロッカー。 いくつかのものを保存、なぜしませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran ssearch Apex locker for valuabless."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "貴重品用のフローラン検索エイペックスロッカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Excited. Any items of interest inside I wonder?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興奮した。 中に興味のあるアイテムはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A ship's locker."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "船のロッカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Perhaps something useful is inside this locker."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "おそらく何か便利なものは、このロッカーの中にあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A safe place to store my loot."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私の略奪品を保管する安全な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shiplocker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船のロッカー"
+    }
+  ]
+]

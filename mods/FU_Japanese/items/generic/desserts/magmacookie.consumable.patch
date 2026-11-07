@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cookies are almost on fire. \n^pink;Lava^gray;, ^pink;Burning ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのクッキーはほとんど燃えている。 \n^pink;溶岩^gray;, ^pink;炎上 ^cyan;無効化 ^gray;(^white;5m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマクッキー"
+    }
+  ]
+]

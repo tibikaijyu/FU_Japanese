@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brutally effective magnet-based weaponry.\n^yellow;Area damage^reset;\n^yellow;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグネット方式の乱暴な武器。\n^yellow;領域損傷^reset;\n^yellow;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gauss Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガウス・ライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Overclocked capacitors take Gaussian mechanics to the extreme.\n^yellow;Area damage^reset;\n^yellow;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "オーバークロックされたコンデンサはガウス力学を極端に利用する。\n^yellow;領域損傷^reset;\n^yellow;ハンティング武器^reset;"
+    }
+  ]
+]

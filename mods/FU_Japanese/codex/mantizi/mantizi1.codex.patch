@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...for in such an act, you will find yourself in dire trouble. Depravity of this sort is abolished by the Oracles themselves, and as such is considered among the worst crimes possible by Mantizi citizens. So bear that in mind before buying a white-handled broom."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "......そんな行為をすると、あなたはひどく悩むことになるでしょう。 この種の汚職はOracle自身によって廃止され、それゆえにマンチジ市民が可能な最悪の犯罪と見なされる。 だから、白い柄のほうきを買う前に、それを念頭に置いてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A legal treatise of the Mantizi species."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マンティジ種の法定論文。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Writ of Law"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "法典"
+    }
+  ]
+]

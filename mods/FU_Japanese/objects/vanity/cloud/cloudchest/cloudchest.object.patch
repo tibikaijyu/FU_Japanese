@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small fluffy chest made of condensed water vapor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凝縮水蒸気で作られた小さなふわふわの胸部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウド胸部"
+    }
+  ]
+]

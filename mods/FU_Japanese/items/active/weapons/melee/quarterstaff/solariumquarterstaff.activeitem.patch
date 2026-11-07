@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glowy and full of radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝きと放射線がいっぱい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラリウムクォータースタッフ"
+    }
+  ]
+]

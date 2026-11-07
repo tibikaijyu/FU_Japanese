@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Straddles two universes. Amazing.\n^red;Deals Physical Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "二つの宇宙をまたがります。 すごい。\n^red;ディールズ・フィジカル・ダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quantum Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "量子ハンマー"
+    }
+  ]
+]

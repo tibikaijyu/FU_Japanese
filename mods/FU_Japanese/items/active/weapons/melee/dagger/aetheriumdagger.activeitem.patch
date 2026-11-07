@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Assassination. With style.\n^cyan;Inflicts Minor Vulnerability^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗殺。 スタイル付き。\n^cyan;マイナーな脆弱性に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Punyal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテロームパンヤル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Death be thy shadow."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "死はあなたの影です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Godkiller"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテローム・ゴッドキラー"
+    }
+  ]
+]

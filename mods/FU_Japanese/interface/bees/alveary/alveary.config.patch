@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "Input"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "入力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/countoutput/value",
+      "value": "Output"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/countoutput/value",
+      "value": "出力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/dragDrop/value",
+      "value": "Drag & Drop"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/dragDrop/value",
+      "value": "ドラッグして配置"
+    }
+  ]
+]

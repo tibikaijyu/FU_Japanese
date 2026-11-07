@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An exceptionally fine sword.\n^yellow;4 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極上の剣。\n^yellow;4 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンカタナ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shuriken Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "首里軒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I'm sure this will help make friends in a real hurry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "友達を急がせるのにも役に立つと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shuriken Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "首里県砲"
+    }
+  ]
+]

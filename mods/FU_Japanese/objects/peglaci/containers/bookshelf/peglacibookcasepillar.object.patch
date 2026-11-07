@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reinforcing alloy column."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄筋合金柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A ssstrong column."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "とても強い カラム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. A reinforcing alloy column."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 鉄筋合金柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Bookcase Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金製本棚柱"
+    }
+  ]
+]

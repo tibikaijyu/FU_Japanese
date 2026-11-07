@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slower Micro Sphere ^green;[F]^reset; that clings to walls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より遅いマイクロ球 ^green;[F] ^reset; 壁面にくっつく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Micro Spider Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "マイクロクモ球体"
+    }
+  ]
+]

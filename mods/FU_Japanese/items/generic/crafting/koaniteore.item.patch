@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ore that can be used to produce phosphorus via extraction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "抽出によってリンを生成するために使用できる鉱石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Koanite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コアナイト"
+    }
+  ]
+]

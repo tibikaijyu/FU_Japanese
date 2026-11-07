@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strap these blades to your hands. Fun ensues."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの刃をあなたの手にストラップします。 楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Fists"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄拳"
+    }
+  ]
+]

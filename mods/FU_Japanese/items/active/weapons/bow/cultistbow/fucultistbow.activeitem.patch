@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shadow Wave"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "シャドウウェーブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Because who doesn't want a bow that can aim with its own eye?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰が自分の目で狙える弓を望んでいないから?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト・ボウ"
+    }
+  ]
+]

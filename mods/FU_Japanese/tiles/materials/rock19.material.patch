@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined conglomerate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、洗練されていない集合体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Conglomerate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 コングロマリット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Conglomerate Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コングロマリットブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Support beams laced with high-grade wiring."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイグレードな配線で支える梁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wired Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有線サポート"
+    }
+  ]
+]

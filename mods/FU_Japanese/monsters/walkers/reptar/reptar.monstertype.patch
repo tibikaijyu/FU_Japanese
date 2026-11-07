@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The scaveran enjoys raw flesh and sleeping."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカデランは生肉を楽しんで寝ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scaveran Reptar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スキャベラン・レプター"
+    }
+  ]
+]

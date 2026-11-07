@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavyweight tent support."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘビーウェイトテントのサポート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Big Tent Pole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビッグテントポール"
+    }
+  ]
+]

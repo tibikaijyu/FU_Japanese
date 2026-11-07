@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Golden Saint Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゴールデン・セントクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Saint Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデン・セントクイーン"
+    }
+  ]
+]

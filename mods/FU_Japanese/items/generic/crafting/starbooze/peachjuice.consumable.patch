@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet juice made from peaches.\n^green;Heal ^white;50% ^green;HP ^gray;(^white;30s^gray;)^reset; \n^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "モモから作った甘いジュース。\n^green;癒し ^white;50% ^green;HP ^gray;(^white;30ス)^gray;)^reset; \n^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peach Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピーチジュース"
+    }
+  ]
+]

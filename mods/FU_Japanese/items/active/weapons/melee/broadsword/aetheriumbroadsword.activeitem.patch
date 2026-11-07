@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothing is more deadly and beautiful.\n^cyan;Annihilating Alt-Fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より致命的で美しいものはありません。\n^cyan;副射撃を消滅させる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテロームブロードソード"
+    }
+  ]
+]

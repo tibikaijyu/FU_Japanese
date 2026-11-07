@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now it's time to mess with life a bit."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今は人生に少し混乱する時間です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Extracting from 50 ^orange;cobblestone^reset; will create ^orange;Raw Minerals^reset;. This resource will help create ^orange;Mineral Samples^reset;, essential in many experiments."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "抽出 50 ^orange;石畳^reset; 生み出されるでしょう ^orange;生鉱物^reset;. このリソースは、多くの実験に不可欠な^orange;鉱物サンプル^reset;を作成するのに役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Like a Mason"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メイソンのように"
+    }
+  ]
+]

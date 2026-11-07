@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A unique strain of Lotus, full of potent antitoxins."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な抗毒素でいっぱいのロータスのユニークな株。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ita Flower Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イタの花の種"
+    }
+  ]
+]

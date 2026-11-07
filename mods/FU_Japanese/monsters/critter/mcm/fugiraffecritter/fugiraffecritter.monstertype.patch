@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge leaf-eating mammal. It has an extremely long neck. Its skin has a distinctive brown and white pattern."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な葉を食べる哺乳類。 首は非常に長い。 その肌は、独特の茶色と白のパターンを持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Giraffe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キリン"
+    }
+  ]
+]

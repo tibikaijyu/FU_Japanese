@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This ice has jagged and random extrusions.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この氷はジャグとランダムな押出しがあります。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jagged Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャグドアイス"
+    }
+  ]
+]

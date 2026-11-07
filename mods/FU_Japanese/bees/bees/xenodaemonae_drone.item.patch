@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Xenodaemonae Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キセノデモネドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xenodaemonae Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キセノデモネドローン"
+    }
+  ]
+]

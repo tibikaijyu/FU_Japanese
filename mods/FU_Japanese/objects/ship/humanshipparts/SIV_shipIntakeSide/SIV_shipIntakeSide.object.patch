@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Intake Side for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のインテークサイド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Intake Side"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒトの摂取側"
+    }
+  ]
+]

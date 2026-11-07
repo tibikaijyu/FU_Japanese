@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweet bread baked with honey.\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;90s^gray;)\n^green;Heal ^white;120 ^gray;(^white;90s^gray;)^reset; ^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂蜜で焼き上げた甘いパン。\n^cyan;+^white;20% ^cyan;HP ^gray;(^white;90ス)^gray;)\n^green;癒し ^white;120 ^gray;(^white;90ス)^gray;)^reset; ^green;種類:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Bread"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツパン"
+    }
+  ]
+]

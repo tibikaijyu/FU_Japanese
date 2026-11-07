@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A primitive Sprouting Table."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "プリミティブなスプルーティングテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Delicious seeds all over this table..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このテーブルのいたるところにおいしい種が...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extracts useful Genes from Seeds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "種子から有用な遺伝子を抽出する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Can Floran makess mate on thiss?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこれを仲間にできますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Identify. A Sprouting Table."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "識別する。 スプルージングテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Some jars on a wooden slab with plants in 'em."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "木製スラブに植物が入った瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A quaint early type of plant cloning device."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "クローニング装置の古風な初期のタイプの植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Sprouting Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;発芽台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Seed Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "種子抽出装置"
+    }
+  ]
+]

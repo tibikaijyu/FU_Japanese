@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Let 'em hang with this handy item!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この便利なアイテムでぶら下がってみましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目立たない脚"
+    }
+  ]
+]

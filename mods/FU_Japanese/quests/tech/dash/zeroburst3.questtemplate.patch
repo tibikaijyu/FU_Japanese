@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can now boost exceptionally high!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私は今非常に高いブーストすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Another upgrade to the Zero Burst tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "Zero バーストテクノロジーのもう一つのアップグレード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Explosive Redirection III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "爆発的リダイレクトIII"
+    }
+  ]
+]

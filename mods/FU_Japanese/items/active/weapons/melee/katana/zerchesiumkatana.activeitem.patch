@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lethally-edged weapon. Two-handed.\n^yellow;5 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銃身の刃を持つ。 両手。\n^yellow;5 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタナ座"
+    }
+  ]
+]

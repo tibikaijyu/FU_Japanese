@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A relatively large insect found in swamps and marshland."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "沼地や湿地で発見された比較的大きな昆虫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dragonfly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トンボ"
+    }
+  ]
+]

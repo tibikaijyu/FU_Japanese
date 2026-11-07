@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mote of dust that just won't stop following you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほこりのモットーは、あなたを追いかけ続けるのを止めません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Confusing Dust"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "混乱するほこり"
+    }
+  ]
+]

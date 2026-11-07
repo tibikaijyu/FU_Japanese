@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A likeness of the Nightarian 'goddess', the mysterious Matriarch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神秘的な魔女「女神」に似ている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Statue of Matriarch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "女房像"
+    }
+  ]
+]

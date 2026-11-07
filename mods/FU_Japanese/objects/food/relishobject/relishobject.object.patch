@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sharp relish to compliment savoury meaty flavours."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉の旨みをほのめかすシャープな味わい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran wishes they had a ssslab of meat to go with this."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、これに合うように肉のスラブを持てばよかったと思った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Knowledgeable. This condiment is used to compliment a number of meat-based dishes."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "知識がある。 この調味料は、いくつかの肉ベースの料理の補完に使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nice and tangy, but it'd go better with a good burger."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "素敵でタンギーですが、良いハンバーガーでもっと良くなります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Relish"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "料理"
+    }
+  ]
+]

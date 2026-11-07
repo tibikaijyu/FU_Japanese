@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pure amber hammer fit for the queen.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "女王にぴったりの純正アンバーハンマー。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queen Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハマー女王"
+    }
+  ]
+]

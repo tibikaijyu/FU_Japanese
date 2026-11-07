@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shadow Coil"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "シャドウコイル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made of penumbrite and rage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブライトと怒りで作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Enigma Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エニグマ"
+    }
+  ]
+]

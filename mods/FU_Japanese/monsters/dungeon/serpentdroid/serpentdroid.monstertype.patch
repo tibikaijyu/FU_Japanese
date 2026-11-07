@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even though it's very loyal, it's never forgiving when it comes to misplaced id cards."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に忠実ですが、IDカードの置き忘れに関しては決して許されません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Security Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セキュリティボット"
+    }
+  ]
+]

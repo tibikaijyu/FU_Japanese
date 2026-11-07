@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mysterious substance that can directly affect organic brainwaves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有機的な脳波に直接影響する不思議な物質。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protheon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロセオン"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "To read this codex, use your ^orange;Personal Tricorder^reset; and click the Book icon."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "このコードを読むには、^orange;個人用トライコーダー^reset; を使用して、本 アイコンをクリックします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A detailed examination of Agarans"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アガランに関する詳細な調査"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/longContentPages/0",
+      "value": "The origin of the Agaran species has long been disputed. There are many factors at play in the ongoing argument, but the largest contributor to their mystery is how they disperse themselves through the cosmos. While the rest of us require ships and technology, Agarans are able to simply ^green;emit a spore cloud^reset; and eventually some will find their way through the atmosphere due to their unusually resilient structure.\n\nEven more unusual is how difficult these spores are to even examine! The structure of these spores is ever-shifting which makes any detailed analysis slow-going. We've been able to come to several conclusions based on the evidence presented thus far however:\n\n- All Agarans are quite fatally affected by any atmosphere lacking nitrogen. Any such place results in their eventual suffocation, and that's if they are able to survive the blistering that accompanies it (both interally and externally).\n- An Agaran is not merely hard to understand - their ability to create sounds relies on swift vibrations that creates a hum-like sound. Our translators are not able to mimic these tonal emissions. This makes the species quite unintelligible.\n- They are linked directly to Florans at the genetic level, despite having a completely re-arranged set of internal organs (and some new organs the purpose of which we can only guess). It is believed that spores affected Florans, and genetically mutated their hosts bodies.\n- The spores emitted from an Agaran are able to track sources of warm moisture (especially blood) from several kilometers away and use wind to reach their target. While not sapient, it is most certainly some sort of behavior previously not displayed by this sort of organism.\n\nThe spores emitted by these creatures can prove ^red;exceptionally^reset; fatal, and any individual killed by these spores will become a host to a parasite within. This parasite will immediately 'hijack' the hosts central nervous system. At this point the Agaran conciousness is born. I advise any explorers that notice a clan of this species to stay clear for this reason. There are tales of entire colonies being decimated in a matter of days by spore clouds.\n\n\n    "
+    },
+    {
+      "op": "replace",
+      "path": "/longContentPages/0",
+      "value": "アガラン種の起源は長い間議論されてきた。 現在進行中の議論には多くの要因が関わっていますが、その謎への最大の貢献は、彼らが宇宙を通じて自分自身を分散させる方法です。 船や技術が必要な私たちも、Agaransは単純に^green;を胞子雲^reset;を放出することができ、最終的にはその異常に弾力的な構造のために大気中を進む方法を見つける人もいます。\n\nさらに珍しいのは、これらの胞子がどれほど難しいかを調べることです! これらの胞子の構造は変化し続けており、詳細な分析は遅くなります。 これまでのところ示されている証拠に基づいて、いくつかの結論に達しています。\n\n全てのアガランは窒素を含まない大気の影響でかなり致命的です。 そのような場所では、最終的には窒息が生じる。それは、それらがそれに伴う(相互的にも外部的にも)ブリスターリングを生き残ることができる場合です。\n-アガランは単に理解するのが難しいだけでなく、音を作り出す能力は、ハムのような音を作り出す速い振動に依存します。 私たちの翻訳者はこれらの音の放出を模倣することはできません。 そのため、この種は非常に理解できない。\n- 内臓のセットを完全に再編成したにもかかわらず、遺伝的レベルでフロランと直接結びついている(そして、その目的を推測するしかできない新しい器官)。 ホウレンソウの胞子がフローランに影響を及ぼし、宿主の体に遺伝的に突然変異を及ぼしたと考えられている。\n- アガランが放つ胞子は、数キロメートル離れた場所からでも、温かい水分、特に血液の発生源を追跡し、風に乗ってその標的へ到達できる。 賢くないが、これまでこの種の生物によって示されなかった行動である。\n\nこれらの生物が発する胞子によって ^red;例外的に^reset; 致命的であり、これらの胞子によって殺害された者は、 寄生虫の宿主になる。 この寄生虫はすぐにホスト中枢神経系を「ハイジャック」します。 この時点で、アガラン意識が生まれます。 私は、この種の一族に気づいている探検家には、この理由からはっきりさせておくことをお勧めします。 コロニー全体が、雲によって数日で滅ぼされているという話があります。\n\n\n    "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Agarans"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "アガラン族"
+    }
+  ]
+]

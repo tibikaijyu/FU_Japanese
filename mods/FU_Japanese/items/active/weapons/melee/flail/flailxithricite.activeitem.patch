@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Charged impact hammer.\n^cyan;Breaks blocks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "充電式インパクトハンマー。\n^cyan;ブロックを破る^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ストライカー"
+    }
+  ]
+]

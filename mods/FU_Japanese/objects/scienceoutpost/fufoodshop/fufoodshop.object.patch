@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tassties!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Murder-Twig's Yum-Yums^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 殺人者 - Twig's Yum-Yums ^reset;"
+    }
+  ]
+]

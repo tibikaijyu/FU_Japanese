@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lure with internal mechanisms for greater control."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内部機構を持つルアーで、より一層コントロールします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mechanical Lure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "機械的ルアー"
+    }
+  ]
+]

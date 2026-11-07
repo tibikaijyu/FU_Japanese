@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A long-lasting vitality enhancer.\n^cyan;+^white;25% ^cyan;HP ^gray;(^white;2m^gray;) ^blue;Madness Gain^reset; 1"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長持ちする活力エンハンサー。\n^cyan;+^white;25% ^cyan;HP ^gray;(^white;2え?^gray;) ^blue;狂気の高まり^reset; 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Serum Stim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血清刺激"
+    }
+  ]
+]

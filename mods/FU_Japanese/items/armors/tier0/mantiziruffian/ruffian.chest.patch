@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick gloves and little else. Gives +^green;5^reset;% Damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚い手袋と、ほんの少しの布。ダメージ+^green;5^reset;%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ruffian Gloves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラフィアン手袋"
+    }
+  ]
+]

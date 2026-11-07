@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Assassin Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アサシン・ヤングクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Assassin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若い暗殺王妃"
+    }
+  ]
+]

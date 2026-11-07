@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Claw slash: (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爪のスラッシュ:(読み取り^yellow;コアガイド^reset;:^blue;特殊技術^reset;)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Razor Claws"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "かみそり爪"
+    }
+  ]
+]

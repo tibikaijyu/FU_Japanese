@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A persistent switch that I can also toggle manually. Also has a built-in NOT gate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手動で切り替えることもできます。 NOTゲートも内蔵しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Persssissstent ssswitch that Floran can alssso toggle manually. Alssso hasss a built-in NOT gate."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "状態保持 スイッチ フローラン は手動で切り替えることもできます。 NOTゲートも内蔵されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. A persistent switch that I can also toggle manually. Also has a built-in NOT gate."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 手動で切り替えることもできます。 NOTゲートも内蔵しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Persistent Switch (Interactive with NOT Gate)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "永続スイッチ(NOTゲートとのインタラクティブ)"
+    }
+  ]
+]

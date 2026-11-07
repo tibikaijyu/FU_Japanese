@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Radioactive, but not dangerous.\n^cyan;+^white;30% ^pink;Radiation ^cyan;Resistance ^gray;(^white;5m^gray;)\n^blue;+^white;4 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性はありますが危険ではありません。\n^cyan;+^white;30% ^pink;放射線 ^cyan;抵抗 ^gray;(^white;5え?^gray;)\n^blue;+^white;4 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutagenic Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "変異原性蜂蜜ジャー"
+    }
+  ]
+]

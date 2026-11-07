@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spicy cinnamon sticks!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパイシーなシナモンスティック!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモン"
+    }
+  ]
+]

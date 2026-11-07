@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Shotgun/Gren.Launcher: +^green;3^reset;% Crit Chance, +^green;15^reset;% Crit Damage\n^yellow;^reset; ^cyan;Immune^reset;: Extreme Heat, Proto"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ショットガン/Gren.ランチャー: +^green;3^reset;%クリティカル率, +^green;15^reset;%クリティカル ダメージ\n^yellow;^reset; ^cyan;免疫^reset;極限熱、プロト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Decimator Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デシマー装甲"
+    }
+  ]
+]

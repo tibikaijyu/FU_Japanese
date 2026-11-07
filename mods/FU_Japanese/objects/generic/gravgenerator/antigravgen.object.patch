@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reduces effects of gravity within 30 tiles.\n^blue;Input^reset;: On/Off Switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "30タイル内の重力の影響を軽減します。\n^blue; 入力 ^reset; : スイッチをオン/オフします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Anti-Grav Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;アンチグラブジェネレータ^reset;"
+    }
+  ]
+]

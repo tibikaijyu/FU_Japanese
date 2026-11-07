@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Decorative silver blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装飾的なシルバーブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Decorative Silver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "装飾シルバー"
+    }
+  ]
+]

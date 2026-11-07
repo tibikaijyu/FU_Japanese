@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The gold colored wood is very old and creaks in the wind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金色の木材は非常に古く、風にしみがちです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty wood iss strong."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいな木が強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Fascinated. This aged wood has a pleasing golden hue."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "魅了された。 この高齢の木材は、心地よい黄金色をしています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This here gold colored wood is mighty special."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この金色の木は強烈な特別です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Bridge Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンブリッジブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Replace"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "交換"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Replace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "交換"
+    }
+  ]
+]

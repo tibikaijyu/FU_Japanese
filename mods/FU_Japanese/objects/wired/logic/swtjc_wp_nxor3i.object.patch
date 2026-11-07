@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NXOR'/ gate. Remains on unless an odd number of inputs are on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NXOR /ゲート。 奇妙な数の入力がオンでなければ、残りはオフのままです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A /'NXOR'/ gate. Remainsss on unlesss an odd number of inputsss are on, and the ressst off."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "NXOR /ゲート。 奇妙な数の入力がオンでなければ、残りはオン、残りはオフです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. A /'NXOR'/ gate. Remains on unless an odd number of inputs are on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 NXOR /ゲート。 奇妙な数の入力がオンでなければ、残りはオフのままです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NXOR Gate (3 inputs)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NXOR ゲート (3 入力)"
+    }
+  ]
+]

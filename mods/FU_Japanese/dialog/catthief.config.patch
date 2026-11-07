@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/accuse/cat/default/0",
+      "value": "Hey, that doesn't belong to mew!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/cat/default/0",
+      "value": "ねえ、それは新しいものではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/cat/default/1",
+      "value": "I can sense your intentions, mew know!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/cat/default/1",
+      "value": "あなたの意図が分かるわ、まったく!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/cat/default/2",
+      "value": "Put that back!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/cat/default/2",
+      "value": "戻せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/cat/default/3",
+      "value": "Don't be a cat burgular!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/cat/default/3",
+      "value": "猫の泥棒になるな!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/cat/default/0",
+      "value": "Guards! There is a cat burgular here!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/cat/default/0",
+      "value": "ガード! ここに猫の強盗があります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/cat/default/1",
+      "value": "Now mew've done it. GUARDS!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/cat/default/1",
+      "value": "今、私はそれをやった。 ガード!"
+    }
+  ]
+]

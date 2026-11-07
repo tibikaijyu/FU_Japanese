@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blex Cactus is known to be energizing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブレックス サボテンは、元気づけられていることが知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blex Cactus Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サボテンの種"
+    }
+  ]
+]

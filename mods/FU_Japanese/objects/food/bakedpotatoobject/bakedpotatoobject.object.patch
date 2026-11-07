@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crispy on the outside, hot as molten lava on the inside."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "外側はクリスピー、内側は溶かした溶岩のように熱い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Hot potato, hot potato!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ホットポテト、ホットポテト!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Tentative. I should be careful to not to scald myself eating this."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "暫定的。 私はこれを食らわないように気をつけるべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nothin' fancy, but mighty tasty all the same."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "なにかファンシーなことはないが、それでも美味しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Baked Potato"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼き物"
+    }
+  ]
+]

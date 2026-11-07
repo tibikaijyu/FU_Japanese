@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A forest bee, found in the depths of a forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "森の奥に生息する森のミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Forest Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "森のミツバチ"
+    }
+  ]
+]

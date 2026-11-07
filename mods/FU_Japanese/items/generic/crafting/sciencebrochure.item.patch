@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An informational brochure about a science facility."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学施設に関する情報パンフレット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Come Visit Us!"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ぜひご覧ください!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stunning. +^green;5^reset;% Charisma."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごい。 +^green;5^reset;% カリスマ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nonpareil Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワンパールパンツ"
+    }
+  ]
+]

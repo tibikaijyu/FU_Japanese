@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Great work. I think it's time to move on."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事。 そろそろ先へ進む時間だと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Methanol^reset; will be useful in the production of a number of goods and eventually get you on track to a masterful laboratory. ^green;You'll find it via wood extraction^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;メタノール^reset;は、いくつかの商品の製造に有用であり、最終的には素晴らしい研究室にあなたを追跡します。 ^green; 木材抽出^reset; で確認できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Methanol - Nature's Booze"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メタノール - 自然のおっぱい"
+    }
+  ]
+]

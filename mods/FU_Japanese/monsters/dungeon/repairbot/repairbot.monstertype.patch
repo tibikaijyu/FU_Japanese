@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A robotic sentry designed for maintaining U.S.C.M. robots and machinery, it's armed for basic self-defense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "U.S.C.M.のロボットと機械のメンテナンス用に設計されたロボティクスセンターは、基本的な自己防衛のために武装しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repair Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "修理ボット"
+    }
+  ]
+]

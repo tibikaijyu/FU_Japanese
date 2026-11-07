@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional Kadavan meal, a warrior's favourite.\n^cyan;+^white;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;210s^gray;)\n^cyan;+^white;20% ^cyan;Rage ^gray;(^white;60s^gray;)^reset; ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的なカダヴァン料理、戦士のお気に入り。\n^cyan;+^white;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;210ス)^gray;)\n^cyan;+^white;20% ^cyan;レイジ ^gray;(^white;60ス)^gray;)^reset; ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kadavan Meal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かだヴァンミール"
+    }
+  ]
+]

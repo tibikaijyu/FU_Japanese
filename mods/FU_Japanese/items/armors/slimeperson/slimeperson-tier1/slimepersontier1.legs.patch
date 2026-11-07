@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small gem made of slime which grants limited protection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライム製の小さな宝石で、保護は限られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Knee Protection Gem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライム膝保護宝石"
+    }
+  ]
+]

@@ -1,0 +1,399 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblFuelType/value",
+      "value": "CURRENT FUEL TYPE: "
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblFuelType/value",
+      "value": "現在の燃料型 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblModuleLabel/value",
+      "value": "^green;CURRENT FUEL:^white;"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblModuleLabel/value",
+      "value": "^green; 現在の燃料:^white;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2;Insert erchius fuel to power your mech"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  ^#b9b5b2; 機械に動力を供給するためのエルキウス燃料を挿入します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "  Mech fuel tank"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "  メカ燃料タンク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnUpgrade/type",
+      "value": "button"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnUpgrade/base",
+      "value": "/interface/mechfuel/deploy.png"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnUpgrade/hover",
+      "value": "/interface/mechfuel/deployhover.png"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnUpgrade/pressed",
+      "value": "/interface/mechfuel/deploypressed.png"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnUpgrade/base",
+      "value": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=1.4827586206896552;1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnUpgrade/hover",
+      "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnUpgrade/pressed",
+      "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=1.4827586206896552;1"
+    },
+    {
+      "op": "add",
+      "path": "/gui/btnUpgrade/caption",
+      "value": "補給"
+    },
+    {
+      "op": "add",
+      "path": "/gui/btnUpgrade/fontSize",
+      "value": 9
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnEmpty/type",
+      "value": "button"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnEmpty/base",
+      "value": "/interface/mechfuel/emptyfuel.png"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnEmpty/hover",
+      "value": "/interface/mechfuel/emptyfuelhover.png"
+    },
+    {
+      "op": "test",
+      "path": "/gui/btnEmpty/pressed",
+      "value": "/interface/mechfuel/emptyfuelpressed.png"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnEmpty/base",
+      "value": "/interface/kheAA/kheAA_router/buttonIO.png?scalenearest=0.896551724137931;1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnEmpty/hover",
+      "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnEmpty/pressed",
+      "value": "/interface/kheAA/kheAA_router/buttonIOH.png?scalenearest=0.896551724137931;1"
+    },
+    {
+      "op": "add",
+      "path": "/gui/btnEmpty/caption",
+      "value": "排出"
+    },
+    {
+      "op": "add",
+      "path": "/gui/btnEmpty/fontSize",
+      "value": 9
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileBody",
+      "value": "/interface/mechfuel/body.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFuelTypesCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=46;12",
+        "position": [
+          217,
+          148
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFuelTypesTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          240.0,
+          154.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "燃料の種類",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseOilCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=17;13",
+        "position": [
+          169,
+          118
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseOilTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          177.5,
+          124.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "油",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseMechFuelCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=34;13",
+        "position": [
+          185,
+          118
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseMechFuelTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          202.0,
+          124.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "メック",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseErchiusCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=38;13",
+        "position": [
+          219,
+          118
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseErchiusTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          238.0,
+          124.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 7,
+        "value": "エルキウス",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseIsotopesCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=52;13",
+        "position": [
+          260,
+          118
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseIsotopesTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          286.0,
+          124.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "同位体",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseBioFuelCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=32;13",
+        "position": [
+          181,
+          93
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseBioFuelTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          197.0,
+          99.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "バイオ",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseCatalystCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=23;13",
+        "position": [
+          224,
+          93
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseCatalystTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          235.5,
+          99.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "触媒",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapanesePowerCoresCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=030b18ff?scalenearest=63;13",
+        "position": [
+          250,
+          93
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapanesePowerCoresTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          281.5,
+          99.5
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "パワーコア",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute bookcase with draped silk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絹を垂らしたかわいい本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Accented Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "可愛いアクセント付きの本棚"
+    }
+  ]
+]

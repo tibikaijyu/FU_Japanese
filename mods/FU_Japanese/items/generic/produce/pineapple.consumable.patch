@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tropical treat! ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トロピカルなおやつ! ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

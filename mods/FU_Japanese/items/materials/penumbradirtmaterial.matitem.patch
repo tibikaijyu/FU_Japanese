@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This dirt absorbs all light.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この汚れはすべての光を吸収します。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Umbral Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "浮遊汚泥"
+    }
+  ]
+]

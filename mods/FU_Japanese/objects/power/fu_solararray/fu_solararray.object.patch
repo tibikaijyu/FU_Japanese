@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "The Miniknog tends not to care about renewable energy. There are all manner of theories as to why."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ミニノグは再生可能エネルギーを気にしない傾向があります。 理由については、あらゆる理論がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Just one of the many uses of the sun."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "太陽の多くの用途の一つに過ぎません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Uses sunlight to generate electricity. It can generate much more power than smaller units. Can potentially generate over ^orange;10W^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽光を利用して発電します。 小さいユニットよりもずっと多くの電力を生成できます。 ^orange;10W^reset; を生成することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Machine get power from sssun like plant. Floran like it."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "機械は植物のようなおっひさまから力を得ます。 フローラーが気に入った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analytical. Atmospheric interference means this panel will generate less power at low altitudes."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 大気干渉は、このパネルが低高度でより少ない電力を生成することを意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I hope it doesn't rain. That'd block out the sun!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "雨が降らないといいのだが。 それは太陽を遮るでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Only structures close to the surface of the ocean can use these. A pity."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "海面に近い構造物でしか使えません。 残念です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Solar Array^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;太陽光パネル群^reset;"
+    }
+  ]
+]

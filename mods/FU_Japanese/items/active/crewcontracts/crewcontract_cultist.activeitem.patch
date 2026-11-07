@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a flesh-hungry cultist. Increases max ship fuel by 150 and provides ^pink;Insanity Immunity^reset; and ^green;Moderate Poison Protection.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉食のカルト主義者を雇う。 150と^pink;精神異常免疫^reset;と^green;中程度の毒保護によって最大船燃料を増加します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト契約"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/description",
+      "value": "A massive Stegosaurus-like fossil."
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/description",
+      "value": "巨大なステゴサウルスのような化石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "Stegovapti Fossil"
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "ステゴヴァプティ化石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Stegovapti tail."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化したステゴヴァプティの尾。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stegovapti Tail"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステゴヴァプティテール"
+    }
+  ]
+]

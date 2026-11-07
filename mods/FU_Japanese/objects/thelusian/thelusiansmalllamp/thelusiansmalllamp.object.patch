@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This strange lamp emits a low green light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この奇妙なランプは低い緑色の光を放つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Lamp Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンのランプ球根"
+    }
+  ]
+]

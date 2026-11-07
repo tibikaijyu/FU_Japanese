@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Radiation Burst"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "放射線バースト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Highly useful weapon for wanderers.\n^yellow;Counts as Hunting weapon^reset;\n^green;Causes Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放浪者にとって非常に有用な武器。\n^yellow;狩りの武器としてのカウント^reset;\n^green;放射線燃焼の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nomad Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノマドのライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Highly useful weapon for wanderers.\n^yellow;Counts as Hunting weapon^reset;\n^green;Causes Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "放浪者にとって非常に有用な武器。\n^yellow;狩りの武器としてのカウント^reset;\n^green;放射線燃焼の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Expar Sniper Rifle^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;スナイパーライフル^reset; ^yellow;^reset;"
+    }
+  ]
+]

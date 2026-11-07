@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light and airy panels."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "軽くて風通しの良いパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horizontal Panels"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水平パネル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Still useless."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未だに無駄。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Wax Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤ロウ剣"
+    }
+  ]
+]

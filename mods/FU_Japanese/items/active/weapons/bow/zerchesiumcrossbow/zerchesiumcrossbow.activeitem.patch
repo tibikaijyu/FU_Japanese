@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crossbow, probably designed for hunting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらく狩猟用に設計されたクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムクロスボウ"
+    }
+  ]
+]

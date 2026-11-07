@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A slimey liquid.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なだらかな液体。\n^yellow;遠心分離可能^reset;。"
+    }
+  ]
+]

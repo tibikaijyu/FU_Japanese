@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beware the sun. Increases Energy and Health by +50"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽に注意しなさい。 +50 でエネルギーと健康を向上します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icarus Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イカロスの翼"
+    }
+  ]
+]

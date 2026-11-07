@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fire through solid materials!\n^yellow;Reveal enemies and terrain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固形素材で火を通せ!\n^yellow;敵と地平を暴く^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor X-Ray Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先行X線銃"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The ^orange;Honey Jarrer^reset; creates ^green;Honey Jars^reset; with different effects, depending on the combs you centrifuge. It's up to you to experiment!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange; ハチミツ Jarrer ^reset; は、遠心分離するコンブに応じて、異なる効果で ^green; ハチミツ Jars ^reset; を作成します。 実験するのはあなた次第です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "To make the most out of your bee farm, you'll want to harvest honey. Try to build a ^orange;Honey Jarrer^reset; to aid with this process. Toss in some ^orange;Empty Bottles^reset; and ^orange;honey combs^reset; while you're at it."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたの養蜂場を最大限に活用するには、蜂蜜を収穫したいでしょう。 このプロセスを支援するために ^orange; ハチミツ Jarrer ^reset; を構築してください。 中には ^orange; 空のボトル ^reset; と ^orange; のハチミツ combs ^reset; をトスします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Jarring Honey"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ハチミツ"
+    }
+  ]
+]

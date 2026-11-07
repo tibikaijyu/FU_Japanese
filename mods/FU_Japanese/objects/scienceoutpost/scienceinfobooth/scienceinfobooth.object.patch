@@ -1,0 +1,674 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/0",
+      "value": "Welcome to the ^green;Science Outpost^reset;! Any friend of Vinalisj is a friend of ours. If you need some advice, I'm here! Just... try to stay away from Kevin."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/0",
+      "value": "^green;科学前哨基地^reset;へようこそ! ヴィナリシュの友達は誰であっても私たちの友達です。 アドバイスが必要なら、私はここにいます! ただ...ケビンから離れるようにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/1",
+      "value": "First things first, I'd recommend you take a look at the Frackin' Universe guide codexes - you should have a set of them in your ship's locker, but just in case, there's also a set of them in a bookshelf near the west side of this building."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/1",
+      "value": "まず最初に、Frackin' Universeのガイドコーデックスを見てください。船のロッカーにセットがあるべきですが、念のため、この建物の西側近くの本棚にもセットがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/10",
+      "value": "Consider using a computer to turn randomly-generated weapons into research, instead! It can prove to be quite useful, especially with more valuable weapons. This applies to objects and items as well."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/10",
+      "value": "コンピュータを使って、ランダムに作られた武器を研究に変えることを検討してください! 特に、より貴重な武器では、非常に有用であることが証明できます。 オブジェクトやアイテムにも適用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/11",
+      "value": "Have a favorite weapon or armor set that you don't want to leave behind as you progress? Good news - you don't have to! Using your Tricorder's Upgrade function."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/11",
+      "value": "進行とともに残したくないお気に入りの武器や装甲セットを持っていますか? 良いニュース - あなたはする必要はありません! トライコーダーのアップグレード機能を使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/12",
+      "value": "You can use Upgrade modules to improve almost all Frackin' Universe weapons or armor. By doing this, you can ensure that any armor or weapon stays viable!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/12",
+      "value": "アップグレードモジュールを使用して、ほぼすべてのFrackin' Universeの武器または装甲を改善することができます。 これを行うことで、どんな装甲や武器でも実行可能であることを保証することができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/13",
+      "value": "Does an enemy seem almost invincible? It might just be resistant to the damage type you're using. Try switching things up with different weapons to find a weakness!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/13",
+      "value": "敵はほとんど無敵に見えるか? 使用中の損傷タイプに耐性がある可能性があります。 さまざまな武器で物事を切り替えて、弱点を見つけましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/14",
+      "value": "Don't know where to find a specific item or material? A Lab Directory can tell you if it's an output from any of your nearby machines. If that fails, check the official wiki displayed on the main menu!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/14",
+      "value": "特定のアイテムや材料を見つける場所がわからないのですか? ラボ Directory は、近くのマシンからの出力かどうかを確認できます。 失敗した場合は、メインメニューに表示される公式wikiをチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/15",
+      "value": "Even carnivores have a reason to set up plant farms - many of the growable plants that Frackin' Universe adds can be eaten by anyone."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/15",
+      "value": "肉食動物でさえ、植物農場を設置する理由があります - Frackin' Universeが追加する栽培可能な植物の多くは誰にでも食べることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/16",
+      "value": "For example, Meatvine is a reliable source of nutrition for carnivores. Nevermind the fact that a plant is growing raw meat from its bulbs."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/16",
+      "value": "例えば、肉酢は肉食動物にとって信頼できる栄養源です。 植物がその球根から生肉を育てているという事実を気にしないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/17",
+      "value": "Most plants and their seeds can be extracted into useful materials! They can be a benefit in a wide array of circumstances. Experiment and try many!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/17",
+      "value": "ほとんどの植物とその種子は有用な材料に抽出することができます! それらは幅広い状況において利益になる可能性があります。 実験して、たくさん試してみてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/18",
+      "value": "Sorry we can't let you use most of the crafting and processing machines - We had to restrict access after Kevin tried to use them to create a gun that shot smaller versions of itself."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/18",
+      "value": "ほとんどの製作・加工装置を使わせてあげられなくて、ごめんね。ケビンがそれらを使って、自分自身の小型版を撃ち出す銃を作ろうとして以来、利用を制限しなければならなくなったんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/19",
+      "value": "Most hazardous environmental effects can be prevented with either an immunity to that effect, or often through a high enough resistance to specific damage types."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/19",
+      "value": "ほとんどの危険な環境影響は、その効果に対する免疫力またはしばしば特定の損傷タイプに対する十分な抵抗によって予防することができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/2",
+      "value": "Some of the information in those codexes might not seem relevant right now, but even some of our veteran researchers have learned something they didn't know through those books, so keep them in mind!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/2",
+      "value": "これらのコーデックスの情報の中には、現時点では関係ないものもありますが、私たちのベテラン研究者でさえ、これらの本を通して知らなかったことを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/20",
+      "value": "Immunities and resistances are seperate - Even if you're immune to a planet's extreme heat, that won't reduce damage from fiery attacks unless you increase your heat resistance."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/20",
+      "value": "免疫と抵抗は別々です - たとえあなたが惑星の極端な熱に免疫があるとしても、それはあなたの耐熱性を増加させない限り、炎の攻撃による被害を減らすことはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/21",
+      "value": "If things don't seem to be working right, first check to make sure you don't have any incompatible mods installed. If that doesn't work, post your full log file to the bug channel on the Frackin' Universe Discord."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/21",
+      "value": "正しく動作していないと思われる場合は、まず互換性のない mod がインストールされていないことを確認します。 それが動作しない場合は、Frackin' Universe Discordのバグチャネルにログファイルをフルに投稿してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/22",
+      "value": "Take your time - if you rush to advance as fast as possible, you'll miss all sorts of fun things - like these hints!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/22",
+      "value": "時間をとってください - あなたができるだけ早く前進するために急いでいれば、あなたはあらゆる種類の楽しいことを見逃すでしょう - これらのヒントのような!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/23",
+      "value": "Mixing certain liquids can have unexpected results - do things right, and you can make more of almost any liquid!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/23",
+      "value": "特定の液体を混合すると、予期せぬ結果が得られます - 物事を正しく行い、あなたはほとんどの液体をより多く作ることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/24",
+      "value": "Liquids will drain away if there's not a background block keeping them there - though oceans are an exception."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/24",
+      "value": "海は例外ですが、バックグラウンドブロックがないと液体は流出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/25",
+      "value": "Don't feel like using the teleporter to descend to the planet you're orbiting? Go down far enough outside your ship, and you'll fall to the planet below!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/25",
+      "value": "テレポートを使って軌道を周回している惑星に降りる気はない? 船の外へ十分下って、あなたは下の惑星に落ちるでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/26",
+      "value": "If some of my advice doesn't make sense to you right now, don't worry about it. You never know - it might come up later!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/26",
+      "value": "もし私の忠告が今あなたに意味をなさないなら、心配しないで下さい。 あなたは決して知りません - それは後で来るかもしれません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/27",
+      "value": "If you ever find alien ruins with grey bricks and purple or blue glyphs, you've probably found something built by the Ancients, a long-extinct race."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/27",
+      "value": "灰色のレンガと紫や青のグリフを持つエイリアンの遺跡を見つけたことのある人なら、おそらく古代の、長い間絶滅した人種によって建てられた何かを見つけたことがあるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/28",
+      "value": "Apparently, many Peglaci claim that there was another race even older than the Ancients, but not much is known about that time period of galactic history. It has been lost to time."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/28",
+      "value": "明らかに、多くのペグラシは、古代よりさらに古い別の人種があったと主張しているが、銀河史のその時期についてはあまり知られていない。 それは時間に失われた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/29",
+      "value": "If you are looking to trade, head to a space station. You'll find you can invest, play the market, or hire custom mercenaries and unique medical procedures."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/29",
+      "value": "貿易を探しているなら、宇宙ステーションに向かいます。 あなたは投資したり、市場をプレイしたり、カスタムの雇い兵やユニークな医療手順をすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/3",
+      "value": "Looks like most of your Protectorate crafting databanks have been scrambled at some point - You'll need to use your Tricorder to research how to craft a lot of things."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/3",
+      "value": "プロテクトレート 作成データバンクのほとんどが、ある時点でスクランブルされているように見えます - たくさんのものを作成する方法を研究するためにトライコーダーを使用する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/30",
+      "value": "The Kirhosi also have set up special sections on each one of these space stations. I couldn't tell you what is inisde them, though: Specialized access is required in order to enter."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/30",
+      "value": "キルホシはまた、これらの宇宙ステーションのそれぞれに特別なセクションを設定しています。 入力するには、特別なアクセスが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/31",
+      "value": "A second reminder: Kevin is a genius, he really is. Super smart. However, I am absolutely certain he is at least a little bit insane. Read the infraction log, and you'll very swiftly understand what I mean."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/31",
+      "value": "ケビンは天才です。 超スマート。 しかし、私は彼が少なくとも少し狂っていることを絶対に確信しています。 違反ログを読むと、私の意味がすぐにわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/32",
+      "value": "I mean, the whole lip gloss thing? Yea, it was me that came across it first. I'm always the first one to show up for the day. Trust me - that was awe-inspiringly confusing. I remain uncertain of how he coated the entire base in less than 5 hours. Every surface. Even ones behind objects weighing several tons."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/32",
+      "value": "口紅全体が光沢を帯びている? そうね、最初にそれを見つけたのは私です。 私はいつもその日初めて現れる人です。 私を信頼してください - それは信じられないほど混乱していました。 私は彼がベース全体を5時間未満でコーティングした方法については不明です。 あらゆる面。 物体の後ろにあるものでさえ、数トンの重さです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/33",
+      "value": "Suffice it to say, we have a love-hate relationship with Kevin. He does bring in a rather large amount of income in funding, purchases -and- donations, though the means through which even this is accomplished defy explanation."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/33",
+      "value": "要するに、ケビンには愛憎入り混じった気持ちを抱いているんだ。研究資金や買い物、それに寄付まで、かなりの収入をもたらしてくれるのは確かさ。ただ、どうやってそれを実現しているのかは、まるで説明が付かないんだけどね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/34",
+      "value": "Did you know that one time he obtained a 3-trillion pixel donation from a wealthy investor solely because, as he went on to claim, he made a really good sandwich for the man. Is any sandwich that good? I am sceptical."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/34",
+      "value": "彼が富裕な投資家から3-一兆ピクセルの寄付を受けたのは、彼が主張したように、彼は男性のために本当に良いサンドイッチを作ったからです。 サンドイッチってそんなにうまいの? 私は懐疑的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/35",
+      "value": "In your travels, you will find some truly unusual things. Be advised that those which are too far out-there are likely to cause just a tiny bit of madness or insanity. This can cause a wide variety of side-effects (both positive and negative)."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/35",
+      "value": "あなたの旅行では、本当に珍しいものを見つけるでしょう。 あまりにも遠く離れている場合は、狂気や狂気のほんの少しを引き起こす可能性があります。 これは、(正と負の両方)副作用の広い範囲を引き起こす可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/36",
+      "value": "When you are suffering from this madness, you should go ahead and have a seat in the InstaFreud to the left of us. That nifty device is essentially an AI-Driven Psychologist that is reknowned for its ability to fix even some of the most dramatic mental afflictions, given enough time."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/36",
+      "value": "この狂気に苦しんでいる場合は、先に行って、私たちの左側にあるInstaFreudに席を置く必要があります。 この素晴らしいデバイスはAI駆動の心理学者であり、十分な時間があれば、最も劇的な精神的な苦痛を直せる能力でさえも兼ね備えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/37",
+      "value": "^red;Do not^reset; use Kevins Kill-Pod technology. It does to you exactly what it says on the tin. This is likely not your desire. It sure wasn't the desire of Dr.Demento, revered Mime of Nippango IV. He ignored the warning. Now he's dead. So yea. Careful."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/37",
+      "value": "ケヴィンのキルポッド技術は^red;使用厳禁^reset;だ。名前に書いてあるとおりのことが、君の身に起こる。そんな目に遭いたくはないだろう。ニッパンゴ IVで尊敬を集めていたパントマイム芸人、デメント博士だって、望んではいなかった。彼は警告を無視した。そして今は死んでいる。だから、そういうことだ。気をつけろ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/38",
+      "value": "My favorite thing in the entire universe is probably fish. Yum. A close second, though, is the Darklight Flower. Personally, I don't think any flora is more beautiful and haunting."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/38",
+      "value": "宇宙全体で私が好きなことはおそらく魚です。 うん。 でも、もう一つは「ダークライト・フラワー」。 個人的には、植物はより美しく、幽霊であるとは思いません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/39",
+      "value": "When I get bored at this desk, I tend to talk a little bit. Some might even say too much. I just drone on, and on, and on...I'd be less bored if there was anything fun to do."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/39",
+      "value": "この机で退屈すると、少し話しがちです。 言い過ぎかもしれない。 ドローンを飛ばしただけで、それで...何か楽しいことがあったら退屈しなくなります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/4",
+      "value": "I'd recommend researching extraction technology sooner rather than later. A Hand Mill might not be as fast as a full Extraction Lab, but it's still one of the most powerful tools in your arsenal."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/4",
+      "value": "後でなく早く抽出技術を研究することをお勧めします。 ハンドミルはフルの抽出ラボほど速くはないかもしれませんが、それでも武器庫で最も強力なツールの一つです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/40",
+      "value": "It should go without saying, but the 'meat shop' in the market here at the Science Outpost sells some rather...morally questionable wares that sane folk would probably be wise to avoid."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/40",
+      "value": "言うまでもないけれど、この科学前哨基地の市場にある『肉屋』では、その……道徳的にかなり怪しい商品を売っているんだ。正気なら、手を出さないほうが賢明だろうね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/41",
+      "value": "Mechs might be beefy and cumbersome but long-term they are quite useful. Why wouldn't you want a walking tank equipped with a flight mode that can decimate entire swathes of enemies with huge guns?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/41",
+      "value": "メカは重厚で面倒だが、長期的にはかなり有用だ。 巨大な銃で敵のすべてを撃退できる飛行モードを備えた歩行タンクを望まないのはなぜですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/42",
+      "value": "Of course, you'll need to craft it yourself, but that's okay. Totally worth the effort for the extra protection and power."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/42",
+      "value": "もちろん、自分で作る必要がありますが、それは大丈夫です。 余分な保護と力のための努力に完全に価値があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/43",
+      "value": "Sorry, I am just too loquacious for my own good sometimes, I swear. I don't mean to be, but it isn't often that someone actually talks to me for this long. I'm starting to wonder if maybe there's more to it. Do you have a thing for aquatic women?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/43",
+      "value": "申し訳ありませんが、私は時々自分自身の良さのためにあまりにも雄弁です、誓います。 私はそうするつもりはありませんが、誰かが長い間実際に私に話しかけてくることはあまりありません。 もっとあるのかなと思うようになりました 水族館の女性用のものはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/44",
+      "value": "You aren't really my type, but there is certainly something about you that I can't quite define that I find interesting. Compelling, even. Maybe its your aroma."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/44",
+      "value": "あなたは本当に私のタイプではありませんが、私が面白いと思うことを私が完全に定義できない何かがあるのは確かです。 強制することさえある。 たぶんそれはあなたの香りです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/45",
+      "value": "Eek! That's far too personal, sorry. Please, don't take offense. That's the last thing I wanted to do!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/45",
+      "value": "さぁ! それはあまりにも個人的すぎる、申し訳ありません。 怒らないで下さい。 それが私がやりたいことの最後のことです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/46",
+      "value": "Back on topic, I guess: The market here at the science outpost has a whole bunch of super-useful stuff you can purchase to help make your life a little easier. You should check it out."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/46",
+      "value": "話題に戻ります:ここの市場は 科学前哨基地 人生をより楽にするために購入できる非常に有用なものがたくさんある。 ぜひチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/47",
+      "value": "When you -do- check it out, though, maybe wear pants. Kevin has a habit of shopping before he even gets dressed in the morning. If it wasn't for his carapace...well, let's just say there would be entirely too much alien wing-wong around."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/47",
+      "value": "ただし、チェックアウトするときは、ズボンを着用してください。 ケビンは朝着る前に買い物をする癖がある。 もし彼の空路がなかったら...それでは、ちょうど完全にあまりにも多くのエイリアンの翼が周りにあるだろうとしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/48",
+      "value": "Kevin has absolutely no issue with you randomly dropping into his office to use his autopsy table. This is rather unsettling. Sometimes you can hear the squishing sounds in the lunch room."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/48",
+      "value": "ケビンは、あなたのオフィスに無作為に立ち寄って解剖台を使っても問題ありません。 これはかなり落ち着きがない。 ランチルームでは、シャイニング音が聞こえてくることがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/49",
+      "value": "My fingernails? Oh, thanks! ^red;*blush*^reset;. I have pretty much nothing to do most of the time, so I spent essentially 3 hours on any given day preeing myself. I think it pays off. Don't you?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/49",
+      "value": "私の指の爪? ありがとう! ^red;*blush*^reset;。 私はほとんど何もしないので、基本的には3時間を、どんな日でも自分自身を装って過ごしました。 それは報われると思う。 でしょ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/5",
+      "value": "Having trouble keeping your ship's tank topped up? Remember, Erchius isn't the only fuel you can use - Isotopes, bio-fuels, and even Hydrogen can all act as fuel sources - and some are more effective than others!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/5",
+      "value": "船のタンクの持ち上げに問題がありますか? 覚えておいてください、エルキウスはあなたが使用できる唯一の燃料ではありません - 同位体、バイオ燃料、そして水素さえもすべて燃料源として機能することができます - そして、いくつかは他のものよりも効果的です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/50",
+      "value": "Fenerox are adorable. I'm fairly sure this is the only reason their acute xenophobic racism is tolerated. It's too cute to not love! Just listen to them talk about insectoids, and you'll understand."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/50",
+      "value": "フェナロックスは可愛い。 これが彼らの急性外国人嫌悪差別が容認される唯一の理由であると確信しています。 愛しないには可愛すぎる! 昆虫類について話すのを聴けば分かるでしょう"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/51",
+      "value": "No matter how many times he asks, do not go with Kevin to 'Fun Town'. It is neither fun, nor a town. Just heed the advice, or you might end up like me: taped to a wall in an office screaming obscenities into a fan."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/51",
+      "value": "何度聞いてもケビンと一緒に「楽しい街」へは行かない。 楽しいことでもないし、街でもない。 オフィスの壁をテープで貼って、わいせつなことを叫んでファンに叫ぶ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/52",
+      "value": "Is it lunch yet? If sure feels like it. I am incredibly hungry, and my coffee hole is empty. I think I'll head to the Starbucks on the lower west floor soon. Advice: leave the Chunky Meat Coffee for the carnivores."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/52",
+      "value": "もうお昼ですか。 確かにそう感じます。 私は信じられないほどお腹が空いていて、コーヒーホールは空いています。 近いうちに、西下のスターバックスに行くと思います。 アドバイス:肉食動物のためにチュンキーミートコーヒーを残してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/53",
+      "value": "Why are you still here? It's great having someone to talk to, but I seem to be doing all of the talking while you listen and make non-commital grunts like some kind of Apex simpleton."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/53",
+      "value": "なぜまだここにいるの? 誰かと話すのは素晴らしいことですが、私はあなたが耳を傾け、エイペックスの単純な種類の非コミットの声を出す間、すべての会話をしているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/6",
+      "value": "Having trouble gaining research? Your passive research gain will increase the longer you play."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/6",
+      "value": "研究に苦労している? 受動的な研究成果は、遊びが長ければ長いほど増えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/7",
+      "value": "Research will also increase based on the tier of the planet you're on - Exploring more dangerous planets lets you gather research more quickly!"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/7",
+      "value": "研究は、あなたが乗っている惑星のティアに基づいて増加します - より危険な惑星を探索すると、より迅速に研究を収集できます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/8",
+      "value": "Okay, so a couple of coworkers were saying they were leaving to go snarsh some garflipps, and I asked them what that meant, and they looked at me like I was an idiot. Is that normal? Am I the weird one for not knowing what that means?"
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/8",
+      "value": "同僚2人が『ガーフリップをスナーシュしてくる』って出かけようとしていたんだ。それってどういう意味か聞いたら、馬鹿を見るような目で見られたよ。これって普通なのかい？ 意味が分からない僕のほうがおかしいのかな？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatOptions/9",
+      "value": "A randomly-generated weapon will almost always be weaker than one you've crafted yourself. Crafted weapons also generally have special abilities designed to complement the weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/chatOptions/9",
+      "value": "ランダムに作られた武器は、ほとんどいつも自分で作ったものよりも弱い。 人工武器は、一般的に、武器を補完する特別な能力も備えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A good source of information."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "良い情報源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Info Booth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インフォブース"
+    }
+  ]
+]

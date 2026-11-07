@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into hellfire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を地獄火に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルファイアマイクロフォーマ"
+    }
+  ]
+]

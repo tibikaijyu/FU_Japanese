@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Teleport"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "テレポート"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cross through dimensions at will."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自由に寸法を横断します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Void-Warp Locus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボイドワープ"
+    }
+  ]
+]

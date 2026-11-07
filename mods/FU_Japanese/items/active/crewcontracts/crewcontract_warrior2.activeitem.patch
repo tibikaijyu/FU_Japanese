@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires an experienced warrior to fight alongside you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたと一緒に戦うために経験豊富な戦士を雇います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Veteran Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "退役軍人契約"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Sniper: +^green;4^reset;% Crit\n\t\t\t^yellow;^reset; ^cyan;Immune^reset;: Ghosts, Sticky/Slowing Tiles"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 狙撃手:+^green;4^reset;% クリトリス\n\t\t\t^yellow;^reset; ^cyan;免疫^reset;:ゴースト、スティッキー/スロータイル。"
+    }
+  ]
+]

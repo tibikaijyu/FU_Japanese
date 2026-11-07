@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense slab of whackin' fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ぎっしり詰まったスラブの楽しみ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aegisalt Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "愛知県産マッシュ。"
+    }
+  ]
+]

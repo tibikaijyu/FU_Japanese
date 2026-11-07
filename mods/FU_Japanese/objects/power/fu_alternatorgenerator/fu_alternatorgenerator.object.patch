@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wood, coal or energiwood burning power source. Generates up to ^orange;4W^reset; power, fuel type determines consumption rate. ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木、石炭またはエネルギーウッド燃焼電源。 最大^orange;4W^reset;電源を生成し、燃料タイプが消費率を決定します。 ^blue;左入力 ^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Alternator Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;オルタネータジェネレータ^reset;"
+    }
+  ]
+]

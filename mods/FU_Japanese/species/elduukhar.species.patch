@@ -1,0 +1,158 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Stoic, calm and mysterious, the Elduukhar prefer to take the role of artisans or philosophers. They seek discovery and enlightenment.\n\n  ^orange;Diet^reset;: Can eat almost anything\n\n^orange;Perks^reset;:\n  Max Health x^green;1.05^reset;, Fall Damage x^green;0.75^reset;\n  ^green;Resist^reset;: +^cyan;15^reset;% Fire & Ice, +^cyan;5^reset;% Physical,+^cyan;4^reset;% Shadow\n  ^cyan;When at 50% Health, emit slowing ice clouds.^reset;\n  Tech: ^green;Crystal Breath^reset;, ^green;Elduukhar Flight^reset;\n\n^orange;Environment^reset;:\n  ^green;Aether Sea, Crystal, Chromatic, Red Desert^reset; biomes: Health x^green;1.25^reset; and +^green;10^reset;% Crit Damage.\n  ^green;Hot^reset; biomes: Defense x^green;1.15^reset; and Health x^red;0.75^reset;.\n  ^red;Cold^reset; biomes: Defense x^red;0.85^reset; and Health x^green;1.25^reset;.\n\n^orange;Weapons^reset;:\n  Crystal / Lunari: +^green;12^reset;% Max Health & Defense\n\n^red;Weaknesses^reset;:\n  ^red;High Metabolism^reset;: +^red;15^reset;% hunger rate\n  ^red;High Food Cost^reset; for Crystal Breath attack and Flight.\n  ^red;Resist^reset;: -^red;20^reset;% Poison, -^red;10^reset;% Electric"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "禁欲的で穏やかな、謎多きエルドゥーカー。職人や哲学者の道を好み、発見と悟りを追い求める。\n\n  ^orange;食性^reset;：ほぼ何でも食べられる\n\n^orange;特性^reset;：\n  最大体力 x^green;1.05^reset;、落下ダメージ x^green;0.75^reset;\n  ^green;耐性^reset;：炎・氷 +^cyan;15^reset;%、物理 +^cyan;5^reset;%、影 +^cyan;4^reset;%\n  ^cyan;体力が50%になると、敵を減速させる氷雲を放出する。^reset;\n  テック：^green;クリスタルブレス^reset;、^green;エルドゥーカーの飛行^reset;\n\n^orange;環境^reset;：\n  ^green;エーテルの海・水晶・クロマティック・赤い砂漠^reset;：体力 x^green;1.25^reset;、クリティカルダメージ +^green;10^reset;%\n  ^green;高温^reset;の環境：防御力 x^green;1.15^reset;、体力 x^red;0.75^reset;\n  ^red;低温^reset;の環境：防御力 x^red;0.85^reset;、体力 x^green;1.25^reset;\n\n^orange;武器^reset;：\n  クリスタル／ルナリ：最大体力・防御力 +^green;12^reset;%\n\n^red;弱点^reset;：\n  ^red;高い代謝^reset;：満腹度の消費速度 +^red;15^reset;%\n  クリスタルブレスと飛行は^red;満腹度を多く消費^reset;する。\n  ^red;耐性^reset;：毒 -^red;20^reset;%、電気 -^red;10^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/title",
+      "value": "Eld'uukhar"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/title",
+      "value": "エルドゥーカー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Scale Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "うろこの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Horns"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "角"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Fin Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "ひれの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Belly Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "腹の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear Colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "ELD'UUKHAR"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "エルドゥーカー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Stoic, calm and mysterious, the Elduukhar prefer to take the role of artisans or philosophers. They seek discovery and enlightenment.\r\n\r\n  ^orange;Diet^reset;: Can eat almost anything\r\n\r\n^orange;Perks^reset;:\r\n  Max Health x^green;1.05^reset;, Fall Damage x^green;0.75^reset;\r\n  ^green;Resist^reset;: +^cyan;15^reset;% Fire & Ice, +^cyan;5^reset;% Physical,+^cyan;4^reset;% Shadow\r\n  ^cyan;When at 50% Health, emit slowing ice clouds.^reset;\r\n  Tech: ^green;Crystal Breath^reset;, ^green;Elduukhar Flight^reset;\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Aether Sea, Crystal, Chromatic, Red Desert^reset; biomes: Health x^green;1.25^reset; and +^green;10^reset;% Crit Damage.\r\n  ^green;Hot^reset; biomes: Defense x^green;1.15^reset; and Health x^red;0.75^reset;.\r\n  ^red;Cold^reset; biomes: Defense x^red;0.85^reset; and Health x^green;1.25^reset;.\r\n\r\n^orange;Weapons^reset;:\r\n  Crystal / Lunari: +^green;12^reset;% Max Health & Defense\r\n\r\n^red;Weaknesses^reset;:\r\n  ^red;High Metabolism^reset;: +^red;15^reset;% hunger rate\r\n  ^red;High Food Cost^reset; for Crystal Breath attack and Flight.\r\n  ^red;Resist^reset;: -^red;20^reset;% Poison, -^red;10^reset;% Electric"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "禁欲的で穏やかな、謎多きエルドゥーカー。職人や哲学者の道を好み、発見と悟りを追い求める。\n\n  ^orange;食性^reset;：ほぼ何でも食べられる\n\n^orange;特性^reset;：\n  最大体力 x^green;1.05^reset;、落下ダメージ x^green;0.75^reset;\n  ^green;耐性^reset;：炎・氷 +^cyan;15^reset;%、物理 +^cyan;5^reset;%、影 +^cyan;4^reset;%\n  ^cyan;体力が50%になると、敵を減速させる氷雲を放出する。^reset;\n  テック：^green;クリスタルブレス^reset;、^green;エルドゥーカーの飛行^reset;\n\n^orange;環境^reset;：\n  ^green;エーテルの海・水晶・クロマティック・赤い砂漠^reset;：体力 x^green;1.25^reset;、クリティカルダメージ +^green;10^reset;%\n  ^green;高温^reset;の環境：防御力 x^green;1.15^reset;、体力 x^red;0.75^reset;\n  ^red;低温^reset;の環境：防御力 x^red;0.85^reset;、体力 x^green;1.25^reset;\n\n^orange;武器^reset;：\n  クリスタル／ルナリ：最大体力・防御力 +^green;12^reset;%\n\n^red;弱点^reset;：\n  ^red;高い代謝^reset;：満腹度の消費速度 +^red;15^reset;%\n  クリスタルブレスと飛行は^red;満腹度を多く消費^reset;する。\n  ^red;耐性^reset;：毒 -^red;20^reset;%、電気 -^red;10^reset;%"
+    }
+  ]
+]

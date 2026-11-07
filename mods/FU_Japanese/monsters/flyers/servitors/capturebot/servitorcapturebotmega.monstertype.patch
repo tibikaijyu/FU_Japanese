@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ultimate in Pet Hunting"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペット狩りの極限"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega Capture Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガキャプチャーボット"
+    }
+  ]
+]

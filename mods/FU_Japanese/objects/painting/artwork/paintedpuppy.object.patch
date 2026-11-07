@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Adorable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Boopsnoot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブープシュー"
+    }
+  ]
+]

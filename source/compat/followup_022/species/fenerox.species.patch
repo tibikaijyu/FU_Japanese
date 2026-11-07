@@ -1,0 +1,146 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Fenerox are new to the established galactic order. Their tech is generally rather low, and only a few have moved beyond their hunter-gatherer lifestyle. Their skill in hunting is remarkable.\n\n  ^orange;Diet^reset;: Carnivore\n\n^orange;Perks^reset;:\n  +^green;12^reset;% Speed & Jump, Damage x^green;1.05^reset;, +^green;5^reset;% Charisma\n  ^green;Night Vision^reset;\n  ^green;Regenerate at night if sufficiently fed.^reset;\n  ^green;Resist^reset;: +^cyan;20^reset;% Electric, +^cyan;15^reset;% Cosmic, +^cyan;5^reset;% Poison, Shadow, +^cyan;2^reset;% Fire\n  Tech: ^green;Hunter's Claw^reset;\n  ^green;Immune^reset;: Electrified\n\n^orange;Environment^reset;:\n  ^green;Savannah^reset;: Damage x^green;1.15^reset;\n  At night, if well fed, gain +^green;15^reset;% Physical Resist and +^green;2^reset; Defense\n  ^red;Sulphuric,Slime and Tar biomes^reset;: Defense x^red;0.8^reset;\n\n^orange;Weapons^reset;:\n  Spear Mastery +^green;25^reset;%\n  ^green;Add your current speed/4 as bonus melee damage.^reset;\n  ^red;Attacking with spears costs Hunger^reset;\n\n^red;Weaknesses^reset;:\n  Health x^red;0.9^reset;\n  ^red;Resist^reset;: -^red;18^reset;% Ice, -^red;15^reset;% Physical Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "フェネロックスは銀河社会に加わってまだ日が浅い。技術水準はおおむね低く、狩猟採集の暮らしを離れた者はわずかだが、狩りの腕前は見事なものだ。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  移動速度・ジャンプ +^green;12^reset;%、ダメージ x^green;1.05^reset;、カリスマ +^green;5^reset;%\n  ^green;暗視^reset;\n  ^green;十分に満腹なら、夜間に体力が再生する。^reset;\n  ^green;耐性^reset;：電気 +^cyan;20^reset;%、宇宙 +^cyan;15^reset;%、毒・影 +^cyan;5^reset;%、炎 +^cyan;2^reset;%\n  テック：^green;狩人の爪^reset;\n  ^green;無効^reset;：帯電\n\n^orange;環境^reset;：\n  ^green;サバンナ^reset;：ダメージ x^green;1.15^reset;\n  夜間かつ満腹時：物理耐性 +^green;15^reset;%、防御力 +^green;2^reset;\n  ^red;硫黄・スライム・タールの環境^reset;：防御力 x^red;0.8^reset;\n\n^orange;武器^reset;：\n  槍の熟練度 +^green;25^reset;%\n  ^green;現在の移動速度/4を近接ダメージに加算。^reset;\n  ^red;槍による攻撃は満腹度を消費する。^reset;\n\n^red;弱点^reset;：\n  体力 x^red;0.9^reset;\n  ^red;耐性^reset;：氷 -^red;18^reset;%、物理 -^red;15^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Fur colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "毛の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Hair style"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "髪型"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Skin colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "肌の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Hair colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "髪の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "FENEROX"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "フェネロックス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "Fenerox are new to the established galactic order. Their tech is generally rather low, and only a few have moved beyond their hunter-gatherer lifestyle. Their skill in hunting is remarkable.\r\n\r\n  ^orange;Diet^reset;: Carnivore\r\n\r\n^orange;Perks^reset;:\r\n  +^green;12^reset;% Speed & Jump, Damage x^green;1.05^reset;, +^green;5^reset;% Charisma\r\n  ^green;Night Vision^reset;\r\n  ^green;Regenerate at night if sufficiently fed.^reset;\r\n  ^green;Resist^reset;: +^cyan;20^reset;% Electric, +^cyan;15^reset;% Cosmic, +^cyan;5^reset;% Poison, Shadow, +^cyan;2^reset;% Fire\r\n  Tech: ^green;Hunter's Claw^reset;\r\n  ^green;Immune^reset;: Electrified\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Savannah^reset;: Damage x^green;1.15^reset;\r\n  At night, if well fed, gain +^green;15^reset;% Physical Resist and +^green;2^reset; Defense\r\n  ^red;Sulphuric,Slime and Tar biomes^reset;: Defense x^red;0.8^reset;\r\n\r\n^orange;Weapons^reset;:\r\n  Spear Mastery +^green;25^reset;%\r\n  ^green;Add your current speed/4 as bonus melee damage.^reset;\r\n  ^red;Attacking with spears costs Hunger^reset;\r\n\r\n^red;Weaknesses^reset;:\r\n  Health x^red;0.9^reset;\r\n  ^red;Resist^reset;: -^red;18^reset;% Ice, -^red;15^reset;% Physical Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "フェネロックスは銀河社会に加わってまだ日が浅い。技術水準はおおむね低く、狩猟採集の暮らしを離れた者はわずかだが、狩りの腕前は見事なものだ。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  移動速度・ジャンプ +^green;12^reset;%、ダメージ x^green;1.05^reset;、カリスマ +^green;5^reset;%\n  ^green;暗視^reset;\n  ^green;十分に満腹なら、夜間に体力が再生する。^reset;\n  ^green;耐性^reset;：電気 +^cyan;20^reset;%、宇宙 +^cyan;15^reset;%、毒・影 +^cyan;5^reset;%、炎 +^cyan;2^reset;%\n  テック：^green;狩人の爪^reset;\n  ^green;無効^reset;：帯電\n\n^orange;環境^reset;：\n  ^green;サバンナ^reset;：ダメージ x^green;1.15^reset;\n  夜間かつ満腹時：物理耐性 +^green;15^reset;%、防御力 +^green;2^reset;\n  ^red;硫黄・スライム・タールの環境^reset;：防御力 x^red;0.8^reset;\n\n^orange;武器^reset;：\n  槍の熟練度 +^green;25^reset;%\n  ^green;現在の移動速度/4を近接ダメージに加算。^reset;\n  ^red;槍による攻撃は満腹度を消費する。^reset;\n\n^red;弱点^reset;：\n  体力 x^red;0.9^reset;\n  ^red;耐性^reset;：氷 -^red;18^reset;%、物理 -^red;15^reset;%"
+    }
+  ]
+]

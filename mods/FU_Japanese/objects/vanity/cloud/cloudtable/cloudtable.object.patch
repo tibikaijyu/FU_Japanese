@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A table made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られたテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドテーブル"
+    }
+  ]
+]

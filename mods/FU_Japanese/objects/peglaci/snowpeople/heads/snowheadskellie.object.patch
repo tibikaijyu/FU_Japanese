@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The head of a Snowskeleton."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スノースケルトンの頭。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skeleton Snowhead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケルトンスノーヘッド"
+    }
+  ]
+]

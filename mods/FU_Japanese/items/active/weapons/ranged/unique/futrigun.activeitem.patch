@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decidedly original .45 calibre weapon with bouncing and homing bullets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バウンス弾とホーミング弾を備えた明らかにオリジナルの.45口径武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vash's Theft"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Vashの盗難"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "A gun for those who just can't get enough death."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "十分な死を得ることができない人のための銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Vash's Strength"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "ヴァッシュの強さ"
+    }
+  ]
+]

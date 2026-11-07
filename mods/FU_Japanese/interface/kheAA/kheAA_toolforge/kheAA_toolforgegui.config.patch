@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/close/caption",
+      "value": "Close"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/close/caption",
+      "value": "閉鎖"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/craftButton/caption",
+      "value": "Craft tool"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/craftButton/caption",
+      "value": "工作道具"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/filter/hint",
+      "value": "Name your Tool"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filter/hint",
+      "value": "ツールの名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/stats/value",
+      "value": "^#CCB600;Stats:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/stats/value",
+      "value": "^#CCB600; 統計:"
+    }
+  ]
+]

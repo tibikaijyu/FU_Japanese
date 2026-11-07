@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Small Front Engine for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用の小型フロントエンジン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Novakid Small Front Engine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノバリ小型フロントエンジン"
+    }
+  ]
+]

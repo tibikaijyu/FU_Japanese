@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezing rounds mince enemies good.\n^yellow;Inflicts freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍結ラウンドは、敵を良いミンチします。\n^yellow;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rime Cutter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タイムカッター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Faster and more dangerous.\n^yellow;Inflicts freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "より速く、より危険です。\n^yellow;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Ice Slicer^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;アイススライサー^reset; ^yellow;^reset;"
+    }
+  ]
+]

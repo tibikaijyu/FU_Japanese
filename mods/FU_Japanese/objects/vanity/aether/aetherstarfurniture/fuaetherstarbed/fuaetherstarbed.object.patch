@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bed made of pure dreams and happiness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な夢と幸せで作られたベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙エーテルベッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bookcase for storing folk tales and legends..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "民話や伝説を納める本棚...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世書庫"
+    }
+  ]
+]

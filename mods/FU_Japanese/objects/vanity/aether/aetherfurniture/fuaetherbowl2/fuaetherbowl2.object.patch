@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple pretty bowl containing a pile of aether dust."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテル粉塵の山を含むシンプルなきれいなボウル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Bowl"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルボウル"
+    }
+  ]
+]

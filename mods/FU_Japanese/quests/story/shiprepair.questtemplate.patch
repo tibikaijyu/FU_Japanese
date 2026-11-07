@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That was no mean feat - well done, dear. Now we can truly begin to ^green;rebuild our ranks^reset; when word spreads about what you accomplished!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それは決してよく出来たことではなかった。 これで本当に^green;ランクを再構築することができます^reset;あなたが達成したことについて単語が広がるとき!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/repairShip",
+      "value": "^green;Retrieve the ^orange;Erchius Crystal shipment^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/repairShip",
+      "value": "^green; ^orange; エルキウス 水晶 の出荷情報 ^reset; を取得します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Since you're an active agent, maybe you could ^green;return to the Outpost and speak to ^orange;Penguin Pete the shipyard captain^reset;? He's been ranting about something for a solid week."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "現役のエージェントなら、^green;前哨基地に戻って^orange;造船所長のペンギン・ピート^reset;に話しかけてみてくれないか？ 彼は丸一週間、何かについて騒ぎ立てているんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Rebuilding Reputations"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "評判の再構築"
+    }
+  ]
+]

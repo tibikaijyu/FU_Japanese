@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew.\n^cyan;Bio Weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え?\n^cyan;生体武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slug Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スラグガン"
+    }
+  ]
+]

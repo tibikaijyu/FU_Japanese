@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slow but devastating. Forbidden in the Helyn Sector.\n^cyan;Counts as plasma weapon for set bonuses^reset;\n^yellow;Extreme explosion^reset;\n^red;Heavy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゆっくりだが壊滅的。 ヘリン部門で禁止。\n^cyan;セットボーナスのプラズマ武器としてカウントします。^reset;\n^yellow;極限爆発^reset;\n^red;重装^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Beam Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマビームキャノン"
+    }
+  ]
+]

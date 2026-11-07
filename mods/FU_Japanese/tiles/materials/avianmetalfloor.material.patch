@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Metal Floor"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴィアン金属床"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metal floor using Avian technology."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアン技術を使用した金属床。"
+    }
+  ]
+]

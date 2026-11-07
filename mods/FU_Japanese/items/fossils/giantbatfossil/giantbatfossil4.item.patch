@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Vampiradon lower body."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたヴァンピラドンの下部ボディ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vampiradon legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バンピラドン脚"
+    }
+  ]
+]

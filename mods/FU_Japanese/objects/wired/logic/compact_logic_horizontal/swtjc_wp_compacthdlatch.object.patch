@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The left, or 'Enable', node controls whether or not the latch can change states based on its right, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ノードは、左または「有効」に、ラッチが右または「データ」ノードに基づいて状態を変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "The left, or 'Enable', node controlsss whether or not the latch can change statesss based on itsss right, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "左または「有効」ノードは、ラッチがそのss右、または「データ」ノードに基づいて状態を変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Fascinated. The left, or 'Enable', node controls whether or not the latch can change states based on its right, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "魅了された。 ノードは、左または「有効」に、ラッチが右または「データ」ノードに基づいて状態を変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compact Data Latch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンパクトデータラッチ"
+    }
+  ]
+]

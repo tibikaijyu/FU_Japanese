@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I can only guess at the potential meaning of these glyphs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私はこれらのグリフの潜在的な意味を推測できるだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代彫刻"
+    }
+  ]
+]

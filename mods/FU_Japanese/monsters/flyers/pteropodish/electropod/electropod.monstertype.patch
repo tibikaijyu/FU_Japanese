@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like a flying electric eel, but must slam the ground to discharge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるで電動ウナギのようですが、排出するには地面に突っ込む必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electropod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "節電"
+    }
+  ]
+]

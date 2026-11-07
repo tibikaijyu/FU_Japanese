@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Part chicken. Part stilt. 100% useless."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鶏肉も。 パート・スティルト。 100% 無駄です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chimkin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チムキン"
+    }
+  ]
+]

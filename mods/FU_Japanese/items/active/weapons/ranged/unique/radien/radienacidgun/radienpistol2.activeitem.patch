@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange X'i-formed weapon.\n^cyan;Eats Tiles^reset;\n^yellow;Poison Rad Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙にシーを形作った武器。\n^cyan;ファイルを食べる^reset;\n^yellow;毒ラッドガス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Acid Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "西安酸鉄砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A strange X'i-formed weapon.\n^cyan;Eats Tiles, ^orange;+2 Projectiles^reset;^reset;\n^yellow;Poison Rad Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "奇妙にシーを形作った武器。\n^cyan;タイル、^orange;+2プロジェクタ ^reset;^reset;\n^yellow;毒ラッドガス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;X'ian Acid Ejector^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;シアン 酸エジェクター ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "A strange X'i-formed weapon.\n^cyan;Eats Tiles, ^orange;+2 Projectiles^reset;^reset;\n^yellow;Poison Rad Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "奇妙にシーを形作った武器。\n^cyan;タイル、^orange;+2プロジェクタ ^reset;^reset;\n^yellow;毒ラッドガス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^orange;X'ian Acid Blaster^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^orange;シアン 酸ブラスター ^reset;"
+    }
+  ]
+]

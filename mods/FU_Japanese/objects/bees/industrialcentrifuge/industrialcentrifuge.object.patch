@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An enormous centrifuge with expandable attachments. Fast but inefficient. ^cyan;Requires ^orange;12W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "拡張可能なアタッチメントを備えた巨大な遠心分離機。 速いが非効率。 ^cyan; は ^orange;12W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Industrial Centrifuge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;工業用遠心分離機^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Powered Centrifuge"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "電源付き遠心分離機"
+    }
+  ]
+]

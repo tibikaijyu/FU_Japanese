@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal 70^reset;: 2s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力を70回復^reset;：2秒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floralyt Candy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花のキャンディ"
+    }
+  ]
+]

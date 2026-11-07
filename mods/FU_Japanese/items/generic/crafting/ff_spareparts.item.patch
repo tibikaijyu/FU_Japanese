@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Handy bits. Probably worth extracting, too."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "便利な点。 抽出する価値はあるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spare Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スペアパーツ"
+    }
+  ]
+]

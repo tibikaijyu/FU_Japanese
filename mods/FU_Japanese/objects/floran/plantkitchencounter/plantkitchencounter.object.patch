@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A haunch of... something and a boneboo garnish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "たくさんの...何かと骨組みのガーニッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Plant Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;プラントキッチンカウンター^reset;"
+    }
+  ]
+]

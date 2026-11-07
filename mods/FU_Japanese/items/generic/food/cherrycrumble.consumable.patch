@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderfully tasty desert.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150s^gray;)\n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしく美味しい砂漠。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150ス)^gray;)\n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry Crumble"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "桜粉"
+    }
+  ]
+]

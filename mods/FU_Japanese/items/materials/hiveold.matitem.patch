@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange organic material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な有機材料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Living Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石"
+    }
+  ]
+]

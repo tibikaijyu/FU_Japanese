@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toggle on with ^green;[F]^reset;, then hold ^green;[Down]^reset; to produce a Rad Bulb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[F]^reset; でオンにしてから、^green;[Down]^reset; を押して、Rad Bulb を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "X'ian Radbulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "シアンの放射球根"
+    }
+  ]
+]

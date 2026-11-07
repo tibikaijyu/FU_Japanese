@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a Sous Chef to keep you stuffed and reduce fuel costs by 6%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "副料理長を雇って、燃料費を削減します。 6%."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sous Chef Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スーシェフ契約"
+    }
+  ]
+]

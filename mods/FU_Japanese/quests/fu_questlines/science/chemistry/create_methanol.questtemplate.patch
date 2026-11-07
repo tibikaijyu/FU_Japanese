@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent. This will be quite useful, and goes quite appreciated. Take ^green;this augment^reset;, perhaps you can get more use out of it than I ever could."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。 これは非常に有用であり、非常に感謝しています。 ^green;この拡張子 ^reset; を取ると、おそらく、私がこれまで以上に多くの利用を得ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the 10 ^orange;Methanol^reset; to the green-tailed cat at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み 10 ^orange;メタノール^reset; 緑の尾を持つ猫に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I could use some ^orange;Methanol^reset; but don't have the materials handy. Bring me 10 ^orange;Methanol^reset; and I'll toss you something useful in return. Not a grenade. Promise."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はいくつかの^orange;メタノール^reset;を使用することができますが、材料は便利です。 連れて来い 10 ^orange;メタノール^reset; 代わりに役に立つものを投げます 手すりではない。 約束する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Useful Alcohol"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "有用なアルコール"
+    }
+  ]
+]

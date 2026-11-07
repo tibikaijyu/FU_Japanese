@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Beakseed and dried corn. A common Avian trail mix, or breakfast cereal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビークシードと乾燥トウモロコシ。 一般的なアビアントレイルミックス、または朝食シリアル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Crunchy birdman cereal."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クッキーバードマンシリアル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. This cereal is almost entirely nuts and kernels. Truly a meal fit for birds."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 この穀物はほぼ完全にナッツとカーネルです。 鳥にぴったりの食事。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This cereal ain't particularly fillin'..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この穀物は特に満ちていない..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corn Peckers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トウモロコシペッカー"
+    }
+  ]
+]

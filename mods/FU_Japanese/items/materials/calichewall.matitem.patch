@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rich in iodine.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヨウ素が豊富。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caliche Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石灰岩"
+    }
+  ]
+]

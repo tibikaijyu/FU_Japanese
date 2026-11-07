@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With this tech I should be able to hold jump and reduce my inertia."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この技術を使えば、ジャンプして慣性を減らすことができるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've devised a way to quite literally ignore physics to a mild degree!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は物理学を軽度まで文字通り無視する方法を考案しました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Breaking Physics"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "物理を破る"
+    }
+  ]
+]

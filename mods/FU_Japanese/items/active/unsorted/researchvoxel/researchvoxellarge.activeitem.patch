@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cache of 5000 stored Research."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "5000ストアド研究のキャッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Research Megadisc"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メガディスク研究"
+    }
+  ]
+]

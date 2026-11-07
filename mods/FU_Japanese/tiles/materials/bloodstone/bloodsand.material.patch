@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "As red as your insides."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの内側と同じくらい赤い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血砂"
+    }
+  ]
+]

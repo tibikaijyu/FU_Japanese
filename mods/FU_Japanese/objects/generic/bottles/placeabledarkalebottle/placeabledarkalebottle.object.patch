@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable Mild Ale!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! プレーサブルマイルドエール!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Mild Ale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレーサブル・マイルドエール"
+    }
+  ]
+]

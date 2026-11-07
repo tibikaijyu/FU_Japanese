@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Polished to shiny perfection.\n^cyan;Poisoned Edge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "磨かれた輝きの完璧さ。\n^cyan; 中毒エッジ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデン・サイス"
+    }
+  ]
+]

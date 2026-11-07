@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's unpleasant to look at. It's also unpleasant when it looks at you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見るのが不愉快だ。 あなたを見るのも不愉快です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oculob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "眼科"
+    }
+  ]
+]

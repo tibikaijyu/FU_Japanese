@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/accuse/skath/default/0",
+      "value": "We'll have none of that, you hear?!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/skath/default/0",
+      "value": "そんなことないぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/skath/default/1",
+      "value": "These Items do not belong to you!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/skath/default/1",
+      "value": "これらのアイテムはあなたのものではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/skath/default/2",
+      "value": "Stop your thievery at once!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/skath/default/2",
+      "value": "すぐに泥棒を止めなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/skath/default/3",
+      "value": "I will pretend I haven't seen that but you must stop!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/skath/default/3",
+      "value": "私はそれを見てないふりをしますが、あなたは止めなければなりません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/skath/default/4",
+      "value": "Put this back at once! This is not yours!"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/skath/default/4",
+      "value": "これをすぐに元に戻してください! これはあなたのではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/skath/default/0",
+      "value": "Alert the Guards! We have a thief around here!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/skath/default/0",
+      "value": "警備員に警告! この辺りに泥棒がいます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/skath/default/1",
+      "value": "Guards! Stop that thief!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/skath/default/1",
+      "value": "ガード! その泥棒はやめなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/skath/default/2",
+      "value": "The Vanguard will strike you down for your nasty deeds! Guards!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/skath/default/2",
+      "value": "ヴァンガードはあなたの厄介な行為のためにあなたを倒します! ガード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/skath/default/3",
+      "value": "Guards, arrest this thief!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/skath/default/3",
+      "value": "ガード、この泥棒を逮捕!"
+    }
+  ]
+]

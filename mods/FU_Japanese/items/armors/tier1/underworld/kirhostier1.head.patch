@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; (Machine) Pistols: +^green;1^reset;/+^green;2.5^reset;% Crit Chance\n^yellow;^reset; Assault/Sniper Rifles: +^green;2^reset;% Crit Chance^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;(マシン) ピストル:+^green;1^reset;/+^green;2.5^reset;% クリティカルチャンス\n^yellow;^reset;アサルト/狙撃ライフル:+^green;2^reset;%クリティカル率 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Underworld Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水中ゴーグル"
+    }
+  ]
+]

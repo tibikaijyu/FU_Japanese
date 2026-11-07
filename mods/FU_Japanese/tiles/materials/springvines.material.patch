@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick coil of vines, with flowers. They look strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花を咲かせた、ぶどうの厚いコイル。 彼らは強いように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran like vinesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "花は花のように咲く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Some flowering vines."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 花を咲かせるブドウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spring Vine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "春のワイン"
+    }
+  ]
+]

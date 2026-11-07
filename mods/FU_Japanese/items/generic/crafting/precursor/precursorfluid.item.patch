@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nearly magical space-time fluid suspended in a portable gravity well.\n^blue;+^white;200 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポータブル重力井戸に吊るされたほぼ魔法のような時空液体。\n^blue;+^white;200 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quantum Fluid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "量子流体"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wanders endlessly, blasting with abandon. Well armored."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放り投げでブラストする、無限にワンダー。 よく装甲されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Blast Droid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆ブラスト・ドロイド"
+    }
+  ]
+]

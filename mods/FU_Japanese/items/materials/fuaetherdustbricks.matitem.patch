@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crafted bricks made from compressed aether dust."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "圧縮エーテル粉から作られたレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dust Bricks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダストれんが"
+    }
+  ]
+]

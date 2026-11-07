@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metallic hive construct.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属製のハビタリー構造。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Hive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼片"
+    }
+  ]
+]

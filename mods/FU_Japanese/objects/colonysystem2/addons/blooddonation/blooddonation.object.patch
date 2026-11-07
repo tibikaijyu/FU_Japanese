@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Encourage your tenants to donate blood and other stuff. For science, of course.\n^red;-1 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テナントに献血などの寄付を奨励します。 もちろん科学に関しては。\n^red;-1Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Drive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液ドライブ"
+    }
+  ]
+]

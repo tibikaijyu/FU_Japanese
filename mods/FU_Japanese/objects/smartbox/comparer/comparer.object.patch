@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Compares two items and sends a signal on ^red;Output 2^reset; if both are identical.\nItem-Network compatible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "二つの項目を比較し、両方が同一であれば ^red;Output2^reset; に信号を送ります。\nアイテム-ネットワーク対応。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Comparer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテム比較"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Smartbox"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "スマートボックス"
+    }
+  ]
+]

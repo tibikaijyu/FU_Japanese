@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spit Acid! (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "酸を吐く！（^yellow;基本ガイド^reset;の^blue;特殊テック^reset;を参照）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Acid Spit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "酸性孔"
+    }
+  ]
+]

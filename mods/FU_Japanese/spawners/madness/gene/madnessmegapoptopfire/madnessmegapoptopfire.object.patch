@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ready to lay waste to worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世界に無駄を捨てる準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magmatop Omega"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマトップオメガ"
+    }
+  ]
+]

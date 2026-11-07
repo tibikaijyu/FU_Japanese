@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A classy and deadly-looking weapon.\n^green;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上品で致命的な武器。\n^green; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Sea Scion"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金海"
+    }
+  ]
+]

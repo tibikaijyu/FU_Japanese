@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ripe, juicy tomato! ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熟したジューシートマト! ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

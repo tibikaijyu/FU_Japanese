@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^#969600;Glow^reset;\n^yellow;^reset; ^cyan;Resist^reset;: Mental ^green;20^reset;%\n^yellow;^reset; Bio/Blister Weapons: +^green;4^reset;% Crit Chance and Damage x^green;1.15^reset;^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Proto-Poison, Pus, Liq.Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;セットボーナス^reset;：\n^yellow;^reset; ^#969600;発光^reset;\n^yellow;^reset; ^cyan;耐性^reset;：精神^green;20^reset;%\n^yellow;^reset; 生体／ブリスター武器：クリティカル率+^green;4^reset;%、ダメージ×^green;1.15^reset;^reset;\n^yellow;^reset; ^cyan;無効化^reset;：毒・プロト毒・膿・液体窒素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pustule Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プシュチュルヘルム"
+    }
+  ]
+]

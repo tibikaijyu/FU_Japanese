@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/noBatteries",
+      "value": "No batteries found."
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/noBatteries",
+      "value": "バッテリーは見つかりませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/statusOff",
+      "value": "^red;OFF^reset; (doesn't need charging) until all batteries are less than ^yellow;%s%%^reset; full"
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/statusOff",
+      "value": "^red;OFF ^reset; (充電不要) バッテリーが ^yellow;%s%%^reset;full 以下になるまで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/statusOn",
+      "value": "^green;ON^reset; (needs charging) until all batteries become ^yellow;%s%%^reset; full"
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/statusOn",
+      "value": "^green;オン^reset; (充電が必要) バッテリーがすべてなくなるまで ^yellow;%s%%^reset; いっぱい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/chatStrings/tooltip",
+      "value": "Found batteries: ^green;%s^reset; (^yellow;%s%%^reset; full)\nCurrent state: %s."
+    },
+    {
+      "op": "replace",
+      "path": "/chatStrings/tooltip",
+      "value": "バッテリー: ^green;%s^reset;(^yellow;%s%%^reset;full)\n現在の状態: %s。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Starts sending ^green;ON^reset; signal if all batteries are less than 10% full. Doesn't stop sending ^green;ON^reset; signal until all batteries become completely full. Knows about all batteries on this power conduit.\n^cyan;Useful for turning the reactors On/Off.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "送信開始 ^green;オン^reset; 全てのバッテリーが 10% いっぱい すべてのバッテリーが完全に満タンになるまで ^green;ON^reset; 信号の送信を停止しないでください。 この電源コンジット上のすべてのバッテリーについて知っています。\n^cyan; 原子炉のオン/オフを回すのに役立ちます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Batteries Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空電池センサ"
+    }
+  ]
+]

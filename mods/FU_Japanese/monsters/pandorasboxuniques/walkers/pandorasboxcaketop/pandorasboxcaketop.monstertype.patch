@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Somehow, someway, Poptops have been combined with delicious cake."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポップトップスと美味しいケーキが一体となった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caketop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケーキトップ"
+    }
+  ]
+]

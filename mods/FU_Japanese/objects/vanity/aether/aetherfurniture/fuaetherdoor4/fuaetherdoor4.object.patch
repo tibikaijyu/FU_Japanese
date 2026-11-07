@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door is made of hardened and compressed aether materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアは硬化し、圧縮エーテル材料で作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Gem Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル宝石ドア"
+    }
+  ]
+]

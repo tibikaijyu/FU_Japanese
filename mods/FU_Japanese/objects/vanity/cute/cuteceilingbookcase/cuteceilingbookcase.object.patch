@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy cute wall-mounted bookcase."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なかわいい壁掛けの本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Hanging Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいハンギングブックケース"
+    }
+  ]
+]

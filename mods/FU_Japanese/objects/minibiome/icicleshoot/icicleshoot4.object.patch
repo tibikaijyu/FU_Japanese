@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A type of ice plant that looks like a spear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷の植物の一種で、ほこりのような形をしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icicle Shoot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "自転車撮影"
+    }
+  ]
+]

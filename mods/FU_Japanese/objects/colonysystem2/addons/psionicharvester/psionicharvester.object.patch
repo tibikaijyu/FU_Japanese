@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Steals your tenants' negative thoughts and emotions to create psionic energy. Requires 200W. ^yellow;+10 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テナントのネガティブな思考や感情を盗んで、サイオン的なエネルギーを作り出します。 200W が必要です。 ^yellow;+10Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Psionic Harvester^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;超能力収集器^reset;"
+    }
+  ]
+]

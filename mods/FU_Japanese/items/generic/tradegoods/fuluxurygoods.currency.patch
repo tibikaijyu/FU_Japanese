@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of luxorious trinkets, valuable for interstellar trade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星間貿易に貴重な豪華な小枝の密閉箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Luxury Goods"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "高級品"
+    }
+  ]
+]

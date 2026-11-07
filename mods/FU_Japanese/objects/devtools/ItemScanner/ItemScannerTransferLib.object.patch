@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Debug tool to print all that an item is to the log. Includes item network info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムがすべてログに出力するデバッグツール。 アイテムネットワーク情報を含みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Item Scanner TL"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイテムスキャナTL"
+    }
+  ]
+]

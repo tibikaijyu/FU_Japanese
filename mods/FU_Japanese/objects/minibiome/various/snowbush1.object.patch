@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sprice Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "価格ブッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sprice Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "価格ブッシュ"
+    }
+  ]
+]

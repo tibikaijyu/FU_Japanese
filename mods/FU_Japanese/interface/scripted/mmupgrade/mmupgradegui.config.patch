@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/upgrades/size1/description",
+      "value": "Increase area of effect by +1"
+    },
+    {
+      "op": "replace",
+      "path": "/upgrades/size1/description",
+      "value": "+1 の効果領域を増加します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgrades/size2/description",
+      "value": "Increase area of effect by +1"
+    },
+    {
+      "op": "replace",
+      "path": "/upgrades/size2/description",
+      "value": "+1 の効果領域を増加します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgrades/size3/description",
+      "value": "Increase area of effect by +1"
+    },
+    {
+      "op": "replace",
+      "path": "/upgrades/size3/description",
+      "value": "+1 の効果領域を増加します。"
+    }
+  ]
+]

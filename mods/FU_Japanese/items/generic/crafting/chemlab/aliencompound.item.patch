@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange compounds with various amazing uses in scientific research."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学研究でさまざまな驚くべき用途を持つ奇妙な化合物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Alien Compound^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;異星化合物^reset;"
+    }
+  ]
+]

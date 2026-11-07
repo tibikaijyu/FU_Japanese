@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heal within a radius."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半径内で治癒します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Regen Field^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;再生フィールド^reset;"
+    }
+  ]
+]

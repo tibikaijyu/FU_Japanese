@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+20% Radiation Resist. Use it on planets with ^cyan;mild radiation levels^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+20%放射線抵抗。 惑星で使用します。 ^cyan;軽度の放射線レベル^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radiation EPP"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射線EPP"
+    }
+  ]
+]

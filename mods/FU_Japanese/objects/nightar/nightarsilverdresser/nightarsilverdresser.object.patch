@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This dresser shines with the purity of silver."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドレッサーは銀の純度で輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Silver Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールシルバードレス"
+    }
+  ]
+]

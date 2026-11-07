@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A status pod. Will I be lucky?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ステータスポッド。 運がよくなるでしょうか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A status pod. I hope I get lucky."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ステータスポッド。 幸運を祈る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A status pod. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ステータスポッド。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran trigger little pod with recklessss abandon."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは無謀な放棄と小さなポッドをトリガーします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. This status pod's effects are unable to be analysed."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 このステータスポッドの効果は分析できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "It's a status pod! Should I tempt fate by triggering it?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ステータスポッドです! 引き起こして運命を誘惑すべきでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I bet something bad happens."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "何か悪いことが起こるに違いない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A status pod! I sure hope today's my lucky day!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ステータスポッド! 今日は幸運な日だと思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Status Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステータスポッド"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Re-Breather"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "再呼吸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that recycles air at 100% efficiency. ^cyan;Immune: Oxygen^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "100%効率で空気をリサイクルするEPPモジュールです。 ^cyan;免疫:酸素^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Re-Breather"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "再呼吸"
+    }
+  ]
+]

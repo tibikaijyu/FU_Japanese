@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made via gene engineering."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遺伝子工学により作られた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bio Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオライト"
+    }
+  ]
+]

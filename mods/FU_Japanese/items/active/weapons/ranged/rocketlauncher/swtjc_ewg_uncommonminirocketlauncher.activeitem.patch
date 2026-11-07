@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches smaller anti-personnel rockets in fairly quick succession."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より小型の対人ロケットをかなり迅速に打ち上げる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Mini-Rocket Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "珍しい小型ロケット発射装置"
+    }
+  ]
+]

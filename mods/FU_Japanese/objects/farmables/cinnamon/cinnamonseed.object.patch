@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spice of life! Cinnamon!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパイス・オブ・ライフ! シナモン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモンシード"
+    }
+  ]
+]

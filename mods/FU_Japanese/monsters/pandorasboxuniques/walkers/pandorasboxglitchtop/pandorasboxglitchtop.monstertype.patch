@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I am error."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は間違いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitchtop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチトップ"
+    }
+  ]
+]

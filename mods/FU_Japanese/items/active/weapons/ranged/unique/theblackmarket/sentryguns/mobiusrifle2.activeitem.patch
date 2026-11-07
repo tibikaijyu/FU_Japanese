@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "ITS FUCKIN' BROKEN. JOKES ON YOU.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファッキン・ブローケン。 ジョークを聞きなさい。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "YOU CHEATED THIS IN, MORON."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "あなたはこの印を裏切りましたね、モーロン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Shatterstar^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;シャッタースター^reset; ^yellow;^reset;"
+    }
+  ]
+]

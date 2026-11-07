@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawns in a pet bunny! \n^orange;To locate it after placing, toggle wire mode.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットバニーで産卵! \n^orange; ワイヤーモードを切り替える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Bunny Spawner^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;バニースパウナー^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whose twisted idea was this?! Revolting! \n60^red;s -^reset;15^red;% Health^reset; \n^blue;Madness Gain^reset; 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰のひねった考え? 反乱! \n60^red;s -^reset;15^red;%体力 ^reset; \n^blue;狂気の高まり^reset; 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloody Boogerbread"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれのパン"
+    }
+  ]
+]

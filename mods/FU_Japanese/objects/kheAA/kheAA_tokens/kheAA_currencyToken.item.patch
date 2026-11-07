@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A silicon board. It's been programmed to help identify currency for processing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シリコン基板。 処理用の通貨を特定するためにプログラムされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ITD Currency Handler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ITD通貨取扱業者"
+    }
+  ]
+]

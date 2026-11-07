@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An intergalactic convenience store. It seems an ideal place to stock up."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河間コンビニエンスストア。 買い上げに理想的な場所のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Infinity Express"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インフィニティ・エクスプレス"
+    }
+  ]
+]

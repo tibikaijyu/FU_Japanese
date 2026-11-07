@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Levitation^reset;: 1m\n^yellow;^reset;^cyan;Immune^reset;: Grav Rain: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;レビテーション^reset;:1m\n^yellow;^reset;^cyan;無効化 ^reset;: グラブ雨: 3m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xax Wing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザックスウィング"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is well made..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはよく出来ています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Moonrock Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムーンロック胸部"
+    }
+  ]
+]

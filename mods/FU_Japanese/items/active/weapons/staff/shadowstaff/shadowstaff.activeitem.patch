@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This powerful staff summons a deadly shadow snake."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この強力なスタッフは致命的な影のヘビを召喚します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "影のスタッフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Shadowreap^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "シャドーリアップ^yellow;^reset;"
+    }
+  ]
+]

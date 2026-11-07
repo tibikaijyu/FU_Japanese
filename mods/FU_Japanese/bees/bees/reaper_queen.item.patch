@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reaper Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーパークイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reaper Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーパークイーン"
+    }
+  ]
+]

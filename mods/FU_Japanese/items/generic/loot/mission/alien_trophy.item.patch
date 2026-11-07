@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some form of broadcasting device.\n^green;Research in a microscope.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放送装置の一種。\n^green;顕微鏡で研究する。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Broadcast Node"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンのブロードキャストノード"
+    }
+  ]
+]

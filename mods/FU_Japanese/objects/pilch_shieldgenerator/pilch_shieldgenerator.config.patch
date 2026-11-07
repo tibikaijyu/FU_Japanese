@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/applyBreathableLabel/value",
+      "value": "Apply Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/applyBreathableLabel/value",
+      "value": "酸素を応用する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/applyGravityLabel/value",
+      "value": "Apply Gravity"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/applyGravityLabel/value",
+      "value": "重力の応用"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/applyProtectedLabel/value",
+      "value": "Apply Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/applyProtectedLabel/value",
+      "value": "保護の適用"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/debugLabel/value",
+      "value": "Debug Logging"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/debugLabel/value",
+      "value": "デバッグログ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/gravityLevelLabel/value",
+      "value": "Gravity Level:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/gravityLevelLabel/value",
+      "value": "重力レベル:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/hideLabel/value",
+      "value": "Appearance"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/hideLabel/value",
+      "value": "登場"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/overrideLabel/value",
+      "value": "Admin Override"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/overrideLabel/value",
+      "value": "管理者のオーバーライド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "Generator Control Console"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "発電機制御盤"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "Pilchenstein's Field Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "Pilchensteinのフィールドジェネレータ"
+    }
+  ]
+]

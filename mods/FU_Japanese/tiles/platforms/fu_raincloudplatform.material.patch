@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made of wet squishy clouds. Dense enough to walk on."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濡れた水色の雲でできたプラットフォーム。 歩いて行くのに十分な密度。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cloud iss sso fluffy!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "雲はとてもふわふわです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amazed. The density of this cloud could support my weight."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 この雲の密度は私の体重を支える可能性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This here cloud is made from some heavy fluff stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この雲は重いふわふわの材料から作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raincloud Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雨雲の足場"
+    }
+  ]
+]

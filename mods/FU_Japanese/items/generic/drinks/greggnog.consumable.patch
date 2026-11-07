@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An alcoholic drink made of eggs and Gregs. It's god-damned delicious!\n^green;Heal ^white;50% ^green;HP ^gray;(^white;30s^gray;)^reset;, 35% ^red;Slow^reset;, ^red;Drunk^gray; (^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "卵とグレッグから作られたアルコール飲料。 おいしい!\n^green;癒し ^white;50% ^green;HP ^gray;(^white;30ス)^gray;)^reset;, 35% ^red;ゆっくり^reset;, ^red;酒^gray; (^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greggnog"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレッグ"
+    }
+  ]
+]

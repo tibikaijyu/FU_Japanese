@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pie.\n^cyan;+^white;25% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;90s^gray;)^reset; \n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パイ。\n^cyan;+^white;25% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;90ス)^gray;)^reset; \n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apple Honey Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アップルのハニーパイ"
+    }
+  ]
+]

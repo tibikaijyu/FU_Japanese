@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect stand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なスタンド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Stand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なスタンド"
+    }
+  ]
+]

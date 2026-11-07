@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful sniper rifle.\n^yellow;Homing bullet^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な狙撃ライフル。\n^yellow;ホーミング弾丸^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carvelle Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーベル狙撃ライフル"
+    }
+  ]
+]

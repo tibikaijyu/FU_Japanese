@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fantastically durable staircase."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "幻想的に耐久性のある階段。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Compressed Steel Stairs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "圧縮鋼階段"
+    }
+  ]
+]

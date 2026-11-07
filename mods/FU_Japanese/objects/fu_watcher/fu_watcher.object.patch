@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to keep ^blue;everything within 20 tiles^reset; loaded while away, if turned on. Shuts off when you leave the planet.^red;\nAvoid over-use. Will impact performance.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保管に用いる ^blue;中身は全部 20 タイル^reset; オンにすれば ずっとロードしてあった 惑星を離れると、シャットオフします。^red;\n使い過ぎは避けなさい。 パフォーマンスに影響を与えます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Watcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウォッチャー"
+    }
+  ]
+]

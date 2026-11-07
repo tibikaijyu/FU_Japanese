@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Get blasted at the space-bar!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スペースバーでブラストを!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Stool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクスツール"
+    }
+  ]
+]

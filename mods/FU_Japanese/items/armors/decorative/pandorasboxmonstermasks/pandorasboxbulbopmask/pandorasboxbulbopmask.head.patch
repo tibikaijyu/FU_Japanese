@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Doesn't bleed when cut."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "切断しても出血しません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bulbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "球面"
+    }
+  ]
+]

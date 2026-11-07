@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small handgun with a powerful punch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力なパンチを持つ小さな拳銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon High-Caliber Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "珍しい高品位ピストル"
+    }
+  ]
+]

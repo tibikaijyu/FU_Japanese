@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine glittering red sand. Could probably be made into glass!\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きらびやかな赤い砂。 おそらくガラスになるかもしれません!\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssand."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Red sand."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 赤い砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fine Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "細かい砂"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Immune^reset;: Sulphuric Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;免疫^reset;硫酸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Morphite Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モフィトグリーブ"
+    }
+  ]
+]

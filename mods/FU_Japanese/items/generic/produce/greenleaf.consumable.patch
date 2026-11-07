@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+20% E. Regen & -10% E. Regen Block^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+20% E. 再生 & -10% E. 再生ブロック^reset;: 1え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenleaf Herb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "緑地草本"
+    }
+  ]
+]

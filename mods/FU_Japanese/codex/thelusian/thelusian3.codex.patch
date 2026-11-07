@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "While carnivorous, the Thelusians are not territorial or aggressive save when protecting the Hive. This is a good thing, because now that they have learned they can Spore (the term used for their spreading of eggs) into space to spread through the cosmos their population will be booming quite soon. This has been referred to in Protectorate casebook C45631-N, sub-clause B as a Type C potential threat."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "肉食であるにもかかわらず、テルシアンは巣箱を保護する際、領土や攻撃的な救出は行わない。 これは望ましいことだ。宇宙空間に『胞子を散布する』（彼らが卵をばらまくことを指す言葉）ことで宇宙全域へ広がれると知った今、彼らの個体数はまもなく爆発的に増えるだろう。 これは、保護ケースブックC 45631 -N、サブ節Bにおいて、タイプC潜在的な脅威として言及されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thelusian Life Vol 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアンの暮らし 第3巻"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hive Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ハイブプロテクション"
+    }
+  ]
+]

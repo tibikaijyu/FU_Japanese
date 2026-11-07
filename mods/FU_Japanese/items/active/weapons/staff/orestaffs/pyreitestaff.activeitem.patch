@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Planc Temperature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "温度は植物温度。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Burning Mandala"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "かんだんダラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトスタッフ"
+    }
+  ]
+]

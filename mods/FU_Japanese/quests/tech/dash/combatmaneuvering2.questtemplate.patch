@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Your dodge is better. ^orange;[+ Distance, Inertia^reset;]"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あなたのカモはもっと良い。 ^orange;[+ Distance, Inertia ^reset;]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Your dodge is better. ^orange;[+ Distance, Inertia^reset;]"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたのカモはもっと良い。 ^orange;[+ Distance, Inertia ^reset;]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dodge II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ドッジII"
+    }
+  ]
+]

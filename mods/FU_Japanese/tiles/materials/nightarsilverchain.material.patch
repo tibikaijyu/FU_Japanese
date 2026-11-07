@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense chain forged of shining silver."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝く銀製の濃い鎖。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Chain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀鎖"
+    }
+  ]
+]

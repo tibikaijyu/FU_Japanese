@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wort! Used for making lager!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワート! ラガー作成に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Wort"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークワート"
+    }
+  ]
+]

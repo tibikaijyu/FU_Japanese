@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of complex symbol drawn in human blood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間の血に描かれた複雑なシンボルのようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Symbol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液記号"
+    }
+  ]
+]

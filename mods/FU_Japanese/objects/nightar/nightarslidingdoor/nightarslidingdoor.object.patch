@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleek sliding door, made completely out of obsidian."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全に黒曜石で作られた洗練されたスライドドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Sliding Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石のすべり戸"
+    }
+  ]
+]

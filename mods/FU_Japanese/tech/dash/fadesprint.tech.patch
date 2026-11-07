@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Sprint that grants protection from harm"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "害から保護するスプリント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Phase Sprint"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "フェーズスプリント"
+    }
+  ]
+]

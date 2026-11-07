@@ -1,0 +1,194 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/benefitsBuyPriceLabel/value",
+      "value": "Buy prices:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/benefitsBuyPriceLabel/value",
+      "value": "購入価格。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/benefitsLabel/value",
+      "value": "Benefits"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/benefitsLabel/value",
+      "value": "便益"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/benefitsSellPriceLabel/value",
+      "value": "Sell prices:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/benefitsSellPriceLabel/value",
+      "value": "販売価格:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption",
+      "value": "Buy"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption",
+      "value": "買う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/sellButton/caption",
+      "value": "Sell"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/sellButton/caption",
+      "value": "売る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/sellStockLabel/value",
+      "value": "Your stock:     "
+    },
+    {
+      "op": "replace",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/sellStockLabel/value",
+      "value": "株:     "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/stationStockLabel/value",
+      "value": "Station stock: "
+    },
+    {
+      "op": "replace",
+      "path": "/gui/goodsTradeList/children/itemList/schema/listTemplate/stationStockLabel/value",
+      "value": "駅舎 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/investAmount/hint",
+      "value": "amount"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/investAmount/hint",
+      "value": "金額"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/investButton/caption",
+      "value": "Invest"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/investButton/caption",
+      "value": "投資"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/investMax/caption",
+      "value": "Max"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/investMax/caption",
+      "value": "マックス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/shopBuyButton/caption",
+      "value": "Buy"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/shopBuyButton/caption",
+      "value": "買う"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/shopSellButton/caption",
+      "value": "Sell"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/shopSellButton/caption",
+      "value": "売る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/shopTotalPriceLabel/value",
+      "value": "TOTAL"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/shopTotalPriceLabel/value",
+      "value": "全部"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/text/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/text/value",
+      "value": "私は間違いです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Interact with the station"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " 駅との交流"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Space station front desk"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 宇宙ステーションのフロント"
+    }
+  ]
+]

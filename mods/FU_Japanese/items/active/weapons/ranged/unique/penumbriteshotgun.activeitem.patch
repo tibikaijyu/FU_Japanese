@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specially treated rounds, cleanup crew not included."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特別に扱われたラウンド、クリーンアップクルーは含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライトショットガン"
+    }
+  ]
+]

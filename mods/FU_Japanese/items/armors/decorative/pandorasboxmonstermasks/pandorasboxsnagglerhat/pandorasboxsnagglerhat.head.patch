@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Isn't as protective as it looks. That would cost you extra!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見た目ほど保護的ではありません。 それは余分な費用がかかります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snaggler Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナグラー帽子"
+    }
+  ]
+]

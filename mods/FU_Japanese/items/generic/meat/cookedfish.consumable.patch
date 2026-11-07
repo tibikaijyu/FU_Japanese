@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tasty fillet of cooked fish. ^orange;Type: Cooked Seafood^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "調理した魚のおいしいフィレ。 ^orange;タイプ:海鮮料理^reset;"
+    }
+  ]
+]

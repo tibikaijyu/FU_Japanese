@@ -1,0 +1,410 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This table looks rather rustic, but is incredibly sturdy nonetheless."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このテーブルはかなり素直に見えますが、それでも信じられないほど頑丈です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The surface of this table is quite streamlined."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このテーブルの表面はかなり合理化されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rustic Skath-made workbench, used to craft furniture and farming supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家具や農産物の製造に使用される素地のあるスケース製のワークベンチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Waterdragon table. Floran cutsss meat on thisss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "水龍テーブル。 フローランはこれを肉を切る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. This table can be used to craft both farming supplies and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 このテーブルは、農産物と家具の両方を製造するために使用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The sort of workbench used for carpetry. I'm pretty handy with these."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "カーペットの作業台の一種。 私はこれらにかなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A crude station, for crafting crude furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "粗い家具をつくるための粗い駅。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Not my kinda rustic, but it'll do."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私のような素直な話ではないが、そうする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Rustic Skath Workbench^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スカスの素朴な作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/skathDescription",
+      "value": "Although rustic, with this table I can craft furniture and farming supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/skathDescription",
+      "value": "素晴らしく、このテーブルで家具や農産物を製作することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Furniture and Farming."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;家具と農耕。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Rustic Skath Workbench"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ラスティックスケートワークベンチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/apexDescription",
+      "value": "This table looks rather rustic, but is incredibly sturdy nonetheless."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/apexDescription",
+      "value": "このテーブルはかなり素直に見えますが、それでも信じられないほど頑丈です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/avianDescription",
+      "value": "The surface of this table is quite streamlined."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/avianDescription",
+      "value": "このテーブルの表面はかなり合理化されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "A rustic Skath-made workbench, used to craft furniture and farming supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "家具や農産物の製造に使用される素地のあるスケース製のワークベンチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/floranDescription",
+      "value": "Waterdragon table. Floran cutsss meat on thisss."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/floranDescription",
+      "value": "水龍テーブル。 フローランはこれを肉を切る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/glitchDescription",
+      "value": "Impressed. This table can be used to craft both farming supplies and furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/glitchDescription",
+      "value": "感銘を受けた。 このテーブルは、農産物と家具の両方を製造するために使用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/humanDescription",
+      "value": "The sort of workbench used for carpetry. I'm pretty handy with these."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/humanDescription",
+      "value": "カーペットの作業台の一種。 私はこれらにかなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/hylotlDescription",
+      "value": "A crude station, for crafting crude furniture."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/hylotlDescription",
+      "value": "粗い家具をつくるための粗い駅。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/novakidDescription",
+      "value": "Not my kinda rustic, but it'll do."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/novakidDescription",
+      "value": "私のような素直な話ではないが、そうする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Rustic Skath Workbench^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;スカスの素朴な作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/skathDescription",
+      "value": "Although rustic, with this table I can craft furniture and farming supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/skathDescription",
+      "value": "素晴らしく、このテーブルで家具や農産物を製作することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Furniture and Farming."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;家具と農耕。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Skath Industrial Workbench"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " スケート工業用ワークベンチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/apexDescription",
+      "value": "An impressively high-tech workbench. I approve."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/apexDescription",
+      "value": "驚くほどハイテクなワークベンチ。 賛成です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/avianDescription",
+      "value": "I've never had a table with its own arm before."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/avianDescription",
+      "value": "私は自分の腕を持つテーブルを初めて持っていた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "An improved Skath Workbench, for crafting high-quality furniture and farming supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "高品質の家具と農産物を製造するための改良されたスカス Workbench。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/floranDescription",
+      "value": "Waterdragon workbench hasss ssstrange arm. Floran sstronger than metal arm!"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/floranDescription",
+      "value": "ウォータードラゴンワークベンチの腕は奇妙なものです。 メタルアームよりフローランが強い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/glitchDescription",
+      "value": "Impressed. The arm mounted on this workbench seems to assist in crafting."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/glitchDescription",
+      "value": "感銘を受けた。 このワークベンチに取り付けられたアームは、クラフトに役立つようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/humanDescription",
+      "value": "Now that's a high quality carpenter's workbench!"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/humanDescription",
+      "value": "今度はそれが高品質の大工のワークベンチです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/hylotlDescription",
+      "value": "The Skath appear to have a different definition of 'handmade' to the Hylotl."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/hylotlDescription",
+      "value": "スカースは「手作り」の定義がヒュロトと異なるように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/novakidDescription",
+      "value": "A mighty strange lookin' workbench."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/novakidDescription",
+      "value": "強烈な奇妙な外観のワークベンチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Skath Industrial Workbench^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;スケート工業用ワークベンチ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/skathDescription",
+      "value": "With this top-of-the-line workbench I can even craft Impervium-based blocks. The arm assists in many ways."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/skathDescription",
+      "value": "この最上級のワークベンチでは、Imperviumベースのブロックを作成することもできます。 腕は多くの点で補助します。"
+    }
+  ]
+]

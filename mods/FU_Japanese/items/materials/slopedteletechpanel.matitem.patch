@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Techy telebrium paneling. Don't lick it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Techytelebriumのパネリング。 なめるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Tech Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム技術パネル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezes the air around the throwing point and then sticks and erupts into ice balls."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "投げる点の周りの空気を凍結し、固まり、氷玉に噴火します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Typhoon Harpoon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "台風"
+    }
+  ]
+]

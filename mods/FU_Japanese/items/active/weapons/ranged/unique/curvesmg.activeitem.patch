@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space pirate favorite in plasma technology.\n^yellow;+Bouncy and Burny^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラズマ技術で人気の宇宙海賊。\n^yellow;+バウンシー&バーニー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレアブラスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A space pirate favorite in plasma technology.\n^yellow;+Bouncy and Burny^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "プラズマ技術で人気の宇宙海賊。\n^yellow;+バウンシー&バーニー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Breach Blaster^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ブレアブラスター^reset; ^yellow;^reset;"
+    }
+  ]
+]

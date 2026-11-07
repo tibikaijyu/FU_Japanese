@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impossible to stare at for more than a few seconds without feeling ill."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "気分が悪くなることなく数秒以上見つめることは不可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dreamland"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドリームランド"
+    }
+  ]
+]

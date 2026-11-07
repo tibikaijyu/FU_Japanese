@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Completely immune to acid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全に酸に免疫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Whitespine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "白背骨"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pancake. Butter. Pancake. Butter. Pancake. Syrup. Eat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンケーキ。 バター。 パンケーキ。 バター。 パンケーキ。 シロップ 食べなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likes to cook little flat cakes in funny ssshapes!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは面白いssの形をした小さなフラットケーキを調理するのが好きです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Content. Just the smell of warm pancakes can make one ready to greet the day."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "内容。 暖かいパンケーキの匂いだけで、その日を迎える準備が整います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some mighty fine smellin' flapjacks."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "フラップジャックの匂いがします"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pancakes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンケーキ"
+    }
+  ]
+]

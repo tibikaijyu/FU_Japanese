@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/bookmarkName",
+      "value": "Science Outpost"
+    },
+    {
+      "op": "replace",
+      "path": "/bookmarkName",
+      "value": "科学前哨基地"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/destinations/0/name",
+      "value": "Beam to Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/destinations/0/name",
+      "value": "ビーム・トゥ・シップ"
+    }
+  ]
+]

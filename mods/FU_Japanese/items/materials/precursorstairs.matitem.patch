@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ultra techy stairs\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウルトラテク階段\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

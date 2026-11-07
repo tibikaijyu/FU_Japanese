@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystalline blasts charged with lunari energy.\n^yellow;Lights areas^reset;\n^green;Long-lived projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ムーンニエネルギーを帯びた結晶爆風。\n^yellow;照明エリア^reset;\n^green; 長寿命発射体 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリピストル"
+    }
+  ]
+]

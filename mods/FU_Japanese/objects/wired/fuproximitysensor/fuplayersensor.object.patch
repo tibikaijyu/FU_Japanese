@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for all your automated door needs! Only has eyes for you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ドアのニーズに最適です! あなただけに目がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proximity Player Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "近接プレーヤースキャナー"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "...pet? Well...that's awkward and completely wrong. Won't turn down good food, though. Don't tell anyone about him saying that...and take this blueprint. It's not 'useful', but it was certainly fun to design."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "...ペット? まぁ、これは、ぎこちなく、完全に間違っている。 でも、良い食べ物は断らないでしょう。 彼のことを誰にも言わないで、この青写真を見てごらん。 役に立ちませんが、デザインは確かに楽しかったです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^cyan;Khe^reset; 1 ^orange;Neutron Bomb^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^cyan;ケー^reset; 1 ^orange;中性子爆弾^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Minion, I have an ^red;extremely important^reset; task for you: my pet cat is starving and needs food. Only the finest sustenance will do, so I need you to feed her one ^red;Neutron Bomb^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ミニオン、私はあなたのための^red;非常に重要な^reset;タスクを持っています:私のペット猫は飢えており、食べ物を必要としています。 唯一の最高のサステナビリティは、私はあなたが彼女に一 ^red;中性子爆弾^reset;を供給する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Feed Khe."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "食べなさい。"
+    }
+  ]
+]

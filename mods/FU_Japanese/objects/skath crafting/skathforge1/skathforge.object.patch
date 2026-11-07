@@ -1,0 +1,218 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This furnace looks a bit old fashioned, but I suppose it will serve its purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この炉は少し古風に見えるが、その目的を果たすと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This furnace gives off a pleasant warmth."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この炉は心地よい暖かさを放つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rustic Skath-made forge, used to smelt alloys and craft weaponry and armors."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属を製錬し、武器や装甲を造るために使用される素地のあるスケース製の鍛造品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Waterdragon forge makesss fiery noisess. Ssscary."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ウォータードラゴンフォージは火の音を立てます。 怖い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. Despite its rustic look, this forge is unusually powerful."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 その素直な外観にもかかわらず、この鍛造品は異常に強力です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Looks like a retro oven to me, but it probably works well enough."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "レトロなオーブンのようだが、十分使えると思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This looks like a makeshift forge, built by the Skath."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これは、スカースによって建てられた仮設の鍛造品のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Not my kinda rustic, but it'll do."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私のような素直な話ではないが、そうする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Rustic Skath Forge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スカスの素朴な鍛冶炉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/skathDescription",
+      "value": "It may look a bit rustic, but this forge is the first step to crafting quality alloys."
+    },
+    {
+      "op": "replace",
+      "path": "/skathDescription",
+      "value": "それは少し素直に見えるかもしれませんが、この鍛造品は高品質の合金を製造するための最初のステップです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Furnace and Anvil."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;炉とアンビル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Rustic Skath Forge"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " ラスティックスケースフォージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "A rustic Skath-made forge, used to smelt alloys and craft weaponry and armors."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "金属を製錬し、武器や装甲を造るために使用される素地のあるスケース製の鍛造品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Rustic Skath Forge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;スカスの素朴な鍛冶炉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Armour, weapons and alloys"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": " ^#b9b5b2;装甲、武器、合金。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " Skath Plasma Forge"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+      "value": " プラズマ鍛造機"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "A Skath Plasma Forge, able to craft high quality weaponry, armour and alloys."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "高品質の武器、装甲、合金を製造できるスカス プラズマ Forge。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Skath Plasma Forge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;スカスのプラズマ鍛冶炉^reset;"
+    }
+  ]
+]

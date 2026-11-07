@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Man, I have slaughtered a lot of creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私はたくさんの生き物を虐殺した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I wish my damned wings worked. But nooo..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "翼がちゃんと動いてたらいいのに。 でももう...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This should be perfect for your lab food storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはあなたの研究室の食品貯蔵に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Plantss. I iss plantss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "植物。 植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Why do I exist?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "なぜ私は存在するのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Sometimes I wonder why people like mayo."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "マヨネーズが好きなのはなぜかと思うことがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Water is nice."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "水は良いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ponexDescription",
+      "value": "Someone please kill me. I am an aberration."
+    },
+    {
+      "op": "replace",
+      "path": "/ponexDescription",
+      "value": "誰か殺してください。私は異常です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Food Locker^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774; 食品ロッカー ^reset;"
+    }
+  ]
+]

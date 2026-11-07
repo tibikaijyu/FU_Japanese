@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smile and share."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "笑顔と共有。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Friendship Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "親善ナイフ"
+    }
+  ]
+]

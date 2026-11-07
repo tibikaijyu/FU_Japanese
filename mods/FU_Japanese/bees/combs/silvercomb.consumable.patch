@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This honeycomb has high silver contents. Great poison resistance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハニカムは銀分が多い。 耐毒性が高い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーハニカム"
+    }
+  ]
+]

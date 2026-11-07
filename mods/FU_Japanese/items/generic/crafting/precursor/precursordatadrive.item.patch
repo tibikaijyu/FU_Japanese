@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Physical storage containing unknown ancient secrets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の古代の秘密を含む物理的な貯蔵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Data Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリカーサデータストレージ"
+    }
+  ]
+]

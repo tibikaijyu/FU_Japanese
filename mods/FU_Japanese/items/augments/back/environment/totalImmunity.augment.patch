@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Immunity I"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "免疫I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects against heat, cold, proto, and radiation of the common variety. ^cyan;Immune: Moderate Heat/Cold/Radiation, Gas, Proto.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一般的な品種の熱、寒さ、プロト、および放射線から保護します。 ^cyan;免疫:適度な熱/冷却/放射線、ガス、プロト。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Immunity I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "免疫I"
+    }
+  ]
+]

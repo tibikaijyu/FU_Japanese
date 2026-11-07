@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I think I've devised a way to get the ^orange;distortion sphere^reset;! powered up a tad. I can attach some ^orange;anti-grav jets^reset; to give it jump capability!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私は^orange;歪み球体^reset;!をタグにパワーアップさせる方法を考案したと思います。 私はいくつかの^orange;抗重大ジェット^reset;を取り付けてジャンプ機能を与えることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I think I've devised a way to get the ^orange;distortion sphere^reset;! powered up a tad. I can attach some ^orange;anti-grav jets^reset; to give it jump capability!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は^orange;歪み球体^reset;!をタグにパワーアップさせる方法を考案したと思います。 私はいくつかの^orange;抗重大ジェット^reset;を取り付けてジャンプ機能を与えることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Bouncy Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "バウンシィボール"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You do have to wonder how it grew to that size."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どうやってその大きさに成長したのか不思議に思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Toxic Fly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型毒ハエ"
+    }
+  ]
+]

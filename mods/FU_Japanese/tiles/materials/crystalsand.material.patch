@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sparkling crystalline sand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパークリング結晶砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶砂"
+    }
+  ]
+]

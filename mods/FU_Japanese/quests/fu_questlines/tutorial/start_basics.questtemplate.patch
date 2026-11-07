@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks fer the tasty tots, friend. As a thanks, you can have this store of ^green;Iron Ore^reset; my grand-papa kept around when this place was still nice. T'aint worth a thing to me, but it'll sure be useful for you!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "うまいイモをありがとうよ。お礼に、この^green;鉄鉱石^reset;を持っていきな。ここがまだ立派だった頃、じいさんが蓄えておいた物だ。わしには役に立たんが、お前さんには重宝するはずだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Gather or Grow ^orange;5 potatoes^reset; and return to ^green;Welchie^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;ジャガイモを5個^reset;集めるか育てて、^green;ウェルチー^reset;の所へ戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Hi there! I've not seen another new soul besides that ^green;slug-lookin' feller^reset; in a long time. If yer fixin' to escape this world, I kin help a bit, maybe. Bring me say...^orange;5 potatoes^reset;, and we'll talk. A ^orange;Greenhouse^reset; might help you make some, in a pinch."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "よう、元気かい！ あの^green;ナメクジみたいなやつ^reset;以外に、新顔を見るのは久しぶりだ。この星を出たいなら、少しは力になれるかもしれん。そうだな……^orange;ジャガイモを5個^reset;持ってきたら、話そうじゃないか。困ったら^orange;温室^reset;で作るといい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Homestead I"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "田舎暮らし I"
+    }
+  ]
+]

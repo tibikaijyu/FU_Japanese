@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic, but nearly broken Protectorate sidearm. It'll do for now."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な、しかしほぼ壊れて保護側腕。 今のところは大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Damaged Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "損傷したピストル"
+    }
+  ]
+]

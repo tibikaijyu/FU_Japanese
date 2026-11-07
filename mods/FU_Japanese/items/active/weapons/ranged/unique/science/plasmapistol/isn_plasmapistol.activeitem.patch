@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unusual sidearm for an unusual age.\n^cyan;Counts as plasma weapon for set bonuses^reset;\n^yellow;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異常な年齢のための珍しい脇腕。\n^cyan;セットボーナスのプラズマ武器としてカウントします。^reset;\n^yellow;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマピストル"
+    }
+  ]
+]

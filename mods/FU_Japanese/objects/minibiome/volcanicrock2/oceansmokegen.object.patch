@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smoke Primer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "煙のプライマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Smoke"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "煙"
+    }
+  ]
+]

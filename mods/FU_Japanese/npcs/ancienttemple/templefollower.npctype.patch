@@ -1,0 +1,182 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "Sacrifice me, will you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "私を犠牲にしてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "I'll escape or die trying!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "逃げるか、殺すか!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "Thank you for saving me! I don't fancy being a sacrifice."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "助けてくれてありがとう! 私は犠牲になろうとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "I had almost lost all hope of being rescued! Let's get out of here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "救出の希望を全て失うところだった! ここから出よう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "Let's move on."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "次へ進みましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "I'm impressed."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "感銘を受けました"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/2",
+      "value": "How did you get here anyway?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/2",
+      "value": "どうやってここに来たの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/3",
+      "value": "We're a team worth fearing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/3",
+      "value": "私たちは恐れる価値のあるチームです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/4",
+      "value": "Who's the sacrifice now?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/4",
+      "value": "今、犠牲は誰ですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "Hello again."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "こんにちは。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/1",
+      "value": "Let's head off together."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/1",
+      "value": "一緒に出発しよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/2",
+      "value": "You ready to move on?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/2",
+      "value": "準備はいいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "I'll just wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "ここで待ってます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/1",
+      "value": "I'll stay here, don't leave me alone too long!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/1",
+      "value": "ここに滞在するから、あまり長く放っておくな!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/2",
+      "value": "Do you need a moment?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/2",
+      "value": "少し時間が必要ですか。"
+    }
+  ]
+]

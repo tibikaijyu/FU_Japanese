@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Extreme Cold, Liquid Nitrogen: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫^reset;:極寒液体窒素:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blizzberry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリズベリー"
+    }
+  ]
+]

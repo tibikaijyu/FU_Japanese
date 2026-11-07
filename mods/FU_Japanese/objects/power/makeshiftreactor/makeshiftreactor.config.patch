@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "FUEL SLOTS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "燃料スロット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/countwaste/value",
+      "value": "WASTE      COOLANT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/countwaste/value",
+      "value": "廃棄物クーラント"
+    }
+  ]
+]

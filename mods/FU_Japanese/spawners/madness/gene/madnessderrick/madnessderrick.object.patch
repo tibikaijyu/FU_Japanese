@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can heal you with a musk-ridden aura."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マスクで乗ったオーラで癒すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psilamander"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピラマンダー"
+    }
+  ]
+]

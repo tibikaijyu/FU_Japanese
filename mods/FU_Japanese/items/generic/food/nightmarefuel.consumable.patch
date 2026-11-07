@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ominous coffee-like substance for robotic consumers. ^cyan;+^reset;35%^green; Energy^reset;^red; Nightmare^reset; 180s^reset; ^blue;Madness Gain^reset; 3 ^yellow;Type: Robot Food^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロボット消費者のための不吉なコーヒーライクな物質。 ^cyan;+^reset;35%^green; エネルギー^reset;^red; 悪夢^reset; 180ス)^reset; ^blue;狂気の高まり^reset; 3 ^yellow;タイプ:ロボットフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightmare Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "悪夢燃料"
+    }
+  ]
+]

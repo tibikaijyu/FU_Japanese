@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vengeance is sweet when you look this good."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こんなによく見えると、風情は甘い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Star Master Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スター・マスター・ヘルム"
+    }
+  ]
+]

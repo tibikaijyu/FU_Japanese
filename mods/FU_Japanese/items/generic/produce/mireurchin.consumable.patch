@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune: Freeze & +25% Ice Res^reset;, ^cyan;^cyan;Immune^reset;: Shock, Electric Storm & +20% Electric Res: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫:凍結&amp; +25%氷の耐性 ^reset;, ^cyan;^cyan;免疫^reset;:ショック、電気嵐&amp; +20%電気耐性: 2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mire Urchin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイク・オーチン"
+    }
+  ]
+]

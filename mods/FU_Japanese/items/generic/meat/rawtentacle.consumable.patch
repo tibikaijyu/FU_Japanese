@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A raw tentacle. Might be more edible if it's cooked... ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生の触手。 ^red;タイプ:生肉 ^reset; を調理すると食べやすくなります。"
+    }
+  ]
+]

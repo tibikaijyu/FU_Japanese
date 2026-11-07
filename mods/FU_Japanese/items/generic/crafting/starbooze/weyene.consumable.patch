@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Red, red wine.\n^green;Heal ^white;20 ^gray;(^white;2s^gray;)^reset;, 35% ^red;Slow^reset;, ^red;Drunk^gray; (^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤、赤ワイン。\n^green;癒し ^white;20 ^gray;(^white;2ス)^gray;)^reset;, 35% ^red;ゆっくり^reset;, ^red;酒^gray; (^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weyene"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワイン"
+    }
+  ]
+]

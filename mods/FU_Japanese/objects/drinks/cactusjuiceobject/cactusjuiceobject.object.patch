@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cool as a cactus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サボテンのように涼しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cactus without the ssspikes!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ssスパイクのないサボテン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. Without the hassle of removing the spines, cactus juice tastes all the sweeter."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 脊髄を取り除く手間なしに、サボテンジュースはすべての甘い味がします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This juicy is mighty tasty. No wonder cacti guard it so zealously."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このジューシーな味は強烈だ。 サボテンがそんなに熱心に守っているのも不思議ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cactus Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サボテンジュース"
+    }
+  ]
+]

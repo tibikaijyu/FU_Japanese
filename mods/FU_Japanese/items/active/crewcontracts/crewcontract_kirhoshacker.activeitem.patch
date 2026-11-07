@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hire a Kirhosi Hacker on the run from the law, to increase ship speed by 3.75, grant ^yellow;30% Electric resistance^reset; and ^yellow;protection from electrical storms^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キルホス Hackerを法律から逃げて、船の速度を3.75で向上させ、^yellow;30%電気抵抗^reset;と^yellow;電気嵐から保護します^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Hacker Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホスのハッカー雇用契約"
+    }
+  ]
+]

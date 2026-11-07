@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metal, darkly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属、暗く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタルビーム"
+    }
+  ]
+]

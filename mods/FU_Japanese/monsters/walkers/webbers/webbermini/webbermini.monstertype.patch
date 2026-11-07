@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A big spider. Who doesn't love spiders?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなクモ。 誰がクモを愛していないのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Webber Juvenile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウェバー少年期"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Penetrating rounds cause devastating wounds.\n^yellow;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貫通ラウンドは壊滅的な傷を引き起こす。\n^yellow;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Puncturer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンクチャー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;12^reset;% Energy Regen\n^yellow;^reset; Lunari weapons: Damage x^green;1.15^reset;, +^green;4^reset;% Crit Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;12^reset;% エネルギー再生\n^yellow;^reset; ルナリ 武器: ダメージ x^green;1.15^reset;, +^green;4^reset;% クリティカルチャンス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリヘルム"
+    }
+  ]
+]

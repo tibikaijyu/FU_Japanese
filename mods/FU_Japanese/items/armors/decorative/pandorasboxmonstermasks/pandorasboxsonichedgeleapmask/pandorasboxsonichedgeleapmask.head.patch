@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can be put on at sonic speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "音速で装着できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sonic Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソニック・ヘッジリープのマスク"
+    }
+  ]
+]

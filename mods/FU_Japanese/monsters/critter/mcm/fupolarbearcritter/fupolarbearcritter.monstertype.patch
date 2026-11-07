@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge predatory mammal covered in white hair. It hunts the shores along tundra and glaciers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "白い髪で覆われた巨大な捕食哺乳類。 ツンドラや氷河に沿って海岸を狩る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Polar Bear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホッキョクグマ"
+    }
+  ]
+]

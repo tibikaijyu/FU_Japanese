@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "ArCon forces always have this handy.\n^cyan;Counts as 'plasma' for set bonuses.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アーコンの部隊はいつもこれを便利にしている。\n^cyan; セットボーナスの「プラズマ」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Zenith"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコン Zenith氏"
+    }
+  ]
+]

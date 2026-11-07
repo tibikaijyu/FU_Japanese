@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark and strangely shaped monolith of indeterminate age."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗い、奇妙な形の不定年のモノリス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不思議な記念碑"
+    }
+  ]
+]

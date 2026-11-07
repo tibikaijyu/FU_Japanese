@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whatever made this structure is likely lost to history."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この構造は歴史上、失われる可能性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monolith"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モノリス"
+    }
+  ]
+]

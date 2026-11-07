@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A soft, decorative tapestry"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかく装飾的なタペストリー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Tapestry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴァリ・タペストリー"
+    }
+  ]
+]

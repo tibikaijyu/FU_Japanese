@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ready to annihilate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶滅する準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spider Servitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモのサービター"
+    }
+  ]
+]

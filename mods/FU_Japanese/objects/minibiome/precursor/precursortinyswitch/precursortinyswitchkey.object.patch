@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of ancient switch, it ignores your touch but has a key icon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のスイッチのようなもので、タッチを無視しますが、キーアイコンがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tiny Keyed Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さなキースイッチ"
+    }
+  ]
+]

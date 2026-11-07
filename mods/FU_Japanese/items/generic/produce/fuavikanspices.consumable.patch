@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Refined spices from Kadavan.\n^yellow;^reset;^cyan;Energy x1.25^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カダヴァンから精製スパイス。\n^yellow;^reset;^cyan;エネルギーx 1.25^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Refined Kadavan Spices"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "改良型カダヴァンスパイス"
+    }
+  ]
+]

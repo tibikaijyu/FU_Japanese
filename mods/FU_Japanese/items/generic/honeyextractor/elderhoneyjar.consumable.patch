@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Has the consistency of cat puke.\n^pink;Insanity ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "猫のピュークの一貫性があります。\n^pink; 狂気 ^cyan; 免疫 ^gray;(^white;5m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unknown Substance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未知物質"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A oremason bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレマソンハチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oremason Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレマソンビー"
+    }
+  ]
+]

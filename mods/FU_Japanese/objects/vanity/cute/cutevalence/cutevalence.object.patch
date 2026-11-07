@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute valence of silk"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絹の可愛らしい風格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Valence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "可愛い価額"
+    }
+  ]
+]

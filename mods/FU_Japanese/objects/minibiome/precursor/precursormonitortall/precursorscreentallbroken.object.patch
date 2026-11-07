@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Completely busted"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全に行き詰まった"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Broken Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型故障モニタ"
+    }
+  ]
+]

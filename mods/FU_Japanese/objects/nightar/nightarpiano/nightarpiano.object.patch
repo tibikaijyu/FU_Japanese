@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A well-loved instrument popular among Nightar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトアールで人気の楽器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Resonance Organ"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "共鳴器"
+    }
+  ]
+]

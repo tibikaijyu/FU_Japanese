@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A robust and advanced circuit board."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "堅牢で高度な回路基板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Advanced Circuit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;アドバンスト回路^reset;"
+    }
+  ]
+]

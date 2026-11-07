@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primarily found in rare deep-water plants, this unusual compound is rich with aberrant genes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "希少な深海植物に主に見られるこの珍しい化合物は、異常遺伝子が豊富です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Nodule"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇形結節"
+    }
+  ]
+]

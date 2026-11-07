@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's huge..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "とてつもなく大きい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Adult Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大人のポップトップ"
+    }
+  ]
+]

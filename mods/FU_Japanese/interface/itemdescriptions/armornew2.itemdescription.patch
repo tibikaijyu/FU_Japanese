@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ]
+]

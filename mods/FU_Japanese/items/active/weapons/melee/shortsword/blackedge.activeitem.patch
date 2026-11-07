@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sleek and shadowy. Cool to the touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なめらかで陰影。 タッチにクール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blackedge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒縁"
+    }
+  ]
+]

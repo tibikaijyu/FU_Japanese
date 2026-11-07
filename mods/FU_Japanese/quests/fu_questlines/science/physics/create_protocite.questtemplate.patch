@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Without ^green;protocite^reset; you won't be able to make some of the more essential high-end gear. So stay stocked! In return for that bit of help, perhaps try ^green;this thing^reset; on!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "なし ^green;プロトシット^reset; より不可欠なハイエンドのギアを作ることはできません だから在庫を保て! その少しの助けを借りるには、おそらく ^green; これを試してみてください ^reset; オン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Protocite Bars^reset; to the monocled Hylotl at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;ProtociteBars^reset;を^orange;科学前哨基地^reset;でモノクラードハイロトルに持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "There is a rare metal native ^red;only^reset; to ^orange;Proto Worlds^reset; that I am in dire need of. I need 2 ^orange;Protocite Bars^reset;. You can smelt them in a ^orange;Fission Furnace^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "レアメタルネイティブ^red;のみ^reset;to^orange;Proto 世界^reset;は必要です。 必要なのは 2 ^orange;プロトサイトバー^reset;. ^orange;フィッション炉 ^reset; で製錬できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Proto-Potency"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "プロトポテンシー"
+    }
+  ]
+]

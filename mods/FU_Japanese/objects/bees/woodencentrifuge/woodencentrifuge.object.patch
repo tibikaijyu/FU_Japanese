@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An effective device for extraction involving liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体を含む抽出に有効な装置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Wooden Centrifuge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;木製遠心分離機^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Centrifuge"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "遠心分離機"
+    }
+  ]
+]

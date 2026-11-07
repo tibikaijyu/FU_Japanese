@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An amazing grappler that ^orange;regenerates your energy^reset; when extended."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;が拡張するとあなたのエネルギー^reset;を再生する驚くべきグラッペラー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Tether"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーテザー"
+    }
+  ]
+]

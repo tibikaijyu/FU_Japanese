@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They're longer than your average shorts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "平均的なショートパンツよりも長いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Shorts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカシアンのショートパンツ"
+    }
+  ]
+]

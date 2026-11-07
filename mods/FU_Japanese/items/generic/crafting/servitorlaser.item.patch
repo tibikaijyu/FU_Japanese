@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A potential weapon system for a droid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ドロイド用の潜在的な武器システム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weapon System Parts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武器システム部品"
+    }
+  ]
+]

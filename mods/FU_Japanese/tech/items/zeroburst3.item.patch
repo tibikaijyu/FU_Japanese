@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super blast jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スーパーブラストジャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Zero Burst III^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3; バースト III ゼロ ^reset;"
+    }
+  ]
+]

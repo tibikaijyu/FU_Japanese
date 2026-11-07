@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks toxically delicious.\n^pink;Proto-Poison ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒性のある美味しそうに見える。\n^pink; プロト毒 ^cyan;無効化 ^gray;(^white;5m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Pancakes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトパンケーキ"
+    }
+  ]
+]

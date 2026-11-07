@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reach out and hit somebody."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かを叩きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Tendrils III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムテンドリルスIII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Slime Tendrils ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "スライムテンドリルズ^yellow;^reset;"
+    }
+  ]
+]

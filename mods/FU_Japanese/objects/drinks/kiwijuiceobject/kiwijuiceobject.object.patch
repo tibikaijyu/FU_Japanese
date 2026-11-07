@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet and tropical juice made of kiwis."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キウイで作った甘くてトロピカルなジュース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Could Floran juice kiwi birdsss?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランジュースキウイ鳥は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relaxed. Just a sip of this can fool me into thinking I'm on vacation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "リラックス。 ほんの一口で休暇中だと思ってだまされる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Strange fruit, strange juice. It ain't bad though."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "奇妙なフルーツ、奇妙なジュース。 でも悪くない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kiwi Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キウイジュース"
+    }
+  ]
+]

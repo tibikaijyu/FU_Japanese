@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Cloning Labs^reset; have one single purpose: Making custom trees. Place one sapling on the left, one on the right and you're good to go!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange; クローン 研究所 ^reset;は、カスタムツリーを作成するという一つの目的を持っています。 左側に苗木を一つ、右側に一つ置けば、行くのが良いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Cloning Labs^reset; have one single purpose: Making custom trees. Place one sapling on the left, one on the right and you're good to go!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; クローン 研究所 ^reset;は、カスタムツリーを作成するという一つの目的を持っています。 左側に苗木を一つ、右側に一つ置けば、行くのが良いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Cloning Trees"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クローニングツリー"
+    }
+  ]
+]

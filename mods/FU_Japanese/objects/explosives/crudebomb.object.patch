@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A specially crafted explosive for mining. Detonation requires impact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉱山用の特別に作られた爆薬。 起爆には衝撃が必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crude Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原爆"
+    }
+  ]
+]

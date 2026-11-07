@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nik Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ニク・フラワー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nik Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニク・フラワー"
+    }
+  ]
+]

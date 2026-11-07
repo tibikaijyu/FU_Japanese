@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There isn't any katana that can top this.\n^cyan;Massive 10-hit combo!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを打ち負かすようなカタナはない。\n^cyan; Massive 10 - コンボヒット!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタナアテリアウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "A real hard sword for a real hard dude."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "真剣な男の剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Soulslasher"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテロームソウルスラッシャー"
+    }
+  ]
+]

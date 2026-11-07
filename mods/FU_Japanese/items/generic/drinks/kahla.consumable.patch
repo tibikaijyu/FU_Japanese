@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What looks to be a bottle of liquified Oceanite. Contains healing properties.\n^green;Heal ^white;50% ^green;HP ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体化したオーシャナイトのボトルのように見えるもの。 癒しの特性を含みます。\n^green;癒し ^white;50% ^green;HP ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Oceanite Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体オーシャナイトボトル"
+    }
+  ]
+]

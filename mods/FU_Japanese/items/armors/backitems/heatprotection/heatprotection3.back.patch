@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+60% Fire Resist and Burning Immunity. Helpful on ^red;extremely hot^reset; planets. Provides air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+60%火抵抗と燃える免疫。 ^red;非常に熱い^reset;惑星に役立ちます。 空気を供給。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooling EPP III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷却EPP III"
+    }
+  ]
+]

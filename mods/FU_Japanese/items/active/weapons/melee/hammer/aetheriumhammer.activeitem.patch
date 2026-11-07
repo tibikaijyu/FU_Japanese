@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slam them with cosmic force.\n^yellow;Stun^reset; and apply ^cyan;Minor Vulnerability^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らを宇宙力で叩きなさい。\n^yellow;気絶^reset;と適用する^cyan;マイナー脆弱性^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルハマー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Retribution be thy name."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "報復は名前です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Daemonslayer"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "エーテルデーモン層"
+    }
+  ]
+]

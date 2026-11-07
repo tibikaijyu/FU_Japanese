@@ -1,0 +1,1526 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/amber/0",
+      "value": "Organic Smelting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/amber/0",
+      "value": "有機物の精錬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/amber/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to smelt organic substances into usable forms. You can now make chunks of amber and hardened slime 'gems' at your furnace."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/amber/1",
+      "value": "^orange;ティア 2^reset;\n\n有機物を使いやすい形へ精錬する方法を学んだ。炉で琥珀の塊や、スライムを固めた「宝石」を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/0",
+      "value": "Select a Research"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/0",
+      "value": "研究を選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/1",
+      "value": ". Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\nThe left button at the top left corner will move the view to the center of the tree, and the left button will open a list of researches, from which you can zoom to other researches."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/1",
+      "value": ". グリッド上のアイコンをクリックして研究を選択します。\nマウスの左ボタンでドラッグすると、表示範囲を移動できます。\n画面左上のボタンでツリーの中央へ移動できます。研究一覧を開くボタンからは、別の研究へ視点を移せます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils1/0",
+      "value": "Archaeology I"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils1/0",
+      "value": "考古学 I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils1/1",
+      "value": "^orange;Tier 1^reset;\n\nThrough your scientific studies, you've found a certain fascination with the past. You've studied the basics of Archaeology and Anthropology, and can now create gear to help you find ^green;Fossils and Artifacts^reset;. You can craft the ^orange;Fossil Station^reset; at your ^orange;Inventor's Table^reset;.\n\nTo dig up fossils, you'll first need to find some in the soil underground. Once you do, simply stand next to the fossil and target it with your Fossil Brush of choice, and swipe it for a few seconds. You'll then be taken to the Fossil Minigame for a skill-testing challenge."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils1/1",
+      "value": "^orange;ティア 1^reset;\n\n科学の探究を通じて、過去への興味が芽生えた。考古学と人類学の基礎を学び、^green;化石や遺物^reset;を見つけるための道具を作れるようになる。^orange;化石作業台^reset;は^orange;発明家の作業台^reset;で作成できる。\n\n化石を発掘するには、まず地下の土の中にある化石を探そう。見つけたらそばに立ち、好きな化石ブラシで狙って数秒間こする。すると、腕試しとなる化石発掘ミニゲームが始まる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils2/0",
+      "value": "Archaeology II"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils2/0",
+      "value": "考古学 II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils2/1",
+      "value": "^orange;Tier 2^reset;\n\nWith firmer understanding of techniques, you can now create more efficient tools to procure fossils with."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils2/1",
+      "value": "^orange;ティア 2^reset;\n\n技術への理解が深まり、より効率的に化石を採取できる道具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils3/0",
+      "value": "Archaeology III"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils3/0",
+      "value": "考古学 III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou're able to create top of the line gear capable of unearthing even the most fragile of fossilized remains or ancient buried artifacts."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils3/1",
+      "value": "^orange;ティア 3^reset;\n\n極めて壊れやすい化石や、埋もれた古代の遺物さえ掘り出せる、最高級の道具を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils4/0",
+      "value": "Archaeology IV"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils4/0",
+      "value": "考古学 IV"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fossils4/1",
+      "value": "^orange;Tier 4^reset;\n\nUsing unconventional materials, you can create amazing new tools capable of near effortless archaeological digs.\n\n^cyan;You'll require just a hint of madness to figure this one out^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fossils4/1",
+      "value": "^orange;ティア 4^reset;\n\n型破りな素材を用い、ほとんど苦労せず発掘できる、驚くべき新しい道具を作れるようになる。\n\n^cyan;これを理解するには、ほんの少し狂気が必要だ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes1/0",
+      "value": "Plutonium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes1/0",
+      "value": "プルトニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes1/1",
+      "value": "^orange;Tier 2^reset;\n\nProcessing isotopes is dangerous to the uninitiated. That used to be you. Now, though, you're confident that you can safely handle these sorts of materials and utilize them in very lucrative scientific pursuits.\n\nYou're ready to start working with Plutonium, which can be quite useful for numerous applications"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes1/1",
+      "value": "^orange;ティア 2^reset;\n\n知識のない者が同位体を扱うのは危険だ。以前はあなたもそうだった。だが今は、こうした素材を安全に扱い、有益な科学研究に活用できる自信がある。\n\nさまざまな用途で役立つ、プルトニウムを扱う準備が整った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes2/0",
+      "value": "Uranium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes2/0",
+      "value": "ウラン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes2/1",
+      "value": "^orange;Tier 3^reset;\n\nThough Plutonium is quite a bit more dangerous than Uranium, Uranium is somewhat harder to smelt. It has a high degree of usefulness in numerous machines and can even be worked into weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes2/1",
+      "value": "^orange;ティア 3^reset;\n\nプルトニウムの方がずっと危険だが、精錬はウランの方がやや難しい。多くの機械で役立ち、武器の材料にもなる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes3/0",
+      "value": "Neptunium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes3/0",
+      "value": "ネプツニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes3/1",
+      "value": "^orange;Tier 4^reset;\n\nWhile not as radioactive, Neptunium has a number of applications that are not shared with Uranium."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes3/1",
+      "value": "^orange;ティア 4^reset;\n\n放射性はそれほど強くないが、ネプツニウムにはウランにはない用途がいくつもある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes4/0",
+      "value": "Thorium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes4/0",
+      "value": "トリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes4/1",
+      "value": "^orange;Tier 5^reset;\n\nNot inherently dangerous or unstable, Thorium is quite a beneficial material when used creatively in a lab."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes4/1",
+      "value": "^orange;ティア 5^reset;\n\nそれ自体は危険でも不安定でもないトリウムだが、研究室で工夫して使えば、とても役立つ素材となる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes6/0",
+      "value": "Experimental Isotopes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes6/0",
+      "value": "実験的な同位体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes6/1",
+      "value": "^orange;Tier 7^reset;\n\nYou've learned to harness the power of isotopes to your utmost advantage and advanced the knowledge in this field by a generation or two in the process. You've learned to create an entirely new form of isotope with properties hitherto unseen."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes6/1",
+      "value": "^orange;ティア 7^reset;\n\n同位体の力を最大限に活用する方法を学び、その過程でこの分野の知識を数世代分も進歩させた。これまでにない性質を持つ、まったく新しい同位体を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes_enriched/0",
+      "value": "Enriched Isotopes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes_enriched/0",
+      "value": "濃縮同位体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/isotopes_enriched/1",
+      "value": "^orange;Tier 6^reset;\n\nThanks to your wealth of knowledge on this subject matter, you now have the ability to vastly improve Uranium and Plutonium by enhancing them with Deuterium and Erchius Fuel at your ^orange;Chem Lab^reset;. These isotopes will provide far more radioactive energy than before."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/isotopes_enriched/1",
+      "value": "^orange;ティア 6^reset;\n\nこの分野の豊富な知識により、重水素とエルキウス燃料を使ってウランやプルトニウムの性能を大幅に高められるようになる。作業には^orange;化学ラボ^reset;を使う。これらの同位体は、以前よりはるかに多くの放射性エネルギーを生み出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_aegisalt/0",
+      "value": "Aegisalt"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_aegisalt/0",
+      "value": "イージソルト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_aegisalt/1",
+      "value": "^orange;Tier 5^reset;\n\nLearn to process ^cyan;Aegisalt^reset;. \n\nYou can find ^reset;Aegisalt^reset; on any world that is ^green;Tier 5^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_aegisalt/1",
+      "value": "^orange;ティア 5^reset;\n\n^cyan;イージソルト^reset;の加工方法を学ぶ。 \n\n^reset;イージソルト^reset;は、^green;ティア 5^reset;の惑星で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy1/0",
+      "value": "Carbon Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy1/0",
+      "value": "炭素板"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy1/1",
+      "value": "^orange;Tier 2.5^reset;\n\nWhile it doesn't look it, Carbon houses great potential, and you'll need it for many useful technologies. It plays a part in a great deal of crafting, and paves the way to strong alloys and powerful equipment.\n\nCreating carbon is simple enough, through research into ^green;Chemistry^reset; or by extracting coal. Turning it into a form that is useable in everyday processes for crafting is another matter entirely. You've learned to do just that."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy1/1",
+      "value": "^orange;ティア 2.5^reset;\n\n一見地味な炭素には、大きな可能性がある。多くの便利な技術に必要で、幅広い製作に使われ、強靭な合金や強力な装備への道を開く。\n\n炭素そのものは、^green;化学^reset;の研究や石炭の抽出で簡単に作れる。しかし、日常的な製作に使える形にするのは別の話だ。その方法を学んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy2/0",
+      "value": "Advanced Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy2/0",
+      "value": "高性能合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy2/1",
+      "value": "^orange;Tier 3.5^reset;\n\nCombining several metals together allows you to create a superior type of alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy2/1",
+      "value": "^orange;ティア 3.5^reset;\n\n複数の金属を組み合わせ、より優れた合金を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy3/0",
+      "value": "Tritanium Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy3/0",
+      "value": "トリタニウム合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy3/1",
+      "value": "^orange;Tier 4.5^reset;\n\nFew metals can look as beautiful as Tritanium, one of the most potent known alloys. Beneath its surface, subtly moving striations of gold and opalescent blue fluctuate in random fractal patterns. The effect is magical in appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy3/1",
+      "value": "^orange;ティア 4.5^reset;\n\n既知の合金でも特に優れたトリタニウムほど、美しい金属は少ない。表面の下では、金色と乳白色を帯びた青色の筋が、無秩序なフラクタル模様を描いてかすかに揺れ動く。その様子は、まるで魔法のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy4/0",
+      "value": "Dense Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy4/0",
+      "value": "高密度合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy4/1",
+      "value": "^orange;Tier 5.5^reset;\n\nMerging Violium, Ferozium and Aegisalt together allows the creation of a super-strong alloy useful in many processes."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy4/1",
+      "value": "^orange;ティア 5.5^reset;\n\nヴァイオリウム、フェロジウム、イージソルトを混ぜ合わせ、さまざまな加工に役立つ超強靭な合金を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy5/0",
+      "value": "Precursor Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy5/0",
+      "value": "先駆者合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy5/1",
+      "value": "^orange;Tier 6^reset;\n\nYou have absolultely no idea what the Precursors created this alloy from, but you've at least learned to work with it."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy5/1",
+      "value": "^orange;ティア 6^reset;\n\n先駆者たちが何からこの合金を作ったのか、まったく分からない。それでも、少なくとも加工する方法は学べた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy6/0",
+      "value": "Aetherium Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy6/0",
+      "value": "エーテリウム合金"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_alloy6/1",
+      "value": "^orange;Tier 8^reset;\n\nYou've invented an entirely new form of alloy, and none created before it can claim to be its rival."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_alloy6/1",
+      "value": "^orange;ティア 8^reset;\n\nまったく新しい合金を発明した。これまでに作られた、どの合金も敵わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_copper/0",
+      "value": "Copper"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_copper/0",
+      "value": "銅"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_copper/1",
+      "value": "^orange;Tier 1^reset;\n\nThe simplest of the metals for you to work with. It is soft, conductive and abundant. ^cyan;Copper^reset; remains useful in most industrial processes thanks to its requirement in wiring. \n\nYou'll find ^cyan;Copper^reset; on ^green;most worlds^reset;, as it is extremely abundant throughout the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_copper/1",
+      "value": "^orange;ティア 1^reset;\n\n最も扱いやすい金属。柔らかく、電気をよく通し、豊富に存在する。^cyan;銅^reset;は配線に必要なため、大抵の工業工程で役立ち続ける。 \n\n^cyan;銅^reset;は宇宙全体に大量に存在し、^green;ほとんどの惑星^reset;で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_crystal/0",
+      "value": "Crystalworking"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_crystal/0",
+      "value": "結晶加工"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_crystal/1",
+      "value": "^orange;Tier 2^reset;\n\nGlittering beautifully, crystals have long fascinated people across the cosmos. Through this branch of research you will learn to process Crystals. If you're desperate for some, crystals are best found on ^green;Crystalline^reset; biomes.\n\nTo craft or process these gems, you'll need a ^orange;Crystal Fusion Station^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_crystal/1",
+      "value": "^orange;ティア 2^reset;\n\n美しくきらめく結晶は、宇宙の人々を長年魅了してきた。この研究で、結晶の加工方法を学ぶ。急いで手に入れたいなら、^green;結晶^reset;バイオームが最適だ。\n\nこれらの宝石を作成・加工するには、^orange;結晶融合台^reset;が必要になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_crystal2/0",
+      "value": "Elemental Crystals"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_crystal2/0",
+      "value": "元素の結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_crystal2/1",
+      "value": "^orange;Tier 2^reset;\n\nLearn to process Elemental Crystals of various sorts. These are utilized in a wide variety of uses by certain races, but have little value apart from trade otherwise.\n\nTo craft or process these gems, you'll need a ^orange;Crystal Fusion Station^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_crystal2/1",
+      "value": "^orange;ティア 2^reset;\n\nさまざまな元素の結晶を加工する方法を学ぶ。特定の種族は多様な用途に使うが、それ以外では取引以外の価値はあまりない。\n\nこれらの宝石を作成・加工するには、^orange;結晶融合台^reset;が必要になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_densinium/0",
+      "value": "Densinium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_densinium/0",
+      "value": "デンシニウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_densinium/1",
+      "value": "^orange;Tier 6^reset;\n\nLearn to process ^cyan;Densinium^reset;. \n\nYou can find Densinium primarily on ^green;Cyberspheres^reset;. It can also rarely be found on ^green;Sulphuric^reset; biomes and ^green;Gas Giants^reset;. It is the most dense of metals, capable of unimaginable resistance against force. It is extremely hard to work with as a result, reserved for the most skilled weaponsmiths."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_densinium/1",
+      "value": "^orange;ティア 6^reset;\n\n^cyan;デンシニウム^reset;の加工方法を学ぶ。 \n\n主に^green;サイバースフィア^reset;で見つかる。まれに^green;硫黄^reset;バイオームや^green;ガス惑星^reset;にも存在する。最も密度の高い金属で、想像を絶する力にも耐えられる。そのため加工は極めて難しく、最高の腕を持つ武器職人にしか扱えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_diamond/0",
+      "value": "Diamondcraft"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_diamond/0",
+      "value": "ダイヤモンド加工"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_diamond/1",
+      "value": "^orange;Tier 4^reset;\n\nSought after as decorative for reasons few have ever been able to discern, diamonds are allegedly beautiful (nevermind the fact that they are colorless and bland!). However, diamond is exceptionally useful to those with the means to make the most of them. You're able to do just that, and will be able to make exceptionally useful gear."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_diamond/1",
+      "value": "^orange;ティア 4^reset;\n\n理由をはっきり説明できる者は少ないが、ダイヤモンドは装飾品として珍重されている。無色で地味なのに、美しいらしい！ だが、その特性を生かせる者にとっては非常に有用だ。あなたはその方法を学び、非常に役立つ装備を作れるようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_durasteel/0",
+      "value": "Durasteel"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_durasteel/0",
+      "value": "デュラスチール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_durasteel/1",
+      "value": "^orange;Tier 4^reset;\n\nA dense metal with the uncanny ability to meld seamlessly against a vaccuum, ^cyan;Durasteel^reset; is a favorite among space engineers. \n\n^cyan;Durasteel^reset; can be found on nearly all ^green;Tier 4^reset; worlds. ^green;Alien^reset;, ^green;Sulphuric^reset;, ^green;Mountainous^reset; are all good sources."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_durasteel/1",
+      "value": "^orange;ティア 4^reset;\n\n真空中でも継ぎ目なく接合する不思議な性質を持つ高密度の金属、^cyan;デュラスチール^reset;は、宇宙技術者のお気に入りだ。 \n\n^cyan;デュラスチール^reset;は、ほぼ全ての^green;ティア 4^reset;の惑星で見つかる。^green;異星^reset;、^green;硫黄^reset;、^green;山岳^reset;がよい産地だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_effigium/0",
+      "value": "Effigium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_effigium/0",
+      "value": "エフィギウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_effigium/1",
+      "value": "^orange;Tier 5^reset;\n\nLearn to process ^cyan;Effigium^reset;. \n\nYou can find Effigium  only on ^green;Lightless^reset; worlds, where it blends into the terrain around it as if it were insubstantial. This is a strange trick of physics that few can even begin to understand, but many have theorized that it is able to repel light photons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_effigium/1",
+      "value": "^orange;ティア 5^reset;\n\n^cyan;エフィギウム^reset;の加工方法を学ぶ。 \n\n^green;光なき世界^reset;でのみ見つかり、実体がないかのように周囲の地形に溶け込む。ほとんど誰にも理解できない奇妙な物理現象だが、光子をはじく性質があるのではないかと考えられている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_ferozium/0",
+      "value": "Ferozium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_ferozium/0",
+      "value": "フェロジウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_ferozium/1",
+      "value": "^orange;Tier 5^reset;\n\nLearn to process ^cyan;Ferozium^reset;. \n\nYou can find ^reset;Ferozium^reset; on any world that is ^green;Tier 5^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_ferozium/1",
+      "value": "^orange;ティア 5^reset;\n\n^cyan;フェロジウム^reset;の加工方法を学ぶ。 \n\n^reset;フェロジウム^reset;は、^green;ティア 5^reset;の惑星で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_gold/0",
+      "value": "Goldsmithing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_gold/0",
+      "value": "金細工"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_gold/1",
+      "value": "^orange;Tier 2^reset;\n\n^cyan;Gold^reset; has always been a status symbol, valuable among metals. It's soft, and thus not particularly useful in weapons and armor. \n\n^cyan;Gold^reset; is found on most worlds, generally ^green;below the first and second layer of the biome^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_gold/1",
+      "value": "^orange;ティア 2^reset;\n\n^cyan;金^reset;は昔から地位の象徴とされる、価値の高い金属だ。柔らかいため、武器や防具にはあまり向いていない。 \n\n^cyan;金^reset;は大抵の惑星で見つかる。通常は^green;最初と二番目の地層より下^reset;にある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_honedlunari/0",
+      "value": "Peerless Lunari"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_honedlunari/0",
+      "value": "至高のルナリ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_honedlunari/1",
+      "value": "^orange;Tier 6^reset;\n\nConvert Lunari into a vastly superior form of itself, shot-through with potent veins of energy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_honedlunari/1",
+      "value": "^orange;ティア 6^reset;\n\nルナリを、強力なエネルギーの筋が走る、はるかに優れた形へ加工する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_iron/0",
+      "value": "Iron"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_iron/0",
+      "value": "鉄"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_iron/1",
+      "value": "^orange;Tier 1^reset;\n\n^cyan;Iron^reset; is perhaps the most commonly used metal, even in our current age. Without it, the fundamentals of industrialization seldom come to pass. It forms the backbone for early survival, fashioning useful hunting weapons.\n\n ^cyan;Iron^reset; is found on a great deal of worlds, but is most easily located on ^green;Lush^reset; worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_iron/1",
+      "value": "^orange;ティア 1^reset;\n\n^cyan;鉄^reset;は、現代でも最も広く使われる金属だろう。これがなければ、工業化の基礎も築きにくい。便利な狩猟武器を作れるため、序盤の生存を支える重要な素材だ。\n\n ^cyan;鉄^reset;は多くの惑星で見つかるが、特に^green;緑豊かな^reset;惑星で探しやすい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_irradium/0",
+      "value": "Irradium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_irradium/0",
+      "value": "イラディウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_irradium/1",
+      "value": "^orange;Tier 4.5^reset;\n\nLearn to process ^cyan;Irradium^reset;. \n\nYou can find Irradium primarily on ^green;Irradiated^reset; biomes. Easily the most radioactive of ores you can safely work with, it fills an interesting niche in geological terms: it both creates and nullifies radioactivity."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_irradium/1",
+      "value": "^orange;ティア 4.5^reset;\n\n^cyan;イラディウム^reset;の加工方法を学ぶ。 \n\n主に^green;放射能汚染^reset;バイオームで見つかる。安全に加工できる鉱石の中では、群を抜いて放射性が強い。地質学的にも珍しく、放射能を生み出すと同時に打ち消す性質を持つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_isogen/0",
+      "value": "Isogen"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_isogen/0",
+      "value": "アイソジェン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_isogen/1",
+      "value": "^orange;Tier 6^reset;\n\nLearn to process ^cyan;Isogen^reset;. \n\nYou can find Isogen primarily on dangerous freezing worlds like ^green;Ice Wastes^reset;. Even touching this ore can risk frostbite, so care should be excercised when working with it. It can make fantastic shielding against heat, and can be worked into deadly frost weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_isogen/1",
+      "value": "^orange;ティア 6^reset;\n\n^cyan;アイソジェン^reset;の加工方法を学ぶ。 \n\n主に^green;氷の荒野^reset;など、危険な極寒の惑星で見つかる。触れるだけでも凍傷の危険があり、扱いには注意が必要だ。熱を防ぐ優れた装備や、致命的な冷気の武器を作れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_lasombrium/0",
+      "value": "Lasombrium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_lasombrium/0",
+      "value": "ラソンブリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_lasombrium/1",
+      "value": "^orange;Tier 4^reset;\n\nLearn to process ^cyan;Lasombrium^reset;. \n\nRaw chaos and entropy given form, this metal is unique and not a natural part of the universe. It phases between solid and non nearly constantly. It is only found in ^green;Corruption^reset; sub biomes, found on and beneath many types of decaying worlds.\n\nTo process this rare and unusual mineral, you'll need at least a ^orange;Chem Lab^reset; (upgrade of the Alchemy station) to properly cleanse the toxic outer shell and remove impurities. A ^orange;Blast Furnace^reset; or ^orange;Arc Smelter^reset; can also do the trick on their own."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_lasombrium/1",
+      "value": "^orange;ティア 4^reset;\n\n^cyan;ラソンブリウム^reset;の加工方法を学ぶ。 \n\n混沌とエントロピーそのものが形を持った、宇宙に自然には存在しない特異な金属。ほぼ絶えず、固体と非固体の状態を行き来する。さまざまな衰退した惑星の地表や地下にある、^green;腐敗^reset;の小バイオームでのみ見つかる。\n\nこの珍しく奇妙な鉱物から、有毒な外殻や不純物を取り除くには、少なくとも^orange;化学ラボ^reset;が必要だ。錬金術台をアップグレードすれば作れる。^orange;溶鉱炉^reset;や^orange;アーク溶鉱炉^reset;なら、単独でも加工できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_lunari/0",
+      "value": "Lunari Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_lunari/0",
+      "value": "ルナリ結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_lunari/1",
+      "value": "^orange;Tier 2.5^reset;\n\nLearn to process ^cyan;Lunari^reset;. \n\nThis unique crystal can be found on ^green;Crystalline^reset; biomes and is a fantastic means of transferring and storing energy. This makes it particularly popular for weapons and armor."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_lunari/1",
+      "value": "^orange;ティア 2.5^reset;\n\n^cyan;ルナリ^reset;の加工方法を学ぶ。 \n\n^green;結晶^reset;バイオームで見つかる特異な結晶で、エネルギーの伝達や蓄積に非常に優れている。そのため、武器や防具の素材として特に人気が高い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_morphite/0",
+      "value": "Morphite"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_morphite/0",
+      "value": "モーファイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_morphite/1",
+      "value": "^orange;Tier 4.5^reset;\n\nLearn to process ^cyan;Morphite^reset;. \n\nMorphite is invented, not natural. You can syntesize it in a ^green;Chem Lab^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_morphite/1",
+      "value": "^orange;ティア 4.5^reset;\n\n^cyan;モーファイト^reset;の加工方法を学ぶ。 \n\nモーファイトは天然の物質ではなく、人工物だ。^green;化学ラボ^reset;で合成できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_nocxium/0",
+      "value": "Nocxium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_nocxium/0",
+      "value": "ノクシウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_nocxium/1",
+      "value": "^orange;Tier 7^reset;\n\nLearn to process ^cyan;Nocxium^reset;. \n\nNocxium is exceedingly rare, found only in the whispered dark reaches of the universe. Absolutely nobody knows how it first formed, or what elements it is composed of, for all attempts at study defy any such thing."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_nocxium/1",
+      "value": "^orange;ティア 7^reset;\n\n^cyan;ノクシウム^reset;の加工方法を学ぶ。 \n\n噂にしか聞かない宇宙の暗がりにのみ存在する、極めて希少な物質。どのように生まれ、何の元素でできているのか、誰にも分からない。調べようとするあらゆる試みが、答えを拒まれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_penumbrite/0",
+      "value": "Penumbrite"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_penumbrite/0",
+      "value": "ペナンブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_penumbrite/1",
+      "value": "^orange;Tier 3.5^reset;\n\nLearn to process ^cyan;Penumbrite^reset;. \n\nYou can find Penumbrite on ^green;Penumbra^reset; biomes. It gleams under light, shimmering for several seconds after being returned to darkness. It possesses a dull blue glow, making it simple to locate even in the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_penumbrite/1",
+      "value": "^orange;ティア 3.5^reset;\n\n^cyan;ペナンブライト^reset;の加工方法を学ぶ。 \n\n^green;半影^reset;バイオームで見つかる。光を浴びて輝き、暗闇に戻しても数秒間きらめき続ける。鈍い青色の光を放つため、暗い場所でも見つけやすい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_plasmiccrystal/0",
+      "value": "Plasmic Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_plasmiccrystal/0",
+      "value": "プラズミック結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_plasmiccrystal/1",
+      "value": "^orange;Tier 4^reset;\n\nLearn to process ^cyan;Plasmic Crystal^reset;. \n\nYou can find these rare crystals only in ^green;Bloodstone Seas^reset; and ^green;Atropus^reset; biomes."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_plasmiccrystal/1",
+      "value": "^orange;ティア 4^reset;\n\n^cyan;プラズミック結晶^reset;の加工方法を学ぶ。 \n\nこの希少な結晶は、^green;ブラッドストーンの海^reset;や^green;アトロプス^reset;のバイオームでのみ見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_prisilite/0",
+      "value": "Prisilite"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_prisilite/0",
+      "value": "プリシライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_prisilite/1",
+      "value": "^orange;Tier 4^reset;\n\nLearn to process ^cyan;Prisilite^reset;. \n\nPrisilite is a truly interesting mineral. Capable of holding charge but not discharging it without an impact, it has been harnessed for many creative purposes across the galaxy.\n\nYou can find this chromatic crystal in many places, but ^green;Chromatic^reset; biomes are among the best places to hunt."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_prisilite/1",
+      "value": "^orange;ティア 4^reset;\n\n^cyan;プリシライト^reset;の加工方法を学ぶ。 \n\n非常に興味深い鉱物だ。電荷を蓄え、衝撃を加えない限り放電しない性質を持つため、銀河の各地で独創的な用途に使われている。\n\nこの色鮮やかな結晶はさまざまな場所にあるが、^green;極彩色^reset;バイオームは特に有望な産地だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_protocite/0",
+      "value": "Protocite"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_protocite/0",
+      "value": "プロトサイト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_protocite/1",
+      "value": "^orange;Tier 3.5^reset;\n\nLearn to process ^cyan;Protocite^reset;. \n\nYou can find Protocite only on ^green;Proto Worlds^reset;. This ore is famed for its ability to store and channel power while insulating at the same time, making it a popular metal for numerous processes. It glows yellow, giving away its presence to the intrepid miner."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_protocite/1",
+      "value": "^orange;ティア 3.5^reset;\n\n^cyan;プロトサイト^reset;の加工方法を学ぶ。 \n\n^green;プロト惑星^reset;でのみ見つかる。絶縁しながら電力を蓄え、伝える性質で知られ、多くの工程で好んで使われる。黄色く光るため、勇敢な鉱夫にその在りかを知らせてくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_pyreite/0",
+      "value": "Pyreite"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_pyreite/0",
+      "value": "パイライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_pyreite/1",
+      "value": "^orange;Tier 6^reset;\n\nLearn to process ^cyan;Pyreite.^reset; \n\nYou can find Pyreite primarily on dangerous burning worlds like ^green;Infernus^reset;. It is perhaps the best known insulator against cold temperatures and doubly great for incendiary use. Do not leave on any easily melted surface for longer than 2 minutes. This metal never grows fully cold."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_pyreite/1",
+      "value": "^orange;ティア 6^reset;\n\n^cyan;パイライト^reset;の加工方法を学ぶ。 \n\n主に^green;インフェルヌス^reset;など、危険な灼熱の惑星で見つかる。寒さを防ぐ既知の素材の中でも最高峰で、焼夷用にも非常に優れている。溶けやすい物の上に2分以上放置してはいけない。この金属が完全に冷えることはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_quietus/0",
+      "value": "Quietus"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_quietus/0",
+      "value": "クワイエタス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_quietus/1",
+      "value": "^orange;Tier 4^reset;\n\nLearn to process ^cyan;Quietus^reset;. \n\nThis horrifying metal is found only on ^green;Atropus^reset; biomes. It pulses and throbs almost imperceptibly, and when worked hard under a hammer it can almost be heard to 'scream'. It possesses useful properties, especially in regard to biological weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_quietus/1",
+      "value": "^orange;ティア 4^reset;\n\n^cyan;クワイエタス^reset;の加工方法を学ぶ。 \n\n^green;アトロプス^reset;バイオームでのみ見つかる、おぞましい金属。ほとんど分からないほどかすかに脈打ち、ハンマーで強く打つと「悲鳴」が聞こえるようだ。特に生体兵器に役立つ性質を持つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_silver/0",
+      "value": "Silversmithing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_silver/0",
+      "value": "銀細工"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_silver/1",
+      "value": "^orange;Tier 2^reset;\n\n^cyan;Silver^reset; is a soft metal that is heralded for its beauty. It's a good way to turn a profit, but can also be used to create useful gear. \n\n^cyan;Silver^reset; is found on most worlds, generally ^green;below the first layer of the biome^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_silver/1",
+      "value": "^orange;ティア 2^reset;\n\n^cyan;銀^reset;は、その美しさで称えられる柔らかな金属だ。売れば利益になり、便利な装備の素材にもなる。 \n\n^cyan;銀^reset;は大抵の惑星で見つかる。通常は^green;最初の地層より下^reset;にある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_solarium/0",
+      "value": "Solarium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_solarium/0",
+      "value": "ソラリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_solarium/1",
+      "value": "^orange;Tier 6^reset;\n\nLearn to process ^cyan;Solarium^reset;. \n\nYou can find ^reset;Solarium^reset; on any world that is ^green;Tier 6^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_solarium/1",
+      "value": "^orange;ティア 6^reset;\n\n^cyan;ソラリウム^reset;の加工方法を学ぶ。 \n\n^reset;ソラリウム^reset;は、^green;ティア 6^reset;の惑星で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_telebrium/0",
+      "value": "Telebrium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_telebrium/0",
+      "value": "テレブリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_telebrium/1",
+      "value": "^orange;Tier 2.5^reset;\n\nLearn to process the unusual ore known as ^cyan;Telebrium^reset;. Lightweight, conductive enough to create charge but unsuitable for holding it long-term, this metal has found use in numerous areas.\n\nYou can find Telebrium primarily on ^green;Moons^reset;, where it can be found abundantly forming."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_telebrium/1",
+      "value": "^orange;ティア 2.5^reset;\n\n^cyan;テレブリウム^reset;という珍しい鉱石の加工方法を学ぶ。軽く、電荷を生むだけの導電性はあるが、長期の蓄電には向かない。さまざまな分野で使われている。\n\n主な産地は^green;月^reset;で、豊富に形成されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier1/0",
+      "value": "Geology I"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier1/0",
+      "value": "地質学 I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier1/1",
+      "value": "^orange;Blacksmithing - Tier 1^reset;\n\nLearn to process ^cyan;Copper^reset; and ^cyan;Iron^reset; ores. Through these materials you'll be able to dive into crafting and really get started. This research will lead to greater knowledge of metalworking.\n\nYou've also learn to smelt basic items like ^cyan;Clay^reset; and ^cyan;Glass^reset;. Should you have trouble locating the requirements for these, you'll need to dig. You'll find both ^cyan;Clay^reset; and ^cyan;Sand^reset; readily."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier1/1",
+      "value": "^orange;鍛冶の基礎 - ティア 1^reset;\n\n^cyan;銅^reset;と^cyan;鉄^reset;の鉱石を加工する方法を学ぶ。これらの素材を使えば、本格的な製作を始められる。この研究は、さらなる金属加工の知識につながる。\n\n^cyan;粘土^reset;や^cyan;ガラス^reset;など、基本的な品を炉で作る方法も学べる。材料が見つからないなら、地面を掘ろう。^cyan;粘土^reset;も^cyan;砂^reset;も見つかるはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier2/0",
+      "value": "Geology II"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier2/0",
+      "value": "地質学 II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier2/1",
+      "value": "^orange;Steelworker - Tier 2^reset;\n\nLearn to process ^cyan;Tungsten^reset; and ^cyan;Telebrium^reset; and work it into useful equipment. This will grant access to higher quality gear and dramatically increase survivability through defensive gear."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier2/1",
+      "value": "^orange;製鋼技術 - ティア 2^reset;\n\n^cyan;タングステン^reset;と^cyan;テレブリウム^reset;を加工し、役立つ装備にする方法を学ぶ。高品質な装備を作れるようになり、防具によって生存能力が大きく高まる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier3/0",
+      "value": "Geology III"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier3/0",
+      "value": "地質学 III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier3/1",
+      "value": "^orange;Industrial Metals - Tier 3^reset;\n\nNow you can work with ^cyan;Titanium^reset;, and through it you'll be able to upgrade many of your crafting stations. Furthermore, you'll learn to work with more unusual materials such as ^cyan;Protocite^reset; and ^cyan;Penumbrite^reset; (both of which are quite useful)."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier3/1",
+      "value": "^orange;工業用金属 - ティア 3^reset;\n\n^cyan;チタン^reset;を扱えるようになり、多くの製作設備をアップグレードできる。さらに、^cyan;プロトサイト^reset;や^cyan;ペナンブライト^reset;などの珍しい素材も扱えるようになる。どちらも大いに役立つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier4/0",
+      "value": "Geology IV"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier4/0",
+      "value": "地質学 IV"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier4/1",
+      "value": "^orange;Space-Age Metals - Tier 4^reset;\n\nDurasteel is a fantastic material. Through this metal, all of your crafting tables will be able to upgrade to their maximum capacity. You'll also find a much more potent set of defensive and offensive gear."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier4/1",
+      "value": "^orange;宇宙時代の金属 - ティア 4^reset;\n\nデュラスチールは優れた素材だ。この金属で、製作台を全て最高段階までアップグレードできる。攻撃用・防御用の装備も、さらに強力な物が手に入る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier5/0",
+      "value": "Geology V"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier5/0",
+      "value": "地質学 V"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier5/1",
+      "value": "^orange;Elemental Metals - Tier 5^reset;\n\nAegisalt, Ferozium and Violium are sought after resources of relatively high value, and are capable of being forged into very useful equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier5/1",
+      "value": "^orange;元素の金属 - ティア 5^reset;\n\nイージソルト、フェロジウム、ヴァイオリウムは、比較的価値が高く、需要のある資源だ。非常に便利な装備へ鍛造できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier6/0",
+      "value": "Geology VI"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier6/0",
+      "value": "地質学 VI"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier6/1",
+      "value": "^orange;Superior Metals - Tier 6^reset;\n\nSolarium, Pyreite, Isogen and Densinium are all remarkable metals guaranteed to excel in their particular idiom. Through these metals you will be able to forge fantastic things."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier6/1",
+      "value": "^orange;超高性能金属 - ティア 6^reset;\n\nソラリウム、パイライト、アイソジェン、デンシニウムは、いずれも得意分野で卓越した性能を発揮する金属だ。これらを使えば、素晴らしい物を作れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier7/0",
+      "value": "Geology VII"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier7/0",
+      "value": "地質学 VII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier7/1",
+      "value": "^orange;Multi-Phasic Metals - Tier 7^reset;\n\nYou can now delve into metals that violate the very laws of physics. Anything beyond here is truly wonderous to behold, and the fact that you can work with it puts you a step above nearly every living metalsmith in the galaxy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier7/1",
+      "value": "^orange;多相金属 - ティア 7^reset;\n\n物理法則そのものに背く金属を扱えるようになる。この先の素材は、目にするだけでも驚異的だ。それを加工できるあなたは、銀河に生きるほぼ全ての金属職人を上回っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier8/0",
+      "value": "Geology VIII"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier8/0",
+      "value": "地質学 VIII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tier8/1",
+      "value": "^orange;Impossible Metals - Tier 8^reset;\n\nHarnessing the very essence of the cosmos, you are able to form it into a new form of matter specially created to be nearly perfect. You have mastered all there is to know about this artform."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tier8/1",
+      "value": "^orange;不可能の金属 - ティア 8^reset;\n\n宇宙の本質そのものを使い、限りなく完璧に近い、新たな物質へと成形できるようになった。この技術で知るべきことは、全て極めた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_titanium/0",
+      "value": "Titanium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_titanium/0",
+      "value": "チタン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_titanium/1",
+      "value": "^orange;Tier 3^reset;\n\nDurable, extremely hard to melt, and one of the most important metals for construction in the known galaxy. \n\nYou can find ^cyan;Titanium^reset; on most ^green;Tier 3^reset; worlds. ^green;Oceanic^reset; worlds prove to be the lowest threat, but also have less abundant sources."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_titanium/1",
+      "value": "^orange;ティア 3^reset;\n\n丈夫で融点が極めて高く、既知の銀河で建築に使われる最も重要な金属のひとつ。 \n\n^cyan;チタン^reset;は、大抵の^green;ティア 3^reset;の惑星で見つかる。^green;海洋^reset;惑星は危険度が最も低いが、埋蔵量も少なめだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_trianglium/0",
+      "value": "Trianglium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_trianglium/0",
+      "value": "トライアングリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_trianglium/1",
+      "value": "^orange;Tier 4^reset;\n\nLearn to process ^cyan;Trianglium^reset;. \n\nThs unusual shape of this ore can be found readily on several biomes. The most common source are ^green;Tar Balls^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_trianglium/1",
+      "value": "^orange;ティア 4^reset;\n\n^cyan;トライアングリウム^reset;の加工方法を学ぶ。 \n\nこの奇妙な形の鉱石は、いくつかのバイオームでよく見つかる。最も一般的な産地は^green;タール惑星^reset;だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tungsten/0",
+      "value": "Tungsten"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tungsten/0",
+      "value": "タングステン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_tungsten/1",
+      "value": "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; is a tough metal with a very high melting point. This makes it a favorite in advanced construction, as it is exceptionally useful in weapons and equipment. \n\n^cyan;Tungsten^reset; can be found on many worlds but is most easily found on ^green;Forest^reset; and ^green;Desert^reset; biomes. You've also learned to make a functionally similar steel-like substitute by alloying Iron ore at an ^orange;Industrial Furnace^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_tungsten/1",
+      "value": "^orange;ティア 2^reset;\n\n^cyan;タングステン^reset;は、非常に融点が高い丈夫な金属だ。武器や装備に極めて有用なため、高度な建築でも好まれる。 \n\n^cyan;タングステン^reset;は多くの惑星にあるが、特に^green;森林^reset;や^green;砂漠^reset;バイオームで見つけやすい。鉄鉱石を合金にして、機能が似た鋼鉄状の代用品を作る方法も学べる。加工には^orange;工業炉^reset;を使う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_violium/0",
+      "value": "Violium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_violium/0",
+      "value": "ヴァイオリウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_violium/1",
+      "value": "^orange;Tier 5^reset;\n\nLearn to process ^cyan;Violium^reset;. \n\nYou can find ^reset;Violium^reset; on any world that is ^green;Tier 5^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_violium/1",
+      "value": "^orange;ティア 5^reset;\n\n^cyan;ヴァイオリウム^reset;の加工方法を学ぶ。 \n\n^reset;ヴァイオリウム^reset;は、^green;ティア 5^reset;の惑星で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_xithricite/0",
+      "value": "Xithricite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_xithricite/0",
+      "value": "ジスリサイト結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_xithricite/1",
+      "value": "^orange;Tier 6^reset;\n\nLearn to process ^cyan;Xithricite^reset;. \n\nThese crystals can be found only on ^green;Aether Worlds^reset;, or from the bowels of a ^green;Doom Wyrm^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_xithricite/1",
+      "value": "^orange;ティア 6^reset;\n\n^cyan;ジスリサイト^reset;の加工方法を学ぶ。 \n\nこの結晶は、^green;エーテル惑星^reset;か、^green;ドゥームワーム^reset;の腹の中でしか見つからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_zerchesium/0",
+      "value": "Zerchesium"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_zerchesium/0",
+      "value": "ゼルケシウム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metals_zerchesium/1",
+      "value": "^orange;Tier 3.5^reset;\n\nLearn to process ^cyan;Zerchesium^reset;. \n\nZerchesium can be located on ^green;Mountainous^reset; biomes, but sometimes appears on ^green;Sulphuric^reset; worlds as well."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metals_zerchesium/1",
+      "value": "^orange;ティア 3.5^reset;\n\n^cyan;ゼルケシウム^reset;の加工方法を学ぶ。 \n\n^green;山岳^reset;バイオームで見つかるが、^green;硫黄^reset;の惑星に現れることもある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/0",
+      "value": "Basic Training"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/0",
+      "value": "基礎訓練"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;Tier 1^reset;\n\nYour training, thanks to four years in the Protectorate Academy, provides you with basic survival skills to keep you alive for extended periods in the event of a crash."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;ティア 1^reset;\n\nプロテクター養成学校での四年間の訓練により、墜落事故に遭っても長期間生き延びるための、基本的なサバイバル技術を身に付けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming1/0",
+      "value": "Terraforming I"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming1/0",
+      "value": "テラフォーミング I"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming1/1",
+      "value": "^orange;Tier 4^reset;\n\nYour understanding of science and geology now makes it possible to directly interfere with planetary ecology. Through advanced technology you can edit the very nature of worlds you explore.\n\nThe first step: ^orange;Microformers^reset;. These handy devices can be placed to convert small regions into new biomes."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming1/1",
+      "value": "^orange;ティア 4^reset;\n\n科学と地質学への理解により、惑星の生態系に直接介入できるようになる。高度な技術を使い、探索する惑星の環境そのものを変えられる。\n\n最初の一歩は^orange;マイクロフォーマー^reset;だ。設置すれば、狭い範囲を新しいバイオームに変えられる便利な装置だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming2/0",
+      "value": "Terraforming II"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming2/0",
+      "value": "テラフォーミング II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming2/1",
+      "value": "^orange;Tier 5^reset;\n\nYou can create more exotic forms of Microformer now, providing access to a number of materials you may otherwise have had to hunt for."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming2/1",
+      "value": "^orange;ティア 5^reset;\n\nより珍しい種類のマイクロフォーマーを作れるようになる。本来なら探し回る必要がある、さまざまな素材を手に入れやすくなる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming3/0",
+      "value": "Terraforming III"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming3/0",
+      "value": "テラフォーミング III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/terraforming3/1",
+      "value": "^orange;Tier 6^reset;\n\nWith the science of Microformers now easily understood, you've moved on to more advanced forms of terrestrial editing. You can now craft Terraformers capable of converting an entire planetary biome to one of your choosing.\n\nNote that in order to make these devices function you will require ^#e43774;Ancient Essence^reset;. This rare resource can be found in many mysterious places."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/terraforming3/1",
+      "value": "^orange;ティア 6^reset;\n\nマイクロフォーマーの科学を十分に理解し、さらに高度な地表改変へ進んだ。惑星全体のバイオームを好きなものへ変換できる、テラフォーマーを作れるようになる。\n\n装置を動かすには^#e43774;古代のエッセンス^reset;が必要だ。この希少な資源は、さまざまな謎めいた場所で見つかる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/trees/fu_geology",
+      "value": "Geology"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/trees/fu_geology",
+      "value": "地質学"
+    }
+  ]
+]

@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;Dmg +^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;威力 +^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;Crit %^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;会心率 %^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/forceTitleLabel/value",
+      "value": "Maneuverability:"
+    },
+    {
+      "op": "replace",
+      "path": "/forceTitleLabel/value",
+      "value": "機動性:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/knockbackTitleLabel/value",
+      "value": "Knockback:"
+    },
+    {
+      "op": "replace",
+      "path": "/knockbackTitleLabel/value",
+      "value": "吹き飛ばし:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/maxDamageTitleLabel/value",
+      "value": "Damage Per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/maxDamageTitleLabel/value",
+      "value": "射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ]
+]

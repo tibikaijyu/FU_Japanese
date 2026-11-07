@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Primeval Forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候を原生林に変える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primeval Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原生林テラフォーマー"
+    }
+  ]
+]

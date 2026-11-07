@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a unique, powerful crew member that provides a 20% reduction to fuel costs and ^yellow;Extreme Radiation Immunity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ユニークで強力な乗組員を雇用します。 20% 燃料コストの削減と ^yellow;極端放射線免疫^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Explorer Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン Explorer契約"
+    }
+  ]
+]

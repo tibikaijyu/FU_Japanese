@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy, techy one-handed sword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で、技巧のある片手剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テックブレード"
+    }
+  ]
+]

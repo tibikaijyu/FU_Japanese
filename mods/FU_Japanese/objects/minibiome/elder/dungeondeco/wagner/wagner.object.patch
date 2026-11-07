@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What the hell happened to this man? Something is sticking out of his pocket..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この男はどうしたの? ポケットから何かが突き出ている...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wagner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワーグナー"
+    }
+  ]
+]

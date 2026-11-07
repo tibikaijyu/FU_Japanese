@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases Mech Fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカ燃料を増やす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fuel Tank II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "燃料タンクII"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "It should at least be fun to use, though I would caution against using it carelessly."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "使うのは少なくとも楽しいはずですが、不注意な使い方は避けましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I think I bumped my head a bit too hard or something...I devised a new distortion sphere but have no idea where this could be useful..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は頭を少し激しくぶつけたか何か...私は新しい歪み球を考案したが、これがどこに役立つかはわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Oddball"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "オッドボール"
+    }
+  ]
+]

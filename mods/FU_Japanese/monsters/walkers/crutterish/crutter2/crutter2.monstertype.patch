@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange mutation of the Crutter genome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Crutterゲノムの奇妙な突然変異。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightcrutter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトクラッター"
+    }
+  ]
+]

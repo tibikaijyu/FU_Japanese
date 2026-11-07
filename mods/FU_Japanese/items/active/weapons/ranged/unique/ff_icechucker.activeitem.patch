@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Be cruel and shoot freezing icicles at enemies.\n^yellow;Icy fun!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残酷で、凍った氷を敵に撃ちなさい。\n^yellow; 氷の楽しみ!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスブラスター"
+    }
+  ]
+]

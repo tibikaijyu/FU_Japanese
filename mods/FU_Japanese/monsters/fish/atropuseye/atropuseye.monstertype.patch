@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawned from some other creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "他の生き物から産卵した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Atropal Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アトロバルアイ"
+    }
+  ]
+]

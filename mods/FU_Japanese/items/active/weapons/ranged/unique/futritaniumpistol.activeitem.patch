@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Supreme fire rate with wild projectiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "野性発射物と最高火率。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wildfire"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "山火事"
+    }
+  ]
+]

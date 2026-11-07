@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This weapon sucks ass. Just like the name it is cursed with."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この武器はお尻をしゃぶる。 呪われた名前と同じように。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kyle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カイル"
+    }
+  ]
+]

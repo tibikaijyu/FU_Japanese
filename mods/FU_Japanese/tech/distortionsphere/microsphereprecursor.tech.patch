@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fast Micro Spider Sphere ^green;[F]^reset;. ^red;[Fire]^reset; Repulsor Bursts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "速いマイクロスパイダー球 ^green;[F] ^reset;。 ^red;[炎]^reset;Repulsorバースト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Precursor Microsphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "前駆体マイクロスフィア"
+    }
+  ]
+]

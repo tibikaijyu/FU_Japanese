@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A medium sized shorebird with a long curved bill. They are commonly found near tropical coasts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長い湾曲した法案を持つ中型の海岸鳥。 熱帯海岸付近でよく見られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scarlet Ibis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカーレット・イビス"
+    }
+  ]
+]

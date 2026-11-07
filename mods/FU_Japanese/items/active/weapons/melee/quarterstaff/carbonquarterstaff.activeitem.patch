@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fantastic quality. Dangerous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしい品質。 危険だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーボンクォータースタッフ"
+    }
+  ]
+]

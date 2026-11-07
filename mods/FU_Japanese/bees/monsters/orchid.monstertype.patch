@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A orchid bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蘭のミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orchid Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "蘭蜂"
+    }
+  ]
+]

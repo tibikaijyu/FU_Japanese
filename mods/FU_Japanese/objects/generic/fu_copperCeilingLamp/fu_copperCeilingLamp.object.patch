@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wide ceiling lamp made from copper."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製の広い天井ランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Ceiling Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅製天井ランプ"
+    }
+  ]
+]

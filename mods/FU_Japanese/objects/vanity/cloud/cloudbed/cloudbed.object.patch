@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A soft fluffy cloud bed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかいふわふわの雲ベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雲床"
+    }
+  ]
+]

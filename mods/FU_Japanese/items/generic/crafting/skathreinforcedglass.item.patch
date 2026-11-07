@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy and durable glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で耐久性のあるガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化ガラス"
+    }
+  ]
+]

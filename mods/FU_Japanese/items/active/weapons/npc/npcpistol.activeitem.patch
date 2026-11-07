@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small semi-automatic handgun with a decent rate-of-fire and accuracy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "適度な発射率と精度を備えた小型半自動ハンドガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Semi-Automatic Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCセミオートマチックピストル"
+    }
+  ]
+]

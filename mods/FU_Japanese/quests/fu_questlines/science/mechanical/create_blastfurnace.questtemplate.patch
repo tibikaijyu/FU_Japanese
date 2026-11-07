@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Fantastic work! Truly amazing. Thank you for the help. As thanks, here's payment for your troubles."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事! 本当にすごい。 助けてくれてありがとう。 ありがとう、ここであなたのトラブルの支払いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Blast Furnace^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;高炉^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you can build a ^orange;Blast Furnace^reset; with a ^orange;Power Station^reset; and bring it here, so I can analyze it, I would prove most grateful and perhaps reward you."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;溶鉱炉^reset;を^orange;電力作業台^reset;で作って、分析できるようにここへ持ってきてくれないか。そうしてくれれば、とてもありがたい。お礼もできるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Smelting Champion"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "製錬チャンピオン"
+    }
+  ]
+]

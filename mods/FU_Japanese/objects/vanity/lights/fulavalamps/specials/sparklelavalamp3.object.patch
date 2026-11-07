@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I could watch this all day."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は一日中これを見ることができた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orange Star Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジスターランプ"
+    }
+  ]
+]

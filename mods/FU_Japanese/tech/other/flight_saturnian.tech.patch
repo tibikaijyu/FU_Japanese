@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Moth flight. Best in light.^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "機内飛行。 光の中で最高。^green;[F]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Saturnian Flight"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "土星飛行"
+    }
+  ]
+]

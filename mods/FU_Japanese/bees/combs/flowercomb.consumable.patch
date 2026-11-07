@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An aromatic honeycomb. Low grade healing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "香りのよいハニカム。 低グレードヒーリング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floral Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine glittering glass sand. Watch your step!\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きらびやかなガラス砂。 足元に気をつけなさい!\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glass Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガラス砂"
+    }
+  ]
+]

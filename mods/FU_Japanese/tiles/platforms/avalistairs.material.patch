@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hardened aerogel platform, this time designed so that the slopes are shaped like stairs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今回は階段のような傾斜が形になるように設計された硬化エアロゲルプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Stair Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アバリ階段"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This honeycomb has high tungsten contents. Increases protection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハニカムはタングステン含有量が高い。 保護を増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Tea Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいお茶台"
+    }
+  ]
+]

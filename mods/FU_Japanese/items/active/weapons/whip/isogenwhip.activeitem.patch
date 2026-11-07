@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hit 'em with the snap freeze.\n^cyan;Inflicts Freezing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スナップが凍ったままにしてください。\n^cyan;凍結に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いそげんホイップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A aquarum bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aquarum Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水生ミツバチ"
+    }
+  ]
+]

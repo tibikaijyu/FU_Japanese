@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "In the furthest reaches of the galaxy is the Ark, a structure built by the Ancients to seal away the Ruin. I've marked the location ^green;in my ships SAIL^reset; so I can teleport there."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "銀河の果てには、古代人がルーインを封じるために建てたアークがある。転送できるよう、^green;船のSAILに^reset;場所を登録した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "In the furthest reaches of the galaxy is the Ark, a structure built by the Ancients to seal away the Ruin. I've marked the location ^green;in my ships SAIL^reset; so I can teleport there."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "銀河の果てには、古代人がルーインを封じるために建てたアークがある。転送できるよう、^green;船のSAILに^reset;場所を登録した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Outpost"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "前哨基地"
+    }
+  ]
+]

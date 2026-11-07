@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A meaty, mysterious menagerie of eyes and oculemon. ^cyan;+^reset;10^green;% Energy^reset;^red; Poisoned^reset; 10s^reset; ^blue;Madness Gain^reset; 3 ^green;Type: Meaty Plant^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目とオクレモンの肉のような、神秘的な記憶。 ^cyan;+^reset;10^green;% エネルギー^reset;^red; 毒^reset; 10ス)^reset; ^blue;狂気の高まり^reset; 3 ^green;タイプ:肉植物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ocular Oobleck"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オキュラー・ロック"
+    }
+  ]
+]

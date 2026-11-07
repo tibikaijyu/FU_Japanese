@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;30^reset;% Shield Regen, +^green;20^reset;% Knockback Resist\n^yellow;^reset; Spear, Shortspear: +^green;4^reset;% Crit\n^yellow;^reset; ^cyan;Immune^reset;: Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;30^reset;% シールドレゲン+^green;20^reset;% ノックバック抵抗\n^yellow;^reset;槍, 短槍:+^green;4^reset;%クリティカル\n^yellow;^reset; ^cyan;免疫^reset;ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Legionii Segmentorum"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Legioniiセグメント"
+    }
+  ]
+]

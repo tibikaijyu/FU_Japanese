@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform made from copper with metal brick sides."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製の金属レンガ製のプラットフォームです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Platformss made from copper and dark metal."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "銅とダークメタル製のプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Interested. This platform appears to be made from copper and dark metal."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興味津々。 このプラットフォームは、銅とダークメタルから作られているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I reckon it must've been tough makin' this platform with copper. Not sure about those sides."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このプラットホームを銅で作るのは大変だったに違いない。 それらの側面についてよくわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Copper Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタル銅プラットフォーム"
+    }
+  ]
+]

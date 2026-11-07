@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Assassin Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ドローン暗殺"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassin Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドローン暗殺"
+    }
+  ]
+]

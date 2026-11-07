@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tough sandstone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タフな砂岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssandstone."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "砂岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Sandstone."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 砂岩。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sandstone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "砂岩"
+    }
+  ]
+]

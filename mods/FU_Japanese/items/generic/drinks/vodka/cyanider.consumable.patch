@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks pretty toxic, but it tastes surprisingly great.\n^red;Drunk^gray;, ^cyan;+^white;30% ^pink;Poison ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり有毒に見えるが、驚くほどおいしい。\n^red;酒^gray;, ^cyan;+^white;30% ^pink;毒 ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scumslim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スリムなスラム"
+    }
+  ]
+]

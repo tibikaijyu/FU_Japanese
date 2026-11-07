@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, toxic radioactive stalk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙で有毒な放射性ストーク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garp Berry Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガープベリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Morse code except its cosmic bullets.\n^cyan;Cosmic blasts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙弾丸を除くモールスコード。\n^cyan;コスミックブラスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite SMG"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリサイトSMG"
+    }
+  ]
+]

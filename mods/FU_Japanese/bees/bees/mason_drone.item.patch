@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mason Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メイソン・ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mason Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メイソン・ドローン"
+    }
+  ]
+]

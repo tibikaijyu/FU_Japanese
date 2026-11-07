@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy cute wardrobe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なかわいいワードローブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Wardrobe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいワードローブ"
+    }
+  ]
+]

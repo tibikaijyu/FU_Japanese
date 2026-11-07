@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An explosive jump that blasts foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を爆破する爆発的なジャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Zero Burst I^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3; 〇バーストI^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Produces poisonous barbs great for killing stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "殺すのに最適な有毒なバーブを生産します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bella Morte"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベラ・モーテ"
+    }
+  ]
+]

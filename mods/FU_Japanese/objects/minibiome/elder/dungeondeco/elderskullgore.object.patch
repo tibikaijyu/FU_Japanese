@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Someone has had their skull forcibly removed from their body."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かが頭蓋骨を強制的に体から取り除きました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gory Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴーリー・スカル"
+    }
+  ]
+]

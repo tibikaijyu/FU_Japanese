@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This light, volatile alcohol is produced from destructive extraction from wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木から破壊的な抽出した光で揮発性のアルコール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Methanol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メタノール"
+    }
+  ]
+]

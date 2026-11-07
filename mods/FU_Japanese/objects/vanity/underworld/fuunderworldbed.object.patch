@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, I guess you could sleep in it...if you were insane."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "正気でなければ眠れるのでは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュベッド"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Placing a ^cyan;Wild Queen^reset; in a microscope will allow you to scan her stats, which can greatly influence your breeding choices."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^cyan;ワイルドクイーン^reset;を顕微鏡に置くと、あなたの繁殖選択に大きな影響を与える彼女の統計をスキャンすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "When you catch wild queens, you can't tell much about them. You can't use them well through guesswork. So, try building a ^orange;Basic Microscope^reset; in the bee station."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "野生の女王を捕まえると、そのことをあまり語れません。 推理作業ではうまく使えません。 なので、蜂の巣に^orange;ベーシック顕微鏡^reset;を造ってみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Researching Queens"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クイーンズ研究"
+    }
+  ]
+]

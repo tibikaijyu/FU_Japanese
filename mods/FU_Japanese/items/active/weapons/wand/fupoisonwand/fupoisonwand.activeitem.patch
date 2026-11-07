@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poison your enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を毒殺する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxic Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "有毒な杖"
+    }
+  ]
+]

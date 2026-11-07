@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made to maim and eradicate. Cheery.\n^yellow;Destroys tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "維持し、根絶するために作られた。 さようなら。\n^yellow;瓦の破壊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子ライフル"
+    }
+  ]
+]

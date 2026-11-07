@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All the fruit, in a juice. ^green;Type: Fruits^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジュースで、すべての果物。 ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

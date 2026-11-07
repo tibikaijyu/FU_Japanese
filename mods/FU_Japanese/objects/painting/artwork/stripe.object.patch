@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brilliant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stripe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストライプ"
+    }
+  ]
+]

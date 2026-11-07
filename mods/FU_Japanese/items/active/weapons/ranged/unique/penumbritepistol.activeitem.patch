@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specially treated rounds for a special occasion. High calibre."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特別な機会のために特別に扱われたラウンド。 高品質。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Revolver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペンダンブライトリボルバー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Popular lower-street wear.\n+^green;10^reset;% Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人気の下通りウェア。\n+^green;10^reset;%クリティカルダメージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Booster Shades"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブースターシェード"
+    }
+  ]
+]

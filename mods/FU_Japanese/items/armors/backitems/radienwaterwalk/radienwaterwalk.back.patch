@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Allows a X'i to walk on top of liquids.  ^green;+2 Gene production^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シーは液体の上を歩くことができます。  ^green;+2遺伝子生産^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Water Repulsor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン 水リパルサー"
+    }
+  ]
+]

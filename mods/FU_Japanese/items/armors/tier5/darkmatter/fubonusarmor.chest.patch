@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Hammer Mastery : +^green;60^reset;%\n^yellow;^reset; +^green;0.4^reset;% Health Regen\n^yellow;^reset; ^cyan;Immune^reset;: Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ハンマー 習熟度:+^green;60^reset;%\n^yellow;^reset; +^green;0.4^reset;% 健康レーゲン\n^yellow;^reset; ^cyan;免疫^reset;暗黒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Matter Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークマター・チェストピース"
+    }
+  ]
+]

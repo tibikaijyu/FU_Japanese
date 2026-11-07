@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sealed against water pressure. Great for underwater."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水圧に対して密封される。 水中に最適。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flood Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水門"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jar of frozen honey.\n^cyan;+^white;30% ^pink;Ice ^cyan;Resistance ^gray;(^white;5m^gray;)\n^green;Heal ^white;50 ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "冷凍蜂蜜の瓶。\n^cyan;+^white;30% ^pink;氷 ^cyan;抵抗 ^gray;(^white;5え?^gray;)\n^green;癒し ^white;50 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍ハニージャー"
+    }
+  ]
+]

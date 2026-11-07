@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 6 - \nI found it! Too bad I am so deep in, I'm not sure I could possibly get back out. I found the ore... you can't miss it. It glows with this gentle sky-blue color, lighting entire cave systems up. For some weird reason, the rocks that ate my flashlight beams, don't eat this type of light. I wish I could get a sample of this to a lab... but sadly I don't think I'm going to make it. If anybody finds this... please... take this book back to Earth and give it to my family...\n - M. Hodgins"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "日6 \n見つけた! あまりに深く入り込んでしまったので、もう帰れるかどうか分からない。 鉱石を見つけた。. 見逃せない この優しいスカイブルーの色で輝き、洞窟全体のシステムを照らします。 なんというか、懐中電灯を食った岩は、このタイプの光を食わないのが普通です。 これを研究室にサンプルを送れるといいのだが、残念なことに、私はそれを作らないと思う。 もし誰かがこれを見つけたら...この本を地球に戻し、私の家族に渡してください。\n -M.ホッジンズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 6"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 6"
+    }
+  ]
+]

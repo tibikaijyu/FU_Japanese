@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This station helps with upgrading gear and creating ideas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このステーションは、ギアをアップグレードし、アイデアを作り出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Tinkering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;改造作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Tools and specialized equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;ツールと専用機器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;Tinkering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;改造作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "Tools and specialized equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/description",
+      "value": "ツールと専用機器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;Tinkering Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value": "^orange;改造作業台^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Create more advanced tools and equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; より高度なツールと機器を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;Engineering Bench^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;エンジニアリングベンチ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "Upgrade and enhance, conceptualize and experiment."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/description",
+      "value": "アップグレードと拡張、概念化と実験。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;Engineering Bench^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value": "^orange;エンジニアリングベンチ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Assemble state-of-the-art equipment and tools."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;最先端の機器とツールを組み立てます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;Nanofabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00b097;ナノファブリケータ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "Create upgrades and hi-tech gear with nanites."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/description",
+      "value": "アップグレードとナナイトでハイテクギアを作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;Nanofabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value": "^orange;ナノファブリケータ^reset;"
+    }
+  ]
+]

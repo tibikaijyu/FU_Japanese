@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Few can say they have hunted and killed one of these. I salute your skill."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "狩りをして殺したと言う人はほとんどいない。 私はあなたの腕前を敬う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Web Shooter^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;WebShooter ^reset; を ^orange;科学前哨基地^reset; で持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you thought large spiders were a threat, try taking out a ^orange;Megarachnid^reset;...they're the largest spiders in the galaxy. I dare you, in fact! Kill a ^orange;Megarachnid^reset; and you'll get my respect."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "大きなクモが脅威だと思ったなら、銀河最大のクモである ^orange;Megarachnid ^reset; を外してみてください。 ほんとに君をあえてるよ! ^orange;Megarachnid^reset; を殺せば、私の尊敬を得るでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Megarachnid [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メガラッチニッド[BOSS]"
+    }
+  ]
+]

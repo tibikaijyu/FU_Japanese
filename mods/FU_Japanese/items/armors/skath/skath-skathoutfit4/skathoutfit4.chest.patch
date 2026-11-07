@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A light breathable top suitable for working out. No pain, no gain, right?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワークアウトに適した通気性トップ。 痛みも利益もないですよね?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sleeveless Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "袖なしトップ"
+    }
+  ]
+]

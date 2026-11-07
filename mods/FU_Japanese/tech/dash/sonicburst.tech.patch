@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;[Double-tap Up]^reset; to fire a sonic burst!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[ダブルタップアップ] ^reset; 音波バーストを発射!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Sonic Burst"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ソニックバースト"
+    }
+  ]
+]

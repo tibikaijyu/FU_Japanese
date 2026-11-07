@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rapid reload and high performance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "迅速なリロードと高性能。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Auto-Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クロスボウ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "So fast it blows minds."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "とても速く、心を吹き飛ばします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Assail^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;帆^reset; ^yellow;^reset;"
+    }
+  ]
+]

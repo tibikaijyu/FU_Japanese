@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yea, definitely not ketchup. That's worrisome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ええ、絶対にケチャップではありません。 それは心配です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液"
+    }
+  ]
+]

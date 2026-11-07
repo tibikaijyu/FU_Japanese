@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks. You look like you could use some ^orange;party time^reset;! It's dangerous to go alone! Take ^green;this^reset;! Also, if you feel up to it and want to die, I could use help testing my newest invention. It's called a ^orange;Kill Pod^reset; and it's super neat!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとうございました あなたはいくつかの^orange;パーティー時間^reset;を使用することができます! 一人で行くのは危険です! ^green; this ^reset; をとってください! また、あなたがそれを感じて死にたいなら、私は私の最新の発明のテストを助けることができます。 「^orange; Kill ポッド ^reset;」と名付けられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the Glorious ^red;Kevin^reset; 5 ^orange;Biofuel Canisters^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "栄光をもたらす ^red;ケビン^reset; 5 ^orange;バイオ燃料キャニスター^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "5 ^orange;Biofuel Canisters^reset; would be all that I needed to create a ^cyan;rocket-powered guinea pig^reset;. With some ^orange;Algae^reset; found in a ^orange;Bog^reset; biome you'd have no problem making some. I promise to ^red;not^reset; reward you with deadly bees this time!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "5 ^orange;バイオ燃料キャニスター^reset; 作り上げるのに必要なのは ^cyan;ロケット動力のモルモット^reset;. ^orange;Algae^reset;が^orange;沼地^reset;biomeにある場合、問題ありません。 今回は「^red;not ^reset;」が命を落とすミツバチに報いることを約束します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "I just don't know..."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "わからない..."
+    }
+  ]
+]

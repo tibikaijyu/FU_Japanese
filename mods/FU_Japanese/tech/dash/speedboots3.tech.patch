@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior narcotics provide insane speeds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れた麻薬は驚くべきスピードを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Stimulant Rig IV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "刺激リグIV"
+    }
+  ]
+]

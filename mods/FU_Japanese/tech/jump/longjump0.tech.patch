@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increased jumping capability."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプ能力の向上。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Boosted Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ブーストジャンプ"
+    }
+  ]
+]

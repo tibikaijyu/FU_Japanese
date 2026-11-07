@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Mining Laser: Combat Damage x^green;1.5^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Liq. Nitrogen, Poisoned, Pus\n^yellow;^reset; Research Bonus +^green;2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 採掘レーザー:戦闘被害x^green;1.5^reset;\n^yellow;^reset; ^cyan;免疫^reset;リク。 窒素、毒、膿\n^yellow;^reset; 研究ボーナス+^green;2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Geologist's Coat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地質学者のコート"
+    }
+  ]
+]

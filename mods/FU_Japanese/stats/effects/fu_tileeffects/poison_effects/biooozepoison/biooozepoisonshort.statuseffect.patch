@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/label",
+      "value": "Reduces all resistances except poison and shadow by ^red;40%^reset;. Increases Hunger rate. Resisted by Poison resistance."
+    },
+    {
+      "op": "replace",
+      "path": "/label",
+      "value": "^red;40%^reset; で毒や影以外の抵抗を軽減します。 空腹率を増加させます。 耐毒性が強い。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Welcome back to Kindergarten."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "幼稚園へようこそ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hobby Glue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホビーブルー"
+    }
+  ]
+]

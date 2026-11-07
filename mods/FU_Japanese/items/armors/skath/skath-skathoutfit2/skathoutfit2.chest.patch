@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wearing this faux-leather jacket fills you with confidence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このフェイクレザーのジャケットを着用すると、自信が満ちています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Jacket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカシアンのジャケット"
+    }
+  ]
+]

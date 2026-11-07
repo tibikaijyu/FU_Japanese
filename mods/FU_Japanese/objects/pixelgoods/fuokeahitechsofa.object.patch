@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for casting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋳造に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hi-tech Couch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイテクソファ"
+    }
+  ]
+]

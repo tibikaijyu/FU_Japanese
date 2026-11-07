@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "When you are able to, ^green;upgrade to an advanced centrifuge^reset; to really step up your lab game! Oh and be sure to keep your ^orange;Contaminated Water^reset;, you might need it."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^green; 高度な遠心分離機 ^reset; にアップグレードして、ラボゲームを本当にステップアップできます! そして、あなたの^orange;汚染された水^reset;を必ず保管してください、あなたはそれが必要になるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Contaminated Water^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;汚染水^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I just can't figure out how to make the ^orange;Contaminated Water^reset; for some of my chemical stock. Can you help and make me some in a ^green;centrifuge^reset;?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "化学薬品の在庫の一部について、^orange;汚染水^reset;を作る方法がわからないだけです。 ^green; 遠心分離機 ^reset; で助けてもらえますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Useful Liquid"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "有用な液体"
+    }
+  ]
+]

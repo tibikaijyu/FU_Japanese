@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reduces fuel costs by 20%. Also provides extra special coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "20% で燃料コストを削減します。 また、特別なコーヒーも提供しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mechanic II Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカニックII契約"
+    }
+  ]
+]

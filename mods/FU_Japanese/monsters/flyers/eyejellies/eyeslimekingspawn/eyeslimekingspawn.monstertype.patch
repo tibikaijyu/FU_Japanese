@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The eye of a slime behemoth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライム巨人の目。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムアイ"
+    }
+  ]
+]

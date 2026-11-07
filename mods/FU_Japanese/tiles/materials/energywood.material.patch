@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freshly chopped energy wood. It could be used as fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "切り刻んだエネルギーウッド。 燃料として使用できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Energy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "エネルギーウッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Energy wood."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 エネルギーウッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッド"
+    }
+  ]
+]

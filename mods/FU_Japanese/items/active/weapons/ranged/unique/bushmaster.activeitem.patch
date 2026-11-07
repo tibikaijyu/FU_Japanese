@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy, reliable grenade launcher.\n^green;Explosive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈で信頼性の高い手すり発射機。\n^green;爆発性^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bushmaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブッシュマスター"
+    }
+  ]
+]

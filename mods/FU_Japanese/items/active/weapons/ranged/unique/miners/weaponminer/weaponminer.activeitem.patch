@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A trusty beam weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼のおけるビーム武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phaser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Phaser MkII^reset; ^green;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;フェーズMkII^reset; ^green;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;Phaser MkIII^reset; ^cyan;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;フェーズMkIII^reset; ^cyan;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/description",
+      "value": "A trusty beam weapon.\n^cyan;Inflicts Frostburn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/description",
+      "value": "信頼のおけるビーム武器。\n^cyan;フロストバーンに影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "^cyan;Phaser MkIV^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "^cyan;MkIV相^reset; ^yellow;^reset;"
+    }
+  ]
+]

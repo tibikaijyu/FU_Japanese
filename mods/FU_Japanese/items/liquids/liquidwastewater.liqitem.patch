@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of filthy, brackish water.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "汚れた、ほこりっぽい水の尺度。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Contaminated Water"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "汚染水"
+    }
+  ]
+]

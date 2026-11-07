@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Moderate Cold, Mild Poison, Desert/Jungle Heat"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 冷え性、軽度の毒、砂漠/ジャングル熱"
+    }
+  ]
+]

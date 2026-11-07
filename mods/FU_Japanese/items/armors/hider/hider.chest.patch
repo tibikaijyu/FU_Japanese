@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Show those muscles to the world with this handy item!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この便利なアイテムで世界にそれらの筋肉を見せてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目に見えない胸部"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Some of these books don't look quite right."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "これらの本の中には、あまりよく見えないものもある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A dusty old home for books. Some of them don't look real..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "本のためのほこりっぽい古い家。 中には本物らしく見えないものもある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of these books looks out of place... I wonder..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの本のうちの一冊は見栄えが悪い。 なんだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Old and dusssty books. Those oness look sstrange."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "古本と古本。 それは奇妙に見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Suspicious. Some of the books appear to be placed strangely."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 その本の中には奇妙に置かれているものもある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I wonder how old some of these books are. Those ones aren't the same as the others..."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これらの本の中にはいくつあるのかしら。 それらは他のものと同じではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "There's definitely something strange about this bookcase."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この本棚には確かに何か奇妙なものがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I got a hunch there's somethin up with these books!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの本で何かが浮かび上がっているのを見た!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Bookcase Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世の本棚スイッチ"
+    }
+  ]
+]

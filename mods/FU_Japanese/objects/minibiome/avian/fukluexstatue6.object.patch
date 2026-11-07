@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gold-rendered head of Kluex."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クルエクスの金色の頭。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kluex Statue Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルエクス像頭"
+    }
+  ]
+]

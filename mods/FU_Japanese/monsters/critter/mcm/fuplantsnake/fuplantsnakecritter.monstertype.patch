@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A predatory reptile that hunts in forests. It uses the leaves on its head as camouflage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "森で狩りをする捕食性の食虫類。 頭部の葉をカモフラージュとして使用する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Green Snake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "緑のヘビ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An elegantblade, more compact than its predecessor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エレガントで、前機種よりコンパクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fused Thanatite Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サナタイトの短刀"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^red;Poisoned^reset;: 12s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^red; 毒 ^reset; : 12 s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxic Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒花"
+    }
+  ]
+]

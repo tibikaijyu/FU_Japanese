@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rip em to shreds!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "切り裂いて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デシニウムブラスター"
+    }
+  ]
+]

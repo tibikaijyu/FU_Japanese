@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates energy out of darkness. Can potentially generate ^orange;10W^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "暗闇からエネルギーを生みだす。 ^orange;10W ^reset;を生成する可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Nocturn Array^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 夜のアレイ ^reset;"
+    }
+  ]
+]

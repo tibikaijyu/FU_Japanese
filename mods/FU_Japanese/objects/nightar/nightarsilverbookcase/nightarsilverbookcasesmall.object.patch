@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bookcase etched from purified silver."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純銀からエッチングした本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀本棚"
+    }
+  ]
+]

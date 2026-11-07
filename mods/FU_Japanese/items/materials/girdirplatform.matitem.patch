@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy metal platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な金属製のプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Girder Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "桁ホーム"
+    }
+  ]
+]

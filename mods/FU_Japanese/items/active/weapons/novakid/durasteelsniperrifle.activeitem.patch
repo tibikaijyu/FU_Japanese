@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Powerfully strong to cover long distances."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な長距離をカバーする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラスチール狙撃ライフル"
+    }
+  ]
+]

@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Always watchful."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "いつも気をつけて。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The monsters don't stand a chance, unless they can fly."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "モンスターは飛べないかぎり、チャンスを逃さない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Base Damage: 12, ^orange;AoE^reset;\nFire Rate: 3\nEnergy per Shot: 45\nRange: Long"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベース損傷: 12、 ^orange;AoE ^reset;\n火率:3\nショット当たりのエネルギー: 45\n範囲:ロング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Effective againssst living thingsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "生き物に対して効果的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. Must not disrupt my brother in his vigilance."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 弟の警戒を乱さないようにしなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "An automated security system."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "自動化されたセキュリティシステム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Looks like a turret of some sort."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "何かの砲塔のように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Looks like this thing sure could do some damage!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これは確かにいくつかの損傷を行うことができるように見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tesla Turret"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テスラ・タレット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Automatic Base Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "自動基地防衛"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You'll have limitless options when it comes to using that thing. Try building some other science stations now, such as a ^orange;Bio-Chem Lab^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それを使うのに無限の選択肢がある。 ^orange;Bio-Chem ラボ ^reset;など、他の科学ステーションを構築してみましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Extraction Lab^reset; to the ^green;Human Scientist^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;抽出ラボ^reset; へ ^green;人類科学者^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Any self-respecting scientist has an ^orange;Extraction Lab^reset;. It's like sorcery! Stuff goes in, better stuff comes out! Make one in your ^orange;Auto-Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "自尊心を持つ科学者は誰でも ^orange;抽出ラボ^reset; を持つ。 魔術みたい! スタッフが入り、より良いものが出てくる! ^orange;自動組立機 ^reset; に入力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Extraction 101"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出101"
+    }
+  ]
+]

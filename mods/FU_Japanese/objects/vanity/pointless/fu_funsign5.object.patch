@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What possible purpose does this sign actually serve?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この看板は実際にどのような目的に役立ちますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caution! Sharp Edges!"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "気をつけて! シャープエッジ!"
+    }
+  ]
+]

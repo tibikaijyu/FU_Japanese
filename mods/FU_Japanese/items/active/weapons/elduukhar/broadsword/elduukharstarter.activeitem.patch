@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A broken sword. The crystal is fractured and no longer shines."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "剣を折った。 結晶は割れており、もはや輝きません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Opul Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブロードソードブロードソード"
+    }
+  ]
+]

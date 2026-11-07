@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "We tried to think of a decent description for this mask, but it was no use."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私たちはこのマスクのまともな説明を考えようとしましたが、それは役に立ちませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーヘッジジャンプマスク"
+    }
+  ]
+]

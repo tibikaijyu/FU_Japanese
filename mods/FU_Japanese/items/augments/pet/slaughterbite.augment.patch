@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Slaughterbite"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "食肉処理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A collar that makes your pet do radius damage when harmed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットに損傷を与えると半径損傷を与える首輪。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slaughterbite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食肉処理"
+    }
+  ]
+]

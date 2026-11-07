@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chunk of purple warts, seemingly growing out of itself.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫の麦芽の塊、それ自体から成長しているようです。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Slimy wartsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スリミなワース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disgust. A chunk of slimy warts."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 スリミな麦芽の塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "いぼ"
+    }
+  ]
+]

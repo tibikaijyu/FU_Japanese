@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Possesses a meaty taste that resembles pork, and is rich with red honey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "豚肉のような肉味を持ち、赤い蜂蜜がたっぷり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reaper Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーパーハニカム"
+    }
+  ]
+]

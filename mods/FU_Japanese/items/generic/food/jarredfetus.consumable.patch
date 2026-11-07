@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fetus, too early in development to determine species without research. ^blue;Madness Gain^reset; 3 ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究せずに種を決定するには早すぎる胎児。 ^blue;狂気の高まり^reset; 3 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jarred Fetus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャレッド胎児"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The pinnacle of automated defense technology. Their onboard AI is more cheerful than you may first assume."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動防御技術の頂点。 搭載されているAIは、想像以上に明るくなっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heavy Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘビードローン"
+    }
+  ]
+]

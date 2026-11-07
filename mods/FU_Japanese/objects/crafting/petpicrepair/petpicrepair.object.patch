@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Repairs broken capture pod images."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破損したキャプチャポッドイメージを修復します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capture Pod Re-Imager"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲ポッド画像再生成装置"
+    }
+  ]
+]

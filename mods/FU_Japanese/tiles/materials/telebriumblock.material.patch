@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid telebrium now in block form!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ソリッドテレブリアムがブロック状に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムブロック"
+    }
+  ]
+]

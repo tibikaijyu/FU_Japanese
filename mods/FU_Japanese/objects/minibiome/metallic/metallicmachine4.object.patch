@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It appears to be some sort of collider, particle or otherwise."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "衝突型、粒子型、その他何らかの衝突型である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Collider"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体衝突型加速器"
+    }
+  ]
+]

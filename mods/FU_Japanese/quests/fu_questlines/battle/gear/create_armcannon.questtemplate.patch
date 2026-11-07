@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Delighted: Thank you for you aid. As promised: the cash ! Take this off my hands too, if you don't mind."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "Delighted: ありがとうございました。 約束どおり:現金! 気にしなくても、この手を離してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;arm cannon^reset; to the ^green;annoying guy^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;アーム・キャノン^reset; へ ^green;うるさいヤツ^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Troubled: I am in need of aid. I must admit I am a terrible engineer and cannot craft an ^green;arm cannon^reset; at the ^orange;armory^reset;. Might you assist? I am wealthy and can pay you!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "困ったこと:援助を必要としている。 私は、自分がひどいエンジニアであり、作れないことを認めなければなりません。 ^green;アーム・キャノン^reset; では ^orange;武器庫^reset;. 手伝ってもらえますか? 私は裕福で、あなたに支払うことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gunnery Chief"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "砲術長"
+    }
+  ]
+]

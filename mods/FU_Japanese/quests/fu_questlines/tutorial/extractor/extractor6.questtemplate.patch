@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Great. Thanks so very much. Now I can complete this power cell! Take this as payment for your deeds."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい。本当にありがとう。これでパワーセルを完成させられる！ 働きの報酬に、これを受け取ってね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Hydrogen^reset; to the purple Thelusian at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;水素^reset;を、^orange;科学前哨基地^reset;にいる紫色のセルーシアンに届ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Water^reset; is never in short supply. If you have upgraded your ^orange;Matter Manipulator^reset; to pick up liquids...^green;extract some^reset;, ^yellow;come to the Science Outpost^reset; and bring me 5 ^orange;Hydrogen^reset; if you don't mind?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;水^reset;には困らないよね。^orange;マターマニピュレーター^reset;を強化して液体を回収できるなら、^green;少し抽出して^reset;、^yellow;科学前哨基地まで^reset;来てくれないかい？ ^orange;水素^reset;を5個、持ってきてほしいんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hydrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "水素"
+    }
+  ]
+]

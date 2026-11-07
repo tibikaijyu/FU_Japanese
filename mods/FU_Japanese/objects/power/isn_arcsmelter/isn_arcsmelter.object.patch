@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This incredibly efficient furnace can extract valuable materials while quickly smelting ^yellow;all^reset; ores. ^cyan;Requires ^orange;100W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この信じられないほど効率的な炉は、早く製錬^yellow;all^reset;oresしながら貴重な材料を抽出することができます。 ^cyan; は ^orange;100W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Arc Smelter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;アーク溶鉱炉^reset;"
+    }
+  ]
+]

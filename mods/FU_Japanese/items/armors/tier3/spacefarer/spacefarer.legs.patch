@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Mining Laser: Combat Damage x^green;2^reset;\n^yellow;^reset; +^green;350^reset;s Oxygen\n^yellow;^reset; +^green;50^reset;% Defense Tech Efficiency\n^cyan;Immune^reset;: Burning, Proto-Poison, Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 採掘レーザー:戦闘被害x^green;2^reset;\n^yellow;^reset; +^green;350^reset;酸素\n^yellow;^reset; +^green;50^reset;% 防衛技術効率\n^cyan;免疫^reset; : 燃焼、原毒、ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spacefarer Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙機"
+    }
+  ]
+]

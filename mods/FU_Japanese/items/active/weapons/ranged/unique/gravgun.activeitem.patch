@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Gravity Warp"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "重力波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Condenses gravity into focused blasts.\n^cyan;Moves enemies. A lot.^reset;\n^yellow;Extreme Knockback (Alt)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重力を集束爆風に凝縮する。\n^cyan; 敵を移動します。 たくさん。^reset;\n^yellow;Extreme Knockback(Alt) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gravity Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重力ガン"
+    }
+  ]
+]

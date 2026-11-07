@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Front Engine for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のフロントエンジン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Novakid End Cabin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノバリエンドキャビン"
+    }
+  ]
+]

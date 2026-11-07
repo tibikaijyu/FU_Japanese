@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for speeches, lectures and sermons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スピーチ、講義、説教に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Lectoral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木造講義"
+    }
+  ]
+]

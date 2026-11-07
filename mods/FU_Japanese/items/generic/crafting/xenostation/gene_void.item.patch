@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unknown. What is this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不明。 これは何?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nether-Touched"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "下着"
+    }
+  ]
+]

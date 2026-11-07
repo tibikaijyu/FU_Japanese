@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Another example of potentially highly complex technology converted into headwear!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複雑化が進み、ヘッドウエアへと変身する技術例!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Minidrone Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型ドローンマスク"
+    }
+  ]
+]

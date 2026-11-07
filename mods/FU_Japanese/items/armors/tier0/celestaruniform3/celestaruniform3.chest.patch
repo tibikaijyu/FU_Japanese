@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cutting-edge cloth shirt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最先端の布シャツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Myral Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミラルトップ"
+    }
+  ]
+]

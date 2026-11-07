@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblLoadout1/value",
+      "value": "Loadout 1"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblLoadout1/value",
+      "value": "ロードアウト 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblLoadout2/value",
+      "value": "Loadout 2"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblLoadout2/value",
+      "value": "ロードアウト 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblLoadout3/value",
+      "value": "Loadout 3"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblLoadout3/value",
+      "value": "ロードアウト 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblLoadoutSelect/value",
+      "value": "Select your current loadout:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblLoadoutSelect/value",
+      "value": "現在のロードアウトを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "Change your mech items with one click!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "ワンクリックでメカアイテムを変更!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "  Mech Loadouts Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "  メカロードアウト画面"
+    }
+  ]
+]

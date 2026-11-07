@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Tracking Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "追跡狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Tracks madness values."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "狂気の値を追跡します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Madness Tracker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "狂気トラッカー"
+    }
+  ]
+]

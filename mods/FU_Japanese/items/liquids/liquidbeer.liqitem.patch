@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A holy liquid loved by even the Gods themselves.\n^green;Growth Rate x^white;2 ^gray;& ^green;+^white;1 ^green;produce.^reset;\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神にさえも愛される聖なる液体。\n^green;成長率x^white;2 ^gray;& ^green;+^white;1 ^green;農産物^reset;\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビール"
+    }
+  ]
+]

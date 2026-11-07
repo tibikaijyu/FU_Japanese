@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+40% Fire Resist. Helpful on ^orange;moderately hot^reset; planets. +150s oxygen and halves how quickly you breathe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+40% 消火レジスト。 ^orange; 適度に熱い ^reset; 惑星に役立ちます。 +150s 酸素と呼吸の速さの半分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooling EPP II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷却EPPII"
+    }
+  ]
+]

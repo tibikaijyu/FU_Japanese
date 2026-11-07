@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A devoratrix bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デボラトリクスミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Devoratrix Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デボラトリクスビー"
+    }
+  ]
+]

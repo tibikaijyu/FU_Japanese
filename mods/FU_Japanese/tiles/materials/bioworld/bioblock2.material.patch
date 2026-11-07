@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Scans are inconclusive, but no doubt exists that this is intentionally-altered material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スキャンは決定的ではありませんが、これが意図的に変更された材料であることは間違いありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Shale"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトシェール"
+    }
+  ]
+]

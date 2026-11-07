@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Will scan ores up to Tier 4."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉱石をスキャンして ティア 4."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ore Drone II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレ・ドローンII"
+    }
+  ]
+]

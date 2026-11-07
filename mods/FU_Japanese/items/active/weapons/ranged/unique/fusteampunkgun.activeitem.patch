@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pulse-blaster fueled by steam\n^yellow;Fast projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蒸気を燃料とするパルスブラスター\n^yellow;速い発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shock Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "衝撃ライフル"
+    }
+  ]
+]

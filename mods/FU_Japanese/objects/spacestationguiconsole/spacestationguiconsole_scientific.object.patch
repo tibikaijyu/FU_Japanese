@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A terminal used to interact with intergalactic trade networks. ^red;Destroyed if removed.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河間貿易ネットワークと相互作用するために使用される端末。 ^red; 取り外せば破壊される。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Space Station Terminal (scientific)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ステーション(科学)"
+    }
+  ]
+]

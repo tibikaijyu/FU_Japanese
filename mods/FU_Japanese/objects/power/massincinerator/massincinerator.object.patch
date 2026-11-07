@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Anything going in here is gone forever."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ここで起こっていることは永遠に消えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I should be careful not to put anything I don't want to lose in here."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ここには失いたくないものを入れないように気をつけるべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Instantly destroys any item placed within. Great for mass disposal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内に置かれたアイテムを即座に破棄します。 大量処分に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran hate ssstupid can of fire."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは愚かな火の缶を嫌う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Content. This should allow me to dispose of anything cleanly."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "内容。 こうすることで、どんなものをきれいに処分できるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "What goes in does not come out."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "何が入ってくるかはわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A clean method of disposal. Excellent."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "清潔な廃棄方法。 素晴らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mass Incinerator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大量焼却炉"
+    }
+  ]
+]

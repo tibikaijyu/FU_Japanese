@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "That's a nice rich purple, right there."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そこは濃厚な紫色です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Purple Orchid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "紫の蘭"
+    }
+  ]
+]

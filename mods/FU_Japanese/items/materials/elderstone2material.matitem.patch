@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This feels... wrong.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは...間違っている。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutated Elder Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "変異型長寿土"
+    }
+  ]
+]

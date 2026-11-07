@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light has issues refracting off of this shadowy surface, rendering this metal nearly invisible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光は、この影の表面から屈折し、この金属をほとんど目に見えない状態にしてしまう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウムインゴット"
+    }
+  ]
+]

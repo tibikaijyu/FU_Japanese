@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Subject 552 has exhibited no signs of the mutagen. Artificer Voxlaar recommends releasing the specimen into a native population somewhere in order to observe how it thrives or perishes in a new ecosystem. I have seconded, and Yattak has thirded. Experiment 442 begins at dawn."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "被験体552には、変異原の影響が一切現れていない。工匠ヴォクスラールは、新たな生態系で繁栄するか死に絶えるかを観察するため、どこかの在来個体群へ放すことを提案した。私が賛同し、ヤタックも続いた。実験442は夜明けに開始する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Fourteen cycles have passed since our experiment began, and in that time the specimen has not only thrived, but has taken to birthing young via parasitic infection in the pain-center of victims. No mutagen has resurfaced in subsequent generations. Experiment 442 successful."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "実験開始から十四周期が過ぎた。その間に標本は順調に成長しただけでなく、犠牲者の痛覚中枢に寄生感染することで子を産むようになった。 その後の世代では、突然変異原体は現存しない。 実験442成功。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Soscalari"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ソスカラーリ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into corrupt forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を荒廃した森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupt Forest Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "倒壊した森林マイクロフォーマ"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Use to check if you have any missing default unlocks. Prints items that could be causing the issue to the log."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "既定のロック解除がないかどうかを確認します。 問題をログに出力するアイテムを印刷します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Default Unlock Checker^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;デフォルトのアンロックチェッカー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/missingUnlocksPresent",
+      "value": "Check your log for a list of default unlocks that are likely causing the issue."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/missingUnlocksPresent",
+      "value": "問題の可能性のあるデフォルトロック解除リストのログを確認してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/numMissingUnlocks",
+      "value": "There are <numMissing> default unlocks missing."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/numMissingUnlocks",
+      "value": "<numMissing> デフォルトのロック解除がありません。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This material feels...wrong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この材料は...間違っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長寿土"
+    }
+  ]
+]

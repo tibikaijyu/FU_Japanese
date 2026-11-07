@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vextongue is a great natural healing alternative."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヴェクスタングは素晴らしい自然の癒しの選択肢です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vextongue Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴェクスタング種子"
+    }
+  ]
+]

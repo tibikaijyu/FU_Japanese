@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;15^reset;% Speed\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;15^reset;% 速さ\n^yellow;^reset; ^cyan;免疫^reset;酸素・ガス^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shielded Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シールドヘルメット"
+    }
+  ]
+]

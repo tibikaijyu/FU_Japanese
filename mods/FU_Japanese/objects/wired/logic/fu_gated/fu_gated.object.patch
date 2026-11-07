@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An overly-complicated gate! Who knows what inputs are needed..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複雑すぎるゲート! どんな入力が必要なのか、誰が知るか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Box Logic Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラックボックスロジックゲート"
+    }
+  ]
+]

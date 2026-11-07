@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires... a homeless guy that pukes on things. Increases max fuel by 250, but constantly makes you drunk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雇う... 物にこだわるホームレスの男。 250 で最大燃料を増加させますが、常に酔わせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hobo Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "保保契約"
+    }
+  ]
+]

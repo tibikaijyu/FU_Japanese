@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Alien fruit, very juicy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイリアンフルーツ、非常にジューシー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Fruit Basket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンフルーツバスケット"
+    }
+  ]
+]

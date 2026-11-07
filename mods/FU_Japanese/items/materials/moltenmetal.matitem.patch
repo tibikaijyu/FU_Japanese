@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ouch ouch ouch. Hot!\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "痛い、痛い。 熱い!\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Molten Metal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "溶融金属"
+    }
+  ]
+]

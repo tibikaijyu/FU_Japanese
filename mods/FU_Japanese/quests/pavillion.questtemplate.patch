@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "A thousand thanks! I will ensure that my father rewards you appropriately for your heroic efforts!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "千人ありがとう! 父があなたの英雄的な努力に対して適切に報いるようにします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Storm Castle Takeshi and save Princess Koto!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "ストームキャッスルタケシと皇女コトを救おう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Ninjas in the employ of Shogun Takeshi have kidnapped the Hylotl princess Koto. Are you a bad enough dude to rescue the princess?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "将軍武氏の雇い主に忍者が、ヒロト王女コトを誘拐した。 王女を救出するのに君は悪い男か。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Castle Takeshi"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;城武史"
+    }
+  ]
+]

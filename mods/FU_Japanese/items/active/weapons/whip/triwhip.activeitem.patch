@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Trianglium shards gravitated into a whip. Don't ask, just whip.\n^cyan;Shoots radioactive exploding shards^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トライアングリウムの破片は、ホイップに重力をかけた。 聞かないで、ただちに。\n^cyan;放射能爆発シャード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trianglium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三角ホイップ"
+    }
+  ]
+]

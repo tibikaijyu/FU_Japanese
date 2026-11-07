@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dodge a further distance. Keeps momentum."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "もっと遠くをダッジします。 勢いを保て。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Dodge II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ドッジII"
+    }
+  ]
+]

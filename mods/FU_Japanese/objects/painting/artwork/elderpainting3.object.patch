@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bizarre landscape painting that defies convention or description. It calls to you with eerie calm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "慣習や説明に反した奇妙な風景画。 それは不気味な静けさであなたに呼ばれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dreamscape of Kadath"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カダトの夢"
+    }
+  ]
+]

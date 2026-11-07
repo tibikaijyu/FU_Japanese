@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The walls are strange, like a melding of flesh and stone\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁は奇妙で、肉と石の融合のように\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Living Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stalks the icy wastes in search of food, and things to punch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食べ物やパンチするものを求めて、氷の廃棄物をストーカーします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Troll"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイストロール"
+    }
+  ]
+]

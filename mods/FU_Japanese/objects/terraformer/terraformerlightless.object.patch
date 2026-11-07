@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Lightless biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候をライトレスバイオームに変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lightless Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライトレステラフォーマ"
+    }
+  ]
+]

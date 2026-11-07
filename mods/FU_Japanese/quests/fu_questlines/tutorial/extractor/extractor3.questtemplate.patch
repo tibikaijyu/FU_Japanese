@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "See? Not so hard. Let's move on, shall we?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ほら、難しくなかっただろう？ 次へ進もうか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Collect ^green;Research^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;研究ポイント^reset;を集める。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you have spare ^orange;Dirt^reset;...and you certainly will...^green;why not extract it^reset;? You'll get something useful for 50 ^orange;Dirt^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;土^reset;が余っているなら……まあ、きっと余っているよね……^green;抽出してみないかい^reset;？ ^orange;土^reset;50個で、役立つ物が手に入るよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Extractor III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出機 III"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Slipstream"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "スリップストリーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that negates the effects of liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体の効果を否定するEPPモジュールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slipstream Augment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スリップストリーム拡張"
+    }
+  ]
+]

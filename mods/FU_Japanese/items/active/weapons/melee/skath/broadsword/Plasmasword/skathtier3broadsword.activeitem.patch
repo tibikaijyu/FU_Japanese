@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Plasma Charge"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "プラズマ電荷"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful Plasmablade forged by the Skath."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スケースで鍛造した強力なプラズマブレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Plasmablade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケースプラズマブレード"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Five jumps are possible with this bionic enhancer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このバイオニックエンハンサーで五つのジャンプが可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Quint Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "クイントジャンプ"
+    }
+  ]
+]

@@ -1,0 +1,602 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "Bring me your extra bees, and you will be rewarded."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "あなたの余分な蜂を私に持ってきてください、そしてあなたは報われるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/dialog/default/1",
+      "value": "Save the bees!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/dialog/default/1",
+      "value": "ミツバチを救え!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/default/0",
+      "value": "Get 'em!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/default/0",
+      "value": "彼らを捕まえなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/default/1",
+      "value": "Avenge me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/default/1",
+      "value": "復見しろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/default/2",
+      "value": "Stick 'em once for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/default/2",
+      "value": "一度刺して!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/default/3",
+      "value": "Don't let 'em get away!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/default/3",
+      "value": "彼らに逃げさせないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/0",
+      "value": "Ssstabb the intruders!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/0",
+      "value": "侵入者を刺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/1",
+      "value": "Floran get revenge now!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/1",
+      "value": "フローランは今すぐ復見しろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/2",
+      "value": "Ssslice them!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/2",
+      "value": "切り刻んでよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/3",
+      "value": "Greenguard destroy it!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/floran/3",
+      "value": "グリーンガードが破壊!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/0",
+      "value": "Encourage. Put 'em to the sword!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/0",
+      "value": "励ましなさい。 それらを剣に入れなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/1",
+      "value": "Excitement. Avenge me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/1",
+      "value": "ワクワクします 復見しろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/2",
+      "value": "Aggressive. Strike him down!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/2",
+      "value": "攻撃的。 彼を撃ち落として!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/3",
+      "value": "Vengeful. Don't let 'em get away!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/encourage/glitch/3",
+      "value": "ベンジュフル。 彼らに逃げさせないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/default/0",
+      "value": "Guards! Help me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/default/0",
+      "value": "ガード! 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/default/1",
+      "value": "Help! Guards! Help!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/default/1",
+      "value": "助けて! ガード! 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/default/2",
+      "value": "Guards! I've been accosted!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/default/2",
+      "value": "ガード! 罪を犯した!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/0",
+      "value": "Ssstabby time for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/0",
+      "value": "時間を作ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/1",
+      "value": "Floran being hurted!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/1",
+      "value": "フローランが傷ついている!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/2",
+      "value": "Floran not ready for hunt!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/2",
+      "value": "フローランは狩りの準備ができていません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/3",
+      "value": "Greenguard help Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/floran/3",
+      "value": "グリーンガード、フローランを助けて！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/0",
+      "value": "Fear. Guards! Help me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/0",
+      "value": "怖い。 ガード! 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/1",
+      "value": "Intimidated. Please don't hurt me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/1",
+      "value": "威圧的。 私を傷つけないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/2",
+      "value": "Abused. Guards! I've been accosted!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/2",
+      "value": "乱用。 ガード! 罪を犯した!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/3",
+      "value": "Afraid. Get away from me! Guards!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/3",
+      "value": "恐怖。 私から離れなさい! ガード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/4",
+      "value": "Terrified. Save me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/4",
+      "value": "恐ろしさ。 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/5",
+      "value": "Shocked. No! Get away from me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpme/glitch/5",
+      "value": "ショック。 いいえ! 私から離れなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/default/0",
+      "value": "What have you done!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/default/0",
+      "value": "何をしたんだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/0",
+      "value": "Ssstabby time for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/0",
+      "value": "時間を作ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/1",
+      "value": "Floran being hurted!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/1",
+      "value": "フローランが傷ついている!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/2",
+      "value": "Floran not ready for hunt!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/2",
+      "value": "フローランは狩りの準備ができていません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/3",
+      "value": "Greenguard help Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/floran/3",
+      "value": "グリーンガード、フローランを助けて！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/0",
+      "value": "Fear. Guards!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/0",
+      "value": "怖い。 ガード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/1",
+      "value": "Intimidated. Please don't hurt me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/1",
+      "value": "威圧的。 私を傷つけないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/2",
+      "value": "Afraid. Leave me be! Guards!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/2",
+      "value": "恐怖。 放っておいてくれ! ガード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/3",
+      "value": "Terrified. Save me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/3",
+      "value": "恐ろしさ。 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/4",
+      "value": "Shocked. What have you done?!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/4",
+      "value": "ショック。 何をしたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/5",
+      "value": "Righteous. I will write an electronic letter in protest!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/helpthem/glitch/5",
+      "value": "正しい。 抗議の手紙を書きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/default/0",
+      "value": "Phew, I think I got away."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/default/0",
+      "value": "フフフフ、逃げたと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/default/1",
+      "value": "I've escaped with my life!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/default/1",
+      "value": "人生で逃げた!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/default/2",
+      "value": "Is this the safe zone?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/default/2",
+      "value": "ここはセーフゾーンですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/floran/0",
+      "value": "Floran sssafe now."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/floran/0",
+      "value": "フローランは安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/floran/1",
+      "value": "Floran not get ssstabbed after all."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/floran/1",
+      "value": "結局フローランは刺されない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/floran/2",
+      "value": "Them lucky Floran not have weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/floran/2",
+      "value": "幸運なフローランには武器がありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/floran/3",
+      "value": "Sssalvation!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/floran/3",
+      "value": "救出!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/0",
+      "value": "Relieved. Phew, I think I got away."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/0",
+      "value": "救われた。 フフフフ、逃げたと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/1",
+      "value": "Thankful. I've escaped with my life!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/1",
+      "value": "ありがとう 人生で逃げた!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/2",
+      "value": "Wishful. If only I could afford a keep."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/2",
+      "value": "願い事。 手入れさえすればいいのに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/3",
+      "value": "Hopeful. Am I safe?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/3",
+      "value": "希望。 大丈夫ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/4",
+      "value": "Embarrassed. I think I leaked a little oil."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/flee/dialog/safe/glitch/4",
+      "value": "恥ずかしい。 油を少し漏らしたと思う。"
+    }
+  ]
+]

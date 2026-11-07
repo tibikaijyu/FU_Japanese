@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cuckoo bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヒルの巣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cuckoo Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カッコウビー"
+    }
+  ]
+]

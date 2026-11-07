@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pierce them with prismatic power!\n^yellow;Counts as 'energy' for set bonuses^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それらをプリズムで突き刺そう!\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズマティックスピア"
+    }
+  ]
+]

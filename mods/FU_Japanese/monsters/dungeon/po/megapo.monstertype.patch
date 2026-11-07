@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What a shitty monster."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんてクソモンスターなんだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Po"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポウ"
+    }
+  ]
+]

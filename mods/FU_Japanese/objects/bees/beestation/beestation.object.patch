@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Craft all sorts of bee related items!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜂に関連するアイテムを全て作りましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Apiary Crafting Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;養蜂作業台^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A haunch of honey roasted ham.\n^green;Heal ^white;115 ^gray;(^white;90s^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツローストハムの束。\n^green;癒し ^white;115 ^gray;(^white;90ス)^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Ham"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーハム"
+    }
+  ]
+]

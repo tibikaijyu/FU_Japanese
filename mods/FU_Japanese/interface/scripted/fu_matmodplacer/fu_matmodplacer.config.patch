@@ -1,0 +1,3170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "Configures the staff of material mods."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "材料モッドのスタッフを設定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "Material Mod Config"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "マテリアル・モッド構成"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/0/description",
+      "value": "Protect your build from encroaching weather effects."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/0/description",
+      "value": "悪天候の影響からビルドを保護します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/0/name",
+      "value": "Weather Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/0/name",
+      "value": "気象保護"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/1/description",
+      "value": "Speckled blue and white alien grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/1/description",
+      "value": "斑点のある青と白のエイリアンの草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/1/name",
+      "value": "Alien Blue Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/1/name",
+      "value": "エイリアンブルーグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/10/description",
+      "value": "Bloodstone grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/10/description",
+      "value": "血石草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/10/name",
+      "value": "Bloodstone Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/10/name",
+      "value": "血石草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/100/description",
+      "value": "Sulphur. Requires sulphur to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/100/description",
+      "value": "サーファー。 設置には硫黄が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/100/name",
+      "value": "Sulphur Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/100/name",
+      "value": "硫黄鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/101/description",
+      "value": "Telebrium. Requires telebrium crystals to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/101/description",
+      "value": "テレブリアム。 テレブリアム結晶が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/101/name",
+      "value": "Telebrium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/101/name",
+      "value": "テレブリウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/102/description",
+      "value": "Thorium. Requires thorium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/102/description",
+      "value": "トリウム。 トリウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/102/name",
+      "value": "Thorium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/102/name",
+      "value": "トリウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/103/description",
+      "value": "Titanium. Requires titanium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/103/description",
+      "value": "チタン。 チタン鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/103/name",
+      "value": "Titanium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/103/name",
+      "value": "チタン鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/104/description",
+      "value": "Trianglium. Requires trianglium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/104/description",
+      "value": "トライアングリアム。 三角鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/104/name",
+      "value": "Trianglium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/104/name",
+      "value": "トライアングリウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/105/description",
+      "value": "Tungsten. Requires tungsten ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/105/description",
+      "value": "タングステン。 タングステン鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/105/name",
+      "value": "Tungsten Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/105/name",
+      "value": "タングステン鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/106/description",
+      "value": "Uranium. Requires uranium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/106/description",
+      "value": "ウラン ウラン鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/106/name",
+      "value": "Uranium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/106/name",
+      "value": "ウラン鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/107/description",
+      "value": "Violium. Requires violium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/107/description",
+      "value": "バイオリン。 バイオリウム鉱石の設置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/107/name",
+      "value": "Violium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/107/name",
+      "value": "ヴァイオリウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/108/description",
+      "value": "Xithricite. Requires xithricite ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/108/description",
+      "value": "シトリシテ 配置するには公理鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/108/name",
+      "value": "Xithricite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/108/name",
+      "value": "ジスリサイト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/109/description",
+      "value": "Zerchesium. Requires zerchesium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/109/description",
+      "value": "ザルチウム。 座金は座金が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/109/name",
+      "value": "Zerchesium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/109/name",
+      "value": "ゼルケシウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/11/description",
+      "value": "Verdant grasses ripe with life."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/11/description",
+      "value": "緑豊かな草は生で熟します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/11/name",
+      "value": "Bog Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/11/name",
+      "value": "ボッググラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/110/description",
+      "value": "This junk might contain some useful parts. Requires spare parts to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/110/description",
+      "value": "このジャンクは、いくつかの有用な部分を含んでいるかもしれません。 スペアパーツの配置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/110/name",
+      "value": "Junk"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/110/name",
+      "value": "ジャンク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/111/description",
+      "value": "Koanite. Requires koanite to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/111/description",
+      "value": "コアナイト。 コアナイトの設置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/111/name",
+      "value": "Koanite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/111/name",
+      "value": "コアナイト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/112/description",
+      "value": "Mascagnite. Requires mascagnite to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/112/description",
+      "value": "マスカナイト。 配置するにはマスカナイトが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/112/name",
+      "value": "Mascagnite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/112/name",
+      "value": "マスカグナイト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/113/description",
+      "value": "Sivite. Requires sivite to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/113/description",
+      "value": "サイト 配置にはシビテが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/113/name",
+      "value": "Sivite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/113/name",
+      "value": "シビテ鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/114/description",
+      "value": "A gore-covered mass of bone."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/114/description",
+      "value": "ゴアで覆われた骨の塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/114/name",
+      "value": "Bloody Bones"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/114/name",
+      "value": "骨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/115/description",
+      "value": "A fossilised bone. Requires bones to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/115/description",
+      "value": "化石化した骨。 骨の配置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/115/name",
+      "value": "Fossilised Bone"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/115/name",
+      "value": "化石骨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/116/description",
+      "value": "Algae. Requires algae to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/116/description",
+      "value": "藻類。 藻類が必要。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/116/name",
+      "value": "Algae Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/116/name",
+      "value": "藻類の鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/117/description",
+      "value": "Rainforest flowers. Requires biosamples to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/117/description",
+      "value": "熱帯雨林の花。 バイオサンプルを配置する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/117/name",
+      "value": "Rainforest Flowers"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/117/name",
+      "value": "熱帯雨林の花"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/118/description",
+      "value": "Neon Tubing. Requires neon tubing to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/118/description",
+      "value": "ネオンチューブ。 ネオンチューブが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/118/name",
+      "value": "Neon Tubing"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/118/name",
+      "value": "ネオンチューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/119/description",
+      "value": "A softly glowing paste. Requires glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/119/description",
+      "value": "やわらかく光るペースト。 ジェルを発光させる必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/119/name",
+      "value": "Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/119/name",
+      "value": "輝くゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/12/description",
+      "value": "Yuck, crushed bones!"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/12/description",
+      "value": "くそ、骨が砕けてる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/12/name",
+      "value": "Bone"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/12/name",
+      "value": "骨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/120/description",
+      "value": "A softly glowing paste. Requires blue glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/120/description",
+      "value": "やわらかく光るペースト。 青い光沢のあるゲルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/120/name",
+      "value": "Blue Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/120/name",
+      "value": "ブルーグロージェル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/121/description",
+      "value": "A softly glowing paste. Requires green glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/121/description",
+      "value": "やわらかく光るペースト。 緑色の光沢のあるゲルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/121/name",
+      "value": "Green Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/121/name",
+      "value": "緑色の光るゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/122/description",
+      "value": "A softly glowing paste. Requires purple glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/122/description",
+      "value": "やわらかく光るペースト。 紫色の光るゲルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/122/name",
+      "value": "Purple Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/122/name",
+      "value": "紫色に輝くゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/123/description",
+      "value": "A softly glowing paste. Requires red glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/123/description",
+      "value": "やわらかく光るペースト。 赤い光沢のあるゲルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/123/name",
+      "value": "Red Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/123/name",
+      "value": "赤く輝くゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/124/description",
+      "value": "A softly glowing paste. Requires yellow glowing gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/124/description",
+      "value": "やわらかく光るペースト。 黄色の光沢のあるゲルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/124/name",
+      "value": "Yellow Glowing Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/124/name",
+      "value": "黄色の光るゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/125/description",
+      "value": "A fast paste. Requires accelerator gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/125/description",
+      "value": "速いペースト。 アクセルゲルの配置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/125/name",
+      "value": "Accelerator Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/125/name",
+      "value": "加速器ゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/126/description",
+      "value": "A bouncy paste. Requires bounce gel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/126/description",
+      "value": "弾力のあるペースト。 ゲルをバウンスする必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/126/name",
+      "value": "Bounce Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/126/name",
+      "value": "バウンスゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/127/description",
+      "value": "A strip made of incredibly slippery material. Requires low friction strips to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/127/description",
+      "value": "非常に滑りやすい素材で作られたストリップ。 低摩擦帯が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/127/name",
+      "value": "Low Friction Strip"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/127/name",
+      "value": "低摩擦帯"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/128/description",
+      "value": "A strip that flings whoever steps on it. Requires propulsion strip Ls to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/128/description",
+      "value": "踏む人なら誰でも飛び回るストリップ。 配置には推進ストリップLsが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/128/name",
+      "value": "Propulsion Strip L"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/128/name",
+      "value": "推進帯L"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/129/description",
+      "value": "A strip that flings whoever steps on it. Requires propulsion strip Rs to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/129/description",
+      "value": "踏む人なら誰でも飛び回るストリップ。 配置には推進ストリップRsが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/129/name",
+      "value": "Propulsion Strip R"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/129/name",
+      "value": "推進帯R"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/13/description",
+      "value": "Moss hanging from the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/13/description",
+      "value": "天井からぶら下がっているモス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/13/name",
+      "value": "Ceiling Moss"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/13/name",
+      "value": "天井モス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/14/description",
+      "value": "Small roots poking through the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/14/description",
+      "value": "天井を突き抜ける小さな根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/14/name",
+      "value": "Ceiling Roots"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/14/name",
+      "value": "天井根"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/15/description",
+      "value": "Snow so cold it's stuck to the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/15/description",
+      "value": "雪がとても寒いので天井にくっついている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/15/name",
+      "value": "Ceiling Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/15/name",
+      "value": "天井雪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/16/description",
+      "value": "Charred grass clings to life amongst the ashes."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/16/description",
+      "value": "灰草の中で炭化した草が生え続ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/16/name",
+      "value": "Charred Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/16/name",
+      "value": "炭化草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/17/description",
+      "value": "A light layer of clay."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/17/description",
+      "value": "粘土の軽い層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/17/name",
+      "value": "Clay"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/17/name",
+      "value": "粘土"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/18/description",
+      "value": "Clay."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/18/description",
+      "value": "クレイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/18/name",
+      "value": "Clay Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/18/name",
+      "value": "粘土草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/19/description",
+      "value": "Somewhat solid clouds! You can even walk on them!"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/19/description",
+      "value": "なんとも固い雲! あなたはそれらの上を歩くこともできます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/19/name",
+      "value": "Cloud"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/19/name",
+      "value": "クラウド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/2/description",
+      "value": "Colourful green alien grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/2/description",
+      "value": "カラフルな緑のエイリアンの草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/2/name",
+      "value": "Alien Green Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/2/name",
+      "value": "エイリアングリーングラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/20/description",
+      "value": "Lush, thick, and colourful grass is growing here."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/20/description",
+      "value": "緑豊かで、濃厚で、カラフルな草が生えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/20/name",
+      "value": "Colourful Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/20/name",
+      "value": "カラフルな草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/21/description",
+      "value": "Small crystals appear to be poking through the ground."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/21/description",
+      "value": "小さな結晶が地面を突き抜けているように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/21/name",
+      "value": "Crystal Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/21/name",
+      "value": "結晶ガラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/22/description",
+      "value": "Strange solid-darkness grass..."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/22/description",
+      "value": "不思議な真っ暗な草...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/22/name",
+      "value": "Dark Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/22/name",
+      "value": "ダークグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/23/description",
+      "value": "Dead leaves."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/23/description",
+      "value": "枯葉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/23/name",
+      "value": "Dead Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/23/name",
+      "value": "枯葉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/24/description",
+      "value": "Gross, fleshy grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/24/description",
+      "value": "草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/24/name",
+      "value": "Flesh Grass 1"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/24/name",
+      "value": "フレッシュグラス 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/25/description",
+      "value": "Rotten, fleshy grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/25/description",
+      "value": "腐った、肉質の草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/25/name",
+      "value": "Flesh Grass 2"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/25/name",
+      "value": "フレッシュグラス 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/26/description",
+      "value": "Lush, flowery grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/26/description",
+      "value": "豪華な花の草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/26/name",
+      "value": "Flowery Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/26/name",
+      "value": "花草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/27/description",
+      "value": "Glowing sand."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/27/description",
+      "value": "砂をまぶす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/27/name",
+      "value": "Glow Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/27/name",
+      "value": "グローサンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/28/description",
+      "value": "Lush, thick grass is growing here."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/28/description",
+      "value": "豊かな、厚い草がここで生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/28/name",
+      "value": "Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/28/name",
+      "value": "草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/29/description",
+      "value": "Green slime."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/29/description",
+      "value": "緑色の粘液。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/29/name",
+      "value": "Green Slime Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/29/name",
+      "value": "グリーンスライムグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/3/description",
+      "value": "Thick red alien grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/3/description",
+      "value": "厚い赤いエイリアンの草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/3/name",
+      "value": "Alien Red Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/3/name",
+      "value": "赤草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/30/description",
+      "value": "Gross, hecky grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/30/description",
+      "value": "草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/30/name",
+      "value": "Heck Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/30/name",
+      "value": "ヘックグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/31/description",
+      "value": "Gross, hivey ceiling grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/31/description",
+      "value": "草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/31/name",
+      "value": "Hive Ceiling Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/31/name",
+      "value": "巣穴 天井 草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/32/description",
+      "value": "Gross, hivey grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/32/description",
+      "value": "草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/32/name",
+      "value": "Hive Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/32/name",
+      "value": "雑草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/33/description",
+      "value": "Hivey ceiling grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/33/description",
+      "value": "天井の草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/33/name",
+      "value": "Hive Ceiling Grass 2"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/33/name",
+      "value": "巣穴 天井 草 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/34/description",
+      "value": "Hivey grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/34/description",
+      "value": "草が生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/34/name",
+      "value": "Hive Grass 2"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/34/name",
+      "value": "雑草 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/35/description",
+      "value": "Sticky honey hanging from the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/35/description",
+      "value": "天井からぶら下がっている粘着性の蜂蜜。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/35/name",
+      "value": "Honey Ceiling Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/35/name",
+      "value": "ハチミツの天井草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/36/description",
+      "value": "Sticky honey."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/36/description",
+      "value": "ハチミツを固くする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/36/name",
+      "value": "Honey Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/36/name",
+      "value": "ハニーグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/37/description",
+      "value": "Thin, jagged ice."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/37/description",
+      "value": "薄くてジャグドな氷。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/37/name",
+      "value": "Ice 1"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/37/name",
+      "value": "氷 1"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/38/description",
+      "value": "Thick, jagged ice."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/38/description",
+      "value": "厚く、ぎゅうぎゅうした氷。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/38/name",
+      "value": "Ice 2"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/38/name",
+      "value": "氷 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/39/description",
+      "value": "Dense jungle grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/39/description",
+      "value": "濃いジャングル草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/39/name",
+      "value": "Jungle Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/39/name",
+      "value": "ジャングル草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/4/description",
+      "value": "Frosty alpine grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/4/description",
+      "value": "凍った高山草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/4/name",
+      "value": "Alpine Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/4/name",
+      "value": "高山草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/40/description",
+      "value": "Scattered metal junk."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/40/description",
+      "value": "散乱金属ジャンク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/40/name",
+      "value": "Junk"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/40/name",
+      "value": "ジャンク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/41/description",
+      "value": "Verdant grasses ripe with life."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/41/description",
+      "value": "緑豊かな草は生で熟します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/41/name",
+      "value": "Lush Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/41/name",
+      "value": "ラッシュグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/42/description",
+      "value": "A thick layer of metal dust."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/42/description",
+      "value": "金属粉塵の厚い層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/42/name",
+      "value": "Metal Coating"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/42/name",
+      "value": "金属コーティング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/43/description",
+      "value": "Metal debris."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/43/description",
+      "value": "金属破片。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/43/name",
+      "value": "Metal Debris"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/43/name",
+      "value": "金属破片"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/44/description",
+      "value": "Meteorite that has crumbled to dust."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/44/description",
+      "value": "粉塵に崩れ落ちた石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/44/name",
+      "value": "Meteor Dust"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/44/name",
+      "value": "流星塵"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/45/description",
+      "value": "Scattered lunar dust."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/45/description",
+      "value": "散り散りの月塵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/45/name",
+      "value": "Moon Dust"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/45/name",
+      "value": "ムーンダスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/46/description",
+      "value": "A thick layer of moss."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/46/description",
+      "value": "コケの厚い層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/46/name",
+      "value": "Moss"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/46/name",
+      "value": "モス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/47/description",
+      "value": "Grass poking through a layer of moss."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/47/description",
+      "value": "コケの層を突き刺す草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/47/name",
+      "value": "Mossy Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/47/name",
+      "value": "雑草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/48/description",
+      "value": "Some sort of nasty people-goop."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/48/description",
+      "value": "ある種の厄介な人々 - グループ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/48/name",
+      "value": "Nasty People-Goop"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/48/name",
+      "value": "嫌な人 - グープ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/49/description",
+      "value": "Umbral grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/49/description",
+      "value": "雑草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/49/name",
+      "value": "Penumbra Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/49/name",
+      "value": "ペヌムブラ草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/5/description",
+      "value": "Dry, crunchy grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/5/description",
+      "value": "乾燥した、歯ごたえのある草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/5/name",
+      "value": "Arid Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/5/name",
+      "value": "乾燥草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/50/description",
+      "value": "Thick purple grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/50/description",
+      "value": "濃い紫色の草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/50/name",
+      "value": "Proto Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/50/name",
+      "value": "プロトグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/51/description",
+      "value": "Purple crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/51/description",
+      "value": "紫水晶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/51/name",
+      "value": "Purple Crystal Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/51/name",
+      "value": "紫水晶草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/52/description",
+      "value": "Lush, thick grass is growing here."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/52/description",
+      "value": "豊かな、厚い草がここで生えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/52/name",
+      "value": "Rainbow Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/52/name",
+      "value": "虹草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/53/description",
+      "value": "Scattered sand."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/53/description",
+      "value": "散りばめられた砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/53/name",
+      "value": "Red Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/53/name",
+      "value": "赤い砂"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/54/description",
+      "value": "Scattered sand."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/54/description",
+      "value": "散りばめられた砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/54/name",
+      "value": "Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/54/name",
+      "value": "砂"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/55/description",
+      "value": "Crunchy thick grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/55/description",
+      "value": "クッキーで厚い草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/55/name",
+      "value": "Savannah Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/55/name",
+      "value": "サバンナ草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/56/description",
+      "value": "Sticky slime hanging from the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/56/description",
+      "value": "天井からぶら下がっている粘り強いスライム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/56/name",
+      "value": "Slime Ceiling Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/56/name",
+      "value": "スライムシーリンググラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/57/description",
+      "value": "Sticky grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/57/description",
+      "value": "ベタベタした草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/57/name",
+      "value": "Slime Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/57/name",
+      "value": "スライムグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/58/description",
+      "value": "Soft, freshly fallen snow."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/58/description",
+      "value": "やわらかく、新雪。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/58/name",
+      "value": "Snow"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/58/name",
+      "value": "雪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/59/description",
+      "value": "Grass poking through freshly fallen snow."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/59/description",
+      "value": "新雪を突き抜ける草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/59/name",
+      "value": "Snowy Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/59/name",
+      "value": "雪草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/6/description",
+      "value": "A thick layer of ash."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/6/description",
+      "value": "灰の厚い層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/6/name",
+      "value": "Ash"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/6/name",
+      "value": "灰"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/60/description",
+      "value": "Sulphuric stone."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/60/description",
+      "value": "硫黄石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/60/name",
+      "value": "Sulphuric Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/60/name",
+      "value": "硫黄草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/61/description",
+      "value": "Thick tar covers the ground here."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/61/description",
+      "value": "厚いタールが地面を覆う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/61/name",
+      "value": "Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/61/name",
+      "value": "タール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/62/description",
+      "value": "Thick tar covers the ceiling here."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/62/description",
+      "value": "ここで天井を覆う厚いタール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/62/name",
+      "value": "Tar Ceiling"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/62/name",
+      "value": "タール天井"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/63/description",
+      "value": "Pulsating tentacles."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/63/description",
+      "value": "触手を脈打つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/63/name",
+      "value": "Tentacle Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/63/name",
+      "value": "テンタクルグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/64/description",
+      "value": "Jungle grasses."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/64/description",
+      "value": "ジャングル草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/64/name",
+      "value": "Thick Jungle Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/64/name",
+      "value": "厚手のジャングル草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/65/description",
+      "value": "Thick, lush grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/65/description",
+      "value": "濃厚で緑豊かな草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/65/name",
+      "value": "Thick Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/65/name",
+      "value": "厚草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/66/description",
+      "value": "Thick, toxic grass."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/66/description",
+      "value": "濃厚で有毒な草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/66/name",
+      "value": "Toxic Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/66/name",
+      "value": "毒性草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/67/description",
+      "value": "Hardy grass growing from the ceiling."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/67/description",
+      "value": "天井から生えている丈夫な草。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/67/name",
+      "value": "Undergrowth"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/67/name",
+      "value": "成長不足"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/68/description",
+      "value": "Vein Growth."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/68/description",
+      "value": "静脈の成長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/68/name",
+      "value": "Vein Growth"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/68/name",
+      "value": "静脈の成長"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/69/description",
+      "value": "Aegisalt. Requires aegisalt ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/69/description",
+      "value": "エージ塩。 地中鉱石が必要。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/69/name",
+      "value": "Aegisalt Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/69/name",
+      "value": "イージソルト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/7/description",
+      "value": "Fallen autumn leaves."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/7/description",
+      "value": "紅葉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/7/name",
+      "value": "Autumn Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/7/name",
+      "value": "紅葉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/70/description",
+      "value": "Cinnabar. Requires cinnabar to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/70/description",
+      "value": "バーを鳴らしてください。 配置するにはシナバルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/70/name",
+      "value": "Cinnabar Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/70/name",
+      "value": "シナバル鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/71/description",
+      "value": "Coal ore. Requires coal to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/71/description",
+      "value": "石炭鉱石。 石炭が必要。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/71/name",
+      "value": "Coal Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/71/name",
+      "value": "石炭鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/72/description",
+      "value": "Copper ore. Requires copper ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/72/description",
+      "value": "銅鉱石。 銅鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/72/name",
+      "value": "Copper Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/72/name",
+      "value": "銅鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/73/description",
+      "value": "Core Fragment. Requires core fragments to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/73/description",
+      "value": "コア部分。 コアフラグメントを配置する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/73/name",
+      "value": "Core Fragment Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/73/name",
+      "value": "コアフラグメントコア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/74/description",
+      "value": "Corruption. Requires corruption to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/74/description",
+      "value": "破損。 汚職を許さない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/74/name",
+      "value": "Corruption Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/74/name",
+      "value": "腐食鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/75/description",
+      "value": "Crystal. Requires crystals to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/75/description",
+      "value": "クリスタル。 クリスタルの配置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/75/name",
+      "value": "Crystal Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/75/name",
+      "value": "結晶鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/76/description",
+      "value": "Ultra-dense dimensional ore. Requires densinium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/76/description",
+      "value": "超高密度寸法鉱石。 設置するにはデンシニウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/76/name",
+      "value": "Densinium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/76/name",
+      "value": "デンシニウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/77/description",
+      "value": "Diamond. Requires diamonds to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/77/description",
+      "value": "ダイヤモンド。 ダイヤモンドが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/77/name",
+      "value": "Diamond Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/77/name",
+      "value": "ダイヤモンド鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/78/description",
+      "value": "Durasteel ore. Requires durasteel ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/78/description",
+      "value": "鉄鉱石時代。 鉄鉱石の保管が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/78/name",
+      "value": "Durasteel Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/78/name",
+      "value": "デュラスチール鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/79/description",
+      "value": "Effigium. Requires effigium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/79/description",
+      "value": "エフィギウム 置くのに鉄鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/79/name",
+      "value": "Effigium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/79/name",
+      "value": "エフィギウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/8/description",
+      "value": "A thick layer of black ash."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/8/description",
+      "value": "黒い灰の厚い層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/8/name",
+      "value": "Black Ash"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/8/name",
+      "value": "黒灰"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/80/description",
+      "value": "Erchius Crystal. Requires crystal erchius fuel to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/80/description",
+      "value": "エルキウスクリスタル。 水晶のerchius燃料を配置する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/80/name",
+      "value": "Erchius Crystal Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/80/name",
+      "value": "エルキウス結晶鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/81/description",
+      "value": "Ferozium. Requires ferozium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/81/description",
+      "value": "フェロジウム フェロジウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/81/name",
+      "value": "Ferozium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/81/name",
+      "value": "フェロジウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/82/description",
+      "value": "Gold. Requires gold ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/82/description",
+      "value": "ゴールド。 金鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/82/name",
+      "value": "Gold Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/82/name",
+      "value": "金鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/83/description",
+      "value": "Iron. Requires iron ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/83/description",
+      "value": "アイアン。 鉄鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/83/name",
+      "value": "Iron Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/83/name",
+      "value": "鉄鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/84/description",
+      "value": "Irradium. Requires irradium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/84/description",
+      "value": "放射線。 設置するには、イラジウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/84/name",
+      "value": "Irradium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/84/name",
+      "value": "イラディウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/85/description",
+      "value": "Isogen. Requires isogen ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/85/description",
+      "value": "アイソゲン。 アイソゲン鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/85/name",
+      "value": "Isogen Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/85/name",
+      "value": "アイソジェン鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/86/description",
+      "value": "Lead. Requires lead to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/86/description",
+      "value": "リード。 必要は場所へ導く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/86/name",
+      "value": "Lead Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/86/name",
+      "value": "鉛鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/87/description",
+      "value": "Lunari crystal. Requires lunari crystals to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/87/description",
+      "value": "ルナリクリスタル。 設置するにはムーンニ結晶が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/87/name",
+      "value": "Lunari Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/87/name",
+      "value": "ルナリ鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/88/description",
+      "value": "Magnesium. Requires magnesium to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/88/description",
+      "value": "マグネシウム。 マグネシウムが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/88/name",
+      "value": "Magnesium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/88/name",
+      "value": "マグネシウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/89/description",
+      "value": "Neptunium. Requires neptunium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/89/description",
+      "value": "ネプツニウム。 ネプツニウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/89/name",
+      "value": "Neptunium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/89/name",
+      "value": "ネプツニウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/9/description",
+      "value": "Black slime."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/9/description",
+      "value": "黒い粘液。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/9/name",
+      "value": "Black Slime Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/9/name",
+      "value": "黒スライムグラス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/90/description",
+      "value": "Raw nocxium. Requires nocxium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/90/description",
+      "value": "生ノクシウム。 設置にはノクシウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/90/name",
+      "value": "Nocxium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/90/name",
+      "value": "ノクシウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/91/description",
+      "value": "Penumbrite. Requires penumbrite ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/91/description",
+      "value": "ペンダンブライト。 ペヌブライト鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/91/name",
+      "value": "Penumbrite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/91/name",
+      "value": "ペナンブライト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/92/description",
+      "value": "Plasmic Crystals. Requires plasmic crystals to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/92/description",
+      "value": "プラスチック結晶。 プラズマ結晶の配置が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/92/name",
+      "value": "Plasmic Crystals"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/92/name",
+      "value": "プラスチック結晶"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/93/description",
+      "value": "Plutonium. Requires plutonium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/93/description",
+      "value": "プルトニウム。 プルトニウム鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/93/name",
+      "value": "Plutonium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/93/name",
+      "value": "プルトニウム鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/94/description",
+      "value": "Prisilite. Requires prisilite ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/94/description",
+      "value": "プリシライト。 プリシライト鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/94/name",
+      "value": "Prisilite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/94/name",
+      "value": "プリシライト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/95/description",
+      "value": "Protocite. Requires protocite ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/95/description",
+      "value": "原告。 プロトサイトまたは配置する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/95/name",
+      "value": "Protocite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/95/name",
+      "value": "プロトサイト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/96/description",
+      "value": "Pyreite. Requires pyreite ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/96/description",
+      "value": "パイライト。 パイライト鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/96/name",
+      "value": "Pyreite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/96/name",
+      "value": "パイライト鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/97/description",
+      "value": "Quietus. Requires quietus ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/97/description",
+      "value": "静けさ。 静けさや場所が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/97/name",
+      "value": "Quietus Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/97/name",
+      "value": "クワイタス鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/98/description",
+      "value": "Silver. Requires silver ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/98/description",
+      "value": "シルバー。 銀鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/98/name",
+      "value": "Silver Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/98/name",
+      "value": "銀鉱石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/99/description",
+      "value": "Solarium. Requires solarium ore to place."
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/99/description",
+      "value": "太陽。 太陽鉱石が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/matMods/99/name",
+      "value": "Solarium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/matMods/99/name",
+      "value": "ソラリウム鉱石"
+    }
+  ]
+]

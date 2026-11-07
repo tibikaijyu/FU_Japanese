@@ -1,0 +1,602 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "With this protocite-infused tool you can scan at much greater ranges."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このプロトサイト注入ツールを使用すると、より広い範囲をスキャンできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/default/0",
+      "value": "Nothing of interest here."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/default/0",
+      "value": "ここには何も興味がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/default/1",
+      "value": "Nothing to see here."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/default/1",
+      "value": "ここで見るものは何もない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/default/2",
+      "value": "This isn't really anything."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/default/2",
+      "value": "これは本当に何でもない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/default/3",
+      "value": "Nothing much to speak of."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/default/3",
+      "value": "何も話すことはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/droden/0",
+      "value": "Error. Invalid target."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/droden/0",
+      "value": "間違いです 無効なターゲット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/droden/1",
+      "value": "Error. No item of interest."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/droden/1",
+      "value": "間違いです 興味のあるアイテムはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/droden/2",
+      "value": "Unable to read target."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/droden/2",
+      "value": "ターゲットの読み込みができません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/droden/3",
+      "value": "Error. Empty."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/droden/3",
+      "value": "間違いです 空っぽ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/0",
+      "value": "Thing not there?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/0",
+      "value": "何も無い?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/1",
+      "value": "See nothing. Why look?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/1",
+      "value": "何も見えない。 なぜですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/2",
+      "value": "Nothing there?"
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/2",
+      "value": "何も?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/fenerox/3",
+      "value": "Watch nothing? See nothing."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/fenerox/3",
+      "value": "何も見ない? 何も見えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/floran/0",
+      "value": "Nothing of interessst."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/floran/0",
+      "value": "興味はない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/floran/1",
+      "value": "Nothing to sscan."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/floran/1",
+      "value": "スキャンするものはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/floran/2",
+      "value": "This isssn't anything."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/floran/2",
+      "value": "これは何でもない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/floran/3",
+      "value": "Nothing much to sspeak of."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/floran/3",
+      "value": "話すこともない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/glitch/0",
+      "value": "Unimpressed. Nothing of interest here."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/glitch/0",
+      "value": "感心しない。 ここには何も興味がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/glitch/1",
+      "value": "Neutral. There is nothing there."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/glitch/1",
+      "value": "ニュートラル そこには何もありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/glitch/2",
+      "value": "Disappointed. Nothing there to scan."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/glitch/2",
+      "value": "がっかり。 スキャンする何もありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/glitch/3",
+      "value": "Disinterested. This isn't really anything."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/glitch/3",
+      "value": "興味がない。 これは本当に何でもない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/novakid/0",
+      "value": "Scanner's drawin' a blank."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/novakid/0",
+      "value": "スキャナは空白を描きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/novakid/1",
+      "value": "Not a darn thing there."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/novakid/1",
+      "value": "そこは馬鹿なことじゃない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/novakid/2",
+      "value": "Scanner says ain't nothin' there."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/novakid/2",
+      "value": "Scannerは何も言ってない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/nothingThereText/novakid/3",
+      "value": "That's just a whole lotta nothin'."
+    },
+    {
+      "op": "replace",
+      "path": "/nothingThereText/novakid/3",
+      "value": "それは全くの無意味だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/default/0",
+      "value": "That's outside my scanner's detection area."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/default/0",
+      "value": "スキャナーの検知エリアの外です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/default/1",
+      "value": "Can't seem to get a reading; I should get closer."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/default/1",
+      "value": "読めないようだ。近づくべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/default/2",
+      "value": "The signal's too faint to make out - might be out of range."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/default/2",
+      "value": "信号は微弱すぎて、範囲外かもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/default/3",
+      "value": "It must be out of range, I can't get a reading."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/default/3",
+      "value": "手の届かないところにあるに違いない。私は読書ができない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/droden/0",
+      "value": "Scanner error. Out of range."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/droden/0",
+      "value": "スキャナエラー。 範囲外。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/droden/1",
+      "value": "Error. Maximum scanner range exceeded."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/droden/1",
+      "value": "間違いです 最大スキャナ範囲を超えました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/droden/2",
+      "value": "Error. Signal strength insufficient."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/droden/2",
+      "value": "間違いです 信号強度不十分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/droden/3",
+      "value": "No signal. Please reduce distance to target."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/droden/3",
+      "value": "信号なし。 目標までの距離を縮めてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/0",
+      "value": "Thing not seen?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/0",
+      "value": "見えないもの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/1",
+      "value": "See nothing. Move closer?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/1",
+      "value": "何も見えない。 近づく?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/2",
+      "value": "Scanner weak. Should move."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/2",
+      "value": "スキャナが弱い。 動くべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/fenerox/3",
+      "value": "Can't see. Scanner broken?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/fenerox/3",
+      "value": "見えません スキャナーが壊れた?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/floran/0",
+      "value": "Scanner not ssstrong enough! Floran must move in."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/floran/0",
+      "value": "スキャナーは十分に強くありません! フローランは移動しなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/floran/1",
+      "value": "That's outsssside scanner's range."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/floran/1",
+      "value": "外付けスキャナの範囲です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/floran/2",
+      "value": "Ssignal's too faint to make out, Floran not close enough."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/floran/2",
+      "value": "SSignal は微弱すぎて、フローラン は十分近づきません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/floran/3",
+      "value": "Mussst be out of range, Floran can't get a reading."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/floran/3",
+      "value": "手の届かない所では、フローランは読書ができない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/glitch/0",
+      "value": "Disappointed. This hardware's sensors are insufficient to analyze that position from here."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/glitch/0",
+      "value": "がっかり。 このハードウェアのセンサーでは、その位置をここから分析するには不十分です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/glitch/1",
+      "value": "Puzzled. I cannot seem to get a reading; perhaps I should get closer."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/glitch/1",
+      "value": "パズル。 読書ができないみたいで、もっと近づくべきかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/glitch/2",
+      "value": "Frustrated. The signal is too faint to make out, I believe I'm out of range."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/glitch/2",
+      "value": "イライラ。 その信号は微弱すぎて理解できない。範囲外だと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/glitch/3",
+      "value": "Irked. It must be out of range, I cannot get a reading."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/glitch/3",
+      "value": "と私は言った。 それは範囲外に違いない、私は読書を得ることができない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/novakid/0",
+      "value": "The scanner ain't reachin' - probably oughta get closer."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/novakid/0",
+      "value": "スキャナーは届いていない - おそらく近づくべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/novakid/1",
+      "value": "Guess I'm outta range, the scanner ain't scanning that far."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/novakid/1",
+      "value": "範囲外だと仮定すると、スキャナはそこまでスキャンしていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/novakid/2",
+      "value": "Signal's too faint, better get closer."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/novakid/2",
+      "value": "信号は微弱すぎて近づきすぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfRangeText/novakid/3",
+      "value": "Can't scan that, it ain't in range."
+    },
+    {
+      "op": "replace",
+      "path": "/outOfRangeText/novakid/3",
+      "value": "スキャンできないし、範囲も広い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Scanning Tool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトスキャンツール"
+    }
+  ]
+]

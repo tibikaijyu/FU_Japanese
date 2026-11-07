@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seems awfully wasteful. This is fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ひどく無駄に思える。 これは燃料です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトブロック"
+    }
+  ]
+]

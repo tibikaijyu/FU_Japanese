@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I...what? No it isn't."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は...何? 違います"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "This Is a Blue Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "これは青いサインです"
+    }
+  ]
+]

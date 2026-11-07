@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exceptional in nuclear applications despite being non-radioactive.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非放射性であるにもかかわらず、核応用において例外的である。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helium-3"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘリウム-3"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plutonium-enriched cookies. Probably dangerous. \n^pink;Extreme Radiation ^cyan;Immunity ^gray;(^white;5m^gray;)\n^green;Heal ^white;575 ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プルトニウム濃縮クッキー。 おそらく危険だ。 \n^pink;極端放射線^cyan;免疫性^gray;(^white;5m^gray;)\n^green;癒し ^white;575 ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plutonium Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プルトニウムクッキー"
+    }
+  ]
+]

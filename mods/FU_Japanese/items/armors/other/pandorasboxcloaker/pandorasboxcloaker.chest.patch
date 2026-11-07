@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chestpiece that hides chestwear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チェストウェアを隠すチェストピース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chestpiece Cloaker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "胸部クローカー"
+    }
+  ]
+]

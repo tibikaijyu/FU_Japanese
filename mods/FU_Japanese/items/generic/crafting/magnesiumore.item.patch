@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for creating magnesium powder!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグネシウムパウダー作りに!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magnesite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグネサイト"
+    }
+  ]
+]

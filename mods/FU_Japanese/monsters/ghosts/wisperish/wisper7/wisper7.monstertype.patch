@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floaty little balls of freezing pain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍った痛みの浮かぶ小さなボール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Icebobb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスボブ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an exceptionally cool chair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "とてもクールな椅子です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究室長"
+    }
+  ]
+]

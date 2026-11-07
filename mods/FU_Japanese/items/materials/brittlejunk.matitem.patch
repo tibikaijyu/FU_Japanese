@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block of rusted junk.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "錆びたジャンクのブロック。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ready to sssnap."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スナップする準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Compressed junk metal."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 圧縮されたジャンクメタル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brittle Junk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "脆いジャンク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I postulate that whoever built this place had an advanced culture."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この地を建てた人間は誰もが高度な文化を持っていると私は思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代彫刻"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A grappling hook dripping with...stuff. Has strange properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "つかみフックが...物で垂れ下がる。 奇妙な特性を持つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Hook"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老"
+    }
+  ]
+]

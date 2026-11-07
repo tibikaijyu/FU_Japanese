@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Snowball Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "雪玉大砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primary: ^cyan;Snowball Machine Gun.^reset;\nAlt: ^cyan;Compressed Snowball Cannon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主なもの:^cyan;スノーボールマシンガン。^reset;\nAlt:^cyan;圧縮雪玉砲^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Promise"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壊滅的な約束"
+    }
+  ]
+]

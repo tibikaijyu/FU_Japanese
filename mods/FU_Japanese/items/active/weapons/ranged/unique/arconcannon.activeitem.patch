@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires plasma bursts.\n^yellow;Counts as 'plasma' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 プラズマが爆発する。\n^yellow;「プラズマ」に数えられるボーナス数^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコン・ブラスター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Attaches to the forearm. Fires plasma bursts.\n^yellow;Counts as 'plasma' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "前腕に取り付けられます。 プラズマが爆発する。\n^yellow;「プラズマ」に数えられるボーナス数^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "ArCon Blaster MkII"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アーコン・ブラスター MkII"
+    }
+  ]
+]

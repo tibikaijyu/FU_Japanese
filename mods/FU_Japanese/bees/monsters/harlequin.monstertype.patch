@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A harlequin bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harlequin Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハーレキンビー"
+    }
+  ]
+]

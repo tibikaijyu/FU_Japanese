@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A literal stick in the mud."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "泥の中の文字通りの棒。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tent Pole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テントポール"
+    }
+  ]
+]

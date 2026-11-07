@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Plague Flip"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ペストフリップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A revolting bio-weapon.\n^cyan;Plague Bearing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "革命的な生物兵器。\n^cyan;ペストベアリング^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshweave Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュウィーブ大軸"
+    }
+  ]
+]

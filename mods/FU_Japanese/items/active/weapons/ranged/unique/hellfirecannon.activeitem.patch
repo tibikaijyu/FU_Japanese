@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This might in some way be related to fire.\n^yellow;Inflicts burning^reset;\n^green;Awesome^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは何らかの形で火災と関係しているのかもしれない。\n^yellow;焼失する影響^reset;\n^green;素晴らしい^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Ejector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄火エジェクタ"
+    }
+  ]
+]

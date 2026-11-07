@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gathered genetic material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遺伝物質を集める。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Genes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "遺伝子"
+    }
+  ]
+]

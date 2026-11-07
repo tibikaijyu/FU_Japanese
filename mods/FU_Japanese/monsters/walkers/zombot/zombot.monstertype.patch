@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slow, plodding and extremely well armored."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遅く、ふくらみ、非常によく装甲。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zombot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゾムボット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Techy Queens!\n<beeData>"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テッキークイーンズ!\n<beeData>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術枠"
+    }
+  ]
+]

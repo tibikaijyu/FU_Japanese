@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional garb for a Kingsryche."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キングスライクの伝統的な衣服。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kingsryche Sash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キングスライクの帯"
+    }
+  ]
+]

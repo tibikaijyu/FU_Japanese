@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This station is designed to pull genes from seeds for study and experimentation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このステーションは、研究と実験のために種子から遺伝子を抽出するように設計されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Xeno Research Lab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;異種生物研究室^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Seed Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "種子抽出装置"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Cosmic Resist II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "宇宙レジストII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides +20% Cosmic Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+20%宇宙レジストを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Resist II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙レジストII"
+    }
+  ]
+]

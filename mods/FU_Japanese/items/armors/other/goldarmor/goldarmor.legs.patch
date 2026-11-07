@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Striker: +^green;5^reset;% Crit\n\t\t\t^yellow;^reset; ^green;30^reset;% Knockback Resist\n\t\t\t^yellow;^reset; +^green;15^reset;% Charisma"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ストライカー:+^green;5^reset;%クリティカル\n\t\t\t^yellow;^reset; ^green;30^reset;% ノックバック抵抗\n\t\t\t^yellow;^reset; +^green;15^reset;% カリスマ"
+    }
+  ]
+]

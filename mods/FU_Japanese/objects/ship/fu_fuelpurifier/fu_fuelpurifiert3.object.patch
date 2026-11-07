@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purifies fuel before it reaches your ships FTL drive. Reduces fuel cost by ^green;15^reset;%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃料を精製してから、船のFTLドライブに到達します。 ^green;15^reset;% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Dense Fuel Purifier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 高密度燃料精製機^reset;"
+    }
+  ]
+]

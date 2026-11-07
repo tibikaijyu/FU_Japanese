@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ejects poisonous clouds. Fun.\n^yellow;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒雲を排出する。 楽しい。\n^yellow; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Ejector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒エジェクター"
+    }
+  ]
+]

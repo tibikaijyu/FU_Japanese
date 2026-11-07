@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stalwart Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタールワート・ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalwart Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタールワート・ドローン"
+    }
+  ]
+]

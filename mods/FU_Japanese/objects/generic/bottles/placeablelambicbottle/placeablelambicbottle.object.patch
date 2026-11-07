@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable Grape Lambic Bottle!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! プレースタブルグレープランビックボトル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Grape Lambic Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "定置式グレープ・ランビックボトル"
+    }
+  ]
+]

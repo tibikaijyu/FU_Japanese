@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unknown stone that joins perfectly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧に結合する未知の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老の瓦"
+    }
+  ]
+]

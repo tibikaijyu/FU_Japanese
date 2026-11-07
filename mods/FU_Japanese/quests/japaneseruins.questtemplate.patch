@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've traversed the entirety of this mountain. Whatever was going on here, seems like the ancients were ultimately responsible for it."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私はこの山全体を横断した。 ここで何が起きていたにせよ、古代の人々は最終的にそれに責任を持っていたようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Investigate the peak of Mount Gigant."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "巨山の山頂を調査。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "An ancient Hylotl mountain is said to be cursed. Dare you investigate?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "古代のヒロトル山は呪われたと言われています。 調べていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Mount Gigant"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; 巨人。"
+    }
+  ]
+]

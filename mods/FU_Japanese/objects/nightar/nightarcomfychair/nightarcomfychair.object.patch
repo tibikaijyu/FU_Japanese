@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft, pliable and amazingly comfortable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかく、柔軟で、驚くほど快適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Comfy Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアール快適な椅子"
+    }
+  ]
+]

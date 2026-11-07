@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Impale your enemies, rather than just killing them.\n^yellow;Inflicts bleeding^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を殺すのではなく、敵を傷つけなさい。\n^yellow;出血を引き起こす^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harpoon Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハルポオンガン"
+    }
+  ]
+]

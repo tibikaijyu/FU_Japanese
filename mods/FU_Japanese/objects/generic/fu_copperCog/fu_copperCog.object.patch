@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny gear in the system."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "システム内の小さなギア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Cog"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銅コグ"
+    }
+  ]
+]

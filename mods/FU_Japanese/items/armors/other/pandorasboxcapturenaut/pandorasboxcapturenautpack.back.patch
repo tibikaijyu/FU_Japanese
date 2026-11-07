@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A backpack that allows you to have an additional pet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "追加でペットを飼えるバックパック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capturenaut Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲探検家のパック"
+    }
+  ]
+]

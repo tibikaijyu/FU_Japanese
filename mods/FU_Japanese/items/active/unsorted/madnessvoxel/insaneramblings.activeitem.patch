@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your lab notes. Thoroughly nutters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの研究室のメモ。 かなり口がきけている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Insane Notes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狂気のメモ"
+    }
+  ]
+]

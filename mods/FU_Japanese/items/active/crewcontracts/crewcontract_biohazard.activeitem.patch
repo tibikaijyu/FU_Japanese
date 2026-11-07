@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a Biohazard specialist. Provides ^yellow;30% Radiation resistance^reset;, and increase your ship's fuel capacity by 340."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオハザードスペシャリストを雇う。 ^yellow;30%放射線抵抗^reset;を提供し、船の燃料容量を340 で増やします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Biohazard Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオハザード契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shining, shimmering splendour"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝き、輝き、輝き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリスタルライト"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flagpole fit for topping any building."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "建物のトップにフィットする旗極。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Flagpole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世旗"
+    }
+  ]
+]

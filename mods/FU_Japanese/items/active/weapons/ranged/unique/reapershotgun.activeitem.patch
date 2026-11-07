@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires freezing dark matter flechettes.\n^cyan;Freezes enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フリーズダークマターフレシェットを発射します。\n^cyan;敵を凍らせる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-2 Showstopper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-2 ショーストッパー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wonderful. Should I turn back?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしい。 振り返ってみようか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Spatter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液スパッタ"
+    }
+  ]
+]

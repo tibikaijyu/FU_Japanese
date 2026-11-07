@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute platform"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛らしいプラットホーム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいホーム"
+    }
+  ]
+]

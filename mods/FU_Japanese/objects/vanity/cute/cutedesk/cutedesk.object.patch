@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute little desk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい小さな机。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Desk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい机"
+    }
+  ]
+]

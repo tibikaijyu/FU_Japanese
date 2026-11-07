@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/close/caption",
+      "value": "Dismiss"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/close/caption",
+      "value": "解雇"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/textScrollBox/children/text/value",
+      "value": "I AM ERROR"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/textScrollBox/children/text/value",
+      "value": "私は間違いです"
+    }
+  ]
+]

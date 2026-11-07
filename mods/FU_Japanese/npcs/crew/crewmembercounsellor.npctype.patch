@@ -1,0 +1,350 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Fixing Heads"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "頭部の固定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Apprentice Counsellor"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "見習いカウンセラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+      "value": "あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "If you don't share your problems, I cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+      "value": "問題を共有しなければ、私は助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "Have you seen a bearded, sexy commander lately? I'm asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2",
+      "value": "最近、ひげを生やしたセクシーな指揮官を見たことがありますか? 友達を呼んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "This isn't the first time I've been exposed to this, it's okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+      "value": "私はこのことに初めて触れたわけではありませんが、開けても大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0",
+      "value": "あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "If you don't share your problemsss, Floran cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1",
+      "value": "問題を共有しなければ、フローランは助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "Have you sseen a bearded, sssexy commander lately? Floran iss asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2",
+      "value": "最近、ひげを生やしたセクシーな指揮官を見たことがありますか? フローランは友達を求めています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/3",
+      "value": "This issn't the firsst time Floran hass sseen this, it'ss okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/3",
+      "value": "フローランがこれを見たのは今回が初めてではなく、開けてもいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "Sympathetic. Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0",
+      "value": "共感。 あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "Tender. If you don't share your problems, I cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1",
+      "value": "ティーン。 問題を共有しなければ、私は助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "Casual. Have you seen a bearded, sexy commander lately? I'm asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2",
+      "value": "カジュアル。 最近、ひげを生やしたセクシーな指揮官を見たことがありますか? 友達を呼んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "Reassuring. This isn't the first time I've been exposed to this, it's okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3",
+      "value": "安心。 私はこのことに初めて触れたわけではありませんが、開けても大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0",
+      "value": "あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "If you don't share your problems, I cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+      "value": "問題を共有しなければ、私は助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "Have you seen a bearded, sexy commander lately? I'm asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2",
+      "value": "最近、ひげを生やしたセクシーな指揮官を見たことがありますか? 友達を呼んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "This isn't the first time I've been exposed to this, it's okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3",
+      "value": "私はこのことに初めて触れたわけではありませんが、開けても大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/0",
+      "value": "Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/0",
+      "value": "あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/1",
+      "value": "If you don't share your problemsss, Floran cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/1",
+      "value": "問題を共有しなければ、フローランは助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/2",
+      "value": "Have you sseen a bearded, sssexy commander lately? Floran iss asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/2",
+      "value": "最近、ひげを生やしたセクシーな指揮官を見たことがありますか? フローランは友達を求めています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/3",
+      "value": "This issn't the firsst time Floran hass sseen this, it'ss okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/floran/default/3",
+      "value": "フローランがこれを見たのは今回が初めてではなく、開けてもいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/0",
+      "value": "Sympathetic. Tell me what you're feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/0",
+      "value": "共感。 あなたの気持ちを教えてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/1",
+      "value": "Tender. If you don't share your problems, I cannot help you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/1",
+      "value": "ティーン。 問題を共有しなければ、私は助けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/2",
+      "value": "Casual. Have you seen a bearded, sexy commander lately? I'm asking for a friend."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/2",
+      "value": "カジュアル。 最近、ひげを生やしたセクシーな指揮官を見たことがありますか? 友達を呼んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/3",
+      "value": "Reassuring. This isn't the first time I've been exposed to this, it's okay to open up."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/fieldBenefit/glitch/default/3",
+      "value": "安心。 私はこのことに初めて触れたわけではありませんが、開けても大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "Tell me your problems and I'll help soothe your worries. With science!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "あなたの問題を教えて下さい、そして、私はあなたの心配を和らげるお手伝いをします。 科学で!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "Tell Floran your problems and Floran will sssoothe your worries. With ssscience!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
+      "value": "フローランにあなたの問題を伝え、フローランはあなたの心配を和らげます。 科学で!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "Reassuring. Tell me your problems and I'll help soothe your worries. With science!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
+      "value": "安心。 あなたの問題を教えて下さい、そして、私はあなたの心配を和らげるお手伝いをします。 科学で!"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Genetically improved! Resistant to cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遺伝子的に改良! 寒さに強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Talon Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タロン種子"
+    }
+  ]
+]

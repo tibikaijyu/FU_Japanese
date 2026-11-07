@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This advanced centrifuge efficiently separates immiscible liquids. ^cyan;Requires ^orange;24W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この高度な遠心分離機は、不溶性液体を効率的に分離する。 ^cyan; は ^orange;24W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Lab Centrifuge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ラボ 遠心分離機 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Extract items from resources"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "リソースからアイテムを抽出する"
+    }
+  ]
+]

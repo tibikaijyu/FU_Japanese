@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grab their attention with this smashingly expensive piece of art."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高価な芸術作品で彼らの注意をつかんでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fabricated World"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ものづくりの世界"
+    }
+  ]
+]

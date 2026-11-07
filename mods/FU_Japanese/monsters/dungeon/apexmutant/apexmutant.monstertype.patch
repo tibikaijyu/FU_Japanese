@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This poor soul has lost themselves at the hands of the Miniknog. Best to put them out of their misery."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この貧しい魂はミニノッグの手によって自分自身を失った。 彼らを惨めさから解放するのが最善です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Test Subject"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Apexテスト科目"
+    }
+  ]
+]

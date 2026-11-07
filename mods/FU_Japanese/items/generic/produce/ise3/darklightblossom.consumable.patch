@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Insanity, Darkness: 1.5m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;無効化^reset;:狂気、暗黒:1.5m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Darklight Blossom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークライトブロッサム"
+    }
+  ]
+]

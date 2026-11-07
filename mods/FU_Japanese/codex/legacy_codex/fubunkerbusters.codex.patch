@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "by Hiraki Corale, Hylotl adventurer\nMy ship crash-landed on a planet. I may have been fleeing a certain simian species at the time, and decided the best course of action was to lure them into an asteroid field. It worked! Of course, I have no experience navigating through asteroid fields so here I am."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ヒロトル・アドベンチャーズのヒラキ・コラレが\n私の船は惑星に墜落した。 私はその時点で特定のシミアン種から逃れていた可能性があり、そして最良の行動の道は、それらを小惑星フィールドに誘い込むことでした。 うまくいった! もちろん、小惑星帯を航行した経験はありませんので、ここでは申し上げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I found a group of humans in a hole in the ground. Not the creepy kind of hole, some kind of military bunker. I thought I'd drop in, regale them with tales of some of my adventures, but no, they were having none of it. Wouldn't even let me in. Shocking hospitality! In the end I borrowed one of their spaceships for spare parts, and left them to it."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私は地面に穴の中に人間のグループを見つけました。 気味の悪い穴ではなく、軍事用のバンカーのようなものです。 ぼくは、ぼくの冒険の物語で彼らをかわすつもりだったが、いやいや、彼らは何も持っていなかった。 私も入れてくれない。 おもてなし! 結局、私は予備部品のために彼らの宇宙船の一つを借りて、それにそれらを残しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Adventure Notes v23"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アドベンチャーノート v23"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Bunker Busters"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "バンカーバスター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Somewhat hard and uncomfortable. Pretty, though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくらかの困難で不快。 でも可愛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバーチェア"
+    }
+  ]
+]

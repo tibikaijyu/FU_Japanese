@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A confectionary made of cinnamon, sugar, and dough. ^green;Type: Grain Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シナモン、砂糖、生地で作られた菓子。 ^green;種類: 粒状デザート ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnamon Roll"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナモンロール"
+    }
+  ]
+]

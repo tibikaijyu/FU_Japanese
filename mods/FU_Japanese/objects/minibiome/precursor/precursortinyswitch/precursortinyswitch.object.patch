@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of ancient touch sensitive switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のタッチセンシティブスイッチのようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tiny Touch Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タッチ画面がちっちゃい"
+    }
+  ]
+]

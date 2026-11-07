@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute padded chair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいパッド入りの椅子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい椅子"
+    }
+  ]
+]

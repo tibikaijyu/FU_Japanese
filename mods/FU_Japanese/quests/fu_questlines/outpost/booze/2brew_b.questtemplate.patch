@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Great. Did you harvest your crops yet? Do that, if not. Also, take these ^orange;Bottles^reset; for the next step."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "すごい。 もう作物を収穫しましたか。 そうはいかないが、そうしない。 また、次のステップでは、これらの ^orange; ボトル ^reset; を選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Next, you'll need to make ^orange;Yeast Water^reset;. Use ^orange;Water^reset; and ^orange;Wheat^reset; in the ^orange;Mashing Tun^reset; to make 3 ^orange;Grain Water^reset;. Use ^orange;Sugar^reset; with the ^orange;Grain Water^reset; in the ^orange;Mashing Tun^reset; to make ^orange;Yeast Water^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次に、^orange;酵母水^reset; を作る必要があります。 利用 ^orange;水^reset; そして ^orange;小麦^reset; 中には ^orange;マッシングタン^reset; 作り上げるために 3 ^orange;穀物水^reset;. 利用 ^orange;砂糖^reset; 一緒に ^orange;穀物水^reset; 中には ^orange;マッシングタン^reset; 作り上げるために ^orange;酵母水^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Brewing II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "醸造II"
+    }
+  ]
+]

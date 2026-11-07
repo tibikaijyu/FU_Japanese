@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A painting of a charming, fuzzy pink creature."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "魅力的でファジィピンクの生き物の絵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The creature in this painting here is highly unusual."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この絵の生き物はとても珍しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A commissioned portrait of someone's beloved pet Snoggle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かの愛するペットスナグルの委託肖像画。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Fuzzy pink thing. Hair would get sstuck in Floran's throat."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ファジィピンクのもの。 髪の毛はフロランの喉に刺さった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. Someone must care an awful lot for their pet to commemorate them like this."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 ペットがこんな風に記念するなら、だれかが大事にしなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Aw, we used to have toys that sort of looked like these things! But a lot... creepier..."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "昔はこんなおもちゃがあったんだ! しかし、もっと...不気味な..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Oh my goodness! The creature in this painting looks like a living plush toy!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "おお、よかった! この絵の生き物は生きている豪華なおもちゃのように見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Snoogle, huh? Looks a bit like my Snugget. Wonder if they're related at all..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "スヌーグル? 私のナゲットに少し似ています。 関係あるのかな..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snoogle Portrait"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スヌーグルポートレート"
+    }
+  ]
+]

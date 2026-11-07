@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of a strange, unidentifiable liquid.\n^green;Growth Rate x^white;1.5 ^gray;& ^green;+^white;2 ^green;produce.\n^cyan;-^white;1 ^cyan;seed use^reset;\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な、識別不可能な液体の測定。\n^green;成長率x^white;1.5 ^gray;& ^green;+^white;2 ^green;農産物\n^cyan;-^white;1 ^cyan;種子の使用^reset;\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Essentia Obscura"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エッセンシア・オブスキュラ"
+    }
+  ]
+]

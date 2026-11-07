@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wants to do nothing but giggle, sing and hug. All the time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "笑い、歌、抱擁だけをしたい。 いつもです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hopper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホッパー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decent biofuel.\n^blue;+^white;8 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まともなバイオ燃料。\n^blue;+^white;8 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Biofuel Canister"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バイオ燃料キャニスター"
+    }
+  ]
+]

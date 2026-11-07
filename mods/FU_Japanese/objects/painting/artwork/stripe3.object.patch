@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Representing spirit and freedom, this painting is gorgeous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精神と自由を表し、この絵はゴージャスです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stripe 3"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストライプ 3"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An...an eye lamp. Great."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイランプだ。 すごい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュランプ"
+    }
+  ]
+]

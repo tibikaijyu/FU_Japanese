@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lower-class garment, though still quite nice. Gives ^green;0.3^reset; Health Regen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "下級の衣服ですが、まだかなり良いです。 与える ^green;0.3^reset;健康再生。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plebeian Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレビアントップ"
+    }
+  ]
+]

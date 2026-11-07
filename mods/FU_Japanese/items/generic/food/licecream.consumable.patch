@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from 100% lice.\n^cyan;+^white;10% ^pink;Poison ^cyan;Res ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "100%liceから作成。\n^cyan;+^white;10% ^pink;毒 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライスクリーム"
+    }
+  ]
+]

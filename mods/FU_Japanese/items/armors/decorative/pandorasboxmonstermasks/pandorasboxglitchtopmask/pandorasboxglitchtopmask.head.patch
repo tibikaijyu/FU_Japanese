@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't even remember when we started stocking this, but it looks cool, so we kept it!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いつから在庫を入れたか覚えていませんが、かっこいいので、保管しました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitchtop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチトップマスク"
+    }
+  ]
+]

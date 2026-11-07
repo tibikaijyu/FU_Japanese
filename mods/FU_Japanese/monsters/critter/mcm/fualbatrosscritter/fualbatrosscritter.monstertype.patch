@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small sea bird with great wings. It soars through the sky and dives for food on the surface of the water."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな翼を持つ小さな海鳥。 空を飛び回り、水面に食べ物を潜ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Albatross"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルバトロス"
+    }
+  ]
+]

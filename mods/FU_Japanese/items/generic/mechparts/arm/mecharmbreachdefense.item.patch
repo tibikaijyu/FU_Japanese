@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Short-ranged drones ideal for mining defense."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "短距離ドローンはマイニング防御に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Defense"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "防御"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A farmable dog treat. Boosts health and energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "農耕可能な犬の御treat走。 健康とエネルギーを高めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Biscorn Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビスコーン種子"
+    }
+  ]
+]

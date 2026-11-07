@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shining, high-quality silver stairs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある高品質のシルバー階段。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Stair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀階段"
+    }
+  ]
+]

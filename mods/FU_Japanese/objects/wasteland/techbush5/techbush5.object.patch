@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Hey, that looks like my ship..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ねえ、それは私の船のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Is this an evacuation warning?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これは避難警告ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old rusted sign with instructions of some kind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の指示を伴う古い錆びた看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran see space ship. Can't read text."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは宇宙船を見ます。 テキストが読めません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Puzzled. Is that symbol a ship?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "パズル。 そのシンボルは船ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Something tells me this isn't an ad for tourism."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "これは観光の広告ではないと何かが私に教えてくれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This sign may be an evacuation decree, yet it is so ancient..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この標識は避難命令かもしれないが、それは非常に古代のものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rusted Information Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "錆びた案内看板"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reinforced support beam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "補強支持ビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssupport beam."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サポートビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. Some kind of metalic support beam."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 ある種の金属サポートビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Looks t'me like a big metal beam."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "まるで大きな金属製の梁のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Support Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間支援ビーム"
+    }
+  ]
+]

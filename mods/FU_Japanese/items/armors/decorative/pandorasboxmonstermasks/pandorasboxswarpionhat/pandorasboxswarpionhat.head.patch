@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Non-venomous, and safe to wear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非毒で着用も安全。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swarpion Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スワーピオンハット"
+    }
+  ]
+]

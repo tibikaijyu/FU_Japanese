@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "This coupon entitles the holder - yes, you! - to a life-changing experience. Come on down to Antonio's Bargain Pizzeria, just a short walk from the Protectorate Academy, and enjoy the fabulous value of 3 grande pizzas for the price of two and a half! Don't wait, drop by today!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "このクーポンは所有者に権利を与えます - はい、あなた! 人生を変える体験へと Antonio's Bargain Pizzeriaへは、プロテクトレート Academyから徒歩ですぐのところにあり、3Grande pizzasの素晴らしい価値を二つ半の価格でお楽しみください! 待たないで、今日寄って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "The expiry date for this coupon appears to be the week before your Protectorate graduation ceremony."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "このクーポンの有効期限は、保護者の卒業式の前週のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fabulous savings inside!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内部の素晴らしい貯蓄!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Pixels - 100000"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ピクセル - 100000"
+    }
+  ]
+]

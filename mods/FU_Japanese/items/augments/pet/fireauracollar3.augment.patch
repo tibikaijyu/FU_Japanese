@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Fire Aura III"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "炎オーラ III"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet gets a fire aura!\n^green;+60%^reset; Fire Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは火のオーラをゲット!\n^green;+60%^reset; 耐火性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fire Aura Collar III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炎オーラの首輪 III"
+    }
+  ]
+]

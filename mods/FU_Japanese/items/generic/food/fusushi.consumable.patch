@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raw fish. Rice. Seaweed. Clearly meant to work together.\n^cyan;Powerful Swim ^gray;(^white;220s^gray;)^reset; ^orange;Type: Seafood + Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生魚。 ライス 海藻。 明らかに一緒に働くことを意図していた。\n^cyan;強力な水泳 ^gray;(^white;220ス)^gray;)^reset; ^orange;タイプ:シーフード+穀物。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sushi Platter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "すし盛り"
+    }
+  ]
+]

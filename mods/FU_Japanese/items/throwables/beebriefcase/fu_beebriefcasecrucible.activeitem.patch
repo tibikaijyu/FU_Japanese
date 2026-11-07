@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/activationText",
+      "value": "To <playerName>\n\nI noticed you had a Cosmic Crucible that was lacking bees, so I replaced it with bees.\n\nFrom Kevin\n\n\nP.S. I hope you have fun dying :)"
+    },
+    {
+      "op": "replace",
+      "path": "/activationText",
+      "value": "<playerName>\n\nミツバチが不足していた宇宙のクルシブルがあることに気付き、ミツバチに置き換えました。\n\n訳ケビン\n\n\nP.S. 死にたい人へ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient technology capable of enhancing weapons, armor and equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器、装甲、装備を強化することができる古代の技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Crucible"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙のるつぼ"
+    }
+  ]
+]

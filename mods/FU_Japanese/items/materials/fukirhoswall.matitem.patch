@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tough, dense alloy wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で高密度な合金の壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金の壁"
+    }
+  ]
+]

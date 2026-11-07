@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strong support made of unknown metals"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知金属製の強力な支持体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Support Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体支持柱"
+    }
+  ]
+]

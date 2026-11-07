@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious donut. ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しいドーナツ。 ^orange;タイプ: 穀物+乳製品+卵+砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chocolate Donut"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョコレートドーナツ"
+    }
+  ]
+]

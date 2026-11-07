@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests": 18,
+  "assertions": 3430,
+  "ascii_regression_scenes": 4,
+  "unicode_and_markup_scenes": 8,
+  "end_card_rendering_cases": 3,
+  "upstream_sha256": "1964b25cdf10926ef80bcfacffe5f5183b627e702596bbc94c78947f4a17ea0f",
+  "patched_sha256": "1c2d8d11108e02a582db93a62ae04c50d2d940ba0443f42c3975a09b1b73ab8f",
+  "limitations": "Actual Lua functions with mocked game APIs; Starbound font rendering and pane clipping not exercised."
+}

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its movement is determined by temperature levels in the atmosphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その運動は大気中の温度レベルによって決定される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Minion"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミニオン"
+    }
+  ]
+]

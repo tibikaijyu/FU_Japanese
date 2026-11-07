@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny. The amber really catches light!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝かしい。 アンバーは本当に光をキャッチ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバー内閣"
+    }
+  ]
+]

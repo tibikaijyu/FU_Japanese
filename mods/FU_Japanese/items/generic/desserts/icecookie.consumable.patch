@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cookies are as solid and as cold as ice. \n^pink;Moderate Cold^gray;, ^pink;Liquid Nitrogen ^cyan;Immunity ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのクッキーは固くて、氷のように寒い。 \n^pink;寒冷 ^gray;, ^pink;液体窒素^cyan;免疫性^gray;(^white;5m^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍クッキー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Anything written or drawn with it is a lie."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それを使って書かれたり描いたりしたものは何でも嘘です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crayon of Lies"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "嘘のクレヨン"
+    }
+  ]
+]

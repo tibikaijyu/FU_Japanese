@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a deadly cyborg. Increases ship speed by 1.25 and grants ^pink;Aether Immunity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的なサイボーグを雇う。 船の速度を1.25で上げ、^pink;エーテル免疫^reset;を付与します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cyborg Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイボーグ契約"
+    }
+  ]
+]

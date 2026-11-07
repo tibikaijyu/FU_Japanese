@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gene increases overall physical agility or metabolism."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この遺伝子は全体的な身体的敏敏性または代謝を増加させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Agility"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アジリティ"
+    }
+  ]
+]

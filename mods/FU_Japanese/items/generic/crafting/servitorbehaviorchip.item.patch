@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A droid behavior module."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ドロイド動作モジュール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Behavior Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビヘイビアモジュール"
+    }
+  ]
+]

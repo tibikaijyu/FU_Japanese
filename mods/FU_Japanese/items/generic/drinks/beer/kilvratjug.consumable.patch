@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An offensively strong alcohol intended for consumption by the multiphasic Tenebrhae.\n^cyan;+^white;120 ^cyan;HP^gray;, ^pink;Mud^gray;, ^pink;Slime^gray;, ^pink;Icy^gray;, ^pink;Snow ^cyan;Immunity ^gray;(^white;90s^gray;)\n^red;Hammered ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多相テネブラーエの消費を意図した攻撃的に強いアルコール。\n^cyan;+^white;120 ^cyan;HP^gray;, ^pink;泥^gray;, ^pink;粘液^gray;, ^pink;アイシー^gray;, ^pink;雪 ^cyan;免疫 ^gray;(^white;90ス)^gray;)\n^red; Hammered^gray;(^white;2m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tenebrhaeic Kilvrat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寛骨臼キルブラット"
+    }
+  ]
+]

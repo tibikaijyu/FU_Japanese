@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This can detect the presence of a specific liquid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは、特定の液体の存在を検出することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thiss detectss the pressence of a sspecific liquid."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "これは、特定の液体の圧力を検出する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. This can detect the presence of a specific liquid."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 これは、特定の液体の存在を検出することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Liquid Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先端液体センサ"
+    }
+  ]
+]

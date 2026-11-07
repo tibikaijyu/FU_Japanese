@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Supremely devastating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最高に壊滅的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pulsar Grenade Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パルサー・グレネード・アーム"
+    }
+  ]
+]

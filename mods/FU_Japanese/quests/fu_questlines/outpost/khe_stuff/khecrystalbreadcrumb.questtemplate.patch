@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You hear a voice from the nearby extractor say 'Khe sees you. Have shiny recipe!'"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "近くの抽出機から「ヘー、君に会おう」という声が聞こえてくる。 ピカピカのレシピを!』"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You hear a voice from the nearby extractor say 'Khe sees you. Come get special shiny!'"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "近くの抽出機から「ヘー、君に会おう」という声が聞こえてくる。 特別に輝いてこい!」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Shiny Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "光沢結晶"
+    }
+  ]
+]

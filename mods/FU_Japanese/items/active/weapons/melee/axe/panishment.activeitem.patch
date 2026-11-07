@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Skillet technology will never surpass cast iron."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Skilletの技術は決して鋳鉄を超えることはありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Panishment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パニッシュメント"
+    }
+  ]
+]

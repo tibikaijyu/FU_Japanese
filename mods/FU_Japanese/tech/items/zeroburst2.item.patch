@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An improved blast and jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "改良されたブラストとジャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Zero Burst II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3; バーストII^reset;"
+    }
+  ]
+]

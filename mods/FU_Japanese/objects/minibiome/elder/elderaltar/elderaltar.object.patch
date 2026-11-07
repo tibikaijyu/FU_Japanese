@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An altar dedicated to some unspeakable horror. I wonder what function it serves?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "話せない恐怖に捧げられた祭壇。 どんな機能があるのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#86a84a;Elder Altar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#86a84a;エルダー祭壇^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "a dark, terrible relic."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "暗いひどい遺物だ"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "More thorn than juice. ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジュースよりもタネが多い。 ^green; タイプ: 野菜 ^reset;"
+    }
+  ]
+]

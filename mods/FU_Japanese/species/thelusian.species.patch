@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "The carnivorous Thelusians are well known for their tough chitin shell and exceptionally dangerous combat abilities. Able to adapt to suit any combat situation.\n\n  ^orange;Diet^reset;: Carnivore\n\n^orange;Perks^reset;:\n  Health x^green;1.25^reset;, +^green;8^reset; Defense, Fall Damage x^green;0.4^reset;\n  ^green;Resist^reset;: +^cyan;30^reset;% Mental, +^cyan;15^reset;% Physical, +^cyan;20^reset;% Radiaoactive\n  ^cyan;Immune^reset;: Insanity\n  Tech: ^green;Warrior Instincts^reset;\n\n^orange;Environment^reset;:\n  ^green;Hot^reset; biomes: Health x^green;1.1^reset;\n  Improved ground traction\n\n^orange;Weapons^reset;:\n  Scythe Mastery: +^green;15^reset;%\n  Broadsword Mastery: +^green;15^reset;%\n  Axe Mastery: +^green;10^reset;%\n  Shield: Defense x^green;1.1^reset;\n  Perfect Block: Increases ^green;Shield Bash^reset; chance\n\n^red;Weaknesses^reset;:\n  Energy x^red;0.75^reset;, -^red;25^reset;% Charisma\n  ^red;Resist^reset;: -^red;30^reset;% Fire, -^red;15^reset;% Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "肉食のテルシアンは、硬いキチン質の外殻と、極めて危険な戦闘能力で知られる。どんな戦況にも適応できる種族だ。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  体力 x^green;1.25^reset;、防御力 +^green;8^reset;、落下ダメージ x^green;0.4^reset;\n  ^green;耐性^reset;：精神 +^cyan;30^reset;%、物理 +^cyan;15^reset;%、放射線 +^cyan;20^reset;%\n  ^cyan;無効^reset;：狂気\n  テック：^green;戦士の本能^reset;\n\n^orange;環境^reset;：\n  ^green;高温^reset;の環境：体力 x^green;1.1^reset;\n  地面をつかむ力が強く、滑りにくい\n\n^orange;武器^reset;：\n  大鎌の熟練度：+^green;15^reset;%\n  ブロードソードの熟練度：+^green;15^reset;%\n  斧の熟練度：+^green;10^reset;%\n  盾：防御力 x^green;1.1^reset;\n  パーフェクトブロック：^green;シールドバッシュ^reset;の発生率が上昇\n\n^red;弱点^reset;：\n  エネルギー x^red;0.75^reset;、カリスマ -^red;25^reset;%\n  ^red;耐性^reset;：炎 -^red;30^reset;%、氷 -^red;15^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/subTitle",
+      "value": "Warrior race from the Kortakk nebula"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/subTitle",
+      "value": "コルタック星雲出身の戦士の種族"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/title",
+      "value": "Thelusian"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/title",
+      "value": "テルシアン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/0",
+      "value": "Plate colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/0",
+      "value": "外板の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/1",
+      "value": "Detail"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/1",
+      "value": "細部"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/2",
+      "value": "Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/2",
+      "value": "シャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/3",
+      "value": "Legwear"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/3",
+      "value": "ボトムス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/4",
+      "value": "Marking colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/4",
+      "value": "模様の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/5",
+      "value": "Detail colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/5",
+      "value": "細部の色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/6",
+      "value": "Shirt colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/6",
+      "value": "シャツの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/7",
+      "value": "Legwear colour"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/7",
+      "value": "ボトムスの色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/8",
+      "value": "THELUSIAN"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/8",
+      "value": "テルシアン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charGenTextLabels/9",
+      "value": "Personality"
+    },
+    {
+      "op": "replace",
+      "path": "/charGenTextLabels/9",
+      "value": "性格"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "The carnivorous Thelusians are well known for their tough chitin shell and exceptionally dangerous combat abilities. Able to adapt to suit any combat situation.\r\n\r\n  ^orange;Diet^reset;: Carnivore\r\n\r\n^orange;Perks^reset;:\r\n  Health x^green;1.25^reset;, +^green;8^reset; Defense, Fall Damage x^green;0.4^reset;\r\n  ^green;Resist^reset;: +^cyan;30^reset;% Mental, +^cyan;15^reset;% Physical, +^cyan;20^reset;% Radiaoactive\r\n  ^cyan;Immune^reset;: Insanity\r\n  Tech: ^green;Warrior Instincts^reset;\r\n\r\n^orange;Environment^reset;:\r\n  ^green;Hot^reset; biomes: Health x^green;1.1^reset;\r\n  Improved ground traction\r\n\r\n^orange;Weapons^reset;:\r\n  Scythe Mastery: +^green;15^reset;%\r\n  Broadsword Mastery: +^green;15^reset;%\r\n  Axe Mastery: +^green;10^reset;%\r\n  Shield: Defense x^green;1.1^reset;\r\n  Perfect Block: Increases ^green;Shield Bash^reset; chance\r\n\r\n^red;Weaknesses^reset;:\r\n  Energy x^red;0.75^reset;, -^red;25^reset;% Charisma\r\n  ^red;Resist^reset;: -^red;30^reset;% Fire, -^red;15^reset;% Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "肉食のテルシアンは、硬いキチン質の外殻と、極めて危険な戦闘能力で知られる。どんな戦況にも適応できる種族だ。\n\n  ^orange;食性^reset;：肉食\n\n^orange;特性^reset;：\n  体力 x^green;1.25^reset;、防御力 +^green;8^reset;、落下ダメージ x^green;0.4^reset;\n  ^green;耐性^reset;：精神 +^cyan;30^reset;%、物理 +^cyan;15^reset;%、放射線 +^cyan;20^reset;%\n  ^cyan;無効^reset;：狂気\n  テック：^green;戦士の本能^reset;\n\n^orange;環境^reset;：\n  ^green;高温^reset;の環境：体力 x^green;1.1^reset;\n  地面をつかむ力が強く、滑りにくい\n\n^orange;武器^reset;：\n  大鎌の熟練度：+^green;15^reset;%\n  ブロードソードの熟練度：+^green;15^reset;%\n  斧の熟練度：+^green;10^reset;%\n  盾：防御力 x^green;1.1^reset;\n  パーフェクトブロック：^green;シールドバッシュ^reset;の発生率が上昇\n\n^red;弱点^reset;：\n  エネルギー x^red;0.75^reset;、カリスマ -^red;25^reset;%\n  ^red;耐性^reset;：炎 -^red;30^reset;%、氷 -^red;15^reset;%"
+    }
+  ]
+]

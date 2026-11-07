@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy support beam made of industrial metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "工業用金属製の頑丈な支持梁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金サポート"
+    }
+  ]
+]

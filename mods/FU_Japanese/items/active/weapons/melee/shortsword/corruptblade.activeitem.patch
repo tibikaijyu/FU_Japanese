@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unpleasant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快感"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupted Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破損した刃"
+    }
+  ]
+]

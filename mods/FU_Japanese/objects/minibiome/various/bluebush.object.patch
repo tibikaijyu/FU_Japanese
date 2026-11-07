@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blueleaf Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブルーリーフブッシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blueleaf Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーリーフブッシュ"
+    }
+  ]
+]

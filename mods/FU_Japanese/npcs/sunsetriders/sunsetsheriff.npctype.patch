@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "You shouldn't be seeing this."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "見るべきではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/novakid/default/0",
+      "value": "Howdy, stranger. You're after the bounty, aren't you? Hawkeye Hank's place is on the other side of the hill...his men are thick as thieves on it, though. You could fight your way through them, or you could make your way through the mines...choice's up to you. Just come back safely, okay?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/novakid/default/0",
+      "value": "やあ、見知らぬ人。 報奨金は君が追っているんだね? ホークアイ・ハンクの居場所は丘の向こう側にある...彼の部下は泥棒のように太い。 あなたはそれらを通してあなたの方法を戦ったり、鉱山を通してあなたの方法を作ることができます...選択はあなた次第です。 無事に戻ってきてください"
+    }
+  ]
+]

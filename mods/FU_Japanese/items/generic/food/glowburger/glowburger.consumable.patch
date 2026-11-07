@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glowing hamburger with some violiroot and phasefruit inside.\n^cyan;+^#ffd700;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;228^gray;)\n^white;Glow ^gray;(^white;2m^gray;)\n^red;Electrified ^gray;(^white;18s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内部にバイオリルートとフェーズフルーツを添えた光るハンバーガー。\n^cyan;+^#ffd700;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;228^gray;)\n^white;発光 ^gray;(^white;2m ^gray;)\n^red; 電化 ^gray;(^white;18s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowburger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グローバーガー"
+    }
+  ]
+]

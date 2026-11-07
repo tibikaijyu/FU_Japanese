@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange arrangement of very ancient, unknown stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に古代の、未知の石の奇妙な配置。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Bricks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老れんが"
+    }
+  ]
+]

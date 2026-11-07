@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Able to generate a static shield to repel predators."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "捕食者を撃退するための静的シールドを生成することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mireurchin Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウニの種"
+    }
+  ]
+]

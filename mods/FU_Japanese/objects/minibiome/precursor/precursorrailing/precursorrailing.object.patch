@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderfully glowy railing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すばらしく輝く手すり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Railing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前線"
+    }
+  ]
+]

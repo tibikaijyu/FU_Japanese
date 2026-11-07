@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hefty tungsten dagger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重いタングステンダガー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンダガー"
+    }
+  ]
+]

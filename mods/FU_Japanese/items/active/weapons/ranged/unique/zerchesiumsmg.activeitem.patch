@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Put your enemies on ice.\n^cyan;Slows enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を氷の上に置きなさい。\n^cyan;スローな敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium SMG"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セルチウムSMG"
+    }
+  ]
+]

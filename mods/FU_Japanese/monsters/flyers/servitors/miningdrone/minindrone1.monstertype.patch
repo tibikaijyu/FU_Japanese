@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides information on nearby ores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近くの鉱石に関する情報を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ore Drone I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレ・ドローン"
+    }
+  ]
+]

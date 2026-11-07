@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional Hylotl weapon of war.\n^cyan;Huge striking power. Cold edged^reset;.\n^green;Slowing Alt^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒュロトスの伝統兵器。\n^cyan; 大きな力。 寒いエッジ^reset;。\n^green;遅いAlt^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Great Scion"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "偉大なるシオン"
+    }
+  ]
+]

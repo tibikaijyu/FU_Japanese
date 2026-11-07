@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't worry. The leaf is more durable than it looks!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "心配するな。 葉は見た目よりも丈夫です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Autumnbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "秋のマスク"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Prepare"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "準備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "Stop"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnStopCraft/caption",
+      "value": "停止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "INGREDIENTS AVAILABLE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "使用可能な材料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;DISH"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "^#b9b5b2;料理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;RECIPE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "^#b9b5b2;レシピ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;Display your food!"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": " ^#b9b5b2;食べ物を表示!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/title",
+      "value": " Plating Table"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": " メッキテーブル"
+    }
+  ]
+]

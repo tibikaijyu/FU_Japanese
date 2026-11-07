@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A book containing ancient and malign texts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古本と悪意のあるテキストを含む本。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Elder Tome^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e; エルダートーム ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful cold-source and thus has many nuclear applications.\n^blue;+^white;5 ^blue;Fuel\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な冷源であり、従って多くの原子力応用がある。\n^blue;+^white;5 ^blue;燃料\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Deuterium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体重水素"
+    }
+  ]
+]

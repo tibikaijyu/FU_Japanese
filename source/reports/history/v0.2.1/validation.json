@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "mod_version": "0.2.1-fu6.5.8",
+  "runtime_tested": false,
+  "scope": "v0.2.1 targeted repair: exact baseline payload comparison, complete patch parse and independent name-control checks, pinned FU reference-resolution regression. Not a full upstream reapplication or game launch.",
+  "patch_files_parsed": 14383,
+  "guarded_groups_checked": 187928,
+  "guarded_group_check_scope": "Structure and exact byte identity to v0.2.0; prior generic application tests are historical evidence, not runtime proof.",
+  "known_full_assets_verified": 0,
+  "known_full_asset_strings_changed": 0,
+  "patch_only_assets_without_vanilla_or_other_mod_base": 1223,
+  "upstream_reapplication_performed": false,
+  "prior_full_asset_validation": "history/v0.2.0/validation.json",
+  "prior_validation_limitation": "v0.2.0 incorrectly approved two source-ID translations. New namegen checks supersede that approval.",
+  "errors": [],
+  "source_guard_mismatches_in_known_assets": [],
+  "known_asset_source_patch_errors": [],
+  "authored_dialogue_groups_checked": 2,
+  "ui_presentation_groups_checked": 21,
+  "metadata_hard_dependencies": [],
+  "metadata_optional_load_after": [
+    "FrackinUniverse"
+  ],
+  "localized_lua_files_verified": 130,
+  "lua_verification": "Byte identity to the distributed v0.2.0; Lua tests not rerun for unchanged scripts.",
+  "lua_display_literal_changes": 694,
+  "supplemental_append_fields": 1203,
+  "embedded_json_display_fields": 44,
+  "namegen_regression": {
+    "passed": true,
+    "tests_run": 11,
+    "failures": 0,
+    "errors": 0,
+    "runtime_tested": false,
+    "scope": "Pinned FU fixture reference resolution, generator-control preservation, Japanese name-material preservation, source catalogs and shipped mutation paths. Does not execute Starbound or simulate Markov name output.",
+    "metrics": {
+      "name_catalog_rows_examined": 17792,
+      "fixed_source_references_resolved": 2,
+      "allowed_display_field_cases": 9,
+      "japanese_source_name_entries_preserved": 114,
+      "shipped_name_display_mutations_examined": 86090,
+      "unguarded_or_wrongly_guarded_slot_cases": 7,
+      "old_release_unknown_source_errors_reproduced": 2,
+      "protected_patch_mutation_cases": 7,
+      "protected_field_cases": 15
+    },
+    "upstream_fixture_sha256": {
+      "species/elduukharmalenamegen.config": "e2fe9398ba589f4e080d4dfe010cae1bcc497e710299a8638b0c508ff398494d",
+      "species/elduukharfemalenamegen.config": "0845bbe817eb0ba9303abb83572d81d8cb57e630c819f640657649ee9a178bb7",
+      "names/elduukharmale.namesource": "bf214789dd44ee5196e32d0adff8851736a1d9f7ecbc6e1965196284d307402c",
+      "names/elduukharfemale.namesource": "7e273ef47fc9cf748d9c702cf0f33fca0db1e199b521203c54f2a1718090b77e"
+    }
+  },
+  "baseline_archive_sha256": "09abec002f7a13e2dd81e74d613c58f1cf5edf53a2239663f42c502d7aea78fb",
+  "preserved_main_mod_files": 14519,
+  "removed_main_mod_files": [
+    "species/elduukharfemalenamegen.config.patch",
+    "species/elduukharmalenamegen.config.patch"
+  ],
+  "changed_main_mod_files": [
+    "_metadata"
+  ],
+  "preserved_optional_font_files": 0
+}

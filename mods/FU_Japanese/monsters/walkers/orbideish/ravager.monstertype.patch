@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Something about the way it limps makes you feel uncomfortable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "体がすすむと、気分が悪くなる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ravager"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラバガー"
+    }
+  ]
+]

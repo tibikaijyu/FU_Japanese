@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Static Shocks"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "静電気ショック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brutal violium-derived blasts shred opponents.\n^yellow;Inflicts electrified status^reset;\n^cyan;Inflicts Slow status^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブルターニュのバイオリン由来の爆風が相手を斬る。\n^yellow;電化状態に影響を及ぼす^reset;\n^cyan; スローステータス ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thresher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "剣士"
+    }
+  ]
+]

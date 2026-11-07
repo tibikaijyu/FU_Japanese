@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This radioactive isotope is typically found on Irradiated planets and moons.\n^blue;+^white;9 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この放射性同位体は、通常、放射惑星や衛星に見られる。\n^blue;+^white;9 ^blue;燃料^reset;"
+    }
+  ]
+]

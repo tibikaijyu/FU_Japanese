@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Isn't hazardous to your health! (We promise.)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの健康に危険ではありません! (約束します)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quagmutt Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Quagmuttの帽子"
+    }
+  ]
+]

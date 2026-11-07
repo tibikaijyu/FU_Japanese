@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A capsule. These often contain supplies."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "カプセルです これらはしばしば供給を含んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A capsule. Something is inside, I wonder what it is..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "カプセルです 中に何かあるのかな。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small breakable capsule. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな壊れやすいカプセル。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmash it open! Get the goodiess insside!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "こっわせ オープン! 商品は内側に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Destructive. It is difficult to resist the urge to break this capsule."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "破壊的。 このカプセルを破る衝動に抵抗することは困難です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I think there's something in there. I can probably break it open."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "何かあると思います。 私はおそらくそれを開けることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Sometimes force can yield rewards."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "時折、力は報酬をもたらす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This capsule'd be perfect for target practice."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このカプセルは、ターゲットの練習に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Capsule"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型カプセル"
+    }
+  ]
+]

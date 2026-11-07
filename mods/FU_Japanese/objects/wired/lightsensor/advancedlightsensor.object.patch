@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A more advanced light sensor that activates various nodes based upon whether or not ambient light levels exceed certain thresholds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "環境光レベルが一定の閾値を超えるかどうかに基づいて、さまざまなノードをアクティブ化するより高度な光センサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "More advancced light sensssor that activatess variouss nodess if variouss brightnessesss are excceeded."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "様々な明るさを超えると、様々なノードを活性化するより高度な光センサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Thoughtful. A more advanced light sensor that activates various nodes based upon whether or not ambient light levels exceed certain thresholds."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "思慮深い。 環境光レベルが一定の閾値を超えるかどうかに基づいて、さまざまなノードをアクティブ化するより高度な光センサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Light Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先端光センサ"
+    }
+  ]
+]

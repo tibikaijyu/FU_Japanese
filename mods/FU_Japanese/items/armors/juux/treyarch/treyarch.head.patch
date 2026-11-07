@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Never trust a Pharitu Treyarch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファリトゥ・トリヤーを決して信用しない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Treyarch Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "三頭面"
+    }
+  ]
+]

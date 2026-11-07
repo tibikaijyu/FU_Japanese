@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large round cute vase."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな丸いかわいい花瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Vase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい花瓶"
+    }
+  ]
+]

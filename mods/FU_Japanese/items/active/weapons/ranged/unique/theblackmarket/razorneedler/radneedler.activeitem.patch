@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Horribly radioactive and kinda pretty.\n^yellow;Inflicts rad-burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射能がひどく、ややきれいです。\n^yellow; rad-burn ^reset; に作用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#5aff00;Toxic Needler^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#5aff00; 毒性針 ^reset;"
+    }
+  ]
+]

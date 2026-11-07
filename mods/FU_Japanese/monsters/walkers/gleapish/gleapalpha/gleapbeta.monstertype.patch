@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gleap mutation on its way to becoming an Alpha."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アルファになる途中のグリップ突然変異。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beta Gleap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベータ・グリープ"
+    }
+  ]
+]

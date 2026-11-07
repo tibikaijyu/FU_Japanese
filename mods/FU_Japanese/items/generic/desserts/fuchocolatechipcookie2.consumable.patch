@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious chocolate chip cookies.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;5m^gray;), ^green;Heal ^white;100 ^gray;(^white;5m^gray;)^reset; ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいチョコレートチップクッキー。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;5え?^gray;), ^green;癒し ^white;100 ^gray;(^white;5え?^gray;)^reset; ^orange;タイプ: 穀物+乳製品+卵+砂糖。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chocolate Chip Cookies"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョコレートチップクッキー"
+    }
+  ]
+]

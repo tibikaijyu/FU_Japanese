@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bioluminescent ovoid, eventually this'll grow into a colony."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生物発光は無効になり、やがてコロニーへと成長します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nakati Ovoid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中田大空"
+    }
+  ]
+]

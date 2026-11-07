@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A baked tomato with a delicous savoury filling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しい味わいの詰まった焼きトマト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Tomato is ssstuffed with many breads and cheesesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "トマトにはたくさんのパンやチーズが詰まっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Eager. This is the sort of meal I like to take my time cutting through."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "早く! これは私が時間をかけて切り取るのが好きな食事です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A whole heap o' stuffs bein' sandwiched inside this tomato."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このトマトの中に、たくさんのものが挟まれている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stuffed Tomato"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トマト"
+    }
+  ]
+]

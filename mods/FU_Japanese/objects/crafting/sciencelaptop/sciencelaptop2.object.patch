@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Performs more advanced research on items.\n^cyan;Research Rate^reset;: 5%, 1.5s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アイテムに関するより高度な研究を行います。\n^cyan;研究率^reset;:5%,1.5s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Computer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アドバンストコンピュータ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gruesome, yet fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "気持ち悪いけど楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Regenerate"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "再生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Veluu Lightweaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴェルー・ライトウィーバー"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Man, I have slaughtered a lot of creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私はたくさんの生き物を虐殺した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I wish my damned wings worked. But nooo..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "翼がちゃんと動いてたらいいのに。 でももう...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This should be perfect for your lab storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これはあなたの研究室の貯蔵に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Plantss. I iss plantss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "植物。 植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Why do I exist?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "なぜ私は存在するのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Sometimes I wonder why people like mayo."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "マヨネーズが好きなのはなぜかと思うことがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Water is nice."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "水は良いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ponexDescription",
+      "value": "Bronies are disgusting and should be killed! THEY RAPE MY KIND!"
+    },
+    {
+      "op": "replace",
+      "path": "/ponexDescription",
+      "value": "兄貴は嫌悪感を帯びており、殺されるべきです! 彼らは私の王をレイプ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Gene Storage Chest^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774;遺伝子保存胸部^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Trusty teleporter, what would we do without you?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼のおけるテレポーター、あなたなしでは何をしますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレポーター"
+    }
+  ]
+]

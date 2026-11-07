@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The wood is very old and creaks in the wind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木材は非常に古く、風が吹いています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Old wood iss strong."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "古木は強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Charmed. This aged wood creaks with age."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "チャーミング。 この高齢の木材は年をとってクリークする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I'd bet this here wood is mighty old."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "木がとても古いのがここにあると思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dynast Bridge Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイナストブリッジブロック"
+    }
+  ]
+]

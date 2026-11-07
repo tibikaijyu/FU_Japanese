@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A truly unique weapon!\n^yellow;Incapacitate enemies^reset;\n^green;Redirect in zero-g^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当にユニークな武器!\n^yellow;無力な敵^reset;\n^green; 〇-g^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Redirector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リダイレクター"
+    }
+  ]
+]

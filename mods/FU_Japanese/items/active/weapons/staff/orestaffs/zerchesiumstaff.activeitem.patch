@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Frosty death in a convenient size."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "便利なサイズの凍った死。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムスタッフ"
+    }
+  ]
+]

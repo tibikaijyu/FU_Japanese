@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Immune to all forms of heat, including lava."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "溶岩を含むあらゆる種類の熱に免疫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quell Stem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クレルステム"
+    }
+  ]
+]

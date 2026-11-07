@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Mew...gate signatures old. Sad kitty. More tracking needed. Have new beacon."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "新しい...ゲートシグネチャは古い。 悲しい子猫。 さらなるトラッキングが必要。 新しいビーコンを。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/explore",
+      "value": "Use a ^orange;Dark Cave Beacon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/explore",
+      "value": "^orange;闇 Cave ビーコン ^reset; を使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findEsther",
+      "value": "Return to ^orange;Khe^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findEsther",
+      "value": "戻ります。 ^orange;ケー^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/repairGate",
+      "value": "Open the ^orange;Gate^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/repairGate",
+      "value": "^orange;ゲート ^reset;を開く。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Mew. Kevin clone problem? It went to other reality. Bad things happened there, everything went wrong. Go open gate, get gate signature data."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "新しい。 ケビンクローン問題? それは他の現実にも及んだ。 悪いことが起こったので、すべてがうまくいかなかった。 ゲートを開き、ゲート署名データを取得します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Through the Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "闇の中"
+    }
+  ]
+]

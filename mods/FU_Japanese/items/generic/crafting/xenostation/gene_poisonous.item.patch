@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Makes things sick or dead."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物事を病気にするか、死なせるか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poisonous"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒"
+    }
+  ]
+]

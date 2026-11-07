@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grape Mash, the product of crushed and squeezed grapes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブドウを粉砕し、絞った製品であるグレープマッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grape Mash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレープマッシュ"
+    }
+  ]
+]

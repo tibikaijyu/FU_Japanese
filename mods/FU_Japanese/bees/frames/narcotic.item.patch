@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Drugged up Drones.\n<beeData>"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ドローンを投薬。\n<beeData>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Narcotic Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "麻薬箱"
+    }
+  ]
+]

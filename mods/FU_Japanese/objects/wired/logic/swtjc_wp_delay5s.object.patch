@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A circuit that relays signals after a set delay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "設定した遅延後に信号を中継する回路。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "A circuit that relays signalsss after a sset delay."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "セット遅延後に信号を中継する回路。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A circuit that relays signals after a set delay."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 設定した遅延後に信号を中継する回路。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Delay Gate (5 Second)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "遅延 ゲート (5秒)"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Rapier/Pistol: Defense x^green;1.075^reset;/^green;1.15^reset;\n^yellow;^reset; +^green;25^reset;% Charisma, +^green;25^reset;% Mental Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;レイピア/ピストル: 防御力 x ^green;1.075^reset;/^green;1.15^reset;\n^yellow;^reset;+^green;25^reset;%カリスマ性、+^green;25^reset;%精神抵抗性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diplomat's Jacket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "外交官のジャケット"
+    }
+  ]
+]

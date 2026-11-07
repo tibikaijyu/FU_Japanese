@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All the nutritious value of an apple masked by globs of sweet, sweet sugar. ^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘くて甘い砂糖の塊によってマスクされたリンゴのすべての栄養価。 ^green;タイプ:フルーツデザート^reset;"
+    }
+  ]
+]

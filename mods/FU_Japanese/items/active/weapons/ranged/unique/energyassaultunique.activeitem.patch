@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly overtuned energy rifle with a plain steel body.\n^yellow;High efficiency^reset;\n^yellow;Counts as 'Energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スチール製のボディーを持つ高オーバーチューンエネルギーライフル。\n^yellow;高効率^reset;\n^yellow;セットボーナスの「エナジー」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wailin' Banshee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワイリン・バンシー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "You've gone and made it even better.\n^yellow;High efficiency^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "あなたは行って、さらに良くしました。\n^yellow;高効率^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Mr.Dependable^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;頼りになる人^reset; ^yellow;^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires mini-missiles that enemies prefer to avoid...but can't!\n^yellow;Homing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵が避けることを好むミニミサイルを発射する...しかし、できません!\n^yellow;ホーミング発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Micro-Rocket Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロロケットランチャー"
+    }
+  ]
+]

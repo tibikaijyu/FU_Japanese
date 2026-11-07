@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Personal Log: Stardate 9472.298. I barely escaped the Terrene Protectorate after the disaster... I'm trapped in orbit around a lush-like planet, which is convenient since it looks inviting. Transporter is working... for the moment. My ship's sensors seem to be picking up a small research outpost on the surface. Perhaps there is someone there that can help me out..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "パーソナルログ:スター日付9472.298。 災害の後、私はテレン保護区をほとんど逃げませんでした。 私は緑豊かな惑星の周りの軌道に閉じ込められていますが、これは魅力的に見えるので便利です。 トランスポーターが働いています...今のところ。 私の船のセンサーは、表面上の小さな研究拠点を拾っているようです。 たぶん、私を助けることができる誰かがそこにいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Personal Log: Stardate 9472.301. It's been several days since I've arrived. I'm so lonely... I still haven't found that research outpost- if it even exists at all. All I know is that I'm constantly hungry and it's always raining. I normally don't mind the rain, but my drafty little hut is constantly leaking and I really don't like having to sleep on a wet bed every night. It's the worst. Well, at least the food is plentiful on this little planet, even if I do have to go out and hunt for it. Oh what I wouldn't do for some catnip right now..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "パーソナルログ:スター日付9472.301。 私が着いてから数日が経ちます。 寂しくて...。 まだ研究が遅れているのに気づいていない。もしそれが全く存在していれば。 私が知っているのは、いつも空腹で、いつも雨が降っていることです。 普段は雨は気にしませんが、草原の小さな小屋は絶えず漏れています。毎晩濡れたベッドで寝るなんて、本当に嫌です。 最悪の事態です まあ、少なくとも食べ物は、私が外出してそれのために狩りをしなければならない場合でも、この小さな惑星で豊富です。 おお、今、猫の子にやらないこと...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The diary of a lost soul."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "失われた魂の日記。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Survivor's Personal Log"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "生存者の個人記録"
+    }
+  ]
+]

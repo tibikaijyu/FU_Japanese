@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stronger Air Dash, Cooldown: 0.9s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より強いエアダッシュ、クールダウン:0.9s。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Air Dash II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "エアダッシュII"
+    }
+  ]
+]

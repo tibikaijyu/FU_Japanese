@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Probably less than fantastic as a farming soil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらく農地ほど素晴らしいものではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radioactive Soil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射性土"
+    }
+  ]
+]

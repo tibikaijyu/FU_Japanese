@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute bed. Cute..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいベッド。 可愛い...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいベッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some macabre pedestal with no clear meaning or purpose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明確な意味や目的のないいくつかのマカブル台座。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュモニュメント"
+    }
+  ]
+]

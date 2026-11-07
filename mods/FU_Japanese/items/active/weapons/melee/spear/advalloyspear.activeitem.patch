@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A masterfully made alloy spear for puncturing enemies.\n^cyan;Hunting weapon^reset;\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を突き刺すための巧みに作られた合金製のスパイク。\n^cyan;ハンティング武器^reset;\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスターズ・スピア"
+    }
+  ]
+]

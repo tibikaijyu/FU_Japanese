@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I can see my reflection... it's hideous!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "反射が見える... ひどい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Cosmic Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜宇宙ガラス"
+    }
+  ]
+]

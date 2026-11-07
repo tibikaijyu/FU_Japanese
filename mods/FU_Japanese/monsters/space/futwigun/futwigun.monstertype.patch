@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ready and able to kill you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "準備でき、あなたを殺すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代大砲"
+    }
+  ]
+]

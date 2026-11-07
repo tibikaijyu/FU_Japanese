@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates water for use around your home. Stores up to 200 water. Less effective when stacked. Scan for Info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家の周りに使うための水を生成します。 200水まで保存します。 積み上げても効果がありません。 情報 をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Well"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "まあ"
+    }
+  ]
+]

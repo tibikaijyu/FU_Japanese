@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nicely made Nightarian desk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイターのデスク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Desk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトデスク"
+    }
+  ]
+]

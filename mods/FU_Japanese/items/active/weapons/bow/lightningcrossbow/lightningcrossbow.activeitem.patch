@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Electrifying!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電動化!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lightning Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "稲妻クロスボウ"
+    }
+  ]
+]

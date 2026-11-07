@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The skin from a body."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "身体からの皮膚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Epidermis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "表皮"
+    }
+  ]
+]

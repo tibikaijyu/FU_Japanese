@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I can rest easier now, knowing that colony ships carrying human survivors will no longer be attacked by that madman!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私は今、人間の生存者を運ぶコロニー船がもはやその狂人によって攻撃されないことを知って、より簡単に休むことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Stormwarden^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;Stormwarden ^reset; を ^orange;科学前哨基地^reset; で持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A nasty pirate named ^orange;Wrexor Nar^reset; has been harassing outer-rim systems of late and destabilizing new colonies. Can you please kill him to save countless lives?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; Wrexor Nar ^reset; と名付けられた厄介な海賊は、後期と不安定な新植民地のアウターリムシステムを嫌がらせている。 数え切れないほどの命を救うために彼を殺してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Wrexor Nar [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "トレクサナール[BOSS]"
+    }
+  ]
+]

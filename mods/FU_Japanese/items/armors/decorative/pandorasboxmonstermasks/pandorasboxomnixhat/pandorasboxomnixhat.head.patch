@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hat is a jack of all trades! Not really sure what those trades are though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この帽子は、すべての貿易のジャックです! しかし、その取引が何であるかはよくわからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Omnix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オムニックス・ハット"
+    }
+  ]
+]

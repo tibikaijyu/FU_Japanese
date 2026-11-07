@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Only slightly weirder than the original."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オリジナルのものより少し奇妙です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Fishman get fissshier by the day..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "漁師は日によって魚の皮をむく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Are the Hylotl de-evolving into actual fish?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 ハイロトルは魚に進化しているのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "That's quite the logo, alright."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "それはかなりロゴです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotlbucks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルバックス"
+    }
+  ]
+]

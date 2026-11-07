@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sulphuric Acid ^gray;H2SO4^reset; is one of the strongest naturally occurring acids.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硫酸^gray;H2SO4^reset;は、最も強い天然に存在する酸の一つです。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphuric Acid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫酸"
+    }
+  ]
+]

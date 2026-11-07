@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional favorite of snipers and marksmen. Ideal for covering long distances."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スナイパーやマークマンの伝統的なお気に入り。 長距離カバーに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Semi-Automatic Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レアな半自動ライフル"
+    }
+  ]
+]

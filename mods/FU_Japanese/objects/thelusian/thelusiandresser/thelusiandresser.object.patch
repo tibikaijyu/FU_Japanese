@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A set of chitinous drawers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キチン質の引き出しのセット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Drawers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアの引き出し"
+    }
+  ]
+]

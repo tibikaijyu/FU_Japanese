@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "I awoke to find myself surrounded by hooded figures, chanting and squawking. One of them, who appeared to be the figurehead, held a large knife above me. At first I was disoriented, and thought I was back with the Florans. But no. It seems I'd accidentally presented myself for sacrifice. So silly!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "目が覚めてみると、身をかがめた姿で囲まれ、歌い、しゃがんでいました。 その一人は、頭文字をとったように見えたが、私の上に大きなナイフをかざしていた。 最初は向きがずれていて、フローランを連れて帰ってきたと思った。 でも、違う。 私は誤って犠牲を言い渡したようだ。 バカな!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Of course, I wasn't up for this! Quick as a flash, I kicked the head priest in the face and made my escape, charging through the temple like a Hylotl possessed. There were a few casualties along the way, of course - some sacred urns, a statue or two, an Avian monk - but I escaped intact, and carried on my way."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "もちろん、私はこのために準備していませんでした! 一瞬にして、私は司祭を顔に蹴りつけ、逃げさせ、神殿をハイロトルが所有するかのように突破した。 もちろん、道中にはいくつかの死傷者がいました - いくつかの聖なる骨、像または二つ、アヴィア人の修道士 - 私は無傷で脱出し、私の道を進みました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "By Hiraki Corale, Hylotl Adventurer"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒラキ・コラーレ著『ヒロトル・アドベンチャー』"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Rude Awakening"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "覚悟"
+    }
+  ]
+]

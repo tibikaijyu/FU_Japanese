@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bizarre amalgamation of gene and metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "遺伝子と金属の奇妙な融合。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cell Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セルブレード"
+    }
+  ]
+]

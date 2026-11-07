@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sweet and flavoursome preserve, precious among Avians."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘くて風味豊かな保存地で、アビアンの間で貴重な。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "...? Floran sssees a feather in there!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "...? フローランはそこに羽を見て!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Curious. Supposedly feathercrown is something of a luxury crop among Avians."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "好奇心。 フェザークラウンは、アヴィア人の間では高級作物のようである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Purty sweet, all things considerin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "可愛らしい甘さ、すべてのことを考える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feathercrown Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェザークラウンジャム"
+    }
+  ]
+]

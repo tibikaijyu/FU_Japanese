@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The hellish weapon of a cultist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "崇拝者の地獄の武器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fury"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "怒り"
+    }
+  ]
+]

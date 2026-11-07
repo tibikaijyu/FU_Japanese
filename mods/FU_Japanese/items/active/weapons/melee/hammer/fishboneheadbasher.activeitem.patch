@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fishbone, sea-steel and tears."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魚の骨、海鋼と涙。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fishbone Basher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "魚骨バッシャー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+5 HP^reset;, ^cyan;+6 EP^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力+5^reset;、^cyan;エネルギー+6^reset;：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Biscorn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビスコーン"
+    }
+  ]
+]

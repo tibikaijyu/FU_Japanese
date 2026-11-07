@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crunchy and sweet combined for greatness. ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クッキーと甘さが大胆に結合されます。 ^orange;タイプ: 穀物+乳製品+卵+砂糖^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tearnut Butter Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ティアナッツバタークッキー"
+    }
+  ]
+]

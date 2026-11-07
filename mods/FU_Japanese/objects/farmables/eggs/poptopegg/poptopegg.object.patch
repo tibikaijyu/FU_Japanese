@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatches into an adorable floofy carnivore."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛らしいフワフワの肉食動物にハッチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップエッグ"
+    }
+  ]
+]

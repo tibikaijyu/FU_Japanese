@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Pretty much any flower will do, by the way. And be patient. Bees take time to breed, and they only ^green;'do it'^reset; when there are flowers and sun. ^orange;Some plants^reset; are more appealing to certain species."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ところで、どんな花でも結構です。 そして、忍耐強く。 ミツバチの繁殖には時間がかかります ^green;『やれ』^reset; 花や日が当たると ^orange;いくつかの植物^reset;は、特定の種にとってより魅力的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Bees won't be happy without flowers to pollinate. Get a ^orange;Red Flower^reset; to plant next to your apiary and your bees will get going!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ミツバチは花を授粉しなければ幸せになれません。 あなたの養蜂場の隣に植えるために^orange;赤い花^reset;を取得すれば、あなたのミツバチは行くでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Flowers"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "花"
+    }
+  ]
+]

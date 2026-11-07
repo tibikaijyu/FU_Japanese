@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chili pepper that explodes into flames. Fun to throw at your neighbors!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炎上する唐辛子。 お隣さんに投げつけるのが楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chili Pepper Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "唐辛子爆弾"
+    }
+  ]
+]

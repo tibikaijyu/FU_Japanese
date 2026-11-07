@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lethal edge cuts foes deep.\n^cyan;Inflicts bleeding^reset;\n^yellow;6 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的な縁が深く切ります。\n^cyan;出血を引き起こす^reset;\n^yellow;6 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素カタナ"
+    }
+  ]
+]

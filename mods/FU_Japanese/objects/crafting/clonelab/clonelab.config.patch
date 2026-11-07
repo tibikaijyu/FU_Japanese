@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "Insert Saplings"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "インサート苗木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/dragDrop/value",
+      "value": "Leaves on Right!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/dragDrop/value",
+      "value": "右に左!"
+    }
+  ]
+]

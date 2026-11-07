@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You have absolutely no idea what this could be. But the language imprints itself in your brain, revealing secrets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これが何になるか、全く分かりません。 しかし、この言語は、あなたの脳に現れ、秘密を明らかにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Unknown Artifact^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;未知アーティファクト^reset;"
+    }
+  ]
+]

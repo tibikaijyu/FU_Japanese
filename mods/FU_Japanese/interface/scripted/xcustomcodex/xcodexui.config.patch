@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/codexListRace/value",
+      "value": "No Selected Race"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/codexListRace/value",
+      "value": "カテゴリ未選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/currentPageLabel/value",
+      "value": "Page 0 of 0"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/currentPageLabel/value",
+      "value": "ページ0/0"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowTitle/subtitle",
+      "value": "The best reading experience you'll ever get!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowTitle/subtitle",
+      "value": "今までで最高の読書体験!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowTitle/title",
+      "value": "High-Fidelity Codex"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowTitle/title",
+      "value": "拡張コーデックス"
+    }
+  ]
+]

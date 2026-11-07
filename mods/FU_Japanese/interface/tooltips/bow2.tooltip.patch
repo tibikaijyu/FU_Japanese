@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/airborneBonusTitleLabel/value",
+      "value": "Airborne Damage Multiplier:"
+    },
+    {
+      "op": "replace",
+      "path": "/airborneBonusTitleLabel/value",
+      "value": "空中威力倍率:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;C.Dmg%^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;会心威力%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;Crit%^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;会心率%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/damageTitleLabel/value",
+      "value": "Damage per Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/damageTitleLabel/value",
+      "value": "射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/drawEnergyTitleLabel/value",
+      "value": "Energy to Draw:"
+    },
+    {
+      "op": "replace",
+      "path": "/drawEnergyTitleLabel/value",
+      "value": "引き絞りEN:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/drawTimeTitleLabel/value",
+      "value": "Time to Draw:"
+    },
+    {
+      "op": "replace",
+      "path": "/drawTimeTitleLabel/value",
+      "value": "引き絞り時間:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/holdEnergyTitleLabel/value",
+      "value": "Energy to Hold/s:"
+    },
+    {
+      "op": "replace",
+      "path": "/holdEnergyTitleLabel/value",
+      "value": "維持EN/秒:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/perfectDamageTitleLabel/value",
+      "value": "Damage per Perfect Shot:"
+    },
+    {
+      "op": "replace",
+      "path": "/perfectDamageTitleLabel/value",
+      "value": "最適射撃威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/perfectDrawTimeTitleLabel/value",
+      "value": "Perfect Shot Time:"
+    },
+    {
+      "op": "replace",
+      "path": "/perfectDrawTimeTitleLabel/value",
+      "value": "最適射撃時間:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ]
+]

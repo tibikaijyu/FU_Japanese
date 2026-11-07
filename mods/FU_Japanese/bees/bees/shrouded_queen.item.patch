@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shrouded Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "開花女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shrouded Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "開花女王"
+    }
+  ]
+]

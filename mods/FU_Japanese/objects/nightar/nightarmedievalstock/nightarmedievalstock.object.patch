@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pair of stocks. A medieval method of punishment."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "株式のペア。 中世の刑罰法。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Stocks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Helps all of your strikes really count."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのストライキのすべてを本当に数えるのに役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Targeting Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ターゲティングゴーグル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny agile bird that drinks nectar from flowers. They are known for their speed and colorful feathers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花から蜜を飲む小さなアジャイルな鳥。 速度と羽毛が華やかであることでも知られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Humming Bird"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチドリ"
+    }
+  ]
+]

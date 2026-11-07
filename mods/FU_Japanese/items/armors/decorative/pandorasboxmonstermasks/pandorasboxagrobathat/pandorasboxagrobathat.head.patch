@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Really swooped in to get this one huh?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを手に入れるために本当に飛び込んできた?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Agrobat Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アグロバットハット"
+    }
+  ]
+]

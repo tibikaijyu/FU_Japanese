@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Please don't.\n^cyan;+^white;15% ^cyan;Run ^gray;(^white;1m^gray;)\n^cyan;Caffeinated ^gray;(^white;1m^gray;)\n^blue;Madness Gain^reset; 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "やめてください。\n^cyan;+^white;15% ^cyan;走り ^gray;(^white;1え?^gray;)\n^cyan;カフェイン化 ^gray;(^white;1m ^gray;)\n^blue;狂気の高まり^reset; 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chunky Meat Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チュンキーミートコーヒー"
+    }
+  ]
+]

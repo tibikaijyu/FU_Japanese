@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a tough Alpaca warrior."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アルパカ族の戦士を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alpaca Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルパカ契約"
+    }
+  ]
+]

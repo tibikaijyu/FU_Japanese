@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sandprowler Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サンドプロウラークイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sandprowler Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンドプロウラークイーン"
+    }
+  ]
+]

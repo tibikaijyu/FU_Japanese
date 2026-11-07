@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a bloody forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を血まみれの森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gore Forest Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴアフォレストマイクロフォーマ"
+    }
+  ]
+]

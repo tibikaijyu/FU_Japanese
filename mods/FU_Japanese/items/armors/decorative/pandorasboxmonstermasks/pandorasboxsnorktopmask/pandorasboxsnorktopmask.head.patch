@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like wearing a mask over a mask."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるで仮面の上に仮面をかぶったようなものです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snorktop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノークトップマスク"
+    }
+  ]
+]

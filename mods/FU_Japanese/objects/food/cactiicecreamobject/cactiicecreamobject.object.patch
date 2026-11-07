@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tasty, prickly treat!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しく、ごちそう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran's food is still kicking! Just how Floran likes it!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランの食べ物はまだ蹴っている! フローランが気に入ったのはまさにそのとおり!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Smug. These thorns won't be troubling me."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "くすくす笑い。 しわは私を悩ませない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now who would go and leave needles in their food?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "さて、誰が彼らの食べ物に針を残しに行くでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cacti Ice Cream"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サボテンアイスクリーム"
+    }
+  ]
+]

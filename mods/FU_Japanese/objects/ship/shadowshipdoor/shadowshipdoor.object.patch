@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A door. Possibly suitable for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ドア。 宇宙船に適している可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Ship Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウシップドア"
+    }
+  ]
+]

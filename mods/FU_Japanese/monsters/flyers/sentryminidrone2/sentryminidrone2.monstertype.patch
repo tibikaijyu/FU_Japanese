@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Swift, protected and reliable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スウィフト、保護され、信頼性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shield Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シールドドローン"
+    }
+  ]
+]

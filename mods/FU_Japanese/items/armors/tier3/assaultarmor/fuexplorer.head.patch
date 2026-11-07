@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp 3^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;20^reset;% Jump\n^yellow;^reset; Assault Rifles, Energy: Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Gas, Moderate Cold, Liq.Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ3^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;20^reset;% ジャンプ\n^yellow;^reset; 攻撃ライフル、エネルギー:損傷x ^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;酸素、ガス、適度な寒さ、窒素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assault Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アサルト・ヘルメット"
+    }
+  ]
+]

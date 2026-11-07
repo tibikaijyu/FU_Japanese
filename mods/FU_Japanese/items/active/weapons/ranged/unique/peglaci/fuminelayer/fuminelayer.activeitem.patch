@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Make minced-meat with minefields.\n^yellow;Inflicts burning^reset;\n^green;Devastates large area^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉱山でミンチ肉を作る。\n^yellow;焼失する影響^reset;\n^green;広大な地域を荒廃させる^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mine Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マインランチャー"
+    }
+  ]
+]

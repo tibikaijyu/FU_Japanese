@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dreamy beige pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夢のようなベージュの柱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dust Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダストピラー"
+    }
+  ]
+]

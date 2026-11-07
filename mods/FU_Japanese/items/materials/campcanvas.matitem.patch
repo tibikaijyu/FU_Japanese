@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ultra light, yet ultra strong. Avali tents can stop bullets!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超軽量でありながら、超強力。 アバリテントは弾丸を止めることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nanocanvas"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナノキャンバス"
+    }
+  ]
+]

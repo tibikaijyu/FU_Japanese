@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Holds 3 creatures in stasis in order to relocate them. Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "静止中に3の生き物を移動させます。 ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Holds 4 creatures in stasis in order to relocate them. Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "静止中に4の生き物を移動させます。 ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Relocator II ^cyan;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "リロケータII^cyan;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Holds 5 creatures in stasis in order to relocate them. Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "静止中に5の生き物を移動させます。 ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Relocator III ^red;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "リロケータIII^red;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/description",
+      "value": "Holds 6 creatures in stasis in order to relocate them. ^green;Fully Upgraded^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/description",
+      "value": "静止中に6の生き物を移動させます。 ^green;完全アップグレード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "Relocator IV ^#e43774;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "リロケータIV^#e43774;^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What is this?\n^cyan;Breaks blocks.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは何?\n^cyan; ブロックを壊します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trollfist Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トロルフィストストストライカー"
+    }
+  ]
+]

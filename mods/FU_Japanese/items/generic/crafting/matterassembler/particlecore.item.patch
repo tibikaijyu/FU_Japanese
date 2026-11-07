@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The energy source for particle weapons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粒子兵器のエネルギー源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Particle Core^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;粒子コア^reset;"
+    }
+  ]
+]

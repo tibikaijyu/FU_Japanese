@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I should find a way to get some erchius crystals to build an ^orange;FTL drive^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "エルキウス結晶を作って ^orange;FTLドライブ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "To start on ship repairs I should build a ^orange;Ship Component Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "船の修理を始めるには、^orange;船コンポーネントアセンブリ^reset;を構築します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ship Component Assembly"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "船舶部品組立"
+    }
+  ]
+]

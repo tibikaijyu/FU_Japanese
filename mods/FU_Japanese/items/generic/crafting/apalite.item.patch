@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blue gem cut into sharp edges. It feels ice cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭い縁に切った青い宝石。 寒い感じがします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apalite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アパライト結晶"
+    }
+  ]
+]

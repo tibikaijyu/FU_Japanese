@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Eating these apparently makes you stupider than you already are. ^cyan;+^white;10% ^pink;Shadow ^cyan;Res^gray;, ^pink;Shadow Taint ^cyan;Immunity ^gray;(^white;2m^gray;)^reset; ^orange;Type: Grain + Dairy + Eggs + Sugar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらを食べると、すでにあるよりも愚かになるようです。 ^cyan;+^white;10% ^pink;影 ^cyan;レズ^gray;, ^pink;シャドウテイント ^cyan;免疫 ^gray;(^white;2え?^gray;)^reset; ^orange;タイプ: 穀物+乳製品+卵+砂糖。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dunce Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキーのため"
+    }
+  ]
+]

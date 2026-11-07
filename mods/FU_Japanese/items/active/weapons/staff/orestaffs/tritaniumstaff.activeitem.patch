@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Conjures up thunderheads."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雷を鳴らしなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tritanium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリタニウム"
+    }
+  ]
+]

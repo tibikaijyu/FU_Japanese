@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bright red bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真っ赤なミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤蜂"
+    }
+  ]
+]

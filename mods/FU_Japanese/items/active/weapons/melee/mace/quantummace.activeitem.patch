@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't ask, because Science."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学だからといって、聞かないで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quantum Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "量子メイス"
+    }
+  ]
+]

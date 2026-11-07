@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cumbersome, but light and pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "面倒だが軽くて可愛らしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールドクォータースタッフ"
+    }
+  ]
+]

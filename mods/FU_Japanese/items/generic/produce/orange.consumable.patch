@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an orange. ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジ色です ^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an orange. ^green;Type: Plant^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジ色です ^green;型:Plant^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orange"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジ"
+    }
+  ]
+]

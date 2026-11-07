@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fine grains of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属の細かい粒。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼砂"
+    }
+  ]
+]

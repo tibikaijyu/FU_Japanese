@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "Come back anytime!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/0",
+      "value": "いつでも戻ってきなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/1",
+      "value": "Have a great day. Thanks for the patronage, good sir."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/end/default/default/1",
+      "value": "良い一日を。 お世話になってありがとうございます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "Thirsty, friend? Come have a seat. Take a load off and relax."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/0",
+      "value": "喉が渇いてる? どうぞお座りください。 荷物を下ろしてリラックスしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "Looks like you've had a hell of a day, friend. Why don't you have a seat and let me serve you up some refreshment."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/1",
+      "value": "ずいぶん大変な一日だったみたいだな、相棒。座って一息つけよ。何か飲み物でも出そう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "Need to take a break...take the edge off? Maybe a vodka will do the trick."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/merchant/start/default/default/2",
+      "value": "休憩が必要...エッジを離す? おそらくウォッカがトリックをします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Marty's Place"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  マーティズ・プレイス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  Barkeep"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/merchant/paneLayoutOverride/windowtitle/title",
+      "value": "  バーキープ"
+    }
+  ]
+]

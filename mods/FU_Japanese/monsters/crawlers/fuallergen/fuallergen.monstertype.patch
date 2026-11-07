@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Capable of spewing lethal toxic pollen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発芽する致死性花粉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snarker Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スナーカー・トラップ"
+    }
+  ]
+]

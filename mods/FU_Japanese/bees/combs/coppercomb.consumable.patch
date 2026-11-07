@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This honeycomb has high copper content."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハニカムは銅分が多い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Copper Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム銅"
+    }
+  ]
+]

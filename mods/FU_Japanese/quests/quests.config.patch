@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/objectiveDescriptions/nebDamageTypeKill",
+      "value": "Kill <current> / <required> enemies with <damageType>"
+    },
+    {
+      "op": "replace",
+      "path": "/objectiveDescriptions/nebDamageTypeKill",
+      "value": "<current>/<required> 敵を <damageType> で殺す"
+    }
+  ]
+]

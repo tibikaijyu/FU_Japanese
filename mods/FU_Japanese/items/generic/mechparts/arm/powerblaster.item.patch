@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spews out numerous power shards."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多数のパワーシャードを吐出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shard Blaster Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャードブラスターアーム"
+    }
+  ]
+]

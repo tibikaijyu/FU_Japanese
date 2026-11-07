@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks pretty cute and comfortable to wear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛く着心地もよく見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Maid Headband"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メイドヘッドバンド"
+    }
+  ]
+]

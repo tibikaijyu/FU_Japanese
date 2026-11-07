@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp^reset;\n\n^orange;Set Bonuses^reset; (^orange;Part 1^reset;):\n^yellow;^reset; ^cyan;Auto-Medic^reset;: 10%\n^yellow;^reset; ^cyan;Adaptive Armor^reset;: ^red;0.8^reset;x^gray;-^red;0.5^reset;x"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ^reset;\n\n^orange; ボーナス^reset;(^orange;Part1^reset;) を設定します。\n^yellow;^reset; ^cyan;オートメディック^reset;: 10%\n^yellow;^reset; ^cyan;アダプティブアーマー^reset;: ^red;0.8^reset;十^gray;-^red;0.5^reset;十"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium EVA Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムEVAヘルム"
+    }
+  ]
+]

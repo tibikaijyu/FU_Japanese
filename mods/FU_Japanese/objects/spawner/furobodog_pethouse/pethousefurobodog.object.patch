@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just big enough for a small animal to fit comfortably inside."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな動物が快適に内側に収まるのに十分な大きさ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Robodog Pet House"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロボドッグペットハウス"
+    }
+  ]
+]

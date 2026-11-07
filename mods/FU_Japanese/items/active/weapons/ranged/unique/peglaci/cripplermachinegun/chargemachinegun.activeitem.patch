@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Stun Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "スタン圏"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rapid fire radioactive joy!\n^yellow;Inflicts Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素早い火の放射能喜び!\n^yellow;放射線照射による熱傷^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crippler Machinegun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリッパー機関銃"
+    }
+  ]
+]

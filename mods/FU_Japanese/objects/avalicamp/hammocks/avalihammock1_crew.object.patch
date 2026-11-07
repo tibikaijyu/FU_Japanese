@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I've slept in a few of these on resistance ships, no room for luxury"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "抵抗的な船で寝ていましたが贅沢な船はありませんでした"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "I guess it'll do. I would rather have a proper pile of bedding to spread out on."
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "そうなると思います。 寝具の山をしっかり広げてみたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A suspended nest, what an interesting idea!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "吊り下げられた巣、なんて面白い考えでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cheat the creepy-crawlies by sleeping suspended in the air. ^yellow;Crew +1^reset;. Counts as a deed. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宙に浮いて寝て不気味なクローリーをかき消す。 ^yellow;船員+1^reset;。 行為としてカウントされる。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Hehe, bed tries flee from Floran when sitting on it."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ここで、ベッドはそれに座っているときにフローランから逃げようとします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Concern. Bed displays low structural integrity."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "心配。 ベッドは低い構造整合性を表示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'd love to set this up between a couple palm trees on a tropical world."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "熱帯世界のヤシの木の間にこれをセットアップしたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I wouldn't be caught dead in a bed like that."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "私はそんな風にベッドで死んでいるのを捕まえられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hammock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハンモック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A favorite in every galaxy. ^orange;Type: Vegetables + Dairy + Eggs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どの銀河にも好きな存在です。 ^orange;タイプ:野菜+乳製品+卵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pancakes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンケーキ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Incredibly lightweight considering the extra mass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "余分な質量を考慮した信じられないほど軽量。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Stynger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金スタイガー"
+    }
+  ]
+]

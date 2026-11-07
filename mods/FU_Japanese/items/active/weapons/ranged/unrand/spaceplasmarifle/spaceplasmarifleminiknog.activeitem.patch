@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Sticky Plasma Mines"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "粘着性プラズマ鉱山"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A state-of-the-art assault rifle hardened for use in extreme environments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極限環境で使用するために強化された最先端のアサルトライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasma Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマアサルトライフル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny armour stands resolute. Hmm... The shield looks loose."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある装甲が固まります。 うーん...。 盾がゆるく見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Suspicious Display Armour"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不審なディスプレイ装甲"
+    }
+  ]
+]

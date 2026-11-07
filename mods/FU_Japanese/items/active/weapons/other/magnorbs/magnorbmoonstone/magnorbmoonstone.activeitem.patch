@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blast foes with these energy-infused pellucid orbs. One handed. ^cyan;Counts as 'energy' weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーを注入したペラシッドオーブでブラスト敵。 手渡した。 ^cyan;「エネルギー」兵器として数えられるもの^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "None"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "なし"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Orbs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・オーブ"
+    }
+  ]
+]

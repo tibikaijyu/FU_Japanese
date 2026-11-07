@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "It never hurts to help! And since you helped me, I'll help you. Here's a ^green;big bag of pixels^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それは助けるために決して傷つけません! 君が助けてくれたから手伝ってあげるよ 以下は ^green;大きなピクセルの袋^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the 3 ^orange;Rad Leaf^reset; to the green-tailed cat at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み 3 ^orange;赤葉^reset; 緑の尾を持つ猫に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm trying to study this material but I have no radiation protection. Specifically, I would like some ^orange;Rad Leaf^reset; to ingest. Care to get me some?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はこの材料を研究しようとしているが、放射線防護はしていない。 具体的には、いくつかの^orange;Radリーフ^reset;を摂取したい。 私にいくつかを持ってきてください?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Rad Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "赤葉"
+    }
+  ]
+]

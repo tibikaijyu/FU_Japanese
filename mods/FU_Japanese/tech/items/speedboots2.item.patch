@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Near lethal levels of drugs, superior speed and dash. Passive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的なレベルの薬、優れたスピードとダッシュ。 パッシブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Stimulant Rig III^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;刺激リグIII^reset;"
+    }
+  ]
+]

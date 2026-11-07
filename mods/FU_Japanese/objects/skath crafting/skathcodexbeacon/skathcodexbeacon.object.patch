@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "With this terminal you can probably download Skath codex entries. The access seems restricted to anyone except the Skath, unfortunately."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このターミナルでは、おそらくスカス文書エントリをダウンロードすることができます。 残念ながら、このアクセスはスカス以外の人に限られているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I wonder what this thing does?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これは何の役に立つのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to download Skath codex entries from Norkumsgath."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ノルクムスガスからスカス文書エントリをダウンロードするために使用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran seesss big antenna! Good for sspearss!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは大きなアンテナをシース! スピアスに良い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Excited. I can access Skath records using this!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興奮した。 これを使ってスカスレコードにアクセスできます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The Skath seem to restrict the access to their codex entries."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "スカスは、コードエントリへのアクセスを制限しているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "It seems the Skath record their species' writings digitally. Such a pity."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "スカースは彼らの種の著作をデジタルで記録しているようです。 そんな残念なこと。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "Download the newest Skath codex entries!"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "最新のスカス文書エントリをダウンロードしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Skath Codex Beacon"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "スケートコーデックスビーコン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Skath Codex Beacon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スカスの文書ビーコン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/skathDescription",
+      "value": "This terminal can be used to access vast amounts of Vanguard knowledge regarding our race. For security reasons, only the Skath can access these."
+    },
+    {
+      "op": "replace",
+      "path": "/skathDescription",
+      "value": "このターミナルは、当社のレースに関する膨大な量のヴァンガードの知識にアクセスするために使用できます。 セキュリティ上の理由から、スカスだけがこれらにアクセスできます。"
+    }
+  ]
+]

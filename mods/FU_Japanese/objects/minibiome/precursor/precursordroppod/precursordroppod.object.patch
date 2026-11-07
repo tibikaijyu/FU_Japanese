@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of ancient pod. It is likely that this was for troop transport."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代ポッドの一種。 兵員輸送のためであろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Drop Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的なドロップポッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tool of the ancients, blisteringly fast.\n\nSlow down with ^orange;Shift+Click^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の道具で、ものすごい速さです。\n\n^orange;シフト+クリック^reset;で遅くする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Rail Hook"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身の鉄道フック"
+    }
+  ]
+]

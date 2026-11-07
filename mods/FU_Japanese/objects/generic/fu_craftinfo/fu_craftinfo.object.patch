@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This panel shows which materials produce results with your various lab stations. Must place near an Extractor or other processing station."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このパネルは、さまざまなラボステーションで結果を生成する材料を示しています。 抽出器または他の処理ステーションの近くに配置する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ponexDescription",
+      "value": "Please, someone end my eternal torment. My pain is ceaseless."
+    },
+    {
+      "op": "replace",
+      "path": "/ponexDescription",
+      "value": "どうか、誰かが私の永遠の苦悩を終わらせてください。 私の痛みは絶え間なくだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^yellow;Lab Directory^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^yellow;ラボディレクトリ ^reset;"
+    }
+  ]
+]

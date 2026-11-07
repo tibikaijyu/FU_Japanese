@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I don't recommend allowing anyone else to use this. They would probably die."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "他の人にこれを使用させることはお勧めしません。 彼らはおそらく死ぬでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "It may be nearly lethal, but this upgrade could certainly boost effectiveness."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "致命的に近いかもしれないが、このアップグレードは確かに効果を高める可能性がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Stimulant Rig III"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "刺激性リグIII"
+    }
+  ]
+]

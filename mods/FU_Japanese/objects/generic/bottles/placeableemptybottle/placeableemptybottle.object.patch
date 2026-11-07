@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable bottles!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! ペットボトル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Empty Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空のボトル"
+    }
+  ]
+]

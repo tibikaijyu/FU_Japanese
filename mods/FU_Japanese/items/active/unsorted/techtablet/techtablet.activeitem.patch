@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Primary^reset;: Tech Crafting\n^yellow;Secondary^reset;: Tech Console\n^green;Shift^reset;: Research Menu"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;通常操作^reset;：テック製作\n^yellow;副操作^reset;：テックコンソール\n^green;Shift^reset;：研究メニュー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Tablet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テックタブレット"
+    }
+  ]
+]

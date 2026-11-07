@@ -1,0 +1,710 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/eatingYourself/text",
+      "value": "Biting ones own body and eating it is probably not the best idea, sir. I don't suggest doing that again. Eventually you'll run out of pieces, and then what will you have left to eat? Also, now you're bleeding everywhere. Nicely done."
+    },
+    {
+      "op": "replace",
+      "path": "/eatingYourself/text",
+      "value": "自分の体にかみついて食べるのは、あまり良い考えではありません。繰り返さないことを勧めます。いずれ食べる部分がなくなったら、次は何を食べるつもりですか？ しかも、今や辺り一面があなたの血です。お見事。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupCthulhureward/text",
+      "value": "Whatever the hell this thing is, it reads unlike anything I have ever seen before. I literally get nothing when I try, yet it moves and pulses..."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupCthulhureward/text",
+      "value": "一体何なのか、これまで見たどんなものとも測定結果が違います。調べようとしても、文字どおり何も検出できません。それなのに、動き、脈打っているのです……。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupElderaltar/text",
+      "value": "While I applaud your bravery even touching this altar, I would advise caution. It clearly is not a good thing. Perhaps some lore can shed light on how to use it..."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupElderaltar/text",
+      "value": "この祭壇に触れる勇気には感服しますが、慎重に扱うことを勧めます。明らかに、良いものではありません。使い方を解き明かす伝承があるかもしれません……。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission0/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission0/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission0/text",
+      "value": "I'll be with you during this investigation. I'm on vacation, but that doesn't mean I don't have to do my duty as director. It looks like you came in through their backup teleporter. Did something happen to the main?"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission0/text",
+      "value": "今回の調査には私も付き添おう。休暇中とはいえ、所長としての務めはある。予備のテレポーターから入ったようだね。メインの装置に何かあったのか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission1/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission1/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission1/text",
+      "value": "Not to worry, it's a short walk to the ^orange;Research Station^reset; down the cliff. Watch your step, it tends to be very icy there."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission1/text",
+      "value": "心配ない。崖を下りれば、^orange;研究施設^reset;まではすぐだ。あそこはひどく凍り付くことが多い。足元に気を付けて。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission10/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission10/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission10/text",
+      "value": "That can't be right. This has to be an error. Scans place the age of this place at somewhere around 1 billion years. I must know more. Keep going. I should ^red;***** *** ******^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission10/text",
+      "value": "そんなはずはない。何かの間違いだ。スキャンによると、この場所は約1 billion（10億）年前のものらしい。もっと知る必要がある。進んでくれ。私は^red;***** *** ******^reset;！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission11/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission11/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission11/text",
+      "value": "This sculpture somewhat resembles ^red;********^reset;e Ruin. There are key differe^red;*******^reset; factors, of course. Some sort of ancient Ruin worship, perhaps?"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission11/text",
+      "value": "この彫刻は、^red;********^reset;ルーインに少し似ている。もちろん、決定的に異な^red;*******^reset;部分もある。古代のルーイン崇拝なのか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission12/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission12/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission12/text",
+      "value": "What manner of ^red;*****^reset; is this, and what became of them? Nothing ever recorded matches this...thing. Whatever this place is, it will redefine galactic history."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission12/text",
+      "value": "これは一体どんな^red;*****^reset;で、彼らに何が起きたんだ？ 記録上、この……存在に一致するものはない。ここが何であれ、銀河の歴史が書き換わるぞ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission13/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission13/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission13/text",
+      "value": "The storm is ^red;******^reset; ^red;******^reset;. My scanners are ^red;*bzzzzzzzzzz*^reset; and ^red;******^reset;. I am ^red;******^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission13/text",
+      "value": "嵐が^red;******^reset;、^red;******^reset;。スキャナーが^red;*bzzzzzzzzzz*^reset;、そして^red;******^reset;。私は^red;******^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission13a/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission13a/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission13a/text",
+      "value": "I ^red;******* *****^reset; ? We should ^red;******^reset; before it is ^red;******^reset;. Okay?"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission13a/text",
+      "value": "私は^red;******* *****^reset;？ ^red;******^reset;しよう。^red;******^reset;する前に。いいね？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission14/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission14/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission14/text",
+      "value": "I am detect^red;*******^reset; ^red;*buzz*^reset;! Take ^red;******^reset; or it ^red;******^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission14/text",
+      "value": "検出し^red;*******^reset;、^red;*buzz*^reset;！ ^red;******^reset;を取れ。さもないと^red;******^reset;！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission15/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission15/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission15/text",
+      "value": "^red;*******bzzzzzzzzzzzzzzzzzzzzt*****^reset;  ^orange;-CONNECTION TERMINATED-^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission15/text",
+      "value": "^red;*******ザザザザザザザザザザッ*****^reset;  ^orange;―接続終了―^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission16/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission16/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission17/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission17/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission18/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission18/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission19/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission19/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission1a/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission1a/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission1a/text",
+      "value": "I'm picking up biological signatures. Stand by while I ^red;****^reset;...oh dear. The weather is interfering with our connection. If I can no longer reach you, SAIL can guide you."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission1a/text",
+      "value": "生体反応を拾っている。^red;****^reset;する間、待っ……困ったな。天候が通信を妨げている。私と連絡が取れなくなったら、SAILの案内に従ってくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission2/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission2/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission2/text",
+      "value": "How odd! I can only recognize one signature from our database. I am also picking up readings that match nothing I've ^red;****^reset;. The connec^red;*** ***^reset;blems are ^red;****^reset; scans."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission2/text",
+      "value": "奇妙だ！ データベースで識別できる反応は1つだけだ。さらに、今まで^red;****^reset;どれとも一致しない反応がある。通^red;*** ***^reset;の問題が、スキャンを^red;****^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission20/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission20/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission21/senderName",
+      "value": "Unknown"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission21/senderName",
+      "value": "不明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission22/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission22/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission22/text",
+      "value": "^orange;-ONLINE-^reset; You're ALIVE! I thought for certain you were dead! What did you discover about the temple, and what happened to our team? Report to me as soon as you can with your findings."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission22/text",
+      "value": "^orange;―接続復旧―^reset; 生きていたのか！ もう死んだものとばかり思っていた！ 寺院では何が分かった？ 我々の調査隊に何が起きたんだ？ できるだけ早く、発見したことを報告してくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission3/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission3/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission3/text",
+      "value": "What in the world happened to this team? Where is everyone? Who broke the lock? Check everything you can."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission3/text",
+      "value": "この調査隊に、一体何が起きた？ みんなはどこだ？ 誰が錠を壊した？ 調べられるものはすべて調べてくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission4/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission4/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission4/text",
+      "value": "There's a failsafe switch on the far wall of this room. It should override the main lab doors, which should give us access to the power breakers so we can see more clearly."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission4/text",
+      "value": "部屋の奥の壁に、緊急用のスイッチがある。研究室の主扉を強制開放できるはずだ。そこから電源のブレーカーへ行けば、明かりを戻せるだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission5/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission5/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission5/text",
+      "value": "The power breakers are at the end of this corridor. Be careful in the dark, we don't know what's down there."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission5/text",
+      "value": "電源のブレーカーは、この廊下の突き当たりだ。暗闇には気を付けてくれ。何がいるか分からない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission6/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission6/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission6/text",
+      "value": "I understand you wanting to leave, and I whole-heartedly agree with you. As I said, however, check everything you can for clues. This can't happen again. I won't let it."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission6/text",
+      "value": "引き返したい気持ちは分かる。私も心から同感だ。だが、さっき言ったとおり、手掛かりになりそうなものはすべて調べてくれ。二度とこんなことを起こしてはいけない。絶対にだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission7/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission7/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission7/text",
+      "value": "This blizzard is unrelenting. There are some tall cliffs up ahead. Use them for shelter from the wind if you need to. Our connection may fail soon, as well."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission7/text",
+      "value": "吹雪が一向に収まらない。この先には高い崖がある。必要なら、その陰で風を避けるといい。通信も、もうじき途切れるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission8/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission8/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission8/text",
+      "value": "Fascinating! A mutated form of ^red;*******^reset;, one I've never seen the likes of before. Be careful, though. They appear rabid, and may possess any number of terrible ^red;******^reset; diseases."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission8/text",
+      "value": "興味深い！ ^red;*******^reset;の変異体だ。こんなものは見たことがない。だが注意してくれ。ひどく凶暴に見える。恐ろしい^red;******^reset;病原体を、いくつも抱えているかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission9/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission9/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmission9/text",
+      "value": "This pillar... this stone... We can't even be sure if this -is- stone. There aren't any similarities to known minerals within it. Continue onward, for the sake of our team and for science."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmission9/text",
+      "value": "この柱……この石……そもそも石なのかも分からない。既知の鉱物との共通点がないんだ。我々の調査隊のため、そして科学のために進んでくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissiongoretunnel/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissiongoretunnel/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissiongoretunnel/text",
+      "value": "Oh- oh no, this is horrible. I...we... *vomiting sounds*. We- we have to keep going. Find out what happened so it will never happen again."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissiongoretunnel/text",
+      "value": "ああ……そんな、ひどすぎる。私……我々は……ゲェッ。……先へ進まなくては。何が起きたのか突き止めてくれ。二度と繰り返させないために。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionlore/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionlore/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionlore/text",
+      "value": "Secret knowledge! We should search these shelves and ^red;**** **^reset; anything we find. Who knows what useful information or ancient ^red;**** *****^reset;we might uncover in the process!"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionlore/text",
+      "value": "秘められた知識だ！ この棚を調べて、見つけたものを^red;**** **^reset;しよう。役立つ情報や、古代の^red;**** *****^reset;が明らかになるかもしれないぞ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionlore2/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionlore2/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionlore2/text",
+      "value": "Perhaps check the books on the shelves for a hint. You may need that to progress, and look for similar things in further rooms."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionlore2/text",
+      "value": "棚の本に手掛かりがあるかもしれない。先へ進むために必要になるだろう。この先の部屋でも、同じようなものを探してくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionmicrosphere/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionmicrosphere/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionmicrosphere/text",
+      "value": "The path seems to be blocked. Oh, there's a small tunnel that seems to lead somewhere. Perhaps a Translocator or a Microsphere tech would do the trick."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionmicrosphere/text",
+      "value": "道が塞がれているようだ。おや、小さなトンネルがどこかへ続いている。トランスロケーターか、マイクロスフィアのテックで通れるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionshootdoor/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionshootdoor/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionshootdoor/text",
+      "value": "Oh my. The lock was destroyed. Perhaps you could try blasting the door open with an explosiv^red;***** ** ****^reset;? There seems to be little other choice. Hurry, a ^red;****^reset; storm is coming!"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionshootdoor/text",
+      "value": "なんてことだ、錠が壊れている。爆発ぶ^red;***** ** ****^reset;で扉を吹き飛ばせないか？ ほかに手はなさそうだ。急いでくれ、^red;****^reset;嵐が近づいている！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionvinwagner/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionvinwagner/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shoggothmissionvinwagner/text",
+      "value": "MacReady! What happened to him? What's on his face? That thing seems to be influencing him. I hate to encourage this, but please defend yourself. Put him out of his misery for his sake."
+    },
+    {
+      "op": "replace",
+      "path": "/shoggothmissionvinwagner/text",
+      "value": "マクレディ！ 彼に何が起きた？ 顔に付いているのは何だ？ あれが彼を操っているようだ。こんなことは言いたくないが、身を守ってくれ。彼のためにも、苦しみを終わらせてやってほしい。"
+    }
+  ]
+]

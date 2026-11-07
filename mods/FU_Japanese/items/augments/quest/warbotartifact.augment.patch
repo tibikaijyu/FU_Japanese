@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Targeting Chip"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "チップをターゲットにする"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+3%^reset; Crit Chance\n^green;+20%^reset; Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+3%^reset;クリティカル チャンス\n^green;+20%^reset;クリティカルダメージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hyper Targeting Chip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイパーターゲティングチップ"
+    }
+  ]
+]

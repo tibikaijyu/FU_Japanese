@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Remember: Almost everything natural can extract, and more besides. Experiment, and you'll find some truly interesting things."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "覚えておいてください:自然が抽出できるほとんどすべて、そしてさらに。 実験すれば、本当に興味深いことが見つかるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^green;Seeds^reset; are best extracted for useful ^orange;Tissue Culture^reset;. Without them you will be unable to complete a ^orange;DNA Sample^reset; which is rather important to your success."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;種子^reset;は有用な^orange;組織培養^reset;のために最もよく抽出される。 それらがなければ、あなたの成功にとってかなり重要な^orange;DNAサンプル^reset;を完了することはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Cultural Differences"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "文化の違い"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp made from gold and crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金とクリスタルから作られたランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリスタルラバランプ"
+    }
+  ]
+]

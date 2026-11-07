@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stab them with cosmic power!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それを宇宙力で刺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙ナイフ"
+    }
+  ]
+]

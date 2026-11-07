@@ -1,0 +1,842 @@
+[
+  {
+    "asset": "fujp/species_display.config",
+    "baseline_sha256": null,
+    "sha256": "8e82767ec534e369416d875394218814cbb4f7d5cdc6007016e44a187732a554",
+    "bytes": 284939
+  },
+  {
+    "asset": "fujp/species_display.lua",
+    "baseline_sha256": null,
+    "sha256": "6af32b39aba2da167cc0afe9a519b23339fc3dd67512380377723ae820563731",
+    "bytes": 1902
+  },
+  {
+    "asset": "interface/objectcrafting/fu_racialiser/fu_raceinfo.config.patch",
+    "baseline_sha256": "5d4f7ffe64d8f8e6a097754efaf195117b9a0ce3a2885c2a96e019c223d014af",
+    "sha256": "559bb20d73407d74540a0dba0059d5bcff58bbddc9f739acea738fe32750c023",
+    "bytes": 43642
+  },
+  {
+    "asset": "interface/scripted/statWindow/statWindow.config.patch",
+    "baseline_sha256": "cbeebe6fcb303f3704b79d9d6750fcc53cb209a218d00115d20d2b13093d5568",
+    "sha256": "2df382108c26207aceb006ab4eb3b96191e6a4a31cfcaccc57bdfdae9e4c1ae4",
+    "bytes": 14242
+  },
+  {
+    "asset": "interface/scripted/statWindow/statWindow.lua",
+    "baseline_sha256": "aaf292b622ad5efd0ede4f97ae23ce74b75c69762661f3ad1d0ee5843b63c899",
+    "sha256": "2603f26483c474f3893f80a1f912dc49c0936ac17099f9c696817fc2c439ac5e",
+    "bytes": 6706
+  },
+  {
+    "asset": "interface/windowconfig/charcreation.config.patch",
+    "baseline_sha256": "088a398e843d0745d0a9824f74d7ec22fba197f2f6cc43c08349ddc4b3229038",
+    "sha256": "dd968ff9aecd87d597a7b583546d4c37e1d1b0399d7993dcdbbe74fb0db39b3f",
+    "bytes": 6359
+  },
+  {
+    "asset": "species/aegi.species.patch",
+    "baseline_sha256": "f554eb9d51d4e5500c519ac6f446530b8f6c4f0ba4fe39c7a59c595f615e6d9d",
+    "sha256": "619876ae62bfbb2ba1ce9f1b69c33bf1612890a7e4850d4a27567b326a75b107",
+    "bytes": 4421
+  },
+  {
+    "asset": "species/akkimari.species.patch",
+    "baseline_sha256": "933d2c8cc792856675cd8097e2f7775657de09f38315007e62fed555f214f876",
+    "sha256": "9b56e205a743b2e7150ebc35c2d2e7fe1c457e57a63f0691728c4b03b2cb6b5a",
+    "bytes": 4873
+  },
+  {
+    "asset": "species/alicorn.species.patch",
+    "baseline_sha256": "87440d0b163d980e900d51dcc763db48e00731ee442940df69700ccc6522211e",
+    "sha256": "2cf7c5ad1a2ef36c0cd0e5e35aa530c063c141060dc2bc5fab3cf58cb05262a8",
+    "bytes": 4771
+  },
+  {
+    "asset": "species/alrune.species.patch",
+    "baseline_sha256": "1eae7ec87d264682c4f7a335c4f56d9b9a9529ff6d59f71b15f2ede8ee4b29ac",
+    "sha256": "43311ca0fae731f6a77fbcc411a5f49295f21656bfdd84da39b56b0fdbb0b295",
+    "bytes": 5779
+  },
+  {
+    "asset": "species/apex.species.patch",
+    "baseline_sha256": "c133f2e8af52852d165f7542089249ca96b83885c8dd4f52a3b9a554464e4a89",
+    "sha256": "f471d5f53dea590670bc2dab45c1dfffb2807a10cb4d0d44ec42092e634141b9",
+    "bytes": 4551
+  },
+  {
+    "asset": "species/arachne.species.patch",
+    "baseline_sha256": "4f4d927f2af0ca71aaf2234a4518f9c8166d47b92552fdbe63cf82e8765c0546",
+    "sha256": "80d01b6f9489f2c704525d47e56dada4a85e6f2651cd3239aef33ad59d33050a",
+    "bytes": 4573
+  },
+  {
+    "asset": "species/arcanian.species.patch",
+    "baseline_sha256": "ab971f2d0e8bb13fd7d3739190e25516f4eb9b975e00d59c994dd696c89f1924",
+    "sha256": "7df0e4c03ccee701f389132a0819f8ffe400191e5c42fe800599bde007362925",
+    "bytes": 5041
+  },
+  {
+    "asset": "species/argonian.species.patch",
+    "baseline_sha256": "cdb9688722ef916156c34db0547174ffe5bc10028407ede15e7fb5af3a64c8f3",
+    "sha256": "0d92fde0293f7b7298d39a0f5b41ca7e07a1f2de483abf118e8220606db92b08",
+    "bytes": 5235
+  },
+  {
+    "asset": "species/attarran.species.patch",
+    "baseline_sha256": "2368051b02c79822b965098f8db525a6906cbf2fe5800ca57bb51dce7fe4aa94",
+    "sha256": "03d371263b2d87c55a51158e3d292df742ff5a21059a963574bf5ae2b5deda7f",
+    "bytes": 3673
+  },
+  {
+    "asset": "species/avali.species.patch",
+    "baseline_sha256": "7d65aa2ba134841a6c633ba003d03dcbcabd7f5362dcd1fb7fe6e8ce791e1e2c",
+    "sha256": "880d07bbcfda05256b0c65e0e86186135136de6ea52d41462b3b1f3a8d95554e",
+    "bytes": 4809
+  },
+  {
+    "asset": "species/avian.species.patch",
+    "baseline_sha256": "027dd8fd7164c874d0804299e4b30f30c6f410f196af75a0e160bfadde487028",
+    "sha256": "6cd024453ff3556c879622dd7917f648ff2b1bf2e12098053388581c6342b5d2",
+    "bytes": 5153
+  },
+  {
+    "asset": "species/avikan.species.patch",
+    "baseline_sha256": "4b77359388b948a03233ba67170f615d6352e45068228063b4af2a655d176318",
+    "sha256": "968ab20ac1f98f074a215d1a9d523f8379792509c3eea68ea208cc91eb79ee96",
+    "bytes": 4899
+  },
+  {
+    "asset": "species/batpony.species.patch",
+    "baseline_sha256": "7e9b956fb38dd5b1652d61a55d0d53e5149057878a589f974e65d87813299661",
+    "sha256": "d2dc98b0c24e1fb32968838a690de6f7695e0621a718ab0b4d5503df05e16f1f",
+    "bytes": 6927
+  },
+  {
+    "asset": "species/bunnine.species.patch",
+    "baseline_sha256": "e6221abe45e8955b9960b0efaded885489b5d7cef514f15e2e357cdefd66a5d3",
+    "sha256": "0a842a118c9eceb6228b0fe6a263e946c92bafdbac5ea01e6c40c6a98a25a0e1",
+    "bytes": 5533
+  },
+  {
+    "asset": "species/bunnykin.species.patch",
+    "baseline_sha256": "7f7822e7a3e488d7094d0bf3b4845fa3dd3cea9c3b1663802c406e6ea4ec5168",
+    "sha256": "4638635af61d26c51eb80f5bc3aac33e0e873122a8068e3e2492bdab0c97c4d4",
+    "bytes": 4043
+  },
+  {
+    "asset": "species/calliotes.species.patch",
+    "baseline_sha256": "2ccde09d94e5607e1241c96c37b3a92ffa20ac095dde40653f122a38d136eac8",
+    "sha256": "73398355e8cfd754c79e581fa5d5234d5d12b956c5905b45741caa9fdd24ba91",
+    "bytes": 4441
+  },
+  {
+    "asset": "species/callistan.species.patch",
+    "baseline_sha256": "2ccde09d94e5607e1241c96c37b3a92ffa20ac095dde40653f122a38d136eac8",
+    "sha256": "73398355e8cfd754c79e581fa5d5234d5d12b956c5905b45741caa9fdd24ba91",
+    "bytes": 4441
+  },
+  {
+    "asset": "species/calskies.species.patch",
+    "baseline_sha256": "2ccde09d94e5607e1241c96c37b3a92ffa20ac095dde40653f122a38d136eac8",
+    "sha256": "73398355e8cfd754c79e581fa5d5234d5d12b956c5905b45741caa9fdd24ba91",
+    "bytes": 4441
+  },
+  {
+    "asset": "species/candavaswebber.species.patch",
+    "baseline_sha256": "3f6998173cf36b38e36e4ae3ad42b2419ba7d579ceb12b650706bdb3e4267095",
+    "sha256": "cf976c64207934af14d55f1f29d7fc23a47eb23821cc71e700929e103182800d",
+    "bytes": 4683
+  },
+  {
+    "asset": "species/carakinox.species.patch",
+    "baseline_sha256": "1a29dc8db99285f8e2eef9c580154524e17928015cabc40f650109ba8bd36f68",
+    "sha256": "6656e9b6e892c0dc5f3b03714fe0d9e3f60d6b428d941a681922126fe73d4001",
+    "bytes": 3747
+  },
+  {
+    "asset": "species/cat.species.patch",
+    "baseline_sha256": "c35c19719e7e9e65600d584d8fd45317e7564c90757f2199f14b722edc9f4646",
+    "sha256": "d78c77ed66f96789ecd7cad90d24a2eedb2ad63dffa2ed5d6bd6bb2458902b8d",
+    "bytes": 10666
+  },
+  {
+    "asset": "species/changeling.species.patch",
+    "baseline_sha256": "564fa60663233feae8a7641d4c42cd8584198fb24b4fce2847731724b62681e8",
+    "sha256": "23234b4e3d0bb1441c67a6b5b608adab0349b6fa66f5e9a3546dc363b8f723d4",
+    "bytes": 6833
+  },
+  {
+    "asset": "species/changenykt.species.patch",
+    "baseline_sha256": "7a200c3ea5153d3aed1c4bc33466996cfbd1573df3d1f219203e7069f01ab5d6",
+    "sha256": "df82826a417054ff45b885743e36d7dec92bbef2c7a0bf40be3657c065b92f95",
+    "bytes": 3107
+  },
+  {
+    "asset": "species/deerfolk.species.patch",
+    "baseline_sha256": "9a62ab3e7246f5724485b7cb9fdc53c1d02fe26244293a3f61cb799b37d00721",
+    "sha256": "3068b4adbfc84f9a80fa51d9a52d06a1adfda6b6890555b37f04ef59b8f36097",
+    "bytes": 4497
+  },
+  {
+    "asset": "species/deerkin.species.patch",
+    "baseline_sha256": "326ef3d47ef7a77a6327233c7205d3804ec6e622c9ccc5dad34a1a9c40406fe7",
+    "sha256": "e9624d98e770abeadd2a88e0a6728c26a7db078a3cd0ea7ef82f77876ff8f556",
+    "bytes": 3943
+  },
+  {
+    "asset": "species/demon.species.patch",
+    "baseline_sha256": "70cebfee1cabeebc01e5b3875aea0748fa972d984c4862036d8759c7950eec53",
+    "sha256": "67a72f8a842c63f8519c10f711e09ca50a59fcadab4adca70f8fcceae5429916",
+    "bytes": 4221
+  },
+  {
+    "asset": "species/dragon.species.patch",
+    "baseline_sha256": "cb6cf155d480979bda9a5ca086d9c6112e03d7d09a13bcb0e352bb433c399ff2",
+    "sha256": "316b0bc1ade756a4ddc89671e53c0ae649950b3bd473df1538252fb983e4b973",
+    "bytes": 4137
+  },
+  {
+    "asset": "species/droden.species.patch",
+    "baseline_sha256": "6dac2b380fc9d0d4b036d5c1ba4bda84e75e111ed54a3b777b6afd6dbe485f24",
+    "sha256": "bd6e241a6621ed94372eea2d3a641e9c321cf66763bad6dc1c862f0c6d1b13e3",
+    "bytes": 4231
+  },
+  {
+    "asset": "species/eevee.species.patch",
+    "baseline_sha256": "3ddf7485e53a46f4f1bb3f9051656bf96ad9a361c3757ac4e1cd36e245aa05f6",
+    "sha256": "0a7206bf0de72c9a527bda4829db7530305173f1e3191dea1bb9472a746524aa",
+    "bytes": 5055
+  },
+  {
+    "asset": "species/elduukhar.species.patch",
+    "baseline_sha256": "d9848bf728fb0382aeb092d3cad8c93eb0d7f54d6dfe071bb0fdc9511127e988",
+    "sha256": "c2a7237bc32684cdfd9685896fe5ce57dfe811953fd42f4f4e5912f2387509eb",
+    "bytes": 7785
+  },
+  {
+    "asset": "species/elunite.species.patch",
+    "baseline_sha256": "80a635db678866af08b4cef1b1986a2d68ee79b50e5855a26b6899f468177a9c",
+    "sha256": "a69bcebfbb7f0cc7e6fa14652932db3c31cab12c713d4c4175634b5089f0ba42",
+    "bytes": 3245
+  },
+  {
+    "asset": "species/elysian.species.patch",
+    "baseline_sha256": "8368137ae72d8c7bee4dfa4e664d46e0b22285beba1fe526f002defbe71c296d",
+    "sha256": "edd27578af23f4ae3f4a910733f72464835199cbc8f7ad5b65a5d1b710dd284f",
+    "bytes": 4949
+  },
+  {
+    "asset": "species/everis.species.patch",
+    "baseline_sha256": "a8f62feaaf8947ca71668d195a4efd9f5c240175a705de79add44bd69a1d9b9c",
+    "sha256": "00e489a0047926e887d5c987d70c62cd1f7ff691ac6e342e2da006a2db6d18ff",
+    "bytes": 4227
+  },
+  {
+    "asset": "species/familiar.species.patch",
+    "baseline_sha256": "756d8e425b00f4693e698964f646c4557a7aafdda6f7bd2ede604453a582f563",
+    "sha256": "bc21ebe551ba8d0dc949c21b5c760fc21656e1bf80d5ddaefb7e5255429da2da",
+    "bytes": 3263
+  },
+  {
+    "asset": "species/felin.species.patch",
+    "baseline_sha256": "8887fa31da900de21234e83891af763e89919317134e6fcc8b48c129e7259d15",
+    "sha256": "9738c2684e93fbcb8c762be3f679dc3fae161b881b7613bcd880f143a3182d46",
+    "bytes": 5263
+  },
+  {
+    "asset": "species/fenerox.species.patch",
+    "baseline_sha256": "65bf144ad470a17cfcd8a14aa9b4c17ea792fac1992090df39b02a97b2c988e6",
+    "sha256": "8cef43560ce0e4085debdf6e5079ca21386bd2b9d55126ffcd388efb2952e0ef",
+    "bytes": 7555
+  },
+  {
+    "asset": "species/fennix.species.patch",
+    "baseline_sha256": "8bc34472079f50025006a8e6c38730c474a4b9bdca7c77aca4068cf997877857",
+    "sha256": "27c2fe82f1add9bc2ab79cc5a7e46b0f469f70233044505b0c702ecdee08854c",
+    "bytes": 4145
+  },
+  {
+    "asset": "species/floran.species.patch",
+    "baseline_sha256": "d47c0b2576a3d03d597c40f6bca444de40bc6082d480cd9a4597829126ce6294",
+    "sha256": "a0f4cee6e788a1981a03d48e0dbc0b6b8226ad9e617ca7218d558ebc671b1bd4",
+    "bytes": 4807
+  },
+  {
+    "asset": "species/fragmentedruin.species.patch",
+    "baseline_sha256": "4e98fba6d6e0ffa5cb02715ef1040a825673a9c0621fe4f9888bcc76cc78ecf6",
+    "sha256": "1fb246be5ff041a3728877afcacadd58aa0af4c13a6af2c7d0accfdc9d58db36",
+    "bytes": 4001
+  },
+  {
+    "asset": "species/fuanodyne.species.patch",
+    "baseline_sha256": "8c3c8406994a1f1b792398848ac6eb804466b17410c83c1ede30892aeefabcab",
+    "sha256": "78907f182973d34db1312707bb3f4b47e10eda3eabbc434d79acab5bcfe62218",
+    "bytes": 3104
+  },
+  {
+    "asset": "species/fudarkizku.species.patch",
+    "baseline_sha256": "d72a30c501286440a92f4950583920c22c12805dc5952e940dc853a395468585",
+    "sha256": "180a3cb91f3374cf75b122a99dc74494ea31d3d7658b71edc8cee2797dffed5e",
+    "bytes": 2974
+  },
+  {
+    "asset": "species/fuizku.species.patch",
+    "baseline_sha256": "da0d8b1485fda2e5fd1c7801e2eb0bba5f33777dd018ffe33b92e8b95a800fd6",
+    "sha256": "fff5135c50f459504fb5ec42c1ac484395bf122517dbc5094452a2960be0c43c",
+    "bytes": 2878
+  },
+  {
+    "asset": "species/fukirhos.species.patch",
+    "baseline_sha256": "aacdde0667a6d67e7c0e5898ef62d77deec18272070f6075572a7148829cfe67",
+    "sha256": "4fa56b4bc4ef72e9137de778676bb00cdf31fc51e5bb196e76d207fd516f1a58",
+    "bytes": 6149
+  },
+  {
+    "asset": "species/fumantis.species.patch",
+    "baseline_sha256": "289d414875342bd7007933954026921a00a7816e3605a8369c60ff8d221f6dce",
+    "sha256": "f879a44d9f09466f3c5798ec1a25d2aa6b1ae2e1575c43d1b8ec4b79a765e4dc",
+    "bytes": 2938
+  },
+  {
+    "asset": "species/fumantizi.species.patch",
+    "baseline_sha256": "e1e581072e4874c66edcb25b831d3e192b2c30b528a053f4ffb2e7719617af18",
+    "sha256": "58bfa7226de1d4e0dbf2e0a48fddc0396d3d06ac65766896bf95ba2161966950",
+    "bytes": 6889
+  },
+  {
+    "asset": "species/fupeglaci.species.patch",
+    "baseline_sha256": "9296da845822d9a37c3315f617cc3c3e6239ba3de26608b97962d6bccc07f6ca",
+    "sha256": "34a90bfeaa037335077cda85f02c206b7eaa165059c492ffd3afb7fa2693be0e",
+    "bytes": 6338
+  },
+  {
+    "asset": "species/fuphotonpoptop.species.patch",
+    "baseline_sha256": "e94515b133f004c8c9da9fa1db8fa2637984681a6247b5f048ef46e1d1b5d9b0",
+    "sha256": "4c98b39b14881f059113ce33dfe5b67370e75a8ea5ddb29d55c0c8484a6edfd2",
+    "bytes": 3046
+  },
+  {
+    "asset": "species/fuslimeperson.species.patch",
+    "baseline_sha256": "0b6bbc53a78fa3a6c550513817bcc03c758d42021be68d073482977ea368c26b",
+    "sha256": "52024e1e84b66a4910520bd7d40b95596aeedce9254389a88e73737791cfca7e",
+    "bytes": 3066
+  },
+  {
+    "asset": "species/gardevan.species.patch",
+    "baseline_sha256": "28bcaaaf15803252ded35f3d631d6d18283abcfdc5463aaba758a52eadd3b90b",
+    "sha256": "10a9a3d265a104fce7ebaf99cd5bb0148ae001ad051df4229507ab01b9682583",
+    "bytes": 3063
+  },
+  {
+    "asset": "species/glitch.species.patch",
+    "baseline_sha256": "c438b4946b6e0d940bf97674eae64a946741e1e9d6214ccd29427ba8a724079e",
+    "sha256": "3af529b0e61df9685529e8094d4777ddfadd559389d50a3beb274d6e2a982f70",
+    "bytes": 5109
+  },
+  {
+    "asset": "species/greckan.species.patch",
+    "baseline_sha256": "b418bbf9106ff83420bf01d459c67058aadc28421be2b385344d19f59cc21dc8",
+    "sha256": "bf6a31866d14bcad97ef47333bf20b30bdc600020ff17ed2ffc9b49641528ffb",
+    "bytes": 4299
+  },
+  {
+    "asset": "species/gyrusen.species.patch",
+    "baseline_sha256": "ce8dbe61991d840d630cf798b212eb689313d6a41686bc9134e7782901a92474",
+    "sha256": "78f075b932b3c32cf792f79f71f144856a6c0e727e9c3ff8f2694e7335b6c322",
+    "bytes": 2795
+  },
+  {
+    "asset": "species/harpy.species.patch",
+    "baseline_sha256": "0483571360b33f9afab82a6917ce46a1518e8351efa98a2db329981cead1081d",
+    "sha256": "66b0465ec3eb3af5729bb5cb8491780b00f19d46a0e9139dd330bbc4fdb04133",
+    "bytes": 5235
+  },
+  {
+    "asset": "species/hippogriff.species.patch",
+    "baseline_sha256": "3587b6c65ad86a7d3900c93ef1ff44284e1055dce09814a0fd507acbdcf829eb",
+    "sha256": "43fe4dd5a8b28ccc870a298eb183368bcd0600559989566dd25ec98e6425cf39",
+    "bytes": 4945
+  },
+  {
+    "asset": "species/human.species.patch",
+    "baseline_sha256": "68346bd9de696fb9a1931f57ddf5ef99c6dd37ca1ebfdba3fa349908b24a3525",
+    "sha256": "329fd42cc037c47462e623dd469f9832dbd9676ee4123d502b57970aa96361ae",
+    "bytes": 3651
+  },
+  {
+    "asset": "species/hylotl.species.patch",
+    "baseline_sha256": "e23b106b14ae5d1c972755881ebf7ee9253a43fbc285c2673ccd66f50c5bd241",
+    "sha256": "4c0c3cb2e63fde112e1bc64ffcc5358002abd2e9129a944fca4fbe98ddfee5b7",
+    "bytes": 4447
+  },
+  {
+    "asset": "species/indix.species.patch",
+    "baseline_sha256": "5247c50dea21efea529acfbe437ef281004d477e3190b24e4919136df35c0909",
+    "sha256": "30b6712637363bc50132469d9d3185af7089b2b77ea6f96588469eb1849e2bd3",
+    "bytes": 3547
+  },
+  {
+    "asset": "species/inkling.species.patch",
+    "baseline_sha256": "5aa606b384d66a63b115a9a0ec5a8620cebd9c84da35ee09935712b1236d3538",
+    "sha256": "e3fc3f18bb0054b0779d8677fcf522fc426c86b143da5ea630c0450cb1353ab5",
+    "bytes": 7955
+  },
+  {
+    "asset": "species/irken.species.patch",
+    "baseline_sha256": "847f01e8762a094651e1a3b5a1a552fdd8d3a531cfa3c6e9cf90be0b69758723",
+    "sha256": "edc88792cf916050070f37d89543199d0217fd89900ea5a969238ce8e4eade0b",
+    "bytes": 3989
+  },
+  {
+    "asset": "species/juux.species.patch",
+    "baseline_sha256": "b6d97c385b9967f7189f1ba9a4692d574362f58f735a5d964efc5cd9b159b1e9",
+    "sha256": "7d66b0ae419b12a3973d567ead81240ae0940606fa253f1535c916701cf148e1",
+    "bytes": 6826
+  },
+  {
+    "asset": "species/kazdra.species.patch",
+    "baseline_sha256": "5b5d1410a7bc31576ae0f817897f845f634b5b26b4e3b648d1d521d1695c59a6",
+    "sha256": "67dabe3e0a1341ba3af118fc9ce8c0287fbd5b6fd6a3d1d16a2b94fc232e3ab6",
+    "bytes": 3775
+  },
+  {
+    "asset": "species/kemono.species.patch",
+    "baseline_sha256": "86fa99e9b011da90dad03c8cfdebf6a15a5aca6cc6c0b2301f71d92262f39753",
+    "sha256": "f79d828001248055e74b2cb0b71b293fabb6df30b9e3f1431c366d9a161e6c25",
+    "bytes": 2523
+  },
+  {
+    "asset": "species/kineptic.species.patch",
+    "baseline_sha256": "ec4fcbdacf396805415aa0a77f5904facb4c6e8d5b80a6e43c09b97f860e7b84",
+    "sha256": "1c4400f3f80442dcad997ac5cbe994f1e94298b205b164cda457d6ee252adc7b",
+    "bytes": 2593
+  },
+  {
+    "asset": "species/kirhos.species.patch",
+    "baseline_sha256": "df30143cbb17829504812aefda648d24db6db03c3f09af5ced8cf0f93656a67b",
+    "sha256": "3246534cfa912eda2239633a16492cd9b191ef00379b02729c4f4bf04367da0a",
+    "bytes": 3883
+  },
+  {
+    "asset": "species/kitsune.species.patch",
+    "baseline_sha256": "190a122e1da36951b8d0e74289ae17482002881d8e4e6edad351781d08d0d636",
+    "sha256": "558cb968a20708c420b5f20055dbf725e34b4623796e84ba2af9daf02304df26",
+    "bytes": 4417
+  },
+  {
+    "asset": "species/kyani.species.patch",
+    "baseline_sha256": "dc5bdb67c8dbbf37ff0766dfa26148a246b3e32c537618ed9d9651f93c116e04",
+    "sha256": "9112c721da72bfe0d820238f7a4db66c68a2c6140ee4abcebc78441372adf8c2",
+    "bytes": 6107
+  },
+  {
+    "asset": "species/lamia.species.patch",
+    "baseline_sha256": "f45350d71033bf8c03a7e6390cd4e0be3551e745f4e1f5d1b8e721e4a35ab9e7",
+    "sha256": "6ed68247a59d92996bd9214b7f451df2c2a8c92620afc02888bd77135672b562",
+    "bytes": 4585
+  },
+  {
+    "asset": "species/lastree.species.patch",
+    "baseline_sha256": "0e7a4fb70309efcfce9a162440008deaa6dbad4f64512128a37ef602b4f0aa31",
+    "sha256": "c8a3454ceb2b1b6935138dadbfbb3893a4135c2899f54a5f5ac44b56d639078b",
+    "bytes": 3379
+  },
+  {
+    "asset": "species/lombax_pointed.species.patch",
+    "baseline_sha256": "a35e7125ea249e7cdb12cdde8d3001ed06be489b26d0ad2a4bc078654809ed3c",
+    "sha256": "076149094d135dc2fa13ce055f04c17ae681750f03943efbc28d2bfd5b8a4025",
+    "bytes": 4639
+  },
+  {
+    "asset": "species/lombax_striped.species.patch",
+    "baseline_sha256": "a35e7125ea249e7cdb12cdde8d3001ed06be489b26d0ad2a4bc078654809ed3c",
+    "sha256": "076149094d135dc2fa13ce055f04c17ae681750f03943efbc28d2bfd5b8a4025",
+    "bytes": 4639
+  },
+  {
+    "asset": "species/lucario.species.patch",
+    "baseline_sha256": "75c87729e13d06e8370104f6c6f26c7c1b68fcd57a3523cd2637ffeb9774ebb0",
+    "sha256": "0c58cdf4c875b0a1a736ce6e3a3047d9cdd963aa30aa633a82b8d23d7acc50bc",
+    "bytes": 6215
+  },
+  {
+    "asset": "species/lutrin.species.patch",
+    "baseline_sha256": "f80abb7da491f8873a612d8c8ab10aa66132337e8fb1dea7275363ae298625c2",
+    "sha256": "9c898a8620cf51320ede079ef10c05d323ea9d841bcf12e9788763884c06e56c",
+    "bytes": 6671
+  },
+  {
+    "asset": "species/lyru.species.patch",
+    "baseline_sha256": "d31ec83ae72b91e62368b7622b390ffeaa9838f626043b92adaf6437210ac008",
+    "sha256": "4aa4b1734f9a0a3cc9627f5d8ad605eead84ef829a8c6f0ef544044f9888452a",
+    "bytes": 6427
+  },
+  {
+    "asset": "species/mantid.species.patch",
+    "baseline_sha256": "668ab6732d38c3256fd207fb104041550884ee10930b2714ea655735fb079e25",
+    "sha256": "ad51263f5b5c4794db1198af8a69bb76554295edd315804d222b26618ca68e56",
+    "bytes": 5177
+  },
+  {
+    "asset": "species/mantizi.species.patch",
+    "baseline_sha256": "8b12d7367cc23159d61c1ab66448b435cc6c19b2d83e6ff66a6aa4191b5e484b",
+    "sha256": "1d9015f48cfc7cf607cbe25f577ed37136888ab0577cff7b4a2bb01632c11cf3",
+    "bytes": 4369
+  },
+  {
+    "asset": "species/mauskin.species.patch",
+    "baseline_sha256": "034fccddb2d1091e439cdfc251cbc4335e353fd03dece20ca6eabf0dc243573f",
+    "sha256": "926ec479333ae2cd4254b5b5e45924a8a08d1bc27c3b0646e61790d4aab1cbe2",
+    "bytes": 3399
+  },
+  {
+    "asset": "species/mechineki.species.patch",
+    "baseline_sha256": "d39062e101ef6acdc554fb3cb1a2fc7886f96cf6eaf1880b2dfac664dbf5b4aa",
+    "sha256": "2c6e9a8e9065dfbb0be61d62d2972ae8525a9a7b58db41af74ca93801df34a59",
+    "bytes": 5507
+  },
+  {
+    "asset": "species/merrkin.species.patch",
+    "baseline_sha256": "321a217a8e063a5bc7d1183d591027170eb985c6e52abe21e8d9f55e50b8c37d",
+    "sha256": "a9d8a8cfc49ef745f23831d7351f5a1aa1cbd223b79ce65a0e37dd1232f9549c",
+    "bytes": 4207
+  },
+  {
+    "asset": "species/mindflayer.species.patch",
+    "baseline_sha256": "3b168d4c81f3a241e8357ac8fe18fadb630fe6738a36056b6b2dad8c0f718e37",
+    "sha256": "ccc1ebcb69d6a7fb443e8b814a57eb27b9e005e35a5ad67e949d1c2aaeabef7e",
+    "bytes": 4323
+  },
+  {
+    "asset": "species/moogle.species.patch",
+    "baseline_sha256": "e1fe09414a8030a7bf9b2a457021048d0c9ce12d19acb7e74c09844e5c216035",
+    "sha256": "c9ea9ac705804e5f18e4dfeb7220bce289aafcc110e453479cd947120ae89073",
+    "bytes": 6859
+  },
+  {
+    "asset": "species/munari.species.patch",
+    "baseline_sha256": "1ec85414e693a72f52f98fb85ac43788f011452960b74b423ceb1a8e78084b35",
+    "sha256": "e79ed7491f78832b80c5dfa5fa5450bb45006cde7739a2fa6991cdc1e35529e4",
+    "bytes": 4273
+  },
+  {
+    "asset": "species/neko.species.patch",
+    "baseline_sha256": "ab2347401abd9761cd09e2f0f0aa820249ad480481dace670b1648df961d3ca9",
+    "sha256": "67d51d5247698530a9964f245a48988b46d4ede760aa331a2c5e365d576f43ef",
+    "bytes": 3647
+  },
+  {
+    "asset": "species/nightar.species.patch",
+    "baseline_sha256": "4271e4b016fad637ece2d4034484e409f41ba6385dd014596d49d60060cb2153",
+    "sha256": "c1eef6c992313e34635d03051e700fb86d092ba1095125cfdc38c5584facd22b",
+    "bytes": 12592
+  },
+  {
+    "asset": "species/ningen.species.patch",
+    "baseline_sha256": "7ae5f66a071dba017174970331adf1b1330d51bd8d15c29463e57a5b49c1836a",
+    "sha256": "dc80dc032141dff1763f03505482a441b140e2441f8b601c44439d74c1715d63",
+    "bytes": 2247
+  },
+  {
+    "asset": "species/novakid.species.patch",
+    "baseline_sha256": "46082a214e2ff98405d221ca5f77057cd209d46db0f802a5694dffd3957b8308",
+    "sha256": "0ffe380718575e921d81af5654969fe631d896833180adfd018f4f52549318f6",
+    "bytes": 4629
+  },
+  {
+    "asset": "species/novali.species.patch",
+    "baseline_sha256": "69c6ebb1bd91e4fdf6d684e7c65ae8e947fdd788d8fdcfb8b96e52e2cade8a95",
+    "sha256": "0236c08d38fe1a462a81381a6957736ac927bae2549ae6529f0b7867f7ba8c09",
+    "bytes": 6031
+  },
+  {
+    "asset": "species/octoling.species.patch",
+    "baseline_sha256": "686f0d106d85125e3c5d6719e7b968afcb81b7dc1aa8f4501aee218c25e14b45",
+    "sha256": "7fc42029380288b55ce61b1e49f2451b0c8cc494b2d824695313234bb6de426e",
+    "bytes": 7307
+  },
+  {
+    "asset": "species/orcana.species.patch",
+    "baseline_sha256": "ab96fbd6aa74027fa60911f3affeba574a29e6b1a47c32135d3c827e2e145be9",
+    "sha256": "bad67c65e86c3dcc5bf74fa256dc572abad481a4f5ed9cc943e9a89319cae7ca",
+    "bytes": 4515
+  },
+  {
+    "asset": "species/pegasus.species.patch",
+    "baseline_sha256": "e390f37449c568c3fc238d39f89cea9c2c8efd9f154ffadef7c5ed919da1ffc5",
+    "sha256": "a6404977800134635ffc79a004ad50391102ed3010199bf73e96a7bfc5add1b7",
+    "bytes": 5227
+  },
+  {
+    "asset": "species/peglaci.species.patch",
+    "baseline_sha256": "71f843cb83717b900c8a0a5162549bb8fc6a0911a9ef1cbba5f9700418287a5d",
+    "sha256": "7e01d05ede30df057f40590b3c2eb962f3eacefbaa56befbbd072746095e3e26",
+    "bytes": 4017
+  },
+  {
+    "asset": "species/phox.species.patch",
+    "baseline_sha256": "622bbf8eaa61fddf0c2e853a059617ecefc1026abcbf435cc7a27d4938a25f2e",
+    "sha256": "baa7fc018e81d7d9636e83211fa1a505e7dbbcbc7fd3d34b86403e0b2ff11b19",
+    "bytes": 3989
+  },
+  {
+    "asset": "species/ponex.species.patch",
+    "baseline_sha256": "f4d285900a1b3df77edcc7e5fa5ec59096fc13c0d869e4cd3cbd1de5f3d83348",
+    "sha256": "27644d7451808111d5d1113296c16e62ac1af4316306dad2901ac0f79656bf6b",
+    "bytes": 4123
+  },
+  {
+    "asset": "species/pony.species.patch",
+    "baseline_sha256": "948dfccdc758f2d93f15516078b0e59f3ca018f0a94a60ac4aec70a2893a88e2",
+    "sha256": "019e751be2a7c934dd7037a33733ce3fe975a06b4935690802333be53b2135af",
+    "bytes": 5827
+  },
+  {
+    "asset": "species/precursor.species.patch",
+    "baseline_sha256": "517cdfb41e14262d2f2bec074f5ff78d8b4d6d772d5842fdcbbcd7ad87ff5d33",
+    "sha256": "3eeaa1de83c4a37bb102c538bfc97dde1c19e459408abff696f15d9ee8abd8d9",
+    "bytes": 3049
+  },
+  {
+    "asset": "species/protogenrace1.species.patch",
+    "baseline_sha256": "2e6758f243bc15096d8f08717fa84774c8f076fbe6e4c180b620ecd1218c22e6",
+    "sha256": "b4b4c3645df339d956fff67de2596a856a1ade0ce5d4ebbf9b69db93659daf90",
+    "bytes": 3665
+  },
+  {
+    "asset": "species/pygs.species.patch",
+    "baseline_sha256": "6bcf9a651be00a335d619b04b48c77a7dcdaf2effc79cd6aea61627616b01195",
+    "sha256": "d399fb2d302c189a65930881db0acd33ae6f079d1260661f0b67ca09b98cbc15",
+    "bytes": 4281
+  },
+  {
+    "asset": "species/radien.species.patch",
+    "baseline_sha256": "8b62fa94618d4debe322249d5f5efa70ef86bf93ddd6be2fa20be1483300efb9",
+    "sha256": "a35e5f4f4c7679c79e6854e3e485083931f5ef9a0892baccc7ac0e92f40c125c",
+    "bytes": 7861
+  },
+  {
+    "asset": "species/remorian.species.patch",
+    "baseline_sha256": "926560133eb20ebdd572406566fc8f178a053c0b2079311c0b2ae4a5879320c8",
+    "sha256": "389d01c645b8f2eada73baf3dc001d65f181591fb8ca863c765ee4932bdd8d42",
+    "bytes": 7023
+  },
+  {
+    "asset": "species/satkyterran.species.patch",
+    "baseline_sha256": "a296fd58efbae2a1a94bf93c3774deccb599386ae3ddb3eb09e9fc5553f24a16",
+    "sha256": "0759abf3c6c9a81cc1626f896e93889c86180e7edd398b416470ca95b379b8cf",
+    "bytes": 3931
+  },
+  {
+    "asset": "species/saturn.species.patch",
+    "baseline_sha256": "f0899a72594099c062c4641112ae2e8733eb11f1b2579c3e5d634f27d517d494",
+    "sha256": "257152db8d911332c6199597fac273978a1177a55eff4279aa17879f5d5d489e",
+    "bytes": 4213
+  },
+  {
+    "asset": "species/saturn2.species.patch",
+    "baseline_sha256": "4c469a380f347136a3472076d69579b4d9e6ee604c3b450c20c5c6ba48c4e966",
+    "sha256": "9ad5ad466f626ebdca8301e0d0dfbe3cd09fee73b10b7653ef2d696f50fbe1b6",
+    "bytes": 4641
+  },
+  {
+    "asset": "species/scyphojel.species.patch",
+    "baseline_sha256": "c194bb145e4d6ef8ffd1d83800c85bd8d030d19c781d31ffa3cc3bde2cad851a",
+    "sha256": "68e6b99d59521e1e83ed7c99bcf4acbeb7316a4cac9b609bd5c1f250bd47a7d0",
+    "bytes": 3903
+  },
+  {
+    "asset": "species/sergal.species.patch",
+    "baseline_sha256": "97f39a4f14aa40dd9ce83cf36584d72d93f3e7461c2050fd58ae22ed29677320",
+    "sha256": "b63aeccce31da7915fa309e163399482fa219a8620ef280d9715e7776eb3caff",
+    "bytes": 4239
+  },
+  {
+    "asset": "species/shade.species.patch",
+    "baseline_sha256": "0d10ebd36dbd9473fdd05b66e9863ab58656ae3d62fe51dd311e0a3f932002e9",
+    "sha256": "aa94e1881d667519867db373a98de965d17beb1fc429458015431402fff56059",
+    "bytes": 5013
+  },
+  {
+    "asset": "species/shadow.species.patch",
+    "baseline_sha256": "1513e11ea33af798e621e1c461d9a5be4a31f8fad6e0fb69e18d71b4e22991d1",
+    "sha256": "e69ce970199d2605696033213c33a93805691a14fab9c735b7f4717e02d8b3ea",
+    "bytes": 6974
+  },
+  {
+    "asset": "species/shoggoth.species.patch",
+    "baseline_sha256": "7d98e166c6aeeeca22a09fb74883d121c98276cc2419ecabbf4c7aa7c37baf03",
+    "sha256": "52cfc5f91a2ff8bd99ce43999caa6b36417f306544d30425e4f61a2b5887a3f1",
+    "bytes": 4653
+  },
+  {
+    "asset": "species/skath.species.patch",
+    "baseline_sha256": "7eb23c03f0ff2b50008c2fc656f705f645d523b878af6508a6689d534c5f3269",
+    "sha256": "96727e51c0f6739847a890148958ff1a8d67e58f6601060d39f2121a74e7f421",
+    "bytes": 6558
+  },
+  {
+    "asset": "species/skelekin.species.patch",
+    "baseline_sha256": "ca0db91ae25fcbb6a537d750590161274fc148a32a6df5b96d2054a35f13764f",
+    "sha256": "f1cd58d39af44690a4c68320d506a35ac56417982157b81ddd681bd14cc8c13c",
+    "bytes": 3751
+  },
+  {
+    "asset": "species/slimenpc.species.patch",
+    "baseline_sha256": "f0112c69f28790ed50b94044acc030e1153fd85aa60fbed848caa8d8708f2461",
+    "sha256": "f915b4d6ca0afff0ff254e13763a06d5eb4f2e34d735433ff49994b8947a58fb",
+    "bytes": 2609
+  },
+  {
+    "asset": "species/slimenpchuman.species.patch",
+    "baseline_sha256": "eae5b31ab242d428465e1a62833ff9cf2b49ddd37aaa1686d13fcf8db7c30dde",
+    "sha256": "aa43f6ba04927185e43ed751a7a925494c14850034afecf03f474025ad3f638b",
+    "bytes": 2672
+  },
+  {
+    "asset": "species/slimeperson.species.patch",
+    "baseline_sha256": "b132ff6812129e4d3d44ad7b1c7833338462bd83c7a92b80fa92e36ac03ddebd",
+    "sha256": "7b3006047a531644d2616acf9b19a0fa3b23a510be624e32b16d40ad86c2a66a",
+    "bytes": 6886
+  },
+  {
+    "asset": "species/smolavali.species.patch",
+    "baseline_sha256": "7d65aa2ba134841a6c633ba003d03dcbcabd7f5362dcd1fb7fe6e8ce791e1e2c",
+    "sha256": "880d07bbcfda05256b0c65e0e86186135136de6ea52d41462b3b1f3a8d95554e",
+    "bytes": 4809
+  },
+  {
+    "asset": "species/spiderdroid.species.patch",
+    "baseline_sha256": "6e98c407a53e9aec473d32c37c0ef8c83b06e84d03f86cbb9c1c72fd36a84374",
+    "sha256": "0dd9ed3d639dc1afb99a1009b9772ee36f6671a0ab650b2a37fa9bed145b3ea8",
+    "bytes": 3069
+  },
+  {
+    "asset": "species/spiritguardian.species.patch",
+    "baseline_sha256": "19e3259a5214aee0589f69266406ae41ad0fc02b894ee4a66abb879bfc688f6a",
+    "sha256": "0d6e07fc18289a8ff24f9ee25efdec7468db7f5529ae8a07180d8dd23e0a87f7",
+    "bytes": 4429
+  },
+  {
+    "asset": "species/spirittree.species.patch",
+    "baseline_sha256": "405fc18f8aadc8175b7dad30ceac9befeb8275f175c761e4dc344ad7a30ab83e",
+    "sha256": "9dcce5aa75f703fb4aaeffc66f9e18a324571258858c9f023d2106c2b08d51d5",
+    "bytes": 5073
+  },
+  {
+    "asset": "species/squamaeft.species.patch",
+    "baseline_sha256": "bc9ad76a221ec3cad44dd8eab13559ffb18a317bf4262133212a1ace1958bbc5",
+    "sha256": "340f252621175ee70d51f10ad35f4ab961076a96213427a08999c201cadb245b",
+    "bytes": 4499
+  },
+  {
+    "asset": "species/tauren.species.patch",
+    "baseline_sha256": "8b28e85303ee61fbf85e897e517503d4df9e4ae36df7fa01b104fe1199019bc0",
+    "sha256": "de46337f5138715366a1344f3525f5079e938803b32f81514ea9c1f8cf5605f2",
+    "bytes": 6209
+  },
+  {
+    "asset": "species/taurikin.species.patch",
+    "baseline_sha256": "fe98b756995f15876504d19305afd29397c560923b1e0aeb23f18fe2f5c181fd",
+    "sha256": "9b2f318e53deacb96547ae4ea8ac1ab0923ee3e02a47461274a487e9e07631ee",
+    "bytes": 4749
+  },
+  {
+    "asset": "species/terrakin.species.patch",
+    "baseline_sha256": "9d8a005d23b5a4e532c0a5bab40c59afaf054be05f60d3a9cdef1d091220abc4",
+    "sha256": "2afc135063089230d8c554a45a12763ac7927a880ec161a5add05662c4ce51a9",
+    "bytes": 3933
+  },
+  {
+    "asset": "species/thelusian.species.patch",
+    "baseline_sha256": "fee31c966800ea2fa0463f4ebe4a659f6b8f28e567f779b0ab6a727fb20e6382",
+    "sha256": "4535854923976454b5448e79e9e31c88d301f8bb0133aaf6a1554e9446200cf8",
+    "bytes": 7318
+  },
+  {
+    "asset": "species/tirastrolls.species.patch",
+    "baseline_sha256": "61cb226fe5727a434998bc01c3d3ae7a6a83114fd022d38970519a75aad8024a",
+    "sha256": "466df5d2ade91b455277de8798fc181cf41e8726de7eaac10726d8521d15af11",
+    "bytes": 3723
+  },
+  {
+    "asset": "species/trink.species.patch",
+    "baseline_sha256": "6333bf4936a48b6fa060be4afb76462661ced4d09194a5f3c93eae25832e4e33",
+    "sha256": "f7dd02258393f88e770aa737d2dfa5fc17bb2b65304b410949038f8bca2269f5",
+    "bytes": 4175
+  },
+  {
+    "asset": "species/unicorn.species.patch",
+    "baseline_sha256": "e9ea28a703e8adff0a9f038ae0a603e5fabe2076a8ae90c0385b5579e977e663",
+    "sha256": "63c4032372de3319b730d95a0241a6cf9aa51ddf1f723c2aff919f8766cfc042",
+    "bytes": 5221
+  },
+  {
+    "asset": "species/vashknaaren.species.patch",
+    "baseline_sha256": "c763d605fd677f84a52af5dcaf4bd0612bc88032d4c10fdff199d2cb7cc336d2",
+    "sha256": "cc8b303353211c7be148c2945d8deb997330a203297ca1889c6365f6731f29c1",
+    "bytes": 3541
+  },
+  {
+    "asset": "species/vashknaarenbiped.species.patch",
+    "baseline_sha256": "b3b08a51a06b044c283a1c8f257e19b3275f7c59796ed7521025bebb43c7c627",
+    "sha256": "72e2d5f22600880738f2b91ec62f695d371ef3947a300ea5287740179de91556",
+    "bytes": 3025
+  },
+  {
+    "asset": "species/veluu.species.patch",
+    "baseline_sha256": "d6e6da85e3a827e0fe50e5a7bf037916bd7d68193179fde4584c80e2281ee923",
+    "sha256": "78749ff2544fb546f1afb55ee9b3f482eba5537b05edaf254c039156c99c2ca0",
+    "bytes": 7246
+  },
+  {
+    "asset": "species/vespoid.species.patch",
+    "baseline_sha256": "fc0c974023af1b34ef3a3095a94037583600749082d69ae6d55e4a2a496af7bd",
+    "sha256": "5425ca68120710a5ea54ac5b61bbf45d61c8497f348fc915ee142e72124ece56",
+    "bytes": 2907
+  },
+  {
+    "asset": "species/viera.species.patch",
+    "baseline_sha256": "6bced12299ed7ca0a9d7ebd79d476a931440742dda1c420cf992f6fb3fedd971",
+    "sha256": "2a3c2fb6a2d1618b18127aa0347b3432cc0d7f4b3f23b297a314e630a31d2b08",
+    "bytes": 6707
+  },
+  {
+    "asset": "species/vulpes.species.patch",
+    "baseline_sha256": "fe7845fa26dd19a37e4e5d348d87e2078fc1354923a444ce81720d29ae5711a6",
+    "sha256": "f2921bc3a4e973306b4ba530a07dfcb8de1b221fcbe07e5e748838b433d5a125",
+    "bytes": 2711
+  },
+  {
+    "asset": "species/wasphive.species.patch",
+    "baseline_sha256": "c84114f6f0546ad56c5cd57230eac3444e3268d2c58f8aff602b598a89eabf90",
+    "sha256": "69ea998870ae299108c94776e90b41f9e1da48a21d06e742ada6a882fb0d09fe",
+    "bytes": 3193
+  },
+  {
+    "asset": "species/webber.species.patch",
+    "baseline_sha256": "152b34217681c78dbccbbfbbcc3054177176ba370d9c74dd95d1d118e1ea77a7",
+    "sha256": "484fe71ab49e210b9516228566b05cc90401915c4930ce1c7eb750cda612cad2",
+    "bytes": 5539
+  },
+  {
+    "asset": "species/woggle.species.patch",
+    "baseline_sha256": "126b0b82dff66e0eba7b6a9988cc58293443b3333fb11fd2ccc0e707efa4c4ad",
+    "sha256": "c406bf1bbcdbd14559727a7ee4ac589b92b956f40c5ef2704f75a9e11c5462f2",
+    "bytes": 3877
+  },
+  {
+    "asset": "species/zombie.species.patch",
+    "baseline_sha256": "ccc41cf8590aa3b7689fc0340a806e3a1c766dc71dbf7cfb8091786c147ec140",
+    "sha256": "dc8684ee07853e36cd6f104e3caccb59c57b8beec058bac96074be8fb106a908",
+    "bytes": 4573
+  },
+  {
+    "asset": "species/zoroark.species.patch",
+    "baseline_sha256": "252922b24fcce1e1fba880b8f1fc37fdc7911cf1c097cad96a53c946097535a3",
+    "sha256": "fb65fc014504a52e8d70557f042867cf51d128bc974d24fc9dead50ad661a92d",
+    "bytes": 5249
+  }
+]

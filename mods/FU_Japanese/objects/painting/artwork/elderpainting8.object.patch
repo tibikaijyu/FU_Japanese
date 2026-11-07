@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I shudder to think that this might be a portrait. I can only hope it isn't."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは肖像画かもしれないと思うと急に困る。 そうでなければよかったのに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shub-Niggurath"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャブ・ニグラト"
+    }
+  ]
+]

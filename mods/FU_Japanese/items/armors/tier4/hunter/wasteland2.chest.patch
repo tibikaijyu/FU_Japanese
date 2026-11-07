@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Energy x^green;1.1^reset;\n^yellow;^reset; Rocket/Grenade Launcher: Damage x^green;1.2^reset;, +^green;6^reset;% Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;エネルギーx ^green;1.1^reset;\n^yellow;^reset; ロケット・グレネード・ランチャー : ダメージx^green;1.2^reset;, +^green;6^reset;% 犯罪被害"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hunter's Chestpiece"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハンターの胸像"
+    }
+  ]
+]

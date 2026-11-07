@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Control velocity! Activate: ^green;[Jump]^reset;. Move: ^green;[Direction]^reset;. Fall Negation: ^orange;[F]^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "制御速度! ^green;[ジャンプ] ^reset; を有効化します。 移動: ^green;[方向] ^reset; 。 フォールネゲーション:^orange;[F]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Physics Field"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "物理分野"
+    }
+  ]
+]

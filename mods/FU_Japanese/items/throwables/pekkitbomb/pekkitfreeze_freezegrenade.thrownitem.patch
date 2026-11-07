@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezes targets solid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体を凍結する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pekkit Bomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペキット爆弾"
+    }
+  ]
+]

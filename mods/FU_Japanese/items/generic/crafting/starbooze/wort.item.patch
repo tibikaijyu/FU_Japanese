@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wort! Used for making beer!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワート! ビール作りに!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wort"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワート"
+    }
+  ]
+]

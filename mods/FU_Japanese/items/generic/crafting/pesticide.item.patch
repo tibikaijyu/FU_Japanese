@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kills bugs dead.\n^green;Growth Rate x^white;3 ^gray;& ^green;+^white;2 ^green;produce.\n^cyan;Uses +^white;2 ^cyan;fluid use ^gray;& ^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "虫を死滅させる。\n^green;成長率x^white;3 ^gray;& ^green;+^white;2 ^green;農産物\n^cyan;使用方法+^white;2 ^cyan;流体利用 ^gray;& ^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pesticide"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "農薬"
+    }
+  ]
+]

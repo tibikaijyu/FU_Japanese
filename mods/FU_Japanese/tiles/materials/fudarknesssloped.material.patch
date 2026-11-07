@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can't see anything in there..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何も見えない...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Darknesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "暗黒。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uncomfortable. I feel it staring into me."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不快。 見つめている気がします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Did I just see something move in there?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "何かが動いているのを見ましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜暗黒"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Infused with toxic Irradium radiation. That's kind of you.\n^cyan;Inflicts Rad-Burn^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒性イラジウム放射線を注入。 それはあなたの親切です。\n^cyan;放射線熱傷 ^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウムスピア"
+    }
+  ]
+]

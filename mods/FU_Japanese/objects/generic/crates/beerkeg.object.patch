@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A beer...keg. Mmm, beer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビール...ケグ。 うーんビール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beer Keg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビールケグ"
+    }
+  ]
+]

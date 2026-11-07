@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Weedy weeds"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雑草"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Weed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雑草"
+    }
+  ]
+]

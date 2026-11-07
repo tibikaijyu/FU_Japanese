@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poisonous and spiky. Thornitox could have use in weapons manufacture."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒とスパイク。 ソーニトックスは武器製造に応用できた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thornitox Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "角質種子"
+    }
+  ]
+]

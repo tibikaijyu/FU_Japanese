@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dense metal spear for puncturing enemies.\n^cyan;Inflicts bleeding^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵を突き刺すための高密度金属製のスパイク。\n^cyan;出血を引き起こす^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carbon Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "炭素線"
+    }
+  ]
+]

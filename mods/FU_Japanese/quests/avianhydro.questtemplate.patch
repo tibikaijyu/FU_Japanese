@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I think there was more than meets the eye to this facility. Did I explore it sufficiently, sawblades notwithstanding?"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この施設には目を見張るものが多すぎたと思います。 私は十分にそれを探索しましたが、まだ刃を縫いましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Search the Hydro Distribution Center for great treasure."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "水路物流センターを検索偉大な宝物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map shows me coordinates to an underwater hydro distribution center on a far-off obscure planet. It apparently holds a great treasure. "
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図では、遠方の不鮮明な惑星にある水中水路分布センターまでの座標を示しています。 大きな宝物があるらしい。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;The Hydro Center"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green; ハイドロセンター"
+    }
+  ]
+]

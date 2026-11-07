@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stronger than they look. Fun for a night in."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "見た目よりも強い。 夜の楽しみ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Shackles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーシャックル"
+    }
+  ]
+]

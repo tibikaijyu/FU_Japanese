@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An energy wood counter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーウッドカウンター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドカウンター"
+    }
+  ]
+]

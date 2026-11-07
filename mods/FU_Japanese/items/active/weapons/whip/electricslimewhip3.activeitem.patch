@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whip made of sticky, electrically-charged slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粘りのある、電気を帯びたスライムでできたホイップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electric Slime Whip III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電気スライムホイップIII"
+    }
+  ]
+]

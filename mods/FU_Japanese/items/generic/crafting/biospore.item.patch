@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual spore that produces its own light. It might prove useful in experiments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "独自の光を生み出す珍しい胞子。 実験で有用であることが証明される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bioluminescent Spore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生物発光胞子"
+    }
+  ]
+]

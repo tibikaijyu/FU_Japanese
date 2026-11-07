@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This pattern suggests caution."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このパターンは注意を示唆する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thesse sstripes mean caution."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "これらの縞模様は注意深い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. This pattern indicates I should watch my step."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 このパターンは、私は自分のステップを見るべきであることを示している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "These strips're somethin' I should pay attention to."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このストリップは、私が注意を払うべきものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Hazard Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜した危険ブロック"
+    }
+  ]
+]

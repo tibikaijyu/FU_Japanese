@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mineral with narcotic properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "麻薬特性を有する鉱物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Narcotium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マルコチウム"
+    }
+  ]
+]

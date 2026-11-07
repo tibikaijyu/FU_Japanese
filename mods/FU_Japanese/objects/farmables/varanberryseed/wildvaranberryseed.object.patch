@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious and extremely nutritious"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しく栄養価が高い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Varan Berry Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァラン・ベリー・ブッシュ"
+    }
+  ]
+]

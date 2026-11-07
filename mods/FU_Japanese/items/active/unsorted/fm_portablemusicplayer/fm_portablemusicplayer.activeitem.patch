@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Primary^reset;: Plays the selected music\n^yellow;Secondary^reset;: Resets the background music"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;通常操作^reset;: 選択した音楽を再生します。\n^yellow;副操作^reset;:バックグラウンド音楽をリセットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Portable Music Player"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポータブル音楽プレーヤー"
+    }
+  ]
+]

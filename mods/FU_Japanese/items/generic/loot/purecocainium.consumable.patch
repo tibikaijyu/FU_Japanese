@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You probably shouldn't be seen carrying this around.\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;Extremely Caffeinated^gray;, ^red;-^white;30 ^red;Defense^gray;, ^red;Insanity^gray;, ^red;Poisoned ^gray;(^white;220s^gray;)^reset; ^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくこれを持ち歩くのを見るべきではないでしょう。\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;カフェインが激減^gray;, ^red;-^white;30 ^red;防衛^gray;, ^red;狂気^gray;, ^red;毒 ^gray;(^white;220ス)^gray;)^reset; ^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pure Narcotium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "純マルコチウム"
+    }
+  ]
+]

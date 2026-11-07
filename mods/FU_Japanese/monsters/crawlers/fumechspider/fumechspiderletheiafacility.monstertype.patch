@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like a spider, but with a machinegun and exploding fuel tanks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるでクモのようですが、機関銃と燃料タンクが爆発しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letheia Corp Spider"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Letheia Corp クモ"
+    }
+  ]
+]

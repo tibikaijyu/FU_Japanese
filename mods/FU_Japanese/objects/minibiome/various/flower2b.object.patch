@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Trapper Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トラップ葉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Trapper Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トラップ葉"
+    }
+  ]
+]

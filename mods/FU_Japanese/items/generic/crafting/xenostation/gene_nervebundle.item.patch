@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Extra connecting tissues."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "余分な組織を接続します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nerve Bundle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "神経束"
+    }
+  ]
+]

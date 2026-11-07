@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glowing bee from the sun itself."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽そのものからの光るミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sun Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンビー"
+    }
+  ]
+]

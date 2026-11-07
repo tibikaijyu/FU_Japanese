@@ -1,0 +1,218 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/pickupCarbon/text",
+      "value": "^orange;Carbon^reset; is quite abundant, but that doesn't mean it has no use. Carbon is ^green;essential, and can produce things like Graphene^reset;. You want it."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupCarbon/text",
+      "value": "^orange;炭素^reset;は豊富に存在しますが、役に立たないわけではありません。^green;不可欠な資源で、グラフェンなどの製造に使えます^reset;。確保しておきましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupCinnabar/text",
+      "value": "^orange;Cinnabar^reset; is most useful for obtaining the ^green;mercury within^reset; it. This particular variety is extremely rare, with 99% or greater purity."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupCinnabar/text",
+      "value": "^orange;辰砂^reset;は、主に^green;内部の水銀を取り出す^reset;ために使います。これは純度99%以上の、極めて珍しい種類です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupCorruption/text",
+      "value": "^orange;Lasombrium^reset; exists in dimensional flux and is out of phase with this universe. ^green;Its exact nature is unknown^reset;, but it taints any life it touches here."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupCorruption/text",
+      "value": "^orange;ラソンブリウム^reset;は次元の揺らぎの中に存在し、この宇宙とは位相がずれています。^green;その正体は不明^reset;ですが、この世界で触れたあらゆる生命を汚染します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupDensinium/text",
+      "value": "The most ^green;dense and unbreakable^reset; naturally occurring ore that is currently known to science. ^orange;Densinium^reset; is quite rare, leading to an absurd market value."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupDensinium/text",
+      "value": "科学で知られる天然鉱石の中で、最も^green;高密度で壊れにくい^reset;ものです。^orange;デンシニウム^reset;は非常に希少で、市場では途方もない値段が付きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupGraphene/text",
+      "value": "The protective ability of ^orange;graphene^reset; is astounding. A ^green;single atom thick^reset;, it also conducts energy very well and acts as a capacitor."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupGraphene/text",
+      "value": "^orange;グラフェン^reset;の防護能力は驚異的です。^green;原子1個分の厚さ^reset;しかないのに、優れた導電性を持ち、コンデンサーとしても働きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupIrradium/text",
+      "value": "Highly radioactive, ^orange;irradium^reset; was thought unharnessable at one point. But thanks to advancements it can be made inert to the user. I suggest using it as a ^green;barrier against the elements^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupIrradium/text",
+      "value": "放射能の強い^orange;イラディウム^reset;は、かつて利用不可能と考えられていました。しかし技術の進歩によって、使用者に害が及ばないよう処理できます。^green;過酷な環境から身を守る防護材^reset;としての利用を勧めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupLead/text",
+      "value": "^orange;Lead^reset; has a variety of uses but is also ^green;toxic to carbon-based life^reset; so be sure to handle it with care. If a friend says lead-juice is tasty, they are a liar. Avoid them."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupLead/text",
+      "value": "^orange;鉛^reset;にはさまざまな用途がありますが、^green;炭素系生命には有毒^reset;でもあります。慎重に扱ってください。「鉛ジュースはおいしい」と言う友人がいたら、その人は嘘つきです。距離を置きましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupMagnesium/text",
+      "value": "^orange;Magnesium^reset; is a relatively common resource that you'll be needing ^green;quite a fair amount of^reset; to run a successful biology lab. ^orange;Magnesite^reset; is one source. It can be ^orange;smelted or extracted^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupMagnesium/text",
+      "value": "^orange;マグネシウム^reset;は比較的ありふれた資源ですが、生物学の研究室を順調に運営するには^green;かなりの量^reset;が必要になります。^orange;マグネサイト^reset;からも得られ、^orange;製錬と抽出^reset;の両方が可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupMascagnite/text",
+      "value": "^orange;Mascagnite^reset; is readily available in most biomes and can be ^green;smelted or extracted^reset; at your leisure for different results."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupMascagnite/text",
+      "value": "^orange;マスカグナイト^reset;は多くのバイオームで容易に見つかります。^green;製錬するか抽出するか^reset;によって、異なる資源を得られます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupMoonstone/text",
+      "value": "^orange;Telebrium^reset; is a strange crystal that ^green;conducts energy^reset; and can ^green;withstand concussive force^reset;. This makes it ideal for many purposes."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupMoonstone/text",
+      "value": "^orange;テレブリウム^reset;は奇妙な結晶です。^green;エネルギーを伝導^reset;し、^green;強い衝撃にも耐えます^reset;。そのため、さまざまな用途に適しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupPenumbrite/text",
+      "value": "^orange;Penumbrite^reset; is a most unusual glowing metal. It is found ^green;naturally on Penumbra planets^reset; and few other locales. Acquire it and guard it jealously."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupPenumbrite/text",
+      "value": "^orange;ペナンブライト^reset;は、光を放つ極めて珍しい金属です。^green;ペナンブラ惑星に天然で存在^reset;しますが、ほかに産出する場所はほとんどありません。入手したら大切に保管しましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupPrism/text",
+      "value": "^orange;Prism shards^reset; are a sort of ^orange;crystal/metal hybrid^reset; capable of being forged into a variety of handy equipment. You can work it into some ^green;unique and unusual gear^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupPrism/text",
+      "value": "^orange;プリズムの破片^reset;は、^orange;結晶と金属の中間のような物質^reset;です。鍛造して便利な装備を作れます。^green;独特で珍しい装備^reset;にも加工できますよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupProtocite/text",
+      "value": "^orange;Protocite is a resource unique to Proto Worlds^reset;. It is rich in energy, and capable of being hardened into an alloy or ^green;liquefied for powering goods^reset;. Its value is high."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupProtocite/text",
+      "value": "^orange;プロトサイトはプロト惑星に固有の資源です^reset;。豊富なエネルギーを含み、硬い合金にしたり、^green;液化して機器の動力にしたりできます^reset;。価値の高い資源です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupQuietus/text",
+      "value": "^orange;Quietus^reset; is useful for smooth, ^green;exceptionally sleek weapons and armor^reset;. Do not, however, get any in cuts due to potential toxins."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupQuietus/text",
+      "value": "^orange;クワイタス^reset;は、滑らかで^green;非常に洗練された武器や防具^reset;を作るのに役立ちます。ただし、有毒成分が含まれる可能性があるため、傷口に入らないようにしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupSivite/text",
+      "value": "^orange;Sivite^reset; can be ^green;smelted or extracted^reset; to obtain the useful resources contained within. While not essential, it will be quite handy to have around."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupSivite/text",
+      "value": "^orange;シヴァイト^reset;は^green;製錬や抽出^reset;によって、内部の有用な資源を取り出せます。必須ではありませんが、確保しておくとかなり役立つでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupSolari/text",
+      "value": "This ^orange;lunari crystal^reset; shines with the light of a yellow sun, and possesses ^green;strange qualities^reset; that bestow strange properties to metals and plastics."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupSolari/text",
+      "value": "この^orange;ルナリ結晶^reset;は黄色い太陽のように輝きます。金属やプラスチックに変わった性質を与える、^green;不思議な特性^reset;を持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupSulphur/text",
+      "value": "Abundant and simple to find, ^orange;sulphur^reset; is important for numerous applications. Its primary use is in ^green;fertilizers^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupSulphur/text",
+      "value": "豊富で見つけやすい^orange;硫黄^reset;は、さまざまな用途で重要な資源です。主に^green;肥料^reset;の製造に使われます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupZerchesium/text",
+      "value": "Slightly ^green;harder than tungsten^reset;, ^orange;Zerchesium^reset; is also revered for its ability to manipulate explosive force with ease."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupZerchesium/text",
+      "value": "^green;タングステンよりやや硬い^reset;^orange;ゼルケシウム^reset;は、爆発の力を容易に制御できる性質でも高く評価されています。"
+    }
+  ]
+]

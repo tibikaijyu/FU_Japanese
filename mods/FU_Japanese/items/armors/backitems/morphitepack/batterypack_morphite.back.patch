@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An advanced energy pack. Blocks electrical storms. Energy x1.2, +30% E. Regen, -15% E. Block, and a slight ^#b72ebc;glow^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度なエネルギーパック。 電気ストームをブロックします。 エネルギーx1.2, +30% E. レーゲン -15% ブロック、そして少し ^#b72ebc;輝き^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Antimatter Energy Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "反物質エネルギーパック"
+    }
+  ]
+]

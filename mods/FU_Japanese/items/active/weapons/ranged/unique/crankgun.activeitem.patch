@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires bursts of nasty sharpened flechettes.\n^yellow;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火は、厄介なシャープなフレシェットのバースト。\n^yellow;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crank Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クランク大砲"
+    }
+  ]
+]

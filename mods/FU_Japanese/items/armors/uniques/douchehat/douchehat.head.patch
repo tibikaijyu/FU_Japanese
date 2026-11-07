@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mark of the Edgelord.\n^cyan;Immune^reset;: ^red;Common Sense^reset;, ^red;Charisma^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "王の紋章。\n^cyan;無効化 ^reset;: ^red;コモンセンス ^reset;, ^red;カリスマ ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Douche Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダッシュハット"
+    }
+  ]
+]

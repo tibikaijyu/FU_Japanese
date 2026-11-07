@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^Cyan;Heal in Light 250.2-252.5% HP^reset;: 5m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^Cyan;光で癒す250.2-252.5%HP^reset;:5m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gurn Onion"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "玉ねぎ"
+    }
+  ]
+]

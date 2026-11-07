@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These buggers are almost invisible!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのバガーはほとんど見えません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost Mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "幽霊のきのこ"
+    }
+  ]
+]

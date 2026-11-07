@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metal wall material of excellent quality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れた品質の金属壁材。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Metal Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属の壁"
+    }
+  ]
+]

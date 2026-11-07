@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What's inside? It's pretty heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中身は? かなり重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/notOnPlanetMessage",
+      "value": "It's hard to figure out how to open the box in this lighting, perhaps you should open it on a planet to get the most out of your purchase?"
+    },
+    {
+      "op": "replace",
+      "path": "/notOnPlanetMessage",
+      "value": "この照明で箱を開ける方法を理解するのは難しいです。おそらく、購入を最大限に活用するために惑星で開く必要がありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mystery Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミステリーボックス"
+    }
+  ]
+]

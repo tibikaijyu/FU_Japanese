@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poisonous barbs tipped with neurotoxin.\n^cyan;Non-lethal at range^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神経毒を点在する毒成分。\n^cyan;範囲で非致死性^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#5aff00;Tranquilizer Pistol^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#5aff00;麻酔ピストル^reset;"
+    }
+  ]
+]

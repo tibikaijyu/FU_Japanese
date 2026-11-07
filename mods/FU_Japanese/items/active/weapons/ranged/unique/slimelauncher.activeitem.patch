@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not practical, but certainly enjoyable.\n^yellow;Spawns slime^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "実用的ではありませんが、確かに楽しいです。\n^yellow;スライムを産む^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムランチャー"
+    }
+  ]
+]

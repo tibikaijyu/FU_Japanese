@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Blocked, eh? We'll see about that!"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ブロック? それについて見ていきましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Uh oh, maybe I shouldn't ignore this."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "無視してはいけないかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A graffiti message. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落書きメッセージ。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran payss sign no attention."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは気付かなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Concerned. Is the statment true or false?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "心配。 ステートメントは本当ですか、偽ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "When did graffiti ever turn out to be true?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "落書きが本当だと分かったのはいつですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The author of this message is unknown, rendering the reliability questionable."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このメッセージの著者は不明であり、信頼性に疑問を呈している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Whatever!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "とにかく!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "'The Way is Blocked' Graffiti"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "'方法がブロックされている'グラフィティ"
+    }
+  ]
+]

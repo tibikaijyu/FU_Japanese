@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into corrupt moon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を腐敗した月に変える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupt Moon Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "崩壊月マイクロフォーマ"
+    }
+  ]
+]

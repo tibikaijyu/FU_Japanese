@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A three-saw burst of danger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "三本ノコギリの危険の破滅。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Saw Launcher Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーランチャーアーム"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Frosty balls of danger decimate the enemy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険のフロスティボールは敵を撃退する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Frost Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "凍結抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Magnorb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペンダンブライトマグノルブ"
+    }
+  ]
+]

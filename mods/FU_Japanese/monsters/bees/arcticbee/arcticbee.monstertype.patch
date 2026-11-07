@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An arctic bee, capable of withstanding extremely cold temperatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極低温に耐えられる北極のミツバチです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arctic Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "北極の蜂"
+    }
+  ]
+]

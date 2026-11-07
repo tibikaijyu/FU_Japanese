@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.07% HP Regen, +5 Defense, Immune: Bee Sting^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;体力再生+0.07%、防御力+5、ハチ刺され無効^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queen's Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "女王の盾"
+    }
+  ]
+]

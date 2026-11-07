@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar bar, its barely corporeal counter never needs to be cleaned."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星バー、そのほとんど法人カウンターは、決してきれいにする必要はありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Bar Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "安園バーカウンター"
+    }
+  ]
+]

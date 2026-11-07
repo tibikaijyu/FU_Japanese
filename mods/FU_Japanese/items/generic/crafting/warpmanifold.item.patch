@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A key component in FTL drives."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "FTLドライブの主要コンポーネントです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warp Manifold"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワープマニフォールド"
+    }
+  ]
+]

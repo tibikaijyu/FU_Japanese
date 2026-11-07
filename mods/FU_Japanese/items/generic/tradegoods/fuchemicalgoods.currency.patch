@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sealed crate of chemical compounds, valuable for interstellar trade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星間貿易に有用な、密閉された化合物の箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chemical Compounds"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "化合物"
+    }
+  ]
+]

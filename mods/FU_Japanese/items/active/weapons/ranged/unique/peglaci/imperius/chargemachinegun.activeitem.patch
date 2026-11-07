@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Stun Shot"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "スタンショット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Exceptionally powerful.\n^yellow;Alt-Fire slows enemies^reset;\n^green;+Sustained Fire^reset;\n^red;-Slowed^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に強力です\n^yellow;副射撃は敵を遅らせる^reset;\n^green;持続火災^reset;\n^red; - 遅くする^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Imperius Minigun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "帝国ミニガン"
+    }
+  ]
+]

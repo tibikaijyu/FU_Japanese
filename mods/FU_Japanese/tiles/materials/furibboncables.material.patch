@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ribbon cables. I wonder where they go..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リボンケーブル。 どこへ行くのかしら...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Wiresss! Floran wondersss if they tassste like licorice."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ウィレス! 花は、甘草のように味がするのかどうか疑問です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disturbed. These resemble Glitch innards."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 これらは、グリッチのインナードに似ている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ribbon Cables"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リボンケーブル"
+    }
+  ]
+]

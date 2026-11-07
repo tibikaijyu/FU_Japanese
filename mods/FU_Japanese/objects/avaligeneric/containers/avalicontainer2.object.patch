@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "How the heck did you fit that into your bag?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いったいどうやってバッグに収まったの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cargo Container"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "貨物コンテナ"
+    }
+  ]
+]

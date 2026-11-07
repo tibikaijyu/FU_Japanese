@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fashioned from bones and petrified wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨と石化木材からファッショナブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eldritch Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルドリッチスタッフ"
+    }
+  ]
+]

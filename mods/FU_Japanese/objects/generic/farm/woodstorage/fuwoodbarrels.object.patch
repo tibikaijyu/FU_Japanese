@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Handy for storing delicious (and nutritious!) alcohols."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしい(そして栄養価が高い!)アルコールを保管するのに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Kegs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製足"
+    }
+  ]
+]

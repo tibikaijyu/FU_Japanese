@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of bulky machine."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かさばる機械のようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆機"
+    }
+  ]
+]

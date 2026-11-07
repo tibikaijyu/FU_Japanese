@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Floran delicacy. A live baby chicken.\n^green;Heals ^white;5% ^green;HP ^gray;(^white;5s^gray;)^reset;\n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花の繊細さ。 生きているベビーチキン。\n^green;癒し ^white;5% ^green;HP ^gray;(^white;5ス)^gray;)^reset;\n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crunchy Chick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキー・ヒナ"
+    }
+  ]
+]

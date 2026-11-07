@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mason Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メイソン・ヤング・クイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Mason Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若いメイソン・クイーン"
+    }
+  ]
+]

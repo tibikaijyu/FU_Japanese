@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Six times better than a semifangle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "セミファングルより六倍良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Trifangle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆三角形"
+    }
+  ]
+]

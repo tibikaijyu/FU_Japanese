@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crystal stretched and spun into fabric."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "結晶を伸ばし、織物に紡ぎます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Woven Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "織物結晶"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "TK is your best friend."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "TKはあなたの親友です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Regenerate"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "再生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Magnorbs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいマグノルブ"
+    }
+  ]
+]

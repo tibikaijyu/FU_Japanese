@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weapon from the kingdom of Fife."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファイフ王国の武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーブレード"
+    }
+  ]
+]

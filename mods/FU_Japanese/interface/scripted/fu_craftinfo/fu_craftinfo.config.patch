@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnFindInput/caption",
+      "value": "As input"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnFindInput/caption",
+      "value": "入力として"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnFindOutput/caption",
+      "value": "As output"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnFindOutput/caption",
+      "value": "出力として"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/materialList/children/materials/schema/listTemplate/text/value",
+      "value": "A bug! Report it!"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/materialList/children/materials/schema/listTemplate/text/value",
+      "value": "バグだ! 報告しろ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/recipeList/children/empty/value",
+      "value": "^cyan;Select a material^reset; then ^cyan;choose whether it's input or output.^reset;\n\nAvailable conversions will be listed here."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/recipeList/children/empty/value",
+      "value": "^cyan; 材料を選択する ^reset; すると ^cyan; が入力か出力かを選択します。^reset;\n\n利用可能な変換は、ここにリストされます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/recipeList/children/nostations/value",
+      "value": "^orange;There are no suitable lab stations nearby.^reset;\n\nPlace one or more withn range or move this display panel."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/recipeList/children/nostations/value",
+      "value": "^orange; 近くに適切なラボステーションはありません。^reset;\n\n一つ以上の範囲を配置するか、この表示パネルを移動します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/recipeList/children/recipes/schema/listTemplate/text/value",
+      "value": "Oops. Buggy recipe for this item in this crafting station..."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/recipeList/children/recipes/schema/listTemplate/text/value",
+      "value": "おっと。 このクラフトステーションでこのアイテムのバギーレシピ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  For the less crafty, the lost and the... curious"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "  手が利かない人や迷子になった人好奇心に満ち溢れた人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": "  Frackin' Universe Lab Crafting Directory"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": "  Frackin' Universe 研究設備・製作案内"
+    }
+  ]
+]

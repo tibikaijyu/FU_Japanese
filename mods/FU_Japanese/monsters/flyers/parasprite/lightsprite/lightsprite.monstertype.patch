@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It just floats there like an idiot, glowing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それはただ、愚かな光のように浮かびます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lightsprite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "光スプライト"
+    }
+  ]
+]

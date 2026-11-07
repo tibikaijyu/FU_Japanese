@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides a slight boost to swim speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水泳速度を少し向上させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diving Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "潜水マスク"
+    }
+  ]
+]

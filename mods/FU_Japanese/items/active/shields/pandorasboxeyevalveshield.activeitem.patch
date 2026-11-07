@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bivalve shell of extreme durability. It's a little heavy though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性に優れた二枚貝です。 でも少し重い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eyevalve Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイバルブシールド"
+    }
+  ]
+]

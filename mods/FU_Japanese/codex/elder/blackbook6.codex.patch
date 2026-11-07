@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The listed author is apparently...you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リストされた著者は、明らかにあなたです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Portals"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ポータル"
+    }
+  ]
+]

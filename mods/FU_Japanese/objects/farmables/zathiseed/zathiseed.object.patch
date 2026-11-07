@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange floating plant flowing with cosmic energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙エネルギーで流れる不思議な浮遊植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zathi Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザチ種子"
+    }
+  ]
+]

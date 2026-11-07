@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweet and crunchy. If only there was a seedless variety."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘く、カリカリ。 種なしの品種があればいいのに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Crunchy..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クッキー..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Opinionated. I actually rather enjoy the crunchy beekseeds inside."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "意見を述べる。 中には、パンのようなパンのようなビールの種が入っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "It's like a trail mix... for jams."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "まるでジャムの道のりのようです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beakseed Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビークシードジャム"
+    }
+  ]
+]

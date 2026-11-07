@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle of fruit-infused rectified spirits!\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;10s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フルーツを注入した整流スピリットのボトル!\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;10ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rectified Spirits"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "整形霊"
+    }
+  ]
+]

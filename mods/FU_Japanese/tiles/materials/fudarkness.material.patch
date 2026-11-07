@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can't see anything in there..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何も見えない...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssshadowsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "影を消す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Uncomfortable. I feel it staring into me."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不快。 見つめている気がします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Did I just see something move in there?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "何かが動いているのを見ましたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウブロック"
+    }
+  ]
+]

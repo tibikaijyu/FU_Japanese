@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mass of cloth draped over the shoulder and around the hips. +^green;10^reset;% Energy Regen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "布の塊が肩と腰の周りを垂れ下がった。 +^green;10^reset;% エネルギー再生。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Draped Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドレープトップ"
+    }
+  ]
+]

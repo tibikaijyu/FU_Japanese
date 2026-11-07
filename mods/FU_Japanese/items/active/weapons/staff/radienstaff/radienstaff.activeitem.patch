@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fashioned from your own bulbs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなた自身の電球からファッション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Rad-Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン Radスタッフ"
+    }
+  ]
+]

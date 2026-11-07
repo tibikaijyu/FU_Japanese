@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This collar is meant to increase health and provide excellent defensive power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このカラーは、健康を向上し、優れた防御力を提供することを目的としています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cat's Health Collar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "猫の健康のカラー"
+    }
+  ]
+]

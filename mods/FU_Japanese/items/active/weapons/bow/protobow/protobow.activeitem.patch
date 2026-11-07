@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Energy Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "エネルギーブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made of protocite and other high quality materials."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プロトサイトと他の高品質の材料で作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトシテボウ"
+    }
+  ]
+]

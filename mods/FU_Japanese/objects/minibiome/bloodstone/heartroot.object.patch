@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Is that a bush or an organ?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは茂みですか、それともオルガンですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heart Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハートブッシュ"
+    }
+  ]
+]

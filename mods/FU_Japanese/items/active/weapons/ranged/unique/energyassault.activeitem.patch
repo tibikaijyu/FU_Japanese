@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the most popular energy rifles on the galactic market\n^yellow;High efficiency^reset;\n^yellow;Counts as 'Energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河市場で最も人気のあるエネルギーライフルの一つは\n^yellow;高効率^reset;\n^yellow;セットボーナスの「エナジー」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "F4 Energy Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "F4エネルギーライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "You've gone and made it even better.\n^yellow;High efficiency^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "あなたは行って、さらに良くしました。\n^yellow;高効率^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;H41 Energy Rifle^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;H41 エネルギーライフル^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "You've gone and made it even better.\n^yellow;High efficiency^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "あなたは行って、さらに良くしました。\n^yellow;高効率^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;I77 Energy Rifle^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "^cyan;私は77 エネルギーライフル^reset; ^yellow;^reset;"
+    }
+  ]
+]

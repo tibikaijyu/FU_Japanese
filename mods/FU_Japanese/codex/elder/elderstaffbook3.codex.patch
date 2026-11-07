@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "[over top of a strange text detailing the care and feeding of one creature called Byakhee, red text...perhaps in blood...details the schematic for a weapon] ELDER TOME....TWO ELDER FRAGMENTS....TRAPEZOHEDRON.......SACRIFICE.."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "[バイーキーという生き物の世話と給餌を詳述した奇妙な文章の上に、赤い文章...血を流して... 武器の図を詳述する...] エルダー・トム...二つの古い断片...。トレープゾー・ヘロン...。サクリフィス。."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Despite the odd contents, a useful recipe lays scrawled within"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な内容にもかかわらず、有用なレシピが内側に潜む"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Care and Feeding of Byakhee"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "バヤシの養生と摂食"
+    }
+  ]
+]

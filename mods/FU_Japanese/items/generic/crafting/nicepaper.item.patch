@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high quality, stiff paper."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質で硬い紙。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "High Grade Paper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "高品位紙"
+    }
+  ]
+]

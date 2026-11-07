@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metallic Brick"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属れんが"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Etched metal to look like bricks."
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エッチングされた金属はレンガのように見えます。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "B big eyeball attached to tendons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腱に取り付けられたB大きなアイボール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Monument"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュモニュメント"
+    }
+  ]
+]

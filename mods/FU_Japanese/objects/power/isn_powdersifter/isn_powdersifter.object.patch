@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This advanced Sifter efficiently extracts materials from loose or powdery materials. ^cyan;Requires ^orange;40W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "緩い素材や粉末素材から効率的に素材を抽出する高度なシフターです。 ^cyan; は ^orange;40W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Powder Sifter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;パウダーシフター^reset;"
+    }
+  ]
+]

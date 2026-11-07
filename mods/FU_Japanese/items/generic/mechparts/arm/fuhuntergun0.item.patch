@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge-scale hunting rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大型狩猟ライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hunting Rifle Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狩猟ライフルアーム"
+    }
+  ]
+]

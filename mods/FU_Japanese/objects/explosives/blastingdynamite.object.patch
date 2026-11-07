@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A compact, specially crafted explosive for mining. Detonation requires impact."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小型で、採掘用の特別に製造された爆薬。 起爆には衝撃が必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blasting Dynamite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラストダイナマイト"
+    }
+  ]
+]

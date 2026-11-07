@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's like a spider, but with a machinegun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まるでクモのようですが、機関銃が付いています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spider MkI"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモ MkI"
+    }
+  ]
+]

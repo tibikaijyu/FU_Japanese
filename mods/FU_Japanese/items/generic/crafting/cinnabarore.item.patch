@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stone that can be used to produce mercury via extraction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "抽出により水銀を生産できる石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinnabar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シナバル"
+    }
+  ]
+]

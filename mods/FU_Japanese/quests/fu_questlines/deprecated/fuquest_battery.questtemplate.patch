@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Once you place it, use your ^orange;Wiring Tool^reset; to link to a ^green;generator^reset; to a ^blue;blue node^reset; on your battery."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "バッテリーに ^orange; 配線ツール ^reset; を使用して、^green; ジェネレータ ^reset; を ^blue; 青色ノード ^reset; にリンクします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You don't need batteries, but they will be extremely useful. Create a ^orange;Basic Battery^reset; in your ^orange;Electronics Center^reset; to try one out."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "電池は必要ないが、とても便利だ。 ^orange;ベーシックバッテリ^reset;をあなたの^orange;電子センター^reset;に作成して試してみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Fuel Your Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "燃料を供給します。"
+    }
+  ]
+]

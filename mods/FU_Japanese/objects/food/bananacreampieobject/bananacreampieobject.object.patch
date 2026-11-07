@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Better for eating, or for throwing in people's faces?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食べるときや、顔に投げるときなど、もっと良い?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Creamy and sweet, monkeyman treat!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "クリーミーで甘い、猿男のおやつ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Daunted. That's... quite a generous helping of whipped cream."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "おじけづいて。 それは...ホイップクリームのかなり寛大な助けです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Bit too sweet for my taste, if we're bein' honest."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "正直に言うと、私の好みには甘すぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Banana Cream Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バナナクリームパイ"
+    }
+  ]
+]

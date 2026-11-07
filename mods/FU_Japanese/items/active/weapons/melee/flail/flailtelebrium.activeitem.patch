@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Laced with telebrium. Pretty.\n^cyan;Breaks blocks^reset;\n^yellow;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレブリアムでレース。 かわいいね。\n^cyan;ブロックを破る^reset;\n^yellow; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムストライカー"
+    }
+  ]
+]

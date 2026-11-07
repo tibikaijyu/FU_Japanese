@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Precursor Booster"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリカーサブースター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Precursor Rig^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;プリカーサリグ^reset;"
+    }
+  ]
+]

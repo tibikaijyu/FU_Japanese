@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Creates powerful effects on the body."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "身体に強力な効果をもたらします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stimulant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "刺激剤"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NOR'/ gate. Requires all inputs to be /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A / 'NOR' / ゲート。 すべての入力は /'off'/ で動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. A /'NOR'/ gate. Requires all inputs to be /'off'/ to work."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 A / 'NOR' / ゲート。 すべての入力は /'off'/ で動作する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NOR Gate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノーゲート"
+    }
+  ]
+]

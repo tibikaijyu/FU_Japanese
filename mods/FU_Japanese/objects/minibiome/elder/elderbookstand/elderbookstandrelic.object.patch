@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seek answers for the present from the past."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "過去から現在への答えを求めてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Ancient Texts"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "古文書"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Texts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古文書"
+    }
+  ]
+]

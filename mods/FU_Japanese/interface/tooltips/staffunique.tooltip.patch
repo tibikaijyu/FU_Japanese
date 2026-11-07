@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Tier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ティア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/staffDamageTitleLabel/value",
+      "value": "Base Damage:"
+    },
+    {
+      "op": "replace",
+      "path": "/staffDamageTitleLabel/value",
+      "value": "基本威力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/staffEnergyTitleLabel/value",
+      "value": "Energy Cost:"
+    },
+    {
+      "op": "replace",
+      "path": "/staffEnergyTitleLabel/value",
+      "value": "消費EN:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/staffProjectileTitleLabel/value",
+      "value": "# Projectiles:"
+    },
+    {
+      "op": "replace",
+      "path": "/staffProjectileTitleLabel/value",
+      "value": "発射数:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/staffRangeTitleLabel/value",
+      "value": "Max Range:"
+    },
+    {
+      "op": "replace",
+      "path": "/staffRangeTitleLabel/value",
+      "value": "最大射程:"
+    }
+  ]
+]

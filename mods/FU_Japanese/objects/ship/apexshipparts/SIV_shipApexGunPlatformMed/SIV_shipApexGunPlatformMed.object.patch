@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A medium Gun Mount for an Apex spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス宇宙船用の中型のガンマウント。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Medium Gun Mount"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アペックス中型砲台"
+    }
+  ]
+]

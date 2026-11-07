@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They appear to be enraged, but are not particularly threatening."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "激怒しているように見えますが、特に脅威ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gnomish Warriors"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦士"
+    }
+  ]
+]

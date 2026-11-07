@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient Avian weapon that fires chargeable blasts of energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーの充電可能な爆風を発射古代アヴィアン武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charge Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "帯電ビーム"
+    }
+  ]
+]

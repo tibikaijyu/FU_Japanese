@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reaper bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リーパーミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reaper Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リーパービー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Immune to even the most extreme cold."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も極端な寒さでさえも免疫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blizzberry Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリズベリー種子"
+    }
+  ]
+]

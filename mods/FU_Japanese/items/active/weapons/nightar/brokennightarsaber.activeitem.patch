@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very nice sword in very poor condition."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に悪い状態で非常に良い剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Nightar Saber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壊滅したナイトサーベル"
+    }
+  ]
+]

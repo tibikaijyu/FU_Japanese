@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A layer of crushed oystershells."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粉砕されたカキの殻の層。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oystershells"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "貝殻"
+    }
+  ]
+]

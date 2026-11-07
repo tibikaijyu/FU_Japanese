@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You wanted firing speed? You've got it!\n^yellow;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発射速度は? やったぞ!\n^yellow;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "XT Laser Repeater"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "XTレーザーリピータ"
+    }
+  ]
+]

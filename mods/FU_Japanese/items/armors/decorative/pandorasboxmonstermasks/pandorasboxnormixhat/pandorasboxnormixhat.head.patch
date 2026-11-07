@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A completely average Normix hat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全に平均的なノルミックス帽子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Normix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノルミックス"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The knowledge to create malign, shadowy armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪意のある、影のような装甲を作るための知識。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "These secrets are already known to you."
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "これらの秘密はすでにあなたに知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Necrontir Schematics"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネクロンティル・シメマティックス"
+    }
+  ]
+]

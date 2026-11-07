@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The sturdiest material there is. Too stiff and expensive to be used for armor though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も頑丈な材料があります。 しかし、装甲に使用するには強すぎると高価です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impervium Compound"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インペルビウム化合物"
+    }
+  ]
+]

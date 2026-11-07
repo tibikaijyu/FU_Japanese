@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nearly useless Sphere ^green;[F]^reset;, but fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "球体 ^green;[F] ^reset; ほとんど役に立たないが楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Oddball Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "オッドボール球"
+    }
+  ]
+]

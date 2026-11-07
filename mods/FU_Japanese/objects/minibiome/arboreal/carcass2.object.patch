@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hope you're hungry..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "お腹空いてたらいいのに...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dinosaur Carcass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐竜の死骸"
+    }
+  ]
+]

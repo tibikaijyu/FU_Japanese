@@ -1,0 +1,850 @@
+{
+  "selected_literals": 694,
+  "files": [
+    {
+      "asset": "bees/beeBuilder.lua",
+      "literals": 7,
+      "upstream_sha256": "07fd987d05bfd2b356aa8c349e3fc1e6955832a209bc3884d0853cb6e0c3a9bf",
+      "localized_sha256": "0e45f60e0ed431f82fb9a40e919a3daa9c1d8dffab065dd3497f38f08e479843",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "bees/beeExaminer.lua",
+      "literals": 13,
+      "upstream_sha256": "124ec2f95989a31219e3d01fcd22369cae760668d2f6e6e76f75f61ddfaf1986",
+      "localized_sha256": "bde475f8a7ee323d302fd319c263240d56bea8b57af86ee8ffce18a63bccd009"
+    },
+    {
+      "asset": "bees/beeExaminerITNShell.lua",
+      "literals": 3,
+      "upstream_sha256": "48763be1cbfe320ef6fb4a8b84894f090ffc19135cc254071781a49d5dcfef36",
+      "localized_sha256": "7829c8c6e67d294af4370277888a49e5001dcc96bd09e1fc1d90e61e3f07568f"
+    },
+    {
+      "asset": "bees/interface/beeexaminer/beeexaminer.lua",
+      "literals": 2,
+      "upstream_sha256": "a26518bc20caf3c38dc9d90e987079a22155ee64f57e2cfecb24991eea258efb",
+      "localized_sha256": "5d40ff748155c55d8ecfdacf41b3bed7c26de7f39e83ec53d87a154efb824c2e"
+    },
+    {
+      "asset": "fu_metagui/settings/module.lua",
+      "literals": 9,
+      "upstream_sha256": "70b445287778fbdccca97c896c929038255f8be00bdd4fec87cbae1a848b2da5",
+      "localized_sha256": "4f2508e659f52c6956c18d78cce4e2208bb1cc3faf9ef9f8b8015d456d2c3393"
+    },
+    {
+      "asset": "interface/ai/fu_byosai.lua",
+      "literals": 4,
+      "upstream_sha256": "e556308625b0a3fd8bf24ad87f4deee9e213a125f83c2efa4176f1c73a1aa154",
+      "localized_sha256": "0806e1e2926fcafd8329c7118e5567c66768ec1c01f6b46e0b5c722d7291741a"
+    },
+    {
+      "asset": "interface/catalystfuelrefinery/refinery.lua",
+      "literals": 2,
+      "upstream_sha256": "f1e71b872a878e95189059c7d8bfea8dcbca0f98027f14dbdf1960d0865ca1a2",
+      "localized_sha256": "fa9c73c1e9e04a43f21f013108983ff2d9bd21e4f4a8e0c4a38c4a37096fafd3"
+    },
+    {
+      "asset": "interface/chests/ContainerControl.lua",
+      "literals": 4,
+      "upstream_sha256": "28e2d29865269dc251f1e10a2f7bfbbe359d85e60d416b58b710c10545fc5a49",
+      "localized_sha256": "783020d4dc43b3f90aea243eea1b6232d0679c34a0db280452494691b789b1d2"
+    },
+    {
+      "asset": "interface/games/fossilgame/fossilgame.lua",
+      "literals": 2,
+      "upstream_sha256": "a82f85b533d8b659e6ef9a895361ec6f5fa58431a3d0bf56722932be489aa865",
+      "localized_sha256": "ee4493edfc26db04a18fb64672612892c81ea25c4444938003d21be82b8b6c4b"
+    },
+    {
+      "asset": "interface/kheAA/kheAA_router/kheAA_routerGui.lua",
+      "literals": 20,
+      "upstream_sha256": "8e771a34af6bca3fc071c84961c603619514f2928f2f8fa24abf04e1021c045d",
+      "localized_sha256": "2f6b955c906721ec22fd3312a816b6160fdb1d2bb911de5726bdb873982aa665"
+    },
+    {
+      "asset": "interface/kheAA/kheAA_toolforge/kheAA_toolforgegui.lua",
+      "literals": 4,
+      "upstream_sha256": "bdcd04c7713f903d0a52b65cd6db105341bb1b4cb3a6dc89776a7921c784a0ac",
+      "localized_sha256": "7f82b54259f2b678279fd57e30a50cb52fff49c577b02dd9427765d344af99ee"
+    },
+    {
+      "asset": "interface/kukagps/kukagps.lua",
+      "literals": 72,
+      "upstream_sha256": "8dd57db790792f152a09c4d6d6b70947b41dd34f210a0d860135f33d43855013",
+      "localized_sha256": "ec586d923c590c1296bd36deb269cfd5bf5a34fc06b8da92f96874e1feb543cb"
+    },
+    {
+      "asset": "interface/mechfuel/mechfuel.lua",
+      "literals": 10,
+      "upstream_sha256": "3c69ebb00a8b39fd96b46626d9facd9439b07fb17ff2ecbd7b995ef4984acd97",
+      "localized_sha256": "f79ee27a3c55f5f11e700a9c4270d98dbd2676508c863cc46c62c82f12cd6a52",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "interface/mechfuelrefinery/fuelrefinery.lua",
+      "literals": 2,
+      "upstream_sha256": "3f520bd9d60acbceb4ac917a3badcdc81f5eda77fd2ada47cb96befc4a216c00",
+      "localized_sha256": "ce92945c45267ab555f5033996695d64fc0aee9cb68743e4d59a4eb8ece92614"
+    },
+    {
+      "asset": "interface/mechstats/mechstats.lua",
+      "literals": 8,
+      "upstream_sha256": "8464593c870a6f7390bf1807a67e051642583b0ffa0a74c52868d0f07a0542bb",
+      "localized_sha256": "43f3201545f5f42ad1597b37e7cecf3de9f6db4b080487fcb62d8e6dd5c596c8"
+    },
+    {
+      "asset": "interface/objectcrafting/fu_pethouse/fu_pethouse.lua",
+      "literals": 1,
+      "upstream_sha256": "fd99ab347b0ec90e251da72464f32a74a3fa5ea791a57e9365929c8994f3f543",
+      "localized_sha256": "65559bc51a6746485e89dee1c2dc5be06fb7bdbd03a3520eabb9a433703cc482",
+      "display_boundary_edits": 2
+    },
+    {
+      "asset": "interface/objectcrafting/fu_petnamer/fu_petnamer.lua",
+      "literals": 2,
+      "upstream_sha256": "7f1be073b4663bf95c96ff87e37ac45295a14e9c0885c65470f208489e2e9df9",
+      "localized_sha256": "9ca103e0b10af5633250c7a825b4bbf940f7ffa223d054cc79dd02c0129ead6a"
+    },
+    {
+      "asset": "interface/objectcrafting/fu_racializer/fu_racializer_gui.lua",
+      "literals": 12,
+      "upstream_sha256": "2bfca72057d72abd17f05b4858e9652d6b196c2fa7d0f14207b0a585b982bd6c",
+      "localized_sha256": "126e02777f8c3f97bfd3514e78e727b0a931896f1af8d58644581489ec01e883"
+    },
+    {
+      "asset": "interface/scripted/fm_musicplayer/fm_musicplayer.lua",
+      "literals": 3,
+      "upstream_sha256": "c5f54fa6484d98ab2a3a0f913e98d8d3e9e9b75e8864ff98eebd6e965394807a",
+      "localized_sha256": "7c857b8c9e210a3a2986bc26b3c295a44e6261f5bc0314691b55c4dff9e534be"
+    },
+    {
+      "asset": "interface/scripted/fu_craftinfo/fu_craftinfo.lua",
+      "literals": 2,
+      "upstream_sha256": "60e9a5605b49a3f5c452a0a9978235cbe2195a584c9e6624d94967ba31e228bc",
+      "localized_sha256": "0610d7273aa958b5cd7c0a57c6fc505842dd287333687591a626d6df781dd100"
+    },
+    {
+      "asset": "interface/scripted/fu_lootbox/fu_lootbox.lua",
+      "literals": 21,
+      "upstream_sha256": "f69235b5705f1654d17d70f2fcd898747a7b3b4bf0f89c09fcf94afc2a39b135",
+      "localized_sha256": "8aa66b92397c18a7c8f448d74c57d79e4029e79c6b1098064ea7be7da7eff689"
+    },
+    {
+      "asset": "interface/scripted/fu_matmodplacer/fu_matmodplacer.lua",
+      "literals": 2,
+      "upstream_sha256": "6c229f31856fad32030620342c15d714b3ca40376f02439d8e64ef052ddb4011",
+      "localized_sha256": "15b0399f8f37c5d09944dfd4ef853ddd25aff2efe4d7c62198afc82316f8a308"
+    },
+    {
+      "asset": "interface/scripted/fu_upgradetable/fu_upgradetable.lua",
+      "literals": 13,
+      "upstream_sha256": "e75922a22d7928152dd4a137c891d3a26249984519901e030391b81dcd14edac",
+      "localized_sha256": "902cf8559bdc261f64cf790f89dcb5197e8b9f297ddf00786f3dd1e458452a7f"
+    },
+    {
+      "asset": "interface/scripted/spaceStation/spaceStation.lua",
+      "literals": 16,
+      "upstream_sha256": "df618cde9bcb438a5b0629f1c4638b92d8aa1a03cf20ccd1892472ae84edb96c",
+      "localized_sha256": "4288521f1501e290e18f5ad218965a8ab543f02230e42bd1c4cd92c3ed5ce354",
+      "display_boundary_edits": 12
+    },
+    {
+      "asset": "interface/scripted/statWindow/statWindow.lua",
+      "literals": 3,
+      "upstream_sha256": "aa93d28bc2930138d7651deebe09d96c9f48bc4905adf45392852a0fe56f30a0",
+      "localized_sha256": "2603f26483c474f3893f80a1f912dc49c0936ac17099f9c696817fc2c439ac5e",
+      "display_followup": "0.2.2"
+    },
+    {
+      "asset": "interface/scripted/stickynotepadfu/stickynotepadfu.lua",
+      "literals": 8,
+      "upstream_sha256": "3cb0b7dd57497d5579aae70fc8a570e0130c8f52691eba325340a744555007b7",
+      "localized_sha256": "6ed99b54878d9ea178b5f4a4b660315c58e86b43bb3ea4154553fc416d175591"
+    },
+    {
+      "asset": "interface/scripted/techshop/techshop.lua",
+      "literals": 1,
+      "upstream_sha256": "03c102c6a5992c468c9a7fd4469cf53f5d63f2d70065ef5b34eedcb543775c8c",
+      "localized_sha256": "4846f9e74c322ec5a385683572509f6e18e562a4b891bb7469401f7c30e1c11b"
+    },
+    {
+      "asset": "interface/scripted/tunableoredetector/tunableoredetector_gui.lua",
+      "literals": 4,
+      "upstream_sha256": "abca65f902d37c5597b3e86e5f8442fb57b27f8c7b7db801db75583bea9679c5",
+      "localized_sha256": "d974b82c10827fab23acf0ec949029e8f0136583b275f0c9f4ca77efcd491cc0"
+    },
+    {
+      "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+      "literals": 7,
+      "upstream_sha256": "7251b596ca27c6f6dbee1225a6a5d668fa0946d328449c262d927c6a7b07350b",
+      "localized_sha256": "7b0976d09beac0865e9dbc20bf6470b0e583398d8f80b60a4b8ed46b207cd26e",
+      "display_followup": "0.2.2"
+    },
+    {
+      "asset": "interface/shipnameplate/fu_shipnameplate_ui.lua",
+      "literals": 1,
+      "upstream_sha256": "2c57d8875e5d2f3e4a7fecf6a38f461c703beea19e06304b7caddc0321240468",
+      "localized_sha256": "f4adb056e540227d48d2c1d09605ef59c92fbcb20452257837ab41bdab8d21e0"
+    },
+    {
+      "asset": "items/active/unsorted/fu_monsterinspector/inspector.lua",
+      "literals": 3,
+      "upstream_sha256": "ae3eac1b7a48a9325be3a5f87182a27215de93baeb71eba9f1975448f6596590",
+      "localized_sha256": "7bac7fa7fc42ec88ff036e955f5767ecf079719fe707eab548f4ebfef9a3c872"
+    },
+    {
+      "asset": "items/active/unsorted/kheAA/pointsensor/pointsensor.lua",
+      "literals": 2,
+      "upstream_sha256": "74c9fae8cdeab76b21819bf1b6c957683d47388e2b8d503f853d8b5254b4da22",
+      "localized_sha256": "655bdcc00bcb9f34c867b8dc4090b932fd01c3fe520f55144463f5530966c84e"
+    },
+    {
+      "asset": "items/active/weapons/other/skittlegun/skittlegun.lua",
+      "literals": 17,
+      "upstream_sha256": "9d3a7ba0aa7d974cc66507d3492961444fd901ba6189162d1a6aaf6e15ad93ba",
+      "localized_sha256": "dc94042272d5a3e046d75cf0f24b3a3326f2a70f04e910f66801711abe4d8d9b"
+    },
+    {
+      "asset": "items/active/weapons/other/skittlegun/skittlegunfake.lua",
+      "literals": 14,
+      "upstream_sha256": "e7a78ef1eec28de714710ef228f1a2978894c42cfac51829787ce294e7567e8a",
+      "localized_sha256": "cb918bbb57a673549a61d913453426a72670fa9fad6812bdfb37cc15e57e246a"
+    },
+    {
+      "asset": "items/active/weapons/ranged/gunammo.lua",
+      "literals": 1,
+      "upstream_sha256": "d62649cd97f83efde7c0a85248aa1f50c631f748e2d9749623c11e9bac8fa7ec",
+      "localized_sha256": "635e4188de756365adc1331d7e254964202c0dd54853d2ac125a3dbd85594a5d"
+    },
+    {
+      "asset": "items/buildscripts/buildbeeframe.lua",
+      "literals": 12,
+      "upstream_sha256": "9e8ab8845732fc8c16a4cb2674f480adf920754c6faabc22d02bec9802eaf816",
+      "localized_sha256": "ed686d5c3a7db1a2a09d8e79a5c9fce9895db3c5ef110c8e9b7a1b3cf0dfeacf"
+    },
+    {
+      "asset": "items/buildscripts/buildbow.lua",
+      "literals": 2,
+      "upstream_sha256": "76c3dfc806762c2bac5a8fabd19a1edc0a2bb8b490873b2644ffea8b8a05c8ae",
+      "localized_sha256": "709ab395367fc00ee8b4a2b4c4d38cd3535780a8282fcd92f51d19c565e7a0a1",
+      "display_boundary_edits": 2
+    },
+    {
+      "asset": "items/buildscripts/buildfist.lua",
+      "literals": 3,
+      "upstream_sha256": "35957fe55505d79b49f1f1e89ce311193acfea37529ca35bb8e557df776094ae",
+      "localized_sha256": "15689ebe33509e5d400bdb9ddf818980d2656c9f593365e080a079a24eca6d1c",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "items/buildscripts/buildfood.lua",
+      "literals": 1,
+      "upstream_sha256": "406ad8df8a7bf365a6a1e08d32e4f81151c36eb8e0404104daba67aa3ddcd4b9",
+      "localized_sha256": "9b4db807ef526294813e26c14182b29610700e5149782eb54a7a3ed412d4c78c"
+    },
+    {
+      "asset": "items/buildscripts/buildfuoverheatweapon.lua",
+      "literals": 4,
+      "upstream_sha256": "0d4d64b67521ed89c1a28b777071280f0f95dd4d6cdef440a62a9c2c016ecc3a",
+      "localized_sha256": "31e0647fbb78e27570aca6dbee4072bf5caee8f9615b231e08d793bfb177323a",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "items/buildscripts/buildsapling.lua",
+      "literals": 8,
+      "upstream_sha256": "6d98c1042060f8a3aa058c177b9f277cf0255dd1b2a0a88d994c4b72f8bbcb8e",
+      "localized_sha256": "6bbac07533b8f4d8d7c77f7836690373ae1b1e20497e776bc9c8cd00cff49dd4",
+      "display_boundary_edits": 2
+    },
+    {
+      "asset": "items/buildscripts/buildunrandweapon.lua",
+      "literals": 6,
+      "upstream_sha256": "728118b42185637ddab5fc4b0796d19dbeca7b70c625f546e0e5d6f28d66669e",
+      "localized_sha256": "9044b936b949628aa461b303505f4460886d0af896c07cfd3309ec87d253ab28",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "items/buildscripts/buildweapon.lua",
+      "literals": 6,
+      "upstream_sha256": "88be745fa6d14af10ed3647397a8447cd6271f1fdd0d2539b0ab46de9df7f1d8",
+      "localized_sha256": "58fe47d57d030bc9ec8a8761fd4dd61fb993eafa10dbaf9eadee28672dedb051",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "items/buildscripts/buildwhip.lua",
+      "literals": 2,
+      "upstream_sha256": "ad69a1f408a58525345dba3c75620a38ec5d22e1d69aad950fe9be01cb3c74ce",
+      "localized_sha256": "0f13b7da55f166611c43dbdd2cc3ac9b167d3167e28526af27c77733107d6a0c",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "items/buildscripts/fubuildarmor.lua",
+      "literals": 19,
+      "upstream_sha256": "848496d1504d93958ba887df75cfe7be0403952547cecbb7ef84e774ec76df77",
+      "localized_sha256": "bc63942a182355b977a5826c4df2216773d9cc9ec555a8c44ee3b1fbdb13771b"
+    },
+    {
+      "asset": "items/buildscripts/neb-buildbow.lua",
+      "literals": 4,
+      "upstream_sha256": "a2fa5f1bed5c1a274776255a9e974538c1a42682182e4c1309505374670ebebb",
+      "localized_sha256": "6d6b01473ab1b0c5f587d338bf80d07fcc8eae23eec541970247a148ac66c7ae",
+      "display_boundary_edits": 2
+    },
+    {
+      "asset": "items/buildscripts/neb-buildrandombow.lua",
+      "literals": 4,
+      "upstream_sha256": "5509861529008de882c00e8029013df226fc00e1cf0808a8d2eb640bcb6326a4",
+      "localized_sha256": "f6166254213ffd4f34354f96c9683a5e08958cc3f9ccc30cfa2307bf06cc8adb",
+      "display_boundary_edits": 2
+    },
+    {
+      "asset": "metagui.lua",
+      "literals": 2,
+      "upstream_sha256": "0447401db49b281c228292fd33c9bdc22d6989b50ef445c73318a0c5810027f8",
+      "localized_sha256": "eee04c5d6ef201b4ddc881fecb57583cd576a81ae4c12126aa759da5f08b20b7"
+    },
+    {
+      "asset": "monsters/boss/ancientsentry/ancientsentry.lua",
+      "literals": 1,
+      "upstream_sha256": "338a794c2a1b8a179e30a53b8bb8c37d0c86968ef88567b6767e55784f2bd73f",
+      "localized_sha256": "a0b702f5b9ab391dbc0805de00dd51774c302ce59f5e01a269a9951ea479c738"
+    },
+    {
+      "asset": "monsters/boss/infernusbot/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "b184d3910d86791e1d50cc103808fe4ca3351469d34686e264dc5d056aaea902",
+      "localized_sha256": "9398c61024956fce1c09be78fa6c6b739d346ff41c1eabc77f0bb960f82119b8"
+    },
+    {
+      "asset": "monsters/boss/megaspider/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "71c8d64bf83480e3e3a6e15dff970b9b906f635e75499a10fb304b82cb27d000",
+      "localized_sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110"
+    },
+    {
+      "asset": "monsters/boss/megaspiderbaby/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "71c8d64bf83480e3e3a6e15dff970b9b906f635e75499a10fb304b82cb27d000",
+      "localized_sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110"
+    },
+    {
+      "asset": "monsters/boss/megaspiderradbaby/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "71c8d64bf83480e3e3a6e15dff970b9b906f635e75499a10fb304b82cb27d000",
+      "localized_sha256": "14264b38e04c04eb4b39b50e4ffd9752a3814067053f7aa97728192d98c47110"
+    },
+    {
+      "asset": "monsters/boss/precursorwarbot/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "466afbaa3b694f2e4f381d00fa6c073473736837b8cc5e79928dcde977ce3a95",
+      "localized_sha256": "19161dad16d681f9d5e767e4d498707f34bdcfd0d78793aa33f67eeb86499004"
+    },
+    {
+      "asset": "monsters/boss/shoggoth/bossmonster.lua",
+      "literals": 1,
+      "upstream_sha256": "366520dc1cb18fbea80113c0599c56b3a3810c27f84c409876390addc5d9aee7",
+      "localized_sha256": "1c5f6f192c92d3c73020ebf491b6bf6fc9c7f3d06bdef573e772ae1ab4cce012"
+    },
+    {
+      "asset": "monsters/boss/shoggoth2/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "c5af854c5f9a7124d22f4712481794e40ece53967bdca2603cd346fd933d119a",
+      "localized_sha256": "9e3147f11f352f80868c0e6588e52c8ae951286a80baccbb33d28e31ef5accd3"
+    },
+    {
+      "asset": "monsters/boss/warbot/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "efe4d71f9016a6f3d7aa05ce4702de101af765eeb172e0edbe7d2033ba4578ec",
+      "localized_sha256": "11202a82fd19b4bfc3b56d6f4f2ec9d5ae0bbfd6253dadb09fdbe8242f8f6f19"
+    },
+    {
+      "asset": "monsters/dungeon/starspawns/starspawn/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "0165ae0af6e732f75945abfe2086eda044825e69aca74b2adc5b3bd643d15a40",
+      "localized_sha256": "b6764b88fbdc4a8013658c6b870b3d028494a9880b75d2d7ba0ed1e8b8fe1742"
+    },
+    {
+      "asset": "monsters/dungeon/starspawns/starspawn2/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "fa1135e34b27c2b1c3e252c359ae0c12b660f486a4244dbb3e06c62582c94617",
+      "localized_sha256": "205c233219e82a020183a27f474ecb096e1f6b40608054c55e889382779e79b3"
+    },
+    {
+      "asset": "monsters/dungeon/starspawns/starspawn3/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "c557736bc815f0ebd2f030671f1be4f44ade55f7f4687e4d489036096fa84f8b",
+      "localized_sha256": "9b001a34cd97e5b1db4c836c658137d7764ea97c63e17ec5c483a09c88e81518"
+    },
+    {
+      "asset": "monsters/fish/atropusfish/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "13a514e199a435633e5f94e826f87e3615049239e330b00b95be87f23372eb7f",
+      "localized_sha256": "ec4e9375294bf6883a732b02184173eda7690969ccbcc2594ceee37a4418e7b5"
+    },
+    {
+      "asset": "monsters/fish/veilendrex/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "2de6032279d95d59454a518122f812b2bff0f892fddb4a591b3344aa0c8da661",
+      "localized_sha256": "80fe0723296040c746622e9b2b71e48557dfba7a285eddcbbcd3b395696be76e"
+    },
+    {
+      "asset": "monsters/flyers/bighairyfrank/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "baba40b36ffac88587a283d462f7f03e358e169a4bc9b988f960171deefd6a1d",
+      "localized_sha256": "71b48dcd1ad0ff4d41afe486d8463a244bc37efba77abffa4cd40ebba3eca582"
+    },
+    {
+      "asset": "monsters/generated/ground/hugebiped/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "540255d3e74e60ea5f68465b71c1aad7fcc6c46b53e0ac431ebc2e00b65e403b",
+      "localized_sha256": "63121273fe2d625ba668aa4131f91d57a83a19dde29814699a54cab05243c30d"
+    },
+    {
+      "asset": "monsters/monstersegmentmega.lua",
+      "literals": 1,
+      "upstream_sha256": "6fe5d1f4860806a042bf98a6f07140588e6d62a4ff1dda64ee25ce50f9cb0381",
+      "localized_sha256": "61d2c1157d5c805b2e3cddb3e12f2c543ae793955b220007206dcbde35f344f5"
+    },
+    {
+      "asset": "monsters/space/fuheavydrone/fuheavydrone.lua",
+      "literals": 1,
+      "upstream_sha256": "83e7a247e9b1b256e21af515e2ee75e2ec33d1a55390fb16d2a536a17c1d2f42",
+      "localized_sha256": "2de3d55eb2282b09c3d4672749cf9cc78260c302d37fd3caf6e1dc17b65ad7f6"
+    },
+    {
+      "asset": "monsters/walkers/adultpoptop/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "b0046a03dfb56a5490da714ba1fc7bd515febab6ac5dd5ed8da59333c1f48f22",
+      "localized_sha256": "1705e0ec8dc9e4c9193f83731158a848ef6016078a777393012be4a2c9f636f4"
+    },
+    {
+      "asset": "monsters/walkers/adultpoptop/monster3.lua",
+      "literals": 1,
+      "upstream_sha256": "d6d44b0a3bc9bca87802cb898d276bfb48bbd9098122d208fc3f09bed793fa8b",
+      "localized_sha256": "33ca03d48a7187a49d75de6c1f5dc7c732b63e26887824b204eff28c63c299ac"
+    },
+    {
+      "asset": "monsters/walkers/adultpoptopish/adultpoptopfire/monster.lua",
+      "literals": 1,
+      "upstream_sha256": "e39b77d230f432661db6f7f82e0dbda8d738f3e2a88f0d086fe38e9c1b5d8ea0",
+      "localized_sha256": "2f0e827e3803d5a7cc1eb05b0303f54fa158ec0e754e644d826c4550f46047db"
+    },
+    {
+      "asset": "monsters/walkers/adultpoptopish/adultpoptopfire/monster2.lua",
+      "literals": 1,
+      "upstream_sha256": "10723b3c674fc663a0f9c9c22e3d5578271aeafa3c1bce4eeeca8e781365378e",
+      "localized_sha256": "f2dc8a938ee9183c88c28ef39a407540e8f81f0be57f0247aab35aa7ce7e6fc2"
+    },
+    {
+      "asset": "objects/augmentextractor/aex.lua",
+      "literals": 5,
+      "upstream_sha256": "594cea51c7119811419f26b241469461a5d79d9121b0faecb521d2a3a4127024",
+      "localized_sha256": "32b9f7cacb31695d2ec171b573944f046d4fc4c36349764c536ae0db5d91cfab"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/blooddonation/blooddonation.lua",
+      "literals": 5,
+      "upstream_sha256": "f7d832143c21bca344825661916bb4c72c0b85244f5dcf82f7ee980bf7efafc5",
+      "localized_sha256": "2a1c9004e90881a4f628f1353f4943d8b74cabc12e5aae99e577c76ecf866288"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/communitygarden/communitygarden.lua",
+      "literals": 14,
+      "upstream_sha256": "3512cadbb2f7ddad4145280704fdbbfd9a3089d22824e83552bdea0d45d99afe",
+      "localized_sha256": "f1f828499451671c954e5e88da286147e3da80feffa82d4b6f35d07cb8b5c94b"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/communitygarden/communitygardenold.lua",
+      "literals": 15,
+      "upstream_sha256": "77dddaafd2566b4d238bbd47602eac550c6db5ea1ad9d4f21e6817d05e1528ea",
+      "localized_sha256": "55792c220513d6c456f8cf04272b870444f2dd2cf4bfc4210afec97d165fca7c"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/computerlab/computerlab.lua",
+      "literals": 7,
+      "upstream_sha256": "f059e6134b4b9cca142f6e5175cc1d77347e46908d8338aace7554f5bc11db54",
+      "localized_sha256": "f367b6c408f14c0e59969191957ffad4dbcf6a758db3f8f081e5fcac1cd8d119"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/drugdiffuser/drugdiffuser.lua",
+      "literals": 8,
+      "upstream_sha256": "7a7bcbf5939302affe81d9a2b6c677867591fc42c8f93598469a864ca2e2f5c8",
+      "localized_sha256": "55494f2fa005fa161520b15ec0c312d126a40ce5c2c03f1ff89f29c88db682c3"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/ftlcommsdish/ftlcommsdish.lua",
+      "literals": 7,
+      "upstream_sha256": "c482c55b2156aca3d0a8713cb3aeb1e1d7f511a0127d4534e3c0d679896d74cd",
+      "localized_sha256": "74e468b8470e0ae80594fc786e9a5eb3b3176dab901ef49edf42796ab1d8f52c"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/hiddencameras/hiddencameras.lua",
+      "literals": 5,
+      "upstream_sha256": "ce523ab66696d260914d31f7fcc0dc20eb01c8ee6b210e9325190acf67e1323f",
+      "localized_sha256": "41de5bc1751dcd75ff9e4018c599fcd552d43f8c9d7521a26d02f396916ff930"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/hobbytable/hobbytable.lua",
+      "literals": 4,
+      "upstream_sha256": "2f76938c5718d73572bc8d4a64cb61fce8f3796f52259d3a8098b19d15df8872",
+      "localized_sha256": "8c366d4ad6df1f92efdb349e8654bb2b6355abb303efb7722b4b5d2b2a1bfaed"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/psionicharvester/psionicharvester.lua",
+      "literals": 6,
+      "upstream_sha256": "7bbb501a4ac0ee76b238a8b44be7913b3a34c25018a46938093eca6d6b00e9e6",
+      "localized_sha256": "051c25517d4bce0d1efd4b996bc0f8100ca0c4e3442e90c8b87c196032a06afd"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/recyclingcenter/recyclingcenter.lua",
+      "literals": 5,
+      "upstream_sha256": "ebdd98f79a9b4f2446cbaefb1f94dd3d103af209834f1050969c4c48be89d043",
+      "localized_sha256": "0c9c2ae68a6247370561720d3f2b24ee50c92e3d82bb2c65fd8aa617234c1435"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/sewagetreatment/sewagetreatment.lua",
+      "literals": 5,
+      "upstream_sha256": "ebb52ee6a7032ccce3d9bb12e2064b9dd01ddc48168e4b890600a9d9c69a0e60",
+      "localized_sha256": "5bf13eba8968edba75be271afda83273225de92bb769de3ab86210a3a4f5d28b"
+    },
+    {
+      "asset": "objects/colonysystem2/addons/subliminalmessaging/subliminalmessaging.lua",
+      "literals": 7,
+      "upstream_sha256": "d4a5af20f2ac89fe9e92634d4682257bc6bb5f753a8de6456ce1c19065cb4cd7",
+      "localized_sha256": "9b7a5f8828ea404339b13b5351713ae25790f006c00d8c82ac48d986f3a133a7"
+    },
+    {
+      "asset": "objects/crafting/farmwell/farmwell.lua",
+      "literals": 14,
+      "upstream_sha256": "44548d18fb103057f72c17f5377396c91de484f9a0e13b3cb383e9ce9698fb35",
+      "localized_sha256": "67282ab9bde7ddf793cbdd07729a60dbc0b846b2e08bd660021b24a8eaabdd2c"
+    },
+    {
+      "asset": "objects/crafting/servitorloader/servitorloader.lua",
+      "literals": 2,
+      "upstream_sha256": "9dddcc00bfeb39f1f82962f895689a4a086f63abaeeaca8045a86a9b3c53ba36",
+      "localized_sha256": "aeb3f4275bc99c804f6ec12dca4846abdca99731c6253da32f08345f938aa1d6"
+    },
+    {
+      "asset": "objects/crafting/xiwell/xiwell.lua",
+      "literals": 14,
+      "upstream_sha256": "edc73cc5a7375c0184e615e25e18a495a30f4bafbc136acaa460c72df7788664",
+      "localized_sha256": "e3d9aaec80293e3818f326bc758066d11ff993ea6342c5146216cb68c7e6301d"
+    },
+    {
+      "asset": "objects/generic/extractor_research.lua",
+      "literals": 4,
+      "upstream_sha256": "00f66535395ec55300263e4688f062646c4086542bf41770d65424bb78a87c75",
+      "localized_sha256": "cd55fc1d5c5aea6d53642eca70bf75a51c89d423b64e70bdb33a4cced6f35777"
+    },
+    {
+      "asset": "objects/generic/fm_musicplayer/fm_musicplayer.lua",
+      "literals": 3,
+      "upstream_sha256": "f7f11bcd15a6f85655554cdcf2099aadd40754a3f59c7f89839eef6e838bb1b1",
+      "localized_sha256": "639e003a79466bf44745df8b6afbdf183715b99e97227b44a3b51a8e12df17bd"
+    },
+    {
+      "asset": "objects/generic/pong/pong.lua",
+      "literals": 3,
+      "upstream_sha256": "563c4bcef8a5ac4df1b5d15d6b13f6a6c53a5af7d438e99b3f2d0e656c80ba7f",
+      "localized_sha256": "3c427642ab66d3a651ce5eee6a0b5b5142830c71508b365777f46558d6148be3"
+    },
+    {
+      "asset": "objects/generic/timeobelisk/obeliskscan.lua",
+      "literals": 3,
+      "upstream_sha256": "efb859d85309f8a1fb085b72fa69ab2395bdf571cf12ee83e70b37af031054a3",
+      "localized_sha256": "94e1b1b063dfdc5950e0eb728c598e07f742d0d12b65a81332a32ab685464302"
+    },
+    {
+      "asset": "objects/isn_unifiedgrowingtray.lua",
+      "literals": 11,
+      "upstream_sha256": "c8bf9e744669bc211fa96586d7dfc2101624ba61e25c6b8e89aebb877796fc0e",
+      "localized_sha256": "892df83b431d4e67ca61f38f479797c1b10cb7fa1b954dded35a87639acd5fb3"
+    },
+    {
+      "asset": "objects/minibiome/elder/cultaltar/cultaltar.lua",
+      "literals": 5,
+      "upstream_sha256": "6e56bcfefc2f96da19be1413efab5bda38fdf1467556718dda7495a102197f44",
+      "localized_sha256": "0d5a02749e22ca58d6f0bde340b32845e5158a0d378091f8d28d99f98938f673"
+    },
+    {
+      "asset": "objects/minibiome/lush/poptopcavern.lua",
+      "literals": 4,
+      "upstream_sha256": "a732ffb6c9c356d201f5abc147fc163b3471b9d333215f207ca7e042e5603fe8",
+      "localized_sha256": "05635634f0f1145ea6eb984a4b2d409c2ffaf7f199157e82faa492fbe5567fc5"
+    },
+    {
+      "asset": "objects/pilch_shieldadminconsole/pilch_shieldadminconsole.lua",
+      "literals": 4,
+      "upstream_sha256": "6d5c9fdb66066f106194a3eb86f8b6666d2c9205532cc7ce6a3fba9052ee777f",
+      "localized_sha256": "1456f82e48330e718dc42aa85020ee1a92eb947ed4ca248c7f69169fba86c42a"
+    },
+    {
+      "asset": "objects/pilch_shieldadminconsole/pilch_shieldadminconsole_gui.lua",
+      "literals": 1,
+      "upstream_sha256": "744116caa8245cd045041f3a22c918ea22da60d2b35e3c6f2e215fd7be5804d7",
+      "localized_sha256": "d1edae31db823eb1b73a25df094224fa11ac2f59404b78f6b883bdf27251889a"
+    },
+    {
+      "asset": "objects/pilch_shieldgenerator/pilch_shieldgenerator.lua",
+      "literals": 8,
+      "upstream_sha256": "6f3548e2fdea26f832f8e5a1a5458e3bc23ef70f3c7dd12e8626fa256e1a2e0f",
+      "localized_sha256": "21df09dabf4196f6951802caab8891dd55e5da5609f771527cf579dd98d66a58"
+    },
+    {
+      "asset": "objects/pilch_shieldgenerator/pilch_shieldgeneratorasteroid.lua",
+      "literals": 7,
+      "upstream_sha256": "3862a61a63fafb60b0673717153f5d9144355411b3a7fa5d8fb26a18a271eba4",
+      "localized_sha256": "b9eb5ab9d54fbbb0197d17f330aa31bad420a65711e3692a1fd7d745f830c9ee"
+    },
+    {
+      "asset": "objects/portals/extrateleportradar/extrateleportradar.lua",
+      "literals": 3,
+      "upstream_sha256": "cf495480cbd2e0fd96b7678d6fe5c876c6eb7db5a6b7a9e27c7ad470ac64a7e4",
+      "localized_sha256": "0f6bfe9f28de8429f1c45755b2406368791d4d3f41d7429add7084591937cc34"
+    },
+    {
+      "asset": "objects/power/fu_liquidcondenser/isn_resource_generator.lua",
+      "literals": 7,
+      "upstream_sha256": "68f3cd02db247c02ea76caeadb38df0449e43353a5096c37442d4260540c7153",
+      "localized_sha256": "3eec4b64025c41cde34b7698d4212829814df90e2d025432e935107f17b77d34"
+    },
+    {
+      "asset": "objects/power/isn_atmoscondenser/isn_resource_generator.lua",
+      "literals": 3,
+      "upstream_sha256": "cc51ddc169459d4d4399de51e9395e07b3bc9ff98803d1f3dd64232cde2bb3ba",
+      "localized_sha256": "abccc2a8e18908c01718828bd3aa0c6147d7051eae2f62dd722d882914b4002c",
+      "display_boundary_edits": 3
+    },
+    {
+      "asset": "objects/power/isn_battery.lua",
+      "literals": 3,
+      "upstream_sha256": "c7cd39d2f7cdd0df99de2826848b197e53d1c29dc64bafe95a50dcb74ed6a63f",
+      "localized_sha256": "cc69f3863850bfc577b9c186d5f72ca165e6980ab4979edd86c84c9d1e832edf"
+    },
+    {
+      "asset": "objects/scanInteractableExample/scaninteractionexample.lua",
+      "literals": 9,
+      "upstream_sha256": "19131ed29f4b495b3cc9575028f377b9b167798733debba49eedacd1c7b03f76",
+      "localized_sha256": "3920a953f883d470d218d0e8ea374cddef15372e16ae35bb13c8ff7e689d97f2"
+    },
+    {
+      "asset": "objects/ship/fu_byospethouse/fu_byospethouse.lua",
+      "literals": 1,
+      "upstream_sha256": "69a94debf1d58233e794d62b8c6f83aaeae3004f667fce2d3709e99a9b1328c4",
+      "localized_sha256": "fd85934e92527a191d87d7a9ffaec00e144acb3a98a4d099d29b52304df1d0a8"
+    },
+    {
+      "asset": "objects/ship/fu_crewdeed/fu_crewdeed.lua",
+      "literals": 2,
+      "upstream_sha256": "f7f5b119fe55f179751d8a264ba1dd890786e5f36264e074039144271736223a",
+      "localized_sha256": "2bf48d6bba9f51553cb75ded839cb7bb6716b06858dbed5745befd8bd756eb54"
+    },
+    {
+      "asset": "quests/scripts/items/itemspawn.lua",
+      "literals": 1,
+      "upstream_sha256": "8968d554d302a6d6da43399ea36226e754414033f1f69d7afbce90c342cdf274",
+      "localized_sha256": "59dc7df734979c4253a66c25e76f43d24372da8a4e862aec1b1c9dcb09b4109f"
+    },
+    {
+      "asset": "quests/scripts/main.lua",
+      "literals": 2,
+      "upstream_sha256": "7dff0a80257f39130c66bade4515fa46fefc945eaff9663638b0c8671ed7fb8a",
+      "localized_sha256": "ff8c21640b9ffae15ef6248b6d5bffcbe1727c4391d06b08c672825447ea4d99"
+    },
+    {
+      "asset": "scripts/colonycorefu.lua",
+      "literals": 3,
+      "upstream_sha256": "2effc56a7ca73d2f3b2426d3a7bb3ab19d49b11b47ec98a2348e1c2e883796e8",
+      "localized_sha256": "80388cdbf59469d6fa8ac02022cadf6fc43339ae51c3aa69abd18b63e9d0d543"
+    },
+    {
+      "asset": "scripts/companions/capturable.lua",
+      "literals": 2,
+      "upstream_sha256": "8f3846aa16e0986b9061649bafe9aab94e591d346ec0dd75d32f5d19d227f93b",
+      "localized_sha256": "d35b3fd3069fda29b52ba065d75a54f2ab28a6bc69bb448b4fccf6c423544637",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "scripts/effectUtil.lua",
+      "literals": 1,
+      "upstream_sha256": "b0653384a56a214c43580c407e3f10706838b0e9f265a4351d91e67e99e672bc",
+      "localized_sha256": "f93367d446fe92dc78921951c1e65f198bb84ceb39c4afd22bcd2cbb08a9795b"
+    },
+    {
+      "asset": "scripts/fu_crewoverflow.lua",
+      "literals": 1,
+      "upstream_sha256": "99db737a9104b6480c20537f893eca6419f782b6294141dd9ea882c93f4e44e8",
+      "localized_sha256": "1339c961a300ff27c8d0a0a4382b28168185171184da49ef3b83ad486e451109"
+    },
+    {
+      "asset": "scripts/fupesttrap.lua",
+      "literals": 2,
+      "upstream_sha256": "8412c1783564a672de78f6a26f1e57b0f2cf5e1b38907a4b09332b7415d9b700",
+      "localized_sha256": "f790dbf6bcbcf3e7ff5d7810227de0f23fbee180dd09c89670b9818dd8cdc6ca"
+    },
+    {
+      "asset": "scripts/fuwell.lua",
+      "literals": 2,
+      "upstream_sha256": "2ad8d3066d34837ea72fc678a00d1184ca6813c0c9a74c2183fbc3b00a62ccbb",
+      "localized_sha256": "12f7da47aebae25bc4f507a0325ae72670447ba1f25e0ea683cd7a92fe9c05ea"
+    },
+    {
+      "asset": "scripts/pandorasbox/objects/pandorasboxfeatures.lua",
+      "literals": 2,
+      "upstream_sha256": "50fee5a9ed1367cff43a0525ce9026525b340b193cbe0e2b7d852a6a9e0f5736",
+      "localized_sha256": "5572db8fb7a8066dfa16c552e7d2eff1f955b150bee6fb240fce61b0c747e505"
+    },
+    {
+      "asset": "scripts/pandorasbox/objects/pandorasboxkeepcontent.lua",
+      "literals": 1,
+      "upstream_sha256": "c9d6d2aa14de7593b044c1d6d79916bb91d856ad5b7e82549aa88782eb01f023",
+      "localized_sha256": "7c5f0d3a8054c3bc86b2b7a16a4d9b9444fed129cc522fd6ff572deac336cd3f"
+    },
+    {
+      "asset": "spawners/fubotspawner.lua",
+      "literals": 2,
+      "upstream_sha256": "57fc3ed0b305ccb188eca5ba81f2d4b6f7bf7ac42358a429711b37b26d7b4623",
+      "localized_sha256": "8cb50f8a710a0e50d4cbfb1b88bd94d0a9c7e42f111f8330d7cb3ae4dcb7211c"
+    },
+    {
+      "asset": "spawners/fuminionspawner.lua",
+      "literals": 2,
+      "upstream_sha256": "ce2ee51673f6dc5c66ec551728345424274f2a2d286545124adbd87e6dffc0df",
+      "localized_sha256": "6dea57fd61ceda4b8c20758550f14d3d9a47a7a006fd2fa9fcdbc091b227c571"
+    },
+    {
+      "asset": "stats/effects/fu_weaponeffects/Skittles/timefreezeSkittles.lua",
+      "literals": 5,
+      "upstream_sha256": "12fb9c8a6cc0d7ff1bd91dfc31d031032523f2d3ed0cd0fd34cbad46515b4bdb",
+      "localized_sha256": "c390020911e23f77e596e82d81ba93f72eccc6e827781ecbe1714a8329ae13da"
+    },
+    {
+      "asset": "stats/effects/partytime/partytime3.lua",
+      "literals": 8,
+      "upstream_sha256": "f999f508cbb15c0967c9728cc152ecc79b532f20485334922dc42b250c206a47",
+      "localized_sha256": "f6a9d6ad32c3418690510a16e8e721409fa3ac48f0931d73b87481a9445cedb3"
+    },
+    {
+      "asset": "zb/newSail/fr_toggleFunction.lua",
+      "literals": 2,
+      "upstream_sha256": "469811b5a33cac0ec9df23babf0dd3a8a8b4f40dbf51a1daeffa8257d4a2c81a",
+      "localized_sha256": "99cdd37e6f75664c90a1b97eb3e4bbe92edf5b6a7b4ec42649737d4decdd5107"
+    },
+    {
+      "asset": "zb/newSail/fu_customFunctions.lua",
+      "literals": 5,
+      "upstream_sha256": "abd56ca9fda91ac5d4a905895d873789226127c58ce3c35ca326738f21f16648",
+      "localized_sha256": "270109c8fa4114e0391eca3e9434e5e90084b18430e398079a16242fd7148bf5"
+    },
+    {
+      "asset": "zb/newSail/newSail.lua",
+      "literals": 25,
+      "upstream_sha256": "197f297514be395ed59f0c2eaf706418ff7db26e9f287bf15764ca25c176ab90",
+      "localized_sha256": "f48fb7eb8ecee7db8cfb8c5310e95f23a5435f9a8f4315b8fdc4c21002a70110",
+      "display_boundary_edits": 1
+    },
+    {
+      "asset": "zb/newSail/zb_customFunctions.lua",
+      "literals": 2,
+      "upstream_sha256": "b578e97fa7c300240000e43606ad587afb04edc56e6af208bd1aec5c6be63264",
+      "localized_sha256": "de19f4221053cedb98a6dfb2d28f0a58279f9f8b737e436d83ba885741732b31"
+    },
+    {
+      "asset": "zb/questList/questList.lua",
+      "literals": 14,
+      "upstream_sha256": "04097092807ce0a9ce163dcf5789ad91ca9af5c219e0e8a77aca3d11af1e8170",
+      "localized_sha256": "6ccd1491ddaca66fff78ea12b8c0c61409d4bafbc20f81aa90f47c5d4624880e",
+      "display_boundary_edits": 4
+    },
+    {
+      "asset": "zb/researchTree/researchTree.lua",
+      "literals": 15,
+      "upstream_sha256": "7996948bc233b64532a39891e4d16e71e2178617a6dd2f52e1b7151afd1f008a",
+      "localized_sha256": "8752a3eb837315ace10216e40bbceb134ced93730d4dcd32711836b515bdc4c2"
+    },
+    {
+      "asset": "zb/updateInfoWindow/updateInfoWindow.lua",
+      "literals": 2,
+      "upstream_sha256": "10e6b4d7412dd6a8c236b7f417e4fd1dcb9e743a57623cbabfbe589d80ed4c6c",
+      "localized_sha256": "cb1b120488b78430d3f91c0e227270970e92cbae148ea011693fb528bd7f7402"
+    },
+    {
+      "asset": "zb/updateInfoWindow/updateInfoWindowError.lua",
+      "literals": 1,
+      "upstream_sha256": "dea76b4d355bd19da23df2f203c6e954a96fc1ebaebfe77fc276b3a43c4224b7",
+      "localized_sha256": "6897c0c64ba2dcca435d735fd11b10eaae687b0977ce40e2344e5032f8159dd0"
+    },
+    {
+      "asset": "items/buildscripts/buildboomerang.lua",
+      "literals": 0,
+      "upstream_sha256": "510f0eb9fdada2b1e6b6dfe7db3320ca3b9119656b3efd556b565b0ea73ecd76",
+      "display_boundary_edits": 2,
+      "localized_sha256": "a03fe9ce7a43df4cc9c332eed256f504224ab4db3bc3a58e508fe6b62b7c2844"
+    },
+    {
+      "asset": "items/buildscripts/fubuildchakram.lua",
+      "literals": 0,
+      "upstream_sha256": "a55eaf5f4aae3fe48a660b42b711f3265bdf72e4234010d7a965e60fd1b72b98",
+      "display_boundary_edits": 2,
+      "localized_sha256": "92a77c19d8137ddc7276fc65cd0a75e351b2690c7ca9c08838dfde014745c313"
+    },
+    {
+      "asset": "items/buildscripts/fubuildmagnorb.lua",
+      "literals": 0,
+      "upstream_sha256": "a2806b08c3b160ac625c30558f07eb840b098a6b464f3542edd55780fdf62654",
+      "display_boundary_edits": 2,
+      "localized_sha256": "0c0e93f090559dbccb795a59ffb16885dc6b27be6073df7e16b9a552b17c6f48"
+    },
+    {
+      "asset": "fujp/lua_display.lua",
+      "literals": 0,
+      "localized_sha256": "876a8b00b9dc395c19e334d7f3d8425cde200da42306f94912542e6aa80f0f7b",
+      "new_support_module": true
+    }
+  ],
+  "untranslated": [],
+  "nonliteral_edits_during_literal_translation": 0,
+  "syntax_errors": [],
+  "runtime_tested": false,
+  "validation": "Pinned hash, exact literal selection, unchanged nonselected source, Lua syntax, color/format tokens",
+  "support_assets": [
+    {
+      "asset": "fujp/guide_display.config",
+      "sha256": "2cadc2240d3b9f5a3621f82bf1c7c3bbd4a353aabd2862a2e468ed0adc8ee5fa",
+      "display_followup": "0.2.2"
+    },
+    {
+      "asset": "fujp/guide_display.lua",
+      "sha256": "10e055338117fb4c08b5fd6ebc589f4a30f9af4a55ed3a9ce8a432243847fa62",
+      "display_followup": "0.2.2"
+    },
+    {
+      "asset": "fujp/lua_display.config",
+      "sha256": "ed42bf633b835bfdb2820c9aad56736f902999e093a4cfe589145b54ef8d7237"
+    },
+    {
+      "asset": "fujp/species_display.config",
+      "sha256": "8e82767ec534e369416d875394218814cbb4f7d5cdc6007016e44a187732a554",
+      "display_followup": "0.2.2"
+    },
+    {
+      "asset": "fujp/species_display.lua",
+      "sha256": "6af32b39aba2da167cc0afe9a519b23339fc3dd67512380377723ae820563731",
+      "display_followup": "0.2.2"
+    }
+  ],
+  "display_boundary_edits": 44,
+  "display_boundary_files": 20,
+  "display_aliases": 494,
+  "inherited_validated_pet_status_fields": 331,
+  "non_display_logic_edits": 0,
+  "translated_literals": 694,
+  "file_count": 132,
+  "followup_022": {
+    "manifest": "source/followup_022_manifest.json",
+    "scope": "Known guide/species text at display boundaries only; unknown text and gameplay data are preserved.",
+    "runtime_tested": false
+  }
+}

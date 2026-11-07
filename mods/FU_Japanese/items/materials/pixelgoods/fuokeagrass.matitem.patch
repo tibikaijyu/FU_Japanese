@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's grass. I don't think it needs describing. Do you?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "草です。 説明は必要ないと思います。 あなたは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "草"
+    }
+  ]
+]

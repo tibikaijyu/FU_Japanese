@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A matter chunk. A chunk that matters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "問題があります 重要なのはチャンクです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Matter Chunk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マター・チャンク"
+    }
+  ]
+]

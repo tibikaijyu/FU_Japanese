@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wands/Staves: +^green;5^reset; Projectiles, +^red;100^reset;% Cast/Charge Time, +^green;100^reset;% Range"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワンズ/ステーブ:+^green;5^reset; 発射体+^red;100^reset;% キャスト/充電時間、+^green;100^reset;% 範囲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scroll of Devastation"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "荒廃のスクロール"
+    }
+  ]
+]

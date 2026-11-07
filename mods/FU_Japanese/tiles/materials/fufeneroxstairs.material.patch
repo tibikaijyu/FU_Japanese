@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A platform able to support exceptional amounts of weight."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重量の極限まで対応できるプラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Stair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェナロックス階段"
+    }
+  ]
+]

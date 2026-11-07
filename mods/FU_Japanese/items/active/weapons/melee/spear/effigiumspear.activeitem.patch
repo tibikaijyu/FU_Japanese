@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ghostly as a spirit.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "霊としての幽霊。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phantasm Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンタズム・スピア"
+    }
+  ]
+]

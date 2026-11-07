@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Very little is known of the social structure of the Thelusians, as they permit no living being not of their own Hive Brood into the hive. Quite literally anything else entering will be immediately killed and devoured without any attempt at diplomacy. This strong protection instinct has kept their kind alive for billions of years, and contributed heavily to their reputation."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "神殿の社会構造についてはほとんど知られていないが、神殿にハシカが住んでいないことは認めていない。 文字通り、他のあらゆるものがすぐに殺され、外交の試みなしに飲み込まれます。 この強い保護本能は何十億年もの間彼らの種類を生き続け、彼らの評判に大きく貢献してきました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thelusian Life Vol 1"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアンの暮らし 第1巻"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Sentient Hive"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "センセントリー・ホーブ"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well that's certainly... something."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それは確かに...何かです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Monkey... Man... Fisssh?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "モンキー...。 なに?. 魚?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disturbed. A horrifying cross between an Apex and what appears to be a mermaid."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 エイペックスと人魚のように見えるものの間の恐ろしい十字架。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Well, that's... er..."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "えぇ、それは..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apebucks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サル"
+    }
+  ]
+]

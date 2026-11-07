@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A charming and well-made wooden cabinet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魅力的でよく作られた木製キャビネット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "内閣"
+    }
+  ]
+]

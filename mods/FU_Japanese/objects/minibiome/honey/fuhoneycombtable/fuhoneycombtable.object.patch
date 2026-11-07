@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An edible table, made with real honeycombs!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のハニカムで作られた食用のテーブル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeycomb Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカムテーブル"
+    }
+  ]
+]

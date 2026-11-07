@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Kevin touched crystals. No doubt about it. Old signature, faint, but clear. Maybe Kevin's fault things went wrong. Have another beacon."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ケビンは水晶に触れた。 疑いの余地はない。 古い署名、かすかな、しかし、クリア。 ケビンの欠点がうまくいかなかったのかもしれない。 Have another beacon."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findCrystals",
+      "value": "^green;Fetch ^orange;Dark Erchius Crystals^reset; from the ^orange;Dark Erchius Mining Facility^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findCrystals",
+      "value": "^green;^orange;闇のエルキウス結晶^reset;を^orange;闇のエルキウス採掘施設^reset;から回収する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "^green;Bring^reset; the ^orange;Dark Erchius Crystals^reset; to ^orange;Kherae^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "^green; ^reset; ^orange; ダークエルキウス結晶 ^reset; ^orange; Kherae^reset; を ^orange;科学前哨基地^reset; に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Cave was like one you saw, yes? Mew had a thought. Kevin experiments, tries following in your footsteps. Everything goes wrong. Maybe he got bored?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "洞窟はあなたが見たのと同じでしたよね? ミューは思いついた。 ケヴィンの実験は、あなたのステップに従ってください。 すべてうまくいかない。 退屈したのかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Glittering in the Dark"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "暗闇の中で輝く"
+    }
+  ]
+]

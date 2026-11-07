@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft, pliable fungus."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかくて柔軟な真菌。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shroom Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シュルームウォール"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mascagnite is a mineral abundant in Ammonium Sulfate, which can be extracted."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マスカナイトは硫酸アンモニウムに富んだ鉱物で、抽出することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mascagnite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マスカグナイト"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This door is relatively secure."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "このドアは比較的安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Fairly sturdy for a basic door."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "基本的なドアのためにかなり頑丈。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic tungsten door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的なタングステン製のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran hide behind door. Jump out. Ssstab!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはドアの後ろに隠れています。 飛び出して 刺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Approving. A useful, basic door."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "承認。 便利な、基本的なドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A sturdy tungsten door."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "頑丈なタングステン製のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Just a simple door, does the job I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "ただのドアで、その仕事はできると思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Just a door, does the job I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ただのドアです、私はその仕事をします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Door Prop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンドアプロップ"
+    }
+  ]
+]

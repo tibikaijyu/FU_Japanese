@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blue gem that grows in a teardrop shape. It feels cold to touch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "涙の形で成長する青い宝石。 触ると寒い感じがします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nhydri Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Nhydri結晶"
+    }
+  ]
+]

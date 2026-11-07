@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew. Ew ew ew. Arachnid. Nope. Noooppppppeee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え? えー、えー。 アラチニッド。 いいえ。 ありえない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ugly Scorponok"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "うらやましいサソリ"
+    }
+  ]
+]

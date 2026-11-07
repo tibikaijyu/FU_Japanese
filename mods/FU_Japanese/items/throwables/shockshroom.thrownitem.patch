@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toss this shroom and shock your foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この破片を投げて、あなたの敵をショックします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shock Shroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックシュルーム"
+    }
+  ]
+]

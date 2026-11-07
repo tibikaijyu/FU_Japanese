@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Open to gently float while falling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落ちながらゆっくり浮かび上がれるように開きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Floatbulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンフロート電球"
+    }
+  ]
+]

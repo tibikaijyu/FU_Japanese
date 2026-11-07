@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bloated detritovore, grown indolent on the waste of other beings."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肥大したデトリトヴォア、他の生物の無駄に甘やかされる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sewer Fly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "下水道"
+    }
+  ]
+]

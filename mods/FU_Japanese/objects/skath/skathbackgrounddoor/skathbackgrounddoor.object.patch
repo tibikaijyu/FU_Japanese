@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door appears to be locked. What a shame."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアはロックされているようだ。 恥ずかしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Background Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケートの裏口"
+    }
+  ]
+]

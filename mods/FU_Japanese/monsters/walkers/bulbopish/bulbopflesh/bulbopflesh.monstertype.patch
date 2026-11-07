@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meatbag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミートバッグ"
+    }
+  ]
+]

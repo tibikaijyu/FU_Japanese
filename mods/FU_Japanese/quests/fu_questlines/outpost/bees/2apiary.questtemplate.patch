@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The ^orange;Apiary^reset; is essential for a beekeeper. You'll likely want more than one. You need them to breed your little buddies."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;養蜂場^reset;は養蜂家にとって不可欠です。 たぶん、一つ以上のものが欲しいでしょう。 彼らにあなたの小さな仲間を繁殖させる必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Before you take care of bees, you need a place to put them. Build an ^orange;Apiary^reset; for this."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ミツバチの世話をする前に、それらを置く場所が必要です。 これに対して ^orange;養蜂場^reset; を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "House of Bees"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "蜂の家"
+    }
+  ]
+]

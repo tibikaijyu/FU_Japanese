@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The control chip for a Precursor Drone, able to increase fuel efficiency by ^green;10%^reset;, protect you with ^cyan;30% Shadow resistance^reset; and ^pink;Shadow Taint immunity^reset;, and grant ^green;+3 passive research^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリカーサドローン用の制御チップで、燃料効率を向上します。 ^green;10%^reset;君を守れ ^cyan;30% シャドウ抵抗^reset; そして ^pink;シャドウテイント免疫^reset;そして、助成 ^green;+3 受動的な研究^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Drone Control Chip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドローン制御チップ"
+    }
+  ]
+]

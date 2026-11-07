@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avoid indoor use.\n^green;Caution: Lava^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "屋内での使用は避けてください。\n^green; 注意: 溶岩^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mr.Scorchy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コーシーさん"
+    }
+  ]
+]

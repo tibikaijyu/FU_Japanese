@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Energy Zone"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "エネルギー領域"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ice weapon of epic proportions.\n^yellow;Supreme frost power.^reset;\n^cyan;Large recoil. Crouch to minimize.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壮大なプロポーションの氷兵器。\n^yellow;最高凍上力。^reset;\n^cyan; 大きな反動。 最小限に抑える。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#bb39ce;Yeti^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#bb39ce;イエティ^reset;"
+    }
+  ]
+]

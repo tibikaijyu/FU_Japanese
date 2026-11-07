@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lawsuit incoming..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "訴訟が起これば..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Humans have finsss now?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "人間に指はあるか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. This logo for a coffee shop depicts a mermaid."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル この喫茶店のロゴは人魚を表しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Why's she... standin' like that?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "なぜ彼女は...そんな風に立っているの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "St?rbucks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セント?rbucks"
+    }
+  ]
+]

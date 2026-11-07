@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Blue - Connect to signal^reset; ^red;Red - connect to Liquid Outlet^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;青 - 信号に接続します。^reset; ^red;リキッドアウトレットへの再接続^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Mover Input"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体ムーバー入力"
+    }
+  ]
+]

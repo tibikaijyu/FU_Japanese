@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shining, beautiful glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キラキラと美しいガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Silver Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールシルバーガラス"
+    }
+  ]
+]

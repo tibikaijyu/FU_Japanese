@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+101% Physical Thorns^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+101%物理ソーン^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stranglevine Root"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストレンジバイン根"
+    }
+  ]
+]

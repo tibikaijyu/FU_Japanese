@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This heavy spear will puncture even well-armored foes.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この重いスパイは、装甲の強い敵にも穴を開けます。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テック・ランス"
+    }
+  ]
+]

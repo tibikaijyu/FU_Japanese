@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Squishy and putrid"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キツツキと荒廃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュドア"
+    }
+  ]
+]

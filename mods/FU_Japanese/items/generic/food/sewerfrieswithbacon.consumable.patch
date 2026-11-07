@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fries with a fermented gravy, adorned with bacon. What a crappy meal. ^red;-^reset;5^red;% Health ^reset; ^blue;Madness Gain^reset; 2 ^orange;Type: Cooked Meat + Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ベーコンで飾られた発酵したグラビーとフライドポテト。 なんてくだらない食事なんだろう。 ^red;-^reset;5^red;% 健康 ^reset; ^blue;狂気の高まり^reset; 2 ^orange;タイプ: 肉+野菜を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sewer Fries with Bacon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベーコンで揚げる下水道"
+    }
+  ]
+]

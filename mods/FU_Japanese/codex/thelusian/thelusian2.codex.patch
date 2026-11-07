@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "The Thelusians are not known as such to their own kind. Their language is completely unusable by other known spacefaring races due to their unique vocalizations. While they can mimic the speech of other races, it will never sound right and always contain a sort of buzzing-tick."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "テルシアンは、彼ら自身の種類のようには知られていない。 彼らの言語は、独特の発声のために、他の既知の宇宙飛行レースでは完全に使用できない。 他の人種のスピーチを真似することはできるが、それは決して正しく聞こえず、常にある種のブザーを含んでいる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thelusian Life Vol 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアンの暮らし 第2巻"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Thelusian Naming"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ロシア名"
+    }
+  ]
+]

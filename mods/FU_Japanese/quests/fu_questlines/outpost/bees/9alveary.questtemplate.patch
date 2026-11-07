@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "These sweet babies can hold ^green;two frames^reset;, and twice as many drones means twice as much production, too. The gains are quite substantial!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "このかわいい巣箱には^green;巣枠を二つ^reset;入れられる。オスバチの数が二倍なら、生産量も二倍だ。かなりの増産になるぞ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now we can get a bit more adventurous. Create a ^orange;Large Apiary^reset; to double your bee farm potential. You'll need some ^orange;Golden Wood^reset; to build it. Try ^cyan;Bumblebees or Orchid bees^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "そろそろ、もう少し大胆にいこう。^orange;大型養蜂箱^reset;を作って、養蜂場の力を二倍にするんだ。製作には^orange;黄金の木材^reset;が必要になる。^cyan;マルハナバチかシタバチ^reset;を試してみてくれ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Alveary"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "幼虫"
+    }
+  ]
+]

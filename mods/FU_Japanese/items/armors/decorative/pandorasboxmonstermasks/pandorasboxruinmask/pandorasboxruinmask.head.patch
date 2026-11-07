@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It may destroy worlds, but at least it makes for cool headwear right?..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世界を破壊するかもしれませんが、少なくともクールなヘッドウェアになりますよね?..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ruin Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "仮面"
+    }
+  ]
+]

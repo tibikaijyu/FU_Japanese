@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This iron block has a distinct gear-like imprint."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この鉄ブロックは歯車のような印象があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Gear Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンギアブロック"
+    }
+  ]
+]

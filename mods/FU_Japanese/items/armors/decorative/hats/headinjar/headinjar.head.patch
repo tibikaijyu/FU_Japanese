@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to store and preserve heads. Filled with H2OGfat. A special liquid used to keep heads alive. It is rich in nutrients and refreshing to drink.\n^cyan;Immune^reset;: Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頭部の保存・保存に使用されます。 H2OG脂を充填します。 頭部を生かすための特殊な液体です。 栄養分が豊富で、飲むとさっぱりします。\n^cyan;免疫^reset;:酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Head in Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャール号の頭"
+    }
+  ]
+]

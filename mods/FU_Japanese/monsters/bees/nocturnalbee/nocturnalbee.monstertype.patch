@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bee that's as black as midnight."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真夜中ほど黒いミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nocturnal Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜行性蜂"
+    }
+  ]
+]

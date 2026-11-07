@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Metal trim for a ship. Includes painted gems."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船用の金属トリム。 塗装宝石を含む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メタルトリム"
+    }
+  ]
+]

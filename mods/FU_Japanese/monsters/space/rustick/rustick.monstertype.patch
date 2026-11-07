@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "If they don't make a connection with another Rustick, they can get quite lonely."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "他のRustickと接続しなければ、かなり孤独になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rustick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "棒"
+    }
+  ]
+]

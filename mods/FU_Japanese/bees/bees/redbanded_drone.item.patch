@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Red-Banded Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤帯ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red-Banded Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤帯ドローン"
+    }
+  ]
+]

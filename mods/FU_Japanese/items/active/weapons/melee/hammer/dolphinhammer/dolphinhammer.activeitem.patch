@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, this is pretty damned disturbing. And ^red;awesome^reset;.\n^cyan;Meaty Death, Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まぁ、これはかなり邪魔な話だ。 そして ^red;awesome ^reset; 。\n^cyan;肉の 死, フローラン ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dolphin Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドルフィンハマー"
+    }
+  ]
+]

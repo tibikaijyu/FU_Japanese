@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bouncing distortion sphere. Quite useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "跳ねる歪み球体。 かなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Bounce Sphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;バウンス球体^reset;"
+    }
+  ]
+]

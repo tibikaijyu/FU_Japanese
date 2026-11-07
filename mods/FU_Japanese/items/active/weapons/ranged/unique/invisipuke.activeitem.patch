@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "PUKEY!\n^yellow;vomit!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プーキー!\n^yellow; 吐出!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisipuke!"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "訪問!"
+    }
+  ]
+]

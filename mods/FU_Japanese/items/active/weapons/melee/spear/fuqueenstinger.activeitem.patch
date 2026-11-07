@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The stinger of a giant queen bee, seriously?\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な女王蜂の刺し傷?\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queen Stinger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クイーン・スティンガー"
+    }
+  ]
+]

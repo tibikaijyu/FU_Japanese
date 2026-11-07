@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some things are best left alone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかは一人で残すのが最善です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Madness"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狂気"
+    }
+  ]
+]

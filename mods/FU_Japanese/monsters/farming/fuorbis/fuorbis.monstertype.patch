@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A robotic Orbis, which regularly regurgitates spare parts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スペアパーツを定期的に回転させるロボットオルビス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orbis"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オルビス"
+    }
+  ]
+]

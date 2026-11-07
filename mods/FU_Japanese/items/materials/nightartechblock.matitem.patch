@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blocks made from unknown Nightar technologies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知のナイトアー技術から作られたブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran brain doessn't undersstand thiss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローラン脳は理解できません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. What is this."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 なにこれ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Hmmm, what is this?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "うーん、これは何?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Tech Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイターのテックブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just till these and you'll have auto-watered soil! Quite useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ここまで行くと、自動で水をやる土が出来上がりますよ! かなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Hydroponic Tubing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;水和チューブ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An enhanced brain, perfect for transplanting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "移植に最適な強化脳。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Artificial Brain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人工脳"
+    }
+  ]
+]

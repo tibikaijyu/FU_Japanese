@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An automato milkshake! Mmm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ミルクセーキ! そうね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Milkssshake tastes like rusty metal. Huh."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミルクセーキは錆びた金属の味がします。 フフフフ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cheeky. I save the cherry on top for last."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "さっぱり。 私は最後に桜を頂上に保存します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "... I'm oddly not put off by the coppery flavor."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "... 奇妙なことに、私は銅の味で腹を立てることができない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Automato Shake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オートマトンシェイク"
+    }
+  ]
+]

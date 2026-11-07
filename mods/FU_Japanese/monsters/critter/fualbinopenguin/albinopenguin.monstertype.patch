@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange, eyeless penguins."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙で目立たないペンギン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Albino Penguin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルビノペンギン"
+    }
+  ]
+]

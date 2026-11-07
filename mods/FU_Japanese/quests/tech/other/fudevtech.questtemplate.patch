@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I hope you're happy with yourself."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あなたに満足してもらいたい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you're not a developer, you shouldn't be seeing this."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "開発者でなければ、これを見るべきではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Developers only"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "開発者のみ"
+    }
+  ]
+]

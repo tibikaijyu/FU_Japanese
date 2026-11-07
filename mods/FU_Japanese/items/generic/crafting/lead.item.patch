@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lead ^gray;Pb^reset; is notable for being denser than other common metals, great for radiation shielding, but also poisonous."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉛^gray;Pb^reset;は、他の一般的な金属よりも密度が高く、放射線遮蔽にも優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉛"
+    }
+  ]
+]

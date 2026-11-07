@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Counts as 'plasma' (set bonuses)^reset;\n^yellow;Stun^reset; and ^cyan;Weaken^reset; foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;「プラズマ」としてカウントします。^reset;\n^yellow;気絶 ^reset;と^cyan;弱い^reset;の敵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Veritas Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベリタス大砲"
+    }
+  ]
+]

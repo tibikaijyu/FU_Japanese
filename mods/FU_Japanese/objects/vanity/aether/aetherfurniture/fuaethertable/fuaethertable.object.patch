@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A table. Perfect for tabletop gaming. Or eating."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テーブル。 卓上ゲームに最適です。 あるいは食べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルテーブル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute bed. Has feather pillows"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいベッド。 羽毛枕"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feather Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "羽毛ベッド"
+    }
+  ]
+]

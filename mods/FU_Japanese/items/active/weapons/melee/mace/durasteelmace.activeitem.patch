@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick and weighty. Design by Sacre."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚くて重い。 デザインはSacre。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラスチールメイス"
+    }
+  ]
+]

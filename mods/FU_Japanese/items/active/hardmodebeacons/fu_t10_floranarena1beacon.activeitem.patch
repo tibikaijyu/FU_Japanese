@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Teleports the user to the ^orange;Bronze Arena^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nUnyielding Madness"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢の世界で、ユーザーを ^orange;Bronze 闘技場 ^reset; にテレポートします。\n^red; 環境上の危険 ^reset; :\n耐え難い狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beacon: ^orange;Bronze Arena^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビーコン ^orange;青銅器^reset;"
+    }
+  ]
+]

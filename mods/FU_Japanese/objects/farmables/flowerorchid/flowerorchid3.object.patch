@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gorgeous royal blue flower."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "豪華なロイヤルブルーの花。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Orchid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーオーキッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hellishly creepy. Devilishly stylish.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ひどいほど不気味だ。 邪悪なほどスタイリッシュ。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨ロングソード"
+    }
+  ]
+]

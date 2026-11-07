@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flaming claws? Yes please. Just... don't burn your hands.\n^cyan;Inflicts Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炎の爪? はい、お願いします。 ただ...手を焼くな。\n^cyan;焼成現象^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellion Claw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘリオン爪"
+    }
+  ]
+]

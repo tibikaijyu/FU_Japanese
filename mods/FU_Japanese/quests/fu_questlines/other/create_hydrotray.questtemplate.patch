@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Awesome. You are good people. As a thanks, have a contract that summons some most assuredly ^red;not^reset; good people!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "すごい。 あなたは良い人です。 感謝として、最も確実に^red;not^reset;良い人を呼び出す契約をしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Deliver the ^orange;Hydroponics Tray^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;水耕栽培トレイ^reset;を届ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Kevin urinated on my ^orange;Hydroponics Tray^reset; during a drunken staff party and broke it! I don't have a ^orange;Power Station^reset; to craft a new one... could you bring one to me?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "職員の飲み会で、ケヴィンが私の^orange;水耕栽培トレイ^reset;に小便をかけて壊してしまった！ 作り直そうにも^orange;電力作業台^reset;を持っていないんだ……代わりのトレイを持ってきてくれないか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hydroponic Potence"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "水滴電位"
+    }
+  ]
+]

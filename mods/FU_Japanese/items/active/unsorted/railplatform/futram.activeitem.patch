@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Place a user-controlled tram that works with rail tram stops"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄道トラムの停留所で作動するユーザー制御トラムを配置します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rail Tram"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄道"
+    }
+  ]
+]

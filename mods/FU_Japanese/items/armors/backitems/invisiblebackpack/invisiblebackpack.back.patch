@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hide those ugly EPPs with this handy item!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この便利なアイテムでそれらの不格好なEPPを隠す!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Backpack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "見えないバックパック"
+    }
+  ]
+]

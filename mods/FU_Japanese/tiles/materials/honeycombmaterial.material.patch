@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The walls are dripping in gold!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁は金で滴り落ちています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Material"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ材料"
+    }
+  ]
+]

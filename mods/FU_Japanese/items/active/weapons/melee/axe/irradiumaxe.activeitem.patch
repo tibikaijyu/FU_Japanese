@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purified irradium weapon.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精製されたイラジウム兵器。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウム軸"
+    }
+  ]
+]

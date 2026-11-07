@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just like the candy, it's somewhat of an underdog in the collection!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キャンディーと同じように、コレクションのアンダードッグのようなものです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Candybop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャンディボップマスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Immune: Slime^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;免疫:スライム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリシールド"
+    }
+  ]
+]

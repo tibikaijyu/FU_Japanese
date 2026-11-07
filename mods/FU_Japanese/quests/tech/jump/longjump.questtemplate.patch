@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "This strange new technology has ^green;fused into my body^reset;. I seem to have ^orange;increased jumping ability^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この奇妙な新技術は ^green;体に溶け込んで^reset;. 私は^orange;ジャンプ能力^reset;を増加させているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've found some sort of ancient tech in a ruin. I wonder what it does?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "廃虚の中に古代のテクノロジーを見つけた。 なんだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Enhanced Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "拡張ジャンプ"
+    }
+  ]
+]

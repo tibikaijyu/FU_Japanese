@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cosy beds can stack on top of each other. ^yellow;Crew +1^reset;. Counts as a deed. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの居心地の良いベッドは互いに積み重ねることができます。 ^yellow;船員+1^reset;。 行為としてカウントされる。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crew Bunk (Black)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルー・バンク(船員 二段ベッド)"
+    }
+  ]
+]

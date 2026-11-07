@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A soft, decorative trim material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかく装飾的なトリム材料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アバリトリム"
+    }
+  ]
+]

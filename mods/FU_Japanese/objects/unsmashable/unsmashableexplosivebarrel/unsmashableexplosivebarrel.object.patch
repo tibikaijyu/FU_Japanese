@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An explosive barrel. I should keep my distance."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "爆発的な銃身。 距離をとっておくべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Explosive container. I can't get into it."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "爆発性の容器。 私はそれに入ることができません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An explosive metal barrel. It looks dangerous. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆薬の金属製の銃身。 危険に見える。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Label lookss like fire. Floran keepsss away."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ラベルは火のように見えます。 フローランは身を隠している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Alerted. This barrel label warns of a highly explosive substance inside."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "警告。 このバレルラベルは、内部に爆発性の高い物質を警告します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The explosive label on the front implies that I probably shouldn't try to open it."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "正面の爆発的なラベルは、私がおそらくそれを開けようとすべきではないことを意味しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Looks like a metal container full of explosives. It's sealed shut for a reason."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "爆薬を入れた金属製の容器のように見える。 密閉されているのは理由がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Looks like new fangled dynamite, in barrel form."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "新しいダイナマイトのように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": " Explosive Barrel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": " 爆発バレル"
+    }
+  ]
+]

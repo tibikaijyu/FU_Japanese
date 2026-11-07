@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Oil kin be quite useful for a number o' things, but I suggest you save that ^orange;Oil^reset; for a very different task. Talk ter me again ta learn more."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "油にはいろんな使い道があるが、その^orange;油^reset;は別の用事のために残しておきな。もう一度話しかければ、詳しく教えよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Craft some ^green;Oil^reset; and return to ^green;Welchie^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;油^reset;を作り、^green;ウェルチー^reset;の所へ戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Ya ever come across ^orange;Oil^reset;? It's quite rare round these 'ere parts. I hear ye kin get some without much hassle by tossin ^orange;Corn^reset; or ^orange;Bone^reset; in a ^orange;Hand Mill^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;油^reset;を見かけたことはあるかい？ この辺りでは、ずいぶん珍しいんだ。^orange;トウモロコシ^reset;や^orange;骨^reset;を^orange;手回し粉砕機^reset;に入れれば、簡単に手に入ると聞いたよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Homestead III (pt 1)"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "田舎暮らし III（その1）"
+    }
+  ]
+]

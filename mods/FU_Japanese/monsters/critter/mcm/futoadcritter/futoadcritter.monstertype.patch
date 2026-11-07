@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A squat amphibian with leathery skin, found in relatively dry areas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "比較的乾燥した地域で発見された革のような肌を持つスクワット両生類。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒキガエル"
+    }
+  ]
+]

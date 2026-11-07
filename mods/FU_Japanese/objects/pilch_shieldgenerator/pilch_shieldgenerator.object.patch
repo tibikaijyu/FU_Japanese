@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates fields to protect construction, provide air or alter gravity within a defined area."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "建設、空気の提供、または定義された領域内の重力を変更するためのフィールドを生成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Field Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フィールドジェネレータ"
+    }
+  ]
+]

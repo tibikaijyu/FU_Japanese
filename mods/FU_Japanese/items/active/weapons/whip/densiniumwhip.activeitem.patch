@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Incredibly dense, but ultra flexible. A shockingly good time.\n^cyan;Electrifies foes^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど高密度ですが、非常に柔軟です。 衝撃的なほど楽しい時間。\n^cyan;敵を電化する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムホイップ"
+    }
+  ]
+]

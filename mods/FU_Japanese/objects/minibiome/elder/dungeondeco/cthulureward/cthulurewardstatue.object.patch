@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This abhorrent statue grips some sort of glowing artifact in its inhuman claw."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この嫌悪な像は、人間の爪に何らかの輝きのあるアーティファクトを握ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Artifact"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老の遺物"
+    }
+  ]
+]

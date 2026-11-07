@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You have no idea what deity these markings praise, but it isn't pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのマークがどんな神々をほめているかは分かりませんが、それはきれいではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unknown Artifact"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未詳の人工物"
+    }
+  ]
+]

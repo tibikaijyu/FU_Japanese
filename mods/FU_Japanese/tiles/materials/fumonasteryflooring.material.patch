@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shoji Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "障子フロアリング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoji Flooring"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障子フロアリング"
+    }
+  ]
+]

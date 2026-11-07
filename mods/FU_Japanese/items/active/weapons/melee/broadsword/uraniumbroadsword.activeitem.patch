@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well this seems like a good idea!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは良いアイデアのようです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランブレード"
+    }
+  ]
+]

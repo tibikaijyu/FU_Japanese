@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a lethal bounty hunter that talks loudly and carries a big gun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大声で話し、大きな銃を運ぶ致命的な報奨金ハンターを雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bounty Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "懸賞契約"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleeping pod made by a X'i."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シー製の寝台。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンポッド"
+    }
+  ]
+]

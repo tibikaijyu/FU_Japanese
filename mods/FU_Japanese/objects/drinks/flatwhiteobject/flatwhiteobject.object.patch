@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Coffee with milk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミルク入りコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Milky coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミルクコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. Coffee with milk."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 ミルク入りコーヒー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Coffee stirred with a bit of milk."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "コーヒーを少しミルクでかき混ぜた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flat White Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フラットホワイトコーヒー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gleap mutation a step above the rest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリップ変異は、残りよりも上のステップです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alpha Gleap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルファグリップ"
+    }
+  ]
+]

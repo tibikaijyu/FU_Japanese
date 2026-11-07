@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A face-whacker!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "顔見知り!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "希少なメイス"
+    }
+  ]
+]

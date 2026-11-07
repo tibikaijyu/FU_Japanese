@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides an ^orange;air supply^reset;, ^cyan;Ghost Immunity^reset; and a ^#b72ebc;bright purple glow^reset;. No penalty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "を提供します。 ^orange;航空供給^reset;, ^cyan;幽霊免疫^reset; そして ^#b72ebc;明るい紫色の輝き^reset;. ペナルティなし。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Bro"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウス・ブロ"
+    }
+  ]
+]

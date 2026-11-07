@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid steel girder"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固体鋼桁"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Steel Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鋼桁"
+    }
+  ]
+]

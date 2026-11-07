@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sharp, and imposing icicles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鋭い、そして強烈なアイクル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷"
+    }
+  ]
+]

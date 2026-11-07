@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Seems to lead somewhere. I can hear sounds in the distance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どこかへ通じるようだ。 遠くで音が聞こえる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/noTricorderInteractData/message",
+      "value": "A strange force-field prevents you from entering the cave. Perhaps someone on this world has a key?"
+    },
+    {
+      "op": "replace",
+      "path": "/noTricorderInteractData/message",
+      "value": "奇妙な力場は、洞窟に入ることを防ぐ。 おそらくこの世界の誰かが鍵を持っている?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cavern Doorway"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "洞窟の戸口"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blaze through foes with a storm of poisoned needles.\n^yellow;Inflicts poison, ^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒針の嵐で敵を焼き破ります。\n^yellow;毒、^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thorn Slinger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーン・スリンガー"
+    }
+  ]
+]

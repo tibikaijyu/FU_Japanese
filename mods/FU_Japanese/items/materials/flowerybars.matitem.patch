@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Iron bars grown-over with plants."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物で成長した鉄の棒。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flowered Iron Bars"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "開花した鉄棒"
+    }
+  ]
+]

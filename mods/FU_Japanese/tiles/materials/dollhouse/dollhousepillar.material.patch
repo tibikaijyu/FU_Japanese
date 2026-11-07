@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old looking stone pillar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い石の柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sstone pillar iss very old."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "石柱はとても古い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amazed. I believe this stone pillar is very old."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 この石の柱はとても古いと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This is one ol' lookin' stone pillar."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これは古い「石の柱」です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pillar Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピラーブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark jar of honey!\n^cyan;+^white;30% ^pink;Shadow ^cyan;Resistance ^gray;(^white;5m^gray;)\n^green;Heal ^white;57.5 ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツの暗い瓶!\n^cyan;+^white;30% ^pink;影 ^cyan;抵抗 ^gray;(^white;5え?^gray;)\n^green;癒し ^white;57.5 ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークハニージャー"
+    }
+  ]
+]

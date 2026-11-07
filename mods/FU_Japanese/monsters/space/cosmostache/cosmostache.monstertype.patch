@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An irritable biomechanical lifeform. The bigger their moustaches, the older they are."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "過敏な生体力学的生命体。 口ひげが大きいほど年をとっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmostache"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コスモスタッシュ"
+    }
+  ]
+]

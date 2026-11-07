@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small wall-mounted lamp made from copper."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銅製の小さな壁掛けランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Copper Wall Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小型銅壁ランプ"
+    }
+  ]
+]

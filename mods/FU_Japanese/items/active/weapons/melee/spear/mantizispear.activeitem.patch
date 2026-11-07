@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Light Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ライトブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A legendary weapon of war.\n^yellow;Counts as 'energy' for set bonuses^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説の戦争兵器。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizi Light Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンティジライトスピア"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "<Translation: The Crucible works! It works! At long last I have unravelled the final piece of the quantum puzzle. It now siphons ^red;<unknown>^reset; directly from the cosmic stream and applies ^red;<unknown>^reset; to the ^red;<unknown>^reset;. Our weapons and armor are now unmatched. The Hegemony be praised!>"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "<翻訳:るつぼは機能します! うまくいった! ついに私は量子パズルの最後のピースを解き明かした。 現在、宇宙の流れから直接 ^red;<unknown>^reset; をサイフォン化し、 ^red;<unknown>^reset; を ^red;<unknown>^reset; に適用します。 私たちの武器と装甲は今や比類のないものです。 ヘゲモニーは賞賛されています!>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient precursor text"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古来よりの本文"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Groshk Fremmin"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "グロシク・フレミン"
+    }
+  ]
+]

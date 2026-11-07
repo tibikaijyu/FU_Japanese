@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Terror comes from the dark one in many forms. This deadly weapon is one of the things you ought to fear. Pray to Him and place upon the altar the following: Elder Artifact x 1 , Valtan Casing x 1, Unknown Reactor x1"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "恐怖は、多くの形で暗いものから来ています。 この致命的な武器は、あなたが恐れるべきことの一つです。 神に祈り、祭壇の上に次の: 長老アーティファクト x 1 バルタンケーシング x 1 未知リアクター x 1 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な武器のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Pulse of Maggots"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ウジ虫の脈"
+    }
+  ]
+]

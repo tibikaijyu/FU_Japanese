@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Replica of a Human FTL drive. ^yellow;Does nothing.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間のFTLドライブのレプリカ。 ^yellow; 何もしません。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Replica Human FTL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;レプリカ人間のFTLドライブ^reset;"
+    }
+  ]
+]

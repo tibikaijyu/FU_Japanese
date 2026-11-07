@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect bed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なベッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なベッド。"
+    }
+  ]
+]

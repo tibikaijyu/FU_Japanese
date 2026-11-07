@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Whatever this thing emits, it isn't wonderful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "たとえこの物質が放出しても、それは素晴らしいことではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体"
+    }
+  ]
+]

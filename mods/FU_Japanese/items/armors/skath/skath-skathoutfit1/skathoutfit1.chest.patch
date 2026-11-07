@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple jacket, in case it gets a bit chilly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シンプルなジャケットで、少し寒くなる場合に備えて。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skathian Sports Jacket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スカシアンのスポーツジャケット"
+    }
+  ]
+]

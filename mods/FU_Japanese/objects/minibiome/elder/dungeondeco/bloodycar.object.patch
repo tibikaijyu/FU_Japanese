@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Someone tried to escape. They almost made it, too."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰かが逃げようとした。 ほぼそれを作った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodied Transport"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血液輸送"
+    }
+  ]
+]

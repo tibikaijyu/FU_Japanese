@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A repulsive, gore-spewing worm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "反発する、ゴアを吐くワーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Putrid Worm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パトリドワーク"
+    }
+  ]
+]

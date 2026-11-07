@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "D2OAs. Nearly identical in nature to heavy water, but with high concentrations of arsenic.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "D2OA。 自然界では重水とほぼ同じだが、ヒ素濃度が高い。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Water"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗い水"
+    }
+  ]
+]

@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "The displays on this chair are dark."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この椅子のディスプレイは暗いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I'm pretty sure it's offline right now."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "今はオフラインだと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "EN.... gage... ?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "え~っと...。 ゲイジ..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Where blinky lightsss?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "まばゆい光はどこですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Assessing. The terminal appears functional, but is in standby mode."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "評価。 ターミナルは機能的に見えますが、スタンバイモードです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Awww, it's broken."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "Awww、壊れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Even if offline it can still be used as a seat!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "オフラインでも座席として使える!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soma Captain's Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "相馬隊長"
+    }
+  ]
+]

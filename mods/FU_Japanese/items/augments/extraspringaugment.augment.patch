@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Spring"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "春"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that grants +^green;20^reset;% Jump and negates fall damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;20^reset;%ジャンプを付与し、フォールダメージを無効化するEPPモジュール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spring Augment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "春の拡張"
+    }
+  ]
+]

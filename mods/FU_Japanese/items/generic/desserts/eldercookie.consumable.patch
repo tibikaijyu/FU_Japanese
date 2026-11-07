@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These cookies seem to be phasing partially in and out of our dimension...\n^pink;Insanity ^cyan;Immunity ^gray;(^white;5m^gray;)\n^pink;Shadow Taint ^cyan;Immunity ^gray;(^white;150s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらのクッキーは、私たちの次元の一部と外側に段階的であるようです。\n^pink;狂気^cyan;免疫^gray;(^white;5m^gray;)\n^pink;影の輝き ^cyan;免疫性 ^gray;(^white;150s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クッキーさん"
+    }
+  ]
+]

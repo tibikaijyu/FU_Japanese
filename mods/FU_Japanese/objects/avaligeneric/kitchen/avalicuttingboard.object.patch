@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Wait, does that food preparation station have its own fume hood?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "待って、その食品準備場は、独自の煙のフードを持っていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "It's like a stainless steel canvas of cooking possibilities!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "それは調理の可能性のステンレス製のキャンバスのようなものです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This workstation has everything; cutting board, knife sharpening, waste disposal and tap!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このワークステーションには、カッティングボード、ナイフシャープニング、廃棄物処理、タップなど、すべてがあります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "It has a ssssharpener for ssstabbies! Also sssstabbing board, best table!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ssstabbies用のssSharpenerがあります! また、刺すボード、最高のテーブル!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Wistful. It's a far cry from the castle pantry from the cycles I was a maid."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ウィスフル。 私がメイドだったサイクルから、城のパントリーから遠く離れたところにあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Is that a dissection table or a kitchen counter?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "それは解剖台ですか、それともキッチンカウンターですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "It'll suffice, but as they say, it is the artist, not his tools, that makes it perfection."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "十分ですが、彼らが言うように、それは完璧にする彼のツールではなく、アーティストです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I could cook up a storm on this 'ere thing."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの件で嵐を起こせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Culinary Station^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;料理ステーション^reset;"
+    }
+  ]
+]

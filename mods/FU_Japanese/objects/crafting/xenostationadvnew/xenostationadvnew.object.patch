@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A top of the line Quantum Xeno Lab for efficiently extracting genes from seeds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "種子から効率的に遺伝子を抽出するための、量子 異種生物 ラボのラインのトップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Advanced Xenolab^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;高度な異種生物ラボ^reset;"
+    }
+  ]
+]

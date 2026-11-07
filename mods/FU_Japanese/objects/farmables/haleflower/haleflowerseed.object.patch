@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For a plant, it stores an astounding amount of energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物にとって、それは驚くべき量のエネルギーを貯蔵します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Haleflower Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘールフラワー種子"
+    }
+  ]
+]

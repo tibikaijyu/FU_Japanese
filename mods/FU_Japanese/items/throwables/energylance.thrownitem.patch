@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful thrown lance pulsing with energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーで脈打つ力強いスローランス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Power Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パワーランス"
+    }
+  ]
+]

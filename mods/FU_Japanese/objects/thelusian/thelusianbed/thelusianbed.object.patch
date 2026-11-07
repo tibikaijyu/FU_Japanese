@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Chitinous and hard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キチン質で硬い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンベッド"
+    }
+  ]
+]

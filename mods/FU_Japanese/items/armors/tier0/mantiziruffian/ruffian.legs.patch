@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just enough cloth to keep modest, just enough sandal to kick teeth in. Gives +^green;5^reset;% Damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最低限の肌を隠す布と、歯を蹴り飛ばすには十分なサンダル。ダメージ+^green;5^reset;%。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ruffian Sandals"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラフィアンサンダル"
+    }
+  ]
+]

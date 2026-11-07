@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Organize your farm gear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "農具を整理しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Farm Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "農園"
+    }
+  ]
+]

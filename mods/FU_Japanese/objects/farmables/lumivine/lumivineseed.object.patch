@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The fortitude of these leaves is, frankly, incredible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの葉の力強さは、率直に言って信じられないほどです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lumivine Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルミジン種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your money: kept in easily busted wooden containers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのお金:簡単にお尻の木製容器に保管。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金蔵"
+    }
+  ]
+]

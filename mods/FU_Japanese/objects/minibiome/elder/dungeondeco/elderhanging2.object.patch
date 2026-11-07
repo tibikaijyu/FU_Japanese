@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What the hell is this thing?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは一体何なの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Odd formation^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 奇形 ^reset;"
+    }
+  ]
+]

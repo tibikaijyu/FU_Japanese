@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nightar obsidian bed. Not built for comfort."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黒曜石の夜のベッド。 快適さのために作られていない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石床"
+    }
+  ]
+]

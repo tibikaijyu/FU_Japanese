@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from finely-honed amber."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "磨き上げられたアンバーから作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Amber Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンバーブレード"
+    }
+  ]
+]

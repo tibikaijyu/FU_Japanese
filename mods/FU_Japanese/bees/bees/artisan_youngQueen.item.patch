@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Artisan Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "職人の若い女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Artisan Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若き職人の女王"
+    }
+  ]
+]

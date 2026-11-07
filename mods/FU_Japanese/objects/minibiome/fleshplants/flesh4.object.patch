@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fleshy Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フレシー植物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshy Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレシー植物"
+    }
+  ]
+]

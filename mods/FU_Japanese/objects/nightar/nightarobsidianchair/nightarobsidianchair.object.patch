@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Nightar chair made of obsidian. Anti-comfort."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黒曜石で作られたナイトチェア。 アンチコンフォート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Obsidian Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアール黒曜石の椅子"
+    }
+  ]
+]

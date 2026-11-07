@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasteel roofing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鉄製の屋根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Roofing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスティール屋根"
+    }
+  ]
+]

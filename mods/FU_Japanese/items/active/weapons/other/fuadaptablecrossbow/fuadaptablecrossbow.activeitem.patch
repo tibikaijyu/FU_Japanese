@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "If you can make it better, do so."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より良くできるならそうしなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Adaptable Crossbow DX"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "適応型クロスボウDX"
+    }
+  ]
+]

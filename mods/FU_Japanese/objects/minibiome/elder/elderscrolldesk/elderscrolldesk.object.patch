@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A great place to sit down and uncover the blasphemous truths of the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "座り、宇宙の至福の真実を明らかにするのに最適な場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Esoteric Research"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "密教研究"
+    }
+  ]
+]

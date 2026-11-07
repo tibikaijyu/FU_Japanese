@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cosmic power in slim, dangerous styling.\n^cyan;Inflicts Minor Vulnerability^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スリムで危険なスタイリングの宇宙力。\n^cyan;マイナーな脆弱性に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテラピエ"
+    }
+  ]
+]

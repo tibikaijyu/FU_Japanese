@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generate a Regen Field ^green;[F]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "再生 Field ^green;[F] ^reset; を生成する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Healing Zone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ヒーリングゾーン"
+    }
+  ]
+]

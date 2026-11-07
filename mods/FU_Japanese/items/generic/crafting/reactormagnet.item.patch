@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A key part of most reactors, keeping energy contained and stored."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどの原子炉の重要な部分で、エネルギーを格納および貯蔵します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reactormagnet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "反応器磁石"
+    }
+  ]
+]

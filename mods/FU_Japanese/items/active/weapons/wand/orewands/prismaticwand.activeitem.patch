@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sufficiently Advanced Technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高度な技術。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Crystal Barrage"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "結晶バラージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズム・ワンド"
+    }
+  ]
+]

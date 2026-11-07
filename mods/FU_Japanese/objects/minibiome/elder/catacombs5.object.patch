@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I wonder what sort of things lived here?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どんなものがここに住んでいたのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

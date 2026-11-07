@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A old fashioned furnace for tempering tools."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "焼戻し工具用の昔ながらの炉。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Ye olde fashioned smelting."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  昔ながらの製錬です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  Medieval Furnace"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  中世炉"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Furnace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世炉"
+    }
+  ]
+]

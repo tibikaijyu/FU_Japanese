@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged from stellar violium particulates and carbon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星のバイオリウム粒子と炭素から鍛造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Violium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴィオリウム長刀"
+    }
+  ]
+]

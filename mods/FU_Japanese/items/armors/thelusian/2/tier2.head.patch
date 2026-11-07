@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A common choice of Thelusian protection.\n+^green;5^reset;% Ice Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テルシアの保護の一般的な選択。\n+^green;5^reset;% 氷抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルム"
+    }
+  ]
+]

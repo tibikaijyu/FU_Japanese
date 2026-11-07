@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gargantuan ship hatch is made of some sort of bulletproof material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この巨大な船のハッチは、ある種の防弾素材で作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハッチ"
+    }
+  ]
+]

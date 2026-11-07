@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavily plated. Hard to kill. Aggressive if stared at."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重板。 殺すのが難しい。 見つめれば攻撃的だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wilt Crab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヤシガニ"
+    }
+  ]
+]

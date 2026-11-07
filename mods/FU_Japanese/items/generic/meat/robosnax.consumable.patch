@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specially formulated Robo-Food. ^yellow;Type: Robot Food^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特製ロボフード。 ^yellow;タイプ:ロボットフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Robo-Snax"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロボスナックス"
+    }
+  ]
+]

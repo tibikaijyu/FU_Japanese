@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;25^reset;% Shield Regen/Shield Stamina^reset;, +^green;20^reset;% Shield Bash\n^yellow;^reset; Mace: Damage x^green;1.15^reset;\n^yellow;^reset; Shield: +^green;25^reset;% Knockback Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;25^reset;% シールドレゲン・シールドスタミナ^reset;, +^green;20^reset;% シールドバッシュ\n^yellow;^reset;メイス:損傷x ^green;1.15^reset;\n^yellow;^reset;シールド:+^green;25^reset;%ノックバック抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Guardian Visor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガーディアン・バイザー"
+    }
+  ]
+]

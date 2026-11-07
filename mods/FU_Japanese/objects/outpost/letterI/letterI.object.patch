@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter I."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字「I」。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "文字「I」"
+    }
+  ]
+]

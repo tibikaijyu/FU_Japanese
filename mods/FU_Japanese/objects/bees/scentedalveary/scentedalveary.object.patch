@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large bee breeding apiary. It's much faster than the smaller apiary, and holds 2 frames. Won't spawn bees."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大型養蜂場。 小さなapiaryよりもずっと速く、2frameを保持します。 ミツバチを産まない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Giant Scented Apiary^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; 巨大濃縮アピアリー ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Harvest honey!"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ハチミツを収穫!"
+    }
+  ]
+]

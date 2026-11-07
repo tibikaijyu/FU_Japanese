@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stone of solid darkness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真っ暗闇の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Darkstone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗黒石"
+    }
+  ]
+]

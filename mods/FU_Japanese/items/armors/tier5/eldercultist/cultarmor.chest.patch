@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;0.8^reset;% Health Regen\n^yellow;^reset; Wand/Staff: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Shadow Taint, Darkness, Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;0.8^reset;% 健康レーゲン\n^yellow;^reset;ワンド/スタッフ:損傷x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;影、暗黒、狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Robe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カルティスト・ローブ"
+    }
+  ]
+]

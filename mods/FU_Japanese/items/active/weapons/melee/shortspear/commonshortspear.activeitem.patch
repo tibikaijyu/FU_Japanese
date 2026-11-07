@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This swift melee weapon will make them bleed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この速攻兵器は彼らを出血させるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Common Shortspear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "共通短剣"
+    }
+  ]
+]

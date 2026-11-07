@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute heart engraved door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいハートが刻まれたドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Heart Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいハートドア"
+    }
+  ]
+]

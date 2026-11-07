@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "As promised, your reward. May this ^green;cash^reset; serve you well!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "約束どおり、あなたの報酬。 これ ^green;cash ^reset; がお役に立ちますように!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Powder Sifter^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;粉体シフター^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've heard of ^orange;Powder Sifters^reset; before but have never seen one in action. Build one in a ^orange;Power Station^reset; and bring it to me, and maybe I'll help you out."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange; 粉末 Sifters ^reset; は聞いたことがありますが、まだ実戦では見たことがありません。 ^orange;Power ステーション^reset; にビルドして持ってきてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Powdery Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "粉体発電"
+    }
+  ]
+]

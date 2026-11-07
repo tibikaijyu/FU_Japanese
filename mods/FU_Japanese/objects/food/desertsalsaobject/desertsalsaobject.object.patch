@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A refreshing salsa made from desert fruits."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砂漠の果実から作られた爽やかなサルサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssspicy and Sssweet."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "辛さと甘さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Satisfied. A pleasantly mixed salsa."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "満足。 心地よいミックスサルサ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now here's a REAL treat for out on the range."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "では、この範囲で実際にお得な情報です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Desert Salsa"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デザートサルサ"
+    }
+  ]
+]

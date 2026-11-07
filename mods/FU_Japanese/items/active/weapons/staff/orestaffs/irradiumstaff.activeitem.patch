@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Radioactive Portal"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "放射能ポータル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Conjures a noxious cloud of poisonous gas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有毒ガスの有害な雲を思い浮かべます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Radioactive Swarm"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "放射性雲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウム"
+    }
+  ]
+]

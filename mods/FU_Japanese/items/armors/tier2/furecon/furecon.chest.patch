@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;^orange;Set Bonuses^reset;: ^reset;\n^yellow;^reset; +^green;5^reset;% Speed\n^yellow;^reset; Assault/Sniper Rifle: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Radiation Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;^orange;ボーナス設定^reset;: ^reset;\n^yellow;^reset; +^green;5^reset;% 速さ\n^yellow;^reset;突撃/狙撃 ライフル: ダメージ x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;:放射線燃焼^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Recon Vest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レコンベスト"
+    }
+  ]
+]

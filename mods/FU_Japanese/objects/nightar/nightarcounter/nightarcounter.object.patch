@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This looks like a traditional Nightar counter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは伝統的なナイトアールカウンターのように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Counter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトカウンター"
+    }
+  ]
+]

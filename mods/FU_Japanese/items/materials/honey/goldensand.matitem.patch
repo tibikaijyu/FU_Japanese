@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A golden glittering sand. Could probably be made into golden glass!\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金色の輝く砂。 おそらく黄金のガラスにすることができます!\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssand."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Sand."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金砂"
+    }
+  ]
+]

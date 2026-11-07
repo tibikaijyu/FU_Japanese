@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, cumbersome and awesome.\n^cyan;Breaks blocks^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重い、面倒で素晴らしい。\n^cyan;ブロックを破る^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Striker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンストライカー"
+    }
+  ]
+]

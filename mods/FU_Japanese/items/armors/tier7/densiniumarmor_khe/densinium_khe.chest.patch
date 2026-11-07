@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset; (^orange;Part 2^reset;):\n^yellow;^reset; Densinium/Rifle/Chainblades: Damage x^green;1.25^reset;, +^green;3^reset;% Crit Chance\n^yellow;^reset; Fall Damage x^green;0.25^reset;. +^green;75^reset;% Knockback Resist. +^green;15^reset;% Speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange; ボーナス^reset;(^orange;Part2^reset;) を設定します。\n^yellow;^reset; デシニウム/ライフル/チェーンブレード:損傷x^green;1.25^reset;, +^green;3^reset;% クリティカルチャンス\n^yellow;^reset; 損傷x ^green;0.25^reset; 。 +^green;75^reset;% ノックバック抵抗。 +^green;15^reset;% スピード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium EVA Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムEVA装甲"
+    }
+  ]
+]

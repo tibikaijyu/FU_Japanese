@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Gravity Siphon (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "重力サイフォン(R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Primary^reset;: Foreground, ^orange;Secondary^reset;: Background."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;一次^reset;前景 ^orange;二次^reset;背景。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Gravity Siphon (F)"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "重力サイフォン(F)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Matter Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタッフ"
+    }
+  ]
+]

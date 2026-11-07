@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune: Extreme Radiation^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫:極限放射線^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutavisk Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムタヴィスク マスク"
+    }
+  ]
+]

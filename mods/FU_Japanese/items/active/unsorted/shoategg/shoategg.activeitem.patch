@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unwrap it to start hatching your own Shoat!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "解き放てば、自分の靴を脱いでみましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nicely packed Shoat egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "素敵なシュートエッグ。"
+    }
+  ]
+]

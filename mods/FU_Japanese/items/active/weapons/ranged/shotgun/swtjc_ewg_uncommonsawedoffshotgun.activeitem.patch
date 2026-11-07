@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A compact shotgun that sacrifices accuracy for the ability to be easily-concealable and held in one hand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "簡単に隠して片手に持つための精度を犠牲にするコンパクトなショットガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Short-Barreled Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "珍しい短銃"
+    }
+  ]
+]

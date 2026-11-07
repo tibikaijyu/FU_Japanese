@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honey crystal chest. Perhaps the chest itself is the treasure?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハニークリスタルの胸。 胸そのものが宝なのかも?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Crystal Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークリスタル胸部"
+    }
+  ]
+]

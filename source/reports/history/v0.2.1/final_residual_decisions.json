@@ -1,0 +1,1130 @@
+{
+  "catalog_fields": {
+    "json": 69039,
+    "append": 1249,
+    "embedded": 44,
+    "lua": 694
+  },
+  "all_catalog_fields": 71026,
+  "whole_fields_preserved_with_decision": 109,
+  "preserved_unique_sources": 68,
+  "preserved_by_decision": {
+    "fictional_language": 24,
+    "catalog_designation_or_abbreviation": 48,
+    "runtime_placeholder": 29,
+    "internal_selector_label": 4,
+    "chemical_or_species_formula": 3,
+    "localized_numeric_page_separator": 1
+  },
+  "unclassified_whole_fields": 0,
+  "unclassified_unique_sources": 0,
+  "missing_translation_fields": 0,
+  "structural_errors": 0,
+  "mixed_english_clause_unique_sources": 0,
+  "limits": [
+    "This manifest covers the selected catalog fields only.",
+    "The English-clause scan is a heuristic; terminology or transliterated names can still occur in Japanese text.",
+    "It is not a semantic review of every machine translation or an in-game runtime test."
+  ],
+  "preserved": [
+    {
+      "id": "ff3f06bb0c97b7b74aa1",
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/0",
+      "source": "Ch' ah 'fhalma nogog ehye nnngoka syha'h hlirgh zhro hupadgh, fhtagn nglloig athg ehye uln hai y'hah nglui f'Tsathoggua navulgtm, syha'h sll'ha Azathoth ron shogg ee ehye athg. Ph'nw geb ah syha'h nw Nyarlathotep hupadgh n'gha, ah ph'fm'latgh s'uhn r'luh nilgh'ri nog naflgoka nggoka, nog",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Ch' ah 'fhalma nogog ehye nnngoka syha'h hlirgh zhro hupadgh, fhtagn nglloig athg ehye uln hai y'hah nglui f'Tsathoggua navulgtm, syha'h sll'ha Azathoth ron shogg ee ehye athg. Ph'nw geb ah syha'h nw Nyarlathotep hupadgh n'gha, ah ph'fm'latgh s'uhn r'luh nilgh'ri nog naflgoka nggoka, nog",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "d844ff95465034bed65c",
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/1",
+      "source": "orr'e y'hah throdnyth mg nggoka. Kadishtu orr'e nw Azathoth 'ai h'gof'nn zhro nglui shtunggli, n'gha Nyarlathotep uh'e f'ee Dagon nilgh'ri vulgtm Yoggoth geb nw ch' sll'ha throd li'hee. Shagg li'hee ooboshu R'lyeh gotha Shub-Niggurath sgn'wahl Chaugnar Faugn nog uh'e, gokayar gof'nn ehyeog",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "orr'e y'hah throdnyth mg nggoka. Kadishtu orr'e nw Azathoth 'ai h'gof'nn zhro nglui shtunggli, n'gha Nyarlathotep uh'e f'ee Dagon nilgh'ri vulgtm Yoggoth geb nw ch' sll'ha throd li'hee. Shagg li'hee ooboshu R'lyeh gotha Shub-Niggurath sgn'wahl Chaugnar Faugn nog uh'e, gokayar gof'nn ehyeog",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "6f085e74798bbdedbd0e",
+      "asset": "codex/elder/blackbook1.codex",
+      "path": "/contentPages/2",
+      "source": "ehye Tsathoggua geb f'bug ngk'yarnak uaaah ngtharanak, nnnzhro n'gha gof'nn hriiyar f'llll cllll nnnstell'bsna goka.",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "ehye Tsathoggua geb f'bug ngk'yarnak uaaah ngtharanak, nnnzhro n'gha gof'nn hriiyar f'llll cllll nnnstell'bsna goka.",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "5d4d372b851debc037a7",
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/0",
+      "source": "S'uhn nglui ph'bug ee 'bthnk ebunma nw shogg naflshagg nasll'ha, shoggoth grah'nog nabug gof'nn Nyarlathotep ebunma mnahn'. Y'hah nnnsyha'h ah Chaugnar Faugn sll'ha ph'vulgtlagln uh'e vulgtm 'ai Dagon, h'ftaghu sll'ha Tsathoggua",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "S'uhn nglui ph'bug ee 'bthnk ebunma nw shogg naflshagg nasll'ha, shoggoth grah'nog nabug gof'nn Nyarlathotep ebunma mnahn'. Y'hah nnnsyha'h ah Chaugnar Faugn sll'ha ph'vulgtlagln uh'e vulgtm 'ai Dagon, h'ftaghu sll'ha Tsathoggua",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "39c403af84503e0ccebb",
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/1",
+      "source": "hai Shub-Niggurath s'uhn shogg cChaugnar Faugn f'hlirgh, ngluiyar 'ai shtunggli geb y-s'uhn nw r'luh Cthulhu. H'gnaiih wgah'n ph'shagg Azathoth vulgtlagln naflsyha'h nguln nog zhro, 'bthnknyth R'lyeh lloig shugg shtunggli goka uln kn'a, naflFaugn",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "hai Shub-Niggurath s'uhn shogg cChaugnar Faugn f'hlirgh, ngluiyar 'ai shtunggli geb y-s'uhn nw r'luh Cthulhu. H'gnaiih wgah'n ph'shagg Azathoth vulgtlagln naflsyha'h nguln nog zhro, 'bthnknyth R'lyeh lloig shugg shtunggli goka uln kn'a, naflFaugn",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "f57604d9b1eba2cce50c",
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/2",
+      "source": "nw nilgh'ri ngstell'bsna Cthulhu lw'nafhog ya Stell'bsnayar hafh'drn ngy'hah 'bthnk Tsathoggua 'bthnk kadishtu R'lyeh, shtungglinyth mnahn' ilyaa gnaiih R'lyeh nnnShub-Niggurath 'ai ngDagon, k'yarnak Tsathoggua gnaiih Yoggoth",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "nw nilgh'ri ngstell'bsna Cthulhu lw'nafhog ya Stell'bsnayar hafh'drn ngy'hah 'bthnk Tsathoggua 'bthnk kadishtu R'lyeh, shtungglinyth mnahn' ilyaa gnaiih R'lyeh nnnShub-Niggurath 'ai ngDagon, k'yarnak Tsathoggua gnaiih Yoggoth",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "fdfdec0583ef8b46d7b1",
+      "asset": "codex/elder/blackbook2.codex",
+      "path": "/contentPages/3",
+      "source": "Y-ep shogg lloigor ebunma n'gha orr'e naflkn'a ftaghu naflhlirgh, cDagon nilgh'ri ep mnahn' ooboshu gnaiih mg f'grah'n",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Y-ep shogg lloigor ebunma n'gha orr'e naflkn'a ftaghu naflhlirgh, cDagon nilgh'ri ep mnahn' ooboshu gnaiih mg f'grah'n",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "f6ff43978850ceaf0cdb",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/merchantEnd/default/default/1",
+      "source": "Ymg' ah l' gotha mggokai?",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Ymg' ah l' gotha mggokai?",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "66678b38a0950d9beb10",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/merchantEnd/default/default/4",
+      "source": "Nogephaii ph'nglui yar!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Nogephaii ph'nglui yar!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "c73baa02b275661ae69f",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/merchantStart/default/default/2",
+      "source": "Hup mggokai ya ng c' ahor ah'lw'nafh syha'h!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Hup mggokai ya ng c' ahor ah'lw'nafh syha'h!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "cb724c544a6ce5519881",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/merchantStart/default/default/3",
+      "source": "Ph' ya mgepog r'luhhor uaaahll.",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Ph' ya mgepog r'luhhor uaaahll.",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "f617e544ad6dd1c73848",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/rent/default/default/0",
+      "source": "Throdog r'luhhor mgr'luh vulgtmnah vulgtmor!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Throdog r'luhhor mgr'luh vulgtmnah vulgtmor!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "fa6606ee4ca55e126d7a",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/welcome/default/default/1",
+      "source": "Ymg' ah l' gotha mggokai?",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Ymg' ah l' gotha mggokai?",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "1417042f147c952449aa",
+      "asset": "dialog/eldermerchant.config",
+      "path": "/welcome/default/default/2",
+      "source": "Mgr'luh hup mgepuaaah n'gha!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Mgr'luh hup mgepuaaah n'gha!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "7f8e53ac5464e8052e69",
+      "asset": "interface/scripted/fm_musicplayer/musiclist.config",
+      "path": "/FU/61/name",
+      "source": "OTR",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "OTR",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "c9ac232186cb82da2e50",
+      "asset": "interface/scripted/spaceStation/spaceStationData.config",
+      "path": "/quests/dif2/2/location",
+      "source": "SpQ12-x34H4",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "SpQ12-x34H4",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "502c387f22ff05af04ee",
+      "asset": "interface/shipnameplate/fu_shipnameplate.config",
+      "path": "/gui/lblDate/value",
+      "source": "%stardate%",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "%stardate%",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "f0cd93ba3739475726eb",
+      "asset": "interface/windowconfig/fushadowstore.config",
+      "path": "/paneLayout/lblTitle/value",
+      "source": " Zxssxs..sxxZyyzx",
+      "catalog": "json",
+      "method": "manual",
+      "translation": " Zxssxs..sxxZyyzx",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "88965e371bc0d7a9c0e0",
+      "asset": "monsters/selectors/burrower_depth_selector/burrower_depth_selector.monstertype",
+      "path": "/shortdescription",
+      "source": "burrower_depth_selector",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "burrower_depth_selector",
+      "decision": "internal_selector_label"
+    },
+    {
+      "id": "69fc1f5003d32bbf1725",
+      "asset": "monsters/selectors/burrower_selector/burrower_selector.monstertype",
+      "path": "/shortdescription",
+      "source": "burrower_selector",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "burrower_selector",
+      "decision": "internal_selector_label"
+    },
+    {
+      "id": "407e68f76c0a2ed93303",
+      "asset": "monsters/selectors/masteroid_selector/masteroid_selector.monstertype",
+      "path": "/shortdescription",
+      "source": "masteroid_selector",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "masteroid_selector",
+      "decision": "internal_selector_label"
+    },
+    {
+      "id": "3cf9812ff77266562a32",
+      "asset": "monsters/selectors/soft_burrower_selector/soft_burrower_selector.monstertype",
+      "path": "/shortdescription",
+      "source": "soft_burrower_selector",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "soft_burrower_selector",
+      "decision": "internal_selector_label"
+    },
+    {
+      "id": "4d6e2b8bbe125d14b65f",
+      "asset": "npcs/scienceoutpost/fuoutpostcivilian.npctype",
+      "path": "/scriptConfig/dialog/converse/thelusian/default/0",
+      "source": "xk-ch-ch kth!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "xk-ch-ch kth!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "0acb384f140bd745d7ac",
+      "asset": "npcs/scienceoutpost/fuoutpostcivilian2.npctype",
+      "path": "/scriptConfig/dialog/converse/thelusian/default/0",
+      "source": "xk-ch-ch kth!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "xk-ch-ch kth!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "04f9ee5830aa72b173a8",
+      "asset": "npcs/scienceoutpost/fuoutpostcivilian3.npctype",
+      "path": "/scriptConfig/dialog/converse/thelusian/default/0",
+      "source": "^yellow;xk-ch-ch kth^reset;!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^yellow;xk-ch-ch kth^reset;!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "6652e06f6a4a9e1f3909",
+      "asset": "objects/painting/artwork/elderpainting1.object",
+      "path": "/description",
+      "source": " Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
+      "catalog": "json",
+      "method": "manual",
+      "translation": " Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "a1d4a675d7271f1ba57d",
+      "asset": "objects/protectorate/objects/protectorateincap4/protectorateincap4.object",
+      "path": "/thelusianDescription",
+      "source": "Ixix negat.",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Ixix negat.",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "762c1beadb6fde91ac04",
+      "asset": "particles/damagenumbers/aetherdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "294f3433097147dc2325",
+      "asset": "particles/damagenumbers/bioweapondamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "7f2e4c5106c8f62efcc9",
+      "asset": "particles/damagenumbers/bioweapondamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "840b744f057266731b29",
+      "asset": "particles/damagenumbers/bioweapondamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "69368458b2c3d03482fb",
+      "asset": "particles/damagenumbers/corrosivedamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "c02652af9d456319a947",
+      "asset": "particles/damagenumbers/cosmicdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "17cf6ccf543049ed3498",
+      "asset": "particles/damagenumbers/cosmicdamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "ff880a0608c8bc7f7c9b",
+      "asset": "particles/damagenumbers/cosmicdamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "684d76202594b63abd01",
+      "asset": "particles/damagenumbers/hellfiredamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "be342f96d936eef5b4d7",
+      "asset": "particles/damagenumbers/hellfiredamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "b0c8645de87b20e44cbf",
+      "asset": "particles/damagenumbers/hellfiredamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "143b697eec943bec2982",
+      "asset": "particles/damagenumbers/hoarfrostdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "1c316b6da50e9e066258",
+      "asset": "particles/damagenumbers/hoarfrostdamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "518ce8c55fc6498c1feb",
+      "asset": "particles/damagenumbers/hoarfrostdamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "8f9bd830c40bf16df2b9",
+      "asset": "particles/damagenumbers/meowdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "fffdd44091e7b43b9d00",
+      "asset": "particles/damagenumbers/meowdamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "ae347172a0c4b838f288",
+      "asset": "particles/damagenumbers/meowdamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "bf942add9ce074a4927f",
+      "asset": "particles/damagenumbers/radioactivedamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "8c04d05f214f9918212c",
+      "asset": "particles/damagenumbers/radioactivedamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "8d54ad52bdb4e4dffa8d",
+      "asset": "particles/damagenumbers/radioactivedamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "73f19a2564867aa351b8",
+      "asset": "particles/damagenumbers/shadowdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "c8b5b0b9a8fe4f87ad0f",
+      "asset": "particles/damagenumbers/shadowdamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "d85b093ca378efb37539",
+      "asset": "particles/damagenumbers/shadowdamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "32da9ad011887138b9c2",
+      "asset": "particles/damagenumbers/silverdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "1b026a7efc2471c20a98",
+      "asset": "particles/damagenumbers/silverdamagenumberstrong.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "0688b2bb7d47b1fa9fc8",
+      "asset": "particles/damagenumbers/silverdamagenumberweak.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "038f29268afd8d3ce8db",
+      "asset": "particles/freedomdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^white;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^white;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "1d0f57fea6d12125345c",
+      "asset": "particles/frozenburningdamagenumber.particle",
+      "path": "/definition/text",
+      "source": "^shadow;$dmg$",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "^shadow;$dmg$",
+      "decision": "runtime_placeholder"
+    },
+    {
+      "id": "bbadd69087fc89f087ab",
+      "asset": "radiomessages/fu_elder.radiomessages",
+      "path": "/shoggothmission18/text",
+      "source": "...ahf'- fm'latgh geb ehye chtenff k'yarnak...",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "...ahf'- fm'latgh geb ehye chtenff k'yarnak...",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "729aa5334112b9a20e6f",
+      "asset": "radiomessages/fu_elder.radiomessages",
+      "path": "/shoggothmission19/text",
+      "source": "...kn'a lw'nafh nilgh'ri ooboshu phlegeth shtunggli...",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "...kn'a lw'nafh nilgh'ri ooboshu phlegeth shtunggli...",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "78c7152500e5dc2a9a9b",
+      "asset": "radiomessages/fu_elder.radiomessages",
+      "path": "/shoggothmission20/text",
+      "source": "ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "4e48985e3254fef42e85",
+      "asset": "radiomessages/fu_elder.radiomessages",
+      "path": "/shoggothmission21/text",
+      "source": "Lagash ni'mofghek Shoggoth! IA! IA! IA!",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "Lagash ni'mofghek Shoggoth! IA! IA! IA!",
+      "decision": "fictional_language"
+    },
+    {
+      "id": "53f4afad327fd54fb6cc",
+      "asset": "species/fuanodyne.species",
+      "path": "/charCreationTooltip/subTitle",
+      "source": "CH4",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "CH4",
+      "decision": "chemical_or_species_formula"
+    },
+    {
+      "id": "ec56a45eef250ac4fdec",
+      "asset": "species/fupeglaci.species",
+      "path": "/charCreationTooltip/subTitle",
+      "source": "CH4",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "CH4",
+      "decision": "chemical_or_species_formula"
+    },
+    {
+      "id": "ec4f7b25871b9634a205",
+      "asset": "species/radien.species",
+      "path": "/charCreationTooltip/subTitle",
+      "source": "CH9",
+      "catalog": "json",
+      "method": "manual",
+      "translation": "CH9",
+      "decision": "chemical_or_species_formula"
+    },
+    {
+      "id": "01ba2055a87f738531f9",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "BV-2",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BV-2",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "1118df5bfae331475863",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "778VV",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "778VV",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "160422299e91e238b618",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "CC-4",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "CC-4",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "16690ca85f30ca9fc93c",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "HCC",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "HCC",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "1ddc2d9858fdde230a25",
+      "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "21365c9d07e2d306139b",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "66C-ZZ4",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "66C-ZZ4",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "2d5c7c0b861d4ca43872",
+      "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "3998f839307cf96c702b",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "29-TKN",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "29-TKN",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "39f8fae014abdaec42ac",
+      "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "3ae45358445d3ad3f121",
+      "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "3fa7890b3295a5402dbb",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "3PL0",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "3PL0",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "44817a060f5873d9c8ed",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "VV5",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "VV5",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "482e93031b159522dc0b",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "CY",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "CY",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "487856c3a96383f4ece3",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "KX994",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "KX994",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "4c31d8e38f128a7d51d1",
+      "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "584230d54048f5d35ea5",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "DA-7JU",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "DA-7JU",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "67c35c9f97b3b0e42a17",
+      "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "6d91f4dc301657675e5c",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "TR33",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "TR33",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "7185ddf2c1dbe825e8f8",
+      "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "7996257cb049e66c9cfd",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "VV-2",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "VV-2",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "7d03efea0c44383883d0",
+      "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "7f8986136084d288c3c5",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "34RT",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "34RT",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "85dd49895c60106bcd7f",
+      "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "8aa92370014cf6789a8e",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "CT",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "CT",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "9784f98626ad6be88a3e",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "55TR",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "55TR",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "99f4f8ebfce95b8e7b0c",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "BCA",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BCA",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "9e1ad2d78af95addf780",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "CYT",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "CYT",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "a24f3bcbde7bc558baf3",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "LV67874",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "LV67874",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "a2a9ce3d2977ba9da30b",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "KL-994",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "KL-994",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "a8d1db8df8eb58a86b40",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "NX6",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "NX6",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "ad791cbb79625c313346",
+      "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "b2ef33d8e1a0998fa5f5",
+      "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "b7b99a8311f58913846d",
+      "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "ba5b83b1b9419f1ecd78",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "VU",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "VU",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "bad61d43b8482bda3426",
+      "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "BAE ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BAE ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "be690327f9e694c3bd06",
+      "asset": "celestial/names.config",
+      "path": "/systemNames/-/1",
+      "source": "FU",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "FU",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "c29d8acbde5ae8b8dcff",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "274AA",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "274AA",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "c84fbb7676b641bc3d3c",
+      "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+      "path": "/nameGen/1/1/-",
+      "source": "AKS ",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "AKS ",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "cd082e924139be1684f6",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "TY7",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "TY7",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "d0865330363c830c6741",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "LV243",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "LV243",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "d26a23dd8f3daefae8e1",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "5RR4",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "5RR4",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "d8f0b7f2e68fed3ef3bb",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "BX-1",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "BX-1",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "e2567d2f9067c6b8e3f6",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "8GGT",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "8GGT",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "e271e74d7b3ef358df64",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "XXC",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "XXC",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "fa667a7055eeb44b3f46",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "XC-6",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "XC-6",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "fd5a1c6164a3df6c53ef",
+      "asset": "celestial/names.config",
+      "path": "/systemSuffixNames/-/1",
+      "source": "0988YYT",
+      "catalog": "append",
+      "method": "manual",
+      "translation": "0988YYT",
+      "decision": "catalog_designation_or_abbreviation"
+    },
+    {
+      "id": "5ef2b034f283afa9a8b4",
+      "asset": "interface/scripted/xcustomcodex/xcodexui.lua",
+      "path": "/luaLiteral/6240",
+      "source": " of ",
+      "catalog": "lua",
+      "method": "lua_reviewed",
+      "translation": " / ",
+      "decision": "localized_numeric_page_separator"
+    }
+  ],
+  "unclassified": [],
+  "missing": [],
+  "errors": [],
+  "mixed_english_clauses": [],
+  "input_sha256": {
+    "catalog.jsonl": "6867db6f22bd91b8a151be297b2d4a475545ba3eb837b0c71c3ab73d9941011c",
+    "append_catalog.jsonl": "816e8b6124a260685eaab5ba6dae820710e0377164a45b53bdbe42a3ce8b5512",
+    "lua_catalog.jsonl": "9762d406bd6f8292d5cccd6b2541c78400f4899240abe65619fce01fa9d6490a"
+  }
+}

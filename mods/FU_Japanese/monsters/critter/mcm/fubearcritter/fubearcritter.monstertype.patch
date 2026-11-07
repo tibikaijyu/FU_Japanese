@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large omnivore found in temperate woodlands. Though normally a docile animal, it has been known to attack."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "温帯林地にある大きな雑木林。 通常、アカゲザルはアカゲザルであるが、攻撃されることが知られている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クマ"
+    }
+  ]
+]

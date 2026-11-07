@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This seems to be a hand-sized power source. Origin unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは手持ちサイズの電源のようだ。 起源不明。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;Unknown Reactor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffe50e;未知反応器^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+20% Fire Resist. Helpful on ^cyan;mildly hot^reset; planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+20% 消火レジスト。 ^cyan;やや熱い^reset;惑星に役立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooling EPP"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷却EPP"
+    }
+  ]
+]

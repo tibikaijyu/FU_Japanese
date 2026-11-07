@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made of enriched uranium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃縮ウラン製。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウラン"
+    }
+  ]
+]

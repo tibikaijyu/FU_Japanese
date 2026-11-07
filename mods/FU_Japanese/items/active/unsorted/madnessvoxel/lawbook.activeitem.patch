@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A law book that encourages committing arson."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放火を奨励する法律書。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Law and Order"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "法令・秩序"
+    }
+  ]
+]

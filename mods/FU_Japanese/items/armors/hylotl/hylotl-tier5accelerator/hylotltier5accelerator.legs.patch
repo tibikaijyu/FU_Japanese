@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Katana/Quarterstaff: Mastery +^green;22^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;カタナ/クォータースタッフ:マスター+^green;22^reset;%\n^yellow;^reset; ^cyan;免疫^reset;狂気"
+    }
+  ]
+]

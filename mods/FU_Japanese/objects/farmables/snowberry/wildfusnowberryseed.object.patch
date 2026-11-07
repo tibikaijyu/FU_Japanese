@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Resistant to snow and ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪や氷に強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snowberry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノーベリー"
+    }
+  ]
+]

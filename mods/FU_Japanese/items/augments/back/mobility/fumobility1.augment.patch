@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Mobility I"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "モビリティI"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that removes the slowing effects of mud, clay, and jungle tiles."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "泥、粘土、ジャングルタイルの減速効果を除去するEPPモジュールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mobility I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モビリティI"
+    }
+  ]
+]

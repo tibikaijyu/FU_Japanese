@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious forest honeycomb! Low grade healing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しい森のハニカム! 低グレードヒーリング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Forest Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

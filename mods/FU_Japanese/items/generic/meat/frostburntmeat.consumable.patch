@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Peglaci delicacy. An accident for everyone else.\n^green;Heal ^white;10 ^gray;(^white;2s^gray;)^reset; \n^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシ料理。 他の全員の事故。\n^green;癒し ^white;10 ^gray;(^white;2ス)^gray;)^reset; \n^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frostburnt Alien Meat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストバーント・エイリアン・ミート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What is inside of this?."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この内部は何ですか?."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙なポッド"
+    }
+  ]
+]

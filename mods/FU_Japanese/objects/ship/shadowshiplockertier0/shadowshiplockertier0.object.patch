@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Store some stuff, why don't you?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかのものを保存、なぜしませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shadowDescription",
+      "value": "Holding of things, within."
+    },
+    {
+      "op": "replace",
+      "path": "/shadowDescription",
+      "value": "物事を、内部に保持する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shiplocker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船のロッカー"
+    }
+  ]
+]

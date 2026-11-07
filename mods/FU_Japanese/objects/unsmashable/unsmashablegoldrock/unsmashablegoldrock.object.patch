@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "There appears to be gold within this fragile rock."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この砕けやすい岩の中に金があるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "If I break this rock I should be able to gather the gold ore within it."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この岩を割れば、その中に金鉱石を集めることができるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cracked rock full of gold. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金で満たされた割れた岩。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Glittery rock. Sssmash it!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "キラキラした岩。 ss を破る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This rock contains gold, and is covered in cracks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この岩には金が含まれており、亀裂で覆われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A rock full of gold! Maybe I can break it."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "金で満たされた岩! たぶん、壊せる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A swift blow to this rock would free the gold within."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この岩に一撃を掛ければ、金は解放される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A rock rich with gold. I should break it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "金で満たされた岩。 壊すべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金岩"
+    }
+  ]
+]

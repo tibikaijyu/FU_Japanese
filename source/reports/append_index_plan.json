@@ -1,0 +1,169 @@
+{
+  "reference": {
+    "game": "Starbound vanilla 1.4.x reference array layout",
+    "fu_version": "6.5.8",
+    "fu_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+    "source_url": "https://www.reddit.com/r/frackinuniverse/comments/1iaat5f",
+    "source_date": "2025-01-26 / 2025-01-27",
+    "reference_lengths": {
+      "systemNames": 587,
+      "systemSuffixNames": 42
+    },
+    "note": "Firsthand modding explanation: 587 vanilla system names, FU removes 3; 42 separate suffixes. Exact original text guards are still mandatory."
+  },
+  "celestial_source_patch_sha256": "6c3d617e9c5ac6f3ac0aee8c09dfcd50a1f6031d4c565cc48864ded4bd1e4d3d",
+  "celestial_neighbor_radius": 8,
+  "catalog_entries": 1225,
+  "strategies": {
+    "npc_status_lookup": 149,
+    "celestial_reference_neighborhood": 665,
+    "bounded_original_value_search": 411
+  },
+  "guard_probes": 110761,
+  "assets": {
+    "celestial/names.config": {
+      "catalog_entries": 665,
+      "guard_probes": 11305,
+      "limits": []
+    },
+    "items/active/weapons/ranged/assaultrifle/assaultnames.config": {
+      "catalog_entries": 30,
+      "guard_probes": 7680,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/grenadelauncher/glaunchernames.config": {
+      "catalog_entries": 37,
+      "guard_probes": 9472,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/machinepistol/mpistolnames.config": {
+      "catalog_entries": 30,
+      "guard_probes": 7680,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/pistol/pistolnames.config": {
+      "catalog_entries": 31,
+      "guard_probes": 7936,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config": {
+      "catalog_entries": 36,
+      "guard_probes": 9216,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/shotgun/shotgunnames.config": {
+      "catalog_entries": 31,
+      "guard_probes": 7936,
+      "limits": [
+        256
+      ]
+    },
+    "items/active/weapons/ranged/sniperrifle/snipernames.config": {
+      "catalog_entries": 34,
+      "guard_probes": 8704,
+      "limits": [
+        256
+      ]
+    },
+    "npcs/crew/crewmemberengineer.npctype": {
+      "catalog_entries": 2,
+      "guard_probes": 128,
+      "limits": [
+        64
+      ]
+    },
+    "npcs/crew/crewmembermechanic.npctype": {
+      "catalog_entries": 2,
+      "guard_probes": 128,
+      "limits": [
+        64
+      ]
+    },
+    "npcs/statuses.config": {
+      "catalog_entries": 149,
+      "guard_probes": 0,
+      "limits": []
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object": {
+      "catalog_entries": 4,
+      "guard_probes": 256,
+      "limits": [
+        64
+      ]
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object": {
+      "catalog_entries": 11,
+      "guard_probes": 704,
+      "limits": [
+        64
+      ]
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object": {
+      "catalog_entries": 11,
+      "guard_probes": 704,
+      "limits": [
+        64
+      ]
+    },
+    "quests/bounty/bounty.config": {
+      "catalog_entries": 59,
+      "guard_probes": 15104,
+      "limits": [
+        256
+      ]
+    },
+    "quests/bounty/gang.config": {
+      "catalog_entries": 27,
+      "guard_probes": 6912,
+      "limits": [
+        256
+      ]
+    },
+    "quests/generated/pools/buildingthemes.config": {
+      "catalog_entries": 1,
+      "guard_probes": 256,
+      "limits": [
+        256
+      ]
+    },
+    "quests/generated/pools/monsterthreats.config": {
+      "catalog_entries": 22,
+      "guard_probes": 5632,
+      "limits": [
+        256
+      ]
+    },
+    "quests/generated/pools/npcthreats.config": {
+      "catalog_entries": 16,
+      "guard_probes": 4096,
+      "limits": [
+        256
+      ]
+    },
+    "quests/generated/pools/singlemonsterthreats.config": {
+      "catalog_entries": 14,
+      "guard_probes": 3584,
+      "limits": [
+        256
+      ]
+    },
+    "quests/generated/pools/singlenpcthreats.config": {
+      "catalog_entries": 13,
+      "guard_probes": 3328,
+      "limits": [
+        256
+      ]
+    }
+  },
+  "limitations": "Reference positions and bounded searches do not cover arbitrary large preceding third-party modifications. All generated writes still require exact original-text guards."
+}

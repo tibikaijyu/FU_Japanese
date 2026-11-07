@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Teleports the user to the ^orange;Dark Pagoda Library^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nExtreme Cold\nMaddening Atmosphere"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢の世界の^orange;闇 Pagoda Library ^reset;にユーザーをテレポートします。\n^red; 環境上の危険 ^reset; :\n極寒\nマデニング大気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beacon: ^orange;Dark Library^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビーコン:^orange;ダークライブラリ^reset;"
+    }
+  ]
+]

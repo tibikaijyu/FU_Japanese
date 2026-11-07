@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Water in wells will gradually increase. When you have 100 or more, you can harvest it. It can be used in crafting, thrown to create lakes or placed in a Hydroponics Tray."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "井戸の水は、少しずつ増えていく。100以上貯まれば汲めるよ。クラフトに使ったり、投げて湖を作ったり、水耕栽培トレイに入れたりできる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A ^orange;Well^reset; is extremely important, for it provides life-giving ^orange;Water^reset; for numerous purposes. Build one at a ^orange;Foraging Table^reset;. Once it fills for a while, harvest some ^orange;Water^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;井戸^reset;はとても重要だ。さまざまな用途で命を支える^orange;水^reset;が手に入るからね。^orange;採集作業台^reset;で作ろう。しばらく貯まるのを待ってから、^orange;水^reset;を汲んでみて。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Feeling Thirsty?"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "喉が渇いた？"
+    }
+  ]
+]

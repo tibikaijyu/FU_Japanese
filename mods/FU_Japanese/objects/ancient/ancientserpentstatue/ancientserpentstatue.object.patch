@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wonderfully detailed sculpture of Ancient design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代デザインの素晴らしく詳細な彫刻。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Serpent"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代ヘビ"
+    }
+  ]
+]

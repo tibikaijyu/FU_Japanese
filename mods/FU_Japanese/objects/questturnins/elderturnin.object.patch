@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A turn-in item for a quest!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クエストで届ける品物！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Turn in the quest!"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クエストを報告しよう！"
+    }
+  ]
+]

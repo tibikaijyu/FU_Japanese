@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Purifies fuel before it reaches your ships FTL drive. Reduces fuel cost by ^green;10^reset;%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃料を精製してから、船のFTLドライブに到達します。 ^green;10^reset;% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Advanced Fuel Purifier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 燃料精製機^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weird and unique weapon guaranteed to turn heads. And remove them.\n^yellow;Boomerang-blasts, ^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙でユニークな武器は、頭を回すことが保証されています。 そして、それらを削除します。\n^yellow;ブーメラン-blasts, ^cyan;フローラン ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vashta Cutter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァシュタカッター"
+    }
+  ]
+]

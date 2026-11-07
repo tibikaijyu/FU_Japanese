@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's all sticky and warm...ew."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全てベタベタで暖かい...えっ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ecto Slime"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エクトスライム"
+    }
+  ]
+]

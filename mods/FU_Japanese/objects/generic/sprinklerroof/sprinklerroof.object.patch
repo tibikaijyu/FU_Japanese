@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An automated soil watering solution."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動化された土壌散水ソリューション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sprinkler (roof)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スプリンクラー(屋根)"
+    }
+  ]
+]

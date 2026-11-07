@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poor balance, but holds a sharp edge.\tUpgrade for lethality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バランスが悪いが、鋭いエッジを保持します。\t致命的なアップグレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/description",
+      "value": "A fine, lethal edge."
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/description",
+      "value": "良い、致命的なエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/shortdescription",
+      "value": "Honed Nightar Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/shortdescription",
+      "value": "栄誉あるナイトアーブレード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightarian Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアリアン短刀"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "The edge is superior to nearly any other."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "縁は他のどのものよりも優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Peerless Nightar Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Peerless ナイターブレード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "The finest edge possible."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "可能な限り最高のエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Legendary Nightar Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "伝説のナイトアーブレード"
+    }
+  ]
+]

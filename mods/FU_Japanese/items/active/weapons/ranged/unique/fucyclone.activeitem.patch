@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches tiny little pellets of death. Really, really fast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな小さな死のペレットを発射します。 本当に速いのです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cyclone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイクロン"
+    }
+  ]
+]

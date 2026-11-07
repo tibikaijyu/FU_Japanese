@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "We thought about using real Oculob goop.. but that would be too unsanitary."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のOculobグループを使おうと思ったのです。. でもそれは不衛生すぎるでしょう"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oculob Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オキュロブマスク"
+    }
+  ]
+]

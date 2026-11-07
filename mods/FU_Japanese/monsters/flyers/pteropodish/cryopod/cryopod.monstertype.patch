@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It compresses moisture in its pod to form a powerful cold blast. Flies erratically."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポッド内の水分を圧縮し、強力なコールドブラストを形成します。 不規則に飛ぶ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cryopod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "極足"
+    }
+  ]
+]

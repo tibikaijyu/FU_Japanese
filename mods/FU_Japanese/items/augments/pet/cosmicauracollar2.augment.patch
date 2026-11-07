@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Cosmic Aura II"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "宇宙属性オーラ II"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet gets a cosmic aura!\n^green;+40%^reset; Cosmic Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは宇宙のオーラを得る!\n^green;+40%^reset;宇宙抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aura Collar II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アウラ・コラー宇宙II"
+    }
+  ]
+]

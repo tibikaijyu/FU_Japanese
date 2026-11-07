@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Set up the lab next. Then, put some ^orange;Water^reset;, a ^green;seed^reset; and a ^green;fertilizer^reset; in the ^orange;Hydroponics Tray^reset; and wait a while for ^green;useful produce^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "次に研究室をセットアップします。 次に、^orange;Water^reset;、^green;シード^reset;、^green;肥料^reset;を^orange;水耕トレイ^reset;に入れ、^green;有用な農産物^reset;をしばらく待ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Let's build a ^orange;Hydroponics Tray^reset; next. You can build it in the ^orange;Power Station^reset; and use it to ^green;quickly grow plants^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次は^orange;水耕栽培トレイ^reset;を作ろう。^orange;電力作業台^reset;で製作でき、^green;植物を素早く育てる^reset;ことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Growing Up"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "成長"
+    }
+  ]
+]

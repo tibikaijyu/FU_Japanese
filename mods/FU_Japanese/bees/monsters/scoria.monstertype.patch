@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A scoria bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コリアミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scoria Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コリアミツバチ"
+    }
+  ]
+]

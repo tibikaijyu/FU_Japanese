@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mines blocks automatically. ^orange;You cheated to get this.^reset;\n^blue;IN^white;1^blue;: ^white;On/Off Switch\n^blue;IN^white;2^blue;: ^white;Mine Background\n^red;OUT: ^white;To Network^reset;\nWidth: ^green;128^reset;, Depth: ^green;360^reset;\nSpeed: ^green;32^reset;\nStrength: ^green;128^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブロックを自動的にマイニングします。 ^orange; これを得るために不正をしました。^reset;\n^blue;IN ^white;1^blue;: ^white;ON/OFFスイッチ\n^blue;IN ^white;2^blue;:^white;Mineの背景\n^red;OUT: ^white;ネットワークに^reset;。\n幅: ^green;128^reset;, 深さ: ^green;360^reset;\n速度:^green;32^reset;。\n強度: ^green;128^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cheaty Little Bitch Quarry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "浮気の小鳥の採石場"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into an idyllic Eden biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候をアイドル的なエデンバイオームに変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eden Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エデン・テラフォーマ"
+    }
+  ]
+]

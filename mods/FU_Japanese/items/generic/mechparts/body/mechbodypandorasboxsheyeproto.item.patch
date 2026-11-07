@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A prototype mech body, designed for Sheye pilots.\n^red;-15%^reset; Armor, ^cyan;+20%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Sheyeパイロット用に設計されたプロトタイプの機械。\n^red;-15%^reset;防具、^cyan;+20%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pandora-mk1 Mech Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンドラmk1 機械"
+    }
+  ]
+]

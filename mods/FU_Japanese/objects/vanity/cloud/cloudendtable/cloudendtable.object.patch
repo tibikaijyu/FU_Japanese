@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An end table made from clouds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雲から作られたエンドテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud End Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラウドエンドテーブル"
+    }
+  ]
+]

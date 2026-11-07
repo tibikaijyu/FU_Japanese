@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raw energy imbued within."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生エネルギーを吸収します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Poison Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "毒雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protocite Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトサイトスタッフ"
+    }
+  ]
+]

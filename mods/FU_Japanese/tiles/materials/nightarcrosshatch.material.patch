@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple lattice made of Nightarian materials"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトアリアン素材のシンプルな格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Window Lattice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間窓格子"
+    }
+  ]
+]

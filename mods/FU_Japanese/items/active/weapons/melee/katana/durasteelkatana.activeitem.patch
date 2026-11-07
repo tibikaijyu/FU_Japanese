@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weapon to rival most.\n^yellow;5 hit combo^reset;\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一番敵対する武器。\n^yellow;5 ヒットコンボ^reset;\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラスチールカタナ"
+    }
+  ]
+]

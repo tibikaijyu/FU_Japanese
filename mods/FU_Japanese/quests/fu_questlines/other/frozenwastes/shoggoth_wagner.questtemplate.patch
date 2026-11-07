@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Oh no. Wagner is...dead? Thank you...^orange;sad news is better than no news at all^reset;. Please take this for your efforts, and leave me. Now go, please. ^green;I need to be alone^reset;  for a while."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ああ、違う。 ワーグナーは死んだ? ありがとう... ^orange; 悲しいニュースは、全くニュースがないよりも良いです ^reset; 。 これをあなたの努力のために取ってください、そして私を置き去りにしてください。 さあ行って下さい。 ^green;一人になる必要があります^reset;  しばらくの間"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Return ^orange;Wagner's ID^reset; to the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "復帰 ^orange;ワグナーのID^reset; へ ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've no idea how to reach my friend. ^orange;All of the teleporters^reset; leading to Delta Freya II appear to be down, and I can't get word to them. If you find a way there, could you please search for my pal Wagner?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "友人のところへ行く方法が分からないんだ。デルタ・フレイヤIIへ通じる^orange;テレポーターがすべて^reset;停止しているらしく、連絡も取れない。もし行く方法を見つけたら、友人のワーグナーを探してくれないか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Missing Friend"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "行方不明の友人"
+    }
+  ]
+]

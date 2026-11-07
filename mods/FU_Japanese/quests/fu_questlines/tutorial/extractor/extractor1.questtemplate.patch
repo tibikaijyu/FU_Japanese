@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That, my friend, is how you make ^orange;Methanol^reset; from scratch. Now let's move on to ^orange;Cobblestone^reset;! "
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これが、材料から^orange;メタノール^reset;を作る方法だよ。次は^orange;丸石^reset;を試そう！ "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the 10 ^orange;Methanol^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;メタノール^reset;を10個、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "So you now have a ^orange;Hand Mill^reset; or ^orange;Extraction Lab^reset;, but aren't sure what to do with it? It's simple, really. Go place it somewhere, and toss a bunch of ^green;logs^reset; in there. 10 should do. Create 10 ^orange;Methanol^reset; with them."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;手回し粉砕機^reset;か^orange;抽出ラボ^reset;を手に入れたけど、使い方が分からない？ 本当に簡単だよ。どこかに設置し、^green;丸太^reset;を入れてみよう。10個でいい。それを使って^orange;メタノール^reset;を10個作るんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Extractor"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出機"
+    }
+  ]
+]

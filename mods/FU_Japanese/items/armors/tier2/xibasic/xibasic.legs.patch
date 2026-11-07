@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;+15^reset;% X'i Bulb Regen Rate (45%)\n^orange;Set Bonuses^reset;:\n^yellow;^reset; Damage x^green;1.07^reset; and +^green;5^reset;% Speed\n^yellow;^reset; X'i weapons: Health x^green;1.2^reset;\n^yellow;^reset; Lush/Forest biomes: Energy x^green;1.05^reset;, +^green;5^reset;% Knockback Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;+15^reset;% シー 球根再生率 (シー 球根再生率)45%)\n^orange;ボーナス設定^reset;:\n^yellow;^reset; 被害x^green;1.07^reset; そして+^green;5^reset;% 速さ\n^yellow;^reset;シー武器:健康x^green;1.2^reset;\n^yellow;^reset; 緑豊かな地 / 森林 バイオーム: エネルギーx^green;1.05^reset;, +^green;5^reset;% ノックバック抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Armored Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン Armored の足"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Junk forged into deadly weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンクは致命的な武器を偽造した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンククリーバー"
+    }
+  ]
+]

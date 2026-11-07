@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bamboo for crafting goods."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "商品を作るための竹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bamboo Shoot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竹の発砲"
+    }
+  ]
+]

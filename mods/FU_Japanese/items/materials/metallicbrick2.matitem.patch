@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Etched metal to look like small bricks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなレンガのように見えるように金属をエッチング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Small Brick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属製小型れんが"
+    }
+  ]
+]

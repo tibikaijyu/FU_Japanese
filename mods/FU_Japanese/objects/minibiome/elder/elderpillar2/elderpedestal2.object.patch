@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient and strange, its stone almost seems to sweat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古く、奇妙に、その石はほとんど汗をかいているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Pedestal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代ペデスタル"
+    }
+  ]
+]

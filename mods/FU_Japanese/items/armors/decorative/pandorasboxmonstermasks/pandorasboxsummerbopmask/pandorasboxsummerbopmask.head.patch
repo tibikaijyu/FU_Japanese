@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "To all customers with tree nut allergies, we can assure you this batch of masks is perfectly safe!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ツリーナッツアレルギーを持つすべての顧客には、マスクのこのバッチが完全に安全であることを保証できます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Summerbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サマーボップマスク"
+    }
+  ]
+]

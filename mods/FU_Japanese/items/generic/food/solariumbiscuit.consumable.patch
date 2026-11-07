@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super-dangerous to eat if you can't roll in radiation.\n^cyan;+^white;30% ^pink;Radiation ^cyan;Res ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射線を照射できない場合は、食べるのがとても危険です。\n^cyan;+^white;30% ^pink;放射線 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Biscuit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラリウムビスケット"
+    }
+  ]
+]

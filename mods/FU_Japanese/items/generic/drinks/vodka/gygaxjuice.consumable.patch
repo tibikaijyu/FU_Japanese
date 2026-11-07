@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well...it's alcohol. For sure. It might be safe to drink.\n^red;Drunk^gray;, ^cyan;+^white;30% ^pink;Shadow ^cyan;Res ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "えーと...お酒です。 もちろんです。 飲めば安全かもしれない。\n^red;酒^gray;, ^cyan;+^white;30% ^pink;影 ^cyan;レズ ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gygaxian Shadow Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガイギャキシアンシャドウジュース"
+    }
+  ]
+]

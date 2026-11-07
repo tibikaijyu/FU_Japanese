@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "KEE KEE KEE KEE KEE KEEE! KEE ? KEE KEE!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "KEE KEE KEE KEE KEE KEEE! キー? キーキー!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Saltwater Dolphin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソルトウォータードルフィン"
+    }
+  ]
+]

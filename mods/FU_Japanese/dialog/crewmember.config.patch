@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/0",
+      "value": "I'm busy right now, let's chat later."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/0",
+      "value": "今忙しいので、後でおしゃべりしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/skath/default/0",
+      "value": "On your command, Sir."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/skath/default/0",
+      "value": "あなたの命令で、サー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/skath/default/1",
+      "value": "Sir."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/skath/default/1",
+      "value": "閣下"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/skath/default/2",
+      "value": "I will follow your command."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/skath/default/2",
+      "value": "私はあなたの命令に従います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/skath/default/3",
+      "value": "Understood."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/skath/default/3",
+      "value": "理解した。"
+    }
+  ]
+]

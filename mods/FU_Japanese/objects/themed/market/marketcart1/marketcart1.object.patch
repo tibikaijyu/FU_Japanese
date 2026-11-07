@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An empty cart."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "空のカート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This stall is empty. Perhaps a bad harvest is to blame?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この屋台は空です。 おそらく悪い収穫は責任ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cart used for transporting fresh produce. Seems this one's empty..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新鮮な食材を輸送するカート。 これは空のようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Empty cart."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "空のカート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disappointed. This cart is empty."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "がっかり。 このカートは空です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Empty carts are always kind of sad."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "空のカートはいつも悲しいものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This cart needs stock."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このカートは在庫が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "An empty cart. Nothin' to see here."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "空のカート。 ここには何も見えません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Market Cart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マーケットカート"
+    }
+  ]
+]

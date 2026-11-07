@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Knock enemies silly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "敵をノックするのはばかげている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Impact Slime Tendrils III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "衝撃スライム・テンドリルスIII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Impact Slime Tendrils ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "インパクトスライムテンドル ^yellow;^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You didn't see anything."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何も見えなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Field Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;フィールド発生器^reset;"
+    }
+  ]
+]

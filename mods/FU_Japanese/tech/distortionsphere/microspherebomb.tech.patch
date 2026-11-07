@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Microsphere ^green;[F]^reset;! ^red;[Fire]^reset; drops bombs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マイクロスフィア ^green;[F] ^reset;! ^red;[炎]^reset;は爆弾を投下します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Micro Bomb Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "マイクロ爆弾球体"
+    }
+  ]
+]

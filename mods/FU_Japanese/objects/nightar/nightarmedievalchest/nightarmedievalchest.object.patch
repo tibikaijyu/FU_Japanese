@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old wooden chest, still going strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い木製の胸部、まだ強くなっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世の胸部"
+    }
+  ]
+]

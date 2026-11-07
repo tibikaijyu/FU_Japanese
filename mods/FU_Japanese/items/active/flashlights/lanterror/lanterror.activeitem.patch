@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Said to repel moon ghosts and punish those who harm you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "月の幽霊を撃退し、あなたを傷つける者を罰すると言われました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost Lantern"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "幽霊灯籠"
+    }
+  ]
+]

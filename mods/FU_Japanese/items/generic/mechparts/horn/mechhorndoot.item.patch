@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You see, demons are temporary, but DOOT is eternal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪魔は一時的なものですが、DOOTは永遠です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Doot Horn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドットホーン"
+    }
+  ]
+]

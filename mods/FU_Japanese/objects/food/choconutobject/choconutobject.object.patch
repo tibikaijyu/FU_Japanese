@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious fusion of coconut and chocolate in donut form."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ココナッツとチョコレートをドーナツ状に融合させた美味しい料理。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likes little coconut flakes on top of donut."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはドーナツの上に小さなココナッツフレークが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. The coconut in this pastry compliments the chocolate shockingly well."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 このペストリーのココナッツは、チョコレートを驚くほどよくほめます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Odd combo. Odd, but it works."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "奇妙なコンボ。 奇妙だが、うまくいった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Choconuts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チョコナッツ"
+    }
+  ]
+]

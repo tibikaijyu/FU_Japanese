@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dreamy beige pillar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夢のようなベージュの柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Columnssss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "コラム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Beige pillars."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 ベージュの柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Dust Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルダストピラー"
+    }
+  ]
+]

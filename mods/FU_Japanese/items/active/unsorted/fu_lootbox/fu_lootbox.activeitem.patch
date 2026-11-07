@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Click a gift box to select reward category."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ギフトボックスをクリックして、報酬カテゴリを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Loot Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルートボックス"
+    }
+  ]
+]

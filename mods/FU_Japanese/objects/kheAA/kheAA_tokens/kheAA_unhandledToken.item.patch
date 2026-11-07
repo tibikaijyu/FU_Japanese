@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A silicon board. It's been programmed to help identify troublesome items for processing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シリコン基板。 処理の面倒な項目を特定するためにプログラムされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ITD Unhandled Handler"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ITDアンハンドルハンドラー"
+    }
+  ]
+]

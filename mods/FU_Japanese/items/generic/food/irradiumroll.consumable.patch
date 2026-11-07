@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not recommended for carbon-based lifeforms.\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カーボンベースの生活形態にはお勧めできません。\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Roll"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "IRロール"
+    }
+  ]
+]

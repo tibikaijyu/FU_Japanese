@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cozy, in that malign sort of way."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "居心地の良い、その悪意のある方法で。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Temple Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老寺壁"
+    }
+  ]
+]

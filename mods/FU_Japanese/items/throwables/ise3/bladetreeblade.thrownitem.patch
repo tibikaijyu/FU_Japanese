@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sharp and super-duper fun! Extract it into titanium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャープでスーパーデュパーな楽しみ! チタンに抽出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blade Tree Dart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレードツリーダート"
+    }
+  ]
+]

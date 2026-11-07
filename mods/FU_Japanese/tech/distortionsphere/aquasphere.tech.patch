@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Turn into a sphere and move quickly across liquids! ^green;[F]^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "球状に回転し、液体を素早く移動! ^green;[F]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Aqua Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "水球"
+    }
+  ]
+]

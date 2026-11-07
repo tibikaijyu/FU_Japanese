@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This dirt is frozen solid.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この汚れは固く凍っている。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

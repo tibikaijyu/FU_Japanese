@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Man, I have slaughtered a lot of creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "私はたくさんの生き物を虐殺した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I wish my damned wings worked. But nooo..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "翼がちゃんと動いてたらいいのに。 でももう...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ultimate storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "究極の貯蔵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Plantss. I iss plantss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "植物。 植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Why do I exist?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "なぜ私は存在するのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I wonder how many giraffes I could fit in here?"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ここで何羽のキリンが入れられるかな?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "There is no honor in biting another mans nose."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "別の男の鼻を噛むことに名誉はありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/ponexDescription",
+      "value": "My putrid existence is hollow and shameful."
+    },
+    {
+      "op": "replace",
+      "path": "/ponexDescription",
+      "value": "私の不器用な存在は、空虚で恥ずべきものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#e43774;Dimensional Storage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#e43774;次元記憶装置^reset;"
+    }
+  ]
+]

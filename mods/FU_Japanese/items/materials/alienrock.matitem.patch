@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This strange rock comes from an alien world.\n^green;Extractable^reset;, ^orange;Crushable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この奇妙な岩は、宇宙人から来ています。\n^green;抽出可能な^reset;、^orange;粉砕可能 ^reset;、^red;製錬可能 ^reset;。"
+    }
+  ]
+]

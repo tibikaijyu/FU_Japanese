@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fancy terminal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "派手なターミナル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Network Terminal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型ネットワーク端末"
+    }
+  ]
+]

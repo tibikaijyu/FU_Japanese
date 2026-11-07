@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; -^green;20^reset;% Hunger Drain Rate\n^yellow;^reset; +^green;8^reset;% Speed, Jump. +^green;0.5^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Shadow Taint, Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; -^green;20^reset;% 飢餓ドレインレート\n^yellow;^reset; +^green;8^reset;% ジャンプ速度。 +^green;0.5^reset;%クリティカル チャンス\n^yellow;^reset; ^cyan;免疫^reset;影影、狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Azun Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アズン胸部"
+    }
+  ]
+]

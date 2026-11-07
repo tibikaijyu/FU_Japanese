@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "^red;-^reset;Research"
+    },
+    {
+      "op": "replace",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "^red; - ^reset; 研究"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A freezing and dangerous edge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍った危険なエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツルツル"
+    }
+  ]
+]

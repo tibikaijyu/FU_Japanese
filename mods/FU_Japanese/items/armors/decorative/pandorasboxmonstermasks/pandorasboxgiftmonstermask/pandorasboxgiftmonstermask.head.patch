@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You can look like you're wrapped up for the holidays with this!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これで休暇に包まれているように見えます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gift Monster Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ギフトモンスターマスク"
+    }
+  ]
+]

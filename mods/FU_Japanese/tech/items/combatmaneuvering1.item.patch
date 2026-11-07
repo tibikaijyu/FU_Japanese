@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Short-ranged double-tap dodge. Increases Shield Bash chance and Protection.\n^green;It's safe to sell this item, you won't lose the tech.^reset;\n^yellow;In multiplayer:^reset; giving this item to another player will teach them this tech."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "短距離ダブルタップダッジ。 シールドバッシュのチャンスと保護を増やします。\n^green; このアイテムを販売することは安全です、あなたは技術を失うことはありません。^reset;\n^yellow; マルチプレイヤーで: ^reset; このアイテムを他のプレイヤーに渡すと、この技術を教えられます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Dodge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;回避^reset;"
+    }
+  ]
+]

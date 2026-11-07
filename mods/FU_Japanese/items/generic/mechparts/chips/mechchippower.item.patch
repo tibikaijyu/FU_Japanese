@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases mech arms power raising fuel usage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "燃料使用量を増加させるメカアームパワーを増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Overclocker Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オーバークロックモジュール"
+    }
+  ]
+]

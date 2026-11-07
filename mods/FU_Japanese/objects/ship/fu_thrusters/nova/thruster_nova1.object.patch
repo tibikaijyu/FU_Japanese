@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A space craft thruster of Novakid design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ノヴァリ設計の宇宙船スラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Thruster (Novakid)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型スラスター(ノバキド)"
+    }
+  ]
+]

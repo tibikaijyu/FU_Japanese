@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pillar style wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柱状の壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Marble Pillar Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大理石の柱ブロック"
+    }
+  ]
+]

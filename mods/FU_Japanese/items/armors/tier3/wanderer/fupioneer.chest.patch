@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;2^reset;% Crit Chance\n^yellow;^reset; Energy: Damage x^green;1.15^reset; and +^green;15^reset;% Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;2^reset;% クリティカルチャンス\n^yellow;^reset; エネルギー:損傷x^green;1.15^reset; そして+^green;15^reset;% 犯罪被害"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wanderer Chestguard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワンダラーチェスガード"
+    }
+  ]
+]

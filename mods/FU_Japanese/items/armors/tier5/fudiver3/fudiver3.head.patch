@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp 4^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Swim Boost 3^reset;\n^yellow;^reset; Ocean/Tidewater: +^green;5^reset;% Crit, Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Acid, Poisoned, Bio-Ooze, Gas, Pressure, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ4^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;水泳ブースト 3^reset;\n^yellow;^reset; 海/潮水:+^green;5^reset;% クリティカル、ダメージx^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;酸、毒、バイオオウズ、ガス、圧力、酸素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leviathan Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レヴィアサン・ヘルメット"
+    }
+  ]
+]

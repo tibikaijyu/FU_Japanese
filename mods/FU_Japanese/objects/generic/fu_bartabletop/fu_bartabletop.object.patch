@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A selection of alcohol and hamsters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アルコールとハムスターのセレクション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bar Stock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "棒鋼"
+    }
+  ]
+]

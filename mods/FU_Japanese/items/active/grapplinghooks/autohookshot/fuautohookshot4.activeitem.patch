@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You cheated to get this. You're a butthole."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "だまされてこれを手に入れた。 あなたはお尻の穴です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Launch Hookshot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Hookshotのローンチ"
+    }
+  ]
+]

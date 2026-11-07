@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar bookcase, perfect for storing your mad ramblings about physics."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物理に関するあなたの狂ったくちばしを保存するのに最適な星本棚。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "書庫"
+    }
+  ]
+]

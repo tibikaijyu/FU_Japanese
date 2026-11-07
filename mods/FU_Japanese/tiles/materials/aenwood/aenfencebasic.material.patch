@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very pretty fence, sure to keep anything out."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常にきれいなフェンスです、何かに注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty fence, lookss sstarry."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいなフェンス、星のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Entranced. A very pretty fence."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "進入。 非常にきれいなフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This fence sure is pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このフェンスは確かにきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Wood Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンウッドフェンス"
+    }
+  ]
+]

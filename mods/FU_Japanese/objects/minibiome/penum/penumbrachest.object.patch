@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chest made of Umbral Stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "傘石製の胸部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbra Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌムブラ胸部"
+    }
+  ]
+]

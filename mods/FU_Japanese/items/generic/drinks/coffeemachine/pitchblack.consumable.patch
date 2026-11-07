@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Concentrated coffee. Dense and very strong, as dark as tar but much more palatable.\n^cyan;+^white;25% ^cyan;Run ^gray;(^white;1m^gray;)\n^cyan;Extremely Caffeinated ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "集中コーヒー。 濃厚で非常に強い、タールのように暗いが、はるかにおいしい。\n^cyan;+^white;25% ^cyan;走り ^gray;(^white;1え?^gray;)\n^cyan; カフェインカフェイン化 ^gray;(^white;2m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Roast Coffee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークローストコーヒー"
+    }
+  ]
+]

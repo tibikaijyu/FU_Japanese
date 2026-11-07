@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A sign reading 'Hazard'."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "「ハザード」と書かれた看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "The sign is a warning for something."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "看板は何かの警告です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A metal sign that says 'HAZARD!'"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「ハザール!」と書かれた金属看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Whatever this sssay, Floran ignore."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、このエッセイが何であれ無視する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Reading. Hazard!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "読む。 危ない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "The sign shows concern for my safety. How thoughtful."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "その看板は私の安全への関心を示している。 なんて思慮深いことだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A sign to warn people of some avoidable nearby danger."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "避けられる近くの危険を人々に警告する兆候。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Hazard Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイニングハザードサイン"
+    }
+  ]
+]

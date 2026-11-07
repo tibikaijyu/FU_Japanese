@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your ^red;most important^reset; piece of equipment. Used for all core ^cyan;FrackinUniverse^reset; functions.\nUse to access the following features:\n^cyan;Primary^reset;: Check Status\n^yellow;Secondary^reset;: Quest Menu\n^green;Shift^reset;: Configure MM Settings"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの^red;最も重要な^reset;機器。 すべてのcore^cyan;FrackinUniverse^reset;関数に使用されます。\n以下の機能にアクセスします。\n^cyan;通常操作 ^reset;: ステータスを確認します。\n^yellow;副操作^reset;: クエストメニュー。\n^green;Shift^reset;:MM設定の設定。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Research Tablet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究用タブレット"
+    }
+  ]
+]

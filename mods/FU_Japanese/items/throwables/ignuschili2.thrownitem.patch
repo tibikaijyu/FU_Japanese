@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toss this pepper and burn your foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この唐辛子を捨てて敵を焼きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Adv. Ignus Chili Pepper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アドバイス。 イグナス・チリ・ペッパー"
+    }
+  ]
+]

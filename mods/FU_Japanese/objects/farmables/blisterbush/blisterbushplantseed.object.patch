@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bioluminescent mutant plant, with numerous applications."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生物発光変異植物で、多くの応用がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blister Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリスターポッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful and bizarre biological weapon.\n^yellow;Inflicts pus effect, morphs tiles^reset;\n^green;Multi-explosion, weird physics^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力で奇妙な生物兵器。\n^yellow;タイルを形作り^reset;\n^green;マルチ爆発、奇妙な物理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ocu Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オク大砲"
+    }
+  ]
+]

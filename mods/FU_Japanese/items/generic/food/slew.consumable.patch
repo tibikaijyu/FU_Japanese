@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A food that carnivores just love. Not for sapient ingestion. You'll get sick.\n^red;-^white;5% ^red;HP^gray;, ^red;Poisoned ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "愛だけを肉食する食べ物。 食欲をそそる摂取のためではない。 病気になるよ。\n^red;-^white;5% ^red;HP^gray;, ^red;毒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carnivore Slew"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉食動物のスキュー"
+    }
+  ]
+]

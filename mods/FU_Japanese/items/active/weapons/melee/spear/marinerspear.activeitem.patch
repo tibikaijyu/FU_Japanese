@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for murdering sea life. Well, any life, really.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海の生物を殺すのに最適です。 まあ、どんな人生でも、本当に。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mariner's Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マリナーのスピア"
+    }
+  ]
+]

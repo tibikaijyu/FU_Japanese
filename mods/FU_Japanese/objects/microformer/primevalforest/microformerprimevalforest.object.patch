@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a primeval forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を原生林に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primeval Forest Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原生林マイクロフォーマ"
+    }
+  ]
+]

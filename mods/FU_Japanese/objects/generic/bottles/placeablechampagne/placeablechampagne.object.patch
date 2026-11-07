@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brand New! Placeable Champagne!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真新しい! プレイスメント可能なシャンパン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Champagne"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレータブルシャンパン"
+    }
+  ]
+]

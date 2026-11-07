@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge fin for a Hylotl spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒュロトル宇宙船用の巨大なフィン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Huge Spaceship Fin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大な宇宙船のフィン"
+    }
+  ]
+]

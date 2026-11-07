@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Suitable for a rebel without a cause."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "原因のない反逆者に適しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elite Shorts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリートショーツ"
+    }
+  ]
+]

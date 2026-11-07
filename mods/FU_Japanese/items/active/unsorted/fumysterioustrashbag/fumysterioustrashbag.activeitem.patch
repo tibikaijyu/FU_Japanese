@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This feels both firm and squishy to the touch. What could it be?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "しっかりとした感触と、肌触りの良さが感じられます。 何ができるでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Trash Bag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "謎のゴミ袋"
+    }
+  ]
+]

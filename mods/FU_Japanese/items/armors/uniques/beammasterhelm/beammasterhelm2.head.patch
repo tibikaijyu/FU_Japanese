@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High health reserve.\n^cyan;Immune^reset;: Insanity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "健康維持率が高い。\n^cyan;無効化 ^reset;:狂気。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek-Knight Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テックナイトの兜"
+    }
+  ]
+]

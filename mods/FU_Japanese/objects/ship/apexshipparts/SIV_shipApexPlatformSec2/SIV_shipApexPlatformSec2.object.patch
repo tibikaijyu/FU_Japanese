@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Section 2 of 2 of an Apex platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス プラットフォームのセクション 2of 2。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Platform Sec2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイペックスの足場 部品2"
+    }
+  ]
+]

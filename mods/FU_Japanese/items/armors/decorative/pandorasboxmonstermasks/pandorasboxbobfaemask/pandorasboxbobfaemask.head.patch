@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Less flimsy than the real thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のものよりも軽くありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bobfae Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボブフェーマスク"
+    }
+  ]
+]

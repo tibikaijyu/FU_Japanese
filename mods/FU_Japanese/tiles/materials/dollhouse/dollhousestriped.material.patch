@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Striped..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ストライプ..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dollhouse Striped Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドールハウスストライプブロック"
+    }
+  ]
+]

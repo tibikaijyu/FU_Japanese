@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Durable metal makes for sturdy fences."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性のある金属は頑丈なフェンスを作ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tempered Iron Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼戻し鉄フェンス"
+    }
+  ]
+]

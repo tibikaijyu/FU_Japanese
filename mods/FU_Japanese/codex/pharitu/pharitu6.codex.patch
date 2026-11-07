@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "It should be noted that Highstorms are not the only thing that can refill the power into their gemstones; harsh weather on most worlds can provide the means to do so albeit at a severely reduced rate. Typically, the more dangerous the planet the more effective this is."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "ハイストームは、宝石に電力を補充できる唯一のものではないことに注意してください。ほとんどの世界で厳しい天気は、大幅に減少した速度でそうする手段を提供することができます。 通常、地球がより危険であればあるほど、より効果的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Details life as a Pharitu."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人生はファリトゥとして詳述される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Pharitu Highstorms"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ファリツ高潮"
+    }
+  ]
+]

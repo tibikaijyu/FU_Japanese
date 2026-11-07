@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Compared to the Sifter, the Rock Breaker is slower and needs more power, but it allows for much more resource extracting than the Sifter alone. Upgrade to a ^orange;Rock Crusher^reset; when you can, as those are much more efficient."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ロックブレーカーは、ふるい機より遅く、多くの電力を使う。でも、ふるい機だけの場合より、ずっと多くの素材から資源を取り出せる。もっと効率の良い^orange;ロッククラッシャー^reset;へ、できるだけ早くアップグレードしよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ^orange;Sifter^reset; is great for pulling apart loose materials, but to break up ^green;stone types^reset; like ^orange;cobblestone^reset; or ^orange;conglomerate^reset; you'll need a ^orange;Rock Breaker^reset;. Build one now at your ^orange;Electronics Center^;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ふるい機^reset;は粒状の素材を選り分けるのに便利だけど、^green;石の素材^reset;、例えば^orange;丸石^reset;や^orange;礫岩^reset;を砕くには^orange;ロックブレーカー^reset;が必要だ。^orange;電子工作台^;で作ってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Rock Breaking"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "岩石の破砕"
+    }
+  ]
+]

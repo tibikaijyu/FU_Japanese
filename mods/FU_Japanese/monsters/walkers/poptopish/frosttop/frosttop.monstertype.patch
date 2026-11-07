@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Chilly but cute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "可愛いけど可愛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frosttop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストトップ"
+    }
+  ]
+]

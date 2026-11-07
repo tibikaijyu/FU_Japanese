@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange shadowy denizen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な影の女"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Bat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウバット"
+    }
+  ]
+]

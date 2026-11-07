@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The bottom of a Snowavian."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪鳥の底。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Snowbottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鳥の雪"
+    }
+  ]
+]

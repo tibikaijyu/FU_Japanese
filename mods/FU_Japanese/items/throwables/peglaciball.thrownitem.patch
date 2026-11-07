@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A ball, in ice form. Or is it ice in ball form?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷の形をしたボール。 それとも、ボールの形が氷ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Ball"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスボール"
+    }
+  ]
+]

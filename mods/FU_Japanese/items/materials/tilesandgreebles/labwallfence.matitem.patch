@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy plasteel. Great for building."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なプラスチール。 建物に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチールフェンス"
+    }
+  ]
+]

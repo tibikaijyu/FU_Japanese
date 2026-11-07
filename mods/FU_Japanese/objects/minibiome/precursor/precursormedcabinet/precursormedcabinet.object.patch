@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unmistakable for medical storage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "医療貯蔵に間違いありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Medi-Vac"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体であるメディバック"
+    }
+  ]
+]

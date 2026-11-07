@@ -1,0 +1,595 @@
+#!/usr/bin/env python3
+"""Localize known English display terms still embedded in Japanese output.
+
+This is an auditable lexical post-edit, not a claim of full-sentence review.
+Opaque game markup, paths, URLs, backtick code and key combinations are skipped.
+The case-sensitive dictionary deliberately does not translate general English
+grammar words, unknown names, or technical abbreviations such as FTL/EPP/DPS.
+"""
+import json
+import re
+from pathlib import Path
+
+from common import PROTECTED
+
+PROJECT = Path(__file__).resolve().parents[1]
+DATA = r'''Floran	フローラン
+Florans	フローラン
+Floranss	フローラン
+Hylotl	ハイロトル
+Hyotl	ハイロトル
+Hyltol	ハイロトル
+Apex	エイペックス
+APEX	エイペックス
+Avian	アヴィアン
+Avali	アヴァリ
+Peglaci	ペグラシ
+Pharitu	ファリトゥ
+Thelusian	テルシアン
+Elduukhar	エルドゥーカー
+Eld'uukhar	エルドゥーカー
+Eld'uukar	エルドゥーカー
+Veluu'ish	ヴェルーイッシュ
+Vel'uuish	ヴェルーイッシュ
+Veluu	ヴェルー
+Juux	ジュークス
+Kirhos	キルホス
+Kirhosi	キルホス
+Skath	スカス
+Skathcodex	スカス文書
+Mantizi	マンティジ
+Fenerox	フェネロックス
+Nightar	ナイター
+Novakid	ノヴァキッド
+Novarid	ノヴァキッド
+Glitch	グリッチ
+Human	ヒューマン
+X'ians	シアン
+X'ian	シアン
+X'i	シー
+Ixoling	イグゾリング
+Akkimari	アッキマリ
+Lutrin	ルトリン
+Agarans	アガラン
+Miniknog	ミニノグ
+Kluex	クルーエクス
+Avos	アヴォス
+Protectorate	プロテクトレート
+Peacekeeper	ピースキーパー
+Big Ape	ビッグエイプ
+Erchius	エルキウス
+Letheia	レテイア
+Perks	特性
+BiomePerks	環境特性
+GeneralPerks	基本特性
+Crit Chance	クリティカル率
+CritChance	クリティカル率
+Crit Damage	クリティカルダメージ
+CritDamage	クリティカルダメージ
+Critical Chance	クリティカル率
+Critical Damage	クリティカルダメージ
+Crit	クリティカル
+Chance	確率
+Mastery	習熟度
+DaggerMastery	短剣の習熟度
+GreataxeMastery	大斧の習熟度
+Crushable	粉砕可能
+Siftable	ふるい分け可能
+Centrifugable	遠心分離可能
+Smeltable	製錬可能
+Extractable	抽出可能
+Immune	無効化
+Immunity	無効化
+Resist	耐性
+Res	耐性
+Resistance	耐性
+Defense	防御力
+Defence	防御力
+Health	体力
+Energy	エネルギー
+HP Regen	体力再生
+HP regen	体力再生
+Energy Regen	エネルギー再生
+Energy Regeneration	エネルギー再生
+Regen	再生
+regen	再生
+Regeneration	再生
+Speed	速度
+Damage	ダメージ
+Dmg	ダメージ
+Fall Damage	落下ダメージ
+Physical	物理
+Electric	電気
+Electrical	電気
+Electrified	感電
+Shock	電撃
+Fire	炎
+FIRE	炎
+Ice	氷
+ICE	氷
+Poison	毒
+Shadow	闇
+Cosmic	宇宙属性
+Cold	寒冷
+Hot	高温
+Rad-Burn	放射線熱傷
+Proto-Poison	プロト毒
+Pus	膿
+Aether	エーテル
+Glow	発光
+Thorns	反射ダメージ
+Leech	吸収
+Stun	気絶
+Burning	炎上
+Rage	激怒
+Mud Slow	泥による鈍足
+Snow Slow	雪による鈍足
+Ice Slip	氷上の滑り
+Shadow Taint	闇の汚染
+Insanity	発狂
+Radiation	放射線
+Extreme Radiation	極度の放射線
+Movement Speed	移動速度
+Run Speed	走行速度
+Mobility	機動力
+MobilityII	機動力II
+Charisma	カリスマ
+Intelligence	知性
+Max Health	最大体力
+Max Energy	最大エネルギー
+Max	最大
+Set Bonuses	セットボーナス
+Set Bonus	セットボーナス
+Set Bonus Inheritance	セットボーナスの継承
+Bonuses	ボーナス
+Bonus	ボーナス
+Biome	バイオーム
+Biomes	バイオーム
+biomes	バイオーム
+coldbiomes	寒冷バイオーム
+Coldbiomes	寒冷バイオーム
+Lush	緑豊かな地
+Forest	森林
+Mountainous	山岳
+Tundra	ツンドラ
+Primeval	原生林
+Wasteland	荒廃地
+Scorched	焦土
+Desert	砂漠
+Flesh	肉塊
+Atropus	アトロポス
+atropus	アトロポス
+Infernus	灼熱地獄
+Penumbra	半影
+TabulaRasa	タブラ・ラサ
+Tabula Rasa	タブラ・ラサ
+protoworld	プロト惑星
+Protoworld	プロト惑星
+Void	虚無
+Rainforest	熱帯雨林
+Oceanic	海洋
+Savannah	サバンナ
+Bog	沼地
+bog	沼地
+Caliche	カリーチェ
+Hive	巣穴
+Lava	溶岩
+Wand	ワンド
+Wands	ワンド
+Staff	杖
+Staves	杖
+Spear	槍
+Shortspear	短槍
+Bow	弓
+Bows	弓
+Hammer	ハンマー
+Hamer	ハンマー
+Mace	メイス
+Axe	斧
+Greataxe	大斧
+Dagger	短剣
+Shortsword	小剣
+Broadsword	大剣
+Fist	拳
+Fists	拳
+Scythe	大鎌
+Whip	ムチ
+Rapier	レイピア
+Katana	刀
+Quarterstaff	棒術棍
+Crossbow	クロスボウ
+Rifle	ライフル
+Sniper	狙撃
+Assault	突撃
+Shotgun	ショットガン
+Pistol	ピストル
+Pistols	ピストル
+Shield	盾
+Chakram	チャクラム
+Boomerang	ブーメラン
+Magnorb	マグノーブ
+Magnorbs	マグノーブ
+Melee	近接
+Bio-Weapon	生体武器
+BioWeapon	生体武器
+Thrown	投擲
+HarpoonGun	銛銃
+Lance	ランス
+Launcher	ランチャー
+Weapon	武器
+Weapons	武器
+weapons	武器
+Weaponry	武器
+Primary	通常操作
+Secondary	副操作
+Alt-Fire	副射撃
+Shield Bash	シールドバッシュ
+Bash	打撃
+Push	押し出し
+Sentry	番兵
+Striker	ストライカー
+Burst	バースト
+Data Latch	データラッチ
+Data Sensor	データセンサー
+Object Data Sensor	物体データセンサー
+Storage Bridge	保管庫ブリッジ
+Not Gate	NOTゲート
+AND Gate	ANDゲート
+OR Gate	ORゲート
+XOR Gate	XORゲート
+NOR Gate	NORゲート
+NOT Gate	NOTゲート
+Data	データ
+Latch	ラッチ
+Gate	ゲート
+Sequencer	シーケンサー
+Relay	リレー
+Delay	遅延
+Input	入力
+Output	出力
+Interface	インターフェース
+Console	操作盤
+Viewer	ビューアー
+Info	情報
+Research	研究
+Crafting	製作
+Chemistry	化学
+Alchemy	錬金術
+Metaphysics	形而上学
+Hydroponics	水耕栽培
+Psionic	超能力
+Psionics	超能力
+Psi	サイ
+Xeno	異種生物
+Xenolab	異種生物ラボ
+Electronics Center	電子工作台
+Sprouting Tray	発芽トレイ
+Growing Tray	栽培トレイ
+Armorworks	武具製作台
+Auto-Assembler	自動組立機
+Assembler	組立機
+Furnace	炉
+Crucible	るつぼ
+Apiary	養蜂場
+Lab	ラボ
+Labs	研究所
+Table	作業台
+Station	ステーション
+Core	核
+Crew	船員
+Ship	船
+Drive	ドライブ
+Bunk	二段ベッド
+Bed	ベッド
+Beds	ベッド
+Door	扉
+Wall	壁
+Wood	木材
+Block	ブロック
+Ceiling	天井
+Trim	縁飾り
+Lights	照明
+Lamp	ランプ
+Prop	飾り
+Rack	ラック
+Pod	ポッド
+Deed	契約書
+Keycard	キーカード
+Codex	文書
+Codexes	文書
+Book	本
+Books	本
+Relic	遺物
+Fragment	破片
+Fragments	破片
+Bars	インゴット
+Ore	鉱石
+ore	鉱石
+Crystals	結晶
+Crystal	水晶
+Gem	宝石
+Bee	ハチ
+Bees	ハチ
+Food	食料
+Type	種類
+Dish	料理
+Recipe	レシピ
+Nocxium	ノクシウム
+Telebrium	テレブリウム
+Quietus	クワイタス
+Mutavisk	ムタヴィスク
+Xithricite	ジスリサイト
+Zerchesium	ゼルケシウム
+Protocite	プロトサイト
+ProtociteOre	プロトサイト鉱石
+Pyreite	パイライト
+Densinium	デンシニウム
+Aegisalt	イージソルト
+Solarium	ソラリウム
+Effigium	エフィジウム
+Exonite	エクソナイト
+Essentia	エッセンティア
+Trianglium	トライアングリウム
+Ultronium	ウルトロニウム
+Neptunium	ネプツニウム
+Plutonium	プルトニウム
+Iodine	ヨウ素
+Deuterium	重水素
+Tritium	三重水素
+Torium	トリウム
+Gold	金
+Pykrete	パイクリート
+Pykrette	パイクリート
+Aen	アエン
+Kadavan	カダヴァン
+Vashta	ヴァシュタ
+Vextongue	ヴェクスタング
+Melodistar	メロディスター
+Corvex	コルヴェクス
+Violiroot	ヴィオリルート
+Boneboo	ボーンブー
+Blex	ブレックス
+Shadowroot	シャドウルート
+Feathercrown	フェザークラウン
+Hydrangea	アジサイ
+Garflipp	ガーフリップ
+Lunari	ルナリ
+ArCon	アーコン
+Ravager	ラヴェジャー
+Wretchel	レッチェル
+Kingsryche	キングスライク
+Nautilus	ノーチラス
+Renergizer	リナジャイザー
+Juggernaut	ジャガーノート
+Capturenaut	捕獲探検家
+Nomada	ノマダ
+CySol	サイソル
+Stegovapti	ステゴヴァプティ
+Waterdragon	ウォータードラゴン
+Lumoth	ルモス
+Thornwing	ソーンウィング
+Lightdweller	ライトドウェラー
+Grotthu	グロッス
+Sith	シス
+Xiticix	ジティシクス
+Oonforta	ウンフォルタ
+Trictus	トリクトゥス
+Norkumsgath	ノルクムスガス
+Valtan	ヴァルタン
+Celaeno	セラエノ
+Her'Lur	ハールーア
+Tenebrhae	テネブラエ
+Obscura	オブスクラ
+Reticuli	レティキュリ
+Greenfinger	グリーンフィンガー
+Greenguard	グリーンガード
+Vinalisj	ヴィナリシュ
+Kevin	ケヴィン
+Kevins	ケヴィンたち
+Kevin-Tek	ケヴィンテック
+Khe	ケー
+Greg	グレッグ
+GREG	グレッグ
+Esther	エスター
+Asra	アスラ
+Nox	ノックス
+MacReady	マクレディ
+Taskens	タスケンズ
+Wagner	ワグナー
+Svetlana	スヴェトラーナ
+Tavish	タヴィッシュ
+Azriel	アズリエル
+Akki	アッキ
+Joja	ジョジャ
+Terramart	テラマート
+Funtendo	ファンテンドー
+HIC	ヒック
+Hic	ヒック
+BURP	ゲップ
+BURRRRP	ゲェェェップ
+Mew	ニャー
+SMASH	破壊
+Sssmash	こっわせ
+SSSTAB	さっせ
+BULLETS	銃弾
+BULLETSS	銃弾
+PREY	獲物
+SISSISY	弱虫
+RAAAAAAWWWWWW	グオオオオ
+Sssunssshine	おっひさま
+Sssunss	おっひさま
+sssun	おっひさま
+sswaterdragon	ウォータードラゴン
+ssap	樹液
+ssssap	樹液
+sssilk	絹
+ssskin	皮
+sslime	スライム
+sslimy	ぬるぬる
+ssstick	棒
+ssship	船
+ssstation	ステーション
+ssstore	店
+ssswitch	スイッチ
+Sssswitch	スイッチ
+Ssscreen	画面
+ssstrong	とても強い
+magiccc	魔法
+cccycle	周期
+Perssisstent	状態保持
+Dash	ダッシュ
+Dashtech	ダッシュテック
+Dodge	回避
+Blink	瞬間移動
+Jump	ジャンプ
+Flight	飛行
+Glide	滑空
+Slowfall	低速落下
+Sphere	球体
+Armor	防具
+Helm	兜
+Head	頭部
+Pack	パック
+Claw	爪
+Claws	爪
+Kit	キット
+Upgrade	強化
+Upgrades	強化
+Advanced	高性能
+Enhanced	強化
+DEPRECATED	旧式
+Deprecated	旧式
+Reliable	高信頼
+Pristine	清潔
+Rustic	素朴
+Universal	万能
+Artificial	人工
+Quantum	量子
+Plasma	プラズマ
+Acid	酸
+Toxic	有毒
+Napalm	ナパーム
+Powder	粉末
+Mulch	腐葉土
+Cloning	クローン
+Gene	遺伝子
+Beaker	ビーカー
+Cactus	サボテン
+Apple	リンゴ
+Honey	ハチミツ
+Hops	ホップ
+Mash	マッシュ
+Burger	バーガー
+Legumes	豆類
+Grain	穀物
+Booze	酒
+Meaty	肉の
+Large	大型
+Small	小型
+Tiny	極小
+Heavy	重装
+Short	短い
+Dual	二連
+Full	完全
+Death	死
+Precursor	先駆者
+Elder	エルダー
+Star	星
+Worlds	世界
+Light	光
+Lightless	光のない
+Dark	闇
+Golden	黄金の
+Honeycomb	ハチの巣
+Arena	闘技場
+Beacon	ビーコン
+Science	科学
+SCIENCE	科学
+Techs	テック
+Stats	能力値
+Statistics	能力値
+Playstyle	プレイスタイル
+Guide	ガイド
+Page	ページ
+Entry	項目
+Monthly	月間
+Shipments	出荷
+Packaging	包装
+Component	部品
+Companion	仲間
+Corporation	企業
+Agent	工作員
+Officer	士官
+Chef	料理人
+Sous Chef	副料理長
+Charcoal	木炭'''
+
+
+def load_terms():
+    pairs = [line.split('\t',1) for line in DATA.splitlines() if line]
+    if len({p[0] for p in pairs}) != len(pairs):
+        raise ValueError('Duplicate term in lexical glossary')
+    return dict(pairs)
+
+
+TERMS = load_terms()
+# ASCII boundaries allow a retained English word adjacent to Japanese while
+# excluding occurrences inside identifiers, model codes and larger English words.
+TERM_PATTERN = re.compile(r'(?<![A-Za-z0-9_])(?:'+'|'.join(re.escape(k) for k in sorted(TERMS,key=len,reverse=True))+r')(?![A-Za-z0-9_])')
+OPAQUE = re.compile(
+    PROTECTED.pattern + r'|https?://[^\s<>]+' +
+    r'|`[^`\n]*`|\[(?:Shift|Alt|Ctrl|Control|Space|Escape|Tab|[A-Z])(?:\s*\+\s*(?:Left Click|Right Click|[A-Z]))?\]' +
+    r'|(?:[A-Za-z]:)?/(?:[A-Za-z0-9_.-]+/)*[A-Za-z0-9_.-]+\.(?:lua|json|config|png|ogg|wav|object|item|activeitem|patch)'
+)
+
+
+def localize_visible_terms(text):
+    """Return text with known lexical residues localized; opaque spans unchanged."""
+    out = []
+    start = 0
+    for match in OPAQUE.finditer(text):
+        out.append(TERM_PATTERN.sub(lambda m:TERMS[m.group()],text[start:match.start()]))
+        out.append(match.group())
+        start = match.end()
+    out.append(TERM_PATTERN.sub(lambda m:TERMS[m.group()],text[start:]))
+    return ''.join(out)
+
+
+def audit_current():
+    # This command never writes the installed MOD or changes the machine cache.
+    # It emits a reviewable proposed mapping for integration by the root builder.
+    from build import check_translation
+    manual = {}
+    for path in sorted((PROJECT/'source').glob('manual_*.json')):
+        manual.update(json.loads(path.read_text(encoding='utf-8')))
+    rows = [json.loads(line) for line in (PROJECT/'source/translated_catalog.jsonl').read_text(encoding='utf-8').splitlines()]
+    changed = {}
+    rejected = []
+    fields = 0
+    for row in rows:
+        source = row['source']
+        # Full manual review, glossary choices, and prior partial codex repairs
+        # take precedence. This first inventory is strictly an MT post-edit.
+        if source in manual or row.get('method') != 'machine':
+            continue
+        old = row['translation']
+        new = localize_visible_terms(old)
+        if new == old:
+            continue
+        errors = check_translation(source,new)
+        if errors:
+            rejected.append({'source':source,'issues':errors})
+            continue
+        changed[source] = new
+        fields += 1
+    (PROJECT/'source/partial_residual_terms.json').write_text(json.dumps(changed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (PROJECT/'source/residual_term_glossary.json').write_text(json.dumps(TERMS,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    report={'lexical_terms':len(TERMS),'changed_unique_sources':len(changed),'changed_fields':fields,
+            'method':'machine_terminology',
+            'rejected':rejected,'scope':'Lexical replacements only; these are not counted as full-source manual reviews.'}
+    (PROJECT/'reports/residual_term_review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps(report,ensure_ascii=False,indent=2))
+
+
+if __name__ == '__main__':
+    audit_current()

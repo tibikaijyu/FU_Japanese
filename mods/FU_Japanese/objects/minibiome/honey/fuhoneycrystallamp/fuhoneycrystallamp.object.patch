@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glowing honeycrystal which functions as a lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ランプとして機能する輝くハニークリスタル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Crystal Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークリスタルランプ"
+    }
+  ]
+]

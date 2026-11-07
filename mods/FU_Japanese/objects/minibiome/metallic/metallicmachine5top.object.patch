@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A functioning antenna."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "動作アンテナ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Antenna"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンテナ"
+    }
+  ]
+]

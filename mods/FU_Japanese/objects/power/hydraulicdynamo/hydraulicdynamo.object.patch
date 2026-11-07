@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Boils water to drive an enormous piston. Generates up to ^orange;21W^reset; using thermal fuels such as lava or core fragments. Each slot outputs independently. ^Red;Needs water coolant.^reset; ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大なピストンを駆動するために水を沸騰させる。 溶岩や炉心破片などの熱燃料で最大^orange;21W^reset;を生成する。 各スロットは独立して出力される。 ^Red;水冷却剤が必要です。^reset; ^blue;左入力^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Hydraulic Dynamo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;油圧ダイナモ^reset;"
+    }
+  ]
+]

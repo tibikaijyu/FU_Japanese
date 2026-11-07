@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The oldschool way to haul freight."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貨物を運ぶための古い学校の方法。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Storage Cart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "保管カート"
+    }
+  ]
+]

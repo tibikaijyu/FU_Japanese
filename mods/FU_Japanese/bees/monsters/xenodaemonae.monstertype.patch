@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A xenodaemonae bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キセノダモネハチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xenodaemonae Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キセノダモネ"
+    }
+  ]
+]

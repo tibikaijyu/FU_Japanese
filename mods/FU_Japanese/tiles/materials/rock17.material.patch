@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rough, unrefined gritstone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗い、未精製のグリットストーン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Gritstone."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 良い石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gritstone Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリットストーンブロック"
+    }
+  ]
+]

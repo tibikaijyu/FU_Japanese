@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfectly refined shard of penumbrite, located on Penumbra planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全に洗練されたペヌブライトのシャード、ペヌムブラ惑星上に位置しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブライトシャード"
+    }
+  ]
+]

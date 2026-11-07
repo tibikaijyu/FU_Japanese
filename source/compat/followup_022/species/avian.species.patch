@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A people of powerful faith and strongly attuned to the universe, Avians are naturals with staves and wands and are exceptionally agile.\n\n  ^orange;Diet^reset;: Omnivore\n\n^orange;Perks^reset;:\n  Damage x^green;1.05^reset;\n  Energy x^green;1.15^reset;\n  +^green;15^reset;% Jump Height, Fall Damage x^green;0.5^reset;\n  ^green;Resist^reset;: +^cyan;25^reset;% Electric\n  Tech: ^green;Avian Slowfall^reset;\n  Immune: ^green;Electrified^reset;\n\n^orange;Environment^reset;:\n  When airborne: Damage x^green;1.12^reset;\n  Low to moderate wind: Air mobility\n  Low wind: Health x^green;1.15^reset;, Defense x^green;1.1^reset;\n  ^red;Irradiated^reset;, ^red;Scorched^reset;, ^red;Tidewater^reset; biomes: x^red;0.8^reset; Defense\n^orange;Weapons^reset;:\n  Wand/Staff: Damage x^green;1.2^reset;, +^green;15^reset;% Resist in equipped element\n  Wand + Dagger: Can fire Cosmic Blasts (^green;Energy/16^reset; dmg)\n  Quarterstaff Mastery: +^green;25^reset;%\n\n^red;Weaknesses^reset;:\n  Health x^red;0.85^reset;,\n  ^red;Resist^reset;: -^red;5^reset;% Physical, -^red;15^reset;% Fire, -^red;10^reset;% Radioactive"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "強い信仰を持ち、宇宙と深く調和するエイビアン。杖の扱いに優れ、非常に身軽な種族。\n\n  ^orange;食性^reset;：雑食\n\n^orange;特性^reset;：\n  ダメージ x^green;1.05^reset;\n  エネルギー x^green;1.15^reset;\n  ジャンプ高度 +^green;15^reset;%、落下ダメージ x^green;0.5^reset;\n  ^green;耐性^reset;：電気 +^cyan;25^reset;%\n  テック：^green;エイビアンの緩降下^reset;\n  無効：^green;帯電^reset;\n\n^orange;環境^reset;：\n  空中：ダメージ x^green;1.12^reset;\n  弱風～中程度の風：空中での移動性能が向上\n  弱風：体力 x^green;1.15^reset;、防御力 x^green;1.1^reset;\n  ^red;放射線汚染地^reset;・^red;焦土^reset;・^red;潮水^reset;：防御力 x^red;0.8^reset;\n^orange;武器^reset;：\n  ワンド／スタッフ：ダメージ x^green;1.2^reset;、装備属性の耐性 +^green;15^reset;%\n  ワンド＋短剣：宇宙弾を発射可能（^green;エネルギー/16^reset; ダメージ）\n  棒術の熟練度：+^green;25^reset;%\n\n^red;弱点^reset;：\n  体力 x^red;0.85^reset;\n  ^red;耐性^reset;：物理 -^red;5^reset;%、炎 -^red;15^reset;%、放射線 -^red;10^reset;%"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/charCreationTooltip/description",
+      "value": "A people of powerful faith and strongly attuned to the universe, Avians are naturals with staves and wands and are exceptionally agile.\r\n\r\n  ^orange;Diet^reset;: Omnivore\r\n\r\n^orange;Perks^reset;:\r\n  Damage x^green;1.05^reset;\r\n  Energy x^green;1.15^reset;\r\n  +^green;15^reset;% Jump Height, Fall Damage x^green;0.5^reset;\r\n  ^green;Resist^reset;: +^cyan;25^reset;% Electric\r\n  Tech: ^green;Avian Slowfall^reset;\r\n  Immune: ^green;Electrified^reset;\r\n\r\n^orange;Environment^reset;:\r\n  When airborne: Damage x^green;1.12^reset;\r\n  Low to moderate wind: Air mobility\r\n  Low wind: Health x^green;1.15^reset;, Defense x^green;1.1^reset;\r\n  ^red;Irradiated^reset;, ^red;Scorched^reset;, ^red;Tidewater^reset; biomes: x^red;0.8^reset; Defense\r\n^orange;Weapons^reset;:\r\n  Wand/Staff: Damage x^green;1.2^reset;, +^green;15^reset;% Resist in equipped element\r\n  Wand + Dagger: Can fire Cosmic Blasts (^green;Energy/16^reset; dmg)\r\n  Quarterstaff Mastery: +^green;25^reset;%\r\n\r\n^red;Weaknesses^reset;:\r\n  Health x^red;0.85^reset;,\r\n  ^red;Resist^reset;: -^red;5^reset;% Physical, -^red;15^reset;% Fire, -^red;10^reset;% Radioactive"
+    },
+    {
+      "op": "replace",
+      "path": "/charCreationTooltip/description",
+      "value": "強い信仰を持ち、宇宙と深く調和するエイビアン。杖の扱いに優れ、非常に身軽な種族。\n\n  ^orange;食性^reset;：雑食\n\n^orange;特性^reset;：\n  ダメージ x^green;1.05^reset;\n  エネルギー x^green;1.15^reset;\n  ジャンプ高度 +^green;15^reset;%、落下ダメージ x^green;0.5^reset;\n  ^green;耐性^reset;：電気 +^cyan;25^reset;%\n  テック：^green;エイビアンの緩降下^reset;\n  無効：^green;帯電^reset;\n\n^orange;環境^reset;：\n  空中：ダメージ x^green;1.12^reset;\n  弱風～中程度の風：空中での移動性能が向上\n  弱風：体力 x^green;1.15^reset;、防御力 x^green;1.1^reset;\n  ^red;放射線汚染地^reset;・^red;焦土^reset;・^red;潮水^reset;：防御力 x^red;0.8^reset;\n^orange;武器^reset;：\n  ワンド／スタッフ：ダメージ x^green;1.2^reset;、装備属性の耐性 +^green;15^reset;%\n  ワンド＋短剣：宇宙弾を発射可能（^green;エネルギー/16^reset; ダメージ）\n  棒術の熟練度：+^green;25^reset;%\n\n^red;弱点^reset;：\n  体力 x^red;0.85^reset;\n  ^red;耐性^reset;：物理 -^red;5^reset;%、炎 -^red;15^reset;%、放射線 -^red;10^reset;%"
+    }
+  ]
+]

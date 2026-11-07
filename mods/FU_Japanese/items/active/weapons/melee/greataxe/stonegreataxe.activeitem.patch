@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for early meat and hide gathering."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "早期の肉と隠れた集まりに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "初歩的偉大さ"
+    }
+  ]
+]

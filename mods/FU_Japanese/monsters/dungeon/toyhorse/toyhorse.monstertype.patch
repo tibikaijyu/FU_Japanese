@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Filled with toy knights."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おもちゃの騎士がいっぱい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toy Horse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "おもちゃの馬"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The bottom of a Snowman."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪だるまの底。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plain Snowbottom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "平野雪底"
+    }
+  ]
+]

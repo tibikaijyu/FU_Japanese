@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "That's not very attractive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それはあまり魅力的ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodstone Anemone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血石アネモネ"
+    }
+  ]
+]

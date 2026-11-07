@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "There are no words to express the madness and strangeness that tugs now at the very roots of my soul. A piece of myself has been forever lost to that hellish place."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今、魂の根元を引き裂こうとしている狂気と異様さを、言葉では表せない。あの地獄のような場所で、私の一部は永遠に失われた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Explore Delta Freya II"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "デルタ・フレイヤII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Lifting up this book has triggered ^red;strange visions^reset; of a place covered in snow and ice, and coordinates to that place. I should enter the coordinates for ^orange;Delta Freya II^reset; into my SAIL. It calls to me. I am compelled to obey."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この本を持ち上げて、雪と氷に覆われた場所の^red;奇妙なビジョン^reset;をトリガーし、その場所に合わせて調整します。 SAILに^orange;Delta Freya II^reset;の座標を入力する必要があります。 私に電話する。従わざるを得ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Strange Visions"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "不思議なビジョン"
+    }
+  ]
+]

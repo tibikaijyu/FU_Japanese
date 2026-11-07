@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dreams to rule the world someday."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いつか世界を支配する夢。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corrupt Fly"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐敗するハエ"
+    }
+  ]
+]

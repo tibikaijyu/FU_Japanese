@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2;Place beer in the left and a capture pod in the right."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "^#b9b5b2; ビールを左に、キャプチャポッドを右に置きます。"
+    }
+  ]
+]

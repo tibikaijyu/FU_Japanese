@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;20^reset;% Crit Damage, Health x^green;1.05^reset;\n^yellow;^reset; Sniper Rifle: Damage x^green;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;20^reset;% 危機被害と健康x^green;1.05^reset;\n^yellow;^reset; 狙撃ライフル : ダメージ x ^green;1.25^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ravager Robes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラヴェジャーのローブ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Claw slash. (Read ^yellow;Core Guide^reset;: ^blue;Special Techs^reset;)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爪で斬りつける。（^yellow;基本ガイド^reset;の^blue;特殊テック^reset;を参照）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Hunter Claws"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ハンター爪"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient, and emanating malice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代、そして発芽する悪意。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Star Spawn of Cthulhu"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クトゥルフの星の産卵"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Sunlight: Power/Defense/Energy/Health x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Pressure, Mud, Slime Stick, Ice Slip, Snow Slow, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;日光:パワー/ディフェンス/エネルギー/ヘルスx^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;圧力、泥、スライムスティック、アイススリップ、スノースロー、酸素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Star-Killer Plate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スターキラープレート"
+    }
+  ]
+]

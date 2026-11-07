@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Article 9, Paragraph 3.\nOutcasts\n\nOutcasts are not allowed to enter Skath Territory anymore and only greatly honourable acts will allow them to enter Skath inhabited star systems. To regain his honour, an outcast needs to prove his intentions through action first. If his act is deemed honourable he shall regain his Skath citizenship and is freely allowed to live around his kind again."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "記事 9 、パラグラフ 3 。\n概要\n\nアウトキャストはもはやスカース準州に入ることは許されず、スカースに居住する星系に入ることは非常に名誉ある行為のみが許される。 彼の名誉を取り戻すために、アウトキャストは行動を通して彼の意図を証明する必要があります。 彼の行為が光栄であると見なされた場合、彼は彼のスカース市民権を取り戻し、自由に彼の親切の周りに生きることを許可されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "Should the outcast fail, he must leave Skath space within 1 day or be executed. Officers are under no obligation to keep such Outcasts alive if a verbal agreement is not ratified by a witness, for they have forsaken their honour."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "アウトキャストが失敗した場合は、1day 内に スカス スペースを残したり、実行したりする必要があります。 警官は、口頭での合意が証人によって批准されていない場合、そのようなアウトキャストを生かし続ける義務を負いません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An excerpt from the Codex of War."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦国コードから抜粋。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Codex of War 4"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "戦国コード 4"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An energy wood chair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーウッドチェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドチェア"
+    }
+  ]
+]

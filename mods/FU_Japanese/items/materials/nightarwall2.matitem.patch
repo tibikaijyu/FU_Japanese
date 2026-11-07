@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A black wall infused with some unknown Nightar technologies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知なるナイトアールの技術が注入された黒い壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thiss wall is ssso sstrong."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "この壁はとても強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. Nothing will move this structurally reinforced wall."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 構造的に補強された壁は動かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Ain't nothin' gonna move this thick wall."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この厚い壁は動かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Tech Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術の壁の夜"
+    }
+  ]
+]

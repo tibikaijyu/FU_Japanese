@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Designed for combat in super-hot environments."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超高温環境での戦闘用に設計されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inferno Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インフェルノ・パンツ"
+    }
+  ]
+]

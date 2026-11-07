@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect night lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なナイトランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Night Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なナイトランプ。"
+    }
+  ]
+]

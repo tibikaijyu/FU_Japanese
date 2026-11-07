@@ -1,0 +1,470 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cantReach/default/default/0",
+      "value": "Get over here!"
+    },
+    {
+      "op": "replace",
+      "path": "/cantReach/default/default/0",
+      "value": "こっちへ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cantReach/default/default/1",
+      "value": "Come here!"
+    },
+    {
+      "op": "replace",
+      "path": "/cantReach/default/default/1",
+      "value": "こっちへ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cantReach/default/default/2",
+      "value": "Get back here!"
+    },
+    {
+      "op": "replace",
+      "path": "/cantReach/default/default/2",
+      "value": "戻ってこい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cantReach/default/default/3",
+      "value": "How did you get over there?"
+    },
+    {
+      "op": "replace",
+      "path": "/cantReach/default/default/3",
+      "value": "どうやってそこに着いたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cantReach/default/default/4",
+      "value": "I can't reach!"
+    },
+    {
+      "op": "replace",
+      "path": "/cantReach/default/default/4",
+      "value": "手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cheerOn/default/default/0",
+      "value": "I have a plan!"
+    },
+    {
+      "op": "replace",
+      "path": "/cheerOn/default/default/0",
+      "value": "私には計画がある!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cheerOn/default/default/1",
+      "value": "Get them!"
+    },
+    {
+      "op": "replace",
+      "path": "/cheerOn/default/default/1",
+      "value": "彼らを捕まえなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cheerOn/default/default/2",
+      "value": "Everybody is in my way."
+    },
+    {
+      "op": "replace",
+      "path": "/cheerOn/default/default/2",
+      "value": "誰もが私の邪魔をしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cheerOn/default/default/3",
+      "value": "Why aren't they already dead?"
+    },
+    {
+      "op": "replace",
+      "path": "/cheerOn/default/default/3",
+      "value": "なぜ彼らはすでに死んでいないのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cheerOn/default/default/4",
+      "value": "Come on!"
+    },
+    {
+      "op": "replace",
+      "path": "/cheerOn/default/default/4",
+      "value": "こっちへ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/0",
+      "value": "Never mess with me!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/0",
+      "value": "決して私と混乱しないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/1",
+      "value": "Victory!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/1",
+      "value": "勝利!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/10",
+      "value": "Yes!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/10",
+      "value": "はい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/11",
+      "value": "That's what you get!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/11",
+      "value": "以上です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/2",
+      "value": "Phew!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/2",
+      "value": "うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/3",
+      "value": "Another victory!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/3",
+      "value": "もう一つの勝利!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/4",
+      "value": "I didn't even break a sweat!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/4",
+      "value": "汗もかかなかった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/5",
+      "value": "Heh."
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/5",
+      "value": "へえ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/6",
+      "value": "Of course I won!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/6",
+      "value": "もちろん勝った!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/7",
+      "value": "I'm pretty good at this!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/7",
+      "value": "私はかなり得意です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/8",
+      "value": "That was stressful..."
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/8",
+      "value": "それはストレスでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/killedTarget/default/default/9",
+      "value": "Another easy win!"
+    },
+    {
+      "op": "replace",
+      "path": "/killedTarget/default/default/9",
+      "value": "もう一つの簡単勝利!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/0",
+      "value": "I will get you one day!"
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/0",
+      "value": "いつか君を捕まえよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/1",
+      "value": "It's not over!"
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/1",
+      "value": "まだ終わってない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/2",
+      "value": "Don't come back!"
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/2",
+      "value": "戻ってこないで!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/3",
+      "value": "Where are you..."
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/3",
+      "value": "どこにいるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/4",
+      "value": "What a hassle."
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/4",
+      "value": "なんて面倒なんだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/lostTarget/default/default/5",
+      "value": "Just you wait!"
+    },
+    {
+      "op": "replace",
+      "path": "/lostTarget/default/default/5",
+      "value": "待ってくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfSight/default/default/0",
+      "value": "Sneaky! This is sneaky! How did you disappear?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfSight/default/default/0",
+      "value": "こっそり! こいつはこっそりだ! どうやって消えたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfSight/default/default/1",
+      "value": "They're getting away!"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfSight/default/default/1",
+      "value": "逃げるぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfSight/default/default/2",
+      "value": "Where'd you go?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfSight/default/default/2",
+      "value": "どこへ行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfSight/default/default/3",
+      "value": "Get back here!"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfSight/default/default/3",
+      "value": "戻ってこい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/outOfSight/default/default/4",
+      "value": "How did this happen?"
+    },
+    {
+      "op": "replace",
+      "path": "/outOfSight/default/default/4",
+      "value": "どうしてこんなことが起こったのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reattack/default/default/0",
+      "value": "Dude. Why so violent?"
+    },
+    {
+      "op": "replace",
+      "path": "/reattack/default/default/0",
+      "value": "男。 なぜそんなに暴力的なのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reattack/default/default/1",
+      "value": "Killin my buzz, dude."
+    },
+    {
+      "op": "replace",
+      "path": "/reattack/default/default/1",
+      "value": "うわさで殺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reattack/default/default/2",
+      "value": "Make love, not war. Jeez."
+    },
+    {
+      "op": "replace",
+      "path": "/reattack/default/default/2",
+      "value": "戦争ではなく愛をつくれ。 うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reattack/default/default/3",
+      "value": "You came back?"
+    },
+    {
+      "op": "replace",
+      "path": "/reattack/default/default/3",
+      "value": "戻って来たの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reattack/default/default/4",
+      "value": "So you came back."
+    },
+    {
+      "op": "replace",
+      "path": "/reattack/default/default/4",
+      "value": "戻ってきましたね"
+    }
+  ]
+]

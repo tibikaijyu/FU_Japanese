@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raw, untainted Nocxium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生で、汚染されていないノクシウム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raw Nocxium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生ノクシウム"
+    }
+  ]
+]

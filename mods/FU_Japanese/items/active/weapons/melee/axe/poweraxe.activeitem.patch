@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smile for the birdy!\n^cyan;Inflicts Electrified and Bouncy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鳥に微笑みかけよう!\n^cyan;電化・バウンシーな影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tritanium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリチウム軸"
+    }
+  ]
+]

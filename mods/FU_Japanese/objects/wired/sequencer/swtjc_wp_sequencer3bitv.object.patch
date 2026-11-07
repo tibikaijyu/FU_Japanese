@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A 3-bit sequencer. Outputs a signal based on which of the 8 states it's currently on."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "3ビットシーケンサー。 どの 8 状態が現在オンであるかに基づいて信号を出力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "3-bit sssequencccer. Outputsss a sssignal basssed on which of the 8 ssstatesss it'sss currently on."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "3 ビットシークエンサー。 出力 ss は、現在オンになっている 8ss 状態のどれに基づいて ss 信号を出力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Fascinated. A 3-bit sequencer. Outputs a signal based on which of the 8 states it's currently on."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "魅了された。 3ビットシーケンサー。 どの 8 状態が現在オンであるかに基づいて信号を出力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "3-Bit Sequencer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "3-Bitシーケンサー"
+    }
+  ]
+]

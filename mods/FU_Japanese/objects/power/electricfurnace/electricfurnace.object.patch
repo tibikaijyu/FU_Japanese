@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powered furnace which can smelt all ^gray;common^reset; and ^green;uncommon^reset; ores, and some basic materials. ^cyan;Requires ^orange;12W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全ての^gray;コモン^reset;と^green;アンコモン^reset;鉱石といくつかの基礎材料を溶融できる動力炉。 ^cyan; は ^orange;12W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Electric Furnace^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;電気炉^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of Mercury ^gray;Hg^reset; in its most common state. Caution: Toxic"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も一般的な状態における水銀^gray;Hg^reset;の測定値。 注意:毒性"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Mercury"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体水銀"
+    }
+  ]
+]

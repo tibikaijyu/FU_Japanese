@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Absolute Zero."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶対ゼロ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Freezing Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "凍結雨"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイソゲンスタッフ"
+    }
+  ]
+]

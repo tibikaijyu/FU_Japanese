@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massively charged psionic energy cell.\n^blue;+^white;35 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大量のシオン系エネルギーセル。\n^blue;+^white;35 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Psi-3 Energy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイ-3エネルギー"
+    }
+  ]
+]

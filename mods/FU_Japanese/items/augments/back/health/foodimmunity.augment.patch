@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Feed-Munity"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "フィードモノ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "EPP Module: ^green;Immune to Diet Restrictions^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "EPPモジュール: ^green; 食事制限に対する免疫^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feed-Munity Chip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フィード・モノ・チップ"
+    }
+  ]
+]

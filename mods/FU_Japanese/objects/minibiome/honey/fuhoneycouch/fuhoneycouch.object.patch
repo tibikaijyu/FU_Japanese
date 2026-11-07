@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A couch so comfortable you'll never get up! Actually, it's just sticky."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "快適なソファーで、決して起きません! 実際、これは単に粘着性です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeycomb Couch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカムソファ"
+    }
+  ]
+]

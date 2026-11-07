@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Potent, ancient design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "潜在的、古代デザイン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honed Lunari Cestus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "栄誉あるルナリ・ケストス"
+    }
+  ]
+]

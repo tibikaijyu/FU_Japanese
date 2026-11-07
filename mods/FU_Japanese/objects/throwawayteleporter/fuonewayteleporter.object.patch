@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small, handy and cheap! Gets you up to your ship again, no matter where you are!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さくて便利で安い! どこにいても、もう一度あなたの船に連れて行きましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Escape Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エスケープ・テレポーター"
+    }
+  ]
+]

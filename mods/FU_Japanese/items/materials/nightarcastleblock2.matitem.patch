@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mysterious Castle Blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神秘的な城のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Myssteriouss  Blocksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミステリアス・ブロックス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Mysterious Castle Blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 神秘的な城のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Castle Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアール城塞"
+    }
+  ]
+]

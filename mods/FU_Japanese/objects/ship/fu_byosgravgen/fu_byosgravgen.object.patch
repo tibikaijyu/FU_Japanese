@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates a gravity field on your ship. Has a range of 80 blocks. ^blue;Input^reset;1: On/Off Switch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "船上の重力場を生成します。 80 ブロックの範囲があります。 ^blue; 入力 ^reset;1 : スイッチをオン/オフします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Ship Gravity Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;船重発電機^reset;"
+    }
+  ]
+]

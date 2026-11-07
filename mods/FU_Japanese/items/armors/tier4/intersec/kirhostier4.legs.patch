@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle, Pistol: +^green;2^reset;% Crit Chance, +^green;25^reset;% Crit Damage"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ライフル、ピストル、+^green;2^reset;% クリティカルチャンス、+^green;25^reset;% クリティカルダメージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Intersec Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インターセック・グリーブ"
+    }
+  ]
+]

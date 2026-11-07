@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A battleaxe modeled after a legendary Glitch knight's axe. Said to cut densinium with ease.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説のグリッチ騎士のアックスを模したバトルアックス。 簡単にデンシニウムを切るように言われました。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Master's Battleaxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨匠の陣"
+    }
+  ]
+]

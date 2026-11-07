@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fresh pear, ripe for baking or consuming with my face! ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私の顔で焼いたり、食べたりするための新鮮な梨、熟した! ^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピア"
+    }
+  ]
+]

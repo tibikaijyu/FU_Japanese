@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "Fool! The might of Kluex will crush you for intruding upon our most sacred site!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "ファウル! クルーエクスの力は、私たちの最も神聖なサイトに侵入してあなたを粉砕します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "You are not worthy of ascending to the aether!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "あなたはエーテルに昇る価値がありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "Begone, fool!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "消えろ、愚か者!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "The light of Kluex shall sear you from existence!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "クルーエクスの光は、あなたの存在を脅かすでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ]
+]

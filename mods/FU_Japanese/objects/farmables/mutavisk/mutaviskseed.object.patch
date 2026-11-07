@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange and wonderful plant that produces an unrivaled silk-like material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "比類のない絹のような素材を生産している奇妙で素晴らしい植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutavisk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムタヴィスク"
+    }
+  ]
+]

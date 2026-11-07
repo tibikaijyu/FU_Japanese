@@ -1,0 +1,1271 @@
+{
+  "review_type": "partial_machine_translation_repair",
+  "selection": "category == codex; first 38 records, indices 0:38",
+  "records_examined": 38,
+  "source_maps_written": 38,
+  "suspect_segments_examined": 48,
+  "suspect_segments_successfully_repaired": 48,
+  "exact_target_occurrences_replaced": 49,
+  "full_checks": "build.check_translation; unchanged newline counts against original full machine target and full source",
+  "unchanged_scope": "All nonflagged machine-translated content retained verbatim. This is not full-source manual translation or a complete linguistic review.",
+  "records": [
+    {
+      "record_index": 0,
+      "asset": "codex/fupeglaci/fupeglaciorigins.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "2662f53a147bfff70900839b674e837ba46509ee9950968d1a06738c6785c776",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Over the course of several centuries they guided our species from savagery to civilization, and we were more than willing to do whatever they asked as thanks for their gifts.",
+          "old_machine_translation": "何世紀もの間、彼らは私たちの種を汚職から文明へと導いてくれた。",
+          "repaired_translation": "数世紀をかけて、彼らは我らの種族を野蛮な暮らしから文明へと導いた。その贈り物への感謝として、我らは彼らの頼みなら何でも喜んで引き受けた。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 36,
+          "original_target_end": 67
+        }
+      ]
+    },
+    {
+      "record_index": 1,
+      "asset": "codex/missions/letheiafacility1.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "18bc8dd0c0330ebba4e884b4ec269115dc6dec3cc5530b951e1d9157f500f6d7",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "I don't think J-11 is traceable back to us in any way, so it's just a write-off - I'll just let those protectorate do-gooders take care of the problem once the inevitable starts.",
+          "old_machine_translation": "私は、J-11は、いかなる方法でも、トレース可能であるとは思いません。",
+          "repaired_translation": "J-11から我々にたどり着ける手掛かりは、何ひとつないはずだ。損失として切り捨てればいい。避けられない事態が始まったら、あのプロテクターのお人よしたちに後始末をさせよう。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 68,
+          "original_target_end": 103
+        }
+      ]
+    },
+    {
+      "record_index": 2,
+      "asset": "codex/documents/randombook18.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "0a4becb271456b52588b3e16d9ab3d0034b29bc424f59c930ed632a2720bbac0",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Well, while we did honestly help defend them, they could've easily kept their numbers as high as they are anyways; we were preventing them from exploding in numbers before the Florans came in and started doing so; we're just preventing the plants from being too aggressive in the population control.",
+          "old_machine_translation": "フロランがやって来る前に、彼らは数を爆発させないようにしていた。我々は単に植物が人口管理に積極的すぎることを防ぐためだ。",
+          "repaired_translation": "確かに我々は彼らを守る手助けをしたが、それがなくても彼らは現在の個体数を容易に保てただろう。フローランが現れて同じ役割を担うまでは、我々が彼らの爆発的な増加を抑えていたのだ。今やっているのは、あの植物たちの個体数調整が行き過ぎないようにすることだけだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 47,
+          "original_target_end": 107
+        }
+      ]
+    },
+    {
+      "record_index": 3,
+      "asset": "codex/skath/skathfactions2.codex",
+      "path": "/contentPages/3",
+      "source_sha256": "8397b388cafa3f869ca82e1a2d07d4f5d9c6fc85eff7807e13fb98f3d91c5351",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Some among the Skath believe the Seekers have one more sacred duty: To seek out and locate the race that attempted to wipe them out not so long ago and bring the vengeance of the Skath against them.",
+          "old_machine_translation": "スカース族の中には、シーカーたちにはもう一つの神聖な義務があると考える人もいます。",
+          "repaired_translation": "スカスの中には、シーカーにはもうひとつ神聖な務めがあると信じる者もいる。それは、そう遠くない昔に彼らを滅ぼそうとした種族を探し出し、スカスの復讐を遂げることだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 41
+        }
+      ]
+    },
+    {
+      "record_index": 4,
+      "asset": "codex/radien/radien11.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "97160758658869819b42b6a98739113cb7ef4b1e36753d34d55d0ce2e1aecec2",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The device itself was found while scavenging through a nearly intact X'ian city (if you can call this place a city...I am not sure how best to name it) composed of strange looping patterns of graphite and cobalt merged together to form myriad structures that towered above like skyscrapers but composed of octogonal 'units' that could very well have been individual apartments.",
+          "old_machine_translation": "グラファイトとコバルトの奇妙なループパターンが組み合わさって、高層ビルのようにそびえ立つ無数の構造を形成していますが、それは八角形の「ユニット」でできています。",
+          "repaired_translation": "その装置は、ほぼ無傷で残ったザイの都市を探索していた時に見つかった。都市と呼んでよいのか、他にどう名付けるべきかは分からないが。そこでは、黒鉛とコバルトが奇妙な輪を描いて融合し、高層ビルのようにそびえる無数の建造物を形作っていた。建物を構成する八角形の「ユニット」は、それぞれが住居だったのかもしれない。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 1,
+          "source_segment": "Covering nearly all of the structures was a thin layer of an ash-like substance that gave everything the appearance of having been burned in a great conflagration in the ancient past.",
+          "old_machine_translation": "ほとんど全ての構造物を覆うのは灰のような物質の薄い層で、古代の大火で焼かれたように見える。",
+          "repaired_translation": "ほぼ全ての建造物が、灰に似た物質の薄い層に覆われていた。そのため、全体が大昔の大火で焼かれたかのように見えた。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 399,
+          "original_target_end": 479
+        },
+        {
+          "segment_index": 1,
+          "original_target_start": 538,
+          "original_target_end": 583
+        }
+      ]
+    },
+    {
+      "record_index": 5,
+      "asset": "codex/dungeons/apexunderwaterlabs3.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "1f9dc631213857e311b6db690eb105d4308fbfecc584593169643c6d1a068574",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Soon, it may be possible to replace up to 70% of bananas consumed by all Apex with 'I can't believe it's not banana!' coralcreep-derived paste, lowering costs and easing rationing procedures.",
+          "old_machine_translation": "間もなく、すべてのApexが消費するバナナの70%を「バナナではないとは思えない!",
+          "repaired_translation": "近いうちに、全エイペックスが消費するバナナの最大70%を、コーラルクリープ由来のペースト「これがバナナじゃないなんて！」で置き換えられそうだ。費用を抑え、配給の手続きも簡略化できる。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 41
+        }
+      ]
+    },
+    {
+      "record_index": 6,
+      "asset": "codex/radien/radien9.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "5ad67a78ce8b7b1b0529170b88f50636037197e5a4347cd439c66b79f314ec2f",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Their body chemistry resembles nothing we've seen in our galaxy thus far, with very little affecting their cells - specialized diseases seem one of the few things that affect them.",
+          "old_machine_translation": "彼らの身体の化学反応は、これまで銀河系で目にしたことの無いものに似たものです。",
+          "repaired_translation": "彼らの体内の化学的な仕組みは、これまで銀河で見てきたどんなものとも異なる。その細胞に影響を及ぼすものはほとんどなく、特殊な病原体が数少ない例外のようだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 1,
+          "source_segment": "It appears to be exceptionally absorbent, allowing the majority of a X'is radioaction to not spill out from its body and instead be reabsorbed and used to further fuel the core.",
+          "old_machine_translation": "吸収性が非常に高く、Xの放射能の大半は体からこぼれ出さず、吸収されて核をさらに燃料に利用する。",
+          "repaired_translation": "極めて吸収性が高いようで、ザイが放つ放射線の大半を体外へ漏らさず、再吸収してコアのさらなる燃料として使えるようにしている。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 2,
+          "source_segment": "The X'i seem to be able to generate these bulbs on demand (so to speak...it's actually a somewhat disgusting process that is entirely too reminiscent of defecating) and use them to physically transport their bodies!",
+          "old_machine_translation": "X'iは、これらの電球をオンデマンドで生成できるようです(つまり、実際には、排便を思い起こさせるような少々嫌なプロセスです)。",
+          "repaired_translation": "ザイは、この球状の器官を必要に応じて作り出せるようだ。そう言うと聞こえはよいが、実際は排泄をあまりにも強く連想させる、少々気味の悪い過程である。そして、それを使って自分の体を物理的に移動させるのだ！",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 3,
+          "source_segment": "Another of their innate capabilities is in forming wads of radioactive spore that a X'ian can physically lob.",
+          "old_machine_translation": "Another of their innate capabilities is in forming wads of radioactive spore that a X'ian can physically lob.",
+          "repaired_translation": "彼らに生まれつき備わる能力のひとつは、放射性の胞子を塊にし、それを自分の手で放り投げることだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 198,
+          "original_target_end": 237
+        },
+        {
+          "segment_index": 2,
+          "original_target_start": 697,
+          "original_target_end": 760
+        },
+        {
+          "segment_index": 3,
+          "original_target_start": 873,
+          "original_target_end": 982
+        },
+        {
+          "segment_index": 1,
+          "original_target_start": 1133,
+          "original_target_end": 1180
+        }
+      ]
+    },
+    {
+      "record_index": 7,
+      "asset": "codex/documents/randombook12.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "5e10d05b26944769995dcbecefabacc24cb11fdd0f24a2e58c8065fd33655d22",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "In the end I must rely on the judgment and standing of the few scientific leaders who have, on the one hand, sufficient independence of thought to weigh my data on its own hideously convincing merits or in the light of certain primordial and highly baffling myth-cycles; and on the other hand, sufficient influence to deter the exploring world in general from any rash and overambitious programme in the region of those mountains of madness.",
+          "old_machine_translation": "結局のところ、私は、自分のデータを、自身の不快に説得力のあるメリットや、特定の原始的で非常に困惑的な神話のサイクルの光に照らして、十分な独立性を持つ、少数の科学指導者の判断と地位に頼らざるを得ません。",
+          "repaired_translation": "結局、頼れるのは、ごく少数の科学界の指導者たちの判断と立場だけだ。一方では、私の資料が持つ恐ろしくも説得力のある証拠そのものや、太古の不可解な神話群に照らして資料を評価できる、十分に独立した思考が求められる。他方では、あの狂気の山々の一帯に対する、無謀で野心的すぎる計画から探検界全体を思いとどまらせるだけの影響力も必要なのだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 100
+        }
+      ]
+    },
+    {
+      "record_index": 8,
+      "asset": "codex/documents/networkguide.codex",
+      "path": "/contentPages/17",
+      "source_sha256": "9279db875a95519b4e17e3c7810bd94b7e2f7491cf3aab1a7f705cf19f8b1150",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Do Not create any sort of infinite back-and-forth loop that shifts the same items between the same containers unless you have a very good reason to do so. This can be a substantial source of lag.",
+          "old_machine_translation": "同じコンテナ間で同じアイテムを移動させる無限の前後ループのようなものを作成しないでください。",
+          "repaired_translation": "よほどの理由がない限り、同じアイテムを同じ容器の間で延々と往復させる、無限ループを作らないでください。大きな処理遅延の原因になります。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 58,
+          "original_target_end": 104
+        }
+      ]
+    },
+    {
+      "record_index": 9,
+      "asset": "codex/documents/ffguidepower.codex",
+      "path": "/longContentPages/2",
+      "source_sha256": "e76dab6870f514bd8b38152a4ffeba142293014c9e8eee63e0b24fdd15421235",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The most powerful generator in the game bar none, Precursor Reactors create phenomenal amounts of power but cannot be crafted, and are instead found in the abandoned colonies and factories of the extinct Precursors.",
+          "old_machine_translation": "ゲームバーで最も強力な発電機は、前駆反応器は驚異的な量の力を作り出しますが、作成することはできません。",
+          "repaired_translation": "ゲーム内で並ぶもののない最強の発電機、先駆者リアクターは、驚異的な電力を生み出します。ただし製作はできず、絶滅した先駆者たちが残した、放棄されたコロニーや工場で見つける必要があります。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 2878,
+          "original_target_end": 2929
+        }
+      ]
+    },
+    {
+      "record_index": 10,
+      "asset": "codex/documents/randombook15.codex",
+      "path": "/contentPages/3",
+      "source_sha256": "94b07acf5511e0cede743ac3cd9b901350eeb85c7cb1043ab357c98b3a113b03",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "But my shuttle is too damaged for anything but the laziest of evasions, I pray aloud that my ship won't be struck; the ablative plating already having been crumpled into a very expensive ball.",
+          "old_machine_translation": "でも、シャトルが破損しすぎて、一番遅延した避難船以外は、船がぶつからないように祈っています。",
+          "repaired_translation": "だが、シャトルは損傷がひどく、のろのろとした回避しかできない。船に命中しないでくれと、声に出して祈る。犠牲装甲は、既にひしゃげた、とてつもなく高価な塊になっていた。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 254,
+          "original_target_end": 300
+        }
+      ]
+    },
+    {
+      "record_index": 11,
+      "asset": "codex/elder/blackbook3.codex",
+      "path": "/contentPages/4",
+      "source_sha256": "5dd8cb020dc336a8706f2fb2fcee94a98598bddfbe52b8741d1e431a810b6ed8",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "of men are seen and surveyed by that Ancient Race of gods and demons from a time before time, and that they seek revenge for that forgotten battle that took place somewhere in the Cosmos and rent the Worlds in the days before the creation of Man, when the Elder Gods walked the Spaces, the race of MARDUK, as he is known to the Chaldeans, and of ENKI our master, the Lord of Magicians.",
+          "old_machine_translation": "人類の長老の神々は、彼がシャルドアンに知られているように、宇宙、マルドゥクの人種を歩いたとき、彼らは、宇宙のどこかで起こったその忘れられた戦いの復見を求め、人類の創造の前に世界を借りる。",
+          "repaired_translation": "人々の住まいは、時の始まる前から存在する古き神々と悪魔の種族に見られ、監視されている。彼らは、人類が創られるより前、宇宙のどこかで起こり、世界を引き裂いた忘れられた戦いの復讐を求めている。その頃、旧き神々は宇宙を歩んでいた。カルデア人がマルドゥクと呼ぶ者の一族、そして魔術師の王である我らが主、エンキの一族である。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 93
+        }
+      ]
+    },
+    {
+      "record_index": 12,
+      "asset": "codex/elder/blackbook3.codex",
+      "path": "/contentPages/6",
+      "source_sha256": "e92c33d6e2ce18d3a26da9764c8c7d70cfe074304dea0c0c2f57e212566c0a52",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "I have lived in the deserts and the wastelands, and spoken with demons and the souls of slaughtered men, and of women who have died in childbirth, victims of the she-fiend LAMMASHTA.",
+          "old_machine_translation": "私は砂漠や荒野に住んでおり、悪魔や虐殺された男性の魂、出産で死んだ女性の魂と話しました。",
+          "repaired_translation": "私は砂漠や荒野に住み、悪魔や、虐殺された男たちの魂、そして女悪魔ラマシュタの犠牲となり出産で命を落とした女たちの魂と語り合った。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 69,
+          "original_target_end": 113
+        }
+      ]
+    },
+    {
+      "record_index": 13,
+      "asset": "codex/biome/penumbrabiome2.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "f8d0ef03d493700775572c5b5e1aee421b6ac5bfee03c4e60f9f0cba2885338b",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "I think I'm going to start digging down into the ground, maybe board the exit off behind me. I don't want to get pulled into the jungle by some nasty beast or something.",
+          "old_machine_translation": "地面に潜り込み後ろの出口に乗っかってジャングルの中へいやな獣に引っ張られたくないんだ",
+          "repaired_translation": "地面を掘って下へ進み、後ろの出口を板でふさいでしまおうかと思う。嫌な獣か何かに、ジャングルの中へ引きずり込まれたくはない。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 126,
+          "original_target_end": 168
+        }
+      ]
+    },
+    {
+      "record_index": 14,
+      "asset": "codex/skath/skathcouncil.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "484990172d98553d09b4617f08412092c664bea03cd50a1a6349dc2e6baa0444",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "It is the only such form of government known in the cosmos (for how can only four dictate the course of an entire species?) but has maintained power over the Skath Imperium for at least two to three hundred years.",
+          "old_machine_translation": "宇宙で知られている唯一の政府形態であるが、少なくとも二年から三〇〇年間、スカース帝国の支配権を握っている。",
+          "repaired_translation": "宇宙で知られる限り、この形の政府は他にない。たった四人が、どうやって種族全体の進む道を決められるというのか？ それでも、スカス帝国では少なくとも二百年から三百年、この体制が権力を維持してきた。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 55,
+          "original_target_end": 108
+        }
+      ]
+    },
+    {
+      "record_index": 15,
+      "asset": "codex/skath/skathhistory4.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "abe89672f3151ace9081df392e42608fc39bf8605012ec5ffdfc085401072b4d",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "We are, on the other hand, the most capable undersea species there is and our own architectural style had an advantage: it was already designed for high pressure.",
+          "old_machine_translation": "一方、私たちは最も有能な水中生物種であり、独自の建築スタイルには利点がありました。",
+          "repaired_translation": "一方、我々は水中で最も優れた能力を持つ種族だ。我々独自の建築様式にも利点があった。元から高い水圧に耐えられる設計だったのだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 60,
+          "original_target_end": 101
+        }
+      ]
+    },
+    {
+      "record_index": 16,
+      "asset": "codex/legacy_codex/fugreenfingercodexmethods.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "3a388bc7995760d332f00cdd0feff236795af19a2181b815c849599e282e4e92",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Atheist Avians who require punishment are dipped in a vat of tar-like liquid, which solidifies over their feathers, turning their plumage into what is essentially stone.",
+          "old_machine_translation": "無神論者のアヴィア人は、罰を必要とし、その羽を固め、羽を石に変え、タール状の液体に浸す。",
+          "repaired_translation": "罰せられる無神論者のエイビアンは、タールのような液体を満たした槽に浸される。液体は羽を覆って固まり、その羽毛を実質的な石へと変えてしまう。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 44
+        }
+      ]
+    },
+    {
+      "record_index": 17,
+      "asset": "codex/documents/randombook12.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "6fbca0537f21e33ec02521910f2c24ef3e6036733b32dc5933fa885a784e753d",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "It is altogether against my will that I tell my reasons for opposing this contemplated invasion of the antarctic with its vast fossil-hunt and its wholesale boring and melting of the ancient ice-cap—and I am the more reluctant because my warning may be in vain.",
+          "old_machine_translation": "広大な化石狩りと、古代の氷冠の卸売りの退屈と融解で、南極にこの熟考された侵略に反対する私の理由を話すことは、私の意志に完全に反しています。",
+          "repaired_translation": "この計画された南極への侵入、すなわち大規模な化石探索や、古代の氷冠を広範囲に掘削・融解する事業に反対する理由を語るのは、まったく本意ではない。警告が無駄に終わるかもしれないと思えば、なおさら気が重い。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 44,
+          "original_target_end": 113
+        }
+      ]
+    },
+    {
+      "record_index": 18,
+      "asset": "codex/skath/skathhistory3.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "6b46c9ab6327b3ac68c95565f41109797f8ae384dc47c97fdbb63e782c0e9086",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "We know not why, nor how, but we were attempting to escape a raiding party of Volarian monsters and out of nowhere a squad of Underdwellers came from beneath the waves.",
+          "old_machine_translation": "私たちは理由も方法も知らないが、我々はヴォラリアンモンスターの襲撃隊を逃れようとしていた。",
+          "repaired_translation": "理由も、どうやって来たのかも分からない。だが、我々がヴォラリアンの怪物たちの襲撃隊から逃れようとしていた時、突然、アンダードウェラーの一隊が波の下から現れたのだ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 84,
+          "original_target_end": 129
+        }
+      ]
+    },
+    {
+      "record_index": 19,
+      "asset": "codex/skath/skathfallenfortress.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "0f7a01f49481aab3409b95301cb28c4b74337128326a83f3491caa334be51865",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "I suggest we find a way to encourage a war between these two species in order to reduce their surplus populations, lest we all suffer the consequences of unchecked growth.",
+          "old_machine_translation": "私は、これらの二つの種間の戦争を奨励して、余剰人口を減らす方法を見つけることをお勧めします。",
+          "repaired_translation": "この二種族の過剰な人口を減らすため、両者の戦争を促す方法を探すべきだと提案する。増加を放置すれば、その代償を我々全員が負うことになる。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 40,
+          "original_target_end": 86
+        }
+      ]
+    },
+    {
+      "record_index": 20,
+      "asset": "codex/documents/blank_template_codex.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "d410780c35ac41235adc1877922992306b7251ea9cebcdaf9516f682de169898",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.",
+          "old_machine_translation": "子犬です私は子犬嫌いですママは子犬嫌いですお母さんは子犬嫌いです子犬嫌いですお母さんは子犬嫌いです私は子犬嫌いですお母さんは子犬嫌いです私は子犬嫌いですお母さんは子犬嫌いですお母さんは子犬嫌いです私は子犬嫌いですお母さんは子犬嫌いです私は子犬嫌いです",
+          "repaired_translation": "子犬。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 1,
+          "source_segment": "Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.",
+          "old_machine_translation": "お母さんは子犬を嫌います私は子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです",
+          "repaired_translation": "あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。",
+          "issues": [],
+          "exact_matches_in_original": 3,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 2
+        },
+        {
+          "segment_index": 2,
+          "source_segment": "mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I",
+          "old_machine_translation": "母は子犬を嫌います私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌いです私は子犬を嫌いですあなたの母は子犬を嫌います私は子犬を嫌いです私は子犬を嫌いです私は子犬を嫌いです",
+          "repaired_translation": "お母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 3,
+          "source_segment": "puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text",
+          "old_machine_translation": "子犬ですママは子犬を嫌いですママは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌うテキストです",
+          "repaired_translation": "子犬。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は本文",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 4,
+          "source_segment": "hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am",
+          "old_machine_translation": "私は子犬を嫌うし私は子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌う私は子犬を嫌うママは子犬を嫌うママは子犬を嫌うママは子犬を嫌う私は子犬を嫌うママは子犬を嫌う",
+          "repaired_translation": "子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 5,
+          "source_segment": "am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header.",
+          "old_machine_translation": "母は子犬を嫌います私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌いです私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌いですあなたの母は子犬を嫌います私は子犬を嫌いですあなたの母は子犬を嫌いです私は子犬を嫌います私は子犬を嫌いです私は子犬を嫌いです私は母が子犬を嫌いです私は母が子犬を嫌いです私は母が子犬を嫌いです",
+          "repaired_translation": "見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        },
+        {
+          "segment_index": 6,
+          "source_segment": "header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates puppies.   And I am text under the header. Your mom hates",
+          "old_machine_translation": "ヘッダーですお母さんは子犬を嫌います私は子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いです私は子犬を嫌いですお母さんは子犬を嫌いですお母さんは子犬を嫌いです",
+          "repaired_translation": "見出し。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんは子犬が嫌いです。   そして私は見出しの下の本文です。 あなたのお母さんが嫌うのは",
+          "issues": [],
+          "exact_matches_in_original": 2,
+          "selected_nonoverlapping_matches": 2,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 6,
+          "original_target_start": 741,
+          "original_target_end": 906
+        },
+        {
+          "segment_index": 3,
+          "original_target_start": 907,
+          "original_target_end": 1061
+        },
+        {
+          "segment_index": 4,
+          "original_target_start": 1247,
+          "original_target_end": 1404
+        },
+        {
+          "segment_index": 2,
+          "original_target_start": 1633,
+          "original_target_end": 1787
+        },
+        {
+          "segment_index": 5,
+          "original_target_start": 1788,
+          "original_target_end": 1954
+        },
+        {
+          "segment_index": 1,
+          "original_target_start": 1955,
+          "original_target_end": 2102
+        },
+        {
+          "segment_index": 6,
+          "original_target_start": 2363,
+          "original_target_end": 2528
+        },
+        {
+          "segment_index": 0,
+          "original_target_start": 2529,
+          "original_target_end": 2654
+        }
+      ],
+      "full_validation_issues": []
+    },
+    {
+      "record_index": 21,
+      "asset": "codex/nightar/funightardoc2.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "315a8a2f6d55e85c166b98d2dbc51fefba267500b80d41a476ef454dab0bd93b",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "This tome details the importance of swords among the Nightar people, circa their Classical era (dated to approximately 2,300 years ago) up to their Imperial era (1,223 years).",
+          "old_machine_translation": "古典時代の近世における刀の重要性を詳述する。 2,300 数年前)帝国時代まで1,223 はい)",
+          "repaired_translation": "この書物は、ナイターの人々にとっての剣の重要性を、古典時代の頃（およそ2,300年前）から帝国時代（1,223年前）まで、詳しく記している。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 48
+        }
+      ]
+    },
+    {
+      "record_index": 22,
+      "asset": "codex/mantizi/mantizi5.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "7c6ce46ba8238800efed00a039299d2d957d6b105cfe38dc2991f724585e73ff",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Our ancestors developed the plasmic-formed zerchesium spears to be perfect all-purpose weapons, and we shame them by forgetting what was sacrificed in their invention.",
+          "old_machine_translation": "私たちの祖先は、プラズミックな形をしたザルチウムスピアーを完璧な万能武器として開発しました。",
+          "repaired_translation": "我らの祖先は、プラズマで成形したゼルケシウムの槍を、完璧な万能武器として開発した。その発明のために何が犠牲になったのかを忘れることは、祖先への侮辱だ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 69,
+          "original_target_end": 115
+        }
+      ]
+    },
+    {
+      "record_index": 23,
+      "asset": "codex/skath/skathfortress.codex",
+      "path": "/contentPages/3",
+      "source_sha256": "65a7880546d5c2a3952a8e729c5800c1e36d99299844f09c6f3d3cf847a3b953",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The sheer size and weight of the Skathian armed forces in the current age is beyond reckoning, and through their presence alone the League of Non-Aligned Worlds has become a contender alongside the Protectorate.",
+          "old_machine_translation": "現在のスカース軍の規模と重量は想像を超えており、彼らの存在だけで、非同盟世界連盟は保護国と並んで競争するようになった。",
+          "repaired_translation": "現代のスカス軍の規模と戦力は計り知れない。その存在だけで、非同盟惑星連盟は、プロテクターに並ぶ勢力となっている。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 59
+        }
+      ]
+    },
+    {
+      "record_index": 24,
+      "asset": "codex/nightar/funightarhistory3.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "677b8919345e09f91225996e309ad1d596051a4eb7a04021957ea78a66599883",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Conventional belief is that 'She' (whoever this might be is unknown) is responsible for their 'Gift of Shadow' and bestows upon their people the very ability to speak with the darkness of the void.",
+          "old_machine_translation": "従来は「彼女は誰であろうと」が「影の贈り物」に責任を持ち、空虚な暗闇の中で話す能力を与えていると信じられていた。",
+          "repaired_translation": "一般には、「彼女」が彼らの「影の賜物」の源であり、虚空の闇と語り合う能力そのものを人々に授けると信じられている。ただし、その「彼女」が何者なのかは分かっていない。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 80,
+          "original_target_end": 136
+        }
+      ]
+    },
+    {
+      "record_index": 25,
+      "asset": "codex/nightar/funightarhistory6.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "cabccba05df72da6b7a2e8df8a7436c890e4e7d6f35d2882ba52064522ce7bb8",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "to this hole moving across the heavens to shine upon the world below, there would be a concentrated beam of light that could quite literally scorch entire regions on a seasonal basis.",
+          "old_machine_translation": "天の向こうを移動して下の世界に光を当てるこの穴に集中した光線がある文字通り季節ごとに地域全体を火傷させる",
+          "repaired_translation": "その穴が天空を横切り、下の世界を照らすようになれば、集中した光線によって、季節ごとに地域全体が文字どおり焼き尽くされることもあるだろう。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 52
+        }
+      ]
+    },
+    {
+      "record_index": 26,
+      "asset": "codex/dungeons/apexunderwaterlabs3.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "20f3180e3eb496b1531ee1c0caaf4fc20fb11354036e17bb4c0772c808f34eed",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "In taste test #398, the subject was unable to distinguish between the taste of real banana (for a value of real, anyway) and that of 'I can't believe it's not banana!' banana-flavoured substitute.",
+          "old_machine_translation": "テイストテスト#398では、本物のバナナの味と「バナナじゃないとは信じられない!」バナナの味を区別できなかった。",
+          "repaired_translation": "味覚試験#398では、被験者は、本物のバナナ（何をもって本物とするかはさておき）の味と、「これがバナナじゃないなんて！」というバナナ風味の代用品の味を区別できなかった。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 56
+        }
+      ]
+    },
+    {
+      "record_index": 27,
+      "asset": "codex/shadow/shadow4.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "37f17fda23e6578dd8836c1732bca0f71169be278df6a474531196962f4e0a85",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Most think their Hive-like mental link is nothing more than a psionic connection that goes beyond all we know...but what if they are wrong and they are in fact communing with (or are pieces of) some massive and ancient power?",
+          "old_machine_translation": "殆どの人は、Hiveのようなメンタルリンクは、われわれが知る限りではありえないような、シソニックなつながりに過ぎないと思っている。",
+          "repaired_translation": "大半の人は、彼らの集合意識のような精神的つながりを、我々の理解を超えた超能力的な結び付きにすぎないと考えている。だが、それが誤りで、実際には巨大で古い何らかの力と交信している、あるいはその力の一部なのだとしたら？",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 30,
+          "original_target_end": 95
+        }
+      ]
+    },
+    {
+      "record_index": 28,
+      "asset": "codex/elder/blackbook3.codex",
+      "path": "/contentPages/2",
+      "source_sha256": "ebcba0542eb8bc47acac800221e1f07cfa86547507b834d9bf20eac990af0493",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "And if I do not finish this task, take what is here and discover the rest, for time is short and mankind does not know or understand the evil that awaits it, from every",
+          "old_machine_translation": "そして、もし私がこの仕事を終えていないなら、ここに何があるのかをとって、残りの部分を発見しなさい。",
+          "repaired_translation": "もし私がこの仕事を終えられなければ、ここにある記録を受け取り、残りを解き明かしてほしい。時間は少なく、人類は自らを待ち受ける邪悪を知らず、理解もしていない。それは、ありとあらゆる……",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 99,
+          "original_target_end": 148
+        }
+      ]
+    },
+    {
+      "record_index": 29,
+      "asset": "codex/missions/extraavianhydro3.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "042124352365079c163b81506b04d07b7596ed44a8d2af2440cc6fd21f9aae76",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Its construction is the primary goal of this facility, and now that it is completed, we hope to see implementation in the next few years in addition to other beam weapons.",
+          "old_machine_translation": "建設は本施設の主要目標であり、完成しましたので、今後数年で他のビーム兵器以外にも実装が期待されます。",
+          "repaired_translation": "その建造が、この施設の第一の目的だった。完成した今、他のビーム兵器とともに、今後数年のうちに実用化されることを期待している。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 50
+        }
+      ]
+    },
+    {
+      "record_index": 30,
+      "asset": "codex/documents/randombook12.codex",
+      "path": "/contentPages/3",
+      "source_sha256": "69d85ef210968ae396be7c0716e5cce47e8d45c8163c119baaf1bbac22bd2748",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "my associates, connected only with a small university, have little chance of making an impression where matters of a wildly bizarre or highly controversial nature are concerned.",
+          "old_machine_translation": "私の仲間は小さな大学としか繋がりません非常に奇妙で物議を醸す性質の問題に気を配る機会はほとんどありません",
+          "repaired_translation": "小さな大学に所属するにすぎない私の仲間たちの言葉は、ひどく奇怪な事柄や、激しい論争を呼ぶ問題についてとなると、世間に響く見込みがほとんどない。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 52
+        }
+      ]
+    },
+    {
+      "record_index": 31,
+      "asset": "codex/radien/radien4.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "dd13d781f720061c1272d967dcc38e8289648bbe0e668bf15c751e6d4820865c",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The actual sounds of their conversation appear to be a curious evolution in their outer shells: When they wish to verbalise sound a thin membrane on the underside of this skin vibrates at ultra-fast frequencies and creates a sound.",
+          "old_machine_translation": "会話の実際の音は、外殻の不思議な進化のようです。音を話したいとき、この皮膚の裏側にある薄い膜が超高速の周波数で振動し、音を作り出します。",
+          "repaired_translation": "会話の音は、彼らの外殻が遂げた奇妙な進化によって生まれるようだ。声を発しようとすると、その皮膚の裏側にある薄い膜が極めて高い周波数で振動し、音を生み出す。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 0,
+          "original_target_end": 68
+        }
+      ]
+    },
+    {
+      "record_index": 32,
+      "asset": "codex/radien/radien4.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "590f363f3f44200d4c7e34384690efeba1f501eef4c8784e09db4d45bbf844d5",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The actual sounds of their conversation appear to be a curious evolution in their outer shells: When they wish to verbalise sound a thin membrane on the underside of this skin vibrates at ultra-fast frequencies and creates a sound.",
+          "old_machine_translation": "会話の実際の音は、外殻の不思議な進化のようです。音を話したいとき、この皮膚の裏側にある薄い膜が超高速の周波数で振動し、音を作り出します。",
+          "repaired_translation": "会話の音は、彼らの外殻が遂げた奇妙な進化によって生まれるようだ。声を発しようとすると、その皮膚の裏側にある薄い膜が極めて高い周波数で振動し、音を生み出す。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 169,
+          "original_target_end": 237
+        }
+      ]
+    },
+    {
+      "record_index": 33,
+      "asset": "codex/radien/radien2.codex",
+      "path": "/contentPages/0",
+      "source_sha256": "71016ed252cb085f84edbda4f7d20f6bbd05b955d8988ee45b42785c32cad6ef",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The name is disputed, though Kenvik Raeis (noted scholar of some repute, having literally written the book on inter-species relations in the Protectorate) believes its name translates to 'Xuveh'.",
+          "old_machine_translation": "この名称は議論されているが、ケンヴィク・ライスは「Xuveh」という名前は「Xuveh」と翻訳されていると信じている。",
+          "repaired_translation": "名称には議論があるが、ケンヴィク・ライスは、その名を訳すと「Xuveh」になると考えている。彼は相応に名の知れた学者で、プロテクターにおける種族間関係について、文字どおりその分野の書物を著した人物だ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 121,
+          "original_target_end": 180
+        }
+      ]
+    },
+    {
+      "record_index": 34,
+      "asset": "codex/radien/radien2.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "e28ffe6b5d3c1079a06394a879b93290feb6fb1a9b84c5e3c6da40daf3157c67",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The name is disputed, though Kenvik Raeis (noted scholar of some repute, having literally written the book on inter-species relations in the Protectorate) believes its name translates to 'Xuveh'.",
+          "old_machine_translation": "この名称は議論されているが、ケンヴィク・ライスは「Xuveh」という名前は「Xuveh」と翻訳されていると信じている。",
+          "repaired_translation": "名称には議論があるが、ケンヴィク・ライスは、その名を訳すと「Xuveh」になると考えている。彼は相応に名の知れた学者で、プロテクターにおける種族間関係について、文字どおりその分野の書物を著した人物だ。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 121,
+          "original_target_end": 180
+        }
+      ]
+    },
+    {
+      "record_index": 35,
+      "asset": "codex/documents/agarans.codex",
+      "path": "/longContentPages/0",
+      "source_sha256": "ffbe314a8d2afd5ed92c4420042e929db76862d9fa00452df323125ae7179e7d",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "- The spores emitted from an Agaran are able to track sources of warm moisture (especially blood) from several kilometers away and use wind to reach their target.",
+          "old_machine_translation": "-アガランから放出される胞子によって、数キロ先から温水(特に血液)を追跡し、風を使って目標に達する。",
+          "repaired_translation": "- アガランが放つ胞子は、数キロメートル離れた場所からでも、温かい水分、特に血液の発生源を追跡し、風に乗ってその標的へ到達できる。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 619,
+          "original_target_end": 669
+        }
+      ]
+    },
+    {
+      "record_index": 36,
+      "asset": "codex/kirhos/kirhos6.codex",
+      "path": "/contentPages/4",
+      "source_sha256": "90aaa09a0886753f37446388acd8f236bf0dac5e5027a3efbd7e1a0bff4ccb68",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "The Kirhos do not see any reason they can't bargain with the universe itself, and are slowly accumulating their wealth toward the time when they can trade their smaller coins for one that will take them to this new goal.",
+          "old_machine_translation": "カーロは宇宙そのものと交渉できない理由を何も見ていないし、小さな硬貨を新しい目標に向かって取引できる時代に向けて徐々に富を蓄積している。",
+          "repaired_translation": "キルホスは、宇宙そのものと取引できない理由などないと考えている。小さな硬貨を、この新しい目標へと導く一枚に換えられる時に備え、ゆっくりと富を蓄えている。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 52,
+          "original_target_end": 120
+        }
+      ]
+    },
+    {
+      "record_index": 37,
+      "asset": "codex/pharitu/pharitu2.codex",
+      "path": "/contentPages/1",
+      "source_sha256": "4d98a50e9e458df199524f06eea969e2ab6790fbd46ea376c4dc196f3278abb2",
+      "segments": [
+        {
+          "segment_index": 0,
+          "source_segment": "Over the course of only a few thousand years, they begin to exhibit unusual capabilities that have thus far not been replicated by any known creatures in the galaxy.",
+          "old_machine_translation": "わずか数千年の間に、彼らはこれまで銀河内の既知の生物によって複製されていない珍しい能力を示し始めます。",
+          "repaired_translation": "わずか数千年のうちに、彼らは特異な能力を示し始める。これまで銀河で知られるどの生物も、同じ能力を再現したことはない。",
+          "issues": [],
+          "exact_matches_in_original": 1,
+          "selected_nonoverlapping_matches": 1,
+          "overlaps_with_other_flagged_segments": 0
+        }
+      ],
+      "unresolved": [],
+      "full_validation_issues": [],
+      "status": "repaired",
+      "replacement_strategy": "Single-pass longest exact matching on original target; overlapping repeated template fragments favor the longer flagged span.",
+      "replacement_spans": [
+        {
+          "segment_index": 0,
+          "original_target_start": 36,
+          "original_target_end": 87
+        }
+      ]
+    }
+  ],
+  "validation_helper": "Current tools/build.py check_translation, including current numeric and newline rules"
+}

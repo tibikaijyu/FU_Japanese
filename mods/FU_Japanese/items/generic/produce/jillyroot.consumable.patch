@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Heal 30^reset;: 2s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力を30回復^reset;：2秒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jilly Root"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジリー・ルート"
+    }
+  ]
+]

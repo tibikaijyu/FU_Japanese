@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Examine things really, really close up."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物事を詳しく調べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electron Microscope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電子顕微鏡"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Inspect Bees & Items"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "ミツバチの検査とアイテム"
+    }
+  ]
+]

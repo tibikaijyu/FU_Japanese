@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior devastation that warps the fabric of spacetime.\n^cyan;Cosmic blasts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "時空の織物を反動させる優れた破壊。\n^cyan;コスミックブラスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Rocketlauncher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロケット発射装置"
+    }
+  ]
+]

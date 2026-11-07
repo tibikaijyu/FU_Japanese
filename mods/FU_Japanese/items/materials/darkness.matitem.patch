@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid darkness found in the Umbra... how?\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ウンブラで見つかった真っ暗闇...どうやって?\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssscary block."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "怖いブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Solid darkness?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 真っ暗?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Block of Darkness"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗黒のブロック"
+    }
+  ]
+]

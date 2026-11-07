@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ruin spawner."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スパウナーを壊す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Boss Right Spawner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボスの右側スポナー"
+    }
+  ]
+]

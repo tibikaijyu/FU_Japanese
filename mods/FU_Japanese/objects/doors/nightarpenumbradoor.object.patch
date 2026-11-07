@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A smooth and cool door made of Penumbral stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペヌブラル石製の滑らかでクールなドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbrite Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペンダンブライトドア"
+    }
+  ]
+]

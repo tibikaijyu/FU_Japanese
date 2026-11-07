@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harlequin Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハーレクイン・ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harlequin Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハーレクイン・ドローン"
+    }
+  ]
+]

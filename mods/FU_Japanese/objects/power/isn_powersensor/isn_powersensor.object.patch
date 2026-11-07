@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small sensor that displays power levels flowing into it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中に流れるパワーレベルを表示する小型センサー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Power Sensor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;パワーセンサ^reset;"
+    }
+  ]
+]

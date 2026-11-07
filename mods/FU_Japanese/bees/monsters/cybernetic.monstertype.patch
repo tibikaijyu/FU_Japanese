@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cybernetic bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイバネティックミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cybernetic Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サイバネティック・ビー"
+    }
+  ]
+]

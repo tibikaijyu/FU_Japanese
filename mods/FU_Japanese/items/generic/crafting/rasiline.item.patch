@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A holy gem to the Eld'uukhar. Produces severe hallucinations when consumed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルドゥーカーの聖なる宝石。 消費されると重度の幻覚を生じる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rasiline Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラジリン結晶"
+    }
+  ]
+]

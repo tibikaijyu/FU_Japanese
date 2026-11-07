@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavier sort of rapier. Nastily sharp along both edges."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重い種類のラピア。 両端に沿って素直に鋭い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scarlet Empress"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤穂皇后"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It patiently waits for an opportunity to strike, watching its prey with its many eyes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "忍耐強く、多くの目で獲物を見て、ストライキする機会を待ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aliep"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寝る"
+    }
+  ]
+]

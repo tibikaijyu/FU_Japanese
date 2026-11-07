@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Precursor teleporter door. Whatever lurks behind it is unknowable.\n^blue;Input 1^reset;: Lock\n^blue;Input 2^reset;/^red;Output^reset;: Door connections"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "先駆的なテレポータードア。 背後に潜んでいるものは、何であれ分からない。\n^blue; 入力 1^reset; ロックします。\n^blue;入力2^reset;/^red;出力^reset;:ドア接続"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Background Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "背景ドア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft, pliable fungus\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "軟質・軟質真菌\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shroom Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シュルームウォール"
+    }
+  ]
+]

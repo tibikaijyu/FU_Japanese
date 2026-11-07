@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Volt Corn"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トウモロコシ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volt Corn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トウモロコシ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Uses wind to generate electricity. Can be unreliable, but exceptional when you have ample wind. Can generate up to ^orange;12W^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "風を使って発電する。 信頼できないかもしれませんが、十分な風がある場合は例外的です。 ^orange;12W ^reset; まで生成できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Wind Turbine^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;風力タービン^reset;"
+    }
+  ]
+]

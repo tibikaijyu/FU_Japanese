@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Liquid crystal soda. For the discerning X'i.\n^cyan;+^white;2% ^cyan;Crit Chance^gray;, ^white;13m20s ^cyan;Breathing Time ^gray;(^white;40s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液晶ソーダ。 シー の名称。\n^cyan;+^white;2% ^cyan;クリティカルチャンス^gray;, ^white;13え?20ス) ^cyan;呼吸時間 ^gray;(^white;40ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Cola"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリスタル・コーラ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cells that glow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光る細胞。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bioluminescent"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生物発光"
+    }
+  ]
+]

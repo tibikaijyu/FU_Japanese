@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burns with volcanic rage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山の怒りで燃える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地獄ナイフ"
+    }
+  ]
+]

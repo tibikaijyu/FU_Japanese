@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pure, untarnished soil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋な、未舗装の土壌。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chromatic Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "色汚れ"
+    }
+  ]
+]

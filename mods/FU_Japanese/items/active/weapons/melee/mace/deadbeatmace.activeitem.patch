@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dense, deadly and heavy.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重厚で重たい。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンクメイス"
+    }
+  ]
+]

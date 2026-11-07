@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Damage x1.3^reset;: 1m\n^yellow;^reset;^cyan;Immune^reset;: Insanity: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan; 損傷 x 1.3^reset; : 1\n^yellow;^reset;^cyan;無効化^reset;:狂気:3m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glarestalk Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グレアストークアイ"
+    }
+  ]
+]

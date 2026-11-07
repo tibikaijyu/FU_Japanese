@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An indispensable item for a X'i.\n^green;Heal ^white;100 ^gray;(^white;1s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シーにとって不可欠なアイテムです。\n^green;癒し ^white;100 ^gray;(^white;1ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reactive Gel III"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "反応性ゲルIII"
+    }
+  ]
+]

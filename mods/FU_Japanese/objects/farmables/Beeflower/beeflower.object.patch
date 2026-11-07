@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The seed of a bright yellow beeflower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明るい黄色のミツバチの花の種"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beeflower Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチの種"
+    }
+  ]
+]

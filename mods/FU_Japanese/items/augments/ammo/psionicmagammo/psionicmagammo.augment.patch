@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Psionic Charge"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "生理料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can contain enough energy for up to 30 uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "30 まで使用できる十分なエネルギーを収容できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Overload Focus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オーバーロードフォーカス"
+    }
+  ]
+]

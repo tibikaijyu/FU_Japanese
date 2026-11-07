@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a cactus field."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域をサボテンのフィールドに変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cactus Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サボテンマイクロフォーマー"
+    }
+  ]
+]

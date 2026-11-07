@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You've made an ol' Novakid happy today. Thanks so much, friend. Take this unusual stone I found as a thanks. It looks valuable."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "年老いたノヴァキッドを喜ばせてくれて、ありがとうよ。お礼に、見つけたこの変わった石を持っていってくれ。高く売れそうだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Craft a ^green;Mining Laser^reset; at a ^orange;Tinkering Table^reset; and return."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;採掘レーザー^reset;を^orange;改造作業台^reset;で作って戻る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've heard of some fancy stuff in my day, but I'd most like ta see me a ^orange;Mining Laser^reset; 'afore I die. I heard you kin make one in a ^orange;Tinkering Table^reset;. That's ^orange;Researched^reset; in the ^orange;Engineering^reset; sciences."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "これまでいろんな新しい物の話を聞いてきたが、死ぬ前に一番見てみたいのは^orange;採掘レーザー^reset;だ。^orange;改造作業台^reset;で作れるそうだな。^orange;研究^reset;メニューの^orange;工学^reset;で学ぶんだったか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Homestead V"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "田舎暮らし V"
+    }
+  ]
+]

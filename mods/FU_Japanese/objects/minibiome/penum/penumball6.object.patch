@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I wonder what causes it to glow?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光る原因は何なんだろう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumball Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペナムボール"
+    }
+  ]
+]

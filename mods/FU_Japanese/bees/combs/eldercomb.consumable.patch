@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Laced with unusual chemicals. Extremely psychotropic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい化学物質でレース。 極めて向精神的。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rotcomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤穂"
+    }
+  ]
+]

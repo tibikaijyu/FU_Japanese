@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stellar Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星型ドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stellar Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "星型ドローン"
+    }
+  ]
+]

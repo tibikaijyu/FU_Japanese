@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A energy wood rack full of fairly dull iron swords."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり鈍い鉄剣でいっぱいのエネルギーウッドラック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Rack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドラック"
+    }
+  ]
+]

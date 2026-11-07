@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avali tent fabric can stop bullets!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アバリテントファブリックは弾丸を止めることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tent Fabric"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テント生地"
+    }
+  ]
+]

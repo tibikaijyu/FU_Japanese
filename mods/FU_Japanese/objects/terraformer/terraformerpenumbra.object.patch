@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Penumbra biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候をペヌムブラの生物群に変化させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbra Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "半影テラフォーマー"
+    }
+  ]
+]

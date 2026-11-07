@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dry, fertile soil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乾燥した肥えた土壌。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jungle Dirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャングルダート"
+    }
+  ]
+]

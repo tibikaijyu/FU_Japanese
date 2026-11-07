@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Ancient technology has led me to devise a ^orange;armored distortion sphere^reset;! It should provide ^orange;20 units of armor^reset; when active."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "古代の技術は ^orange;装甲歪球^reset;! アクティブ時は ^orange;20 のアーマー単位 ^reset; を提供する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Ancient technology has led me to devise a ^orange;armored distortion sphere^reset;! It should provide ^orange;20 units of armor^reset; when active."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "古代の技術は ^orange;装甲歪球^reset;! アクティブ時は ^orange;20 のアーマー単位 ^reset; を提供する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ball of Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "武具玉"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Insulated on the inside to keep your face warm!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "内側に断熱されて、顔を暖かく保ちます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Winterbop Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウィンターボップマスク"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You don't get much jumpier than this!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あなたはこれよりそれほどジャンプしません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A few tweaks to this implant and I can adjust gravities effect on the user!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "このインプラントを少し調整すれば、ユーザーへの重力効果を調整できます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Flutter Jump I"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "羽ばたきジャンプ I"
+    }
+  ]
+]

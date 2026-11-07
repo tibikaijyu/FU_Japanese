@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates water better than a Well. Stores up to 1000 water. Less effective when stacked. Scan for Info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "井戸より水をもっとよく生成する。 1000水まで保存します。 積み上げても効果がありません。 情報 をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水生成機"
+    }
+  ]
+]

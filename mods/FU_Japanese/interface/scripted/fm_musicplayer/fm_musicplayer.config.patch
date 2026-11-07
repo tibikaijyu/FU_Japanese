@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/search/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/search/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/settings/children/labelLabel/value",
+      "value": "Toggle current track label above object"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/settings/children/labelLabel/value",
+      "value": "オブジェクトの上の現在のトラックラベルを切り替えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/settings/children/rangeLabel/value",
+      "value": "Select music player range (Default is 30)"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/settings/children/rangeLabel/value",
+      "value": "音楽プレーヤーの範囲を選択します。 30)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/settings/children/rangeSublabel/value",
+      "value": "^red;This setting only applies to this specific music player, and not to every other one its wired to."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/settings/children/rangeSublabel/value",
+      "value": "^red; この設定は、この特定の音楽プレーヤーにのみ適用されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/titleSubtext/value",
+      "value": "Frackin' Music Player"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/titleSubtext/value",
+      "value": "音楽プレーヤーのFrackin"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/titleText/value",
+      "value": "Select an album"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/titleText/value",
+      "value": "アルバムを選択します。"
+    }
+  ]
+]

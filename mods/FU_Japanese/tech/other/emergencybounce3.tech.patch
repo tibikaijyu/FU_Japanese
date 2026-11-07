@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reduced bouncyness. Quite useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "弾力性の低下。 かなり便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Emergency Bounce MK2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "緊急バウンスMK2"
+    }
+  ]
+]

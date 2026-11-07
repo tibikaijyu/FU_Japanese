@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful two-handed sword with neat techy bits."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巧妙なビットを持つ力強い両手剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tek Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テックブレード"
+    }
+  ]
+]

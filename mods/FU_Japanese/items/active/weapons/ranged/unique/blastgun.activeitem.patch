@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A really dangerous sort of shotgun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本当に危険なショットガンだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rendergun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レンダーガン"
+    }
+  ]
+]

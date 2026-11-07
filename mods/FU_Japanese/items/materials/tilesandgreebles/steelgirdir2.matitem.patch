@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strong metallic support."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力な金属サポート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "補強桁"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Exceptional work. That was no simple feat!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい仕事。 それは単純な偉業ではなかった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Find the ^orange;Relic Shield^reset; carried by an ^orange;Aberrant Sentry^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange; 遺物 盾 ^reset; ^orange; 異常な番兵 ^reset; によって運ばれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Find and kill an ^orange;Aberrant Sentry^reset; in an ancient ruin."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "古代遺跡で^orange;異常な番兵^reset;を見つけて殺します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Aberrant Sentry [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "異常な番兵[BOSS]"
+    }
+  ]
+]

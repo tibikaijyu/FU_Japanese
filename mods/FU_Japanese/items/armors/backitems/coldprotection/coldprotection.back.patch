@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+20% Ice Resist. Useful on ^cyan;mildly cold^reset; planets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+20% 氷抵抗。 ^cyan;やや寒い ^reset; 惑星で便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heating EPP"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "加熱EPP"
+    }
+  ]
+]

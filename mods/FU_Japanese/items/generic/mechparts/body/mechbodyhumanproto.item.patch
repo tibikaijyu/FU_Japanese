@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Tropical/Desert Heat, Mild Poison, Chill"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 熱帯・砂漠熱, 軽毒, 冷え性"
+    }
+  ]
+]

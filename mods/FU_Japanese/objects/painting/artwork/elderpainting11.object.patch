@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, enormous beast lumbers into the sea."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な、巨大な獣の木材が海に入ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Sea Thing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "海の事"
+    }
+  ]
+]

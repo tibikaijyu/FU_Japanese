@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Primary^reset;: Check Status\n^yellow;Secondary^reset;: Quest Menu\n^green;Shift + Primary^reset;: Research Tree\n^orange;Shift + Secondary^reset;: Configure MM"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;通常操作 ^reset;: ステータスを確認します。\n^yellow;副操作^reset;: クエストメニュー。\n^green;Shift+通常操作^reset;:研究ツリー\n^orange;Shift + 副操作 ^reset;: MM を設定します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Personal Tricorder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "個人用トライコーダー"
+    }
+  ]
+]

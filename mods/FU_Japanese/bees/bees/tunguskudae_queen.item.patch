@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tunguskudae Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タングステンクダエ女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tunguskudae Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンクダエ女王"
+    }
+  ]
+]

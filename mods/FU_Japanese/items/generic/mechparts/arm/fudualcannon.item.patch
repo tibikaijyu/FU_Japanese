@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutally dangerous chaingun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残酷に危険なチェーンガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Devastator Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デバスター・メカアーム"
+    }
+  ]
+]

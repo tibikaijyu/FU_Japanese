@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chitin-plated end table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キチンメッキされたエンドテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian End Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンエンドテーブル"
+    }
+  ]
+]

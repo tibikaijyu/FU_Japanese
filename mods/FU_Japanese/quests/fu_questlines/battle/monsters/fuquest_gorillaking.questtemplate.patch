@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "One down...thousands to go. But it's a start. If you see any more...end their suffering."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "一〇〇〇ドルだ しかし、それは始まりです。 これ以上見るなら... 苦しみを終わらせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Claws^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;爪 ^reset; を ^orange;科学前哨基地^reset; に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Not long ago, the abominable Miniknog perfected a warrior variant of their genome. It must be stamped out! Kill one of the ^orange;Apex War-Born^reset; and you'll be rewarded."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "つい最近になって、The ミニノグは彼らのゲノムの戦士の変種を完成させました。 それはスタンプアウトする必要があります! ^orange;エイペックス War-Born ^reset; のいずれかを殺すと報酬が与えられます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The War-Born [BOSS]"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "戦争生まれ[ボス]."
+    }
+  ]
+]

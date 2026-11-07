@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hot omelette made with rice and topped with ketchup."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "米とケチャップで作った熱いオムレツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "This rice is cooked with sssavory meats!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "このお米は、旨みのある肉で炊きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Delighted. This rice is so savory by itself, that the omelette feels almost secondary."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "楽しい。 このお米はそれ自体がとてもおいしいので、オムレツはほとんど二次的な感じがします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A simple, hearty omelette. Can't be beat."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "シンプルで心強いオムレツ。 勝てない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Omurice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "おむり"
+    }
+  ]
+]

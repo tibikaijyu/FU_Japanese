@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "SPECIMEN REPORT #33621A\n\nSpecimen J-11 is an engima to us all, and that's exactly what makes it so promising as a bioweapon. We discovered, almost by accident, that it had the ability to spew fire and extrude spikes from its torso and shoulders the other day. At least, we THINK they're shoulders. Standard condolences letters have been dispatched to the appropriate families."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "サンプルレポート#33621A。\n\n標本J-11は私たち全員にとってエンジマであり、それがバイオ武器として非常に有望である理由です。 偶然にも、この間、火を吹き、その胴体や肩から突出する力があることが判明した。 少なくとも、彼らは肩だと思います。 標準お見舞い手紙が適切な家族に発送されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "We've ordered maximum containment measures for J-11. There will be no repeat of what happened at Zeta Cygnus II. Enough time and money have already been wasted on setbacks and unfortunate incidents; senior management wants results, and soon. These results are already in sight, but we need to be careful."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "J-11 の最大封じ込め対策を発注しました。 Zeta Cygnus IIで何が起こったのかは、繰り返しません。 すでに十分な時間とお金が、失敗や不幸なインシデントに浪費されています。 これらの結果は既に確認されていますが、注意が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "The most promising - and alarming thing about J-11 is that all of its lifesigns appear to point to the fact that there is something else growing in this monstrous creature - that this beast appears to be a mere chrysalis, and that once whatever it is has fully matured, it will emerge from the lifeless husk in an act of ecdysis. Further examination is definitely warranted."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "J-11について最も有望で、心配なことは、その生命の兆候のすべてが、この怪獣に他の何かが成長しているという事実を示しているように見えることです。この獣は単なる菊のように見える、そしてそれが完全に成熟すると、それは死の行為で命のない殻から現れます。 さらなる検査は確実に保証される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A document stamped with the logo of the Letheia Corporation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レテリア社のロゴを刻印した書類です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Letheia Facility) Specimen Report"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(レテア施設)試験報告"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Insanely fast. Really damned annoying."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごい速さだ。 本当に迷惑です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chromabot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クロマボット"
+    }
+  ]
+]

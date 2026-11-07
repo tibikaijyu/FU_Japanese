@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Improved jump and speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプとスピードを改善しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Falcon II Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファルコンII"
+    }
+  ]
+]

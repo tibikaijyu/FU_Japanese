@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Pyramid Edge for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のアヴィアンピラミッドエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Pyramid Edge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアン・ピラミッドの端"
+    }
+  ]
+]

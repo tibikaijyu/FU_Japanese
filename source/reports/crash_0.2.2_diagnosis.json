@@ -1,0 +1,39 @@
+{
+  "log_filename": "starbound(1).log",
+  "log_sha256": "7af8b60c178216801924ab6c2b862eade6207d1949d25d558b50b3623ef8e331",
+  "fatal_exception": {
+    "line": 186,
+    "type": "NameGeneratorException",
+    "message": "Unknown name source 'エルドゥカー・メス'",
+    "call_chain": [
+      "PatternedNameGenerator::processRule",
+      "PatternedNameGenerator::generateName",
+      "CharCreationPane::randomizeName",
+      "ButtonGroup::wasChecked",
+      "TitleScreen::handleInputEvent"
+    ]
+  },
+  "matching_old_patch": {
+    "file": "species/elduukharfemalenamegen.config.patch",
+    "path": "/names/1/1/0/source",
+    "original": "elduukharfemale",
+    "faulty_translation": "エルドゥカー・メス"
+  },
+  "load_order_observed": {
+    "fu_loaded_line": 85,
+    "translation_loaded_line": 95,
+    "fu_loaded_before_translation": true
+  },
+  "earlier_nonfatal_patch_failures": {
+    "source": "japanese.pak",
+    "occurrences": 6,
+    "log_continues_after_these": true
+  },
+  "observations": [
+    "The client had already joined the game before the recorded fatal exception.",
+    "The fatal exception arose through a character-creation button event.",
+    "The log proves an invalid female namesource ID was active. It does not identify the installed translation version or the reason obsolete data remained active."
+  ],
+  "repair": "Ship both original faulty patch filenames with empty JSON arrays so ordinary folder overwrite replaces their old contents.",
+  "runtime_tested": false
+}

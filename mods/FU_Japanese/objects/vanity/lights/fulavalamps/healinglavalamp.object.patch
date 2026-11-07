@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with healing water. It's soothing to watch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "癒しの水で満たされたランプ。 見るのも気持ちよさそうだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Healing Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒーリングラバランプ"
+    }
+  ]
+]

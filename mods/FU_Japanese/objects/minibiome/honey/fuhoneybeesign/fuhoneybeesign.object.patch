@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sign with a honeybee on it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチが乗った看板。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeybee Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミツバチの印"
+    }
+  ]
+]

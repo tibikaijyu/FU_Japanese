@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I have obtained the ultimate in Manipulator tech and bound it to my genetic code. I can mine nearly anything with the greatest of ease."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "私はマニピュレーター技術で究極のものを取得し、私の遺伝コードに結び付けました。 私はどんなことでも一番楽に鉱山を掘れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Repair the master manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "マスターマニピュレーターを修理します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The Master Manipulator is now mine. It seems that if I am to fully be able to use it, however, I'll first need to ^orange;repair it at a nanofabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "マスターマニピュレーターは私のものです。 完全に使えるようになれば、まずは^orange;ナノファブリケータ^reset;で修復する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Master Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "マスターマニピュレータ"
+    }
+  ]
+]

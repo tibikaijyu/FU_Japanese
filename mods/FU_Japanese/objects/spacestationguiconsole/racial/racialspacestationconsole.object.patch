@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A terminal used to interact with this space station."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この宇宙ステーションと対話するためのターミナル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Racial Space Station Terminal (random)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラジアル宇宙ステーションターミナル(ランダム)"
+    }
+  ]
+]

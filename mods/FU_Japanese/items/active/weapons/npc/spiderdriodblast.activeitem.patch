@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You shouldn't have this. Cheater."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こんなことしちゃダメだよ。 チーター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spider Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クモの爆風"
+    }
+  ]
+]

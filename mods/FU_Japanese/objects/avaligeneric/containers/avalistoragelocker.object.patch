@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A nice, spacious, wall-mounted storage solution."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素敵な、広々とした、壁に取り付けられたストレージソリューション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Storage Locker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストレージロッカー"
+    }
+  ]
+]

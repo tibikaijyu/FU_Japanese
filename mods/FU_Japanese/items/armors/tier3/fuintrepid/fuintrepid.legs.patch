@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;15^reset;% Knockback Resist^reset;\n^yellow;^reset; Striker, Hammer: +^green;2^reset;% Crit Chance, Damage x^green;1.2^reset;\n^yellow;^reset; Mountainous: +^green;12^reset;% Knockback Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;15^reset;% ノックバック抵抗^reset;\n^yellow;^reset; ストライカー、ハンマー:+^green;2^reset;% 危機的状況と被害x^green;1.2^reset;\n^yellow;^reset;山岳:+^green;12^reset;%ノックバック抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Intrepid Robes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇怪なロベス"
+    }
+  ]
+]

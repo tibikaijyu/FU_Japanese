@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A swift and dangerous radioactive blade.\n^cyan;Inflicts Rad-Burn^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "迅速かつ危険な放射性ブレード。\n^cyan;放射線熱傷 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラジウムラピッド"
+    }
+  ]
+]

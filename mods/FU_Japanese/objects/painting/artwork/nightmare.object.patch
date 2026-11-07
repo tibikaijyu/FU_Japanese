@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blood-hued landscape taken right out of a nightmare."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢から取り出した血色を帯びた風景。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Nightmare"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "悪夢"
+    }
+  ]
+]

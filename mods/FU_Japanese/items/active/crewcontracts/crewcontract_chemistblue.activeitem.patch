@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a chemist that boosts your jump power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプパワーを高める化学者を雇います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chemist-A Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "化学者 - 契約"
+    }
+  ]
+]

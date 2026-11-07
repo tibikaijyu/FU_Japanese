@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Serves no apparent function. What is it for?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目立たない機能。 それは何のためですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Device"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代の装置"
+    }
+  ]
+]

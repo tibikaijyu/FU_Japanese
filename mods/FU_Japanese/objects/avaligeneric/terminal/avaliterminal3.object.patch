@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This appears to be a public information terminal."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "これは、公開情報端末のようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "An information terminal, non-Avali users with information chits can use them to access to some Nexus databases."
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "情報端末、情報チップを持つ非アヴァリユーザーは、Nexusデータベースへのアクセスに使用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "It says 'information terminal' on it in Avos hieroglyphs!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "アヴォス象形文字で「情報端末」と書かれています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An information terminal with storage for physical data devices (and drinks cabinet)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物理データデバイス(およびドリンクキャビネット)用のストレージ付き情報端末です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "This sign mean good things inside to Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "この看板はフローランにとって良いことを意味します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprise. Look, it says 01101001 01101110 01100110 01101111 on it!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 見てください 01101001 01101110 01100110 01101111 こっちだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "'Public information terminal' in English that's helpful."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "英語で「公共情報端末」と書かれている。わかりやすいな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Informative Impending Death? I'm not sure the Avali have quite figured out the nuances of the Hylotl language yet."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "インフォマティブな差し迫った死? アヴァリがハイロトル言語のニュアンスを十分に理解しているかどうかはまだ分かりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Information Terminal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "情報端末"
+    }
+  ]
+]

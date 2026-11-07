@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick, layered cloth. +^green;10^reset;% Energy Regen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚手の層状の布。 +^green;10^reset;% エネルギー再生。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Draped Skirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドレイプスカート"
+    }
+  ]
+]

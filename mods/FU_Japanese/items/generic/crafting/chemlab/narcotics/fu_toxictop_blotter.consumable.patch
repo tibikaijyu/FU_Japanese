@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Weight : 1g^reset;.\n^blue;Madness Gain^reset; 3\n"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;重量:1g ^reset;。\n^blue;狂気の高まり^reset; 3\n"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxictop Blotter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒性ブロッター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Searing, deadly pyreite to kiss your enemies hides.\n^cyan;Inflicts Napalm^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの敵にキスする、致命的な火花が隠れています。\n^cyan;ナパーム^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Lance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトランス"
+    }
+  ]
+]

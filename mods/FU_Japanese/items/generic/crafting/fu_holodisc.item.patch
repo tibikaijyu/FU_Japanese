@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your hard-earned work, ready for use in experiments and blueprints"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "実験や設計図で使用する準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Encoded Research"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コード化研究"
+    }
+  ]
+]

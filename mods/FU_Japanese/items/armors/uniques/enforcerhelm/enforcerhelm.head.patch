@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides an extra layer of protection via kinetic dampener, and has an advanced targeting HUD.\n\n+^green;5^reset;% Crit Chance\n+^cyan;15^reset;% Defense Tech protection"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "動的なダンパーを介して余分な保護層を提供し、高度なターゲティングHUDを有する。\n\n+^green;5^reset;%クリティカル チャンス\n+^cyan;15^reset;%防御技術保護。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Enforcer Battle Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エンフォーサーバトルヘルム"
+    }
+  ]
+]

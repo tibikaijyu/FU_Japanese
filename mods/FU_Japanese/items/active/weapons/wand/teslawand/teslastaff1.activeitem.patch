@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The fury of storms in the palm of your hand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの手のひらに嵐の嵐。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tesla's Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テスラの「ワンド」"
+    }
+  ]
+]

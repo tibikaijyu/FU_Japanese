@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Converts stuff into other stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ものを別のものに変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Faulty Erchius Converter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 不正なエルキウスコンバータ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Resource converter"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "リソースコンバータ"
+    }
+  ]
+]

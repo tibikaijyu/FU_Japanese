@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This unusual aluminum-heavy compound is the most endothermic metal ever discovered"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この珍しいアルミニウム重化合物は今まで発見された中で一番温熱的な金属です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isogen Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイソジェン鉱石"
+    }
+  ]
+]

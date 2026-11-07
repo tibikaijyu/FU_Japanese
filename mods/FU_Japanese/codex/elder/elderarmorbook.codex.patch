@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "To wear the armor of His flesh, you must pray at the Altar. Place various amounts of Nocxium within, with the fragments of Celaeno and a sacrament of his choosing. Only the correct combination will yield results, should you guess his desires correctly."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "彼の肉の装甲を着用するには、祭壇で祈らなければなりません。 セラエノの破片と彼の選択の秘跡で、中にノクシウムのさまざまな量を配置します。 彼の欲望を正しく推測すれば、正しい組み合わせだけが結果をもたらします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Schematics for some abhorrent armor"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不快な装甲のための図式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Horrid Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "恐ろしい装甲"
+    }
+  ]
+]

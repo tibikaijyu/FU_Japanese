@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't touch the pointy end."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "先入観のある終わりに手を触れるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blood Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血の女王"
+    }
+  ]
+]

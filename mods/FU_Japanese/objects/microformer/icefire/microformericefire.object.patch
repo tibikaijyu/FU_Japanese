@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into ice-fire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を氷火に変える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice-Fire Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスファイアマイクロフォーマ"
+    }
+  ]
+]

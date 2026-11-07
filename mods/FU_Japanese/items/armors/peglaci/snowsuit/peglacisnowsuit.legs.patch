@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Leggings favored by Peglaci hunters - waterproof and warm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシハンターに好まれる脚 - 防水で暖かい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arctic Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "北極の足"
+    }
+  ]
+]

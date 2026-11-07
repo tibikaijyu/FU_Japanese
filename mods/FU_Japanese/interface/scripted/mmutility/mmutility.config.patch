@@ -1,0 +1,112 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/altPaintSizeLabel/value",
+      "value": "Alt Paint R:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/altPaintSizeLabel/value",
+      "value": "アルトペイントR"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/altSizeLabel/value",
+      "value": "Alt Radius:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/altSizeLabel/value",
+      "value": "アルト・ラディウス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/collectLiquidsLabel/value",
+      "value": "Collect Liquids:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/collectLiquidsLabel/value",
+      "value": "液体を集める"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/paintSizeLabel/value",
+      "value": "Paint R:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/paintSizeLabel/value",
+      "value": "ペイントR"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/sizeLabel/value",
+      "value": "Radius:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/sizeLabel/value",
+      "value": "半径:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/title/value",
+      "value": "Configure MM"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/title/value",
+      "value": "MM の設定"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileFooter",
+      "value": "/interface/scripted/mmutility/footer.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFooterCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=95;10",
+        "position": [
+          3,
+          3
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFooterTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          50.5,
+          8.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "枠にアイテムを入れる",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

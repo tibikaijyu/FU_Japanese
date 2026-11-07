@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A salty and aromatic rice dish."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "塩辛く香りの良いお米料理。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmells nice enough, but it's ssso ssalty..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "Ssはいい匂いだが、とても塩辛い..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Cautious. Knowing how Hylotl love their salt, I ought to have a glass of water on hand."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "慎重。 ハイロトルがいかに彼らの塩を愛しているかを知っていたら、私は手に水一杯を持つべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A salty sea dish. Nice if ya like that sort of thing."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "塩辛い海料理。 こういうのが好きならいいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ocean Risotto"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "海洋リゾット"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "When you are in ball form, you can now drop bombs by pressing ^orange;[FIRE]^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ボール状にすると、^orange;[炎]^reset;を押して爆弾を落とすことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "With a few simple tweaks to the quantum-displacement regulator used to make the Distortion Sphere work I could probably provide added deadliness..."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "Distortion 球体を動作させるために使用される量子変位レギュレータを、いくつかの簡単な調整で、おそらく追加の期限を提供することができるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Blastball"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ブラストボール"
+    }
+  ]
+]

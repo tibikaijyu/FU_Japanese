@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for those lost in the wilds.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "野生で失われた人に最適です。\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨軸"
+    }
+  ]
+]

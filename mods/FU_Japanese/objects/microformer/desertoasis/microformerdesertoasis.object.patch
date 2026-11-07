@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a desert oasis."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を砂漠のオアシスに変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oasis Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オアシスマイクロフォーマー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/npcname",
+      "value": "Kevin"
+    },
+    {
+      "op": "replace",
+      "path": "/npcname",
+      "value": "ケビン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "The lab stations are delicate."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/converse/dialog/default/0",
+      "value": "ラボステーションは繊細です。"
+    }
+  ]
+]

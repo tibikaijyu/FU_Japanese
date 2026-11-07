@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Indicates nearby danger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "近くの危険を示す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Hazard Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケートハザードブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;15^reset;% Speed, +^green;15^reset;% Jump\n^yellow;^reset; Arm Cannon: Damage x^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;+^green;15^reset;%速度, +^green;15^reset;%ジャンプ\n^yellow;^reset; 武器大砲:損傷x ^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Maverick Hunter Chestplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イレギュラーハンターの胸当て"
+    }
+  ]
+]

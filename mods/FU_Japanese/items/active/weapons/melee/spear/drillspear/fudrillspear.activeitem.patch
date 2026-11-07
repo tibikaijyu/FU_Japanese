@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This spear will pierce the heavens. And flesh.\n^cyan;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このくちばしは天国を貫く。 そして肉。\n^cyan;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Drill Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆ドリル"
+    }
+  ]
+]

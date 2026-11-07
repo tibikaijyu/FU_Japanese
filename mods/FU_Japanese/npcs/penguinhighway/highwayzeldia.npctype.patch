@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "Hmm. You responded to our distress signal? You certainly don't look like you're from around these parts. My name's Zeldia."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "うーん。 あなたは私たちの苦痛信号に反応しましたか? 確かに、この辺りの出身とは思えない。 私はゼルディアです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "A Protector, you say? Well, that's close enough to being a Guardian...you might not be with SMASH, but we need all the help we can get."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "プロテクター? ガーディアンにはとても近いけど、破壊は持ってないかもしれないけど、必要なのは、手元にあるすべての助けだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "The penguins are swarming all over the highway, causing all sorts of chaos. We're heavily outnumbered here, you'll be facing awful odds."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "ペンギンたちが高速道路のあちこちに群がり、あらゆる種類の混乱を引き起こしています。 私たちはここでは圧倒的に多く、あなたはひどい状況に直面します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "Some of my friends are out there, so they might even things out a bit. If you see them, tell them I said hi."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "私の友達の中には、そこにいる人もいるので、彼らは少しでも出て行くかもしれません。 もしそれらを見たら、私がこんにちはと言ったと伝えなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "The penguins won't show you any mercy, so show them none! We've got to restore order to this city!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "ペンギンはあなたに慈悲を示さないので、彼らに何も見せないでください! 私たちはこの都市に秩序を取り戻さなければなりません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "A new face..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/speak/default/default/0",
+      "value": "新しい顔..."
+    }
+  ]
+]

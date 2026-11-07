@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Condensed and hardened Lunari crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凝縮硬化ルナリ結晶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリ結晶"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy wall grate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な壁の格子。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Wall Grate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金壁格子"
+    }
+  ]
+]

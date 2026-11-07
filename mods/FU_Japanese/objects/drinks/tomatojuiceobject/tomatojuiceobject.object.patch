@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hearty tomato juice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まろやかなトマトジュース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Tomatoesss may be red like blood, but doesn't tassste the same at all."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "トマトは血のように赤くなるかもしれないが、全く同じ味をしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. This savory crops makes for a surprisingly refreshing beverage."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 このおいしい作物は驚くほど爽やかな飲み物になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Tomato juice? S'pose I'll try anything once."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "トマトジュース? 一度は何でもやってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tomato Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トマトジュース"
+    }
+  ]
+]

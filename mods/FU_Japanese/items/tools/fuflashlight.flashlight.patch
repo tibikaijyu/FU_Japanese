@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A much wider beam, but less ambience."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より広いビーム、しかしより少ない雰囲気。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flashlight II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "懐中電灯II"
+    }
+  ]
+]

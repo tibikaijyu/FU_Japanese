@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "DESTROYS all Vehicles in range."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべての車両の範囲をデストロイズ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FU Vehicle Ban Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "FU車両禁止ピラー"
+    }
+  ]
+]

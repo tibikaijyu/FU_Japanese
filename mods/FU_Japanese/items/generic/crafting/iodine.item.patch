@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Iodine ^gray;I^reset; is extremely useful as it is the heaviest and therefore most heat-resistant halogen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヨウ素^gray;I^reset;は、最も重く、したがって最も耐熱性のあるハロゲンであるため、非常に有用です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iodine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "私は"
+    }
+  ]
+]

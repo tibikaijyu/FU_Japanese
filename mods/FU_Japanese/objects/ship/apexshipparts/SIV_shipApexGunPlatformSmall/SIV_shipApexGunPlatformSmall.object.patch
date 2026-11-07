@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small Gun Mount for an Apex spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス宇宙船用の小さなガンマウント。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Small Gun Mount"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アペックス小型砲台"
+    }
+  ]
+]

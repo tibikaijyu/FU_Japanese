@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Does nothing at all."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何もしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;I'm broken. Why U Spawn?^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 私は壊れています。 なぜあなたは産むのですか?^reset;"
+    }
+  ]
+]

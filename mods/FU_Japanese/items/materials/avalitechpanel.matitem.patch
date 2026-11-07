@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Polymer panels used to hide and protect electronics.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電子機器を隠して保護するために使用されるポリマーパネル。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術パネル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Squash Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカッシュ・ヤングクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Squash Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若きスカッシュクイーン"
+    }
+  ]
+]

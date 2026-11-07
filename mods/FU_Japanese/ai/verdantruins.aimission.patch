@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "The Verdant Ruins (2)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "バーダント遺跡 (2)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "The Verdant Ruins (2) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "緑に覆われた遺跡 (2)（再訪）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "I've discovered the route to some ancient overgrown ruins which supposedly house many Floran artifacts. If I need information, this should be the place."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "私は多くのフローランの遺物があると思われる古代の荒廃した遺跡へのルートを発見しました。 情報が必要であれば、ここが場所であるべきです。"
+    }
+  ]
+]

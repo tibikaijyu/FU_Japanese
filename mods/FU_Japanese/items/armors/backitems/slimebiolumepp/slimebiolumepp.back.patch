@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A glowing slime crystal. Grants +^green;12^reset;% to Fire, Ice, Poison and Electric Resists. Immune: Moderate Heat/Cold/Radiation, Oxygen. ^#5500ff;Glows best with bright slimes.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝くスライムクリスタル。 助成金+^green;12^reset;% 火、氷、毒、電気抵抗に 免疫:中程度の熱/冷/放射線、酸素。 ^#5500ff;明るいスライムで最高に輝きます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Bio-Light Growth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムバイオライト成長"
+    }
+  ]
+]

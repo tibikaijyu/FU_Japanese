@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/helpme/cat/default/0",
+      "value": "Hiss! Hostile intentions sensed! Somebody help meowt!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/cat/default/0",
+      "value": "ヒス! 敵意を感じる! 誰か助けてくれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/cat/default/1",
+      "value": "Meow! I don't want to lose a life! I only get nine!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/cat/default/1",
+      "value": "メオ! 命を失いたくない! 九時きっかりだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/cat/default/2",
+      "value": "Hiss! Meownster! Help!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/cat/default/2",
+      "value": "ヒス! 主人! 助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/cat/default/0",
+      "value": "Sensation of hostility is fading... Meow!"
+    },
+    {
+      "op": "replace",
+      "path": "/safe/cat/default/0",
+      "value": "敵意の感覚は薄れつつある。 メオ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/cat/default/1",
+      "value": "Meow! Yay! Meownster is gone!"
+    },
+    {
+      "op": "replace",
+      "path": "/safe/cat/default/1",
+      "value": "メオ! やった! マイオースターはいなくなった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/cat/default/2",
+      "value": "Meow? I didn't lose a life?"
+    },
+    {
+      "op": "replace",
+      "path": "/safe/cat/default/2",
+      "value": "マウ? 命を失わなかった?"
+    }
+  ]
+]

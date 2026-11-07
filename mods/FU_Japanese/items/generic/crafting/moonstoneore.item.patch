@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusually conductive crystal that channels energy even better than Quartz."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クオーツよりもエネルギーを導く、珍しい導電性結晶です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム結晶"
+    }
+  ]
+]

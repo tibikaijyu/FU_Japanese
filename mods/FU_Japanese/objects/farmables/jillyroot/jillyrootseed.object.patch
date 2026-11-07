@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Able to help speed healing of wounds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "傷の治癒を早めることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jilly Root Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジリー・ルート・シード"
+    }
+  ]
+]

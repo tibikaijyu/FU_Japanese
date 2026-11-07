@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fully-automatic titanium-cased rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "全自動チタンケースライフル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Assault Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンアサルトライフル"
+    }
+  ]
+]

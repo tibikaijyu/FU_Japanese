@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some form of broadcasting device, 'acquired' by Khe and modified."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の放送装置、ケーによって「取得」され、修正された。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Modified Broadcast Node"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "変更されたブロードキャストノード"
+    }
+  ]
+]

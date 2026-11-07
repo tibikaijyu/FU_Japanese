@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sandy bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砂浜の蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Arid Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アキミツバチ"
+    }
+  ]
+]

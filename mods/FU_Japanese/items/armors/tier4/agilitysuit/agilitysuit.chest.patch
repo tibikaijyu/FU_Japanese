@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;12^reset;% Speed, ^green;8^reset;% Jump\n^yellow;^reset; +^green;25^reset;% Jump Tech Efficiency\n^yellow;^reset; +^green;25^reset;% Dash/Dodge Tech Efficiency\n^yellow;^reset; +^green;25^reset;% Phase Tech Efficiency\n^yellow;^reset; Dagger/Pistol: +^green;4^reset;% Crit Chance"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;12^reset;% スピード ^green;8^reset;% ジャンプ\n^yellow;^reset; +^green;25^reset;% ジャンプ技術効率\n^yellow;^reset; +^green;25^reset;% ダッシュ/回避 技術効率\n^yellow;^reset; +^green;25^reset;% フェーズテック効率\n^yellow;^reset;短剣/ピストル:+^green;4^reset;%クリティカル率"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Agent Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エージェント胸部"
+    }
+  ]
+]

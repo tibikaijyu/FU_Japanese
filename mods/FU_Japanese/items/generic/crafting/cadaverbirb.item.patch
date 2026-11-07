@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These are of Avian royal descent."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらはアヴィア王族の子孫である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Royal cadaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "王室の遺体"
+    }
+  ]
+]

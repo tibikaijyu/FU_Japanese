@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with orange grav liquid. It pulls things towards it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジ色のグラビア液体で満たされたランプ。 物事を引っぱりだします"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grav Liquid Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラブ液体溶岩ランプ"
+    }
+  ]
+]

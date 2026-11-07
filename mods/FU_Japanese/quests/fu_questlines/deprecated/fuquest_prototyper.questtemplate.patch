@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Try building a few more basic goods such as the extremely useful ^orange;Extraction Lab^reset;. The ^orange;Machining Table^reset; and its ^green;upgrades^reset; are necessary for every FU crafting station. Use it well."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "非常に有用な ^orange;抽出ラボ^reset; など、いくつかの基本的な商品を構築してみましょう。 FU作成ステーションごとに^orange;加工作業台^reset;とその^green;アップグレード^reset;が必要です。 よく使ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You've taken your first steps in ^cyan;Frackin' Universe^reset;. With the ^orange;Machining Table^reset; you can now branch out into a wide assortment of ^green;Lab Stations and Equipment^reset; as well as ^green;crafting resources^reset;. Let's start by making an ^orange;Electromagnet^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたは ^cyan; Frackin' Universe ^reset; に最初のステップを踏み出しました。 ^orange;加工作業台^reset;を使用すると、^green;ラボステーションと機器^reset;だけでなく、^green;craftingリソース^reset;の幅広い品揃えに分岐することができます。 まずは ^orange; 電磁石 ^reset; から始めましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Expanding Knowledge"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "知識の拡張"
+    }
+  ]
+]

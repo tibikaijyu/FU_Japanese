@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hopefully self-explanatory."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完全な自己説明を願う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran wary of warm cup. Floran won't be scalded again!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "暖かいカップを警戒する花。 フロランは二度とかき集められません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. This cup is designed to allow as much of the coffee's heat to be conserved as possible."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 このカップは、コーヒーの熱をできるだけ保存できるように設計されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Heh. Joe on the go."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "へえ。 ジョーが行くところだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Coffee to Go"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コーヒーから行く"
+    }
+  ]
+]

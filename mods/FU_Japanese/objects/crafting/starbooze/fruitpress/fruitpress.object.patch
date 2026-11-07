@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A machine used to squeeze juices from fruits."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フルーツからジュースを絞る機械。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Fruit Press^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;フルーツプレス^reset;"
+    }
+  ]
+]

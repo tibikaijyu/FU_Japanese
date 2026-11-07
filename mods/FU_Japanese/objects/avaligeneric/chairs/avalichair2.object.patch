@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Are ALL Avali chairs made with maglev technology?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "すべてのアバリチェアは磁気浮上式ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "Sometimes it's fun to spin myself around while sitting in this!"
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "座りながら自転するのが楽しいときもあります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "It looks like there's a space in the back for Avali tails to fit. How thoughtful!"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "背面にはアバリの尾が収まるスペースがあるようです。 なんて思いやりがあるんだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A standard chair, suitable for sitting at a desk."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デスクに座るのに適したスタンダードチェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Not much cushion to ssstab."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "刺すクッションはあまりありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Trepidation. It wobbles when I sit on it."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "恐怖。 座ったままでぐらぐらする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Doesn't look too comfy, but I guess it's okay."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "あまり快適そうに見えないけど、大丈夫だと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Elegant. Uncomfortable, but elegant."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "エレガント。 不快だがエレガント。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Office Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アバリオフィスチェア"
+    }
+  ]
+]

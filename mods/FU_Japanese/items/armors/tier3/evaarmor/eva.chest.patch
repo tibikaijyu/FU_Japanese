@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Moderate Radiation, Radiation Burn, Pus, Liq. Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;\n^yellow;^reset; ^cyan;免疫^reset;:中程度の放射線、放射線燃焼、膿、Lic。 窒素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "E.V.A Suit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スーツ"
+    }
+  ]
+]

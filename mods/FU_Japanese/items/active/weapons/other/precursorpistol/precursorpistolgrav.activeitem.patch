@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Allows the user to slow their relation to gravity.\n^yellow;Gravitic force can occasionally cause injury.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ユーザーが重力との関係を遅くすることができます。\n^yellow;重力力は時々怪我を引き起こす可能性があります。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Gravity Shunt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆重力探査"
+    }
+  ]
+]

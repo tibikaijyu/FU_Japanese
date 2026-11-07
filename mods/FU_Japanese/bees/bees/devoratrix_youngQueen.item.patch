@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Devoratrix Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デボラトリクスの女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Devoratrix Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若きデボラトリクスクイーン"
+    }
+  ]
+]

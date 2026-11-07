@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy, yet malleable glass\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で可鍛性の高いガラスです。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体ガラス"
+    }
+  ]
+]

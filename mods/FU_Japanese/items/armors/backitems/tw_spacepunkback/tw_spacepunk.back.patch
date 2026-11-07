@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates a protective field that grants +5% Phys., Rad., Shadow, & Cosmic Res., and provides an Oxygen recycler. ^cyan;+10% Physical & Knockback Res^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+5%Phhys を付与する保護フィールドを生成します。と、ラッド。は、Oxygenリサイクルシステムを提供します。 ^cyan;+10%物理&ノックバック耐性 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spacepunk Tank"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スペースパンクタンク"
+    }
+  ]
+]

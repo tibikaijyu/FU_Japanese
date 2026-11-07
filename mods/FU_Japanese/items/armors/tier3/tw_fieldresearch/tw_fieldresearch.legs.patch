@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Magnorbs: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Poisoned, Gas\n^yellow;^reset; Research Bonus +^green;1^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; マグノーブ: ダメージ x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;酸素、毒ガス\n^yellow;^reset; 研究ボーナス+^green;1^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Researcher's Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究者の挨拶"
+    }
+  ]
+]

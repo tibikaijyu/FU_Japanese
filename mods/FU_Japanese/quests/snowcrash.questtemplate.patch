@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thank you for rescuing me! There's a teleporter in the basement, we can use that to escape! Before that, though, take this! You've earned it."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "助けてくれてありがとう! 地下にテレポートがあります、我々は逃げるためにそれを使うことができます! でも、それ以前には! 稼いだね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Help the Apex Rebels with their hostage situation."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "エイペックス Rebelsの人質の状況を助けてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The map has directions showing the coordinates to a far-off snowy world where an Apex rebel outpost lies. It seems they have a hostage situation on their hands...you could help, if you're interested."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "地図には、エイペックスの反乱軍が陣取る遠く離れた雪の世界に座標を示す方向があります。 彼らは人質の状況を抱えているようです...あなたが興味があれば、あなたを助けることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^green;Snow Crash"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^green;雪の衝突"
+    }
+  ]
+]

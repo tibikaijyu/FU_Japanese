@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Fire Protection, +7 Shieldbash Push, 0.2 Regen^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green; 防火, +7 _ シールドバッシュプッシュ, 0.2 _ 再生 ^reset; _"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムシールド"
+    }
+  ]
+]

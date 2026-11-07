@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Headlamp 3^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Gravity Normalization^reset;\n^yellow;^reset; Mining Laser: Combat Damage x^green;3.4^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Burning, Proto-Poison, Pressure, Oxygen, Gas, Ice Slip, Grav-Rain"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;ヘッドランプ3^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;重力正規化^reset;\n^yellow;^reset; 採掘レーザー:戦闘被害x^green;3.4^reset;\n^yellow;^reset; ^cyan;免疫^reset;:燃焼、原毒、圧力、酸素、ガス、氷のスリップ、重力雨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warp Miner Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワープ鉱山ヘルム"
+    }
+  ]
+]

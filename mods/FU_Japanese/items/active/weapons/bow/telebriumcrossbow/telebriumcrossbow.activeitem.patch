@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "High-impact poison bolts."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "インパクトのある毒ボルト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムクロスボウ"
+    }
+  ]
+]

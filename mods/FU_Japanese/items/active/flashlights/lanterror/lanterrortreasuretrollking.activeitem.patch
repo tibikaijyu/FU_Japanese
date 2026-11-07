@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's covered in what appears to be drool, and rustles when you shake it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なめらかに見えるもので覆われていて、振るとさびます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Khe's Ghost Lantern"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ケーの幽霊ランタン"
+    }
+  ]
+]

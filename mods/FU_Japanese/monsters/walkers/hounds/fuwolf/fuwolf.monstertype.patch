@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Their favorite prey are Ponex."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "好きな獲物はポネックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Timber Wolf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キツツオオカミ"
+    }
+  ]
+]

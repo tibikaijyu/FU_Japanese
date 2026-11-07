@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A densely packed stack of processors, kept chilled to optimal temperatures."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "密に詰まったプロセッサのスタックは、最適な温度に冷え続けた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Looksss like a bunch of shiny vines."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "まるでツヤツヤのブドウの束のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analysis. This is a stack of solid-state processors."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 これはソリッドステートプロセッサのスタックです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chilled Cable Nexus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チルドケーブルNexus"
+    }
+  ]
+]

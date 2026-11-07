@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A finely-crafted dagger made of durasteel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デュラ鋼製の細工された短剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダーラスチールダガー"
+    }
+  ]
+]

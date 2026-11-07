@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for all your automated door needs! Keeps a baleful eye out for your foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ドアのニーズに最適です! 敵に目を向けなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proximity Enemy Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "近接エネルギースキャナ"
+    }
+  ]
+]

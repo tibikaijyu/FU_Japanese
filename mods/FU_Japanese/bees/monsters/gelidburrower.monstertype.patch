@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gelidburrower bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宝石の巣箱の蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelidburrower Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチバチ"
+    }
+  ]
+]

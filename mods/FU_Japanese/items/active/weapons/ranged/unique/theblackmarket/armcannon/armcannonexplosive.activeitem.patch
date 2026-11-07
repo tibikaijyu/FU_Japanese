@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attaches to the forearm. Fires explosive blasts.\n^yellow;Counts as 'rocket launcher' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "前腕に取り付けられます。 爆風を発射する。\n^yellow;「ロケット発射機」、セットボーナスに^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^red;Arm Cannon (Missile)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^red; 武器大砲(ミサイル)^reset;"
+    }
+  ]
+]

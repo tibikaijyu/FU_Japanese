@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Genesiberry^reset;\n^yellow;^reset; ^cyan;Vital Power^reset;: 10%\n^yellow;^reset; ^cyan;Immortal Resolve^reset;: 5%\n^yellow;^reset; Bio-Weapon: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Pus, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;ジェネシベリー^reset;\n^yellow;^reset; ^cyan;生命力^reset;: 10%\n^yellow;^reset; ^cyan;不死の解決^reset;: 5%\n^yellow;^reset;生物兵器:損傷x^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;プラス、酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Eldritch Flesh Head"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "異形の肉の頭部"
+    }
+  ]
+]

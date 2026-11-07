@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A man-portable machine gun that's bigger and meaner, albeit far less accurate, than your average assault rifle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間に持ち運びできる機関銃は、平均的なアサルトライフルよりはるかに正確ではありませんが、より大きくて平均的なものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NPC Squad Automatic Weapon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NPCチーム自動装備。"
+    }
+  ]
+]

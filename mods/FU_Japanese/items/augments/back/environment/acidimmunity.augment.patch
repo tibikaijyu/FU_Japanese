@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Acid Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "酸性シールド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that protects against sulphuric acid. ^cyan;Immune: Acid^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "硫酸から保護するEPPモジュールです。 ^cyan;免疫:酸^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Acid Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酸性シールド"
+    }
+  ]
+]

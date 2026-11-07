@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A soul-cleaver of ageless, unknown materials.\n^red;Inflicts Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知で未知な物質の魂の切り裂き。\n^red;出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Reaper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドーリーパー"
+    }
+  ]
+]

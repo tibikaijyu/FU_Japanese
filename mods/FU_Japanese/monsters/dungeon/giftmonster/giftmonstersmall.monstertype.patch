@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I wonder what's inside. Maybe love? Or just a little viscera?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中には何があるのかしら。 愛? それとも小さな内臓だけ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gift Box (Small)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ギフトボックス(小)"
+    }
+  ]
+]

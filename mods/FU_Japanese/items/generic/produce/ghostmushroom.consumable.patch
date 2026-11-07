@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Invisible to Erchius Horrors^reset;: 5m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;エルキウスの恐怖に見えない^reset;: 5え?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ghost Mushroom Spore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴーストキノコの胞子"
+    }
+  ]
+]

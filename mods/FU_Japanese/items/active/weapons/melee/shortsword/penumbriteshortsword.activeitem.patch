@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This keen edge is laced with shadow power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この鋭い端は影の力とひも付けられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "短刀"
+    }
+  ]
+]

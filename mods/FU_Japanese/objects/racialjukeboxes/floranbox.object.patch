@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A music player, for playing music."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "音楽を演奏するための音楽プレーヤー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floran Music Player"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロラン・ミュージックプレーヤー"
+    }
+  ]
+]

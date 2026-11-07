@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well crafted, but heavy. Design by Gezbo."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "よく出来ていますが重いです。 デザインはゲズボ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dense Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "濃いメイス"
+    }
+  ]
+]

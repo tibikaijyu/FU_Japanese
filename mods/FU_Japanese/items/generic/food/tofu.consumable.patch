@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unlike 'normal' tofu, no one knows what this type is made from! Tasty!\n^cyan;+^white;10% ^pink;Cosmic ^cyan;Res ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「普通の」豆腐と違って、このタイプが何から作られているか誰も知りません! おいしい!\n^cyan;+^white;10% ^pink;宇宙 ^cyan;レズ ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jikjik Tofu"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "直自国豆腐"
+    }
+  ]
+]

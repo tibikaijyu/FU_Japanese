@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Energy x1.15^reset;^reset;: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;エネルギーx 1.15^reset;^reset;:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Yellow-foot Mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イエローフットキノコ"
+    }
+  ]
+]

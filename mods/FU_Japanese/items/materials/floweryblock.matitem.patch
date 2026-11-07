@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fragrant bundle made of flowers and leaves.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花と葉でできた香り高い束。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

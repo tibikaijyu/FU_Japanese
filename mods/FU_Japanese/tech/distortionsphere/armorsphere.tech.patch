@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An armored Sphere ^green;[F]^reset;! Drop power-bombs with ^red;[Fire]^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装甲球体 ^green;[F] ^reset;! ^red;[炎]^reset; でパワー爆弾を投下します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Armor Sphere"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "アーマー・スフィア"
+    }
+  ]
+]

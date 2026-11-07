@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Claws designed like a bird's talons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "鳥のタロンのように設計された爪。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zel-Claw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツェルクロー"
+    }
+  ]
+]

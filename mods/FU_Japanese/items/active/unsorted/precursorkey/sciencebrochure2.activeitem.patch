@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Holds multiple sets of coordinates and some encrypted data. One set points to the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複数の座標セットと暗号化データを保持する。 一つの設定は ^orange;科学前哨基地^reset; を指します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Data-Key"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "データキーの前駆体"
+    }
+  ]
+]

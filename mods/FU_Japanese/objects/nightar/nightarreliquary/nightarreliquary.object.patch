@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shrine to the Matriarch of the Nightar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトアールの聖母マリアへの神社。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Reliquary"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石"
+    }
+  ]
+]

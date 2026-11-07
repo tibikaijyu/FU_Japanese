@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primitive, but solid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プリミティブだが堅実。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Stairs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェナロックス階段"
+    }
+  ]
+]

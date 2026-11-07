@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides a Fall Damage Multiplier based on fall speed, scaling to ^green;0.0^reset;x at 200 Units per second."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落下速度、スケーリングに基づく落下損傷乗算器を提供します。 ^green;0.0^reset;xat 200 単位は一秒あたり。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meteor Shell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "流星殻"
+    }
+  ]
+]

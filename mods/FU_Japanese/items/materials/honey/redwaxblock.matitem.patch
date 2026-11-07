@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A red block of wax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワックスの赤いブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Wax Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドワックスブロック"
+    }
+  ]
+]

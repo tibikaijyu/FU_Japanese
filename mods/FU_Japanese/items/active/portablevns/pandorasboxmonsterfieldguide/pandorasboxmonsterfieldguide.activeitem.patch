@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;[Arrow Keys] - Navigate options, [Space or Enter] - Select options^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;[矢印キー] - ナビゲーションオプション、[スペースまたは入力] - オプションを選択します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monster Field Guide"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モンスターフィールドガイド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Which will last longer, you or them? \n^cyan;+^reset;20% ^green;Energy^reset; \n^yellow;Type: Robot Food^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたも彼らも、どちらが長持ちしますか? \n^cyan;+^reset;20% ^green;エネルギー^reset; \n^yellow;タイプ:ロボットフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gutstoppers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガットストッパー"
+    }
+  ]
+]

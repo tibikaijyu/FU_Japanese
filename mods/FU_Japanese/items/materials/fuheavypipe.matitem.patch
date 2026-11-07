@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy pipe, commonly used in waste systems."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "廃棄物システムで一般的に使用される重いパイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssmelly sssewer pipesss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "汚い下水道パイプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disgusted. I would hate to see the waste that has been passed through this pipe."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "嫌悪感。 私はこのパイプを通過した廃棄物を見るのが嫌いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Some dirty ol' pipes."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "古いパイプを汚す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Heavy Pipe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜重管"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Okay, ew.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "はい、うわっ。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rotting Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "腐った火"
+    }
+  ]
+]

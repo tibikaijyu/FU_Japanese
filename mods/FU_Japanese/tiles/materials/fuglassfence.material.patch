@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A modern fencing made of steel and glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スチールとガラスで作られたモダンなフェンシング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tempered Iron Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼戻し鉄フェンス"
+    }
+  ]
+]

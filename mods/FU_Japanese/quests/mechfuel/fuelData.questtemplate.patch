@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Should never be completed, nor fail!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "決して完成してはならないし、失敗してはならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Tracks mech data. Do not cancel."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "メカデータを追跡します。 キャンセルしないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Mech Fuel Tracker"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メカ燃料トラッカー"
+    }
+  ]
+]

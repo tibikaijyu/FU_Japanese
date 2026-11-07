@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "They came from the sky, blazing our very atmosphere with their terrible plasma weapons. We'd never seen anything like these creatures, stepping out of their ships as if from some aquatic horror show! First they killed the eldest, and then forced the younger ones to work. Most did not survive the effort, and those that did were often killed for 'incorrectly' working."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "彼らは空からやって来て、我々の雰囲気をひどいプラズマ兵器で焼き尽くした。 まるで水上のホラーショーのようで、船から出て行くような生き物は見たことがありません! 最初は最年長者を殺し、それから若い者を強制的に働かせた。 ほとんどは努力に耐えられず、そうした人々はしばしば「間違った」仕事のために殺害されました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "It wasn't long before things got worse. Rather than make us work, they would just...eat some of us at random. I watched Rathcher get devoured last Tuesday. No checks and balances were made, no concessions...just death and servitude. How are we to survive? And what will be left of us?"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "まもなく事態は悪化した。 私達を働かせるのではなく、彼らはただ...ランダムに私たちの一部を食べる。 先週火曜日、ラスチャーが食い尽くされるのを見ました。 チェックもバランスも、譲歩も、死と奉仕だけはありませんでした。 どうやって生き残るか? そして、私たちには何が残されるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A recovered note from an Apex survivor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックスの生存者からの回復したメモ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Survivor's Note"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "生存者の注意点"
+    }
+  ]
+]

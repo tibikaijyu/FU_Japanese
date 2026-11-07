@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutally efficient blade that chews targets up.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ターゲットを噛む残酷に効率的なブレード。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chain Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェーンブレード"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Time to cut them down to size.\n^cyan;Causes Heavy Bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "サイズにそれらをカットする時間。\n^cyan;重出血の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Massacre Blade^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;虐殺刃^reset; ^yellow;^reset;"
+    }
+  ]
+]

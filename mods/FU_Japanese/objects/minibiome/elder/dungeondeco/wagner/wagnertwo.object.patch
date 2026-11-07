@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't even know what I am looking at. This is ghastly beyond words. Something is his pocket is shining..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自分が何を見ているかさえ分からない。 これは言葉にとらわれない。 ポケットが輝いているのが何か...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wagner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワーグナー"
+    }
+  ]
+]

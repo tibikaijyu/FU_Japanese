@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Life Shell^reset;: 100%, 10%/s, 3s\n^yellow;^reset; ^cyan;Shell Immunities^reset;: All Heat/Cold/Radiation, Aether, Shadow Taint\n^yellow;^reset; ^cyan;Immune^reset;: Pressure, Oxygen, Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;生涯貝殻^reset;: 100%, 10%/s、 3ス)\n^yellow;^reset; ^cyan;シェル免疫^reset;:すべての熱/冷/放射線、エーテル、影の色合い。\n^yellow;^reset; ^cyan;免疫^reset;圧力、酸素、狂気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dreamer's Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドリーマーズ・グリーブ"
+    }
+  ]
+]

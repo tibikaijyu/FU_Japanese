@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can convert certain cells into itself."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定の細胞をそれ自体に変換することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assimilation"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "同化"
+    }
+  ]
+]

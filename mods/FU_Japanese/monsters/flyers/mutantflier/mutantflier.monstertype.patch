@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The galaxies snuggliest widdle guy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河で最も密集した奇怪な男。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jheshrikaal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘシュリカアル"
+    }
+  ]
+]

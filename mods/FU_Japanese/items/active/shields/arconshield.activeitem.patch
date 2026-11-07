@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+0.04% HP regen, +8 Shield Bash, -20% Fall Damage^reset;, ^cyan;Immune: Shock^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+0.04%体力再生, +8Shield 打撃, -20%フォールダメージ^reset;, ^cyan;無効化:ショック^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコンシールド"
+    }
+  ]
+]

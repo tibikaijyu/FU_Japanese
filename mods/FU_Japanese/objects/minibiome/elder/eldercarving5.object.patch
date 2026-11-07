@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I wonder what stories these hieroglyphs tell?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "象形文字が語る物語は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Carvings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代彫刻"
+    }
+  ]
+]

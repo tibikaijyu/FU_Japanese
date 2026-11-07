@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A digital silver hourglass. It's stuck in a constant state."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "デジタルシルバーの砂時計。 一定の状態にとどまります"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Hourglass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀製の砂時計"
+    }
+  ]
+]

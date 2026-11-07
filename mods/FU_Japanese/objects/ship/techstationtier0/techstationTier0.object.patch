@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/fukirhosDescription",
+      "value": "This an AI console?  I thought they were banned after the Nikos Point disaster... well, it's my best shot now!"
+    },
+    {
+      "op": "replace",
+      "path": "/fukirhosDescription",
+      "value": "これはAIコンソールですか?  ニコスポイント大震災の後、禁止されたと思ったの...うーん、今一番のショットだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/radienDescription",
+      "value": "A pretty standard ship AI console, really. Nothing special. It is not likely to be tasty."
+    },
+    {
+      "op": "replace",
+      "path": "/radienDescription",
+      "value": "かなりスタンダードなAIコンソールだ。 特別なものはない。 おいしいとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/thelusianDescription",
+      "value": "This an AI console?  I really don't know. It has glowy bits and all sorts of math on it."
+    },
+    {
+      "op": "replace",
+      "path": "/thelusianDescription",
+      "value": "これはAIコンソールですか?  本当に分からない。 明るいビットと、いろいろな数学の部分がある。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What hellish evolution could bring about such wretched countenance? What nameless, hate-fueled abyss could expunge such horror?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どんな地獄の進化が、このような恐ろしい状態をもたらすのでしょうか? そんな恐怖を、無名で憎しみをかき消すのはどうでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老像"
+    }
+  ]
+]

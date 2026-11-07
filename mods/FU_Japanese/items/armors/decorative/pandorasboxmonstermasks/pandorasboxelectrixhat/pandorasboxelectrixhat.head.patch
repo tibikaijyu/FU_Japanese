@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hat may generate slight traces of static electricity. Try not to touch electrical appliances!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この帽子は、わずかな静電気の痕跡を生成することがあります。 電化製品に触れないようにしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Electrix Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "電気帽子"
+    }
+  ]
+]

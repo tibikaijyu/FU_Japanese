@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Incredibly foreboding, yet classy as hell."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信じられないほど予感がするが、上品で地獄だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magma Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マグマ像"
+    }
+  ]
+]

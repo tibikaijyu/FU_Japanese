@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's some oranges."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オレンジです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orange Basket"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジバスケット"
+    }
+  ]
+]

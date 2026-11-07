@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's actually quite deadly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "実際かなり致命的です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uranium War-Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウランナイフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires more powerful rounds than an ordinary assault rifle, with better accuracy, at the cost of rate-of-fire."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発射速度を犠牲にして、通常のアサルトライフルよりも強力なラウンドを、より精度良く発射します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Uncommon Battle Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "珍しい戦闘ライフル"
+    }
+  ]
+]

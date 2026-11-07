@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mysterious ship blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不思議な船のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Myssteriouss  Blocksss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ミステリアス・ブロックス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Mysterious Ship Blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 謎の船舶ブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Mysterious Ship Blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "謎の船舶ブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Ship Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜間船"
+    }
+  ]
+]

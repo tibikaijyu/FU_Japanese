@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Used to store thermal energy for later use."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "後で使用する熱エネルギーを貯蔵するために使用される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Feya Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェヤ結晶"
+    }
+  ]
+]

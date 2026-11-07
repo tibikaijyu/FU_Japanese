@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bumblebee Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マルハナバチ女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bumblebee Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マルハナバチ女王"
+    }
+  ]
+]

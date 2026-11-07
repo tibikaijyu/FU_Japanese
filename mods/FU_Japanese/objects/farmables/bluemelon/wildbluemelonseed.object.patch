@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Both delicious and pretty. Allows walking on liquids when eaten."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "美味しく、きれい。 食べると液体の上を歩くことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Melon Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーメロン種子"
+    }
+  ]
+]

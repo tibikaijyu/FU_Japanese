@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now for phase two! She'll never see it coming! Thanks for the help. Take this awesome briefcase. Don't open it here, or everyone will get ^green;super jealous^reset; and try to steal it. Trust me."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今度はフェーズ二! 彼女はそれが来るのを決して見ません! 助けてくれてありがとう。 この素晴らしいブリーフケースをどうぞ。 ここで開けないで、さもないと誰もが^green;超うらやましい^reset;を取得し、それを盗もうとします。 私を信じなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Booster Croptop^reset; to ^red;Kevin^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ブースタークロップトップ^reset; です ^red;ケビン^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I need to remind someone they aren't young and attractive anymore. Can you make me a ^orange;Booster Croptop^reset; that I can mail them? You can make one on a ^green;Sewing Wheel^reset;! I'll pay you."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私は、彼らがもはや若く魅力的ではないことを誰かに思い出させる必要があります。 ^orange;Booster Croptop ^reset; を郵送できますか? ^green;縫製ホイール^reset;で作れます! 君に金を払うよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Why do they hate Kevin?"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "なぜ彼らはケビンを嫌うのですか?"
+    }
+  ]
+]

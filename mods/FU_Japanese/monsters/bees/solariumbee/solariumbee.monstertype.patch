@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solarium bee. Just one sting could give you superpowers.. or kill you!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の蜂。 たった一つの刺し傷で超大国が生まれます. 殺してやる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンマミツバチ"
+    }
+  ]
+]

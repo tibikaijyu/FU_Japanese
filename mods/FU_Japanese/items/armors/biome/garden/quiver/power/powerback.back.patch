@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;30^reset;% Damage (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;30^reset;% ダメージ(弓)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Power Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パワーサイバー"
+    }
+  ]
+]

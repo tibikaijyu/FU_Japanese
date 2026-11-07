@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block made of golden leaves.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黄金の葉でできたブロック。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Leaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金箔"
+    }
+  ]
+]

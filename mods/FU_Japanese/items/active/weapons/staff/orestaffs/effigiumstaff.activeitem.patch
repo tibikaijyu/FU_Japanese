@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Conjures a cloud of shadowgas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドーガスの雲を思い浮かべます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Effigium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エフィギウムスタッフ"
+    }
+  ]
+]

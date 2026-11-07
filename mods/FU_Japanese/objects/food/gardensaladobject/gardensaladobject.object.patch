@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A big bowl of mixed veggies. Nutritious!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "混合野菜の大きなボウル。 栄養満点!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Peh. Who wants to eat leafy greensss when meat is ssso much more filling?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ペ。 肉がもっと満腹になると、誰が葉っぱの緑を食べたいのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Approving. A healthy salad. And all from local crops too!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "承認。 健康的なサラダ。 そして、すべて地元の作物から!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Ain't bad havin' a salad once in a while."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "時々サラダを食べるのも悪くない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garden Salad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガーデンサラダ"
+    }
+  ]
+]

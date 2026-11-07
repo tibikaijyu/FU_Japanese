@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Hylotl dish, overloaded with ingredients of questionable oceanic origin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "疑わしい海洋起源の成分を過剰に入れたヒロット料理。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran not sssure they like this surprise..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、彼らがこの驚きを気に入っているとは思わなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Snarky. Oh joy, there's nothing I love more with my food than surprises."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "くすんだ。 ああ、意外なことに、食べ物が大好きなことはない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I'll be \"surprised\" if this thing doesn't make me keel over dead."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "もしこれが私を死に追い越さないなら、私は「驚かれる」でしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ocean Surprise"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "海の驚き"
+    }
+  ]
+]

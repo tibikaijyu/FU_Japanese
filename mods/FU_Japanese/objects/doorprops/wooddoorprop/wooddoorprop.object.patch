@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This wooden door was not made by hand."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この木製のドアは手作りではなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This door was produced by a machine."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このドアは機械によって作られた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A manufactured paneled door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "製造されたパネルドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran not like door made in factory."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは工場で作られたドアが好きではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This door appears to have been manufactured on a production line."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 このドアは生産ラインで製造されているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A cheaply manufactured door."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "安価に製造されたドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This door lacks a personal touch."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このドアは個人的感触が欠けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A cheap wooden door."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "安い木製のドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Paneled Door Prop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パネルドアプロップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sleek, deadly perfection.\n^cyan;Energy weapon^reset;\n^yellow;Cosmic, Fire and Radiation damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかで致命的な完璧さ。\n^cyan; エネルギー兵器 ^reset; 。\n^yellow;宇宙、火災、放射線被害^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Decimator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルデシメータ"
+    }
+  ]
+]

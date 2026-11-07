@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I didn't know clocks were capable of reproduction..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "時計が再生できるなんて知らなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Grandfather Clock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙のアテネ時計"
+    }
+  ]
+]

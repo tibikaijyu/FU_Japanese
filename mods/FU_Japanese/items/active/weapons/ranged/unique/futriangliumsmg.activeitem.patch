@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ratta-tat-tat your foes with poisoned trianglium rounds.\n^cyan;Inflicts poison ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒入りの三角形丸で敵をラッタ・タット・タット。\n^cyan;毒 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vagabond"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バガボンド"
+    }
+  ]
+]

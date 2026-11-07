@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Mace/Hammer/Axe/Greataxe: Mastery +^green;19^reset;%\n^yellow;^reset; ^cyan;Immune^reset;: Electrified"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;セットボーナス^reset;：\n^yellow;^reset; メイス／ハンマー／斧／大斧：習熟度+^green;19^reset;%\n^yellow;^reset; ^cyan;無効化^reset;：感電"
+    }
+  ]
+]

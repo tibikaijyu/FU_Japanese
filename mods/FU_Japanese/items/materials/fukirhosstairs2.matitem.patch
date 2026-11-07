@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy looking metal stair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な金属製の階段。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Red Stairs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤い合金階段"
+    }
+  ]
+]

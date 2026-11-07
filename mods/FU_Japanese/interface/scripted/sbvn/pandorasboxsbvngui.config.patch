@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblText/value",
+      "value": "[no game loaded]"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblText/value",
+      "value": "[ゲームがロードされない]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " SBVN"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 会話画面"
+    }
+  ]
+]

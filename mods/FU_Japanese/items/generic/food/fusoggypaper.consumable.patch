@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For some reason, I feel inclined to eat this.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;125s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "なんらかの理由で、私はこれを食べたがる気がする。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;125ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Edible Soggy Paper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食用ソギー紙"
+    }
+  ]
+]

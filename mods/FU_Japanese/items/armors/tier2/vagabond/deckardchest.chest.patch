@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;^orange;Set Bonuses^reset;: ^reset;\n^yellow;^reset; +^green;10^reset;% Speed\n^yellow;^reset; (Machine) Pistol: Damage x^green;1.075/1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;^orange;ボーナス設定^reset;: ^reset;\n^yellow;^reset; +^green;10^reset;% 速さ\n^yellow;^reset;(マシン) ピストル : ダメージ x ^green;1.075/ 1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vagabond's Coat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バガボンドコート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spinball attack not included."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スピンボール攻撃は含まれていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monopus Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モノポス帽子"
+    }
+  ]
+]

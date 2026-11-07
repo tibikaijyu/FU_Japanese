@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gazing at this hurts your brain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを見ると脳が痛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Map of the Dreamlands"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドリームランド地図"
+    }
+  ]
+]

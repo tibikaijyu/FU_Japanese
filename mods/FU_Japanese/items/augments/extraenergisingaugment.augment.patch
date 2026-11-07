@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Energising"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "エネルギー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Energy x^green;1.25^reset;\nEnergy Block Time x^green;0.85^reset;\n^yellow;Large energy regen boost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーx^green;1.25^reset;\nエネルギーブロック時間x^green;0.85^reset;\n^yellow; 大きなエネルギー再生ブースト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energising Augment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギー拡張"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;-30% Fall Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;-30%フォールダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tritanium Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トリチウムシールド"
+    }
+  ]
+]

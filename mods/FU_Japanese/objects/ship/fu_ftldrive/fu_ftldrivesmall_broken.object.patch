@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A broken FTL drive. Pity."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "壊れたFTLドライブ。 残念です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This used to harness electricity and convert it into motion."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "これは電気を利用して動作に変換するのに使われました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small FTL drive, built to travel the stars. This one's broken."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星を移動するために建てられた小さなFTLドライブ。 これは壊れています"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssad. I wonder why thisss FTL drive fell into disssarray."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "悲しい。 何故このFTLドライブが乱れたのかしら?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disapproving. This FTL drive will not do."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "不賛成。 このFTLドライブはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Ugh. Broken FTL drives are worthless."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "うーん 壊れたFTLドライブは価値がありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "A broken FTL drive. That's not good."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "壊れたFTLドライブ。 それはよくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This 'ere faster'n 'light machine sure is broken!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "軽い機械が壊れていることを確認します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;(Broken) Small FTL Drive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;(壊れた)小型FTLドライブ^reset;"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/pickupextractor/text",
+      "value": "The Extraction Lab is perhaps your most important basic lab station. With it you can gather hidden resources from most types of soils, produce, meats and so on."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupextractor/text",
+      "value": "抽出ラボは、基本の実験設備の中で最も重要かもしれません。土や農作物、肉など、さまざまな物に含まれる資源を取り出せます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupfissionfurnace/text",
+      "value": "With a Fission Furnace you can produce the highest quality metals known, allowing you access to a vastly expanded tree of equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupfissionfurnace/text",
+      "value": "核分裂炉があれば、最高品質の金属を生産できます。作れる装備の幅が大きく広がりますよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickuplabdirectory/text",
+      "value": "The Lab Directory can save you a great deal of time. Place it near an extractor, centrifuge, or any other processing station and examine it to view all the items which can be produced there. Give it a try!"
+    },
+    {
+      "op": "replace",
+      "path": "/pickuplabdirectory/text",
+      "value": "ラボディレクトリは、時間の節約に役立ちます。抽出機や遠心分離機などの加工設備の近くに置いて調べると、その設備で作れる全アイテムを確認できます。試してみてください！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/pickupmatterassembler/text",
+      "value": "You've created a Matter Assembler? Excellent. You can use this technology to create a wide assortment of technological gear, resources and lab equipment."
+    },
+    {
+      "op": "replace",
+      "path": "/pickupmatterassembler/text",
+      "value": "物質組立機を作ったのですか？ 素晴らしい。これで幅広い種類の技術装備や資源、実験器具を作れます。"
+    }
+  ]
+]

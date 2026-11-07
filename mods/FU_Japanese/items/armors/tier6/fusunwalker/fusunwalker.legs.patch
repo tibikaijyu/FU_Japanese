@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Plasma Weapons: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Extreme Heat/Cold/Radiation, Pressure, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;プラズマ兵器:損傷x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;:極限の熱/冷/放射線、圧力、酸素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sunwalker Robes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サンウォーカー・ローブス"
+    }
+  ]
+]

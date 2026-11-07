@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light as a penny, dangerous as...dangerous things."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光は危険で危険で...危険です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・クォータースタッフ"
+    }
+  ]
+]

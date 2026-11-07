@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Acid, Extreme Heat, Moderate Radiation, Mild Cold/Poison, Proto"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 酸、極限熱、適度な放射線、軽度の風邪/毒素、プロト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Falcon II Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファルコンII"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lashleaf"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラッシュリーフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lashleaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラッシュリーフ"
+    }
+  ]
+]

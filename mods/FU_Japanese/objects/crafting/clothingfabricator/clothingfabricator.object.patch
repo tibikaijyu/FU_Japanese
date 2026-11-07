@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fabricates clothing and complex fabric-based armors. Use the Armory for Weapons and Ore-based armors."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "衣服や複雑なファブリックベースの装甲を製造します。 武器と鉱石ベースの装甲にアーモリーを使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Clothing Fabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;衣類製造機^reset;"
+    }
+  ]
+]

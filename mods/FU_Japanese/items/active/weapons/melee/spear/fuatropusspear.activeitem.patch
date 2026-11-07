@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Plague Spin"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ペストスピン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A revolting bio-weapon.\n^cyan;Plague Bearing^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "革命的な生物兵器。\n^cyan;ペストベアリング^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshweave Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ひも織り"
+    }
+  ]
+]

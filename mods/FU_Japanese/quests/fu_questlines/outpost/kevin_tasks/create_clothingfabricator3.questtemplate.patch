@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks, Dave. Now I can construct a weapon the likes of which nobody has ever seen. Bonus: They're also ^green;delicious^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ありがとうデイブ 今では誰も見たことのないような武器を作れる。 ボーナス: ^green;美味^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring ^red;Kevin, your overlord^reset; 5 ^orange;Alien Compound^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち物 ^red;ケビン、あなたの支配者は^reset; 5 ^orange;エイリアン化合物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I cannot possibly poison-tip the ^cyan;rocket-powered guinea pigs^reset; without a supply of 5 ^orange;Alien Compound^reset;. Perhaps you could get me some? I would (in theory) handsomely reward you!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "毒を盛ることはできません ^cyan;ロケットで動くモルモット^reset; 供給なしでは 5 ^orange;エイリアン化合物^reset;. たぶん、私にいくつかの取得できますか? 理論的には)君にご褒美を贈るよ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Okay, I kinda get why..."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "分かった、なぜか分かるけど..."
+    }
+  ]
+]

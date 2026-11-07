@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Idiotically bouncy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イデオロギー的に弾力がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Moronic Bounce"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "モロニクスバウンス"
+    }
+  ]
+]

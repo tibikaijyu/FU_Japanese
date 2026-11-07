@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms a planet's climate into a Proto biome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の気候をプロトバイオームに変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Terraformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロトテラフォーマー"
+    }
+  ]
+]

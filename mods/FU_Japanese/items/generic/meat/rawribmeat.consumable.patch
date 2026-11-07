@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Type: Raw Meat cut from some unfortunate creature's ribs. Sounds tasty but it should be cooked. ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タイプ: 生肉は、いくつかの不幸な生き物のリブからカット。 おいしそうに聞こえるが、調理するべきだ。 ^red;タイプ:生肉^reset;"
+    }
+  ]
+]

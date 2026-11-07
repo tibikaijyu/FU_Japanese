@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A isovapitdae bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イオバチのミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Isovapitdae Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イソバチ"
+    }
+  ]
+]

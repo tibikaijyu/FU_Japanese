@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Knowledge thought lost, ancient beyond reckoning."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "知識は失われた、古代の思考にとどまらない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Texts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古文書"
+    }
+  ]
+]

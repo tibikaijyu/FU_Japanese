@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnAccept/caption",
+      "value": "Accept"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnAccept/caption",
+      "value": "承諾"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/label2/value",
+      "value": "Ship Type:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/label2/value",
+      "value": "船型"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblName/value",
+      "value": "Ship Name:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblName/value",
+      "value": "船名"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblType/value",
+      "value": "Cruiser"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblType/value",
+      "value": "巡洋艦"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/tboxName/hint",
+      "value": "Name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/tboxName/hint",
+      "value": "名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " Configuration"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": " 構成"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Ship Commemoration Plaque"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 船舶追悼銘板"
+    }
+  ]
+]

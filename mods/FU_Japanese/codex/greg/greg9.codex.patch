@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Subject C7 , when injected with antibodies: At first subject seemed fine. At four-hours, thirty seven seconds after injection the subject began to writhe in agony. After 14 minutes, subject appeared to suffer complete and total brain-death, though other biological functions remain operational."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "抗体を注入すると、被験者C7 : 最初は大丈夫でした。 注射の四時間後、三七秒後に、被験者は苦痛で書き始めました。 14分後には、被験者は完全かつ全脳死に苦しむが、他の生物学的機能は依然として機能する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lab Notes 5"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究ノート 5"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Experimental Vaccine"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "実験的ワクチン"
+    }
+  ]
+]

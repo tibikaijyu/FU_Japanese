@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Assault Rifle, Pistol: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Pressure, Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ライフル、ピストル:損傷x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;圧力、ガス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warframe Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "武具"
+    }
+  ]
+]

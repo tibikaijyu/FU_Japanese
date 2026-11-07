@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Comfortable, fur-lined leather pants."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "快適な毛皮の裏地レザーパンツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fur Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毛皮"
+    }
+  ]
+]

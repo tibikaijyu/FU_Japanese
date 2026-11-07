@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/description",
+      "value": "A massive ancient variant of Poptop."
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/description",
+      "value": "ポップトップの巨大な古代の変種。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "Poptopalon Fossil"
+    },
+    {
+      "op": "replace",
+      "path": "/completeSetDescriptions/shortdescription",
+      "value": "ポトパロン化石"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fossilised Poptopalon skull."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたポトパロンの頭蓋骨。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptopalon Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポトパロン・スカル"
+    }
+  ]
+]

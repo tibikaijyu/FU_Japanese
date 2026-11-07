@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Chunks of flesh from a horrifying Shoggoth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしいショゴートからの肉のチャンク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth Flesh"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショーグス・フラッシュ"
+    }
+  ]
+]

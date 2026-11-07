@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks crappy. Cuts deep.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くだらないね。 深く切ります。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンククリーバー"
+    }
+  ]
+]

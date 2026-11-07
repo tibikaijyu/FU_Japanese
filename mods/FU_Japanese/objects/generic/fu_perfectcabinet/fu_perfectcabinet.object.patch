@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect cabinet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なキャビネット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧な内閣"
+    }
+  ]
+]

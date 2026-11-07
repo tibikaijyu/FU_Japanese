@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Designed to withstand booms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブームに耐えられるように設計されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Green Bubble Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリーンバブルドア"
+    }
+  ]
+]

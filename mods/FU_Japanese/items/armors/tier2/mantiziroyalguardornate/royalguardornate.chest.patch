@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Shortsword/Longsword/Mace Mastery: +^green;15^reset;%\n^yellow;^reset; +^green;17^reset;% Shield Health and Regen\n^yellow;^reset; Sword/Mace and Shield: +^green;2^reset;% Crit Chance, +^green;15^reset;% Crit Damage, +^green;15^reset;% Knockback Resist"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;短剣/ロングソード/メイスマスター:+^green;15^reset;%\n^yellow;^reset; +^green;17^reset;% シールドの健康と再生\n^yellow;^reset;剣/魔女:+^green;2^reset;%クリトリスチャンス、+^green;15^reset;%クリトリスダメージ、+^green;15^reset;%ノックバック抵抗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Footman Plate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フットマンプレート"
+    }
+  ]
+]

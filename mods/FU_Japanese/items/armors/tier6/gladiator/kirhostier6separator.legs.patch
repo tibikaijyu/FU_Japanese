@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Thorns^reset;\n^yellow;^reset; Fist: Damage x^green;1.2^reset;, +^green;20^reset;% Knockback\n^yellow;^reset; ^cyan;Immune^reset;: Sandstorms, Liq. Nitrogen, Proto-Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;竜^reset;\n^yellow;^reset; 拳: ダメージ x^green;1.2^reset;, +^green;20^reset;% ノックバック\n^yellow;^reset; ^cyan;免疫^reset;砂嵐、リク。 窒素・原毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gladiator Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラディエーターグリーブ"
+    }
+  ]
+]

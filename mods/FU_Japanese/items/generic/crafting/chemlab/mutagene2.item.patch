@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A powerful mutagenic extract with multiple lab applications."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複数のラボアプリケーションを持つ強力な変異原性抽出物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Powerful Mutagene"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強力な変異遺伝子"
+    }
+  ]
+]

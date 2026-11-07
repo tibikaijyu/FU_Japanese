@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fantastic alloy composed of various metals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "さまざまな金属からなる素晴らしい合金です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Tritanium Bar^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;トリタニウムインゴット^reset;"
+    }
+  ]
+]

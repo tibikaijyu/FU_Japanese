@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hatch is made of some sort of bulletproof material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハッチはある種の防弾材でできています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Huge Lab Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大な研究室のハッチ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Sparkthrower"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "火花投手"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasma-edged melee cleaver.\n^cyan;Counts as plasma weapon for set bonuses^reset;\n^yellow;Inflicts Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラズマエッジのメリークリーバー。\n^cyan;セットボーナスのプラズマ武器としてカウントします。^reset;\n^yellow;焼成現象^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Breach Plasma Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラズマ遮断装置"
+    }
+  ]
+]

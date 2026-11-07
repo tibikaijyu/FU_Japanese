@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This marks the position of a mech landing bay."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "これはメキシコの上陸湾の位置を表しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This marker signifies a space bay made for mech entry."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このマーカーは、機械入力用のスペースを意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This guidance beacon marks the position of a landing bay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この誘導ビーコンは、着陸湾の位置を示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Beacon showsss where mechs can enter space."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ビーコンは、機械が空間に入ることができる場所を示しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informed. This beacon type is useful for tracking where mech vehicles can dock."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "と知らせた。 このビーコンタイプは、メカ車両がドッキングできるトラッキングに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A marker to tell pilots where to land their mech suits."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "パイロットにメカスーツをどこで着地するかを伝えるマーカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This beacon is for marking entry bays for mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このビーコンは、機械の入口湾をマークするためのものです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This marker is here to mark where t'saddle up your mech."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このマーカーはあなたの機械をどこで飾るかを示すためにここにあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Landing Beacon (Decorative)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ランディングビーコン(装飾)"
+    }
+  ]
+]

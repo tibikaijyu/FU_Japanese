@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Regal and dangerous.\n^cyan;+10% Stun^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "規則的で危険。\n^cyan;+10%気絶^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Maul"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンモール"
+    }
+  ]
+]

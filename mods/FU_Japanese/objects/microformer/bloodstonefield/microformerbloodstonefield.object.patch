@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a bloodstone field."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を血液石場に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloodstone Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラッドストーンマイクロフォーマー"
+    }
+  ]
+]

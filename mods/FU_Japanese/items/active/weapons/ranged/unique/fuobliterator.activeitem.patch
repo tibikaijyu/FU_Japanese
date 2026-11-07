@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Definitely not office-safe.\n^cyan;Reduces defenses of target^reset;\n^#e43774;Energy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オフィスセーフではない。\n^cyan;ターゲットの防御を減らす^reset;\n^#e43774;エネルギー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obliterator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "廃止"
+    }
+  ]
+]

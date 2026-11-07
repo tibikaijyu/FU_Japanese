@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chunk of semi transparent, white-hued wax. Known to be a potent hallucinogen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "半透明で、白い色のワックスの塊。 強力な幻覚剤であることが知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exspiravit Wax"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワックス"
+    }
+  ]
+]

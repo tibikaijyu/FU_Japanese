@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An eye immersed in a violet viscous fluid."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バイオレット粘性流体に浸した目。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Eye"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチン性眼"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into dry badlands."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を乾燥した悪地に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Badlands Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "荒地マイクロフォーマー"
+    }
+  ]
+]

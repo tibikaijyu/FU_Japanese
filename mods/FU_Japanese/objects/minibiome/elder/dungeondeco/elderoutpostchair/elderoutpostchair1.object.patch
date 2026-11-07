@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I don't want to think about what happened to whoever sat here."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ここに座った人なら誰に何が起こったのか考えたくない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Padded Metal Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パッド付き金属椅子"
+    }
+  ]
+]

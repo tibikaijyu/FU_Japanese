@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly efficent circuitry made out of hydrolium, commonly used by the Skath."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカースが一般的に使用するハイドロリウム製の高効率回路です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydrolium Circuitry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水素回路"
+    }
+  ]
+]

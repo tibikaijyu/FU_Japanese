@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of console screen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンソール画面のようなもの。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Console"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コンソール"
+    }
+  ]
+]

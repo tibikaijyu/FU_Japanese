@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lead the fleet in style."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタイルで艦隊をリード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Admiral Bottoms"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "提督"
+    }
+  ]
+]

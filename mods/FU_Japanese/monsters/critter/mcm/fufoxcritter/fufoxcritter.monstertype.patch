@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small carnivorous animal found in temperate climates. It has orange fur and is known for its cleverness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "温暖な気候で発見された小さな肉食動物。 オレンジ色の毛皮をしており、その利口さで知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fox"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キツネ"
+    }
+  ]
+]

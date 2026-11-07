@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Cute Weapons: Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Shadow Taint"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;Cute 武器:損傷x ^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;影の色合い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい脚"
+    }
+  ]
+]

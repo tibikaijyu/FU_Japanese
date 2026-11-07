@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Greg"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "グレッグ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There's no telling what this does.\n^cyan;Primary Fire: Grenades\n^red;Alt: Magnorbs\n^orange;Hold Shift: Rapid Fire mode^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これが何を意味するかはわからない。\n^cyan; 主な火災:手足首部\n^red;Alt:マグノルブ\n^orange;Hold Shift: 迅速なファイアモード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skittles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "子犬"
+    }
+  ]
+]

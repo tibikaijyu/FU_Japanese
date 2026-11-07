@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This salt is very useful in agriculture by increasing magnesium and sulfur content in soil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この塩は、土壌中のマグネシウムと硫黄含有量を増加させることで農業に非常に有用です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Magnesium Sulfate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "硫酸マグネシウム"
+    }
+  ]
+]

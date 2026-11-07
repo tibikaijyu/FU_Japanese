@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; (Machine) Pistol: +^green;2^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Gas, Aether, Shadow Taint"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;(マシン) ピストル:+^green;2^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;:ガス、エーテル、影の色合い"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassinii Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アサシニーの鎧"
+    }
+  ]
+]

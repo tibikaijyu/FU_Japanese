@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blood red gem."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血の赤い宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rukar Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルカール結晶"
+    }
+  ]
+]

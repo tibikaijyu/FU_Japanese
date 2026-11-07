@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/equipCosmetic/caption",
+      "value": "Equip (Cosmetic)"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/equipCosmetic/caption",
+      "value": "装備（外見）"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/equipFunctional/caption",
+      "value": "Equip (Functional)"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/equipFunctional/caption",
+      "value": "装備（性能）"
+    }
+  ]
+]

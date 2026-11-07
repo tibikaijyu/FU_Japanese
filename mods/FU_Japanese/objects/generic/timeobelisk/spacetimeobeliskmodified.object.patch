@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange artifact of unknown use, modified according to the instructions of an insane cat-person."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狂った猫の指示に従って修正された、未知の使用の奇妙なアーティファクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Modified Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "修正柱"
+    }
+  ]
+]

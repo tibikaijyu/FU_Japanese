@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lesser-known brand of Mountain Dew. Still tastes like crap. ^pink;Frost ^cyan;Immunity^gray;, ^cyan;+^white;20% ^pink;Ice ^cyan;Res ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マウンテンデューのあまり知られていないブランド。 味はいまだにくだらない。 ^pink;フロスト ^cyan;免疫^gray;, ^cyan;+^white;20% ^pink;氷 ^cyan;レズ ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Code Zerchesium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コード・ゼルケシウム"
+    }
+  ]
+]

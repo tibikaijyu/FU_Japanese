@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Get your meat shields here. ^green;Research^reset; contracts in the ^orange;Craftsmanship^reset; tree."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉の盾をここに持ってきなさい。 ^green;研究 ^reset;契約 ^orange;クラフトマンシップ ^reset;ツリー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Hiring Office^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;採用事務所^reset;"
+    }
+  ]
+]

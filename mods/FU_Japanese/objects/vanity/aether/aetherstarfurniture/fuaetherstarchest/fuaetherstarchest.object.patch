@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty storage chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいい収納箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cosmic Aether Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "宇宙エーテル胸部"
+    }
+  ]
+]

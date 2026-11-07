@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shockingly sharp blade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "衝撃的に鋭い刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vel'uuish Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴェルーイシュ・ダガー"
+    }
+  ]
+]

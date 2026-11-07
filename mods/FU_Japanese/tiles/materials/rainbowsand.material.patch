@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Rainbow-hued sand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "虹色の砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rainbow Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹砂"
+    }
+  ]
+]

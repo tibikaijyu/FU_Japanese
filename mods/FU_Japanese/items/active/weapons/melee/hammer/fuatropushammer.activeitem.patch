@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Plague Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ペストピラー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A revolting bio-weapon.\n^cyan;Plague Bearing^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "革命的な生物兵器。\n^cyan;ペストベアリング^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshweave Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュウィーブハマー"
+    }
+  ]
+]

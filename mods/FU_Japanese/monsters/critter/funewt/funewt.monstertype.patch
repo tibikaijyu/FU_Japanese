@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loves muddy and dark places."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "泥だらけで暗い場所が大好き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Noot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ノット"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Aegisalt, violium and ferozium have formed this into a dense alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エージ塩、ビオリウム、フェロジウムは、これを高密度合金に形成した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Dense Alloy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;高密度合金^reset;"
+    }
+  ]
+]

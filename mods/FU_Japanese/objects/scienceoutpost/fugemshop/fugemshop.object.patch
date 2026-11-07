@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Eld'uukhar shop featuring various crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "様々な結晶を特徴とするエルドゥウハルの店。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Gems of Soul^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;ソウルの宝石^reset;"
+    }
+  ]
+]

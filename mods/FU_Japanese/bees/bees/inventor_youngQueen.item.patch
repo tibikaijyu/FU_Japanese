@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Inventor Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発明家・ヤングクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Inventor Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若い発明家クイーン"
+    }
+  ]
+]

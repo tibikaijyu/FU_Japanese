@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "As your bee-tech gets more advanced you'll get ^green;superior output^reset; from your bee farm."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "ミツバチの技術が進歩すればするほど、ミツバチの農場から ^green; 優れた出力 ^reset; を得ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "To extract the goodies from ^green;honeycombs^reset; produced by your bees, you are going to need a ^orange;Wooden Centrifuge^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ミツバチが生産する ^green; ハニカム ^reset; から果実を抽出するには、^orange; 木製遠心分離機 ^reset; が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Round and Round we go..."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ラウンドとラウンドを..."
+    }
+  ]
+]

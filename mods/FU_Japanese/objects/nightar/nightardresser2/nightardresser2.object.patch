@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional Nightarian dresser."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的なナイトアリーナのドレッサー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Dresser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールドレス"
+    }
+  ]
+]

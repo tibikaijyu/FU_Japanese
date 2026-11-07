@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Simple, multi-layered top made of delicate fabrics."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "繊細な生地でシンプルな多層トップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hawker's Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホーカーズトップ"
+    }
+  ]
+]

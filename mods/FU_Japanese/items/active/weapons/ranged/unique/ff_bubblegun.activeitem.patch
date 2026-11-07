@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks like a harmless bubble gun. It isn't.\n^yellow;Inflicts Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "無害な気泡銃のように見える。 違います\n^yellow; 毒を与える ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bubblegun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バブルガン"
+    }
+  ]
+]

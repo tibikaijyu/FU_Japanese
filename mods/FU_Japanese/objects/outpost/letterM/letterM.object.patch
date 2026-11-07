@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Letter M."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "文字はM。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Letter M"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手紙M"
+    }
+  ]
+]

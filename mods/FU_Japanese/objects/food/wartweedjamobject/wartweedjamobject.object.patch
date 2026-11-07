@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A coarse, seedy jam that leaves behind a dry taste in your mouth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "口に乾燥した味を残した、粗い、さわやかなジャム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thisss jam feels chunky..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "このジャムはかさばる感じがする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surprised. I'm surprised there's anything soft enough in a wart weed worth jarring."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 麦わらの一味に、なにか柔らかいものがあるのも驚きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This jam sticks to the back of yer throat... Lovely."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このジャムは喉の奥にくっつく。 素敵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wartweed Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワートウィードジャム"
+    }
+  ]
+]

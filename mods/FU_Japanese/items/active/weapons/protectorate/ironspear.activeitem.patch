@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shoddy iron spear.\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ふくらむ鉄のくちばし。\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄のしわ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A finely crafted durasteel greataxe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "細工された鋼製の大軸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラ鋼大軸"
+    }
+  ]
+]

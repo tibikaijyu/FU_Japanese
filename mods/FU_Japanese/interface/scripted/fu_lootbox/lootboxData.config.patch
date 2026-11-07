@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/boxes/0/description",
+      "value": "Minerals and Goods"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/0/description",
+      "value": "鉱物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/boxes/0/name",
+      "value": "Resources"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/0/name",
+      "value": "資源"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/boxes/1/description",
+      "value": "Weapons and Gear"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/1/description",
+      "value": "武器・歯車"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/boxes/1/name",
+      "value": "Combat"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/1/name",
+      "value": "戦闘"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/boxes/2/description",
+      "value": "Modules, Heals and more"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/2/description",
+      "value": "モジュール、ヒールなど"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/boxes/2/name",
+      "value": "Miscellaneous"
+    },
+    {
+      "op": "replace",
+      "path": "/boxes/2/name",
+      "value": "その他"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/loot/poolData/common/name",
+      "value": "Common"
+    },
+    {
+      "op": "replace",
+      "path": "/loot/poolData/common/name",
+      "value": "コモン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/loot/poolData/epic/name",
+      "value": "Epic"
+    },
+    {
+      "op": "replace",
+      "path": "/loot/poolData/epic/name",
+      "value": "エピック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/loot/poolData/legendary/name",
+      "value": "Legendary"
+    },
+    {
+      "op": "replace",
+      "path": "/loot/poolData/legendary/name",
+      "value": "レジェンダリー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/loot/poolData/rare/name",
+      "value": "Rare"
+    },
+    {
+      "op": "replace",
+      "path": "/loot/poolData/rare/name",
+      "value": "レア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/loot/poolData/uncommon/name",
+      "value": "Uncommon"
+    },
+    {
+      "op": "replace",
+      "path": "/loot/poolData/uncommon/name",
+      "value": "アンコモン"
+    }
+  ]
+]

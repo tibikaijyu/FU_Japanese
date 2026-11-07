@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A /'NXOR'/ gate. Remains on unless exactly 2 inputs are on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "NXOR /ゲート。 正確に 2 入力がオンでなければ、残りはオフのままです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "An /'XOR'/ gate. Remainsss on unlesss exxactly 2 inputsss are on, and the ressst off."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "XOR / ゲート。 正確に 2 入力がオンでなければ、残ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observation. An /'XOR'/ gate. Remains on unless exactly 2 inputs are on, and the rest off."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "観察。 XOR / ゲート。 正確に 2 入力がオンでなければ、残りはオフのままです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "NXOR Gate (3 Inputs, 2-Hot)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "NXORゲート（3入力・2入力オン）"
+    }
+  ]
+]

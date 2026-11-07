@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It slices, it dices...and acts as a makeshift walking stick.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライスし、ダイスし、仮設の杖として機能します。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chain Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェーンスタッフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid darkness... how?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "真っ暗な... どうやって?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Darksoil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗い土壌"
+    }
+  ]
+]

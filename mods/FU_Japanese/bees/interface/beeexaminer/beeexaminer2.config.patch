@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/inputLabel/value",
+      "value": "Input:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/inputLabel/value",
+      "value": "入力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/outputLabel/value",
+      "value": "Output:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/outputLabel/value",
+      "value": "出力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/statuslabel/value",
+      "value": "Status:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/statuslabel/value",
+      "value": "状態:"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An implant that genetically alters your speed and reaction time. Passive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "速度と反応時間を遺伝的に変えるインプラント。 パッシブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Stimulant Rig IV^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;刺激リグIV^reset;"
+    }
+  ]
+]

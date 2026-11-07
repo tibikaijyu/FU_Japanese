@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "During storms it attaches itself to trees so as not to blow away."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "嵐の間、吹き飛ばさないように木に自分自身を付けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spent Paratail"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "使用済みパラテール"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A durable energy blade.\n^cyan;High-damage energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性のあるエネルギーブレード。\n^cyan;高ダメージエネルギー兵器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Particle Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "粒子ブレード"
+    }
+  ]
+]

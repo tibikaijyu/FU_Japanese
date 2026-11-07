@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Their children form a parasite-host relationship with humanoids."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らの子供は、ヒューマノイドと寄生虫と宿主の関係を形成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Head Crab"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カニ頭"
+    }
+  ]
+]

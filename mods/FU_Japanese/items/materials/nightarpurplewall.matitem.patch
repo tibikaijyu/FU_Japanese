@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fortified penumbral stone panels"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "石材パネル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "板金パネル"
+    }
+  ]
+]

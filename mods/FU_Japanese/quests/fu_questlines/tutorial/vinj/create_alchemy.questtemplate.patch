@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Nicely done. Now you'll need to find some space for this in your own base."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よくできた。あとは、自分の拠点に設置する場所を用意しよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Chemlab^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;化学ラボ^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Chemistry is a science that will allow you to create all sorts of useful things. Build an ^orange;Alchemy Table^reset; to give it a shot. You'll need to ^orange;Research^reset; the ^orange;Chemistry^reset; sciences."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "化学を学べば、いろいろな便利な物を作れる。まずは^orange;錬金術台^reset;で試してみよう。^orange;研究^reset;メニューの^orange;化学^reset;を進める必要があるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Alchemy"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "錬金術"
+    }
+  ]
+]

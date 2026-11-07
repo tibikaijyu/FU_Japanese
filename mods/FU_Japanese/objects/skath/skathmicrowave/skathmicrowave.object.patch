@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Just a basic microwave, it seems."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ただの電子レンジのようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": " could cook some basic meals with this."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": " ベーシックな料理が出来るかも"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A microwave. For when you're hungry enough to nuke your food."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電子レンジ。 お腹がすいていると、食べ物を核にできる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran putsss food in microwave. Watchesss food ssspin!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは食べ物を電子レンジに入れます。 料理の回転を見る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Impressed. This microwave cooks food with the heat of plasma."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感銘を受けた。 この電子レンジは、プラズマの熱で食べ物を調理します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I could have a bite. Just need to find out how to open the microwave..."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "噛むことができる。 電子レンジの開け方を知りたいだけ...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Microwaving food is such a lazy way to make food."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "電子レンジは食べ物を作るのにとても怠け者です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Cooking convenience"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  料理の便利さ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  Plasma Microwave"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  プラズママイクロ波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Microwave"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケートマイクロ波"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/skathDescription",
+      "value": "This microwave uses plasma to heat and cook food. It's nice to have around for a snack."
+    },
+    {
+      "op": "replace",
+      "path": "/skathDescription",
+      "value": "この電子レンジはプラズマを使って加熱し、調理する。 おやつを食べて回ってもいいよ。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of nitrogen at temperatures at or below 77K. Proceed with care.\n^green;Extractable^reset;, ^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "77K以下の温度での窒素の測定。 慎重に進めなさい。\n^green; 抽出可能 ^reset; 、^yellow; 遠心分離可能 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体窒素"
+    }
+  ]
+]

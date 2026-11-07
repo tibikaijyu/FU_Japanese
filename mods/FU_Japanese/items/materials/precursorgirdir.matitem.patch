@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strong looking ancient girder.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強烈な古代の桁。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Dark Girder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体暗黒桁"
+    }
+  ]
+]

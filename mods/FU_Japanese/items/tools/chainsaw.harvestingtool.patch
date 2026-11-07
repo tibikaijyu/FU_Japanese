@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for chopping down trees. Try to avoid massacres."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木を切り倒すのに最適です。 虐殺を避けるようにしなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chainsaw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェーンソー"
+    }
+  ]
+]

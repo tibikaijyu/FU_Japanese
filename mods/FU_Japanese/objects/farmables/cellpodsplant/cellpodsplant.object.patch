@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft to the touch, and bursting with cellular material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "触って柔らかく、細胞材料で破裂します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cellpod Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セルポッド種子"
+    }
+  ]
+]

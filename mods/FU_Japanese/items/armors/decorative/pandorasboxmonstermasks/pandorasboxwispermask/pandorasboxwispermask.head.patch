@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Won't lead you astray."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "迷子にならないでよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wisper Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウィスパーマスク"
+    }
+  ]
+]

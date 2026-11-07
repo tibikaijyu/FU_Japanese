@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Roasted sprouted wheat!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロースト小麦!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Malt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "麦芽"
+    }
+  ]
+]

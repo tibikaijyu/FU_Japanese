@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a chemist that increases your speed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スピードを上げる化学者を雇う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chemist-B Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "化学者-B契約"
+    }
+  ]
+]

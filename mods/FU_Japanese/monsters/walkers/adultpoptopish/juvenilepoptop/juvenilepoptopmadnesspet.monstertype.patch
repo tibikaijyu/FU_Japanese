@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's chubby..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ぽっちゃり...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Juvenile Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "少年ポップトップ"
+    }
+  ]
+]

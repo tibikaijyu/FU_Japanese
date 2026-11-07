@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "Insanity!"
+    },
+    {
+      "op": "replace",
+      "path": "/particleEmitters/statustext/particles/0/particle/text",
+      "value": "狂気!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/particleEmitters/statustext2/particles/0/particle/text",
+      "value": "^red;- Armor -^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/particleEmitters/statustext2/particles/0/particle/text",
+      "value": "^red; - アーマー - ^reset;"
+    }
+  ]
+]

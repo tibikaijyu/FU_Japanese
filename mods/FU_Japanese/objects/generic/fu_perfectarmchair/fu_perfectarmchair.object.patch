@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A perfect armchair."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なアームチェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Perfect Armchair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "完璧なアームチェア"
+    }
+  ]
+]

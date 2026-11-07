@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;Dmg +^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;威力 +^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^orange;Crit %^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^orange;会心率 %^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;Tier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;ティア^reset;"
+    }
+  ]
+]

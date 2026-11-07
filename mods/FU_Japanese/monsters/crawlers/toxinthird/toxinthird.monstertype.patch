@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sentient mass of fluids resulting from the division of a toxin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒素の分裂から生じる液体の感覚的な塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toxin Thirds"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒素第三"
+    }
+  ]
+]

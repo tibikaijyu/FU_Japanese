@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super-heavy fusion rocket launcher.\n^yellow;Huge radius^reset;\n^green;Destroys tiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超重核融合ロケット発射機。\n^yellow; 大きな半径 ^reset;\n^green;瓦の破壊^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fusion Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "核融合砲"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Increased projectile speed and knockback.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "発射速度とノックバックを向上。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Blastmark^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;爆風^reset; ^yellow;^reset;"
+    }
+  ]
+]

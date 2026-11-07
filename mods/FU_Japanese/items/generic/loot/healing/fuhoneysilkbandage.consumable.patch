@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Heal ^white;120 ^gray;over ^white;20s\n^green;Cures ^pink;Burning^gray;, ^pink;Cold^gray;, ^pink;Electrified^gray;, ^pink;Poisoned^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;癒し ^white;120 ^gray;終わった ^white;20ス)\n^green; 硬化 ^pink; 燃焼 ^gray; 、 ^pink; コールド ^gray; 、 ^pink; 電化 ^gray; 、 ^pink; 中毒 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeysilk Bandage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニーシルクの包帯"
+    }
+  ]
+]

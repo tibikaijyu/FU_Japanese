@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "You should not...be here..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/0",
+      "value": "ここにいてはいけません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "Cursed..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/1",
+      "value": "呪われた..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "This place...will be your death..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/2",
+      "value": "この場所は...あなたの死になる..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "No..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/hylotl/default/3",
+      "value": "いや..."
+    }
+  ]
+]

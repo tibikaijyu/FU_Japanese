@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Obliterating blasts that promise death.\n^cyan;Energy weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死を約束する爆風を消す。\n^cyan; エネルギー兵器 ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Titan"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンエーテル"
+    }
+  ]
+]

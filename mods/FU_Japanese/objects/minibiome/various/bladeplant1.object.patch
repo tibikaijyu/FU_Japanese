@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blade plant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ブレードプラント"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blade plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレードプラント"
+    }
+  ]
+]

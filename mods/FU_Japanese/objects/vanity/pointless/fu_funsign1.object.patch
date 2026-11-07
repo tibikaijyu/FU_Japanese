@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Who made this completely pointless sign...and why?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誰がこの完全に無意味なサインを作ったのか...そしてなぜ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Attention!"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "注意!"
+    }
+  ]
+]

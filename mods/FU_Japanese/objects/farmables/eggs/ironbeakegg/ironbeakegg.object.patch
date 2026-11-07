@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatches into a tiny chick and matures into a Ironbeak. The adult Ironbeak produces iron."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなひよこにハッチして、鉄のくちばしに成熟します。 大人のアイアンビークは鉄を生産します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ironbeak Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄のくちばし"
+    }
+  ]
+]

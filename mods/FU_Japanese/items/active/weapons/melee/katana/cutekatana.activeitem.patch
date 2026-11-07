@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honed to deadly perfection.\n^yellow;Counts as 'energy' for set bonuses^reset;\n^yellow;6-hit combo!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的な完璧に栄光。\n^yellow;セットボーナスの「エネルギー」としてカウント^reset;\n^yellow;6 - コンボヒット!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹色の刀"
+    }
+  ]
+]

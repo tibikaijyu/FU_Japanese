@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pleasantly sweet juice made from an alien fruit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイリアンの果実で作った甘みのあるジュース。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Isss juice grape flavored?"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ジュースブドウの風味は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relaxed. My scanners aren't detecting anything suspect in this drink. It should be safe."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "リラックス。 私のスキャナは、この飲み物に疑わしいものは何も検知していません。 安全であるべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Can't be too off from grape, can it?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ぶどうから遠すぎるわけにはいきませんよね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Fruit Juice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンフルーツジュース"
+    }
+  ]
+]

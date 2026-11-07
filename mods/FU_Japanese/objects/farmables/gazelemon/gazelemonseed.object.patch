@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The iris is the best part. Helps eyesight in the dark."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "虹彩が最も良い部分です。 暗闇の中で視力を助けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gazelemon Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガゼレモン種子"
+    }
+  ]
+]

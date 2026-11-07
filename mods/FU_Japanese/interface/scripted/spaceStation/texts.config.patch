@@ -1,0 +1,2664 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apex/acquireEnhancer",
+      "value": "Don't forget you'll lose the enhancer should you die, or you can ask us to remove it should you tire from it.\nIn addition, side effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/acquireEnhancer",
+      "value": "死ぬとエンハンサーを失ってしまうのを忘れないで、疲れたら外して欲しい。\n加えて、副作用は、乾燥した口、吐き気、吐出、保水、痛みを伴う直腸かゆみ、幻覚、認知症、精神病、コマ、死、および口臭を含むことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/activeEnhancer",
+      "value": "I'm sorry, but for your own safety we cannot apply another enhancer while another one is active.\nWe can remove your current one for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/activeEnhancer",
+      "value": "申し訳ありませんが、ご自身の安全のために、別のエンハンサーをアクティブにしている間は、別のエンハンサーを適用することはできません。\nご希望の場合は、現在の 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/cantAfford2",
+      "value": "You're low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/cantAfford2",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/cantAfford3",
+      "value": "You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/cantAfford3",
+      "value": "それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/cantAfford4",
+      "value": "You'll need more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/chat1",
+      "value": "I like bananas."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/chat1",
+      "value": "私はバナナが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/chat2",
+      "value": "Serving up here is a lot more fun than being a common worker."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/chat2",
+      "value": "ここでの奉仕は、一般的な労働者であるよりもずっと楽しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/chat3",
+      "value": "Apex engineering is the best in the universe!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/chat3",
+      "value": "エイペックスのエンジニアリングは宇宙で最高です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/chat4",
+      "value": "Get out of here stalker!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/chat4",
+      "value": "ストーカーを降りなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/medBrochure",
+      "value": "Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with powerful body enhancers, for the right price of course.\nDue to health hazard, you can have only one enhancer active at a time, but they last until death, or until removed at a medical station for 500 pixels.\nRemmember - Every medical station has its own collection of enhancers, so be sure to check them all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/medicalSpecial",
+      "value": "医療研究ラボとして、当社の特別なサービスは、もちろん、適切な価格で、強力なボディエンハンサーを提供しています。\n健康上の問題により、一度に一つのエンハンサーのみをアクティブにすることができますが、それらは死ぬまで、または500ピクセルのために医療ステーションで削除されるまで続きます。\n忘れないでください - すべての医療ステーションには独自のエンハンサーのコレクションがあるので、それらをすべてチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrocity. Sadly, we can only spare one crew member per captain. We don't want to end up being the ones in need of crew members..."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときのリターンもします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 結局、乗組員が必要な人間になりたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations if you're in need for more crewmates."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\nもっと多くのクルーメイトが必要であれば、他の軍事ステーションをチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/returnSpecial",
+      "value": "Was there anything else you wanted?"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/returnSpecial",
+      "value": "他に何か欲しいものありましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/tradingSpecial",
+      "value": "As a trading center, we care primarily about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shift in your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/tradingSpecial",
+      "value": "トレーディングセンターとして、私たちは主にピクセルとその価値を気にしています。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの有利にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/apex/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/apex/welcome",
+      "value": "Welcome to the {STATIONNAME} station [(playername)], and remember, Big Ape is watching."
+    },
+    {
+      "op": "replace",
+      "path": "/apex/welcome",
+      "value": "ようこそ{STATIONNAME}駅[(playername)]へ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/acquireEnhancer",
+      "value": "Don't forget you'll lose the enhancer should you die, or you can ask us to remove it should you tire from it.\nIn addition, side effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/acquireEnhancer",
+      "value": "死ぬとエンハンサーを失ってしまうのを忘れないで、疲れたら外して欲しい。\n加えて、副作用は、乾燥した口、吐き気、吐出、保水、痛みを伴う直腸かゆみ、幻覚、認知症、精神病、コマ、死、および口臭を含むことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/activeEnhancer",
+      "value": "I'm sorry, but for your own safety we cannot apply another enhancer while another one is active.\nWe can remove your current one for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/activeEnhancer",
+      "value": "申し訳ありませんが、ご自身の安全のために、別のエンハンサーをアクティブにしている間は、別のエンハンサーを適用することはできません。\nご希望の場合は、現在の 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/cantAfford2",
+      "value": "You're low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/cantAfford2",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/cantAfford3",
+      "value": "You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/cantAfford3",
+      "value": "それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/cantAfford4",
+      "value": "You'll need more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/chat1",
+      "value": "I may be flightless, but I imagine floating through space is just as fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/chat1",
+      "value": "飛行できないかもしれませんが、宇宙を浮遊するのは楽しいと思います!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/chat2",
+      "value": "Tell me of your adventures!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/chat2",
+      "value": "あなたの冒険を教えてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/chat3",
+      "value": "One day I'll save enough to buy my own ship!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/chat3",
+      "value": "いつか私は自分の船を買うのに十分なお金を貯めるでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/chat4",
+      "value": "I'm bored..."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/chat4",
+      "value": "退屈です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/medBrochure",
+      "value": "Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with powerful body enhancers, for the right price of course.\nDue to health hazard, you can have only one enhancer active at a time, but they last until death, or until removed at a medical station for 500 pixels.\nRemmember - Every medical station has its own collection of enhancers, so be sure to check them all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/medicalSpecial",
+      "value": "医療研究ラボとして、当社の特別なサービスは、もちろん、適切な価格で、強力なボディエンハンサーを提供しています。\n健康上の問題により、一度に一つのエンハンサーのみをアクティブにすることができますが、それらは死ぬまで、または500ピクセルのために医療ステーションで削除されるまで続きます。\n忘れないでください - すべての医療ステーションには独自のエンハンサーのコレクションがあるので、それらをすべてチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrocity. Sadly, we can only spare one crew member per captain. We don't want to end up being the ones in need of crew members..."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときのリターンもします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 結局、乗組員が必要な人間になりたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations if you're in need for more crewmates."
+    },
+    {
+      "op": "replace",
+      "path": "/avian/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\nもっと多くのクルーメイトが必要であれば、他の軍事ステーションをチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/returnSpecial",
+      "value": "Was there anything else you wanted?"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/returnSpecial",
+      "value": "他に何か欲しいものありましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/tradingSpecial",
+      "value": "As a trading center, we care primarly about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shiftin your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/tradingSpecial",
+      "value": "トレーディングセンターとして、私たちは主にピクセルとその価値を気にしています。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの好意にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avian/welcome",
+      "value": "Welcome to the {STATIONNAME} station [(playername)], Kluex watch over you!"
+    },
+    {
+      "op": "replace",
+      "path": "/avian/welcome",
+      "value": "{STATIONNAME}station[(playername)]へようこそ、クルーエクスがあなたを見守ってくれます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/acquireEnhancer",
+      "value": "Come back if you want another one!\nOh, and side effects may include: dry mouth, nausea, vomiting, water retention, tingling rectal itch, hallucination, epiphany, psychosis, coma, death, and a fate worse than death."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/acquireEnhancer",
+      "value": "また欲しくなったら来てね！\nああ、それと、副作用には口の渇き、吐き気、嘔吐、むくみ、肛門のピリピリしたかゆみ、幻覚、天啓、精神病、昏睡、死亡、そして死よりも恐ろしい運命などがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/activeEnhancer",
+      "value": "Like I said, you can't have more than one enhancer active at a time.\nWe can remove your active enhancer for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/activeEnhancer",
+      "value": "先ほど述べたように、一度に複数のエンハンサーをアクティブにすることはできません。\nアクティブなエンハンサーを 500 ピクセルから削除することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/cantAfford2",
+      "value": "You're broke."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/cantAfford2",
+      "value": "壊れてるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/cantAfford3",
+      "value": "You're poor. Come back richer."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/cantAfford3",
+      "value": "あなたは貧乏です。 より豊かに戻ってきなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/cantAfford4",
+      "value": "Time is money. You seem to be out of both."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/cantAfford4",
+      "value": "時間は金だ。 あなたは両方から外れているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat1",
+      "value": "I know what you did."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat1",
+      "value": "君が何をしたか知ってるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat2",
+      "value": "No."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat2",
+      "value": "いいえ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat3",
+      "value": "Did you know Avians can be alcoholics?"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat3",
+      "value": "エイヴィアンがアルコール依存症になるのをご存知でしたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat4",
+      "value": "I'd give a tailfeather for some lunch."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat4",
+      "value": "昼食には尾羽を付けよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat5",
+      "value": "Did you know the sign is blue?"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat5",
+      "value": "看板が青だと知ってた?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat6",
+      "value": "I'm banned from the Beakeasy."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat6",
+      "value": "私はBeakeasyから禁じられています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat7",
+      "value": "Welcome to our station! No loitering."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat7",
+      "value": "私たちの駅へようこそ! うそつきなし。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/chat8",
+      "value": "I eat chicken."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/chat8",
+      "value": "私は鶏肉を食べる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with all sort of long lasting enhancers, for the right price of course.\nDue to health hazard, only one enhancer can be applied.\nLucky you, they stay with you until your inevitable death!\nOr you can remove them for 500 pixels at any medical station, if death doesn't do it for you by the time you get to one."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/medicalSpecial",
+      "value": "医学研究所として、当社の特別なサービスは、もちろん、適切な価格で、あらゆる種類の長持ちするエンハンサーを提供しています。\n健康上の問題により、一つのエンハンサーのみが適用できます。\n幸運なことに、彼らはあなたの避けられない死まであなたと一緒にいます!\nまたは、どの医療ステーションでも500ピクセルで削除することもできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrosity. Sadly, we can only spare one crew member per captain. I don't know if you're capable of handling more."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときにリターンします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 もっと対処できるかどうかは分かりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations.\nNo refunds."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\n他の軍事ステーションをチェックしてみてください。\n返金なし。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/returnSpecial",
+      "value": "What do you want?"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/returnSpecial",
+      "value": "何が欲しいの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/scientificSpecial",
+      "value": "As a scientific research lab, we specialize in synthesysing all sorts of materials, and are willing to trade them for others.\nBe sure to check in often though, we don't always have or need the same materials!"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/scientificSpecial",
+      "value": "科学研究所として、私たちはあらゆる種類の材料を合成することを専門としており、それらを他の人と交換することを喜んでいます。\nただし、頻繁にチェックインしてください、私たちは常に同じ材料を持っているか、または必要ではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/tradingSpecial",
+      "value": "As a trading center, we care primarly about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shiftin your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/tradingSpecial",
+      "value": "トレーディングセンターとして、私たちは主にピクセルとその価値を気にしています。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの好意にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/cari/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/cari/welcome",
+      "value": "Welcome to the {STATIONNAME} station. Don't break anything."
+    },
+    {
+      "op": "replace",
+      "path": "/cari/welcome",
+      "value": "{STATIONNAME}駅へようこそ。 何も壊さないで。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/defaultButtonStates/0",
+      "value": "Chat"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultButtonStates/0",
+      "value": "チャット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/defaultButtonStates/2",
+      "value": "Shop"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultButtonStates/2",
+      "value": "店"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/defaultButtonStates/3",
+      "value": "Trade Goods"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultButtonStates/3",
+      "value": "交易品"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/defaultButtonStates/4",
+      "value": "Special"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultButtonStates/4",
+      "value": "特別"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/defaultButtonStates/5",
+      "value": "Goodbye"
+    },
+    {
+      "op": "replace",
+      "path": "/defaultButtonStates/5",
+      "value": "さよなら"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/acquireEnhancer",
+      "value": "Floran is told to say: 'ssside effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itchyness, hallucination, dementia, psychosisss, coma, death, and halitosis.'\nThat wasss a mouthful. Also, boossster gone if you die, weakling. Come back if you need another."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/acquireEnhancer",
+      "value": "フローラン、こう言えって教わった。「っ副作用には、口の渇き、吐き気、嘔吐、水分の貯留、痛みを伴う直腸のかゆみ、幻覚、認知症、精神病、昏睡、死亡、口臭が含まれることがあります」。\n長いっ台詞だった。それと、死んだら強化効果は消えるぞ、弱虫。また欲しくなったら戻ってこい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/activeEnhancer",
+      "value": "Floran iss told to ssay, can't have more than one enhancer active at a time.\nCan remove active enhancer for 500 pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/activeEnhancer",
+      "value": "Floranisは、一度に複数のエンハンサーをアクティブにすることはできません。\n500ピクセルのアクティブエンハンサーを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/cantAfford1",
+      "value": "You don't have enough moneysss."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/cantAfford1",
+      "value": "お金が足りないのね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/cantAfford2",
+      "value": "Come back when you have enough pixelsss, wimp."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/cantAfford2",
+      "value": "十分なピクセルがあれば戻ってきなさい、ウィンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/cantAfford3",
+      "value": "Floran needsss more pixelsss for that."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/cantAfford3",
+      "value": "フローランはそれのためにもっとピクセルを必要とします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/cantAfford4",
+      "value": "You'll need more pixelsss."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat1",
+      "value": "Nice weather. Good for Floransss."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat1",
+      "value": "いい天気です。 フローランにとって良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat2",
+      "value": "You haven't died."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat2",
+      "value": "あなたは死んでいません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat3",
+      "value": "Floran lossst their meat. Floran susspects Sssteve."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat3",
+      "value": "フローランは肉をなくした。 フローラン容疑者が容疑者。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat4",
+      "value": "Is Floran wilting?"
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat4",
+      "value": "フローランはうずうずしていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat5",
+      "value": "Starsss are boring. Too far away to stab."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat5",
+      "value": "スターは退屈です。 突き刺すには遠すぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat6",
+      "value": "There is no meat for sale. Everything is in a tube."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat6",
+      "value": "販売用の肉はありません。 すべてがチューブにあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat7",
+      "value": "Floran will ssstab if you act bad."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat7",
+      "value": "悪ふざけをすればフローランが刺す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/chat8",
+      "value": "Floran dreamt of being hunted."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/chat8",
+      "value": "フローランは狩りを夢見た。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/hireMerc",
+      "value": "Here isss contract. Good for one hunter."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/hireMerc",
+      "value": "契約書はこちら。 ハンター一人のために良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/medBrochure",
+      "value": "Need a brochure? Ssure thing, it'ss free!"
+    },
+    {
+      "op": "replace",
+      "path": "/floran/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/medicalSpecial",
+      "value": "Floran will sssell power boosssters for weaklingss.\nBoosstersss don't ssstay after death, weakling.\nCan alsso remove boosster if you regret. Cosssts 500 pixelss."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/medicalSpecial",
+      "value": "フローランは弱者のためにパワーブースターを販売します。\nブスターは死後も留まりません\n後悔した場合もブスターを除去できます。 Cosssts 500ピクセル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/militarySpecial",
+      "value": "Floransss sstation isss military, and Floran hiresss out crew membersss. The better you pay Floran, the better the hunter, but you can only take one. We are good, ssstrong fightersss but even we can't fight alone..."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/militarySpecial",
+      "value": "フィレンツェは軍部であり、フィレンツェは乗組員を雇う。 フローランを支払えば払うほどハンターは良くなりますが、一つしか取ることができません。 私たちは良い、とても強い戦闘機ですが、私たちは一人で戦うことはできません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/noMoreMerc",
+      "value": "Huntersss are come in sssingles. Go somewhere elesse for more."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/noMoreMerc",
+      "value": "ハンターはssSinglesに入っています。 あとはどこかへ行きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/questStage0",
+      "value": "Floran doesss have something they want done..."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/questStage0",
+      "value": "フローラン・ドスにはやりたいことが..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/questStage1",
+      "value": "Greedy! Come back when you've finissshed the lassst one."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/questStage1",
+      "value": "うわっ! 最後の一つが終わったら戻ってきなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/questStage2",
+      "value": "Floran will not give rewards for nothing."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/questStage2",
+      "value": "フローランは何も報いをしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/questStage3",
+      "value": "Floran could have done better...\nHere isss your payment."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/questStage3",
+      "value": "フローランはもっと上手くできたかもしれない。\nあなたの支払いはここにあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/floran/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/returnSpecial",
+      "value": "Floran can sell you more thingsss..."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/returnSpecial",
+      "value": "フローランはあなたに多くのものを販売することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/scientificSpecial",
+      "value": "Floransss peoplesss are sciencey and will trade for different things they needsss.\nIf you have the wrong stuff Floran may need it later. Wait or be eaten."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/scientificSpecial",
+      "value": "浮浪民族は科学的であり、必要なさまざまなものに対して取引します。\nFloranに間違ったものがある場合は、後で必要かもしれません。 待つか、食べるか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/tradingSpecial",
+      "value": "Thisss isss a trading center, so we like ssshiny pixelssss.\nIf you give usss money we will ssscare our shopss into giving you better pricess.\nIf you give usss enough pixelss, we sscare all other sspace sstation shops to give you better pricess."
+    },
+    {
+      "op": "replace",
+      "path": "/floran/tradingSpecial",
+      "value": "これはトレーディングセンターなので、光沢のあるピクセルが大好きです。\nあなたが私たちにお金を与えるなら、私たちはあなたのより良い価格を与えることに私たちの店を怖がらせます。\nあなたが私たちに十分なピクセルを与えれば、私たちはあなたにより良い価格を与えるために他のすべての宇宙ステーションショップを怖がらせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/tradingSpecialMax",
+      "value": "Floran should thank you for your money...\nNow we have more ssstuff to ssstab and thingsss.\nFloran will frighten other sellers into giving their ssstuff away cheaper and giving more pixelsss for your ssstuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/floran/tradingSpecialMax",
+      "value": "フローランは金に感謝するべきだ\n今度は、刺すのにもっとssのものがあります。\nフローランは、他の売り手を怖がらせて、ssのものをより安く、ssのもののためにより多くのピクセルを与えるでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floran/welcome",
+      "value": "Floran must welcome [(playername)] to the {STATIONNAME} ssstation. Ssstate your businesss"
+    },
+    {
+      "op": "replace",
+      "path": "/floran/welcome",
+      "value": "フローラン は [(playername)] を {STATIONNAME} ステーション に歓迎します。 ビジネスをサステナブルに"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/acquireEnhancer",
+      "value": "Don't forget you'll lose the enhancer should you die, or you can ask us to remove it should you tire from it.\nIn addition, side effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/acquireEnhancer",
+      "value": "死ぬとエンハンサーを失ってしまうのを忘れないで、疲れたら外して欲しい。\n加えて、副作用は、乾燥した口、吐き気、吐出、保水、痛みを伴う直腸かゆみ、幻覚、認知症、精神病、コマ、死、および口臭を含むことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/activeEnhancer",
+      "value": "I'm sorry, but for your own safety we cannot apply another enhancer while another one is active.\nWe can remove your current one for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/activeEnhancer",
+      "value": "申し訳ありませんが、ご自身の安全のために、別のエンハンサーをアクティブにしている間は、別のエンハンサーを適用することはできません。\nご希望の場合は、現在の 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/cantAfford2",
+      "value": "You're low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/cantAfford2",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/cantAfford3",
+      "value": "You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/cantAfford3",
+      "value": "それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/cantAfford4",
+      "value": "You'll need more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat1",
+      "value": "*Additional supplies depots required*\n[(pause)5]...[(pause)5]\nPardon me - wrong AI state."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat1",
+      "value": "※備蓄備蓄は別途※\n[(pause)5] ... [(pause)5]\n申し訳ありません - 間違ったAI状態。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat10",
+      "value": "Exposure to psionically damaging effects can permanently affect your brain. Madness -can- lead to genius, but not if you completely lose your mind."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat10",
+      "value": "陰影を帯びた効果が脳に永続的に影響します。 狂気 - 天才につながることができますが、完全にあなたの心を失う場合ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat2",
+      "value": "To protect you, we must isolate you."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat2",
+      "value": "あなたを守るには、あなたを隔離する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat3",
+      "value": "You're totally not a brain in a jar living a simulation, serving as a processor."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat3",
+      "value": "コンピューターのプロセッサーとして機能する、シミュレーションをしている瓶の中の脳ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat6",
+      "value": "You've got mail!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat6",
+      "value": "郵送だ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat7",
+      "value": "Would you like some cake?"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat7",
+      "value": "ケーキはいかがですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat8",
+      "value": "When travelling on Sulphuric worlds, if you are able to protect yourself against the ravages of the environment you will be capable of procuring enormous quantities of ore. With hazard comes reward."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat8",
+      "value": "硫黄惑星を旅する際、過酷な環境から身を守ることができれば、膨大な量の鉱石を手に入れられます。危険には、それに見合う報酬があるのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat9",
+      "value": "There are legends of an ancient race, long forgotten, that came here from some unknown sector of space. Allegedly, there is a treasure trove of powerful technology awaiting the intrepid explorer."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat9",
+      "value": "宇宙のいくつかの未知のセクターからここに来た、長い間忘れられていた古代の人種の伝説があります。 伝説では、強力なテクノロジーの宝庫が、この素晴らしい探検家を待っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/medBrochure",
+      "value": "Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with powerful body enhancers, for the right price of course.\nDue to health hazard, you can have only one enhancer active at a time, but they last until death, or until removed at a medical station for 500 pixels.\nRemember - Every medical station has its own collection of enhancers, so be sure to check them all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/medicalSpecial",
+      "value": "医療研究ラボとして、当社の特別なサービスは、もちろん、適切な価格で、強力なボディエンハンサーを提供しています。\n健康上の問題により、一度に一つのエンハンサーのみをアクティブにすることができますが、それらは死ぬまで、または500ピクセルのために医療ステーションで削除されるまで続きます。\n忘れないでください - すべての医療ステーションには独自のエンハンサーのコレクションがありますので、それらをすべてチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrocity. Sadly, we can only spare one crew member per captain. We don't want to end up being the ones in need of crew members..."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときのリターンもします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 結局、乗組員が必要な人間になりたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations if you're in need for more crewmates."
+    },
+    {
+      "op": "replace",
+      "path": "/generic/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\nもっと多くのクルーメイトが必要であれば、他の軍事ステーションをチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/returnSpecial",
+      "value": "Was there anything else you wanted?"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/returnSpecial",
+      "value": "他に何か欲しいものありましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/tradingSpecial",
+      "value": "As a trading center, we care primarily about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shift in your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/tradingSpecial",
+      "value": "トレーディングセンターとして、私たちは主にピクセルとその価値を気にしています。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの有利にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/welcome",
+      "value": "Welcome to the {STATIONNAME} station [(playername)]. Enjoy your stay!"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/welcome",
+      "value": "{STATIONNAME}駅[(playername)]へようこそ。 ご滞在をお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/acquireEnhancer",
+      "value": "Hopeful. Come back if you would like another enhancer.\nAdvisory. The Galactic Food & Drug Agency has not fully approved this type of mechanism, and possible side effects are not completely known yet. Have fun, and remember to come back for another when you die!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/acquireEnhancer",
+      "value": "希望。 別のエンハンサーをご希望の場合は、戻ってきてください。\nアドバイス。 銀河系食品医薬品庁はこの種のメカニズムを完全に承認していないため、副作用の可能性はまだ完全にはわかっていません。 楽しんで、あなたが死ぬときに別のために戻ってくることを忘れないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/activeEnhancer",
+      "value": "Explanatory. As stated, you cannot have more than one enhancer active at a time.\nWe can remove your active enhancer for 500 pixels if desired."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/activeEnhancer",
+      "value": "説明。 前述のように、一度に複数のエンハンサーをアクティブにすることはできません。\n必要に応じて、500ピクセルのアクティブエンハンサーを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/cantAfford1",
+      "value": "Disappointed. You lack economical possessions."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/cantAfford1",
+      "value": "がっかり。 経済的な保有品が不足している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/cantAfford2",
+      "value": "Patient. Please return with more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/cantAfford2",
+      "value": "患者。 ピクセル数を増やして戻ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/cantAfford3",
+      "value": "Explanatory. You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/cantAfford3",
+      "value": "説明。 それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/cantAfford4",
+      "value": "Disagreeing. That is not enough to pay for this."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/cantAfford4",
+      "value": "反対。 それだけではそれで十分ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat1",
+      "value": "Welcoming. We rarely receive visitors."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat1",
+      "value": "ようこそ。 私たちはめったに訪問者を受け取りません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat2",
+      "value": "Content. It is good to have you here."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat2",
+      "value": "内容。 君をここに連れてきてくれて嬉しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat3",
+      "value": "Puzzled. I can't find my lunchbag."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat3",
+      "value": "パズル。 弁当袋が見つからない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat4",
+      "value": "Nostalgic. I miss proper metallic cuisine."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat4",
+      "value": "懐かしい。 ちゃんとした金属料理が恋しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat5",
+      "value": "Inquisitive. Do you come here often?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat5",
+      "value": "質問あり。 あなたはよくここに来ますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat6",
+      "value": "Observant. Your mech is of interesting craft."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat6",
+      "value": "オブザーバー。 あなたの機械は面白い工芸品です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat7",
+      "value": "Calm. It's so quiet out here, among the void..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat7",
+      "value": "落ち着け。 ここはとても静かで、空のなかには...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/chat8",
+      "value": "Cautious. Those warriors from Terra, they got curved swords. Curved. Swords."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/chat8",
+      "value": "慎重。 テラの戦士たちは、剣を曲げてもらった。 曲がった。 剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/hireMerc",
+      "value": "Explanatory. Here is your contract, use it to call your recruit."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/hireMerc",
+      "value": "説明。 こちらの契約書は、採用担当者に電話するために使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/medBrochure",
+      "value": "Excited. Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/medBrochure",
+      "value": "興奮した。 パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/medicalSpecial",
+      "value": "Explanatory. As a medical research lab, we deal in all sort of long lasting enhancers.\nThey will remain with you until your eventual death, or until removed.\nThey can be removed at any medical station for 500 pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/medicalSpecial",
+      "value": "説明。 医学研究室として、私たちはあらゆる種類の長持ちするエンハンサーを取り扱っています。\n彼らはあなたの最終的に死ぬまで、または取り除かれるまであなたと一緒に残ります。\n500ピクセルの場合、任意の医療ステーションで削除することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/militarySpecial",
+      "value": "Explanatory. As a military station, we deal in specialized crewmember contracts. Price and quality are tied, so go the extra mile if you want to be extra safe.\nKeep in mind that we can only spare one crew member per captain, in order to remain functional ourselves."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/militarySpecial",
+      "value": "説明。 軍事基地として、専門的な乗組員契約を取り扱っています。 価格と品質は結びついていますので、余分な安全性を望む場合は余分なマイルを移動します。\n船長一人につき一人の乗組員を予備にできるのは、私たち自身の機能を維持するためだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/noMoreMerc",
+      "value": "Apologizing. We only allow one crewmate per captain.\nIf you need more crew members, check in with other military stations."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/noMoreMerc",
+      "value": "謝る。 船長一人につき一人だけ乗務員を許可します。\nより多くの乗組員が必要な場合は、他の軍事ステーションでチェックインしてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/questStage0",
+      "value": "Affirmative. IF you want to help, there's something we need."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/questStage0",
+      "value": "確実。 手伝いたいなら、何か必要なものがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/questStage1",
+      "value": "Irraritated. Finish your previous assigment before asking for another."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/questStage1",
+      "value": "と私は言い渡した。 別のことを尋ねる前に前の割り当てを終えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/questStage2",
+      "value": "Negative. You failed to honor your part of the deal.\nYou won't receive any payment."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/questStage2",
+      "value": "ネガティブ。 あなたはその取引の一部を尊重できなかった。\n支払いは受けられません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/questStage3",
+      "value": "Approving. Here, take this as payment."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/questStage3",
+      "value": "承認。 ここでは、支払いとしてこれを取る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/removeEnhancer",
+      "value": "Pleased. Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/removeEnhancer",
+      "value": "どうぞ。 エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/returnSpecial",
+      "value": "Questioning. Do you need anything else?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/returnSpecial",
+      "value": "質問。 他に何か必要なものはありますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/scientificSpecial",
+      "value": "Discoursing. As a scientific research lab, our main branch of action is synthesysing and trading all sorts of materials.\nDo remember to check back every now and then, as our stored goods may vary quite a bit."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/scientificSpecial",
+      "value": "落胆。 科学研究所として、私たちの主な活動分野は合成とあらゆる種類の材料を取引することです。\n私たちの保管されている商品はかなり異なる可能性があるため、時々確認することを忘れないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/tradingSpecial",
+      "value": "Discoursing. As a trading center, we are here mainly to amass pixels.\nWe are accepting investments, which may bring you a great profit if sufficient.\nWith each investment you make, our prices will shift in your favor.\nEncouraging. Raising enough pixels in our name will award you with a better price through out all the space stations in the cosmos!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/tradingSpecial",
+      "value": "落胆。 トレーディングセンターとして、私たちは主に集団ピクセルにここにいます。\n私たちは投資を受け入れています。\n投資するごとに、当社の価格はお好みの変化します。\n励まし。 私たちの名前で十分なピクセルを上げると、宇宙のすべての宇宙ステーションを通じてより良い価格が与えられます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/tradingSpecialMax",
+      "value": "Pleased. Thank you for this important aid.\nAll thanks to you, this is now a prosperous merchant outpost with a large variety of goods to offer.\nWe'll make sure your contribution is known far and wide, allowing you to get better prices when buying or selling with other vendors as well."
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/tradingSpecialMax",
+      "value": "どうぞ。 この重要な援助をありがとう。\nすべてのおかげで、これは今、提供すべき商品の多種多様な繁栄商人の拠点です。\n私たちはあなたの貢献が広く知られていることを確認し、他のベンダーと購入したり販売したりする際により良い価格を得ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitch/welcome",
+      "value": "Cordial. Welcome to the {STATIONNAME} station [(playername)]. Enjoy your stay!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitch/welcome",
+      "value": "心から。 {STATIONNAME}駅[(playername)]へようこそ。 ご滞在をお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/acquireEnhancer",
+      "value": "Don't forget you'll lose the enhancer should you die, or you can ask us to remove it should you tire from it.\nIn addition, side effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis."
+    },
+    {
+      "op": "replace",
+      "path": "/human/acquireEnhancer",
+      "value": "死ぬとエンハンサーを失ってしまうのを忘れないで、疲れたら外して欲しい。\n加えて、副作用は、乾燥した口、吐き気、吐出、保水、痛みを伴う直腸かゆみ、幻覚、認知症、精神病、コマ、死、および口臭を含むことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/activeEnhancer",
+      "value": "I'm sorry, but for your own safety we cannot apply another enhancer while another one is active.\nWe can remove your current one for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/human/activeEnhancer",
+      "value": "申し訳ありませんが、ご自身の安全のために、別のエンハンサーをアクティブにしている間は、別のエンハンサーを適用することはできません。\nご希望の場合は、現在の 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/human/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/cantAfford2",
+      "value": "You're low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/human/cantAfford2",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/cantAfford3",
+      "value": "You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/human/cantAfford3",
+      "value": "それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/cantAfford4",
+      "value": "You'll need more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/human/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat1",
+      "value": "Damn tentacled beasts, destroying planets and childhoods..."
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat1",
+      "value": "クソ触手獣惑星と子供を破壊..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat2",
+      "value": "You have my attention."
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat2",
+      "value": "君は私の注意を引いている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat3",
+      "value": "I miss the 3120s"
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat3",
+      "value": "3120s は見逃しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat4",
+      "value": "C'mooooooon it's been 3 hours since I last checked the time, and only ten minutes have passed!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat4",
+      "value": "C'mooooooonは私が最後に時間を確認してから3時間であり、わずか一〇分が過ぎました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat5",
+      "value": "One more loot box, and I'll finally complete my cosmetic set in Hats n' Guns 2!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat5",
+      "value": "もう一つのルートボックス、そして私はついに帽子の銃2で私の化粧品セットを完了します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat6",
+      "value": "Hey, I'm pretty sure I've seen you on- ...nevermind."
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat6",
+      "value": "ねえ、君を見てきたのは間違いない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/chat7",
+      "value": "I used to be a spacefarer like you, but then I took a laser to the knee."
+    },
+    {
+      "op": "replace",
+      "path": "/human/chat7",
+      "value": "以前、私はあなたのように宇宙機でしたが、その後、膝にレーザーを取った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/human/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/medBrochure",
+      "value": "Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with powerful body enhancers, for the right price of course.\nDue to health hazard, you can have only one enhancer active at a time, but they last until death, or until removed at a medical station for 500 pixels.\nRemmember - Every medical station has its own collection of enhancers, so be sure to check them all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/medicalSpecial",
+      "value": "医療研究ラボとして、当社の特別なサービスは、もちろん、適切な価格で、強力なボディエンハンサーを提供しています。\n健康上の問題により、一度に一つのエンハンサーのみをアクティブにすることができますが、それらは死ぬまで、または500ピクセルのために医療ステーションで削除されるまで続きます。\n忘れないでください - すべての医療ステーションには独自のエンハンサーのコレクションがあるので、それらをすべてチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrocity. Sadly, we can only spare one crew member per captain. We don't want to end up being the ones in need of crew members..."
+    },
+    {
+      "op": "replace",
+      "path": "/human/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときのリターンもします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 結局、乗組員が必要な人間になりたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations if you're in need for more crewmates."
+    },
+    {
+      "op": "replace",
+      "path": "/human/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\nもっと多くのクルーメイトが必要であれば、他の軍事ステーションをチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/returnSpecial",
+      "value": "Was there anything else you wanted?"
+    },
+    {
+      "op": "replace",
+      "path": "/human/returnSpecial",
+      "value": "他に何か欲しいものありましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/human/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/tradingSpecial",
+      "value": "As a trading station, we care primarly about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shiftin your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/tradingSpecial",
+      "value": "トレーディングステーションとして、私たちは主にピクセルとその価値を気にします。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの好意にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/human/welcome",
+      "value": "Welcome to the {STATIONNAME} station [(playername)]!"
+    },
+    {
+      "op": "replace",
+      "path": "/human/welcome",
+      "value": "{STATIONNAME}駅[(playername)]へようこそ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/acquireEnhancer",
+      "value": "Don't forget you'll lose the enhancer should you die, or you can ask us to remove it should you tire from it.\nIn addition, side effects may include: dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/acquireEnhancer",
+      "value": "死ぬとエンハンサーを失ってしまうのを忘れないで、疲れたら外して欲しい。\n加えて、副作用は、乾燥した口、吐き気、吐出、保水、痛みを伴う直腸かゆみ、幻覚、認知症、精神病、コマ、死、および口臭を含むことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/activeEnhancer",
+      "value": "I'm sorry, but for your own safety we cannot apply another enhancer while another one is active.\nWe can remove your current one for 500 pixels if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/activeEnhancer",
+      "value": "申し訳ありませんが、ご自身の安全のために、別のエンハンサーをアクティブにしている間は、別のエンハンサーを適用することはできません。\nご希望の場合は、現在の 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/cantAfford1",
+      "value": "Seems like you're a bit short on pixels..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/cantAfford1",
+      "value": "ピクセルが少し足りないみたいですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/cantAfford2",
+      "value": "You're low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/cantAfford2",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/cantAfford3",
+      "value": "You can not afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/cantAfford3",
+      "value": "それは余裕がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/cantAfford4",
+      "value": "You'll need more pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/cantAfford4",
+      "value": "もっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/chat1",
+      "value": "I ate a fish the other day and got weird looks from the humans on board..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/chat1",
+      "value": "先日魚を食べて、船上の人間から変な顔をした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/chat2",
+      "value": "Have you seen [you can quite make out what they're saying]?? Its the best show ever!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/chat2",
+      "value": "彼らが言っていることをよく理解できるのを見ましたか. 史上最高のショーです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/chat3",
+      "value": "When my shifts over, I'm going back to working on my novel!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/chat3",
+      "value": "シフトが終わると、私は自分の小説に取り組もうとします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/chat4",
+      "value": "I broke my favorite brush yesterday and now I'm too sad to draw anything."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/chat4",
+      "value": "昨日お気に入りの筆を壊したのだが、今は何事も描けないほど悲しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/hireMerc",
+      "value": "Heres the contract, use it to call and recruit them."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/hireMerc",
+      "value": "ここに契約があり、それを電話して採用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/medBrochure",
+      "value": "Need a brochure? Sure thing, it's free!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/medBrochure",
+      "value": "パンフレットが必要ですか? もちろん、それは無料です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/medicalSpecial",
+      "value": "As a medical research lab, our special service is providing you with powerful body enhancers, for the right price of course.\nDue to health hazard, you can have only one enhancer active at a time, but they last until death, or until removed at a medical station for 500 pixels.\nRemmember - Every medical station has its own collection of enhancers, so be sure to check them all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/medicalSpecial",
+      "value": "医療研究ラボとして、当社の特別なサービスは、もちろん、適切な価格で、強力なボディエンハンサーを提供しています。\n健康上の問題により、一度に一つのエンハンサーのみをアクティブにすることができますが、それらは死ぬまで、または500ピクセルのために医療ステーションで削除されるまで続きます。\n忘れないでください - すべての医療ステーションには独自のエンハンサーのコレクションがあるので、それらをすべてチェックしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/militarySpecial",
+      "value": "As a military station, our special service is allowing you to hire new crew members. The price goes up with the quality, so does the return when they save your ass from some otherwordly monstrocity. Sadly, we can only spare one crew member per captain. We don't want to end up being the ones in need of crew members..."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/militarySpecial",
+      "value": "軍用ステーションとして、新しい乗組員を雇うことができます。 価格も品質とともに上がります、そして彼らはあなたのお尻を他の世界的怪物から救うときのリターンもします。 残念なことに、船長一人につき一人の乗組員を予備にすることができます。 結局、乗組員が必要な人間になりたいとは思わない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/noMoreMerc",
+      "value": "Sorry, we only allow one crewmate per captain.\nTry checking other military stations if you're in need for more crewmates."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/noMoreMerc",
+      "value": "船長一人につき一人だけ乗務員を許可します。\nもっと多くのクルーメイトが必要であれば、他の軍事ステーションをチェックしてみてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/removeEnhancer",
+      "value": "Enhancer removed. Enjoy your enhancer free body!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/removeEnhancer",
+      "value": "エンハンサーを外しました。 エンハンサーフリーボディをお楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/returnSpecial",
+      "value": "Was there anything else you wanted?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/returnSpecial",
+      "value": "他に何か欲しいものありましたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/tradingSpecial",
+      "value": "As a trading station, we care primarly about pixels and their value.\nShould you be able to raise a high enough amount and invest in us, we'll make sure it'll be worth your while.\nWith each investment you make, the prices in our shops will shiftin your favor, allowing you to buy and sell goods at better rates!\nInvest enough, and the prices for all space stations will have a shift in your favor!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/tradingSpecial",
+      "value": "トレーディングステーションとして、私たちは主にピクセルとその価値を気にします。\n高い金額を上げて私たちに投資できるなら、それはあなたの時間の価値があることを確認します。\nあなたが行う投資ごとに、私たちの店の価格はあなたの好意にシフトし、より良い価格で商品を売買することができます!\n十分に投資すれば、すべての宇宙ステーションの価格はあなたの好意にシフトします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/tradingSpecialMax",
+      "value": "Thank you for your great contribution!\nThanks to you, we are now a bustling trading station with a lot of goods to pick from, with good prices for everyone!\nWe'll make sure your contribution is known beyond the bounds of this station, providing you with a better price rate when you buy or sell from other vendors across the stars!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/tradingSpecialMax",
+      "value": "ありがとうございました!\nあなたのおかげで、私たちは今、誰もが良い価格で、から選ぶべき商品がたくさんある忙しい貿易ステーションです!\n私たちはあなたの貢献がこのステーションの枠を超えて知られていることを確認します。星空中の他のベンダーから購入または販売するとき、より良い価格率を提供します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotl/welcome",
+      "value": "Greetings [(playername)], and welcome to the {STATIONNAME} station "
+    },
+    {
+      "op": "replace",
+      "path": "/hylotl/welcome",
+      "value": "挨拶 [(playername)] と {STATIONNAME} 駅へようこそ。 "
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/acquireEnhancer",
+      "value": "Aaaaaand done!\nRemember - ya don't keep them if ya die, and we can remove em for 500 pixels if ya want."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/acquireEnhancer",
+      "value": "終わった!\n死んだ場合は保存しないでください。必要に応じて 500 ピクセルを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/activeEnhancer",
+      "value": "Like I said, can't have more than one enhancer active at a time.\nWe can remove your active enhancer for 500 pixels if ya'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/activeEnhancer",
+      "value": "先ほど述べたように、一度に複数のエンハンサーをアクティブにすることはできません。\n必要に応じて、500ピクセルのアクティブエンハンサーを削除できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/cantAfford1",
+      "value": "Ya low on pixels."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/cantAfford1",
+      "value": "ピクセル数が少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/cantAfford2",
+      "value": "Sorry, ya can't afford that."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/cantAfford2",
+      "value": "すいません、それで余裕がありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/cantAfford3",
+      "value": "You'll need more pixels for that."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/cantAfford3",
+      "value": "それのためにはもっとピクセルが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/cantAfford4",
+      "value": "Yer wallet reminds me of the desert!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/cantAfford4",
+      "value": "あなたの財布は砂漠を思い出させます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/chat1",
+      "value": "Ya ever stare into a sun and get a funny feeling in yer eyes?\nI don't, got no eyes to feel!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/chat1",
+      "value": "太陽を見つめて、あなたの目で変な気持ちになる?\n私は感じない目を持っていません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/chat2",
+      "value": "Now where'd I leave my banjo at?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/chat2",
+      "value": "バンジョーをどこに置いたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/chat3",
+      "value": "Ya like country music?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/chat3",
+      "value": "カントリー音楽が好き?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/chat4",
+      "value": "How do I solve problems? [(pause)5]Guns.\n[(pause)10]How do I solve big problems? [(pause)5]Big guns!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/chat4",
+      "value": "問題を解決するには? [(pause)5] 銃。\n[(pause)10] 大きな問題をどうやって解決しますか? [(pause)5] ビッグガン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/hireMerc",
+      "value": "Heres the contract for em'. Use it ta call em' in and recruit em'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/hireMerc",
+      "value": "契約書はこちらです。 それを「中に入って採用する」と呼んでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/medBrochure",
+      "value": "Need a brochure? Sure thing pardner, on the house!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/medBrochure",
+      "value": "パンフレットが必要ですか? 確かにパートナーは、家の上に!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/medicalSpecial",
+      "value": "If ya lookin' for a boon, you at the right medical station!\nWe're sellin' all sorts of enhancers that do all kinds of stuff.\nWe can't let ya walk around with more than one though, bad for yer health n' all that, but they strong enough to last you a life time, so dying ain't advised if ya have one. They can also be removed at any med station for 500 pixels if you'd like.\nAnd don't forget - Every station has its own collection of boosters, so be sure to check em' all out!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/medicalSpecial",
+      "value": "月を捜しているなら、あなたは正しい医療ステーションにいます!\n私たちは、あらゆる種類のことをするあらゆる種類のエンハンサーを販売しています。\n一つ以上のものを持って歩き回らせてはくれませんが、健康的にはそうではありません。でも、生涯続くほど強いので、死ねってことは忠告できません。 任意のメディカルステーションで、500ピクセルを削除することもできます。\nそして、忘れないでください - すべてのステーションにはブースターの独自のコレクションがありますので、必ずチェックアウトしてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/militarySpecial",
+      "value": "Ya want extra guns by your side? You at the right military station cowboy!\nYa can hire a merc here ta help ya on yer travels, but we only allow one crewmate per captn', otherwise we'd end up being the ones hiring!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/militarySpecial",
+      "value": "あなたのそばに余分な銃が欲しいですか? 右の軍事ステーションカウボーイであなた!\nあなたはあなたの旅行を助けるためにここでマーチを雇うことができますが、我々は一人あたり一人のクルーメイトだけを許可します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/noMoreMerc",
+      "value": "Sorry pardner, we only allow one crew per capn'. Try askin' other military stations!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/noMoreMerc",
+      "value": "ごめんなさい、一人あたり一人のクルーしか許可していません。 他の軍事基地を試着しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/removeEnhancer",
+      "value": "Enhancer removed, good as new!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/removeEnhancer",
+      "value": "エンハンサーは削除され、新しいように良い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/returnSpecial",
+      "value": "Anything else pardner?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/returnSpecial",
+      "value": "他にパートナーは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/scientificSpecial",
+      "value": "deprecated"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/scientificSpecial",
+      "value": "廃止"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/tradingSpecial",
+      "value": "Ya like pixels? So do we!\nIn this trading station, ya can invest pixels to better prices in yer favor.\nOnce ya invest enough, we'll make sure all stations, no matter what type, will have a better price ta offer ya!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/tradingSpecial",
+      "value": "ピクセルが好き? 俺たちもだ!\nこのトレーディングステーションでは、あなたの好意でより良い価格にピクセルを投資することができます。\n十分に投資すれば、どのタイプのステーションでも、より良い価格が提供されるようにします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/tradingSpecialMax",
+      "value": "We all grateful to yer countribution pardenr!\nWe'll make sure any other station floating out there will have a better price for you!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/tradingSpecialMax",
+      "value": "あなたの貢献パートナーに感謝します!\n私たちはそこに浮いている他のステーションがあなたのためのより良い価格を持っていることを確認します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakid/welcome",
+      "value": "Howdy [(playername)]! Welcome to the {STATIONNAME} station pardner!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakid/welcome",
+      "value": "こんにちは[(playername)]! {STATIONNAME}駅パートナーへようこそ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat4"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat4",
+      "value": "この仕事には、妙な楽しみがある。\n窓の外を星が流れ、\n貨物船が入港して、\n同じ顔ぶれが食堂に集まる。\nそれなのに、\n毎日必ず何かが起きる。\n昨日は空調が歌い出した。\n今日は自動販売機が休暇を要求した。\n明日は何だろうな。\n[(pause)5]\n船長、君ならどうする？\nまず機械を直す？\n原因を調べる？\nそれとも、\n自動販売機と勤務条件を話し合う？\n私は話し合いを選んだ。\nそいつ、コーヒーを握っているからな。\n[(pause)5]\n結局、要求は簡単だった。\nたまには豆を補充してくれ、とさ。\n宇宙は広い。\nだが、どこへ行っても、\n誰かが補充を忘れる。\n君の船では、そんなことはないよな？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/generic/chat5"
+    },
+    {
+      "op": "replace",
+      "path": "/generic/chat5",
+      "value": "宇宙港で一番大切なものは何だと思う？\n燃料？　食料？　修理部品？\nどれも正解に近い。[(pause)5]\nだが、本当の答えは予備の鍵だ。\n以前、管制室の扉が閉まらなくなってな。\n技師が修理して、見事に閉まるようになった。[(pause)5]\n今度は、誰にも開けられなくなった。\n予備の鍵も管制室の中だった。\n私たちは窓越しに会議をしたよ。[(pause)5]\n議題は、誰が鍵を取りに入るか。\nもちろん、全員が別の誰かを推薦した。\n[(pause)10]結局、清掃ロボットが解決した。\n床下の整備通路から入って、扉を開けたんだ。\n今ではそいつが保安責任者さ。[(pause)3]\nだから船長、予備の鍵は別の場所に置いておけよ。"
+    }
+  ]
+]

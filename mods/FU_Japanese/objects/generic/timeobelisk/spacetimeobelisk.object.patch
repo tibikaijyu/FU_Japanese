@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange artifact of unknown use."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の使用の奇妙なアーティファクト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mysterious Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "謎の柱"
+    }
+  ]
+]

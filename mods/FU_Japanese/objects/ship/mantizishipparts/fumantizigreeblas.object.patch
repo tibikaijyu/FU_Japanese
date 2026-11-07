@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A towering Mantizi statue, reminiscent of the ancient Atlas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代アトラスを連想させる、そびえ立つマンティジ像。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizi Colossus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンティジの巨像"
+    }
+  ]
+]

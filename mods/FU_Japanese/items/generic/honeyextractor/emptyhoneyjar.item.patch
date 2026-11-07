@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An empty honey jar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空のハニージャー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空の蜂蜜ジャー"
+    }
+  ]
+]

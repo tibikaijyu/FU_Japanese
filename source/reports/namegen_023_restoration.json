@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "tests_run": 4,
+  "failures": 0,
+  "errors": 0,
+  "runtime_tested": false,
+  "scope": "Original character generator data restoration, exact training-word UTF-8 bytes, registered source IDs, and a necessary seed-length input condition of an independent C# implementation. No native game or Markov generation simulation.",
+  "metrics": {
+    "real_full_upstream_assets_unchanged": 31,
+    "fenerox_no_op_on_arbitrary_assembled_base": true,
+    "retired_patch_files_checked": 32,
+    "resolved_original_markov_references": 2,
+    "original_training_words_byte_identical": 114,
+    "restored_negative_seed_upper_bounds": 0,
+    "old_negative_seed_upper_bounds": [
+      {
+        "source_id": "elduukharfemale",
+        "index": 13,
+        "original": "KYRA",
+        "translated": "京",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharfemale",
+        "index": 18,
+        "original": "KYURU",
+        "translated": "菊",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharfemale",
+        "index": 31,
+        "original": "KYRU",
+        "translated": "京",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharfemale",
+        "index": 41,
+        "original": "ORI",
+        "translated": "織",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharmale",
+        "index": 18,
+        "original": "KYURU",
+        "translated": "菊",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharmale",
+        "index": 31,
+        "original": "KYRU",
+        "translated": "京",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharmale",
+        "index": 37,
+        "original": "VERNIN",
+        "translated": "春",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      },
+      {
+        "source_id": "elduukharmale",
+        "index": 41,
+        "original": "ORI",
+        "translated": "織",
+        "unicode_characters": 1,
+        "utf16_units": 1,
+        "utf8_bytes": 3,
+        "prefix_size": 2,
+        "independent_seed_upper_bound": -1
+      }
+    ],
+    "old_training_words_below_target_min_3": 20
+  },
+  "independent_reference": "https://github.com/Kawa-oneechan/SBCharCreator/blob/master/NameGen.cs",
+  "reference_limit": "The independent code ignores targetLength and is not established as equivalent to Starbound 1.4.4. It demonstrates a negative input bound, not the cause of the reported native freeze.",
+  "limits": [
+    "Fenerox has only an upstream append patch; its combined vanilla+FU asset was not available for a real-base application test.",
+    "A no-op patch is tested to leave the assembled document unchanged regardless of its content.",
+    "No game save or installed game directory is read or changed."
+  ]
+}

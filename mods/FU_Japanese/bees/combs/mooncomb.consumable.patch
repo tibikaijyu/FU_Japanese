@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honeycomb with unusual gravitational abilities if consumed."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "消費すると、比類のない重力能力を持つハニカム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Moon Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムーンハニカム"
+    }
+  ]
+]

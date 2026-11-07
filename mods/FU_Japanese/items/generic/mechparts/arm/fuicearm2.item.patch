@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezinate!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フリーズ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Arm II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "氷腕II"
+    }
+  ]
+]

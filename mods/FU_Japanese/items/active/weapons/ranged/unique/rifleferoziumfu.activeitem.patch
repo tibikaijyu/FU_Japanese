@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reliable and accurate, and cheap to produce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "信頼性と正確さ、生産コストが安い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ferozium Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェロジウムライフル"
+    }
+  ]
+]

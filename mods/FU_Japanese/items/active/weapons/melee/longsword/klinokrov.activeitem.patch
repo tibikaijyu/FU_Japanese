@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blade of a fallen legend.\n^cyan;Inflicts Caliginous Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "倒れた伝説の刃。\n^cyan;カリジンガスの影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Klinokrov"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クリノコフ"
+    }
+  ]
+]

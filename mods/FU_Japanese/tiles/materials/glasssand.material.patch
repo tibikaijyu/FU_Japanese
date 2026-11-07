@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny, glassy sand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある、ガラスのような砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glass Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガラス砂"
+    }
+  ]
+]

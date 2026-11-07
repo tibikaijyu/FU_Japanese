@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your cyanider can be on a table!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今度はあなたのシアン化物はテーブルの上にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Cyanider"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポスタブルシナイダー"
+    }
+  ]
+]

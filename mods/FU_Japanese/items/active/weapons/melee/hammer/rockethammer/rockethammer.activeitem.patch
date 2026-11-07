@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Massive, ancient hammer.\n^cyan;Huge impact damage^reset;\n^yellow;Rocket-propelled!^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大で古代のハンマー。\n^cyan; 大きな衝撃ダメージ^reset;\n^yellow;ロケット推進!^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Omega Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オメガハンマー"
+    }
+  ]
+]

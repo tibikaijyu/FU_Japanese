@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avada Kedavra!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アバダ・ケダブラ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Witch's Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "魔女の杖"
+    }
+  ]
+]

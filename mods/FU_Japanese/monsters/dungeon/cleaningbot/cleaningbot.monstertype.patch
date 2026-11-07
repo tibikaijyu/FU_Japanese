@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For those too lazy to do the vacuum cleaning themselves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "掃除機を自分で掃除するのが怠け者にとって。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cleaning Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "清掃ボット"
+    }
+  ]
+]

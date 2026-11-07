@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smack em in the face with the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コスモスで顔面を叩きなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテメイス"
+    }
+  ]
+]

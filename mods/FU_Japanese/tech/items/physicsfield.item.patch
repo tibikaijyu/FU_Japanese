@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Allows basic manipulation of physics when holding Jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプ保持時に物理の基本操作が可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Physics Field I^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;物理場I^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slowly breaks up rocky materials into useful items. ^cyan;Requires ^orange;6W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゆっくりと岩石材料を便利なアイテムに分解します。 ^cyan; は ^orange;6W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Rock Breaker^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ロックブレーカ^reset;"
+    }
+  ]
+]

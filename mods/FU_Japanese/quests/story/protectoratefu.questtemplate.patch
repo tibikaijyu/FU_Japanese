@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You got the thing"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "分かったのは"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/escape",
+      "value": "Escape the destruction"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/escape",
+      "value": "破壊から逃れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "Attend the emergency meeting"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/graduate",
+      "value": "緊急会議に出席してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/matterManipulator",
+      "value": "Take the matter manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/matterManipulator",
+      "value": "マターマニピュレーターを選択します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Have some thing"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "何か持って"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "You're a thing"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "あなたは何か"
+    }
+  ]
+]

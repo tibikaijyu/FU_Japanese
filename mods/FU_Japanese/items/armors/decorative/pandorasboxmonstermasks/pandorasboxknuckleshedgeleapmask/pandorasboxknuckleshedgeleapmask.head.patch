@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Doesn't chuckle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くすくすしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Knuckles Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナックルズ・ヘッジジャンプ・マスク"
+    }
+  ]
+]

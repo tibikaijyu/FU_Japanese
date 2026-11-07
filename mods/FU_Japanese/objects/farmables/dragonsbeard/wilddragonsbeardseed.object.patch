@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nearly immune to all forms of heat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱のすべての形態にほぼ免疫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dragonsbeard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竜のひげ"
+    }
+  ]
+]

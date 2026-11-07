@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Not healthy, but useful. \n^yellow;Item Magnet II^reset; (400s)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "健康的ではないが、有用である。 \n^yellow;アイテムマグネットII^reset;(400s)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Chewable Magnet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チューアブルマグネット"
+    }
+  ]
+]

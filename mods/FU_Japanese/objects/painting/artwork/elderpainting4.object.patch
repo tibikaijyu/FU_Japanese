@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A terrifying formless horror gazes into your soul from countless malign eyes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい形のない恐怖が無数の悪の目からあなたの魂を見つめています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショゴス"
+    }
+  ]
+]

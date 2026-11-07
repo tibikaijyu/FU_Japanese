@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An engine for a space ship. Allows you to travel through space. Requires an FTL drive to leave the solar system. ^red;BYOS Only^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のエンジン。 空間を移動することができます。 太陽系を離れるためにFTLドライブが必要です。 ^red;BYOSのみ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Ship Engine^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;船舶エンジン^reset;"
+    }
+  ]
+]

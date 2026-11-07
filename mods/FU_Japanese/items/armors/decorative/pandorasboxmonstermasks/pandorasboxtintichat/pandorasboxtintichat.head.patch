@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made from real Tintic silk!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本物のチンティックシルクから作られています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tintic Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ティンティックハット"
+    }
+  ]
+]

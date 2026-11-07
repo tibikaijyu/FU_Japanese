@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/blockTitleLabel/value",
+      "value": "Perfect Block Time:"
+    },
+    {
+      "op": "replace",
+      "path": "/blockTitleLabel/value",
+      "value": "完璧なブロック時間:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/healthTitleLabel/value",
+      "value": "Shield Health:"
+    },
+    {
+      "op": "replace",
+      "path": "/healthTitleLabel/value",
+      "value": "盾の耐久値:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;Tier^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelLabelTitle/value",
+      "value": "^yellow;ティア^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldbashTitleLabel/value",
+      "value": "Bash Bonus:"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldbashTitleLabel/value",
+      "value": "打撃補正:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stamTitleLabel/value",
+      "value": "Shield Regen Bonus:"
+    },
+    {
+      "op": "replace",
+      "path": "/stamTitleLabel/value",
+      "value": "シールドレゲンボーナス:"
+    }
+  ]
+]

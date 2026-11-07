@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This sword has a grand design, but it looks like it would be difficult to wield."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この剣は壮大なデザインですが、持ち運びが難しいようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nhydri Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニハイドリ広剣"
+    }
+  ]
+]

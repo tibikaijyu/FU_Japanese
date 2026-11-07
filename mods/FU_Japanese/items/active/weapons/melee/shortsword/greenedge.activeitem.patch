@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather fast and poisonous sword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり速いと有毒な剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Greenedge"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリーンエッジ"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tangy and refreshing. Try it on toast!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タンディと爽やか。 乾杯してみなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran thought thisss would be BIRD kiwi jam..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこれを鳥のキウイ・ジャムだと思った..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Surpised. What an unusual and refreshing taste!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 珍しい、爽やかな味!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Kiwis look weird and taste even weirder. But I can't say I hate it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "キウイは奇妙に見えるし、さらに奇妙味。 でも嫌いとは言えません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kiwi Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キウイ・ジャム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Designed to catch creatures in pet pods"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペットポッドで動物を捕まえるように設計されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capture Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲ロボット"
+    }
+  ]
+]

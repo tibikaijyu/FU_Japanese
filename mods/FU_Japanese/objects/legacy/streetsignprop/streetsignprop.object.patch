@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Well now, where to...?"
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "さて、今、どこに...?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Seems there's a few different ways to proceed from here."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ここから進むにはいくつかの異なる方法があるようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This should point you in the right direction!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは、正しい方向を指し示すはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran doesn't need directions from dumb sssign!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランは、ダムのササインからの指示を必要としません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Analytical. I see... The best way to proceed from here would be to..."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "分析。 なるほど。 ここから進む最良の方法は..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Hey, a sign! ... Aw crackers, I can't make out the writing."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "おい、看板だ! ... ひび割れは、私は書き物が理解できない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The print on these signs are very poorly maintained. How are citizens supposed to rely on them for direction?"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これらのサインの印刷物は非常にメンテナンスが不十分です。 市民はどうやって彼らを方向付けにあてにすべきか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I just go wherever the wind takes me, personally."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "風があたるところは、私個人で行くだけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Street Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "道路標識"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A finely crafted alloy tile."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "細工された合金製のタイル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金タイル"
+    }
+  ]
+]

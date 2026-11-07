@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Said to be wielded by a legendary Nightar swordsman."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説のナイトアー剣士に剣を振り回されると言われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/description",
+      "value": "A fine, lethal edge."
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/description",
+      "value": "良い、致命的なエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/improvedParameters/shortdescription",
+      "value": "Honed Nightar Sabre"
+    },
+    {
+      "op": "replace",
+      "path": "/improvedParameters/shortdescription",
+      "value": "栄誉あるナイトアー・セイバー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Saber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜のセイバー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "The edge is superior to nearly any other."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "縁は他のどのものよりも優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Peerless Nightar Sabre"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "ナイトアー・セイバー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "The finest edge possible."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "可能な限り最高のエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Legendary Nightar Sabre"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "伝説のナイトアーセイバー"
+    }
+  ]
+]

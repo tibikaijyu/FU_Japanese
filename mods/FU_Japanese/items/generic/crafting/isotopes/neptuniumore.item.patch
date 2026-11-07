@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Commonly used in weapons development\n^blue;+^white;4 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器開発によく用いられる\n^blue;+^white;4 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neptunium Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネプツニウム鉱石"
+    }
+  ]
+]

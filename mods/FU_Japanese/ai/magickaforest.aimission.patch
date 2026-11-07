@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Away In A Longship (3)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "ロングシップを捨てる(3)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Away In A Longship (3) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "ロングシップ(3) (R) は避けてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "The defenders of a Glitch monastery are asking for help against an imminent Alpaca raid. Perhaps you could do something to help?"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "グリッチ修道院の守備側は、差し迫ったアルパカ襲撃に対して助けを求めています。 何か手伝ってもらえませんか?"
+    }
+  ]
+]

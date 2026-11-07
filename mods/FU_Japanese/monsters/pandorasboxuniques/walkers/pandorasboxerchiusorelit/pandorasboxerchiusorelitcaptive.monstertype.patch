@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Though Erchius is embedded in its body, it seems unaffected by the Erchius sickness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルキウスは体に埋め込まれているが、エルキウス病の影響を受けていないようである。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Orelit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウス・オレリト"
+    }
+  ]
+]

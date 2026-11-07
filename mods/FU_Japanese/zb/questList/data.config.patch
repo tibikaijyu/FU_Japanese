@@ -1,0 +1,458 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/instructions/description",
+      "value": "To select a task, click on its name on the left window, and relevant information will be displayed here.\n\nTasks also come with a color to represent your progress with them: \n^red;red^reset; : unavailable\n^yellow;yellow^reset; : available\n^cyan;cyan^reset; : in progress\n^green;green^reset; : complete.\n\nThere may be different task branches, which you can access by pressing the big image at the top of the window on the left. More become available as you unlock them."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/instructions/description",
+      "value": "タスクを選択するには、左側のウィンドウで名前をクリックすると、関連する情報が表示されます。\n\nタスクには、進捗状況を表す色も付属しています。 \n^red;red^reset;:ご利用いただけません。\n^yellow;Yellow^reset;: ご利用になれます。\n^cyan;cyan^reset;:現在進行中\n^green;green ^reset;:完了。\n\n左側の窓の上部にある大きな画像を押すと、さまざまなタスクブランチにアクセスできます。 アンロックすると、さらに多くの機能が追加されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/instructions/title",
+      "value": "Corvex Research Task Terminal"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/instructions/title",
+      "value": "コルヴェクス研究課題ターミナル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_battle/description",
+      "value": "Quests in this grouping tend to be related to battle, be it killing monsters or creating new sorts of weaponry."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_battle/description",
+      "value": "このグループの質問は、モンスターを殺すか、新しい種類の武器を作成するか、戦闘に関連する傾向があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_battle/title",
+      "value": "Battle"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_battle/title",
+      "value": "合戦"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_byos/description",
+      "value": "The basics of manual ship building."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_byos/description",
+      "value": "手動造船の基本。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_byos/title",
+      "value": "Build Your Own Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_byos/title",
+      "value": "船を造る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_exploration/description",
+      "value": "Going places will lead to the completion of tasks in this grouping. If travel is your aim, you'll have no problems here."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_exploration/description",
+      "value": "行く場所は、このグループのタスクの完了につながります。 旅行が目的なら、ここで問題ありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_exploration/title",
+      "value": "Exploration"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_exploration/title",
+      "value": "探究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_general/description",
+      "value": "A wide variety of quests fill this group, from basic survival to more complex things such as teaching poodles to fly, or the French Revolution."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_general/description",
+      "value": "ベーシックサバイバルから、プードルに飛ぶように教えること、フランス革命など、より複雑なものまで、さまざまなクエストがこのグループを埋めます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_general/title",
+      "value": "General Tasks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_general/title",
+      "value": "総務"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_kevin_tasks/description",
+      "value": "These tasks are of the utmost importance. Without completing them nobody will think you are as awesome as I am. That is clearly not something you would desire. I guarantee it is worth your while."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_kevin_tasks/description",
+      "value": "これらのタスクは最も重要です。 それらを完成させなければ、誰もあなたが私ほど素晴らしいとは思わないでしょう。 それは明らかにあなたが望むものではありません。 あなたの価値があることは保証します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_kevin_tasks/title",
+      "value": "Kevin's Amazing Tasks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_kevin_tasks/title",
+      "value": "ケビンの素晴らしい仕事"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_outpost_tasks/description",
+      "value": "Here you can track miscellaneous tasks which may not fit into other quest groupings."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_outpost_tasks/description",
+      "value": "ここでは、他のクエストグループに適合しないさまざまなタスクを追跡することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_outpost_tasks/title",
+      "value": "Miscellaneous Tasks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_outpost_tasks/title",
+      "value": "雑事"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_sciences/description",
+      "value": "To build a lab, you have a great number of things to do. This set of quests will serve to aid you in doing exactly that. Learn the function of each station, how it is used in conjunction with other stations in your arsenal and more!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_sciences/description",
+      "value": "研究室を建設するには、多くのことを行う必要があります。 この一連のクエストは、まさにそれを行う上であなたを助けるのに役立ちます。 各ステーションの機能、武器庫内の他のステーションとの併用方法などを学びましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_sciences/title",
+      "value": "Scientific Study"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_sciences/title",
+      "value": "科学研究"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_tutorial/description",
+      "value": "Learn the basics of Frackin Universe through this series of quests. You'll be guided through each of the initial stations and inform you of basic resource acquisition and mechanics.\n\n The focus is on getting you to use the ^orange;Research System^reset; first and foremost, so be sure to keep your Tricorder handy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_tutorial/description",
+      "value": "この一連のクエストを通して、Frackin Universeの基本を学びましょう。 それぞれのイニシャルステーションを案内し、基本的なリソース獲得とメカニズムについてお知らせします。\n\n 焦点は、使用してもらうことです。 ^orange;研究システム^reset; 何よりも まずは 必ず トライコーダー ハンディ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/questlines/fu_tutorial/title",
+      "value": "Tutorials"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/questlines/fu_tutorial/title",
+      "value": "チュートリアル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_bees",
+      "value": "Bees"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_bees",
+      "value": "ハチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_booze",
+      "value": "Starbooze"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_booze",
+      "value": "スターブーズ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_byosbasics",
+      "value": "Basics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_byosbasics",
+      "value": "基礎"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_chemistry",
+      "value": "Chemistry"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_chemistry",
+      "value": "化学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_electronics",
+      "value": "Electronics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_electronics",
+      "value": "電子工学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_extractor",
+      "value": "Extraction"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_extractor",
+      "value": "抽出"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_gear",
+      "value": "Gear"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_gear",
+      "value": "歯車"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_general",
+      "value": "General Tasks"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_general",
+      "value": "総務"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_genetics",
+      "value": "Genetics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_genetics",
+      "value": "遺伝学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_guy",
+      "value": "Miscellaneous"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_guy",
+      "value": "その他"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_kevin",
+      "value": "Kevin"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_kevin",
+      "value": "ケビン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_mechanical",
+      "value": "Mechanical"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_mechanical",
+      "value": "機械式"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_monsters",
+      "value": "Monsters and Villains"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_monsters",
+      "value": "怪物・悪人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_npcs",
+      "value": "People"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_npcs",
+      "value": "人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_physics",
+      "value": "Physics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_physics",
+      "value": "物理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_places",
+      "value": "Locations"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_places",
+      "value": "所在地"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_planets",
+      "value": "Biomes"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_planets",
+      "value": "生物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_things",
+      "value": "Other"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_things",
+      "value": "その他"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/fu_vinj",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/fu_vinj",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/sublines/sumothafehg",
+      "value": "Sum'otha-Fehg"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/sublines/sumothafehg",
+      "value": "和太夫"
+    }
+  ]
+]

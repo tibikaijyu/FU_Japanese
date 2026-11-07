@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This looks... unsafe. Let's try it on something!\n^cyan;Inflicts bleeding^reset;\n^cyan;Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは...危険に見える。 何かで試してみよう!\n^cyan;出血を引き起こす^reset;\n^cyan;ハンティング武器^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Spear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンク・スピア"
+    }
+  ]
+]

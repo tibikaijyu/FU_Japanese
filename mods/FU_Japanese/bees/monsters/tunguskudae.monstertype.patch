@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tunguskudae bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "トンゴスクダエの蜂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tunguskudae Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツングスクダエ"
+    }
+  ]
+]

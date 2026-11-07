@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;10^reset;% Speed\n^yellow;^reset; Assault/Sniper Rifle: Damage x^cyan;1.15^reset;, +^green;2^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Moderate Radiation, Radiation Burn"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;10^reset;% 速さ\n^yellow;^reset;アサルト/狙撃ライフル : ダメージx ^cyan;1.15^reset;, +^green;2^reset;%クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;:中程度の放射線、放射線燃焼"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elite Recon Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリート偵察ヘルム"
+    }
+  ]
+]

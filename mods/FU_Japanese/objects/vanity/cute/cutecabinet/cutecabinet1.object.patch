@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy cute cabinet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈なかわいいキャビネット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい内閣"
+    }
+  ]
+]

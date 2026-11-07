@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Use to convert to research."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究に変換するために使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Research Data"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究データ"
+    }
+  ]
+]

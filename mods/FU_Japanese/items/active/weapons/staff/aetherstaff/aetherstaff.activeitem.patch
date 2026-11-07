@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Two words: Wow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "二つの単語: すごい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルスタッフ"
+    }
+  ]
+]

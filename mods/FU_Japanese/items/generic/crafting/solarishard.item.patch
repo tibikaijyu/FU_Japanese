@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sparkling yellow crystal shard."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝く黄色の結晶シャード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Shard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリシャード"
+    }
+  ]
+]

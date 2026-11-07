@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy mining drill that can serve as a weapon in a pinch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンチで武器として機能できる重い鉱山ドリル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Diamond Drill Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダイヤモンドドリルアーム"
+    }
+  ]
+]

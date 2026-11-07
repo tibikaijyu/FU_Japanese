@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A set of fossilised Poptopalon legs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "化石化されたポトパロン脚のセット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptopalon Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポトパロン脚"
+    }
+  ]
+]

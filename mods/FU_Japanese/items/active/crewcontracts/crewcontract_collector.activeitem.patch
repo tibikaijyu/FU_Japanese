@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Loves to hurl his balls at things until they crawl inside. Also provides a 2% fuel cost reduction and a useful ^green;Thorns effect.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物の中をうろつくまでボールを投げるのが大好きです。 また、2%燃料コストの削減と有用な^green;反射ダメージ効果を提供します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Collector Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コレクター契約"
+    }
+  ]
+]

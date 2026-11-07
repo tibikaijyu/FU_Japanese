@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Pyrokinesis"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "火薬学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create flame from thought, and roast enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "思考から炎を作り出し、敵をローストする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyrokinesis Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カバタバタバタバチ"
+    }
+  ]
+]

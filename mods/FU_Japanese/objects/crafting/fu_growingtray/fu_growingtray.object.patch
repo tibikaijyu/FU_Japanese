@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Grows crops more quickly and efficiently via fertilizers and controlled conditions. Requires 3 seeds and water. Scan for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肥料と制御された条件により、作物をより迅速かつ効率的に成長させます。 3種子と水が必要です。 スキャン情報。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Growing Tray^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;栽培トレイ^reset;"
+    }
+  ]
+]

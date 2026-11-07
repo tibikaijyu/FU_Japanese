@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gun shoots sulphuric acid! Fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この銃は硫酸を撃ちます! 楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Acid Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酸鉄砲"
+    }
+  ]
+]

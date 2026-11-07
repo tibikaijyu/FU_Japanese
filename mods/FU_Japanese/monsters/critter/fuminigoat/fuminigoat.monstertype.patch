@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perhaps not so great for goats' milk. But they make great pets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくヤギのミルクにとってそれほど素晴らしいことではありません。 でも素晴らしいペットを飼っています"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pygmy Goat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピグミーヤギ"
+    }
+  ]
+]

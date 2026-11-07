@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nearly unbreakable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんど壊れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セルチウム軸"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This modified black market scout visor includes the integrated ability to allow the wearer to ^green;jump higher^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この変更されたブラックスカウトバイザーには、着用者が着用できる統合機能が含まれています。 ^green;高くジャンプする^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jump Scout Visor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンプスカウトバイザ"
+    }
+  ]
+]

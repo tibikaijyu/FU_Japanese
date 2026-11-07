@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dreamy control console."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夢のようなコントロールコンソール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Console"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルコンソール"
+    }
+  ]
+]

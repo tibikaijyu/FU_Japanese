@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Keen, sharp edge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キーン、鋭いエッジ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lunari Knife"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルナリナイフ"
+    }
+  ]
+]

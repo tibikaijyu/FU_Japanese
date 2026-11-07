@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into an alien desert."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を宇宙砂漠に変換する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Desert Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアン砂漠マイクロフォーマ"
+    }
+  ]
+]

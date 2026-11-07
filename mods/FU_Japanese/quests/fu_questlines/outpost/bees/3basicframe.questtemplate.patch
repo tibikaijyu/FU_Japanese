@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "There are ^green;many types of frames^reset;, and different bees will prefer certain types. You'll need to be creative."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^green;多くのタイプのフレーム^reset;があり、異なるミツバチは特定のタイプを好むでしょう。 創造的になる必要があります"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A ^orange;Basic Frame^reset; is placed within an ^green;apiary^reset; to act as housing for the bees. Create one now."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ベーシックフレーム^reset;は、^green;apiary^reset;の中に配置され、ミツバチのハウジングとして機能する。 今すぐ作成してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Basic Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "基本フレーム"
+    }
+  ]
+]

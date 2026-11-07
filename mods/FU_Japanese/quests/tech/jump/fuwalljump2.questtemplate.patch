@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "This new technology has made me realize I could ^green;replace the Wall Jump tech^reset; with a ^orange;useful upgrade tech^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この新しい技術のおかげで ^green;ウォールジャンプの技術を^reset; と ^orange;有用なアップグレード技術^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "This new technology has made me realize I could ^green;replace the Wall Jump tech^reset; with a ^orange;useful upgrade tech^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この新しい技術のおかげで ^green;ウォールジャンプの技術を^reset; と ^orange;有用なアップグレード技術^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Amazing Grip!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "すごいグリップ!"
+    }
+  ]
+]

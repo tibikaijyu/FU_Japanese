@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ancient. Probably quite powerful if it actually worked. It doesn't."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代。 おそらく実際に機能すれば、かなり強力です。 違います"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Railgun Mount"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身レールガンマウント"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strangely-scented alien grass.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "不思議な香りのエイリアンの草。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Grasses"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアン草"
+    }
+  ]
+]

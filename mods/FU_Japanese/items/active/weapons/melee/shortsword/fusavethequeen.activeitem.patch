@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pink, but not wimpy.\n^green;Inflicts Poisoned^reset;\n^red;Inflicts Bee Stings^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンク、しかし、くしゃみはない。\n^green; 毒を与える ^reset;\n^red;蜂の巣に作用する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queensguard"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クイーンズガード"
+    }
+  ]
+]

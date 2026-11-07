@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Watchers^reset; are special. They will keep powered devices within their range ^gray;(20 blocks)^reset; running while you are away, planetside. ^red;Leaving a planet will reset all of your Watchers.^reset; Your SAIL can only track so many before it slows down.^red;Don't over-use them^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;ウォッチャー^reset;は特別です。 パワードデバイスは、遠くにいる間、プラネットサイドで動作している範囲^gray;(20ブロック)^reset;に保たれます。 ^red;惑星を離れると、すべてのウォッチングウォッチングをリセットします。^reset;SAILは遅くなる前にしか追跡できません。^red; ^reset; は使い過ぎではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Watcher^reset; to the ^green;purple-armored scientist^reset; at the top floor of the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ウォッチャー^reset; へ ^green;紫の装甲科学者^reset; 最上階で ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Powered stations are a ^green;huge productivity booster^reset;. With a ^orange;Watcher^reset; they are even more versatile! Try crafting a ^orange;Watcher^reset; in your ^orange;Power Station^reset; and bring it to me."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "パワードステーションは ^green; 巨大な生産性ブースター ^reset; です。 ^orange;Watcher ^reset; があれば、さらに汎用性があります! ^orange;Watcher ^reset; をあなたの ^orange;Power ステーション ^reset; に作成して、私に持って来てください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Long Distance Power"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "長距離電源"
+    }
+  ]
+]

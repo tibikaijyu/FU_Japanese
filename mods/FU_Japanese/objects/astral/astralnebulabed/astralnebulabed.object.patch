@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar bed, it can produce hypnotic nebulae, making you rest easy. Reduces madness via relaxation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恒星のベッド、それはあなたが簡単に休息させる催眠星雲を生成することができます。 リラクゼーションによって狂気を軽減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Nebula Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天星雲ベッド"
+    }
+  ]
+]

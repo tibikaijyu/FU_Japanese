@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It sprays a foul-smelling odor when it is threatened."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪臭を吹きかけると、悪臭を放ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Beetle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カブトムシ"
+    }
+  ]
+]

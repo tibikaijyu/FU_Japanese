@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The top, or 'Enable', node controls whether or not the latch can change states based on its bottom, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上部または 'Enable' ノードは、ラッチが下位または 'データ' ノードに基づいて状態を変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "The top, or 'Enable', node controlsss whether or not the latch can change statesss based on itsss bottom, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "上部または「有効」ノードは、ラッチが状態をそのss底、または「データ」ノードに基づいて変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Fascinated. The top, or 'Enable', node controls whether or not the latch can change states based on its bottom, or 'Data', node."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "魅了された。 上部または 'Enable' ノードは、ラッチが下位または 'データ' ノードに基づいて状態を変更できるかどうかを制御します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Data Latch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "データラッチ"
+    }
+  ]
+]

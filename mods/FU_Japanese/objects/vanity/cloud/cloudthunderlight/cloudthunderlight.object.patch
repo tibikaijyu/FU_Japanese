@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small cloud light with thunder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雷のある小さな雲の光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Thunder Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雲雷"
+    }
+  ]
+]

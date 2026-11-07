@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Considering he's always losing blood, he's in great shape!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いつも血を失っていることを考えると、彼は素晴らしい体型です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshy Blob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュブロブ"
+    }
+  ]
+]

@@ -1,0 +1,136 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/currentOreLabel/text",
+      "value": "^yellow;Current Ore:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/currentOreLabel/text",
+      "value": "^yellow;電流スコア:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lb_Info/value",
+      "value": "^yellow;Awaiting Input..."
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lb_Info/value",
+      "value": "^yellow; 入力待ち。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/EquippedEssential",
+      "value": "^red;Equipped: Essential!"
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/EquippedEssential",
+      "value": "^red;装備:必須!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/MissingScanner",
+      "value": "^red;Missing Detector!"
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/MissingScanner",
+      "value": "^red; 探知器を欠く!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/MultipleScanner",
+      "value": "^red;Multiple Detectors!"
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/MultipleScanner",
+      "value": "^red; 複数の検出器!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/Scanning",
+      "value": "^yellow;Scanning..."
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/Scanning",
+      "value": "^yellow;スキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/UpgradeRequired",
+      "value": "^red;Upgrade Required!"
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/UpgradeRequired",
+      "value": "^red; アップグレードが必要です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/stringData/WrongItem",
+      "value": "^red;Incorrect Item!"
+    },
+    {
+      "op": "replace",
+      "path": "/stringData/WrongItem",
+      "value": "^red; 間違ったアイテム!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/background/fileFooter",
+      "value": "/interface/scripted/tunableoredetector/footer.png"
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFooterCover",
+      "value": {
+        "type": "image",
+        "file": "/interface/kheAA/kheAA_router/icon1.png?crop=0;0;1;1?multiply=1a2d17ff?scalenearest=44;8",
+        "position": [
+          15,
+          6
+        ],
+        "zlevel": 2,
+        "mouseTransparent": true
+      }
+    },
+    {
+      "op": "add",
+      "path": "/gui/fuJapaneseFooterTitle",
+      "value": {
+        "type": "label",
+        "position": [
+          37.0,
+          10.0
+        ],
+        "hAnchor": "mid",
+        "vAnchor": "mid",
+        "fontSize": 8,
+        "value": "鉱石を置く",
+        "zlevel": 3,
+        "mouseTransparent": true
+      }
+    }
+  ]
+]

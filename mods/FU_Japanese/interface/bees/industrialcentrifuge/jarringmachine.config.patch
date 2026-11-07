@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/countinput/value",
+      "value": "Input"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/countinput/value",
+      "value": "入力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/countoutput/value",
+      "value": "Items"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/countoutput/value",
+      "value": "アイテム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/dragDrop/value",
+      "value": "Drag & Drop"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/dragDrop/value",
+      "value": "ドラッグして配置"
+    }
+  ]
+]

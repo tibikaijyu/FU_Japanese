@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Energy weapons: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Stun, Electrify"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; エネルギー兵器:損傷x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:スタン、電化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graphene Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グラフェンレッグ"
+    }
+  ]
+]

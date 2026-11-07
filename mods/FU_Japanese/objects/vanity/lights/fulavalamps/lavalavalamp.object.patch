@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lava lamp... Filled with lava. A lava lava lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "溶岩灯... 溶岩で満たされる。 溶岩ランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lava Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "溶岩ランプ"
+    }
+  ]
+]

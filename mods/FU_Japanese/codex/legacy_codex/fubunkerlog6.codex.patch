@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Please let me go home\nI'm tired and I miss my games consoles\nPlus the other soldiers are really annoying\nSemper fi."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "家に帰らせてください\nゲーム機が恋しくて\nさらに他の兵士たちは\nセンパーフィ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #99999"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #99999"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #99999"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #99999"
+    }
+  ]
+]

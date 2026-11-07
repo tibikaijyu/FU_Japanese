@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A creepy and macabre weapon made of flesh and steel.\n^cyan;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉と鋼で作られた不気味で悪質な武器。\n^cyan;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cultist Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "文化庁"
+    }
+  ]
+]

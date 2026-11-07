@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blended mixture of pest, larva, and pussplum. Guaranteed to flush your bowels. ^cyan;+^green;12% HP^reset; ^blue;Madness Gain^reset; 3 ^orange;Type: Cooked Meat + Fruits^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "害虫、幼虫、および膿しの混合物。 お便を流すことを保証。 ^cyan;+^green;12% HP^reset; ^blue;狂気の高まり^reset; 3 ^orange;タイプ: 肉+果物を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Putrid Pest Puree"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペストピューレ"
+    }
+  ]
+]

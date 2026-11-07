@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Now perhaps it's time you created a ^orange;Bio-Chem Lab^reset; and start learning about the wonders of chemistry!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "今こそ、あなたは^orange;Bio-Chem ラボ^reset;を作成し、化学の不思議について学び始める時です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Sand^reset; might get everywhere but it is a valuable source of ^orange;Silicon^reset;. It is most abundant on ^orange;Desert^reset; biomes. You'll need ^orange;Caliche Stone^orange; from a desert too, so you should head to one soon."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;Sand^reset;は至る所で得られるかもしれませんが、それは^orange;シリコン^reset;の貴重な源です。 ^orange; 砂漠 ^reset; バイオームで最も豊富です。 ^orange;カリーチェ Stone ^orange;も砂漠から必要になるので、すぐに道に進むべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Silicon Valley"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "シリコンバレー"
+    }
+  ]
+]

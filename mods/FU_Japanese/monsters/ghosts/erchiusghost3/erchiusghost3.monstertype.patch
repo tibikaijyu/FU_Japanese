@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When it closes its eyes it becomes immune to attacks by entering a different plane of existence."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "目を閉じると、別の存在平面に入ることで、攻撃に免疫力を持つようになる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchius Ghost"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキウス・ゴースト"
+    }
+  ]
+]

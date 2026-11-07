@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Elusive, and potentially impossible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "理解できず、潜在的に不可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Exotic Matter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エキゾチックな物質"
+    }
+  ]
+]

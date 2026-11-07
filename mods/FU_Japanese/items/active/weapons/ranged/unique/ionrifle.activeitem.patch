@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shock Grenade"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "衝撃手すり"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reliable infantry weapon for anti-robot warfare.\n^yellow;Inflicts Electrified^reset;\n^green;Area-Denial Alt^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "対ロボット戦用の信頼性の高い歩兵武器。\n^yellow; 電化 ^reset; に作用します。\n^green;Area-DenialAlt^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ion Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イオンライフル"
+    }
+  ]
+]

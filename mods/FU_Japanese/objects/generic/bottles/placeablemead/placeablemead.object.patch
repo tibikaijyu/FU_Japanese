@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your mead can be on a table!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今、あなたの肉はテーブルの上にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Meadbee Mead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミードビーミード"
+    }
+  ]
+]

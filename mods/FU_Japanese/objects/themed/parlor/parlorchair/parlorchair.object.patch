@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This chair is a little too small for me to be comfortable..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この椅子は小さすぎて私には快適すぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Brr! I suppose no one's sat here for a while."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "バー! しばらくは誰もここにはいないと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This seat is chilly!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この席は寒い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Chair will make excellent freezer back at Floran'ss place."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "椅子はフローランの場所で優れた冷凍庫になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Confused. Why does everyone keep saying the seats here are cold? I feel just fine."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 なぜ皆がここの席が寒いと言うのですか? 気分は大丈夫です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Either the people running this place are really dedicated to their aesthetic or the AC is turned up way too high."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この場所を運営する人々は、本当に彼らの美学に専念しているか、ACが高すぎるかのどちらかです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I fear I may freeze in place sitting in this seat for too long."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "私はこの席に長く座ったまま凍りつくかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "One of the perks of bein' a livin' star is always havin' a warm seat."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "「生きている星」という特典の一つは、常に暖かい座席を持っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Parlor Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パーラーチェア"
+    }
+  ]
+]

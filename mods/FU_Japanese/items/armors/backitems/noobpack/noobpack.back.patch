@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A very basic tank which provides ^yellow;60s^reset; oxygen, a ^orange;dim glow^reset;, and 10% ^blue;cold resistance^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "非常に基本的なタンクです。 ^yellow;60ス)^reset; 酸素と ^orange;きらきらして^reset;そして 10% ^blue;耐寒性^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Core Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コアパック"
+    }
+  ]
+]

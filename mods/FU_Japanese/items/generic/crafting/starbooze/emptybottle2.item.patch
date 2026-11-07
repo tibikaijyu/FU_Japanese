@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just an empty glass bottle."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ただの空のガラス瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Glass Bottle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空のガラスびん"
+    }
+  ]
+]

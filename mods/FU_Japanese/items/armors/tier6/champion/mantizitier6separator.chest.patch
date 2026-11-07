@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Hammer, Axe, Mace: Damage x^green;1.3^reset;, +^green;3^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;:  Moderate Cold, Tar, Mud, Clay"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ハンマー, 斧, メイス: ダメージx^green;1.3^reset;, +^green;3^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;: 適度なコールド、タール、泥、粘土。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Champion's Carapace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャンピオンズ・キャラペース"
+    }
+  ]
+]

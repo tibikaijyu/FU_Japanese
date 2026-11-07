@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An hydroponic powered growing tray. Requires 3 seeds and water. ^cyan;Requires ^orange;4W ^cyan;power^reset; to increase production. Scan for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "水耕栽培トレイ。 3種子と水が必要です。 ^cyan; 生産を増やすには ^orange;4 W ^cyan; 電源 ^reset; が必要です。 スキャン情報。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Hydro Tray^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ハイドロトレイ^reset;"
+    }
+  ]
+]

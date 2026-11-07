@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A draped top made of fine cloth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "上質な布で作られたドレープトップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Toga Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "富賀トップ"
+    }
+  ]
+]

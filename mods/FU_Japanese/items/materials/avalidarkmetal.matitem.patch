@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dark metal support beam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダークメタルサポートビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Metal Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークメタルのサポート"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Oxygen is one of the most versatile elements, with many uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "酸素は最も多用途な元素の一つであり、多くの用途があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酸素"
+    }
+  ]
+]

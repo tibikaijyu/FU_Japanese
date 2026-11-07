@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Fall Damage x^green;0.75^reset;\n^yellow;^reset; Magnorb, Chakram, Boomerang: Damage x^green;1.25^reset;, +^green;3^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Gas, Proto-Poison"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 損傷x ^green;0.75^reset;\n^yellow;^reset; マグノーブ, チャクラム, ブーメラン: ダメージ x^green;1.25^reset;, +^green;3^reset;% クリティカルチャンス\n^yellow;^reset; ^cyan;免疫^reset;:ガス、原毒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rifter Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リフターヘルム"
+    }
+  ]
+]

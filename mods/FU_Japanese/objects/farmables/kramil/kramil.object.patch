@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kramil is known for its potent anti-cold properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Kramilは強力な抗寒特性で知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kramil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラミル"
+    }
+  ]
+]

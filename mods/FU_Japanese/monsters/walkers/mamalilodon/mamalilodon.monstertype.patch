@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its ancestors used to live in the sea. It might look small, but it's got a big bite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その祖先は海に住んでいた。 小さく見えるかもしれませんが、かなり噛まれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lilodon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リロドン"
+    }
+  ]
+]

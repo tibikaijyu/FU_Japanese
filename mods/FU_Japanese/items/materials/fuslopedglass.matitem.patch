@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I can see my reflection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は自分の振り返りが見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran lookss pretty in glasssss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはガラスでかなり見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Attentive. I can see clearly though this transparent glass."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "注意せよ。 私はこの透明なガラスではっきりと見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can see clear through t'the other side of this glass."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこのガラスの向こう側から見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sloped Glass Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "傾斜ガラスブロック"
+    }
+  ]
+]

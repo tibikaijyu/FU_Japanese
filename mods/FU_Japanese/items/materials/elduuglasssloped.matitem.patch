@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glass made from refined crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "洗練された結晶から作られたガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Basic Crystal Glass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "基礎結晶ガラス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle of grape flavored schnapps!\n^white;35% ^red;Slow ^gray;, ^red;Drunk ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ぶどう風味のシュナップスがボトル入り!\n^white;35% ^red;ゆっくり ^gray;, ^red;酒 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grape Schnapps"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブドウのシュナップス"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You did it. Now you can truly call yourself a brewer."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "やったね。 今、あなたは本当に自分自身を醸造家と呼ぶことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;mead^reset; to ^green;the drunk^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;ミード^reset; です ^green;酔っ払った^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I's not able ter *hic* do much ter help. Make ^green;mead^reset;. Hard work. You'll need to find shome ^orange;Pure Honey^reset; and purpare fer a complimicated brewing process. Bring some for me to *hic* taste when you're done!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あまり役に立たない。 ^green;mead ^reset; にします。 頑張れ。 shome ^orange; Pure ハチミツ ^reset; を見つけ、複雑な醸造プロセスを利用する必要があります。 終わったら、ちょっと味わってください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Merry mead"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "メリーミード"
+    }
+  ]
+]

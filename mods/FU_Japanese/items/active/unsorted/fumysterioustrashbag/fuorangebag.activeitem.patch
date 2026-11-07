@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's quite heavy, must be a lot of oranges!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それはかなり重いです、オレンジがたくさんあるに違いありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bag of Oranges"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジの袋"
+    }
+  ]
+]

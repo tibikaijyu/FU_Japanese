@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick jelly. It's tempting to eat it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚いゼリー。 それを食べるのが魅力的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gelatinous Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼラチナスブロック"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This gene copies others around it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この遺伝子は周囲の他の遺伝子をコピーします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mimicry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "模倣"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fresh cherry, red and delicious! ^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "新鮮で、赤く、美味しい! ^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "桜"
+    }
+  ]
+]

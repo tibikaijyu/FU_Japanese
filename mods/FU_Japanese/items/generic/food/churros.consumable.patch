@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fried dough coated in sugar and cinnamon; a festival favorite. \n^cyan;+^reset;12% Energy ^green;Type: Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "砂糖とシナモンでコーティングされた揚げ生地。 \n^cyan;+^reset;12%エネルギー^green;タイプ:穀物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Churros"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チュロス"
+    }
+  ]
+]

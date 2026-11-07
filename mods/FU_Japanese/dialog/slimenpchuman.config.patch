@@ -1,0 +1,2906 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/accuse/default/default/0",
+      "value": "Hey, what're you doing?"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/default/default/0",
+      "value": "おい何やってんだ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/default/default/1",
+      "value": "Put that back, please."
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/default/default/1",
+      "value": "それを返してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/default/default/2",
+      "value": "Can't you just scan and replicate that or something instead of taking it?"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/default/default/2",
+      "value": "それをスキャンして複製すればいいのに、とりあえずそれを取ることはできないのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/accuse/default/default/3",
+      "value": "What's going on here?"
+    },
+    {
+      "op": "replace",
+      "path": "/accuse/default/default/3",
+      "value": "ここで何が起こっているのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/default/default/0",
+      "value": "Where the heck's a guard when you need one?!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/default/default/0",
+      "value": "必要なときに警備員はどこだ?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/default/default/1",
+      "value": "Stop stealing my stuff!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/default/default/1",
+      "value": "私のものを盗むのをやめなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/alert/default/default/2",
+      "value": "Oh come on, stop it!"
+    },
+    {
+      "op": "replace",
+      "path": "/alert/default/default/2",
+      "value": "やめて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/beacon/default/default/0",
+      "value": "Hey, <entityname>.  Did you need anything?"
+    },
+    {
+      "op": "replace",
+      "path": "/beacon/default/default/0",
+      "value": "こんにちは、<entityname>。  何か必要でしたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/beacon/default/default/1",
+      "value": "Did you need me?"
+    },
+    {
+      "op": "replace",
+      "path": "/beacon/default/default/1",
+      "value": "私が必要でしたか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/beacon/default/default/2",
+      "value": "What's up, <entityname>?"
+    },
+    {
+      "op": "replace",
+      "path": "/beacon/default/default/2",
+      "value": "なにが起ころうと <entityname>?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/0",
+      "value": "Hey, ape-dude!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/0",
+      "value": "やあ、猿さん!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/1",
+      "value": "A talking monkey. Cool."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/1",
+      "value": "話している猿。 かっこいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/10",
+      "value": "Are the Apex continuously devolving? When do you get tails?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/10",
+      "value": "エイペックスは継続的に回転しているのか? いつ尻尾を得られるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/11",
+      "value": "I've heard bad things about the Miniknog, I'm not surprised you joined the Protectorate."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/11",
+      "value": "ミニノグの悪いところは聞いたことがあるが、あなたが保護領に加わったことには驚かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/12",
+      "value": "Your hair is just magnificent."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/12",
+      "value": "あなたの髪はちょうど壮大です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/13",
+      "value": "Who is \"Big Ape\"?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/13",
+      "value": "「ビッグ・エイプ」って誰?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/14",
+      "value": "Hey there, Apex!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/14",
+      "value": "やあ、アペックス!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/15",
+      "value": "Have you ever tried shaving to pass as human?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/15",
+      "value": "人間として合格しようとしてひげをそったことはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/16",
+      "value": "The Miniknog sounds terrible!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/16",
+      "value": "ミニノッグはひどい音がする!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/17",
+      "value": "Awesome to see you, Apex!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/17",
+      "value": "エイペックスさん、あなたに会えて光栄です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/18",
+      "value": "You guys are so cool."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/18",
+      "value": "あなたたちはとてもクールです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/19",
+      "value": "You reek of wet dog! Or, I guess, wet ape."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/19",
+      "value": "ぬれた犬のほほ笑み! あるいは、濡れた猿か。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/2",
+      "value": "Are you gonna hurt me?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/2",
+      "value": "私を傷つけるつもりなの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/20",
+      "value": "I've never met a Miniknog soldier. Are they scary?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/20",
+      "value": "ミニノッグの兵士に会ったことがない。 怖い?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/21",
+      "value": "You look pretty strong, like a wrestler."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/21",
+      "value": "レスラーのように、あなたはかなり強く見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/22",
+      "value": "Pleasure to make your acquaintance, ape."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/22",
+      "value": "お知り合い、お猿さん。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/23",
+      "value": "When I was a child I had a toy monkey that looked like you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/23",
+      "value": "子供の頃、私はあなたのように見えるおもちゃの猿を飼っていました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/24",
+      "value": "Oh geez, uh... hello."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/24",
+      "value": "ああ、うわっ、ええと、こんにちは。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/25",
+      "value": "Suddenly remembering working in my old xenobiology lab..."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/25",
+      "value": "突然、私の古い異種生物学の研究室で働いたことを覚えています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/26",
+      "value": "Those poor monkeys... ... what?  Oh, uh... nothing!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/26",
+      "value": "かわいそうな猿たち...。 えっ?  ああ、うーん、何も!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/3",
+      "value": "Just how big IS Big Ape?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/3",
+      "value": "ビッグエイプの大きさは?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/4",
+      "value": "Didn't the Apex look kind of like us once?  Oh, uh... I mean like humans?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/4",
+      "value": "エイペックスは、かつてはわれわれに似ていたのではないだろうか?  ああ、ええと... 人間みたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/5",
+      "value": "A monkey! Oh wait, monkeys have tails. An ape!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/5",
+      "value": "猿! おっと、猿には尻尾がある。 類人猿!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/6",
+      "value": "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees, and your face... er... Sorry..."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/6",
+      "value": "ああっ!ごめんなさい。チンパンジーが不合理な恐怖で、あなたの顔が... ごめんなさい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/7",
+      "value": "I had a pizza with tuna and bananas on it once. Surprisingly good."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/7",
+      "value": "マグロとバナナを添えたピザを一度食べました。 驚くべきことに良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/8",
+      "value": "Are all Apex good at science? It was my worst subject at school."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/8",
+      "value": "エイペックスは科学が得意ですか? 学校では私の最悪な科目だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/apex/9",
+      "value": "Sorry that the Apex are all oppressed and stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/apex/9",
+      "value": "エイペックスがすべて抑圧されていることをごめんなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/0",
+      "value": "Hey, it's a big bird!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/0",
+      "value": "おい、大きな鳥だ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/1",
+      "value": "Nice feathers there."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/1",
+      "value": "いい羽です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/10",
+      "value": "I like birds; my uncle used to own parrots."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/10",
+      "value": "私は鳥が好きだ。叔父はかつてオウムを飼っていたものだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/11",
+      "value": "Don't worry, we're not too sticky.  Your feathers are safe."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/11",
+      "value": "心配するな、あまりこだわらない。  あなたの羽は安全です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/12",
+      "value": "I saw one of those Avian towers once. People jump off those!?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/12",
+      "value": "私は一度そのアヴィアン塔の一つを見た。 人はそれを飛び降りる!?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/13",
+      "value": "Have you ever tried sunflower seeds? I think you'd love them."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/13",
+      "value": "ヒマワリの種を試したことがありますか? あなたは彼らを愛してくれると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/14",
+      "value": "I study intergalactic religions - Kluex is just fascinating."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/14",
+      "value": "私は銀河間宗教を研究しています - クルーエクスはただ魅力的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/15",
+      "value": "Another Avian I met told me about the Celestial Towers. Chilling."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/15",
+      "value": "私が出会った別のアヴィアンが天の塔について教えてくれました。 冷え込み。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/16",
+      "value": "Can I borrow a feather to make a quill?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/16",
+      "value": "羽根を作るために羽を借りてもいいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/17",
+      "value": "If an Avian and a snake had a baby, would it be a feather boa?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/17",
+      "value": "エイヴィアンとヘビに赤ちゃんがいたら、それは羽毛のボアでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/18",
+      "value": "Avians are SO COOL!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/18",
+      "value": "鳥はとてもクールです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/2",
+      "value": "It's weird that you can't fly."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/2",
+      "value": "飛べないなんて変だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/3",
+      "value": "Hey there, Avian!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/3",
+      "value": "やあ、アヴィアン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/4",
+      "value": "I'm in a hurry, gotta fly. Oops, sorry, that was insensitive."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/4",
+      "value": "急いでいるから飛びなさい。 おっと、ごめん、無神経だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/5",
+      "value": "You look so warm and fluffy."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/5",
+      "value": "あなたはとても暖かくふわふわに見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/6",
+      "value": "Who's this Kluex I keep hearing about, then?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/6",
+      "value": "では、私がずっと耳にしているこのクルエックスは誰ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/7",
+      "value": "I too am flightless."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/7",
+      "value": "私も飛行不能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/8",
+      "value": "I've never met an Avian I didn't like."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/8",
+      "value": "嫌なアヴィアンに会ったことありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/avian/9",
+      "value": "I hear your kind build grand temples. We used to do that too."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/avian/9",
+      "value": "あなたの親切が大寺院を建てるのを聞きます。 昔はそれもありました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/0",
+      "value": "Hello."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/0",
+      "value": "こんにちは。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/1",
+      "value": "Hi."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/1",
+      "value": "よう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/10",
+      "value": "Great to see you, pal."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/10",
+      "value": "お会いできて嬉しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/11",
+      "value": "Hey, nice to meet you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/11",
+      "value": "お会いできて嬉しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/12",
+      "value": "Ace meeting you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/12",
+      "value": "君に会う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/13",
+      "value": "Nice meeting ya!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/13",
+      "value": "会えて嬉しいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/14",
+      "value": "What's up?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/14",
+      "value": "どうしたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/15",
+      "value": "Hey."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/15",
+      "value": "おい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/16",
+      "value": "Hey! Welcome!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/16",
+      "value": "おい! ようこそ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/17",
+      "value": "Alright?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/17",
+      "value": "いいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/18",
+      "value": "Oh hey!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/18",
+      "value": "おお、おい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/19",
+      "value": "You alright?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/19",
+      "value": "大丈夫?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/2",
+      "value": "How's it going?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/2",
+      "value": "調子はどう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/20",
+      "value": "You good?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/20",
+      "value": "大丈夫?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/21",
+      "value": "Alright mate?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/21",
+      "value": "大丈夫?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/22",
+      "value": "Welcome!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/22",
+      "value": "ようこそ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/23",
+      "value": "What you up to?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/23",
+      "value": "何をするつもり?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/24",
+      "value": "Hellooo."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/24",
+      "value": "こんにちは"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/25",
+      "value": "Good to see you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/25",
+      "value": "お会いできて嬉しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/26",
+      "value": "How're things?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/26",
+      "value": "状況はどうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/27",
+      "value": "How's life treating you?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/27",
+      "value": "人生はどうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/28",
+      "value": "Hey, what's happening?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/28",
+      "value": "ねえ、どうしたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/3",
+      "value": "How's it?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/3",
+      "value": "どうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/4",
+      "value": "Yo!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/4",
+      "value": "よ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/5",
+      "value": "Hey, great to see you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/5",
+      "value": "お会いできて嬉しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/6",
+      "value": "Hey, what's up?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/6",
+      "value": "ねえ、どうしたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/7",
+      "value": "Oh hey, how's it going?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/7",
+      "value": "おお、どうだい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/8",
+      "value": "You seem like a nice sort."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/8",
+      "value": "あなたはいい感じですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/default/9",
+      "value": "Thanks for dropping by!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/default/9",
+      "value": "寄ってくれてありがとう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/0",
+      "value": "Yo there, Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/0",
+      "value": "よし、フローラン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/1",
+      "value": "You're pretty cute."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/1",
+      "value": "かわいいね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/10",
+      "value": "I wish I was a Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/10",
+      "value": "フローランだったらいいのに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/11",
+      "value": "I've heard Floran can be pretty vicious, but you seem kinda nice."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/11",
+      "value": "フローランはかなり悪意があるそうだが、君はすてきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/12",
+      "value": "Which meat is the best meat?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/12",
+      "value": "どの肉が一番良いですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/13",
+      "value": "I want to go into spear production, do you think there's a market for it?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/13",
+      "value": "生産現場に行きたいのですが、市場があると思いますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/14",
+      "value": "You're so pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/14",
+      "value": "あなたはとてもきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/15",
+      "value": "I'm scared of you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/15",
+      "value": "私はあなたのことが怖い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/16",
+      "value": "Do Floran ever get like 250ft tall, like a sequoia tree with a face?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/16",
+      "value": "フローランは、顔のあるセコイアの木のように、250ftの背が高くなりますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/17",
+      "value": "I got my eye on you, Floran."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/17",
+      "value": "君を見張ったよ、フローラン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/18",
+      "value": "It's pretty exciting to see you!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/18",
+      "value": "あなたに会うのはとてもワクワクします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/19",
+      "value": "I hear you and the fish people don't get on?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/19",
+      "value": "あなたと魚の人々が乗らないのが聞こえますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/2",
+      "value": "I've read that most of your kind are savages. You don't seem to be."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/2",
+      "value": "あなたの種のほとんどは野良人だということを私は読んだ。 あなたはそうは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/20",
+      "value": "I bet you've killed more monsters than I've had hot dinners."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/20",
+      "value": "暑い晩ご飯を食べたよりモンスターをたくさん殺したのね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/21",
+      "value": "Can you read?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/21",
+      "value": "読める?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/22",
+      "value": "Florans are the best!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/22",
+      "value": "フローランが一番!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/23",
+      "value": "Don't even think about it.  Our bodies are toxic."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/23",
+      "value": "考えることさえしないでください。  私たちの体は有毒です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/24",
+      "value": "Some people tried eating slime jelly once.  Their bodies melted from the inside out."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/24",
+      "value": "スライムゼリーを一度食べようとした人もいます。  彼らの体は内側から溶けた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/3",
+      "value": "You could do with a pruning."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/3",
+      "value": "刈り取りをすればいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/4",
+      "value": "It's hard to believe Floran could be lethal killers."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/4",
+      "value": "フローランが致命的な殺人者になるなんて信じられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/5",
+      "value": "Do you guys have pollen?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/5",
+      "value": "花粉はありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/6",
+      "value": "Do Floran ever get attacked by giant hummingbirds?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/6",
+      "value": "フローランは巨大なハチドリに襲われたことはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/7",
+      "value": "You make me think of the garden I had when I was growing up on Earth."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/7",
+      "value": "私が地球で育ったときの庭を思い浮かべてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/8",
+      "value": "I met a greenfinger once - real nice guy... Or girl... Or neither?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/8",
+      "value": "私は一度緑色の指に会った - 本当に素敵な男... 女の子も...。 それとも両方?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/floran/9",
+      "value": "Could you teach me how to hunt some time?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/floran/9",
+      "value": "時間稼ぎの仕方を教えてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/0",
+      "value": "I used to work in a robotics lab."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/0",
+      "value": "私はロボット工学の研究室で働いていた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/1",
+      "value": "Did you hear about our planet, Glitch? What do we do now?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/1",
+      "value": "グリッチさん、この惑星のこと聞いた? これからどうするか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/10",
+      "value": "You're a bit creaky, maybe you should oil your joints."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/10",
+      "value": "少しこわいし、関節に油を注ぐのも良いかも。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/11",
+      "value": "Don't worry, touching us won't corrode your fingers or anything."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/11",
+      "value": "触っても指が腐食する心配はありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/12",
+      "value": "That's a nice alloy you've got there."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/12",
+      "value": "それはあなたがそこに持っている良い合金です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/13",
+      "value": "I've always wanted to hang out with a robot."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/13",
+      "value": "私はずっとロボットと遊びたいと思っていました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/14",
+      "value": "What's it like to be made of metal?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/14",
+      "value": "金属でできているとどんな感じですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/15",
+      "value": "Who created you guys, then?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/15",
+      "value": "では、誰につくられたのでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/16",
+      "value": "I want armour like yours."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/16",
+      "value": "あなたのような装甲が欲しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/17",
+      "value": "I love the way you guys talk."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/17",
+      "value": "皆さんの話し方が好きです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/18",
+      "value": "So lovely to meet you, Glitch!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/18",
+      "value": "お会いできて嬉しいです、グリッチ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/19",
+      "value": "What metal are you made from?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/19",
+      "value": "どんな金属から作られていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/2",
+      "value": "How do you work?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/2",
+      "value": "仕事はどうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/20",
+      "value": "Can you go in the water?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/20",
+      "value": "水の中へ行けますか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/21",
+      "value": "You're quite small for a killer robot."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/21",
+      "value": "あなたはキラーロボットとしては、かなり小さい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/22",
+      "value": "You have the coolest face."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/22",
+      "value": "一番かっこいい顔です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/3",
+      "value": "Sometimes I like to pretend I'm an old timey knight!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/3",
+      "value": "時々私は私が古いおとぎ話の騎士であるふりをするのが好きです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/4",
+      "value": "No bones about it, robots are just awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/4",
+      "value": "ロボットってすごいよね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/5",
+      "value": "Do you ever have to replace your eye bulbs?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/5",
+      "value": "まぶたを交換しなければならないことはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/6",
+      "value": "Jovial. Hello! Uh, I hope that wasn't offensive."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/6",
+      "value": "陽気。 こんにちは! 攻撃的でないといいなあ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/7",
+      "value": "I once made a Glitch costume out of cardboard."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/7",
+      "value": "私は段ボールからグリッチの衣装を作ったことがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/8",
+      "value": "The Glitch have a funny way of talking... Cuts out the flim-flam though."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/8",
+      "value": "The グリッチは面白い話し方をしている。 でも、火炎を消してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/glitch/9",
+      "value": "My dad is a mechanic, but I guess in Glitch terms he's a doctor."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/glitch/9",
+      "value": "私の父は医者ですが、グリッチは医者だと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/0",
+      "value": "Oh hey, a giant fish."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/0",
+      "value": "おお、巨大な魚だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/1",
+      "value": "Hah, oh my, you smell funny."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/1",
+      "value": "へえ、ああ、変な匂いがするね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/10",
+      "value": "I used to live by a beach on Earth. I miss it."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/10",
+      "value": "私は昔、地球のビーチのそばに住んでいた。 恋しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/11",
+      "value": "I don't read a lot of poetry, I find it too opaque."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/11",
+      "value": "詩はあまり読まない。不透明すぎる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/12",
+      "value": "I used to meditate, but I couldn't stand the quiet."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/12",
+      "value": "昔は黙想していたが、その静けさには我慢できなかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/13",
+      "value": "I draw a little, maybe you'd like to take a look sometime?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/13",
+      "value": "少し描きたいのですが、いつかご覧になりたいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/14",
+      "value": "Do Hylotl ever dry out?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/14",
+      "value": "ハイロトルは乾燥しますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/15",
+      "value": "Seals are like dogs, but in the sea. All Hylotl should have seals."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/15",
+      "value": "印章は犬のようだが、海にはいる。 すべてのハイロトルはシールを持つべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/16",
+      "value": "You're pretty awesome for a talking tuna."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/16",
+      "value": "まぐろをしゃべるなんて、君はすてきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/17",
+      "value": "Welcome, Hylotl!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/17",
+      "value": "ようこそ、ハイロット!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/18",
+      "value": "Nice to meet you!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/18",
+      "value": "お会いできて嬉しいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/19",
+      "value": "I think I'll pass on going for a swim."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/19",
+      "value": "私は泳ぎに行くつもりだと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/2",
+      "value": "You remind me of holidays at the beach."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/2",
+      "value": "あなたはビーチでの休日を思い出させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/20",
+      "value": "Something about you makes me want fish and chips. Can't put my finger on what."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/20",
+      "value": "魚とチップが欲しいのね。 何に指を向けられない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/21",
+      "value": "Living under water is cool."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/21",
+      "value": "水中での生活は涼しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/22",
+      "value": "I hear your architecture is stunning."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/22",
+      "value": "あなたの建築は素晴らしいと聞きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/23",
+      "value": "You seem like a cultured kind of person."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/23",
+      "value": "まるで文化的な人のようですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/24",
+      "value": "Could you beat a shark in a fight? Maybe that's like asking if I could beat a tiger in a fight."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/24",
+      "value": "戦いでサメに勝てますか。 戦いでトラを倒せるかどうかを尋ねるようなものです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/25",
+      "value": "Talking fish, sharks with legs... man, I love space!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/25",
+      "value": "魚やサメを足で話す...男、私は宇宙が大好き!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/26",
+      "value": "Our planet had many oceans. Then a tentacle monster happened."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/26",
+      "value": "私たちの惑星はたくさんの海を持っていた。 すると、触手モンスターが発生した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/27",
+      "value": "You're one slick fish man."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/27",
+      "value": "きみは、なめらかな魚人だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/28",
+      "value": "We should hang out more often, fish."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/28",
+      "value": "もっとよく釣りをするべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/29",
+      "value": "Hah, we're both slimy!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/29",
+      "value": "うーん、二人ともスリッキリしてる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/3",
+      "value": "A Hylotl, eh?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/3",
+      "value": "ヒロット?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/30",
+      "value": "Nice outfit, where'd you get it?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/30",
+      "value": "素敵な衣装、どこで手に入れたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/31",
+      "value": "I miss the cool sea breeze."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/31",
+      "value": "涼しい海風が恋しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/4",
+      "value": "Nice to meet you, fishface."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/4",
+      "value": "お会いできて嬉しいです、フィッシュフェイス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/5",
+      "value": "I've had some problems with water ever since I became a slimeperson, but I'm still a pretty good swimmer."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/5",
+      "value": "スライムな人になってから水に問題があったけど、それでもかなり上手な水泳選手です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/6",
+      "value": "I've read ten books!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/6",
+      "value": "私は一〇冊の本を読んだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/7",
+      "value": "Hylotl art is pretty nice, I'm a fan."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/7",
+      "value": "ハイロトルアートはとても素敵で、私はファンです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/8",
+      "value": "I had a pizza with tuna and bananas on it once. Surprisingly good."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/8",
+      "value": "マグロとバナナを添えたピザを一度食べました。 驚くべきことに良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/hylotl/9",
+      "value": "The Hylotl strive for peace, right? Same as humans. No wonder you're a Protector."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/hylotl/9",
+      "value": "ヒュロトルは平和を目指すんだよね? 人間と同じ。 あなたが保護者であることは不思議ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/0",
+      "value": "Are you made of pure energy?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/0",
+      "value": "あなたは純粋なエネルギーでできていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/1",
+      "value": "Oh wow, I've never seen anyone like you before!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/1",
+      "value": "うわぁ、君みたいな人見たことない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/10",
+      "value": "You would be a terrible \"murder in the dark\" player."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/10",
+      "value": "あなたはひどい「暗闇の中での殺人」プレーヤーになるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/11",
+      "value": "Ow, my eyes. You're super bright."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/11",
+      "value": "ああ、目だ。 すごく明るいね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/12",
+      "value": "Nice face."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/12",
+      "value": "素敵ね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/13",
+      "value": "Does your glow attract bugs at night? I collect bugs..."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/13",
+      "value": "あなたの輝きは夜に虫を引き付けますか? 虫を採取します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/14",
+      "value": "I bet you're popular at parties!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/14",
+      "value": "パーティーで人気があるのね!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/15",
+      "value": "You're not from around here, are you?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/15",
+      "value": "あなたはこの辺りの出身ではありませんね?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/16",
+      "value": "Wow, you're pretty brightly coloured! Are you off to a festival?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/16",
+      "value": "うわっ、あなたはかなり明るい色です! 祭りに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/17",
+      "value": "Okay, I've never seen anyone like you before."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/17",
+      "value": "よし、君のような人を見たことがない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/18",
+      "value": "Well, you're something I've not seen before."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/18",
+      "value": "前にも見たことがないものですが"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/19",
+      "value": "Oh wow, you're made of plasma."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/19",
+      "value": "血漿でできていますね"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/2",
+      "value": "Do you glow all the time, or is it like a switch you can turn off?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/2",
+      "value": "いつも光っているの?それとも電源を切ることができるスイッチみたい?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/20",
+      "value": "You Novakids are awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/20",
+      "value": "あなたノバキッズ素晴らしいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/3",
+      "value": "Whoa, you're something new alright..."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/3",
+      "value": "あら、新しいのね..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/4",
+      "value": "Do you have eyes? How do you even see?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/4",
+      "value": "目はありますか? どうやって見るの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/5",
+      "value": "You look so cool. I wish I was you."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/5",
+      "value": "かっこいいね。 私が君だったらいいのに。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/6",
+      "value": "You're so bright!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/6",
+      "value": "あなたはとても明るいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/7",
+      "value": "What are you? ...Whatever you are, I like it."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/7",
+      "value": "何なの? あなたが何であろうと、私はそれが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/8",
+      "value": "Howdy."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/8",
+      "value": "やあ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/novakid/9",
+      "value": "That's a pretty cool glow you've got going there."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/novakid/9",
+      "value": "そこへ行ったのはかなりクールな輝きだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/0",
+      "value": "Hello, fellow slime."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/0",
+      "value": "こんにちは、仲間のスライム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/1",
+      "value": "Anything interesting happening today?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/1",
+      "value": "今日は何か興味深いことが起こる?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/10",
+      "value": "I used to be expedition's xenobiologist, but I didn't want to hurt the slimes."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/10",
+      "value": "以前は遠征隊の外国人生物学者でしたが、悪臭を傷つけたくありませんでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/11",
+      "value": "Hey, you jelly?  So am I!  Ha!"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/11",
+      "value": "ねえ、ゼリー?  私もそうです!  はぁ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/2",
+      "value": "Every time I see a regular human, I get a little worried that they might be rude."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/2",
+      "value": "普通の人間に会うたびに、彼らは失礼かもしれないと少し心配になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/3",
+      "value": "I was in the slime world when I heard what happened to Earth."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/3",
+      "value": "地球に何が起きたか聞いたとき、私はスライムな世界にいました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/4",
+      "value": "I like being squishy."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/4",
+      "value": "イカしたくなるのが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/5",
+      "value": "I don't think I've been sick even once since I mutated."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/5",
+      "value": "突然変異して以来、私は病気ではないと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/6",
+      "value": "We decided to leave the other slimes in peace after all that happened."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/6",
+      "value": "結局、私たちは他の悪意を和らげようと決心した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/7",
+      "value": "Have you ever heard of 'Monster Musume'?"
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/7",
+      "value": "「怪娘」って聞いたことある?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/8",
+      "value": "It's kinda nice living out here.  Much more peaceful."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/8",
+      "value": "ここに住んでいるのは、ちょっといいね。  ずっと平和です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/converse/default/slimeperson/9",
+      "value": "Becoming a slime really changed my opinion of those little slimes."
+    },
+    {
+      "op": "replace",
+      "path": "/converse/default/slimeperson/9",
+      "value": "スライムになることは、この小さなスライムに対する私の意見を本当に変えました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/enclosedArea/default/default/0",
+      "value": "Could you patch that hole for me?"
+    },
+    {
+      "op": "replace",
+      "path": "/enclosedArea/default/default/0",
+      "value": "その穴をあけてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/enclosedArea/default/default/1",
+      "value": "This place's seen better days."
+    },
+    {
+      "op": "replace",
+      "path": "/enclosedArea/default/default/1",
+      "value": "この場所は良い日々を送った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/enclosedArea/default/default/2",
+      "value": "I'm feeling a bit of a draft here."
+    },
+    {
+      "op": "replace",
+      "path": "/enclosedArea/default/default/2",
+      "value": "私はここで少し草案を感じている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/encourage/default/default/0",
+      "value": "Go go go!"
+    },
+    {
+      "op": "replace",
+      "path": "/encourage/default/default/0",
+      "value": "行け!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/encourage/default/default/1",
+      "value": "Get 'em!"
+    },
+    {
+      "op": "replace",
+      "path": "/encourage/default/default/1",
+      "value": "彼らを捕まえなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/encourage/default/default/2",
+      "value": "Take 'em out!"
+    },
+    {
+      "op": "replace",
+      "path": "/encourage/default/default/2",
+      "value": "持ち出して!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/encourage/default/default/3",
+      "value": "Whoo!"
+    },
+    {
+      "op": "replace",
+      "path": "/encourage/default/default/3",
+      "value": "うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/final/default/default/0",
+      "value": "That's it I'm outta here."
+    },
+    {
+      "op": "replace",
+      "path": "/final/default/default/0",
+      "value": "そこは私がここです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/final/default/default/1",
+      "value": "Alright, I get the message.  I'm gone."
+    },
+    {
+      "op": "replace",
+      "path": "/final/default/default/1",
+      "value": "よし、メッセージが届いた。  もういなくなった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/final/default/default/2",
+      "value": "Time to set up shop somewhere else, I guess."
+    },
+    {
+      "op": "replace",
+      "path": "/final/default/default/2",
+      "value": "どこか別の場所にお店を構える時間だと思う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/final/default/default/3",
+      "value": "I hope your future tenants are treated better than this."
+    },
+    {
+      "op": "replace",
+      "path": "/final/default/default/3",
+      "value": "あなたの将来のテナントがこれよりもよく扱われることを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/0",
+      "value": "Oh shoot, HELP!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/0",
+      "value": "おお、撮影、助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/1",
+      "value": "If anyone's got a weapon, take that thing out!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/1",
+      "value": "武器があれば、持ち出して!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/2",
+      "value": "KILL IT!!  KILL IT!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/2",
+      "value": "殺せ!  殺せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/3",
+      "value": "Aaaaghhhh!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/3",
+      "value": "すごい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/4",
+      "value": "Guards!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/4",
+      "value": "ガード!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/5",
+      "value": "Why didn't I take a weapon with me?!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/5",
+      "value": "なぜ武器を持っていかなかったの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/6",
+      "value": "Where's a toolbox when you need one?!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/6",
+      "value": "ツールボックスが必要な時はどこにあるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/7",
+      "value": "Help!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/7",
+      "value": "助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpme/default/default/8",
+      "value": "I don't wanna die!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpme/default/default/8",
+      "value": "死にたくない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpthem/default/default/0",
+      "value": "Somebody do something!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpthem/default/default/0",
+      "value": "誰かが何かをする!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpthem/default/default/1",
+      "value": "I'd help, but I don't have a weapon!  Can you help them?!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpthem/default/default/1",
+      "value": "手伝うけど、武器はない!  手伝ってもらえますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpthem/default/default/2",
+      "value": "Oh geez, somebody help!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpthem/default/default/2",
+      "value": "おお、誰か助けて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/helpthem/default/default/3",
+      "value": "Please, help them!!"
+    },
+    {
+      "op": "replace",
+      "path": "/helpthem/default/default/3",
+      "value": "どうか助けてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/otherDeed/default/default/0",
+      "value": "I still live here.  Why'd you put up another deed?"
+    },
+    {
+      "op": "replace",
+      "path": "/otherDeed/default/default/0",
+      "value": "私はまだここに住んでいる。  どうしてまた手直ししたの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/otherDeed/default/default/1",
+      "value": "What're you doing, <entityname>?"
+    },
+    {
+      "op": "replace",
+      "path": "/otherDeed/default/default/1",
+      "value": "何してるの? <entityname>?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/otherDeed/default/default/2",
+      "value": "It'd have been nice to be informed beforehand about this sorta thing."
+    },
+    {
+      "op": "replace",
+      "path": "/otherDeed/default/default/2",
+      "value": "この手のことは事前に知らせておいたほうがよかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/otherDeed/default/default/3",
+      "value": "This place's already occupied."
+    },
+    {
+      "op": "replace",
+      "path": "/otherDeed/default/default/3",
+      "value": "この場所は既に占領されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rent/default/default/0",
+      "value": "Here, I'd like you to have this."
+    },
+    {
+      "op": "replace",
+      "path": "/rent/default/default/0",
+      "value": "こちらでどうぞどうぞ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rent/default/default/1",
+      "value": "Here you go, <entityname>."
+    },
+    {
+      "op": "replace",
+      "path": "/rent/default/default/1",
+      "value": "ここでは、<entityname> 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/rent/default/default/2",
+      "value": "I hope this'll do."
+    },
+    {
+      "op": "replace",
+      "path": "/rent/default/default/2",
+      "value": "これでいいといいな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/0",
+      "value": "Phew!"
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/0",
+      "value": "うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/1",
+      "value": "Thank you!"
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/1",
+      "value": "ありがとうございました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/2",
+      "value": "I hope that doesn't happen too often."
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/2",
+      "value": "あまり頻繁には起こらないといいのですが。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/3",
+      "value": "Survived another day.  Whew..."
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/3",
+      "value": "別の日を生き抜いた。  うわっ...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/4",
+      "value": "This place could use a better defense setup."
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/4",
+      "value": "この場所はより良い防御装置を使うことができる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/5",
+      "value": "Geez..."
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/5",
+      "value": "うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/safe/default/default/6",
+      "value": "Safe!  For the moment."
+    },
+    {
+      "op": "replace",
+      "path": "/safe/default/default/6",
+      "value": "無事!  今のところは。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/severe/default/default/0",
+      "value": "If things stay in this state, I'm heading elsewhere."
+    },
+    {
+      "op": "replace",
+      "path": "/severe/default/default/0",
+      "value": "事態がこのままなら、私は他の場所に向かっている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/severe/default/default/1",
+      "value": "Come on, <entityname>.  I can't live like this."
+    },
+    {
+      "op": "replace",
+      "path": "/severe/default/default/1",
+      "value": "どうぞ、<entityname>。  こんな生活はできない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/severe/default/default/2",
+      "value": "Can't you just fix things back to normal?"
+    },
+    {
+      "op": "replace",
+      "path": "/severe/default/default/2",
+      "value": "通常の状態に戻れないのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tagCriteria/default/default/0",
+      "value": "I liked this place the way it was before."
+    },
+    {
+      "op": "replace",
+      "path": "/tagCriteria/default/default/0",
+      "value": "私はこの場所を以前と同じように気に入った。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tagCriteria/default/default/1",
+      "value": "Can you put things back the way they were?"
+    },
+    {
+      "op": "replace",
+      "path": "/tagCriteria/default/default/1",
+      "value": "元の姿に戻してもらえますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tagCriteria/default/default/2",
+      "value": "Something doesn't feel right."
+    },
+    {
+      "op": "replace",
+      "path": "/tagCriteria/default/default/2",
+      "value": "何かが正しく感じられない。"
+    }
+  ]
+]

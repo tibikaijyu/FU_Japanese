@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super sweet jam made of pineapples."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パイナップルで作られた超甘いジャム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can have pineapple without those ssstupid thorns!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、それらの愚かなあごがなくてもパイナップルを持つことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Appreciative. Pineapples are quite the luxury crop, at least to us Glitch. It makes this jam all the sweeter."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感謝する。 パイナップルは、少なくとも私たちにとってかなり豪華な作物です。 このジャムをもっと甘くする。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nice to taste pineapple without wrestlin' with that prickly skin."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "パイナップルを、そのくしゃくしゃした肌でレスリングせずに味わうのも良い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pineapple Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイナップルジャム"
+    }
+  ]
+]

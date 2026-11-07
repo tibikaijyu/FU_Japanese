@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A big storage crate, for storing big things"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなものを保管するための大きな収納箱"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cargo Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "貨物箱"
+    }
+  ]
+]

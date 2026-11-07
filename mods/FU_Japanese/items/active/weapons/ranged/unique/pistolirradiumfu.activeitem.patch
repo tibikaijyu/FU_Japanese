@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires high-caliber rounds.\n^yellow;High damage rounds.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高口径弾を発射する。\n^yellow; 高いダメージラウンド。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Revolver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リボルバー"
+    }
+  ]
+]

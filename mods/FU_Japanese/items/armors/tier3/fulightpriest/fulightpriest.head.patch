@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^#3c3c00;Glow^reset;\n^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;0.4^reset;% Health Regen\n^yellow;^reset; Wand/Staff/Quarterstaff: Damage x^green;1.2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^#3c3c00;発光^reset;\n^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;0.4^reset;% 健康レーゲン\n^yellow;^reset; ワンド/杖/棒術棍: ダメージ x ^green;1.2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Priest Hood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "光霊"
+    }
+  ]
+]

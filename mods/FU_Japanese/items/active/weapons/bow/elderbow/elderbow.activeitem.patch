@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Rift Arrow"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "リフトアロー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ripe with malice.\n^cyan;Alt-Fire opens Rift to Far Realm.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪意で熟す。\n^cyan;副射撃 は、Rift を Far Realm に開きます。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長弓"
+    }
+  ]
+]

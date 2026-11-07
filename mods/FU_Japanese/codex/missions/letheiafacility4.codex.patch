@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "INTERNAL MEMO #A4839\n\nPlease note that Friday is sushi appreciation day. This is an event organised by management to help non-Hylotl staff better appreciate the roots of our company culture and bond with their fellow employees. Non-essential staff are welcome to take a half-day in the afternoon to attend this excellent event and enjoy themselves."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "内面メモ#A4839\n\n金曜日はお寿司の感謝の日です。 ハイロット以外の社員が当社の文化の根源をよりよく理解し、仲間の従業員と結びつくのを助けるために、経営陣が主催するイベントです。 この素晴らしいイベントに参加し、自分自身を楽しむために午後に半日を取ることを歓迎します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "As Letheia employs a large percentage of non-Hylotl staff, we are dedicated to introducing our diverse and womenderful workforce to the joys of Hylotl culture, which many across the universe have enthusiastcally embraced, especially the humans. A screening of the traditional Hylotl favourite, Numi and the Giant Mecha, will be open to all facility staff from 7 pm onwards."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "レテイアは非ハイロトルスタッフの多くの割合を雇用しているため、私たちは、世界中の多くの人が熱心に受け入れてきたハイロトル文化の喜びに、多様で女性的な労働者を紹介することに全力を傾けています。 伝統的なハイロトルお気に入りのNumiとGiant Mechaの上映は、7pm以降のすべての施設スタッフに開かれます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/2",
+      "value": "While attendance is not mandatory, we sincerely hope that all facility staff will not shame themselves and attend this glorious event which management has carefully put together for your enjoyment. We hope to keep employee morale in good shape, especially considering the unfortunate events of the last three weeks."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/2",
+      "value": "出席は必須ではありませんが、すべての施設スタッフが恥をかかずことなく、経営者が丁寧に集まって楽しんでいるこの栄光のイベントに参加できることを心から願っています。 特に過去三週間の不幸な出来事を考えれば、社員の士気は良い状態に保てることを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A document stamped with the logo of the Letheia Corporation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レテリア社のロゴを刻印した書類です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Letheia Facility) Internal Memo"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(レテリア施設)内部メモ"
+    }
+  ]
+]

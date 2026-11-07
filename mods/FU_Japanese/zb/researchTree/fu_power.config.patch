@@ -1,0 +1,974 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/ansible/0",
+      "value": "Subspace Communications"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/ansible/0",
+      "value": "サブスペース通信"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/ansible/1",
+      "value": "^orange;Tier 5^reset;\n\nThe interstellar ansible internet is a bustling and lucrative place to be, and now you can access it with your newly devised machine."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/ansible/1",
+      "value": "^orange;ティア 5^reset;\n\n星間アンシブルインターネットは、忙しくて儲かる場所であり、今、あなたはあなたの新しく考案されたマシンでそれにアクセスすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/arcsmelter/0",
+      "value": "Arc Smelting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/arcsmelter/0",
+      "value": "アーク製錬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/arcsmelter/1",
+      "value": "^orange;Tier 6^reset;\n\nUsing your newfound quantum knowledge, you've designed an incredibly powerful electric furnace that smelts even more efficiently and quickly than a blast furnace, but can also perform quantum conversions by pressurizing its contents to levels that surpass gas giants."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/arcsmelter/1",
+      "value": "^orange;ティア 6^reset;\n\n新たに発見した量子知識を使って、高炉よりも効率良く高速に溶融するだけでなく、その内容をガス巨人を超えるレベルまで加圧することで量子変換を行うことができる、信じられないほど強力な電気炉を設計しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery1/0",
+      "value": "Silicon Batteries"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery1/0",
+      "value": "シリコン電池"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery1/1",
+      "value": "^orange;Tier 2^reset;\n\nUsing silicon, you've learned to create simple solid-state batteries at your ^orange;Electronics Center^reset;- a big step up from junky old lead-acid ones."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery1/1",
+      "value": "^orange;ティア 2^reset;\n\nシリコンを使用して、あなたの^orange;電子工作台^reset;で単純なソリッドステートバッテリーを作成することを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery2/0",
+      "value": "Improved Batteries"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery2/0",
+      "value": "電池の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've improved your skills building batteries with silicon, and can now create batteries that hold much more charge than before."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery2/1",
+      "value": "^orange;ティア 3^reset;\n\nシリコンで電池を組み立てるスキルが向上し、以前よりもずっと多くの充電を保ったバッテリーを作れるようになりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery3/0",
+      "value": "Protocite Batteries"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery3/0",
+      "value": "プロトサイト電池"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery3/1",
+      "value": "^orange;Tier 4^reset;\n\nUsing Protocite's amazing ability to store and channel energy, you've designed a new kind of battery that is better than silicon in every way."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery3/1",
+      "value": "^orange;ティア 4^reset;\n\nプロトサイトの驚くべきエネルギー蓄積と伝送機能を使って、あなたはすべての点でシリコンよりも優れた新しい種類のバッテリーを設計しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery4/0",
+      "value": "Advanced Batteries"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery4/0",
+      "value": "先端電池"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery4/1",
+      "value": "^orange;Tier 5^reset;\n\nCombining Quantum technology and Quietus metals, you have developed a bizarre sort of battery that stores energy almost like a living creature. This comes with even better storage capacity."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery4/1",
+      "value": "^orange;ティア 5^reset;\n\n量子技術とクワイタス(クワイエタス)の金属を組み合わせることで、まるで生き物のようにエネルギーを蓄える奇妙なバッテリーが開発されました。 これにより、ストレージ容量はさらに向上します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery5a/0",
+      "value": "Hydrogen Batteries"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery5a/0",
+      "value": "水素電池"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/battery5a/1",
+      "value": "^orange;Tier 6^reset;\n\nLiquid Metallic Hydrogen is such a potent energy medium that it blows any solid-state battery out of the water. With it, you've designed what may well be the best battery in the galaxy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/battery5a/1",
+      "value": "^orange;ティア 6^reset;\n\n液体金属水素は、固体電池を水から吹き出すほど強力なエネルギー媒体です。 これで、あなたは銀河で最も良いバッテリーをデザインしました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/blastfurnace/0",
+      "value": "Industrial Smelting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/blastfurnace/0",
+      "value": "工業的な精錬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/blastfurnace/1",
+      "value": "^orange;Tier 3^reset;\n\nExperimentation with heat-resistant alloys have lead to your creation of a powerful Blast Furnace which can efficiently smelt ^cyan;rare^reset; ores, and many materials which regular furnaces can't handle."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/blastfurnace/1",
+      "value": "^orange;ティア 3^reset;\n\n耐熱合金の実験から、強力な溶鉱炉を開発した。^cyan;希少な^reset;鉱石や、通常の炉では扱えない多くの素材を、効率よく精錬できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge1/0",
+      "value": "Industrial Centrifuging"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge1/0",
+      "value": "産業遠心分離"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge1/1",
+      "value": "^orange;Tier 2^reset;\n\nWith Tungsten, you can now build a big, bulky centrifuge that more efficiently processes liquids and can also receive external attachments to jar honey. Build one at your ^orange;Electronics Center^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge1/1",
+      "value": "^orange;ティア 2^reset;\n\nタングステンを使用すると、液体をより効率的に処理し、瓶蜂蜜に外部の添付ファイルを受け取ることができる大きくてかさばる遠心分離機を構築することができます。 ^orange;電子工作台^reset;でビルドします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge2/0",
+      "value": "Laboratory Centrifuging"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge2/0",
+      "value": "実験室遠心分離"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've developed a sleek new centrifuge that is better at its job than before thanks to the power of Protocite processing."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge2/1",
+      "value": "^orange;ティア 3^reset;\n\nプロトサイト処理の力のおかげで、以前よりも優れた洗練された新しい遠心分離機を開発しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge3/0",
+      "value": "Isotope Processing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge3/0",
+      "value": "アイソトーププロセッシング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/centrifuge3/1",
+      "value": "^orange;Tier 4^reset;\n\nWith AI technology, you've designed a centrifuge that is so efficient and capable that it can even process radioactive isotopes into exciting new forms."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/centrifuge3/1",
+      "value": "^orange;ティア 4^reset;\n\nAI技術によって、あなたは非常に効率的で、放射性同位体までもエキサイティングな新しい形に処理できる遠心分離機を設計しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/combustion/0",
+      "value": "Combustion Engines"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/combustion/0",
+      "value": "燃焼機関"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/combustion/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've improved upon your fossil-fuel-burner design. With a Combustion Engine, you can generate more power than an Alternator using a wider array of fuel types."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/combustion/1",
+      "value": "^orange;ティア 2^reset;\n\n化石燃料バーナーの設計を改善しました 燃焼エンジンでは、幅広い燃料タイプを使用してオルタネータよりも多くの発電を行うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/condenser/0",
+      "value": "Advanced Condensation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/condenser/0",
+      "value": "先端凝縮"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/condenser/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've improved upon your condenser design to create a much more potent device which will condense many useful reagents and elements in addition to liquids."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/condenser/1",
+      "value": "^orange;ティア 3^reset;\n\n凝縮器の設計を改良して、液体に加えて多くの有用な試薬や元素を凝縮するより強力な装置を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/0",
+      "value": "Instructions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/0",
+      "value": "操作説明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/1",
+      "value": "Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\n\n- The left most button at the upper part of the screen opens a list of research trees to pick from.\n\n- The second button opens a list of non-hidden research options. Click a research on the displayed to center the view on it. Click again to hide the list.\n\n- The third button will center the view on the middle of the tree, or the currently selected research.\n\n- The last button toggles ^orange;low quality mode^reset;. This makes the GUI jump to a position instead of panning to it, or the center button. In addition, dragging/navigating on the the main screen will update only after you release the mouse button. It is best to use the search list with this mode enabled."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/1",
+      "value": "グリッド上のアイコンをクリックして研究を選択します。\nマウスの左ボタンでドラッグすると、表示範囲を移動できます。\n\n- 画面上部の一番左のボタンで、研究ツリーの選択一覧を開きます。\n\n- 二番目のボタンで、隠されていない研究の一覧を開きます。一覧の研究をクリックすると、その位置へ移動します。もう一度押すと一覧を閉じます。\n\n- 三番目のボタンで、ツリー全体か、現在選択中の研究を画面中央に表示します。\n\n- 最後のボタンは、^orange;低品質モード^reset;の切り替えです。表示位置や中央への移動が、滑らかなスクロールではなく即時切り替えになります。また、メイン画面をドラッグしても、ボタンを離すまで表示が更新されません。このモードでは研究一覧からの検索が便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/electricfurnace/0",
+      "value": "Powered Smelting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/electricfurnace/0",
+      "value": "動力製錬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/electricfurnace/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to use electrically-generated heat to smelt materials automatically. The ^orange;Electric Furnace^reset; can only process ^gray;common^reset; and ^green;uncommon^reset; ores, but it's great for getting extra materials from ores and blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/electricfurnace/1",
+      "value": "^orange;ティア 2^reset;\n\n電気で発電した熱を使って材料を自動的に製錬する方法を学びました。 ^orange;電気炉^reset;は、^gray;common^reset;と^green;uncommon^reset;oresのみを処理できますが、鉱石やブロックから余分な材料を得るのに最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/electronicsbasic/0",
+      "value": "Electronics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/electronicsbasic/0",
+      "value": "電子工学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/electronicsbasic/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've taught yourself some basic electronics and can now make a variety of rudimentary wired machinery at the ^orange;Electronics Center.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/electronicsbasic/1",
+      "value": "^orange;ティア 1^reset;\n\n基礎となる電子機器を自分で教え、さまざまな基本的な有線機械を^orange;電子工作台で作ることができるようになりました。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/filter/0",
+      "value": "Atmospheric Cleansing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/filter/0",
+      "value": "大気の浄化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/filter/1",
+      "value": "^orange;Tier 4^reset;\n\nUsing your knowledge of atmospheric mechanics, you've designed a device which filters the air and regulates temperature, providing protection against many hazards while nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/filter/1",
+      "value": "^orange;ティア 4^reset;\n\n大気の仕組みに関する知識から、空気をろ過して温度を調整する装置を設計した。近くにいる間、さまざまな危険から身を守ってくれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fission/0",
+      "value": "Nuclear Power"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fission/0",
+      "value": "原子力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fission/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've gotten a hang of nuclear fission, and can now build Fission Reactors that not only provide tons of power, but also generate useful fission by-products. Just mind the radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fission/1",
+      "value": "^orange;ティア 3^reset;\n\n核分裂が起き、大量の電力を供給するだけでなく、有用な核分裂副生成物を生成できる核分裂反応器が完成しました。 放射能に注意してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fusion/0",
+      "value": "Basic Fusion"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fusion/0",
+      "value": "核融合の基礎"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fusion/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've done it! You've determined how to create stable fusion reactions! This is an efficient producer of energy, but ^red;requires coolant such as water or liquid nitrogen^reset; or you risk potentially fatal explosion.\nCan be fueled with hydrogen isotopes such as Hydrogen, Helium 3 and Tritium."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fusion/1",
+      "value": "^orange;ティア 4^reset;\n\nやったぞ! 安定的な核融合反応の生成方法を決定しました! これはエネルギーの効率的な生産者ですが、^red;は水や液体窒素などの冷却剤を必要とします^reset;または潜在的に致命的な爆発を危険にさらします。\n水素、ヘリウム3、トリチウムなどの水素同位体で燃料を供給できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fusion2/0",
+      "value": "Advanced Fusion"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fusion2/0",
+      "value": "先端核融合"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fusion2/1",
+      "value": "^orange;Tier 5^reset;\n\nWhy stop at -basic- fusion when you can create something far more appealing? While expensive, the ^orange;Large Fusion Reactor^reset; is well worth its weight for the power it can produce using hydrogen isotopes. It still ^red;requires coolant such as water or liquid nitrogen^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fusion2/1",
+      "value": "^orange;ティア 5^reset;\n\nもっと魅力的なものを作れるなら、なぜベーシックフュージョンをやめるのでしょうか? 高価ではあるが ^orange;大型核融合炉^reset; 水素同位体で発電できる パワーの重さに十分価値があります それでも ^red;水や液体窒素などの冷却剤が必要です。^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/hydraulicdynamo/0",
+      "value": "Steam Power"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/hydraulicdynamo/0",
+      "value": "蒸気動力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/hydraulicdynamo/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've mastered the primitive-but-useful art of steam power. You can build a hydraulic piston that boils water using 'hot' fuels like lava or core fragments to generate early power."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/hydraulicdynamo/1",
+      "value": "^orange;ティア 2^reset;\n\n蒸気パワーの原始的だが有用な芸術を習得した。 溶岩やコア破片などの「熱い」燃料を使って水を沸騰させ、初期の発電を行う油圧ピストンを構築できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/itemnetwork/0",
+      "value": "Item Utilities"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/itemnetwork/0",
+      "value": "アイテムユーティリティ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/itemnetwork/1",
+      "value": "^orange;Tier 2^reset;\n\nUsing Item Networks, you can automate a huge number of processes and improve your quality of life dramatically. Researching Item Utilities will give you access to a laundry list of useful utility objects at your ^orange;Electronics Center^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/itemnetwork/1",
+      "value": "^orange;ティア 2^reset;\n\nアイテムネットワークを使用すると、膨大な数のプロセスを自動化し、生活の質を劇的に改善できます。 研究アイテムユーティリティは、あなたの^orange;電子工作台^reset;で有用なユーティリティオブジェクトのランドリーリストにアクセスできるようになります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcollector/0",
+      "value": "Condensation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcollector/0",
+      "value": "凝縮"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcollector/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've designed a device that will condense the atmosphere into liquid when powered. What liquid is produced depends on the planet."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcollector/1",
+      "value": "^orange;ティア 2^reset;\n\n電力を供給すれば、大気を液体に凝縮する装置を設計しました。 液体は惑星に依存します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/manufacturing/0",
+      "value": "Automated Assembly"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/manufacturing/0",
+      "value": "自動組立"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/manufacturing/1",
+      "value": "^orange;Tier 4^reset;\n\nUsing advanced metals and machinery, you've created an automatic manufacturer which can be configured to quickly craft any item or object you want when provided with materials."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/manufacturing/1",
+      "value": "^orange;ティア 4^reset;\n\n高度な金属と機械を使用して、材料を供給した場合、任意のアイテムやオブジェクトをすばやく作成するように構成できる自動メーカーを作成しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mixer/0",
+      "value": "Controlled Reactions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mixer/0",
+      "value": "制御反応"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mixer/1",
+      "value": "^orange;Tier 3^reset;\n\nMixing liquids can have many beneficial effects, especially now that you designed a machine to do just that. The liquid mixer can not only produce liquid reactions quickly and cleanly, but also allows for some reactions that couldn't happen when mixing liquid manually."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mixer/1",
+      "value": "^orange;ティア 3^reset;\n\n液体を混ぜることは多くの有益な効果を、特にあなたがちょうどそれを行うように機械を設計した今持つことができます。 液体ミキサーは、迅速かつきれいに液体反応を生成するだけでなく、手動で液体を混合する際には起こらないいくつかの反応を可能にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/quantumextractor/0",
+      "value": "Quantum Processing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/quantumextractor/0",
+      "value": "量子処理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/quantumextractor/1",
+      "value": "^orange;Tier 6^reset;\n\nNot satisfied with traditional extraction machines, you've improved on the design with quantum mechanics. Quantum Extractors not only work faster than ever, but produce twice as much from their extractions."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/quantumextractor/1",
+      "value": "^orange;ティア 6^reset;\n\n従来の抽出機では満足できず、量子力学を用いて設計を改良した。量子抽出機は処理速度がかつてないほど速いだけでなく、抽出で得られる量も二倍になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/quantumpower/0",
+      "value": "Quantum Nucleonics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/quantumpower/0",
+      "value": "量子核論"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/quantumpower/1",
+      "value": "^orange;Tier 6^reset;\n\nGenerating electricity from quantum mechanics is something very few people have done, but you can count yourself among them with your new Quantum Reactor. Capable of burning both traditional and esoteric fuels, it generates unfathomably large amounts of power."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/quantumpower/1",
+      "value": "^orange;ティア 6^reset;\n\n量子力学から電気を生成することは、非常に少数の人々がやったことですが、あなたの新しい量子反応器で自分自身を数えることができます。 従来の燃料と難燃性燃料の両方を燃焼できるため、非常に大量の電力を発生させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/regenmatrix/0",
+      "value": "Healing Vapors"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/regenmatrix/0",
+      "value": "癒しの気相"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/regenmatrix/1",
+      "value": "^orange;Tier 5^reset;\n\nBy applying your knowledge of medicine to electronics, you've created a field generator that rapidly heals everything within a wide radius."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/regenmatrix/1",
+      "value": "^orange;ティア 5^reset;\n\n医薬品の知識をエレクトロニクスに応用することで、幅広い範囲ですべてをすばやく癒すフィールドジェネレータを作成しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/regulator/0",
+      "value": "Total Purification"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/regulator/0",
+      "value": "総浄化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/regulator/1",
+      "value": "^orange;Tier 6^reset;\n\nYou've mastered atmospheric cleansing. With the Atmospheric Regulator, there is no place you can't settle - butt-naked, if you so choose."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/regulator/1",
+      "value": "^orange;ティア 6^reset;\n\nあなたは大気浄化をマスターした。 大気調節装置では、あなたがそう選択した場合、あなたは落ち着くことができない場所はありません - お尻 - 裸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sifter2/0",
+      "value": "Powered Sifting"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sifter2/0",
+      "value": "パワードシフティング"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/sifter2/1",
+      "value": "^orange;Tier 3^reset;\n\nHaving improved upon your Sifter design, you can now harvest the hidden treasures of blocks much more efficiently. You can also create a Rock Crusher, which breaks up hard materials like cobblestone and conglomerate instead of sands and silts."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/sifter2/1",
+      "value": "^orange;ティア 3^reset;\n\nSifterの設計を改善したことで、ブロックの隠れた宝物をより効率的に収穫できるようになりました。 また、石畳のような硬い材料を砕いて、砂やシルトの代わりに集合体を作るRock Crusherも作れます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar1/0",
+      "value": "Solar Power"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar1/0",
+      "value": "太陽光発電"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar1/1",
+      "value": "^orange;Tier 2^reset;\n\nThe free energy of stars is now within your reach with your understanding of solar technology. You can now build solar panels at your ^orange;Electronics Center^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar1/1",
+      "value": "^orange;ティア 2^reset;\n\n星の自由エネルギーは、今や太陽技術の理解とともにあなたの手の届くところにあります。 ソーラーパネルは、あなたの^orange;電子工作台^reset;で構築することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar2/0",
+      "value": "Improved Solar Cells"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar2/0",
+      "value": "太陽電池の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to use graphene to enhance your solar panels, allowing you to build bigger and more efficient solar arrays."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar2/1",
+      "value": "^orange;ティア 3^reset;\n\nグラフェンを使用してソーラーパネルを強化することを学び、より大きく効率的なソーラーアレイを構築することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar3/0",
+      "value": "Peerless Solar Cells"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar3/0",
+      "value": "パーレス太陽電池"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/solar3/1",
+      "value": "^orange;Tier 4^reset;\n\nBy combining nanofibre and Quietus metals, you can create incredibly potent solar towers which harvest vast amounts of renewable energy."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/solar3/1",
+      "value": "^orange;ティア 4^reset;\n\nナノファイバーとクワイタス金属を組み合わせることで、膨大な量の再生可能エネルギーを収穫する信じられないほど強力なソーラータワーを作成できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/0",
+      "value": "Basic Training"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/0",
+      "value": "基礎訓練"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;Tier 1^reset;\n\nYour training, thanks to four years in the Protectorate Academy, provides you with basic survival skills to keep you alive for extended periods in the event of a crash."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;ティア 1^reset;\n\nプロテクター養成学校での四年間の訓練により、墜落事故に遭っても長期間生き延びるための、基本的なサバイバル技術を身に付けている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/turrets/0",
+      "value": "Defense Systems"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/turrets/0",
+      "value": "防衛システム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/turrets/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've put your wiring expertise to work, and can now create many autonomous turrets for defense or automation."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/turrets/1",
+      "value": "^orange;ティア 4^reset;\n\n配線の専門知識を駆使して、防衛や自動化のための多くの自律タレットを作成できるようになりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/windpower/0",
+      "value": "Wind Turbines"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/windpower/0",
+      "value": "風車"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/windpower/1",
+      "value": "^orange;Tier 3^reset;\n\nWith access to hardier metals like Titanium, you've developed a durable wind turbine which will generate lots of renewable energy in the right environment."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/windpower/1",
+      "value": "^orange;ティア 3^reset;\n\nチタンなどの硬質金属へのアクセスにより、適切な環境で多くの再生可能エネルギーを生成する耐久性のある風力タービンを開発しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/wiringadv/0",
+      "value": "Technical Wiring"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/wiringadv/0",
+      "value": "技術配線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/wiringadv/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've designed a crafting table for creating logic gates, sensors, traps and other large-scale wiring objects."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/wiringadv/1",
+      "value": "^orange;ティア 3^reset;\n\nロジックゲート、センサー、トラップ、その他の大規模配線オブジェクトを作成するためのクラフトテーブルを設計しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker2/0",
+      "value": "Improved Producers"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker2/0",
+      "value": "改良型プロデューサ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to upgrade your copper pumps and quarries into iron versions, which work more quickly."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker2/1",
+      "value": "^orange;ティア 2^reset;\n\n銅ポンプと採石場を鉄バージョンにアップグレードすることを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker3/0",
+      "value": "Advanced Producers"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker3/0",
+      "value": "先端生産者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned to upgrade your iron pumps and quarries into titanium versions, which work more quickly still."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker3/1",
+      "value": "^orange;ティア 3^reset;\n\n鉄製のポンプや採石場をチタン製のバージョンにアップグレードすることを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker4/0",
+      "value": "Peerless Producers"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker4/0",
+      "value": "ピアレスプロデューサー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/worker4/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've learned to upgrade your titanium pumps and quarries into Densinium versions, which work extremely quickly."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/worker4/1",
+      "value": "^orange;ティア 4^reset;\n\nチタンポンプと採石場をデンシニウムバージョンにアップグレードすることを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/trees/fu_power",
+      "value": "Electronics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/trees/fu_power",
+      "value": "電子工学"
+    }
+  ]
+]

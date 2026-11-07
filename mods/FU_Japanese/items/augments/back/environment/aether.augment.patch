@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Aether Immunity"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "エーテル免疫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides immunity to Aether effects and +15% Cosmic Resistance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エーテル効果と +15% 耐宇宙性に対する免疫を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Immunity"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル免疫"
+    }
+  ]
+]

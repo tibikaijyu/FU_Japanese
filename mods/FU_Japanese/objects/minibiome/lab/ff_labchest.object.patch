@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lovely steel lab chest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素敵なスチール製の実験室の胸部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボチェスト"
+    }
+  ]
+]

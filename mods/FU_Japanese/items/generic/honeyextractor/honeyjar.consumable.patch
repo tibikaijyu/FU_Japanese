@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious jar of healing honey! Gobble it down, or bake with it!\n^green;Heal ^white;50 ^gray;(^white;1m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "癒しの蜂蜜の美味しい瓶! それをゴーブル、またはそれで焼く!\n^green;癒し ^white;50 ^gray;(^white;1え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニージャー"
+    }
+  ]
+]

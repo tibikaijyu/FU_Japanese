@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Strange, pulsating granules of... something... swirl within this silty material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な、脈動する粒...何か...このシルティーな材料の中で渦巻きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Silt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原糸"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Filters most environment effects. Can broadcast augment effects to radius. ^cyan;Requires ^orange;100W^cyan; of power^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんどの環境効果をフィルターします。 半径に拡大効果を放送することができます。 ^cyan;必須 ^orange;100W:^cyan; 権力の^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Atmospheric Filter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;大気フィルター^reset;"
+    }
+  ]
+]

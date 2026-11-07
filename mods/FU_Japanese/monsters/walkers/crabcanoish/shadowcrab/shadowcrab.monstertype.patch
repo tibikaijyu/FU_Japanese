@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Don't let these guys erupt in your face. You won't like it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こいつらをあなたの顔に突っ込むな。 気に入らないでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Shell"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウシェル"
+    }
+  ]
+]

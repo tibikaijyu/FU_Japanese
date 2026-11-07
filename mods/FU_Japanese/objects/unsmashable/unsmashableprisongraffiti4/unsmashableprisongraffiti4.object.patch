@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It looks like a human skull."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "人間の頭蓋骨のように見えます"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A skull. Is it a warning?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "頭蓋骨。 警告ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crudely-drawn skull. It looks cheerful. Unbreakable!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粗末に描かれた頭蓋骨。 明るく見えます。 壊れない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likesss this drawing. Great artisssst."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこの絵が嫌いだ。 偉大な芸術家。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A crudely-drawn human skull."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 人間の頭蓋骨を描きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Another striking piece of street art."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ストリートアートのもう一つの印象的な作品。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The artist was clearly inept."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "アーティストは明らかに無能でした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A skull. Either it's a warning... or there be pirates here!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "頭蓋骨。 警告か、海賊がいるんだ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Graffiti"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "落書き"
+    }
+  ]
+]

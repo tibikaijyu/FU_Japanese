@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Adorable monster from your nightmares."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの悪夢から愛らしいモンスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "My Little Cthulhu"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "私の小さなクトゥルフ"
+    }
+  ]
+]

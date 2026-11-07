@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A traditional looking wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝統的な外観の壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Wall iss too pretty to sssmash."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "壁はきれいすぎて破れない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Perceptive. This wall is subtly decorated in a traditional method."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "知覚。 この壁は、伝統的な方法で微妙に装飾されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This is a real fancy lookin' wall."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これは本当に派手な壁です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wood Ornate Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木製の華麗な壁"
+    }
+  ]
+]

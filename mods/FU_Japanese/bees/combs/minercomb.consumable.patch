@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This earthy comb increases max health by 25%"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この土のくしは最大健康率を 25% で上昇させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Earthen Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アースンハニカム"
+    }
+  ]
+]

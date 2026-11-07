@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Teeny tiny, adorable murder devices.\n^cyan;Energy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さくてかわいい殺人装置。\n^cyan;エネルギー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tiny Dancer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小さなダンサー"
+    }
+  ]
+]

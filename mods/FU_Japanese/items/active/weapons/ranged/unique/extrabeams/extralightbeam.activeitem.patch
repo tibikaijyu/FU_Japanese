@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient Avian weapon that fires beams of dazzling light energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光エネルギーの光を発射する古代アヴィアンの武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "光ビーム"
+    }
+  ]
+]

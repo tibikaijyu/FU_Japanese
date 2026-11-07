@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Well done, ol' chap. As promised: The cash. Enjoy."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "よくやった、オールチャップ。 約束どおり、現金です。 お楽しみください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;5 Quietus Bars^reset; to the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;5QuietusBars^reset; を ^orange;科学前哨基地^reset; に持ち込みます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I'm offering 6000 pixels for a bit of aid, if you can spare a few moments? I need 5 ^orange;Quietus Bars^reset; in order to finish my work. Can you bring some to me?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "少し時間を空けることができれば、6000ピクセルを少し手伝います。 必要なのは 5 ^orange;クワイタス インゴット^reset; 仕事を終えるために いくつか持ってきてくれませんか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "We gots 6000 dollars!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "私たちは6000ドルを得ました!"
+    }
+  ]
+]

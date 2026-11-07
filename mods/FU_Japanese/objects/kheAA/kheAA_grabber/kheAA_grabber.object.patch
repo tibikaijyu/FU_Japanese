@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Basic Grabber. Grabs items from the world. Range: 4.\n^blue;Input: ^white;On/Off Switch^reset;\n^red;Output: ^white;item network^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本。 世界からアイテムをつかむ。 範囲:4。\n^blue;入力: ^white;スイッチのオン/オフ^reset;\n^red;出力: ^white;アイテムネットワーク ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Grabber v1"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "第五章1"
+    }
+  ]
+]

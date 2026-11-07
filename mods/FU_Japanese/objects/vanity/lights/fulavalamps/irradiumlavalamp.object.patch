@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lamp filled with liquid Irradium. Is this even safe?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体イラジウムで満たされたランプ。 これはさらに安全ですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イラジウム溶岩ランプ"
+    }
+  ]
+]

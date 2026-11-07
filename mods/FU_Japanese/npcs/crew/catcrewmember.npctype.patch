@@ -1,0 +1,542 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/0",
+      "value": "Pun-Master <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/0",
+      "value": "パンマスター <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/1",
+      "value": "Feline <field> Officer"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/1",
+      "value": "ネコ <field> 役人"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/10",
+      "value": "Dreadnought <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/10",
+      "value": "ドレッドノート <field> 猫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/11",
+      "value": "Feline <field> Mastermind"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/11",
+      "value": "ネコ <field> 首謀者"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/12",
+      "value": "Feline <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/12",
+      "value": "ネコ <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/13",
+      "value": "Reliable <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/13",
+      "value": "信頼できる<field>猫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/14",
+      "value": "Theoretical <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/14",
+      "value": "理論 <field>C"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/15",
+      "value": "Reliable <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/15",
+      "value": "信頼できる<field>猫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/16",
+      "value": "Armchair <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/16",
+      "value": "アームチェア <field> 猫"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/2",
+      "value": "Deputy <role> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/2",
+      "value": "副 <role>CAT"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/3",
+      "value": "Appurrentice <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/3",
+      "value": "弟子 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/4",
+      "value": "Near-Purrfect <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/4",
+      "value": "ニアパーフェクト <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/5",
+      "value": "Furierce <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/5",
+      "value": "怒り <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/6",
+      "value": "Feline Commodore <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/6",
+      "value": "猫コモドール <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/7",
+      "value": "Executive Feline <role>"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/7",
+      "value": "経営幹部 <role>"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/8",
+      "value": "Independent <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/8",
+      "value": "独立 <field>猫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/ranks/9",
+      "value": "Dependant <field> Cat"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/ranks/9",
+      "value": "依存する <field>猫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "Security"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/field",
+      "value": "セキュリティ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "Soldier"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/crew/role/name",
+      "value": "兵士"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "I can't reach mew!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
+      "value": "私に手が届かない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "Mew're too fast!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
+      "value": "メスは速すぎる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "Hey, wait up!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
+      "value": "ちょっと待って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "How are Mew so fast?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
+      "value": "ニャーの速さはどうですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "Hey! Come back!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
+      "value": "おい! 戻ってこい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "Are mew taking meowt?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/0",
+      "value": "私を連れて行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "Yes, captain!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/1",
+      "value": "はい、船長!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "Where are we going?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/2",
+      "value": "どこへ行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "Let's go, let's go!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/3",
+      "value": "行くぞ、行こう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "Are we going somewhere?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/follow/default/default/4",
+      "value": "どこかに行くの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "Hey adventurer, mind if I join mew? I'll purrove myself useful, I purromise!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/0",
+      "value": "冒険家さん、私と一緒にいってもいい? 自分は役に立つと証明します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "I'm <selfname>, and I've been looking to get off this planet. Can I come with mew?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/1",
+      "value": "私は<selfname>です、そして私はこの惑星を降りるために探していました。 私と一緒に来てもいいですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "I sense that mew would see my usefulness as a crew member. Let's go together!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/2",
+      "value": "ムウは私の乗組員としての有用性を見出すだろう。 一緒に行こう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "I'm looking for a ship's crew to join. Care to have me aboard?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/3",
+      "value": "船員を募集しています。 私を乗せていかがですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "This place is getting boring. Care to let a cat join your crew?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/offer/default/default/4",
+      "value": "ここが退屈になってきている。 猫を乗組員に加わらせませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "Technology is amazing!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/0",
+      "value": "技術は素晴らしいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "That was only one life. I have more."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/1",
+      "value": "それは一つの人生に過ぎなかった。 もっとたくさんある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "That was an...interesting experience..."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/2",
+      "value": "それは...興味深い経験でした..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "I'm back and my pelt is in one piece!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/3",
+      "value": "私は戻って、私の肌は一つの部分にあります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "I'm alive again! Purr."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/4",
+      "value": "もう一回生きてる! パー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "...Is there a kink in my tail?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/5",
+      "value": "...尻尾にリンクはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "My paw hurts."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/6",
+      "value": "足が痛い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "What was I doing just before I died?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/respawned/default/default/7",
+      "value": "死ぬ直前に何をしていたのか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "I might not look like much, but I can wield a weapon as good as any humanoid!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+      "value": "あまり似ていないかもしれませんが、どんなヒューマノイドにも劣らず武器を振り回すことができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "If you need purrtection, mew know where to find me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
+      "value": "保護が必要な場合は、私に場所がわかります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "Even cats have claws. I'll be here if mew need 'em!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
+      "value": "猫にも爪がある。 必要ならここにいよう!"
+    }
+  ]
+]

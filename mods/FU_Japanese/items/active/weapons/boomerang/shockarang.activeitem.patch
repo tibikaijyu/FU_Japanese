@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Zap your foes with super fun electricity!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超楽しい電気で敵を捕まえよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shock Boomerang"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックブーメラン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Terrible taste, but utterly immune to tar, mud and clay."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ひどい味ですが、タール、泥、粘土に完全に免疫力があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Niss Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニッス種"
+    }
+  ]
+]

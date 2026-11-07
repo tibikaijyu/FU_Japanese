@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;\n^yellow;^reset; +^green;5^reset;% Jump, Speed\n^yellow;^reset; +^green;150^reset;% Bomb Tech Damage\n^yellow;^reset; +^green;100^reset;s Oxygen\n^yellow;^reset; Assault Rifles, (Machine) Pistols: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Pus, Black Tar"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;\n^yellow;^reset; +^green;5^reset;% ジャンプ、スピード\n^yellow;^reset; +^green;150^reset;% 爆弾技術被害\n^yellow;^reset; +^green;100^reset;酸素\n^yellow;^reset; ライフル、(マシン) ピストル: ダメージ x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;ポス、ブラックタール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corsair Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コルセア・ヘルム"
+    }
+  ]
+]

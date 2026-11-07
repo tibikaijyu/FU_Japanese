@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This might come in handy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは便利かもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Silenes' Minerals^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;シレーンの鉱物店^reset;"
+    }
+  ]
+]

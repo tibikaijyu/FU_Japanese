@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Mid section for a Hylotl spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒュロトル宇宙船のミッドセクション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Middle section"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトル・ミドルセクション"
+    }
+  ]
+]

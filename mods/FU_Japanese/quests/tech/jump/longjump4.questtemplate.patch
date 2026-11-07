@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "As jumpy as it gets!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "飛び跳ねるくらい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ultimate Flutter Jump!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "究極のフラッタージャンプ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ultra Flutter!"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ウルトラフラッター!"
+    }
+  ]
+]

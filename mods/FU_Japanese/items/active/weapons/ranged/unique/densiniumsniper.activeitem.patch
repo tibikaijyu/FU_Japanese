@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Two high-powered energy shots to ensure a confirmed kill.\n^yellow;2-round high powered bursts^reset;\n^green;Targeting computer alt-fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "二つの強力なエネルギーショットで、確実に殺害します。\n^yellow;2 - ラウンド高出力バースト^reset;\n^green;コンピューターのアルトファイアを標的に^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Sniper Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デシニウム狙撃ライフル"
+    }
+  ]
+]

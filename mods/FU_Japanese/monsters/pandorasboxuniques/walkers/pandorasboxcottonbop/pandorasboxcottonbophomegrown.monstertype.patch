@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They're able to trap air in their cotton fibres, allowing them to float on the slightest breeze."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "綿の繊維に空気を閉じ込めて、ほんの少しの風で浮かび上がらせることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cottonbop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コットン"
+    }
+  ]
+]

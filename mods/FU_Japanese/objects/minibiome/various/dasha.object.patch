@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dasha Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダッサフラワー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dasha Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダッサフラワー"
+    }
+  ]
+]

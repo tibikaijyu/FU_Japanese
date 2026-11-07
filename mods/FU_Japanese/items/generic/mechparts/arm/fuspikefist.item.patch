@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Causes massive impact damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きな衝撃損傷を引き起こします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Smasher Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スマスターメカアーム"
+    }
+  ]
+]

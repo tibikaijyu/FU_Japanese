@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This was once some sort of mobile weapons platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かつてはモバイルプラットフォームのようなものでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ruined Mech"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "廃機"
+    }
+  ]
+]

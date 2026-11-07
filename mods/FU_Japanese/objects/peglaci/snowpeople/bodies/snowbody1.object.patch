@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The body of a Snowman."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪だるまの体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plain Snowbody"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "平野雪"
+    }
+  ]
+]

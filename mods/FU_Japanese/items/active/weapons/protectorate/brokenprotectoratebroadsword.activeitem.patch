@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Fixed and improved."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "修正と改善。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Guardian Blade^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ガーディアンブレード^reset; ^yellow;^reset;"
+    }
+  ]
+]

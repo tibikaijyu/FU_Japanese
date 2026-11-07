@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large sensor that displays power levels flowing into it. This one goes up to 9999."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなセンサーで、その中に流れる電力レベルを表示します。 これは 9999 に上がります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Large Power Sensor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;大電力センサ^reset;"
+    }
+  ]
+]

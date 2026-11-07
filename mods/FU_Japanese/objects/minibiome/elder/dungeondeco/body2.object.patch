@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This body looks to have been torn to shreds prior to death"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この遺体は死ぬ前に破片に裂かれたようです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient mangled corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代のマングル遺体"
+    }
+  ]
+]

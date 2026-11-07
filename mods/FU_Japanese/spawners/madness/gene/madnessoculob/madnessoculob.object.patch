@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fun to throw, and a pretty decent little buddy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スローして楽しい、とかなりまともな小さな仲間。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oculob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "眼科"
+    }
+  ]
+]

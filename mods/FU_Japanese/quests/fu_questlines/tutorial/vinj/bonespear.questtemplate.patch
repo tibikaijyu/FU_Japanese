@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You can also hunt using ^orange;Bows^reset; or ^orange;Throwing Spears^reset; and ^orange;Hunting Rifles^reset;. It will be critical to your survival, as the primary means to gather ^orange;Raw Meat^reset; for cooking and eating."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;弓^reset;や^orange;投げ槍^reset;、^orange;狩猟用ライフル^reset;でも狩りができるよ。調理して食べる^orange;生肉^reset;を集める基本的な手段だから、生き延びるために欠かせない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Hunting will help you obtain resources such as ^green;Raw Meat^reset;, ^green;Leather^reset; and ^orange;Bone^reset;. Try making a ^orange;Primitive Spear^reset; in your ^green;[C]rafting^reset; menu under the Weapons tab."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "狩りをすれば、^green;生肉^reset;や^green;革^reset;、^orange;骨^reset;などの資源を手に入れられる。^orange;原始的な槍^reset;を、^green;クラフト[C]^reset;メニューの武器タブで作ってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Path of the Hunter"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "狩人への道"
+    }
+  ]
+]

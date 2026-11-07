@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Immune to specific effects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定の効果に対する免疫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Immunization"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "免疫"
+    }
+  ]
+]

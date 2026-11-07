@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bad things are unleashed upon those who wait."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "待つ人には悪い事が解き放たれる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Charge Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チャージガン"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A medium reel with high-test line that won't break as easily."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "簡単に破れないハイテストラインのミディアムリール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/reelName",
+      "value": "Mid Tension Reel"
+    },
+    {
+      "op": "replace",
+      "path": "/reelName",
+      "value": "ミッドテンションリール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mid Tension Reel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミッドテンションリール"
+    }
+  ]
+]

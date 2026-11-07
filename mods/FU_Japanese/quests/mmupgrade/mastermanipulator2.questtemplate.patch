@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The Master Manipulator is now mine. It seems that if I am to fully be able to use it, however, I'll first need to ^orange;repair it at a nanofabricator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "マスターマニピュレーターは私のものです。 完全に使えるようになれば、まずは^orange;ナノファブリケータ^reset;で修復する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Recover the master manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "マスターマニピュレーターを復元します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I should recover the Master Manipulator...or what's left of it, anyways. Khe probably has it at the Science Outpost, I saw her even though she tried to be sneaky."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "マスター・マニピュレーターを復活させるか、あとは何か。 ケーはおそらく科学前哨基地でそれを持っている、私は彼女がこっそりしようとしていたにもかかわらず、彼女を見た。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Broken Master Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "故障したマスターマニピュレータ"
+    }
+  ]
+]

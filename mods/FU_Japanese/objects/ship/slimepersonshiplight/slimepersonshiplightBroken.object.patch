@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "This light isn't getting enough power."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "この光では電力が足りない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A flickering light."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ちらつき光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A malfunctioning light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "誤作動光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Broken light makesss Floran dizzy."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "壊れた光はフローランをめまいさせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Concerned. This light is malfunctioning."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "心配。 この光は誤作動している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This light's on the blink."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このライトは点滅している。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "An underpowered light."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "電源不足のライト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This light ain't gettin' enough power."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "この光では電力が足りない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Broken Ship Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "破船灯"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "Shiny not working!"
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "うまくいっていない!"
+    }
+  ]
+]

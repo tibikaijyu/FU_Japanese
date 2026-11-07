@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/collar/displayName",
+      "value": "Glitch Aura"
+    },
+    {
+      "op": "replace",
+      "path": "/collar/displayName",
+      "value": "グリッチオーラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Your pet now functions like a glitchtop. Yay?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのペットは今やグリッチトップのように機能します。 うん?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitchtop Collar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "グリッチトップカラー"
+    }
+  ]
+]

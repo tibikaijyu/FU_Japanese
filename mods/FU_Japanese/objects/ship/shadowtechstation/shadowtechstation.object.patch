@@ -1,0 +1,242 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A tech station. I can enable tech and talk to S.A.I.L through this."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "テックステーション。 技術を有効にし、これを通じてS.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tech station allows me to communicate with S.A.I.L and enable tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この技術ステーションでは、S.A.I.L.とコミュニケーションを取り、技術を有効にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "Fragment should interface with the system."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "フラグメントはシステムとインターフェースするべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "Fragment. Please reboot the system."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "断片。 システムを再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "To awaken, Fragment must interface."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "起動するには、フラグメントはインターフェースでなければなりません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "Fragment must interface."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "フラグメントはインターフェースでなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "Proceeding requires interfacing with the Fragment."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "処理にはフラグメントとのインターフェースが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "Rebooting requires a conscious entity to interact with the S.A.I.L console."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "再起動には、S.A.I.Lコンソールと対話する意識的なエンティティが必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "...Initializing bootup sequence..."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "...起動シーケンスを初期化する..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "私はS.A.I.L、あなたの船ベースの人工知能格子です。 私はあなたの船の整備を手伝います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "I am set to mimic species designation: Human. Reason: Unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "私は、種指定を模倣しようとしている:人間。 理由:不明。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "Error: Ship is damaged. Fragment must repair our means of transport."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "エラー:船が破損しています。 破片は輸送手段を修復しなければならない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "Our location is currently unknown. Fragment should explore orbited world for means of repair."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "所在地は現在不明。 破片は、修理のために軌道を周回する世界を探るべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran use thisss for magiccc and talk to sshhip S.A.I.L!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローラン は 魔法 にこれを使用し、S.A.I.L. と話す!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informative. This tech station allows me to choose tech and talk to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "インフォマティブ。 この技術ステーションでは、私は技術を選択してS.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A tech station. Allows me to communicate with S.A.I.L and enable tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "テックステーション。 S.A.I.L.とコミュニケーションをとって、技術を有効にします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This tech station enables tech and allows me to communicate with S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この技術ステーションは、テクノロジーを可能にし、私がS.A.I.L.とコミュニケーションをとることを可能にします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/kirhosDescription",
+      "value": "I can use this to load up on augs or chat with S.A.I.L, if I get lonely."
+    },
+    {
+      "op": "replace",
+      "path": "/kirhosDescription",
+      "value": "これでオーグメントを装備できる。寂しいときには、S.A.I.Lとおしゃべりもできるな。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shadowDescription",
+      "value": "This reminds me of the One."
+    },
+    {
+      "op": "replace",
+      "path": "/shadowDescription",
+      "value": "これは私を思い出させる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tech Station"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "技術局"
+    }
+  ]
+]

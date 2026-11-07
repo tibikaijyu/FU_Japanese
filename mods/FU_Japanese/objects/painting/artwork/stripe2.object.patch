@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An astute visual demonstrating mans inhumanity to man."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間に人間らしさを示す美しいビジュアル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stripe 2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストライプ 2"
+    }
+  ]
+]

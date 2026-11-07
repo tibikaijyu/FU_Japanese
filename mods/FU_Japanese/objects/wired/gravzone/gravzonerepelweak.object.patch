@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This device seems to increase gravity tenfold within a small radius"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この装置は、狭い範囲の重力を十倍にするらしい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Force Zone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フォースゾーン"
+    }
+  ]
+]

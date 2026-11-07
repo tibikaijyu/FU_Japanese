@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Has the highest melting point of any known alloy, much greater than even tungsten! Found on Mountainous worlds."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タングステンよりもずっと大きい、既知の合金の最高融点を持っています! 山岳世界に存在する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼルケシウムインゴット"
+    }
+  ]
+]

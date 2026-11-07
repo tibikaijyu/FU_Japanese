@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a cloud forest."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積を雲の森に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cloud Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雲マイクロフォーマー"
+    }
+  ]
+]

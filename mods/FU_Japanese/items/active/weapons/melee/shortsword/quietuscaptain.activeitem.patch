@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Quietus forged for a leader."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クワイタスはリーダーのために偽造しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Captain's Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隊長の刃"
+    }
+  ]
+]

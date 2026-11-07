@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "O she doth teach the torches to burn bright.\nIt seems she hangs upon the cheek of night."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼女は松明を燃やすようにトーチに教えた。\n彼女は夜の頬にぶら下がっているようだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mantizi Lovelorn Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マンチジ・ラヴロン像"
+    }
+  ]
+]

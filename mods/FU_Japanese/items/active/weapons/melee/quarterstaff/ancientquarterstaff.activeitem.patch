@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ripe with ancient power.\n^cyan;inflicts Defense Debuff^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の力で熟す。\n^cyan; 防御デバッフ ^reset; に影響を与えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代のクォータースタッフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar chair, don't worry about falling, you'll appear 10 miles away if you do though."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星座は、転んでも心配しないで、もしそうなら10マイル先まで現れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Chair"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "安園議長"
+    }
+  ]
+]

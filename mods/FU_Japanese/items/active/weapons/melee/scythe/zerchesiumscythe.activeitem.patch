@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Heavy, freezing metallic death.\n^cyan;Frozen Edge^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "重くて凍える金属の死。\n^cyan;Frozen Edge ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ツバキ"
+    }
+  ]
+]

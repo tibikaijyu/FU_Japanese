@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A creepy-crawly microsphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "気味の悪いマイクロスフィア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Spider Microsphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;スパイダーマイクロスフィア^reset;"
+    }
+  ]
+]

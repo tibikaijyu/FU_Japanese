@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+3 Defense^reset;\n^cyan;Immune: Acid^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+3防御^reset;\n^cyan;免疫:酸^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウシールド"
+    }
+  ]
+]

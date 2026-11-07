@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Living, vital coral\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生き生きとした重要なサンゴ\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Living Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "生きたサンゴ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An old golden chest, still going strong."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古い黄金の胸、まだ強くなっています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gold Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金の胸"
+    }
+  ]
+]

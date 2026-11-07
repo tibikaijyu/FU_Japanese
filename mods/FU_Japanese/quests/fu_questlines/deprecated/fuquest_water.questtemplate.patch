@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You'll eventually find other sources for these useful materials, but for now this is the best method you have access to. Experimentation will get you far!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "最終的に、これらの有用な資料の他の情報源を見つけるでしょうが、現時点では、これはアクセス可能な最良の方法です。 実験はあなたを遠くに連れて行きます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You've gathered ^orange;Water^reset;! If you want to gather ^green;Hydrogen,Oxygen and Salt^reset;, collect some ^orange;Water^reset; and then use any ^green;hand mill or extractor^reset; to create 5 ^orange;Hydrogen^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あなたは集まった^orange;水^reset;! 集まってみたいなら ^green;水素・酸素・塩^reset;いくつか集めて ^orange;水^reset; そして 何でも ^green;ハンドミルまたは抽出器^reset; 創造するのです 5 ^orange;水素^reset;!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hydrogen and Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "水素と酸素"
+    }
+  ]
+]

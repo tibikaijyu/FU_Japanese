@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spawns monsters based on a capture pod's contents. Uses beer as fuel. Requires approx.^orange;100J ^cyan;per spawn.^reset; ^blue;Input^reset;1: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "捕獲ポッドの中身に応じたモンスターを出現させる。燃料はビール。消費エネルギーは約^orange;100J ^cyan;/体。^reset; ^blue;入力^reset;1: オン/オフスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Spawner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆的スパウナー"
+    }
+  ]
+]

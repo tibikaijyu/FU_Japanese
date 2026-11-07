@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "Well met, friend. My name is Girulian; as you might suspect by now, I am also a Guardian working with the SMASH unit."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "お会いしました。 私はギルリアンです。ご想像のとおり、私は破壊ユニットで働くガーディアンでもあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "That was an intense and invigorating battle; no doubt the end must be near."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "それは激しく、活気のある戦いでした。終わりが近づくに違いないことは間違いありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "I hear the sounds of machinery up ahead; the penguins' leader draws close."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "機械の音が聞こえてくる。ペンギンのリーダーが近づく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "I would go with you, but I have to stay to call for backup in case worst comes to worst."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "私はあなたと一緒に行くでしょうが、最悪の事態が起きた場合に備えて、バックアップを呼ぶ必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "Go now! The fate of Techno City lies in your hands!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/4",
+      "value": "すぐに行け! テクノシティの運命は、あなたの手にあります!"
+    }
+  ]
+]

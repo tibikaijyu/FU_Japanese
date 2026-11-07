@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "[Equip] Detects placement points of nearby objects.\n[Primary] Show Colony Tags."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "[Equip] 近くのオブジェクトの配置点を検出する。\n[主な]コロニータグを表示します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Object Data Sensor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オブジェクトデータセンサ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wheelbarrow. With hay in it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "手押し車。 干し草が入っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hayroll Wheelbarrow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロールホイールバロー"
+    }
+  ]
+]

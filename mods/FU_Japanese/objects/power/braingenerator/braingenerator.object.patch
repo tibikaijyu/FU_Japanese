@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A product of mad science that appears to run from cannisters of still-living brains. ^orange;Gradually wakes up, consciousness determines output.^reset; Maximum power ^orange;60W^reset;. ^blue;Left Input^reset;: On/Off Switch"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "狂った科学の産物で、まだ生きている脳の大缶から流れているようです。 ^orange; 徐々に起き、意識が出力を決定する。^reset;最大電力^orange;60W^reset;。 ^blue;左入力 ^reset;:ON/OFFスイッチ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Neuro-Psionic Generator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ニューロ超能力ジェネレータ^reset;"
+    }
+  ]
+]

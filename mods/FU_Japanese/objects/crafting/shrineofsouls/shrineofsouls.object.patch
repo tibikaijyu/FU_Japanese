@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An altar dedicated to the souls of the lost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "失われた人の魂に捧げられた祭壇。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "Shrine of Lost Souls"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "古魂の神社"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shrine of Lost Souls"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古魂の神社"
+    }
+  ]
+]

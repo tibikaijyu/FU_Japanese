@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some shoddy wooden scaffolding."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いくつかの毛羽立ちした木製の足場。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scaffolding"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "足場"
+    }
+  ]
+]

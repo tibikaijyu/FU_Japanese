@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Soft and warm sand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "柔らかくて暖かい砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssand."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Sand."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤い砂"
+    }
+  ]
+]

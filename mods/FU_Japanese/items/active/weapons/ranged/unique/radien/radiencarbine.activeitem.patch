@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange X'i-formed weapon.\n^cyan;Slows targets^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙にシーを形作った武器。\n^cyan;目標を遅くする^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Arm Blaster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンのアームブラスター"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shockingly deadly.\n^yellow;Destructive Alt-Fire^reset;\n^cyan;Primary fire does secondary physical damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "びっくりするほど致命的です\n^yellow;破壊的副射撃^reset;\n^cyan;一次発火は二次的な物理的損傷を^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shocklance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショックランス"
+    }
+  ]
+]

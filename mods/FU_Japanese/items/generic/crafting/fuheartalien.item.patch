@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Something had a heart. This was it."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何かが心臓を持っていた。 これがそれです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unknown Heart"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未詳の心臓"
+    }
+  ]
+]

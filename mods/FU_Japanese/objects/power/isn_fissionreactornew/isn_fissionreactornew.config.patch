@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/clear/caption",
+      "value": "Take all"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/clear/caption",
+      "value": "すべて取る"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/count/value",
+      "value": "FUEL SLOTS"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/count/value",
+      "value": "燃料スロット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/countwaste/value",
+      "value": "WASTE SLOT"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/countwaste/value",
+      "value": "廃棄物スロット"
+    }
+  ]
+]

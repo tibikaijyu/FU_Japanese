@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Sulphur Troll"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "サルファー・トロール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the more dangerous varieties of troll next to Mr. Chow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チャウさんの隣でトロールのより危険な品種の一つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sulphur Troll"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サルファー・トロール"
+    }
+  ]
+]

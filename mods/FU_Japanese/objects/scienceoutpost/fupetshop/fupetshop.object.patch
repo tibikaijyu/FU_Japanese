@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Clearly their primary goods are pet-related."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主な商品は明らかにペット関連です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;SuperPet^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;スーパーペット^reset;"
+    }
+  ]
+]

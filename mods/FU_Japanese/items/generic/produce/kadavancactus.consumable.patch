@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A refreshing, but somewhat tasteless, cactus. \n^cyan;+^white;10% ^pink;Fire ^cyan;Res^gray;, ^pink;Fire ^cyan;Immunity ^gray;(^white;2m^gray;)^reset; ^green;Type: Vegetable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "さわやかだが、やや無味、サボテン。 \n^cyan;+^white;10% ^pink;火 ^cyan;レズ^gray;, ^pink;火 ^cyan;免疫 ^gray;(^white;2え?^gray;)^reset; ^green;野菜の種類^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sliced Kadavan Cactus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カダヴァンサボテン"
+    }
+  ]
+]

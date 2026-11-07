@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A narcotic extracted from the Gemglow seed.\n^cyan;+^white;20 ^cyan;EP^gray;, ^cyan;Heavily Intoxicated^gray;, ^red;-^white;20 ^red;Defense^reset; (220s) ^blue;Madness Gain^reset; 2"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Gemglow種子から抽出した麻薬。\n^cyan;+^white;20 ^cyan;EP^gray;, ^cyan;酔っぱらった^gray;, ^red;-^white;20 ^red;防衛^reset; (220) ^blue;狂気の高まり^reset; 2"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telk Death-Stick"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テルクデススティック"
+    }
+  ]
+]

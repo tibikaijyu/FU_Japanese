@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pekkit. Can be tossed to freeze enemies or eaten to protect you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペリキット。 敵を凍らせるために投げたり、あなたを守るために食べることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pekkit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペキット"
+    }
+  ]
+]

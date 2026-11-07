@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Activates Bots for portable use (via special Capture Pods)."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポータブル使用用のボットを(特別なキャプチャポッドを介して)アクティブにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bot Loader"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボットローダー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small treat used for after a meal. Esther has a lot of these. \n^cyan;+^reset;8%^green; Energy ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "食事の後に使用される小さな御treat走。 エステルはこれらをたくさん持っています。 \n^cyan;+^reset;8%^green; エネルギー ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mint Humbug"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Mintのバグ"
+    }
+  ]
+]

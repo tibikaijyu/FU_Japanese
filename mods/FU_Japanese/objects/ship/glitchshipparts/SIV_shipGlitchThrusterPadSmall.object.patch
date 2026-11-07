@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small engine housing made for Glitch ships."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリッチ船用の小型エンジンハウジング。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Thruster Pad (Glitch)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船舶スラスターパッド(グリッチ)"
+    }
+  ]
+]

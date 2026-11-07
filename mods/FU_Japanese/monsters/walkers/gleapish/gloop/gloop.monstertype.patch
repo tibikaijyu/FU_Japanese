@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When in danger it will dispense toxic spores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険な場合、有毒な胞子を投与します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gloop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ループ"
+    }
+  ]
+]

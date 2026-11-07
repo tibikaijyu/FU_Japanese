@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dead Avian Protector, mangled beyond any hope of revival."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死んだアヴィアン・プロテクターは、復活の希望を超越した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/feneroxDescription",
+      "value": "Ded burd. Yay!"
+    },
+    {
+      "op": "replace",
+      "path": "/feneroxDescription",
+      "value": "死んだ鳥。 やった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "I'm sorry, I can't afford to slow down..."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "すいません、減速する余裕がありません。"
+    }
+  ]
+]

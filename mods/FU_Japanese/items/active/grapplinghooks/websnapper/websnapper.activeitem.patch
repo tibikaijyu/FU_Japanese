@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Well, that's pretty useful. And a bit horrifying. Weighted."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり便利ですね そして少し恐ろしい。 重さ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Web Shooter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウェブシューター"
+    }
+  ]
+]

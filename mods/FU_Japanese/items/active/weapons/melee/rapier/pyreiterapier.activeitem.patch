@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Crafted of eternally burning fun.\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "永遠の燃える楽しみから生まれました。\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトラピア"
+    }
+  ]
+]

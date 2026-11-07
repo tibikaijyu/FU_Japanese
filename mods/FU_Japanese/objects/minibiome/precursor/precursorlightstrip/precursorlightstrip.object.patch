@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reliable lightsource that has worked for eons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "イオンに作用する信頼性の高い光源。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆光"
+    }
+  ]
+]

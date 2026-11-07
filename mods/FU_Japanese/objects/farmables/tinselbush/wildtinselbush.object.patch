@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "While it looks like tinsel, it's as sharp as razors and packed with tungsten."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かみそりのように見えるが、カミソリのように鋭く、タングステンで満たされている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tinselbush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリキ"
+    }
+  ]
+]

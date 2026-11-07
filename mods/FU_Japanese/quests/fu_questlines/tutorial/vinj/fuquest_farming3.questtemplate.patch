@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Try incubating different eggs, and see what sort of wonderful animals you can bring to life!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "いろいろな卵をかえして、どんな素敵な動物が生まれるか確かめてみよう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "An ^orange;Incubator^reset; might be a worthwhile idea if you want to hatch eggs! With it, you can toss in an egg and quickly generate a baby animal. Well, quicker than letting nature handle it, anyhow. Make one at a ^orange;Foraging Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "卵をかえしたいなら、^orange;孵卵器^reset;があるといい！ 卵を入れると、すぐに動物の赤ちゃんが生まれる。まあ、自然に任せるよりは速いということだけどね。^orange;採集作業台^reset;で作ってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Incubation"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "卵をかえそう"
+    }
+  ]
+]

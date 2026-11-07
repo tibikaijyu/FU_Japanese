@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Made of wood. Not sharp, but will still hurt like a bugger.\n^yellow;3 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "木製。 鋭くないが、バガーのように痛む。\n^yellow;3 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Practice Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタナの実践"
+    }
+  ]
+]

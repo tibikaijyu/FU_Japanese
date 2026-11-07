@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The body of a Snowglitch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪崩の体。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glitch Snowbody"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "雪の体"
+    }
+  ]
+]

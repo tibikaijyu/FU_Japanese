@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A gem harvested in a similar shape to Thanatite."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サナタイトに似た形状で収穫された宝石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sahkite Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サヒカンテ結晶"
+    }
+  ]
+]

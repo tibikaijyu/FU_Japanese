@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "For the administration and shutdown of troublesome fields. ^red;Requires admin^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "面倒なフィールドの管理とシャットダウンのため。 ^red;は必須です。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Field Admin Console"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フィールド管理コンソール"
+    }
+  ]
+]

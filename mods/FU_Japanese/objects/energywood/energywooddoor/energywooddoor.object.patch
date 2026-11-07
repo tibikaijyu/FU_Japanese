@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cheaply made energy wood door."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "安価に作られたエネルギーウッドドア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Wood Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーウッドドア"
+    }
+  ]
+]

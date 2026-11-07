@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "'A basic shotgun made by the skath.'"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「基本的なショットガンは、スカース製です。'"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rustic Skath Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラスティックスカースショットガン"
+    }
+  ]
+]

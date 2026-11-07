@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You can further improve on those legs, too, by upgrading them once more into ^orange;Improved Mech Legs^reset;. The same applies to your ^green;Boosters^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "その脚部は、さらに^orange;改良メック脚部^reset;へアップグレードできる。^green;ブースター^reset;も同じように改良できるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Mechs are quite useful, but basic models are barely space-worthy and generally clunky. You'll want to ^green;Research^reset; into ^cyan;Engineering^reset; and build some ^orange;Stock Mech Legs^reset; to replace the awful basic model."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "メックは便利だけど、基本モデルは宇宙で使うには頼りなく、動きも鈍い。^green;研究^reset;メニューの^cyan;工学^reset;を進め、^orange;標準メック脚部^reset;を作って、使いづらい基本モデルを交換しよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Your Mech and You"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "あなたとメック"
+    }
+  ]
+]

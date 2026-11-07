@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sand covered in ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷に覆われた砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "凍結砂"
+    }
+  ]
+]

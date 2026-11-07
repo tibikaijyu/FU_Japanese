@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Must be perfect for the beach. Or showing off."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビーチにぴったりです。 または、見せびらかします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Muscle 'Shirt'"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "筋肉「シャツ」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "So sparkly..."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "すばらしく..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Glimmering 'Shirt'"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "きらめく「シャツ」"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Show off that bod!"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "その箱を外せ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Streaker's Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "担ぎ手のシャツ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/description",
+      "value": "You are the regal Emperor, sovereign of all."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/description",
+      "value": "あなたは皇帝であり、すべての主権者です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "Emperor's Robe"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "天皇のローブ"
+    }
+  ]
+]

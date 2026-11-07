@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Perfect! These'll keep us going fer quite a while. If you haven't already, you should head down to ^green;the maintenance area^reset; below us and talk to ^green;Dr.Akaggy^reset; in the ^green;Mech Hangar^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "完璧! ここからかなり時間が経つだろう。 まだやっていないなら ^green;メンテナンスエリア^reset; 私たちの下にいて ^green;アカギー博士^reset; 中には ^green;メカハンガー^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/BYOSCompletionText",
+      "value": "Perfect! These'll keep us going fer quite a while. If you haven't already, you should head down to ^green;the maintenance area^reset; below us and talk to ^green;Dr.Akaggy^reset; in the ^green;Mech Hangar^reset;. If you're needing to ^orange;fix up your ship^reset;, you ought to try a little research into ^orange;Engineering^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/BYOSCompletionText",
+      "value": "完璧! ここからかなり時間が経つだろう。 まだやっていないなら ^green;メンテナンスエリア^reset; 私たちの下にいて ^green;アカギー博士^reset; 中には ^green;メカハンガー^reset;. もし必要なら ^orange;船を修理して^reset;少し調べてみるべきです ^orange;工学^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "^green;Bring^reset; the ^orange;Erchius Crystals^reset; to ^orange;Penguin Pete^reset; at the ^orange;Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "^green;持ち物^reset; えッ? ^orange;エルキウス結晶^reset; です ^orange;ペンギンピート^reset; では ^orange;後陣^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I've been awaitin' a shipment of ^orange;20 Erchius Crystals^reset; from the ^green;Erchius Mining Facility^reset;. They're two weeks late and without these crystals the outpost is in trouble! I've sent the location coordinates to ^green;yer ship's SAIL^reset;. Can you ^green;please help us^reset;?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "荷物の発送をお待ちしております。 ^orange;20 エルキウス結晶^reset; そこから ^green;エルキウス鉱山施設^reset;. あと二週間も遅れていて、このクリスタルがなくても前置所が故障しているのです! ロケーション座標を ^green;yer 船 SAIL ^reset; に送信しました。 お願いできますか? ^green;助けてください^reset;?"
+    }
+  ]
+]

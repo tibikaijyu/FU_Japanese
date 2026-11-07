@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Just how unauthorized can I be? I'll take my chances."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "どのくらいの不正性があるのでしょうか? 機会をとってみる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "And just who defines \"authorized\" here, hm?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ここで「承認済み」と定義しているのは誰でしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I.E.: Not you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "(イーロン) あなたじゃない"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran authorized to ssstab whoever wrote sstupid sign."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは愚かなサインを書いた人を刺す権限を与えた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Indignant. I'm not obligated to abide by this sign."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "威厳ある。 私はこの標識に従う義務はない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I'm a Protectorate graduate... well sort of. Does that count? I'm just gonna assume it counts."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "私は保護区の卒業生です。 それは数えられますか? 私はそれが重要であると仮定するでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "These signs often don't imply anything good lies beyond them."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これらのしるしは、しばしばそれら以外に良い嘘を暗示しない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Authorized, schmauthorized. I'll go where I please, thank ye kindly."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "認可済み、認可済み。 親切にありがとう。どこにでも行きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Personnel Only Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人のみのサイン"
+    }
+  ]
+]

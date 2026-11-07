@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I've heard of bacon in pancakes, but pest? Eugh! \n^red;-^reset;5^red;% Health^reset; 60s ^red;Poisoned^reset; ^blue;Madness Gain^reset; 3 ^orange;Type: Cooked Meat + Vegetables + Dairy + Eggs^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンケーキのベーコンは聞いたことがありますが、害虫? うわっ! \n^red;-^reset;5^red;% 健康^reset; 60ス) ^red;毒^reset; ^blue;狂気の高まり^reset; 3 ^orange;タイプ:肉+野菜+乳製品+卵を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plague Pest Pancakes"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペストパンケーキ"
+    }
+  ]
+]

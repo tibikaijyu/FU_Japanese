@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light seems to twist inside these crystals.\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光はこれらの結晶の内側をひねるように見える。\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty cryssstals."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "かなりクリスタル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Admiration. A beautiful cluster of violium crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "賞賛。 美しいビオリウム結晶のクラスター。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Patak Crystal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パタック結晶"
+    }
+  ]
+]

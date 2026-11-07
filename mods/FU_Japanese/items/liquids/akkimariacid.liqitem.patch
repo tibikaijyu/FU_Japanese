@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly corrosive organic substance.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐食性の高い有機物です。\n^yellow;遠心分離可能^reset;。"
+    }
+  ]
+]

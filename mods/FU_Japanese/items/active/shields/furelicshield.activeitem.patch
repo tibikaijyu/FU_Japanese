@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+3% Crit Chance^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;クリティカル率+3%^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Relic Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レリックシールド"
+    }
+  ]
+]

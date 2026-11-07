@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Some unseen antagonist has sabotaged our only working space craft. The others suspect our superior officer, who seems pretty content to be trapped on this planet. He sits there staring at his charts, trying to give the impression he knows what to do. He doesn't."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "目に見えない敵対者が唯一の作業用宇宙機を妨害した。 他は、この惑星に閉じ込められていることにかなり満足していると思われる私たちの上官を疑っています。 彼はチャートを見つめて座って、自分が何をすべきかを知っている印象を与えようとします。 彼はしない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #58991"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #58991"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #58991"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #58991"
+    }
+  ]
+]

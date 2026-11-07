@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "You can also place food, seeds, meats and numerous other goods into extractors. ^green;Try everything you can^reset;. You never know what you'll discover! Upgrading to an ^orange;Extraction Lab^reset; will allow you to work ^green;much^reset; faster."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "抽出機には、食べ物や種、肉など、いろいろな物も入れられる。^green;何でも試してみよう^reset;。何が見つかるか分からないよ！ ^orange;抽出ラボ^reset;にアップグレードすると、^green;ずっと^reset;速く処理できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Without ^green;Extraction Devices^reset; progression in FU will be arduous. These wonderful devices ^green;take resource stacks and convert them into useful stuff^reset;. Create a ^orange;Hand Mill^reset; built at a ^orange;Machining Table^reset;. You can ^green;Research^reset; it in the ^orange;Engineering^reset; branch."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^green;抽出装置^reset;がないと、FUを進めるのは大変だ。この便利な装置は、^green;まとまった素材を役立つ資源へ変換^reset;してくれる。まずは^orange;手回し粉砕機^reset;を^orange;加工作業台^reset;で作ろう。^green;研究^reset;メニューの^orange;工学^reset;で学べるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Hand Mills and Extractors"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "手回し粉砕機と抽出機"
+    }
+  ]
+]

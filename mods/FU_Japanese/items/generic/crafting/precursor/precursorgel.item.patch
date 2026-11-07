@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hybrid gel capable of multiple states simultaneously."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複数の状態を同時に行うことができるハイブリッドゲルです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "State-Phase Gel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "状態相ゲル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "10000 pixels compressed into a voxel. Now with easy decompress."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "10000 ピクセルをボクセルに圧縮します。 今簡単に解凍します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "10k Voxel (EZ)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "10k ボクセル (EZ)"
+    }
+  ]
+]

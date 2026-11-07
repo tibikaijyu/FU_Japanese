@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Many have been fooled by these unpleasant donuts' tempting appearance."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多くの人は、これらの不快なドーナツの魅力的な外観にだまされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thisss donut is... warty."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "こういうことじゃない。. ワーティ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Disturbed. If I didn't know any better, I'd say this pastry had caught an especially hideous disease."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "混乱している。 これ以上知らなかったら、このペストリーは特にひどい病気にかかっていたのだと思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I think I'll pass on these."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこれらを継承すると思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wartweed Jam Donuts"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ワカメのドーナツ"
+    }
+  ]
+]

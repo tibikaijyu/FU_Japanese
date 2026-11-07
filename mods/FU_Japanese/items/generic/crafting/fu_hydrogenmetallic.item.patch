@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A quantum-viable super-conductor.\n^blue;+^white;10 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "量子実現可能な超伝導体。\n^blue;+^white;10 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Metallic Hydrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金属水素"
+    }
+  ]
+]

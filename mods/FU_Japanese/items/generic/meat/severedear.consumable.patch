@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious severed human ear. ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人間の耳を切断した美味しさ。 ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Severed human ear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "重度のヒト耳"
+    }
+  ]
+]

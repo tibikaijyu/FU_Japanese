@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Occasionally catches delicious lobsters when placed in ocean water. Can hold 1 lobster. Scan for Info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "海に沈むと美味しいロブスターを捕まえることがあります。 1ロブスターを保持することができます。 情報 をスキャンします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lobster Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロブスター・トラップ"
+    }
+  ]
+]

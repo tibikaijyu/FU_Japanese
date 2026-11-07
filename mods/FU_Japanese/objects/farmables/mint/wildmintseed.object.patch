@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Restores natural energy reserves."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自然エネルギーを再生する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Star Mint Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スターミントの種"
+    }
+  ]
+]

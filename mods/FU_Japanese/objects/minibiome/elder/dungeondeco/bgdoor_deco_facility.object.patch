@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the staff members lived in this little room."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この小さな部屋にはスタッフが一人住んでいた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crew Quarters"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乗組員クォーター"
+    }
+  ]
+]

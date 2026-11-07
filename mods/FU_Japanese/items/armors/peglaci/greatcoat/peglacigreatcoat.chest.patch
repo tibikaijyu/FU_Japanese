@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavy, fur-lined leather coat embroidered with glyphs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グリフで刺繍された重い毛皮裏地革コート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fur Greatcoat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毛皮"
+    }
+  ]
+]

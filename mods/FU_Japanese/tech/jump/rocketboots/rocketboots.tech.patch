@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Press and hold jump while in the air to fly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飛行するために空中でジャンプを押して保留します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Rocket Boots"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ロケットブーツ"
+    }
+  ]
+]

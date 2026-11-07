@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Phantoms don't care. They'll still kill ya. Design by Gezbo."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ファントムは気にしない。 殺されるぞ! デザインはゲズボ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Phantasm Mace"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファンタズムメイス"
+    }
+  ]
+]

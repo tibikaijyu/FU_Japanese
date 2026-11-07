@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A silver chalice, for filling a royal mouth with royal beverages."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "王室の口に王室の飲み物を充填するための銀の聖杯。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Chalice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銀の聖杯"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jar of aromatic honey with slight healing properties.\n^green;Heal^white;106.67 ^gray;(^white;80s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "少し癒しの特性を持つ芳香族ハチミツの瓶。\n^green;癒し^white;106.67 ^gray;(^white;80ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Floral Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ"
+    }
+  ]
+]

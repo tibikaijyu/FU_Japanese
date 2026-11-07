@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;250^reset;% Oxygen,\n^yellow;^reset; ^cyan;Undying Resolve^reset;: 30%\n^yellow;^reset; Elder/Precursor: +^green;3.5^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: All Radiation, Gas, Shadow Taint"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;250^reset;% 酸素\n^yellow;^reset; ^cyan;未解決の解決^reset;: 30%\n^yellow;^reset; 長老/先駆者:+^green;3.5^reset;% 危機の機会\n^yellow;^reset; ^cyan;免疫^reset;全ての放射線、ガス、影の色合い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Necrontir Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ネクロンティルマスク"
+    }
+  ]
+]

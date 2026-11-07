@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A large lava lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "大きな溶岩灯。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A very large lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "非常に大きなランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A station for creating different lava lamps."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異なる溶岩ランプを作成するためのステーション。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likesss pretty lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはきれいなランプが好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A large lamp."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 大きなランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A massive lamp! It's so pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "大きなランプ! とてもきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This is beautiful to look at."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "これは見るのが美しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This is mighty pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "これはとても美しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;The Lamporium^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange; ランプ^reset;"
+    }
+  ]
+]

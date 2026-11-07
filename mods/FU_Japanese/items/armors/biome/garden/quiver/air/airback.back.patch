@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "+^green;30^reset;% Airborne Damage (Bows)"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+^green;30^reset;%空襲被害(弓)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skill Quiver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スキル・サイバー"
+    }
+  ]
+]

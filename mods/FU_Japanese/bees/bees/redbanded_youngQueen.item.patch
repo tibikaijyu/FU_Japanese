@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Red-Banded Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "赤帯の若い女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Red-Banded Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若い赤帯女王"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Precursor rocket boots. Obviously superior."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロケット前身。 明らかに優れている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Rocket Boots II^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;ロケットブースII^reset;"
+    }
+  ]
+]

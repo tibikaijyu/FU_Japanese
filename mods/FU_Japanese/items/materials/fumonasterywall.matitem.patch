@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wall of Shoji design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "障子のデザインの壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoji Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "障子壁"
+    }
+  ]
+]

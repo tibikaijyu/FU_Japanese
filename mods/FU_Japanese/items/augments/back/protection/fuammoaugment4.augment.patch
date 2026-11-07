@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Ammo Belt IV"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "弾薬ベルトIV"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Increases weapon ammo by +8."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "武器弾薬を +8 で増やします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ammo Belt IV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "弾薬ベルトIV"
+    }
+  ]
+]

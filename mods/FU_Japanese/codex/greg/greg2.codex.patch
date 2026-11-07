@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Gregged gregga greg greg. Greg! Greg gregga gregga gregga greg. Greg? Greg! Gregga rainbow greg greg rainbow!"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "グレッグ・グレッグ・グレッグ。 グレッグ! グレッググレッググレッググレッググレッグ。 グレッグ? グレッグ! グレガ虹緑緑虹!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "RAINBOW! Greg gregga greggy gregin. Terrance greg greg Matt. Rainbow."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "レインボウ! グレッグ・グレッグ。 グレッグ・マット。 虹。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Greg!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "グレッグ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gregga"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "グレッグ"
+    }
+  ]
+]

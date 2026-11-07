@@ -1,0 +1,146 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "Do keep your voice down, would you? I'm trying to read."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "声を小さくしていてくれませんか。 私は読もうとしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "I hope you're planning to return those books."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/1",
+      "value": "その本を返送するつもりだといいのですが。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "Welcome to the library. Stay and read a while, if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/2",
+      "value": "図書館へようこそ。 よければ、しばらくの間読んでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "Such a wealth of knowledge to be found in books, whether physical or digital. Don't you agree?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/3",
+      "value": "物理的であれデジタルであれ、本に見られる豊富な知識。 同意しないの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/0",
+      "value": "I'm here reading up on these Wanderers the Peglaci's history speaks of. Could they be real?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/0",
+      "value": "ペグラチの歴史が語るこのワンダーラーズを読もう。 本当でしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/1",
+      "value": "The Wanderers... How could an entire race just...vanish? I find it hard to believe, if I'm being honest."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/hylotl/default/1",
+      "value": "ワンダラーズ... レース全体が消える理由は? 正直に言うと信じ難い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/default/0",
+      "value": "Do keep your voice down, would you? I'm trying to read."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/default/0",
+      "value": "声を小さくしていてくれませんか。 私は読もうとしている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/default/1",
+      "value": "I hope you're planning to return those books."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/default/1",
+      "value": "その本を返送するつもりだといいのですが。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/default/2",
+      "value": "Welcome to the library. Stay and read a while, if you'd like."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/default/2",
+      "value": "図書館へようこそ。 よければ、しばらくの間読んでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/default/default/3",
+      "value": "Such a wealth of knowledge to be found in books, whether physical or digital. Don't you agree?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/default/default/3",
+      "value": "物理的であれデジタルであれ、本に見られる豊富な知識。 同意しないの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/hylotl/default/0",
+      "value": "I'm here reading up on these Wanderers the Peglaci's history speaks of. Could they be real?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/hylotl/default/0",
+      "value": "ペグラチの歴史が語るこのワンダーラーズを読もう。 本当でしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/greeting/hylotl/default/1",
+      "value": "The Wanderers... How could an entire race just...vanish? I find it hard to believe, if I'm being honest."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/greeting/hylotl/default/1",
+      "value": "ワンダラーズ... レース全体が消える理由は? 正直に言うと信じ難い。"
+    }
+  ]
+]

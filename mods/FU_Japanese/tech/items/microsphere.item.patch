@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A teency, tiny little distortionsphere."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな小さな歪み球体です"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Microsphere^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;マイクロスフィア^reset;"
+    }
+  ]
+]

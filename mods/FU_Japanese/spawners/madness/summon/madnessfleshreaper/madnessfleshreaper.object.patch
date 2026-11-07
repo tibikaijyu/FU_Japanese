@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Calling this thing forth is likely a terrible mistake. Enjoy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "こういうことを言うのは、ひどい間違いかもしれない。 お楽しみください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshreaper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フリスビーパー"
+    }
+  ]
+]

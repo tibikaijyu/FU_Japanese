@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny, dangerous, and fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "輝き、危険、そして楽しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zerchesium Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ザルチウムハンマー"
+    }
+  ]
+]

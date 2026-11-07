@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bottle filled with brewing yeast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "醸造酵母が詰まった瓶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Yeast Water"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酵母水"
+    }
+  ]
+]

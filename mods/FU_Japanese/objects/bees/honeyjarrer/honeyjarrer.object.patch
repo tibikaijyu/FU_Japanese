@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Turns ^green;combs and bottles^reset; into ^orange;honey^reset;. Looks nice connected to an Industrial Centrifuge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green; くしとボトル ^reset; を ^orange; はちみつ ^reset; にします。 工業用遠心分離機に接続して素敵に見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Jarring Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニージャーリングマシン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Fill bottles with awesome honey."
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "素晴らしい蜂蜜でボトルをいっぱいにします。"
+    }
+  ]
+]

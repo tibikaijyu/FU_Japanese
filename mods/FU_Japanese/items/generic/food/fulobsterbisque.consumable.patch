@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sinfully delicious. ^orange;Type: Cooked Seafood + Vegetables + Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すっごく美味しい。 ^orange;タイプ: 海鮮料理+野菜+乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lobster Bisque"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロブスター・ビスク"
+    }
+  ]
+]

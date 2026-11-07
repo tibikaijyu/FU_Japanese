@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Handy for storing your cattle feed and produce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "牛の飼料と農産物を保管するのに便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Food Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "食品貯蔵庫"
+    }
+  ]
+]

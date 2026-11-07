@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hack them into burning bits.\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "それらを火傷のビットにハックします。\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライト軸"
+    }
+  ]
+]

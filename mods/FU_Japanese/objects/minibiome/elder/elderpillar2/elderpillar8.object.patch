@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This ancient piece of sculpture makes you uneasy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この古代の彫刻はあなたを不安にさせます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Pedestal"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代ペデスタル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rare color for a flower."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "珍しい花の色。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brown Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラウンフラワー"
+    }
+  ]
+]

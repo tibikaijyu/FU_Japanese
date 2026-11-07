@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A table glistening from the sheen of resin on chitin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キチンの樹脂の光沢から輝くテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Thelusian Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ルシアンテーブル"
+    }
+  ]
+]

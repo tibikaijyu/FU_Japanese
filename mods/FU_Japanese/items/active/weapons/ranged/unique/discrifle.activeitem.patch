@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Razordisc"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "かみそり"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An unusual weapon for an unusual time.\n^yellow;Fires rebounding discs^reset;\n^green;Sets traps^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異常な時間のための珍しい武器。\n^yellow;ディスクをリバウンドする火災^reset;\n^green;トラップを設定する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Disc Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ディスクライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Even more discy.\n^yellow;Slows enemies^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "もっとディシィ。\n^yellow;スローな敵^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Disc Rifle MkII^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ディスクライフルMkII^reset; ^yellow;^reset;"
+    }
+  ]
+]

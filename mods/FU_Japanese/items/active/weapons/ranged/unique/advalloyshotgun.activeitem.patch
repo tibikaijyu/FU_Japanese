@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super-quality shotgun with a hair trigger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヘアトリガ付きの超高品質のショットガン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金ショットガン"
+    }
+  ]
+]

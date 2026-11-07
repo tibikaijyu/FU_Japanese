@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides 20% reduced fuel costs, and +3.75 ship speed. Also provides extra special coffee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "20%燃料コストを削減し、+3.75船速を提供します。 また、特別なコーヒーも提供しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Engineer II Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エンジニアII契約"
+    }
+  ]
+]

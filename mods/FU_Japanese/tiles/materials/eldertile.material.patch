@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unknown stone that meshes perfectly."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "完璧なメッシュの未知の石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老の瓦"
+    }
+  ]
+]

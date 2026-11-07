@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fantastic battery with exceptional storage and voltage.^truncate; ^red;Scan for Info^reset;\nStorage Capacity: ^green;8000^reset;J"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れたストレージと電圧を備えた素晴らしいバッテリー。^truncate; ^red;スキャン情報^reset;\nストレージ容量: ^green;8000^reset;J。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Advanced^reset; Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;高性能^reset;バッテリー"
+    }
+  ]
+]

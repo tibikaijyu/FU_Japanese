@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Turret for harvesting plants automatically. Doesn't actually pick up plants."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "植物を自動的に収穫するためのタレット。 植物を拾わないのです"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Harvester Turret v3"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "収穫タレット v3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Automatic Harvesting"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "自動収穫"
+    }
+  ]
+]

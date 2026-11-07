@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A roughly-made iron axe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大まかに作られた鉄の軸。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄軸"
+    }
+  ]
+]

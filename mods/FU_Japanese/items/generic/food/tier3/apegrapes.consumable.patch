@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A healthy mix of bananas and grapes. ^green;Type: Fruits^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バナナとブドウの健康的な混合物。 ^green;タイプ:フルーツ^reset;"
+    }
+  ]
+]

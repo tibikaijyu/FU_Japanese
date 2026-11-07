@@ -1,0 +1,854 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/aliencompound/0",
+      "value": "Bio-Metallic Compounds"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/aliencompound/0",
+      "value": "生体金属化合物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/aliencompound/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've learned how to mix living material and metals in chemistry to do some bizarre things. You can produce useful Alien Compound and Quietus Ore in your lab."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/aliencompound/1",
+      "value": "^orange;ティア 4^reset;\n\n生の材料と金属を化学で混ぜて、奇妙なことをする方法を学びました。 あなたの研究室で有用なエイリアン化合物とクイエタス鉱石を生産することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel1/0",
+      "value": "Biofuel"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel1/0",
+      "value": "バイオ燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel1/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned how to make fuel out of organic matter, which can be used to fuel various generators, ship engines and mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel1/1",
+      "value": "^orange;ティア 2^reset;\n\nさまざまな発電機、船舶のエンジン、機械に燃料を供給するために使用できる有機物から燃料を製造する方法を学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel2/0",
+      "value": "Improved Biofuel"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel2/0",
+      "value": "バイオ燃料の改良"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've learned how to make fuel out of organic matter, which can be used to fuel various generators, ship engines and mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel2/1",
+      "value": "^orange;ティア 3^reset;\n\nさまざまな発電機、船舶のエンジン、機械に燃料を供給するために使用できる有機物から燃料を製造する方法を学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel3/0",
+      "value": "Amazing Biofuel"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel3/0",
+      "value": "素晴らしいバイオ燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/biofuel3/1",
+      "value": "^orange;Tier 4^reset;\n\nYou've learned how to make fuel out of organic matter, which can be used to fuel various generators, ship engines and mechs."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/biofuel3/1",
+      "value": "^orange;ティア 4^reset;\n\nさまざまな発電機、船舶のエンジン、機械に燃料を供給するために使用できる有機物から燃料を製造する方法を学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cells1/0",
+      "value": "Cell Manipulation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cells1/0",
+      "value": "細胞操作"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cells1/1",
+      "value": "^orange;Tier 3^reset;\n\nYou are now able to engineer advanced cells and mutagenic samples in your lab that are especially useful in bioweapons and plant design as well as craft and utilize bizarre biological slimes."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cells1/1",
+      "value": "^orange;ティア 3^reset;\n\nバイオ武器や植物設計に特に有用な高度な細胞や変異原性のサンプルを研究室で設計し、奇妙な生物学的スライムをクラフトして活用できるようになりました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cells2/0",
+      "value": "Cell Mastery"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cells2/0",
+      "value": "細胞制御"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/cells2/1",
+      "value": "^orange;Tier 5^reset;\n\nYour knowledge of cells is vast. You can make even more strange cells and mutagenic samples."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/cells2/1",
+      "value": "^orange;ティア 5^reset;\n\nあなたの細胞に関する知識は膨大です。 より奇妙な細胞や変異原性のサンプルを作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistryn/0",
+      "value": "Chemistry"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistryn/0",
+      "value": "化学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistryn/1",
+      "value": "^orange;Tier 1^reset;\n\nChemistry is a wonderful field with many practical applications such as the creation of plastics, bombs, medicine, fertilizer or biodiesel. With the ability to make an ^orange;Alchemy Table^reset; at your ^orange;Machining Table^reset;, you're now ready to start exploring its potential."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistryn/1",
+      "value": "^orange;ティア 1^reset;\n\n化学は、プラスチック、爆弾、医薬品、肥料、バイオディーゼルなどの多くの実用的なアプリケーションを持つ素晴らしい分野です。 ^orange;錬金術 作業台 ^reset;をあなたの^orange;加工作業台^reset;で作成できるので、その可能性を探る準備が整いました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistrystuff1/0",
+      "value": "Chemical Reactions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistrystuff1/0",
+      "value": "化学反応"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistrystuff1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned to make chunks of pure carbon in your lab and a couple different compounds that will be useful in agriculture and medicine."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistrystuff1/1",
+      "value": "^orange;ティア 1^reset;\n\n研究室では、純粋な炭素の塊と、農業や医学に役立ついくつかの異なる化合物を作ることを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistrystuff2/0",
+      "value": "Elemental Synthesis"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistrystuff2/0",
+      "value": "元素合成"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/chemistrystuff2/1",
+      "value": "^orange;Tier 2^reset;\n\nWith your newfound chemistry knowledge, you can now create various elemental compounds that would normally be obtained from slain foes. You can also create more advanced crystals. You'll have to upgrade to a ^orange;Chemistry Lab^reset; first, though."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/chemistrystuff2/1",
+      "value": "^orange;ティア 2^reset;\n\n新たに発見した化学知識により、通常、殺し敵から得られる様々な元素化合物を作成できます。 より高度な結晶を作成することもできます。 ただし、まずは ^orange;ChemistryLab^reset; にアップグレードする必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/0",
+      "value": "Instructions"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/0",
+      "value": "操作説明"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/default/1",
+      "value": "Select a research by clicking one of the icons on the grid.\nYou can navigate the grid by dragging with the left mouse button.\n\n- The left most button at the upper part of the screen opens a list of research trees to pick from.\n\n- The second button opens a list of non-hidden research options. Click a research on the displayed to center the view on it. Click again to hide the list.\n\n- The third button will center the view on the middle of the tree, or the currently selected research.\n\n- The last button toggles ^orange;low quality mode^reset;. This makes the GUI jump to a position instead of panning to it, or the center button. In addition, dragging/navigating on the the main screen will update only after you release the mouse button. It is best to use the search list with this mode enabled."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/default/1",
+      "value": "グリッド上のアイコンをクリックして研究を選択します。\nマウスの左ボタンでドラッグすると、表示範囲を移動できます。\n\n- 画面上部の一番左のボタンで、研究ツリーの選択一覧を開きます。\n\n- 二番目のボタンで、隠されていない研究の一覧を開きます。一覧の研究をクリックすると、その位置へ移動します。もう一度押すと一覧を閉じます。\n\n- 三番目のボタンで、ツリー全体か、現在選択中の研究を画面中央に表示します。\n\n- 最後のボタンは、^orange;低品質モード^reset;の切り替えです。表示位置や中央への移動が、滑らかなスクロールではなく即時切り替えになります。また、メイン画面をドラッグしても、ボタンを離すまで表示が更新されません。このモードでは研究一覧からの検索が便利です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/elduucrystals/0",
+      "value": "Crystal Horticulture"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/elduucrystals/0",
+      "value": "水晶園芸"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/elduucrystals/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've studied the Eld'uukhar art of growing crystals like plants and can now do so yourself."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/elduucrystals/1",
+      "value": "^orange;ティア 3^reset;\n\n植物のような結晶を育てていくエルドゥウハールの芸術を勉強し、今それを自分でできるのです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/explosives1/0",
+      "value": "Explosives"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/explosives1/0",
+      "value": "爆薬"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/explosives1/1",
+      "value": "^orange;Tier 1^reset;\n\nPerhaps one of the most classic chemical reactions is something going boom. Now, you can make that happen on demand with some neat new explodables to help you mine."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/explosives1/1",
+      "value": "^orange;ティア 1^reset;\n\nおそらく最も古典的な化学反応の一つは、ブームが進んでいるものです。 今、あなたはあなたの鉱山を助けるいくつかの新しい爆発物でオンデマンドでそれを行うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/explosives2/0",
+      "value": "Advanced Explosives"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/explosives2/0",
+      "value": "先端爆発"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/explosives2/1",
+      "value": "^orange;Tier 3^reset;\n\nBy using plastic in the creation of explosives, you can not only more safely contain bigger and deadlier bombs, but also easily shape your charges to make them more effective when they blow."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/explosives2/1",
+      "value": "^orange;ティア 3^reset;\n\n爆発物の製造にプラスチックを使用することで、より安全で大型で致命的な爆弾を含むだけでなく、爆発時により効果的にするために充電を簡単に形成することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer1/0",
+      "value": "Fertilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer1/0",
+      "value": "肥料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've begun to learn how to make useful crop-growing aids out of chemicals and can now craft basic fertilizer at your ^orange;Alchemy Table^reset;\n\nAmmonium Sulfate can be extracted from many sources. Try grinding up some Core Fragments or Poop in your Hand Mill.\n\nYou'll need a ^orange;Growing Tray^reset; to do anything with your fertilizer - if you're just growing plants out of the ground with a hoe and watering can, it won't be of any use to you."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer1/1",
+      "value": "^orange;ティア 1^reset;\n\n化学物質から、作物の成長を助ける品を作る方法を学び始めた。^orange;錬金術台^reset;で基本的な肥料を作れるようになる。\n\n硫酸アンモニウムは、さまざまな素材から抽出できる。手回し粉砕機で、コアの破片やうんちを砕いてみよう。\n\n肥料を使うには^orange;栽培トレイ^reset;が必要だ。鍬とじょうろで地面の植物を育てるだけなら、肥料は役に立たない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer2/0",
+      "value": "Improved Fertilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer2/0",
+      "value": "改良型肥料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou can make even better fertilizer using more complex chemicals. Your plants will thank you with faster growth and more yields."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer2/1",
+      "value": "^orange;ティア 2^reset;\n\nより複雑な化学物質を使ってさらに良い肥料を作ることができます。 あなたの植物は、より速い成長とより多くの収率であなたに感謝します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer3/0",
+      "value": "Peerless Fertilizer"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer3/0",
+      "value": "ピアレス肥料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/fertilizer3/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've mastered not just plant fertilization, but also the making of pesticides. Just make sure to wash it before you eat it."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/fertilizer3/1",
+      "value": "^orange;ティア 3^reset;\n\n植物の受精だけでなく、農薬の製造もマスターしています。 食べる前に必ず洗ってください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/glowinggels/0",
+      "value": "Specialized Gels"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/glowinggels/0",
+      "value": "特化したゲル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/glowinggels/1",
+      "value": "^orange;Tier 3^reset;\n\nYou've developed some weird gels that glow in the dark and can accelerate anything that touches them to a high speed."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/glowinggels/1",
+      "value": "^orange;ティア 3^reset;\n\n暗闇の中で輝き、それらに触れるものを高速に加速できる奇妙なゲルを開発しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/graphene/0",
+      "value": "Carbon Latticing"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/graphene/0",
+      "value": "炭素格子"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/graphene/1",
+      "value": "^orange;Tier 3^reset;\n\nGraphene is one of the most wonderful substances ever created, and now you know how to make it yourself. A one-atom thick sheet of hexagonal graphite, graphene is ridiculously durable. In addition to being a key component in many powerful weapons and armor, graphene is also very useful in the creation of complex circuitry."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/graphene/1",
+      "value": "^orange;ティア 3^reset;\n\nグラフェンは今までに作られた最も素晴らしい物質の一つであり、今、あなたはそれを自分で作る方法を知っています。 六角形黒鉛グラフェンの一原子厚シートは、非常に耐久性があります。 多くの強力な武器や装甲の主要コンポーネントであるだけでなく、グラフェンは複雑な回路の作成にも非常に有用です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting1/0",
+      "value": "Liquid Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting1/0",
+      "value": "液体創生"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've learned the basics of liquid creation and can now artifically create a few different liquid types at your lab.\n\nYou've also learned to create Cell Material, a useful resource when engineering novel plants."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting1/1",
+      "value": "^orange;ティア 1^reset;\n\n液体生成の基礎を学び、研究室でいくつかの液体タイプを人工的に作成できるようになりました。\n\nまた、新規プラントを設計する際に有用な資源である細胞材料を作成することを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting2/0",
+      "value": "Advanced Liquids"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting2/0",
+      "value": "先端液体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting2/1",
+      "value": "^orange;Tier 2^reset;\n\nYou now know how to make a few more types of liquid, including some really hot or really cold ones.\n\nWith the engineered Spliced Cell, you have access to even greater genetic engineering."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting2/1",
+      "value": "^orange;ティア 2^reset;\n\nあなたは今、いくつかの本当に熱いまたは本当に寒いものを含め、液体のいくつかのより多くのタイプを作る方法を知っています。\n\nSpliced Cellは、さらに優れた遺伝子工学へのアクセスを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting3/0",
+      "value": "Peerless Liquid Creation"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting3/0",
+      "value": "ピアレス液体創製"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/liquidcrafting3/1",
+      "value": "^orange;Tier 4^reset;\n\nYou can make even more complicated liquids at your lab."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/liquidcrafting3/1",
+      "value": "^orange;ティア 4^reset;\n\nラボでさらに複雑な液体を作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechfuel/0",
+      "value": "Liquid Fuels"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechfuel/0",
+      "value": "液体燃料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/mechfuel/1",
+      "value": "^orange;Tier 2^reset;\n\nYour combined knowledge of fluid creation and biofuel has led to you designing an enhanced, efficient fuel for use in mechs and combustion generators."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/mechfuel/1",
+      "value": "^orange;ティア 2^reset;\n\n液体生成とバイオ燃料に関する知識を組み合わせることで、機械や燃焼発電機で使用するための強化された効率的な燃料を設計することができました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen1/0",
+      "value": "Basic Medicine"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen1/0",
+      "value": "基礎医学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen1/1",
+      "value": "^orange;Tier 1^reset;\n\nYou've taught yourself some basic medical knowledge and can make simple healing items.\n\n^yellow;Did you know?^reset; Healing items in Frackin' Universe impose a moderately long cooldown upon use during which no other healing items can be used. Don't expect to spam bandages to victory!"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen1/1",
+      "value": "^orange;ティア 1^reset;\n\nあなたはいくつかの基本的な医学的知識を学び、簡単な癒しのアイテムを作ることができます。\n\n^yellow; _ ご存知ですか?^reset; Frackin' Universeのヒーリングアイテムは、他のヒーリングアイテムを使用できない使用時に適度に長いクールダウンを課します。 スパムの包帯を勝利に期待しないでください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen2/0",
+      "value": "Advanced Medicine"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen2/0",
+      "value": "先端医学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen2/1",
+      "value": "^orange;Tier 3^reset;\n\nYour medical knowledge has grown quite a bit. You're able to make superior healing items."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen2/1",
+      "value": "^orange;ティア 3^reset;\n\nあなたの医学的知識はかなり成長しました。 優れたヒーリングアイテムを作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen3/0",
+      "value": "Peerless Medicine"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen3/0",
+      "value": "ピアレス医学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/medicinen3/1",
+      "value": "^orange;Tier 5^reset;\n\nIt's no exaggeration to say that you're one of the best medics in the galaxy. You can craft impossibly potent healing items which can cure any wound."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/medicinen3/1",
+      "value": "^orange;ティア 5^reset;\n\nあなたが銀河で最高の医師の一人であると言うのは大げさではありません。 どんな傷でも治すことができる、信じられないほど強力な癒しアイテムを作成できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metallichydrogen/0",
+      "value": "Metallic Hydrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metallichydrogen/0",
+      "value": "金属水素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/metallichydrogen/1",
+      "value": "^orange;Tier 5^reset;\n\nNormally, this stuff is only found in the depths of gas giants, but you found a way to make it in your lab by yourself. Metallic Hydrogen is a powerful superconductor, and an amazing fuel source. Also, you found the best way to weaponize Unstable Particles - by combining them with Metallic Hydrogen to build ridiculously destructive grenades."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/metallichydrogen/1",
+      "value": "^orange;ティア 5^reset;\n\n通常、これはガス巨人の深さにしか見られませんが、あなたは自分でそれを研究室で作る方法を見つけました。 金属水素は強力な超伝導体であり、驚くべき燃料源です。 また、不安定な粒子を武器化する最良の方法を見つけました - 金属水素と組み合わせて、ばかばかしいほど破壊的な手すりを構築します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/morphite/0",
+      "value": "Morphic Super-Compounds"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/morphite/0",
+      "value": "モルフィックスーパーコンパウンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/morphite/1",
+      "value": "^orange;Tier 4^reset;\n\nThrough intense experimentation, you've learned to create an amazing substance that exploits the strange properties of phase matter to be simultaneously incredibly durable and highly moldable. Besides its use in weapons and armor, it's also quite conductive and will allow amazing new electronic devices to be made.\n\nYour knowledge of phasic materials has also allowed you to create 'blocks' of raw matter in your lab that are useful for a couple different esoteric reactions."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/morphite/1",
+      "value": "^orange;ティア 4^reset;\n\n強烈な実験を通して、相物質の奇妙な特性を利用して、同時に信じられないほど耐久性があり、非常に成形可能な驚くべき物質を作成することを学びました。 武器や装甲での使用に加えて、それはまた非常に導電性があり、驚くべき新しい電子機器が作られることを可能にします。\n\n相性物質に関するあなたの知識はまた、いくつかの異なる密閉反応に有用なあなたの研究室で原料の「ブロック」を作成することができました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics1/0",
+      "value": "Simple Optics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics1/0",
+      "value": "単純光学系"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics1/1",
+      "value": "^orange;Tier 2^reset;\n\nMicroscopes are extremely useful, allowing you to scan Bees for their genetic capabilities as well as generate research from investigated artifacts and equipment.\n\nThis microscope is available in an ^orange;Auto-Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics1/1",
+      "value": "^orange;ティア 2^reset;\n\n顕微鏡は非常に有用であり、ミツバチの遺伝的能力をスキャンし、研究された人工物や機器から研究を生成することができます。\n\nこの顕微鏡は^orange;自動組立機 ^reset;で利用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics2/0",
+      "value": "Complex Optics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics2/0",
+      "value": "複合光学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics2/1",
+      "value": "^orange;Tier 3^reset;\n\nYou're able to create much better microscopes now, enhancing your production rates.\n\nThis microscope is available in a ^orange;Matter Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics2/1",
+      "value": "^orange;ティア 3^reset;\n\nより優れた顕微鏡を作成でき、生産率が向上します。\n\nこの顕微鏡は ^orange;物質組立機^reset; で利用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics3/0",
+      "value": "Advanced Optics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics3/0",
+      "value": "先端光学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics3/1",
+      "value": "^orange;Tier 4^reset;\n\nYour microscopes are getting quite good now, allowing extreme zoom and fantastic clarity.\n\nThis microscope is available in a ^orange;Matter Assembler^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics3/1",
+      "value": "^orange;ティア 4^reset;\n\n顕微鏡のズームが極端になり、鮮明になる。\n\nこの顕微鏡は ^orange;物質組立機^reset; で利用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics4/0",
+      "value": "Master Optics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics4/0",
+      "value": "主な光学"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/optics4/1",
+      "value": "^orange;Tier 5^reset;\n\nYour microscopes are a thing of beauty, allowing you to see into microcosms previously unknown.\n\nThis microscope is available in a ^orange;Power Station^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/optics4/1",
+      "value": "^orange;ティア 5^reset;\n\nあなたの顕微鏡は、今まで知られていなかったミクロコスムを見ることができます。\n\nこの顕微鏡は^orange;発電所^reset;で利用できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/plastic1/0",
+      "value": "Simple Plastics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/plastic1/0",
+      "value": "単純プラスチック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/plastic1/1",
+      "value": "^orange;Tier 2^reset;\n\nYou've learned to create a simple, flexible plastic material that is especially helpful in the creation of electronics and wearables."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/plastic1/1",
+      "value": "^orange;ティア 2^reset;\n\nエレクトロニックやウェアラブルの創造に特に有用な、シンプルで柔軟なプラスチック材料を作ることを学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/plastic2/0",
+      "value": "Complex Plastics"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/plastic2/0",
+      "value": "複合プラスチック"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/plastic2/1",
+      "value": "^orange;Tier 3^reset;\n\nHaving learned a lot about plastic creation, you can now create a much more potent rigid plastic that is extremely durable and quite heat-proof. Advanced Plastic is a key ingredient in tons of things, and you can almost never have enough. Luckily, you've learned of several different ways to make this substance, though you'll probably be deriving it from petrol most of the time."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/plastic2/1",
+      "value": "^orange;ティア 3^reset;\n\nプラスチックの創造について多くのことを学びました、あなたは今非常に耐久性があり、非常に耐熱であるはるかに強力な硬質プラスチックを作成することができます。 高度なプラスチックは、多くのものの主要成分であり、あなたはほとんど十分なものを持つことはできません。 幸いにも、あなたはこの物質を作るいくつかの異なる方法を学びました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/0",
+      "value": "Basic Training"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/0",
+      "value": "基礎訓練"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;Tier 0^reset;\n\nYour training, thanks to four years in the Protectorate Academy, provides you with basic survival skills to keep you alive for extended periods in the event of a crash. This includes basic chemistry knowledge."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/survival_1/1",
+      "value": "^orange;ティア 0^reset;\n\n保護区アカデミーで四年間学んだおかげで、あなたの訓練は、事故時に長期間生き続けるための基本的な生存スキルを提供します。 基礎化学知識を含む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/unstableparticles/0",
+      "value": "Particle Destabilization"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/unstableparticles/0",
+      "value": "粒子の不安定化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/research/unstableparticles/1",
+      "value": "^orange;Tier 4^reset;\n\nTurns out all that explosives knowledge was good for something besides making things explode: making things _prone_ to exploding. Unstable Particles are crucial in developing nuclear technology."
+    },
+    {
+      "op": "replace",
+      "path": "/strings/research/unstableparticles/1",
+      "value": "^orange;ティア 4^reset;\n\n爆発的な知識は、物事を爆発させる以外には良いものだった。 不安定粒子は核技術の発展に不可欠である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/strings/trees/fu_chemistry",
+      "value": "Chemistry"
+    },
+    {
+      "op": "replace",
+      "path": "/strings/trees/fu_chemistry",
+      "value": "化学"
+    }
+  ]
+]

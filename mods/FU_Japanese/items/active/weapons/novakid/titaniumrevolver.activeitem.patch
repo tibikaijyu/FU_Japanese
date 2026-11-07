@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large handgun that packs a punch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンチを詰める大きな拳銃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Revolver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンリボルバー"
+    }
+  ]
+]

@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's Silt. It's very silty.\n^green;Extractable^reset;, ^orange;Siftable^reset;, ^red;Smeltable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シルトです。 とても汚い。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;、^red;製錬可能^reset;。"
+    }
+  ]
+]

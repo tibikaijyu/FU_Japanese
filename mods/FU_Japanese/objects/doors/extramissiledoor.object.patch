@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door looks like it could be opened with a heavy explosive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアは重爆で開けられるみたいだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "This door lookss like it could be opened with a heavy explossive."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "このドアは、爆発的な大きさで開くことができるように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. This door looks like it could be opened with a heavy explosive."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル このドアは重爆で開けられるみたいだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This here door looks like it could be opened with a heavy explosive. My kind of thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このドアは重火薬で開けられるみたいです。 私のような!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Missile Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミサイルドア"
+    }
+  ]
+]

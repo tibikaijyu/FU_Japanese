@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/crewLimitByos/text",
+      "value": "Your ship can't support any more crew members. Building Crew Beds can increase the crew size of your ship, or dismiss some staff through the terminal on your ship."
+    },
+    {
+      "op": "replace",
+      "path": "/crewLimitByos/text",
+      "value": "この船では、これ以上の乗組員を支えられません。乗組員用ベッドを設置して定員を増やすか、船の端末から乗組員を解雇してください。"
+    }
+  ]
+]

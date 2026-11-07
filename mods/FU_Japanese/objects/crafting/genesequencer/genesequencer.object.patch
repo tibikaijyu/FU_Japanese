@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create genes from scratch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ゼロから遺伝子を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Create genes from scratch."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; ゼロから遺伝子を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00ccff;Gene Sequencer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#00ccff;遺伝子シーケンサー^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Gene Sequencer^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;遺伝子シーケンサー^reset;"
+    }
+  ]
+]

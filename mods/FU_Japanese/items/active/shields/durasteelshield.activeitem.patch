@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Crit Chance +3%, Crit Damage +5^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;クリティカル率+3%、クリティカルダメージ+5^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "耐食性鋼シールド"
+    }
+  ]
+]

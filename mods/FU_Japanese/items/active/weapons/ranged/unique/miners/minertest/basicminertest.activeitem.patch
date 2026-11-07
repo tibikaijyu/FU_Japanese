@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A neat little mining weapon. Does a bit of damage, too.\nUpgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな小さな採掘用の武器。 少しのダメージも与えます。\n^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Laser"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "採掘レーザー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "P-7 Miner ^cyan;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "P-7採掘機 ^cyan;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "A-7C Miner ^white;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "A-7C採掘機 ^white;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "B-97 Miner^reset; ^green;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters3/shortdescription",
+      "value": "B-97 鉱夫^reset; ^green;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters4/shortdescription",
+      "value": "^cyan;C-7 Miner^reset; ^green;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters4/shortdescription",
+      "value": "^cyan;C-7 鉱夫^reset; ^green;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters5/shortdescription",
+      "value": "^green;D4-B Miner^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters5/shortdescription",
+      "value": "^green;D4-B鉱山^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters6/shortdescription",
+      "value": "^#ffc14e;KX-1 Miner^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters6/shortdescription",
+      "value": "^#ffc14e;KX-1 鉱夫^reset; ^yellow;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters7/shortdescription",
+      "value": "^#f74eff;CT-4 Mining Cannon^reset; ^yellow; ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters7/shortdescription",
+      "value": "^#f74eff;CT-4 鉱業大砲^reset; ^yellow; ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters8/shortdescription",
+      "value": "^#f74eff;CT-4 Mining Cannon ^#f74eff;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters8/shortdescription",
+      "value": "^#f74eff;CT-4マイニングキャノン^#f74eff;^reset;"
+    }
+  ]
+]

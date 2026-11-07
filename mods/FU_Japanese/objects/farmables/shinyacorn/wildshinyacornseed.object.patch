@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Delicious nuts that increase your vitality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの活力を高めるおいしいナッツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helkat Tree"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルケートツリー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This door is made of some sort of bulletproof material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このドアは防弾材でできています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボドア"
+    }
+  ]
+]

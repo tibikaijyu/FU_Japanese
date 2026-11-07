@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Faster and more expensive Physics Field"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "より高速で高価な物理場"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Physics Field II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "物理分野II"
+    }
+  ]
+]

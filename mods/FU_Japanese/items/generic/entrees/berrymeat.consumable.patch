@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The combination of a poisonous berry and a frozen steak ends up with a surprisingly tasty meal!\n^green;Heal ^white;30 ^gray;(^white;2s^gray;)^reset; ^orange;Type: Cooked Meat + Fruits^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有毒なベリーと冷凍ステーキの組み合わせは、驚くほどおいしい食事で終わります!\n^green;癒し ^white;30 ^gray;(^white;2ス)^gray;)^reset; ^orange;タイプ: 肉+果物を調理します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Berrymeat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベリー肉"
+    }
+  ]
+]

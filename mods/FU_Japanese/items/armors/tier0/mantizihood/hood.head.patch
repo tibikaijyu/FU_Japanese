@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple hood to shield your sensitive eyes from the harsh light of the sun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の厳しい光からあなたの敏感な目を遮るためのシンプルなフード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Hood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラックフード"
+    }
+  ]
+]

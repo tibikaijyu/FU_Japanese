@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burning with a need for blood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血が必要と燃焼します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Molten Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "融解剣"
+    }
+  ]
+]

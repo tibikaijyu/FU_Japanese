@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An erratic offshoot of the common crustoise."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一般的な十字架の非道なオフシュート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alpha Crustoise"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アルファ十字架"
+    }
+  ]
+]

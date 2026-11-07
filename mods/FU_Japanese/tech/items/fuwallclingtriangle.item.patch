@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Attach to walls and cross-jump."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁に取り付けられ、クロスジャンプします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Triangle Jump^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;トライアングルジャンプ^reset;"
+    }
+  ]
+]

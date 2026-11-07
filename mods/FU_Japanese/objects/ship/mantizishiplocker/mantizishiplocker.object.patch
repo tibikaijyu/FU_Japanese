@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I wonder if there are any secrets inside..."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "中には何か秘密があるのかな...。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Could there be anything of value within?"
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "中には何か価値はあるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A valuable locker, for storing valuable things."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "貴重なものを保管するための貴重なロッカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "SSsssearch."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "SS検索。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fumantiziDescription",
+      "value": "There may be valuables inside."
+    },
+    {
+      "op": "replace",
+      "path": "/fumantiziDescription",
+      "value": "中には貴重品があるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Excited. Any items of interest inside?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興奮した。 内部で興味のあるアイテムはありますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A ship's locker."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "船のロッカー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Perhaps something useful is inside."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "おそらく何か役に立つものがあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship locker"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船のロッカー"
+    }
+  ]
+]

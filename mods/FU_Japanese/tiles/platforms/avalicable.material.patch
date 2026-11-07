@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine, yet incredibly strong cable formed from carbon nanotubes"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カーボンナノチューブから形成される微細で信じられないほど強力なケーブル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nanotube Cable"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナノチューブケーブル"
+    }
+  ]
+]

@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A Hylotl flag. Pretty plain."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ハイロトルフラグ。 かなり平凡だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A Hylotl flag. There may be Hylotl around."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "ハイロトルフラグ。 周りにハイロトルがあるかもしれません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Hylotl flag. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイロトル旗。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran think this mean 'down with fish'."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこれを「魚と落ち合う」という意味だと考えている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Derision. A Hylotl flag."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "デライジョン。 ハイロトルフラグ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A Hylotl flag. Fishy."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "ハイロトルフラグ。 フィッシー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "The Hylotl flag flies proud. I could weep."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "ハイロトルフラグは誇りに思っています。 泣くこともできた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Apparently this is the Hylotl flag and not some newfangled modern art."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "どうやらこれはハイロトル旗であり、新しい近代芸術ではありません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルフラグ"
+    }
+  ]
+]

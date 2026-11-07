@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 1 - \nI saw a weird planet on my system scanners and decided to explore it. My SAIL did not know what to make of it, and scanning the planet revealed it to be perpetually in semi-darkness due to the composition of its atmosphere, and also that it had a plethora of ore: Titanium, Thorium, Neptunium, and even some minerals that have never been discovered before. If I could get my hands on some of this stuff, I bet I'd be rich! Atmosphere scans show that other than the strange gasses that prevent light from getting through, the air at ground level is actually breathable and of favorable temperature."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "日1 \n私はシステムスキャナーで奇妙な惑星を見て、それを探索することに決めました。 SAILは、大気の組成のために、その惑星をスキャンすると、それが半暗闇の中で永続的であることが判明し、また、それが鉱石の多さを持っていたこと:チタン、トリウム、ネプツニウム、そしてまだ発見されていないいくつかの鉱物。 こういうものを手に入れられるなら、きっと金持ちになれると思います! 大気スキャンでは、光が通らないような奇妙な気体以外は、地面の高さの空気は実際に通気性があり、良好な温度であることが示されています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "This shouldn't be too bad; just need a good suit of armor and a nice sidearm. I'll keep my homing device ready in case I must beam up fast."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "これはあまりにも悪くないはずです。ちょうど良い装甲スーツと素敵なサイドアームが必要です。 早起きしなければならない場合に備えて、ホーミング装置の準備をしておく。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 1"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 1"
+    }
+  ]
+]

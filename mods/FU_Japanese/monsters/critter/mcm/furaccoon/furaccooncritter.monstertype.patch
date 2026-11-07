@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small nocturnal animal found in temperate forests. They are curious and are known to steal from civilized areas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "温帯林で発見された小さな夜行性動物。 好奇心が強く、文明圏から盗むことが知られている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Raccoon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アライグマ"
+    }
+  ]
+]

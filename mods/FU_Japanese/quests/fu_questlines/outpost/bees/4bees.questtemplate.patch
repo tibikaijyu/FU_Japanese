@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Find ^green;other types of bees^reset;, and cross-breed them! How? Just place a different type of drone in there for your queen to check out. You may see some pretty swift results!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^green; ミツバチの他のタイプを見つける ^reset; それらを交配! どうやって? 女王がチェックアウトするのを、違うタイプのドローンを置けばよい。 かなり速い結果が見られます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now you need to ^green;catch a queen and a drone honey bee^reset; and let them loose inside your apiary. You'll need a ^orange;Bug Net^reset; for this. Bees can be found on most biomes, usually during the daylight hours."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "必要なのは ^green;女王とハチを捕まえ^reset; 愛国者の中で放っておけ これには ^orange;BugNet ^reset; が必要です。 ミツバチは、ほとんどの生物群で、通常は日中に見られる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Queen and Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クイーン&ドローン"
+    }
+  ]
+]

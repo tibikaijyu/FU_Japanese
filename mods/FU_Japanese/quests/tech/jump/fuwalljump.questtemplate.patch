@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I think I could ^green;replace the Wall Jump tech^reset; with a ^orange;useful upgrade tech^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "できると思います ^green;ウォールジャンプの技術を^reset; と ^orange;有用なアップグレード技術^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "I think I could ^green;replace the Wall Jump tech^reset; with a ^orange;useful upgrade tech^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "できると思います ^green;ウォールジャンプの技術を^reset; と ^orange;有用なアップグレード技術^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Better Walljump"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "より良いウォールジャンプ"
+    }
+  ]
+]

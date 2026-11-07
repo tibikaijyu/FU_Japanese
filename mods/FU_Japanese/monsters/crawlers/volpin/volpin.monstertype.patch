@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It has a sticky texture that allows it to climb surfaces with ease."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "表面に簡単に登れるベタベタ感があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volpin"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴォルピン"
+    }
+  ]
+]

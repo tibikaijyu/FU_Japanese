@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A huge central mainframe accessing multiple simultaneous data streams.\n^cyan;Research Rate^reset;: 6%, 0.5s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "複数の同時データストリームにアクセスする巨大な中央メインフレーム。\n^cyan;研究率^reset;:6%,0.5s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Research Mainframe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "研究メインフレーム"
+    }
+  ]
+]

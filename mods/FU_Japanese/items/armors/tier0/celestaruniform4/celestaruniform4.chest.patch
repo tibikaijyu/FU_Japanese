@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gorgeous, dahling. Gorgeous! +^green;5^reset;% Charisma."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "華やかで、ダリング。 素晴らしい! +^green;5^reset;% カリスマ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nonpareil Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "無比のシャツ"
+    }
+  ]
+]

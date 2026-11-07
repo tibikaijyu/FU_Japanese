@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "個人テレポーターは、ブックマークされた場所に接続します。 \n^red; 破損時に破壊される。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルテレポーター"
+    }
+  ]
+]

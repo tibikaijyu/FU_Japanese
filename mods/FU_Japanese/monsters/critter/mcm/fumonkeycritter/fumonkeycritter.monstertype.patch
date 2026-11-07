@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tiny diurnal mammal. It spends its time in the trees searching for food."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな昼行性哺乳類。 木の中で食べ物を探すのに時間を費やす。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Monkey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サル"
+    }
+  ]
+]

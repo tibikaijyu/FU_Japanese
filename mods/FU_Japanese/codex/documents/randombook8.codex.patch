@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "True to its title, it contains 53 fun things to do in Zero Gravity. Interestingly enough, 4 of them involve murder and 2 involve suction cups and laxatives."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "そのタイトルに忠実に、それはゼロ重力で行うために53楽しいことが含まれています。 興味深いことに、それらの 4 は殺人を、 2 は吸引カップと下剤を伴います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An apt title"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "名字"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "53 More Things to do in Zero Gravity"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "53 重力ゼロでやるべきことがもっとある。"
+    }
+  ]
+]

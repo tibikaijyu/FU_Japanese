@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "I have nothing to sssay to you"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/default/default/0",
+      "value": "あなたに伝えることは何もありません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/glitch/default/0",
+      "value": "Shocked. Who are you? Are you here to defeat the warlord?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/glitch/default/0",
+      "value": "ショック。 あなたは誰ですか? 武将を倒すためにここにいますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/glitch/default/1",
+      "value": "Upset. The warlord has taken us hostage to insure our kingdoms' compliance."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/glitch/default/1",
+      "value": "動揺。 武将は王国のコンプライアンスを保障するために私たちを人質にした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/glitch/default/2",
+      "value": "Encouraging. Slay the warlord and free us!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/glitch/default/2",
+      "value": "励まし。 武将を殺して私たちを解放しなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/converse/glitch/default/3",
+      "value": "Resigned. I wish I could do more to help you, but we are kept here all the time. I do not know much of the tower."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/converse/glitch/default/3",
+      "value": "辞任。 もっとお手伝いできればと思いますが、私たちはいつもここにいます。 私はその塔をあまり知りません。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kinda strange choice of weapon... but hey, it's sharp.\n^cyan;Floran^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "変な武器の選び方を... でも鋭利だ\n^cyan;フローラン^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Claw"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨爪"
+    }
+  ]
+]

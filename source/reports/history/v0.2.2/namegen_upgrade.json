@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "runtime_tested": false,
+  "scope": "Actual release folder overlays, file identities, pinned FU source-reference resolution and Japanese name-candidate preservation. Does not execute Starbound or its Markov generation algorithm.",
+  "metrics": {
+    "empty_compatibility_patches": 2,
+    "japanese_name_candidates_preserved": 114,
+    "old_invalid_references_reproduced": 2,
+    "overlay_020_files_verified": 14526,
+    "overlay_020_source_references_resolved": 2,
+    "overlay_021_files_verified": 14526,
+    "overlay_021_source_references_resolved": 2,
+    "removal_only_overlay_stale_references": 2
+  },
+  "upstream_fixture_sha256": {
+    "species/elduukharmalenamegen.config": "e2fe9398ba589f4e080d4dfe010cae1bcc497e710299a8638b0c508ff398494d",
+    "species/elduukharfemalenamegen.config": "0845bbe817eb0ba9303abb83572d81d8cb57e630c819f640657649ee9a178bb7",
+    "names/elduukharmale.namesource": "bf214789dd44ee5196e32d0adff8851736a1d9f7ecbc6e1965196284d307402c",
+    "names/elduukharfemale.namesource": "7e273ef47fc9cf748d9c702cf0f33fca0db1e199b521203c54f2a1718090b77e"
+  },
+  "candidate_mod_manifest_sha256": "c41790d4e4debe9095b4b19ad0394d4b0ec70f59c24f6f0459e09130e2f67e45",
+  "limits": [
+    "An overlay into one existing FU_Japanese folder is tested; a separate older copy in another mods folder is not removed by this package.",
+    "The uploaded log confirms an invalid female source reference but does not identify the installed translation version or how old data remained active."
+  ]
+}

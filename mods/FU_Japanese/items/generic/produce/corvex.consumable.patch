@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+100% Leech^reset;: 30s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;吸収+100%^reset;：30秒"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corvex Blob"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "凸球"
+    }
+  ]
+]

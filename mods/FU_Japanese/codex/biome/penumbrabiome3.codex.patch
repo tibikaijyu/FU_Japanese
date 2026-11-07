@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Day 3 - \nI found a small natural cave system, and decided to take a rest. The rock found on these planets is unusually hard, and it has this weird property that absorbs light. Even shining my flashlight directly at this rock, I can't see very much of anything around me as the rock appears to eat the light coming out of my flashlight. I lit a campfire in here, after I felt a breeze slipping through the cracks, hopefully I don't choke myself with the smoke. I can see more caves below, I'll explore those in a minute."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "3日目 ― \n小さな天然の洞窟群を見つけたので、休むことにした。この種の惑星の岩は異常に硬く、光を吸収するという奇妙な性質がある。懐中電灯を岩に直接向けても、周りはほとんど見えない。岩が懐中電灯の光を食べているようなのだ。割れ目から風が入るのを感じたので、中でたき火をともした。煙で窒息しなければいいが。下の方にも洞窟が見える。少ししたら探検してみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "This place is fascinating, I'm definitely saving these coordinates to come back here later. I just want a sample of this ore SAIL told me about..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "この場所は魅力的です、私は間違いなく後でここに戻ってくるためにこれらの座標を保存しています。 この鉱石のサンプルを SAILが教えてくれたら..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Travel Log: Penumbra 3"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "旅行記録:半影 3"
+    }
+  ]
+]

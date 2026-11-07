@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Finally I can be a kitty-fairy!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ついにキティフェアになれます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kitty Butterfly Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キティ蝶の翼"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Periodically releases restorative nanites. ^cyan;Requires 20J^reset; per 3.5s if a mech is nearby."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "定期的に修復したナナイトを放出する。 ^cyan; メカが近くにある場合は 20J^reset;per 3.5s が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mech Repair Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカ修理ポッド"
+    }
+  ]
+]

@@ -1,0 +1,40 @@
+{
+  "version": "0.2.2",
+  "upstream_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
+  "runtime_tested": false,
+  "source_provenance_files": 136,
+  "changed_game_files": 140,
+  "field_overrides": 349,
+  "native_line_ending_variants": 126,
+  "species_with_description_fallback": 134,
+  "description_source_variants": 136,
+  "individually_reviewed_description_fields": 34,
+  "retained_symbol_fields": 4,
+  "canonical_layout_collisions": [
+    {
+      "race": "cat",
+      "field": "descriptions",
+      "reason": "line_wrapping_only"
+    }
+  ],
+  "limits": [
+    "No Starbound game runtime was available.",
+    "The uploaded log does not contain the actual untranslated species string; its precise cause remains unconfirmed.",
+    "Fallback accepts only a known race ID and a whole known source text differing solely by ASCII whitespace.",
+    "Unknown updated text and existing Japanese are preserved; no unconditional overwrite is used.",
+    "Third-party compatibility race descriptions retain their previous machine baseline except field-scoped terminology corrections unless their complete source matches an individually reviewed description."
+  ],
+  "validation": {
+    "passed": true,
+    "version": "0.2.2",
+    "python_assertions": 2459,
+    "lua_assertions": 1467,
+    "complete_species_cases_lf_and_crlf": 44,
+    "line_ending_variant_groups_tested": 126,
+    "description_variants_tested": 136,
+    "field_overrides_checked": 349,
+    "runtime_tested": false,
+    "scope": "Actual Lua helper and stat-window display function with fixed FU data and mocked root/widget APIs; Starbound-style require executes the helper and returns nil; full known FU species assets with LF and physical CRLF; all field override tags/numbers/newlines; exact source guards and unknown-source preservation.",
+    "limits": "Does not run Starbound or determine the exact untranslated text in the user PAK. Native window rendering and layout require game-side confirmation."
+  }
+}

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an erchibud. Their diet consists of things found on moons, and after time they will generate Erchius Crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エルキブドです 彼らの食事は月にあるものから成り、その後にエルキウス結晶が生成されます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchibud"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルキブド"
+    }
+  ]
+]

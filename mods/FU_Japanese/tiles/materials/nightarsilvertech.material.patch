@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Techy silver floor panels."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テッキーシルバーフロアパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Floor Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーフロアパネル"
+    }
+  ]
+]

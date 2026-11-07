@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large, heavy tungsten blade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きくて重いタングステンの刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tungsten Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タングステンロングソード"
+    }
+  ]
+]

@@ -1,0 +1,32 @@
+{
+  "repository": "jkawamoto/fugumt-en-ja-ct2",
+  "revision": "5bdad25200fcf251bbf019a6ee613002df52869b",
+  "source": "https://huggingface.co/jkawamoto/fugumt-en-ja-ct2",
+  "redistributed_in_mod": false,
+  "original_model": "staka/fugumt-en-ja",
+  "model_license": "CC-BY-SA-4.0",
+  "original_author": "S-Taka",
+  "conversion_author": "jkawamoto",
+  "files": {
+    "source.spm": {
+      "size": 768297,
+      "sha256": "92fcbf6449e47457866ec98891dab09ef625e57d9637fe3fdbbe44fc1a365b6d"
+    },
+    "target.spm": {
+      "size": 768297,
+      "sha256": "92fcbf6449e47457866ec98891dab09ef625e57d9637fe3fdbbe44fc1a365b6d"
+    },
+    "config.json": {
+      "size": 223,
+      "sha256": "8f6496adfc930cbfecbe8281112197705c488fab47d34b4829b06d7f478909af"
+    },
+    "shared_vocabulary.json": {
+      "size": 578183,
+      "sha256": "a884fccf9738a2989fbd873757970ab46c4ab9a642d0e0c52ca589bfc6a6e164"
+    },
+    "model.bin": {
+      "size": 121644654,
+      "sha256": "4c05943b9c91597e52600e4dbd8ece8388ee804da97a782bd1ea91aef93e2104"
+    }
+  }
+}

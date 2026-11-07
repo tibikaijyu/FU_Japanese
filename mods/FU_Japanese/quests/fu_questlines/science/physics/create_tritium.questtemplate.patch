@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Tritium^reset; is actually quite useful, you can throw it in a centrifuge or use it for fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;三重水素^reset;は実際に非常に有用です、あなたは遠心分離機でそれを投げるか、燃料のためにそれを使用することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Tritium^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;トリチウム^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You can generate a lot of power with a ^orange;Fission Reactor^reset; in your lab. Show you can make one using your ^orange;Power Station^reset; and bring me some ^orange;Tritium^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ラボで^orange;フィッションリアクター^reset;を使って多くの発電ができます。 ^orange;Power ステーション ^reset;を使って作り、私にいくつかの^orange;三重水素 ^reset;を持って来てください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Three is a crowd"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "三つは群衆です"
+    }
+  ]
+]

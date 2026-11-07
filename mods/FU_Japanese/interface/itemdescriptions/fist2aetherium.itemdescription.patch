@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/comboFinisherTitleLabel/value",
+      "value": "Finisher:"
+    },
+    {
+      "op": "replace",
+      "path": "/comboFinisherTitleLabel/value",
+      "value": "最後に"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;Dmg +^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critBonusTitleLabel/value",
+      "value": "^yellow;威力 +^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;Crit %^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/critChanceTitleLabel/value",
+      "value": "^#ee1414;会心率 %^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "Damage :"
+    },
+    {
+      "op": "replace",
+      "path": "/damagePerShotTitleLabel/value",
+      "value": "被害"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;Tier ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/levelTitleLabel/value",
+      "value": "^yellow;ティア ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/priceLabel/value",
+      "value": "tree"
+    },
+    {
+      "op": "replace",
+      "path": "/priceLabel/value",
+      "value": "木"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shiftClickLabel/value",
+      "value": "^green;[Shift + Left Click]^reset; : Use Special"
+    },
+    {
+      "op": "replace",
+      "path": "/shiftClickLabel/value",
+      "value": "^green;[Shift + Left Click] ^reset; : 特別にご利用ください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speedTitleLabel/value",
+      "value": "Speed:"
+    },
+    {
+      "op": "replace",
+      "path": "/speedTitleLabel/value",
+      "value": "速度:"
+    }
+  ]
+]

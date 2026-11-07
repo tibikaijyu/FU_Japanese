@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A handy load-bearing pillar for labs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "実験室用の便利な荷重軸受柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボピラー"
+    }
+  ]
+]

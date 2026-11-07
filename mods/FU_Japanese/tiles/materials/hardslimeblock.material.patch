@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whole block of slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライム全体のブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssilme, sso sssticky."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "シルメ、とても粘り強い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amazed. This block is entirely slime."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "驚いた。 このブロックは完全にスライムです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Slimy lookin' blocks made outta hard sticky slime."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "スリミーなルックブロックは、固い粘り強いスライムを作りました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムブロック"
+    }
+  ]
+]

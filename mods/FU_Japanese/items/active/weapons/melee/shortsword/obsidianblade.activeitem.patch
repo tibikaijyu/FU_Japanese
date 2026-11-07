@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Volcanic glass is so lovely and sharp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山ガラスはとても素敵で鋭いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obsidian Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒曜石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Single Energy Weapon: Damage x^green;1.25^reset;\n^yellow;^reset; Dual Energy Weapons: +^green;30^reset;% Crit Damage\n^yellow;^reset; ^cyan;Immune^reset;: Gas, Pus, Slime, Liquid Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;単一エネルギー兵器:損傷x ^green;1.25^reset;\n^yellow;^reset;デュアルエネルギー兵器:+^green;30^reset;%クリティカルダメージ\n^yellow;^reset; ^cyan;免疫^reset;:ガス、バス、スライム、液体窒素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Neuromancer's Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニューロマンサーの墓"
+    }
+  ]
+]

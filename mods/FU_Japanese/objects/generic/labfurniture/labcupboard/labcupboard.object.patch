@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This cabinet is sleek and sturdy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このキャビネットは滑らかで頑丈です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "内閣"
+    }
+  ]
+]

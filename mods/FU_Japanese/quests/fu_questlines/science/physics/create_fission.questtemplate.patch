@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Great! As thanks: This ^green;contract^reset; will allow you to recruit a ^cyan;unique^reset; hired crewmember!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "すごい! ありがとう: この ^green;Contract ^reset; は、 ^cyan; ユニーク ^reset; 雇われた乗組員をリクルートすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Fission Reactor^reset; to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;核分裂反応器^reset; 科学者に ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You can generate a lot of power with a ^orange;Fission Reactor^reset; in your lab. Show you can make one using your ^orange;Power Station^reset; and you can have this ^green;crew contract^reset;. I don't have room for crew on my ship anyhow."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "ラボで^orange;フィッションリアクター^reset;を使って多くの発電ができます。 ^orange;Power ステーション ^reset;を使って作って、この ^green;クルー契約 ^reset; を持ってください。 とにかく船には乗組員の居場所がない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Quaid's Start"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クエイドスタート"
+    }
+  ]
+]

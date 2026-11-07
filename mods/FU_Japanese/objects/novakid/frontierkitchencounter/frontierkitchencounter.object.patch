@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "There's hardly anything here, let alone enough to make a meal..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ここにはほとんど何もないし、食事をするのも当然だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Frontier Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;フロンティアキッチンカウンター^reset;"
+    }
+  ]
+]

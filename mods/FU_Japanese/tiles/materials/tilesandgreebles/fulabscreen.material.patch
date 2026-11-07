@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A touch-screen interface."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タッチスクリーンインターフェイス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lab Screen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラボスクリーン"
+    }
+  ]
+]

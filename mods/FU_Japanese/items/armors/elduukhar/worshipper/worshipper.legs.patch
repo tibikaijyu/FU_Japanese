@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ahvis worshipper's garb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "崇拝者の服装。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Worshipper's Cloth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "着用者の衣服"
+    }
+  ]
+]

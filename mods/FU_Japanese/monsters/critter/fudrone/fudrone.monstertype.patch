@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Absolutely harmless, unless you don't want that video on the Ansible..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Ansibleで動画を観たくないなら、絶対に無害だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Micro Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロドローン"
+    }
+  ]
+]

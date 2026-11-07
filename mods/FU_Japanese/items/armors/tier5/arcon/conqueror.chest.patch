@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Electric/Plasma: +^green;1^reset;% Crit Chance, +^green;25^reset;% Crit Damage, Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Extreme Cold/Radiation, Poisoned, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;電気/プラズマ:+^green;1^reset;%クリティカル チャンス、+^green;25^reset;%クリティカル ダメージ、損傷 x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;極寒・放射線、毒・酸素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "ArCon Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アーコンの鎧"
+    }
+  ]
+]

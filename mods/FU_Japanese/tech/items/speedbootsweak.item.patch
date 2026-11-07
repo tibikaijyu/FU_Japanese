@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Injects performance-enhancing drugs directly into your body. Grants speed and dash. Passive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "体に直接パフォーマンス向上薬を注入します。 速度とダッシュを付与します。 パッシブ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Stimulant Rig I^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;刺激リグI^reset;"
+    }
+  ]
+]

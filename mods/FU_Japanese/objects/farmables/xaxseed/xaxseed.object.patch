@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mammal and Plant, together at last. Provides levitation and immunity to Grav Rain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "哺乳類と植物がついに一緒に。 Grav Rainに浮揚と免疫を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xax Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サックス種子"
+    }
+  ]
+]

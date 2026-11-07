@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Drab in color, but smells nice"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "色をまとって、香りがいい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gray Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "灰色の花"
+    }
+  ]
+]

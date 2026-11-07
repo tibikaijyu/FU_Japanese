@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A vastly superior upgrade to the Matter Manipulator."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マターマニピュレーターのアップグレードは格段に優れています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;Morphite Manipulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#b84cbc;モルヒットマニピュレータ^reset;"
+    }
+  ]
+]

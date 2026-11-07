@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Dangerous and deadly pants!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険で致命的なズボン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalker's Legs"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストーカーの足"
+    }
+  ]
+]

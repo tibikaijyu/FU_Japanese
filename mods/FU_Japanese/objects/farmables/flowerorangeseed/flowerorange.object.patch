@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fiery and lovely"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火と美しい"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orange Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オレンジの花"
+    }
+  ]
+]

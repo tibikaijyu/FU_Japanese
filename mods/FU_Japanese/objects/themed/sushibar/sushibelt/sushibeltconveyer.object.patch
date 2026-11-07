@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sushi on a conveyer belt! I guess you could call it a Sushi-Go-Round!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コンベアベルトで寿司! すしゴーラウンドと呼んでもかまいません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sushi Belt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "すしベルト"
+    }
+  ]
+]

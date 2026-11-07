@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "I could use some healing."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "癒しを利用できた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I need healing."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "癒しが必要だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's an ambulance! Make way!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "救急車です! 道を作れ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran needs healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フロランは癒しを必要としています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Insistent. I require healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "抵抗する。 癒しを!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "I need healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "癒しが必要だ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "I need healing!"
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "癒しが必要だ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I need healin'!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "癒して欲しい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ambulance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "救急車"
+    }
+  ]
+]

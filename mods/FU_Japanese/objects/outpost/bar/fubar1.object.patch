@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A friendly place to drink."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飲みやすい場所。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bar Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バーテーブル"
+    }
+  ]
+]

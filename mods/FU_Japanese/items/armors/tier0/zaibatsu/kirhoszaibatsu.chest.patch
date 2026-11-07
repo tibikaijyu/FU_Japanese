@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Formal wear suitable for corporate affairs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "企業業務に適したフォーマルウェア。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Zaibatsu Top"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "財鉢トップ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Razor-sharp shards of fun slow targets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かみそり - 楽しい遅いターゲットの鋭いシャード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Ice Shard Gun^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan; 氷シャードガン^reset;"
+    }
+  ]
+]

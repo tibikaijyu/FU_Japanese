@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Fall Damage x^green;0.75^reset;\n^yellow;^reset; ^cyan;Immune^reset;: All Radiation"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 損傷x ^green;0.75^reset;\n^yellow;^reset; ^cyan;免疫^reset;全ての放射線"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mutavisk Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ムタヴィスクの墓"
+    }
+  ]
+]

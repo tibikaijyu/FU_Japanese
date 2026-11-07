@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Slice em up with cosmic power."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の力でスライスします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Disc"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルディスク"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Derision be thy shield."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "死は盾です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aether Defender"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "エーテルディフェンダー"
+    }
+  ]
+]

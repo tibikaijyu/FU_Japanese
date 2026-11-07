@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "...mew. Telemetry data. Similar energy to...mew? What?!? And Kevin left notes, largely gibberish except one. \"SHE is here? No, it's not her, just a shell.\" Mew scared now."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "...うわっ。 テレメトリデータ。 同様にエネルギーを... ケビンはメモを残したが、ほとんどが一つを除いてはギブアップした。 「彼女はここにいるの? 違う、彼女じゃない、ただの殻」 今、怖くなった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "Use the ^orange;Dark Precursor Ruins Beacon^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/enterInstance",
+      "value": "^orange;闇の先駆者遺跡ビーコン^reset;を使う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "Find the signature"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/findGoal",
+      "value": "署名を検索します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "Return to ^orange;Khe^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/descriptions/turnIn",
+      "value": "戻ります。 ^orange;ケー^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You know da drill by now. No, not da erchius drill. Next stop, Precursor Ruins."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "今はドリルを知っていますね。 いいえ、エルキウスドリルではありません。 次の停留所は前駆的遺跡。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dark Machines"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ダークマシン"
+    }
+  ]
+]

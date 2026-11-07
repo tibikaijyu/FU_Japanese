@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;5^reset;% Crit Chance\n^yellow;^reset; Energy/Precursor: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Oxygen, Pressure"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;5^reset;% クリティカルチャンス\n^yellow;^reset;エネルギー/前兆:損傷x ^green;1.15^reset;\n^yellow;^reset; ^cyan;免疫^reset;酸素、圧力"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Chestplate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆体胸板"
+    }
+  ]
+]

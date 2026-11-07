@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the most dangerous known predatory fish families."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も危険な魚の家族の一つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Veilendrex"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴェイレンドレス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A machine that allows fermentation to create alcohol!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "発酵でアルコールが作れる機械!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Fermenter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;発酵槽^reset;"
+    }
+  ]
+]

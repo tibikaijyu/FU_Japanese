@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It shoots spores irresistible to local insects. Don't get stung."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地元の昆虫に強い胞子を撃ちます。 刺すなよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Buggle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "バグル"
+    }
+  ]
+]

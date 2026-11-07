@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shadowroot temporarily increases your crit bonus damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シャドウルート は、クリトリスボーナスのダメージを一時的に増加させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowroot Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウルート種子"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty decorative clock for hanging on the wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁に掛けるためのかなり装飾的な時計。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Wall Clock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル壁時計"
+    }
+  ]
+]

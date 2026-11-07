@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A whip made of sticky, poisonous slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粘りのある毒な粘液でできたホイップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison Slime Whip II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒スライムホイップII"
+    }
+  ]
+]

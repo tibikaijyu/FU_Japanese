@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reach into infinity and channel the power of a dying star.\n^cyan;Cosmic blasts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "無限に達し、死にかけている星の力を導く。\n^cyan;コスミックブラスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテショットガン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Specially constructed arrows damage all elements equally, but still work for hunting."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特別に構築された矢は全ての要素を均等に損傷するが、狩りには機能する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Brightsteel Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブリットスチールボウ"
+    }
+  ]
+]

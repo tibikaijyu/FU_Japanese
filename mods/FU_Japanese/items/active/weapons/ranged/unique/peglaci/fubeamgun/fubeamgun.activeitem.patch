@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A solid beam guaranteed to roast your foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの敵をローストすることが保証ソリッドビーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beam Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビームガン"
+    }
+  ]
+]

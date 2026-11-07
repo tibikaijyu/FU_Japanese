@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A flower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "花"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花"
+    }
+  ]
+]

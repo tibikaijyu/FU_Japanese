@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a delicious moist cake!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おいしいモイストケーキです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plain Cake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "平野ケーキ"
+    }
+  ]
+]

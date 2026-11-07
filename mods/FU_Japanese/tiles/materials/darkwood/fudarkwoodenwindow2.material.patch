@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Old wooden slats that don't let much light through."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あまり光を通さない古い木製のスラット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran can peak through large sslats of wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、大きな木のスラットを通してピークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. This wood filters light and acts as a barrier."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 この木材は光をろ過し、バリアとして機能します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can see right through the spaces in this wood, clear to the other side."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこの森の空間を、反対側にクリアに見ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Wooden Blinds"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒木盲"
+    }
+  ]
+]

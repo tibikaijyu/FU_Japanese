@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Primarily for investigating (or experimenting on) the deceased. Has other lab applications."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "主に死者の調査(または実験)のため。 その他の研究用途もあります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Autopsy Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "解剖台"
+    }
+  ]
+]

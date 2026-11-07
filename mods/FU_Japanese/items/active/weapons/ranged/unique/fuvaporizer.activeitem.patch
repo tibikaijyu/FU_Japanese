@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Bio-Disruptor"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "バイオ・ディスラプター"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Negative energy eradicates all solid matter.\n^yellow;Extreme fire speed^reset;\n^green;Paralyzing alt-Fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "負のエネルギーは全ての固体を根絶する。\n^yellow;極限の火の速度^reset;\n^green; 麻痺alt-炎^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Vaporizer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前駆気化器"
+    }
+  ]
+]

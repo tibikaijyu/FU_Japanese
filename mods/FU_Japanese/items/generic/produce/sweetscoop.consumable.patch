@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Energy x1.2^reset;: 2m \n^green;Type: Fruit^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;エネルギーx 1.2^reset;:2m \n^green;タイプ:フルーツ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sweetscoop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スイーツスープ"
+    }
+  ]
+]

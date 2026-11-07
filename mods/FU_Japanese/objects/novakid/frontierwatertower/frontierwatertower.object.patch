@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Emergency water storage at your fingertips! Stores up to 800 water. Scan for info."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "指先で緊急貯水! 800水まで保存します。 スキャン情報。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Tank iss high up!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "タンクは高いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Neutral. A wooden water tower."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ニュートラル 木製の給水塔。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wooden Water Tower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "木造給水塔"
+    }
+  ]
+]

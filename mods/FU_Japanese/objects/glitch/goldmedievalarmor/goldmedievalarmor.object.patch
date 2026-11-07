@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shiny golden armour stands resolute."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある黄金の装甲が固く立ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Display Armour"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黄金のディスプレイ装甲"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A disturbing painting of some kind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ある種の邪魔な絵。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Former Gallery Painting"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "旧画廊"
+    }
+  ]
+]

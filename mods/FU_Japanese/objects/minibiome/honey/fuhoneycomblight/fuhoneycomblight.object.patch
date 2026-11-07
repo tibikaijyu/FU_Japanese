@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The pod emits a natural yellow light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ポッドは、自然な黄色の光を放出します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honeycomb Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカムライト"
+    }
+  ]
+]

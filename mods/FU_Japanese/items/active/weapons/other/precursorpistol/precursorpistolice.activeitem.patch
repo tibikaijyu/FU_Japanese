@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Frickin' Freezing!\n^yellow;Freeze enemies with cold^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フリーズ!\n^yellow;コールドで敵を解放する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Freeze Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身冷凍銃"
+    }
+  ]
+]

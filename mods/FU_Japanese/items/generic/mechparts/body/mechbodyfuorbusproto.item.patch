@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Mild Heat/Radiation/Poison, Chill\n^cyan;+10%^reset; Armor, ^red;-10%^reset; Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 軽熱・放射線・毒・冷え症\n^cyan;+10%^reset;防具、^red;-10%^reset;燃料。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Orbus Prototype Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オルバス試作車体"
+    }
+  ]
+]

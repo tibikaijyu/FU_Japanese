@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Thanks to electromagnets I have devised a ^orange;Magnet Glove^reset;. With it I get extended cling time on any surface I grab!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "電磁石のおかげで、私は^orange;マグネットグローブ^reset;を考案しました。 それで、私は私がつかむ任意の表面で長い固着時間を得る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Thanks to electromagnets I have devised a ^orange;Magnet Glove^reset;. With it I get extended cling time on any surface I grab!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "電磁石のおかげで、私は^orange;マグネットグローブ^reset;を考案しました。 それで、私は私がつかむ任意の表面で長い固着時間を得る!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Magnet Glove"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "マグネットグローブ"
+    }
+  ]
+]

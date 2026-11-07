@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A wall demonstrating Skath plasma technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スカスプラズマ技術を示す壁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skath Energy Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スケートエネルギーの壁"
+    }
+  ]
+]

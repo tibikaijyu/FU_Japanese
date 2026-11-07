@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This plant is a literal powerhouse of energy and vitality."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この植物は、エネルギーと活力の文字通りのパワーハウスです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tyvokk seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チボック種"
+    }
+  ]
+]

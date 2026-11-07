@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tall pretty lamp with a purple light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "紫色のライト付きの背の高いかわいいランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Floor Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルフロアランプ"
+    }
+  ]
+]

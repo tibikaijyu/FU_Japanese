@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Absolutely illegal in 97 sectors. Awesome in all of them.\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;Extremely Caffeinated^gray;, ^red;-^white;30 ^red;Defense^gray;, ^red;Insanity^gray;, ^red;Poisoned ^gray;(^white;220s^gray;)^reset; ^blue;Madness Gain^reset; 3"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "97 セクターでは絶対に違法です。 それらすべてで素晴らしい。\n^cyan;+^white;30 ^cyan;EP^gray;, ^cyan;カフェインが激減^gray;, ^red;-^white;30 ^red;防衛^gray;, ^red;狂気^gray;, ^red;毒 ^gray;(^white;220ス)^gray;)^reset; ^blue;狂気の高まり^reset; 3"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bigraxian Hellpowder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビッグラキシア地獄粉"
+    }
+  ]
+]

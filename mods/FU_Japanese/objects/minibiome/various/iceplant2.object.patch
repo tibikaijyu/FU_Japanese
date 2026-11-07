@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Frost Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "フロストリーフ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Leaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストリーフ"
+    }
+  ]
+]

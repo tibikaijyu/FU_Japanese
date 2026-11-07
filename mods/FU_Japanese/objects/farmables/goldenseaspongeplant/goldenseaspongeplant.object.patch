@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gleams under light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光の下で輝きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Sea Sponge Seed "
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンシースポンジ種子 "
+    }
+  ]
+]

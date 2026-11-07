@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A brutal-looking zerchesium cleaver.\n^cyan;Causes long bleed^reset;\n^green;Counts as Hunting weapon^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "残酷な外観のケルチウムクリーバー。\n^cyan;長い出血の原因^reset;\n^green;狩りの武器としてのカウント^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kai Cleaver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カイ・クリーバー"
+    }
+  ]
+]

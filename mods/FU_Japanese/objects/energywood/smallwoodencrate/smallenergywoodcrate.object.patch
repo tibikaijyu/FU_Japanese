@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small energy wood crate."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなエネルギー木箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Small Energy Wood Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "小エネルギー木箱"
+    }
+  ]
+]

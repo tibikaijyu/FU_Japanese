@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cache of stored Research."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ストアド研究のキャッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unknown Matrix"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未知行列"
+    }
+  ]
+]

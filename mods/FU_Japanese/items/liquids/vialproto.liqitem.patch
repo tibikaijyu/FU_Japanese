@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of liquid protocite.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体プロトサイトの測定。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Liquid Protocite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "液体プロトサイト"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/children/0/bottomBar/1/caption",
+      "value": "Apply"
+    },
+    {
+      "op": "replace",
+      "path": "/children/0/bottomBar/1/caption",
+      "value": "応用"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/children/0/bottomBar/2/caption",
+      "value": "Cancel"
+    },
+    {
+      "op": "replace",
+      "path": "/children/0/bottomBar/2/caption",
+      "value": "キャンセル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Settings"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "設定"
+    }
+  ]
+]

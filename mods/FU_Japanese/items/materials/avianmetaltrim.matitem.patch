@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yellow metal trim using Avian technology."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "アヴィアン技術を使用した黄色の金属トリム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Yellow Metal Trim"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アビアンイエローメタルトリム"
+    }
+  ]
+]

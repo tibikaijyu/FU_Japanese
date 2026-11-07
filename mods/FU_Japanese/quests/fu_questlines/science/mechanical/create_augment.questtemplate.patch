@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Perhaps one day I might call on your talents to help me with a little problem I am having...I'll need to consider."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "たぶんいつか、あなたの才能を頼んで、私が抱えている小さな問題で私を助けることができるかもしれません...私は考慮する必要があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Acid Shield^reset; augment to the scientist at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;酸性シールド^reset; 科学者に付け加えて ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "You're probably starting to have some issues surviving by now in different biomes. So let's get you building ^green;augments^reset;! Show me an ^orange;Acid Shield^reset; augment made by your own two hands!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "おそらく今頃、いくつかの問題が発生し始めているでしょう。 それでは、^green;augments^reset; を構築しましょう! ^orange; 酸 盾 ^reset; 拡張子を両手で見せてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Augments"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "拡張"
+    }
+  ]
+]

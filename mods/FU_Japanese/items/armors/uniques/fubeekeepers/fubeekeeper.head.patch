@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now you're protected from bees and honey. Well, just ^green;beestings^reset; actually."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "今、あなたは蜂と蜂蜜から保護されています。 まあ、ちょうど^green;ビースト^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beekeeper's Hat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "養蜂用の帽子"
+    }
+  ]
+]

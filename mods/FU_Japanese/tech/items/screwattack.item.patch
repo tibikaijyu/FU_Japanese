@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perform a super-awesome screw attack jump!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超素晴らしいスクリューアタックジャンプを実行!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Screw Attack^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;スクリューアタック^reset;"
+    }
+  ]
+]

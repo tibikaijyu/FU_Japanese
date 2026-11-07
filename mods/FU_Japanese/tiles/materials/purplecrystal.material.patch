@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Light seems to twist inside the crystals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光は結晶の内側をひねるように見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty cryssstal."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "かなり結晶的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Admiration. A beautiful purple crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "賞賛。 美しい紫水晶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶ブロック"
+    }
+  ]
+]

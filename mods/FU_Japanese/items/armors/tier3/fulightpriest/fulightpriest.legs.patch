@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;0.4^reset;% Health Regen\n^yellow;^reset; Wand/Staff/Quarterstaff: Damage x^green;1.2^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;0.4^reset;% 健康レーゲン\n^yellow;^reset; ワンド/杖/棒術棍: ダメージ x ^green;1.2^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Light Priest Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ライトプリーストパンツ"
+    }
+  ]
+]

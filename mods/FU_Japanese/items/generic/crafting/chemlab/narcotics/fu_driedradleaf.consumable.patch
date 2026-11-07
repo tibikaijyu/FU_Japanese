@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Weight : 1g^reset;^red; Narcotic\n^white;Relaxes your mind, opening it to vistas of scientific possibility previously unconsidered.\n^blue;Madness Gain^reset; 3\n"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;重量:1g^reset;^red;Narcotic\n^white;あなたの心をリラックスさせ、これまで考えられなかった科学的可能性の視点でそれを開きます。\n^blue;狂気の高まり^reset; 3\n"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dried Radleaf"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "乾燥赤葉"
+    }
+  ]
+]

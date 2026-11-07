@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lightweight titanium shortsword."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "軽量チタン製のショートソード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Shortsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタン短剣"
+    }
+  ]
+]

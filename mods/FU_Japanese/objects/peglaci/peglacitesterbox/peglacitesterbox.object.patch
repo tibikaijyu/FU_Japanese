@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A box to test out Peglaci tiles and objects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ペグラシタイルとオブジェクトをテストするためのボックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  Test dem Thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+      "value": "  テストしよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  Peglaci Tester Box"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/windowtitle/title",
+      "value": "  ペグラシテスタボックス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Peglaci Box"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペグラシ箱"
+    }
+  ]
+]

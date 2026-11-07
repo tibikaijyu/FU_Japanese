@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Radiation Bubble"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "放射線バブル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly radioactive staff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性物質の高いスタッフ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nuclear Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "原子力スタッフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lab-built custom alloy. Tough but malleable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラボ製のカスタム合金。 タフだが可鍛性。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Morphite^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;モルヒット^reset;"
+    }
+  ]
+]

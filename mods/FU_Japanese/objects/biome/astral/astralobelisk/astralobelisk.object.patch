@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ancient obelisk of sorts, Aether is built into its design."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代のオベリスクであるエーテルは、その設計に組み込まれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Obelisk"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル・オベリスク"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Roasted malt!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "麦芽を焼いて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Malt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダークモルト"
+    }
+  ]
+]

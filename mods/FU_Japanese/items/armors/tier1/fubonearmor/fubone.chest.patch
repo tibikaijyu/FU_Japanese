@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Health x^green;1.05^reset;, Fall Damage x^green;0.85^reset;^reset;\n^yellow;^reset; Longsword or Axe: Damage x^green;1.15^reset;\n^yellow;^reset; ^cyan;Lush/Forest^reset;: Health x^green;1.05^reset;, Damage x^green;1.05^reset;, +^green;5^reset;% Phys. Resist^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; 健康 x ^green;1.05^reset; 、秋の被害 x ^green;0.85^reset;^reset; 。\n^yellow;^reset; ロングソードまたは軸:損傷x ^green;1.15^reset;\n^yellow;^reset; ^cyan;林水^reset;健康 x^green;1.05^reset;被害x^green;1.05^reset;, +^green;5^reset;% フィス。 レジスト ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨の胸部"
+    }
+  ]
+]

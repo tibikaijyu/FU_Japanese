@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I certainly hope you're a developer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたが開発者であることを願っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Secret dev tech"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シークレット開発技術"
+    }
+  ]
+]

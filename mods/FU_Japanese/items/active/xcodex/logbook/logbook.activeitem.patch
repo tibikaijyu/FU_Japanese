@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Use this to open your logbook."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これを使ってログブックを開きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Codex Logbook"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "文書の記録帳"
+    }
+  ]
+]

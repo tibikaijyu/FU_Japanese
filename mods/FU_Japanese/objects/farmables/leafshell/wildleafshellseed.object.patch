@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A leafy egg vegetable that provides a protection boost."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保護ブーストを提供する葉っぱの卵野菜。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Leafshell Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "葉殻種子"
+    }
+  ]
+]

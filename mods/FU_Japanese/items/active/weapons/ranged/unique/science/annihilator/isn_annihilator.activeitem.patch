@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Wave Burst"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "波のバースト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires unusual blasts that ignore physics.\n^yellow;Ignores walls^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "物理学を無視する異常な爆発を発射する。\n^yellow;壁を無視する^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wave Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "波銃"
+    }
+  ]
+]

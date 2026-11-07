@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Blocker Blast"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ブロッカーブラスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Shatteringly powerful homing missile swarm."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破壊力のあるホーミングミサイル群。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Rocketlauncher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロケット発射器"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatches into a tiny erchibud, a bouncing lunar creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなエルキブド、跳ねる月の生き物にハッチします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erchibud Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ニワトリ卵"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tropical mix that packs a punch."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パンチをパックするトロピカルミックス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Better than Floran expected! Floran expected sssea drink would taste of sssand."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランの予想よりも良い! フローランが期待するssシードリンクは、sssandの味。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Relaxed. I taste the essence of the sea in this drink."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "リラックス。 私はこの飲み物で海の本質を味わいます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can practically hear the waves a-lappin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "波の音が事実上聞こえてくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tropical Punch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トロピカルパンチ"
+    }
+  ]
+]

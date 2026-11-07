@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A silverish glow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀色の輝き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Royal Candles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバーロイヤルキャンドル"
+    }
+  ]
+]

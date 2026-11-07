@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toxifies the air, poisoning enemies."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空気を毒し、敵を毒する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Telebrium Bouncer"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "テレブリアム・バウンサー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Wand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・ワンド"
+    }
+  ]
+]

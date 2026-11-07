@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It pulls you up automatically! Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動で引き上げてくれます! ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hookshot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フックショット"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "It pulls you up automatically! Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "自動で引き上げてくれます! ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Hookshot MkII ^red;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "フックショット MkII ^red;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "It pulls you up automatically! ^green;Fully Upgraded^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "自動で引き上げてくれます! ^green; 完全にアップグレード ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Hookshot MkIII ^#e43774;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "フックショットMk.III ^#e43774;^reset;"
+    }
+  ]
+]

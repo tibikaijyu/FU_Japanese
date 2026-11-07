@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A X'ian weapon for close combat,"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "親密な戦闘のためのシアンの武器"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Dagger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの短剣"
+    }
+  ]
+]

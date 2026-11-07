@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A well-known medicinal plant."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有名な薬用植物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Heartroot Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "根菜種"
+    }
+  ]
+]

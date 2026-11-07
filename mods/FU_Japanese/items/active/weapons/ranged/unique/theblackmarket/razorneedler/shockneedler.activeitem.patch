@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Electric needles are worth sharing. Don't be shy.\n^yellow;Inflicts electrified status^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電気針は共有する価値があります。 恥ずかしがらないで。\n^yellow;電化状態に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Shock Needler^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ショックニードラー^reset;"
+    }
+  ]
+]

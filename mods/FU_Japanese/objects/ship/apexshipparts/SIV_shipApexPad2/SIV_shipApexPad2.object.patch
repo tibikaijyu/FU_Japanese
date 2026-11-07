@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An Armor Section for an Apex spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックス宇宙船の装甲部。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Armor Pad 2"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アペックスアーマーパッド 2"
+    }
+  ]
+]

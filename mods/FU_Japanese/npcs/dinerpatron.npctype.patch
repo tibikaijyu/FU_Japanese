@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "Don't worry, I'll take care of this"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "心配しないで、私はこれを世話します"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "What kind of monster is this!?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "これはどんな怪物なんですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "Hello adventurer, mind if I join you?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "こんにちは冒険家、私があなたに加わるかどうか気にしますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "You look strong. We're friends now."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "あなたは強いように見えます。 私たちは今友達です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "Now that was a fight!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "今度はそれが戦いでした!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "Phew, you handle yourself quite well."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "ふーん、君はかなりうまくやっていけるんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "You came back!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "戻ってきました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "I'll just wait here."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "ここで待ってます。"
+    }
+  ]
+]

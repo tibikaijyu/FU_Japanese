@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mechanical cash register. Ka-ching!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メカニカルレジスター。 カチン!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cash Register"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャッシュレジスター"
+    }
+  ]
+]

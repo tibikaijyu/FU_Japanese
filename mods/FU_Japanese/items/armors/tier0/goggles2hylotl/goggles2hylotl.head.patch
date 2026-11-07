@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raised goggles look friendlier, even if you have three eyes. +^green;5^reset;% Knockback Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "三つの目があっても、ゴーグルはより親しみやすく見えます。 +^green;5^reset;% ノックバック抵抗。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dr.Horrible Hylotl Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ドクター・ホリブルのハイロトル用ゴーグル"
+    }
+  ]
+]

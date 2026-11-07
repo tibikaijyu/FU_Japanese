@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large and dominating presence clings to this statue like film."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "映画のようなこの像にしがみついている、大きくて支配的な存在。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horrid Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐ろしい像"
+    }
+  ]
+]

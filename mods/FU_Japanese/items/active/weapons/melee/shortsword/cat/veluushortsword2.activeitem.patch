@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sword to be wielded telepathically."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "テレパシーで振り回される剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lava Telekinetic Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "溶岩遠動翼"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A battery made of some now unknown form of energy. Looks valuable."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知なるエネルギーから作られたバッテリー。 貴重に見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Anulax Battery"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヌラックス電池"
+    }
+  ]
+]

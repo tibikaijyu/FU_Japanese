@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Absolutely brutal, but slow firing.\n^cyan;High-incendiary rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "絶対に残酷だが、ゆっくりと発射する。\n^cyan;高焼却ラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vengeance"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ベンジェンス"
+    }
+  ]
+]

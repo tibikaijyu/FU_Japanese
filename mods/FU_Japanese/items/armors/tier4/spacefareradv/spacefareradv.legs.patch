@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Gravity Normalization^reset;\n^yellow;^reset; Mining Laser: Combat Damage x^green;2.4^reset;\n^yellow;^reset; +^cyan;50^reset;% Defense Tech Efficiency\n^yellow;^reset; ^cyan;Immune^reset;: Burning, Proto-Poison, Pressure, Gas, Ice Slip, Oxygen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;重力正規化^reset;\n^yellow;^reset; 採掘レーザー:戦闘被害x^green;2.4^reset;\n^yellow;^reset; +^cyan;50^reset;% 防衛技術効率\n^yellow;^reset; ^cyan;免疫^reset;:燃焼、原毒、圧力、ガス、アイススリップ、酸素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spacefarer mk2 Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スペースファーラーmk2 墓"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fantastic, conductive material ideal for circuitry."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "回路に最適な素晴らしい導電性材料です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hydrolium"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水素"
+    }
+  ]
+]

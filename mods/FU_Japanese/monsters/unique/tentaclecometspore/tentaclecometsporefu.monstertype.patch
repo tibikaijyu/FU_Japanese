@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its tentacles contain a poison that stops targets in their tracks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その触手は、彼らのトラック内のターゲットを停止する毒が含まれています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tentacool"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天太クール"
+    }
+  ]
+]

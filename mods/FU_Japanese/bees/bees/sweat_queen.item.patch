@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sweat Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スウェットクイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sweat Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スウェットクイーン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What the hell is this?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは一体何なの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lisperbush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Lisperブッシュ"
+    }
+  ]
+]

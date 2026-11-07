@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A X'ian staff, made from their own Bulbs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シアンのスタッフ、独自の球根から作られました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアン Quarterスタッフ"
+    }
+  ]
+]

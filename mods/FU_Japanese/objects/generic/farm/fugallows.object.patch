@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This doesn't look like a one-way trip to fun-ville."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは楽しみの村への一方通行の旅行のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gallows Pole"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガーローズポール"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "If you want to step up your game, try creating a ^orange;Item Transference Device^reset; and a ^orange;Storage Bridge^reset;, then link them to the ^green;Sifter^reset;! It can automatically move the items from machines (such as a ^orange;Sifter^reset;) to a storage container, or vice versa!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "さらに便利にするなら、^orange;アイテム転送装置^reset;と^orange;ストレージブリッジ^reset;を作って、^green;ふるい機^reset;につないでみよう！ ^orange;ふるい機^reset;などの機械から収納容器へ、またはその逆へ、自動でアイテムを運べるよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "A ^orange;Sifter^reset; requires power, but allows you to toss in ^orange;Sand^reset;, ^orange;Dirt^reset; and ^green;other loose materials^reset; and sift for hidden goodies. Very useful. Though the wood sifter is quite slow, one cannot complain about free resources. Try building a ^orange;Sifter^reset; now."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;ふるい機^reset;は電力を使い、^orange;砂^reset;や^orange;土^reset;、^green;その他の粒状の素材^reset;に隠れた資源を取り出してくれる。とても便利だ。木製はかなり遅いけど、おまけの資源が手に入るなら文句はないね。さっそく^orange;ふるい機^reset;を作ってみよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Sifters"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ふるい機"
+    }
+  ]
+]

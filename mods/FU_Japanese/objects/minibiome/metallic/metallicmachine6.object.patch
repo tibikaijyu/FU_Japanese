@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This looks like an ancient fusion conduit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは古代の融合管のように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fusion Conduit"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "核融合導管"
+    }
+  ]
+]

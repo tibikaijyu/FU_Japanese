@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Shadow Hound"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "シャドウハウンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hates ponex as much as any smart creature should."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スマートな生き物と同じくらいポネックスを嫌う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Hound"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウハウンド"
+    }
+  ]
+]

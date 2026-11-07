@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A refreshing can of soda."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爽やかなソーダの缶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Cold, fizzy sssoda."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "冷たく、フィジーなサソダ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Thoughtful. Do I have to be worried about drinking this if I don't possess teeth?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "思慮深い。 歯を持っていなければ、これを飲まないと心配しなくちゃいけませんか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A nice fizzy can of soda-pop."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ソーダポップの素敵なフィジー缶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Soda"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソーダ"
+    }
+  ]
+]

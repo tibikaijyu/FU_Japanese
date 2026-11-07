@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;+2% Energy Regen, Immune: Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;+2% 免疫エネルギー:燃焼^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pioneer Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイオニアシールド"
+    }
+  ]
+]

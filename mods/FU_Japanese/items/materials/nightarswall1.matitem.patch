@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nightar plain concrete."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夜は平らなコンクリート。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran disslikess cold hard concrete."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは冷たい硬いコンクリートを嫌う。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informed. This specially designed concrete is quick drying."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "と知らせた。 この特別に設計されたコンクリートは素早い乾燥です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This concrete looks mighty tough."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このコンクリートは強固に見える。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Concrete"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールコンクリート"
+    }
+  ]
+]

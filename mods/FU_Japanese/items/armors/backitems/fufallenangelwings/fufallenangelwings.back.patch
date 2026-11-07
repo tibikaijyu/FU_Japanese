@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Black, like your soul. +25% Shadow Resist, +15 Health/Energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黒、あなたの魂のように。 +25%影抵抗、+15健康/エネルギー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fallen Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "秋の翼"
+    }
+  ]
+]

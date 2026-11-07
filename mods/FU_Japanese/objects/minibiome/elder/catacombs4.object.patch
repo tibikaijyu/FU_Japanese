@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tiny, almost microscopic glyphs tell an ancient story I cannot read."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな、ほとんど顕微鏡グリフは、私が読むことができない古代の物語を伝えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Catacombs Tomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタコンベ古墳"
+    }
+  ]
+]

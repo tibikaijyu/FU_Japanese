@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Shortspear Mastery: +^green;15^reset;%\n^yellow;^reset; +^green;15^reset;% Knockback Resist\n^yellow;^reset; Defense x^green;1.15^reset;\n^yellow;^reset; All Spears: Damage x^green;1.15^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ショートスピアマスター:+^green;15^reset;%\n^yellow;^reset; +^green;15^reset;% ノックバック抵抗\n^yellow;^reset;防御x ^green;1.15^reset;\n^yellow;^reset; すべてのスピア:損傷x ^green;1.15^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stalwart Leggings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタルワート・レッグス"
+    }
+  ]
+]

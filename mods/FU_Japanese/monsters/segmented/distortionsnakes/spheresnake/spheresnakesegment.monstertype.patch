@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A snake-like construct composed of distrotion spheres"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "破壊球体からなるヘビ状の構造体"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A segment of a distortion sphere snake"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "歪球ヘビの一節"
+    }
+  ]
+]

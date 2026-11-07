@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Using some fancy ancient tech a ^orange;Quint Jump^reset; schematic was revealed to me. I should ^orange;be able to jump 5 times^reset; rather than once or twice!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "高度な古代技術を使うと、^orange;五段ジャンプ^reset;の設計図が姿を現した。一度や二度だけでなく、^orange;5回ジャンプできる^reset;はずだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Using some fancy ancient tech a ^orange;Quint Jump^reset; schematic was revealed to me. I should ^orange;be able to jump 5 times^reset; rather than once or twice!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "高度な古代技術を使うと、^orange;五段ジャンプ^reset;の設計図が姿を現した。一度や二度だけでなく、^orange;5回ジャンプできる^reset;はずだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Quint Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "クイントジャンプ"
+    }
+  ]
+]

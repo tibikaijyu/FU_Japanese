@@ -1,0 +1,337 @@
+{
+  "passed": true,
+  "assertions": 3843,
+  "release": "0.2.2",
+  "game_runtime_tested": false,
+  "modified_release_files": 0,
+  "species_patch_files": 134,
+  "guarded_species_replacements": 528,
+  "species_replacement_paths": {
+    "/charCreationTooltip/description": 262,
+    "/charCreationTooltip/title": 21,
+    "/charGenTextLabels/0": 24,
+    "/charGenTextLabels/4": 23,
+    "/charGenTextLabels/5": 24,
+    "/charGenTextLabels/8": 23,
+    "/charGenTextLabels/9": 24,
+    "/charGenTextLabels/1": 23,
+    "/charGenTextLabels/2": 23,
+    "/charGenTextLabels/3": 23,
+    "/charGenTextLabels/6": 20,
+    "/charGenTextLabels/7": 23,
+    "/charCreationTooltip/subTitle": 9,
+    "/charGenTextLabels/10": 3,
+    "/charGenTextLabels/11": 3
+  },
+  "full_species_cases": [
+    {
+      "asset": "species/cat.species",
+      "input_line_endings": "LF",
+      "changed_fields": 7,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/cat.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 7,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/elduukhar.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/elduukhar.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuanodyne.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuanodyne.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fudarkizku.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fudarkizku.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuizku.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuizku.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fukirhos.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fukirhos.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fumantis.species",
+      "input_line_endings": "LF",
+      "changed_fields": 13,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fumantis.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 13,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fumantizi.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fumantizi.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fupeglaci.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fupeglaci.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuphotonpoptop.species",
+      "input_line_endings": "LF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuphotonpoptop.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuslimeperson.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/fuslimeperson.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/juux.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/juux.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/nightar.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/nightar.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/precursor.species",
+      "input_line_endings": "LF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/precursor.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/radien.species",
+      "input_line_endings": "LF",
+      "changed_fields": 10,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/radien.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 10,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/skath.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/skath.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimenpc.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimenpc.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimenpchuman.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimenpchuman.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimeperson.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/slimeperson.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/spiderdroid.species",
+      "input_line_endings": "LF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/spiderdroid.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 14,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/thelusian.species",
+      "input_line_endings": "LF",
+      "changed_fields": 13,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/thelusian.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 13,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/veluu.species",
+      "input_line_endings": "LF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    },
+    {
+      "asset": "species/veluu.species",
+      "input_line_endings": "CRLF",
+      "changed_fields": 12,
+      "all_other_data_unchanged": true
+    }
+  ],
+  "character_creation": {
+    "asset": "interface/windowconfig/charcreation.config",
+    "sha256": "dd968ff9aecd87d597a7b583546d4c37e1d1b0399d7993dcdbbe74fb0db39b3f",
+    "replace_operations": 21,
+    "add_operations": 2,
+    "changed_text_fields_on_pinned_FU": 20,
+    "added_visual_widgets_on_pinned_FU": 2,
+    "control_data_unchanged": true,
+    "overlay_unchanged_since_021": true,
+    "labelGender_missing_in_official_FU_layout": true,
+    "gender_labels_in_official_FU_layout": [
+      "labelMale",
+      "labelFemale"
+    ],
+    "name_field_input_regex": "[a-zA-Z0-9 '-]{0,16}",
+    "name_input_regex_limits": "The pinned FU field accepts ASCII letters, digits, spaces, apostrophes, and hyphens. It is not established whether native random-name assignment uses this validation."
+  },
+  "species_helper_imports": [
+    {
+      "asset": "interface/scripted/statWindow/statWindow.lua",
+      "line": 3,
+      "text": "require \"/fujp/species_display.lua\""
+    }
+  ],
+  "species_helper_marker_in_user_log": false,
+  "relevant_log_lines": [
+    "[20:49:56.770] [Info] Root: Loaded NameGenerator in 0.128273 seconds",
+    "[20:50:08.555] [Info] Root: Loaded SpeciesDatabase in 0.204996 seconds",
+    "[20:50:46.713] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\\mods\\japanese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply(\"/paneLayout/labelGender/value\")",
+    "[20:54:07.151] [Info] UniverseServer: Acquiring universe lock file"
+  ],
+  "unavailable_inputs": [
+    "user-installed readable_ui contents (reference distribution inspected separately)",
+    "Extended GUI contents.pak",
+    "user-installed japanese.pak contents",
+    "user-installed FU_Japanese folder"
+  ],
+  "conclusions": [
+    "The shipped species patches do not modify species IDs, nameGen references, genders, effects, or numeric controls.",
+    "Character creation replacements affect text fields; the two input-transparent visual overlays predate 0.2.2.",
+    "The logged labelGender patch failure names japanese.pak. The pinned FU layout has labelMale/labelFemale and lacks labelGender without any Extended GUI changes.",
+    "The new species helper is imported by the in-game stat window only, not by native character creation or selection.",
+    "No freeze-causing defect was established within the audited species/UI changes. Name-generator safety is audited separately.",
+    "Public Extended GUI descriptions confirm crafting-UI compatibility issues but do not establish this character creation/selection freeze."
+  ]
+}

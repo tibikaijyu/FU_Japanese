@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Legendary death-dealer.\n^cyan;Eradicating Alt-Fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説的な死のディーラー。\n^cyan;副射撃 を消火する ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Scythe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテロームサイス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Venomous be thy tongue."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "毒は舌です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Starslasher"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテロームスタースラッシャー"
+    }
+  ]
+]

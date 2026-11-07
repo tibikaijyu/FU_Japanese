@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A testament to the unusual craftsmanship of the Ancients."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代の珍しい職人技の証。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ancient Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "古代レイピア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A device for pulverizing rocky material into useful items. ^cyan;Requires ^orange;30W ^cyan;power.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "岩石材を有用なアイテムに粉砕する装置。 ^cyan; は ^orange;30W^cyan; 電源を必要とします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Rock Crusher^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;ロッククラッシャー^reset;"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Adult Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "大人のポップトップ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This one has...babies with knives? How the..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイフ付きの赤ちゃんがいる? なんて..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mother Poptop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マザーポップトップ"
+    }
+  ]
+]

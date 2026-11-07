@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blade of a bee queen."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチの女王の刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Queen Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クイーン・ブレード"
+    }
+  ]
+]

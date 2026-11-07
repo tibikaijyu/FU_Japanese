@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Use this to light up your path."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "パスをライトアップするためにこれを使用してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Oonforta Globule"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オンフォルタ・グローブル"
+    }
+  ]
+]

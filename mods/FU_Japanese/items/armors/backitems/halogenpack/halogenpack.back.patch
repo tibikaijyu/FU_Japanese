@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A backpack with an attached halogen light. It's very bright!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "付属のハロゲンライト付きのバックパック。 とても明るいです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Halogen Pack"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハロゲンパック"
+    }
+  ]
+]

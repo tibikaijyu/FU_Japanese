@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cheery and uplifting"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "桜と隆起"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Fountain"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュ噴水"
+    }
+  ]
+]

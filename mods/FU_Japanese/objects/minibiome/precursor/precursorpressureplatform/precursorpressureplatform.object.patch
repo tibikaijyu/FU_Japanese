@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hovering pressure platform."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホバリングプレッシャープラットフォーム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Pressure Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プレカーサプレッシャープラットフォーム"
+    }
+  ]
+]

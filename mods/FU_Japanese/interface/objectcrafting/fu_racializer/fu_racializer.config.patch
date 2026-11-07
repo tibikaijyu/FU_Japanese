@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/btnConvert/caption",
+      "value": "Convert"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/btnConvert/caption",
+      "value": "変換"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/cbUseAll/caption",
+      "value": "Use All"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/cbUseAll/caption",
+      "value": "すべて使用する"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblCost/value",
+      "value": "Cost:   x0"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblCost/value",
+      "value": "コスト:x0"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/preview_lbl2/value",
+      "value": "Output: --"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/preview_lbl2/value",
+      "value": "出力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/races1Label/value",
+      "value": "Supported Races  |  Input: --"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/races1Label/value",
+      "value": "人種サポート|入力:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/scr_raceList/children/raceList/schema/listTemplate/title/value",
+      "value": "New Member"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/scr_raceList/children/raceList/schema/listTemplate/title/value",
+      "value": "新しいメンバー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Few things stitch up wounds faster than this sweet baby."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このかわいい赤ちゃんほど早く傷を縫うものは少ない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Medical Bay^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;メディカルベイ^reset;"
+    }
+  ]
+]

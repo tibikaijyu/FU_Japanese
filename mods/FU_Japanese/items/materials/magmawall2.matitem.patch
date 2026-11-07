@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Burning hot magma stone. Don't touch!\n^green;Extractable^reset;, ^orange;Crushable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "熱いマグマ石を燃やす。 触らないで!\n^green;抽出可能 ^reset;, ^orange;粉砕可能 ^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burning Volcanic Rock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "焼成火山岩"
+    }
+  ]
+]

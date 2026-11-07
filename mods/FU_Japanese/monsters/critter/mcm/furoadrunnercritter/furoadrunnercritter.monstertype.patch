@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small fast-running bird that feeds on insects and fruit."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "昆虫や果実を餌とする、高速で走る小さな鳥。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Roadrunner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロードランナー"
+    }
+  ]
+]

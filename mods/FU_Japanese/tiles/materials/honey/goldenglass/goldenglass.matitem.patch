@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I can see my reflection... it's hideous!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "反射が見える... ひどい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran look pretty in glasssss."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはガラスできれいに見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Glass."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 ガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Glass Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴールデンガラスブロック"
+    }
+  ]
+]

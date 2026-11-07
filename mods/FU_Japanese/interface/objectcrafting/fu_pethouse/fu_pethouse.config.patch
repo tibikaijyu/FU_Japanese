@@ -1,0 +1,194 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/addObjectPetToList/caption",
+      "value": "Add Pet To List"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/addObjectPetToList/caption",
+      "value": "リストにペットを追加します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/capturePet/caption",
+      "value": "Capture With Pod"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/capturePet/caption",
+      "value": "ポッドでキャプチャ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/changeObjectPet/caption",
+      "value": "Change Object Pet"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/changeObjectPet/caption",
+      "value": "ObjectPet を変更します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/foodLikingsLabel/value",
+      "value": "Food Likings:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/foodLikingsLabel/value",
+      "value": "食べ物好き"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/interactionTypeLabel/value",
+      "value": "Interaction Type:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/interactionTypeLabel/value",
+      "value": "インタラクションタイプ:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/petName/hint",
+      "value": "Name"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/petName/hint",
+      "value": "名前"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/randomiseSeed/caption",
+      "value": "Randomise Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/randomiseSeed/caption",
+      "value": "種子のランダム化"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/title/subtitle",
+      "value": "Configure your ship pet"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/title/subtitle",
+      "value": "船のペットを構成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/title/title",
+      "value": "Pet Configuration"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/title/title",
+      "value": "ペットのコンフィギュレーション"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactionTypes/0/name",
+      "value": "Always"
+    },
+    {
+      "op": "replace",
+      "path": "/interactionTypes/0/name",
+      "value": "いつも"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactionTypes/1/name",
+      "value": "Timer"
+    },
+    {
+      "op": "replace",
+      "path": "/interactionTypes/1/name",
+      "value": "タイマー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactionTypes/2/name",
+      "value": "Never"
+    },
+    {
+      "op": "replace",
+      "path": "/interactionTypes/2/name",
+      "value": "決して"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/popupMessages/captureFail",
+      "value": "Incompatible mod detected. Any mods that modify groundPet.lua can cause issues with catching ship pets."
+    },
+    {
+      "op": "replace",
+      "path": "/popupMessages/captureFail",
+      "value": "不適合な mod を検出しました。 groundPet.lua を変更する任意の mods は、船のペットを捕まえることに問題を引き起こす可能性があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/popupMessages/invalidTechstation",
+      "value": "This SAIL is missing the necessary script changes. This either means that it uses a custom script, another mod is overwriting the techstation script or you have Purchasable Pets installed."
+    },
+    {
+      "op": "replace",
+      "path": "/popupMessages/invalidTechstation",
+      "value": "この SAIL は、必要なスクリプトの変更を欠いている。 これは、カスタムスクリプトを使用するか、別のmodがtechstationスクリプトを上書きするか、Purchasable Petsがインストールされていることを意味します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/popupMessages/noPod",
+      "value": "This requires an empty capture pod in your inventory."
+    },
+    {
+      "op": "replace",
+      "path": "/popupMessages/noPod",
+      "value": "インベントリに空のキャプチャポッドが必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/popupMessages/petMissing",
+      "value": "Can't find ship pet."
+    },
+    {
+      "op": "replace",
+      "path": "/popupMessages/petMissing",
+      "value": "船のペットが見つからない。"
+    }
+  ]
+]

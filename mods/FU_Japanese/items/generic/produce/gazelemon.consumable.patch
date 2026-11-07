@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Headlamp 2^reset;: 2m\n^yellow;^reset;^cyan;Immune^reset;: Poisoned: 90s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;ヘッドランプ2^reset;:2m\n^yellow;^reset;^cyan;免疫^reset;毒 90ス)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gaze Lemon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "視線レモン"
+    }
+  ]
+]

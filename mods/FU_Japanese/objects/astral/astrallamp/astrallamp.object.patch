@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A stellar lamp, uses interdimensional mojo to make light, complicated stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "星型ランプは、光や複雑なものを作るために、多次元モホを使います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Wall Light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壁灯"
+    }
+  ]
+]

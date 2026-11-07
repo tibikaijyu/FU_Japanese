@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A skathmade sword made out of titanium and durasteel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "チタンとデュラスチールで作られたスケース製の剣。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Skath Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化スケースブレード"
+    }
+  ]
+]

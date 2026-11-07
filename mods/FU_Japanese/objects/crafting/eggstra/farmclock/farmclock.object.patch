@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tick, tock, tick, tock."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ティック、トック、ティック、トック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wall Clock"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "壁時計"
+    }
+  ]
+]

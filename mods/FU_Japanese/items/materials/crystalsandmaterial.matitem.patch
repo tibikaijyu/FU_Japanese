@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shiny crystalline sand. Painful to walk on, but pretty.\n^green;Extractable^reset;, ^orange;Siftable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光沢のある結晶性の砂。 歩き続けるのは苦痛ですが、きれいです。\n^green;抽出可能な^reset;、^orange;ふるい分け可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "水晶砂"
+    }
+  ]
+]

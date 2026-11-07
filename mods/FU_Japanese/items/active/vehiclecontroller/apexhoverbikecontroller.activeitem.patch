@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stores a sleek transport vehicle designed by Apex scientists."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイペックスの科学者が設計した洗練された輸送車両を保管します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Hoverbike"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "頂点ホバーバイク"
+    }
+  ]
+]

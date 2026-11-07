@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A salad of wartweed, tomato, and pearlpeas. ^green;Type: Vegetables^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ワカメ、トマト、パールエンドウのサラダ。 ^green;タイプ:野菜^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wartweed Salad"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イネ科のサラダ"
+    }
+  ]
+]

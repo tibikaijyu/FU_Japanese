@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fresh from your body, ready to slaughter."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの体から新鮮で、虐殺する準備ができています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Broadsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンの大剣"
+    }
+  ]
+]

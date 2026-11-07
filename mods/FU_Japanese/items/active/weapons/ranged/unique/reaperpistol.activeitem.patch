@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Frosty dark matter to help your foes die a bit faster.\n^yellow;Extremely fast, accurate rounds^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの敵を少し速く死ぬのを助けるための凍った暗い物質。\n^yellow; 非常に速く正確なラウンド^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tk-4 Euclid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Tk-4ユークリッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The product of horrific experimentation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "恐ろしい実験の産物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Apex Brain Mutant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Apex の脳変異"
+    }
+  ]
+]

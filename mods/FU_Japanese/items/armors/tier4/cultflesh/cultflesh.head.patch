@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Scythe/Bio-Weapon: +^green;3^reset;% Crit Chance\n^yellow;^reset; ^cyan;Immune^reset;: Insanity"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;セットボーナス^reset;：\n^yellow;^reset; 大鎌／生体武器：クリティカル率+^green;3^reset;%\n^yellow;^reset; ^cyan;無効化^reset;：発狂"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュヘルメット"
+    }
+  ]
+]

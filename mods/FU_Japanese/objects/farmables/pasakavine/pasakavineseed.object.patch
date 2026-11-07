@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This vine gives off a useful miasma that cancels out radiation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このブドウは、放射線をキャンセルする有用な失語を放つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pasaka Vine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パサカワイン"
+    }
+  ]
+]

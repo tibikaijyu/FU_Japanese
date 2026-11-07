@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy, yet flexible glass."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "丈夫で柔軟なガラス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reinforced Glass Frame"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "強化ガラスフレーム"
+    }
+  ]
+]

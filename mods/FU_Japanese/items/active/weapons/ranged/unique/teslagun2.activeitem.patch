@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Wrath of Thor"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "トールの怒り"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A heavily modified Tesla gun.\n^yellow;Tricky, but dangerous.^reset;\n^cyan;Decimating Alt Fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "改良されたTesla製の銃。\n^yellow;トリッキー、しかし危険。^reset;\n^cyan;Alt 火災を消火する ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Mercy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;マーシー^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for all your automated door needs! Loves people, but not too keen on you."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ドアのニーズに最適です! 人は好きだが、あまり熱心ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proximity NPC Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "近接NPCスキャナ"
+    }
+  ]
+]

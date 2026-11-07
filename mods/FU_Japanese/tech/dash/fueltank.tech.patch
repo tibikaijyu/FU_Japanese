@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "I like fuel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私は燃料が好きだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "燃料"
+    }
+  ]
+]

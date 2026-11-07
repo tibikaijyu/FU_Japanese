@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset; to most tile effects.\n\n^orange;Set Bonuses^reset; (^orange;Part 3^reset;):\n^yellow;^reset; ^cyan;Immune^reset;: All Radiation, Extreme Heat/Cold, Poisoned, Oxygen, Pressure, Gas"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset;ほとんどのタイル効果に。\n\n^orange; ボーナス^reset;(^orange;Part3^reset;) を設定します。\n^yellow;^reset; ^cyan;免疫^reset;:すべての放射線、極限の熱/冷、毒、酸素、圧力、ガス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium EVA Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムEVAグリーブ"
+    }
+  ]
+]

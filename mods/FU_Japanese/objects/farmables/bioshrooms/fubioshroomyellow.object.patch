@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides colored light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "色のついた光を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glowing Yellow Mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "きらめく黄色のきのこ"
+    }
+  ]
+]

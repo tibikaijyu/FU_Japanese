@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "From some place... other. Can freeze targets in place."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "どこかから... 他。 ターゲットを所定の位置に凍結できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plane Shifter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "平面シフター"
+    }
+  ]
+]

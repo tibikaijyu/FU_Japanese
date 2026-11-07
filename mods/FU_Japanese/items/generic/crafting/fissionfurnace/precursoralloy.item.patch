@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You've no idea what metals this is made from."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属が何からできているか全く分かりません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Alloy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先駆者合金"
+    }
+  ]
+]

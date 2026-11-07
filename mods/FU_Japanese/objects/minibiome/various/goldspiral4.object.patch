@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Goldribbon"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金リボン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Goldribbon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金リボン"
+    }
+  ]
+]

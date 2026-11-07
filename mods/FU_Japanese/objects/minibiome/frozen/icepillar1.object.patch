@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pretty pillar of ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きれいな氷の柱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ice Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイスピラー"
+    }
+  ]
+]

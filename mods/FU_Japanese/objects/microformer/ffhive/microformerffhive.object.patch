@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a hive."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を巣箱に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hive Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロフォーマ"
+    }
+  ]
+]

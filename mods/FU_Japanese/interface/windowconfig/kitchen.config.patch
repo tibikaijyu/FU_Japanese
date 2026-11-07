@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "Prepare"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/btnCraft/caption",
+      "value": "準備"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/filter/hint",
+      "value": "Search"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/filter/hint",
+      "value": "検索"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "INGREDIENTS AVAILABLE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProduct/value",
+      "value": "使用可能な材料"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "DISH"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblProducttitle/value",
+      "value": "料理"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "RECIPE"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/lblSchematics/value",
+      "value": "レシピ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "Replace Me"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value",
+      "value": "私を置き換える"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value",
+      "value": "Lvl. 100"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value",
+      "value": "レベル100"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  For making something tasty."
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/subtitle",
+      "value": "  何かおいしいものを作るため。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  KITCHEN COUNTER"
+    },
+    {
+      "op": "replace",
+      "path": "/paneLayout/windowtitle/title",
+      "value": "  調理台"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tooltip/itemList/schema/listTemplate/itemName/value",
+      "value": "Golden Moustache"
+    },
+    {
+      "op": "replace",
+      "path": "/tooltip/itemList/schema/listTemplate/itemName/value",
+      "value": "金の口ひげ"
+    }
+  ]
+]

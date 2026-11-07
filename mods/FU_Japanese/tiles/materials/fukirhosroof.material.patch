@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleek and durable roof."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかで耐久性のある屋根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A mighty fancy roof tile."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "強力な派手な屋根瓦。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Shingle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金片"
+    }
+  ]
+]

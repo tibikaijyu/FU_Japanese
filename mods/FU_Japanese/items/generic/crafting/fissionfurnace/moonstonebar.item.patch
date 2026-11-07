@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Forged Telebrium, commonly found on moons."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "一般的に月で見られる鍛造テレブリウム。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリウムインゴット"
+    }
+  ]
+]

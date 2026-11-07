@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Jam made from solusberry. But is it so dangerous? Only one way to find out!\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;325s^gray;)\n^red;Electrified ^gray;(^white;5s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ソルスベリーから作られたジャム。 しかし、それはとても危険ですか? 発見する方法は一つだけです!\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;325ス)^gray;)\n^red; 電化 ^gray;(^white;5s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solus Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラスジャム"
+    }
+  ]
+]

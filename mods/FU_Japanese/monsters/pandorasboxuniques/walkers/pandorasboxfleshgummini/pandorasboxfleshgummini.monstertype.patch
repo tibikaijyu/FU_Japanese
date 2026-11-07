@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Even the smallest Flesh Gummi chunks can become Flesh Gumminis."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最小のフレッシュ・グミ・チャンクでもフレッシュ・グミニスになることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flesh Gummini"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュガンミニ"
+    }
+  ]
+]

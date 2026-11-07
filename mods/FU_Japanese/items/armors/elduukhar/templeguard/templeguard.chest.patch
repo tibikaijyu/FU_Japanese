@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sleeveless shirt woven from crystal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クリスタルで織り上げたノースリーブのシャツ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Temple Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "寺シャツ"
+    }
+  ]
+]

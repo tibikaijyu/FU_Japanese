@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Siphons and warps the atmosphere into usable reagents. ^cyan;Requires ^orange;42J^cyan; every 8.7 seconds. ^red;Slower production  when stacked^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイフォンとワープ雰囲気を使用できる試薬。 ^cyan; は ^orange;42J^cyan; すべての 8.7 秒を必要とします。 ^red;積み重ねると生産が遅くなります。^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Entropic Converter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エントロピー変換器"
+    }
+  ]
+]

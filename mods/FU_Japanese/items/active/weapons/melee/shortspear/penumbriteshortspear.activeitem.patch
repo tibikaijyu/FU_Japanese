@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stab from the shadows...with shadow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "影を刺して...影で"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Penumbral Shortspear"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ペヌブラル短短短距離"
+    }
+  ]
+]

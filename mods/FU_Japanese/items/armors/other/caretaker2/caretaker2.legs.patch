@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some widely draped caretaker's trousers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "世話人のズボンを広く着こなす者もいた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Caretaker Trousers"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "介護用ズボン"
+    }
+  ]
+]

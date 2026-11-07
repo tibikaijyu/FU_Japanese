@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Fire Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "防火壁"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that resists the Fire element, ^green;+25% Fire Resist, Burn Immunity^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "炎属性を防ぐEPPモジュール。^green;炎耐性+25%、炎上無効化^reset;を付与する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fire Barrier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "防火壁"
+    }
+  ]
+]

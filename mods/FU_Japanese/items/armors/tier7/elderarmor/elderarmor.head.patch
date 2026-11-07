@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^cyan;Dark Commander^reset;: 30%\n^yellow;^reset; ^cyan;Darkness Regen^reset;\n^yellow;^reset; Elder Weapons: Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Insanity, Shadow Taint, Pus, Acid, Liq. Nitrogen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^cyan;ダーク・コマンダー^reset;: 30%\n^yellow;^reset; ^cyan;ダークネス・レーゲン^reset;\n^yellow;^reset;高齢者武器:損傷x ^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;:狂気、影の色合い、膿、酸、リク。 窒素"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エルダーヘルメット"
+    }
+  ]
+]

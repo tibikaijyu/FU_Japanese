@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The walls are strange, like a melding of flesh and stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "壁は、肉と石の融合のように、奇妙です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Living Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "石"
+    }
+  ]
+]

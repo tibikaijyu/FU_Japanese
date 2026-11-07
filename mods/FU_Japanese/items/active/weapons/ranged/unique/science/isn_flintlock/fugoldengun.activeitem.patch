@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You feel bonded to this weapon\n^yellow;+600% Sexual Charisma^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この武器に縛られていると感じます\n^yellow;+600%性的カリスマ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffdb31;Scaramanga^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffdb31;スカラマンガ^reset;"
+    }
+  ]
+]

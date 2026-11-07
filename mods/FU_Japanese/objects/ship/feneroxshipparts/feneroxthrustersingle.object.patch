@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thruster of Kirhosi design, gifted to the uplifted Fenerox."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キルホシ設計のスラスターは、高揚したフェネルックスに贈られました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fenerox Thruster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フェナロックススラスター"
+    }
+  ]
+]

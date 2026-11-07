@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute sink, for a bathroom."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "浴室用のかわいいシンク。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Bath Sink"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいい浴槽"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cuckoo Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カッコウの女王"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Cuckoo Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若きカッコウクイーン"
+    }
+  ]
+]

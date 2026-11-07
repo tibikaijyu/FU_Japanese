@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Excellent! You'll need a lot of plastic, so keep well stocked."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "素晴らしい! プラスチックはたくさん必要なので、在庫は十分に保て。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;Advanced Plastic^reset; to the scientist at the ^green;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;先端プラスチック^reset; 科学者に ^green;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "If you're going to make it as a scientist, you are going to need ^orange;Advanced Plastic^reset;. Find some ^orange;Oil^reset; from a ^green;Desert^reset; or from ^orange;Bonemeal^reset; and then head to your ^orange;Bio Lab^reset;. Bring me back one single piece!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "科学者として作りたいなら、^orange;高性能 Plastic ^reset; が必要です。 いくつかを見つける ^orange;石油^reset; aから ^green;砂漠^reset; あるいは ^orange;骨付き食事^reset; そしたら そちらへ ^orange;バイオラボ^reset;. 一つ持って来い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Getting into Plastics"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "プラスチックへの参入"
+    }
+  ]
+]

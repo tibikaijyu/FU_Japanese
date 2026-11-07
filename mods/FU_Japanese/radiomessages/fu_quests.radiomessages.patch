@@ -1,0 +1,494 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius1/senderName",
+      "value": "Esther Bright"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius1/senderName",
+      "value": "エスター・ブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius1/text",
+      "value": "Good work, dear! Once you install that ^orange;STL Drive^reset; on your ship, you'll be able to fly around within your current star system."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius1/text",
+      "value": "よくできたわ！ その^orange;STLドライブ^reset;を船に設置すれば、今いる星系の中を飛べるようになるわよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius2/senderName",
+      "value": "Esther Bright"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius2/senderName",
+      "value": "エスター・ブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius2/text",
+      "value": "You'll need some ^pink;erchius crystals^reset; to get your ship fully functional. Look for a moon, they're often a good source, but you'll probably need an ^cyan;Environmental Protection Pack^reset; to breathe."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius2/text",
+      "value": "船の機能を全て取り戻すには、^pink;エルキウス結晶^reset;が必要よ。月を探してごらんなさい。よく見つかる場所だけれど、呼吸するために^cyan;環境保護パック^reset;が要るはずよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius3/senderName",
+      "value": "Esther Bright"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius3/senderName",
+      "value": "エスター・ブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-getErchius3/text",
+      "value": "You can research ^cyan;EPPs^reset; in your ^orange;Armor and Weapons^reset; tree, they're made in the ^orange;Armorworks^reset;. You'll need some tungsten, so head to a forest or desert planet!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-getErchius3/text",
+      "value": "^cyan;EPP^reset;は、^orange;武器と防具^reset;のツリーで研究して、^orange;武具製作台^reset;で作れるわ。タングステンが必要だから、森林か砂漠の惑星へ向かいましょう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-makeFTL/senderName",
+      "value": "Esther Bright"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-makeFTL/senderName",
+      "value": "エスター・ブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-makeFTL/text",
+      "value": "Well done! Good work evading that ghost. With that ^pink;erchius^reset;, and a little tungsten, you'll have everything you need to craft the ^cyan;Small FTL Drive^reset; and explore the universe. You can research it in your ^orange;Engineering^reset; tree."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-makeFTL/text",
+      "value": "お見事！ あのお化けをうまくかわしたわね。その^pink;エルキウス^reset;と少しのタングステンがあれば、^cyan;小型FTLドライブ^reset;を作って宇宙へ旅立てるわ。^orange;工学^reset;の研究ツリーで作り方を学べるわよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-makeSTL/senderName",
+      "value": "Esther Bright"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-makeSTL/senderName",
+      "value": "エスター・ブライト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_byosftldrive-makeSTL/text",
+      "value": "You can research the ^orange;STL Drive^reset; in your ^cyan;Engineering^reset; tree, dear. You'll need a few core fragments to get it working, so you might have to do a little digging!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_byosftldrive-makeSTL/text",
+      "value": "^orange;STLドライブ^reset;は、^cyan;工学^reset;の研究ツリーで学べるわ。動かすにはコアの破片がいくつか必要だから、少し掘ることになるかもしれないわね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_outpost1/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_outpost1/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_outpost1/text",
+      "value": "Thanks for investigating that for me! Your help is ^green;deeply appreciated^reset;! If you haven't already, be sure to ^orange;visit the ^cyan;Science Outpost^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_outpost1/text",
+      "value": "調べてくれてありがとう！ ^green;本当に助かった^reset;よ。まだなら、^orange;ぜひ訪ねてほしいのが^cyan;科学前哨基地^reset;だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_outpost2/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_outpost2/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_outpost2/text",
+      "value": "Some of the galaxy's finest scientific minds work there, and there is a great deal you could learn. Find the ^orange;Science Outpost^reset; on your SAIL!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_outpost2/text",
+      "value": "銀河でも指折りの科学者たちが働いていて、学べることはたくさんある。SAILで^orange;科学前哨基地^reset;を探してね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1a/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1a/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1a/text",
+      "value": "Now let's see about your part of the bargain, shall we? It shouldn't be too dangerous, but consider ^orange;Building an Armorworks^reset; through the ^cyan;Armor and Weapons^reset; research tree. Keep your innate ^yellow;Resistances and Weaknesses^reset; in mind. You can see them in your Tricorder."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1a/text",
+      "value": "では、君の方の約束を果たしてもらおうか。ひどく危険ではないはずだけど、^orange;武具製作台を作る^reset;といい。^cyan;武器と防具^reset;の研究ツリーで学べるよ。生まれ持った^yellow;耐性と弱点^reset;にも気を付けて。トライコーダーで確認できる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1b/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1b/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1b/text",
+      "value": "What for, you ask? There's a ^orange;Dark Cavern^reset; on the surface I can't fit inside. I've previously detected ^cyan;strange readings^reset; coming from within. They're strong enough that the source ^green;may provide the energy source you need^reset; to get off-world."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1b/text",
+      "value": "何のためかって？ 地上に^orange;暗い洞窟^reset;があるんだけど、僕の体では入れないんだ。以前、中から^cyan;奇妙な反応^reset;を検知した。それだけ強い反応なら、^green;君が必要としているエネルギー源になる^reset;かもしれない。この星を離れるためのね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1c/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1c/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete1c/text",
+      "value": "The cave was previously locked, but I just opened it with a ^orange;key^reset; that I interestingly found in the ^green;old, ruined house^reset; on the surface. You should be able to enter now."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete1c/text",
+      "value": "洞窟は施錠されていたけど、今しがた^orange;鍵^reset;で開けておいた。面白いことに、その鍵は地上の^green;古い廃屋^reset;にあったんだ。もう入れるはずだよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings0/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings0/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings0/text",
+      "value": "Greetings, stranger! I detected your ^cyan;Protectorate Energy Signature^reset; entering the system and investigated immediately. You were on a ^red;collision course with the sun^reset;, so I went ahead and redirected your nav system."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings0/text",
+      "value": "やあ、見知らぬ旅人さん！ ^cyan;プロテクターのエネルギー反応^reset;が星系に入ったので、すぐ調べたんだ。君は^red;太陽へ衝突するコース^reset;にいたから、勝手ながら航路を変えさせてもらったよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings1/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings1/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings1/text",
+      "value": "Seems I was just in time, too. Your ^orange;FTL drive^reset; is ^red;broken^reset; and your impulse drive is basically dead in the water. Your teleporter is fried, too. Each use increases the risk of a catastrophic failure."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings1/text",
+      "value": "どうやら間一髪だったね。君の^orange;FTLドライブ^reset;は^red;故障^reset;し、インパルスドライブもほぼ動かない。テレポーターまで焼けている。使うたびに、致命的な故障の危険が高まるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings1b/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings1b/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings1b/text",
+      "value": "I could use the help of a ^cyan;Protectorate Agent^reset; to investigate a local anomaly I am unable to reach, and -you- could use my help getting your ship repaired. So, why don't we work together, hmm?"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings1b/text",
+      "value": "僕は近くの異常現象を調べたいが、自力ではたどり着けない。^cyan;プロテクターの隊員^reset;の助けが必要だ。一方、君は船を直すために僕の助けが必要だね。協力しないかい？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings2/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings2/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetings2/text",
+      "value": "There's a lot to do. But let's start small: Use your ^orange;Personal Tricorder^reset; and press ^green;Research^reset;. Under the ^cyan;Geology^reset; category, learn how to make a ^orange;Furnace^reset;, and then apply that knowledge to build one for yourself. You'll need to ^green;[C]^reset;raft an ^yellow;Inventor's Table^reset; to do this."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetings2/text",
+      "value": "やることは多いけど、まずは小さな一歩から。^orange;個人用トライコーダー^reset;で^green;研究^reset;を押し、^cyan;地質学^reset;から^orange;炉^reset;の作り方を学ぼう。それから実際に作るんだ。まずは^green;[C]^reset;で^yellow;発明家の作業台^reset;を作る必要があるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetingspickaxe/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetingspickaxe/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_greetingspickaxe/text",
+      "value": "Why don't you take this Spare ^green;Pickaxe^reset; I had lying around. It should help you dig a bit faster for a little while. Before long you'll have ^green;superior tools^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_greetingspickaxe/text",
+      "value": "余っていた^green;つるはし^reset;を持っていくといい。しばらくは、少し速く掘れるはずだ。そのうち^green;もっと良い道具^reset;が手に入るよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeElectromagnet/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeElectromagnet/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeElectromagnet/text",
+      "value": "I can now fix up your ship's ^green;Teleporter^reset;. It should no longer have a 17.3% chance of scrambling your DNA! Now you'll need to find an energy source sufficient to assemble a new ^orange;STL Drive^reset; to get your ship space-worthy."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeElectromagnet/text",
+      "value": "これで船の^green;テレポーター^reset;を直せるよ。DNAがぐちゃぐちゃになる確率17.3%ともおさらばだ！ 次は、新しい^orange;STLドライブ^reset;を組み立てるのに十分なエネルギー源を探して、船を飛ばせるようにしよう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeForaging/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeForaging/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeForaging/text",
+      "value": "Good. Remember, ^yellow;the ^green;Research^yellow; menu is how you ^orange;learn crafting recipes^yellow; and ^orange;make progress^reset;. If you ever have to ask ^lightgray;\"how do I make...\"^reset;, you probably ^yellow;just need to do some research^reset;! Your next goal is the ^orange;Machining Table^reset; under the ^cyan;Engineering^reset; category. You already know what to do."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeForaging/text",
+      "value": "いいね。^yellow;覚えておいて。^green;研究^yellow;メニューは、^orange;製作レシピを覚え^yellow;、^orange;先へ進む^reset;ためのものだ。^lightgray;「これはどう作るの？」^reset;と思ったら、たいていは^yellow;研究を進めれば解決する^reset;！ 次の目標は^orange;加工作業台^reset;。^cyan;工学^reset;にあるよ。もう手順は分かるね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeFurnace/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeFurnace/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeFurnace/text",
+      "value": "Excellent! Now for your next order of business: Use your ^orange;Personal Tricorder^reset; and access the ^green;Research^reset; menu again, then go to the ^cyan;Agriculture^reset; category and learn how to make a ^orange;Foraging Table^reset;. It's used for ^green;Survival^reset; and ^green;Farming^reset;. Just like before, you'll use your ^yellow;Inventor's Table^reset; to build it."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeFurnace/text",
+      "value": "素晴らしい！ 次は、^orange;個人用トライコーダー^reset;の^green;研究^reset;をもう一度開こう。^cyan;農業^reset;から^orange;採集作業台^reset;の作り方を学んでね。^green;サバイバル^reset;や^green;農作業^reset;に使う物だ。これも^yellow;発明家の作業台^reset;で作れるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeTable/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeTable/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeTable/text",
+      "value": "Great work! Next, you are going to need to make ^orange;Wire^reset; at the ^green;Machining Table^reset;. With that I'll be able to jury-rig a fix for your ^green;Teleporter^reset;. Its buffer is registering as degraded, which is not optimal."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeTable/text",
+      "value": "よくできた！ 次は^orange;ワイヤー^reset;が必要だ。^green;加工作業台^reset;で作ってほしい。それで君の^green;テレポーター^reset;を応急修理できる。バッファーが劣化しているようで、困った状態なんだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeWire/senderName",
+      "value": "Vinalisj"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeWire/senderName",
+      "value": "ヴィナリシュ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_makeWire/text",
+      "value": "There's one more step to getting your ^green;Teleporter^reset; fixed: an ^orange;Electromagnet^reset;. Build one at your ^green;Machining Table^reset; for me, if you don't mind?"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_makeWire/text",
+      "value": "^green;テレポーター^reset;の修理には、あとひとつ必要だ。^orange;電磁石^reset;を^green;加工作業台^reset;で作ってきてくれるかい？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_tricorder_brief/text",
+      "value": "^yellow;Note^reset;: You are in possession of a ^orange;Personal Tricorder^reset;! This item is ^#ff0062;required^reset; to progress, so ^red;don't delete it^reset;! You'll be taught how to use it as you play."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_tricorder_brief/text",
+      "value": "^yellow;注意^reset;：^orange;個人用トライコーダー^reset;を手に入れました！ 進行に^#ff0062;必須^reset;のアイテムなので、^red;削除しないでください^reset;！ 使い方は、ゲームを進めながら学べます。"
+    }
+  ]
+]

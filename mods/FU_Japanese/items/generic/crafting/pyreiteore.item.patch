@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An ore that burns eternally."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "永遠に燃え続ける鉱石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Ore"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライト鉱石"
+    }
+  ]
+]

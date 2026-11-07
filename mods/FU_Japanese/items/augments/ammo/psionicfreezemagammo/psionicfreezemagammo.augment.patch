@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Cryokinesis"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "冷凍機序"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Can contain enough energy for up to 50 uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "50 まで使用できる十分なエネルギーを収容できます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cryokinesis Focus"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍機序"
+    }
+  ]
+]

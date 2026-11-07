@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Oooh, Pretty! Fires ^red;Sharp^reset; blades."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うわっ、かわいい! 発射 ^red;シャープ ^reset; ブレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Blood Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "血痕"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Staff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイアタススタッフ"
+    }
+  ]
+]

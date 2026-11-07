@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This mask can repair even the worst fashion sense!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このマスクは、最悪のファッション感覚でも修復することができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Repairbot Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "修理ロボットマスク"
+    }
+  ]
+]

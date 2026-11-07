@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tea and Sautéed Reefpods. It's an... acquired taste."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "お茶とソテードリーフポッド。 味は...獲得した味です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Traditional Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;伝統的なキッチンカウンター^reset;"
+    }
+  ]
+]

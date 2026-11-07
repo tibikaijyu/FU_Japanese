@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic but dangerous weapon.\n^green;Explosive^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的な、しかし危険な武器。\n^green;爆発性^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blast Buddy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブラスト・バディ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Radiation Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "放射線シールドII"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that repels extreme varieties of radiation, including radiation burn.\n^cyan;Immune: Extreme Radiation\n^green;+15% Rad Resistance.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射線燃焼を含む極端に多様な放射線を忌避するEPPモジュールです。\n^cyan;免疫:極限放射線\n^green;+15%Radレジスタンス。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Radiation Shield II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "放射線シールドII"
+    }
+  ]
+]

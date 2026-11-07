@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Super sweet. Great on toast.\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150s^gray;)\n^green;Type: Fruit Dessert^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超甘い。 トーストは最高です。\n^cyan;+^white;20% ^cyan;EP ^gray;(^white;150ス)^gray;)\n^green;タイプ:フルーツデザート^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cherry Jam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チェリージャム"
+    }
+  ]
+]

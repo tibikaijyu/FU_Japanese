@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Vision enhancement replaced with physics barrier.\nProvides ^cyan;Immunity^reset; to most terrain effects."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ビジョン強化は物理バリアに置き換えられました。\nほとんどの地形効果に^cyan;免疫^reset;を提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Geologist's Shield Goggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "地質学者のシールドゴーグル"
+    }
+  ]
+]

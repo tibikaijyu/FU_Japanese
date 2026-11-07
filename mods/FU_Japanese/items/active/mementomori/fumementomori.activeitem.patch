@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This mysterious skull leads you to the site of your most recent demise. ^green;[ Hold Button ]^reset; to teleport. Will consume skull."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この謎の頭蓋骨は、あなたの直近の死の現場にあなたを導きます。 ^green;[ボタンを押してください] ^reset; テレポートします。 頭蓋骨を消費します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystalline Skull"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶性頭蓋骨"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Rad-Shredder"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "放射線シュレッダー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Superior brutal long ranged rifle.\n^yellow;Inflicts bleeding^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "優れた乱暴な長距離ライフル。\n^yellow;出血を引き起こす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "FarSight XR-72"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ファーサイト XR-72"
+    }
+  ]
+]

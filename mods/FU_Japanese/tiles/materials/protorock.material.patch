@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This is most...unusual."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは最も...珍しいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長石"
+    }
+  ]
+]

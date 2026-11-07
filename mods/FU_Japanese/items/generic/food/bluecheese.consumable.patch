@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Let's just say it was always blue.\n^purple;Glow^reset; ^cyan;300s^reset; \n^orange;Type: Dairy^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "常に青かったとしましょう\n^purple;輝き^reset; ^cyan;300ス)^reset; \n^orange;タイプ:乳製品^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Cheese"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーチーズ"
+    }
+  ]
+]

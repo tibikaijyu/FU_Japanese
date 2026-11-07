@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I've explored the mysteries of the Precursor ruins, and it was worth every minute."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "先駆者の遺跡に秘められた謎を探った。費やした時間に見合う価値のある冒険だった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Explore the Precursor Dungeon"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "前身ダンジョンを探索しよう"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Where am I? This ^green;data-disc^reset; at least presents the coordinates. What is odd, is that this sector has always been devoid of...everything. I should definitely explore this place."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "私はどこですか。 この^green;data-disc^reset;は少なくとも座標を示す。 奇妙なのは、このセクターは常にすべてに欠けていたということです。 私は間違いなくこの場所を探索すべきです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "A Strange Place"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "不思議な場所"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An extremely durable titanium greataxe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性に優れたチタン製の大軸です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタン大軸"
+    }
+  ]
+]

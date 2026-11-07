@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hatches into a tiny pangolin. Happy little omnivores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さなパンゴリンにハッチします。 幸せの小さな雑食。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pangolin Egg"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンゴリン・エッグ"
+    }
+  ]
+]

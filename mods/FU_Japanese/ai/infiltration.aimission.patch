@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Infiltration (6)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "浸透(6)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Infiltration (6) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "浸透(6)(R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "The Apex rebellion is looking to infiltrate a Miniknog research facility. Maybe they could use some help from yours truly? ^green;Bio-Ooze^reset; detected."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "エイペックス反乱はミニノグの研究施設に侵入しようとしている。 おそらく、彼らは本当にあなたの助けを借りることができますか? ^green;Bio-Ooze^reset;検出。"
+    }
+  ]
+]

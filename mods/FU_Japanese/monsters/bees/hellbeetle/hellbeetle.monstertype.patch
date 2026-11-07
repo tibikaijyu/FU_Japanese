@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A parasite that drinks blood off of the terrain and unsuspecting travelers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "地形や疑わしい旅行者から血を飲む寄生虫。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hell Beetle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "甲虫"
+    }
+  ]
+]

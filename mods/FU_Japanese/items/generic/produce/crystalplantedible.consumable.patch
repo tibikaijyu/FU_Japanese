@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Poisoned, Sulphuric Acid: 90s"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫^reset;:毒、硫酸:90s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Broccoli"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶ブロッコリー"
+    }
+  ]
+]

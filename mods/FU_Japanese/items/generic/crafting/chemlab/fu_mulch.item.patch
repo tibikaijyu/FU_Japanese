@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great for fertilizing a hydroponics tray.\n^green;Growth Rate x^white;1.25 ^gray;& ^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイドロポニックトレイの受精に最適です。\n^green;成長率x^white;1.25 ^gray;& ^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mulch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "堆肥"
+    }
+  ]
+]

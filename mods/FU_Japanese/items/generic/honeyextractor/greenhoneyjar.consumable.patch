@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jar of greenish honey.\n^cyan;+^white;30% ^pink;Poison ^cyan;Resistance ^gray;(^white;5m^gray;)\n^green;Heal ^white;41.67 ^gray;(^white;50s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "緑がかった蜂蜜の瓶。\n^cyan;+^white;30% ^pink;毒 ^cyan;抵抗 ^gray;(^white;5え?^gray;)\n^green;癒し ^white;41.67 ^gray;(^white;50ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Green Honey Jar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニージャー"
+    }
+  ]
+]

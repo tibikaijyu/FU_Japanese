@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Small gems made of slime which provide limited protection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライム製の小さな宝石で、保護は限られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Chest Protection Gems"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライム胸部保護宝石"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Protects you from extreme heat/cold/radiation, proto-poison and electric storms. +25% to Fire, Ice and Radiation Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "極度の熱/寒さ/放射線、原毒および電気嵐からあなたを保護します。 +25% 火、氷、放射線抵抗に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Field Generator"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フィールドジェネレータ"
+    }
+  ]
+]

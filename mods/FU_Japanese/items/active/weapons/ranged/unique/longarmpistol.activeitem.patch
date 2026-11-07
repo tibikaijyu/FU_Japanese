@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shotgun. In a pistol. Definitely fun."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ショットガン。 ピストルの中。 間違いなく楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Longarm Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロングアームピストル"
+    }
+  ]
+]

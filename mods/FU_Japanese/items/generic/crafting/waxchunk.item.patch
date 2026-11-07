@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A chunk of beeswax."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ミツバチのワックスの塊。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beeswax"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチワックス"
+    }
+  ]
+]

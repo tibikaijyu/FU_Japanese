@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into crystalline swamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の領域を結晶沼に変えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crystal Swamp Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "結晶湿式マイクロフォーマ"
+    }
+  ]
+]

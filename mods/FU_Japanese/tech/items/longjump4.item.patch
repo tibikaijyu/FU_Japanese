@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Adds more jump, slower fall and more jumps!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャンプを増やし、落下を遅くし、ジャンプを増やします!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Flutter Jump III^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;羽ばたきジャンプ III^reset;"
+    }
+  ]
+]

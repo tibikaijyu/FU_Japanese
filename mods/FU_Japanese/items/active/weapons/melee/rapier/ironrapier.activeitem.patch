@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's a rapier. Made of iron."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ラピアです 鉄製。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンレイパー"
+    }
+  ]
+]

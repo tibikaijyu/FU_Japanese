@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All the nutritious value of an apple masked by globs of sweet, sweet sugar."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甘くて甘い砂糖の塊によってマスクされたリンゴのすべての栄養価。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssilly apple, you're not candy! You can't fool Floran!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ばかばかしいリンゴ、あなたはキャンディーじゃない! フローランをだますことはできない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Destitute. Any nutritional value that might've been in this apple has been canceled out."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "料金は無料。 このリンゴに含まれていたかもしれない栄養価はキャンセルされました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Careful not to let it stick to nothin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "何にもこだわらないように気をつけなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Candy Apple"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キャンディアップル"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "^orange;Techs^reset; are extremely useful, and have quite varied applications to suit almost any niche. Increased speed, double jump, and so many other things. You can change your techs around with a ^orange;Tech Tablet^reset; or a ^orange;Tech Console^reset;. Try your ^orange;Tech Tablet^reset; out now!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "^orange;テック^reset;は非常に便利で、さまざまな状況に対応する能力がある。移動速度の上昇、二段ジャンプ、その他いろいろだ。^orange;テックタブレット^reset;や^orange;テックコンソール^reset;で装備するテックを変更できる。さっそく^orange;テックタブレット^reset;を試してみよう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "^orange;Techs^reset; are extremely useful, and have quite varied applications to suit almost any niche. Increased speed, double jump, and so many other things. You can change your techs around with a ^orange;Tech Tablet^reset; or a ^orange;Tech Console^reset;. Try your ^orange;Tech Tablet^reset; out now!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;テック^reset;は非常に便利で、さまざまな状況に対応する能力がある。移動速度の上昇、二段ジャンプ、その他いろいろだ。^orange;テックタブレット^reset;や^orange;テックコンソール^reset;で装備するテックを変更できる。さっそく^orange;テックタブレット^reset;を試してみよう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Tech Tablet"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "テックタブレット"
+    }
+  ]
+]

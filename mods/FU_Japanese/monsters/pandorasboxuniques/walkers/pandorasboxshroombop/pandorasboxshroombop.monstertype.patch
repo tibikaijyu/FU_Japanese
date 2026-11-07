@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "They stay in groups, to ensure they can safely spread their spores."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼らは安全に胞子を広められるように、グループにとどまります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shroombop"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シュルームボップ"
+    }
+  ]
+]

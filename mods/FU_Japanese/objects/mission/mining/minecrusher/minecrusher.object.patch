@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "An industrial machine, used for breaking down rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "岩を砕く工業機械。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A machine used for breaking down rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "岩を砕くための機械。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran wants to drop prey inssside machine!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、マシン内の獲物をドロップしたい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. The machine exists to crush rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 その機械は岩を砕くために存在する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "An unsightly metal construction."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "見苦しい金属構造。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Impact Crusher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉱業用衝撃破砕機"
+    }
+  ]
+]

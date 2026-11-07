@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An extremely useful weapon utilizing controlled energy.\n^yellow;Exceptional utility^reset;\n^cyan;Inflicts Electrified status^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "制御されたエネルギーを利用する非常に有用な武器。\n^yellow;例外ユーティリティ^reset;\n^cyan; 電化ステータス ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Energy Lobber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エネルギーロバー"
+    }
+  ]
+]

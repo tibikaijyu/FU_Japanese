@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-quality industrial metal floor."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業用金属床。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Floor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金床"
+    }
+  ]
+]

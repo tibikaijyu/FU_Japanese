@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+50% Run^reset;, ^cyan;Low Gravity^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+50% 実行 ^reset; , ^cyan; 低い重力 ^reset; : 1 です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Garikleaf Blossom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "にんにくの葉"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mega strength Flutter Jump with low-grav."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "低重力のメガ強度フラッタージャンプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Gravity Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "重力ジャンプ"
+    }
+  ]
+]

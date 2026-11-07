@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This bee is more productive than the average honey bee."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このミツバチは平均的なミツバチよりも生産的です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hardy Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハーディビー"
+    }
+  ]
+]

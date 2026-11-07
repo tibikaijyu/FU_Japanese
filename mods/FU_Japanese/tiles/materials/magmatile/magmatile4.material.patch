@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Solid, unyielding stone."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "固い、耐え難い石。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cooled Volcanic Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷却火山岩"
+    }
+  ]
+]

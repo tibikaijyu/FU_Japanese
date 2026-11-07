@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Drastically increases speed, but drastically reduces fuel efficiency."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スピードは大幅に向上しますが、燃料効率は大幅に低下します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Supercharger Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スーパーチャージャーモジュール"
+    }
+  ]
+]

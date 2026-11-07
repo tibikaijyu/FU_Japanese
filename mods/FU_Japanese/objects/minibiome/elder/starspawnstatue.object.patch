@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some strange creature out of a nightmare."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "悪夢からいくつかの奇妙な生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Horrid Statue"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "恐ろしい像"
+    }
+  ]
+]

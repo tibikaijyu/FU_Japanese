@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's entrancing. I can't look away."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エントランティングです 私は目をそらせない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルラバランプ"
+    }
+  ]
+]

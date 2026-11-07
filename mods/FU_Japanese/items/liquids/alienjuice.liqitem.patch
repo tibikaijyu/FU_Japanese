@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of an unusual plasmic fluid.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "異常なプラズマ流体の測定。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasmic Fluid"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プラスチック流体"
+    }
+  ]
+]

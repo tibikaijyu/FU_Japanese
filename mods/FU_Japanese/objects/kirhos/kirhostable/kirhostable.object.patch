@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for profitable trade deals."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "収益性の高い取引に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キロシテーブル"
+    }
+  ]
+]

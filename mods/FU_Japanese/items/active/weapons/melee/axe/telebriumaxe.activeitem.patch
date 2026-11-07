@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Honed from pure telebrium."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "純粋なテレブリアムから栄光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Hatchet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアム・ハチェット"
+    }
+  ]
+]

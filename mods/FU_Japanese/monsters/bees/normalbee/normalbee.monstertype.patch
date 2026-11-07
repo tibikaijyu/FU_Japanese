@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bee that gathers nectar and turns it into honey."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "蜜を集めて蜂蜜にするミツバチ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハチミツ"
+    }
+  ]
+]

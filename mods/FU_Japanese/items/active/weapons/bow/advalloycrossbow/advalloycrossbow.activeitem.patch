@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bulky crossbow. But it's not actually that heavy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かさばるクロスボウ。 でも実際はそれほど重くありません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金クロスボウ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Perfect for all your automated door needs! Watches for scary monsters."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動ドアのニーズに最適です! 怖い怪物の時計。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proximity Monster Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "近接モンスタースキャナー"
+    }
+  ]
+]

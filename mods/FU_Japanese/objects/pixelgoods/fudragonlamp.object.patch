@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Boney, yet tasteful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "趣味はともかく、おもしろかった。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bone Brazier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ボーンブラジャー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rich and potent caffeinated blend.\n^cyan;Strongly Caffeinated ^gray;(^white;2m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃厚で強力なカフェインブレンド。\n^cyan; カフェインを強いる^gray;(^white;2m^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Espresso"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エスプレッサ"
+    }
+  ]
+]

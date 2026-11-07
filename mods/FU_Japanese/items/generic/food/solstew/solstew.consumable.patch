@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stew made from solusberry. Can shock you.\n^cyan;+^white;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;228^gray;)\n^red;Electrified ^gray;, ^red;Burning ^gray;(^white;4s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ソルスベリーから作られたシチュー。 ショックを受けることがある。\n^cyan;+^white;20% ^cyan;HP ^gray;& ^cyan;EP ^gray;(^white;228^gray;)\n^red; 電化 ^gray;, ^red; 焼成 ^gray;(^white;4 s ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solstew"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソルシチュー"
+    }
+  ]
+]

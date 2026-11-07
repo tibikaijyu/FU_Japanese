@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You should probably murder this immediately."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "早速これを殺すべきだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shoggoth Spawn"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショーグス・スパウン"
+    }
+  ]
+]

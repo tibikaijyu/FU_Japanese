@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a volcanologist to provide ^red;30% Fire resistance^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火山学者を雇って、^red;30%耐火性^reset;を提供する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanologist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山学者契約"
+    }
+  ]
+]

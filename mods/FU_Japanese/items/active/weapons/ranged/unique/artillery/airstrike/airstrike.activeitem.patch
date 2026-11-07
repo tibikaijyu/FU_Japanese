@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Call in a deadly air-to-surface missile barrage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "致命的な空対地ミサイルの攻撃を呼び出す。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Missile Salvo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ミサイルサルボ"
+    }
+  ]
+]

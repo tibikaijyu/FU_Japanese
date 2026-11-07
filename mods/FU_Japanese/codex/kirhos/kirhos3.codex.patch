@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Few things are 'sacred' to the Kirhos in the traditional sense, save for information. The most valuable thing to any Kirhos is any data that belonged to their people in ages long past. These are exceptionally rare, occasionally found on discs and hard-drives scattered throughout space."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "伝統的な意味でのキロスにとって「神聖」なものはほとんどなく、情報のために保存します。 キルホスにとって最も価値のあることは、昔の彼らの人々に属していたデータです。 これらは非常にまれで、時折、宇宙に散らばったディスクやハードドライブで発見される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "A single data-disc is worth a fortune to a Kirhos, and anyone with information leading to their large collections of data (known as Storage Bays, Data-Centers or Omega Servers depending on who you ask) will be compensated with wealth beyond imagining...provided the Kirhos in question is wealthy enough to accomplish this."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "単一のデータディスクは、キルホスにとって幸運に値するものであり、大量のデータコレクション(誰に問い合わせるかによって、Storage Bays、データ-Centers、Omega Serversと呼ばれる)につながる情報を持っている人は、想像を超えて富で補償される。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Kirhosi History"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "キルホシ史"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Storage Bays"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "貯蔵湾"
+    }
+  ]
+]

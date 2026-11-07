@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Is he a glower, or a shower?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "彼は光り輝いているか、それともシャワーですか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "花"
+    }
+  ]
+]

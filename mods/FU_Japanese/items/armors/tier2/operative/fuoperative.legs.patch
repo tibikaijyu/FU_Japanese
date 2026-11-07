@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; +^green;4^reset;% Crit Chance, +^green;20^reset;% Crit Damage\n^yellow;^reset; +^green;8^reset;% Speed/Jump"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; +^green;4^reset;% クリティカルチャンス+^green;20^reset;% 犯罪被害\n^yellow;^reset; +^green;8^reset;% 速度・ジャンプ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Operative Leg Armor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "手術用脚甲甲"
+    }
+  ]
+]

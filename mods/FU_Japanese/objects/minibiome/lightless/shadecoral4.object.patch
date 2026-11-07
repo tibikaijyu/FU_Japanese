@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange coral-like growth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙なサンゴのような成長。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shade Coral"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シェードサンゴ"
+    }
+  ]
+]

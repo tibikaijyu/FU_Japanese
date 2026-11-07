@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The most popular weapon in the galaxy.\n^yellow;Reliable^reset;\n^yellow;Counts as 'Energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "銀河で最も人気の武器。\n^yellow;高信頼^reset;\n^yellow;セットボーナスの「エナジー」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Laser Rifle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レーザーライフル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Superior firepower. Sexy sheen.^yellow;Reliable^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "優れた火力。 セクシーな女性。^yellow;高信頼^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Laser Carbine"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "レーザーカービン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Major league upgrade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メジャーリーグのアップグレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mech Barrage Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メカバラージュガン"
+    }
+  ]
+]

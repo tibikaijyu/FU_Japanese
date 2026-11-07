@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This flower is filled with toxic gas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この花は有毒なガスで満たされている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gasser Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ガッサートラップ"
+    }
+  ]
+]

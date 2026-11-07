@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Visit Nightfort"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "ナイトフォートを訪れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Visit Nightfort"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "ナイトフォートを訪れる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "A Hidden castle between the mountins on a snow planet. The Nightar king's fort, it is either abandoned, or has scanners jammers."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "雪の惑星の山の間に隠れた城。 ナイトアール王の要塞は放棄されているか、またはスキャナジャマーを持っています。"
+    }
+  ]
+]

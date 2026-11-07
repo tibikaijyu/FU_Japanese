@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The ighant is a curious, fast-growing plant. Provides bounce."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨人は好奇心に満ち、急成長している植物です。 バウンスを提供します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ighant Seed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イガント種子"
+    }
+  ]
+]

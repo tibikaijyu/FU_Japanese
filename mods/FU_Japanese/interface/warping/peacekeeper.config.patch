@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/bookmarkName",
+      "value": "Peacekeeper Station"
+    },
+    {
+      "op": "replace",
+      "path": "/bookmarkName",
+      "value": "ピースキーパー駅"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/destinations/0/name",
+      "value": "Beam to Ship"
+    },
+    {
+      "op": "replace",
+      "path": "/destinations/0/name",
+      "value": "ビーム・トゥ・シップ"
+    }
+  ]
+]

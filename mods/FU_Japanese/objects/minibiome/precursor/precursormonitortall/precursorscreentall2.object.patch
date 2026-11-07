@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pretty display."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きれいなディスプレイ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Large Glyph Monitor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大型グリフモニタ"
+    }
+  ]
+]

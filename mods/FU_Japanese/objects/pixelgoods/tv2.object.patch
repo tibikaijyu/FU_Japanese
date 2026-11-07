@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Flat Screen TV."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "薄型テレビ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Flat Screen TV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "薄型テレビ"
+    }
+  ]
+]

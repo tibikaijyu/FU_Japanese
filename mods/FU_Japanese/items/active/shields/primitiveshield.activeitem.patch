@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A makeshift shield of planks and plant fibers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "板と植物繊維の仮設シールド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Primitive Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリミティブシールド"
+    }
+  ]
+]

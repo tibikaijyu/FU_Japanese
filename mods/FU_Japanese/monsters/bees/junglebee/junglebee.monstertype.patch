@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A jungle bee, a fine source of fiber!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ジャングルミツバチ、繊維の細かいソース!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jungle Bee"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャングルビー"
+    }
+  ]
+]

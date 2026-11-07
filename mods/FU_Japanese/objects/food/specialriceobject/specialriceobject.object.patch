@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This pleasantly filling dish leaves you with a warm feeling."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "心地よいお料理で、あたたかみのある味わいが味わえます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Nice sssavory rice."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "おいしいお米。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Pleased. Even the smell of this rice is delightful."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 このお米の匂いも楽しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Now there's a rice that could get any man's mouth a-waterin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "今では、どんな男の口にも水が入るお米がある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Special Rice"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "特製米"
+    }
+  ]
+]

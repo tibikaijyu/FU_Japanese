@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's allergic to smoke and ash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "煙と灰にアレルギーがある。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ash Golem"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アッシュ・ゴーレム"
+    }
+  ]
+]

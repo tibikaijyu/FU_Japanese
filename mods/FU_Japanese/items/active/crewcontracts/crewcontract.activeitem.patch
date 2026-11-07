@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hires a lowly red-shirt."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "下半身の赤いシャツを着る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Red Shirt Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "赤いシャツ契約"
+    }
+  ]
+]

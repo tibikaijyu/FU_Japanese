@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Collects rent from colony deeds within 32 units.\n^red;Disclaimer: This device does not actually pick up anything.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "32 単位内のコロニーから家賃を徴収します。\n^red;免責事項:このデバイスは実際には何も拾いません。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Colony Deed Rent Collector"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コロニー・ディード・レンタル・コレクター"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Snow Crash (4)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "雪崩(4)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Snow Crash (4) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "雪崩(4)(R)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "A band of Apex rebels is dealing with a hostage situation with the Miniknog on a far-off world. I could go over and try to help them with their problem."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "エイペックスの反乱者のバンドは、遠く離れた世界のミニノグと人質の状況を扱っています。 私は彼らの問題に対処しようとしました。"
+    }
+  ]
+]

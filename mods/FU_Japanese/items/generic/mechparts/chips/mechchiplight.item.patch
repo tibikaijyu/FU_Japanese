@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bright crystal-made light for your mech. Drains energy. Can be toggled by the horn button."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたのメカのための明るいクリスタル製の光。 エネルギーを消費する。 ホーンボタンでトグルできます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shining Module"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャイニングモジュール"
+    }
+  ]
+]

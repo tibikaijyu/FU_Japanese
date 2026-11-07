@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cold as ice."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "氷のように寒い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shieldPower",
+      "value": "Frost Aura"
+    },
+    {
+      "op": "replace",
+      "path": "/shieldPower",
+      "value": "フロストアウラ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frost Lobber"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フロストロバー"
+    }
+  ]
+]

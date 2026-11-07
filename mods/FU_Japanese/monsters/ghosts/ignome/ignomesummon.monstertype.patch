@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Its charred surface is surprisingly pleasant to touch. Just keep away from the flames!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "その黒ずんだ表面は驚くほど触って楽しいです。 炎から離れてください!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ignome"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "無視する"
+    }
+  ]
+]

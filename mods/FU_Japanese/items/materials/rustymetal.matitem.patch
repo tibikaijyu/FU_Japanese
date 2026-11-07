@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Old metal encrusted with rust.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "錆びついた古い金属。\n^green;抽出可能^reset;。"
+    }
+  ]
+]

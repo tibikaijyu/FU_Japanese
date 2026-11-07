@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Scorchingly fun.\n^cyan;Really hot.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すごく楽しい。\n^cyan; 本当に暑い。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cinder"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シンダー"
+    }
+  ]
+]

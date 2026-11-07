@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fire destructive balls of energy.\n^yellow;Counts as 'Energy' for set bonuses^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーの破壊的な球を発射します。\n^yellow;セットボーナスの「エナジー」としてカウントします。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Orb Launcher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "虹色のオーブランチャー"
+    }
+  ]
+]

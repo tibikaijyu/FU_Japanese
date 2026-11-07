@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A measure of icy honey that is somehow in a perpetual liquid state. Cold to the touch.\n^yellow;Centrifugable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "永久液体状態にある氷の蜂蜜の尺度。 タッチに寒い。\n^yellow;遠心分離可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Frozen Honey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "冷凍蜂蜜"
+    }
+  ]
+]

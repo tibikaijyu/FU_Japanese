@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;25% Fire Res & Immune: Burning, Lava^reset;, ^cyan;Immune^reset;:  Extreme Heat: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;25% 炎と免疫:燃焼、溶岩^reset;、^cyan; 免疫^reset;:極限熱:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quellstem Bud"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クレルステム"
+    }
+  ]
+]

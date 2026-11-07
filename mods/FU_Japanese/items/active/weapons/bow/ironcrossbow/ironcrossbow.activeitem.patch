@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A dangerous iron crossbow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "危険な鉄のクロスボウ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Crossbow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉄のクロスボウ"
+    }
+  ]
+]

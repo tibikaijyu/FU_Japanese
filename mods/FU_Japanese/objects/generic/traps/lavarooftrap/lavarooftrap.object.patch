@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An automated fire spitting sprinkler."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "自動火吐スプリンクラー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fire Trap"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "消防車"
+    }
+  ]
+]

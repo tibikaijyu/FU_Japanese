@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crop top worn by X'i war rebels. ^reset;+5%^reset; to Mental Protection."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シー戦争の反乱者が着用するクロップトップ。 ^reset;+5%^reset;メンタルプロテクションへ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'i Tailored Shirt"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シー Tailoredシャツ"
+    }
+  ]
+]

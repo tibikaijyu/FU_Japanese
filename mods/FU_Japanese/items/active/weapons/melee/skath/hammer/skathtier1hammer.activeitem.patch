@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This hammer strikes like the waves of a tsunami."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このハンマーは津波の波のように打つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rustic Skath Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラスティックスケートハマー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cheap, resilient panelling widely used for Hylotyl ship construction."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ヒロチル船建造に広く使用されている安価な、レジリエントなパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Hull Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーハルパネル"
+    }
+  ]
+]

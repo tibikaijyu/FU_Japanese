@@ -1,0 +1,254 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/crazycarry/senderName",
+      "value": "Kevin"
+    },
+    {
+      "op": "replace",
+      "path": "/crazycarry/senderName",
+      "value": "ケビン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/crazycarry/text",
+      "value": "You are carrying something that is making you slowly lose your mind. It may be something gross, spooky, horrifying or simply unknowable. The terrible secrets of the universe are fun!"
+    },
+    {
+      "op": "replace",
+      "path": "/crazycarry/text",
+      "value": "所持品の何かが、あなたの正気を徐々に奪っています。気味の悪いもの、恐ろしいもの、あるいは理解不能なものかもしれません。宇宙の恐ろしい秘密は楽しいですね！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madness1/text",
+      "value": "Why have you decided to suddenly munch on some plant fibre? Don't try to deny it. My sensors indicate you have ingested it."
+    },
+    {
+      "op": "replace",
+      "path": "/madness1/text",
+      "value": "なぜ急に植物繊維をむしゃむしゃ食べ始めたのですか？ 否定しても無駄です。センサーが摂取を確認しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madness2/text",
+      "value": "I am detecting abnormalities in your brain that seem to be causing you to have issues in utilizing your full physical capacity. It should pass, eventually."
+    },
+    {
+      "op": "replace",
+      "path": "/madness2/text",
+      "value": "脳に異常を検出しました。身体能力を十分に発揮できなくなっているようです。いずれ治まるでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessbeans/text",
+      "value": "Beans. All you can think of is beans, and now you are bloated and gassy like you ate some. Maybe you did eat some! Or maybe that was your toe."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessbeans/text",
+      "value": "豆。頭の中は豆のことばかり。お腹も、豆を食べたようにガスで膨れています。本当に食べたのかも！ それとも、あれは足の指でしたか。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnesscat/text",
+      "value": "Perhaps you should take a moment to truly appreciate the majesty of the animal kingdom by mimicking their sound effects as loudly as possible."
+    },
+    {
+      "op": "replace",
+      "path": "/madnesscat/text",
+      "value": "動物たちの鳴き声をできる限り大声でまねして、動物界の偉大さを心から味わってみてはいかがでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnesscombust/text",
+      "value": "Well, it would appear that your current seat has randomly caught ^orange;on fire^reset;. That, or you set it on fire. Either way: it is ^orange;on fire^reset;. And so are you."
+    },
+    {
+      "op": "replace",
+      "path": "/madnesscombust/text",
+      "value": "どうやら今座っている場所が、突然^orange;燃え出した^reset;ようです。あなたが火を付けたのでしょうか。どちらにせよ、^orange;燃えています^reset;。あなたも一緒に。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnesscombustinvert/text",
+      "value": "As amusing as it may be, spraying the contents of a ^orange;molotov^reset; from your mouth is not recommended, particularly not with a lighter."
+    },
+    {
+      "op": "replace",
+      "path": "/madnesscombustinvert/text",
+      "value": "いくら愉快でも、^orange;火炎瓶^reset;の中身を口から噴き出すのは勧められません。ライターを使うのは、なおさらです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessenergy/text",
+      "value": "Did you just lick your battery pack? Don't deny it. My sensors indicate you did."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessenergy/text",
+      "value": "今、バッテリーパックをなめましたね？ 否定しても無駄です。センサーが確認しています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessfood/text",
+      "value": "Your brain and body are currently in dispute over your hunger."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessfood/text",
+      "value": "あなたの脳と体が、空腹について意見を対立させています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessharm/text",
+      "value": "I suggest you put that knife down. You just cut your own arm open and appear to be bleeding profusely."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessharm/text",
+      "value": "そのナイフを置くことを勧めます。自分の腕を切り開いてしまい、大量に出血しているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessharminvert/senderName",
+      "value": "You"
+    },
+    {
+      "op": "replace",
+      "path": "/madnessharminvert/senderName",
+      "value": "あなた"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessinvuln/senderName",
+      "value": "Kevin"
+    },
+    {
+      "op": "replace",
+      "path": "/madnessinvuln/senderName",
+      "value": "ケビン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessinvuln/text",
+      "value": "You are not allowed to get hurt. Or die. Don't even bother trying."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessinvuln/text",
+      "value": "傷つくことも、死ぬことも許されません。試そうとすら思わないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessrand1/text",
+      "value": "Let's play a game."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessrand1/text",
+      "value": "ゲームをしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessrand2/text",
+      "value": "Bet you can't eat just one!"
+    },
+    {
+      "op": "replace",
+      "path": "/madnessrand2/text",
+      "value": "1個だけでは、やめられないでしょう！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessrand3/text",
+      "value": "Don't forget to milk that thing."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessrand3/text",
+      "value": "そいつの乳を搾るのを忘れないでください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessroot/text",
+      "value": "Your brain has stopped sending signals to your legs. It appears to be a synaptic issue, likely related to your bouts of insanity."
+    },
+    {
+      "op": "replace",
+      "path": "/madnessroot/text",
+      "value": "脳が脚へ信号を送らなくなっています。シナプスの異常のようです。繰り返す狂気の発作に関係しているのでしょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/madnessvuln/text",
+      "value": "Run. Everything will kill you. Run! DROP EVERYTHING AND RUN!"
+    },
+    {
+      "op": "replace",
+      "path": "/madnessvuln/text",
+      "value": "逃げろ。何もかもがお前を殺す。逃げろ！ 全部捨てて逃げるんだ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/sanitygain/text",
+      "value": "You have recovered some of your lost mental stability."
+    },
+    {
+      "op": "replace",
+      "path": "/sanitygain/text",
+      "value": "失われていた精神の安定を、いくらか取り戻しました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/sanitygainboost/text",
+      "value": "Your madness has just led to inspiration! Your mind fills with new possibilities for research topics."
+    },
+    {
+      "op": "replace",
+      "path": "/sanitygainboost/text",
+      "value": "狂気がひらめきにつながりました！ 研究テーマの新たな可能性で、頭の中がいっぱいです。"
+    }
+  ]
+]

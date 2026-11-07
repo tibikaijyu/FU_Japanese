@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A blank sticky note."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "白紙のベタベタしたメモ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Blank sssticky note."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "空白の付記。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Blase. A blank sticky note."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "どうぞ。 白紙のベタベタしたメモ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A sticky note with nothin' on it."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "付いている紙幣に何も付かない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sticky Note"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "付録"
+    }
+  ]
+]

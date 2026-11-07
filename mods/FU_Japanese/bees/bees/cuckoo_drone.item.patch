@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cuckoo Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "カッコウドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cuckoo Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カッコウドローン"
+    }
+  ]
+]

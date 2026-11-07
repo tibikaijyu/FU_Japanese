@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A machine used for breaking down rocks."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "岩を砕くための機械。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mining Impact Crusher"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "鉱業用衝撃破砕機"
+    }
+  ]
+]

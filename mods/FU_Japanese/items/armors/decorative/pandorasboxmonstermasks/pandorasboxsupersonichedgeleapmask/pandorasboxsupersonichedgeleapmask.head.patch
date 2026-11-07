@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "And it didn't even cost you seven gemstones to obtain!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そして、それはあなたに取得する七宝石の費用さえかからなかった!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Super Sonic Hedg. Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "超音速ヘッジ。 仮面"
+    }
+  ]
+]

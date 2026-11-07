@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A delicious jar of hot honey.^cyan;+^white;30% ^pink;Fire ^cyan;Resistance ^gray;(^white;5m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホットハチミツの美味しい瓶。^cyan;+^white;30% ^pink;火 ^cyan;抵抗 ^gray;(^white;5え?^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Inferno Honey"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "インフェルノハチミツ"
+    }
+  ]
+]

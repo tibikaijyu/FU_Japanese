@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pistol with shrouded origins.\n^yellow;Inflicts frozen-fire^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "乱れた起源を持つピストル。\n^yellow;凍結火災に影響を及ぼす^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sentry Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "セントリーピストル"
+    }
+  ]
+]

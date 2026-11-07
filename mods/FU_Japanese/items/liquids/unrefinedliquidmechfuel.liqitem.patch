@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Unrefined fuel modified from oil. If exposed to air, it reverts to oil."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "油から改質した未精製燃料。 空気にさらされると、油に戻ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Unrefined Fuel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "未精製燃料"
+    }
+  ]
+]

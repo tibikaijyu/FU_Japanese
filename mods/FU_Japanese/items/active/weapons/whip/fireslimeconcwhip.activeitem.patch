@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A concealed whip made of sticky slime, producing immense heat."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "粘りのある粘り強い粘り気を帯びたホイップで、大熱を発生させます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Concealed Fire Slime Whip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "隠された炎の煙"
+    }
+  ]
+]

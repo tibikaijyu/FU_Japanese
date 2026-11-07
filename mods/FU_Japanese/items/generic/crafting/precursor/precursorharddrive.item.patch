@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "What wonders are stored within?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "中にはどんな驚異が残っていますか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Harddrive"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身のハードドライブ"
+    }
+  ]
+]

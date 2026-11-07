@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The ^orange;Gene Sequencer^reset; can produce genes that you've already discovered, offering a consistent alternative to acquiring them ^green;from extraction^reset; via the ^orange;Xeno Lab^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "あれは ^orange;遺伝子シーケンサー^reset; すでに発見した遺伝子を作れます ^green;抽出から^reset; という ^orange;異種生物 ラボ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The ^orange;Gene Sequencer^reset; is useful to produce genes you already discovered ^green;without needing to melt down seeds^reset; in the ^orange;Xeno Lab^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "あれは ^orange;遺伝子シーケンサー^reset; すでに発見した遺伝子を ^green;種子を溶かすことなく^reset; 中には ^orange;異種生物 ラボ^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Gene Sequencer"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "遺伝子シーケンサー"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Create psionic weapons and gear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "サイオン式武器と装備を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd;Create psionic weapons and gear."
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblSubTitle/value",
+      "value": " ^#dddddd; サイオン式武器と装備を作成します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00;Psionics Table"
+    },
+    {
+      "op": "replace",
+      "path": "/interactData/paneLayoutOverride/lblTitle/value",
+      "value": " ^#ffea00; ピオニクス表"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Psionics Table^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;超能力作業台^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy looking metal girder."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な外観の金属桁。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Support Beam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金支持ビーム"
+    }
+  ]
+]

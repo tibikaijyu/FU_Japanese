@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This might harm foes."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これは敵を傷つけるかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rare Greataxe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "希少な大物"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some sort of machine...or sculpture...or...I honestly don't know."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "機械とか彫刻とか・・・正直なところ分からない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Precursor Icon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "前身アイコン"
+    }
+  ]
+]

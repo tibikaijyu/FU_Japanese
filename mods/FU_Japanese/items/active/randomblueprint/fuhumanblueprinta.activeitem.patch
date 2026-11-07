@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for energetic Human armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "精力的な人間の装甲のための青写真。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Human Schematics (Energy)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "人間の化学(エネルギー)"
+    }
+  ]
+]

@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Redwood bark. Peeled from the logs of large trees"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "レッドウッドの樹皮。 大きな木の丸太から剥がれ出しました"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likess rough bark covering. Feelss like home."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは粗い樹皮の覆いが好きです。 自宅のような気分。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Unimpressed. This bark covering is not sturdy."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "感心しない。 この樹皮の覆いは頑丈ではない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Nice lookin' bark straight off a tree."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "木の直ぐに樹皮を眺める素敵な。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Redwood Bark"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レッドウッド樹皮"
+    }
+  ]
+]

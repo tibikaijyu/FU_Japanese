@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A somewhat popular item among our Hylotl customers.. I wonder why?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハイロトルのお客様の間で、やや人気なアイテムです。. なぜでしょう?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gosmet Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゴスメットマスク"
+    }
+  ]
+]

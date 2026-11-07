@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Resistance"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "抵抗"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An EPP module that grants immunity to knockback and stun, sets invulnerability time to 3s and grants +^green;20^reset;% Phys. Resist."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ノックバックとスタンに対する免疫を付与するEPPモジュールは、脆弱性時間を3sに設定し、+^green;20^reset;%Physに付与する。 抵抗せよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Resistance Augment"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "レジスタンス拡張"
+    }
+  ]
+]

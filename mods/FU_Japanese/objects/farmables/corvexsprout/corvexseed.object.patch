@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Corvex is an alien plant with strange chemical properties."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "コルヴェクスは、奇妙な化学的性質を持つ異種植物です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corvex Sprout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コルベックス芽"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Wire-controlled Terramart Shipments teleporter.\n^blue;Upper Input: On/Off Switch^reset;\n^blue;Lower Input: Item Network^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "電線制御のテラマート 出荷テレポーター。\n^blue;上向き入力:オン/オフスイッチ^reset;\n^blue;Lower 入力: アイテムネットワーク^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Terramart Shipments 3.5"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テラマート配送 3.5"
+    }
+  ]
+]

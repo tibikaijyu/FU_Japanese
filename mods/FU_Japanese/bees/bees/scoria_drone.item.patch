@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Scoria Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Scoriaドローン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Scoria Drone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Scoriaドローン"
+    }
+  ]
+]

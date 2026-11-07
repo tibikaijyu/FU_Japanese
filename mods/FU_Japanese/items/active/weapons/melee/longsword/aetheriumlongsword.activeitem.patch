@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A weapon infused with the power of the cosmos."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の力と融合した武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アテロームロングソード"
+    }
+  ]
+]

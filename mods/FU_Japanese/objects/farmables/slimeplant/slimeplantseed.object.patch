@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Useful against slime and can protect against damage."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スライムに対して有用で、損傷から保護することができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Glob Bush"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムグローブブッシュ"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "Stuck in the bunker. Again. Begged my superior officer to let me go and explore the terrain, but he was having none of it. It's hostile, he says. No it isn't! I see other species out there all the time. Just yesterday, I saw a walking, talking bird hanging out with a large monkey."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "バンカーに固まります。 もう一度。 上官に行かせて、地形を探検するように頼んだが、彼は何も持っていなかった。 敵対的だと彼は言う。 いいえ、違います! 私はいつもそこに他の種を見ます。 ちょうど昨日、私は大きな猿とぶらぶらしている鳥を話しているのを見ました。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/1",
+      "value": "I told my superior officer this and he suggested I visit the med bay. I'll send HIM to the med bay if he doesn't start taking me seriously. Tempers sure are getting frayed around here. Let's hope we don't have any friendly fire incidents."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/1",
+      "value": "私はこのことを上官に話したので、彼は私が薬局を訪れるように勧めた。 彼が本気で私をとり始めなければ、私は彼を医療現場へ送ります。 テンパーは確かにこの辺りで疲れています。 友好的な火災事件が起こらないようにしましょう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "USCM Personnel Log #58719"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "USCM 人事ログ #58719"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "USCM Personnel Log #58719"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "USCM 人事ログ #58719"
+    }
+  ]
+]

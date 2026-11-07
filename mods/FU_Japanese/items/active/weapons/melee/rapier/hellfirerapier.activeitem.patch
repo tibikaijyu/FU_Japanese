@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Brightly burns with hatred and fire.\n^cyan;Causes Burning^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "憎しみと火で明るく燃える。\n^cyan;火傷の原因^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hellfire Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘルファイアラピエ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bit gross, but useful."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ちょっと粗雑だが便利だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Atropus Chest"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アトロパス胸部"
+    }
+  ]
+]

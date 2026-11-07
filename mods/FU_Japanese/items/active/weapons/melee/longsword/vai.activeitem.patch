@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Glistens like diamond, cuts like glass.\n^cyan;Inflicts Caliginous Gas^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ダイヤモンドのように輝き、ガラスのようにカットします。\n^cyan;カリジンガスの影響^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Vai"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヴァイ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Daravai^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;ダルバ^reset; ^yellow;^reset;"
+    }
+  ]
+]

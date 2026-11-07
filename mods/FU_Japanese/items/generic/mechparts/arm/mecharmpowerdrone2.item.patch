@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "3 long-ranged sniper drones."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "3長距離狙撃ドローン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sniper Drone II"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狙撃ドローンII"
+    }
+  ]
+]

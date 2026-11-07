@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "Judging by the topography, it is probably this planet that's in the display."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "地形から判断すると、おそらくこの惑星が展示されているのだろう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avaliDescription",
+      "value": "This one seems to be sensor data of this planet; atmospheric composition, topography, that sort of thing."
+    },
+    {
+      "op": "replace",
+      "path": "/avaliDescription",
+      "value": "これは、この惑星のセンサーデータ、大気組成、地形、などのデータだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A screen without a screen, that's interesting..."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "画面なしの画面は興味深い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A hologram with planetary information"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星情報のホログラム"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Thissss iss boring..."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "こいつは退屈だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Studious. My kin would consider this heretical, they believe the world is flat."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "スタジオ。 私の家族は、この異端を考慮すれば、世界は平らだと思われます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Looks like satellite data from this planet. Can't read the text though."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "この惑星からの衛星データのように見えます。 ただし、テキストは読めません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "So much information is all very tedious."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "そんなに多くの情報がとても面倒です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hologram, Planet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ホログラムと惑星"
+    }
+  ]
+]

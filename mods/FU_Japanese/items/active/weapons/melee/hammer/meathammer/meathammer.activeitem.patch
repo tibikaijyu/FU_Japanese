@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rather large, gore-encrusted arm.\n^cyan;Meaty Death, Floran^reset;\n^yellow;Noxious^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かなり大きく、ゴアのついた腕。\n^cyan;肉の 死, フローラン ^reset;\n^yellow;Noxious^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉のハンマー"
+    }
+  ]
+]

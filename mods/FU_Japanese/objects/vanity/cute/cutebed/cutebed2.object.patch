@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute bed. Has satin sheets"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "かわいいベッド。 サテンシート付き。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Satin Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "サテンベッド"
+    }
+  ]
+]

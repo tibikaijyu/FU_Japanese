@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mad not to use soy sauce... ^blue;Madness Gain^reset; 4 \n^orange;Type: Cooked Meat + Grain^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "醤油は使わないでくれ。 ^blue;狂気の高まり^reset; 4 \n^orange;タイプ: 肉と穀物を調理。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cthushi"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ちゅうし"
+    }
+  ]
+]

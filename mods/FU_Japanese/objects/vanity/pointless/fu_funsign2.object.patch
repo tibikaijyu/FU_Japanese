@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Obey...what?"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "オーベイ...何?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Obey This Sign"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "この看板は"
+    }
+  ]
+]

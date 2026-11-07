@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A large pretty storage cabinet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大きなきれいな収納キャビネット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Cabinet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル内閣"
+    }
+  ]
+]

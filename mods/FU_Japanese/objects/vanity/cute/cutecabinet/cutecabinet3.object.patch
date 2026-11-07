@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A sturdy cute end table."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈でかわいいエンドテーブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute End Table"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいエンドテーブル"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Clearly the breakfast of choice for a growing child.\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45s^gray;) ^blue;Madness Gain^reset; 2 ^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "明らかに成長中の子供のための選択朝食。\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;45ス)^gray;) ^blue;狂気の高まり^reset; 2 ^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bloody Corpse Waffles"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれの死体ワッフル"
+    }
+  ]
+]

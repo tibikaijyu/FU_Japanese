@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Using ^orange;Advanced Techniques and resources^reset; I can alter reality around me as I run. This should provide invulnerability!"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "利用 ^orange;先端技術と資源^reset; 走りながら周りの現実を変えることができる。 これは脆弱性をもたらすはずです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Y'know...I just realized a way I can improve on the Sprint tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "スプリント技術で改善できる方法があることに気づいたのです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Amazing Speed, Amazing Tech"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "驚くべきスピードと驚くべき技術"
+    }
+  ]
+]

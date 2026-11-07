@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A starry fence, wonder what the use for the veil is."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スターリーフェンス、ベールの使用は何か疑問に思います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Pretty fence."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "きれいなフェンス。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Intrigued. What is the starry veil used for?."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "興味津々。 スターリーベールは何に使うのですか?."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "This fence sure is pretty."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "このフェンスは確かにきれいです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aen Nebula Fence"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "天星雲フェンス"
+    }
+  ]
+]

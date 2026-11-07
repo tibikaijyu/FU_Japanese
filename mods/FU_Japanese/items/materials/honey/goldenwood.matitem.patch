@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A golden-looking wooden log.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黄金色の木製の丸太。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran likess pretty gold wood."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはきれいな金の木が好きです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Unsettled. This wooden log is an unnatural golden shade."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "未定。 この木製の丸太は不自然な黄金色の色合いです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Gold wood? Ain't that a sight."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "ゴールドウッド? あれは光景じゃない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Wood"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金木"
+    }
+  ]
+]

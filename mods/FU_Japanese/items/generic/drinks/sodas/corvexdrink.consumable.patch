@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Corvex as a beverage. Likely quite unsafe.\n^cyan;+^white;20% ^pink;Cosmic ^cyan;Res ^gray;(^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "飲み物としてコルベックス。 安全性は極めて低い。\n^cyan;+^white;20% ^pink;宇宙 ^cyan;レズ ^gray;(^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Corvexxor"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コルベックス"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "These ancient crystals hum with energy. They release a gentle, healing light and slow your descent."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これらの古代の結晶はエネルギーで満たされます。 彼らは穏やかで癒しの光を放ち、あなたの降下を遅くします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Guardian Wings"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーガーディアンウィングス"
+    }
+  ]
+]

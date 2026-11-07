@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An amazing grappler. Use carefully, as it is ^orange;very^reset; fast."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "素晴らしいグラップラー。 ^orange;very^reset;fastのように、慎重に使用してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nano-Tether"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナノテザー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mashed and reconstituted lobster... stuff. ^orange;Type: Cooked Seafood^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロブスターをマッシュ&リコンストラクタ...。 ^orange;タイプ:海鮮料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lobster Paste"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロブスターペースト"
+    }
+  ]
+]

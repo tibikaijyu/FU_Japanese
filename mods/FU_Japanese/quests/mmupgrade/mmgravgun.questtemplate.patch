@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "With this powerful tool I should be able to make short work of most blocks."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "この強力なツールを使えば、ほとんどのブロックで短い作業ができるようになるはずです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Activate it."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "アクティブにします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "This powerful morphite manipulator is pretty great. A more powerful way to mine? Gimme."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "この強力なモルヒットマニピュレーターはかなり素晴らしいです。 より強力な鉱山への方法? 来い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Master Manipulator"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "マスターマニピュレータ"
+    }
+  ]
+]

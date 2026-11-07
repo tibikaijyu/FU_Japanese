@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A panel made of a secret Peglaci alloy.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "秘密のペグラシ合金製のパネル。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Panel"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金パネル"
+    }
+  ]
+]

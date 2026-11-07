@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This robot serves one purpose: Moisten."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このロボットは、一つの目的を果たす:モイステン。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウォーターボット"
+    }
+  ]
+]

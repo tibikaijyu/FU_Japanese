@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Freezeflower"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "凍結した花"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Freezeflower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "凍結した花"
+    }
+  ]
+]

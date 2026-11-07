@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Just spooky enough."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "十分不気味だ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran doesn't see what's so ssscary about sssilly pastry."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランは、愚かなペストリーが怖いとは思っていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Amused. And just what is so scary about this garish looking pie?"
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "面白かった。 そして、このガーリッシュに見えるパイの何がそんなに怖いのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Ain't too spooky for my gullet. Down the hatch!"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "銃弾には不気味すぎない。 ハッチを下って!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spooky Pie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スプーキーパイ"
+    }
+  ]
+]

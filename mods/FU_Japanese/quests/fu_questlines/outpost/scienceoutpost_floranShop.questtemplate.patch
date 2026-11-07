@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Oooooh! Floran thankss! Iss family heirloom! Floran givess friend reward! I ssteal thesse from Kevin when him not lookss because Kevin sstealss my pantss every week."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "おおー! フローランありがとう! 家督相続人! フローランは友人に報酬を与えます! 私はケビンが毎週私のズボンを盗むので、彼は見ていないときにケビンからテスを盗む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring a ^orange;Greenfinger Medal^reset; to the ^green;Floran Meat Shop^reset; at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "持ち込み ^orange;グリーンフィンガーメダル^reset; へ ^green;フローランミートショップ^reset; では ^orange;科学前哨基地^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Floran hass losst fatherss ^orange;Greenfinger Medal^reset;. Iss sspecial becausse father hunted besst in tribe and killed many Hylotl in war. Perhapss you iss find in ^green;Verdant Ruins^reset;?"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "フロランは、父 ^orange;グリーンフィンガー Medal ^reset;を失っています。 父親は部族で最善を尽くし、戦争で多くのヒュロを殺害したため、それは特別です。 ^green;VerdantRuins ^reset; は?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Ssad losst thingss."
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "悲しいことに失くした。"
+    }
+  ]
+]

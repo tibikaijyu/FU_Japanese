@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasteel and high-grade plastic."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プラスチールと高級プラスチック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Plasteel Striped Wall"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "格子縞壁"
+    }
+  ]
+]

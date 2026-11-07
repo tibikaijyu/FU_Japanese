@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Gives +20% Poison Resist. Use it on planets with ^cyan;mild poison levels^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "+20% 毒抵抗を与える。 ^cyan; 軽度の毒素レベル ^reset; を持つ惑星でそれを使用します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poison EPP I"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "毒EPP I"
+    }
+  ]
+]

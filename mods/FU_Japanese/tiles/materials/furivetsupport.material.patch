@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A super-strong alloy support beam."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "超高強度合金支持ビームです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "Made for holdin' spaceships together."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "一緒に宇宙船を停めるために作られた。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Riveted Support"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リベットサポート"
+    }
+  ]
+]

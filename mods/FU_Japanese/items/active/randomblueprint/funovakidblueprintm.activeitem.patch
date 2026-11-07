@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The blueprints for potent Novakid armour."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "強力なノヴァリ装甲用の青写真。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/failMessage",
+      "value": "You already know these recipes!"
+    },
+    {
+      "op": "replace",
+      "path": "/failMessage",
+      "value": "あなたはすでにこれらのレシピを知っています!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Novakid Schematics (Power)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "不変力学(パワー)"
+    }
+  ]
+]

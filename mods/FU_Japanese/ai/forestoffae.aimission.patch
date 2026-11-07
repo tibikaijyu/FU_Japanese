@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/buttonText",
+      "value": "Forest of Fae (5)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/buttonText",
+      "value": "フェの森(5)"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Forest of Fae (5) (R)"
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/repeatButtonText",
+      "value": "Fae(5)(R)の森"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "I've discovered a nefarious cultist plot to corrupt an ancient forest. It's up to me to stop them! I've been advised that a grappling hook will be necessary to complete this mission, so I should get one before I go."
+    },
+    {
+      "op": "replace",
+      "path": "/speciesText/default/selectSpeech/text",
+      "value": "古代の森を荒廃させる、邪悪なカルト主義者の陰謀を私は発見した。 彼らを止めるのは私次第です! 私はこの任務を完了するためにグラップリングフックが必要であることを忠告されているので、私は行く前に一つを得る必要があります。"
+    }
+  ]
+]

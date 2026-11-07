@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Elder roofing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "長老屋根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Elder Roofing"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長老屋根"
+    }
+  ]
+]

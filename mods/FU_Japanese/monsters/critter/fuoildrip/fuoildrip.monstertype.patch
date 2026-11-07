@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great little pet. Also amazing for cooking. Cruel, but delicious!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "偉大な小さなペット。 また、料理のために素晴らしい。 おいしい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aliveoil"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "オリーブオイル"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A fine glittering sand. Could probably be made into glass!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "きらきら輝く砂。 おそらくガラスになるかもしれません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssand."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "サンド"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. Sand."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 砂。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Golden Sand"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "金砂"
+    }
+  ]
+]

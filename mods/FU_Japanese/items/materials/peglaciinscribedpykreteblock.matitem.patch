@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A block made of pykrete. Peglaci glyphs are inscribed on it.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピクレテ製のブロック。 ペグラシ文字が刻まれている。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pykrete Glyph Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイクリートグリフブロック"
+    }
+  ]
+]

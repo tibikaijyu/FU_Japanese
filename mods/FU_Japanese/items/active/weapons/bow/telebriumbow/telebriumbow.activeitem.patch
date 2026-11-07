@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Toxin Burst"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "毒素バースト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Poison-tipped arrows promise pain."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "毒矢は痛みを約束する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Telebrium Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "テレブリアムボウ"
+    }
+  ]
+]

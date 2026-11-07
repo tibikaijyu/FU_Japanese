@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Stormbreakers are responsible for collecting charged gems from the surface."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ストームブレーカーは、表面から有料の宝石を集める責任があります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stormbreaker Helmet"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ストームブレーカーヘルメット"
+    }
+  ]
+]

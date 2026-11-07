@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "RULESS OF TRIBE\n\nRUINSS GIVESS SSPARKLIESS\n\nSSPARKLIESS GIVESS POWER\n\nDEVOUR SSPARKLIESS\n\nKEEP AWAY MEATSSS\n\nKEEP AWAY OTHER FLORAN\n\nBECOME SSSTRONGESST"
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "部族のルール\n\nルーインズ与えるスパークレス\n\nスパークレスギフトパワー\n\nデバースパークレス\n\nキープウェイミーツ\n\n他の花を逃さない\n\n強食者になる"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks even worse than your usual Floran scrawl."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "いつものフローラン・スクロールよりさらに悪い。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Brine Star) Savage Scribbling"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(ブラインスター) 陰気な落書き"
+    }
+  ]
+]

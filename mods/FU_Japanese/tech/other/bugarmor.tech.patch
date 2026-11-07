@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Combat Stances. Hold ^green;[F]^reset; to swap (See Status). Hold 3s to reset."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "戦闘姿勢。 ^green;[F]^reset; をスワップします (ステータスを参照)。 3s をリセットします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Thelusian Warrior"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "ロシア人戦士"
+    }
+  ]
+]

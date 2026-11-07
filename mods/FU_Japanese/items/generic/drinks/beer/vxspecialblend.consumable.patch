@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "One of the rarest known alcohols. It's good stuff.\n^cyan;+^white;20% ^pink;Poison^gray;, ^pink;Moderate Radiation^gray;, ^pink;Shadow^gray;, ^pink;Cosmic ^cyan;Res^gray;, ^cyan;+^white;50 ^cyan;EP^gray;, ^pink;Frost ^cyan;Immunity^gray;, ^white;35% ^red;Slow ^gray;(^white;2m^gray;)\n^red;Hammered ^gray;(^white;4m^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "最も珍しいアルコールの一つ。 良いことです\n^cyan;+^white;20% ^pink;毒^gray;, ^pink;中等度放射線^gray;, ^pink;影^gray;, ^pink;宇宙 ^cyan;レズ^gray;, ^cyan;+^white;50 ^cyan;EP^gray;, ^pink;フロスト ^cyan;免疫^gray;, ^white;35% ^red;ゆっくり ^gray;(^white;2え?^gray;)\n^red; Hammered^gray;(^white;4m ^gray;) ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "VX Special Blend"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "VXスペシャルブレンド。"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Raw aquatic horror. ^orange;Type: Seafood^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生水恐怖症。 ^orange;タイプ:シーフード^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Lobster"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ロブスター"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A little bit of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金属のほんの少し。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Sssteel."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "スチール製。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Statement. A small bit of metal."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "声明。 金属の小さなビット。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avali Hull Plating"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アバリハルめっき"
+    }
+  ]
+]

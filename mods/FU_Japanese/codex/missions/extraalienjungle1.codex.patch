@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mysterious script found in ancient jungle ruins. Needs translation."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "古代ジャングル遺跡で発見された神秘的な文字。 翻訳が必要です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "(Brine Star) Ancient Text"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "(ブラインスター)古代のテキスト"
+    }
+  ]
+]

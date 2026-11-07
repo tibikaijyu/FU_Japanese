@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small pod for sleeping, made for a X'i."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シー用に作られた睡眠用の小さなポッド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シアンベッド"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Avian Pyramid Body for a spaceship."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙船用のアヴィアンピラミッドボディ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Avian Pyramid Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アヴィアンピラミッド"
+    }
+  ]
+]

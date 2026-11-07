@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Ew! Throw it at someone!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "うわっ! 誰かに投げなさい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Burrower"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "トンネル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Giant Worm ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "巨大ワーム ^yellow;^reset;"
+    }
+  ]
+]

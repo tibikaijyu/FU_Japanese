@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Only activates when its input node remains live for a set amount of time."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "入力ノードが一定時間稼働している状態でのみ有効になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Only activatesss when itsss input node remainsss live for a ssset amount of time."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ss が有効になるのは、その ss 入力ノードが ss に留まる時間だけです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informative. Only activates when its input node remains live for a set amount of time."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "インフォマティブ。 入力ノードが一定時間稼働している状態でのみ有効になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Countdown Delay Timer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カウントダウン遅延タイマー"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The stuff of raw entropy across the universe."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "宇宙の生のエントロピーの要素。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dark Matter"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗黒物質"
+    }
+  ]
+]

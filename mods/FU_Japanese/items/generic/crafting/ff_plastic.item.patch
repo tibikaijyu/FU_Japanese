@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "By the power of science, behold Polyetheretherketone! This synthetic compound is strong, heat-resistant, and bio-compatible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "科学の力によって、ポリエーテルエーテルケトンを見なさい! この合成化合物は、強力で耐熱性、および生体適合性である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Advanced Plastic"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "先端プラスチック"
+    }
+  ]
+]

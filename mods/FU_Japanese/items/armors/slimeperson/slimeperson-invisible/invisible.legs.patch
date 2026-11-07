@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Nothing to see here."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ここで見るものは何もない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Invisible Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "目に見えないズボン"
+    }
+  ]
+]

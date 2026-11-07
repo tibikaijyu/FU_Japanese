@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Launches 2 drones which project a defensive energy shield."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "防御エネルギーシールドを投射する 2 ドローンを発射。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protector Mech Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロテクター・メカアーム"
+    }
+  ]
+]

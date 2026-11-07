@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A deep red lava lamp. It gives off an ominous glow."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "深い赤い溶岩ランプ。 不吉な輝きを放ちます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadowy Red Lava Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "影の赤いラバランプ"
+    }
+  ]
+]

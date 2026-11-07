@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A thick mucus. It's tempting to poke it.\n^green;Extractable^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "厚い粘液。 それを突っ込むのが魅力的です。\n^green;抽出可能^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssslimy!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "くそったれ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Hesitation. A vulgar, slimy block."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "ためらう。 下品でスリムなブロック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Block"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムブロック"
+    }
+  ]
+]

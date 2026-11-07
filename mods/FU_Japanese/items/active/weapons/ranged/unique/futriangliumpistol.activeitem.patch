@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An effective and deadly energy weapon.\n^cyan;Inflicts Poisoned^reset;\n^yellow;Counts as 'energy' for set bonuses ^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "有効で致命的なエネルギー兵器。\n^cyan; 毒を与える ^reset;\n^yellow;セットボーナスの「エネルギー」としてカウント ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Showstopper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ショーストッパー"
+    }
+  ]
+]

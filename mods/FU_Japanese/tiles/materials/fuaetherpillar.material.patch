@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy cosmic pillar. Great for building."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈な宇宙の柱。 建物に最適です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルピラー"
+    }
+  ]
+]

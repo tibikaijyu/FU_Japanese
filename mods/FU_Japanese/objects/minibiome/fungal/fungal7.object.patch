@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mushroom that appears to glow"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "光を放つキノコ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Bioluminescent mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発光キノコ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The standard-issue for Protectorate peacekeepers."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "保護国平和維持のための標準問題。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Protectorate Carbine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "保護炭"
+    }
+  ]
+]

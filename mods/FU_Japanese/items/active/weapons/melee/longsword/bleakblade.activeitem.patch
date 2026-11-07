@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A legendary Nightarian blade. It's said it can cleave time and space."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "伝説のナイトアリアンの刃。 時間と空間をつぶすことができると言われています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Bleak Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブレアブレード"
+    }
+  ]
+]

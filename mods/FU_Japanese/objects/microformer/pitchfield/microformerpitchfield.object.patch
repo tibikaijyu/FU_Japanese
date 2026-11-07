@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Transforms an area of a planet into a tar-covered waste."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "惑星の面積をタールで覆われた廃棄物に変換します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pitch Microformer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピッチマイクロフォーマ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Quietus forged for a killer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クワイタスは殺人犯のために偽造した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Assassin's Blade"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "暗殺者の刃"
+    }
+  ]
+]

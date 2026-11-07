@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Rocket/Grenade Launcher: Damage x^green;1.2^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Burning"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset;ロケット・グレネード発射器:損傷x^green;1.2^reset;\n^yellow;^reset; ^cyan;免疫^reset;焼成"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gendarme Greaves"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジェンダルメ墓"
+    }
+  ]
+]

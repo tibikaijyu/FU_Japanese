@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This unusual meat never rots and constantly undulates in fear."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この珍しい肉は決して腐らず、恐怖の中で絶えず起伏します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Undulating Meat"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉のしびれ"
+    }
+  ]
+]

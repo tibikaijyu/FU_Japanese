@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Extreme Heat: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;免疫^reset;:極限熱:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Dragon's Beard Herb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "竜のあごひげ"
+    }
+  ]
+]

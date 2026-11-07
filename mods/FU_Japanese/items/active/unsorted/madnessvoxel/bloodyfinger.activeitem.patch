@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It looks identical to your index finger."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "人差し指と同じように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Bloody Finger"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "血まみれの指"
+    }
+  ]
+]

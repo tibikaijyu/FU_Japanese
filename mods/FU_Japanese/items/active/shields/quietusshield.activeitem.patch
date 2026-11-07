@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;Provides immunity to bee stings, most rads and insanity.^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green; 虫刺し、ほとんどの赤と狂気に対する免疫を提供します。^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Quietus Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クワイタスの盾"
+    }
+  ]
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "My name is..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "私の名前は...."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aetherium Rapier"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ラピア"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Vengeance be thy pursuit."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "冒険はあなたの追求です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Aetherium Puncturer"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "アテロームパンクチャー"
+    }
+  ]
+]

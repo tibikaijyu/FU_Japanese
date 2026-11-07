@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A honey crystal bed. When you want to dream of being rich."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハチミツクリスタルベッド。 金持ちになる夢を見たいとき。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Honey Crystal Bed"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニークリスタルベッド"
+    }
+  ]
+]

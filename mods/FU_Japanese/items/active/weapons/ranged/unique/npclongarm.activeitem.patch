@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Spread joy and shrapnel."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "喜びとシャプネルを広げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Longarm Shotgun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "長銃"
+    }
+  ]
+]

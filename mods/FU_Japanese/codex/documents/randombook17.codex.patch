@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "From cover to cover, this book appears to be a recounting of the life of your father."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "この本は表紙から表紙まで、あなたのお父さんの生涯を物語っているようです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Family History"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "家系"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Your Dad"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "お父さん"
+    }
+  ]
+]

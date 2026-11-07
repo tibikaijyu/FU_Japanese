@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I think maybe you're starting to see how this works. Depending on the resource you input, the outcome will vary. ^orange;Research^reset; is common, and can be stockpiled as a currency."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "仕組みが分かってきたようだね。入れる素材によって、出てくる物も変わる。^orange;研究ポイント^reset;はよく手に入り、通貨として蓄えておけるよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Gather ^green;Research^reset; from ^orange;Extraction^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;研究ポイント^reset;を^orange;抽出^reset;で手に入れる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Next, why don't you go and fetch 50 ^green;of nearly any natural tile^reset; and toss it in your extractor. ^orange;Research^reset; should be produced."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次は、^green;天然のブロックなら大抵何でもいい^reset;から、50個集めて抽出機に入れてみよう。^orange;研究ポイント^reset;が得られるはずだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "The Extractor II"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "抽出機 II"
+    }
+  ]
+]

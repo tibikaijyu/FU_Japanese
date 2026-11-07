@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Few axes would surpass this masterpiece."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この傑作を超える軸はほとんどない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デュラスチール軸"
+    }
+  ]
+]

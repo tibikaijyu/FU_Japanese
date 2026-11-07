@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Immune^reset;: Icy, Slush, Snow, Extreme Cold: 2m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;無効化^reset;:氷、雪、極寒:2m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kramil Spine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラミル脊椎"
+    }
+  ]
+]

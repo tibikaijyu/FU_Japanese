@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange language is carved around the edge of this disk, whispering into your mind."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な言語がこのディスクの端に刻まれ、あなたの心にささやきます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Strange Glyph"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇妙なグリフ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Smells exactly like corpses, and your grandfathers house."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "死体のように匂い、そしてあなたの祖父の家。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stench Candle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ステッチキャンドル"
+    }
+  ]
+]

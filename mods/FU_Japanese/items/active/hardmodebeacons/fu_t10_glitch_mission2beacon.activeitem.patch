@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Teleports the user to the ^orange;Dark Glitch Keep^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nExtreme Electrical Storms\nExtreme Radiation\nExtreme Aetheric Atmosphere\nMaddening Atmosphere"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ユーザーを悪夢の世界の ^orange; ダークグリッチキープ ^reset; にテレポートします。\n^red; 環境上の危険 ^reset; :\n電気嵐\n極端放射線\n極端にエーテル的な大気\nマデニング大気"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beacon: ^orange;Dark Keep^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ビーコン ^orange;ダークキープ^reset;"
+    }
+  ]
+]

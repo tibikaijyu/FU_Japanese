@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;Water Walking^reset;, ^cyan;Immune: Freeze & +25% Ice Res^reset;: 1m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;水歩く^reset;, ^cyan;免疫:凍結及び+25%氷耐性 ^reset;:1m"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blue Melon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブルーメロン"
+    }
+  ]
+]

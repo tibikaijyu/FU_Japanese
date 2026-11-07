@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A crateful of nothing."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "何もない箱。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Empty Crate"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "空箱"
+    }
+  ]
+]

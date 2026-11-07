@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This sign is unmistakably mistaken."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この看板は間違いない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "One Way?"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "片道?"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/gui/disabledLabel/value",
+      "value": "CAN'T CONNECT TO S.A.I.L"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/disabledLabel/value",
+      "value": "S.A.I.L. に接続できません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "^#b9b5b2; Select your destination"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/subtitle",
+      "value": "^#b9b5b2; 目的地を選択"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/windowtitle/title",
+      "value": " Navigation Console"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/windowtitle/title",
+      "value": " 航行コンソール"
+    }
+  ]
+]

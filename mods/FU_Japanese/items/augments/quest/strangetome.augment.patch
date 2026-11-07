@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "^#ffcd00;The King in Yellow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "^#ffcd00;黄色で王^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Energy x^green;1.6^reset;\n^red;-20% ^reset;Cosmic Resistance\n^red;-20% ^reset;Shadow Resistance\n^red;-20% ^reset;Mental Protection"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エネルギーx^green;1.6^reset;\n^red;-20% ^reset;耐宇宙性\n^red;-20% ^reset;シャドウレジスタンス\n^red;-20% ^reset;精神保護"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#ffcd00;The King in Yellow^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#ffcd00;黄色で王^reset;"
+    }
+  ]
+]

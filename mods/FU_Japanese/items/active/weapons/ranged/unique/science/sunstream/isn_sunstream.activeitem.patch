@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The sun, in your hands. Truly deadly, and unique.\n^yellow;Homing alt^reset;\n^green;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの手に太陽。 真に致命的で、ユニークです。\n^yellow; ホーミングアルト^reset;\n^green;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Polaris"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポラリス"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Even more powerful and boomy.\n^yellow;Homing alt^reset;\n^green;Bouncing projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "さらに強力でブーム。\n^yellow; ホーミングアルト^reset;\n^green;弾頭発射体^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;Singularity^reset; ^yellow;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "^cyan;特異性^reset; ^yellow;^reset;"
+    }
+  ]
+]

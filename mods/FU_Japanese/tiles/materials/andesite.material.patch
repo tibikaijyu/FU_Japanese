@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rough volcanic stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "荒い火山岩"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Andesite"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アンドサイト"
+    }
+  ]
+]

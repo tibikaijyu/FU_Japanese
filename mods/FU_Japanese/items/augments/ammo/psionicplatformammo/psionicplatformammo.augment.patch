@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/ammoName",
+      "value": "Kinetic Platform"
+    },
+    {
+      "op": "replace",
+      "path": "/ammoName",
+      "value": "念動の足場"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "You can shape the air into useable platforms."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "利用可能なプラットフォームに空気を形作ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kinetic Ammo"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "運動弾"
+    }
+  ]
+]

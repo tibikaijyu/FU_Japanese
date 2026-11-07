@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pours Liquids into the world.\n^blue;Input^white;1^blue;: ^white;On/Off Switch\n^blue;Input^white;2^blue;: ^white;item network^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体を世界に注ぎます。\n^blue; 入力 ^white;1^blue; : ^white; スイッチをオフにします。\n^blue; 入力 ^white;2^blue; : ^white; アイテムネットワーク ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "発声"
+    }
+  ]
+]

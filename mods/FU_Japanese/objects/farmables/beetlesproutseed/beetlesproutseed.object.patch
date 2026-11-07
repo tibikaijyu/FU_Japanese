@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange insect-jelly plant. Very tough."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な昆虫ゼリー植物。 非常に厳しい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Beetle Sprout"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カブトムシの芽"
+    }
+  ]
+]

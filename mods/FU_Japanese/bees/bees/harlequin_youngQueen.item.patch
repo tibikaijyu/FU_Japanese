@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Harlequin Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ハーレクイン・ヤング・クイーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Harlequin Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若いハーレキンクイーン"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Proto Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "プロト植物"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Proto Plant"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プロト植物"
+    }
+  ]
+]

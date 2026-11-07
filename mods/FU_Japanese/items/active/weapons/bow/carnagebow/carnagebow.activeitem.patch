@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Power Arrow"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "パワーアロー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires homing arrows."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ホーミングアローを発射する。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carnage Bow"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カーネギーボウ"
+    }
+  ]
+]

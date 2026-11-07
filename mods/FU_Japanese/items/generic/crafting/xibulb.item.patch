@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A highly radioactive plant-like bulb."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射能の高い植物様球根。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Bulb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "西安球"
+    }
+  ]
+]

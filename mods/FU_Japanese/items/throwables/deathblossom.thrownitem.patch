@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Toss this hideous thing, and enjoy the mayhem."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この恐ろしいものを投げて、大麻を楽しみます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deathblossom Mushroom"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キノコ"
+    }
+  ]
+]

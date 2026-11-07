@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Some tacky, stupid-looking girly crown only a moron would obsess over.\n^green;When wearer is ^orange;active^green;, generate madness.^reset;\n^red;Causes insanity^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "くだらない、愚かな女の子の王冠は、ただの暴徒だけがこだわるでしょう。\n^green; 着用者が ^orange; アクティブ ^green; の場合は狂気を発生させます。^reset;\n^red; 狂気を引き起こす ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crown of the Idiot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "イディオット王冠"
+    }
+  ]
+]

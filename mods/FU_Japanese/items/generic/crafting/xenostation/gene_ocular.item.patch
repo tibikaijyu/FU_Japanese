@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Eyes where there shouldn't be."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ありえないところに目。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Optics"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "光学"
+    }
+  ]
+]

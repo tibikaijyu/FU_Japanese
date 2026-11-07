@@ -1,0 +1,218 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "Valorous. Into the fray!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/0",
+      "value": "勇敢。 狂乱の中へ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "Enraged. Your blood will soil the land!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/1",
+      "value": "激怒。 あなたの血は土地を汚すでしょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/2",
+      "value": "Grim. To battle!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/attack/default/default/2",
+      "value": "悲鳴。 戦う!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "Grateful. Thank you for rescuing me."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/0",
+      "value": "ありがとう 助けてくれてありがとう。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "Eager. Allow me to do my duty as a knight and join you."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/1",
+      "value": "早く! 騎士として私の義務を果たして、あなたと一緒に参加してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/join/default/default/2",
+      "value": "Vengeful. Let me after those who locked me in here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/join/default/default/2",
+      "value": "ベンジュフル。 私をここに閉じ込めてくれた人を追いかけて!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "Victorious. You are no match for me!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/0",
+      "value": "勝利。 あなたは私には似合わない!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "Dark. You are weak!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/1",
+      "value": "暗かった。 あなたは弱い!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/2",
+      "value": "Smug. Is this the best of the Warlord's lackeys?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/2",
+      "value": "くすくす笑い。 これが武将の不足のベストですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/3",
+      "value": "Pumped. Is that all they have to throw at us?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/3",
+      "value": "ポンプ。 それだけで私たちを見捨てるのでしょうか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/4",
+      "value": "Calm. Rest in peace."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromCombat/default/default/4",
+      "value": "落ち着け。 安らかに休む。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "Acknowledgement. Greetings once more."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/0",
+      "value": "承認。 もう一度挨拶。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/1",
+      "value": "Excited. Let's head off together!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/1",
+      "value": "興奮した。 一緒に出発しよう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/2",
+      "value": "Eager. You ready to move on?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/returnFromWait/default/default/2",
+      "value": "早く! 準備はいいですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "Unhappy. Must you go on without me? I wish to fight for glory!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/0",
+      "value": "不幸です 私なしで行く必要がありますか。 栄光のために戦いたい!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/1",
+      "value": "Thankful. You are kind to scout ahead."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/1",
+      "value": "ありがとう あなたは前方を偵察して親切です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/2",
+      "value": "Bored. Guard duty, eh?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/2",
+      "value": "退屈だ。 警備員の義務?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/3",
+      "value": "Questioning. Do you need a moment?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/follower/wait/default/default/3",
+      "value": "質問。 少し時間が必要ですか。"
+    }
+  ]
+]

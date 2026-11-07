@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A cute lamp with a pink light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ピンクのライト付きのかわいいランプ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Cute Lamp"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "かわいいランプ"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "While hard to decipher, there are schematics within this book that detail a shield, of sorts, composed of various unusual materials. It states that one should place five Noxcium bars, an Elder Tome and five Elder Fragments within some sort of altar..."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "解読は難しいが、この本には、様々な珍しい材料からなる一種の盾を詳述するスキーマがある。 ノキシウムバーを五つ、エルダー・トームを一つ、エルダー・フラグメントを五つ、祭壇の中に置けばよいという。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A descriptive text about armor"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "甲羅に関する記述テキスト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Vektai Molla"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ヴェクタイ・モラ"
+    }
+  ]
+]

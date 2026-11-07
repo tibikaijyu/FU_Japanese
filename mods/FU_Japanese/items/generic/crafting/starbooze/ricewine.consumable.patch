@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A bitter, low quality wine. But it works.\n^green;Heal ^white;10 ^gray;(^white;2s^gray;)^reset;, 35% ^red;Slow^reset;, ^red;Drunk^gray; (^white;30s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "苦い、低品質のワイン。 しかし、それは機能します。\n^green;癒し ^white;10 ^gray;(^white;2ス)^gray;)^reset;, 35% ^red;ゆっくり^reset;, ^red;酒^gray; (^white;30ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Rice Wine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "酒"
+    }
+  ]
+]

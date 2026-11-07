@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "Meliope"
+    },
+    {
+      "op": "replace",
+      "path": "/baseParameters/capturedMonsterName",
+      "value": "メリオーペ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A majestic deer-like creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雄大な鹿のような生き物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meliope"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "メリオーペ"
+    }
+  ]
+]

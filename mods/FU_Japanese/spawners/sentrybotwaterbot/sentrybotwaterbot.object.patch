@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A reliable sidekick for watering your garden."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの庭に水をまくための信頼性の高いサイドキック。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Water Bot"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ウォーターボット"
+    }
+  ]
+]

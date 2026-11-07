@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Pumps liquids.\n^blue;Input^white;1^blue;: ^white;On/Off Switch\n^blue;Input^white;2^blue;: ^white;compression\n^red;Output^white;1^red;: ^white;item network\n^red;Output^white;2^red;: ^white;unused^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "液体を吸い上げます。\n^blue; 入力 ^white;1^blue; : ^white; スイッチをオフにします。\n^blue;入力^white;2^blue;:^white;圧縮\n^red;出力^white;1^red;:^white;アイテムネットワーク\n^red;出力^white;2^red;:^white;unused^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Pump"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムポンプ"
+    }
+  ]
+]

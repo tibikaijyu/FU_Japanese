@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/contentPages/0",
+      "value": "...The larger question still remains, however: What are Black Stars? How do they fail to generate any real light and yet maintain orbits and gravity...and allow for life in their sphere of influence? None of it makes any sense and there must be -some- sort of sense to it. And yet...conventional physics cannot adequately explain it. Not even Denshubbs Law of Matter can apply to them in full, a fact that still baffles science to this day."
+    },
+    {
+      "op": "replace",
+      "path": "/contentPages/0",
+      "value": "……しかし、より大きな疑問は残る。暗黒星とは何なのか。まともな光を発しないのに、どうして軌道と重力を保ち、しかもその影響圏に生命の存在を許しているのか。何もかも理解できないが、何らかの筋道はあるはずだ。それでも……従来の物理学では十分に説明できない。デンシャブの物質法則さえ完全には当てはまらず、この事実は今なお科学者を困惑させている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Datacube"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "データキューブ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Black Stars"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "黒星"
+    }
+  ]
+]

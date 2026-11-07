@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An extremely durable titanium hammer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久性に優れたチタンハンマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンハマー"
+    }
+  ]
+]

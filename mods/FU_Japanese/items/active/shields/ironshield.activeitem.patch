@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;-20% Fall Damage^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;-20%フォールダメージ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Iron Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "アイアンシールド"
+    }
+  ]
+]

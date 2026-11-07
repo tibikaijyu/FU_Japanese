@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lightweight, yet strong blade."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "軽量でありながらも強い刃。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Titanium Longsword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "チタンロングソード"
+    }
+  ]
+]

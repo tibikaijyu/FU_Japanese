@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mental health expert. Reduces madness effects up to 40%. Reduces fuel costs by 2%."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "メンタルヘルスの専門家。 40%まで狂気効果を軽減します。 2% で燃料コストを削減します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Ship Psychologist Contract"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "船舶心理学者契約"
+    }
+  ]
+]

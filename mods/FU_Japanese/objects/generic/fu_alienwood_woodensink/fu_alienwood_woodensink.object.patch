@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "An alien wood sink."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "エイリアンの木の流し。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alien Wood Sink"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エイリアンウッドシンク"
+    }
+  ]
+]

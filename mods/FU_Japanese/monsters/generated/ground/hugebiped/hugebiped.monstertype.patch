@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A massive primeval creature."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "巨大な原生生物。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Mega-Fauna"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大動物相"
+    }
+  ]
+]

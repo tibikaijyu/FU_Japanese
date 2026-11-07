@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "That's a good start. Be sure to keep some wheat as you'll need it next."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "それは良いスタートです。 次に小麦が必要なので、必ず小麦をとっておきなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^orange;hops^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^orange;ホップ ^reset; を ^orange;科学前哨基地^reset; で持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "For the next steps you'll need some ^orange;Hops^reset;. Make them grow and gather at least 2 ^orange;Hops^reset;. Because without ^orange;hops^reset;, we get no ^green;beer^reset;. And without beer we cry."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "次のステップでは、いくつかの^orange;ホップ^reset; が必要になります。 少なくとも 成長させ 集まって 2 ^orange;希望^reset;. なぜなら ^orange;ホップ^reset;だめだ ^green;ビール^reset;. そして、ビールなしで、私たちは泣きます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "I hops"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "ホップ"
+    }
+  ]
+]

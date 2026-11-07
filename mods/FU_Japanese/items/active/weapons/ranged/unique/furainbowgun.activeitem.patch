@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Prismatic blasts that have a special property.\n^yellow;Impact with alt creates more projectiles^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特別な特性を持つプリズムブラスト。\n^yellow;アルトと衝突するとより多くの発射体が生まれます^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prismatic Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "プリズム大砲"
+    }
+  ]
+]

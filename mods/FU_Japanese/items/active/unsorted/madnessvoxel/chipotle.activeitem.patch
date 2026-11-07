@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The fact that this place still exists is maddening."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この場所がまだ存在するという事実は狂っている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "A Chipotle Coupon (2 for $24.99)"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Chipotleクーポン (2 for $\\24.99)"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Blink in the air!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空中を点滅!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#77acc3;Air Blink^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#77acc3;空中瞬間移動^reset;"
+    }
+  ]
+]

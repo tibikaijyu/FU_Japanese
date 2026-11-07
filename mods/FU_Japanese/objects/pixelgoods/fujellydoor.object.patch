@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "It's all soft and bouncy-like! Wee!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "すべて柔らかく弾力のあるものです! うわっ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jelly Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ゼリードア"
+    }
+  ]
+]

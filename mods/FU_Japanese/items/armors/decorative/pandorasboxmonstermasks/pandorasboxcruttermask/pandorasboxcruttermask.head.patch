@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thankfully not nearly as poisonous as the real thing!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ありがたいことに、本物ほど有毒ではありません!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Crutter Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クラッターマスク"
+    }
+  ]
+]

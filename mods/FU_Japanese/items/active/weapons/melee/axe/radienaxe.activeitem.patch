@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Thick, meaty weapon made from X'ian bulbs."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シアンの球根から作られた厚くて肉っぽい武器。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "X'ian Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "西安軸"
+    }
+  ]
+]

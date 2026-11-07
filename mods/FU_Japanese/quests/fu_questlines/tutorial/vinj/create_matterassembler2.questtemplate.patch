@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "I was ^green;testing your worth^reset; and you passed the test. Your mind is sharp, and I think you'll be an asset to the scientific community. Thank you, ^orange;Agent^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "実は^green;君の実力を試していた^reset;んだけど、見事に合格だ。頭の切れる君なら、科学界の力になってくれるはず。ありがとう、^orange;隊員さん^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;9 Wires^reset; to ^orange;Vinalisj^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;ワイヤー9個^reset;を^orange;ヴィナリシュ^reset;に届ける。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Use your ^orange;Machining Table^reset; now, and create 9 ^orange;Wire^reset; and bring them to me. I'll jury-rig a fix for your ^green;Teleporter^reset; so that you can ^green;warp to distant locations^reset; such as the ^orange;Science Outpost^reset;!"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "^orange;加工作業台^reset;を使い、^orange;ワイヤー^reset;を9個作って持ってきてほしい。君の^green;テレポーター^reset;を応急修理して、^green;遠くの場所へワープ^reset;できるようにしよう。^orange;科学前哨基地^reset;にも行けるようになるよ！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Repairing Your Teleporter"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "テレポーターの修理"
+    }
+  ]
+]

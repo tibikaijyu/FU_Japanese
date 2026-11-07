@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A basic microchip."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "基本的なマイクロチップ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Microchip"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "マイクロチップ"
+    }
+  ]
+]

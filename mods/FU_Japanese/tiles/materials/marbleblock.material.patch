@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bricks made from smooth marble."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "滑らかな大理石から作られたレンガ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Marble Bricks"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "大理石れんが"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Yay. Ash."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "そうね。 アッシュ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Volcanic Ash"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火山灰"
+    }
+  ]
+]

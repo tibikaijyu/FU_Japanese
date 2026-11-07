@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Panelling made from gold and a crystal alloy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "金と水晶合金から作られたパネル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Basic Crystal Panels"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "基礎結晶パネル"
+    }
+  ]
+]

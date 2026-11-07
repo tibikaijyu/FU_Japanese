@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The origin of this meat is not clear, but it sure -looks- familiar...\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75s^gray;)^reset; \n^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この肉の起源ははっきりしないが、確かに - 見慣れた...\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75ス)^gray;)^reset; \n^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Meat Pickle"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "肉漬物"
+    }
+  ]
+]

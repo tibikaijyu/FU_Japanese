@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decent biofuel - even better if processed.\n^blue;+^white;3 ^blue;Fuel^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "まともなバイオ燃料 - 処理した場合はさらに良い。\n^blue;+^white;3 ^blue;燃料^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Erithian Algae"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エリス藻類"
+    }
+  ]
+]

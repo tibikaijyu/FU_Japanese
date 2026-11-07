@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Bones and plates and increased bone toughness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨とプレートと骨靭性の増加。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Skeletal Structure"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "骨格構造"
+    }
+  ]
+]

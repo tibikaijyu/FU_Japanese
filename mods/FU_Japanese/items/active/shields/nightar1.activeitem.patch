@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^green;-20% Fall Damage, +10 Shield Bash^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^green;-20%フォールダメージ、+10シールドバッシュ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warsworn Shield"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "戦国武具"
+    }
+  ]
+]

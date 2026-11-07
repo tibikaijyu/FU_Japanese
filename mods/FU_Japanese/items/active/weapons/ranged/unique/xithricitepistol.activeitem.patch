@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The cosmos right at your side.\n^cyan;Cosmic blasts^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの側にある宇宙。\n^cyan;コスミックブラスト^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Xithricite Pistol"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シトリシテピストル"
+    }
+  ]
+]

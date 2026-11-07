@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Summons a helpless Punchy for you to beat up."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "打ち負かすための無力なパンチングなサモンズ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Punchy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パンチー"
+    }
+  ]
+]

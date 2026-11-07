@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damages and captures creatures. Handy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "生物にダメージを与え捕獲する。 便利。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Capture Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "捕獲銃"
+    }
+  ]
+]

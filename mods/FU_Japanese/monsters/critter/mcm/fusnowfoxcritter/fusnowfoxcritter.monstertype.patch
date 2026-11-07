@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A small carnivorous animal found in cold climates. It has white fur and is known for its cleverness."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "寒冷地で発見された小さな肉食動物。 白い毛皮で、その利口さで知られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Snow Fox"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スノーフォックス"
+    }
+  ]
+]

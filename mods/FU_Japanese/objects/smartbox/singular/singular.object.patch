@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Storage with only one slot!\nItem-Network compatible."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スロットは一つだけ!\nアイテム-ネットワーク対応。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Single-Slot Storage"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シングルスロットストレージ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Smartbox"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "スマートボックス"
+    }
+  ]
+]

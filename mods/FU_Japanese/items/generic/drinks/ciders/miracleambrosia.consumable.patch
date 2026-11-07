@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A miraculous ambrosia.\nFully restores ^green;Health ^reset;and ^green;Energy^reset;, as well as filling your ^green;belly^reset; and making you ^red;drunk^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇跡的な刺青症。\n^green;体力 ^reset;と^green;エネルギー ^reset;をフル復元し、あなたの^green;ベリー^reset;を充填し、あなたに^red;酔っ払って^reset;。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Miracle Ambrosia"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "奇跡性アンブロジア"
+    }
+  ]
+]

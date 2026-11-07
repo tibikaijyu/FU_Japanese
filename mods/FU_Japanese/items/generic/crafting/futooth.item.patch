@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A tooth."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "歯。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tooth"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "歯"
+    }
+  ]
+]

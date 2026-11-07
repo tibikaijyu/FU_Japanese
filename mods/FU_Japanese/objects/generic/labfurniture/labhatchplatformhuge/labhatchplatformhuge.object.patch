@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This platformed hatch is made of some sort of bulletproof material."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "このプラットフォームハッチは、ある種の防弾素材で作られています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Huge Lab Platform Hatch"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "巨大なプラットフォームハッチ"
+    }
+  ]
+]

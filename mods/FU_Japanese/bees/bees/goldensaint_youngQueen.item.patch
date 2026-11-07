@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Golden Saint Young Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "黄金の聖王妃"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Young Golden Saint Queen"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "若き黄金の女王"
+    }
+  ]
+]

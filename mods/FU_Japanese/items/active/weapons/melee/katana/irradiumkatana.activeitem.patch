@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Radioactive stabby fun. Two-handed.\n^cyan;Inflicts Rad-Burn^reset;\n^yellow;5 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "放射性の刺青の楽しみ。 両手。\n^cyan;放射線熱傷 ^reset;\n^yellow;5 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Irradium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタナイラジウム"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lab-created and highly malleable metal that can serve many uses."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "多用途に対応できるラボ作成で可鍛性の高い金属です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Morphite Bar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "モルヒット棒"
+    }
+  ]
+]

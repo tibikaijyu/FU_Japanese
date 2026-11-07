@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Careful. You could cut yourself on its edge."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "気をつけて。 あなたはその端で自分自身を切ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shadow Hedgeleap Mask"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シャドウヘッジジャンプマスク"
+    }
+  ]
+]

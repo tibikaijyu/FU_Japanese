@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A model of an unknown planet."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "未知の惑星のモデル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Medieval Globe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "中世地球"
+    }
+  ]
+]

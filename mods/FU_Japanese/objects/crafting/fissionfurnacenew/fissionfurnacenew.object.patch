@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This reliable unit is capable of making even the toughest alloys into usable metal."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この信頼性の高いユニットは、最もタフな合金でも使用可能な金属にすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Fission Furnace^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;核分裂炉^reset;"
+    }
+  ]
+]

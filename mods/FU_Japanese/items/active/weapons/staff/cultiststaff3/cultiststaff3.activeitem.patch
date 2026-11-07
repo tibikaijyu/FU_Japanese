@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fashioned from bones and petrified wood."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "骨と石化木材からファッショナブル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/primaryAbility/name",
+      "value": "Elder Portal"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/name",
+      "value": "エルダーポータル"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Staff of Madness"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "狂気のスタッフ"
+    }
+  ]
+]

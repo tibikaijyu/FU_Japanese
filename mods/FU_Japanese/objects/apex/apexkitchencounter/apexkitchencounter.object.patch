@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hope you like bananas."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "バナナがお好きですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^orange;Apex Kitchen Counter^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^orange;エイペックスキッチンカウンター^reset;"
+    }
+  ]
+]

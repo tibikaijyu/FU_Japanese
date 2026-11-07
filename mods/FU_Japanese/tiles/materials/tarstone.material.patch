@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tarry Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "タリーストーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Tarry Stone"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "タリーストーン"
+    }
+  ]
+]

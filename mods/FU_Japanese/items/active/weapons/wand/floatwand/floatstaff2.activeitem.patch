@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A strange, modified Gravity Wand."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "奇妙な、変更された重力ワンド。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pinkie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピンキー"
+    }
+  ]
+]

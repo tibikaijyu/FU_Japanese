@@ -1,0 +1,170 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/defenseBoostFormat",
+      "value": "^red;Defense^reset; : %d"
+    },
+    {
+      "op": "replace",
+      "path": "/defenseBoostFormat",
+      "value": "^red;防御^reset;:%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/drainFormat",
+      "value": "Fuel Use: %.02f/s"
+    },
+    {
+      "op": "replace",
+      "path": "/drainFormat",
+      "value": "燃料利用: %.02f/s"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/energyBoostFormat",
+      "value": "^green;Energy^reset; : %d"
+    },
+    {
+      "op": "replace",
+      "path": "/energyBoostFormat",
+      "value": "^green;エネルギー^reset;:%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/energyFormat",
+      "value": "Energy: %d"
+    },
+    {
+      "op": "replace",
+      "path": "/energyFormat",
+      "value": "エネルギー:%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fuelBonusFormat",
+      "value": "^#e43774;Fuel Eff^reset; : %.02f"
+    },
+    {
+      "op": "replace",
+      "path": "/fuelBonusFormat",
+      "value": "^#e43774;燃料Eff^reset;:%.02f"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblModuleBonuses/value",
+      "value": "Module Bonuses:"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblModuleBonuses/value",
+      "value": "モジュールボーナス:"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblPrimaryColor/value",
+      "value": "Colours"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblPrimaryColor/value",
+      "value": "色"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/gui/lblSlot_horn/value",
+      "value": "Module"
+    },
+    {
+      "op": "replace",
+      "path": "/gui/lblSlot_horn/value",
+      "value": "モジュール"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/healthFormat",
+      "value": "Health: %d"
+    },
+    {
+      "op": "replace",
+      "path": "/healthFormat",
+      "value": "健康 %d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/massFormat",
+      "value": "^green;Mass^reset;: %.02ft"
+    },
+    {
+      "op": "replace",
+      "path": "/massFormat",
+      "value": "^green;質量^reset;：%.02fトン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/mobilityBoostFormat",
+      "value": "^orange;Speed^reset; : %d"
+    },
+    {
+      "op": "replace",
+      "path": "/mobilityBoostFormat",
+      "value": "^orange;速度^reset;：%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/mobilityControlFormat",
+      "value": "^orange;Agility^reset; : %d"
+    },
+    {
+      "op": "replace",
+      "path": "/mobilityControlFormat",
+      "value": "^orange;俊敏性^reset;：%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/mobilityFormat",
+      "value": "^orange;Mobility +^reset;: %d"
+    },
+    {
+      "op": "replace",
+      "path": "/mobilityFormat",
+      "value": "^orange;機動力＋^reset;：%d"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/mobilityJumpFormat",
+      "value": "^orange;Jump^reset; : %d"
+    },
+    {
+      "op": "replace",
+      "path": "/mobilityJumpFormat",
+      "value": "^orange;ジャンプ^reset;:%d"
+    }
+  ]
+]

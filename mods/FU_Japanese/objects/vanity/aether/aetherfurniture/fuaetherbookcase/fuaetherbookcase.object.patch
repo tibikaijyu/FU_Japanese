@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A shiny bookcase for storing books!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本を収納できるピカピカの本棚!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Bookcase"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテル本棚"
+    }
+  ]
+]

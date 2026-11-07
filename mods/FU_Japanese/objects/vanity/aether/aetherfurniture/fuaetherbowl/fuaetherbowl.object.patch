@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A simple pretty bowl."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "シンプルなかわいいボウル。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Aether Bowl"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "エーテルボウル"
+    }
+  ]
+]

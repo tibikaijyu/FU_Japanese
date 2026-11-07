@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A high-quality industrial steel wall."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "高品質の工業用スチールウォール。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Alloy Metal Tile"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "合金タイル"
+    }
+  ]
+]

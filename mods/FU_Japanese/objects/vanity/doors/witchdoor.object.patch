@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Looks like the door to a witch's cabin."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "魔女の小屋へのドアのように見えます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Witch Door"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "魔女のドア"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cookies for carnivores.\n^pink;Insanity^gray;, ^pink;Pus ^cyan;Immunity ^gray;(^white;5m^gray;)^reset; ^red;Type: Raw Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "肉食用のクッキー。\n^pink;狂気^gray;, ^pink;ポス ^cyan;免疫 ^gray;(^white;5え?^gray;)^reset; ^red;タイプ:生肉^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fleshy Meat Cookie"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "フレッシュミートクッキー"
+    }
+  ]
+]

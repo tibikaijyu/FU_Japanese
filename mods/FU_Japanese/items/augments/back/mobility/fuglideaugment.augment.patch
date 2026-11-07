@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "Glide"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "滑空"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Significantly reduces your falling speed in the air."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空気中の落下速度を大幅に下げます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Glide"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "滑空"
+    }
+  ]
+]

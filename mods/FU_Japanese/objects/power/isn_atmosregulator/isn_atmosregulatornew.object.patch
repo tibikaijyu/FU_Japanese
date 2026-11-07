@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Generates a field that protects against environmental hazards. ^cyan;Requires ^orange;220W^cyan; of power^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "環境問題から保護する分野を創出します。 ^cyan;必須 ^orange;220W:^cyan; 権力の^reset;."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^cyan;Atmospheric Regulator^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^cyan;大気調節器^reset;"
+    }
+  ]
+]

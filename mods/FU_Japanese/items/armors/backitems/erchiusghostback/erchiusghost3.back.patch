@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Provides an ^orange;air supply^reset;, ^cyan;Ghost Immunity^reset; and a ^#00aa00;green glow^reset;. No penalty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;空気供給^reset;、^cyan;ゴースト免疫^reset;とa^#00aa00;緑色光^reset;を提供する。 ペナルティなし。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Black Erchius Buddy"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "黒エルキウスバディ"
+    }
+  ]
+]

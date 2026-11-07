@@ -1,0 +1,230 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A tech station. I can manage my crew and talk to S.A.I.L through this."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "テックステーション。 クルーを管理し、これを通じてS.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "I can use this station to manage my crew and talk to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "この駅を使って乗組員を管理し、S.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This tech station allows me to communicate with S.A.I.L and enable tech!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この技術ステーションでは、S.A.I.L.とコミュニケーションを取り、技術を有効にすることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "System is down, please reboot."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/0/0",
+      "value": "システムがダウンしている、再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "Please reboot the system."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/1/0",
+      "value": "システムを再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "Reboot process remains uninitiated."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/2/0",
+      "value": "再起動プロセスはまだ開始されていません。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "To make use of your S.A.I.L please reboot."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/3/0",
+      "value": "S.A.I.Lを利用するには再起動してください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "Rebooting has shown to improve ship interaction satisfaction levels by 73%."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/4/0",
+      "value": "再起動は、船の相互作用満足度を73%で改善することが示されている。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "Rebooting requires a conscious entity to interact with the S.A.I.L console."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakePlayer/5/0",
+      "value": "再起動には、S.A.I.Lコンソールと対話する意識的なエンティティが必要である。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "Rebooting..."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/0/0",
+      "value": "再起動..."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/1/0",
+      "value": "私はS.A.I.L、あなたの船ベースの人工知能格子です。 私はあなたの船の整備を手伝います。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "I am also programmed to offer you information and advice."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/2/0",
+      "value": "私はまた、情報とアドバイスを提供するためにプログラムされています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "Earth was attacked by an unknown force, and was subsequently annihilated."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/3/0",
+      "value": "地球は未知の部隊に攻撃され、その後消滅した。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "The ship's navigation systems were damaged in our escape. Our location is currently unknown."
+    },
+    {
+      "op": "replace",
+      "path": "/dialog/wakeUp/4/0",
+      "value": "船の航法システムが我々の逃亡で損傷した。 所在地は現在不明。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran use thisss followerss and talk to sshhip S.A.I.L!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "フローランはこれらのフォロワーを使用し、S.A.I.L.を黙らせましょう!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Informative. This tech station allows me to manage my crew and talk to S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "インフォマティブ。 この技術ステーションでは、乗組員を管理し、S.A.I.L.と話すことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A tech station. Allows me to communicate with S.A.I.L and manage my crew!"
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "テックステーション。 S.A.I.L.と連絡を取り、乗組員を管理できます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This station lets me manage my crew and allows me to communicate with S.A.I.L."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "この駅で乗組員を管理でき、S.A.I.L.と連絡をとることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Tech Station"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ナイトアールテックステーション"
+    }
+  ]
+]

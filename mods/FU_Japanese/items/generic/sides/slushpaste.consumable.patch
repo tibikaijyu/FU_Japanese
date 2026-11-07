@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A pureed mixture of snow and plant matter that can barely be termed food. It'll keep you from starving, but only just.\n^green;Heal ^white;10 ^gray;(^white;2s^gray;)^reset; ^green;Type: Plant^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほとんど食品と呼べない雪と植物物質の純粋な混合物。 飢えを防げますが、ただのことです。\n^green;癒し ^white;10 ^gray;(^white;2ス)^gray;)^reset; ^green;タイプ:植物^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slushpaste"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スラッシュペースト"
+    }
+  ]
+]

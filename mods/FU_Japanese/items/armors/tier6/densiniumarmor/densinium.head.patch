@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; Densinium Weapons: +^green;2^reset;% Crit Chance, Damage x^green;1.25^reset;\n^yellow;^reset; ^cyan;Immune^reset;: Poisoned, Oxygen, Gas, Pressure"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; デンシニウム兵器:+^green;2^reset;% 危機的状況と被害x^green;1.25^reset;\n^yellow;^reset; ^cyan;免疫^reset;毒、酸素、ガス、圧力。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Helm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "デンシニウムヘルム"
+    }
+  ]
+]

@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/augment/displayName",
+      "value": "The Wheel of Kluex"
+    },
+    {
+      "op": "replace",
+      "path": "/augment/displayName",
+      "value": "クルエクスの車輪"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Mid-Air Damage x^green;1.15^reset;\n+^green;10^reset;% Run Speed\n+^green;10^reset;% Jump Height"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "空中損傷x^green;1.15^reset;\n+^green;10^reset;% 走行速度\n+^green;10^reset;%ジャンプの高さ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "The Wheel of Kluex"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "クルエクスの車輪"
+    }
+  ]
+]

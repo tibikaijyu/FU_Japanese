@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Hides your secret identity."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "秘密の身元を隠します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hero Cowl"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヒーローカウル"
+    }
+  ]
+]

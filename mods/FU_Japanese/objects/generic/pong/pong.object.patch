@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This machine runs a game called 'Pong'."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この機械は「ポン」というゲームを走らせる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pong Machine"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポン機械"
+    }
+  ]
+]

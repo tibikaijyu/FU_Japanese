@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "'Blam', short for Butchered Lambian, a now extinct Floran favorite.\n^cyan;+^white;10% ^pink;Fire ^cyan;Res^gray;, ^pink;Fire ^cyan;Immunity ^gray;(^white;2m^gray;)^reset; ^orange;Type: Cooked Meat^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "「ブラム」は、フローランのお気に入りで絶滅した肉屋ランビアンの略。\n^cyan;+^white;10% ^pink;火 ^cyan;レズ^gray;, ^pink;火 ^cyan;免疫 ^gray;(^white;2え?^gray;)^reset; ^orange;タイプ:肉料理^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Blam"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "火傷"
+    }
+  ]
+]

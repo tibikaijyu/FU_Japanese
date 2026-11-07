@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A place to enjoy old-fashioned media like books or board games. \n^yellow;+6 Happiness^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "本やボードゲームなどの昔ながらのメディアを楽しむ場所。 \n^yellow;+6Happiness^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Community Library"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "コミュニティライブラリ"
+    }
+  ]
+]

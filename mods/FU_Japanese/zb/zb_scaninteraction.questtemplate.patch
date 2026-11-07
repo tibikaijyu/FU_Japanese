@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "Congratulations, you just broke something.\nBeam down/up so the scan interaction handler re-adds itself.\nIf this keeps happening, report it as a bug on the Steam page."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "おめでとう、何か壊れた。\nビームダウン/アップにより、スキャンインタラクションハンドラーが自身を再度追加します。\nこれが続く場合は、Steamページでバグとして報告します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "This quest (handles the scan interaction feature added by Ztarbound.\nJust accept it, and forget about its existence."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "このクエスト(Ztarboundによって追加されたスキャンインタラクション機能を扱う)。\nそれを受け入れ、その存在を忘れてください。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "^orange;[ZB]^reset; Scan Interaction Handler"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "^orange;[ZB]^reset;スキャンインタラクションハンドラ"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Lift off like a rocket! Watch those landings."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ロケットのように離陸! 着陸を見なさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortDescription",
+      "value": "Zero Burst IV"
+    },
+    {
+      "op": "replace",
+      "path": "/shortDescription",
+      "value": "バーストIV"
+    }
+  ]
+]

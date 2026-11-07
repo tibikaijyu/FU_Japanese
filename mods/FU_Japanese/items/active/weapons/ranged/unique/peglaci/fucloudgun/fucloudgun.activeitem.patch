@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fires clouds of exploding gas.\n^yellow;Extremely loud^reset;\n^green;Massive explosive area^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "爆発するガスの雲を発射する。\n^yellow; 非常に大きい^reset;\n^green; 大量爆薬場 ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Boom Cannon"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ブーム大砲"
+    }
+  ]
+]

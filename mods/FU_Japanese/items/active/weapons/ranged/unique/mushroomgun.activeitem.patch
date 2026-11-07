@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Tiny little explosive buddies spew out of this thing.\n^yellow;Area-Damage weapon, ^cyan;Floran^reset;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "小さな爆発的な仲間がこれを吐き出しました。\n^yellow;エリア - ダメージ武器、^cyan;フローラン^reset;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Fungal Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "菌類銃"
+    }
+  ]
+]

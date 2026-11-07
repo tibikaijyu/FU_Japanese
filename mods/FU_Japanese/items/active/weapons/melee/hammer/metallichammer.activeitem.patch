@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Sturdy. These junk parts make a solid weapon."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "頑丈。 これらのジャンク部分は固体兵器になります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Junk Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジャンクハマー"
+    }
+  ]
+]

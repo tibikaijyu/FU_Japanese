@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "Protect the temple!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/0",
+      "value": "神殿を守れ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "You dare intrude upon the most holy of places?"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/1",
+      "value": "もっとも神聖な場所をあえて思いついたのですか?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "The divine light of Kluex empowers me to slay you!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/2",
+      "value": "クルーエクスの神聖な光があなたを殺します!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "The piercing wrath of the aether will chill you, fiend!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/avian/default/3",
+      "value": "エーテルの突き刺さった怒りがあなたを冷やします、友よ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "Attack!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "攻撃！"
+    }
+  ]
+]

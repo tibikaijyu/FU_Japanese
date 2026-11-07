@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "This will really bring your lab to the next level! I recommend learning to use an ^orange;Item Transference Device^reset; as soon as you can. It is a truly powerful piece of technology when paired with ^orange;Terminals^reset; and powered machinery."
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "これで研究室が一段と進歩するよ！ できるだけ早く^orange;アイテム転送装置^reset;の使い方を学ぶといい。^orange;端末^reset;や電動機械と組み合わせると、とても強力な技術になる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "Bring the ^green;Armorworks^reset; to me at the ^orange;Science Outpost^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/turnInDescription",
+      "value": "^green;武具製作台^reset;を、^orange;科学前哨基地^reset;にいる私の所へ持ってくる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "Now that you have a firm concept of how to use your well-earned resources, perhaps it is time we delve into something more cerebral? You can start by making an ^orange;Electronics Center^reset;. Conduct ^orange;Research^reset; into ^orange;Electronics^reset; to get started."
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "苦労して集めた資源の使い方も、しっかり理解できたようだね。そろそろ、もう少し頭を使うことに挑戦しようか？ まずは^orange;電子工作台^reset;を作ろう。^orange;研究^reset;メニューの^orange;電子工学^reset;から始めてね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Powered Up"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "通電開始"
+    }
+  ]
+]

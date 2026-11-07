@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Reeds grow avidly wherever they can in a bog or swamp."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "リードは、ブログや沼地で可能な限り積極的に成長します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Reeds"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "リード"
+    }
+  ]
+]

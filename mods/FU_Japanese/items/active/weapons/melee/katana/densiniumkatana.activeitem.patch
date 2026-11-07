@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Plasma-laced goodness.\n^cyan;Inflicts Electrified^reset;\n^yellow;8 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "血漿入りの商品。\n^cyan; 電化 ^reset; に作用します。\n^yellow;8 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Densinium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "カタナデンシニウム"
+    }
+  ]
+]

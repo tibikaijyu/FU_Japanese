@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A lethal energy blade for your cutting pleasure."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あなたの切断の喜びのための致命的なエネルギーブレード。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Swordbreaker Arm"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "剣術腕"
+    }
+  ]
+]

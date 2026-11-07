@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "Provides luminosity."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "光を放つ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A Nightar castle light."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "夜の城の光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Floran like light. Light make shadow, Floran creep in shadow."
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ライトのように浮かびます。 光は影を、フローランは影に忍び寄る。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Light."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "光。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A handy light."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "便利なライト。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "Waterproof lights."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "防水照明。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar light"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜の光"
+    }
+  ]
+]

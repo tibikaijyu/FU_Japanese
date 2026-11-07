@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "A Nightar flag. I can use this as a waypoint for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "ナイトフラッグ。 これをテレポーテーションのウェイポイントとして使うことができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "This Nightar flag can be bookmarked as a destination for my ship teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "このナイトアール旗は、私の船のテレポーターの目的地としてブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The Nightar flag. Use ^green;[E]^reset; to bookmark a teleportation location."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ナイトフラッグ。 ^green;[E]^reset; を使用して、テレポーテーションの場所をブックマークします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Nightar flag makess good point to teleport back to ussing teleporter!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "ナイトフラグは、テレポートをテレポートに戻すのに良いポイントになります!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Observant. A small locator module attached to this Nightar flag allows it to be bookmarked for teleportation."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "オブザーバー。 このナイターフラグに添付されている小さなロケータモジュールにより、テレポーテーション用のブックマークが可能です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "This Nightar flag can be saved as a location for my teleporter. Then I can return to it at any time."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "このナイターフラグは、私のテレポーターの場所として保存することができます。 その後、私はいつでもそれに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This Nightar flag can act as a way point, enabling me to return to this point using a teleporter."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このナイターフラグはウェイポイントとして機能し、テレポーターを使用してこのポイントに戻ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "I can bookmark this Nightar flag for quick teleportin'."
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "私はこのナイトアール旗を素早くテレポートするためにブックマークすることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Nightar Flag"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "夜旗"
+    }
+  ]
+]

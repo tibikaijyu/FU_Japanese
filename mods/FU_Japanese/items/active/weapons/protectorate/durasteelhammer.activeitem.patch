@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A formidable durasteel hammer."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "耐久鉄製の耐久ハンマー。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Durasteel Hammer"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ダラ鋼ハンマー"
+    }
+  ]
+]

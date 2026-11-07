@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Open to gently float while falling. Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "落ちながらゆっくり浮かび上がれるように開きます。 ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/description",
+      "value": "Open to gently float while falling. Upgrade using your ^orange;Tricorder^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/description",
+      "value": "落ちながらゆっくり浮かび上がれるように開きます。 ^orange;トライコーダー^reset; を使ってアップグレードします。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "Ultra Parasol ^#red;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters/shortdescription",
+      "value": "超パラソル ^#red;^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/description",
+      "value": "Open to gently float while falling. ^green;Fully Upgraded^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/description",
+      "value": "落ちながらゆっくり浮かび上がれるように開きます。 ^green; 完全にアップグレード ^reset; 。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "Omega Parasol ^#red;^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/upgradeParameters2/shortdescription",
+      "value": "オメガパラソル ^#red;^reset;"
+    }
+  ]
+]

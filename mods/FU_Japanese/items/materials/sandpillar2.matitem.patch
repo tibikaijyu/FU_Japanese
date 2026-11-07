@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A decorated pillar. Made from sand. Fairly self-explanatory, I'd say."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "装飾された柱。 砂から作られた。 かなり自己説明的ですね。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Sand Decorated Pillar"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "砂の装飾柱"
+    }
+  ]
+]

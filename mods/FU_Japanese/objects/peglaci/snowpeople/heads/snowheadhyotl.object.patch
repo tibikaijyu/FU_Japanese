@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The head of a Snowhylotl"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "雪道の頭"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Hylotl Snowhead"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハイロトルスノーヘッド"
+    }
+  ]
+]

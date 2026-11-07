@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "The heat of magma, mixed with bitter-cold steel.\n^yellow;8 hit combo^reset;\n^cyan;Inflicts Napalm^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "マグマの熱、苦い冷間鋼と混合。\n^yellow;8 ヒットコンボ^reset;\n^cyan;ナパーム^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ピライトカタナ"
+    }
+  ]
+]

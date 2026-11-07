@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "All things considered, it's actually pretty awesome."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あらゆることを考えると、本当に素晴らしいことです。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Gumball Gun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "銃"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Damage any elemental defense type."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "あらゆる要素防御タイプを損傷します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Silver Quarterstaff"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "シルバークォータースタッフ"
+    }
+  ]
+]

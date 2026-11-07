@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A mass-produced autonomous defense turret. It tries very hard not to miss."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "大量生産された自律防衛砲塔。 見逃さないようにとても努力します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Twigun"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "しじん"
+    }
+  ]
+]

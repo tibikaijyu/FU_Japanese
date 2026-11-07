@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Fire and brimstone"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "火とブリムストーン"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Molten Axe"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "溶融した軸"
+    }
+  ]
+]

@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/apex/0",
+      "value": "Rebel scum! Today, you die!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/apex/0",
+      "value": "反乱の悪党! 今日は死ぬぞ!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/apex/1",
+      "value": "Opposing Big Ape is a mistake!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/apex/1",
+      "value": "相手のビッグエイプは間違いです!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/apex/2",
+      "value": "Why do you fight? You cannot hope to win."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/apex/2",
+      "value": "なぜ戦うの? 勝ちたいとは思えない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/apex/3",
+      "value": "You cannot hurt me! I am bulletproof!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/apex/3",
+      "value": "私を傷つけることはできない! 私は防弾です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "You made a big mistake coming here!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/0",
+      "value": "あなたはここに来る大きな間違いをしました!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "You cannot hurt me! I am bulletproof!"
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/1",
+      "value": "私を傷つけることはできない! 私は防弾です!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "Intruder spotted! Isolate. Destroy."
+    },
+    {
+      "op": "replace",
+      "path": "/scriptConfig/dialog/attack/default/default/2",
+      "value": "侵入者が発見! 遅くなりました。 破壊。"
+    }
+  ]
+]

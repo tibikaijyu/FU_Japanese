@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/altAbility/name",
+      "value": "Shock Eruption"
+    },
+    {
+      "op": "replace",
+      "path": "/altAbility/name",
+      "value": "ショック噴火"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Cleave with sun power. Two-handed.\n^yellow;10 hit combo^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "太陽の力で閉めなさい。 両手。\n^yellow;10 ヒットコンボ^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Solarium Katana"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ソラリウムカタナ"
+    }
+  ]
+]

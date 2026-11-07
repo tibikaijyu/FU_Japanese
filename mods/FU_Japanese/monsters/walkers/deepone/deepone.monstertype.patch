@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This wretched evolutionary abomination is one of countless billions..."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "進化論の残忍さは、数え切れないほど大きなものだ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Deep One"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "深きもの"
+    }
+  ]
+]

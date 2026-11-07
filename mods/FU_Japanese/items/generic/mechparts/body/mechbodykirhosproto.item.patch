@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^cyan;Immune^reset;: Tropical/Desert Heat, Mild Poison, Chill\n^cyan;+20%^reset; Fuel Boost"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^cyan;免疫^reset; : 熱帯・砂漠熱, 軽毒, 冷え性\n^cyan;+20%^reset;燃料ブースト"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Kirhosi Prototype Body"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "キルホシプロトタイプボディ"
+    }
+  ]
+]

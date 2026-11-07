@@ -1,0 +1,146 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/apexDescription",
+      "value": "It's a proximity device. It'll sense when I get close to it."
+    },
+    {
+      "op": "replace",
+      "path": "/apexDescription",
+      "value": "近接装置です 私がそれに近づくと意味がわかります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/avianDescription",
+      "value": "A proximity device. It could trigger something if I'm near."
+    },
+    {
+      "op": "replace",
+      "path": "/avianDescription",
+      "value": "近接装置。 近くにいると何か引き起こすかもしれません"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This eye watches for friendly nearby targets."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "この目は、近くの友好的なターゲットを監視します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/floranDescription",
+      "value": "Ssscanning eye on the wall. It's looking at me!"
+    },
+    {
+      "op": "replace",
+      "path": "/floranDescription",
+      "value": "壁の目をスキャンします。 私を見てる!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/glitchDescription",
+      "value": "Suspicious. This proximity scanner might be aware of me."
+    },
+    {
+      "op": "replace",
+      "path": "/glitchDescription",
+      "value": "疑わしい。 この近接スキャナーは私のことを気づいているかもしれない。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "A proximity sensor. It can tell when I'm near."
+    },
+    {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "近接センサ。 私がいつ近くにいるか分かる。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/hylotlDescription",
+      "value": "This scanning device can tell when I'm present."
+    },
+    {
+      "op": "replace",
+      "path": "/hylotlDescription",
+      "value": "このスキャン装置は私がいついるかを知ることができます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A proximity scanner. Is it watching me right now?"
+    },
+    {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "近接スキャナー。 今、私を見てるの?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Proximity Scanner"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライム近接スキャナ"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimenpcDescription",
+      "value": "Eye watches moving stuff."
+    },
+    {
+      "op": "replace",
+      "path": "/slimenpcDescription",
+      "value": "目は動くものを見ます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimenpchumanDescription",
+      "value": "This scanner watches for nearby movement."
+    },
+    {
+      "op": "replace",
+      "path": "/slimenpchumanDescription",
+      "value": "このスキャナは近くの動きを監視します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/slimepersonDescription",
+      "value": "This sees when something is moving."
+    },
+    {
+      "op": "replace",
+      "path": "/slimepersonDescription",
+      "value": "何かが動いているのを見る。"
+    }
+  ]
+]

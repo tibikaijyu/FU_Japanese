@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Through intense concentration, you're able to produce a sharp blade of slime."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "濃厚な集中力によって、スライムの鋭い刃を作り出せます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Slime Morph Sword"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スライムモーク剣"
+    }
+  ]
+]

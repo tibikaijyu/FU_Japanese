@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Splits a stack into 50% of its previous value."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "スタックを前の値の 50% に分割します。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stack Halver"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "スタックハーバー"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/subtitle",
+      "value": "Smartbox"
+    },
+    {
+      "op": "replace",
+      "path": "/subtitle",
+      "value": "スマートボックス"
+    }
+  ]
+]

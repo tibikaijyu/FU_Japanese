@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Now your lager can be on a table!"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "これであなたのラガーはテーブルの上にいることができます!"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Placeable Tiy Lager"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "配置可能なTiyLager"
+    }
+  ]
+]

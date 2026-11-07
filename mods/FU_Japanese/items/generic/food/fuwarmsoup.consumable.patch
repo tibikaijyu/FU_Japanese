@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "When scientists call it 'soup' they're being metaphorical, amino acids aren't food.\n^green;Regeneration^reset; ^gray;(^white;60s^gray;)^reset;\n^red;-^white;10%^red; HP^reset; ^gray;(^white;60s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "研究者たちが「スープ」と呼んでも、アミノ酸は食べ物ではありません。\n^green;再生^reset; ^gray;(^white;60ス)^gray;)^reset;\n^red;-^white;10%^red; HP^reset; ^gray;(^white;60ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Warmed Organic Soup"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "温められた有機スープ"
+    }
+  ]
+]

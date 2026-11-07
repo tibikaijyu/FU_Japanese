@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A rotting, putrid corpse best avoided by the sane."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "腐った、未舗装の死体は正気で避けるのが一番です。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Wrapped Putrid Corpse"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "包帯したプトリッド遺体"
+    }
+  ]
+]

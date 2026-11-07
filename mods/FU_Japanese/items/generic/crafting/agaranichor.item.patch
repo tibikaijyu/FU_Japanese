@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A potent natural adhesive that is commonly found in certain mushrooms.\n^green;+^white;1 ^green;produce ^gray;& ^cyan;-^white;1 ^cyan;seed use^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "特定のキノコに一般的に見られる強力な天然接着剤。\n^green;+^white;1 ^green;生産する ^gray;& ^cyan;-^white;1 ^cyan;種子の使用^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Fungal Ichor^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b; 菌類 Ichor^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Almost as big as they come."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "ほぼ同じくらい大きい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Poptop Alpha"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ポップトップアルファ"
+    }
+  ]
+]

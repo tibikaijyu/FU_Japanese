@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;+21 HP^reset;: 3m"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^yellow;^reset;^cyan;体力+21^reset;：3分"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Helkat Nut"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ヘラートナッツ"
+    }
+  ]
+]

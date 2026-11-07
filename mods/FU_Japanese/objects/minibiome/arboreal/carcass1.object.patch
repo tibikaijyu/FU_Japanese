@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "This was probably something tasty."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "おそらくこれはおいしいものでした。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Carcass"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "死体"
+    }
+  ]
+]

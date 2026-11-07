@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "A comb that is said to be infused with mystical healing energy."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "神秘的な癒しのエネルギーを注入されているといわれるクマ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Stellar Honeycomb"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ハニカム"
+    }
+  ]
+]

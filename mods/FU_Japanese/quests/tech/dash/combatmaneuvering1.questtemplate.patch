@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/completionText",
+      "value": "The strange artifact washes some sort of energy over you when you step near. You feel stronger! ^orange;[You can now double-tap left or right to activate a short dodge]^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/completionText",
+      "value": "奇妙なアーティファクトは、近づくと何らかのエネルギーを洗い流します。 強く感じなさい! ^orange;[左または右をダブルタップして、短いダッジをアクティブにすることができます]^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/text",
+      "value": "The strange artifact washes some sort of energy over you when you step near. You feel stronger! ^orange;[You can now double-tap left or right to activate a short dodge^reset;]"
+    },
+    {
+      "op": "replace",
+      "path": "/text",
+      "value": "奇妙なアーティファクトは、近づくと何らかのエネルギーを洗い流します。 強く感じなさい! ^orange;[左または右をダブルタップして、短いダッジをアクティブにすることができます。^reset;]"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/title",
+      "value": "Dodge"
+    },
+    {
+      "op": "replace",
+      "path": "/title",
+      "value": "さや"
+    }
+  ]
+]

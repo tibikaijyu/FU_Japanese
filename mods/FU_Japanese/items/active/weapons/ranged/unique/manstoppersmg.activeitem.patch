@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Styled after the classics but updated with smart ammo.\n^cyan;Homing bullets^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "クラシックの後にスタイルがスマート弾薬で更新されます。\n^cyan;ホーミング弾丸^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "BK12 Manstopper"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "BK12 男のストッパー"
+    }
+  ]
+]

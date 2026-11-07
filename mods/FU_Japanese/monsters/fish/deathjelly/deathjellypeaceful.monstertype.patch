@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Relatively harmless."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "比較的無害。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Jelli"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "ジェリー"
+    }
+  ]
+]

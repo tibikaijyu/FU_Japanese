@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "^orange;Set Bonuses^reset;:\n^yellow;^reset; ^#3c3c00;Glow^reset;\n^yellow;^reset; +^green;0.6^reset;% Health Regen\n^yellow;^reset; Wand/Staff/Quarterstaff: Damage x^green;1.25^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "^orange;ボーナス設定^reset;:\n^yellow;^reset; ^#3c3c00;輝き^reset;\n^yellow;^reset; +^green;0.6^reset;% 健康レーゲン\n^yellow;^reset; ワンド/杖/棒術棍: ダメージ x ^green;1.25^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Prophet Pants"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "預言者用塗料"
+    }
+  ]
+]

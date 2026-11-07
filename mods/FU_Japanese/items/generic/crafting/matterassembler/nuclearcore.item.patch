@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "Great and terrible nuclear power. Handle with care."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "偉大なと恐ろしい原子力。 注意して対処しなさい。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "^#88e25b;Nuclear Core^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "^#88e25b;核コア^reset;"
+    }
+  ]
+]

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/description",
+      "value": "About 672 degrees hot.\n^pink;Icy ^cyan;Immunity ^gray;, ^cyan;+^white;20% ^pink;Ice ^cyan;Res ^gray;(^white;5m^gray;), ^red;Burning ^gray;(^white;10s^gray;)^reset;"
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "約 672 ホット度。\n^pink;アイシー ^cyan;免疫 ^gray;, ^cyan;+^white;20% ^pink;氷 ^cyan;レズ ^gray;(^white;5え?^gray;), ^red;焼成 ^gray;(^white;10ス)^gray;)^reset;"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Pyreite Curry"
+    },
+    {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "パイライトカレー"
+    }
+  ]
+]
