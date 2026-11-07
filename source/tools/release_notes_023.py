@@ -4,6 +4,9 @@
 def make_readme(project, version, coverage, validation):
     return f'''# Frackin' Universe 日本語化MOD {version}
 
+> [!IMPORTANT]
+> このMODは、生成AI（ChatGPTなど）を用いて実装しています。翻訳の確認・補完にも生成AIを使用しており、コードや訳文に誤り・不具合が含まれる可能性があります。
+
 FU 6.5.8向けの非公式日本語化MODです。機械翻訳を基礎に、表示文を個別に補完しています。日本語を表示できるフォントが必要です。
 
 ## 0.2.3の変更
@@ -94,6 +97,9 @@ WindowsではPythonのパスを `.venv/Scripts/python.exe` に読み替えてく
 
 def make_install(version):
     return f'''Frackin' Universe 日本語化MOD {version}
+
+【生成AIの使用について】
+このMODは、生成AI（ChatGPTなど）を用いて実装しています。翻訳の確認・補完にも生成AIを使用しており、コードや訳文に誤り・不具合が含まれる可能性があります。
 
 キャラクター名の自動生成データを原文維持へ戻した修正版です。
 ガイド・種族説明・画面・アイテム等の日本語化は引き継いでいます。

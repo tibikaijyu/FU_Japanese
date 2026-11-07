@@ -66,13 +66,13 @@ python source/tools/check_public_repo.py
 python source/tools/package_release.py --output-dir dist
 ```
 
-- `FU_Japanese_0.2.3-public.2-install.zip`：ゲーム用MOD、任意フォント、導入説明、ライセンス、最小限の出典・確認資料。`docs/README_JA.md` と `docs/INSTALL_JA.txt` は配布フォルダ直下へ配置。
-- `FU_Japanese_0.2.3-public.2-source.zip`：SHA-256一覧に登録した公開ファイル一式をリポジトリと同じ配置で収録。モデル来歴と `pre_review_semantic_candidates.jsonl` も保持。
-- `SHA256SUMS-0.2.3-public.2.txt`：上記ZIP自体のハッシュ。
+- `FU_Japanese_0.2.3-public.3-install.zip`：ゲーム用MOD、任意フォント、導入説明、ライセンス、最小限の出典・確認資料。`docs/README_JA.md` と `docs/INSTALL_JA.txt` は配布フォルダ直下へ配置。
+- `FU_Japanese_0.2.3-public.3-source.zip`：SHA-256一覧に登録した公開ファイル一式をリポジトリと同じ配置で収録。モデル来歴と `pre_review_semantic_candidates.jsonl` も保持。
+- `SHA256SUMS-0.2.3-public.3.txt`：上記ZIP自体のハッシュ。
 - `release-artifacts.json`：ファイル数・容量・ハッシュ・検査結果。
 
 元の機械翻訳環境の `fugumt-model/provenance.json` ではなく、同梱の `model_provenance.json` をそのまま収録します。モデル重み、`scope/`、ログ、仮想環境、`docs/development/` は収録しません。チェックサム一覧が明示的な収録対象です。
 
 収録順、ZIP内の時刻、権限、圧縮レベルを固定しています。同じPython/zlibと入力でのZIPバイト一致を検査します。Python/zlibの異なるバージョン間でも圧縮バイトが一致するとの保証はしていません。ゲームファイルの一致、検査の再現、ZIP全体の一致は別々に確認してください。
 
-配布構成を変えた場合は `--release-id 0.2.3-public.3` など、識別できる再梱包番号を使い、README・変更履歴・Release説明のファイル名も更新します。
+配布構成を変えた場合は `--release-id 0.2.3-public.4` など、識別できる再梱包番号を使い、README・変更履歴・Release説明のファイル名も更新します。

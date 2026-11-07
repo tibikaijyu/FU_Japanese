@@ -8,7 +8,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
-RELEASE_ID = "0.2.3-public.2"
+RELEASE_ID = "0.2.3-public.3"
 ZIP_TIME = (2026, 11, 7, 0, 0, 0)
 INSTALL_DOC_PATHS = {
     "docs/README_JA.md": "README_JA.md",

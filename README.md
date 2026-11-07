@@ -9,7 +9,7 @@ Starboundの大型MOD **Frackin' Universe（FU）6.5.8** 向けの非公式日�
 
 Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要です。このリポジトリにはゲーム本体とFU本体を含めていません。
 
-1. GitHubの **Releases** で `FU_Japanese_0.2.3-public.2-install.zip` を取得し、ZIPを展開します。初回はPre-releaseとして配布する予定です。
+1. GitHubの **Releases** で `FU_Japanese_0.2.3-public.3-install.zip` を取得し、ZIPを展開します。Pre-releaseとして配布しています。
 2. Starboundを完全に終了します。
 3. 更新する場合は、旧版の `Starbound/mods/FU_Japanese` をmodsの外へ移動します。
 4. 展開したフォルダ内の `mods/FU_Japanese` を `Starbound/mods` へコピーします。
