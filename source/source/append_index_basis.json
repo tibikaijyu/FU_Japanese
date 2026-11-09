@@ -1,0 +1,3710 @@
+{
+  "version": 1,
+  "base_source": "Starbound 1.4.4 assets/packed.pak",
+  "layer_order": [
+    "japanese",
+    "jpfix",
+    "fu",
+    "PerennialCrops",
+    "PlantPot",
+    "beam_up",
+    "One-Handed-Torch",
+    "ContainerUITweak",
+    "Weapon-Stats",
+    "Improved-Containers",
+    "food_stack",
+    "readable_ui"
+  ],
+  "assets": {
+    "celestial/names.config": {
+      "effective_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "c637585714f319b421379b09586664ce8dec8e9dc40981f5037180b3ba10e52a"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "5db90a55ae37f134d0f638001dd76824cb35ed2489abc75d7617a97c05687edc"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "434e03d01bacb7b6bd7da209367f899268ef39ea07cd6f03845bf1c00d6e1187"
+        }
+      ],
+      "paths": {
+        "0089d7751bbbf03c1df0": [
+          "/systemNames/834/1"
+        ],
+        "016d2811e94ecd3b83b0": [
+          "/systemNames/720/1"
+        ],
+        "01ba2055a87f738531f9": [
+          "/systemSuffixNames/120/1"
+        ],
+        "023119ebbb7ffae661f8": [
+          "/systemSuffixNames/146/1"
+        ],
+        "028db3e1fb3ae6493211": [
+          "/systemNames/942/1"
+        ],
+        "02f2e2b33affd73adf39": [
+          "/systemNames/593/1"
+        ],
+        "0316383560b923eac26a": [
+          "/systemSuffixNames/143/1"
+        ],
+        "031e9bb916a76484b954": [
+          "/systemNames/1086/1"
+        ],
+        "032f54b922d88cbb5f59": [
+          "/systemNames/1020/1"
+        ],
+        "03478a85e0ecbd3653bf": [
+          "/systemNames/774/1"
+        ],
+        "03b278f3d6ce3b3c0e60": [
+          "/systemNames/821/1"
+        ],
+        "04e6e1ba658e720f18ff": [
+          "/systemNames/949/1"
+        ],
+        "05e03ef08a25d9790bbe": [
+          "/systemSuffixNames/108/1"
+        ],
+        "0741f78cafe7b9c698b2": [
+          "/systemNames/1029/1"
+        ],
+        "0a3e670381d9d9fef1f2": [
+          "/systemNames/664/1"
+        ],
+        "0a5aea7212e7cf5465b4": [
+          "/systemNames/864/1"
+        ],
+        "0a5b3ee3238cacd24256": [
+          "/systemNames/835/1"
+        ],
+        "0b2693d7bea37f170c87": [
+          "/systemNames/972/1"
+        ],
+        "0b76831aea03cb987c0b": [
+          "/systemNames/995/1"
+        ],
+        "0bcf4672e915aa74c969": [
+          "/systemNames/1072/1"
+        ],
+        "0bf6f147e8a829efeec5": [
+          "/systemNames/590/1"
+        ],
+        "0bfd2f5669405b1a812b": [
+          "/systemNames/981/1"
+        ],
+        "0c3fee5e2bdbe7c25d8a": [
+          "/systemNames/1004/1"
+        ],
+        "0d3a8cda51555ce26594": [
+          "/systemNames/1010/1"
+        ],
+        "0d5525b2417f7a2c7704": [
+          "/systemNames/799/1"
+        ],
+        "0d875c87d5d7651b6b43": [
+          "/systemNames/1037/1"
+        ],
+        "0d8bc63c0148f67b15ae": [
+          "/systemNames/810/1"
+        ],
+        "0dbf81508b5cef0367b7": [
+          "/systemNames/1055/1"
+        ],
+        "0e5aaa17dd544c7207fb": [
+          "/systemNames/950/1"
+        ],
+        "0e931d82653c53c09cff": [
+          "/systemNames/659/1"
+        ],
+        "0e95c90ee2332a934c4b": [
+          "/systemNames/848/1"
+        ],
+        "0ec9027411251f1791d4": [
+          "/systemNames/857/1"
+        ],
+        "0f44086f9b45a359155a": [
+          "/systemNames/896/1"
+        ],
+        "0f5fdab8ff276c741cc7": [
+          "/systemNames/968/1"
+        ],
+        "0f732fce9a890427e6d0": [
+          "/systemNames/984/1"
+        ],
+        "0fb22ccea52f4d008a0a": [
+          "/systemNames/977/1"
+        ],
+        "1020a2694a031fb41c3d": [
+          "/systemNames/1098/1"
+        ],
+        "1086cfb18c600010db6a": [
+          "/systemNames/617/1"
+        ],
+        "10cea294ea070d128d38": [
+          "/systemNames/805/1"
+        ],
+        "10fcf31d3cdb5a8b405b": [
+          "/systemNames/1017/1"
+        ],
+        "1118df5bfae331475863": [
+          "/systemSuffixNames/92/1"
+        ],
+        "11659715d1348b87c2b0": [
+          "/systemNames/655/1"
+        ],
+        "120e998d8b002e6c732c": [
+          "/systemNames/739/1"
+        ],
+        "12ce4a7d3240628ffa86": [
+          "/systemNames/797/1"
+        ],
+        "134d1e2b24ea73f1934f": [
+          "/systemNames/886/1"
+        ],
+        "1357933a38a23e8bb43b": [
+          "/systemSuffixNames/153/1"
+        ],
+        "1365af20973b978552bd": [
+          "/systemNames/884/1"
+        ],
+        "1459f3ca5826ca08e942": [
+          "/systemNames/901/1"
+        ],
+        "1462dcab4dfe0742cdac": [
+          "/systemNames/760/1"
+        ],
+        "14cf907797c3079d5258": [
+          "/systemNames/647/1"
+        ],
+        "14f458b5f07eeccbee0e": [
+          "/systemNames/780/1"
+        ],
+        "14f4f6a58fc380a0465b": [
+          "/systemNames/1109/1"
+        ],
+        "15dcd5235bd0f4d3c2ba": [
+          "/systemNames/809/1"
+        ],
+        "15e4988606b1725247fe": [
+          "/systemNames/629/1"
+        ],
+        "160422299e91e238b618": [
+          "/systemSuffixNames/124/1"
+        ],
+        "160ecd1b52f195f66d49": [
+          "/systemNames/1032/1"
+        ],
+        "16311474ce6e86c91347": [
+          "/systemNames/830/1"
+        ],
+        "16640ea5245b15243543": [
+          "/systemNames/1066/1"
+        ],
+        "16690ca85f30ca9fc93c": [
+          "/systemSuffixNames/159/1"
+        ],
+        "166fe5f659f0b8c1ee44": [
+          "/systemNames/860/1"
+        ],
+        "1700697ceb47e2542fda": [
+          "/systemNames/690/1"
+        ],
+        "178290b66e34625e8091": [
+          "/systemNames/839/1"
+        ],
+        "17ef5d35d3237a6e4659": [
+          "/systemSuffixNames/235/1"
+        ],
+        "183ab9535cc509c33f82": [
+          "/systemNames/791/1"
+        ],
+        "185b3f167a97e053a6ca": [
+          "/systemNames/1043/1"
+        ],
+        "18f0319dc7aa1ea57d5d": [
+          "/systemSuffixNames/147/1"
+        ],
+        "19095648cc0ac2b3c29c": [
+          "/systemSuffixNames/129/1"
+        ],
+        "194e7c5aa2018dde9126": [
+          "/systemNames/620/1"
+        ],
+        "1981daa7f0e9912e5721": [
+          "/systemNames/648/1"
+        ],
+        "19a64d73b18b4bb61328": [
+          "/systemNames/900/1"
+        ],
+        "19c13fd4dd68e2424874": [
+          "/systemNames/723/1"
+        ],
+        "1a3ffee9b904733e092f": [
+          "/systemNames/1085/1"
+        ],
+        "1a5ccaa7fefc7f059ac3": [
+          "/systemNames/894/1"
+        ],
+        "1b4a16f584ee554c90c7": [
+          "/systemNames/843/1"
+        ],
+        "1b689d05bf186ea777b8": [
+          "/systemSuffixNames/126/1"
+        ],
+        "1c4415f7d8f646af3a44": [
+          "/systemSuffixNames/137/1"
+        ],
+        "1c8a6f88e448de4c0d44": [
+          "/systemNames/853/1"
+        ],
+        "1cc3b56d2760eb8e5050": [
+          "/systemNames/1060/1"
+        ],
+        "1d8d29eb3f44e26d6dc1": [
+          "/systemNames/1075/1"
+        ],
+        "1e7142adccb6b82317a9": [
+          "/systemSuffixNames/220/1"
+        ],
+        "1e7ca8128cab69e2a440": [
+          "/systemSuffixNames/228/1"
+        ],
+        "1e904b489ff175c6ccd0": [
+          "/systemSuffixNames/193/1"
+        ],
+        "21365c9d07e2d306139b": [
+          "/systemSuffixNames/81/1"
+        ],
+        "2158c40ccc1848df2ed5": [
+          "/systemSuffixNames/184/1"
+        ],
+        "21f9ff902e392660da34": [
+          "/systemNames/800/1"
+        ],
+        "2230c9aa9e3129380cb3": [
+          "/systemNames/757/1"
+        ],
+        "225d415e6fbddd9ca92d": [
+          "/systemNames/596/1"
+        ],
+        "229ce828d866c611c1ee": [
+          "/systemNames/855/1"
+        ],
+        "22a244b2da58281178a2": [
+          "/systemSuffixNames/203/1"
+        ],
+        "22caeab46b3d3e725033": [
+          "/systemSuffixNames/164/1"
+        ],
+        "24887de115d1c3210056": [
+          "/systemNames/1026/1"
+        ],
+        "24c29ca4a83fbec9ebcb": [
+          "/systemSuffixNames/162/1"
+        ],
+        "2575d92dd3da0f61a8a1": [
+          "/systemNames/794/1"
+        ],
+        "25e7576c3f62e0a76514": [
+          "/systemNames/966/1"
+        ],
+        "265187f41e22fceea15e": [
+          "/systemNames/875/1"
+        ],
+        "26a90ff327045be4ca9b": [
+          "/systemNames/963/1"
+        ],
+        "26fa1ed88f69308aab14": [
+          "/systemNames/906/1"
+        ],
+        "272f590de48b5b4ab0a5": [
+          "/systemSuffixNames/222/1"
+        ],
+        "276fb9dba3c31abe4afc": [
+          "/systemNames/653/1"
+        ],
+        "2771575e832da0b8b442": [
+          "/systemNames/936/1"
+        ],
+        "284dcb7f5235a0cffc3f": [
+          "/systemSuffixNames/134/1"
+        ],
+        "289e7f3f050f171357d7": [
+          "/systemNames/971/1"
+        ],
+        "292647067386b6f5d532": [
+          "/systemNames/641/1"
+        ],
+        "2938349cdac25359e1ac": [
+          "/systemNames/631/1"
+        ],
+        "299a111cd82b1ed51022": [
+          "/systemSuffixNames/149/1"
+        ],
+        "2b60deaf8b3acd97b15c": [
+          "/systemNames/986/1"
+        ],
+        "2bf7614ec74129a330aa": [
+          "/systemNames/667/1"
+        ],
+        "2c0b4bc35acc48bb1d30": [
+          "/systemNames/793/1"
+        ],
+        "2c476edf33262b4f0e05": [
+          "/systemNames/881/1"
+        ],
+        "2cf60f95b11ba492dd18": [
+          "/systemNames/1006/1"
+        ],
+        "2d7b5be508788ed23a6e": [
+          "/systemNames/866/1"
+        ],
+        "2dda67e235ad437b69ef": [
+          "/systemNames/812/1"
+        ],
+        "2ee96587c5793fcf0314": [
+          "/systemNames/1050/1"
+        ],
+        "2f2910e3027975acd46b": [
+          "/systemNames/740/1"
+        ],
+        "2f8ea8d3e09b427f5d5a": [
+          "/systemNames/1063/1"
+        ],
+        "2fe882c9747c92b604e5": [
+          "/systemSuffixNames/237/1"
+        ],
+        "2ff89893cc45dc4ce087": [
+          "/systemNames/890/1"
+        ],
+        "305786c508fe00607580": [
+          "/systemSuffixNames/155/1"
+        ],
+        "307b33b14149778be9f2": [
+          "/systemNames/959/1"
+        ],
+        "308a0e1e073ef8e63640": [
+          "/systemNames/820/1"
+        ],
+        "311f0b4987bab001164e": [
+          "/systemNames/646/1"
+        ],
+        "313a91d836739e8fb234": [
+          "/systemNames/662/1"
+        ],
+        "31763be355889ca093fd": [
+          "/systemSuffixNames/127/1"
+        ],
+        "31c89378a4511e6ae412": [
+          "/systemNames/1054/1"
+        ],
+        "328214456fcb01b7a5a5": [
+          "/systemNames/619/1"
+        ],
+        "330e09ec6efd42b6b0bc": [
+          "/systemNames/1031/1"
+        ],
+        "33e263e9c7b2ba0052c8": [
+          "/systemNames/776/1"
+        ],
+        "33fb829d2b7f2d6a70a5": [
+          "/systemNames/656/1"
+        ],
+        "34178b45afd60f3d8297": [
+          "/systemNames/1105/1"
+        ],
+        "3418d1411ed96be1bef8": [
+          "/systemNames/957/1"
+        ],
+        "342085d4358ac26c89aa": [
+          "/systemNames/649/1"
+        ],
+        "349f96af8b24117f18db": [
+          "/systemNames/871/1"
+        ],
+        "34e8190322a6d5707419": [
+          "/systemNames/622/1"
+        ],
+        "34f7f83a4d0edb8d03f2": [
+          "/systemNames/1091/1"
+        ],
+        "34fb1cb9577f804d91ab": [
+          "/systemNames/888/1"
+        ],
+        "358f173d2c659f09f6c5": [
+          "/systemSuffixNames/128/1"
+        ],
+        "359a2eb7407428da9e2c": [
+          "/systemSuffixNames/196/1"
+        ],
+        "35db48a6c8df01b7ca2e": [
+          "/systemNames/613/1"
+        ],
+        "35f15c573d2dad8f02e2": [
+          "/systemNames/826/1"
+        ],
+        "35f7c9c753846ace90cb": [
+          "/systemNames/623/1"
+        ],
+        "369f4a8349cb1c109290": [
+          "/systemNames/1090/1"
+        ],
+        "37576f42efcf55ef1cd6": [
+          "/systemNames/1019/1"
+        ],
+        "395bb3021b471d8275c1": [
+          "/systemSuffixNames/208/1"
+        ],
+        "3998f839307cf96c702b": [
+          "/systemSuffixNames/59/1"
+        ],
+        "39e13153ac300a61852a": [
+          "/systemNames/1003/1"
+        ],
+        "39e66b245fb35f8346b4": [
+          "/systemNames/630/1"
+        ],
+        "3a38c35f55cb69e35b0d": [
+          "/systemNames/1065/1"
+        ],
+        "3a77b41b53678097b37c": [
+          "/systemNames/1099/1"
+        ],
+        "3a887e02702fa33ee84e": [
+          "/systemNames/932/1"
+        ],
+        "3ae480cffe4d51b8285f": [
+          "/systemNames/1041/1"
+        ],
+        "3b066a4a67193daa64ec": [
+          "/systemNames/602/1"
+        ],
+        "3b09c2d586c05f0acb66": [
+          "/systemNames/632/1"
+        ],
+        "3b642602cf912cb8432c": [
+          "/systemSuffixNames/201/1"
+        ],
+        "3b7ac2c55aa9f8a3ccc4": [
+          "/systemNames/637/1"
+        ],
+        "3c4f5ba801f56d89b823": [
+          "/systemSuffixNames/209/1"
+        ],
+        "3c7d524823af7fdbf0cb": [
+          "/systemNames/1084/1"
+        ],
+        "3c8476f985a629bdbd21": [
+          "/systemNames/867/1"
+        ],
+        "3d7c0d744986f452bd60": [
+          "/systemNames/889/1"
+        ],
+        "3da0a1f9160651497d3c": [
+          "/systemNames/753/1"
+        ],
+        "3dfcdbbe46aa630217a9": [
+          "/systemNames/1039/1"
+        ],
+        "3f9ecd899e242a5bca9f": [
+          "/systemNames/710/1"
+        ],
+        "3fa7890b3295a5402dbb": [
+          "/systemSuffixNames/66/1"
+        ],
+        "3fc671242a166e238804": [
+          "/systemNames/998/1"
+        ],
+        "3feab1a80025ddd40de2": [
+          "/systemNames/735/1"
+        ],
+        "4034d2003483976df2fb": [
+          "/systemNames/1073/1"
+        ],
+        "4050498b24c50ff58905": [
+          "/systemNames/612/1"
+        ],
+        "4141ab9f915989993afb": [
+          "/systemNames/598/1"
+        ],
+        "41c1d294fb4275531105": [
+          "/systemSuffixNames/118/1"
+        ],
+        "422f5f64caf901b9fa60": [
+          "/systemNames/1025/1"
+        ],
+        "42333757f272ed89ce3e": [
+          "/systemNames/688/1"
+        ],
+        "423dadc6a0cd2e9bd083": [
+          "/systemNames/1051/1"
+        ],
+        "4297d928b58a29ad3d6c": [
+          "/systemNames/609/1"
+        ],
+        "42c01e8633c964f0d257": [
+          "/systemNames/816/1"
+        ],
+        "42e7df86c957c4a8c120": [
+          "/systemNames/756/1"
+        ],
+        "42f0b0a15deabff6e791": [
+          "/systemNames/991/1"
+        ],
+        "435c0a45e040d25cdc1d": [
+          "/systemNames/677/1"
+        ],
+        "435c3c506a0e45d78f94": [
+          "/systemNames/1048/1"
+        ],
+        "43843b24b172c01cb33d": [
+          "/systemNames/795/1"
+        ],
+        "4435f6701691b17fc872": [
+          "/systemNames/722/1"
+        ],
+        "44402985b483cca512f9": [
+          "/systemNames/616/1"
+        ],
+        "44552a3464d96222202f": [
+          "/systemNames/610/1"
+        ],
+        "44817a060f5873d9c8ed": [
+          "/systemSuffixNames/227/1"
+        ],
+        "4613270c816eda1d3730": [
+          "/systemNames/823/1"
+        ],
+        "4652a52366bd5b1082e2": [
+          "/systemNames/985/1"
+        ],
+        "47be2e3f0ffa10047288": [
+          "/systemNames/952/1"
+        ],
+        "47ef460331c5df8317b2": [
+          "/systemNames/946/1"
+        ],
+        "481bc22b136f876d2bc3": [
+          "/systemNames/1005/1"
+        ],
+        "481e8da66ecf369deba6": [
+          "/systemSuffixNames/166/1"
+        ],
+        "481f9c6ded47e832bd75": [
+          "/systemNames/955/1"
+        ],
+        "482e93031b159522dc0b": [
+          "/systemSuffixNames/132/1"
+        ],
+        "487856c3a96383f4ece3": [
+          "/systemSuffixNames/168/1"
+        ],
+        "491795b95a51aa52ec1d": [
+          "/systemNames/937/1"
+        ],
+        "49c8ac32752c817e2422": [
+          "/systemNames/682/1"
+        ],
+        "4a1bedcb3070f05e5bd1": [
+          "/systemNames/925/1"
+        ],
+        "4a5338751aff6e629da1": [
+          "/systemSuffixNames/229/1"
+        ],
+        "4acb10ecc6ea54b42929": [
+          "/systemNames/768/1"
+        ],
+        "4bc19bffe9da31b702c0": [
+          "/systemNames/979/1"
+        ],
+        "4bc1b8eeda31de19de29": [
+          "/systemNames/845/1"
+        ],
+        "4ca82499091f2b4f1248": [
+          "/systemNames/967/1"
+        ],
+        "4cf41f89b80deda1c847": [
+          "/systemNames/982/1"
+        ],
+        "4d1319465499fb9c9c38": [
+          "/systemSuffixNames/165/1"
+        ],
+        "4d6d0f05e0ccea935097": [
+          "/systemSuffixNames/187/1"
+        ],
+        "4d9cea4c7559a644cc0f": [
+          "/systemNames/915/1"
+        ],
+        "4dc0a7725a8e1b81eb91": [
+          "/systemSuffixNames/200/1"
+        ],
+        "4ed84b480f0f09aea18a": [
+          "/systemNames/1030/1"
+        ],
+        "505ed68918bab3203b3c": [
+          "/systemNames/592/1"
+        ],
+        "50bee4e24d6abe88cfda": [
+          "/systemNames/960/1"
+        ],
+        "515d05ba0b7eef07eccf": [
+          "/systemNames/670/1"
+        ],
+        "516333bfbad4adc61249": [
+          "/systemNames/832/1"
+        ],
+        "52069f1cc0c8de3e2766": [
+          "/systemSuffixNames/107/1"
+        ],
+        "5217485eda91f08b887f": [
+          "/systemNames/1067/1"
+        ],
+        "521843e3480fd4ddabbb": [
+          "/systemNames/665/1"
+        ],
+        "52b7ab8c6c5c35c7ca35": [
+          "/systemSuffixNames/171/1"
+        ],
+        "52ba8d40bb3c903c2e42": [
+          "/systemNames/786/1"
+        ],
+        "52ead71a807b6361ed5d": [
+          "/systemNames/726/1"
+        ],
+        "537e9cbd0267dbe86b9f": [
+          "/systemNames/858/1"
+        ],
+        "54ab0be0cae3a39ba22a": [
+          "/systemNames/926/1"
+        ],
+        "54fe0d401ec06f6fd46d": [
+          "/systemNames/954/1"
+        ],
+        "5500feed3cd631773171": [
+          "/systemNames/715/1"
+        ],
+        "554e424bdd58068f7d95": [
+          "/systemNames/836/1"
+        ],
+        "55edffdb9d3be753db31": [
+          "/systemSuffixNames/188/1"
+        ],
+        "5657aa28f91a53fa5b14": [
+          "/systemNames/738/1"
+        ],
+        "5686277333af24e77ed1": [
+          "/systemNames/1078/1"
+        ],
+        "56933caf21ae5db63808": [
+          "/systemSuffixNames/215/1"
+        ],
+        "56d4d40dae8dfeccd656": [
+          "/systemNames/717/1"
+        ],
+        "57029da90973bee0eb57": [
+          "/systemNames/627/1"
+        ],
+        "57b5888177fd5fb6fc2f": [
+          "/systemSuffixNames/211/1"
+        ],
+        "57e39799929edf73116a": [
+          "/systemNames/643/1"
+        ],
+        "584230d54048f5d35ea5": [
+          "/systemSuffixNames/135/1"
+        ],
+        "585ce3a3efa711f46fa4": [
+          "/systemNames/929/1"
+        ],
+        "5927c58c172975f08bc8": [
+          "/systemNames/973/1"
+        ],
+        "592ad3e107d32b58dadc": [
+          "/systemSuffixNames/151/1"
+        ],
+        "59537d505df3b2a44bc0": [
+          "/systemNames/899/1"
+        ],
+        "5a113d7533a2e5dbc4c2": [
+          "/systemNames/1058/1"
+        ],
+        "5a4e348342f26a69dc5b": [
+          "/systemNames/1016/1"
+        ],
+        "5a5225d7d0934a6ef70c": [
+          "/systemNames/730/1"
+        ],
+        "5a79dfc677cdbb96ac9e": [
+          "/systemSuffixNames/221/1"
+        ],
+        "5ae5b4d4625275a98e6b": [
+          "/systemNames/624/1"
+        ],
+        "5b6fe77366dacd593feb": [
+          "/systemNames/814/1"
+        ],
+        "5b7b0f3a72cc0ab4bfb3": [
+          "/systemNames/939/1"
+        ],
+        "5bc0bd0c4889f56ac75f": [
+          "/systemNames/1007/1"
+        ],
+        "5bf235d51d5c33a8e5d2": [
+          "/systemNames/938/1"
+        ],
+        "5c957136eebe863d5933": [
+          "/systemNames/691/1"
+        ],
+        "5cd61e72cd1a0566ff94": [
+          "/systemNames/702/1"
+        ],
+        "5dfba05e174042238ce8": [
+          "/systemNames/804/1"
+        ],
+        "5f6b3e4c2e1035459a78": [
+          "/systemSuffixNames/178/1"
+        ],
+        "600b277f84778afe831f": [
+          "/systemNames/911/1"
+        ],
+        "60484b86b6966a6e6282": [
+          "/systemNames/801/1"
+        ],
+        "60f42d49dab028cc6199": [
+          "/systemNames/1013/1"
+        ],
+        "610bd47c80256a395fd1": [
+          "/systemNames/1001/1"
+        ],
+        "611df92f3dc0c60b2c0f": [
+          "/systemNames/874/1"
+        ],
+        "6129aad4d11fec4fd4ff": [
+          "/systemNames/678/1"
+        ],
+        "616ef229c7e780d2dedd": [
+          "/systemNames/969/1"
+        ],
+        "61b565f7f991986a0f11": [
+          "/systemSuffixNames/223/1"
+        ],
+        "61d5fb0c6a90c369dbc6": [
+          "/systemNames/819/1"
+        ],
+        "61f05d850879a720785d": [
+          "/systemNames/676/1"
+        ],
+        "6300774fe9fedd11b946": [
+          "/systemNames/711/1"
+        ],
+        "63bf2698edb19b057223": [
+          "/systemNames/727/1"
+        ],
+        "643b1a9a03b013fc8073": [
+          "/systemNames/828/1"
+        ],
+        "6460fef405779da53e47": [
+          "/systemNames/640/1"
+        ],
+        "64752d97155ee91dc278": [
+          "/systemNames/600/1"
+        ],
+        "64a3d8e5023294180ee6": [
+          "/systemNames/689/1"
+        ],
+        "64e8934398d301d9c92a": [
+          "/systemSuffixNames/144/1"
+        ],
+        "6514b814740314c5f7d3": [
+          "/systemNames/1069/1"
+        ],
+        "656970529dc506443e8d": [
+          "/systemNames/962/1"
+        ],
+        "657f6f52f12a106ac9d9": [
+          "/systemNames/927/1"
+        ],
+        "666f147e083e21f7fffd": [
+          "/systemNames/754/1"
+        ],
+        "668a6a14e4a030ed0cfa": [
+          "/systemNames/919/1"
+        ],
+        "66d7c2e99a7a6dfc5204": [
+          "/systemNames/769/1"
+        ],
+        "66da6af19ea486735716": [
+          "/systemNames/824/1"
+        ],
+        "66f220889c7352d3f527": [
+          "/systemNames/789/1"
+        ],
+        "67422e100ad51d725289": [
+          "/systemNames/974/1"
+        ],
+        "67502edfb8a9c463121d": [
+          "/systemNames/706/1"
+        ],
+        "677756d7a1ac50a2d4c3": [
+          "/systemNames/813/1"
+        ],
+        "68232c83d3157f5ea792": [
+          "/systemNames/732/1"
+        ],
+        "69f84c04e01859f40495": [
+          "/systemNames/785/1"
+        ],
+        "6a89178974733f7d7a97": [
+          "/systemSuffixNames/83/1"
+        ],
+        "6b323158d97ef8e566ab": [
+          "/systemNames/1034/1"
+        ],
+        "6c1a6c646c82f0f65971": [
+          "/systemNames/636/1"
+        ],
+        "6c9a303b5414f39b32c3": [
+          "/systemNames/1012/1"
+        ],
+        "6d6297b6fc04aa860234": [
+          "/systemNames/1076/1"
+        ],
+        "6d91f4dc301657675e5c": [
+          "/systemSuffixNames/214/1"
+        ],
+        "6dac27e223a7df17e208": [
+          "/systemNames/1103/1"
+        ],
+        "6df595a0a48fa47e9e20": [
+          "/systemNames/1002/1"
+        ],
+        "6e81c4b709e53828b4ea": [
+          "/systemNames/705/1"
+        ],
+        "6e85133903ee70c7696e": [
+          "/systemSuffixNames/175/1"
+        ],
+        "6e934e37bf99b4b811b3": [
+          "/systemNames/763/1"
+        ],
+        "6eadf8874242909ac306": [
+          "/systemNames/863/1"
+        ],
+        "6eea84e7c0841211c13b": [
+          "/systemNames/989/1"
+        ],
+        "703f34b2da1aba967326": [
+          "/systemNames/1035/1"
+        ],
+        "70dd116cbfe23626be30": [
+          "/systemSuffixNames/202/1"
+        ],
+        "70ef16418ba057423e74": [
+          "/systemNames/975/1"
+        ],
+        "712a1026aaf525cf53eb": [
+          "/systemNames/1014/1"
+        ],
+        "717c85cb7370ad727053": [
+          "/systemSuffixNames/148/1"
+        ],
+        "71e7c584047b48a50ead": [
+          "/systemNames/1061/1"
+        ],
+        "71e87b1391068c76d625": [
+          "/systemNames/1097/1"
+        ],
+        "720aad97b208332e82e8": [
+          "/systemNames/642/1"
+        ],
+        "7265b99201b3713514ac": [
+          "/systemNames/993/1"
+        ],
+        "727acd4c65aee05842a0": [
+          "/systemNames/707/1"
+        ],
+        "72e630e283a99693c89e": [
+          "/systemSuffixNames/160/1"
+        ],
+        "72ff8d09350413a23888": [
+          "/systemNames/772/1"
+        ],
+        "739148e2c5835410b7c3": [
+          "/systemNames/749/1"
+        ],
+        "73e141478db348442535": [
+          "/systemNames/829/1"
+        ],
+        "748ff7611e68f19f9b38": [
+          "/systemNames/882/1"
+        ],
+        "74bfbb7841b4a73db61e": [
+          "/systemNames/634/1"
+        ],
+        "74c110041d77503f97f1": [
+          "/systemNames/714/1"
+        ],
+        "74e8a8c2295ff723297f": [
+          "/systemNames/920/1"
+        ],
+        "754616d8b1ce0ea9fb79": [
+          "/systemNames/608/1"
+        ],
+        "768c86d3709b9859230c": [
+          "/systemNames/606/1"
+        ],
+        "76b24177bff222a12de2": [
+          "/systemNames/831/1"
+        ],
+        "76c00f7630be449c8aa2": [
+          "/systemNames/611/1"
+        ],
+        "76cf077ee151cdf25b13": [
+          "/systemNames/729/1"
+        ],
+        "77a1155d3093dd05b166": [
+          "/systemNames/685/1"
+        ],
+        "77f9f72b80d0f7e77986": [
+          "/systemNames/817/1"
+        ],
+        "792617b343a8b67d928f": [
+          "/systemNames/699/1"
+        ],
+        "7926759a4fd1abbf9832": [
+          "/systemNames/766/1"
+        ],
+        "794de98342788cb49939": [
+          "/systemSuffixNames/205/1"
+        ],
+        "7968dc68a5410cd4bb4b": [
+          "/systemNames/990/1"
+        ],
+        "7996257cb049e66c9cfd": [
+          "/systemSuffixNames/226/1"
+        ],
+        "79f39760bce557ae67b3": [
+          "/systemSuffixNames/170/1"
+        ],
+        "7a32e5456c4ef010dd79": [
+          "/systemNames/1070/1"
+        ],
+        "7a9ae907570520109637": [
+          "/systemSuffixNames/180/1"
+        ],
+        "7b2cd4a0bffc60af7fb7": [
+          "/systemNames/1044/1"
+        ],
+        "7b38b5d34266bbece2ea": [
+          "/systemSuffixNames/192/1"
+        ],
+        "7b6ebe437a57fc0d57ae": [
+          "/systemNames/1027/1"
+        ],
+        "7bf9c93cd6eec6275d39": [
+          "/systemNames/1082/1"
+        ],
+        "7c4b591a96737ea488b0": [
+          "/systemSuffixNames/197/1"
+        ],
+        "7c4c1fdb575909fbb8c1": [
+          "/systemNames/1049/1"
+        ],
+        "7c69011e3d69a7d756bd": [
+          "/systemNames/759/1"
+        ],
+        "7c81fc279c2e87c56295": [
+          "/systemNames/679/1"
+        ],
+        "7cad882a5c3f450e3db7": [
+          "/systemNames/1092/1"
+        ],
+        "7cf111f7286ba1fea1f5": [
+          "/systemNames/1104/1"
+        ],
+        "7d3ebba104676587a469": [
+          "/systemNames/996/1"
+        ],
+        "7d7395b678a1e2e19c96": [
+          "/systemNames/1077/1"
+        ],
+        "7efa69f39b44c9a164d3": [
+          "/systemNames/658/1"
+        ],
+        "7f161a7188e1c63428c9": [
+          "/systemNames/1038/1"
+        ],
+        "7f32caa7cf543b189ecc": [
+          "/systemNames/657/1"
+        ],
+        "7f5c53c0f0f99a46b955": [
+          "/systemNames/589/1"
+        ],
+        "7f8986136084d288c3c5": [
+          "/systemSuffixNames/65/1"
+        ],
+        "800836006ec0478eb5ca": [
+          "/systemNames/943/1"
+        ],
+        "81f16329c62a41b40543": [
+          "/systemNames/825/1"
+        ],
+        "82485ff3fd5bc4ef64a5": [
+          "/systemNames/762/1"
+        ],
+        "824df527b779e9798ec6": [
+          "/systemNames/672/1"
+        ],
+        "82db86ad0d726dad7d94": [
+          "/systemSuffixNames/206/1"
+        ],
+        "847dee58c443032169cd": [
+          "/systemNames/980/1"
+        ],
+        "85b5d63d1a682786c732": [
+          "/systemNames/698/1"
+        ],
+        "85dec48385e97ec7781a": [
+          "/systemNames/892/1"
+        ],
+        "86045d3f9c2ad946e0a1": [
+          "/systemNames/597/1"
+        ],
+        "870c185b116ee6c8c309": [
+          "/systemNames/876/1"
+        ],
+        "8777b9a0ed670a1ad7f9": [
+          "/systemNames/675/1"
+        ],
+        "87dd9451bb90dc8471ad": [
+          "/systemNames/773/1"
+        ],
+        "88abd11a93f8546683e6": [
+          "/systemNames/651/1"
+        ],
+        "88d1b41dfea67fecde47": [
+          "/systemNames/992/1"
+        ],
+        "89808269416ed93af202": [
+          "/systemNames/878/1"
+        ],
+        "89c5c9cefd739e84af9b": [
+          "/systemNames/781/1"
+        ],
+        "8a3689c1a5b9becb9a2d": [
+          "/systemNames/1110/1"
+        ],
+        "8a5327665155da09380e": [
+          "/systemSuffixNames/110/1"
+        ],
+        "8a9723f7d74d9074183c": [
+          "/systemNames/1057/1"
+        ],
+        "8aa92370014cf6789a8e": [
+          "/systemSuffixNames/131/1"
+        ],
+        "8c89483062f98888e70b": [
+          "/systemNames/750/1"
+        ],
+        "8e1eee1874f8829f6dfa": [
+          "/systemNames/849/1"
+        ],
+        "8e4a011bea0ccd4e3669": [
+          "/systemNames/700/1"
+        ],
+        "8e4fa2b782c9802d2830": [
+          "/systemNames/701/1"
+        ],
+        "8e6ca359985dbd664112": [
+          "/systemSuffixNames/163/1"
+        ],
+        "8ee61c01dbd336775404": [
+          "/systemNames/748/1"
+        ],
+        "8f009bc5515b513f7e44": [
+          "/systemNames/712/1"
+        ],
+        "8f690692d113246387d1": [
+          "/systemNames/1047/1"
+        ],
+        "8f776108bc79a3b816aa": [
+          "/systemNames/923/1"
+        ],
+        "8fa134547ffe05018d73": [
+          "/systemNames/1108/1"
+        ],
+        "905f4f7e0300c438350d": [
+          "/systemNames/880/1"
+        ],
+        "90eaadefd068ff1840ee": [
+          "/systemSuffixNames/182/1"
+        ],
+        "91258cb573a6e6685302": [
+          "/systemNames/956/1"
+        ],
+        "917f63f21618591e897b": [
+          "/systemNames/686/1"
+        ],
+        "919df70583e0e1d6b132": [
+          "/systemSuffixNames/190/1"
+        ],
+        "920170d5862fd0f40038": [
+          "/systemNames/692/1"
+        ],
+        "923f245dfa8e67da4235": [
+          "/systemNames/1040/1"
+        ],
+        "92f57447b98255eed344": [
+          "/systemSuffixNames/119/1"
+        ],
+        "93399e9b197cf982d0c9": [
+          "/systemNames/635/1"
+        ],
+        "93ef888be96bb03e7898": [
+          "/systemSuffixNames/141/1"
+        ],
+        "9408cdac42d6798dc1b0": [
+          "/systemNames/827/1"
+        ],
+        "9483e470165ac11c50a5": [
+          "/systemNames/859/1"
+        ],
+        "954470d801d8f1bcc17a": [
+          "/systemNames/618/1"
+        ],
+        "9649b0534f87d9edf537": [
+          "/systemSuffixNames/161/1"
+        ],
+        "96580fd27bb7154e68dc": [
+          "/systemNames/870/1"
+        ],
+        "96984cefb973abd3eade": [
+          "/systemSuffixNames/113/1"
+        ],
+        "96bc262836b9a2270667": [
+          "/systemNames/940/1"
+        ],
+        "973ff0d168f28a3a5879": [
+          "/systemNames/703/1"
+        ],
+        "9784f98626ad6be88a3e": [
+          "/systemSuffixNames/75/1"
+        ],
+        "986fb0f51681924b2538": [
+          "/systemNames/903/1"
+        ],
+        "98a898acf4d947f3309b": [
+          "/systemNames/694/1"
+        ],
+        "98af33faeb344e0a2fdd": [
+          "/systemNames/758/1"
+        ],
+        "99f4f8ebfce95b8e7b0c": [
+          "/systemSuffixNames/112/1"
+        ],
+        "9a032c48d359aac3b610": [
+          "/systemNames/887/1"
+        ],
+        "9a36ff28899695ac76f5": [
+          "/systemNames/1062/1"
+        ],
+        "9b1bf0883546e5dbbf2f": [
+          "/systemNames/755/1"
+        ],
+        "9b21d6be0e62f6481019": [
+          "/systemNames/951/1"
+        ],
+        "9bcaa1d4a6eb99cc5be6": [
+          "/systemNames/644/1"
+        ],
+        "9bfc9e16ce8fb2ae7722": [
+          "/systemNames/885/1"
+        ],
+        "9c7be6a763f58311273b": [
+          "/systemSuffixNames/179/1"
+        ],
+        "9caa640f269c0fff9bb7": [
+          "/systemSuffixNames/115/1"
+        ],
+        "9cfe2f90c7e4616ccc39": [
+          "/systemNames/666/1"
+        ],
+        "9d51555c33f8d9dfca3c": [
+          "/systemNames/603/1"
+        ],
+        "9d757d3b7e073ea7da14": [
+          "/systemNames/731/1"
+        ],
+        "9d86ee6d1d5aeb1841c4": [
+          "/systemSuffixNames/212/1"
+        ],
+        "9dc67783ae50cb26c1ee": [
+          "/systemNames/668/1"
+        ],
+        "9df095395a57645ba23d": [
+          "/systemSuffixNames/181/1"
+        ],
+        "9e12918092aa9c45e701": [
+          "/systemNames/913/1"
+        ],
+        "9e1ad2d78af95addf780": [
+          "/systemSuffixNames/133/1"
+        ],
+        "9e5f93351c415cf75be0": [
+          "/systemNames/988/1"
+        ],
+        "9e6896486b988b2dcf64": [
+          "/systemNames/1101/1"
+        ],
+        "9f9833b4cc23968669c4": [
+          "/systemNames/742/1"
+        ],
+        "a0ffa61d074bb2385267": [
+          "/systemNames/1045/1"
+        ],
+        "a1e36d97d0689f3bf9d9": [
+          "/systemNames/904/1"
+        ],
+        "a24f3bcbde7bc558baf3": [
+          "/systemSuffixNames/174/1"
+        ],
+        "a279c09679c6a1f120b7": [
+          "/systemNames/621/1"
+        ],
+        "a2a9ce3d2977ba9da30b": [
+          "/systemSuffixNames/167/1"
+        ],
+        "a3a12b50c8bfb306a96c": [
+          "/systemNames/1096/1"
+        ],
+        "a40d6db9f812595f5b36": [
+          "/systemNames/751/1"
+        ],
+        "a4e49436ddcfccc873f6": [
+          "/systemNames/1009/1"
+        ],
+        "a57e0d17162d19d150f9": [
+          "/systemSuffixNames/207/1"
+        ],
+        "a5a3afbed5b32eec67ab": [
+          "/systemNames/833/1"
+        ],
+        "a5c3d25460f0837d1805": [
+          "/systemNames/924/1"
+        ],
+        "a606d214578427ab7810": [
+          "/systemNames/650/1"
+        ],
+        "a640abdd17940de7347f": [
+          "/systemSuffixNames/157/1"
+        ],
+        "a67046c1c1caafc4928d": [
+          "/systemNames/856/1"
+        ],
+        "a6cf744df31ee472384d": [
+          "/systemNames/638/1"
+        ],
+        "a71316eee89159c226da": [
+          "/systemNames/744/1"
+        ],
+        "a75c6048712084e6c1e8": [
+          "/systemNames/895/1"
+        ],
+        "a7ef2970fe0bec8a243c": [
+          "/systemNames/764/1"
+        ],
+        "a89a9bcb91920322983d": [
+          "/systemNames/905/1"
+        ],
+        "a89bb5a0718e9de1e39b": [
+          "/systemSuffixNames/232/1"
+        ],
+        "a8d150a4d4a3a35523e0": [
+          "/systemNames/607/1"
+        ],
+        "a8d1db8df8eb58a86b40": [
+          "/systemSuffixNames/194/1"
+        ],
+        "a997db41051188052e4b": [
+          "/systemNames/902/1"
+        ],
+        "a9dd70cd97b1a09b28d2": [
+          "/systemNames/673/1"
+        ],
+        "aa22363ee046014378f2": [
+          "/systemNames/877/1"
+        ],
+        "aaf1b89cce188275e8dd": [
+          "/systemSuffixNames/109/1"
+        ],
+        "aafd1228d9f269964cf0": [
+          "/systemNames/1093/1"
+        ],
+        "ab3b1f5d6224177578cb": [
+          "/systemNames/615/1"
+        ],
+        "ab51b6bdecf195d2f034": [
+          "/systemNames/728/1"
+        ],
+        "abc922084591652c6b4c": [
+          "/systemSuffixNames/191/1"
+        ],
+        "abe9fc2cfcfec58cd70d": [
+          "/systemSuffixNames/140/1"
+        ],
+        "ac1ffb17e0c5affb8771": [
+          "/systemNames/807/1"
+        ],
+        "ac76af0ed5ce07618c11": [
+          "/systemSuffixNames/225/1"
+        ],
+        "ac7c0ab56c07b87350d6": [
+          "/systemNames/802/1"
+        ],
+        "ac8b060b0dfe5b8c9648": [
+          "/systemNames/841/1"
+        ],
+        "ac98b32081a4ce6e78c3": [
+          "/systemNames/909/1"
+        ],
+        "ad43b3b893642c743386": [
+          "/systemSuffixNames/142/1"
+        ],
+        "ae71587d54180914bdb3": [
+          "/systemNames/861/1"
+        ],
+        "aeb1309270d67544fbe1": [
+          "/systemNames/842/1"
+        ],
+        "af74f076140e718c4933": [
+          "/systemNames/851/1"
+        ],
+        "b0152daf58c33ea2ea5f": [
+          "/systemNames/680/1"
+        ],
+        "b0bfbd0b5bf2d1f9c7d0": [
+          "/systemNames/961/1"
+        ],
+        "b155525cd62773af0d1e": [
+          "/systemNames/846/1"
+        ],
+        "b185c074c23b3713323d": [
+          "/systemNames/1112/1"
+        ],
+        "b1fb9af76a553b994446": [
+          "/systemSuffixNames/176/1"
+        ],
+        "b2300345c9e5a3b1b942": [
+          "/systemNames/671/1"
+        ],
+        "b39893f8b09159df4bf5": [
+          "/systemNames/713/1"
+        ],
+        "b3f1737de3d9875ee200": [
+          "/systemNames/931/1"
+        ],
+        "b3f6fa1298d56879f713": [
+          "/systemSuffixNames/145/1"
+        ],
+        "b402c482cfae898f5b00": [
+          "/systemNames/1083/1"
+        ],
+        "b4380c54b18ea8170681": [
+          "/systemNames/788/1"
+        ],
+        "b4575413799318609238": [
+          "/systemNames/1100/1"
+        ],
+        "b4a919f797e03f4e2def": [
+          "/systemNames/663/1"
+        ],
+        "b4b1d1a5c8f710485160": [
+          "/systemSuffixNames/158/1"
+        ],
+        "b4f39270cf660e5ac3b3": [
+          "/systemNames/787/1"
+        ],
+        "b5dfb15237b0b4cba9f6": [
+          "/systemNames/1107/1"
+        ],
+        "b5ecc58dd22528012ebd": [
+          "/systemNames/1000/1"
+        ],
+        "b64f48eb6568a32bfdbc": [
+          "/systemNames/907/1"
+        ],
+        "b6a54c633bf1227fa14d": [
+          "/systemSuffixNames/234/1"
+        ],
+        "b6d8c56d19dcb3f8744c": [
+          "/systemNames/695/1"
+        ],
+        "b71bc7e8e51eeec2528a": [
+          "/systemNames/683/1"
+        ],
+        "b8694762496138dd8eb1": [
+          "/systemNames/661/1"
+        ],
+        "ba03b6bbb10ba4182017": [
+          "/systemNames/588/1"
+        ],
+        "ba3567aae6b52ccc29b9": [
+          "/systemSuffixNames/213/1"
+        ],
+        "ba5b83b1b9419f1ecd78": [
+          "/systemSuffixNames/224/1"
+        ],
+        "ba6ea2da3d72d28084e9": [
+          "/systemNames/873/1"
+        ],
+        "ba9b12dfaee2bac2fc24": [
+          "/systemNames/696/1"
+        ],
+        "bcc2fe2f2f1a74690960": [
+          "/systemNames/917/1"
+        ],
+        "bd0aab97641ee20f284a": [
+          "/systemNames/934/1"
+        ],
+        "bd20a30a40f0d791c314": [
+          "/systemNames/761/1"
+        ],
+        "bd2a5206c1afdba56a5e": [
+          "/systemNames/654/1"
+        ],
+        "bd69ab362af219a5a972": [
+          "/systemNames/914/1"
+        ],
+        "bd990297a85c1a137400": [
+          "/systemNames/601/1"
+        ],
+        "bdef5febc82275ad71d7": [
+          "/systemNames/994/1"
+        ],
+        "be690327f9e694c3bd06": [
+          "/systemNames/741/1"
+        ],
+        "bea88f117f477afd5da6": [
+          "/systemNames/1028/1"
+        ],
+        "bf78e27e8ee7ed30317d": [
+          "/systemSuffixNames/186/1"
+        ],
+        "bf9603dbacd175e3c076": [
+          "/systemNames/721/1"
+        ],
+        "c02fe4f348c5267d0796": [
+          "/systemSuffixNames/156/1"
+        ],
+        "c03ebcee6404db01f886": [
+          "/systemNames/697/1"
+        ],
+        "c0723f2d003c227e87f9": [
+          "/systemNames/811/1"
+        ],
+        "c0ed9f915bb0594a0825": [
+          "/systemNames/1046/1"
+        ],
+        "c101ca8753e10cd2375d": [
+          "/systemNames/604/1"
+        ],
+        "c2533ce8032a98802148": [
+          "/systemNames/626/1"
+        ],
+        "c29d8acbde5ae8b8dcff": [
+          "/systemSuffixNames/58/1"
+        ],
+        "c2ae632728b07b69eebe": [
+          "/systemNames/808/1"
+        ],
+        "c2b0f145853d965da53d": [
+          "/systemNames/1095/1"
+        ],
+        "c319157a882384f1f6c6": [
+          "/systemSuffixNames/105/1"
+        ],
+        "c3d8cbdd255528ef5f0e": [
+          "/systemNames/775/1"
+        ],
+        "c47c24697703fb5a8144": [
+          "/systemNames/908/1"
+        ],
+        "c4e7ee1d32b6de4d76d0": [
+          "/systemNames/953/1"
+        ],
+        "c501f77d4ed82473bf56": [
+          "/systemNames/674/1"
+        ],
+        "c5d0db351358195ff205": [
+          "/systemNames/693/1"
+        ],
+        "c5f4b0bb4bc512ed7403": [
+          "/systemNames/898/1"
+        ],
+        "c651028b691c7d1c520a": [
+          "/systemNames/916/1"
+        ],
+        "c6cd941d37ee6d08e832": [
+          "/systemSuffixNames/130/1"
+        ],
+        "c70463f14ad1eb7c6eb0": [
+          "/systemNames/681/1"
+        ],
+        "c75e73ac7cc8c9d89ac7": [
+          "/systemNames/803/1"
+        ],
+        "c77f32ff544580edc5eb": [
+          "/systemNames/815/1"
+        ],
+        "c783b1c1183228e64d9d": [
+          "/systemSuffixNames/122/1"
+        ],
+        "c7fda58e3960aba6d466": [
+          "/systemSuffixNames/125/1"
+        ],
+        "c85f6328f73eca2d54a8": [
+          "/systemNames/1056/1"
+        ],
+        "c9509a1c1e0da924c983": [
+          "/systemNames/614/1"
+        ],
+        "c9621861c61de7bf5f36": [
+          "/systemNames/1079/1"
+        ],
+        "c9d56c1a4b3e2cd30cf7": [
+          "/systemNames/1068/1"
+        ],
+        "ca50f40ad8d9f5ba7368": [
+          "/systemNames/790/1"
+        ],
+        "cafba691690c305329f0": [
+          "/systemNames/645/1"
+        ],
+        "cb4e0e09908f43dc6aef": [
+          "/systemNames/784/1"
+        ],
+        "cbbc1186f31cac2ecb32": [
+          "/systemNames/1089/1"
+        ],
+        "cc19fdbf59f0d3e45750": [
+          "/systemNames/822/1"
+        ],
+        "cc5ea8825f233c87dc3b": [
+          "/systemNames/1036/1"
+        ],
+        "cd082e924139be1684f6": [
+          "/systemSuffixNames/216/1"
+        ],
+        "cd2b4a6d8d8bba493bfd": [
+          "/systemSuffixNames/154/1"
+        ],
+        "cd30fb4e7604b6992d9c": [
+          "/systemNames/1024/1"
+        ],
+        "cda83b2abba9a0559d74": [
+          "/systemNames/852/1"
+        ],
+        "cdf90f65f034b13a157c": [
+          "/systemNames/669/1"
+        ],
+        "ce42549601cb839b8181": [
+          "/systemNames/1011/1"
+        ],
+        "ce4b610723fb80bdeec6": [
+          "/systemSuffixNames/210/1"
+        ],
+        "ceaf2a5095af7618afff": [
+          "/systemNames/639/1"
+        ],
+        "cf1029772d6466a140f6": [
+          "/systemNames/718/1"
+        ],
+        "d0341f9f49571ddae0da": [
+          "/systemNames/910/1"
+        ],
+        "d0865330363c830c6741": [
+          "/systemSuffixNames/173/1"
+        ],
+        "d0be1a66a863782eaa71": [
+          "/systemSuffixNames/150/1"
+        ],
+        "d0c01710ed77afe9a454": [
+          "/systemNames/1094/1"
+        ],
+        "d1383d875cc1ae820e1b": [
+          "/systemNames/840/1"
+        ],
+        "d162fd56e5cd80db8179": [
+          "/systemNames/883/1"
+        ],
+        "d229212abd107210721e": [
+          "/systemSuffixNames/116/1"
+        ],
+        "d234dc26801cec2315db": [
+          "/systemNames/1053/1"
+        ],
+        "d26a23dd8f3daefae8e1": [
+          "/systemSuffixNames/76/1"
+        ],
+        "d2c3a1609c6d68aefb83": [
+          "/systemNames/737/1"
+        ],
+        "d318b59f4ce32d1b11b7": [
+          "/systemNames/935/1"
+        ],
+        "d3d7834f746ed1d95a65": [
+          "/systemNames/1111/1"
+        ],
+        "d3f97008517d773afff8": [
+          "/systemNames/777/1"
+        ],
+        "d44d38b48660b8721080": [
+          "/systemNames/628/1"
+        ],
+        "d4c08e9da3ac32223706": [
+          "/systemNames/1021/1"
+        ],
+        "d64288ee43d31198bea5": [
+          "/systemNames/745/1"
+        ],
+        "d69808af6e243230f502": [
+          "/systemNames/1008/1"
+        ],
+        "d6bb10aa2bac2c8f4693": [
+          "/systemSuffixNames/117/1"
+        ],
+        "d73f753a860f0f32e4d3": [
+          "/systemNames/733/1"
+        ],
+        "d7a60cea08e847dd6b24": [
+          "/systemSuffixNames/152/1"
+        ],
+        "d8f0b7f2e68fed3ef3bb": [
+          "/systemSuffixNames/121/1"
+        ],
+        "d8fc000ec6ec1a9bd7c7": [
+          "/systemNames/783/1"
+        ],
+        "d95da73692f599dadefb": [
+          "/systemNames/983/1"
+        ],
+        "d9b8737d5b45f36975f6": [
+          "/systemNames/708/1"
+        ],
+        "d9fadc82b0108124a8f1": [
+          "/systemNames/912/1"
+        ],
+        "da12b7911594dea3b6de": [
+          "/systemNames/965/1"
+        ],
+        "da3d1d55718d6fde4098": [
+          "/systemNames/752/1"
+        ],
+        "dad36dd0ba1ac2cd3db9": [
+          "/systemNames/806/1"
+        ],
+        "db4bae85cdb9023b9da6": [
+          "/systemSuffixNames/204/1"
+        ],
+        "db8399d38f3929c3b916": [
+          "/systemNames/734/1"
+        ],
+        "dcbc48dfa03c1495ef05": [
+          "/systemNames/1102/1"
+        ],
+        "dcd2d8743606098db78f": [
+          "/systemSuffixNames/114/1"
+        ],
+        "dda115b724ed50c472df": [
+          "/systemNames/743/1"
+        ],
+        "de1378d5e7a96ce022ed": [
+          "/systemNames/736/1"
+        ],
+        "deb130510a69f084c0a7": [
+          "/systemNames/716/1"
+        ],
+        "def999d9d1c64c2d1809": [
+          "/systemNames/771/1"
+        ],
+        "df1aec174dbf3313aff6": [
+          "/systemNames/1022/1"
+        ],
+        "df86b29fc304f07d47ea": [
+          "/systemNames/872/1"
+        ],
+        "e067f77eca5b828c95e6": [
+          "/systemSuffixNames/189/1"
+        ],
+        "e070fdb341b2da31eba2": [
+          "/systemNames/684/1"
+        ],
+        "e0786705ddc650b12ea3": [
+          "/systemNames/918/1"
+        ],
+        "e0d5becb796932e44065": [
+          "/systemNames/782/1"
+        ],
+        "e14b166cba10e85676c7": [
+          "/systemNames/945/1"
+        ],
+        "e15f95b2b958fc525325": [
+          "/systemNames/633/1"
+        ],
+        "e1a76fd723c880effa74": [
+          "/systemNames/818/1"
+        ],
+        "e20c0b0270b6ac891017": [
+          "/systemNames/595/1"
+        ],
+        "e2567d2f9067c6b8e3f6": [
+          "/systemSuffixNames/98/1"
+        ],
+        "e271e74d7b3ef358df64": [
+          "/systemSuffixNames/231/1"
+        ],
+        "e29dbb131a9b766e4f5f": [
+          "/systemNames/719/1"
+        ],
+        "e3b1151fb1d3ae826c8d": [
+          "/systemSuffixNames/172/1"
+        ],
+        "e474f4eb204f1de5facd": [
+          "/systemNames/660/1"
+        ],
+        "e4e81af26c7802ac0ae5": [
+          "/systemNames/594/1"
+        ],
+        "e4ebc85bd7775ac19545": [
+          "/systemNames/838/1"
+        ],
+        "e4ec986876497258e4b3": [
+          "/systemNames/850/1"
+        ],
+        "e5a13658a262d4fe8321": [
+          "/systemSuffixNames/233/1"
+        ],
+        "e5eaa0a938009ded1c96": [
+          "/systemNames/725/1"
+        ],
+        "e6142ed348439e758934": [
+          "/systemNames/1087/1"
+        ],
+        "e64aee51eaa4a797694d": [
+          "/systemSuffixNames/198/1"
+        ],
+        "e6f389b83b62fd064d5a": [
+          "/systemSuffixNames/177/1"
+        ],
+        "e703f6ed3dc50b144c30": [
+          "/systemNames/724/1"
+        ],
+        "e884700a953d6ed7c3b4": [
+          "/systemNames/591/1"
+        ],
+        "e887e8ff2339ec95f744": [
+          "/systemNames/746/1"
+        ],
+        "e91515727c56d13a9123": [
+          "/systemSuffixNames/217/1"
+        ],
+        "e9251e105c1918a46bb9": [
+          "/systemNames/1033/1"
+        ],
+        "e94348a9c3ab6b963ccb": [
+          "/systemNames/944/1"
+        ],
+        "e9570cd12636830c7c42": [
+          "/systemNames/844/1"
+        ],
+        "e998745260a5306fe3f3": [
+          "/systemNames/865/1"
+        ],
+        "e9e208ee272ed2547935": [
+          "/systemNames/891/1"
+        ],
+        "eaa0d59884223165f297": [
+          "/systemNames/1071/1"
+        ],
+        "eabe0ffc63645653d103": [
+          "/systemNames/599/1"
+        ],
+        "eb3d8a7cf03e38879f5d": [
+          "/systemNames/847/1"
+        ],
+        "ebad342d60c60ba63578": [
+          "/systemNames/1080/1"
+        ],
+        "ebce0f4a1a16ff64ef70": [
+          "/systemNames/704/1"
+        ],
+        "ec5908cc134f85f976c2": [
+          "/systemNames/796/1"
+        ],
+        "ed22d8d49fee2ff0ad79": [
+          "/systemNames/868/1"
+        ],
+        "ed28300391c8430056a1": [
+          "/systemNames/897/1"
+        ],
+        "ede032df543fb7d65698": [
+          "/systemSuffixNames/199/1"
+        ],
+        "edf2ba4d42f82c85e5fd": [
+          "/systemNames/767/1"
+        ],
+        "ee16f23d08250e80378b": [
+          "/systemSuffixNames/111/1"
+        ],
+        "eec0475dd3f3cf8be4c5": [
+          "/systemNames/941/1"
+        ],
+        "ef118d275f35fd2cec32": [
+          "/systemNames/625/1"
+        ],
+        "ef21da3e8112a4894e1d": [
+          "/systemSuffixNames/183/1"
+        ],
+        "ef23a8cece7ef37bf32c": [
+          "/systemSuffixNames/218/1"
+        ],
+        "ef2997544625e7062837": [
+          "/systemNames/947/1"
+        ],
+        "ef63bd9a8b46d5aca2e3": [
+          "/systemNames/837/1"
+        ],
+        "ef95ea116373ec3d53c9": [
+          "/systemNames/948/1"
+        ],
+        "f03a48f3a70498a7f8fc": [
+          "/systemNames/933/1"
+        ],
+        "f05c3b50fb3caa44e1a1": [
+          "/systemNames/687/1"
+        ],
+        "f08c99111fe8c0a8a19d": [
+          "/systemNames/1059/1"
+        ],
+        "f0ac3834f2cbb93e186a": [
+          "/systemNames/770/1"
+        ],
+        "f0c516f36c39364f93a7": [
+          "/systemNames/1023/1"
+        ],
+        "f1f911af19d113be4e27": [
+          "/systemNames/778/1"
+        ],
+        "f23e78dea855e960ca19": [
+          "/systemNames/970/1"
+        ],
+        "f26ef8d38eb03819d949": [
+          "/systemNames/779/1"
+        ],
+        "f2bc0d467c31fdb5c0fe": [
+          "/systemNames/930/1"
+        ],
+        "f2f44212f5bf4c0bd246": [
+          "/systemNames/997/1"
+        ],
+        "f309b1d7820641d97ce3": [
+          "/systemNames/652/1"
+        ],
+        "f32294a948137949e121": [
+          "/systemNames/987/1"
+        ],
+        "f3b6b0088fd75386e7b2": [
+          "/systemNames/1081/1"
+        ],
+        "f3c2166b3509ddd9c8f0": [
+          "/systemNames/964/1"
+        ],
+        "f40874f1da75ad33ed0a": [
+          "/systemNames/1052/1"
+        ],
+        "f47416d075567e080850": [
+          "/systemNames/1064/1"
+        ],
+        "f4da35cb4f5c818e7048": [
+          "/systemNames/879/1"
+        ],
+        "f4f0adc048518bc05419": [
+          "/systemNames/765/1"
+        ],
+        "f5283ac378460c39a482": [
+          "/systemNames/976/1"
+        ],
+        "f5814c08f28f16b341ac": [
+          "/systemSuffixNames/106/1"
+        ],
+        "f5c0e213ec47c7b5d311": [
+          "/systemNames/747/1"
+        ],
+        "f5ce04df34b266455df6": [
+          "/systemNames/1106/1"
+        ],
+        "f5d23ec38bf54a81aa72": [
+          "/systemNames/605/1"
+        ],
+        "f66d6e56a342a553affa": [
+          "/systemNames/999/1"
+        ],
+        "f75e435c4c4977572a9c": [
+          "/systemSuffixNames/138/1"
+        ],
+        "f764e736fe7b4659d223": [
+          "/systemNames/978/1"
+        ],
+        "f7d879f4ef59d72e0e3e": [
+          "/systemNames/869/1"
+        ],
+        "f82c1839e04da27f4f5e": [
+          "/systemNames/1074/1"
+        ],
+        "f85735a69cc378be1ac3": [
+          "/systemNames/1042/1"
+        ],
+        "f8f949b52451023c5982": [
+          "/systemSuffixNames/136/1"
+        ],
+        "f981359650585db50f7a": [
+          "/systemNames/1015/1"
+        ],
+        "fa667a7055eeb44b3f46": [
+          "/systemSuffixNames/230/1"
+        ],
+        "fb68a38386a3e13cad94": [
+          "/systemNames/1018/1"
+        ],
+        "fb85e4db0cbb5f91db29": [
+          "/systemNames/1088/1"
+        ],
+        "fb93e8e03d99355498fd": [
+          "/systemNames/928/1"
+        ],
+        "fb97edcd0bc7f19e2aa6": [
+          "/systemSuffixNames/139/1"
+        ],
+        "fba4a4f252d98e5f6540": [
+          "/systemNames/854/1"
+        ],
+        "fc99329f5522b0e49d6b": [
+          "/systemNames/921/1"
+        ],
+        "fcd64dc38d5c30e1a635": [
+          "/systemSuffixNames/123/1"
+        ],
+        "fd5a1c6164a3df6c53ef": [
+          "/systemSuffixNames/45/1"
+        ],
+        "fd719c0a6865deee398b": [
+          "/systemNames/893/1"
+        ],
+        "fd7db625ab0d093716a1": [
+          "/systemNames/798/1"
+        ],
+        "fdf4a0b8627eeee0ab6a": [
+          "/systemNames/709/1"
+        ],
+        "ff150ae29886393eefd6": [
+          "/systemNames/862/1"
+        ],
+        "ff1bd73982203a368786": [
+          "/systemNames/922/1"
+        ],
+        "ff1d671d972828ed20af": [
+          "/systemSuffixNames/185/1"
+        ],
+        "ff2cbbd51e2e8c1ab169": [
+          "/systemNames/792/1"
+        ],
+        "ffa56e2c2f4215f5cd8c": [
+          "/systemNames/958/1"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/assaultrifle/assaultnames.config": {
+      "effective_sha256": "6ea074c68356cae46e1f92a6db7b929033e215af8974a4480763482d4b5bc196",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "0bd77c0fbf1358cf5408377ace16d7f40b8aacfe93119d9ca7ca232e86f4ba37"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "8db72c5157cffa7a3fb23d87b71873928edef14c06b8b6a415b9bda5fe63d9d9"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "c6f551b8d2429e1e9545fb66e2d89c34603c750507cb79c52e364fb1940a5309"
+        }
+      ],
+      "paths": {
+        "00bdf9078feb8c0f8bf3": [
+          "/nameGen/1/1/19"
+        ],
+        "0cb2fcab02a2679c9017": [
+          "/nameGen/1/1/26"
+        ],
+        "2b4c63f54b9d9d39e6e8": [
+          "/nameGen/1/1/23"
+        ],
+        "303939e86f6bc96cba66": [
+          "/nameGen/1/3/27"
+        ],
+        "34616ad191c4adc8a6d0": [
+          "/nameGen/1/1/10"
+        ],
+        "3b4a5494f3d409766060": [
+          "/nameGen/1/1/14"
+        ],
+        "3e35e4faf88c67b6a93e": [
+          "/nameGen/1/1/18"
+        ],
+        "415db58bab19ce9d34a8": [
+          "/nameGen/1/1/16"
+        ],
+        "542c9099327509511eb2": [
+          "/nameGen/1/3/24"
+        ],
+        "567cfec0c6d48f4e132c": [
+          "/nameGen/1/1/27"
+        ],
+        "593cced87e4a3d8fa5f5": [
+          "/nameGen/1/1/24"
+        ],
+        "6bfbf99fbb3cb4f73546": [
+          "/nameGen/1/1/22"
+        ],
+        "6f29a48dc054ff0b764d": [
+          "/nameGen/1/3/26"
+        ],
+        "7185ddf2c1dbe825e8f8": [
+          "/nameGen/1/1/9"
+        ],
+        "725630c8e00ad2432117": [
+          "/nameGen/1/1/28"
+        ],
+        "741a7d6b874504d54b45": [
+          "/nameGen/1/1/17"
+        ],
+        "799510e94ab432842e4c": [
+          "/nameGen/1/3/29"
+        ],
+        "869bfaf81b7bd6710419": [
+          "/nameGen/1/3/28"
+        ],
+        "874b837547e5a81e718e": [
+          "/nameGen/1/1/21"
+        ],
+        "91ec2c0c21e95473adaa": [
+          "/nameGen/1/1/12"
+        ],
+        "97be451a453dfe3ba269": [
+          "/nameGen/1/3/21"
+        ],
+        "9de14925fbdf79e636e4": [
+          "/nameGen/1/3/23"
+        ],
+        "a55d3295a6bce48469c8": [
+          "/nameGen/1/1/15"
+        ],
+        "bad61d43b8482bda3426": [
+          "/nameGen/1/1/11"
+        ],
+        "c426e27a57be6c06444a": [
+          "/nameGen/1/1/25"
+        ],
+        "cf4f9886bad7239bae9e": [
+          "/nameGen/1/3/22"
+        ],
+        "dd66a4f393a38575775b": [
+          "/nameGen/1/1/20"
+        ],
+        "e3f3b4085abf8de5e387": [
+          "/nameGen/1/1/13"
+        ],
+        "e521b44538e4eaf1138a": [
+          "/nameGen/1/3/30"
+        ],
+        "ee315d15329b1db4d94a": [
+          "/nameGen/1/3/25"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/grenadelauncher/glaunchernames.config": {
+      "effective_sha256": "f0dead756ca0b67704e3d834e47578258c2d46ce21759fe91853661d7641cafa",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "6f96c4d26f6cfc6cc0f960ae5a17a6933117d01dcb0e4bb4383632f1b549bf68"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "3c02b1196982bfe4c45a36947dbf4b4109e43a94bc3baebcdd6cbbe9277be1a5"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "8ebe70bb716a25407734b77bf9a35a7e9a936eb341995f54248e20b127fe4d68"
+        }
+      ],
+      "paths": {
+        "00db530eeb1c211c4f23": [
+          "/nameGen/1/3/25"
+        ],
+        "04043b52c3c7f4b41841": [
+          "/nameGen/1/3/24"
+        ],
+        "0cd60d1f0ec5bbf157e5": [
+          "/nameGen/1/1/28"
+        ],
+        "0fdd1a8c604c3342c95e": [
+          "/nameGen/1/1/19"
+        ],
+        "15388a309860535e7bd5": [
+          "/nameGen/1/1/22"
+        ],
+        "1bb5d9885c1066fa9d02": [
+          "/nameGen/1/1/25"
+        ],
+        "33aea278a37e21010b3d": [
+          "/nameGen/1/3/27"
+        ],
+        "394532f2f2f110c2dc2c": [
+          "/nameGen/1/1/26"
+        ],
+        "5217eeeb20b67597e904": [
+          "/nameGen/1/3/31"
+        ],
+        "5275e3ebdbeaf57cc24b": [
+          "/nameGen/1/1/23"
+        ],
+        "57564796d79222bc4776": [
+          "/nameGen/1/1/21"
+        ],
+        "5c4753a7d713e51820ef": [
+          "/nameGen/1/3/23"
+        ],
+        "67c35c9f97b3b0e42a17": [
+          "/nameGen/1/1/9"
+        ],
+        "68bd8b7ccd1b28c05150": [
+          "/nameGen/1/3/35"
+        ],
+        "6f51cbb6ca5197ff62ff": [
+          "/nameGen/1/1/12"
+        ],
+        "74a25c40da551890ac93": [
+          "/nameGen/1/3/26"
+        ],
+        "753dee378d890fbaaffd": [
+          "/nameGen/1/3/28"
+        ],
+        "761c0d5af5e6fc075377": [
+          "/nameGen/1/3/20"
+        ],
+        "85dd49895c60106bcd7f": [
+          "/nameGen/1/1/11"
+        ],
+        "88c04442f0750aab88ce": [
+          "/nameGen/1/1/24"
+        ],
+        "8b12699d15671605215e": [
+          "/nameGen/1/3/19"
+        ],
+        "99bbf860631cf0fffbdb": [
+          "/nameGen/1/1/15"
+        ],
+        "a881122d0c7d5118f59b": [
+          "/nameGen/1/3/29"
+        ],
+        "b6aff7126c4576361189": [
+          "/nameGen/1/1/13"
+        ],
+        "cad43d28385ec3d845ad": [
+          "/nameGen/1/1/27"
+        ],
+        "cd16f50865acb77db5fc": [
+          "/nameGen/1/3/30"
+        ],
+        "d3922e96131bcc00f71c": [
+          "/nameGen/1/1/10"
+        ],
+        "d517a4480d9e011f4637": [
+          "/nameGen/1/1/17"
+        ],
+        "dee20ee45ef125fdd8b5": [
+          "/nameGen/1/3/34"
+        ],
+        "e278ef298fcade1e32ab": [
+          "/nameGen/1/3/21"
+        ],
+        "e6bd936aff5647d4b7c9": [
+          "/nameGen/1/1/16"
+        ],
+        "e7a8f3d62b0d465ae2ab": [
+          "/nameGen/1/1/18"
+        ],
+        "e8aa0f8f3e6cd3721689": [
+          "/nameGen/1/3/33"
+        ],
+        "ebcc46cf2dee678dee36": [
+          "/nameGen/1/3/22"
+        ],
+        "f4a990336c55822cc44e": [
+          "/nameGen/1/1/14"
+        ],
+        "f5dcd957cb70327d8b13": [
+          "/nameGen/1/1/20"
+        ],
+        "fad9b77fbfeb4bf535c4": [
+          "/nameGen/1/3/32"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/machinepistol/mpistolnames.config": {
+      "effective_sha256": "23c83ed5292342d048c8a416af82cc67c09579c3bcc42e161e687d59b25f9948",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "6f5d74d06a229cb3f8edd3f96f2c79fc57e3320e619aaca2aa47063c8c137ee6"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "220110deb1d617f4df2ad5ac3026c873763379035610b80c01336c75cc71bd79"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "92a2f4ac6752ce7ebb1735eb821b5338d4042cc91dc1d96cf2303d190b260c1f"
+        }
+      ],
+      "paths": {
+        "0c776bc45cefdcc35745": [
+          "/nameGen/1/1/21"
+        ],
+        "0d597ade726690149f3e": [
+          "/nameGen/1/1/25"
+        ],
+        "108f5d37380aef6a6836": [
+          "/nameGen/1/1/15"
+        ],
+        "1a2ef37942880e1c26fd": [
+          "/nameGen/1/1/28"
+        ],
+        "23eb01b05c1e75bec042": [
+          "/nameGen/1/1/13"
+        ],
+        "2e9a06ec6d8d36e8dbad": [
+          "/nameGen/1/3/22"
+        ],
+        "3017b7ea0eb07b07fb36": [
+          "/nameGen/1/1/17"
+        ],
+        "360738909dfa81d534be": [
+          "/nameGen/1/1/19"
+        ],
+        "3ae45358445d3ad3f121": [
+          "/nameGen/1/1/11"
+        ],
+        "3c940802ccfb152d7d57": [
+          "/nameGen/1/3/31"
+        ],
+        "4d9d69f86578781464b0": [
+          "/nameGen/1/3/26"
+        ],
+        "4f208123fc3225f4e3ca": [
+          "/nameGen/1/1/27"
+        ],
+        "54a4246a30074e1587d0": [
+          "/nameGen/1/3/30"
+        ],
+        "62220d672c3d8805ab7f": [
+          "/nameGen/1/3/23"
+        ],
+        "73f86b6250c29b54c5f7": [
+          "/nameGen/1/1/10"
+        ],
+        "781aeaf81ad9617c6374": [
+          "/nameGen/1/3/28"
+        ],
+        "79af5dad36b120701b9c": [
+          "/nameGen/1/1/24"
+        ],
+        "7a2a3dcc48615fb80539": [
+          "/nameGen/1/1/23"
+        ],
+        "7d9c1c5be7e9d32993e8": [
+          "/nameGen/1/1/18"
+        ],
+        "96ae68ec842558e11a79": [
+          "/nameGen/1/1/20"
+        ],
+        "a234d279e6b6a4d1c108": [
+          "/nameGen/1/1/14"
+        ],
+        "a84c5adf77dac62ffd93": [
+          "/nameGen/1/3/24"
+        ],
+        "aa117266867c38b78b2b": [
+          "/nameGen/1/3/29"
+        ],
+        "b2ef33d8e1a0998fa5f5": [
+          "/nameGen/1/1/9"
+        ],
+        "c3ae6e891a5f781ac5d8": [
+          "/nameGen/1/3/27"
+        ],
+        "c5cb50ab04d777ea5458": [
+          "/nameGen/1/1/26"
+        ],
+        "c69d9841f4c8abfa9bf2": [
+          "/nameGen/1/1/22"
+        ],
+        "cfc81b5f39e8216514a4": [
+          "/nameGen/1/1/16"
+        ],
+        "d019c23a4616aa7ef90f": [
+          "/nameGen/1/3/25"
+        ],
+        "ff92b669e6cc042f7352": [
+          "/nameGen/1/1/12"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/pistol/pistolnames.config": {
+      "effective_sha256": "4a69285e5461fbb7fb31662bb731efe9fd2dcb6c9b3a47de337d5cf03491597a",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "ba6f8416b18504b29b20700e35a204648c1c98a7c1221a95b0dee3d4263e9d0d"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "6f32708082b30bedd7d30b2b2023666ea6d367dea9141216561b390f82dda436"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "60d4ac8a37086b6df4aed3ec24e8e98cd9a8e750a79172ea643dec286e35d785"
+        }
+      ],
+      "paths": {
+        "01325d3289e102835274": [
+          "/nameGen/1/3/27"
+        ],
+        "08678eda6bd2312a0506": [
+          "/nameGen/1/1/25"
+        ],
+        "0969f4e5e95711a6f63b": [
+          "/nameGen/1/1/13"
+        ],
+        "0e0ed70ac4603f5c6fe6": [
+          "/nameGen/1/3/30"
+        ],
+        "2518ab62c3118664b0b6": [
+          "/nameGen/1/1/10"
+        ],
+        "2d5c7c0b861d4ca43872": [
+          "/nameGen/1/1/11"
+        ],
+        "358976ac4ba715ca0969": [
+          "/nameGen/1/1/20"
+        ],
+        "696ec2a8ed1e0b014fd0": [
+          "/nameGen/1/1/17"
+        ],
+        "754ee6786fca716da976": [
+          "/nameGen/1/1/27"
+        ],
+        "75adce5c0579d179f12c": [
+          "/nameGen/1/1/14"
+        ],
+        "7d03efea0c44383883d0": [
+          "/nameGen/1/1/9"
+        ],
+        "80c61f23c60ef7455c5a": [
+          "/nameGen/1/1/26"
+        ],
+        "88890885f7eb01e3d698": [
+          "/nameGen/1/3/21"
+        ],
+        "89fb4d761dd030f02ec0": [
+          "/nameGen/1/3/26"
+        ],
+        "950eb28775ac304e5d07": [
+          "/nameGen/1/1/16"
+        ],
+        "97afb8753a3ae2bb9d22": [
+          "/nameGen/1/1/28"
+        ],
+        "a823c5ba88a3546d3f6c": [
+          "/nameGen/1/1/19"
+        ],
+        "a981d2494ff823f7994b": [
+          "/nameGen/1/3/25"
+        ],
+        "b2e68c642404cc041e78": [
+          "/nameGen/1/1/12"
+        ],
+        "b989af31489029e0455a": [
+          "/nameGen/1/3/20"
+        ],
+        "cebfce08d1005adc9e0c": [
+          "/nameGen/1/1/24"
+        ],
+        "cf82e8f1624469035ba0": [
+          "/nameGen/1/1/18"
+        ],
+        "cfe3b3311d91089288bb": [
+          "/nameGen/1/3/22"
+        ],
+        "d2857956784f9139327b": [
+          "/nameGen/1/3/29"
+        ],
+        "d5962876c7ae6bef7d73": [
+          "/nameGen/1/3/28"
+        ],
+        "d9843b1480b03981ea5e": [
+          "/nameGen/1/1/21"
+        ],
+        "e4913a310de3727de1a0": [
+          "/nameGen/1/1/15"
+        ],
+        "f02885e4d4aa9a0b22d5": [
+          "/nameGen/1/3/24"
+        ],
+        "f08b1d111417d163b3d1": [
+          "/nameGen/1/1/22"
+        ],
+        "f7c7803d91116af9e591": [
+          "/nameGen/1/3/23"
+        ],
+        "f8d23c8ecaa897c61719": [
+          "/nameGen/1/1/23"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config": {
+      "effective_sha256": "e9bcfc1909499e1547573557855f21777c4b3b19194f3c14236b079105e88594",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "d174136b1dc485f40cb7750bd22c46f4090739a002add60d248aa6d3e8845447"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "3c02b1196982bfe4c45a36947dbf4b4109e43a94bc3baebcdd6cbbe9277be1a5"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "1e9190a61a9e8d3a3b7d58604aa3801aef6f97cd15daf243887fff9633bad1d7"
+        }
+      ],
+      "paths": {
+        "03db8ca56ed0bf26efd6": [
+          "/nameGen/1/1/21"
+        ],
+        "043d490398314b73240c": [
+          "/nameGen/1/1/27"
+        ],
+        "066a9b022a28287e22ed": [
+          "/nameGen/1/3/30"
+        ],
+        "130c6539e3c6c5f5c653": [
+          "/nameGen/1/3/25"
+        ],
+        "143645c40bc7546d440b": [
+          "/nameGen/1/1/26"
+        ],
+        "19ee97c2e0b4873391ee": [
+          "/nameGen/1/1/15"
+        ],
+        "1ddc2d9858fdde230a25": [
+          "/nameGen/1/1/11"
+        ],
+        "2019010e0083c3417e1f": [
+          "/nameGen/1/1/19"
+        ],
+        "25fdb5a30d03a00d4ae2": [
+          "/nameGen/1/3/19"
+        ],
+        "33a72056fd022e552bb7": [
+          "/nameGen/1/3/17"
+        ],
+        "4c6bf07829eb82373035": [
+          "/nameGen/1/3/20"
+        ],
+        "51550c1418d40313c887": [
+          "/nameGen/1/3/31"
+        ],
+        "635a6251d0ba17a0b4ff": [
+          "/nameGen/1/1/20"
+        ],
+        "6aa657489785565b8d39": [
+          "/nameGen/1/1/28"
+        ],
+        "6b97c0ad005b26d6d4a6": [
+          "/nameGen/1/1/10"
+        ],
+        "6d9aaa8c3fd20c82b729": [
+          "/nameGen/1/1/17"
+        ],
+        "725e38706cf7e9fa9e05": [
+          "/nameGen/1/1/23"
+        ],
+        "78d2fca24492477b4deb": [
+          "/nameGen/1/3/22"
+        ],
+        "8695b9ce1c5beec68693": [
+          "/nameGen/1/1/16"
+        ],
+        "92ad31da0d0dd47e2701": [
+          "/nameGen/1/3/24"
+        ],
+        "9c3bbb3d8e5fdd8006f7": [
+          "/nameGen/1/1/12"
+        ],
+        "9da82eefff010ae70709": [
+          "/nameGen/1/3/26"
+        ],
+        "a78b8c79f499d4b1031d": [
+          "/nameGen/1/3/23"
+        ],
+        "b236e31bea1011b10969": [
+          "/nameGen/1/1/25"
+        ],
+        "b7b99a8311f58913846d": [
+          "/nameGen/1/1/9"
+        ],
+        "bd9cfe81921a511bfa7e": [
+          "/nameGen/1/3/28"
+        ],
+        "c9a5ae16e9967d1cd00a": [
+          "/nameGen/1/1/14"
+        ],
+        "ce6fb06bb42a861f50c6": [
+          "/nameGen/1/1/18"
+        ],
+        "d093ff7372b5627d4d68": [
+          "/nameGen/1/1/13"
+        ],
+        "dbc8fc5c8cdfbbe631b4": [
+          "/nameGen/1/1/22"
+        ],
+        "e3ef3443a6ed0828ae30": [
+          "/nameGen/1/3/29"
+        ],
+        "e86aa2385be14df039a1": [
+          "/nameGen/1/3/18"
+        ],
+        "e99899f92af4ddd57c2b": [
+          "/nameGen/1/3/16"
+        ],
+        "ec63abc0794e1aefc25c": [
+          "/nameGen/1/3/27"
+        ],
+        "f90a8e54be07ffcfc823": [
+          "/nameGen/1/3/21"
+        ],
+        "ffaf355500c910efb5bf": [
+          "/nameGen/1/1/24"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/shotgun/shotgunnames.config": {
+      "effective_sha256": "5a63c54e15fb77efe9c54e9557ead059844f744e7eec8d494de9bc3945118bab",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "a2402bef995f70871c7bf0e1211eced842c0507bd0f55f8d5e31343f7ab65949"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "6fc1f3ef91a0c469c974779ee561e168635708060dff9ca49e54eb8288d4afaf"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "662ba15f3aba7b7a69655ad1211bdf06467a42cafb6086b0862aa2d33f5dba3e"
+        }
+      ],
+      "paths": {
+        "114b8e18feb158aa9f8c": [
+          "/nameGen/1/1/24"
+        ],
+        "143127618600270fc1c6": [
+          "/nameGen/1/1/21"
+        ],
+        "16e9cf947be762aa4303": [
+          "/nameGen/1/1/16"
+        ],
+        "18a549a0d21c134e5d61": [
+          "/nameGen/1/3/30"
+        ],
+        "1b3a5a7d6dab621dae1e": [
+          "/nameGen/1/3/24"
+        ],
+        "25de01f87071317c4b15": [
+          "/nameGen/1/3/32"
+        ],
+        "26d75a68fc389ed7e6f8": [
+          "/nameGen/1/3/26"
+        ],
+        "3287d800a26258bf9d01": [
+          "/nameGen/1/1/26"
+        ],
+        "43b9ce37e3e9f55e9368": [
+          "/nameGen/1/3/23"
+        ],
+        "4834474dceac9767007e": [
+          "/nameGen/1/1/22"
+        ],
+        "4c31d8e38f128a7d51d1": [
+          "/nameGen/1/1/9"
+        ],
+        "4f22095ac634d064fdf7": [
+          "/nameGen/1/1/18"
+        ],
+        "5a0db20f449f9c53c2d5": [
+          "/nameGen/1/1/28"
+        ],
+        "65c26912341e49ed864c": [
+          "/nameGen/1/1/13"
+        ],
+        "86f9afa8e5579d77dd35": [
+          "/nameGen/1/3/31"
+        ],
+        "944c008174a89123992a": [
+          "/nameGen/1/3/25"
+        ],
+        "961f5384b9342b03cfe7": [
+          "/nameGen/1/3/33"
+        ],
+        "9b00bb9d37d5d928d219": [
+          "/nameGen/1/1/20"
+        ],
+        "ad791cbb79625c313346": [
+          "/nameGen/1/1/11"
+        ],
+        "b3222f02df93c79cef05": [
+          "/nameGen/1/1/14"
+        ],
+        "b866b6ba7d9b2497e8c9": [
+          "/nameGen/1/3/28"
+        ],
+        "b87b65df7eae1595e5a6": [
+          "/nameGen/1/1/27"
+        ],
+        "bb813cbbf6ddc54b5b67": [
+          "/nameGen/1/3/29"
+        ],
+        "bd449e69bd334d149f6e": [
+          "/nameGen/1/1/23"
+        ],
+        "be1076c4f3afec3d37f4": [
+          "/nameGen/1/1/10"
+        ],
+        "c162c8f9e4a4c7197281": [
+          "/nameGen/1/1/17"
+        ],
+        "caf818cac529aad3eaf6": [
+          "/nameGen/1/1/19"
+        ],
+        "cc8da49fbe7ca2bf6c32": [
+          "/nameGen/1/1/25"
+        ],
+        "ebc46302903aa61fdedf": [
+          "/nameGen/1/1/12"
+        ],
+        "f1596406bdb431586717": [
+          "/nameGen/1/1/15"
+        ],
+        "f6f58d16c9918ff1a4ba": [
+          "/nameGen/1/3/27"
+        ]
+      }
+    },
+    "items/active/weapons/ranged/sniperrifle/snipernames.config": {
+      "effective_sha256": "de17940b307a2e78c74766a27efb9db9cac534891e1b8d19c169c1772b5216c1",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "e2c93c60e910f540355f77daff281778941da47b29e5963f551cc31d1b812eff"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "d42f8b6b4dcaded6cf0631c1acdf2757cbdfc748d5adb166991111dcecea7ed4"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "c7f1f1a78a5f917f6aff81b54d751f056e33b9b28c4c44631de1bdc64d7f9a4d"
+        }
+      ],
+      "paths": {
+        "047befe77a350f18b57e": [
+          "/nameGen/1/3/26"
+        ],
+        "0510ad81db57860df489": [
+          "/nameGen/1/3/24"
+        ],
+        "055418211f86e813b9e1": [
+          "/nameGen/1/3/34"
+        ],
+        "076b9650905a406ac760": [
+          "/nameGen/1/1/23"
+        ],
+        "0876f5c97b9b1d1eb5a7": [
+          "/nameGen/1/3/33"
+        ],
+        "0d079e9a756fa1f69b2a": [
+          "/nameGen/1/1/18"
+        ],
+        "0f0b827b36c503dee68d": [
+          "/nameGen/1/1/25"
+        ],
+        "19279f609672b04f68e5": [
+          "/nameGen/1/1/21"
+        ],
+        "1c2f26912a6e8ae003a7": [
+          "/nameGen/1/3/23"
+        ],
+        "1fda6ba9a3e712881120": [
+          "/nameGen/1/1/27"
+        ],
+        "22ef4ffd5facfb2f7e3d": [
+          "/nameGen/1/1/14"
+        ],
+        "2ef4995a1eed97f43afb": [
+          "/nameGen/1/3/31"
+        ],
+        "3312290e88be9d7d8169": [
+          "/nameGen/1/3/32"
+        ],
+        "3542b667d17a91089b30": [
+          "/nameGen/1/1/19"
+        ],
+        "39f8fae014abdaec42ac": [
+          "/nameGen/1/1/11"
+        ],
+        "4c236fcb5a6adb170e2d": [
+          "/nameGen/1/3/30"
+        ],
+        "52f810674a1876539389": [
+          "/nameGen/1/1/12"
+        ],
+        "5835cbf0ea770ddf800f": [
+          "/nameGen/1/1/22"
+        ],
+        "6c74550cb10bca472981": [
+          "/nameGen/1/1/13"
+        ],
+        "739e42039093cf5e18ee": [
+          "/nameGen/1/1/10"
+        ],
+        "776191b8df9de9947cb3": [
+          "/nameGen/1/1/28"
+        ],
+        "783004415fcb043acfc3": [
+          "/nameGen/1/1/17"
+        ],
+        "7cc4785dffb563abb399": [
+          "/nameGen/1/1/24"
+        ],
+        "7de7c9a54e1384d787e0": [
+          "/nameGen/1/1/26"
+        ],
+        "9f5198ee1963e8ec8530": [
+          "/nameGen/1/3/22"
+        ],
+        "a77e43eb25123d2c3bf2": [
+          "/nameGen/1/1/20"
+        ],
+        "c65c16326f2c7a3a06a1": [
+          "/nameGen/1/3/29"
+        ],
+        "c84fbb7676b641bc3d3c": [
+          "/nameGen/1/1/9"
+        ],
+        "cf2a4953a6da7c1dd408": [
+          "/nameGen/1/1/15"
+        ],
+        "d8d653a609183b7b19bd": [
+          "/nameGen/1/3/25"
+        ],
+        "dd32df8bfc15d9b39ae9": [
+          "/nameGen/1/1/16"
+        ],
+        "dd32ea1e49c7cc14b4b6": [
+          "/nameGen/1/3/21"
+        ],
+        "e0959c9dd8edf8b03ecb": [
+          "/nameGen/1/3/27"
+        ],
+        "fd1e4a08302e6df5bdaa": [
+          "/nameGen/1/3/28"
+        ]
+      }
+    },
+    "npcs/crew/crewmemberengineer.npctype": {
+      "effective_sha256": "10ef28fdb57961c074a1dc2718b585bf4da96f51a9f8698bbd41ea1d5c6c53d3",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "ff34764c242dee49e570a8e3ece2e3274ed4f1238c22810f37416af1d1b8d9a7"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "5ee98153c2714ceeb6fd22697b15f4585060127b69be76ac21db7e7f158b35e7"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "f620effea0707dc8454de73ab404fadb5ea59cc6ee60dda24497e1a897c36b9e"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "5b17ed46421b30945c37c7f5c7b9284eaebf1bdfedd9c3e638faf1a03637cd08"
+        }
+      ],
+      "paths": {
+        "a78485d90f38fb7eb06f": [
+          "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0"
+        ],
+        "baedace445fefd5dd7d2": [
+          "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0"
+        ]
+      }
+    },
+    "npcs/crew/crewmembermechanic.npctype": {
+      "effective_sha256": "4564b7cfc1eaa9e5ae2380f6dc6d09f3c48f357a4eb98aa75d51c8a058c6a1d1",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "42744f3bfe3cd0a2d51c563c770d69bec6adb16353ffa40ba91b2586aa348ec1"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "19ac75b1dd253fbb2396fe992fed4fa0088d161a2951c98b47557f28246e9ee1"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "24945766148ecfba80a2d440a9991f071efc73e3e29448fe27583173df2bb854"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "02b02cf2756db3a3e563e56e15d3aefe96a2769235d01a56348950252021352d"
+        }
+      ],
+      "paths": {
+        "9439fe47d6d97a071ba6": [
+          "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0"
+        ],
+        "eb64c647d3ed56428685": [
+          "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0"
+        ]
+      }
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object": {
+      "effective_sha256": "e98472e9d8c73f33f007ff54e75a43c93ae14c181871618b561720ff7c4b7753",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "965ad13cbe9dffcbfb404d0d62b293308f47c728a797b31ed28c4f20ad1d1ea1"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "662b401fccea71fd146494fc16469f28e4b3aa1b6cbf8dcbf4f12bd84b302f01"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "feb1154944893df83b4075cebb32d9ac8342cb7af4bfc59f7109f3a5d51bffaf"
+        }
+      ],
+      "paths": {
+        "30429421febe12187270": [
+          "/upgradeStages/3/itemSpawnParameters/shortdescription"
+        ],
+        "86f959b23c5ece8994de": [
+          "/upgradeStages/3/itemSpawnParameters/description"
+        ],
+        "a9d07b9d65c5a12f6580": [
+          "/upgradeStages/3/interactData/paneLayoutOverride/windowtitle/subtitle"
+        ],
+        "e89eaa47681a8f60b967": [
+          "/upgradeStages/3/interactData/paneLayoutOverride/windowtitle/title"
+        ]
+      }
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object": {
+      "effective_sha256": "9f62d36f51f15af9a552b63df3dca05300c1acf887e0b29193487972b3c4fea3",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "8f22b7371466c9ea46f916b995841bf94c73e7e81bbf69032d21e06a000f271d"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "66ee4937644137d680faadfeee0adcac8de3d4fbb562539beb4729356d5ab0f4"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "b28f09b1e0dcbf56e1661e28bd833a265919cff21721d53950b513de4008bb48"
+        }
+      ],
+      "paths": {
+        "00fd6475b69565a6705c": [
+          "/upgradeStages/2/itemSpawnParameters/floranDescription"
+        ],
+        "3a3e71c88474e597724d": [
+          "/upgradeStages/2/itemSpawnParameters/shortdescription"
+        ],
+        "48a7203b7bbf71c912b0": [
+          "/upgradeStages/2/itemSpawnParameters/hylotlDescription"
+        ],
+        "76547e5952f22e0bef8f": [
+          "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle"
+        ],
+        "85f343222aa5557e728e": [
+          "/upgradeStages/2/itemSpawnParameters/humanDescription"
+        ],
+        "89b7087e94b8d5501ce9": [
+          "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+        ],
+        "a1d4c6515f37d95a54b3": [
+          "/upgradeStages/2/itemSpawnParameters/avianDescription"
+        ],
+        "b2b894d06e6ef8818cd2": [
+          "/upgradeStages/2/itemSpawnParameters/description"
+        ],
+        "b769501f2b78a291259f": [
+          "/upgradeStages/2/itemSpawnParameters/novakidDescription"
+        ],
+        "cc49b2a60da89863abcb": [
+          "/upgradeStages/2/itemSpawnParameters/glitchDescription"
+        ],
+        "f6d68d56898954255a19": [
+          "/upgradeStages/2/itemSpawnParameters/apexDescription"
+        ]
+      }
+    },
+    "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object": {
+      "effective_sha256": "e0fe26b856ba5d539f2d1f9dada38cd4d3e8bc09acb404676ac135d932703bb1",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "296fd41b996da005887fd3693730b0134b02adeb4cebd03b93f441187a8c5514"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "858148777eba26dc19da9e13327691884cef9691cb8b96335daf90f1d020faf8"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "fc0373a911a88ca31fb0f1d44891667f9f9918903751c50cec241c36eeecf8dd"
+        }
+      ],
+      "paths": {
+        "171d57920027ee49cdad": [
+          "/upgradeStages/2/itemSpawnParameters/description"
+        ],
+        "341288c13f98b9320f3d": [
+          "/upgradeStages/2/itemSpawnParameters/novakidDescription"
+        ],
+        "3a29a50c031f22a06a43": [
+          "/upgradeStages/2/itemSpawnParameters/humanDescription"
+        ],
+        "3eae238fbcd8a78d8484": [
+          "/upgradeStages/2/itemSpawnParameters/floranDescription"
+        ],
+        "562a1359fec446c6a5cf": [
+          "/upgradeStages/2/itemSpawnParameters/glitchDescription"
+        ],
+        "a08b79304b2a161bd04e": [
+          "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value"
+        ],
+        "a50756e2f03f60c3366b": [
+          "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value"
+        ],
+        "aee22a32a9f2a058f108": [
+          "/upgradeStages/2/itemSpawnParameters/hylotlDescription"
+        ],
+        "bc37157a278040aa4772": [
+          "/upgradeStages/2/itemSpawnParameters/shortdescription"
+        ],
+        "bfca6848c25a7fc05583": [
+          "/upgradeStages/2/itemSpawnParameters/apexDescription"
+        ],
+        "c45395aaff29dc214542": [
+          "/upgradeStages/2/itemSpawnParameters/avianDescription"
+        ]
+      }
+    },
+    "quests/bounty/bounty.config": {
+      "effective_sha256": "4dd92ae3b337a7a97266e65f7701a3475274e9eb84826328a9c07c5a0474f602",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "75b7b168c8cf61fc9c8224aba530aa60696f48156c1b426f384c3dd920a8bf2b"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "b4df27d0e928f9b76311c5481a164b1d4e5ba6574fd523c93e479be31471029f"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "d1f6178581154b081acbc1eae35b5a877dc423e16795285b4136bf42fe8b5fbe"
+        }
+      ],
+      "paths": {
+        "00d54960796a6eb30e15": [
+          "/prefix/77"
+        ],
+        "0415e558cc001a370b5e": [
+          "/suffix/46"
+        ],
+        "067d9b7964d53ae53653": [
+          "/suffix/72"
+        ],
+        "08d40d1ab3690e2da30e": [
+          "/suffix/52"
+        ],
+        "0c4ae6579be80cbc3d53": [
+          "/prefix/70"
+        ],
+        "19c137d1d284c52e6431": [
+          "/prefix/75"
+        ],
+        "1c7f6deb66810a5ecece": [
+          "/prefix/83"
+        ],
+        "1e8eaad7ee05e289ee20": [
+          "/prefix/64"
+        ],
+        "218393a8b4a13460bd68": [
+          "/suffix/71"
+        ],
+        "281d752b9e8e7c3de1fd": [
+          "/suffix/69"
+        ],
+        "318cf1d582d081069d5f": [
+          "/suffix/70"
+        ],
+        "4081624396c44be3d13f": [
+          "/prefix/82"
+        ],
+        "40e3d0a3561f17809060": [
+          "/prefix/54"
+        ],
+        "4142a678b526c351633c": [
+          "/suffix/67"
+        ],
+        "4bcaf6171fdbbcf51e1e": [
+          "/suffix/47"
+        ],
+        "570aacbfdd59f83679b7": [
+          "/prefix/66"
+        ],
+        "5a61850fb0df6a784f14": [
+          "/prefix/76"
+        ],
+        "5b2ad15813e001f912af": [
+          "/suffix/50"
+        ],
+        "5b6b7f30e3be234bcd91": [
+          "/suffix/60"
+        ],
+        "5e5d74faa1fd46be8155": [
+          "/prefix/81"
+        ],
+        "5f8ee6edfdaac83f722c": [
+          "/prefix/61"
+        ],
+        "62646ecf53020e533f48": [
+          "/suffix/56"
+        ],
+        "68bdded8587a80739c99": [
+          "/prefix/58"
+        ],
+        "6923f5c91b5fc9502014": [
+          "/prefix/60"
+        ],
+        "6af80a4e84522681aca1": [
+          "/suffix/48"
+        ],
+        "6c45348989496d7447be": [
+          "/prefix/55"
+        ],
+        "72537a2f1d2e8bee8d02": [
+          "/prefix/63"
+        ],
+        "743473049d27b253f2ca": [
+          "/prefix/62"
+        ],
+        "7ac196bd1ae8088ba43a": [
+          "/prefix/71"
+        ],
+        "7af574f1122dd29ed280": [
+          "/suffix/73"
+        ],
+        "7b0a8a501cdcbc070a49": [
+          "/suffix/66"
+        ],
+        "7c2cd17e05f770cece89": [
+          "/suffix/53"
+        ],
+        "7c49b4a40835b03efa9c": [
+          "/suffix/57"
+        ],
+        "80fee80efac87d7d7962": [
+          "/prefix/57"
+        ],
+        "864cee1f0004fe15f02e": [
+          "/prefix/67"
+        ],
+        "893f11138aee95e38895": [
+          "/prefix/53"
+        ],
+        "8a2481e3c64c27e1690a": [
+          "/prefix/65"
+        ],
+        "8f971ee25d0a026711df": [
+          "/suffix/54"
+        ],
+        "99be54e4c2373fd810b1": [
+          "/suffix/63"
+        ],
+        "a089a93754a30c2f3aa8": [
+          "/prefix/68"
+        ],
+        "a299f23a2c6a2df1df87": [
+          "/suffix/58"
+        ],
+        "a4345065f3a6905d8c80": [
+          "/prefix/72"
+        ],
+        "a8d6e13f627658be0755": [
+          "/suffix/68"
+        ],
+        "b5b248c1862b32b3a2dc": [
+          "/suffix/49"
+        ],
+        "ba564d750544b62e92f3": [
+          "/prefix/59"
+        ],
+        "c5ddc653a07082e7424f": [
+          "/prefix/80"
+        ],
+        "ce2bf41c6d1b49d0c95b": [
+          "/suffix/61"
+        ],
+        "d2e8effc897cbc9bb57f": [
+          "/prefix/79"
+        ],
+        "d83e766ac3f3f7753b3d": [
+          "/suffix/62"
+        ],
+        "d8879f4ce7dcf65f562a": [
+          "/prefix/69"
+        ],
+        "e0f71cfbf1e4cac99ffc": [
+          "/suffix/59"
+        ],
+        "e1e0ec75dab3ef1aad00": [
+          "/suffix/64"
+        ],
+        "e27c9c3dfff2e390e4b2": [
+          "/suffix/55"
+        ],
+        "e3949f6eda3057b351e7": [
+          "/suffix/65"
+        ],
+        "e4b3f3b011f4019a946e": [
+          "/prefix/78"
+        ],
+        "f43670ae5c2c41e19da3": [
+          "/prefix/73"
+        ],
+        "f5c1c5efb9861c7141a0": [
+          "/prefix/74"
+        ],
+        "fa9b8177dd7e27c9d770": [
+          "/prefix/56"
+        ],
+        "fc5fde86943bfa6a1d09": [
+          "/suffix/51"
+        ]
+      }
+    },
+    "quests/bounty/gang.config": {
+      "effective_sha256": "7af926a1c2934878e74a9e29abcb8a3f529d7e7b0c19aa58dfd59468e83848db",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "df9ca146058d288f1b9a4f131ad076357960b1cfc2085453cdc46b15185337d8"
+        },
+        {
+          "layer": "japanese",
+          "kind": "patch",
+          "sha256": "61f59682fcb144b5c575ae14c73b9430de3d1b635ce2db16c45e5138859f9744"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "61f59682fcb144b5c575ae14c73b9430de3d1b635ce2db16c45e5138859f9744"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "c14be8d5c9735821c41025d3c783f21f9199fbdaccbfe6c1c497778daa84963c"
+        }
+      ],
+      "paths": {
+        "0fc108b0f0ef87741279": [
+          "/genericMid/56"
+        ],
+        "27022f8aaba2e1c91d99": [
+          "/genericMid/65"
+        ],
+        "2f30580b03edf9585a55": [
+          "/genericMid/63"
+        ],
+        "316fe26fcaf7a1e8bba7": [
+          "/suffix/71"
+        ],
+        "3307d9f789ddb09486dc": [
+          "/genericMid/60"
+        ],
+        "36a000c603be89c2d846": [
+          "/genericMid/66"
+        ],
+        "36d99c98c60d3849c765": [
+          "/genericMid/70"
+        ],
+        "3cacedcbae3b9296ca4e": [
+          "/genericMid/59"
+        ],
+        "4c16f3baeef26c782ec7": [
+          "/genericMid/53"
+        ],
+        "525452b7b82407c9070d": [
+          "/suffix/74"
+        ],
+        "54b3c799ba0688e0e308": [
+          "/genericMid/68"
+        ],
+        "606f729b9076060feef0": [
+          "/suffix/75"
+        ],
+        "6482e94603db157a5012": [
+          "/genericMid/62"
+        ],
+        "64a6977fad211b18248f": [
+          "/suffix/73"
+        ],
+        "6c547d4bf1efc2620007": [
+          "/genericMid/58"
+        ],
+        "72bc53859b3b2d3a65a0": [
+          "/genericMid/69"
+        ],
+        "8961f3d8ca1617c18b7b": [
+          "/genericMid/54"
+        ],
+        "9f293035fe909fb794dd": [
+          "/genericMid/64"
+        ],
+        "9fb08ebfcbfe0683e1db": [
+          "/genericMid/55"
+        ],
+        "a08a1a611df5592492f6": [
+          "/suffix/70"
+        ],
+        "a134c663470f951365d0": [
+          "/suffix/69"
+        ],
+        "a559cc614242b6e3d126": [
+          "/genericMid/67"
+        ],
+        "b3ca010cc10f2a29cf2b": [
+          "/suffix/76"
+        ],
+        "d0fdb0d7fa3c33d4378e": [
+          "/suffix/72"
+        ],
+        "def13b519f5414cf8c45": [
+          "/genericMid/61"
+        ],
+        "e7f8f2ef876cc3793446": [
+          "/suffix/77"
+        ],
+        "f3a3a2ed758443879e6e": [
+          "/genericMid/57"
+        ]
+      }
+    },
+    "quests/generated/pools/buildingthemes.config": {
+      "effective_sha256": "8449a3c9bdeef39c109c9c28cb898c7b012ff42936e0317578262ae627d85a5c",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "c2296126e3dddf4efc8a50deba654dd942dee42742b26637daa539067d869be8"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "e07c1a9ad280859d201e12f9fbb1b45f2c8e66feff28eaa00b65a2ad6b7f2e14"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "5263776f3ba5e991fdef6c843205ac250cafba5d27defd8622673d576188a7dd"
+        }
+      ],
+      "paths": {
+        "a8c2fda8e97282ae76f7": [
+          "/0/1/10/name"
+        ]
+      }
+    },
+    "quests/generated/pools/monsterthreats.config": {
+      "effective_sha256": "b0509a97f0793173c4fc7e9431c9cd8b9d16148f107f4e3dde4731b05c32b990",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "bc3945278b50cdf57cf1b61988e9934e9b6f4cca140338143b7ae8450a0ca2bc"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "bd78b3ab3b88efbeecbb871ae0315ce571dd4ac1a977df9daed73e83d6ece940"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "f38bdcf280fa62d2e0bdf34fd959b5edc55ef67946b907fca7c330a72ca081e9"
+        }
+      ],
+      "paths": {
+        "14246096f8507c3a42f4": [
+          "/0/1/26/1/name"
+        ],
+        "161b50b94ae1348a6e70": [
+          "/0/1/16/1/name"
+        ],
+        "1637f2ee4b07e364cd4a": [
+          "/0/1/15/1/name"
+        ],
+        "19b6ee2a9a9e5abbaaf8": [
+          "/0/1/32/1/name"
+        ],
+        "1f854c57298116e90ca7": [
+          "/0/1/21/1/name"
+        ],
+        "239ace57bb8a426eff26": [
+          "/0/1/22/1/name"
+        ],
+        "342c73922051432b98bc": [
+          "/0/1/35/1/name"
+        ],
+        "36f2486e9ef6aeda5fc7": [
+          "/0/1/17/1/name"
+        ],
+        "3ea180160ef383522638": [
+          "/0/1/29/1/name"
+        ],
+        "46142b50b023990b97f2": [
+          "/0/1/20/1/name"
+        ],
+        "4f0ca701b5521d91d813": [
+          "/0/1/19/1/name"
+        ],
+        "5b060b809d624a6d34cb": [
+          "/0/1/30/1/name"
+        ],
+        "5fc607dfa8c308001359": [
+          "/0/1/14/1/name"
+        ],
+        "65d9bb2e3f7280aafaf3": [
+          "/0/1/18/1/name"
+        ],
+        "6c4cbe547cacd244c4bf": [
+          "/0/1/31/1/name"
+        ],
+        "74e89328f0d48246456f": [
+          "/0/1/25/1/name"
+        ],
+        "7eb46a2196448176dfbd": [
+          "/0/1/28/1/name"
+        ],
+        "8f2f671b4f42cc0b5360": [
+          "/0/1/23/1/name"
+        ],
+        "b2fb9b81d97b1e7205cc": [
+          "/0/1/27/1/name"
+        ],
+        "cc0b410ed740033aa41f": [
+          "/0/1/33/1/name"
+        ],
+        "d47ac7769bb6548e7d43": [
+          "/0/1/34/1/name"
+        ],
+        "eeafe5152517b9e95f46": [
+          "/0/1/24/1/name"
+        ]
+      }
+    },
+    "quests/generated/pools/npcthreats.config": {
+      "effective_sha256": "4fbb89bfe3a3903fb28d8f7250e662677c8e86c5bbf89f98fa6797bfcba99eb0",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "96ebf701924be546ad6f4cd1e03a0c1bb9df10d28228569919cc5a08e7ea487a"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "3e897a7433acab2e93c600bf9e241ab3f469404a28d793272e803f3adae99830"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "1777f54f444969bf2ed7eb932c6c3caf8c3f9e27c632e690c4103cc4dddfc113"
+        }
+      ],
+      "paths": {
+        "059b925944f63faac168": [
+          "/0/1/31/1/name"
+        ],
+        "2776bc9e9b3eb3293267": [
+          "/0/1/29/1/name"
+        ],
+        "290da597d47314f12bb5": [
+          "/0/1/28/1/name"
+        ],
+        "32c4034cbbbba3a8c657": [
+          "/0/1/40/1/name"
+        ],
+        "596eb047b331a1c1eb75": [
+          "/0/1/38/1/name"
+        ],
+        "5cdc930f6db752cc8a44": [
+          "/0/1/37/1/name"
+        ],
+        "70c17922ce75955c1fbe": [
+          "/0/1/30/1/name"
+        ],
+        "745c4510fdb6b7aaf0b3": [
+          "/0/1/33/1/name"
+        ],
+        "772479033edb0a313aeb": [
+          "/0/1/43/1/name"
+        ],
+        "83e2f5890f600029f89d": [
+          "/0/1/42/1/name"
+        ],
+        "936f6627a3399b99fdf8": [
+          "/0/1/35/1/name"
+        ],
+        "aaaec0715557af38c374": [
+          "/0/1/34/1/name"
+        ],
+        "ad355cb4e626a1497aa4": [
+          "/0/1/41/1/name"
+        ],
+        "c14e960511b304a36224": [
+          "/0/1/32/1/name"
+        ],
+        "e57f866dacede781af3b": [
+          "/0/1/39/1/name"
+        ],
+        "e9d631be9c07372b35ac": [
+          "/0/1/36/1/name"
+        ]
+      }
+    },
+    "quests/generated/pools/singlemonsterthreats.config": {
+      "effective_sha256": "a3529f122ac8c77098fca2f2dde24c717cbeeb177970f4af5ceac559ea3dc2ad",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "3fa9e672e7eeff2878f1d7577b4046bae7d7c0596bb14c23e6b7546b5527eb04"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "ba5c93a6c36ae24e13c11fd9c702bc0e843191422e42686780dfa260f78d5e41"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "9f9079529f22323bd3c7647e9b2aefd4871944486714027117b119c838df5062"
+        }
+      ],
+      "paths": {
+        "116e0d566844884d0e6f": [
+          "/0/1/22/1/name"
+        ],
+        "29d3a14b735005085be4": [
+          "/0/1/19/1/name"
+        ],
+        "35da73714448390c67f2": [
+          "/0/1/17/1/name"
+        ],
+        "607e8bd3b6295dadb1fc": [
+          "/0/1/12/1/name"
+        ],
+        "60d264a2c700fd24bea9": [
+          "/0/1/14/1/name"
+        ],
+        "7406b365591b8dc67615": [
+          "/0/1/18/1/name"
+        ],
+        "93cb61e8722285ede466": [
+          "/0/1/11/1/name"
+        ],
+        "952ad0fa66bce16ba318": [
+          "/0/1/24/1/name"
+        ],
+        "ad28712cc363177b75d2": [
+          "/0/1/13/1/name"
+        ],
+        "b6c998c173c0bbcdd704": [
+          "/0/1/16/1/name"
+        ],
+        "c068ad04e052e12b2524": [
+          "/0/1/20/1/name"
+        ],
+        "c9117ece220e7cfbf046": [
+          "/0/1/21/1/name"
+        ],
+        "e331454a0db1683fa5f4": [
+          "/0/1/23/1/name"
+        ],
+        "ef367a195a8d38872993": [
+          "/0/1/15/1/name"
+        ]
+      }
+    },
+    "quests/generated/pools/singlenpcthreats.config": {
+      "effective_sha256": "a7f4a00550085a3e003c231287d5fd429acb2f64f7b08c495112e4aaf0c87e2b",
+      "layers": [
+        {
+          "layer": "base",
+          "kind": "full",
+          "sha256": "2bbba0fdae479e09c7f93c37b3de3556452572c39cd6586b639d70d5e9d1413e"
+        },
+        {
+          "layer": "jpfix",
+          "kind": "patch",
+          "sha256": "1b02fe8d62916787344c7bfebe01cf47ecb59f3a3020da538a3fe19567639d70"
+        },
+        {
+          "layer": "fu",
+          "kind": "patch",
+          "sha256": "1d0819428f715c011a07999fd3ee4eb41b1b6cfa34e672b81ac8f4380f49a30f"
+        }
+      ],
+      "paths": {
+        "25b728da8bb98ae33e91": [
+          "/0/1/17/1/name"
+        ],
+        "43d6c90a1f0e42ae0e7b": [
+          "/0/1/11/1/name"
+        ],
+        "48c8b95b8cd7267d3826": [
+          "/0/1/9/1/name"
+        ],
+        "7253aeb20211b69b4a0f": [
+          "/0/1/10/1/name"
+        ],
+        "7d1e5cb81ad2f053d91b": [
+          "/0/1/16/1/name"
+        ],
+        "7e426151ae2f7919dcad": [
+          "/0/1/8/1/name"
+        ],
+        "7f5bf92e2b00e6fbaa09": [
+          "/0/1/6/1/name"
+        ],
+        "8a4983658d72593d89a6": [
+          "/0/1/14/1/name"
+        ],
+        "9d62cdc36937fd38ce27": [
+          "/0/1/15/1/name"
+        ],
+        "acf3873c8dd835f686fb": [
+          "/0/1/7/1/name"
+        ],
+        "c2d49c4eebf10917808a": [
+          "/0/1/5/1/name"
+        ],
+        "ccd0eff433406b6599a9": [
+          "/0/1/13/1/name"
+        ],
+        "e99e651931b419e361d9": [
+          "/0/1/12/1/name"
+        ]
+      }
+    },
+    "npcs/statuses.config": {
+      "effective_sha256": "runtime-status-lookup",
+      "layers": [],
+      "paths": {}
+    }
+  },
+  "note": "Per-asset bytes are hashed; source paths and commercial/third-party contents are not stored.",
+  "manifest_sha256": "e6229ccb54d60d33fdca5c245fd8e06e1dee5761fb40c1c633658d1ca4d4bf2b"
+}

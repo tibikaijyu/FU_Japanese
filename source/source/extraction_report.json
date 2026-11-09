@@ -1,13 +1,20 @@
 {
-  "parsed_assets": 22528,
+  "parsed_assets": 1,
   "parse_errors": [],
   "skipped_append_display_fields": [],
-  "resolved_append_display_fields": 1,
-  "deferred_append_display_fields": 1249,
-  "excluded_lua_files": 1668,
-  "entries": 69039,
-  "unique_source_strings": 44108,
-  "assets_with_display_fields": 14388,
+  "resolved_append_display_fields": 0,
+  "deferred_append_display_fields": 0,
+  "excluded_lua_files": 0,
+  "entries": 62968,
+  "extraction_scope": {
+    "mode": "merge_assets",
+    "assets": [
+      "radiomessages/fu_quests.radiomessages"
+    ],
+    "other_catalog_rows": "retained from the existing catalog"
+  },
+  "unique_source_strings": 40743,
+  "assets_with_display_fields": 14358,
   "by_category": {
     "information": 8,
     "interface": 2497,
@@ -22,16 +29,14 @@
     "quests": 1289,
     "species": 618,
     "visual_novel": 995,
-    "generated_names": 8153,
+    "generated_names": 2077,
     "abilities": 566,
     "status": 1202,
     "crew": 190,
     "combat_text": 114,
-    "radio": 888,
+    "radio": 893,
     "research": 846
   },
-  "source_characters_unique": 2440262,
-  "append_catalog_entries": 1249,
-  "hotfix_excluded_control_fields": 2,
-  "note": "Counts updated after removing non-display references; no complete upstream re-extraction was performed for this targeted hotfix."
+  "source_characters_unique": 2421871,
+  "append_catalog_entries": 1225
 }

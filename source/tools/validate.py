@@ -17,6 +17,10 @@ class TestFailed(Exception):
     pass
 
 
+def upstream_asset(project, upstream, asset):
+    from upstream_overrides import resolve_asset
+    return resolve_asset(project, upstream, asset)
+
 def apply_batches(document, operations):
     result = copy.deepcopy(document)
     for op in operations:
@@ -109,7 +113,7 @@ def validate(project,upstream,mod):
         for group in groups:
             ui_entry=approved_ui.get(group_identity(asset,group))
             if ui_entry:
-                fixture=read_asset(upstream/asset)
+                fixture=read_asset(upstream_asset(project,upstream,asset))
                 first_guard=group[0]
                 incompatible=jsonpatch.apply_patch(fixture,[{'op':'replace','path':first_guard['path'],'value':'__version_mismatch__'}])
                 assert apply_batches(incompatible,[group])==incompatible
@@ -160,14 +164,15 @@ def validate(project,upstream,mod):
             assert apply_batches(incompatible,mini)==incompatible
             assert apply_batches({'sentinel':fixture['sentinel']},mini)=={'sentinel':fixture['sentinel']}
             summary['guarded_groups_checked']+=1
-        basepath=upstream/asset
+        basepath=upstream_asset(project,upstream,asset)
         if not basepath.exists():
             summary['patch_only_assets_without_vanilla_or_other_mod_base']+=1
             continue
         before=read_asset(basepath)
-        if (upstream/(asset+'.patch')).exists():
+        upstream_patch=upstream_asset(project,upstream,asset+'.patch')
+        if upstream_patch.exists():
             try:
-                before=apply_batches(before,read_asset(upstream/(asset+'.patch')))
+                before=apply_batches(before,read_asset(upstream_patch))
             except (TestFailed,jsonpatch.JsonPatchException,jsonpointer.JsonPointerException,KeyError,TypeError,IndexError) as e:
                 summary['known_asset_source_patch_errors'].append({'asset':asset,'error':str(e)[:180]})
                 continue

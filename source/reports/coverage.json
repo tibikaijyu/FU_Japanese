@@ -2,21 +2,21 @@
   "upstream_commit": "17868d86c9bb7bc00f92038fb78b48cebd1b41b8",
   "upstream_metadata_version": "6.5.8",
   "mod_output": "../mods/FU_Japanese",
-  "catalog_entries": 62963,
-  "catalog_sha256": "63baaef40f1a553b9740c96cf6936aefa3d9c69a3e4cf1da2ded2be52306ee7c",
-  "catalog_unique_sources": 40738,
-  "translated_entries": 62897,
-  "translated_unique_sources": 40704,
+  "catalog_entries": 62968,
+  "catalog_sha256": "56435ecd25ffd3715bb182016640d9884ac5a644e2b87df27a70cc7f9ab4dab7",
+  "catalog_unique_sources": 40743,
+  "translated_entries": 62902,
+  "translated_unique_sources": 40709,
   "patch_files": 14329,
   "methods_entries": {
     "machine": 54787,
     "machine_repaired": 68,
-    "manual": 2812,
+    "manual": 2817,
     "machine_terminology": 2803,
     "glossary": 2427
   },
   "methods_unique_sources": {
-    "manual": 2047,
+    "manual": 2052,
     "glossary": 374,
     "machine_repaired": 68,
     "machine_terminology": 1958,
@@ -80,8 +80,8 @@
       "translated": 1288
     },
     "radio": {
-      "extracted": 888,
-      "translated": 884
+      "extracted": 893,
+      "translated": 889
     },
     "research": {
       "extracted": 846,
@@ -121,7 +121,7 @@
     "translated_entries": 1179,
     "translated_unique_sources": 984,
     "npc_status_values": 149,
-    "additional_guarded_groups": 106633,
+    "additional_guarded_groups": 1030,
     "index_plan_report": "append_index_plan.json",
     "retained": [
       {
@@ -132,7 +132,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "BV-2"
       },
       {
         "id": "1118df5bfae331475863",
@@ -142,7 +144,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "778VV"
       },
       {
         "id": "160422299e91e238b618",
@@ -152,7 +156,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "CC-4"
       },
       {
         "id": "16690ca85f30ca9fc93c",
@@ -162,17 +168,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "1ddc2d9858fdde230a25",
-        "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "HCC"
       },
       {
         "id": "21365c9d07e2d306139b",
@@ -182,17 +180,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "2d5c7c0b861d4ca43872",
-        "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "66C-ZZ4"
       },
       {
         "id": "3998f839307cf96c702b",
@@ -202,27 +192,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "39f8fae014abdaec42ac",
-        "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "3ae45358445d3ad3f121",
-        "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "29-TKN"
       },
       {
         "id": "3fa7890b3295a5402dbb",
@@ -232,7 +204,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "3PL0"
       },
       {
         "id": "44817a060f5873d9c8ed",
@@ -242,7 +216,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "VV5"
       },
       {
         "id": "482e93031b159522dc0b",
@@ -252,7 +228,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "CY"
       },
       {
         "id": "487856c3a96383f4ece3",
@@ -262,17 +240,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "4c31d8e38f128a7d51d1",
-        "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "KX994"
       },
       {
         "id": "584230d54048f5d35ea5",
@@ -282,17 +252,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "67c35c9f97b3b0e42a17",
-        "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "DA-7JU"
       },
       {
         "id": "6d91f4dc301657675e5c",
@@ -302,17 +264,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "7185ddf2c1dbe825e8f8",
-        "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "TR33"
       },
       {
         "id": "7996257cb049e66c9cfd",
@@ -322,17 +276,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "7d03efea0c44383883d0",
-        "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "VV-2"
       },
       {
         "id": "7f8986136084d288c3c5",
@@ -342,17 +288,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "85dd49895c60106bcd7f",
-        "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "34RT"
       },
       {
         "id": "8aa92370014cf6789a8e",
@@ -362,7 +300,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "CT"
       },
       {
         "id": "9784f98626ad6be88a3e",
@@ -372,7 +312,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "55TR"
       },
       {
         "id": "99f4f8ebfce95b8e7b0c",
@@ -382,7 +324,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "BCA"
       },
       {
         "id": "9e1ad2d78af95addf780",
@@ -392,7 +336,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "CYT"
       },
       {
         "id": "a24f3bcbde7bc558baf3",
@@ -402,7 +348,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "LV67874"
       },
       {
         "id": "a2a9ce3d2977ba9da30b",
@@ -412,7 +360,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "KL-994"
       },
       {
         "id": "a8d1db8df8eb58a86b40",
@@ -422,37 +372,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "ad791cbb79625c313346",
-        "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "b2ef33d8e1a0998fa5f5",
-        "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "b7b99a8311f58913846d",
-        "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "NX6"
       },
       {
         "id": "ba5b83b1b9419f1ecd78",
@@ -462,17 +384,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "bad61d43b8482bda3426",
-        "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "BAE ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "VU"
       },
       {
         "id": "be690327f9e694c3bd06",
@@ -482,7 +396,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "FU"
       },
       {
         "id": "c29d8acbde5ae8b8dcff",
@@ -492,17 +408,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
-      },
-      {
-        "id": "c84fbb7676b641bc3d3c",
-        "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
-        "path": "/nameGen/1/1/-",
-        "source": "AKS ",
-        "category": "generated_names",
-        "origin": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
-        "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "274AA"
       },
       {
         "id": "cd082e924139be1684f6",
@@ -512,7 +420,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "TY7"
       },
       {
         "id": "d0865330363c830c6741",
@@ -522,7 +432,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "LV243"
       },
       {
         "id": "d26a23dd8f3daefae8e1",
@@ -532,7 +444,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "5RR4"
       },
       {
         "id": "d8f0b7f2e68fed3ef3bb",
@@ -542,7 +456,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "BX-1"
       },
       {
         "id": "e2567d2f9067c6b8e3f6",
@@ -552,7 +468,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "8GGT"
       },
       {
         "id": "e271e74d7b3ef358df64",
@@ -562,7 +480,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "XXC"
       },
       {
         "id": "fa667a7055eeb44b3f46",
@@ -572,7 +492,9 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "XC-6"
       },
       {
         "id": "fd5a1c6164a3df6c53ef",
@@ -582,11 +504,181 @@
         "category": "generated_names",
         "origin": "celestial/names.config.patch",
         "strategy": "indexed_guards",
-        "reason": "deliberately_retained"
+        "basis_sha256": "c7649df76afe2919541a9b70b180e91ef3ff303ad5707545d2c7be9474e587a5",
+        "reason": "not_japanese_output",
+        "translation": "0988YYT"
+      },
+      {
+        "id": "7185ddf2c1dbe825e8f8",
+        "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "6ea074c68356cae46e1f92a6db7b929033e215af8974a4480763482d4b5bc196",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "bad61d43b8482bda3426",
+        "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "6ea074c68356cae46e1f92a6db7b929033e215af8974a4480763482d4b5bc196",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "67c35c9f97b3b0e42a17",
+        "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "f0dead756ca0b67704e3d834e47578258c2d46ce21759fe91853661d7641cafa",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "85dd49895c60106bcd7f",
+        "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "f0dead756ca0b67704e3d834e47578258c2d46ce21759fe91853661d7641cafa",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "3ae45358445d3ad3f121",
+        "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "23c83ed5292342d048c8a416af82cc67c09579c3bcc42e161e687d59b25f9948",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "b2ef33d8e1a0998fa5f5",
+        "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "23c83ed5292342d048c8a416af82cc67c09579c3bcc42e161e687d59b25f9948",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "2d5c7c0b861d4ca43872",
+        "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "4a69285e5461fbb7fb31662bb731efe9fd2dcb6c9b3a47de337d5cf03491597a",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "7d03efea0c44383883d0",
+        "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "4a69285e5461fbb7fb31662bb731efe9fd2dcb6c9b3a47de337d5cf03491597a",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "1ddc2d9858fdde230a25",
+        "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "e9bcfc1909499e1547573557855f21777c4b3b19194f3c14236b079105e88594",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "b7b99a8311f58913846d",
+        "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "e9bcfc1909499e1547573557855f21777c4b3b19194f3c14236b079105e88594",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "4c31d8e38f128a7d51d1",
+        "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "5a63c54e15fb77efe9c54e9557ead059844f744e7eec8d494de9bc3945118bab",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
+      },
+      {
+        "id": "ad791cbb79625c313346",
+        "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "5a63c54e15fb77efe9c54e9557ead059844f744e7eec8d494de9bc3945118bab",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "39f8fae014abdaec42ac",
+        "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "BAE ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "de17940b307a2e78c74766a27efb9db9cac534891e1b8d19c169c1772b5216c1",
+        "reason": "not_japanese_output",
+        "translation": "BAE "
+      },
+      {
+        "id": "c84fbb7676b641bc3d3c",
+        "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+        "path": "/nameGen/1/1/-",
+        "source": "AKS ",
+        "category": "generated_names",
+        "origin": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+        "strategy": "indexed_guards",
+        "basis_sha256": "de17940b307a2e78c74766a27efb9db9cac534891e1b8d19c169c1772b5216c1",
+        "reason": "not_japanese_output",
+        "translation": "AKS "
       }
     ],
     "rejected": [],
-    "scope": "FU-added array values. Guard probes are not counted as separate translations."
+    "scope": "FU-added array values resolved to exact pointers from the verified installed asset basis."
   },
   "embedded_coverage": {
     "catalog_entries": 44,

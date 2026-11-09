@@ -183,12 +183,12 @@
     {
       "op": "test",
       "path": "/fu_start_Complete1a/text",
-      "value": "Now let's see about your part of the bargain, shall we? It shouldn't be too dangerous, but consider ^orange;Building an Armorworks^reset; through the ^cyan;Armor and Weapons^reset; research tree. Keep your innate ^yellow;Resistances and Weaknesses^reset; in mind. You can see them in your Tricorder."
+      "value": "Now let's see about your part of the bargain, shall we? It shouldn't be too dangerous, but do make sure you at least have ^orange;Built an Armorworks^reset; through the ^cyan;Armor and Weapons^reset; research tree. You'll want armor and weapons."
     },
     {
       "op": "replace",
       "path": "/fu_start_Complete1a/text",
-      "value": "では、君の方の約束を果たしてもらおうか。ひどく危険ではないはずだけど、^orange;武具製作台を作る^reset;といい。^cyan;武器と防具^reset;の研究ツリーで学べるよ。生まれ持った^yellow;耐性と弱点^reset;にも気を付けて。トライコーダーで確認できる。"
+      "value": "では、君の方の約束を果たしてもらおうか。ひどく危険ではないはずだけど、少なくとも^orange;武具製作台を作って^reset;おこう。^cyan;武器と防具^reset;の研究ツリーで学べるよ。防具と武器を用意しておこう。"
     }
   ],
   [
@@ -237,6 +237,78 @@
       "op": "replace",
       "path": "/fu_start_Complete1c/text",
       "value": "洞窟は施錠されていたけど、今しがた^orange;鍵^reset;で開けておいた。面白いことに、その鍵は地上の^green;古い廃屋^reset;にあったんだ。もう入れるはずだよ。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete2/text",
+      "value": "The ^orange;Personal Tricorder^reset; is your most important tool.^reset; The primary ^green;[Mouse 1]^reset; function provides access to ^orange;Stats^reset;, ^orange;Mech Configuration^reset;, ^orange;Tech Upgrades^reset; and other useful functions. You've got one in your ^green;[I]^reset;nventory."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete2/text",
+      "value": "^orange;個人用トライコーダー^reset;は最も重要な道具です。^reset; 主機能の^green;[Mouse 1]^reset;を使うと、^orange;ステータス^reset;、^orange;メック設定^reset;、^orange;テック強化^reset;などの機能を利用できます。^green;[I]^reset;キーで開くインベントリに入っています。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete2a/text",
+      "value": "In your ^orange;Personal Tricorder^reset; the ^orange;Research^reset; menu will be of utmost importance, providing you with access to Blueprint unlocks for -all- crafting. Access the ^orange;Research^reset; menu via ^green;[Shift] + [Mouse 1]^reset; or the ^orange;Beaker^reset; icon within the ^green; [ Mouse 1 ]^reset; menu."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete2a/text",
+      "value": "^orange;個人用トライコーダー^reset;の^orange;研究^reset;メニューは、あらゆる製作レシピを解放するための重要な機能です。^orange;研究^reset;メニューは^green;[Shift] + [Mouse 1]^reset;で開くか、^orange;ビーカー^reset;アイコン（^green; [ Mouse 1 ]^reset;メニュー内）から開けます。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete2b/text",
+      "value": "I suggest familiarizing yourself with the ^orange;Research Menu^reset; as soon as possible, since that is going to be your sole means of progress if you wish to ever get this ship space-worthy again. Why not ^cyan;Research^reset; a little into ^orange;Agriculture^reset; to get you started?"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete2b/text",
+      "value": "できるだけ早く^orange;研究メニュー^reset;に慣れておくといいよ。船を再び航行可能にするには、研究が唯一の進行手段になる。まずは^cyan;研究^reset;メニューで^orange;農業^reset;を少し進めてみないか？"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete3/text",
+      "value": "With the ^orange;Personal Tricorder^reset; selected, press ^green;[Mouse 2]^reset; for the ^orange;Task Manager^reset;, where you can access your FU related Quests. Completing these will result in useful rewards and unique loot."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete3/text",
+      "value": "^orange;個人用トライコーダー^reset;を選択して^green;[Mouse 2]^reset;を押すと、^orange;タスク管理^reset;を開けます。FU関連のクエストを確認できます。クリアすると便利な報酬や珍しい戦利品が手に入ります。"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete3a/text",
+      "value": "Press ^green;[Shift + Mouse 2]^reset; for the ^orange;Tool Configuration^reset; dialog. Here, you can adjust your Matter Manipulator, or even place different tools or weapons into your Primary slots if you desire. Just drag and drop!"
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete3a/text",
+      "value": "^green;[Shift + Mouse 2]^reset;を押すと、^orange;ツール設定^reset;画面が開きます。マター・マニピュレーターを調整したり、好きな道具や武器をプライマリスロットに入れたりできます。ドラッグ＆ドロップするだけです！"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/fu_start_Complete3b/text",
+      "value": "The ^orange;Personal Tricorder^reset; is ^red;EXTREMELY^reset; important. Do not throw it out. Ever! Should you lose it, you can always create a new ^orange;Personal Tricorder^reset; in your ^green;Tinkering Table^reset;."
+    },
+    {
+      "op": "replace",
+      "path": "/fu_start_Complete3b/text",
+      "value": "^orange;個人用トライコーダー^reset;は^red;非常に重要^reset;です。絶対に捨てないでください！ 失くしても、^orange;個人用トライコーダー^reset;は^green;細工台^reset;で作り直せます。"
     }
   ],
   [
@@ -327,12 +399,12 @@
     {
       "op": "test",
       "path": "/fu_start_greetings2/text",
-      "value": "There's a lot to do. But let's start small: Use your ^orange;Personal Tricorder^reset; and press ^green;Research^reset;. Under the ^cyan;Geology^reset; category, learn how to make a ^orange;Furnace^reset;, and then apply that knowledge to build one for yourself. You'll need to ^green;[C]^reset;raft an ^yellow;Inventor's Table^reset; to do this."
+      "value": "To get off this planet, you're going to need to ^green;repair your ship^reset;. But let's start small: ^green;Research^reset; how to make a ^orange;Furnace^reset; in your ^cyan;Geology^reset; research tree. Afterwards, craft one!"
     },
     {
       "op": "replace",
       "path": "/fu_start_greetings2/text",
-      "value": "やることは多いけど、まずは小さな一歩から。^orange;個人用トライコーダー^reset;で^green;研究^reset;を押し、^cyan;地質学^reset;から^orange;炉^reset;の作り方を学ぼう。それから実際に作るんだ。まずは^green;[C]^reset;で^yellow;発明家の作業台^reset;を作る必要があるよ。"
+      "value": "この惑星を離れるには、^green;船を修理^reset;しないとね。まずは小さな一歩から。^green;研究^reset;メニューで^orange;炉^reset;の作り方を^cyan;地質学^reset;の研究ツリーから学ぼう。そのあと、実際に作ってみて！"
     }
   ],
   [
@@ -399,12 +471,12 @@
     {
       "op": "test",
       "path": "/fu_start_makeForaging/text",
-      "value": "Good. Remember, ^yellow;the ^green;Research^yellow; menu is how you ^orange;learn crafting recipes^yellow; and ^orange;make progress^reset;. If you ever have to ask ^lightgray;\"how do I make...\"^reset;, you probably ^yellow;just need to do some research^reset;! Your next goal is the ^orange;Machining Table^reset; under the ^cyan;Engineering^reset; category. You already know what to do."
+      "value": "This station will help you with ^green;Survival^reset; and ^green;Farming^reset;. You've proven you're capable, so go ahead and ^green;Research^reset; how to make a ^orange;Machining Table^reset; and then craft it. You'll find it in the ^cyan;Engineering^reset; research tree."
     },
     {
       "op": "replace",
       "path": "/fu_start_makeForaging/text",
-      "value": "いいね。^yellow;覚えておいて。^green;研究^yellow;メニューは、^orange;製作レシピを覚え^yellow;、^orange;先へ進む^reset;ためのものだ。^lightgray;「これはどう作るの？」^reset;と思ったら、たいていは^yellow;研究を進めれば解決する^reset;！ 次の目標は^orange;加工作業台^reset;。^cyan;工学^reset;にあるよ。もう手順は分かるね。"
+      "value": "この作業台は^green;サバイバル^reset;や^green;農業^reset;に役立つよ。君ならできると分かったから、次は^green;研究^reset;メニューで^orange;加工作業台^reset;の作り方を調べて作ってみよう。^cyan;工学^reset;の研究ツリーにあるよ。"
     }
   ],
   [
@@ -423,12 +495,12 @@
     {
       "op": "test",
       "path": "/fu_start_makeFurnace/text",
-      "value": "Excellent! Now for your next order of business: Use your ^orange;Personal Tricorder^reset; and access the ^green;Research^reset; menu again, then go to the ^cyan;Agriculture^reset; category and learn how to make a ^orange;Foraging Table^reset;. It's used for ^green;Survival^reset; and ^green;Farming^reset;. Just like before, you'll use your ^yellow;Inventor's Table^reset; to build it."
+      "value": "That takes care of step one! Use your ^orange;Furnace^reset; to smelt ores into metal bars. Next, ^green;Research^reset; how to make a ^orange;Foraging Table^reset; in the ^cyan;Agriculture^reset; research tree. Craft one."
     },
     {
       "op": "replace",
       "path": "/fu_start_makeFurnace/text",
-      "value": "素晴らしい！ 次は、^orange;個人用トライコーダー^reset;の^green;研究^reset;をもう一度開こう。^cyan;農業^reset;から^orange;採集作業台^reset;の作り方を学んでね。^green;サバイバル^reset;や^green;農作業^reset;に使う物だ。これも^yellow;発明家の作業台^reset;で作れるよ。"
+      "value": "最初の段階は完了だね！ ^orange;炉^reset;で鉱石を金属の延べ棒に精錬しよう。次は^green;研究^reset;メニューで^orange;採集作業台^reset;の作り方を^cyan;農業^reset;の研究ツリーから学んで、作ってみて。"
     }
   ],
   [
@@ -477,18 +549,6 @@
       "op": "replace",
       "path": "/fu_start_makeWire/text",
       "value": "^green;テレポーター^reset;の修理には、あとひとつ必要だ。^orange;電磁石^reset;を^green;加工作業台^reset;で作ってきてくれるかい？"
-    }
-  ],
-  [
-    {
-      "op": "test",
-      "path": "/fu_start_tricorder_brief/text",
-      "value": "^yellow;Note^reset;: You are in possession of a ^orange;Personal Tricorder^reset;! This item is ^#ff0062;required^reset; to progress, so ^red;don't delete it^reset;! You'll be taught how to use it as you play."
-    },
-    {
-      "op": "replace",
-      "path": "/fu_start_tricorder_brief/text",
-      "value": "^yellow;注意^reset;：^orange;個人用トライコーダー^reset;を手に入れました！ 進行に^#ff0062;必須^reset;のアイテムなので、^red;削除しないでください^reset;！ 使い方は、ゲームを進めながら学べます。"
     }
   ]
 ]

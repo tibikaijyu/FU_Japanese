@@ -171,7 +171,7 @@ def patch_ops(value):
         yield value
 
 
-def extract(root, dest):
+def extract(root, dest, merge_assets=()):
     root, dest = Path(root), Path(dest)
     records = {}
     appends = {}
@@ -241,15 +241,47 @@ def extract(root, dest):
             }
     result = sorted(records.values(), key=lambda r:(r['asset'],r['path'],r['source']))
     dest.mkdir(parents=True, exist_ok=True)
-    (dest/'catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in result), encoding='utf-8')
-    (dest/'append_catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in sorted(appends.values(),key=lambda r:r['id'])),encoding='utf-8')
+    merge_assets = set(merge_assets)
+    if merge_assets:
+        from upstream_overrides import manifest as verify_upstream_overrides
+        if merge_assets != {'radiomessages/fu_quests.radiomessages'}:
+            raise ValueError('--merge-asset is restricted to the pinned radio asset')
+        verify_upstream_overrides(dest.parent)
+        expected = dest.parent / 'upstream-overrides/radiomessages/fu_quests.radiomessages'
+        if not expected.is_file() or not root.joinpath('radiomessages/fu_quests.radiomessages').is_file():
+            raise ValueError('Radio override extraction root must contain the pinned asset')
+        override_files = {path.resolve() for path in root.rglob('*') if path.is_file()}
+        if override_files != {expected.resolve()}:
+            raise ValueError('Radio override extraction root must contain only the pinned asset')
+        if root.joinpath('radiomessages/fu_quests.radiomessages').resolve() != expected.resolve():
+            raise ValueError('Radio override extraction input differs from the pinned manifest')
+        old_catalog = dest/'catalog.jsonl'
+        old_appends = dest/'append_catalog.jsonl'
+        if not old_catalog.is_file():
+            raise ValueError('--merge-asset requires existing catalog.jsonl')
+        prior = [json.loads(line) for line in old_catalog.read_text(encoding='utf-8').splitlines()]
+        result = [row for row in prior if row['asset'] not in merge_assets] + result
+        if old_appends.is_file():
+            prior_appends = [json.loads(line) for line in old_appends.read_text(encoding='utf-8').splitlines()]
+            appends = {row['id']:row for row in prior_appends if row['asset'] not in merge_assets} | appends
+        actual_assets = {row['asset'] for row in records.values()}
+        if actual_assets != merge_assets:
+            raise ValueError(f'Extracted assets do not match --merge-asset: {sorted(actual_assets)}')
+    result = sorted({(row['asset'],row['path'],row['source']):row for row in result}.values(), key=lambda r:(r['asset'],r['path'],r['source']))
+    (dest/'catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in result), encoding='utf-8', newline='\n')
+    (dest/'append_catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in sorted(appends.values(),key=lambda r:r['id'])),encoding='utf-8', newline='\n')
     report['entries'] = len(result)
+    if merge_assets:
+        report['extraction_scope'] = {'mode':'merge_assets','assets':sorted(merge_assets),'other_catalog_rows':'retained from the existing catalog'}
     report['unique_source_strings'] = len({r['source'] for r in result})
     report['assets_with_display_fields'] = len({r['asset'] for r in result})
     report['by_category'] = dict(collections.Counter(r['category'] for r in result))
     report['source_characters_unique'] = sum(len(x) for x in {r['source'] for r in result})
     report['append_catalog_entries'] = len(appends)
     dump(dest/'extraction_report.json', report)
+    # Any catalog regeneration changes the append row set; require a fresh
+    # effective-asset capture before append localization can be built again.
+    (dest/'append_index_basis.json').unlink(missing_ok=True)
     print(json.dumps({k:v for k,v in report.items() if k not in {'skipped_append_display_fields','parse_errors'}},ensure_ascii=False,indent=2))
     print('parse_errors:',len(report['parse_errors']), 'skipped appends:',len(report['skipped_append_display_fields']))
 
@@ -258,5 +290,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('upstream')
     parser.add_argument('output')
+    parser.add_argument('--merge-asset', action='append', default=[], help='Replace only these asset rows in existing catalogs')
     args = parser.parse_args()
-    extract(args.upstream,args.output)
+    extract(args.upstream,args.output,args.merge_asset)

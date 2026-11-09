@@ -102,8 +102,8 @@ def audit():
             'preserved':preserved,'unclassified':unclassified,'missing':missing,'errors':errors,
             'mixed_english_clauses':list(clauses.values())}
     result['input_sha256']={name:hashlib.sha256((PROJECT/'source'/name).read_bytes()).hexdigest()
-                           for name in ['catalog.jsonl','append_catalog.jsonl','lua_catalog.jsonl']}
-    (PROJECT/'reports/final_residual_decisions.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                           for name in ['catalog.jsonl','translated_catalog.jsonl','append_catalog.jsonl','append_translated_catalog.jsonl']}
+    (PROJECT/'reports/final_residual_decisions.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({k:v for k,v in result.items() if k not in {'preserved','unclassified','missing','errors','mixed_english_clauses','input_sha256','limits'}},ensure_ascii=False,indent=2))
     for label,rows in [('unclassified',unclassified),('errors',errors)]:
         unique={r['source']:r for r in rows}

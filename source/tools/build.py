@@ -7,12 +7,13 @@ import hashlib
 import json
 import re
 import shutil
+import tempfile
 from pathlib import Path
 from common import PROTECTED, tokens, dump
 from namegen_safety import assert_safe_namegen_translation, retired_character_name_assets
 
 UPSTREAM_COMMIT = '17868d86c9bb7bc00f92038fb78b48cebd1b41b8'
-MOD_VERSION = '0.2.3'
+MOD_VERSION = '0.2.4'
 # Check numeric magnitudes here. Signs/percent in machine output are checked
 # separately by the MT audit; reviewed Japanese may express "+1" as "1増加".
 # A period after "approx." or an ellipsis is not a decimal point.
@@ -72,10 +73,62 @@ def term_translation(source, glossary):
     return None
 
 
-def build(project, upstream, machine_path, out):
-    project, upstream, out = Path(project), Path(upstream), Path(out)
+def verify_radio_catalog(project, catalog):
+    project = Path(project)
+    from extract import extract
+    expected_root = project/'upstream-overrides'
+    with tempfile.TemporaryDirectory() as temporary:
+        extract(expected_root, Path(temporary))
+        expected = [json.loads(line) for line in (Path(temporary)/'catalog.jsonl').read_text(encoding='utf-8').splitlines()]
+    expected = [row for row in expected if row['asset']=='radiomessages/fu_quests.radiomessages']
+    actual = [row for row in catalog if row['asset']=='radiomessages/fu_quests.radiomessages']
+    identity = lambda row: (row['asset'],row['path'],row['source'],row['category'])
+    expected_keys = [identity(row) for row in expected]
+    actual_keys = [identity(row) for row in actual]
+    if len(expected)!=46 or sum(row['path'].endswith('/text') for row in expected)!=26:
+        raise ValueError('Pinned radio source extraction must contain 26 text rows and 20 sender rows')
+    if len(actual_keys)!=len(set(actual_keys)) or set(actual_keys)!=set(expected_keys):
+        missing = len(set(expected_keys)-set(actual_keys))
+        stale = len(set(actual_keys)-set(expected_keys))
+        raise ValueError(f'Radio catalog does not match the pinned source (missing={missing}, stale={stale})')
+
+
+def update_partial_release_identity(project, out):
+    from upstream_overrides import manifest as verify_upstream_overrides
+    entry = verify_upstream_overrides(project)['assets']['radiomessages/fu_quests.radiomessages']
+    metadata_path = Path(out)/'_metadata'
+    metadata = json.loads(metadata_path.read_text(encoding='utf-8'))
+    metadata['version'] = MOD_VERSION + '-fu6.5.8'
+    dump(metadata_path, metadata)
+    attribution_path = Path(out)/'ATTRIBUTION.txt'
+    attribution = attribution_path.read_text(encoding='utf-8')
+    attribution = '\n'.join(line for line in attribution.splitlines() if not line.startswith('Radio asset override:')) + '\n'
+    revision = f'Revision: {UPSTREAM_COMMIT}'
+    if revision not in attribution.splitlines():
+        raise ValueError('Cannot update attribution without the pinned FU revision line')
+    override_line = ('Radio asset override: radiomessages/fu_quests.radiomessages from '
+                     '1c80b714c8b7da9ce3d35f237850ffdb236b9a2e; SHA-256: '
+                     + entry['sha256'] + '.')
+    attribution = attribution.replace(revision + '\n', revision + '\n' + override_line + '\n')
+    attribution_path.write_text(attribution, encoding='utf-8', newline='\n')
+
+
+def build(project, upstream, machine_path, out, append_basis_inputs=None, asset_only=None, indexed_assets=False):
+    project, upstream, out = Path(project), (Path(upstream) if upstream else Path('.')), Path(out)
+    if asset_only and indexed_assets:
+        raise ValueError('Choose --asset-only or --indexed-assets, not both')
+    if not (asset_only or indexed_assets) and not upstream.is_dir():
+        raise ValueError('Full builds require the pinned upstream checkout directory')
+    from upstream_overrides import manifest as verify_upstream_overrides
+    verify_upstream_overrides(project)
+    if not append_basis_inputs:
+        raise ValueError('Live installed append-basis verification is required before building.')
+    from append_index_basis import verify_inputs
+    verify_inputs(project, append_basis_inputs)
     catalog_bytes = (project/'source/catalog.jsonl').read_bytes()
     catalog = [json.loads(line) for line in catalog_bytes.decode('utf-8').splitlines()]
+    if asset_only:
+        verify_radio_catalog(project, catalog)
     # Reject unsafe historical catalogs before deleting or writing output.
     for row in catalog:
         assert_safe_namegen_translation(row['asset'], row['path'])
@@ -108,6 +161,125 @@ def build(project, upstream, machine_path, out):
         if source in manual:
             target, method = manual[source], 'manual'
         return target, method
+    if asset_only:
+        if asset_only != 'radiomessages/fu_quests.radiomessages':
+            raise ValueError('--asset-only is restricted to the pinned radio asset')
+        if not out.is_dir() or out.name != 'FU_Japanese':
+            raise ValueError('--asset-only requires an existing FU_Japanese output directory')
+        selected = []
+        groups = []
+        for row in catalog:
+            if row['asset'] != asset_only:
+                continue
+            target, method = select_translation(row['source'])
+            if target is None or target == row['source']:
+                raise ValueError('Missing radio translation: ' + row['path'])
+            issues = check_translation(row['source'], target)
+            if issues:
+                raise ValueError('Invalid radio translation ' + row['path'] + ': ' + str(issues))
+            groups.append([{'op':'test','path':row['path'],'value':row['source']},
+                           {'op':'replace','path':row['path'],'value':target}])
+            selected.append({**row,'translation':target,'method':method})
+        dump(out/(asset_only+'.patch'), groups)
+        update_partial_release_identity(project,out)
+        translated_path = project/'source/translated_catalog.jsonl'
+        old_rows = [json.loads(line) for line in translated_path.read_text(encoding='utf-8').splitlines()] if translated_path.exists() else []
+        kept = [row for row in old_rows if row['asset'] != asset_only]
+        kept.extend(selected)
+        kept = sorted(kept,key=lambda r:(r['asset'],r['path'],r['source']))
+        translated_path.write_text(''.join(json.dumps(row,ensure_ascii=False)+'\n' for row in kept),encoding='utf-8',newline='\n')
+        coverage_path = project/'reports/coverage.json'
+        if coverage_path.exists():
+            coverage = json.loads(coverage_path.read_text(encoding='utf-8'))
+            all_catalog = [json.loads(line) for line in catalog_bytes.decode('utf-8').splitlines()]
+            retained_path = project/'reports/retained.json'
+            rejected_path = project/'reports/rejected.json'
+            retained_rows = json.loads(retained_path.read_text(encoding='utf-8')) if retained_path.exists() else []
+            rejected_rows = json.loads(rejected_path.read_text(encoding='utf-8')) if rejected_path.exists() else []
+            retained_rows = [row for row in retained_rows if row.get('asset') != asset_only]
+            rejected_rows = [row for row in rejected_rows if row.get('asset') != asset_only]
+            if retained_path.exists():
+                retained_path.write_text(json.dumps(retained_rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+            if rejected_path.exists():
+                rejected_path.write_text(json.dumps(rejected_rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+            coverage['retained_entries'] = len(retained_rows)
+            coverage['retained_reasons'] = dict(collections.Counter(row['reason'] for row in retained_rows))
+            coverage['rejected_entries'] = len(rejected_rows)
+            coverage['rejected_reasons'] = dict(collections.Counter(reason for row in rejected_rows for reason in row.get('reasons',[])))
+            coverage['catalog_entries'] = len(all_catalog)
+            coverage['catalog_sha256'] = hashlib.sha256(catalog_bytes).hexdigest()
+            coverage['catalog_unique_sources'] = len({row['source'] for row in all_catalog})
+            coverage['translated_entries'] = len(kept)
+            coverage['translated_unique_sources'] = len({row['source'] for row in kept})
+            coverage['methods_entries'] = dict(collections.Counter(row['method'] for row in kept))
+            coverage['methods_unique_sources'] = {method:len({row['source'] for row in kept if row['method']==method}) for method in ('manual','glossary','machine_repaired','machine_terminology','machine')}
+            coverage['categories'] = {category:{'extracted':sum(row['category']==category for row in all_catalog),'translated':sum(row['category']==category for row in kept)} for category in sorted({row['category'] for row in all_catalog})}
+            coverage_path.write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+        print(json.dumps({'asset':asset_only,'translated_rows':len(selected),'patch_groups':len(groups),'coverage_updated':coverage_path.exists()},ensure_ascii=False,indent=2))
+        return
+    if indexed_assets:
+        if asset_only:
+            raise ValueError('Choose --asset-only or --indexed-assets, not both')
+        if not out.is_dir() or out.name != 'FU_Japanese':
+            raise ValueError('--indexed-assets requires an existing FU_Japanese output directory')
+        basis_path = project/'source/append_index_basis.json'
+        basis = json.loads(basis_path.read_text(encoding='utf-8'))
+        append_rows = [json.loads(line) for line in (project/'source/append_catalog.jsonl').read_text(encoding='utf-8').splitlines()]
+        assets = sorted({row['asset'] for row in append_rows if row['strategy']=='indexed_guards'})
+        from append_localization import build_asset_groups
+        from append_index_plans import summarize
+        all_direct = []
+        all_appends = []
+        retained_rows = []
+        rejected_rows = []
+        report_assets = []
+        for asset in assets:
+            direct_groups = []
+            direct_rows = []
+            for row in catalog:
+                if row['asset'] != asset:
+                    continue
+                target, method = select_translation(row['source'])
+                if target is None or target == row['source']:
+                    continue
+                issues = check_translation(row['source'], target)
+                if issues:
+                    raise ValueError('Invalid direct translation '+asset+row['path']+': '+str(issues))
+                direct_groups.append([{'op':'test','path':row['path'],'value':row['source']},{'op':'replace','path':row['path'],'value':target}])
+                direct_rows.append({**row,'translation':target,'method':method})
+            append_groups, append_selected, append_retained, append_rejected = build_asset_groups(project,asset,select_translation,check_translation,basis)
+            if append_rejected:
+                raise ValueError('Rejected indexed append translations in '+asset+': '+str([r['id'] for r in append_rejected]))
+            dump(out/(asset+'.patch'), direct_groups+append_groups)
+            all_direct.extend(direct_rows)
+            all_appends.extend(append_selected)
+            retained_rows.extend(append_retained)
+            rejected_rows.extend(append_rejected)
+            report_assets.append({'asset':asset,'direct_groups':len(direct_groups),'append_groups':len(append_groups),'full_groups':len(direct_groups)+len(append_groups)})
+        translated_path=project/'source/translated_catalog.jsonl'
+        old_normal=[json.loads(line) for line in translated_path.read_text(encoding='utf-8').splitlines()] if translated_path.exists() else []
+        kept_normal=[row for row in old_normal if row['asset'] not in assets]+all_direct
+        kept_normal=sorted(kept_normal,key=lambda r:(r['asset'],r['path'],r['source']))
+        translated_path.write_text(''.join(json.dumps(row,ensure_ascii=False)+'\n' for row in kept_normal),encoding='utf-8',newline='\n')
+        append_translated_path=project/'source/append_translated_catalog.jsonl'
+        old_appends=[json.loads(line) for line in append_translated_path.read_text(encoding='utf-8').splitlines()] if append_translated_path.exists() else []
+        new_appends=[row for row in old_appends if row['asset'] not in assets]+all_appends
+        new_appends=sorted(new_appends,key=lambda r:(r['asset'],r['id']))
+        append_translated_path.write_text(''.join(json.dumps(row,ensure_ascii=False)+'\n' for row in new_appends),encoding='utf-8',newline='\n')
+        update_partial_release_identity(project,out)
+        index_plan=summarize(append_rows,basis)
+        index_plan['translated_groups']=sum(len(row.get('generated_paths',[])) for row in new_appends)
+        index_plan['basis_file_sha256']=hashlib.sha256(basis_path.read_bytes()).hexdigest()
+        dump(project/'reports/append_index_plan.json',index_plan)
+        append_report={'catalog_entries':len(append_rows),'translated_entries':len(new_appends),'translated_unique_sources':len({row['source'] for row in new_appends}),'npc_status_values':sum(row.get('strategy')=='npc_status_lookup' for row in new_appends),'additional_guarded_groups':sum(len(row.get('generated_paths',[])) for row in new_appends),'index_plan_report':'append_index_plan.json','retained':retained_rows,'rejected':rejected_rows,'scope':'FU-added array values resolved to exact pointers from the verified installed asset basis.'}
+        dump(project/'reports/append_coverage.json',append_report)
+        coverage_path = project/'reports/coverage.json'
+        if coverage_path.exists():
+            coverage = json.loads(coverage_path.read_text(encoding='utf-8'))
+            coverage['append_coverage'] = append_report
+            dump(coverage_path,coverage)
+        print(json.dumps({'mode':'indexed_assets','assets':report_assets,'asset_count':len(assets),'direct_groups':len(all_direct),'append_groups':sum(r['append_groups'] for r in report_assets),'full_groups':sum(r['full_groups'] for r in report_assets)},ensure_ascii=False,indent=2))
+        return
     patches = collections.defaultdict(list)
     results = []
     kept = []
@@ -216,7 +388,7 @@ def build(project, upstream, machine_path, out):
             (out/asset).parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(compat,out/asset)
     # Lua's display aliases reuse the validated current JSON pet-status text.
-    (project/'source/translated_catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in selected),encoding='utf-8')
+    (project/'source/translated_catalog.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in selected),encoding='utf-8',newline='\n')
     lua_report = None
     lua_staging = project/'lua-build'
     if (project/'source/lua_manifest.json').exists():
@@ -242,6 +414,7 @@ def build(project, upstream, machine_path, out):
         "Original work: Frackin' Universe by Sayter and the Frackin' Universe contributors.\n"
         "Source: https://github.com/sayterdarkwynd/FrackinUniverse\n"
         f"Revision: {UPSTREAM_COMMIT}\n"
+        "Radio asset override: radiomessages/fu_quests.radiomessages from 1c80b714c8b7da9ce3d35f237850ffdb236b9a2e; SHA-256 is recorded in source/source/upstream_overrides.json.\n"
         "Upstream metadata version: 6.5.8\n"
         "Original license: Creative Commons Attribution 4.0 International.\n"
         "https://creativecommons.org/licenses/by/4.0/\n"
@@ -252,7 +425,7 @@ def build(project, upstream, machine_path, out):
         "Translation produced for this request using FuguMT machine translation and ChatGPT review. "
         "New translation text, original replacement dialogue and adapted FU scripts are distributed under CC BY 4.0.\n"
         "This build is not endorsed by the original authors or Chucklefish.\n",
-        encoding='utf-8')
+        encoding='utf-8',newline='\n')
     from followup_022 import apply as apply_followup_022
     followup_report = apply_followup_022(project, out, retained_rows=kept)
     if followup_report:
@@ -297,8 +470,12 @@ def build(project, upstream, machine_path, out):
 if __name__ == '__main__':
     p=argparse.ArgumentParser()
     p.add_argument('--project',required=True)
-    p.add_argument('--upstream',required=True)
+    p.add_argument('--upstream',help='Pinned FU source checkout (required for full builds)')
     p.add_argument('--machine',required=True)
     p.add_argument('--output',required=True)
+    p.add_argument('--append-basis-inputs',required=True,
+                   help='Local JSON describing the read-only base package and ordered installed asset layers')
+    p.add_argument('--asset-only',help='Regenerate only one JSON patch in an existing output directory')
+    p.add_argument('--indexed-assets',action='store_true',help='Regenerate every fixed-position array patch without a full upstream checkout')
     args=p.parse_args()
-    build(args.project,args.upstream,args.machine,args.output)
+    build(args.project,args.upstream,args.machine,args.output,args.append_basis_inputs,args.asset_only,args.indexed_assets)
