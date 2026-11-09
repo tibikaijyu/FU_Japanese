@@ -49,9 +49,12 @@ class PublicReleaseTests(unittest.TestCase):
         files = {name: b"fixture" for name in (
             "mods/FU_Japanese/_metadata", "mods/FU_Japanese/ATTRIBUTION.txt",
             "optional/FU_Japanese_Font/LICENSE-MPLUS-EN.txt", "LICENSE.md",
+            "docs/INSTALL_JA.txt", "docs/PAK_DISTRIBUTION.md",
             "source/machine_translation/model_provenance.json",
             "source/machine_translation/pre_review_semantic_candidates.jsonl", "source/tools/build.py")}
         selected = install_files(files)
+        self.assertIn("PAK_DISTRIBUTION.md", selected)
+        self.assertIn("INSTALL_JA.txt", selected)
         self.assertIn("source/machine_translation/model_provenance.json", selected)
         self.assertIn("optional/FU_Japanese_Font/LICENSE-MPLUS-EN.txt", selected)
         self.assertNotIn("source/tools/build.py", selected)

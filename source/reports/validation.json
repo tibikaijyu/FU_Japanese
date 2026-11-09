@@ -1,114 +1,691 @@
 {
+  "schema": "fu-japanese-release-024-validation-v1",
   "passed": true,
-  "mod_version": "0.2.3-fu6.5.8",
-  "runtime_tested": false,
-  "scope": "Exact 0.2.2 baseline comparison, complete patch allowlist and character-name protections, pinned generation-input preservation and actual folder overlays. Unchanged Lua/display tests are reused from 0.2.2; the native game and Markov generator are not executed.",
-  "patch_files_parsed": 14385,
-  "guarded_groups_checked": 169706,
-  "ui_presentation_groups_checked": 21,
-  "authored_dialogue_groups_checked": 2,
-  "empty_legacy_compatibility_patches": 32,
-  "known_full_assets_verified": 0,
-  "known_full_asset_strings_changed": 0,
-  "patch_only_assets_without_vanilla_or_other_mod_base": 1223,
-  "upstream_reapplication_performed": false,
-  "prior_full_asset_validation": "history/v0.2.0/validation.json",
-  "source_guard_mismatches_in_known_assets": [],
-  "known_asset_source_patch_errors": [],
-  "errors": [],
-  "metadata_hard_dependencies": [],
-  "metadata_optional_load_after": [
-    "FrackinUniverse"
-  ],
-  "localized_lua_files_verified": 132,
-  "lua_display_literal_changes": 694,
-  "supplemental_append_fields": 1179,
-  "embedded_json_display_fields": 44,
-  "game_files": 14526,
-  "unchanged_game_files_from_022": 14495,
-  "changed_game_files_from_022": [
-    "_metadata",
-    "names/elduukharfemale.namesource.patch",
-    "names/elduukharmale.namesource.patch",
-    "species/catnamegen.config.patch",
-    "species/feneroxnamegen.config.patch",
-    "species/fuslimepersonfemalenamegen.config.patch",
-    "species/fuslimepersonmalenamegen.config.patch",
-    "species/fuslimepersonnamegen.config.patch",
-    "species/kirhosnamegen.config.patch",
-    "species/mantisnamegen.config.patch",
-    "species/mantizifemalenamegen.config.patch",
-    "species/mantizimalenamegen.config.patch",
-    "species/nightarfemalenamegen.config.patch",
-    "species/nightarmalenamegen.config.patch",
-    "species/nightarnamegen.config.patch",
-    "species/peglacinamegen.config.patch",
-    "species/pharitufemalenamegen.config.patch",
-    "species/pharitumalenamegen.config.patch",
-    "species/radiennamegen.config.patch",
-    "species/shadownamegen.config.patch",
-    "species/skathfemalenamegen.config.patch",
-    "species/skathmalenamegen.config.patch",
-    "species/slimenpcfemalenamegen.config.patch",
-    "species/slimenpchumanfemalenamegen.config.patch",
-    "species/slimenpchumanmalenamegen.config.patch",
-    "species/slimenpcmalenamegen.config.patch",
-    "species/slimepersonfemalenamegen.config.patch",
-    "species/slimepersonmalenamegen.config.patch",
-    "species/slimepersonnamegen.config.patch",
-    "species/thelusiannamegen.config.patch",
-    "species/veluunamegen.config.patch"
-  ],
-  "new_game_files_from_022": [],
-  "baseline_archive_sha256": "ae519e8b48b099981e448e87744bdb02a5b26b6b944809dbae175ec227ee37b9",
-  "targeted_test_evidence": {
-    "version": "0.2.3",
-    "passed": true,
-    "runtime_tested": false,
-    "direct_hang_causation_confirmed": false,
-    "reports": [
-      {
-        "passed": true,
-        "tests_run": 11,
-        "failures": 0,
-        "errors": 0,
-        "runtime_tested": false,
-        "scope": "Pinned FU fixture reference resolution, generator-control preservation, original Markov training-data preservation, source catalogs and shipped mutation paths. Does not execute Starbound or simulate Markov name output.",
-        "file": "namegen_regression.json",
-        "sha256": "60920e4859491d6abe55d1cc8c2e2096dfea3d3630641f6cac3ba58b8779e062"
-      },
-      {
-        "passed": true,
-        "tests_run": 8,
-        "failures": 0,
-        "errors": 0,
-        "runtime_tested": false,
-        "scope": "Actual release folder overlays, 32 obsolete translations replaced by no-op patches, file identities, pinned FU source-reference resolution and original training-word preservation. Does not execute Starbound or its Markov generation algorithm.",
-        "file": "namegen_upgrade.json",
-        "sha256": "37f92724ca8d8f8f22d08c01017d1180aa18c38b40f786451a83e49c263d2263"
-      },
-      {
-        "passed": true,
-        "tests_run": 4,
-        "failures": 0,
-        "errors": 0,
-        "runtime_tested": false,
-        "scope": "Original character generator data restoration, exact training-word UTF-8 bytes, registered source IDs, and a necessary seed-length input condition of an independent C# implementation. No native game or Markov generation simulation.",
-        "file": "namegen_023_restoration.json",
-        "sha256": "33aea620a5f255c05bef3af665a64cb3ab18e4cafa8f76d6e239fdb860527e26"
-      }
-    ],
-    "reused_evidence": {
-      "baseline": "0.2.2",
-      "scope": "All Lua and guide/species display assets remain byte-identical. Their 0.2.2 tests are retained, not re-run as native game validation.",
-      "reports": [
-        "guide_022_validation.json",
-        "species_022_validation.json"
-      ]
+  "mod_version": "0.2.4-fu6.5.8",
+  "scope": "targeted regeneration + whole MOD byte preservation",
+  "baseline_git_head": "a5ec22209c85bd60f8e702cbfab141d4dcc49c82",
+  "baseline_source_manifest_sha256": "8d46feb262269bc2b7963ef13a6b911851efefcca514e271030a02be96dadcd7",
+  "full_fu_source_reapplied": false,
+  "native_game_executed": false,
+  "commercial_source_bytes_saved": false,
+  "checks": {
+    "baseline_file_count_is_14526": true,
+    "baseline_inventory_matches_git_head_fixture": true,
+    "file_set_unchanged": true,
+    "only_20_indexed_patches_radio_metadata_attribution_changed": true,
+    "all_20_indexed_assets_match_expected_output": true,
+    "append_asset:celestial/names.config": true,
+    "append_asset:items/active/weapons/ranged/assaultrifle/assaultnames.config": true,
+    "append_asset:items/active/weapons/ranged/grenadelauncher/glaunchernames.config": true,
+    "append_asset:items/active/weapons/ranged/machinepistol/mpistolnames.config": true,
+    "append_asset:items/active/weapons/ranged/pistol/pistolnames.config": true,
+    "append_asset:items/active/weapons/ranged/rocketlauncher/rlaunchernames.config": true,
+    "append_asset:items/active/weapons/ranged/shotgun/shotgunnames.config": true,
+    "append_asset:items/active/weapons/ranged/sniperrifle/snipernames.config": true,
+    "append_asset:npcs/crew/crewmemberengineer.npctype": true,
+    "append_asset:npcs/crew/crewmembermechanic.npctype": true,
+    "append_asset:objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object": true,
+    "append_asset:objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object": true,
+    "append_asset:objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object": true,
+    "append_asset:quests/bounty/bounty.config": true,
+    "append_asset:quests/bounty/gang.config": true,
+    "append_asset:quests/generated/pools/buildingthemes.config": true,
+    "append_asset:quests/generated/pools/monsterthreats.config": true,
+    "append_asset:quests/generated/pools/npcthreats.config": true,
+    "append_asset:quests/generated/pools/singlemonsterthreats.config": true,
+    "append_asset:quests/generated/pools/singlenpcthreats.config": true,
+    "baseline_version": "0.2.3-fu6.5.8",
+    "candidate_version": "0.2.4-fu6.5.8",
+    "version_is_0_2_4_fu6_5_8": true,
+    "stable_metadata_fields": {
+      "name": true,
+      "includes": true,
+      "requires": true,
+      "priority": true
     },
-    "limits": "No Starbound launch or native Markov-generator execution. The short-name condition is a static input-contract check based on an independent implementation, not a freeze reproduction."
+    "stable_metadata_fields_unchanged": true,
+    "attribution_has_17868_commit": true,
+    "attribution_has_1c80_commit": true,
+    "radio_source_has_26_expected_bodies": true,
+    "radio_baseline_lists_expected_10_target_keys": true,
+    "all_radio_patch_groups_pass_tests": true,
+    "all_26_bodies_have_japanese_text": true,
+    "all_10_targeted_bodies_improved": true,
+    "old_16_successful_translations_unchanged": true,
+    "radio_control_fields_unchanged": true,
+    "radio_color_tags_numbers_keys_placeholders_unchanged": true,
+    "official_radio_layer_matches_fixed_sha256": true
   },
-  "direct_hang_causation_confirmed": false,
-  "removed_character_name_guarded_groups": 18364,
-  "preserved_guides_and_species_descriptions": true
+  "baseline_inventory": {
+    "baseline_matches_fixture": true,
+    "same_file_set": true,
+    "baseline_file_count": 14526,
+    "candidate_file_count": 14526,
+    "changed_paths": [
+      "ATTRIBUTION.txt",
+      "_metadata",
+      "celestial/names.config.patch",
+      "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+      "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+      "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+      "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+      "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+      "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+      "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+      "npcs/crew/crewmemberengineer.npctype.patch",
+      "npcs/crew/crewmembermechanic.npctype.patch",
+      "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object.patch",
+      "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object.patch",
+      "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object.patch",
+      "quests/bounty/bounty.config.patch",
+      "quests/bounty/gang.config.patch",
+      "quests/generated/pools/buildingthemes.config.patch",
+      "quests/generated/pools/monsterthreats.config.patch",
+      "quests/generated/pools/npcthreats.config.patch",
+      "quests/generated/pools/singlemonsterthreats.config.patch",
+      "quests/generated/pools/singlenpcthreats.config.patch",
+      "radiomessages/fu_quests.radiomessages.patch"
+    ],
+    "added_paths": [],
+    "removed_paths": [],
+    "unexpected_changed_paths": [],
+    "changed_paths_within_allowlist": true
+  },
+  "changed_path_allowlist": [
+    "ATTRIBUTION.txt",
+    "_metadata",
+    "celestial/names.config.patch",
+    "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+    "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+    "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+    "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+    "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+    "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+    "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+    "npcs/crew/crewmemberengineer.npctype.patch",
+    "npcs/crew/crewmembermechanic.npctype.patch",
+    "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object.patch",
+    "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object.patch",
+    "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object.patch",
+    "quests/bounty/bounty.config.patch",
+    "quests/bounty/gang.config.patch",
+    "quests/generated/pools/buildingthemes.config.patch",
+    "quests/generated/pools/monsterthreats.config.patch",
+    "quests/generated/pools/npcthreats.config.patch",
+    "quests/generated/pools/singlemonsterthreats.config.patch",
+    "quests/generated/pools/singlenpcthreats.config.patch",
+    "radiomessages/fu_quests.radiomessages.patch"
+  ],
+  "append_basis_inputs_sha256": "92660d33a31c22673ff3fbc14bae9d930a6d2809c57f3a350cbc7202ab01af15",
+  "append_expectations": {
+    "fixture": "source\\tests\\regression_024\\append_output_expectations.json",
+    "source_comparison_sha256": "6d2eb2dc9b395461f6bf175659eaba3346769c613980147585a8d9c3b948c459",
+    "assets": [
+      {
+        "asset": "celestial/names.config",
+        "patch_path": "celestial/names.config.patch",
+        "expected_group_count": 633,
+        "actual_group_count": 633,
+        "applied_group_count": 633,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "a628597234bd47c21b9bf7742902ec48cea41e63a91d898f478f26bdacf9d6cd",
+        "actual_final_json_sha256": "a628597234bd47c21b9bf7742902ec48cea41e63a91d898f478f26bdacf9d6cd",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+        "patch_path": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+        "expected_group_count": 28,
+        "actual_group_count": 28,
+        "applied_group_count": 28,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "7f0fca1090a994fa2dc1339be3c403d821ea64fae8e1f002244a33d8e9b5f800",
+        "actual_final_json_sha256": "7f0fca1090a994fa2dc1339be3c403d821ea64fae8e1f002244a33d8e9b5f800",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+        "patch_path": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+        "expected_group_count": 37,
+        "actual_group_count": 37,
+        "applied_group_count": 37,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "bad63020696de3d472985043644dfffbdcddb4a276295f2f4136422710337b72",
+        "actual_final_json_sha256": "bad63020696de3d472985043644dfffbdcddb4a276295f2f4136422710337b72",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+        "patch_path": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+        "expected_group_count": 28,
+        "actual_group_count": 28,
+        "applied_group_count": 28,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "70202b3fd1793ddd5ce037b0da2204ca6619b16d638e4b87c06b483211094567",
+        "actual_final_json_sha256": "70202b3fd1793ddd5ce037b0da2204ca6619b16d638e4b87c06b483211094567",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+        "patch_path": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+        "expected_group_count": 29,
+        "actual_group_count": 29,
+        "applied_group_count": 29,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "2122ff9bddd780cbfeaa2c9789514bd8ef62dda7083683f5ba58de32bc190ecf",
+        "actual_final_json_sha256": "2122ff9bddd780cbfeaa2c9789514bd8ef62dda7083683f5ba58de32bc190ecf",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+        "patch_path": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+        "expected_group_count": 34,
+        "actual_group_count": 34,
+        "applied_group_count": 34,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "a9887131123b4eca15b300412012c5c597aa3de51d807262bba7222a8d22b2d0",
+        "actual_final_json_sha256": "a9887131123b4eca15b300412012c5c597aa3de51d807262bba7222a8d22b2d0",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+        "patch_path": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+        "expected_group_count": 29,
+        "actual_group_count": 29,
+        "applied_group_count": 29,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "f2ad2cf397a3622596a534fd8dcf60d8f800cdb8c0a4f601eec5f781ef14e564",
+        "actual_final_json_sha256": "f2ad2cf397a3622596a534fd8dcf60d8f800cdb8c0a4f601eec5f781ef14e564",
+        "passed": true
+      },
+      {
+        "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+        "patch_path": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+        "expected_group_count": 32,
+        "actual_group_count": 32,
+        "applied_group_count": 32,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "e13a3b51cf709b33ef4565776563577deb4b6eb0e4e78bbcb078a8d324c615fd",
+        "actual_final_json_sha256": "e13a3b51cf709b33ef4565776563577deb4b6eb0e4e78bbcb078a8d324c615fd",
+        "passed": true
+      },
+      {
+        "asset": "npcs/crew/crewmemberengineer.npctype",
+        "patch_path": "npcs/crew/crewmemberengineer.npctype.patch",
+        "expected_group_count": 5,
+        "actual_group_count": 5,
+        "applied_group_count": 3,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [
+          {
+            "group_index": 3,
+            "duplicate_of": 0
+          },
+          {
+            "group_index": 4,
+            "duplicate_of": 1
+          }
+        ],
+        "expected_final_json_sha256": "096d5a51a8c357614a29d89193ada35b9260af7602951ea6702d4c06cbd66e58",
+        "actual_final_json_sha256": "096d5a51a8c357614a29d89193ada35b9260af7602951ea6702d4c06cbd66e58",
+        "passed": true
+      },
+      {
+        "asset": "npcs/crew/crewmembermechanic.npctype",
+        "patch_path": "npcs/crew/crewmembermechanic.npctype.patch",
+        "expected_group_count": 5,
+        "actual_group_count": 5,
+        "applied_group_count": 3,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [
+          {
+            "group_index": 3,
+            "duplicate_of": 0
+          },
+          {
+            "group_index": 4,
+            "duplicate_of": 1
+          }
+        ],
+        "expected_final_json_sha256": "d9a0c8a5588aca4598f67f12fac5faf71ae2d9bcf8a8730e0a1b2515c34ac6dd",
+        "actual_final_json_sha256": "d9a0c8a5588aca4598f67f12fac5faf71ae2d9bcf8a8730e0a1b2515c34ac6dd",
+        "passed": true
+      },
+      {
+        "asset": "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object",
+        "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object.patch",
+        "expected_group_count": 5,
+        "actual_group_count": 5,
+        "applied_group_count": 5,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "aeaaa40ad3b5606725bb855d5740207f5086f1699e2c202da3631386485080f7",
+        "actual_final_json_sha256": "aeaaa40ad3b5606725bb855d5740207f5086f1699e2c202da3631386485080f7",
+        "passed": true
+      },
+      {
+        "asset": "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object",
+        "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object.patch",
+        "expected_group_count": 11,
+        "actual_group_count": 11,
+        "applied_group_count": 11,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "c20d7e993187c994591a34bb9a62534781d774c0647fd3a910a785f7e638e004",
+        "actual_final_json_sha256": "c20d7e993187c994591a34bb9a62534781d774c0647fd3a910a785f7e638e004",
+        "passed": true
+      },
+      {
+        "asset": "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object",
+        "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object.patch",
+        "expected_group_count": 11,
+        "actual_group_count": 11,
+        "applied_group_count": 11,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "7d46a357090f87ed0017fab71de00a0a578a59ea96a79e63ffe4c585018177b0",
+        "actual_final_json_sha256": "7d46a357090f87ed0017fab71de00a0a578a59ea96a79e63ffe4c585018177b0",
+        "passed": true
+      },
+      {
+        "asset": "quests/bounty/bounty.config",
+        "patch_path": "quests/bounty/bounty.config.patch",
+        "expected_group_count": 59,
+        "actual_group_count": 59,
+        "applied_group_count": 59,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "9b77361f0a652b8b45602b8c422c473ea9f453af3ab9b7082e8b2d9319620b4d",
+        "actual_final_json_sha256": "9b77361f0a652b8b45602b8c422c473ea9f453af3ab9b7082e8b2d9319620b4d",
+        "passed": true
+      },
+      {
+        "asset": "quests/bounty/gang.config",
+        "patch_path": "quests/bounty/gang.config.patch",
+        "expected_group_count": 78,
+        "actual_group_count": 78,
+        "applied_group_count": 78,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "2aca8785a4b46dcc3f569343a18f8db0631256a6988c0dd158c7f29ba4f14c40",
+        "actual_final_json_sha256": "2aca8785a4b46dcc3f569343a18f8db0631256a6988c0dd158c7f29ba4f14c40",
+        "passed": true
+      },
+      {
+        "asset": "quests/generated/pools/buildingthemes.config",
+        "patch_path": "quests/generated/pools/buildingthemes.config.patch",
+        "expected_group_count": 1,
+        "actual_group_count": 1,
+        "applied_group_count": 1,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "0e688e607422f429fcdced7dbeae9caa1f2c4f9a596b33b7f267a83da9776b89",
+        "actual_final_json_sha256": "0e688e607422f429fcdced7dbeae9caa1f2c4f9a596b33b7f267a83da9776b89",
+        "passed": true
+      },
+      {
+        "asset": "quests/generated/pools/monsterthreats.config",
+        "patch_path": "quests/generated/pools/monsterthreats.config.patch",
+        "expected_group_count": 22,
+        "actual_group_count": 22,
+        "applied_group_count": 22,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "a8b97b051cf7371c88f2ee46200b52f24bfc682179fcc05de1e37c7d6834d2ad",
+        "actual_final_json_sha256": "a8b97b051cf7371c88f2ee46200b52f24bfc682179fcc05de1e37c7d6834d2ad",
+        "passed": true
+      },
+      {
+        "asset": "quests/generated/pools/npcthreats.config",
+        "patch_path": "quests/generated/pools/npcthreats.config.patch",
+        "expected_group_count": 16,
+        "actual_group_count": 16,
+        "applied_group_count": 16,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "c44a17e67ed769980fccefd8c795259ef2bb67d45707e9ed3f8a89944c113c4f",
+        "actual_final_json_sha256": "c44a17e67ed769980fccefd8c795259ef2bb67d45707e9ed3f8a89944c113c4f",
+        "passed": true
+      },
+      {
+        "asset": "quests/generated/pools/singlemonsterthreats.config",
+        "patch_path": "quests/generated/pools/singlemonsterthreats.config.patch",
+        "expected_group_count": 14,
+        "actual_group_count": 14,
+        "applied_group_count": 14,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "0dc038eb66b2ba19a6ba21778cfb2934d1a539b52dc9adbaa719055f29faa611",
+        "actual_final_json_sha256": "0dc038eb66b2ba19a6ba21778cfb2934d1a539b52dc9adbaa719055f29faa611",
+        "passed": true
+      },
+      {
+        "asset": "quests/generated/pools/singlenpcthreats.config",
+        "patch_path": "quests/generated/pools/singlenpcthreats.config.patch",
+        "expected_group_count": 13,
+        "actual_group_count": 13,
+        "applied_group_count": 13,
+        "failed_group_count": 0,
+        "failed_groups": [],
+        "tolerated_duplicate_groups": [],
+        "expected_final_json_sha256": "c21ad0cde13ad9e9557e21fd49124c214158baf3966e2687812b6f38c061978f",
+        "actual_final_json_sha256": "c21ad0cde13ad9e9557e21fd49124c214158baf3966e2687812b6f38c061978f",
+        "passed": true
+      }
+    ]
+  },
+  "radio_verification": {
+    "message_count": 26,
+    "targeted_keys": [
+      "fu_start_Complete1a",
+      "fu_start_Complete2",
+      "fu_start_Complete2a",
+      "fu_start_Complete2b",
+      "fu_start_Complete3",
+      "fu_start_Complete3a",
+      "fu_start_Complete3b",
+      "fu_start_greetings2",
+      "fu_start_makeForaging",
+      "fu_start_makeFurnace"
+    ],
+    "targeted_status": {
+      "fu_start_Complete1a": true,
+      "fu_start_Complete2": true,
+      "fu_start_Complete2a": true,
+      "fu_start_Complete2b": true,
+      "fu_start_Complete3": true,
+      "fu_start_Complete3a": true,
+      "fu_start_Complete3b": true,
+      "fu_start_greetings2": true,
+      "fu_start_makeForaging": true,
+      "fu_start_makeFurnace": true
+    },
+    "old_successful_count": 16,
+    "old_successful_translation_status": {
+      "fu_start_greetings0": true,
+      "fu_start_greetings1": true,
+      "fu_start_greetings1b": true,
+      "fu_start_greetingspickaxe": true,
+      "fu_start_makeTable": true,
+      "fu_start_makeWire": true,
+      "fu_start_makeElectromagnet": true,
+      "fu_start_Complete1b": true,
+      "fu_start_Complete1c": true,
+      "fu_outpost1": true,
+      "fu_outpost2": true,
+      "fu_byosftldrive-makeSTL": true,
+      "fu_byosftldrive-getErchius1": true,
+      "fu_byosftldrive-getErchius2": true,
+      "fu_byosftldrive-getErchius3": true,
+      "fu_byosftldrive-makeFTL": true
+    },
+    "failed_patch_groups": [],
+    "controls_unchanged": {
+      "fu_start_greetings0": true,
+      "fu_start_greetings1": true,
+      "fu_start_greetings1b": true,
+      "fu_start_greetings2": true,
+      "fu_start_greetingspickaxe": true,
+      "fu_start_makeFurnace": true,
+      "fu_start_makeForaging": true,
+      "fu_start_makeTable": true,
+      "fu_start_makeWire": true,
+      "fu_start_makeElectromagnet": true,
+      "fu_start_Complete1a": true,
+      "fu_start_Complete1b": true,
+      "fu_start_Complete1c": true,
+      "fu_start_Complete2": true,
+      "fu_start_Complete2a": true,
+      "fu_start_Complete2b": true,
+      "fu_start_Complete3": true,
+      "fu_start_Complete3a": true,
+      "fu_start_Complete3b": true,
+      "fu_outpost1": true,
+      "fu_outpost2": true,
+      "fu_byosftldrive-makeSTL": true,
+      "fu_byosftldrive-getErchius1": true,
+      "fu_byosftldrive-getErchius2": true,
+      "fu_byosftldrive-getErchius3": true,
+      "fu_byosftldrive-makeFTL": true
+    },
+    "token_checks": {
+      "fu_start_greetings0": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_greetings1": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_greetings1b": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_greetings2": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_greetingspickaxe": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_makeFurnace": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_makeForaging": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_makeTable": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_makeWire": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_makeElectromagnet": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete1a": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete1b": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete1c": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete2": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete2a": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete2b": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete3": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete3a": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_start_Complete3b": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_outpost1": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_outpost2": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_byosftldrive-makeSTL": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_byosftldrive-getErchius1": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_byosftldrive-getErchius2": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_byosftldrive-getErchius3": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      },
+      "fu_byosftldrive-makeFTL": {
+        "color_tags": true,
+        "numbers": true,
+        "keyboard_keys": true,
+        "placeholders": true
+      }
+    },
+    "checks": {
+      "radio_source_has_26_expected_bodies": true,
+      "radio_baseline_lists_expected_10_target_keys": true,
+      "all_radio_patch_groups_pass_tests": true,
+      "all_26_bodies_have_japanese_text": true,
+      "all_10_targeted_bodies_improved": true,
+      "old_16_successful_translations_unchanged": true,
+      "radio_control_fields_unchanged": true,
+      "radio_color_tags_numbers_keys_placeholders_unchanged": true,
+      "official_radio_layer_matches_fixed_sha256": true
+    },
+    "official_commit": "1c80b714c8b7da9ce3d35f237850ffdb236b9a2e",
+    "official_radio_layer_raw_sha256": "c986539a89a10ac526a1aa21cb0d1cf80629f8249473c9a5d6dd2c490e9a03f1",
+    "official_radio_layer_lf_normalized_sha256": "d26825121dc268b03a21cff56180be75fa20ed499cef4bb4786d98eb0259ff0c",
+    "official_sha256_representation": "official commit blob bytes with LF line endings",
+    "line_ending_note": "Installed source raw SHA and pinned commit LF SHA may differ; CRLF is normalized to LF for the commit-blob check.",
+    "baseline_patch_sha256": "061d0f0c537e71e09595748bcf0953e3abc152214cfb47b886d05fdf59cbaa82",
+    "baseline_success_text_sha256": {
+      "fu_start_greetings0": "7da17bc90ddfc78391b600d1b1c64d07f5c434c8af6c5ad8a3313c8e25f418a6",
+      "fu_start_greetings1": "8f8086e11a4c36d081eaf4de6e8721b9329efcf5082882d68cca1065f18bf268",
+      "fu_start_greetings1b": "7535b77608512150a9f1763b6f6d65c71996f0c98a624aa972143e8737b17be6",
+      "fu_start_greetingspickaxe": "c03fde560bc0659aa56aae8fad7877cd6ad4973a8cb565ddf3730a5028301da2",
+      "fu_start_makeTable": "15dff8594349408b0e46fb93e5fe46b056ada69282e7e18dba15ec309d708b6d",
+      "fu_start_makeWire": "76a7256bf67a44d69fa02f6b211fe140f3a04ac1dcdf59b885ed72f44e57f10b",
+      "fu_start_makeElectromagnet": "e4f3d596a3f0d778e946421db732d99bb4026415ec8086923ddf87d9375ec99d",
+      "fu_start_Complete1b": "389285f95e72747b124f09734734063e21e9d3ac72dd58b4f20690a9e1fab809",
+      "fu_start_Complete1c": "829b2248669efab3ee81bcc6447ddecaecadc9a9c58547b164d6e9e69022064d",
+      "fu_outpost1": "6ab4668dad2b35e9ece7668004a886001f64c8c9caa36687bbc3d27b09895fb1",
+      "fu_outpost2": "8b52c3c3713de04819662a0644044fc7a7940c921ed7cf95c31aadc549efb3d7",
+      "fu_byosftldrive-makeSTL": "4973cfc45d770525fdbc89252052ac254bbf5c0397361b8234ea35d0f2bc87cb",
+      "fu_byosftldrive-getErchius1": "fbe042d42a8ae596f2ed24947115bc23db60f386d68800fd3257e0b344c53a99",
+      "fu_byosftldrive-getErchius2": "9b73af39d8201847e5eb0e1f34674f33108d199f259ff3c1c8a66064cf4df05d",
+      "fu_byosftldrive-getErchius3": "7982312b24dd1756179e2a7d019d820ca6edf754d1d1dba5646ba5a7ef1fb8d7",
+      "fu_byosftldrive-makeFTL": "3522959c28c70f7483d8dbc2f4ee7d3d068a9bbbeec4d4ce2bba0a9c08fa8ba4"
+    }
+  },
+  "metadata": {
+    "baseline_version": "0.2.3-fu6.5.8",
+    "candidate_version": "0.2.4-fu6.5.8",
+    "version_is_0_2_4_fu6_5_8": true,
+    "stable_metadata_fields": {
+      "name": true,
+      "includes": true,
+      "requires": true,
+      "priority": true
+    },
+    "stable_metadata_fields_unchanged": true,
+    "attribution_has_17868_commit": true,
+    "attribution_has_1c80_commit": true
+  },
+  "limitations": [
+    "Only 20 selected assets were composed from the configured real asset layers.",
+    "The complete Frackin' Universe source checkout was unavailable and was not reapplied.",
+    "The game was not launched; runtime rendering and behavior remain unverified."
+  ]
 }

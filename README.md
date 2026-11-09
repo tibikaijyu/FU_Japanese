@@ -3,16 +3,16 @@
 > [!IMPORTANT]
 > このMODは、生成AI（ChatGPTなど）を用いて実装しています。翻訳の確認・補完にも生成AIを使用しており、コードや訳文に誤り・不具合が含まれる可能性があります。
 
-Starboundの大型MOD **Frackin' Universe（FU）6.5.8** 向けの非公式日本語化です。現在の版は **0.2.3-fu6.5.8**。アイテム、研究、クエスト、会話、ガイド、種族情報などを日本語化します。FuguMTによる機械翻訳を基礎に、用語や表示文を個別に補完しています。
+Starboundの大型MOD **Frackin' Universe（FU）6.5.8** 向けの非公式日本語化です。現在の版は **0.2.4-fu6.5.8**。アイテム、研究、クエスト、会話、ガイド、種族情報などを日本語化します。FuguMTによる機械翻訳を基礎に、用語や表示文を個別に補完しています。0.2.4では通信メッセージ26本文の日本語化と、固定対象20アセットの再生成・整合を行いました。
 
 ## 導入
 
 Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要です。このリポジトリにはゲーム本体とFU本体を含めていません。
 
-1. GitHubの **Releases** で `FU_Japanese_0.2.3-public.3-install.zip` を取得し、ZIPを展開します。Pre-releaseとして配布しています。
+1. 配布時は **Releases** から `FU_Japanese_0.2.4-public.1-install.zip`（フォルダ版）または `FU_Japanese_0.2.4-public.1-pak.1-install.zip`（PAK版）を取得し、ZIPを展開します。いずれか一方だけを使ってください。
 2. Starboundを完全に終了します。
-3. 更新する場合は、旧版の `Starbound/mods/FU_Japanese` をmodsの外へ移動します。
-4. 展開したフォルダ内の `mods/FU_Japanese` を `Starbound/mods` へコピーします。
+3. 更新する場合は、旧版の `Starbound/mods/FU_Japanese` フォルダと `Starbound/mods/FU_Japanese.pak`（存在する場合）をmodsの外へ移動します。
+4. フォルダ版なら展開した `mods/FU_Japanese` を `Starbound/mods` へコピーします。PAK版なら `mods/FU_Japanese.pak` をコピーします。
 5. 日本語が四角になる場合は、`optional/FU_Japanese_Font` も `Starbound/mods` へコピーします。
 
 正しい配置は `Starbound/mods/FU_Japanese/_metadata` です。展開した外側のフォルダや `source` をゲームへコピーする必要はありません。導入にPythonやpak化は不要です。詳細は [導入手順](docs/INSTALL_JA.txt) にあります。
@@ -30,7 +30,7 @@ Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要で
 | `source/reports/` | 既存の検査記録。過去版の記録を含む |
 | `SHA256SUMS.txt` | このリポジトリの公開対象ファイルのSHA-256 |
 
-調査用の `source/reports/scope/`、実行ログ、ローカルの開発資料はGitの対象外です。ゲーム用データ、翻訳カタログ、回帰検査用の資料は収録しています。Releasesの `-install.zip` は導入用、`-source.zip` とGitHubが生成する **Source code** は開発用です。
+調査用の `source/reports/scope/`、実行ログ、ローカルの開発資料はGitの対象外です。ゲーム用データ、翻訳カタログ、回帰検査用の資料は収録しています。`0.2.4-public.1` はフォルダ版とソース版の識別子、`0.2.4-public.1-pak.1` はPAK版の識別子です。`-install.zip` は導入用、`-source.zip` とGitHubが生成する **Source code** は開発用です。フォルダ版とPAK版を同時にmodsへ入れないでください。
 
 ## 開発・検査
 

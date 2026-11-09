@@ -1,26 +1,27 @@
-﻿Frackin' Universe 日本語化MOD 0.2.3
+﻿Frackin' Universe 日本語化MOD 0.2.4
 
 【生成AIの使用について】
 このMODは、生成AI（ChatGPTなど）を用いて実装しています。翻訳の確認・補完にも生成AIを使用しており、コードや訳文に誤り・不具合が含まれる可能性があります。
 
-キャラクター名の自動生成データを原文維持へ戻した修正版です。
-ガイド・種族説明・画面・アイテム等の日本語化は引き継いでいます。
-2026-11-07、利用者環境でキャラクター画面のフリーズが解消したとの報告を受けています。
-全種族・他環境・全MOD構成の確認は未完了です。
+起動時の不具合を修正した版です。ガイド・種族説明・画面・アイテム等の日本語化を含みます。
+全種族・他環境・全MOD構成での実機確認は未完了です。
 
 1. Starboundを完全に終了します。
 2. ZIPを展開します。
-3. 既存の Starbound/mods/FU_Japanese をmodsの外へ移動します。
-4. 新しい mods/FU_Japanese を Starbound/mods へコピーします。
-5. キャラクター作成画面と、既存キャラクターでゲームに入る操作を確認します。
+3. フォルダ版を使う場合は、既存の Starbound/mods/FU_Japanese と同MODのPAKをmodsの外へ移動します。
+4. PAK版を使う場合は、既存の Starbound/mods/FU_Japanese フォルダと旧PAKをmodsの外へ移動します。
+5. 選んだZIPだけを展開し、フォルダ版なら mods/FU_Japanese、PAK版なら mods/FU_Japanese.pak を Starbound/mods へコピーします。
+6. 同じMODのフォルダ版とPAK版を同時にmods内へ置かず、キャラクター画面とゲーム内表示を確認します。
 
-正しい配置: Starbound/mods/FU_Japanese/_metadata
-_metadata の version: 0.2.3-fu6.5.8
+正しい配置（フォルダ版）: Starbound/mods/FU_Japanese/_metadata
+正しい配置（PAK版）: Starbound/mods/FU_Japanese.pak
+_metadata の version: 0.2.4-fu6.5.8
 
-別名にした旧版フォルダもmods内に残さないでください。
-同じフォルダへ上書きする場合も、旧版の名前生成パッチを同名の空パッチへ置き換えます。
+別名にした旧版フォルダや同MODの旧PAKもmods内に残さないでください。
 FU本体・セーブデータ・現在の日本語フォントはそのまま利用できます。
 source は開発資料です。ゲームのmodsへコピーする必要はありません。
+
+PAK版ZIPと詳しい検証方法は `PAK_DISTRIBUTION.md` を参照してください。
 
 再発する場合は、ゲームを終了後にFU_Japaneseだけをmods外へ移して比較してください。
 比較結果・停止した画面・選択した種族・停止直後のstarbound.logが次の調査に役立ちます。

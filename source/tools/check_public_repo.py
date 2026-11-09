@@ -10,6 +10,7 @@ import subprocess
 import sys
 
 from namegen_safety import assert_safe_namegen_patch, assert_safe_namegen_translation
+from release_evidence import validate_release_evidence
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -131,13 +132,11 @@ def check(write_checksums=False):
     for asset in retired:
         if hashes.get(prefix + asset + ".patch") != digest(b"[]\n"):
             errors.append(f"Character-name patch must remain empty: {asset}")
-    evidence = read_json("source/reports/test_summary_023.json")
-    if not evidence.get("passed"):
-        errors.append("Stored release checks are not passing")
-    for row in evidence["reports"]:
-        name = "source/reports/" + row["file"]
-        if hashes.get(name) != row["sha256"] or not row["passed"]:
-            errors.append(f"Release evidence changed: {name}")
+    try:
+        current_files = {name: (ROOT / name).read_bytes() for name in hashes}
+        validate_release_evidence(current_files)
+    except (OSError, ValueError) as exc:
+        errors.append(str(exc))
 
     manifest_text = "".join(f"{sha}  {name}\n" for name, sha in sorted(hashes.items()))
     if write_checksums:

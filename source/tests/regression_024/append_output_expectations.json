@@ -1,0 +1,129 @@
+{
+  "schema": "fu-append-output-expectations-v1",
+  "source_comparison": ".local/parent-review/fu-complete-output-comparison.json",
+  "source_comparison_sha256": "6d2eb2dc9b395461f6bf175659eaba3346769c613980147585a8d9c3b948c459",
+  "scope": "complete patches on actual pre-FU-Japanese source composition",
+  "expected_asset_count": 20,
+  "assets": [
+    {
+      "asset": "celestial/names.config",
+      "patch_path": "celestial/names.config.patch",
+      "groups": 633,
+      "output_sha256": "a628597234bd47c21b9bf7742902ec48cea41e63a91d898f478f26bdacf9d6cd"
+    },
+    {
+      "asset": "items/active/weapons/ranged/assaultrifle/assaultnames.config",
+      "patch_path": "items/active/weapons/ranged/assaultrifle/assaultnames.config.patch",
+      "groups": 28,
+      "output_sha256": "7f0fca1090a994fa2dc1339be3c403d821ea64fae8e1f002244a33d8e9b5f800"
+    },
+    {
+      "asset": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config",
+      "patch_path": "items/active/weapons/ranged/grenadelauncher/glaunchernames.config.patch",
+      "groups": 37,
+      "output_sha256": "bad63020696de3d472985043644dfffbdcddb4a276295f2f4136422710337b72"
+    },
+    {
+      "asset": "items/active/weapons/ranged/machinepistol/mpistolnames.config",
+      "patch_path": "items/active/weapons/ranged/machinepistol/mpistolnames.config.patch",
+      "groups": 28,
+      "output_sha256": "70202b3fd1793ddd5ce037b0da2204ca6619b16d638e4b87c06b483211094567"
+    },
+    {
+      "asset": "items/active/weapons/ranged/pistol/pistolnames.config",
+      "patch_path": "items/active/weapons/ranged/pistol/pistolnames.config.patch",
+      "groups": 29,
+      "output_sha256": "2122ff9bddd780cbfeaa2c9789514bd8ef62dda7083683f5ba58de32bc190ecf"
+    },
+    {
+      "asset": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config",
+      "patch_path": "items/active/weapons/ranged/rocketlauncher/rlaunchernames.config.patch",
+      "groups": 34,
+      "output_sha256": "a9887131123b4eca15b300412012c5c597aa3de51d807262bba7222a8d22b2d0"
+    },
+    {
+      "asset": "items/active/weapons/ranged/shotgun/shotgunnames.config",
+      "patch_path": "items/active/weapons/ranged/shotgun/shotgunnames.config.patch",
+      "groups": 29,
+      "output_sha256": "f2ad2cf397a3622596a534fd8dcf60d8f800cdb8c0a4f601eec5f781ef14e564"
+    },
+    {
+      "asset": "items/active/weapons/ranged/sniperrifle/snipernames.config",
+      "patch_path": "items/active/weapons/ranged/sniperrifle/snipernames.config.patch",
+      "groups": 32,
+      "output_sha256": "e13a3b51cf709b33ef4565776563577deb4b6eb0e4e78bbcb078a8d324c615fd"
+    },
+    {
+      "asset": "npcs/crew/crewmemberengineer.npctype",
+      "patch_path": "npcs/crew/crewmemberengineer.npctype.patch",
+      "groups": 5,
+      "output_sha256": "096d5a51a8c357614a29d89193ada35b9260af7602951ea6702d4c06cbd66e58"
+    },
+    {
+      "asset": "npcs/crew/crewmembermechanic.npctype",
+      "patch_path": "npcs/crew/crewmembermechanic.npctype.patch",
+      "groups": 5,
+      "output_sha256": "d9a0c8a5588aca4598f67f12fac5faf71ae2d9bcf8a8730e0a1b2515c34ac6dd"
+    },
+    {
+      "asset": "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object",
+      "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingfurnace/craftingfurnace.object.patch",
+      "groups": 5,
+      "output_sha256": "aeaaa40ad3b5606725bb855d5740207f5086f1699e2c202da3631386485080f7"
+    },
+    {
+      "asset": "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object",
+      "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object.patch",
+      "groups": 11,
+      "output_sha256": "c20d7e993187c994591a34bb9a62534781d774c0647fd3a910a785f7e638e004"
+    },
+    {
+      "asset": "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object",
+      "patch_path": "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object.patch",
+      "groups": 11,
+      "output_sha256": "7d46a357090f87ed0017fab71de00a0a578a59ea96a79e63ffe4c585018177b0"
+    },
+    {
+      "asset": "quests/bounty/bounty.config",
+      "patch_path": "quests/bounty/bounty.config.patch",
+      "groups": 59,
+      "output_sha256": "9b77361f0a652b8b45602b8c422c473ea9f453af3ab9b7082e8b2d9319620b4d"
+    },
+    {
+      "asset": "quests/bounty/gang.config",
+      "patch_path": "quests/bounty/gang.config.patch",
+      "groups": 78,
+      "output_sha256": "2aca8785a4b46dcc3f569343a18f8db0631256a6988c0dd158c7f29ba4f14c40"
+    },
+    {
+      "asset": "quests/generated/pools/buildingthemes.config",
+      "patch_path": "quests/generated/pools/buildingthemes.config.patch",
+      "groups": 1,
+      "output_sha256": "0e688e607422f429fcdced7dbeae9caa1f2c4f9a596b33b7f267a83da9776b89"
+    },
+    {
+      "asset": "quests/generated/pools/monsterthreats.config",
+      "patch_path": "quests/generated/pools/monsterthreats.config.patch",
+      "groups": 22,
+      "output_sha256": "a8b97b051cf7371c88f2ee46200b52f24bfc682179fcc05de1e37c7d6834d2ad"
+    },
+    {
+      "asset": "quests/generated/pools/npcthreats.config",
+      "patch_path": "quests/generated/pools/npcthreats.config.patch",
+      "groups": 16,
+      "output_sha256": "c44a17e67ed769980fccefd8c795259ef2bb67d45707e9ed3f8a89944c113c4f"
+    },
+    {
+      "asset": "quests/generated/pools/singlemonsterthreats.config",
+      "patch_path": "quests/generated/pools/singlemonsterthreats.config.patch",
+      "groups": 14,
+      "output_sha256": "0dc038eb66b2ba19a6ba21778cfb2934d1a539b52dc9adbaa719055f29faa611"
+    },
+    {
+      "asset": "quests/generated/pools/singlenpcthreats.config",
+      "patch_path": "quests/generated/pools/singlenpcthreats.config.patch",
+      "groups": 13,
+      "output_sha256": "c21ad0cde13ad9e9557e21fd49124c214158baf3966e2687812b6f38c061978f"
+    }
+  ]
+}

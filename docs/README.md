@@ -19,6 +19,8 @@
 
 以下は記載された版・時点での記録です。Starbound本体での利用者報告と、自動検査の結果を区別しています。
 
+- [0.2.4対象アセットの再生成と検証](verification/2026-11-10-fu-024-targeted-verification.md)：固定20アセットと通信メッセージ26本文の対象限定検証。全体ビルドと実機表示は未確認です。
+- [FU追加の通信メッセージ未翻訳の調査](verification/2026-11-09-radio-message-translation.md)：Shift＋Mouse 1の説明を含む10件の調査。過去時点の調査記録です。
 - [2026-11-07のフリーズ解消報告](verification/2026-11-07-user-report.md)。
 - [0.2.2の種族情報表示の修正](verification/README_SPECIES_022.md)。
 - [種族情報・キャラクター作成画面の監査](verification/species_ui_audit_023.md)。
