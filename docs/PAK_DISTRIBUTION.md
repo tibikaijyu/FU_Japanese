@@ -1,41 +1,47 @@
 # FU_Japanese PAK配布
 
-PAK版は、ゲーム内MOD本体 `mods/FU_Japanese` だけをStarbound公式の `asset_packer.exe` で梱包した配布形式です。フォルダ版と同じ訳・設定を含み、`source/`、`docs/`、ビルド資料、検査記録はPAKへ入りません。
+公開リリースに含める導入物はPAK版だけです。通常のMOD本体は `mods/FU_Japanese.pak`、任意フォントはフォント・メタデータ・ライセンスの計5ファイルをまとめた別PAK `optional/FU_Japanese_Font.pak` です。生のMODフォルダはGit上の開発用ソースとして保持しますが、配布ZIPには入れません。ソースはGitリポジトリで提供し、source ZIPとフォルダ版ZIPは生成しません。
 
-## 作成
+今回の識別子はリリース `0.2.4-public.2`、PAK `0.2.4-public.2-pak.1` です。同一IDの既存出力がある場合は上書きせず、生成処理を停止します。古い `dist/` 成果物は履歴として保持します。
 
-Windows版Starboundの `win32` フォルダにある公式 `asset_packer.exe` と `asset_unpacker.exe` を指定します。ツールは読み取り専用で利用し、出力はリポジトリ内の `dist/` に作成します。
+## 生成
+
+公式Windows版Starboundの `win32` にある `asset_packer.exe` と `asset_unpacker.exe` が必須です。PAKツールを指定せずに実行することはできません。ツールがない、梱包または展開に失敗する、展開後の比較に不一致がある場合、配布生成全体を停止します。フォルダ版へのfallbackはありません。
 
 ```powershell
 python source/tools/check_public_repo.py
 python source/tools/package_release.py `
   --output-dir dist `
-  --release-id 0.2.4-public.1 `
-  --pak-release-id 0.2.4-public.1-pak.1 `
-  --pak-tools-dir "E:/SteamLibrary/steamapps/common/Starbound/win32"
+  --release-id 0.2.4-public.2 `
+  --pak-release-id 0.2.4-public.2-pak.1 `
+  --pak-tools-dir "<Starbound>/win32"
 ```
 
-この実行でフォルダ版、PAK版、ソース版のZIPを別々に作ります。`FU_Japanese_0.2.4-public.1-pak.1-install.zip` には `mods/FU_Japanese.pak` が入り、フォルダ版の `mods/FU_Japanese/` は入りません。PAK版ZIP内で両形式を併配しません。
+この実行が作る導入ZIPは `FU_Japanese_0.2.4-public.2-pak.1-install.zip` の1つです。ZIPには `mods/FU_Japanese.pak`、`optional/FU_Japanese_Font.pak`、README・導入案内、ライセンス・出典を収録します。ライセンス文書は `LICENSES/FU_Japanese/` と `LICENSES/FU_Japanese_Font/` に格納し、パッケージ内からのリンクも合わせます。
 
-PAKを作った後、公式 `asset_unpacker.exe` で作業用一時ディレクトリへ展開し、フォルダMODと相対パスを全件比較します。`_metadata` 以外はファイル数・サイズ・生バイトのSHA-256が一致することを要求します。公式ツールは `_metadata` をJSONとして再直列化し、空白とキー順を変更するため、生バイトSHAは一致しません。その代わり、JSONの深い構造を型も含めて比較し、キー・値・型が変わらないこととcanonical JSONのSHA-256一致を要求します。検証報告にはmetadataの入力・展開後の生SHAも記録します。このため「PAK内全ファイルの生バイト一致」とは報告しません。
+公式unpackerで各PAKを一時領域へ展開し、通常MODの各ファイルと比較します。`_metadata` 以外はファイル数・サイズ・生バイトのSHA-256を照合します。`_metadata` は公式ツールがJSONを再直列化して空白やキー順を変えるため、JSONの深い構造・型・値とcanonical JSONのSHA-256で比較し、検証レポートへ入力と展開後の生SHA-256も記録します。「全ファイルの生バイトが一致」とは表現しません。任意フォントPAKも収録ファイルを検証します。
 
-次のファイルを確認します。
+生成物には次が含まれます。
 
-- `FU_Japanese_0.2.4-public.1-pak.1-install.zip` と `FU_Japanese_0.2.4-public.1-pak.1-verification.json`
-- `SHA256SUMS-0.2.4-public.1.txt`：フォルダ版・PAK版・ソース版ZIPのSHA-256
-- `release-artifacts.json`：各ZIPの一覧、SHA-256、PAKの検証結果
+- `FU_Japanese_0.2.4-public.2-pak.1-install.zip`：唯一の導入ZIP。
+- `FU_Japanese_0.2.4-public.2-pak.1-verification.json`：PAKの検証記録。
+- `SHA256SUMS-0.2.4-public.2.txt`：生成物のSHA-256一覧。
+- `release-artifacts-0.2.4-public.2.json`：成果物情報とアップロード許可一覧。
 
-`0.2.4-public.1` はMODの公開リリースID、`0.2.4-public.1-pak.1` はそのリリース内のPAK配布形式のIDです。再梱包時は公開リリースIDを進め、PAK形式番号を1から付け直します。フォルダ版と同じIDをPAK版に使わないでください。
+## リリースへのアップロード
+
+`release-artifacts-0.2.4-public.2.json` の `upload_allowlist` を確認し、そこに記された導入ZIPだけを選択します。対応する `SHA256SUMS-0.2.4-public.2.txt` は任意で添付できます。検証JSONや任意の `dist/*` を一括でアップロード対象にしないでください。古い成果物は消さず、新しく生成したIDの成果物だけを公開します。ソースコードはGitリポジトリを案内します。
 
 ## 導入
 
 1. Starboundを完全に終了します。
-2. PAK版ZIPを展開し、最上位のリリースフォルダ内にある `mods/FU_Japanese.pak` をStarboundの `mods/` にコピーします。
-3. 同名のフォルダ版 `mods/FU_Japanese/` や旧PAK版があれば、`mods/` の外へ移動します。同時にmods内へ置かないでください。
-4. 起動して日本語表示を確認します。
+2. PAK版ZIPを展開します。
+3. 新しいPAKをコピーする前に、古い `mods/FU_Japanese/` フォルダと `mods/FU_Japanese.pak` があれば、modsの外へ移動します。別名の旧フォルダやPAKもmods内に残さないでください。
+4. ZIP内の `mods/FU_Japanese.pak` をStarboundの `mods/` へコピーします。
+5. 日本語が四角になる場合だけ、追加前に旧 `mods/FU_Japanese_Font/` フォルダと `mods/FU_Japanese_Font.pak` があればmodsの外へ移動し、その後 `optional/FU_Japanese_Font.pak` を `mods/` へコピーします。すでに使っている日本語フォントで表示できる場合は不要です。
 
-フォルダ版を選ぶ場合はフォルダ版ZIPのみを展開します。フォルダ版ZIPとPAK版ZIPの両方を同じ `mods/` へ入れないでください。既存の日本語フォントやFU本体はこの切替では変更しません。
+Starbound本体・FU本体・セーブデータはこの切替で変更されません。ゲーム内の表示と速度は、この文書のパッケージ検証だけでは確認できません。実機での表示・性能確認は後日行います。
 
-## 旧版の性能比較候補
+## 過去版の記録
 
-修正前の `0.2.3-fu6.5.8` を対象MODのみ梱包した内容不変の比較用PAKと、入力スナップショット、unpack結果、SHA-256検証記録は、リポジトリ外のローカル作業データ `.local/fu-package-baseline/` に保存します。これは公開配布物ではなく、最終修正版のPAKとは別の性能比較候補です。
+0.2.3以前の配布物・検証記録と過去の `dist/` は履歴として保持します。この案内は今後作成するリリースZIPの規則で、古いリリース履歴を書き換えません。

@@ -2,7 +2,8 @@
 
 ## 導入・利用
 
-- [導入手順](INSTALL_JA.txt)：インストール、更新、再発時の確認。
+- [導入手順](INSTALL_JA.txt)：PAK版のインストール、更新、再発時の確認。
+- [PAK配布案内](PAK_DISTRIBUTION.md)：PAKのみの公開ZIP、公式ツール検証、アップロード許可一覧。
 - [詳しい利用ガイド](README_JA.md)：変更内容、翻訳範囲、検証済み・未確認の範囲。
 - [変更履歴](../CHANGELOG.md)／[ライセンス](../LICENSE.md)／[第三者の出典](../THIRD_PARTY_NOTICES.md)。
 
@@ -28,4 +29,4 @@
 
 機械処理する検査結果は `source/reports/`、テストデータとその説明は `source/tests/` にあります。依存関係を指定する `requirements*.txt` は、それぞれの実行環境の近くに置いています。
 
-導入用ZIPでは、すぐ読めるように `README_JA.md` と `INSTALL_JA.txt` をZIP内の配布フォルダ直下へ配置します。開発用ZIPではリポジトリと同じ配置です。
+導入ZIPはPAK版のみです。`README_JA.md` と `INSTALL_JA.txt` を収録し、ライセンス資料はZIP内の `LICENSES/FU_Japanese/` と `LICENSES/FU_Japanese_Font/` に配置します。開発用ソースはGitで公開し、source ZIPは作りません。

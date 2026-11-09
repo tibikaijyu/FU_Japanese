@@ -3,26 +3,17 @@
 【生成AIの使用について】
 このMODは、生成AI（ChatGPTなど）を用いて実装しています。翻訳の確認・補完にも生成AIを使用しており、コードや訳文に誤り・不具合が含まれる可能性があります。
 
-起動時の不具合を修正した版です。ガイド・種族説明・画面・アイテム等の日本語化を含みます。
-全種族・他環境・全MOD構成での実機確認は未完了です。
+本リリースはPAK版のみです。全種族・他環境での実機確認、ゲーム内表示・処理性能の確認は未完了です。
 
 1. Starboundを完全に終了します。
-2. ZIPを展開します。
-3. フォルダ版を使う場合は、既存の Starbound/mods/FU_Japanese と同MODのPAKをmodsの外へ移動します。
-4. PAK版を使う場合は、既存の Starbound/mods/FU_Japanese フォルダと旧PAKをmodsの外へ移動します。
-5. 選んだZIPだけを展開し、フォルダ版なら mods/FU_Japanese、PAK版なら mods/FU_Japanese.pak を Starbound/mods へコピーします。
-6. 同じMODのフォルダ版とPAK版を同時にmods内へ置かず、キャラクター画面とゲーム内表示を確認します。
+2. 配布ファイル名は `FU_Japanese_0.2.4-public.2-pak.1-install.zip` です。現時点でReleaseへの添付は未実施です。添付後にそのZIPを取得して展開してください。
+3. 更新時は旧版の `Starbound/mods/FU_Japanese` フォルダと `Starbound/mods/FU_Japanese.pak` をmodsの外へ移します。別名にした旧フォルダや旧PAKもmods内に残さないでください。
+4. ZIP内の `mods/FU_Japanese.pak` を `Starbound/mods` へコピーします。
+5. 日本語が四角になる場合だけ、先に旧 `Starbound/mods/FU_Japanese_Font` フォルダと `Starbound/mods/FU_Japanese_Font.pak` をmodsの外へ移してから、`optional/FU_Japanese_Font.pak` を `Starbound/mods` へコピーします。すでに使っている日本語フォントで表示できる場合は不要です。
+6. 起動後に日本語表示を確認します。
 
-正しい配置（フォルダ版）: Starbound/mods/FU_Japanese/_metadata
-正しい配置（PAK版）: Starbound/mods/FU_Japanese.pak
-_metadata の version: 0.2.4-fu6.5.8
+正しい配置先は `Starbound/mods/FU_Japanese.pak` です。MODのフォルダ版を同時にmodsへ置かないでください。展開した外側のフォルダやsourceはゲームのmodsへ入れません。導入にPythonや追加のpak化は必要ありません。
 
-別名にした旧版フォルダや同MODの旧PAKもmods内に残さないでください。
-FU本体・セーブデータ・現在の日本語フォントはそのまま利用できます。
-source は開発資料です。ゲームのmodsへコピーする必要はありません。
+PAK配布の検証・ライセンス配置は同梱の `PAK_DISTRIBUTION.md` を参照してください。FU本体・セーブデータ・現在の日本語フォントはそのまま利用できます。
 
-PAK版ZIPと詳しい検証方法は `PAK_DISTRIBUTION.md` を参照してください。
-
-再発する場合は、ゲームを終了後にFU_Japaneseだけをmods外へ移して比較してください。
-比較結果・停止した画面・選択した種族・停止直後のstarbound.logが次の調査に役立ちます。
-詳しい修正内容、確認できた範囲、ライセンスは README_JA.md を参照してください。
+再発する場合はゲームを終了後に `FU_Japanese.pak` だけをmods外へ移して比較してください。比較結果・停止した画面・選択した種族・停止直後の `starbound.log` が次の調査に役立ちます。詳しい変更内容、確認できた範囲、ライセンスは `README_JA.md` を参照してください。

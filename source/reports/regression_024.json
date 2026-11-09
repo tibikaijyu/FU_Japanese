@@ -1,19 +1,35 @@
 {
   "version": "0.2.4",
   "passed": true,
-  "tests_run": 46,
+  "tests_run": 50,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
-  "input_state_sha256": "08ce1942e53d6da708d9dba09395ca469ee9fb788e72f3497d282fcde7582a3e",
+  "input_state_sha256": "84f271a6b4b56616b7ba07f55e7e625f2a1035bf209316c2fe530f2443b77538",
   "input_state_unchanged_during_run": true,
   "tests": [
+    {
+      "name": "test_pak_release.PakReleaseTests.test_cli_requires_official_pak_tools",
+      "status": "passed"
+    },
+    {
+      "name": "test_pak_release.PakReleaseTests.test_font_pak_uses_exact_allowlist_and_license_files_are_outside_it",
+      "status": "passed"
+    },
+    {
+      "name": "test_pak_release.PakReleaseTests.test_missing_tools_fail_without_creating_archives",
+      "status": "passed"
+    },
+    {
+      "name": "test_pak_release.PakReleaseTests.test_pack_failure_writes_no_archive",
+      "status": "passed"
+    },
     {
       "name": "test_pak_release.PakReleaseTests.test_pack_uses_only_mod_files_and_install_zip_payload_is_pak_only",
       "status": "passed"
     },
     {
-      "name": "test_pak_release.PakReleaseTests.test_pak_release_id_requires_pak_tools",
+      "name": "test_pak_release.PakReleaseTests.test_package_outputs_only_allowlisted_pak_zip_and_preserves_old_dist",
       "status": "passed"
     },
     {

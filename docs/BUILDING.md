@@ -119,37 +119,28 @@ python source/tools/release_evidence.py create --report regression_024.json
 
 `verify_release_023.py` と `test_summary_023.json` は0.2.3以前の履歴資料です。0.2.4のリリース判定へ流用・上書きしないでください。0.2.4では `verify_release_024.py` を実行し、その検査結果と現在のMOD・生成ソースの状態を結び付けた `test_summary_024.json` を作成します。集約対象レポートを変更した後は、検査を再実行して要約を更新してください。
 
-## 公開用ZIP
+## PAKのみを公開リリースに生成
 
-現在の同梱構成から作成するため、外部のPixelMplusディレクトリや元の機械翻訳作業フォルダは不要です。
+公開リリースはPAK版の導入ZIP 1つだけです。フォルダ版ZIPとsource ZIPは生成しません。開発用ソースはGitリポジトリで公開します。ZIPには `mods/FU_Japanese.pak`、任意の `optional/FU_Japanese_Font.pak`、導入説明、ライセンスと出典資料を含めます。
 
-```sh
-python source/tools/check_public_repo.py
-python source/tools/package_release.py --output-dir dist --release-id 0.2.4-public.1
-```
-
-- `FU_Japanese_0.2.4-public.1-install.zip`：フォルダ版MOD、任意フォント、導入説明、ライセンス、最小限の出典・確認資料。
-- `FU_Japanese_0.2.4-public.1-source.zip`：SHA-256一覧に登録した公開ファイル一式をリポジトリと同じ配置で収録。モデル来歴と `pre_review_semantic_candidates.jsonl` も保持。
-- `SHA256SUMS-0.2.4-public.1.txt`：上記ZIP自体のハッシュ。
-- `release-artifacts.json`：ファイル数・容量・ハッシュ・検査結果。
-
-元の機械翻訳環境の `fugumt-model/provenance.json` ではなく、同梱の `model_provenance.json` をそのまま収録します。モデル重み、`scope/`、ログ、仮想環境、`docs/development/` は収録しません。チェックサム一覧が明示的な収録対象です。
-
-収録順、ZIP内の時刻、権限、圧縮レベルを固定しています。同じPython/zlibと入力でのZIPバイト一致を検査します。Python/zlibの異なるバージョン間でも圧縮バイトが一致するとの保証はしていません。ゲームファイルの一致、検査の再現、ZIP全体の一致は別々に確認してください。
-
-配布構成を変えた場合は `--release-id 0.2.4-public.2` など、識別できる再梱包番号を使い、README・変更履歴・Release説明のファイル名も更新します。
-
-## PAK版の生成
-
-公式Windows版Starboundのwin32ツールを指定すると、フォルダ版・PAK版・ソース版をそれぞれ別のZIPとして生成し、PAKを公式unpackerで検証します。
+公式Windows版Starboundの `win32` にある `asset_packer.exe` と `asset_unpacker.exe` の場所は必須です。ツールの欠落、梱包・展開失敗、内容不一致は処理全体を失敗させ、folder fallbackしません。同一リリースIDの出力が既にあるときも停止します。
 
 ```powershell
 python source/tools/check_public_repo.py
 python source/tools/package_release.py `
   --output-dir dist `
-  --release-id 0.2.4-public.1 `
-  --pak-release-id 0.2.4-public.1-pak.1 `
-  --pak-tools-dir "E:/SteamLibrary/steamapps/common/Starbound/win32"
+  --release-id 0.2.4-public.2 `
+  --pak-release-id 0.2.4-public.2-pak.1 `
+  --pak-tools-dir "<Starbound>/win32"
 ```
 
-PAK版だけが必要な場合も同じコマンドで生成されますが、公開出力には通常のフォルダ版・ソース版も含まれます。PAK版ZIPは `mods/FU_Japanese.pak` を含み、`mods/FU_Japanese/` は含みません。個別のIDと検証項目、metadata再直列化の扱いは [PAK_DISTRIBUTION.md](PAK_DISTRIBUTION.md) を参照してください。フォルダ版とPAK版を同じ `mods/` へ同時導入しないでください。
+パッケージ処理はライセンス資料を `LICENSES/FU_Japanese/` と `LICENSES/FU_Japanese_Font/` に別途収録し、ZIP内から参照するリンクも修復します。PAKは公式unpackerで一時領域へ展開して検証します。`_metadata` 以外はファイル数・サイズ・生バイトのSHA-256を照合します。公式ツールが再直列化する `_metadata` はJSONの深い構造・型・値とcanonical JSONのSHA-256で照合し、生バイトSHAも記録します。全ファイルが生バイト一致すると報告しません。
+
+出力では次を確認します。
+
+- `FU_Japanese_0.2.4-public.2-pak.1-install.zip`：唯一の配布ZIP。
+- `FU_Japanese_0.2.4-public.2-pak.1-verification.json`：PAK検証レポート。
+- `SHA256SUMS-0.2.4-public.2.txt`：出力チェックサム。
+- `release-artifacts-0.2.4-public.2.json`：成果物情報と `upload_allowlist`。
+
+公開先には `release-artifacts-0.2.4-public.2.json` の `upload_allowlist` にあるZIPだけを選びます。`SHA256SUMS-0.2.4-public.2.txt` は任意で添付できます。検証レポートや `dist/*` 全体をまとめてアップロードしません。過去の `dist/` 成果物と0.2.3以前の履歴はそのまま残します。再梱包では識別子を更新し、既存出力を上書きしません。

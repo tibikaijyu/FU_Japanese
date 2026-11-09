@@ -28,7 +28,7 @@ jobs:
         run: python -m pip install -r source/requirements-test.txt
       - name: Check packaging and portable Lua fixture
         run: python source/tools/test_public_release.py
+      - name: Check PAK-only release policy with mocked official tools
+        run: python source/tools/test_pak_release.py
       - name: Check pinned character-name fixtures
         run: python source/tools/test_namegen_semantics.py --project source --mod mods/FU_Japanese --fixtures source/tests/namegen_fixtures
-      - name: Build and verify install and source packages
-        run: python source/tools/package_release.py --output-dir dist

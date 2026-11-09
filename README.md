@@ -9,20 +9,20 @@ Starboundの大型MOD **Frackin' Universe（FU）6.5.8** 向けの非公式日�
 
 Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要です。このリポジトリにはゲーム本体とFU本体を含めていません。
 
-1. 配布時は **Releases** から `FU_Japanese_0.2.4-public.1-install.zip`（フォルダ版）または `FU_Japanese_0.2.4-public.1-pak.1-install.zip`（PAK版）を取得し、ZIPを展開します。いずれか一方だけを使ってください。
+1. 配布ファイル名は `FU_Japanese_0.2.4-public.2-pak.1-install.zip` です。現時点でReleaseへの添付は未実施です。添付後にそのZIPを取得して展開してください。配布ZIPはPAK版1種類です。
 2. Starboundを完全に終了します。
-3. 更新する場合は、旧版の `Starbound/mods/FU_Japanese` フォルダと `Starbound/mods/FU_Japanese.pak`（存在する場合）をmodsの外へ移動します。
-4. フォルダ版なら展開した `mods/FU_Japanese` を `Starbound/mods` へコピーします。PAK版なら `mods/FU_Japanese.pak` をコピーします。
-5. 日本語が四角になる場合は、`optional/FU_Japanese_Font` も `Starbound/mods` へコピーします。
+3. 更新時は旧版の `Starbound/mods/FU_Japanese` フォルダと `Starbound/mods/FU_Japanese.pak` をmodsの外へ移動します。
+4. ZIP内の `mods/FU_Japanese.pak` を `Starbound/mods` へコピーします。
+5. 日本語が四角になる場合だけ、先に旧 `Starbound/mods/FU_Japanese_Font` フォルダと `Starbound/mods/FU_Japanese_Font.pak` をmodsの外へ移してから、`optional/FU_Japanese_Font.pak` を `Starbound/mods` へコピーします。すでに使っている日本語フォントで表示できるなら不要です。
 
-正しい配置は `Starbound/mods/FU_Japanese/_metadata` です。展開した外側のフォルダや `source` をゲームへコピーする必要はありません。導入にPythonやpak化は不要です。詳細は [導入手順](docs/INSTALL_JA.txt) にあります。
+正しい配置は `Starbound/mods/FU_Japanese.pak` です。展開した外側のフォルダや `source` をゲームへコピーする必要はありません。導入にPythonやpak化は不要です。詳細は [導入手順](docs/INSTALL_JA.txt) にあります。
 
 ## 収録内容
 
 | パス | 内容 |
 | --- | --- |
-| `mods/FU_Japanese/` | 導入用MOD。JSONパッチとLuaの表示処理など |
-| `optional/FU_Japanese_Font/` | 任意のPixelMplusフォントとライセンス |
+| `mods/FU_Japanese/` | Git上の開発用MODソース。配布ZIPには入らず、公式packerで `mods/FU_Japanese.pak` にします |
+| `optional/FU_Japanese_Font/` | Git上の任意フォントソース。配布ZIPでは `optional/FU_Japanese_Font.pak` として収録します |
 | `docs/` | 導入・開発手順、互換性の説明、翻訳・検証資料。[文書一覧](docs/README.md) |
 | `source/source/` | 翻訳カタログ、用語集、手動補完データ |
 | `source/tools/` | 抽出、ビルド、検査ツール |
@@ -30,7 +30,7 @@ Starbound本体、FU 6.5.8、日本語を表示できるフォントが必要で
 | `source/reports/` | 既存の検査記録。過去版の記録を含む |
 | `SHA256SUMS.txt` | このリポジトリの公開対象ファイルのSHA-256 |
 
-調査用の `source/reports/scope/`、実行ログ、ローカルの開発資料はGitの対象外です。ゲーム用データ、翻訳カタログ、回帰検査用の資料は収録しています。`0.2.4-public.1` はフォルダ版とソース版の識別子、`0.2.4-public.1-pak.1` はPAK版の識別子です。`-install.zip` は導入用、`-source.zip` とGitHubが生成する **Source code** は開発用です。フォルダ版とPAK版を同時にmodsへ入れないでください。
+調査用の `source/reports/scope/`、実行ログ、ローカルの開発資料はGitの対象外です。Gitリポジトリが開発用ソースの配布先です。リリースZIPはPAK導入版のみで、`mods/FU_Japanese.pak` と任意の `optional/FU_Japanese_Font.pak`、導入説明、ライセンス資料を収録します。リリース識別子は `0.2.4-public.2`、PAK識別子は `0.2.4-public.2-pak.1` です。フォルダ版・ソースZIPはリリースに含めません。
 
 ## 開発・検査
 
@@ -44,11 +44,7 @@ python source/tools/check_public_repo.py
 
 再ビルドには `source/requirements-build.txt` の依存パッケージと、基準コミット `17868d86c9bb7bc00f92038fb78b48cebd1b41b8` のFUソースが別途必要です。[開発・再生成手順](docs/BUILDING.md)と[翻訳修正の案内](CONTRIBUTING.md)を参照してください。通常の再ビルドで機械翻訳モデルを再実行する必要はありません。
 
-同梱構成から導入用・開発用ZIPを作成するには、次を実行します。`dist/` はGitの対象外です。
-
-```sh
-python source/tools/package_release.py --output-dir dist
-```
+配布リリースはPAK版だけです。Windows版Starboundの公式 `asset_packer.exe` と `asset_unpacker.exe` が必要です。生成には `docs/PAK_DISTRIBUTION.md` の確認手順を使い、 `release-artifacts-0.2.4-public.2.json` の `upload_allowlist` にあるZIPだけを公開します。チェックサム一覧は任意で添付できます。ソースはGitリポジトリで提供し、フォルダ版ZIP・source ZIPはリリースに含めません。
 
 ## 出典・ライセンス
 
