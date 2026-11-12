@@ -150,8 +150,9 @@ def is_candidate(record):
             or bool('^' in record['source'] and WORD.search(s)))
 
 
-def load_lua():
-    name = ctypes.util.find_library('lua5.4') or ctypes.util.find_library('lua5.3')
+def load_lua(library_path=None):
+    name = str(library_path) if library_path else (
+        ctypes.util.find_library('lua5.4') or ctypes.util.find_library('lua5.3'))
     if not name: raise RuntimeError('Lua 5.3/5.4 shared library required')
     lua = ctypes.CDLL(name)
     state = ctypes.c_void_p
@@ -222,13 +223,10 @@ def apply_display_hooks(upstream, project, output, lua, report):
             by_asset[asset] = entry
         entry['display_boundary_edits'] = sum(r['count'] for r in file['replacements'])
         entry['localized_sha256'] = hashlib.sha256(dest.read_bytes()).hexdigest()
-    helper = project/'compat/fujp/lua_display.lua'
-    run_lua(lua, helper.read_text(), '@fujp/lua_display.lua')
-    helper_dest = output/'fujp/lua_display.lua'; helper_dest.parent.mkdir(parents=True, exist_ok=True)
-    helper_dest.write_bytes(helper.read_bytes())
-    report['files'].append({'asset':'fujp/lua_display.lua', 'literals':0,
-                            'localized_sha256':hashlib.sha256(helper.read_bytes()).hexdigest(),
-                            'new_support_module':True})
+    for helper_path, helper_dest in build_display_helpers(project, output, lua):
+        report['files'].append({'asset':helper_dest.relative_to(output).as_posix(), 'literals':0,
+                                'localized_sha256':hashlib.sha256(helper_path.read_bytes()).hexdigest(),
+                                'new_support_module':True})
     dictionaries = json.loads((project/'source/lua_dynamic_translations.json').read_text())
     # Pet mood strings may have been saved before installation. Localize the
     # displayed copy using the same already validated JSON translations.
@@ -249,6 +247,49 @@ def apply_display_hooks(upstream, project, output, lua, report):
     report['display_aliases'] = sum(len(v) for v in dictionaries.values())
     report['inherited_validated_pet_status_fields'] = inherited_statuses
     report['non_display_logic_edits'] = 0
+
+
+DISPLAY_HELPER_SOURCES = (
+    ('compat/fujp/lua_display.lua', 'fujp/lua_display.lua'),
+    ('compat/followup_022/fujp/species_display.lua', 'fujp/species_display.lua'),
+    ('compat/followup_022/fujp/guide_display.lua', 'fujp/guide_display.lua'),
+)
+
+
+def build_display_helpers(project, output, lua):
+    """Generate each reviewed display helper from its compatibility source."""
+    project, output = Path(project), Path(output)
+    inputs = []
+    for source_rel, asset_rel in DISPLAY_HELPER_SOURCES:
+        source = project/source_rel
+        raw = source.read_bytes()
+        run_lua(lua, raw.decode('utf-8-sig'), '@'+asset_rel)
+        inputs.append((source, asset_rel, raw))
+    generated = []
+    for source, asset_rel, raw in inputs:
+        destination = output/asset_rel
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(raw)
+        generated.append((source, destination))
+    return generated
+
+
+def build_helper_only(project, output, lua_library=None):
+    """Regenerate only the pinned helper when the FU upstream tree is absent."""
+    project, output = Path(project), Path(output)
+    lua = load_lua(lua_library)
+    generated = build_display_helpers(project, output, lua)
+    rows = [{
+        'asset': destination.relative_to(output).as_posix(),
+        'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
+        'generated_sha256': hashlib.sha256(destination.read_bytes()).hexdigest(),
+        'source_matches_generated': source.read_bytes() == destination.read_bytes(),
+    } for source, destination in generated]
+    print(json.dumps({
+        'generated_assets': rows,
+        'scope': 'display-helper-only source generation; full upstream Lua build not run'
+    }, ensure_ascii=False, indent=2))
+    return [destination for _, destination in generated]
 
 
 def build(upstream, project, output, machine=None):
@@ -335,6 +376,7 @@ def main():
     p = argparse.ArgumentParser(); sub = p.add_subparsers(dest='command', required=True)
     a = sub.add_parser('inventory'); a.add_argument('--upstream', required=True); a.add_argument('--project', required=True)
     a = sub.add_parser('build'); a.add_argument('--upstream', required=True); a.add_argument('--project', required=True); a.add_argument('--output', required=True); a.add_argument('--machine')
+    a = sub.add_parser('helper'); a.add_argument('--project', required=True); a.add_argument('--output', required=True); a.add_argument('--lua-library', type=Path)
     args = p.parse_args()
     if args.command == 'inventory':
         records = inventory(Path(args.upstream)); candidates = [r for r in records if is_candidate(r)]
@@ -343,6 +385,8 @@ def main():
         (dest/'lua_candidates.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in candidates))
         (dest/'lua_candidates.txt').write_text(''.join(f"{r['id']} {r['asset']}:{r['line']} {json.dumps(r['source'],ensure_ascii=False)}\n  {r['context']}\n" for r in candidates))
         print(json.dumps({'files':len({r['asset'] for r in records}), 'literals':len(records), 'candidates':len(candidates)}))
+    elif args.command == 'helper':
+        build_helper_only(args.project, args.output, args.lua_library)
     else:
         build(args.upstream, args.project, args.output, args.machine)
 

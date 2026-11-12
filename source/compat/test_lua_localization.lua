@@ -3,6 +3,7 @@
 local assertions = 0
 local cases = 0
 local names = {}
+local displayFallbackOnly = displayFallbackOnly == true
 local function check(value, message)
   assertions = assertions + 1
   assert(value, message)
@@ -28,6 +29,7 @@ local function contains(text, part)
   check(utf8.len(text) ~= nil,"invalid UTF-8 display text")
 end
 local function case(name, fn)
+  if displayFallbackOnly and not name:match("^fallback_") then return end
   fn()
   cases = cases + 1
   names[#names+1] = name
@@ -78,6 +80,231 @@ local function loadScript(asset,localized,e)
   assert(loadfile(path,"t",e))()
   return e
 end
+
+case("fallback_apis_pending_then_recover_without_poisoning_cache",function()
+  local e=environment(true)
+  local warnings, dictionaryCalls = 0, 0
+  e.sb.logWarn=function()warnings=warnings+1 end
+  e.root=nil
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.text("Oil"),"Oil")
+  equal(e.fujpDisplay.beeSubtype("Honey"),"Honey")
+  equal(e.fujpDisplay.species("human"),"human")
+  equal(e.fujpDisplay.monster("petcat"),"petcat")
+  equal(warnings,0,"missing root must not warn")
+
+  e.root={}
+  equal(e.fujpDisplay.text("Oil"),"Oil")
+  equal(e.fujpDisplay.beeSubtype("Honey"),"Honey")
+  equal(e.fujpDisplay.species("human"),"human")
+  equal(e.fujpDisplay.monster("petcat"),"petcat")
+  equal(warnings,0,"missing API functions must not warn")
+
+  e.root={
+    assetJson=function(path)
+      if path=="/fujp/lua_display.config" then
+        dictionaryCalls=dictionaryCalls+1
+        return clone(displayDictionaries)
+      elseif path=="/species/human.species" then
+        return {charCreationTooltip={title="ヒューマン"}}
+      end
+      error("unexpected asset "..path)
+    end,
+    monsterParameters=function(id)
+      if id=="petcat" then return {shortdescription="Cat"} end
+      error("unknown monster")
+    end
+  }
+  equal(e.fujpDisplay.text("Oil"),"石油")
+  equal(e.fujpDisplay.species("human"),"ヒューマン")
+  equal(e.fujpDisplay.monster("petcat"),"ネコ")
+  equal(dictionaryCalls,1,"dictionary should load once after API appears")
+  equal(warnings,0,"normal recovery must not warn")
+end)
+
+case("fallback_malformed_dictionaries_fail_once_and_fall_back",function()
+  local malformed={}
+  local broken=clone(displayDictionaries); broken.labels="not a table"; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.bee_subtypes=false; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.labels=nil; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.labels[17]="numeric key"; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.labels.Oil={"table value"}; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.bee_subtypes[false]="boolean key"; malformed[#malformed+1]=broken
+  broken=clone(displayDictionaries); broken.bee_subtypes.Honey=42; malformed[#malformed+1]=broken
+
+  for index, dictionary in ipairs(malformed) do
+    local e=environment(true)
+    local warnings, calls = 0, 0
+    e.sb.logWarn=function()warnings=warnings+1 end
+    e.root.assetJson=function(path)
+      calls=calls+1
+      equal(path,"/fujp/lua_display.config")
+      return clone(dictionary)
+    end
+    e.require("/fujp/lua_display.lua")
+    equal(e.fujpDisplay.text("Oil"),"Oil","malformed labels fallback "..index)
+    equal(e.fujpDisplay.beeSubtype("Honey"),"Honey","malformed bee fallback "..index)
+    equal(e.fujpDisplay.text("Oil"),"Oil","failed dictionary remains safe "..index)
+    equal(calls,1,"prepared malformed dictionary must not retry "..index)
+    equal(warnings,1,"dictionary warning must be limited "..index)
+  end
+end)
+
+case("fallback_species_and_monster_failures_are_cached_until_api_replaced",function()
+  local e=environment(true)
+  local warnings, speciesCalls, monsterCalls = {}, 0, 0
+  e.sb.logWarn=function(message)warnings[message]=true end
+  e.root.assetJson=function(path)
+    if path=="/fujp/lua_display.config" then return clone(displayDictionaries) end
+    if path=="/species/broken.species" then
+      speciesCalls=speciesCalls+1
+      error("broken species asset")
+    end
+    if path=="/species/malformed.species" then
+      return {charCreationTooltip={title=42}}
+    end
+    error("unexpected asset "..path)
+  end
+  e.root.monsterParameters=function(id)
+    monsterCalls=monsterCalls+1
+    if id=="petcat" then error("broken monster asset") end
+    if id=="malformedPet" then return {shortdescription={}} end
+    error("unknown monster")
+  end
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.text("Oil"),"石油") -- load dictionaries before API failure fixtures
+  for _=1,25 do
+    equal(e.fujpDisplay.species("broken"),"broken")
+    equal(e.fujpDisplay.monster("petcat"),"ネコ")
+  end
+  equal(speciesCalls,1,"same species ID must not retry a prepared failing API")
+  equal(monsterCalls,1,"same monster ID must not retry a prepared failing API")
+  equal(#(function()local out={} for _ in pairs(warnings)do out[#out+1]=true end return out end)(),2,
+    "species and monster failures each warn once")
+
+  -- A new API function is an explicit readiness boundary; cached fallbacks
+  -- from the old function are discarded and the same IDs can recover.
+  local previousAssetJson=e.root.assetJson
+  e.root.assetJson=function(path)
+    if path=="/fujp/lua_display.config" then return clone(displayDictionaries) end
+    if path=="/species/broken.species" then return {charCreationTooltip={title="ヒューマン"}} end
+    if path=="/species/malformed.species" then return {charCreationTooltip={title=42}} end
+    return previousAssetJson(path)
+  end
+  equal(e.fujpDisplay.species("broken"),"ヒューマン")
+  equal(e.fujpDisplay.species("malformed"),"malformed")
+  local previousMonsterParameters=e.root.monsterParameters
+  e.root.monsterParameters=function(id)
+    if id=="petcat" then return {shortdescription="Cat"} end
+    if id=="malformedPet" then return {shortdescription={}} end
+    return previousMonsterParameters(id)
+  end
+  equal(e.fujpDisplay.monster("petcat"),"ネコ")
+  equal(e.fujpDisplay.monster("malformedPet"),"malformedPet")
+  equal(warnings["[FU_Japanese] species display asset lookup failed; using source IDs"],true)
+  equal(warnings["[FU_Japanese] monster display metadata lookup failed; using source aliases"],true)
+  equal(warnings["[FU_Japanese] species display metadata has an invalid title; using source IDs"],true)
+  equal(warnings["[FU_Japanese] monster display metadata has an invalid shortdescription; using source aliases"],true)
+end)
+
+case("fallback_monster_partial_readiness_retries_dictionary_without_api_retry",function()
+  local e=environment(true)
+  local apiCalls=0
+  e.root={monsterParameters=function(id)
+    apiCalls=apiCalls+1
+    return {shortdescription="後発caption"}
+  end}
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.monster("petdog"),"後発caption","pending dictionary uses raw caption temporarily")
+  equal(apiCalls,1)
+
+  e.root.assetJson=function(path)
+    if path=="/fujp/lua_display.config" then
+      local dictionary=clone(displayDictionaries)
+      dictionary.labels["後発caption"]="JP-Dog"
+      return dictionary
+    end
+    error("unexpected asset "..path)
+  end
+  equal(e.fujpDisplay.monster("petdog"),"JP-Dog","cached metadata is re-rendered after dictionary readiness")
+  equal(apiCalls,1,"successful monster metadata is not fetched again")
+end)
+
+case("fallback_monster_pending_alias_failure_retranslates_without_retry",function()
+  local e=environment(true)
+  local apiCalls,warnings=0,0
+  e.sb.logWarn=function()warnings=warnings+1 end
+  e.root={monsterParameters=function()
+    apiCalls=apiCalls+1
+    error("confirmed API failure")
+  end}
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.monster("petdog"),"petdog","pending dictionary alias is raw temporarily")
+  equal(e.fujpDisplay.monster("petdog"),"petdog")
+  equal(apiCalls,1,"confirmed API error is suppressed for the same function")
+  equal(warnings,1,"API warning is finite")
+
+  e.root.assetJson=function(path)
+    if path=="/fujp/lua_display.config" then
+      local dictionary=clone(displayDictionaries)
+      dictionary.labels.petdog="JP-Pet-Dog"
+      return dictionary
+    end
+    error("unexpected asset "..path)
+  end
+  equal(e.fujpDisplay.monster("petdog"),"JP-Pet-Dog","cached failure alias is recomputed after dictionary readiness")
+  equal(apiCalls,1,"dictionary recovery does not retry confirmed failing API")
+  equal(warnings,1,"dictionary recovery does not repeat warning")
+end)
+
+case("fallback_monster_caption_pending_dictionary_retranslates_without_api_retry",function()
+  local e=environment(true)
+  local apiCalls=0
+  e.root={monsterParameters=function()
+    apiCalls=apiCalls+1
+    return {shortdescription="後発caption"}
+  end}
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.monster("petdog"),"後発caption")
+  e.root.assetJson=function(path)
+    if path=="/fujp/lua_display.config" then
+      local dictionary=clone(displayDictionaries)
+      dictionary.labels["後発caption"]="犬"
+      return dictionary
+    end
+    error("unexpected asset "..path)
+  end
+  equal(e.fujpDisplay.monster("petdog"),"犬","caption translation becomes visible after dictionary readiness")
+  equal(apiCalls,1,"cached caption avoids a second metadata API call")
+end)
+
+case("fallback_non_string_ids_and_utf8_values_are_preserved",function()
+  local e=environment(true)
+  e.require("/fujp/lua_display.lua")
+  equal(e.fujpDisplay.species(nil),nil)
+  equal(e.fujpDisplay.species(12),12)
+  equal(e.fujpDisplay.monster(false),false)
+  equal(e.fujpDisplay.text("日本語の原文"),"日本語の原文")
+  equal(utf8.len(e.fujpDisplay.text("Oil"))~=nil,true)
+  equal(e.fujpDisplay.beeSubtype("futureBee"),"futureBee")
+end)
+
+case("fallback_does_not_suppress_original_builder_exceptions",function()
+  local e=environment(true)
+  local originalCalls=0
+  e.root.generateName=function()
+    originalCalls=originalCalls+1
+    error("upstream builder failure")
+  end
+  e.setupAbility=function()end
+  e.randomFromList=function(values)return values[1]end
+  e.replacePatternInData=function()end
+  loadScript("items/buildscripts/buildweapon.lua",true,e)
+  local ok, err=pcall(e.build,"/items/",{builderConfig={{nameGenerator="/names.config"}}},{},1,1)
+  equal(ok,false,"original builder exception must still propagate")
+  check(tostring(err):find("upstream builder failure",1,true)~=nil,"original error changed")
+  equal(originalCalls,1,"original builder API must be called once")
+end)
 
 case("display_lookup_preserves_unknown_values_and_types",function()
   local e = environment(true)
@@ -475,4 +702,7 @@ case("format_strings_accept_original_argument_types",function()
   end
 end)
 
-luaLocalizationReport = '{"cases":'..cases..',"assertions":'..assertions..',"status":"passed"}'
+local encodedNames={}
+for index, name in ipairs(names) do encodedNames[index]='"'..name..'"' end
+luaLocalizationReport = '{"cases":'..cases..',"assertions":'..assertions..',"case_names":['..
+  table.concat(encodedNames,",")..'],"runtime":"'.._VERSION..'","status":"passed"}'
