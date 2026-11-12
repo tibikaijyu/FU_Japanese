@@ -43,7 +43,7 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def check(write_checksums=False):
+def check(write_checksums=False, release_profile="full"):
     names = public_files()
     errors = []
     hashes = {}
@@ -123,6 +123,9 @@ def check(write_checksums=False):
         return json.loads((ROOT / name).read_text(encoding="utf-8-sig"))
 
     expected_mod = read_json("source/reports/mod_sha256.json")
+    if release_profile == "limited-repair":
+        from limited_repair_release import HELPER_ASSETS
+        expected_mod.update(HELPER_ASSETS)
     prefix = "mods/FU_Japanese/"
     actual_mod = {name[len(prefix):]: sha for name, sha in hashes.items() if name.startswith(prefix)}
     for name in sorted(actual_mod.keys() | expected_mod.keys()):
@@ -134,7 +137,11 @@ def check(write_checksums=False):
             errors.append(f"Character-name patch must remain empty: {asset}")
     try:
         current_files = {name: (ROOT / name).read_bytes() for name in hashes}
-        validate_release_evidence(current_files)
+        if release_profile == "limited-repair":
+            from limited_repository_evidence import validate
+            validate(current_files)
+        else:
+            validate_release_evidence(current_files)
     except (OSError, ValueError) as exc:
         errors.append(str(exc))
 
@@ -166,6 +173,7 @@ def check(write_checksums=False):
         "release_mod_files_verified": len(actual_mod),
         "empty_character_name_patches": len(retired),
         "runtime_tested": False,
+        "release_profile": release_profile,
         "errors": errors,
     }
     print(json.dumps(summary, ensure_ascii=True, indent=2))
@@ -178,9 +186,11 @@ if __name__ == "__main__":
         "--write-checksums", action="store_true",
         help="Explicitly refresh SHA256SUMS.txt after reviewing intended changes.",
     )
+    parser.add_argument("--release-profile", choices=("full", "limited-repair"), default="full",
+                        help="Keep historical full checks strict; validate the three-helper repair separately.")
     args = parser.parse_args()
     try:
-        sys.exit(check(args.write_checksums))
+        sys.exit(check(args.write_checksums, args.release_profile))
     except (OSError, ValueError, KeyError, RuntimeError, subprocess.CalledProcessError) as exc:
         print(f"Public repository check failed: {exc}", file=sys.stderr)
         sys.exit(1)

@@ -23,12 +23,14 @@ jobs:
         with:
           python-version: '3.11'
       - name: Verify public files and release integrity
-        run: python source/tools/check_public_repo.py
+        run: python source/tools/check_public_repo.py --release-profile limited-repair
       - name: Install regression test dependencies
         run: python -m pip install -r source/requirements-test.txt
       - name: Check packaging and portable Lua fixture
         run: python source/tools/test_public_release.py
       - name: Check PAK-only release policy with mocked official tools
         run: python source/tools/test_pak_release.py
+      - name: Check limited repair helpers on Lua 5.3 and 5.4
+        run: python source/tools/run_limited_helper_tests.py --report-output .local/ci-limited-helper-tests.json
       - name: Check pinned character-name fixtures
         run: python source/tools/test_namegen_semantics.py --project source --mod mods/FU_Japanese --fixtures source/tests/namegen_fixtures

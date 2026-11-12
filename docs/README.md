@@ -2,6 +2,9 @@
 
 ## 導入・利用
 
+- [0.2.4-public.3のReleaseノート](releases/v0.2.4-public.3.md)：表示ヘルパー3件の限定修復と残る差分。
+- [限定修復の検査・証跡](limited-repair/REPOSITORY_CHECKS.md)：旧版の全体検証記録を保持したCI。
+
 - [導入手順](INSTALL_JA.txt)：PAK版のインストール、更新、再発時の確認。
 - [PAK配布案内](PAK_DISTRIBUTION.md)：PAKのみの公開ZIP、公式ツール検証、アップロード許可一覧。
 - [詳しい利用ガイド](README_JA.md)：変更内容、翻訳範囲、検証済み・未確認の範囲。

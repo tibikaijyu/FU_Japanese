@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "input_state_sha256": "a3025f103037c55a4f9c7df5c2dc74f42f36f8e06e81359ac8af3f252e65a5a0",
+  "unit_tests": 25,
+  "runtimes": [
+    {
+      "runtime": "Lua 5.3",
+      "core_cases": 8,
+      "core_assertions": 142,
+      "extra_cases": 249,
+      "extra_assertions": 639,
+      "passed": true
+    },
+    {
+      "runtime": "Lua 5.4",
+      "core_cases": 8,
+      "core_assertions": 142,
+      "extra_cases": 249,
+      "extra_assertions": 639,
+      "passed": true
+    }
+  ],
+  "harness_sha256": {
+    "source/compat/test_extra_display_fallback.py": "f9c5bc87f4bcfc7c9c72429e59324b0159ab559f82d6cf060c8d8b7d121668d4",
+    "source/compat/test_lua_localization.lua": "6cc9d5551e52fb9f3ac23260bb518da78b3c53230f562378587ed8320590af87",
+    "source/tools/run_limited_helper_tests.py": "67688d4bf17f297933b1d6300a183f95f73b1b247a3b19b3323608fcbe1f70e5"
+  },
+  "native_game_executed": false,
+  "whole_mod_runtime_tested": false
+}

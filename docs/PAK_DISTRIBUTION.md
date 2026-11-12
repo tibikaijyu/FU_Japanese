@@ -2,7 +2,25 @@
 
 公開リリースに含める導入物はPAK版だけです。通常のMOD本体は `mods/FU_Japanese.pak`、任意フォントはフォント・メタデータ・ライセンスの計5ファイルをまとめた別PAK `optional/FU_Japanese_Font.pak` です。生のMODフォルダはGit上の開発用ソースとして保持しますが、配布ZIPには入れません。ソースはGitリポジトリで提供し、source ZIPとフォルダ版ZIPは生成しません。
 
-今回の識別子はリリース `0.2.4-public.2`、PAK `0.2.4-public.2-pak.1` です。同一IDの既存出力がある場合は上書きせず、生成処理を停止します。古い `dist/` 成果物は履歴として保持します。
+今回の識別子はリリース `0.2.4-public.3`、PAK `0.2.4-public.3-pak.1` です。固定した導入済みPAKから表示ヘルパー3件だけを変更する限定修復で、任意フォントは含めません。同一IDの既存出力は上書きしません。
+
+## 今回の限定修復
+
+`source/tools/limited_repair_release.py` は入力PAKのハッシュ、3件の修正ソース、実行したLuaテストと辞書、135 Luaの監査を検査してから公式ツールでPAK化します。変更を許可した3件以外の通常ファイルと、型を含むmetadataの保持を要求します。公式往復が失敗した場合は配布物を生成しません。
+
+今回添付するのは `release-artifacts-0.2.4-public.3.json` の `upload_allowlist` にある `FU_Japanese_0.2.4-public.3-pak.1-install.zip` だけです。旧版のdistやソースZIPをまとめて添付しません。生成はWindowsの公式ツールがある環境で行い、CIは配布物を生成しません。
+
+入力と検査資料を再取得して生成する場合の入口は次のとおりです。既存の今回成果物を上書きする再実行は行いません。
+
+```powershell
+python source/tools/limited_repair_release.py --help
+```
+
+公開リポジトリの検査は [限定修復の検査手順](limited-repair/REPOSITORY_CHECKS.md) を参照してください。
+
+## 過去版の全体梱包手順
+
+以下は `0.2.4-public.2` / `0.2.4-public.2-pak.1` 当時の手順です。当時の入力と検証記録が必要であり、現在の限定修復へ旧版の成功記録を付け替えて使いません。古い成果物は履歴として保持します。
 
 ## 生成
 

@@ -1,0 +1,53 @@
+{
+  "approved_helpers": {
+    "fujp/guide_display.lua": "7c83737a833ebf985e99b1cf21a091528589db50abac7a588ab46cae95d2e23a",
+    "fujp/lua_display.lua": "a17f0dcca89fd18c0b72abf5f0405ca2a3cf40612602ab58f255d82824cc3020",
+    "fujp/species_display.lua": "37d435f245de42bb682601b0772b0260d80553142b4e8d2de62148576fc54082"
+  },
+  "artifact": {
+    "bytes": 3403701,
+    "crc_and_content_verified": true,
+    "file": "FU_Japanese_0.2.4-public.3-pak.1-install.zip",
+    "files": 9,
+    "sha256": "66a48798ba904ae26d4e7dc4e32facbd2105a7530d04a03de3a41d3d8696b3eb"
+  },
+  "baseline_helpers": {
+    "fujp/guide_display.lua": "10e055338117fb4c08b5fd6ebc589f4a30f9af4a55ed3a9ce8a432243847fa62",
+    "fujp/lua_display.lua": "876a8b00b9dc395c19e334d7f3d8425cde200da42306f94912542e6aa80f0f7b",
+    "fujp/species_display.lua": "6af32b39aba2da167cc0afe9a519b23339fc3dd67512380377723ae820563731"
+  },
+  "baseline_manifest_sha256": "a2e2175af16ee4be7884406fb44476c91d925bab9d544d88bd1b580d9b3713c8",
+  "generation_report_sha256": "06661a1feec724d2e3ab7d3fb3e4b8b82aab7405d08c29ac54b53d12ca159759",
+  "input_pak_sha256": "7f32db9bccff3b0dd5cf84a1f57b767408109d5b3b01f3064b30c2fe6ac7a889",
+  "input_state_sha256": "a3025f103037c55a4f9c7df5c2dc74f42f36f8e06e81359ac8af3f252e65a5a0",
+  "known_findings": {
+    "external_builder_conflicts": 2,
+    "research_tree_code_mismatches": 1,
+    "runtime_causation_verified": false
+  },
+  "native_game_executed": false,
+  "official_roundtrip": {
+    "all_raw_bytes_equal": false,
+    "file_count": 14526,
+    "metadata_canonical_sha256": "e55d15a3fa00a7d7c7a4073b3057d725d51e74705711cb790c73b936606faa0d",
+    "metadata_json_deep_equal": true,
+    "metadata_raw_sha256": {
+      "equal": false,
+      "pak_input": "ebb00725b1aec7f0c939defb6229a1ee97b999a1cb198eb5c2e0ea9f6774bb04",
+      "unpacked": "f49d6fc59f601c6f365ebb20c8e889d845a7b50dd56ec301912546e5bc373e10"
+    },
+    "non_metadata_raw_sha256_match": true,
+    "relative_paths_match": true
+  },
+  "pak_sha256": "bfe09fcf968337cf1e19bf95aa45f5260a5a16e4a305cf7558f4d954e7e81430",
+  "release_id": "0.2.4-public.3",
+  "schema": 1,
+  "scope": "three-helper-repair",
+  "test_report_sha256": "bc6524ca6f1513a7b53f8a8b756a4481cbc800d33908a47a9361bb3e38beda8a",
+  "tested_config_sha256": {
+    "fujp/guide_display.config": "2cadc2240d3b9f5a3621f82bf1c7c3bbd4a353aabd2862a2e468ed0adc8ee5fa",
+    "fujp/lua_display.config": "ed42bf633b835bfdb2820c9aad56736f902999e093a4cfe589145b54ef8d7237",
+    "fujp/species_display.config": "8e82767ec534e369416d875394218814cbb4f7d5cdc6007016e44a187732a554"
+  },
+  "whole_mod_rebuilt": false
+}
