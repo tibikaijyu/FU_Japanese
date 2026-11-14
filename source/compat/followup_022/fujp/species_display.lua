@@ -25,14 +25,37 @@ end
 
 safeLog("logInfo", "[FU Japanese 0.2.2] Species display helper active")
 
-local function isPlainTable(value)
-  return type(value) == "table" and getmetatable(value) == nil
+local function tableKind(value)
+  if type(value) ~= "table" then return nil end
+  local mt = getmetatable(value)
+  if mt == nil then return "plain" end
+  if type(mt) ~= "table" then return nil end
+  local count = 0
+  for key in next, mt do
+    if key ~= "__typehint" and key ~= "__nils" and key ~= "__newindex" then return nil end
+    count = count + 1
+  end
+  if count ~= 3 then return nil end
+  local hint, nils, newindex = rawget(mt, "__typehint"), rawget(mt, "__nils"), rawget(mt, "__newindex")
+  if (hint ~= 1 and hint ~= 2) or type(nils) ~= "table" or getmetatable(nils) ~= nil
+    or type(newindex) ~= "function" then return nil end
+  return hint == 1 and "array" or "object", nils
+end
+
+local function isObject(value, allowNulls)
+  local kind, nils = tableKind(value)
+  return kind == "plain" or (kind == "object" and (allowNulls or next(nils) == nil))
+end
+
+local function isArray(value, allowNulls)
+  local kind, nils = tableKind(value)
+  return kind == "plain" or (kind == "array" and (allowNulls or next(nils) == nil))
 end
 
 local function validArray(value, validateEntry)
-  if not isPlainTable(value) then return false end
+  if not isArray(value) then return false end
   local count, largest = 0, 0
-  for key, entry in pairs(value) do
+  for key, entry in next, value do
     if type(key) ~= "number" or key < 1 or key % 1 ~= 0 then return false end
     count = count + 1
     if key > largest then largest = key end
@@ -42,26 +65,43 @@ local function validArray(value, validateEntry)
 end
 
 local function validateDictionary(data)
-  if not isPlainTable(data) or data.schemaVersion ~= 1 or not isPlainTable(data.species) then
-    return nil
+  if not isObject(data) then return nil, "root is not an object" end
+  local species = rawget(data, "species")
+  if rawget(data, "schemaVersion") ~= 1 or not isObject(species) then
+    return nil, "schemaVersion/species shape is invalid"
   end
-  for race, entry in pairs(data.species) do
-    if type(race) ~= "string" or race == "" or not isPlainTable(entry) then return nil end
+  for race, entry in next, species do
+    if type(race) ~= "string" or race == "" or not isObject(entry) then return nil, "species entry is invalid" end
     local function validCandidate(candidate)
-      return isPlainTable(candidate) and type(candidate.source) == "string"
-        and type(candidate.translation) == "string"
+      return isObject(candidate) and type(rawget(candidate, "source")) == "string"
+        and type(rawget(candidate, "translation")) == "string"
     end
-    if not validArray(entry.descriptions, validCandidate)
-      or not validArray(entry.names, validCandidate) then
-      return nil
+    if not validArray(rawget(entry, "descriptions"), validCandidate)
+      or not validArray(rawget(entry, "names"), validCandidate) then
+      return nil, "species candidates have an invalid shape"
     end
   end
-  return data.species
+  return species
+end
+
+local function safeCause(value)
+  if type(value) ~= "string" then return "non-string error" end
+  local ok, result = pcall(function()
+    local cleaned, parts, bytes = value:gsub("[%c]", " "), {}, 0
+    for _, codepoint in utf8.codes(cleaned) do
+      local character = utf8.char(codepoint)
+      if bytes + #character > 160 then break end
+      parts[#parts + 1] = character
+      bytes = bytes + #character
+    end
+    return table.concat(parts)
+  end)
+  return ok and result or "unreadable error"
 end
 
 local function currentAssetJson()
   if type(root) ~= "table" then return nil end
-  local assetJson = root.assetJson
+  local assetJson = rawget(root, "assetJson")
   if type(assetJson) ~= "function" then return nil end
   return assetJson
 end
@@ -76,16 +116,16 @@ local function getData()
   cachedApi = assetJson
   cacheReady = true
   speciesData = nil
-  local ok, result = pcall(function()
-    local value = assetJson("/fujp/species_display.config")
-    local validated = validateDictionary(value)
-    if not validated then error("invalid species display dictionary") end
-    return validated
-  end)
-  if ok then
-    speciesData = result
+  local loaded, value = pcall(assetJson, "/fujp/species_display.config")
+  if not loaded then
+    warnOnce("dictionary", "[FU Japanese] /fujp/species_display.config load failed (" .. safeCause(value) .. "); source text preserved")
   else
-    warnOnce("dictionary", "[FU Japanese] species display dictionary unavailable or invalid; source text preserved")
+    local checked, validated, reason = pcall(validateDictionary, value)
+    if checked and validated then speciesData = validated
+    else
+      if not checked then reason = safeCause(validated) end
+      warnOnce("dictionary", "[FU Japanese] /fujp/species_display.config invalid (" .. (reason or "invalid shape") .. "); source text preserved")
+    end
   end
   return speciesData
 end
@@ -97,16 +137,21 @@ end
 local function displayText(race, text, field)
   if type(race) ~= "string" or type(text) ~= "string" then return text end
   local data = getData()
-  local entry = data and data[race]
-  local candidates = type(entry) == "table" and entry[field]
-  if type(candidates) ~= "table" then return text end
+  local entry = data and rawget(data, race)
+  local candidates = type(entry) == "table" and rawget(entry, field)
+  if not isArray(candidates) then return text end
   local normalized = normalizeWhitespace(text)
   local whitespaceMatch
-  for _, candidate in ipairs(candidates) do
-    if text == candidate.source then return candidate.translation end
-    if not whitespaceMatch and normalized == normalizeWhitespace(candidate.source) then
-      whitespaceMatch = candidate.translation
+  local index = 1
+  while true do
+    local candidate = rawget(candidates, index)
+    if candidate == nil then break end
+    local source, translation = rawget(candidate, "source"), rawget(candidate, "translation")
+    if text == source then return translation end
+    if not whitespaceMatch and normalized == normalizeWhitespace(source) then
+      whitespaceMatch = translation
     end
+    index = index + 1
   end
   return whitespaceMatch or text
 end

@@ -26,8 +26,31 @@ end
 
 safeLog("logInfo", "[FU Japanese 0.2.2] Guide display helper active")
 
-local function isPlainTable(value)
-  return type(value) == "table" and getmetatable(value) == nil
+local function tableKind(value)
+  if type(value) ~= "table" then return nil end
+  local mt = getmetatable(value)
+  if mt == nil then return "plain" end
+  if type(mt) ~= "table" then return nil end
+  local count = 0
+  for key in next, mt do
+    if key ~= "__typehint" and key ~= "__nils" and key ~= "__newindex" then return nil end
+    count = count + 1
+  end
+  if count ~= 3 then return nil end
+  local hint, nils, newindex = rawget(mt, "__typehint"), rawget(mt, "__nils"), rawget(mt, "__newindex")
+  if (hint ~= 1 and hint ~= 2) or type(nils) ~= "table" or getmetatable(nils) ~= nil
+    or type(newindex) ~= "function" then return nil end
+  return hint == 1 and "array" or "object", nils
+end
+
+local function isObject(value, allowNulls)
+  local kind, nils = tableKind(value)
+  return kind == "plain" or (kind == "object" and (allowNulls or next(nils) == nil))
+end
+
+local function isArray(value, allowNulls)
+  local kind, nils = tableKind(value)
+  return kind == "plain" or (kind == "array" and (allowNulls or next(nils) == nil))
 end
 
 local function normalize(value)
@@ -36,9 +59,9 @@ local function normalize(value)
 end
 
 local function validArray(value, validateEntry)
-  if not isPlainTable(value) then return false end
+  if not isArray(value) then return false end
   local count, largest = 0, 0
-  for key, entry in pairs(value) do
+  for key, entry in next, value do
     if type(key) ~= "number" or key < 1 or key % 1 ~= 0 then return false end
     count = count + 1
     if key > largest then largest = key end
@@ -48,34 +71,55 @@ local function validArray(value, validateEntry)
 end
 
 local function validateDictionary(value)
-  if not isPlainTable(value) or value.version ~= 1 or not isPlainTable(value.guides) then
-    return nil
+  if not isObject(value) then return nil, "root is not an object" end
+  local guides = rawget(value, "guides")
+  if rawget(value, "version") ~= 1 or not isObject(guides) then
+    return nil, "version/guides shape is invalid"
   end
-  for guideId, entries in pairs(value.guides) do
-    if type(guideId) ~= "string" or guideId == "" then return nil end
+  for guideId, entries in next, guides do
+    if type(guideId) ~= "string" or guideId == "" then return nil, "guide id is invalid" end
     local function validEntry(entry)
-      if not isPlainTable(entry) or type(entry.field) ~= "string"
-        or type(entry.source) ~= "string" or type(entry.normalizedSource) ~= "string"
-        or type(entry.translation) ~= "string" then
+      if not isObject(entry) then return false end
+      local field, source = rawget(entry, "field"), rawget(entry, "source")
+      local normalizedSource, translation = rawget(entry, "normalizedSource"), rawget(entry, "translation")
+      if type(field) ~= "string"
+        or type(source) ~= "string" or type(normalizedSource) ~= "string"
+        or type(translation) ~= "string" then
         return false
       end
-      if normalize(entry.source) ~= entry.normalizedSource then return false end
-      if entry.field == "title" or entry.field == "description" then
-        return entry.index == nil
+      if normalize(source) ~= normalizedSource then return false end
+      if field == "title" or field == "description" then
+        return rawget(entry, "index") == nil
       end
-      if entry.field == "contentPages" or entry.field == "longContentPages" then
-        return type(entry.index) == "number" and entry.index >= 1 and entry.index % 1 == 0
+      if field == "contentPages" or field == "longContentPages" then
+        local index = rawget(entry, "index")
+        return type(index) == "number" and index >= 1 and index % 1 == 0
       end
       return false
     end
-    if not validArray(entries, validEntry) then return nil end
+    if not validArray(entries, validEntry) then return nil, "guide entries have an invalid shape" end
   end
-  return value.guides
+  return guides
+end
+
+local function safeCause(value)
+  if type(value) ~= "string" then return "non-string error" end
+  local ok, result = pcall(function()
+    local cleaned, parts, bytes = value:gsub("[%c]", " "), {}, 0
+    for _, codepoint in utf8.codes(cleaned) do
+      local character = utf8.char(codepoint)
+      if bytes + #character > 160 then break end
+      parts[#parts + 1] = character
+      bytes = bytes + #character
+    end
+    return table.concat(parts)
+  end)
+  return ok and result or "unreadable error"
 end
 
 local function currentAssetJson()
   if type(root) ~= "table" then return nil end
-  local assetJson = root.assetJson
+  local assetJson = rawget(root, "assetJson")
   if type(assetJson) ~= "function" then return nil end
   return assetJson
 end
@@ -90,16 +134,16 @@ local function configuration()
   cachedApi = assetJson
   cacheReady = true
   cachedGuides = nil
-  local ok, result = pcall(function()
-    local value = assetJson("/fujp/guide_display.config")
-    local validated = validateDictionary(value)
-    if not validated then error("invalid guide display dictionary") end
-    return validated
-  end)
-  if ok then
-    cachedGuides = result
+  local loaded, value = pcall(assetJson, "/fujp/guide_display.config")
+  if not loaded then
+    warnOnce("dictionary", "[FU Japanese] /fujp/guide_display.config load failed (" .. safeCause(value) .. "); codex preserved")
   else
-    warnOnce("dictionary", "[FU Japanese] guide display dictionary unavailable or invalid; codex preserved")
+    local checked, validated, reason = pcall(validateDictionary, value)
+    if checked and validated then cachedGuides = validated
+    else
+      if not checked then reason = safeCause(validated) end
+      warnOnce("dictionary", "[FU Japanese] /fujp/guide_display.config invalid (" .. (reason or "invalid shape") .. "); codex preserved")
+    end
   end
   return cachedGuides
 end
@@ -107,34 +151,41 @@ end
 local function shallowCopy(value)
   local copy = {}
   for key, child in next, value do rawset(copy, key, child) end
+  local mt = getmetatable(value)
+  if mt ~= nil then setmetatable(copy, mt) end
   return copy
 end
 
 local function localizeCodex(codex)
-  if not isPlainTable(codex) then return codex end
+  if not isObject(codex, true) then return codex end
   local codexId = rawget(codex, "id")
   if type(codexId) ~= "string" then return codex end
   local guides = configuration()
-  local entries = guides and guides[codexId]
+  local entries = guides and rawget(guides, codexId)
   if not entries then return codex end
 
   local edits = {}
-  for _, entry in ipairs(entries) do
+  local entryIndex = 1
+  while true do
+    local entry = rawget(entries, entryIndex)
+    if entry == nil then break end
     local container = codex
-    if entry.index ~= nil then
-      container = rawget(codex, entry.field)
+    local field, index = rawget(entry, "field"), rawget(entry, "index")
+    if index ~= nil then
+      container = rawget(codex, field)
       -- A proxy array can have observable or throwing setters. Preserve the
       -- entire original codex instead of copying or changing it.
-      if type(container) == "table" and not isPlainTable(container) then return codex end
+      if type(container) == "table" and not isArray(container, true) then return codex end
     end
-    local current = type(container) == "table" and rawget(container, entry.index or entry.field) or nil
-    if type(current) == "string" and normalize(current) == entry.normalizedSource then
+    local current = type(container) == "table" and rawget(container, index or field) or nil
+    if type(current) == "string" and normalize(current) == rawget(entry, "normalizedSource") then
       edits[#edits + 1] = {
-        field = entry.field,
-        index = entry.index,
-        translation = entry.translation,
+        field = field,
+        index = index,
+        translation = rawget(entry, "translation"),
       }
     end
+    entryIndex = entryIndex + 1
   end
   if #edits == 0 then return codex end
 
@@ -142,7 +193,8 @@ local function localizeCodex(codex)
   -- succeeded; a later failure cannot leak earlier translated fields.
   local result = shallowCopy(codex)
   local copiedPages = {}
-  for _, edit in ipairs(edits) do
+  for editIndex = 1, #edits do
+    local edit = rawget(edits, editIndex)
     if edit.index ~= nil then
       if not copiedPages[edit.field] then
         copiedPages[edit.field] = shallowCopy(rawget(codex, edit.field))

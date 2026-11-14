@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import ctypes
+import argparse
 import hashlib
 import json
 import os
@@ -25,7 +26,7 @@ DLLS = {
     "5.3": ROOT / "RPGGrowthJP" / "source" / "build" / "tools" / "lua53" / "lua53.dll",
     "5.4": ROOT / "RPGGrowthJP" / "source" / "build" / "tools" / "lua54" / "lua54.dll",
 }
-REPORT = ROOT / ".local" / "stability-2026-11-12" / "fu-extra" / "fallback-report.json"
+REPORT = ROOT / ".local" / "display-warning-20261114" / "fu-extra" / "fallback-report.json"
 
 
 def sha256(path: Path) -> str:
@@ -103,6 +104,17 @@ class Lua:
             raise RuntimeError(f"Lua {self.version}: global {name} is not an integer")
         return int(value)
 
+    def string_global(self, name: str) -> str:
+        self.lib.lua_getglobal(self.state, name.encode("ascii"))
+        size = ctypes.c_size_t()
+        ptr = self.lib.lua_tolstring(self.state, -1, ctypes.byref(size))
+        if not ptr:
+            self.lib.lua_settop(self.state, -2)
+            raise RuntimeError(f"Lua {self.version}: global {name} is not a string")
+        value = ctypes.string_at(ptr, size.value).decode("utf-8")
+        self.lib.lua_settop(self.state, -2)
+        return value
+
 
 def source_meta(path: Path) -> dict[str, str]:
     return {"path": str(path.resolve()), "sha256": sha256(path)}
@@ -112,8 +124,9 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
     case_names: list[str] = []
     chunks = [
         "__assertions=0; __cases=0; __warnings=0; __assetCalls={};",
-        "sb={logInfo=function() error('logger info failure') end,logWarn=function() __warnings=__warnings+1; error('logger warning failure') end};",
+        "__warningMessages={}; sb={logInfo=function() error('logger info failure') end,logWarn=function(message) __warnings=__warnings+1; __warningMessages[#__warningMessages+1]=message; error('logger warning failure') end};",
         "root=nil; __speciesCurrent=nil; __guideCurrent=nil;",
+        "function __json(value,hint) if type(value)~='table' then return value end; local numeric,count,largest=true,0,0; for k,v in next,value do if type(k)~='number' or k<1 or k%1~=0 then numeric=false else count=count+1; if k>largest then largest=k end end end; local array=(hint==1) or (hint==nil and numeric and count>0 and count==largest); setmetatable(value,{__typehint=array and 1 or 2,__nils={},__newindex=function(t,k,v) rawset(t,k,v) end}); for k,v in next,value do local childHint; if not array then if k=='descriptions' or k=='names' then childHint=1 elseif k=='species' or k=='guides' then childHint=2 end end; __json(v,childHint) end; return value end;",
         "function __setAssets() root={assetJson=function(path) __assetCalls[path]=(__assetCalls[path] or 0)+1; if path=='/fujp/species_display.config' then return __speciesCurrent elseif path=='/fujp/guide_display.config' then return __guideCurrent end; error('unexpected asset '..tostring(path)) end} end;",
     ]
     setup = "\n".join(chunks)
@@ -128,7 +141,7 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
         "local codex={id='ffguide',title='How to Play'}; check(fuJapaneseGuideDisplay.localize(codex)==codex,'guide root nil identity'); "
         "root={}; check(fuJapaneseSpeciesDisplay.name('aegi','Aegi')=='Aegi','species empty root pending'); "
         "check(fuJapaneseGuideDisplay.localize(codex)==codex,'guide empty root pending'); "
-        "__speciesCurrent=" + lua_literal(species) + "; __guideCurrent=" + lua_literal(guides) + "; __setAssets(); "
+        "__speciesCurrent=__json(" + lua_literal(species) + ",2); __guideCurrent=__json(" + lua_literal(guides) + ",2); __setAssets(); "
     )
 
     # Every species entry is checked against its exact configured source, plus unknown and near-match guards.
@@ -152,22 +165,37 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
     )
     case_names.append("species exact source guard")
 
+    case_names.append("real dictionaries use JSON tables with engine metadata")
+    json_species_candidate = species["species"]["aegi"]["descriptions"][0]
+    json_guide_title = next(entry for entry in guides["guides"]["ffguide"] if entry["field"] == "title")
+    chunks.append(
+        "case('engine JSON metadata accepts all configured translations'); "
+        "check(getmetatable(__speciesCurrent).__typehint==2 and getmetatable(__guideCurrent).__typehint==2,'JSON object type hints present'); "
+        "check(fuJapaneseSpeciesDisplay.description('aegi'," + lua_literal(json_species_candidate["source"]) + ")==" + lua_literal(json_species_candidate["translation"]) + ",'JSON species dictionary translated'); "
+        "check(fuJapaneseGuideDisplay.localize({id='ffguide',title=" + lua_literal(json_guide_title["source"]) + "}).title==" + lua_literal(json_guide_title["translation"]) + ",'JSON guide dictionary translated'); "
+        "check(#__warningMessages==0,'valid JSON dictionaries emitted no warning');"
+    )
+
     guide_total = 0
     for guide_id, entries in guides["guides"].items():
         for entry in entries:
             guide_total += 1
             case_names.append(f"guide {guide_id}/{entry['field']} exact translation {guide_total}")
             if "index" in entry:
-                obj = {"id": guide_id, entry["field"]: {entry["index"]: entry["source"]}}
+                page_values = {index: "guide page fixture" for index in range(1, entry["index"] + 1)}
+                page_values[entry["index"]] = entry["source"]
+                obj = {"id": guide_id, entry["field"]: page_values}
                 access = f"result[{lua_literal(entry['field'])}][{entry['index']}]"
             else:
                 obj = {"id": guide_id, entry["field"]: entry["source"]}
                 access = f"result[{lua_literal(entry['field'])}]"
             chunks.append(
-                "case('guide configured exact translation'); do local original=" + lua_literal(obj)
+                "case('guide configured exact translation'); do local original=__json(" + lua_literal(obj) + ",2)"
                 + "; local result=fuJapaneseGuideDisplay.localize(original); "
                 + "check(result~=original,'guide returns isolated changed copy'); check(" + access + "==" + lua_literal(entry["translation"])
                 + ",'guide configured exact translation'); check(utf8.len(" + access + ")~=nil,'guide translated UTF-8'); "
+                + "check(getmetatable(original).__typehint==2 and getmetatable(result).__typehint==2,'JSON codex type hint preserved'); "
+                + ("check(getmetatable(original[" + lua_literal(entry["field"]) + "]).__typehint==1 and getmetatable(result[" + lua_literal(entry["field"]) + "]).__typehint==1,'JSON page array type hint preserved'); " if "index" in entry else "")
                 + "check(original[" + lua_literal(entry["field"]) + "]~=result[" + lua_literal(entry["field"]) + "],'guide original untouched'); end;"
             )
     chunks.append(
@@ -187,6 +215,11 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
         "{schemaVersion=1,species={aegi={descriptions=false,names={}}}}",
         "{schemaVersion=1,species={aegi={descriptions={{source=4,translation='x'}},names={}}}}",
         "{schemaVersion=1,species={aegi={descriptions={{source='x',translation=false}},names={}}}}",
+        "setmetatable({schemaVersion=1,species={}}, {__typehint=2})",
+        "setmetatable({schemaVersion=1,species={}}, {__typehint=1,__nils={},__newindex=function() end})",
+        "setmetatable({schemaVersion=1,species={}}, {__typehint=2,__nils={},__newindex=function() end,__index=function() error('proxy called') end})",
+        "setmetatable({schemaVersion=1,species={aegi={descriptions={[1]={source='x',translation='y'},[3]={source='z',translation='w'}},names={}}}}, {__typehint=2,__nils={},__newindex=function() end})",
+        "(function() local value=__json({schemaVersion=1,species={aegi={descriptions={{source='x',translation='y'}},names={}}}},2); getmetatable(value.species.aegi.descriptions).__nils[2]=0; return value end)()",
     ]
     for i, bad in enumerate(malformed_species, 1):
         case_names.append(f"malformed species dictionary {i}")
@@ -205,6 +238,10 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
         "{version=1,guides={ffguide={{field='title',source='x',normalizedSource='bad',translation='y'}}}}",
         "{version=1,guides={ffguide={{field='title',source='x',normalizedSource='x',translation=false}}}}",
         "{version=1,guides={ffguide={{field='contentPages',source='x',normalizedSource='x',translation='y',index=0}}}}",
+        "setmetatable({version=1,guides={}}, {__typehint=2})",
+        "setmetatable({version=1,guides={}}, {__typehint=1,__nils={},__newindex=function() end})",
+        "setmetatable({version=1,guides={ffguide={[1]={field='title',source='x',normalizedSource='x',translation='y'},[3]={field='title',source='z',normalizedSource='z',translation='q'}}}}, {__typehint=2,__nils={},__newindex=function() end})",
+        "(function() local value=__json({version=1,guides={ffguide={{field='title',source='x',normalizedSource='x',translation='y'}}}},2); getmetatable(value.guides.ffguide).__nils[2]=0; return value end)()",
     ]
     for i, bad in enumerate(malformed_guides, 1):
         case_names.append(f"malformed guide dictionary {i}")
@@ -257,14 +294,61 @@ def build_suite(species: dict[str, Any], guides: dict[str, Any]) -> tuple[str, s
         "local original={id='ffguide',contentPages=pages}; check(fuJapaneseGuideDisplay.localize(original)==original,'proxy pages codex identity'); "
         "check(reads==0 and writes==0,'proxy page callbacks untouched');"
     )
+    case_names.append("engine JSON codex copy preserves type hints and null metadata")
+    guide_title = next(e for e in guides["guides"]["ffguide"] if e["field"] == "title")
+    guide_page = next(e for e in guides["guides"]["ffguide"] if e["field"] == "contentPages")
+    chunks.append(
+        "case('JSON codex metadata preserved'); local rootNils={[9]=true}; local pageNils={[8]=true}; "
+        "local pageMt={__typehint=1,__nils=pageNils,__newindex=function(t,k,v) rawset(t,k,v) end}; "
+        "local rootMt={__typehint=2,__nils=rootNils,__newindex=function(t,k,v) rawset(t,k,v) end}; "
+        "local pages=setmetatable({[" + str(guide_page["index"]) + "]=" + lua_literal(guide_page["source"]) + "},pageMt); "
+        "local original=setmetatable({id='ffguide',title=" + lua_literal(guide_title["source"]) + ",contentPages=pages},rootMt); "
+        "local result=fuJapaneseGuideDisplay.localize(original); "
+        "check(result~=original and result.title==" + lua_literal(guide_title["translation"]) + " and result.contentPages[" + str(guide_page["index"]) + "]==" + lua_literal(guide_page["translation"]) + ",'JSON codex fields translated'); "
+        "check(getmetatable(result)==rootMt and getmetatable(result.contentPages)==pageMt,'JSON metatables retained on copied tables'); "
+        "check(getmetatable(result).__typehint==2 and getmetatable(result.contentPages).__typehint==1,'JSON type hints retained'); "
+        "check(getmetatable(result).__nils==rootNils and getmetatable(result.contentPages).__nils==pageNils,'JSON null metadata tables retained'); "
+        "check(rootNils[9] and pageNils[8] and original.title==" + lua_literal(guide_title["source"]) + " and original.contentPages[" + str(guide_page["index"]) + "]==" + lua_literal(guide_page["source"]) + ",'JSON input and null metadata unchanged');"
+    )
+    species_reload = lua_literal(SPECIES_SOURCE.read_text(encoding="utf-8"))
+    guide_reload = lua_literal(GUIDE_SOURCE.read_text(encoding="utf-8"))
+    case_names += ["dictionary load failures log bounded safe causes once", "dictionary shape failures log paths and validation reasons once"]
+    chunks.append(
+        "case('dictionary load failure diagnostics'); load(" + species_reload + ")(); load(" + guide_reload + ")(); "
+        "__warnings=0; __warningMessages={}; local tostringCalls=0; local nonString=setmetatable({}, {__tostring=function() tostringCalls=tostringCalls+1; return 'unsafe' end}); "
+        "root={assetJson=function(path) if path=='/fujp/species_display.config' then error(nonString) end; error(string.rep('界',300)) end}; "
+        "local speciesText='preserved'; local codex={id='ffguide',title='preserved'}; "
+        "check(fuJapaneseSpeciesDisplay.description('aegi',speciesText)==speciesText,'non-string load error preserves species source'); "
+        "check(fuJapaneseSpeciesDisplay.description('aegi',speciesText)==speciesText,'species load failure cache retained'); "
+        "check(fuJapaneseGuideDisplay.localize(codex)==codex and fuJapaneseGuideDisplay.localize(codex)==codex,'guide load failure preserves codex and caches'); "
+        "check(tostringCalls==0,'non-string error tostring callback not invoked'); check(#__warningMessages==2,'one warning per helper load failure'); "
+        "local sawSpecies,sawGuide=false,false; for _,message in next,__warningMessages do "
+        "if message:find('/fujp/species_display.config',1,true) and message:find('load failed',1,true) and message:find('non-string error',1,true) then sawSpecies=true end; "
+        "if message:find('/fujp/guide_display.config',1,true) and message:find('load failed',1,true) and utf8.len(message)~=nil then sawGuide=true end end; "
+        "check(sawSpecies and sawGuide,'load warnings include paths, safe cause, valid UTF-8'); "
+        "local guideMessage=__warningMessages[2]; check(#guideMessage<240 and utf8.len(guideMessage)~=nil,'long Japanese cause is bounded at a UTF-8 boundary');"
+    )
+    chunks.append(
+        "case('dictionary invalid-shape diagnostics'); load(" + species_reload + ")(); load(" + guide_reload + ")(); "
+        "__warnings=0; __warningMessages={}; root={assetJson=function() return 'not a dictionary' end}; "
+        "local source='original'; local codex={id='ffguide',title='original'}; "
+        "check(fuJapaneseSpeciesDisplay.description('aegi',source)==source and fuJapaneseSpeciesDisplay.description('aegi',source)==source,'invalid species dictionary falls back and caches'); "
+        "check(fuJapaneseGuideDisplay.localize(codex)==codex and fuJapaneseGuideDisplay.localize(codex)==codex,'invalid guide dictionary falls back and caches'); "
+        "check(#__warningMessages==2,'one warning per invalid helper dictionary'); local paths=0; "
+        "for _,message in next,__warningMessages do if message:find('/fujp/',1,true) and message:find('invalid (root is not an object)',1,true) and not message:find('load failed',1,true) then paths=paths+1 end end; "
+        "check(paths==2,'invalid warnings contain asset paths and validation causes');"
+    )
     chunks.append("check(__warnings>0,'throwing warning logger exercised and swallowed'); __caseCount=__cases; __assertionCount=__assertions;")
     return setup, "\n".join(chunks), case_names
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--report-output", type=Path, default=REPORT)
+    report_path = parser.parse_args().report_output
     # Never leave an old passing report current if a fresh run fails.
-    REPORT.parent.mkdir(parents=True, exist_ok=True)
-    REPORT.unlink(missing_ok=True)
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.unlink(missing_ok=True)
     species = json.loads(SPECIES_CONFIG.read_text(encoding="utf-8"))
     guides = json.loads(GUIDE_CONFIG.read_text(encoding="utf-8"))
     species_src = SPECIES_SOURCE.read_bytes()
@@ -309,8 +393,8 @@ def main() -> int:
             "guideFieldsAndPages": sum(len(entries) for entries in guides["guides"].values()),
         },
     }
-    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"status": report["status"], "report": str(REPORT.resolve()), "caseCount": report["caseCount"], "runtimes": runtime_results}, ensure_ascii=False, indent=2))
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps({"status": report["status"], "report": str(report_path.resolve()), "caseCount": report["caseCount"], "runtimes": runtime_results}, ensure_ascii=False, indent=2))
     return 0
 
 
