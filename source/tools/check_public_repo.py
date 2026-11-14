@@ -124,8 +124,11 @@ def check(write_checksums=False, release_profile="full"):
 
     expected_mod = read_json("source/reports/mod_sha256.json")
     if release_profile == "limited-repair":
-        from limited_repair_release import HELPER_ASSETS
-        expected_mod.update(HELPER_ASSETS)
+        from limited_repository_evidence_public4 import HISTORICAL, RECORD
+        historical = read_json(HISTORICAL)
+        public4 = read_json(RECORD)
+        expected_mod.update(historical.get("approved_helpers", {}))
+        expected_mod.update(public4.get("approved_helpers", {}))
     prefix = "mods/FU_Japanese/"
     actual_mod = {name[len(prefix):]: sha for name, sha in hashes.items() if name.startswith(prefix)}
     for name in sorted(actual_mod.keys() | expected_mod.keys()):
@@ -138,7 +141,7 @@ def check(write_checksums=False, release_profile="full"):
     try:
         current_files = {name: (ROOT / name).read_bytes() for name in hashes}
         if release_profile == "limited-repair":
-            from limited_repository_evidence import validate
+            from limited_repository_evidence_public4 import validate
             validate(current_files)
         else:
             validate_release_evidence(current_files)

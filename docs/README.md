@@ -2,7 +2,7 @@
 
 ## 導入・利用
 
-- [0.2.4-public.3のReleaseノート](releases/v0.2.4-public.3.md)：表示ヘルパー3件の限定修復と残る差分。
+- [0.2.4-public.4のReleaseノート](releases/v0.2.4-public.4.md)：種族・ガイド表示ヘルパー2件の限定修復と残る差分。
 - [限定修復の検査・証跡](limited-repair/REPOSITORY_CHECKS.md)：旧版の全体検証記録を保持したCI。
 
 - [導入手順](INSTALL_JA.txt)：PAK版のインストール、更新、再発時の確認。

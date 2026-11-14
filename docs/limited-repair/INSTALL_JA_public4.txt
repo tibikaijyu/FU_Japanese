@@ -1,0 +1,9 @@
+FU Japanese 0.2.4-public.4 限定修復版の導入手順
+
+1. Starboundを完全に終了します。
+2. 公開された `FU_Japanese_0.2.4-public.4-pak.1-install.zip` を取得し、ZIP内のSHA256SUMS.txtまたはRelease掲載SHA-256と照合します。
+3. 更新時は旧 `FU_Japanese` フォルダー版と `FU_Japanese.pak` をmodsフォルダーの外へ移します。同じMODのフォルダー版とPAK版を同時に置かないでください。
+4. ZIP内の `mods/FU_Japanese.pak` をStarboundの `mods` フォルダーへコピーします。
+5. すでに使っている日本語フォントで表示できる場合はそのまま使います。日本語が四角になる場合だけ、旧 `FU_Japanese_Font` フォルダー版・PAK版をmodsの外へ移し、ZIP内の `optional/FU_Japanese_Font.pak` を追加します。
+
+ZIPに生のMODフォルダーやソースは含みません。導入にPythonや追加のPAK化は不要です。ゲーム本体、FU本体、セーブデータはこの作業で変更しません。

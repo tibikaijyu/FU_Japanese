@@ -1,0 +1,103 @@
+{
+  "approved_helpers": {
+    "fujp/guide_display.lua": "21c37bba905aedc79c7e231f0a935dfc0c6abcbd8ae82e56b7438f7b0d2ad10f",
+    "fujp/species_display.lua": "5e9b94cf18b813c4fb5a4770bbb449db22e66fff26a8fced3f4a9f190fe8f0d4"
+  },
+  "artifact": {
+    "bytes": 3735570,
+    "crc_and_content_verified": true,
+    "file": "FU_Japanese_0.2.4-public.4-pak.1-install.zip",
+    "files": 17,
+    "sha256": "b3ea49433dd751c686c19abd2934145c3d5699db621aca3ebf69f431b785ac2e"
+  },
+  "baseline_helpers": {
+    "fujp/guide_display.lua": "7c83737a833ebf985e99b1cf21a091528589db50abac7a588ab46cae95d2e23a",
+    "fujp/species_display.lua": "37d435f245de42bb682601b0772b0260d80553142b4e8d2de62148576fc54082"
+  },
+  "baseline_manifest_sha256": "a2e2175af16ee4be7884406fb44476c91d925bab9d544d88bd1b580d9b3713c8",
+  "changed_game_assets": [
+    "fujp/guide_display.lua",
+    "fujp/species_display.lua"
+  ],
+  "font_files": {
+    "ATTRIBUTION.txt": "e1da9c49a133ad50651c8b7eba73eecd699aca2829fb430bd3573f014fd25825",
+    "LICENSE-MPLUS-EN.txt": "907e9f5ac24cba6ce2523cd2a66d6ba143e082c685344dfa8d30ef12f67410a0",
+    "LICENSE-MPLUS-JA.txt": "b831d51b4b20640091a3e6e6947a209f7a4287c7d384638a907ea838399b3405",
+    "_metadata": "44a0a2b2510ae98deb3cdcf0764917a4d9cb8a1897c62bbc7d0c70ed6801e10c",
+    "hobo.ttf": "01b5e4aea5a3bbe80463c178e7868d5a34cd75e8ed7bc4d97097ebb1a71af7c7"
+  },
+  "font_pak_sha256": "1803dbf6c3bd89819a3547af9a48863474ccbafdcad07becb2776729268382f8",
+  "font_roundtrip": {
+    "all_raw_bytes_equal": false,
+    "file_count": 5,
+    "metadata_canonical_sha256": "e1185a0902f337f6794d82aab20ce677c0fceef663663cbcc32a35dd4e35a216",
+    "metadata_json_deep_equal": true,
+    "metadata_raw_sha256": {
+      "equal": false,
+      "pak_input": "44a0a2b2510ae98deb3cdcf0764917a4d9cb8a1897c62bbc7d0c70ed6801e10c",
+      "unpacked": "b26d538e79fd157f956b93e1bbdfbc7bb0c2cde7c0afb33dacff5bbda04ed53a"
+    },
+    "non_metadata_raw_sha256_match": true,
+    "relative_paths_match": true
+  },
+  "generation_report_sha256": "b27bffa831a8d8c5d570b257b34608389855530bc6bd9ce4530eb5dd9e31c6ff",
+  "historical_public3_record_sha256": "0434e2f516b9a668287d33f2e5c9f731b9ecd3bb8b750c81887cdccad2bb1d20",
+  "input_pak_sha256": "bfe09fcf968337cf1e19bf95aa45f5260a5a16e4a305cf7558f4d954e7e81430",
+  "input_state_sha256": "2e7d3d70b7a4b305a4d76197c6d6267e988a5eceb96b8342d55e8003ae85cf06",
+  "multiplayer_disconnect_cause_verified": false,
+  "native_game_executed": false,
+  "official_roundtrip": {
+    "all_raw_bytes_equal": false,
+    "file_count": 14526,
+    "metadata_canonical_sha256": "e55d15a3fa00a7d7c7a4073b3057d725d51e74705711cb790c73b936606faa0d",
+    "metadata_json_deep_equal": true,
+    "metadata_raw_sha256": {
+      "equal": false,
+      "pak_input": "3af754f27b2c45f09f82d973bc0ea2b044027c3b786e118c8fe64ec2c569ec64",
+      "unpacked": "ebb00725b1aec7f0c939defb6229a1ee97b999a1cb198eb5c2e0ea9f6774bb04"
+    },
+    "non_metadata_raw_sha256_match": true,
+    "relative_paths_match": true
+  },
+  "packaged_document_sha256": {
+    "CHANGELOG.md": "be37921e836bc3e907e6570159b51a3ec4229350011b973b457140e32551a401",
+    "LICENSE.md": "6beabb4ea28713ea15fe9640f41aa60c530ea5614b256ee5229151bfaf57cbf4",
+    "THIRD_PARTY_NOTICES.md": "4657cd5d306b9fd85c8affac46c9cd7ee5b4f4900b1a591c1a4624f2159407a8",
+    "docs/PAK_DISTRIBUTION.md": "3560bfb475eae0bd952f4717172ade4a6014acc252c09c0a58cb8f6f16b53141",
+    "docs/README_JA.md": "4dfaacd9e76c61fce213c87047d8f4fa911f6a919f813fd765a530c140cc9b2e",
+    "docs/limited-repair/FU_Japanese_0.2.4-public.4.md": "4f78d5dfb2ad6b4fa366311b1c4a799e8feb5c958531058af7083d64bee50ef6",
+    "docs/limited-repair/INSTALL_JA_public4.txt": "40254680174e81f2ad5003a1f6648788638ca21184a14ce7106977bcc576d172"
+  },
+  "packaged_paths": [
+    "CHANGELOG.md",
+    "INSTALL_JA.txt",
+    "LICENSE.md",
+    "LICENSES/FU_Japanese/ATTRIBUTION.txt",
+    "LICENSES/FU_Japanese/LICENSE-FU-CC-BY-4.0.txt",
+    "LICENSES/FU_Japanese_Font/ATTRIBUTION.txt",
+    "LICENSES/FU_Japanese_Font/LICENSE-MPLUS-EN.txt",
+    "LICENSES/FU_Japanese_Font/LICENSE-MPLUS-JA.txt",
+    "LICENSES/MIT-tools.txt",
+    "PAK_DISTRIBUTION.md",
+    "README_JA.md",
+    "SHA256SUMS.txt",
+    "THIRD_PARTY_NOTICES.md",
+    "limited-repair/FU_Japanese_0.2.4-public.4.md",
+    "limited-repair/INSTALL_JA_public4.txt",
+    "mods/FU_Japanese.pak",
+    "optional/FU_Japanese_Font.pak"
+  ],
+  "release_id": "0.2.4-public.4",
+  "schema": 1,
+  "scope": "two-helper-display-repair",
+  "test_report_sha256": "5169880af9f9f8f77a159761c1556fa2a0efd7ea2cc8aa9e575f163d3e955c95",
+  "tested_config_sha256": {
+    "fujp/guide_display.config": "2cadc2240d3b9f5a3621f82bf1c7c3bbd4a353aabd2862a2e468ed0adc8ee5fa",
+    "fujp/lua_display.config": "ed42bf633b835bfdb2820c9aad56736f902999e093a4cfe589145b54ef8d7237",
+    "fujp/species_display.config": "8e82767ec534e369416d875394218814cbb4f7d5cdc6007016e44a187732a554"
+  },
+  "upload_allowlist": [
+    "FU_Japanese_0.2.4-public.4-pak.1-install.zip"
+  ],
+  "whole_mod_rebuilt": false
+}

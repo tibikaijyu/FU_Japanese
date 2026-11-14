@@ -2,6 +2,7 @@
 import copy
 import json
 import unittest
+from unittest.mock import patch
 
 import limited_repository_evidence as evidence
 from limited_repair_release import CONFIG_ASSETS, EXPECTED_INPUT_PAK_SHA256, HELPER_ASSETS
@@ -44,8 +45,17 @@ class LimitedRepositoryEvidenceTests(unittest.TestCase):
 
     def test_accepts_the_current_three_helper_scope(self):
         files, record, tests = self.fixture()
+        current_helpers = {asset:sha(files[path]) for asset,path in evidence.SOURCE_PATHS.items()}
+        record['approved_helpers'] = current_helpers
+        with patch.object(evidence, 'HELPER_ASSETS', current_helpers):
+            self.bind(files, record, tests)
+            self.assertEqual(evidence.validate(files)['scope'], 'three-helper-repair')
+
+    def test_rejects_current_payload_under_historical_public3_helper_hashes(self):
+        files, record, tests = self.fixture()
         self.bind(files, record, tests)
-        self.assertEqual(evidence.validate(files)['scope'], 'three-helper-repair')
+        with self.assertRaisesRegex(ValueError, 'Reviewed helper differs'):
+            evidence.validate(files)
 
     def test_rejects_changed_source_with_old_test_proof(self):
         files, record, tests = self.fixture()

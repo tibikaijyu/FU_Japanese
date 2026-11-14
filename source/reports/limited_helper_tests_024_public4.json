@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "input_state_sha256": "2e7d3d70b7a4b305a4d76197c6d6267e988a5eceb96b8342d55e8003ae85cf06",
+  "unit_tests": 30,
+  "requested_lua_backend": "ctypes",
+  "runtimes": [
+    {
+      "runtime": "Lua 5.3",
+      "backend": "ctypes",
+      "binary": "F:\\kk\\software\\starbound_mods\\RPGGrowthJP\\source\\build\\tools\\lua53\\lua53.dll",
+      "binary_sha256": "86e6c1b8624c3db627f78a99966f64b41d446099e032834102726015b17f3bfc",
+      "core_cases": 8,
+      "core_assertions": 142,
+      "extra_cases": 262,
+      "extra_assertions": 785,
+      "passed": true
+    },
+    {
+      "runtime": "Lua 5.4",
+      "backend": "ctypes",
+      "binary": "F:\\kk\\software\\starbound_mods\\RPGGrowthJP\\source\\build\\tools\\lua54\\lua54.dll",
+      "binary_sha256": "a842f0d33c897ce08411ea2565e8c19859b45a2374b905de2d56434c7fa4d732",
+      "core_cases": 8,
+      "core_assertions": 142,
+      "extra_cases": 262,
+      "extra_assertions": 785,
+      "passed": true
+    }
+  ],
+  "harness_sha256": {
+    "source/compat/test_extra_display_fallback.py": "2a6788e67ed75ed96e8c20a9f135315567922a31dfb7a979abab8529dbebbb4c",
+    "source/compat/test_lua_localization.lua": "6cc9d5551e52fb9f3ac23260bb518da78b3c53230f562378587ed8320590af87",
+    "source/tools/run_limited_helper_tests.py": "94639c24fecb187fdfb8bd22d98642893a1ea24e7c78ba034fb3604d2bc59dcd"
+  },
+  "helper_sha256": {
+    "source/compat/followup_022/fujp/species_display.lua": "5e9b94cf18b813c4fb5a4770bbb449db22e66fff26a8fced3f4a9f190fe8f0d4",
+    "source/compat/followup_022/fujp/guide_display.lua": "21c37bba905aedc79c7e231f0a935dfc0c6abcbd8ae82e56b7438f7b0d2ad10f",
+    "mods/FU_Japanese/fujp/species_display.lua": "5e9b94cf18b813c4fb5a4770bbb449db22e66fff26a8fced3f4a9f190fe8f0d4",
+    "mods/FU_Japanese/fujp/guide_display.lua": "21c37bba905aedc79c7e231f0a935dfc0c6abcbd8ae82e56b7438f7b0d2ad10f"
+  },
+  "native_game_executed": false,
+  "whole_mod_runtime_tested": false
+}

@@ -6,10 +6,10 @@
 本リリースはPAK版のみです。全種族・他環境での実機確認、ゲーム内表示・処理性能の確認は未完了です。
 
 1. Starboundを完全に終了します。
-2. 配布ファイル名は `FU_Japanese_0.2.4-public.2-pak.1-install.zip` です。現時点でReleaseへの添付は未実施です。添付後にそのZIPを取得して展開してください。
+2. `v0.2.4-public.4` Pre-releaseの `FU_Japanese_0.2.4-public.4-pak.1-install.zip` を取得して展開します。公開後はReleaseのSHA-256と照合してください。
 3. 更新時は旧版の `Starbound/mods/FU_Japanese` フォルダと `Starbound/mods/FU_Japanese.pak` をmodsの外へ移します。別名にした旧フォルダや旧PAKもmods内に残さないでください。
 4. ZIP内の `mods/FU_Japanese.pak` を `Starbound/mods` へコピーします。
-5. 日本語が四角になる場合だけ、先に旧 `Starbound/mods/FU_Japanese_Font` フォルダと `Starbound/mods/FU_Japanese_Font.pak` をmodsの外へ移してから、`optional/FU_Japanese_Font.pak` を `Starbound/mods` へコピーします。すでに使っている日本語フォントで表示できる場合は不要です。
+5. 日本語が四角になる場合だけ、先に旧 `Starbound/mods/FU_Japanese_Font` フォルダと `Starbound/mods/FU_Japanese_Font.pak` をmodsの外へ移してから、ZIP内の `optional/FU_Japanese_Font.pak` を `Starbound/mods` へコピーします。すでに使っている日本語フォントで表示できる場合は不要です。
 6. 起動後に日本語表示を確認します。
 
 正しい配置先は `Starbound/mods/FU_Japanese.pak` です。MODのフォルダ版を同時にmodsへ置かないでください。展開した外側のフォルダやsourceはゲームのmodsへ入れません。導入にPythonや追加のpak化は必要ありません。
