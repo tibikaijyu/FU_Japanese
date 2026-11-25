@@ -382,7 +382,8 @@ def build(project, upstream, machine_path, out, append_basis_inputs=None, asset_
         'includes':['FrackinUniverse'],
         'priority':1000
     })
-    for asset in ('zb/zb_textTyper.lua', 'interface/scripted/sbvn/pandorasboxsbvngui.lua'):
+    for asset in ('zb/zb_textTyper.lua', 'interface/scripted/sbvn/pandorasboxsbvngui.lua',
+                  'stats/typer_particle.lua'):
         compat = project/'compat'/asset
         if compat.exists():
             (out/asset).parent.mkdir(parents=True, exist_ok=True)
@@ -421,7 +422,8 @@ def build(project, upstream, machine_path, out, append_basis_inputs=None, asset_
         "Full original contributor credits: https://github.com/sayterdarkwynd/FrackinUniverse/blob/" + UPSTREAM_COMMIT + "/_FUcredits.config\n\n"
         "Changes: Japanese display text in JSON, selected Lua literals and display-boundary lookups; "
         "guarded JSON patches, nested Tiled parameters, array-added text, and UI captions; "
-        "UTF-8 compatibility changes to zb/zb_textTyper.lua and the Pandora SBVN renderer.\n"
+        "UTF-8 compatibility changes to zb/zb_textTyper.lua, the Pandora SBVN renderer, "
+        "and stats/typer_particle.lua.\n"
         "Translation produced for this request using FuguMT machine translation and ChatGPT review. "
         "New translation text, original replacement dialogue and adapted FU scripts are distributed under CC BY 4.0.\n"
         "This build is not endorsed by the original authors or Chucklefish.\n",

@@ -1,0 +1,706 @@
+[
+  {
+    "asset": "stats/effects/fu_tileeffects/specialty_effects/insanity/insanity2.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 0.5,
+      "writeInterval": 0.1,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 1,
+        "sizeMax": 10,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ],
+        "spacing": [
+          1,
+          1.5
+        ]
+      }
+    },
+    "writer_dependencies": [],
+    "patch_sha256": "19fed2dd91a0f61bc9fff03d0768b8c1c9b305fb8af1da2e992022c3e8a0465b"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 25,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 5,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "168c45eb885158c310571f663cab1663ab85350dd1815ebdf948e4344f85c99a"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew3arena.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 15,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 5,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "8635f9ebc82ec7262379b82f56a5f2c5c8d7e2b589d6caaedd3180642bc58dd6"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew3unknown.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 15,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 5,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "17b0b6cfe99f80bb4800c1d17e8d3d6dd7b307c2c87a1155209edca747959a94"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew3.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 15,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 5,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "31133c87603abe6c51e66965837775bc0c309e136bd8ba258d691e8864927483"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew2.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 20,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 5,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "ccf200cac98f5fd63576064cea4539669ceafaef46ebb6ef73a00f19ff2659ef"
+  },
+  {
+    "asset": "stats/effects/fu_tileeffects/specialty_effects/insanity/insanity.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 25,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 10,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [],
+    "patch_sha256": "e25c8cbde7e78f09a8e251c9adaeb3f0b3bc5dd80bf8f75397ee18fc3efa9613"
+  },
+  {
+    "asset": "stats/effects/fu_weathereffects/new/insanity/duncetteinsanity.statuseffect",
+    "config": {
+      "particle": {
+        "color": [
+          0,
+          0,
+          0,
+          205
+        ],
+        "size": 1,
+        "fade": 0.7,
+        "destructionTime": 0.8,
+        "initialVelocity": [
+          0,
+          4
+        ],
+        "finalVelocity": [
+          0,
+          0
+        ],
+        "timeToLive": 0,
+        "destructionAction": "shrink"
+      },
+      "spawnInterval": 5,
+      "writeInterval": 0.05,
+      "printTextInOrder": false,
+      "loopOrderedText": true,
+      "spacing": [
+        1,
+        1.5
+      ],
+      "boundingBox": [
+        0,
+        0
+      ],
+      "texts": [
+        "殺せ",
+        "殺す",
+        "肉",
+        "空をキャッチする",
+        "夢",
+        "深く夢見る",
+        "消費する",
+        "仕事 8 何時間も",
+        "遊び 8 何時間も",
+        "眠れ 8 何時間も",
+        "後ろに気をつけろ",
+        "彼らは君を捕まえようとしてる",
+        "水滴",
+        "真実を忘れて",
+        "嘘を埋める",
+        "本当のことを言わないで",
+        "食う",
+        "うーん",
+        "眠れ",
+        "二度と眠らないで",
+        "あらゆる苦しみを",
+        "痛いから電話して"
+      ],
+      "controllers": {
+        "color": [
+          125,
+          50,
+          25,
+          0
+        ],
+        "colorLoop": true,
+        "size": 0.005,
+        "sizeMax": 10,
+        "timeToLive": 1,
+        "timeToLiveMax": 5,
+        "boundingBox": [
+          3,
+          3
+        ],
+        "boundingBoxMax": [
+          50,
+          50
+        ]
+      }
+    },
+    "writer_dependencies": [
+      {
+        "asset": "stats/effects/fu_weathereffects/new/insanity/insanitynew.lua",
+        "sha256": "fba5378d27653be10ceb086a615788047f92d9b6dd4e3a31b3fa8294b1fa2d08"
+      }
+    ],
+    "patch_sha256": "cc3c915a5f82fdf4d31e6d6a054516dbe849fde441c26bab9fd9c06aacac46d6"
+  }
+]

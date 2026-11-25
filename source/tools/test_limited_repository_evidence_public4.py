@@ -19,6 +19,8 @@ class Public4EvidenceTests(unittest.TestCase):
 
     def fixture(self):
         files = dict(self.current)
+        # This fixture models public.4, before the public.5 particle addition.
+        files.pop('mods/FU_Japanese/stats/typer_particle.lua', None)
         baseline = json.loads(files[evidence.BASELINE])
         historical = json.loads(files[evidence.HISTORICAL])
         current_helpers = {asset:sha(files[path]) for asset,path in evidence.SOURCE_PATHS.items()}
