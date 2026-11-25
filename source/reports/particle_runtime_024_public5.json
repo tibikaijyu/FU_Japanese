@@ -1,0 +1,34 @@
+{
+  "candidate_sha256": "b4bc888a82af982225076dd48d21e4a44d5d4e69d08f5666ca80b0ad29c6a79f",
+  "upstream_sha256": "43a453cc4ad1e325c4cbcf57d07e28f392b5795d0f8d07a3e4932e91d64644ab",
+  "corpus_sha256": "ceee8d44fe7fdf0ef428e6957a8c6e7e9cd44a09926555b04bd70023cc0aa23a",
+  "effect_count": 8,
+  "runs": [
+    {
+      "lua_version": "5.3",
+      "runtime": {
+        "backend": "ctypes",
+        "binary": "F:\\kk\\software\\starbound_mods\\RPGGrowthJP\\source\\build\\tools\\lua53\\lua53.dll",
+        "binary_sha256": "86e6c1b8624c3db627f78a99966f64b41d446099e032834102726015b17f3bfc"
+      },
+      "checked_texts": 172,
+      "checked_particles": 987,
+      "invalid_baseline_texts": 169,
+      "passed": true
+    },
+    {
+      "lua_version": "5.4",
+      "runtime": {
+        "backend": "ctypes",
+        "binary": "F:\\kk\\software\\starbound_mods\\RPGGrowthJP\\source\\build\\tools\\lua54\\lua54.dll",
+        "binary_sha256": "a842f0d33c897ce08411ea2565e8c19859b45a2374b905de2d56434c7fa4d732"
+      },
+      "checked_texts": 172,
+      "checked_particles": 987,
+      "invalid_baseline_texts": 169,
+      "passed": true
+    }
+  ],
+  "game_launched": false,
+  "input_state_sha256": "ac3adf4e19089ea942f5a237ecd084907c5a78ba957a2b6b5a763e103a79eff5"
+}

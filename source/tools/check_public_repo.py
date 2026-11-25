@@ -129,6 +129,9 @@ def check(write_checksums=False, release_profile="full"):
         public4 = read_json(RECORD)
         expected_mod.update(historical.get("approved_helpers", {}))
         expected_mod.update(public4.get("approved_helpers", {}))
+    elif release_profile == "particle-repair":
+        from particle_repair_release import expected_mod as particle_expected_mod
+        expected_mod = particle_expected_mod({name: (ROOT / name).read_bytes() for name in hashes})
     prefix = "mods/FU_Japanese/"
     actual_mod = {name[len(prefix):]: sha for name, sha in hashes.items() if name.startswith(prefix)}
     for name in sorted(actual_mod.keys() | expected_mod.keys()):
@@ -142,6 +145,9 @@ def check(write_checksums=False, release_profile="full"):
         current_files = {name: (ROOT / name).read_bytes() for name in hashes}
         if release_profile == "limited-repair":
             from limited_repository_evidence_public4 import validate
+            validate(current_files)
+        elif release_profile == "particle-repair":
+            from particle_repair_release import validate
             validate(current_files)
         else:
             validate_release_evidence(current_files)
@@ -189,7 +195,7 @@ if __name__ == "__main__":
         "--write-checksums", action="store_true",
         help="Explicitly refresh SHA256SUMS.txt after reviewing intended changes.",
     )
-    parser.add_argument("--release-profile", choices=("full", "limited-repair"), default="full",
+    parser.add_argument("--release-profile", choices=("full", "limited-repair", "particle-repair"), default="full",
                         help="Keep historical full checks strict; validate the three-helper repair separately.")
     args = parser.parse_args()
     try:

@@ -2,7 +2,26 @@
 
 公開リリースに含める導入物はPAK版だけです。通常のMOD本体は `mods/FU_Japanese.pak`、任意フォントはフォント・メタデータ・ライセンスの計5ファイルをまとめた別PAK `optional/FU_Japanese_Font.pak` です。生のMODフォルダはGit上の開発用ソースとして保持しますが、配布ZIPには入れません。ソースはGitリポジトリで提供し、source ZIPとフォルダ版ZIPは生成しません。
 
-今回の候補IDはリリース `0.2.4-public.4`、PAK `0.2.4-public.4-pak.1` です。public.3のPAKから種族・ガイド表示ヘルパー2件だけを変更し、任意フォントは許可済み5ファイルを独立PAKにして収録します。同一IDの既存出力は上書きしません。public.3専用資料・証拠は過去の履歴として保持します。
+## public.5の文字パーティクル修復
+
+現在のIDは `0.2.4-public.5` / `0.2.4-public.5-pak.2` です。public.4の修正を維持し、
+`stats/typer_particle.lua` 1件だけを追加します。public.3/public.4の固定証拠を変更せず、
+現在のソースに結び付く30回帰テスト、両Luaの表示検査と172粒子ケースを新規に記録します。
+
+```powershell
+python source/tools/particle_repair_release.py --output-dir dist/public5-NEW --pak-tools-dir "<Starbound>/win32"
+python source/tools/check_public_repo.py --release-profile particle-repair --write-checksums
+python source/tools/check_public_repo.py --release-profile particle-repair
+```
+
+出力先は未作成の別ディレクトリにします。公式PAK往復・変更範囲・入力固定の不一致は生成を停止します。
+添付するのは `release-artifacts-0.2.4-public.5.json` の `upload_allowlist` が指定するZIP1件だけです。
+本体・任意フォントはPAK形式で、ライセンスはZIPの `LICENSES/` に収録します。
+CIはこの公開用照合と回帰テストを行い、導入物の生成や実ゲーム確認は行いません。
+
+## public.4の履歴
+
+以下はリリース `0.2.4-public.4`、PAK `0.2.4-public.4-pak.1` の記録です。public.3のPAKから種族・ガイド表示ヘルパー2件だけを変更し、任意フォントは許可済み5ファイルを独立PAKにして収録しました。同一IDの既存出力は上書きしません。
 
 ## 今回の限定修復
 

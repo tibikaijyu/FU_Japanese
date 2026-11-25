@@ -1,0 +1,77 @@
+{
+  "artifact": {
+    "bytes": 3738419,
+    "crc_and_content_verified": true,
+    "file": "FU_Japanese_0.2.4-public.5-pak.2-install.zip",
+    "files": 17,
+    "sha256": "03801b94375b274c6033cb2b503f15d0fafeff4aa843275ff6d478430e41ab99"
+  },
+  "changed_game_assets": [
+    "stats/typer_particle.lua"
+  ],
+  "document_sha256": {
+    "CHANGELOG.md": "3d58eb47a1bd2b6933cbc1329c3108bf9d24763ac53aef004653622e710f90fb",
+    "LICENSE.md": "6beabb4ea28713ea15fe9640f41aa60c530ea5614b256ee5229151bfaf57cbf4",
+    "THIRD_PARTY_NOTICES.md": "4657cd5d306b9fd85c8affac46c9cd7ee5b4f4900b1a591c1a4624f2159407a8",
+    "docs/compatibility/COMPATIBILITY.md": "405311f4a398292e1283434d1f421f0b5b3753aa3641f6066266a5b4a06f8b86",
+    "docs/limited-repair/INSTALL_JA_public5.md": "c3221dd04c4f171de3c3fdb088d0b4757f16a1162444c7d5ce8ee40cd936fbcb",
+    "docs/verification/2026-11-07-user-report.md": "0fcf3d3f9177fa9bf02752c72696b1fdeacb2a1b14939034b393ef7e6c25f9a4",
+    "source/machine_translation/README.md": "c3971d8af693a86ebcf80fd1c968ccf63bb58cdd3b4340c806880ae9443ee106",
+    "source/machine_translation/model_provenance.json": "54438f3dd0645e07ba350ca23362b3fed31e9679e3902b26305b6570cf4c4d0d"
+  },
+  "historical_sha256": {
+    "source/reports/limited_repair_024_public3.json": "0434e2f516b9a668287d33f2e5c9f731b9ecd3bb8b750c81887cdccad2bb1d20",
+    "source/reports/limited_repair_024_public4.json": "52e9d52b6dddba8748aed3dd28120ef7bb76faa864e2cf714a034815a18e42f9",
+    "source/reports/mod_sha256.json": "a2e2175af16ee4be7884406fb44476c91d925bab9d544d88bd1b580d9b3713c8"
+  },
+  "input_state_sha256": "20c0f33ee58f93303c691c2dfb6904c2585bbacc2a9f98304d738ef1cb0f17d7",
+  "multiplayer_disconnect_cause_verified": false,
+  "native_game_executed": false,
+  "packages": [
+    {
+      "pak_sha256": "56024e1db8d6417d9f5aa06d4c3efe439deeb72790e7591404ce43c32f5e9748",
+      "path": "mods/FU_Japanese.pak",
+      "verification": {
+        "all_raw_bytes_equal": false,
+        "file_count": 14527,
+        "metadata_canonical_sha256": "e55d15a3fa00a7d7c7a4073b3057d725d51e74705711cb790c73b936606faa0d",
+        "metadata_json_deep_equal": true,
+        "metadata_raw_sha256": {
+          "equal": false,
+          "pak_input": "3af754f27b2c45f09f82d973bc0ea2b044027c3b786e118c8fe64ec2c569ec64",
+          "unpacked": "ebb00725b1aec7f0c939defb6229a1ee97b999a1cb198eb5c2e0ea9f6774bb04"
+        },
+        "non_metadata_raw_sha256_match": true,
+        "relative_paths_match": true
+      }
+    },
+    {
+      "pak_sha256": "1803dbf6c3bd89819a3547af9a48863474ccbafdcad07becb2776729268382f8",
+      "path": "optional/FU_Japanese_Font.pak",
+      "verification": {
+        "all_raw_bytes_equal": false,
+        "file_count": 5,
+        "metadata_canonical_sha256": "e1185a0902f337f6794d82aab20ce677c0fceef663663cbcc32a35dd4e35a216",
+        "metadata_json_deep_equal": true,
+        "metadata_raw_sha256": {
+          "equal": false,
+          "pak_input": "44a0a2b2510ae98deb3cdcf0764917a4d9cb8a1897c62bbc7d0c70ed6801e10c",
+          "unpacked": "b26d538e79fd157f956b93e1bbdfbc7bb0c2cde7c0afb33dacff5bbda04ed53a"
+        },
+        "non_metadata_raw_sha256_match": true,
+        "relative_paths_match": true
+      }
+    }
+  ],
+  "release_id": "0.2.4-public.5",
+  "reused_official_pak_report_sha256": "515178e550a6e004f23b5a89edb1a7acd4213b4f208a5a7802eec9c7c1677661",
+  "schema": 1,
+  "test_sha256": {
+    "source/reports/limited_helper_tests_024_public5_pak2.json": "528ce7941391ef0240f3abca8794c880063051a8616ab00efe7e5281f177a709",
+    "source/reports/particle_runtime_024_public5_pak2.json": "d9db0c5103e8bd3e858c7ea45346e77b18a7b01436cd061e1b38cb42795c9355"
+  },
+  "upload_allowlist": [
+    "FU_Japanese_0.2.4-public.5-pak.2-install.zip"
+  ],
+  "whole_mod_rebuilt": false
+}
